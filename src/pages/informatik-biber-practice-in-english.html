@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Informatik-Biber Practice in English for Pupils in Germany</title>
+  <meta name="description" content="Informatik-Biber practice in English for Klasse 3 to 13: the 2026 dates and rules from BWINF, how schools enter pupils, and four original puzzles with checks.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/informatik-biber-practice-in-english">
+  <link rel="alternate" type="text/markdown" href="/src/pages/informatik-biber-practice-in-english.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#702A52">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/informatik-biber-practice-in-english">
+  <meta property="og:title" content="Informatik-Biber Practice in English for Pupils in Germany">
+  <meta property="og:description" content="How the Informatik-Biber works in 2026, how a child in Germany takes part through a school, and four practice puzzles of our own with answers checked by a short Python program, taught live in English.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Informatik-Biber Practice in English for Pupils in Germany">
+  <meta name="twitter:description" content="Informatik-Biber 2026 explained for families in Germany, plus four original practice puzzles, taught live in English.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ibp .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-ibp .ag-capsule { border-left-width: 5px; }
+.ag-root.ag-ibp .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-ibp .ag-table td:first-child { font-weight: 600; }
+.ag-root.ag-ibp .ag-steps li { line-height: 1.6; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/informatik-biber-practice-in-english#page","url":"https://learn.modernagecoders.com/informatik-biber-practice-in-english","name":"Informatik-Biber Practice in English","description":"A guide for families in Germany to the Informatik-Biber, the national informatics puzzle contest run by BWINF: who may enter, the 2026 timeline, the scoring rules, the German words a child will meet, and original practice puzzles with worked solutions and Python checks.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Informatik-Biber practice","item":"https://learn.modernagecoders.com/informatik-biber-practice-in-english"}]},{"@type":"Course","name":"Informatik-Biber Practice in English","description":"Live online Informatik-Biber preparation in English for pupils in Germany from Klasse 3 to 13: original puzzles on order, codes, stacks and hidden rules, solved by reasoning and checked by program, in a group of fifteen to twenty or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/informatik-biber-practice-in-english"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/informatik-biber-practice-in-english"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/informatik-biber-practice-in-english"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. Lessons happen live and in English only, and the mentor adapts to your child's pace and accent. Our handouts add the German words a child will see on the BWINF pages, such as Schnupper-Biber and Urkunde."}},{"@type":"Question","name":"Can my child register for the Biber through you?","acceptedAnswer":{"@type":"Answer","text":"No. BWINF says pupils cannot sign themselves up; entry is only through a coordinator at the school or at another registered institution. We are not connected with BWINF and we do not register anyone. We prepare children for the contest."}},{"@type":"Question","name":"When is the Informatik-Biber in 2026?","acceptedAnswer":{"@type":"Answer","text":"BWINF lists the Biberwochen 2026 as 9 to 20 November 2026. The school picks the day and time within those two weeks. Results follow in December 2026 and certificates in January 2027."}},{"@type":"Question","name":"Does my child need to know how to code?","acceptedAnswer":{"@type":"Answer","text":"No. BWINF says no prior knowledge is needed, and the tasks are puzzles rather than programs. In our classes, older pupils also learn to check answers with short Python programs, because that makes the reasoning stronger."}},{"@type":"Question","name":"Do wrong answers lose points?","acceptedAnswer":{"@type":"Answer","text":"From Klasse 5, yes: BWINF's rules subtract points for a wrong answer and leave an unanswered task at zero, with a positive starting balance so the total never drops below zero. In Klasse 3 and 4 nothing is taken off."}},{"@type":"Question","name":"Do you use real Biber tasks in class?","acceptedAnswer":{"@type":"Answer","text":"No. We write our own puzzles in the same spirit, like the four on this page. BWINF publishes its old tasks from 2007 to 2025 free on its website, and we encourage families to try them at home."}},{"@type":"Question","name":"What age is right to start?","acceptedAnswer":{"@type":"Answer","text":"The contest starts at Klasse 3. Children as young as 7 can join our problem solving course first, and the competitions course itself is for ages 9 to 19."}},{"@type":"Question","name":"When are classes in German time?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Younger children usually come straight after school or on a weekend morning."}},{"@type":"Question","name":"How are fees paid?","acceptedAnswer":{"@type":"Answer","text":"You see the fee in euro, worked out from the European Central Bank's published reference rate, and you pay in US dollars. Your bank handles the conversion, so its statement may show a slightly different euro amount. The first class costs nothing and needs no card."}},{"@type":"Question","name":"What comes after the Biber?","acceptedAnswer":{"@type":"Answer","text":"For pupils who enjoy it, BWINF runs the Jugendwettbewerb Informatik, where pupils program in a block environment, and the Bundeswettbewerb Informatik for real algorithm problems. Our competitions course follows the same path."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/informatik-biber-practice-in-english","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-ibp">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#contest">The contest</a></li>
+      <li><a href="#entry">Entry</a></li>
+      <li><a href="#puzzles">Puzzles</a></li>
+      <li><a href="#words">German words</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Informatik-Biber practice
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Germany &middot; Informatik-Biber &middot; Klasse 3 to 13</p>
+        <h1>Informatik-Biber practice in English</h1>
+        <p class="ag-lede">The Informatik-Biber asks children to think like a computer scientist without writing a line of code: put things in order, spot a hidden rule, find the shortest way, decode a message. This page sets out what the contest is, how a pupil in Germany takes part in 2026, how the points work, and four puzzles we wrote ourselves, each solved by careful reasoning and then checked by a program that tries every case.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#puzzles" class="ag-btn ag-btn--ghost">Try our four puzzles</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20at%20school%20in%20Germany%20and%20would%20like%20to%20practise%20for%20the%20Informatik-Biber%20in%20English.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ibp'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ students worldwide &middot; puzzles first, then the program that checks them</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>School years</dt><dd>Klasse 3 to 13</dd>
+          <dt>Practice</dt><dd>Our own Biber-style puzzles</dd>
+          <dt>Then</dt><dd>Short Python checks from about Klasse 5</dd>
+          <dt>German times</dt><dd>Afternoons and weekend mornings</dd>
+          <dt>Teachers</dt><dd>Mentors based in India</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Informatik-Biber practice at Modern Age Coders is a live online class in English for pupils in Germany from Klasse 3 to 13, part of our German Informatics Competitions course. Children solve original Biber-style puzzles on order, codes, queues and hidden rules, explain each answer aloud, then check it with a short program. One regular mentor matches the child's pace and accent, either in a group of fifteen to twenty pupils or alone with the child.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where Biber practice starts</p>
+      <h2>Three courses for Biber puzzlers in Germany</h2>
+      <p class="ag-lede">One built for the German contests themselves, one for younger children who need the thinking habits first, and one that turns puzzle sense into typed Python.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">
+        <div class="ag-pick-shot"><img src="/images/german-informatics-competitions.webp" alt="German Informatics Competitions course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IBP / 01</p>
+          <h3>German Informatics Competitions</h3>
+          <p>Ages 9 to 19. Biber-style puzzles at the start, then the Jugendwettbewerb and Bundeswettbewerb, with a weekly problem set and a monthly mock contest.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-and-computational-thinking-for-kids">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-kids.webp" alt="Problem Solving and Computational Thinking for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IBP / 02</p>
+          <h3>Problem Solving for Kids</h3>
+          <p>Ages 7 to 12. Patterns, sequences, sorting and logic grids, the thinking a Biber task rewards, at a calm pace for a first contest.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IBP / 03</p>
+          <h3>Python and AI for Kids</h3>
+          <p>Ages 9 to 12. Typed Python from the first lesson, so a child can write the kind of checking program shown in the puzzles below.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="contest">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The contest</p><h2>What is the Informatik-Biber, and who can take part?</h2><p class="ag-lede">A free online puzzle contest for every school year from Klasse 3 to 13, run by the Bundesweite Informatikwettbewerbe (BWINF), which needs no programming knowledge at all.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>What BWINF says it is</h3><p>BWINF describes the Informatik-Biber as the largest school competition in informatics in Germany: an online quiz of puzzles that trains informatical thinking and costs nothing to enter. Its FAQ says the Biber is the German partner of the international Bebras Challenge, which began in Lithuania in 2004, and that the German contest has run since 2007.</p>
+<p>The 2026 round is the 20th. BWINF counts more than 580,000 participants in 2025 from more than 3,224 schools; at the first Biber in 2007 the figure was 21,802.</p></div><div><h3>Who may enter</h3><p>Pupils of every school type from Klasse 3 to 13, with no prior knowledge needed. BWINF lists German schools in Germany and abroad, and also out-of-school learning places with a coordinator, such as open all-day schools, lunchtime clubs and coding groups.</p>
+<p>There is no minimum number: a school may take part with a single pupil. Pupils work alone or in pairs, on a computer or tablet with internet access, one device per team.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The five Biber age groups and what each one solves</caption><thead><tr><th scope="col">Age group (Klasse)</th><th scope="col">Tasks</th><th scope="col">Minutes</th></tr></thead><tbody><tr><td>3 and 4</td><td class="ag-num">9</td><td class="ag-num">30</td></tr><tr><td>5 and 6</td><td class="ag-num">12</td><td class="ag-num">35</td></tr><tr><td>7 and 8</td><td class="ag-num">15</td><td class="ag-num">40</td></tr><tr><td>9 and 10</td><td class="ag-num">15</td><td class="ag-num">40</td></tr><tr><td>11 to 13</td><td class="ag-num">15</td><td class="ag-num">40</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: BWINF, Informatik-Biber FAQ (bwinf.de/biber/faq/), which names the five age groups and the task counts and times. Read on 3 November 2026. Each age group has three levels of difficulty.</p>
+    <p class="ag-mt-40">A Biber task is usually a short story with a picture: beavers sorting logs, a message hidden in coloured stones, a robot that follows arrows. Under the story sits a real idea from computer science, such as sorting, encoding, graphs or a stack. That is why the contest suits children who have never coded, and also why it is worth practising: the ideas repeat, even when the stories change.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="entry">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Taking part in 2026</p><h2>How does a child in Germany enter the Biber in 2026?</h2><p class="ag-lede">Only through a school or another registered institution. BWINF says plainly that pupils cannot sign themselves up; an adult at the school or club must act as coordinator.</p></div>
+    <ol class="ag-steps"><li><strong>A coordinator registers.</strong> From September a teacher, or another responsible adult at the institution, registers as coordinator at login.bwinf.de. BWINF says no knowledge of informatics is needed for this role.</li><li><strong>The coordinator enters the pupils.</strong> Pupils are added at admin.informatik-biber.de and each gets their own login. BWINF's FAQ says this can be done up to the weekend before the contest.</li><li><strong>Practice on the real platform.</strong> The Schnupper-Biber has been open since 14 September 2026: six tasks in each age group and up to 30 minutes, with the score shown at the end. It closes a few days before the contest.</li><li><strong>Sit the contest.</strong> The Biberwochen 2026 run from 9 to 20 November 2026. The school chooses any day and time within those two weeks, and the contest fits into a single lesson.</li><li><strong>Results and certificates.</strong> BWINF publishes results in December 2026 and sends certificates and prizes in January 2027. Every participant receives a certificate.</li></ol>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The Informatik-Biber 2026 timeline, as BWINF publishes it</caption><thead><tr><th scope="col">When</th><th scope="col">What happens</th><th scope="col">Who acts</th></tr></thead><tbody><tr><td>From September 2026</td><td>Coordinators register, then enter pupils</td><td>Teacher or club coordinator</td></tr><tr><td>From 14 September 2026</td><td>Schnupper-Biber practice round opens</td><td>Registered pupils</td></tr><tr><td>9 to 20 November 2026</td><td>Biberwochen: the contest itself</td><td>Pupils, at a time the school sets</td></tr><tr><td>December 2026</td><td>Results published</td><td>BWINF</td></tr><tr><td>January 2027</td><td>Certificates and prizes posted</td><td>BWINF, to the school</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: BWINF, Informatik-Biber 2026 page (bwinf.de/biber/2026/), Termine page and Teilnehmen page, read on 2 and 3 November 2026. The order of steps is our own summary of those pages.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If the school does not take part</h3><p>Ask the class teacher or the Informatik teacher first; BWINF's FAQ says a coordinator can register at any time and that one pupil is enough. With the contest opening on 9 November 2026, a school that has not registered yet should do so soon, because pupils must be entered by the weekend before.</p>
+<p>BWINF also allows out-of-school places to take part with their own coordinator. That is a decision for that place and BWINF, not something a family can arrange alone.</p></div><div><h3>What we do and do not do</h3><p>We are not connected with BWINF, we do not register pupils and we are not a Biber venue. Our part is the practice: puzzles of our own in the same spirit, explained in English, so that the real contest feels familiar.</p>
+<p>BWINF's own archive holds the Biber tasks from 2007 to 2025 with and without solutions, free on bwinf.de. We point families to it and never copy it into our lessons.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="scoring">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Points</p><h2>How are Biber points counted, and does a wrong answer cost anything?</h2><p class="ag-lede">It depends on the school year. The rule changes at Klasse 5, and it is the single most useful thing a child can know before the contest.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Klasse 3 and 4</h3><p>Correct answers earn points and wrong answers cost nothing, according to BWINF's Teilnehmen page. A child in these years loses nothing by answering every task, so we teach them to give every question a sensible try before time runs out.</p></div><div><h3>From Klasse 5</h3><p>A wrong answer now subtracts points, and an unanswered task leaves the score unchanged. To keep things fair, everyone starts with a positive balance, so the lowest possible result is zero. Harder tasks are worth more and cost more.</p>
+<p>For these pupils we practise one habit above all: check the answer against the story before you click.</p></div></div>
+    <p class="ag-mt-40">The time limit matters too. Fifteen tasks in 40 minutes, the load from Klasse 7, leaves under three minutes a task, and the hardest ones need longer. Our practice rounds are timed in the same way so that a pupil learns to leave a stubborn task, finish the rest, and come back.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="puzzles">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice, ours</p><h2>What do Biber puzzles train? Four practice puzzles of our own</h2><p class="ag-lede">These four puzzles were written by Modern Age Coders for this page. They are not Biber tasks and are not taken from any contest. Each one is solved by reasoning first; for two of them we then let a program try every possible case, the habit that turns a good guess into a certain answer.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Puzzle 1: lantern signals (ours)</h3><p>A beaver signals across the pond with four lanterns in a row, each on or off. Two lanterns that are on may never stand side by side, or their light runs together. How many different signals are possible?</p>
+<p><strong>Worked solution.</strong> Count by the last lantern. If it is off, the first three can be any safe signal of three lanterns. If it is on, the one before must be off, and the first two can be any safe signal of two. Two lanterns give 3 safe signals and three give 5, so four give 5 + 3 = 8. Each new lantern adds the two previous counts together.</p></div><div><h3>Puzzle 2: the narrow tunnel (ours)</h3><p>Beavers 1, 2, 3 and 4 wait in that order outside a tunnel so narrow that only the last one in can come out. A beaver may go in at any moment, and the beaver nearest the exit may leave at any moment. Which order of leaving is impossible: 4 3 2 1, 2 1 4 3, 3 1 4 2 or 1 2 3 4?</p>
+<p><strong>Worked solution.</strong> For 3 to leave first, 1, 2 and 3 must all be inside, with 2 nearest the exit once 3 has gone. So 1 cannot come out next. The answer is 3 1 4 2. The tunnel is what computer scientists call a stack: last in, first out.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Checking Puzzle 1: try every signal</b><span>Python</span></figcaption><pre>from itertools import product
+
+def safe(signal):
+    return "11" not in signal
+
+for n in range(3, 8):
+    signals = ["".join(s) for s in product("01", repeat=n)]
+    good = [s for s in signals if safe(s)]
+    print(n, "lanterns:", len(good), "safe signals")
+    if n == 4:
+        print("  ", " ".join(good))</pre><p class="ag-code-note">It prints <code>3 lanterns: 5 safe signals</code>, then <code>4 lanterns: 8 safe signals</code> followed by the eight signals <code>0000 0001 0010 0100 0101 1000 1001 1010</code>, then <code>5 lanterns: 13 safe signals</code>, <code>6 lanterns: 21 safe signals</code> and <code>7 lanterns: 34 safe signals</code>.</p></figure>
+    <p class="ag-mt-40">The program does not think; it simply writes down all sixteen on and off patterns for four lanterns and throws away the ones with two lights together. Eight survive, which agrees with the reasoning. Running it for longer rows shows the numbers 5, 8, 13, 21, 34, each the sum of the two before. Spotting that rule in the output and then explaining why it must hold is exactly the step from checking to understanding that we want a pupil to make.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Checking Puzzle 2: every order of four beavers</b><span>Python</span></figcaption><pre>from itertools import permutations
+
+def can_leave(order):
+    tunnel = []
+    waiting = [1, 2, 3, 4]
+    for beaver in order:
+        while beaver not in tunnel and waiting:
+            tunnel.append(waiting.pop(0))
+        if not tunnel or tunnel[-1] != beaver:
+            return False
+        tunnel.pop()
+    return True
+
+orders = list(permutations([1, 2, 3, 4]))
+possible = [o for o in orders if can_leave(o)]
+print("Possible exit orders:", len(possible), "of", len(orders))
+for test in [(4, 3, 2, 1), (2, 1, 4, 3), (3, 1, 4, 2), (1, 2, 3, 4)]:
+    print(test, can_leave(test))</pre><p class="ag-code-note">It prints <code>Possible exit orders: 14 of 24</code>, then <code>(4, 3, 2, 1) True</code>, <code>(2, 1, 4, 3) True</code>, <code>(3, 1, 4, 2) False</code> and <code>(1, 2, 3, 4) True</code>.</p></figure>
+    <p class="ag-mt-40">Of the 24 ways four beavers could leave, only 14 are possible through a last-in, first-out tunnel, and 3 1 4 2 is one of the ten that are not. The function copies what the beavers do: let beavers in until the one we want is inside, and fail if it is not the one nearest the exit.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Puzzle 3: the hidden rule (ours)</h3><p>A beaver stamps a code on each log: 2 becomes 4, 3 becomes 9, 5 becomes 25, and 10 becomes 100. A careless helper says 7 becomes 14. What should 7 become, and what mistake did the helper make?</p>
+<p><strong>Worked solution.</strong> Every code is the number multiplied by itself, so 7 becomes 49. The helper saw only the first pair, where doubling and squaring give the same answer, and stopped checking. A rule is only safe when it fits every example.</p></div><div><h3>Puzzle 4: the shortest swim (ours)</h3><p>Four lodges, A, B, C and D, are joined by channels: A to B takes 4 minutes, A to C takes 1, C to B takes 2, B to D takes 1 and C to D takes 5. What is the quickest swim from A to D?</p>
+<p><strong>Worked solution.</strong> The direct-looking route A, C, D takes 6 minutes, and A, B, D takes 5. But A, C, B, D takes 1 + 2 + 1 = 4 minutes, the quickest. The route with the most stops wins, which is the lesson: compare every route, not only the obvious ones.</p></div></div>
+    <ol class="ag-steps ag-mt-40"><li><strong>Start.</strong> Solve all four puzzles on paper and write one sentence on why each answer is right.</li><li><strong>Check.</strong> Run the two programs and compare their output with your answers.</li><li><strong>Stretch.</strong> Change the lantern rule so that three lights may not be on in a row. Predict the count for five lanterns before running the program.</li><li><strong>Explain.</strong> Tell someone at home, in your own words, why the tunnel is a stack and a queue at a bakery is not.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="words">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">In English, with the German words</p><h2>Can a child who learns in English prepare for the German Biber?</h2><p class="ag-lede">Yes, as long as the German words that appear on the contest pages are not a surprise. BWINF's own pages, the task archive among them, are written in German, so our notes put each German term beside its English meaning.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>German words a Biber family will meet, and what they mean (our glossary)</caption><thead><tr><th scope="col">German</th><th scope="col">English</th><th scope="col">Where it appears</th></tr></thead><tbody><tr><td>Biberwochen</td><td>The two contest weeks</td><td>BWINF's 2026 page</td></tr><tr><td>Schnupper-Biber</td><td>The practice round</td><td>From 14 September 2026</td></tr><tr><td>Koordinator:in</td><td>The adult who registers the school</td><td>login.bwinf.de</td></tr><tr><td>Altersgruppe, Stufe</td><td>Age group, school year</td><td>The five groups above</td></tr><tr><td>Schwierigkeitsstufe</td><td>Level of difficulty</td><td>Three in each age group</td></tr><tr><td>Punktabzug</td><td>Points taken off for a wrong answer</td><td>From Klasse 5</td></tr><tr><td>Urkunde</td><td>Certificate</td><td>Posted in January 2027</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">The German terms are the ones BWINF uses on bwinf.de, read on 3 November 2026. The English meanings and the table are ours.</p>
+    <p class="ag-mt-40">Our classes are taught in English only. The mentor speaks clearly, slows down and rephrases, and checks that a child has understood rather than simply nodded. For a pupil whose school runs in German, the same class is extra English practice; for a pupil at an international school, the glossary closes the gap between English lessons and a German contest page. Puzzles are about ideas, not vocabulary, and the ideas cross languages easily.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>When can a Biber practice class run in German time?</h2><p class="ag-lede">After school or on a weekend morning, which in India, where our mentors teach from, is the evening or the afternoon.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Sample German class times and the matching time in India</caption><thead><tr><th scope="col">Lesson starts in Germany</th><th scope="col">Same moment in India until 27 March 2027</th><th scope="col">Same moment in India from 28 March 2027</th></tr></thead><tbody><tr><td>14:20</td><td>18:50</td><td>17:50</td></tr><tr><td>15:40</td><td>20:10</td><td>19:10</td></tr><tr><td>Saturday 09:00</td><td>13:30</td><td>12:30</td></tr><tr><td>Sunday 10:30</td><td>15:00</td><td>14:00</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">German clocks follow the Einheitenzeitgesetz: UTC+1 since summer time ended on 25 October 2026, and UTC+2 again from 28 March 2027. India keeps UTC+5:30 with no clock change, so a lesson there sits four and a half hours ahead of Germany this winter and three and a half hours ahead in summer.</p>
+    <p class="ag-mt-40">Treat the rows as samples only; no batch is promised at these exact times. You book the free first class in your own clock, each group keeps the slot its families agreed, and one-to-one lessons shift around school, holidays and the contest weeks.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Milestones</p>
+      <h2>From a first Biber puzzle to a first contest program</h2>
+      <p class="ag-lede">Milestones we set ourselves for the German informatics contests; the mentor uses them to choose a starting point and to tell parents what has changed.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Biber practice milestones (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Typical school years</th><th scope="col">The pupil can</th></tr></thead><tbody><tr><td>1. Reading the story</td><td class="ag-num">Klasse 3 to 4</td><td class="ag-num">Restate a puzzle in their own words and say what is being asked</td></tr><tr><td>2. Trying every case</td><td class="ag-num">Klasse 4 to 6</td><td class="ag-num">List all possibilities neatly and cross out the ones that break a rule</td></tr><tr><td>3. Naming the idea</td><td class="ag-num">Klasse 5 to 9</td><td class="ag-num">Recognise a stack, a queue, a code or a shortest path inside a story</td></tr><tr><td>4. Checking by program</td><td class="ag-num">Klasse 6 to 10</td><td class="ag-num">Write a short Python loop that tests every case and agrees with the reasoning</td></tr><tr><td>5. Ready for the next contest</td><td class="ag-num">Klasse 7 and up</td><td class="ag-num">Move on to programming tasks like those of the Jugendwettbewerb Informatik</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For children</h3><p>Read the question twice. Half of all Biber mistakes are answers to a different question.</p>
+<p>If two answers look right, one of them breaks a rule hidden in the story. Find it.</p></div><div><h3>For parents</h3><p>Ask your child to explain one puzzle to you each week. Explaining is where the learning sticks.</p>
+<p>Praise the method, not the score. The Biber rewards careful thinking, and so do we.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for young problem solvers in Germany</h2>
+      <p class="ag-lede">All nine run live in English with the same mentor each week, and each can be taken in a group or privately.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>First steps</h3>
+        <span class="ag-band-sub">Klasse 1 to 4</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IBP / FIRST / 01</p>
+          <h4>Scratch for kids</h4>
+          <p>Blocks, games and the order of instructions.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IBP / FIRST / 02</p>
+          <h4>Coding for kids</h4>
+          <p>A long path from blocks to small apps.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IBP / FIRST / 03</p>
+          <h4>Mental maths</h4>
+          <p>Number sense for quick, sure reasoning.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Growing puzzlers</h3>
+        <span class="ag-band-sub">Klasse 5 to 7</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IBP / GROW / 01</p>
+          <h4>C++ for kids</h4>
+          <p>Real code and puzzle programs, 9 to 12.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IBP / GROW / 02</p>
+          <h4>Informatik companion</h4>
+          <p>School Informatik, Klasse 5 to 10, in English.</p>
+          <a class="ag-course-link" href="/courses/informatik-companion-course-klasse-5-10">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IBP / GROW / 03</p>
+          <h4>Maths through coding</h4>
+          <p>Patterns and counting, explored in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Next contests</h3>
+        <span class="ag-band-sub">Klasse 7 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IBP / NEXT / 01</p>
+          <h4>Problem solving for teens</h4>
+          <p>Logic, data structures and algorithms.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IBP / NEXT / 02</p>
+          <h4>Python for teens</h4>
+          <p>From first program to contest-ready code.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IBP / NEXT / 03</p>
+          <h4>Olympiade and Känguru</h4>
+          <p>The maths contests, by Klassenstufe.</p>
+          <a class="ag-course-link" href="/courses/mathematik-olympiade-and-kaenguru-training-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>How live Biber practice works for families in Germany</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Early and mid afternoon German time, for primary and lower secondary pupils.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend mornings</p><p class="ag-slot-l">Saturday or Sunday, a calm slot for younger children.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">One to one</p><p class="ag-slot-l">Arranged with the mentor around school and the contest weeks.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Puzzles we write</h3><p>Fresh tasks every week, never copied from a contest.</p></div>
+      <div><h3>Say it aloud</h3><p>Each answer is explained before it counts.</p></div>
+      <div><h3>Checked by code</h3><p>Older pupils test their reasoning with Python.</p></div>
+      <div><h3>German terms given</h3><p>Contest words listed beside the English.</p></div>
+      <div><h3>Timed rounds</h3><p>Practice at the real contest pace.</p></div>
+      <div><h3>One mentor</h3><p>The same person follows your child all year.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects built by our students</h2>
+      <p class="ag-lede">A few things our young students around the world have made; there are many more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for Biber practice classes</h2>
+      <p class="ag-lede">One month means eight live lessons. We print the fee in euro, using the reference rate the European Central Bank publishes, yet the card payment is made in US dollars; your bank converts it, so its figure can be a few cents away from ours.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Two of our puzzles at your child's level</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Fifteen to twenty pupils of a similar age</li><li>One regular mentor</li><li>Two classes a week</li><li>Pay monthly, stop at any time</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Your child and one mentor</li><li>Puzzles chosen for your child</li><li>Times agreed together</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Unedited Google reviews from our students and from the parents who booked their lessons.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Families in Germany ask</p>
+      <h2>Informatik-Biber practice: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. Lessons happen live and in English only, and the mentor adapts to your child's pace and accent. Our handouts add the German words a child will see on the BWINF pages, such as Schnupper-Biber and Urkunde.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child register for the Biber through you?</h3>
+        <p>No. BWINF says pupils cannot sign themselves up; entry is only through a coordinator at the school or at another registered institution. We are not connected with BWINF and we do not register anyone. We prepare children for the contest.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the Informatik-Biber in 2026?</h3>
+        <p>BWINF lists the Biberwochen 2026 as 9 to 20 November 2026. The school picks the day and time within those two weeks. Results follow in December 2026 and certificates in January 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need to know how to code?</h3>
+        <p>No. BWINF says no prior knowledge is needed, and the tasks are puzzles rather than programs. In our classes, older pupils also learn to check answers with short Python programs, because that makes the reasoning stronger.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do wrong answers lose points?</h3>
+        <p>From Klasse 5, yes: BWINF's rules subtract points for a wrong answer and leave an unanswered task at zero, with a positive starting balance so the total never drops below zero. In Klasse 3 and 4 nothing is taken off.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you use real Biber tasks in class?</h3>
+        <p>No. We write our own puzzles in the same spirit, like the four on this page. BWINF publishes its old tasks from 2007 to 2025 free on its website, and we encourage families to try them at home.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age is right to start?</h3>
+        <p>The contest starts at Klasse 3. Children as young as 7 can join our problem solving course first, and the competitions course itself is for ages 9 to 19.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes in German time?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Younger children usually come straight after school or on a weekend morning.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How are fees paid?</h3>
+        <p>You see the fee in euro, worked out from the European Central Bank's published reference rate, and you pay in US dollars. Your bank handles the conversion, so its statement may show a slightly different euro amount. The first class costs nothing and needs no card.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What comes after the Biber?</h3>
+        <p>For pupils who enjoy it, BWINF runs the Jugendwettbewerb Informatik, where pupils program in a block environment, and the Bundeswettbewerb Informatik for real algorithm problems. Our competitions course follows the same path.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for families in Germany with a young problem solver.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>The overview of all our Germany pages.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-kids-berlin">Coding for kids in Berlin</a></h3><p>Berlin schools, times and a bike counter project.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>Our German-language page on school Informatik support.</p></div>
+      <div><h3><a class="ag-inline-link" href="/bebras-challenge-practice">Bebras Challenge practice</a></h3><p>The international family the Biber belongs to.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>What a live class with us looks like.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Things our students have built.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free Biber practice class</h2>
+        <p class="ag-lede">In the first class the mentor gives your child two of our puzzles at the right level, listens to how they reason, and suggests where to begin, all in English and at your child's pace.</p>
+        <p class="ag-mt-40">Before booking you may like to read <a class="ag-inline-link" href="/how-we-teach">how our lessons work</a> or browse <a class="ag-inline-link" href="/courses">every course we run</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20at%20school%20in%20Germany%20and%20would%20like%20to%20practise%20for%20the%20Informatik-Biber%20in%20English.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ibp',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Lessons are given live online, in English, by mentors who work from India. For a quick question, message us on WhatsApp in English.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ibp(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free; we do not ask for a card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Contests</h4><ul><li><a href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">German informatics competitions</a></li><li><a href="/courses/problem-solving-and-computational-thinking-for-kids">Problem solving for kids</a></li><li><a href="/bebras-challenge-practice">Bebras Challenge practice</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-classes-for-kids-berlin">Coding for kids in Berlin</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/ai-and-machine-learning-classes-in-germany">AI and machine learning</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Reason first, then check every case</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ibp = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'informatik-biber-practice-in-english-inline', meta: { name: name, age: age, page: 'informatik-biber-practice-in-english' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

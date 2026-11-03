@@ -757,6 +757,7 @@ const SLUGS = [
   'online-coding-classes-europe',
   'vibe-coding-and-ai-agents-classes-germany',
   'app-development-classes-for-teens-germany',
+  'informatik-biber-practice-in-english',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1593,6 +1594,7 @@ const LLMS_LABELS = {
   'online-coding-classes-europe': 'Online coding classes in Europe',
   'vibe-coding-and-ai-agents-classes-germany': 'Vibe coding and AI agents classes in Germany',
   'app-development-classes-for-teens-germany': 'App development classes for teens in Germany',
+  'informatik-biber-practice-in-english': 'Informatik-Biber practice in English',
 };
 
 function wireLlms(slugs) {

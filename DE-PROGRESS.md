@@ -29,7 +29,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE039 | online-coding-summer-camp-germany (csc, #5A4B75) | door-en (en) | 3,904 | 2.3% vs roblox-coding-classes-germany | Online Coding Summer Camp in Germany 2027, Live in English | a week is not seven days from any date; align to Mondays before you count | 0afbe862 |
 | DE040 | online-coding-classes-europe (ceu, #873A02) | door-en (en) | 3,757 | 2.3% vs online-coding-summer-camp-germany | Online Coding Classes in Europe, Live and in English | convert through UTC; a local time can be missing or happen twice | bbb723fd |
 | DE041 | vibe-coding-and-ai-agents-classes-germany (vca, #5E5B00) | door-en (en) | 3,844 | 1.9% vs roblox-coding-classes-germany | Vibe Coding and AI Agents Classes in Germany, in English | write the tests before you trust generated code | 4ad6e6e2 |
-| DE042 | app-development-classes-for-teens-germany (adt, #3D5A21) | door-en (en) | 3,892 | 2.2% vs ai-course-for-school-students-germany | App Development Classes for Teens in Germany, in English | never change state in place; copy it, and the screen and undo stay right | (this commit) |
+| DE042 | app-development-classes-for-teens-germany (adt, #3D5A21) | door-en (en) | 3,892 | 2.2% vs ai-course-for-school-students-germany | App Development Classes for Teens in Germany, in English | never change state in place; copy it, and the screen and undo stay right | c7f3027d |
+| DE045 | informatik-biber-practice-in-english (ibp, #702A52) | competition (en) | 4,570 | 1.2% vs coding-classes-for-kids-berlin | Informatik-Biber Practice in English for Pupils in Germany | reason first, then make the computer check every case (exhaustive search as a proof checker) | (this commit) |
 
 ## Notes
 
