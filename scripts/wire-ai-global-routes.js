@@ -790,6 +790,7 @@ const SLUGS = [
   'coding-classes-cost-germany',
   'programmierkurs-kinder-online',
   'coding-fuer-kinder',
+  'programmieren-fuer-kinder-ab-8',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1659,6 +1660,7 @@ const LLMS_LABELS = {
   'coding-classes-cost-germany': 'Coding classes cost in Germany',
   'programmierkurs-kinder-online': 'Programmierkurs für Kinder online (auf Englisch)',
   'coding-fuer-kinder': 'Coding für Kinder (Unterricht auf Englisch)',
+  'programmieren-fuer-kinder-ab-8': 'Programmieren für Kinder ab 8 (auf Englisch)',
 };
 
 function wireLlms(slugs) {
