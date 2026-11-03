@@ -63,7 +63,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE010 | coding-classes-cost-germany (cco, #005E70) | pillar (en) | 4,660 | 2.5% vs best-online-coding-classes-germany | Coding Classes Cost in Germany: What You Pay For | an average is not a calendar; count the real days | 0a81ca68 |
 | DE053 | programmierkurs-kinder-online (prk, #6C3B41) | door-de (de) | 3,910 | 1.8% vs informatik-nachhilfe-online | Programmierkurs für Kinder online: live, 6 bis 12 Jahre | turning changes the heading, not the square; keep track of position and heading together | 65771ab8 |
 | DE054 | coding-fuer-kinder (kin, #714A5E) | door-de (de) | 3,516 | 1.5% vs informatik-nachhilfe-online | Coding für Kinder: was es ist und wie Kinder es lernen | a code and its key; decoding is the same rule run backwards | 8ee2d837 |
-| DE055 | programmieren-fuer-kinder-ab-8 (pro, #285D80) | door-de (de) | 3,625 | 1.9% vs informatik-nachhilfe-online | Programmieren für Kinder ab 8: warum jetzt, wie es geht | repetition and turning; a closed shape turns once all the way round (360 degrees), a star twice | (this commit) |
+| DE055 | programmieren-fuer-kinder-ab-8 (pro, #285D80) | door-de (de) | 3,625 | 1.9% vs informatik-nachhilfe-online | Programmieren für Kinder ab 8: warum jetzt, wie es geht | repetition and turning; a closed shape turns once all the way round (360 degrees), a star twice | 47f97d51 |
+| DE062 | scratch-kurs-kinder-online (skk, #904651) | door-de (de) | 3,610 | 1.7% vs programmieren-fuer-kinder-ab-8 | Scratch-Kurs für Kinder online: live, mit Mentor | coordinate a sequence with messages, not with guessed waiting times | (this commit) |
 
 ## Notes
 

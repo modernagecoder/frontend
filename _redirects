@@ -9142,4 +9142,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /programmieren-fuer-kinder-ab-8 /src/pages/programmieren-fuer-kinder-ab-8.html 200
 /programmieren-fuer-kinder-ab-8.md /src/pages/programmieren-fuer-kinder-ab-8.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/scratch-kurs-kinder-online /src/pages/scratch-kurs-kinder-online.html 200
+/scratch-kurs-kinder-online.md /src/pages/scratch-kurs-kinder-online.md 200
 /* /src/pages/404.html 404
