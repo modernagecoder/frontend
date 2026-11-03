@@ -30313,6 +30313,18 @@
   to = "/src/pages/mathe-abitur-vorbereitung-online.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/mathe-nachhilfe-auf-englisch"
+  to = "/src/pages/mathe-nachhilfe-auf-englisch.html"
+  status = 200
+
+[[redirects]]
+  from = "/mathe-nachhilfe-auf-englisch.md"
+  to = "/src/pages/mathe-nachhilfe-auf-englisch.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

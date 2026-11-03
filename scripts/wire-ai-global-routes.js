@@ -833,6 +833,7 @@ const SLUGS = [
   'coding-classes-in-rhineland-palatinate',
   'coding-classes-in-saarland',
   'mathe-abitur-vorbereitung-online',
+  'mathe-nachhilfe-auf-englisch',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1745,6 +1746,7 @@ const LLMS_LABELS = {
   'coding-classes-in-rhineland-palatinate': 'Coding classes in Rhineland-Palatinate',
   'coding-classes-in-saarland': 'Coding classes in Saarland',
   'mathe-abitur-vorbereitung-online': 'Mathe-Abitur-Vorbereitung online (auf Englisch)',
+  'mathe-nachhilfe-auf-englisch': 'Mathe-Nachhilfe auf Englisch',
 };
 
 function wireLlms(slugs) {
