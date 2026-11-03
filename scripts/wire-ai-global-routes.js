@@ -926,6 +926,7 @@ const SLUGS = [
   'coding-and-ai-classes-in-recklinghausen-germany',
   'online-python-classes-remscheid-germany',
   'coding-classes-for-kids-in-koblenz-germany',
+  'coding-and-ai-classes-in-bergisch-gladbach-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1931,6 +1932,7 @@ const LLMS_LABELS = {
   'coding-and-ai-classes-in-recklinghausen-germany': 'Coding and AI classes in Recklinghausen',
   'online-python-classes-remscheid-germany': 'Online Python classes in Remscheid',
   'coding-classes-for-kids-in-koblenz-germany': 'Coding classes for kids in Koblenz',
+  'coding-and-ai-classes-in-bergisch-gladbach-germany': 'Coding and AI classes in Bergisch Gladbach',
 };
 
 function wireLlms(slugs) {
