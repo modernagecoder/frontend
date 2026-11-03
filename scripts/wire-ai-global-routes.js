@@ -887,6 +887,7 @@ const SLUGS = [
   'coding-and-ai-classes-in-magdeburg-germany',
   'online-python-classes-freiburg-im-breisgau-germany',
   'coding-classes-for-kids-in-krefeld-germany',
+  'online-python-classes-herne-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1853,6 +1854,7 @@ const LLMS_LABELS = {
   'coding-and-ai-classes-in-magdeburg-germany': 'Coding and AI classes in Magdeburg',
   'online-python-classes-freiburg-im-breisgau-germany': 'Online Python classes in Freiburg im Breisgau',
   'coding-classes-for-kids-in-krefeld-germany': 'Coding classes for kids in Krefeld',
+  'online-python-classes-herne-germany': 'Online Python classes in Herne',
 };
 
 function wireLlms(slugs) {
