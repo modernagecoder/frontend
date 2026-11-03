@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Roblox programmieren lernen: Kurs für Kinder, auf Englisch</title>
+  <meta name="description" content="Roblox programmieren lernen für Kinder von 8 bis 14: live auf Englisch, mit Roblox Studio und Luau. Dazu die Altersregeln von Roblox und ein erstes Skript.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/roblox-programmieren-lernen-kinder">
+  <link rel="alternate" type="text/markdown" href="/src/pages/roblox-programmieren-lernen-kinder.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#5B4668">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/roblox-programmieren-lernen-kinder">
+  <meta property="og:title" content="Roblox programmieren lernen: Kurs für Kinder, auf Englisch">
+  <meta property="og:description" content="Was Kinder brauchen, um eigene Roblox-Spiele zu bauen: Studio, Luau, die Konto- und Chatregeln, die Roblox selbst veröffentlicht, und eine erste Lektion über Zeit im Spiel. Live-Unterricht auf Englisch.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="de_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Roblox programmieren lernen: Kurs für Kinder, auf Englisch">
+  <meta name="twitter:description" content="Roblox programmieren lernen, live auf Englisch: eigene Spiele in Luau bauen, statt nur zu spielen.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-rpl .ag-hero h1 { letter-spacing: -0.01em; }
+.ag-root.ag-rpl .ag-capsule { border-left-width: 5px; border-radius: 0; }
+.ag-root.ag-rpl .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-rpl .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-rpl .ag-code-head b { letter-spacing: 0.015em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/roblox-programmieren-lernen-kinder#page","url":"https://learn.modernagecoders.com/roblox-programmieren-lernen-kinder","name":"Roblox programmieren lernen für Kinder","description":"Ein Leitfaden für Eltern in Deutschland, deren Kind Roblox-Spiele selbst programmieren möchte: Alters- und Kontoregeln aus Roblox' eigenen Sicherheitsseiten, was Roblox Studio und Luau sind, was ein Rechner können muss, und eine eigene Lektion dazu, warum sich Dinge im Spiel nach Sekunden und nicht nach Bildern bewegen sollten.","inLanguage":"de-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Kurse","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Roblox programmieren","item":"https://learn.modernagecoders.com/roblox-programmieren-lernen-kinder"}]},{"@type":"Course","name":"Roblox programmieren lernen für Kinder","description":"Live-Online-Kurs für Kinder von 8 bis 14 Jahren in ganz Deutschland, ausschließlich auf Englisch: Roblox Studio, Luau-Skripte, Spielmechaniken, Zeit und Bewegung, Server und Client, eigene Spiele von der Idee bis zur Veröffentlichung, in der Gruppe oder im Einzelunterricht.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/roblox-programmieren-lernen-kinder"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/roblox-programmieren-lernen-kinder"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/roblox-programmieren-lernen-kinder"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Findet der Unterricht auf Deutsch statt?","acceptedAnswer":{"@type":"Answer","text":"Nein, ausschließlich auf Englisch und immer live. Die Mentoren aus Indien sprechen langsam und deutlich und richten sich nach Tempo und Aussprache Ihres Kindes. Das hilft beim Programmieren: Luau-Befehle wie local, function und end sind englische Wörter, die Ihr Kind dann jede Stunde auch hört und ausspricht."}},{"@type":"Question","name":"Ab welchem Alter kann mein Kind Roblox programmieren lernen?","acceptedAnswer":{"@type":"Answer","text":"Unser Roblox-Kurs ist für 8 bis 14 Jahre gedacht. Jüngere Kinder beginnen besser mit Scratch. Roblox selbst ordnet Kinder von 5 bis 8 Jahren in den meisten Regionen dem Konto Roblox Kids zu und Kinder von 9 bis 15 dem Konto Roblox Select."}},{"@type":"Question","name":"Ist Roblox für Kinder sicher?","acceptedAnswer":{"@type":"Answer","text":"Roblox beschreibt auf seinen eigenen Seiten Konten mit Einschränkungen nach Alter: Bei Roblox Kids ist der Chat aus, Kinder von 9 bis 12 können den Chat-Tab nur mit vertrauenswürdigen Freunden nutzen, und Eltern können für Kinder unter 13 Chat, Bildschirmzeit und Ausgaben steuern. Für unseren Kurs braucht Ihr Kind weder Chat noch Robux."}},{"@type":"Question","name":"Kostet Roblox Studio etwas?","acceptedAnswer":{"@type":"Answer","text":"Nein. Laut Roblox ist Studio eine kostenlose Anwendung für Windows und Mac. Zum Anmelden braucht Ihr Kind ein Roblox-Konto, das Sie als Eltern einrichten und über die Kindersicherung begleiten."}},{"@type":"Question","name":"Reicht ein Tablet oder ein Chromebook?","acceptedAnswer":{"@type":"Answer","text":"Zum Bauen nicht. Roblox nennt als Mindestvoraussetzung für Studio Windows 10 oder macOS 10.14 und 3 GB Arbeitsspeicher, empfohlen sind 8 GB. Spielen geht auf vielen Geräten, programmiert wird am Windows-PC oder Mac."}},{"@type":"Question","name":"Welche Programmiersprache lernt mein Kind?","acceptedAnswer":{"@type":"Answer","text":"Luau, die Skriptsprache von Roblox, die laut Roblox von Lua 5.1 abgeleitet ist. Die Grundideen, also Variablen, Bedingungen, Schleifen und Funktionen, gelten genauso in Python, JavaScript oder C#, und viele Kinder wechseln später ohne Mühe."}},{"@type":"Question","name":"Lernt mein Kind dabei mehr als ein Spiel?","acceptedAnswer":{"@type":"Answer","text":"Ja. Schon die erste Lektion auf dieser Seite verbindet Code mit Mathematik: Geschwindigkeit ist Strecke pro Zeit. Später kommen Koordinaten, Zufall, Prozente und die Frage dazu, warum in einem Spiel für mehrere Spieler der Server prüfen muss, was die Spieler melden."}},{"@type":"Question","name":"Zu welchen Zeiten finden die Stunden statt?","acceptedAnswer":{"@type":"Answer","text":"Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Eine Stunde um 16:50 Uhr deutscher Winterzeit beginnt beim Mentor in Indien um 21:20 Uhr."}},{"@type":"Question","name":"Was kostet der Kurs, und wie wird abgerechnet?","acceptedAnswer":{"@type":"Answer","text":"Die Monatsgebühr sehen Sie auf dieser Seite in Euro, berechnet zum Referenzkurs der EZB. Abgebucht wird in US-Dollar, Ihre Bank rechnet um. Die erste Stunde ist kostenlos und ohne Kreditkarte."}},{"@type":"Question","name":"Kann mein Kind sein Spiel am Ende veröffentlichen?","acceptedAnswer":{"@type":"Answer","text":"Ja, wenn Sie als Eltern einverstanden sind. Im letzten Abschnitt testen wir das Spiel gründlich und besprechen, welche Einstellungen das Kind vorher wählen sollte. Ein privates Spiel, das nur Familie und Freunde sehen, ist ebenfalls ein schöner Abschluss."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/roblox-programmieren-lernen-kinder","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-rpl">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Deutschland</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Deutschland</a></li>
+      <li><a href="#alter">Alter</a></li>
+      <li><a href="#studio">Studio</a></li>
+      <li><a href="#skript">Skript</a></li>
+      <li><a href="#zeiten">Zeiten</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Probestunde</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Startseite</a> / <a href="/courses">Kurse</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Roblox programmieren
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Deutschland &middot; Roblox Studio und Luau &middot; 8 bis 14 Jahre</p>
+        <h1>Roblox programmieren lernen: eigene Spiele statt nur spielen</h1>
+        <p class="ag-lede">Viele Kinder kennen Roblox als Spieleplattform. Weniger bekannt ist, dass jedes Spiel darauf mit einem kostenlosen Werkzeug gebaut wird, Roblox Studio, und mit einer echten Programmiersprache, Luau. Diese Seite erklärt, welche Altersregeln Roblox selbst aufstellt, was ein Kind zum Bauen braucht, und zeigt die erste Lektion, die in jedem Spiel steckt: Bewegung nach Sekunden statt nach Bildern. Der Unterricht findet auf Englisch statt, mit Mentoren aus Indien.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Kostenlose Probestunde buchen</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Priority Demo buchen</a>
+          <a href="#skript" class="ag-btn ag-btn--ghost">Zum ersten Skript</a>
+          <a href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20unser%20Kind%20m%C3%B6chte%20Roblox%20programmieren%20lernen%2C%20auf%20Englisch.%20K%C3%B6nnen%20wir%20eine%20kostenlose%20Probestunde%20buchen%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'rpl'});">Per WhatsApp fragen</a>
+        </div>
+        <p class="ag-hero-note">Unterricht auf Englisch, mit Mentoren aus Indien &middot; Live-Kurse seit 2020 &middot; über 10.000 Lernende weltweit</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">Auf einen Blick</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4,9 von 5 bei 547 Google-Bewertungen
+        </p>
+        <dl>
+          <dt>Unterrichtssprache</dt><dd>Live-Unterricht ausschließlich auf Englisch, im eigenen Tempo; die Mentoren sprechen deutlich und stellen sich auf Tempo und Akzent der Lernenden ein</dd>
+          <dt>Alter</dt><dd>8 bis 14 Jahre</dd>
+          <dt>Werkzeug</dt><dd>Roblox Studio, kostenlos</dd>
+          <dt>Sprache im Code</dt><dd>Luau</dd>
+          <dt>Rechner</dt><dd>Windows oder Mac, kein Tablet</dd>
+          <dt>Gruppe</dt><dd>Fünfzehn bis zwanzig, oder einzeln</dd>
+          <dt>Probestunde</dt><dd>Kostenlos, ohne Karte</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Kurz gesagt</p>
+      <p>Roblox programmieren lernen heißt bei Modern Age Coders: Kinder von 8 bis 14 Jahren bauen eigene Spiele in Roblox Studio und schreiben dafür Skripte in Luau, live auf Englisch und mit Mentoren aus Indien. Der Kurs Roblox Game Coding for Kids führt vom ersten bewegten Bauteil bis zum veröffentlichten Spiel. Die Kinder lernen in einer Gruppe von fünfzehn bis zwanzig oder im Einzelunterricht, im eigenen Tempo.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Passende Kurse</p>
+      <h2>Drei Kurse für Kinder, die Spiele bauen möchten</h2>
+      <p class="ag-lede">Einer ist ganz Roblox gewidmet, einer verbindet Scratch, Roblox und Minecraft, und einer ist der sanfte Einstieg für Kinder, die noch nie programmiert haben.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/roblox-game-coding-for-kids-lua-course">
+        <div class="ag-pick-shot"><img src="/images/roblox-coding-kids.webp" alt="Kursbild Roblox Game Coding for Kids mit Luau" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RPL / 01</p>
+          <h3>Roblox Game Coding for Kids</h3>
+          <p>Für 8 bis 14 Jahre. Sechs Monate von der ersten Zeile Luau bis zum eigenen Spiel mit Punkten, Leveln und mehreren Spielern.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/game-development-masterclass-for-kids">
+        <div class="ag-pick-shot"><img src="/images/game-dev-kids.webp" alt="Kursbild Spieleentwicklung für Kinder mit Scratch, Roblox und Minecraft" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RPL / 02</p>
+          <h3>Spiele entwickeln für Kinder</h3>
+          <p>Für Kinder, die mehrere Welten ausprobieren wollen: Scratch, Roblox und Minecraft als Werkstatt für dieselben Ideen.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/scratch-programming-complete-course">
+        <div class="ag-pick-shot"><img src="/images/scratch-kids.webp" alt="Kursbild Scratch für Kinder" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">RPL / 03</p>
+          <h3>Scratch für Kinder</h3>
+          <p>Für 6 bis 11 Jahre. Erst Blöcke, dann Text: Wer Schleifen und Bedingungen in Scratch kennt, kommt in Luau schneller voran.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="alter">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Alter und Konten</p><h2>Ab welchem Alter dürfen Kinder Roblox nutzen?</h2><p class="ag-lede">Laut Roblox reicht das Alter der Nutzer von 5 bis über 25 Jahren. Für jüngere Kinder gibt es eigene, stärker eingeschränkte Konten. Die Tabelle fasst zusammen, was Roblox auf seinen Sicherheitsseiten selbst dazu schreibt.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Konten und Einstellungen nach Alter laut Roblox (Stand November 2026, "in den meisten Regionen")</caption><thead><tr><th scope="col">Alter</th><th scope="col">Konto</th><th scope="col">Was Roblox dazu schreibt</th></tr></thead><tbody><tr><td>5 bis 8</td><td>Roblox Kids</td><td>Nur Spiele mit den niedrigsten Inhaltsstufen; der Chat ist ausgeschaltet</td></tr><tr><td>9 bis 12</td><td>Roblox Select</td><td>Der Chat-Tab nur mit vertrauenswürdigen Freunden; kein Sprachchat</td></tr><tr><td>13 bis 15</td><td>Roblox Select</td><td>Chat-Tab mit vertrauenswürdigen Freunden und Freunden ähnlichen Alters</td></tr><tr><td>unter 13</td><td>beide</td><td>Eltern können den Chat ausschalten und die Bildschirmzeit begrenzen</td></tr><tr><td>18+, Alter geprüft</td><td>Roblox</td><td>Erst dann Zugang zu Spielen der Stufe Restricted und Robux-Transfers ohne Zustimmung der Eltern</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quellen: Roblox, Safety ("Our users range in age from 5 to over 25+ years old"; Roblox Kids "5-8 year olds in most regions", Roblox Select "9-15 year olds in most regions") und Parental Controls, englische Originalseiten, gelesen am 3. November 2026. Die deutschen Fassungen dieser Seiten sind laut Roblox maschinell übersetzt. Die Nutzungsbedingungen im Hilfe-Center von Roblox haben unseren Abruf abgelehnt (HTTP 403). Mit Roblox sind wir nicht verbunden.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Was Eltern einstellen können</h3><p>Laut Roblox können Eltern für Kinder unter 13 die Bildschirmzeit begrenzen, den Chat ausschalten und monatliche Ausgabengrenzen setzen. Kinder unter 13 können vertrauenswürdige Freunde nur mit Erlaubnis der Eltern hinzufügen.</p>
+<p>Für unseren Kurs braucht Ihr Kind weder Chat noch Robux. Gebaut und getestet wird in Roblox Studio, oft in einem privaten Spiel, das nur das Kind und der Mentor betreten.</p></div><div><h3>Wie verbreitet Roblox bei Kindern ist</h3><p>In der KIM-Studie 2024 nennen neun Prozent der Kinder zwischen sechs und 13 Jahren, die digitale Spiele spielen, Roblox als eines ihrer Lieblingsspiele, fünf Prozentpunkte mehr als 2022. Minecraft liegt mit 24 Prozent vorn.</p>
+<p>Die Studie beschreibt Roblox als Plattform, "auf der Nutzer*innen eigene Spiele erstellen und veröffentlichen können". Genau diese Seite von Roblox ist es, die wir unterrichten.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="studio">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Was man braucht</p><h2>Was braucht ein Kind, um Roblox-Spiele selbst zu programmieren?</h2><p class="ag-lede">Einen Rechner, das kostenlose Roblox Studio, ein Roblox-Konto und Lust am Ausprobieren. Ein Tablet reicht zum Spielen, aber nicht zum Bauen.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Systemanforderungen für Roblox Studio laut Roblox Creator Hub</caption><thead><tr><th scope="col"></th><th scope="col">Mindestens</th><th scope="col">Empfohlen</th></tr></thead><tbody><tr><td>Betriebssystem</td><td>Windows 10 oder macOS 10.14</td><td>Windows 11 oder macOS 14 und neuer</td></tr><tr><td>Arbeitsspeicher</td><td>3 GB</td><td>8 GB</td></tr><tr><td>Bildschirmauflösung</td><td>1600 × 900 oder höher</td><td>1600 × 900 oder höher</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quelle: Roblox Creator Hub, Roblox Studio setup: Studio ist "a free application available on Windows and Mac"; zum Anmelden in Studio dient das eigene Roblox-Konto. Gelesen am 3. November 2026.</p>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Roblox Studio</h3><p>Die Werkstatt, in der jedes Roblox-Spiel entsteht: Gelände, Bauteile, Licht und Skripte. Kostenlos für Windows und Mac.</p></div><div><h3>Luau</h3><p>Die Skriptsprache von Roblox. Laut Roblox ist sie schnell, klein und sicher und von Lua 5.1 abgeleitet. Ihre Schlüsselwörter wie <code>local</code>, <code>function</code>, <code>if</code> und <code>end</code> sind Englisch.</p></div><div><h3>Ein Roblox-Konto</h3><p>Zum Anmelden in Studio. Bei Kindern richten Eltern das Konto ein und behalten über die Kindersicherung die Kontrolle über Chat, Zeit und Ausgaben.</p></div></div>
+    <p class="ag-mt-40">Eine Maus mit zwei Tasten und Mausrad macht das Bauen in 3D deutlich leichter als ein Touchpad. Ein zweiter Bildschirm ist kein Muss: Im Unterricht teilt das Kind seinen Studio-Bildschirm, und der Mentor zeigt auf seinem eigenen, was als Nächstes kommt.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="skript">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Die erste Lektion</p><h2>Wie bewegt man in Roblox etwas gleichmäßig, auf jedem Rechner?</h2><p class="ag-lede">Mit der Zeit seit dem letzten Bild. Roblox ruft das Ereignis Heartbeat einmal pro Bild auf und übergibt dabei deltaTime, die Zeit in Sekunden seit dem vorigen Bild. Wer das nutzt, baut Spiele, die auf einem alten Laptop genauso schnell laufen wie auf einem neuen. Das Beispiel ist unser eigenes.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Eine fahrende Plattform in Roblox Studio</b><span>Luau</span></figcaption><pre>local RunService = game:GetService("RunService")
+local plattform = workspace.Plattform   -- ein verankertes Bauteil
+
+-- Version A: pro Bild ein halbes Stud weiter
+-- RunService.Heartbeat:Connect(function()
+--     plattform.Position += Vector3.new(0.5, 0, 0)
+-- end)
+
+-- Version B: 30 Studs pro Sekunde, egal wie viele Bilder
+local TEMPO = 30
+RunService.Heartbeat:Connect(function(deltaTime)
+    plattform.Position += Vector3.new(TEMPO * deltaTime, 0, 0)
+end)</pre><p class="ag-code-note">Dieses Skript gehört in ein Script unter ServerScriptService; die Plattform ist ein verankertes Bauteil namens Plattform. Wir zeigen es für Roblox Studio, haben es hier aber nicht ausgeführt, weil uns außerhalb von Studio keine Luau-Laufzeit zur Verfügung steht. Die Rechnung dahinter prüft der Python-Zwilling darunter.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Der Python-Zwilling: dieselbe Rechnung, die wir ausgeführt haben</b><span>Python</span></figcaption><pre># Python-Zwilling des Luau-Skripts: eine Plattform fährt zwei Sekunden lang
+SCHRITT = 0.5   # Version A: Studs pro Bild
+TEMPO = 30      # Version B: Studs pro Sekunde
+
+def fahren(bildzeiten):
+    a = b = 0.0
+    for dt in bildzeiten:          # dt = deltaTime, Sekunden seit dem letzten Bild
+        a += SCHRITT               # A: zählt Bilder
+        b += TEMPO * dt            # B: zählt Zeit
+    return round(a, 2), round(b, 2)
+
+for fps in [30, 60, 144]:
+    bilder = [1 / fps] * (2 * fps)    # genau zwei Sekunden
+    a, b = fahren(bilder)
+    print(f'{fps:&gt;3} Bilder pro Sekunde: A = {a} Studs, B = {b} Studs')
+
+# Ein Ruckler: 60 Bilder pro Sekunde, aber ein Bild dauert eine halbe Sekunde
+ruckler = [1 / 60] * 90 + [0.5]
+print('Mit Ruckler:', round(sum(ruckler), 2), 'Sekunden, A, B =', fahren(ruckler))</pre><p class="ag-code-note">Ausgabe mit Python 3.14:<br><code> 30 Bilder pro Sekunde: A = 30.0 Studs, B = 60.0 Studs</code><br><code> 60 Bilder pro Sekunde: A = 60.0 Studs, B = 60.0 Studs</code><br><code>144 Bilder pro Sekunde: A = 144.0 Studs, B = 60.0 Studs</code><br><code>Mit Ruckler: 2.0 Sekunden, A, B = (45.5, 60.0)</code></p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Wie weit die Plattform in zwei Sekunden fährt (unser Python-Zwilling)</caption><thead><tr><th scope="col">Bilder pro Sekunde</th><th scope="col">Version A: pro Bild</th><th scope="col">Version B: pro Sekunde</th></tr></thead><tbody><tr><td class="ag-num">30</td><td class="ag-num">30 Studs</td><td class="ag-num">60 Studs</td></tr><tr><td class="ag-num">60</td><td class="ag-num">60 Studs</td><td class="ag-num">60 Studs</td></tr><tr><td class="ag-num">144</td><td class="ag-num">144 Studs</td><td class="ag-num">60 Studs</td></tr><tr><td class="ag-num">60 mit einem Ruckler</td><td class="ag-num">45,5 Studs</td><td class="ag-num">60 Studs</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Version A sieht auf dem Rechner, auf dem das Kind sie baut, oft perfekt aus. Auf einem Rechner mit doppelt so vielen Bildern pro Sekunde fährt dieselbe Plattform aber doppelt so weit, auf einem langsamen nur halb so weit, und bei einem Ruckler bleibt sie zurück. Version B rechnet Tempo mal Zeit und kommt immer nach 60 Studs an. So entstehen Hindernisparcours, die für alle Spieler gleich schwer sind.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Erst raten.</strong> Bevor das Kind Version A auf einem zweiten Rechner testet, schätzt es: Wie weit fährt die Plattform dort? Danach wird gemessen.</li><li><strong>Die Einheit aufschreiben.</strong> 0,5 ist "Studs pro Bild", 30 ist "Studs pro Sekunde". Wer die Einheit dazuschreibt, merkt, warum nur die zweite Zahl mit deltaTime multipliziert werden darf.</li><li><strong>Nicht nach Gefühl warten.</strong> Auch <code>task.wait(1)</code> wartet nicht genau eine Sekunde. Laut Roblox gibt die Funktion die tatsächlich vergangene Zeit zurück; gute Skripte rechnen mit diesem Wert weiter.</li><li><strong>Auf dem schwächsten Gerät testen.</strong> Im Unterricht spielen wir jedes Spiel einmal auf dem langsamsten Rechner der Familie durch.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="weg">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Vom ersten Skript zum eigenen Spiel</p><h2>Was lernt ein Kind im Roblox-Kurs, Schritt für Schritt?</h2><p class="ag-lede">Unsere eigene Reihenfolge. Jede Stufe endet mit etwas Spielbarem, das das Kind Familie und Freunden zeigen kann.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Lernweg im Roblox-Kurs (unsere Planung)</caption><thead><tr><th scope="col">Phase</th><th scope="col">Was das Kind baut</th><th scope="col">Was es dabei lernt</th></tr></thead><tbody><tr><td>1. Bauen</td><td>Eine eigene Insel mit Hindernissen</td><td>Studio bedienen, Bauteile, Koordinaten in Studs</td></tr><tr><td>2. Bewegen</td><td>Fahrende Plattformen und Türen</td><td>Variablen, Funktionen, Heartbeat und deltaTime</td></tr><tr><td>3. Reagieren</td><td>Fallen, Schalter und Checkpoints</td><td>Ereignisse wie Touched, Bedingungen mit if</td></tr><tr><td>4. Zählen</td><td>Münzen und eine Punktetabelle</td><td>Zahlen speichern, Schleifen, Tabellen in Luau</td></tr><tr><td>5. Mehrere Spieler</td><td>Ein Rennen für zwei bis vier Freunde</td><td>Server und Client, warum der Server prüft</td></tr><tr><td>6. Veröffentlichen</td><td>Ein fertiges kleines Spiel</td><td>Testen, Fehler suchen, anderen erklären</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Was über Roblox hinaus bleibt</h3><p>Variablen, Bedingungen, Schleifen und Funktionen funktionieren in Luau wie in Python oder Java. Wer in Roblox gelernt hat, eine Bewegung mit der vergangenen Zeit zu rechnen, kann das in jeder anderen Spiel-Engine genauso.</p>
+<p>Dazu kommt Mathematik, die Kinder sonst eher trocken erleben: Koordinaten, Geschwindigkeit als Strecke pro Zeit, Prozente bei Punkten und Wahrscheinlichkeiten bei Zufallsereignissen.</p></div><div><h3>Wann der Wechsel zu anderen Sprachen sinnvoll ist</h3><p>Viele Kinder wechseln mit 12 oder 13 Jahren zu Python, um die Schulinformatik zu begleiten, oder zu C# und Unity, um größere Spiele zu bauen. Luau ist dafür ein guter Anfang, weil es klein und übersichtlich ist.</p>
+<p>Bei gekauften Videospielen hilft Eltern in Deutschland die Alterskennzeichnung der USK; laut KIM-Studie 2024 ist sie für alle Videospiele gesetzlich verpflichtend. Wir empfehlen Kindern nur Werkzeuge und Spiele, die zu ihrem Alter passen.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="zeiten">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unterrichtszeiten</p><h2>Wann findet der Roblox-Kurs statt?</h2><p class="ag-lede">Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Drei Beispieltermine und die passende Uhrzeit in Indien</caption><thead><tr><th scope="col">Deutschland</th><th scope="col">Indien im Winterhalbjahr</th><th scope="col">Indien ab 28. März 2027</th></tr></thead><tbody><tr><td>15:20</td><td>19:50</td><td>18:50</td></tr><tr><td>16:50</td><td>21:20</td><td>20:20</td></tr><tr><td>Samstag 11:00</td><td>15:30</td><td>14:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Nach dem Einheiten- und Zeitgesetz gilt in Deutschland MEZ (UTC+1), während der Sommerzeit MESZ (UTC+2). Die Uhren wurden am 25. Oktober 2026 zurückgestellt und werden am 28. März 2027 wieder vorgestellt. Indien bleibt ohne Umstellung bei UTC+5:30, ist also im Winter 4 Stunden 30 Minuten und im Sommer 3 Stunden 30 Minuten weiter. Die Beispiele sind keine festen Kurszeiten.</p>
+    <p class="ag-mt-40">Für Roblox-Stunden empfehlen wir Termine, an denen der Familienrechner frei ist und das Kind nicht nebenher spielen möchte. Im Buchungsformular erscheinen die Uhrzeiten so, wie Ihre Uhr in Deutschland sie anzeigt.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fortschritt</p>
+      <h2>Woran Sie erkennen, dass Ihr Kind wirklich programmiert</h2>
+      <p class="ag-lede">Fünf Stufen, die wir selbst verwenden. Sie beschreiben, was ein Kind ohne Hilfe kann, nicht, wie viele Stunden es gespielt hat.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Fünf Stufen im Roblox-Kurs (unsere)</caption><thead><tr><th scope="col">Stufe</th><th scope="col">Typisches Alter</th><th scope="col">Ihr Kind kann</th></tr></thead><tbody><tr><td>1. Bauen</td><td class="ag-num">8 bis 9</td><td class="ag-num">eine Welt aus Bauteilen gestalten und speichern</td></tr><tr><td>2. Ändern</td><td class="ag-num">9 bis 10</td><td class="ag-num">ein fertiges Skript lesen und eine Zahl gezielt ändern</td></tr><tr><td>3. Schreiben</td><td class="ag-num">10 bis 11</td><td class="ag-num">eigene kurze Skripte mit Bedingungen und Funktionen schreiben</td></tr><tr><td>4. Rechnen</td><td class="ag-num">11 bis 13</td><td class="ag-num">Bewegung und Zeit mit deltaTime richtig berechnen</td></tr><tr><td>5. Absichern</td><td class="ag-num">12 bis 14</td><td class="ag-num">ein Spiel für mehrere Spieler bauen, bei dem der Server entscheidet</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Für Eltern</h3><p>Lassen Sie sich das Spiel der Woche nicht nur zeigen, sondern eine Zeile Code erklären. Kann Ihr Kind sagen, was sie tut, hat es mehr gelernt als beim Spielen.</p>
+<p>Wir schicken Ihnen regelmäßig eine kurze Nachricht dazu, was gebaut wurde und was noch hakt.</p></div><div><h3>Für Kinder</h3><p>Schreiben Sie zu jeder Zahl im Skript die Einheit: Studs, Sekunden, Punkte. Dann finden Sie Fehler viel schneller.</p>
+<p>Testen Sie Ihr Spiel auch auf einem langsamen Rechner. Was dort klappt, klappt überall.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weitere Kurse</p>
+      <h2>Neun weitere Kurse für junge Spieleentwickler</h2>
+      <p class="ag-lede">Alle live, alle auf Englisch, jeweils mit einem festen Mentor und wahlweise in der Gruppe oder einzeln.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Andere Spielwelten</h3>
+        <span class="ag-band-sub">8 bis 14 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">RPL / WELT / 01</p>
+          <h4>Minecraft programmieren</h4>
+          <p>Blöcke, dann echter Code in der beliebtesten Spielwelt.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RPL / WELT / 02</p>
+          <h4>Spiele mit Godot</h4>
+          <p>Eine freie Engine für 2D und 3D, mit GDScript.</p>
+          <a class="ag-course-link" href="/courses/godot-game-development-course-for-kids-and-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RPL / WELT / 03</p>
+          <h4>C++ für Kinder</h4>
+          <p>Erste echte Programme und Rätsel, 9 bis 12.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-for-kids-course">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Grundlagen stärken</h3>
+        <span class="ag-band-sub">7 bis 13 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">RPL / BASIS / 01</p>
+          <h4>Python und KI für Kinder</h4>
+          <p>Die Sprache, die viele Schulen später nutzen.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RPL / BASIS / 02</p>
+          <h4>Mathematik mit Python</h4>
+          <p>Koordinaten, Tempo und Muster im eigenen Code.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RPL / BASIS / 03</p>
+          <h4>Denken wie ein Programmierer</h4>
+          <p>Rätsel und Abläufe, die jedes Spiel braucht.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Für ältere Kinder</h3>
+        <span class="ag-band-sub">12 bis 16 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">RPL / NEXT / 01</p>
+          <h4>Spieleentwicklung für Jugendliche</h4>
+          <p>Unity und C# bis zum veröffentlichten Spiel.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RPL / NEXT / 02</p>
+          <h4>JavaScript für Jugendliche</h4>
+          <p>Browserspiele und interaktive Webseiten.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">RPL / NEXT / 03</p>
+          <h4>Informatik Companion</h4>
+          <p>Begleitung zum Schulfach Informatik.</p>
+          <a class="ag-course-link" href="/courses/informatik-companion-course-klasse-5-10">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Ablauf</p>
+      <h2>Wie eine Roblox-Stunde abläuft</h2>
+      <p class="ag-lede">Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Nachmittag</p><p class="ag-slot-l">Nach den Hausaufgaben, etwa ab 15:20 Uhr deutscher Zeit.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Samstag</p><p class="ag-slot-l">Späterer Vormittag, wenn der Familienrechner frei ist.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Einzeln</p><p class="ag-slot-l">Zu vereinbarten Zeiten, gut für eigene Spielideen.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Bildschirm teilen</h3><p>Das Kind arbeitet in seinem eigenen Studio, der Mentor sieht live mit.</p></div>
+      <div><h3>Ein Ziel pro Stunde</h3><p>Eine Tür, die aufgeht; eine Falle, die auslöst; eine Münze, die zählt.</p></div>
+      <div><h3>Englisch zum Mitlesen</h3><p>Schlüsselwörter und Fehlermeldungen werden gezeigt, gelesen und erklärt.</p></div>
+      <div><h3>Kein Chat nötig</h3><p>Der Kurs braucht weder Roblox-Chat noch Robux.</p></div>
+      <div><h3>Testen gehört dazu</h3><p>Jede Stunde endet mit einem Testlauf und einer Fehlerliste.</p></div>
+      <div><h3>Ein fester Mentor</h3><p>Dieselbe Person, die die Spielideen Ihres Kindes kennt.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Projekte unserer Lernenden</p>
+      <h2>Spiele und Projekte unserer Lernenden</h2>
+      <p class="ag-lede">Eine kleine Auswahl aus unseren Kursen weltweit; mehr auf <a class="ag-inline-link" href="/student-labs">Student labs</a> (auf Englisch).</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Screenshot des Projekts NutriLife, ein KI-Ernährungscoach" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>NutriLife</h4>
+          <p>Ein KI-Ernährungscoach, der Mahlzeiten auswertet und Schritt für Schritt auf ein Ziel hinarbeitet.</p>
+          <p class="ag-proj-meta">von Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Screenshot von Misti, ein KI-Chatbot für Mathematik und Programmieren" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>Misti</h4>
+          <p>Ein Chatbot, der Fragen zu Mathematik und Programmierung beantwortet, von einem Schüler gebaut und veröffentlicht.</p>
+          <p class="ag-proj-meta">von Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Screenshot von GuardianX, ein KI-Assistent für Sicherheit im Internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>GuardianX</h4>
+          <p>Ein Assistent, der jungen Menschen hilft, unsichere Situationen im Internet zu erkennen.</p>
+          <p class="ag-proj-meta">von Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Screenshot der Wetter-App SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web-App</p>
+          <h4>SkyCast</h4>
+          <p>Eine Wetter-Website mit aktuellen Bedingungen für jeden Ort.</p>
+          <p class="ag-proj-meta">von Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preise</p>
+      <h2>Was der Roblox-Kurs kostet</h2>
+      <p class="ag-lede">Die Gebühr gilt pro Monat und deckt acht Live-Stunden ab. Angezeigt wird sie in Euro, auf Basis des Referenzkurses der Europäischen Zentralbank; belastet wird sie in US-Dollar. Die Umrechnung macht Ihre Bank, kleine Abweichungen auf dem Kontoauszug sind deshalb normal.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Kostenlose Probestunde</p>
+        <p class="ag-price-amt">Kostenlos</p>
+        <p class="ag-price-alt">keine Karte nötig</p>
+        <ul><li>Eine kostenlose Probestunde in Roblox Studio</li><li>Ein kurzer Blick auf Rechner und Vorkenntnisse</li><li>Keine Kreditkarte nötig</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Buchen</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Gruppenkurs</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group" data-price-format="suffix">90 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Fünfzehn bis zwanzig Kinder ähnlichen Alters</li><li>Ein fester Mentor</li><li>Zwei Stunden pro Woche</li><li>Monatlich zahlbar, jederzeit beendbar</li></ul>
+        <a href="#start" class="ag-btn">Hier starten</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Einzelunterricht</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal" data-price-format="suffix">134 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Ihr Kind und ein Mentor</li><li>Eigene Spielidee, eigenes Tempo</li><li>Termine nach Ihrem Wunsch</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Anfragen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Was Familien sagen</p>
+      <h2>4,9 von 5 bei 547 Google-Bewertungen</h2>
+      <p class="ag-lede">Google-Rezensionen von Familien, im Wortlaut und in der Originalsprache Englisch.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Häufige Fragen</p>
+      <h2>Roblox programmieren lernen: häufige Fragen</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Findet der Unterricht auf Deutsch statt?</h3>
+        <p>Nein, ausschließlich auf Englisch und immer live. Die Mentoren aus Indien sprechen langsam und deutlich und richten sich nach Tempo und Aussprache Ihres Kindes. Das hilft beim Programmieren: Luau-Befehle wie local, function und end sind englische Wörter, die Ihr Kind dann jede Stunde auch hört und ausspricht.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Ab welchem Alter kann mein Kind Roblox programmieren lernen?</h3>
+        <p>Unser Roblox-Kurs ist für 8 bis 14 Jahre gedacht. Jüngere Kinder beginnen besser mit Scratch. Roblox selbst ordnet Kinder von 5 bis 8 Jahren in den meisten Regionen dem Konto Roblox Kids zu und Kinder von 9 bis 15 dem Konto Roblox Select.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Ist Roblox für Kinder sicher?</h3>
+        <p>Roblox beschreibt auf seinen eigenen Seiten Konten mit Einschränkungen nach Alter: Bei Roblox Kids ist der Chat aus, Kinder von 9 bis 12 können den Chat-Tab nur mit vertrauenswürdigen Freunden nutzen, und Eltern können für Kinder unter 13 Chat, Bildschirmzeit und Ausgaben steuern. Für unseren Kurs braucht Ihr Kind weder Chat noch Robux.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Kostet Roblox Studio etwas?</h3>
+        <p>Nein. Laut Roblox ist Studio eine kostenlose Anwendung für Windows und Mac. Zum Anmelden braucht Ihr Kind ein Roblox-Konto, das Sie als Eltern einrichten und über die Kindersicherung begleiten.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Reicht ein Tablet oder ein Chromebook?</h3>
+        <p>Zum Bauen nicht. Roblox nennt als Mindestvoraussetzung für Studio Windows 10 oder macOS 10.14 und 3 GB Arbeitsspeicher, empfohlen sind 8 GB. Spielen geht auf vielen Geräten, programmiert wird am Windows-PC oder Mac.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Welche Programmiersprache lernt mein Kind?</h3>
+        <p>Luau, die Skriptsprache von Roblox, die laut Roblox von Lua 5.1 abgeleitet ist. Die Grundideen, also Variablen, Bedingungen, Schleifen und Funktionen, gelten genauso in Python, JavaScript oder C#, und viele Kinder wechseln später ohne Mühe.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Lernt mein Kind dabei mehr als ein Spiel?</h3>
+        <p>Ja. Schon die erste Lektion auf dieser Seite verbindet Code mit Mathematik: Geschwindigkeit ist Strecke pro Zeit. Später kommen Koordinaten, Zufall, Prozente und die Frage dazu, warum in einem Spiel für mehrere Spieler der Server prüfen muss, was die Spieler melden.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Zu welchen Zeiten finden die Stunden statt?</h3>
+        <p>Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Eine Stunde um 16:50 Uhr deutscher Winterzeit beginnt beim Mentor in Indien um 21:20 Uhr.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Was kostet der Kurs, und wie wird abgerechnet?</h3>
+        <p>Die Monatsgebühr sehen Sie auf dieser Seite in Euro, berechnet zum Referenzkurs der EZB. Abgebucht wird in US-Dollar, Ihre Bank rechnet um. Die erste Stunde ist kostenlos und ohne Kreditkarte.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Kann mein Kind sein Spiel am Ende veröffentlichen?</h3>
+        <p>Ja, wenn Sie als Eltern einverstanden sind. Im letzten Abschnitt testen wir das Spiel gründlich und besprechen, welche Einstellungen das Kind vorher wählen sollte. Ein privates Spiel, das nur Familie und Freunde sehen, ist ebenfalls ein schöner Abschluss.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weiterlesen</p>
+      <h2>Weitere Seiten für Familien in Deutschland</h2>
+      <p class="ag-lede">Zum großen Teil auf Englisch.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Unsere Startseite für Familien in Deutschland.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-kids-berlin">Coding classes for kids in Berlin</a></h3><p>Programmieren für Kinder in der Hauptstadt.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>Wenn aus dem Hobby ein Schulfach wird.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-think-not-copy-ai-germany">Learn to think, not copy AI</a></h3><p>Selbst denken statt Antworten kopieren.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>So arbeiten unsere Mentoren live.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Projekte unserer Lernenden zum Ansehen.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Jetzt starten</p>
+        <h2>Kostenlose Roblox-Probestunde buchen</h2>
+        <p class="ag-lede">In der Probestunde öffnet Ihr Kind gemeinsam mit dem Mentor Roblox Studio, baut eine Plattform und bringt sie mit einem ersten Skript in Bewegung. Danach empfehlen wir die passende Stufe und Gruppe.</p>
+        <p class="ag-mt-40">Wenn Sie vorher mehr lesen möchten: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> beschreibt unseren Unterricht, auf <a class="ag-inline-link" href="/courses">All courses</a> stehen alle Lehrpläne (beides auf Englisch).</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20unser%20Kind%20m%C3%B6chte%20Roblox%20programmieren%20lernen%2C%20auf%20Englisch.%20K%C3%B6nnen%20wir%20eine%20kostenlose%20Probestunde%20buchen%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'rpl',pos:'end'});">Per WhatsApp schreiben</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Live-Unterricht online, ausschließlich auf Englisch, mit Mentoren aus Indien. Über WhatsApp erreichen Sie uns am schnellsten.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_rpl(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Ihr Name</label>
+            <input id="de-name" type="text" name="name" placeholder="Name von Elternteil oder Lernendem" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Telefon oder WhatsApp, Deutschland +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Altersgruppe</label>
+            <select id="de-age" name="age"><option value="6-12">Kind, 6 bis 12</option><option value="13-18">Jugendliche, 13 bis 18</option><option value="college">Studierende</option><option value="adult">Berufstätige</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Kostenlose Probestunde anfragen</button>
+          <p class="ag-form-note">Kostenlos, ohne Kreditkarte und ohne Bindung.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Lieber früher starten? Priority Demo buchen</h3><p>Eine Priority Demo ist eine vollständige Unterrichtsstunde von etwa 45 bis 60 Minuten. Danach schickt der Mentor per WhatsApp einen schriftlichen Kompetenzbericht und einen persönlichen Lernplan. Wenn Sie sich anmelden, wird die Demo-Gebühr mit der ersten Monatsgebühr verrechnet: Schicken Sie uns dazu die Bestellnummer der Demo per WhatsApp.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Priority Demo buchen</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live-Online-Unterricht in Programmieren, KI und Mathematik für Menschen von 6 bis 67 Jahren. Wir unterrichten seit 2020, mehr als
+          10.000 Lernende in 25 Ländern.
+        </p>
+      </div>
+      <div><h4>Spiele bauen</h4><ul><li><a href="/courses/roblox-game-coding-for-kids-lua-course">Roblox Game Coding</a></li><li><a href="/courses/game-development-masterclass-for-kids">Spiele für Kinder</a></li><li><a href="/courses/scratch-programming-complete-course">Scratch für Kinder</a></li><li><a href="/courses">Alle Kurse</a></li></ul></div>
+      <div><h4>Deutschland</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-classes-for-kids-berlin">Programmieren in Berlin</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/student-labs">Projekte</a></li></ul></div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="/about">Über uns</a></li>
+          <li><a href="/how-we-teach">So unterrichten wir</a></li>
+          <li><a href="/love">Bewertungen</a></li>
+          <li><a href="/contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live-Online-Unterricht weltweit.</span>
+      <span>Sekunden zählen, nicht Bilder</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Probestunde</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority Demo</a><a href="tel:+919123366161" aria-label="Anrufen +91 91233 66161">Anrufen</a></div>
+
+<script>
+window.submitLead_rpl = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Wird gesendet...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'roblox-programmieren-lernen-kinder-inline', meta: { name: name, age: age, page: 'roblox-programmieren-lernen-kinder' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Vielen Dank' + (name ? ', ' + name.split(' ')[0] : '') + '. Ein Mentor ruft Sie in Kürze an.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Netzwerkfehler. Bitte versuchen Sie es erneut.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
