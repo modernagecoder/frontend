@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Minecraft programmieren lernen: für Kinder, live online</title>
+  <meta name="description" content="Kinder lernen mit Minecraft programmieren, live auf Englisch: welches Minecraft wofür ist, was Mojang zu Kinderkonten sagt, und ein Projekt mit Hebeln und Logik.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/minecraft-programmieren-lernen-kinder">
+  <link rel="alternate" type="text/markdown" href="/src/pages/minecraft-programmieren-lernen-kinder.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#4E4A6F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/minecraft-programmieren-lernen-kinder">
+  <meta property="og:title" content="Minecraft programmieren lernen: für Kinder, live online">
+  <meta property="og:description" content="Minecraft ist das Lieblingsspiel vieler Kinder in Deutschland. So wird daraus Programmieren: Spiel oder Minecraft Education, Kinderkonten nach Mojang, MakeCode und ein Hebel-Projekt mit UND und ODER.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="de_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Minecraft programmieren lernen: für Kinder, live online">
+  <meta name="twitter:description" content="Minecraft programmieren lernen, live auf Englisch: Editionen, Kinderkonten und ein Hebel-Projekt mit Wahrheitstabelle.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-mpl .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-mpl .ag-capsule { border-left-width: 5px; border-radius: 0; }
+.ag-root.ag-mpl .ag-table td { hyphens: auto; }
+.ag-root.ag-mpl .ag-steps li strong { font-weight: 700; }
+.ag-root.ag-mpl .ag-section-head h2 { max-width: 30ch; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/minecraft-programmieren-lernen-kinder#page","url":"https://learn.modernagecoders.com/minecraft-programmieren-lernen-kinder","name":"Minecraft programmieren lernen für Kinder","description":"Ein Leitfaden für Eltern in Deutschland, deren Kind mit Minecraft programmieren lernen möchte: wie beliebt Minecraft laut KIM-Studie 2024 ist, was Spiel und Minecraft Education unterscheidet, was Mojang zu Kinderkonten und Mehrspielermodus festlegt, und ein eigenes Projekt mit Hebeln, Lampen und einer Wahrheitstabelle.","inLanguage":"de-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Kurse","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Minecraft programmieren","item":"https://learn.modernagecoders.com/minecraft-programmieren-lernen-kinder"}]},{"@type":"Course","name":"Minecraft programmieren lernen für Kinder","description":"Live-Online-Kurse, in denen Kinder von etwa 7 bis 12 Jahren in ganz Deutschland mit Minecraft programmieren lernen, ausschließlich auf Englisch: von Blöcken zu Textcode, mit Logik, Schleifen und eigenen Bauprojekten, in der Gruppe oder im Einzelunterricht.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/minecraft-programmieren-lernen-kinder"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/minecraft-programmieren-lernen-kinder"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/minecraft-programmieren-lernen-kinder"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kann man mit Minecraft wirklich programmieren lernen?","acceptedAnswer":{"@type":"Answer","text":"Ja. In Minecraft Education gibt es dafür das Werkzeug Code Builder, mit dem Kinder in MakeCode programmieren. Und auch im normalen Spiel lernen Kinder mit Hebeln und Schaltungen Logik, die sie später als Code schreiben, wie im Projekt mit der Geheimtür."}},{"@type":"Question","name":"Findet der Unterricht auf Deutsch statt?","acceptedAnswer":{"@type":"Answer","text":"Nein, Deutsch ist nicht die Unterrichtssprache: Jede Stunde läuft live auf Englisch, mit festem Mentor. Für Minecraft-Kinder ist das oft leichter als gedacht, denn das Spiel lässt sich ohnehin auf Englisch spielen, und Befehle wie repeat, if oder not lernen sie im Kurs mit. Die Mentoren sprechen langsam und gehen auf die Aussprache Ihres Kindes ein."}},{"@type":"Question","name":"Ab welchem Alter ist der Minecraft-Kurs geeignet?","acceptedAnswer":{"@type":"Answer","text":"Unser Kurs Minecraft Coding for Kids ist für Kinder von 7 bis 12 Jahren. Mojang selbst nennt für das Spiel eine Altersempfehlung von PEGI 7 und ESRB \"Everyone 10+\". Das Hebel-Projekt auf dieser Seite empfehlen wir ab etwa neun."}},{"@type":"Question","name":"Braucht mein Kind ein eigenes Minecraft-Konto?","acceptedAnswer":{"@type":"Answer","text":"Für das Spiel braucht es ein Microsoft-Konto. Laut Mojang gilt ein Konto für Kinder unter 16 Jahren in der EU als Kinderkonto, und es kann nur verbunden mit dem Konto eines Erwachsenen bestehen. Das Konto legen Sie als Eltern selbst an; wir legen keine Konten für Kinder an."}},{"@type":"Question","name":"Spielt mein Kind im Kurs mit fremden Menschen?","acceptedAnswer":{"@type":"Answer","text":"Nein. Wir nutzen keine öffentlichen Server. Laut Mojang ist der Mehrspielermodus auf Kinderkonten in Java und Bedrock standardmäßig ausgeschaltet, und nur ein Erwachsenenkonto kann ihn einschalten. Für unseren Kurs müssen Sie ihn nicht freischalten."}},{"@type":"Question","name":"Brauchen wir Minecraft Education?","acceptedAnswer":{"@type":"Answer","text":"Nicht zwingend. Minecraft Education braucht laut Microsoft eine Microsoft-365-Lizenz für Bildungseinrichtungen und läuft auf von der Schule verwalteten Geräten. Fragen Sie in der Schule nach, ob Ihr Kind schon Zugang hat. Wenn nicht, arbeiten wir mit Werkzeugen, die ohne diese Lizenz auskommen."}},{"@type":"Question","name":"Zu welchen Zeiten können Minecraft-Kinder lernen?","acceptedAnswer":{"@type":"Answer","text":"Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Den Termin wählen Sie in Ihrer eigenen Uhrzeit."}},{"@type":"Question","name":"Wird mein Kind dadurch nicht einfach noch mehr spielen?","acceptedAnswer":{"@type":"Answer","text":"Im Kurs spielt es nicht, es plant und programmiert. Jede Stunde beginnt mit einer Aufgabe auf Papier, wie der Wahrheitstabelle für die Geheimtür. Unser Ziel ist, dass Ihr Kind danach anders über das Spiel spricht: weniger über Punkte, mehr darüber, wie etwas funktioniert."}},{"@type":"Question","name":"Was kostet der Kurs?","acceptedAnswer":{"@type":"Answer","text":"Den Monatsbeitrag sehen Sie oben in Euro; umgerechnet haben wir mit dem EZB-Referenzkurs. Gezahlt wird in US-Dollar, und Ihre Bank kümmert sich um die Umrechnung. Die Probestunde ist kostenlos."}},{"@type":"Question","name":"Wie geht es nach dem Minecraft-Kurs weiter?","acceptedAnswer":{"@type":"Answer","text":"Viele Kinder wechseln zu Python, weil sie gemerkt haben, dass Textcode mehr kann als Blöcke. Andere bauen eigene Spiele in Roblox oder Godot. Wir besprechen den nächsten Schritt mit Ihnen und Ihrem Kind."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/minecraft-programmieren-lernen-kinder","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-mpl">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Deutschland</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Deutschland</a></li>
+      <li><a href="#welches">Welches Minecraft?</a></li>
+      <li><a href="#konto">Kinderkonto</a></li>
+      <li><a href="#hebel">Hebel</a></li>
+      <li><a href="#weg">Lernweg</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Probestunde</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Startseite</a> / <a href="/courses">Kurse</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Minecraft programmieren
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Deutschland &middot; Minecraft &middot; Kinder von 7 bis 12</p>
+        <h1>Minecraft programmieren lernen, live online</h1>
+        <p class="ag-lede">Ihr Kind baut in Minecraft Burgen, Bahnstrecken und geheime Türen. Bis zum Programmieren ist es von dort nur ein kleiner Schritt, wenn jemand zeigt, wie. Diese Seite erklärt, welches Minecraft wofür gedacht ist, was Mojang selbst zu Kinderkonten und zum Spielen mit Fremden festlegt, wie unser Kurs von Blöcken zu echtem Code führt, und wie Ihr Kind mit drei Hebeln eine Geheimtür plant, die nur bei einer einzigen Stellung aufgeht.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Kostenlose Probestunde buchen</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Priority Demo buchen</a>
+          <a href="#hebel" class="ag-btn ag-btn--ghost">Zum Hebel-Projekt</a>
+          <a href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20unser%20Kind%20liebt%20Minecraft%20und%20m%C3%B6chte%20damit%20programmieren%20lernen%2C%20gern%20live%20auf%20Englisch.%20Gibt%20es%20eine%20kostenlose%20Probestunde%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'mpl'});">Per WhatsApp fragen</a>
+        </div>
+        <p class="ag-hero-note">Live online seit 2020 &middot; über 10.000 Lernende weltweit &middot; Mentor auf Englisch, immer derselbe</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">Auf einen Blick</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4,9 von 5 bei 547 Google-Bewertungen
+        </p>
+        <dl>
+          <dt>Unterrichtssprache</dt><dd>Live-Unterricht ausschließlich auf Englisch, im eigenen Tempo; die Mentoren sprechen deutlich und stellen sich auf Tempo und Akzent der Lernenden ein</dd>
+          <dt>Alter</dt><dd>Etwa 7 bis 12 Jahre</dd>
+          <dt>Werkzeuge</dt><dd>Minecraft, Blockcode, später Textcode</dd>
+          <dt>Ziel</dt><dd>Vom Bauen zum Programmieren</dd>
+          <dt>Unterricht</dt><dd>Live per Video, mit Bildschirmfreigabe</dd>
+          <dt>Gruppe</dt><dd>Fünfzehn bis zwanzig, oder einzeln</dd>
+          <dt>Probestunde</dt><dd>Kostenlos, ohne Kreditkarte</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Kurz gesagt</p>
+      <p>Minecraft programmieren lernen heißt bei Modern Age Coders: Kinder von etwa 7 bis 12 Jahren in ganz Deutschland bauen in Minecraft mit Code statt mit der Hand, zuerst mit Blöcken, dann mit getipptem Code, und lernen dabei Logik, Schleifen und Bedingungen. Wir unterrichten live online und auf Englisch; Ihr Kind hat einen festen Mentor, der sich nach seinem Tempo und seiner Aussprache richtet, und lernt entweder zusammen mit fünfzehn bis zwanzig anderen oder für sich allein. Der Kurs heißt Minecraft Coding for Kids.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Passende Kurse</p>
+      <h2>Drei Kurse für Kinder, die Minecraft lieben</h2>
+      <p class="ag-lede">Der erste ist unser Minecraft-Kurs, der zweite verbindet Minecraft mit anderen Spielwelten, der dritte führt zu Python, wenn Ihr Kind mehr will als Blöcke.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/minecraft-coding-for-kids-course">
+        <div class="ag-pick-shot"><img src="/images/minecraft-coding-kids.webp" alt="Kursbild Minecraft Coding for Kids: From Blocks to Real Code" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MPL / 01</p>
+          <h3>Minecraft Coding for Kids</h3>
+          <p>Für 7 bis 12 Jahre, ohne Vorkenntnisse, vier Monate. Vom ersten Block bis zu Code, der ganze Bauwerke errichtet und Fallen auslöst.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/game-development-masterclass-for-kids">
+        <div class="ag-pick-shot"><img src="/images/game-dev-kids.webp" alt="Kursbild Game Development for Kids" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MPL / 02</p>
+          <h3>Spiele entwickeln: Scratch, Roblox, Minecraft</h3>
+          <p>Für 8 bis 12 Jahre. Für Kinder, die nicht nur in Minecraft bauen, sondern eigene Spiele erfinden wollen.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Kursbild Python and AI for Kids" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MPL / 03</p>
+          <h3>Python and AI for Kids</h3>
+          <p>Von Klasse 3 bis Klasse 8. Der nächste Schritt für Minecraft-Kinder, die gemerkt haben, dass Textcode mehr kann als Blöcke.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="welches">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Spiel oder Schule</p><h2>Welches Minecraft brauchen Kinder zum Programmieren lernen?</h2><p class="ag-lede">Es gibt mehrere Minecraft-Ausgaben, und nur eine davon ist für den Unterricht gebaut. Bevor Sie etwas kaufen, lohnt ein Blick auf die Unterschiede, so wie Mojang und Microsoft sie selbst beschreiben.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Minecraft-Ausgaben und was sie fürs Programmieren bedeuten</caption><thead><tr><th scope="col">Ausgabe</th><th scope="col">Was Mojang oder Microsoft dazu sagt</th><th scope="col">Fürs Programmieren</th></tr></thead><tbody><tr><td>Minecraft Java Edition</td><td>Eine der zwei Fassungen des Spiels, mit eigenen Plattformen und Diensten</td><td>Gut zum Bauen mit Hebeln und Schaltungen; Code eher über Erweiterungen für Fortgeschrittene</td></tr><tr><td>Minecraft Bedrock Edition</td><td>Die zweite Fassung; mit dem Marketplace, auf dem es laut Minecraft Education viele kostenlose Lernwelten gibt</td><td>Gut zum Bauen und für Lernwelten zu Hause</td></tr><tr><td>Minecraft Education</td><td>Braucht eine Microsoft-365-Lizenz für Bildungseinrichtungen und läuft auf von der Schule verwalteten Geräten; enthält Code Builder zum Programmieren mit MakeCode</td><td>Gebaut fürs Programmieren; Ihr Kind hat vielleicht schon Zugang über ein Schulkonto</td></tr><tr><td>MakeCode</td><td>Ein Editor, in dem Blöcke "direkt echten Codezeilen" einer Programmiersprache entsprechen; quelloffen</td><td>Der Weg von Blöcken zu getipptem Code</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quellen: Minecraft, "Parents Guide" auf minecraft.net; Minecraft Education, Seiten "for Parents", "Get Started" und "Licensing" auf education.minecraft.net; Microsoft MakeCode, Seite "About" auf makecode.com; alle gelesen am 3. November 2026. Die Spalte "Fürs Programmieren" ist unsere Einschätzung. Wir sind weder mit Mojang noch mit Microsoft verbunden.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Fragen Sie zuerst in der Schule</h3><p>Minecraft Education schreibt auf seiner Seite für Eltern: Ihr Kind habe möglicherweise schon Zugang über sein Schulkonto. Weltweit wird es nach Angaben von Minecraft Education in 115 Ländern eingesetzt.</p>
+<p>Wenn die Schule Ihres Kindes Microsoft 365 nutzt, lohnt sich eine kurze Nachfrage bei der Klassenlehrkraft oder der IT-Ansprechperson, bevor Sie selbst etwas anschaffen.</p></div><div><h3>Und wenn nicht?</h3><p>Dann brauchen Sie für unseren Kurs kein Minecraft Education. Ein großer Teil des Lernens passiert in Werkzeugen, die im Browser laufen, und mit Logik, die Ihr Kind danach in jedem Minecraft anwenden kann, auch im ganz normalen Spiel zu Hause.</p>
+<p>Der Mentor bespricht in der Probestunde mit Ihnen, welche Ausgabe Ihr Kind schon hat und was damit möglich ist.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="konto">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Kinderkonto und Sicherheit</p><h2>Was sagt Mojang zu Kinderkonten und zum Spielen mit anderen?</h2><p class="ag-lede">Für das Spiel braucht Ihr Kind ein Microsoft-Konto, und für Kinder gelten eigene Regeln. Hier stehen sie so, wie Mojang sie in den Nutzungsbedingungen und im Elternratgeber selbst formuliert. Wir geben keine Rechtsberatung, sondern zitieren.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Regeln für Kinder in Minecraft, nach Mojangs eigenen Seiten (Stand 3. November 2026)</caption><thead><tr><th scope="col">Frage</th><th scope="col">Was Mojang schreibt</th><th scope="col">Quelle</th></tr></thead><tbody><tr><td>Ab wann gilt ein Konto als Kinderkonto?</td><td>Für Personen unter 16 Jahren in den USA und der EU, in Südkorea unter 19</td><td>Minecraft Parents Guide</td></tr><tr><td>Kann ein Kind allein ein Konto haben?</td><td>Nein: Ein Kinderkonto existiert nur verbunden mit einem Microsoft-Konto eines Erwachsenen</td><td>Minecraft Parents Guide</td></tr><tr><td>Wer ändert die Familieneinstellungen?</td><td>Nur Erwachsenenkonten, zum Beispiel um den Mehrspielermodus freizuschalten</td><td>Minecraft Parents Guide</td></tr><tr><td>Ist der Mehrspielermodus an?</td><td>Auf Kinderkonten ist er in Java und Bedrock standardmäßig ausgeschaltet</td><td>Minecraft Parents Guide</td></tr><tr><td>Wer stimmt den Bedingungen zu?</td><td>Bei Minderjährigen sind Eltern oder Erziehungsberechtigte für das Anlegen des Microsoft-Kontos und die Zustimmung zu allen Bedingungen verantwortlich</td><td>Minecraft EULA</td></tr><tr><td>Welche Altersempfehlung nennt Mojang?</td><td>PEGI 7 und ESRB "Everyone 10+"</td><td>Minecraft Parents Guide</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quellen: Minecraft End User License Agreement (EULA) und Minecraft "Parents Guide", beide auf minecraft.net, gelesen am 3. November 2026; Übersetzung und Zusammenfassung von uns. Maßgeblich ist der Originaltext auf Englisch. Die Seite mit den allgemeinen Microsoft-Nutzungsbedingungen hat unsere Abfrage abgelehnt; wir geben sie deshalb nicht wieder.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Was das für unseren Kurs heißt</h3><p>Im Unterricht spielt Ihr Kind nicht mit Fremden. Gebaut und programmiert wird allein oder in einer Welt, die nur Ihr Kind und der Mentor sehen, oder in Werkzeugen außerhalb des Spiels. Den Mehrspielermodus müssen Sie für unseren Kurs nicht freischalten.</p>
+<p>Ein Konto für Ihr Kind legen Sie selbst an, wie es die Bedingungen von Mojang vorsehen. Wir legen keine Konten für Kinder an und fragen keine Zugangsdaten ab.</p></div><div><h3>Wie beliebt ist Minecraft überhaupt?</h3><p>Sehr. Für die KIM-Studie 2024 hat der Forschungsverbund mpfs Kinder befragt; dort nennen 24 Prozent der Kinder, die digitale Spiele spielen, Minecraft als eines ihrer liebsten Spiele, sieben Prozentpunkte mehr als 2022. Es bleibt damit auf Platz eins.</p>
+<p>Und wenn Familien gemeinsam spielen, wird laut derselben Studie am häufigsten Minecraft genannt, von 12 Prozent. Für einen Kurs ist das ein großer Vorteil: Ihr Kind kennt die Welt schon und muss nur lernen, sie mit Code zu steuern.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="hebel">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Ein Projekt für Minecraft-Fans</p><h2>Wie baut ein Kind eine Geheimtür mit UND, ODER und NICHT?</h2><p class="ag-lede">Mit einer Wahrheitstabelle, bevor auch nur ein Block gesetzt wird. Wir haben das Projekt selbst entworfen, für Neunjährige und Ältere, die in Minecraft schon einmal einen Hebel mit einer Lampe verbunden haben. Es funktioniert in jedem Minecraft, mit Hebeln, Lampen und Schaltungen, und dieselbe Logik schreibt Ihr Kind danach als Code.</p></div>
+    <ol class="ag-steps"><li><strong>Zwei Hebel, eine Lampe.</strong> Ihr Kind baut zwei Hebel, A und B, und eine Lampe. Die Frage: Wann soll die Lampe leuchten, wenn beide Hebel umgelegt sein müssen? Und wann, wenn einer genügt?</li><li><strong>Alle Fälle aufschreiben.</strong> Zwei Hebel haben vier mögliche Stellungen: beide aus, nur B an, nur A an, beide an. Ihr Kind schreibt sie untereinander auf ein Blatt, mit einer Spalte für UND und einer für ODER.</li><li><strong>Die Tabelle füllen.</strong> Bei UND leuchtet die Lampe nur in der letzten Zeile. Bei ODER in drei von vier Zeilen. Erst jetzt baut Ihr Kind die Schaltung und prüft jede Zeile, indem es die Hebel umlegt.</li><li><strong>Die Geheimtür planen.</strong> Drei Hebel: Die Tür soll nur aufgehen, wenn A und B an sind und C aus bleibt. C ist die Falle. Wie viele Stellungen gibt es jetzt, und bei wie vielen geht die Tür auf?</li><li><strong>Im Code prüfen.</strong> Mit dem Mentor schreibt Ihr Kind dieselbe Regel in Python und lässt den Computer alle Stellungen durchprobieren.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Hebel-Logik in Python</b><span>Python</span></figcaption><pre>def tuer_und(a, b):
+    return a and b
+
+def tuer_oder(a, b):
+    return a or b
+
+def tuer_geheim(a, b, c):
+    return a and b and not c
+
+for a in [False, True]:
+    for b in [False, True]:
+        print(a, b, tuer_und(a, b), tuer_oder(a, b))
+
+offen = 0
+for a in [False, True]:
+    for b in [False, True]:
+        for c in [False, True]:
+            if tuer_geheim(a, b, c):
+                offen = offen + 1
+                print('offen bei', a, b, c)
+print(offen, 'von 8')</pre><p class="ag-code-note">So sieht die Ausgabe aus, wenn wir das Programm laufen lassen: vier Zeilen <code>False False False False</code>, <code>False True False True</code>, <code>True False False True</code>, <code>True True True True</code>, dann <code>offen bei True True False</code> und <code>1 von 8</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Wahrheitstabelle für zwei Hebel (aus der Ausgabe oben)</caption><thead><tr><th scope="col">Hebel A</th><th scope="col">Hebel B</th><th scope="col">Lampe bei UND</th><th scope="col">Lampe bei ODER</th></tr></thead><tbody><tr><td>aus</td><td>aus</td><td>aus</td><td>aus</td></tr><tr><td>aus</td><td>an</td><td>aus</td><td>an</td></tr><tr><td>an</td><td>aus</td><td>aus</td><td>an</td></tr><tr><td>an</td><td>an</td><td>an</td><td>an</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Bei drei Hebeln gibt es acht Stellungen, zwei mal zwei mal zwei, und die Geheimtür öffnet sich nur bei einer davon: A an, B an, C aus. Das Programm zählt genau das: <code>1 von 8</code>. Kinder, die das verstanden haben, fragen sofort weiter: Was, wenn die Tür bei zwei Stellungen aufgehen soll? Wie viele Stellungen gibt es mit vier Hebeln? Die Antwort, 16, rechnen sie selbst aus, bevor sie sie im Code prüfen.</p>
+    <p>Das NICHT ist der heimliche Star des Projekts. In Minecraft baut man es oft mit einer Fackel, die ausgeht, wenn Strom kommt; in Python heißt es einfach <code>not</code>. Wer verstanden hat, dass eine Falle ein umgedrehter Schalter ist, versteht später auch Bedingungen wie <code>if not spiel_vorbei</code> in jedem Programm.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="weg">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Lernweg</p><h2>Wie wird aus Minecraft-Bauen echtes Programmieren?</h2><p class="ag-lede">In vier Schritten, über etwa vier Monate in unserem Minecraft-Kurs. Jeder Schritt beginnt mit etwas, das Ihr Kind aus dem Spiel kennt.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Vom Bauen zum Code (unser Lernweg, Beispiel)</caption><thead><tr><th scope="col">Schritt</th><th scope="col">Aus dem Spiel bekannt</th><th scope="col">Daraus wird</th><th scope="col">Begriff</th></tr></thead><tbody><tr><td>1</td><td>Eine Mauer Block für Block setzen</td><td>Eine Anweisung, die einen Block setzt, zehnmal wiederholt</td><td>Schleife</td></tr><tr><td>2</td><td>Eine Tür, die mit dem Hebel aufgeht</td><td>Wenn Hebel an, dann Tür offen</td><td>Bedingung</td></tr><tr><td>3</td><td>Gesammelte Diamanten zählen</td><td>Eine Zahl, die bei jedem Fund um eins steigt</td><td>Variable</td></tr><tr><td>4</td><td>Ein Haus, das man immer wieder baut</td><td>Ein Bauplan mit Namen, den man aufruft</td><td>Funktion</td></tr></tbody></table></div>
+    <p class="ag-mt-40">MakeCode beschreibt seine Blöcke selbst als direkte Entsprechung echter Codezeilen. Genau diesen Übergang nutzen wir: Ihr Kind baut einen Ablauf zuerst aus Blöcken und schaut dann nach, wie derselbe Ablauf als Text aussieht. Nach einigen Wochen tippt es kleine Änderungen direkt im Text, weil das schneller geht.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Drei Beispieltermine und die Uhrzeit beim Mentor in Indien</caption><thead><tr><th scope="col">Hier in Deutschland</th><th scope="col">In Indien, Winterzeit</th><th scope="col">In Indien, ab 28. März 2027</th></tr></thead><tbody><tr><td>14:15</td><td>18:45</td><td>17:45</td></tr><tr><td>16:10</td><td>20:40</td><td>19:40</td></tr><tr><td>Samstag 12:00</td><td>16:30</td><td>15:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Nach dem Einheiten- und Zeitgesetz gilt in Deutschland die MEZ (UTC+1) und im Sommer die MESZ (UTC+2). Seit dem 25. Oktober 2026 ist Winterzeit; umgestellt wird wieder in der Nacht zum 28. März 2027. Die indische Uhr steht das ganze Jahr auf UTC+5:30, also viereinhalb Stunden vor unserer im Winter und dreieinhalb im Sommer. Die Zeilen sind Beispiele und keine festen Gruppenzeiten.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fortschritt</p>
+      <h2>Woran Sie den Fortschritt im Minecraft-Kurs sehen</h2>
+      <p class="ag-lede">Unsere eigenen Stufen. Sie beschreiben, was Ihr Kind kann, nicht wie schnell es spielt.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Fünf Stufen vom Bauen zum Programmieren (unsere)</caption><thead><tr><th scope="col">Stufe</th><th scope="col">Ihr Kind kann</th><th scope="col">Typisches Projekt</th></tr></thead><tbody><tr><td>1. Wiederholen</td><td class="ag-num">eine Schleife statt vieler gleicher Schritte verwenden</td><td class="ag-num">eine Mauer oder Treppe per Code</td></tr><tr><td>2. Schalten</td><td class="ag-num">UND, ODER und NICHT in einer Tabelle vorhersagen</td><td class="ag-num">die Geheimtür mit drei Hebeln</td></tr><tr><td>3. Zählen</td><td class="ag-num">mit einer Variable Funde, Runden oder Punkte zählen</td><td class="ag-num">ein Zähler für gesammelte Gegenstände</td></tr><tr><td>4. Bauplan</td><td class="ag-num">eine Funktion schreiben und mit anderen Werten aufrufen</td><td class="ag-num">Häuser in drei Größen aus einem Bauplan</td></tr><tr><td>5. Eigene Idee</td><td class="ag-num">ein eigenes Projekt planen, bauen und erklären</td><td class="ag-num">ein Minispiel mit Regeln, die es selbst erfunden hat</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Für Eltern</h3><p>Stufe 2 ist entscheidend. Ein Kind, das eine Wahrheitstabelle ausfüllt, bevor es baut, denkt wie ein Programmierer und nicht nur wie ein Spieler.</p>
+<p>Fragen Sie nach einer Stunde ruhig, was eine Schaltung tut, bevor Ihr Kind sie vorführt. Die Vorhersage zeigt, ob es verstanden hat.</p></div><div><h3>Für Kinder</h3><p>Schreiben Sie zuerst alle Fälle auf, dann bauen Sie. Wer einen Fall vergisst, findet ihn später als Fehler wieder.</p>
+<p>Eine Falle ist ein NICHT. Fragen Sie sich bei jeder Tür: Was darf auf keinen Fall an sein?</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weitere Kurse</p>
+      <h2>Neun weitere Kurse für junge Baumeister</h2>
+      <p class="ag-lede">Live, auf Englisch und mit demselben Mentor über Monate, wahlweise in einer Gruppe oder allein.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Davor oder daneben</h3>
+        <span class="ag-band-sub">6 bis 12 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MPL / BASIS / 01</p>
+          <h4>Scratch für Grundschulkinder</h4>
+          <p>Klasse 1 bis 5, in drei Stufen.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MPL / BASIS / 02</p>
+          <h4>Coding for Kids</h4>
+          <p>Breiter Einstieg mit Blöcken, 6 bis 12.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MPL / BASIS / 03</p>
+          <h4>Logisch denken für Jüngere</h4>
+          <p>Rätsel und Muster, 6 bis 9.</p>
+          <a class="ag-course-link" href="/courses/reasoning-and-readiness-course-for-young-thinkers">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Andere Spielwelten</h3>
+        <span class="ag-band-sub">8 bis 17 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MPL / WELT / 01</p>
+          <h4>Roblox programmieren</h4>
+          <p>Eigene Spiele in Luau, 8 bis 14.</p>
+          <a class="ag-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MPL / WELT / 02</p>
+          <h4>Spiele mit Godot</h4>
+          <p>2D und 3D, 10 bis 17.</p>
+          <a class="ag-course-link" href="/courses/godot-game-development-course-for-kids-and-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MPL / WELT / 03</p>
+          <h4>Webseiten für Kinder</h4>
+          <p>Die eigene Seite zum Lieblingsspiel, 9 bis 12.</p>
+          <a class="ag-course-link" href="/courses/kids-ai-web-development-course">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Denken und verstehen</h3>
+        <span class="ag-band-sub">8 bis 15 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MPL / DENK / 01</p>
+          <h4>Mathematik mit Code</h4>
+          <p>Muster und Zahlen in Python, 10 bis 15.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MPL / DENK / 02</p>
+          <h4>Informatik-Wettbewerbe</h4>
+          <p>Knobeln ab Klasse 3.</p>
+          <a class="ag-course-link" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MPL / DENK / 03</p>
+          <h4>KI verstehen für Kinder</h4>
+          <p>Wie Maschinen lernen, 8 bis 14.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Organisation</p>
+      <h2>So läuft der Minecraft-Kurs</h2>
+      <p class="ag-lede">Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Nach der Schule</p><p class="ag-slot-l">Für Kinder, die mittags oder am frühen Nachmittag heimkommen.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Samstagmittag</p><p class="ag-slot-l">Wenn unter der Woche Sport oder Musik dran sind.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Einzeln</p><p class="ag-slot-l">Zu einer Zeit, die Sie mit dem Mentor vereinbaren.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Ohne Fremde</h3><p>Kein öffentlicher Server, kein Spielen mit Unbekannten.</p></div>
+      <div><h3>Erst planen, dann bauen</h3><p>Tabellen und Skizzen vor jedem Bau.</p></div>
+      <div><h3>Blöcke und Text</h3><p>Von Blockcode zu getipptem Code, Schritt für Schritt.</p></div>
+      <div><h3>Fester Mentor</h3><p>Derselbe Mensch, Woche für Woche.</p></div>
+      <div><h3>Englisch nebenbei</h3><p>Wörter wie repeat, if und not lernt Ihr Kind mit.</p></div>
+      <div><h3>Monatlich kündbar</h3><p>Keine lange Bindung.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Projekte unserer Lernenden</p>
+      <h2>Projekte unserer Lernenden</h2>
+      <p class="ag-lede">Nach der Geheimtür kommen eigene Spiele und Welten. Arbeiten anderer Kinder und Jugendlicher stehen weiter unten, noch mehr davon auf <a class="ag-inline-link" href="/student-labs">Student labs</a> (auf Englisch).</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Screenshot des Projekts NutriLife, ein KI-Ernährungscoach" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>NutriLife</h4>
+          <p>Ein KI-Ernährungscoach, der Mahlzeiten auswertet und Schritt für Schritt auf ein Ziel hinarbeitet.</p>
+          <p class="ag-proj-meta">von Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Screenshot von Misti, ein KI-Chatbot für Mathematik und Programmieren" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>Misti</h4>
+          <p>Ein Chatbot, der Fragen zu Mathematik und Programmierung beantwortet, von einem Schüler gebaut und veröffentlicht.</p>
+          <p class="ag-proj-meta">von Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Screenshot von GuardianX, ein KI-Assistent für Sicherheit im Internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>GuardianX</h4>
+          <p>Ein Assistent, der jungen Menschen hilft, unsichere Situationen im Internet zu erkennen.</p>
+          <p class="ag-proj-meta">von Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Screenshot der Wetter-App SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web-App</p>
+          <h4>SkyCast</h4>
+          <p>Eine Wetter-Website mit aktuellen Bedingungen für jeden Ort.</p>
+          <p class="ag-proj-meta">von Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preise</p>
+      <h2>Preis des Minecraft-Kurses</h2>
+      <p class="ag-lede">Sie bezahlen monatlich; im Beitrag stecken acht Live-Stunden. Auf dieser Seite steht der Betrag in Euro, ermittelt mit dem Referenzkurs der Europäischen Zentralbank. Eingezogen wird er jedoch in US-Dollar, Ihre Bank rechnet ihn um, und so kann der Betrag auf Ihrem Konto leicht von unserer Anzeige abweichen.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Kostenlose Probestunde</p>
+        <p class="ag-price-amt">Kostenlos</p>
+        <p class="ag-price-alt">keine Karte nötig</p>
+        <ul><li>Kostenlose Probestunde mit erstem Code</li><li>Klärung, welches Minecraft Ihr Kind schon hat</li><li>Ohne Karte</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Buchen</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Gruppenkurs</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group" data-price-format="suffix">90 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Fünfzehn bis zwanzig Kinder</li><li>Ein Mentor für die ganze Zeit</li><li>Zwei Live-Stunden in der Woche</li><li>Monatlich kündbar</li></ul>
+        <a href="#start" class="ag-btn">Hier starten</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Einzelunterricht</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal" data-price-format="suffix">134 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Nur Ihr Kind und der Mentor</li><li>Eigene Bauideen als Projekte</li><li>Termine nach Wunsch</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Anfragen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Was Familien sagen</p>
+      <h2>4,9 von 5 bei 547 Google-Bewertungen</h2>
+      <p class="ag-lede">Eltern über uns auf Google, original auf Englisch.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Häufige Fragen</p>
+      <h2>Minecraft programmieren lernen: Fragen von Eltern</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Kann man mit Minecraft wirklich programmieren lernen?</h3>
+        <p>Ja. In Minecraft Education gibt es dafür das Werkzeug Code Builder, mit dem Kinder in MakeCode programmieren. Und auch im normalen Spiel lernen Kinder mit Hebeln und Schaltungen Logik, die sie später als Code schreiben, wie im Projekt mit der Geheimtür.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Findet der Unterricht auf Deutsch statt?</h3>
+        <p>Nein, Deutsch ist nicht die Unterrichtssprache: Jede Stunde läuft live auf Englisch, mit festem Mentor. Für Minecraft-Kinder ist das oft leichter als gedacht, denn das Spiel lässt sich ohnehin auf Englisch spielen, und Befehle wie repeat, if oder not lernen sie im Kurs mit. Die Mentoren sprechen langsam und gehen auf die Aussprache Ihres Kindes ein.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Ab welchem Alter ist der Minecraft-Kurs geeignet?</h3>
+        <p>Unser Kurs Minecraft Coding for Kids ist für Kinder von 7 bis 12 Jahren. Mojang selbst nennt für das Spiel eine Altersempfehlung von PEGI 7 und ESRB "Everyone 10+". Das Hebel-Projekt auf dieser Seite empfehlen wir ab etwa neun.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Braucht mein Kind ein eigenes Minecraft-Konto?</h3>
+        <p>Für das Spiel braucht es ein Microsoft-Konto. Laut Mojang gilt ein Konto für Kinder unter 16 Jahren in der EU als Kinderkonto, und es kann nur verbunden mit dem Konto eines Erwachsenen bestehen. Das Konto legen Sie als Eltern selbst an; wir legen keine Konten für Kinder an.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Spielt mein Kind im Kurs mit fremden Menschen?</h3>
+        <p>Nein. Wir nutzen keine öffentlichen Server. Laut Mojang ist der Mehrspielermodus auf Kinderkonten in Java und Bedrock standardmäßig ausgeschaltet, und nur ein Erwachsenenkonto kann ihn einschalten. Für unseren Kurs müssen Sie ihn nicht freischalten.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Brauchen wir Minecraft Education?</h3>
+        <p>Nicht zwingend. Minecraft Education braucht laut Microsoft eine Microsoft-365-Lizenz für Bildungseinrichtungen und läuft auf von der Schule verwalteten Geräten. Fragen Sie in der Schule nach, ob Ihr Kind schon Zugang hat. Wenn nicht, arbeiten wir mit Werkzeugen, die ohne diese Lizenz auskommen.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Zu welchen Zeiten können Minecraft-Kinder lernen?</h3>
+        <p>Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Den Termin wählen Sie in Ihrer eigenen Uhrzeit.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wird mein Kind dadurch nicht einfach noch mehr spielen?</h3>
+        <p>Im Kurs spielt es nicht, es plant und programmiert. Jede Stunde beginnt mit einer Aufgabe auf Papier, wie der Wahrheitstabelle für die Geheimtür. Unser Ziel ist, dass Ihr Kind danach anders über das Spiel spricht: weniger über Punkte, mehr darüber, wie etwas funktioniert.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Was kostet der Kurs?</h3>
+        <p>Den Monatsbeitrag sehen Sie oben in Euro; umgerechnet haben wir mit dem EZB-Referenzkurs. Gezahlt wird in US-Dollar, und Ihre Bank kümmert sich um die Umrechnung. Die Probestunde ist kostenlos.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wie geht es nach dem Minecraft-Kurs weiter?</h3>
+        <p>Viele Kinder wechseln zu Python, weil sie gemerkt haben, dass Textcode mehr kann als Blöcke. Andere bauen eigene Spiele in Roblox oder Godot. Wir besprechen den nächsten Schritt mit Ihnen und Ihrem Kind.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weiterlesen</p>
+      <h2>Weitere Seiten für Familien in Deutschland</h2>
+      <p class="ag-lede">Ausgewählt für Eltern, die meisten Seiten auf Englisch.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Unser Angebot für ganz Deutschland.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-kids-berlin">Coding for kids in Berlin</a></h3><p>Für Kinder in Berlin.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>Wenn Informatik in der Schule beginnt.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-in-german-schools-by-state">Informatik by Land</a></h3><p>Informatik in jedem Bundesland.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Wie unser Unterricht funktioniert.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Projekte unserer Lernenden.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Jetzt starten</p>
+        <h2>Probestunde für Minecraft-Kinder</h2>
+        <p class="ag-lede">In der Probestunde baut Ihr Kind mit dem Mentor eine kleine Schaltung, sagt voraus, wann die Lampe leuchtet, und sieht dann, wie dieselbe Regel als Code aussieht. Danach besprechen wir, welches Minecraft Ihr Kind schon hat und welcher Kurs passt.</p>
+        <p class="ag-mt-40">Wer sich vorher umsehen will, liest <a class="ag-inline-link" href="/how-we-teach">How we teach</a> oder stöbert in <a class="ag-inline-link" href="/courses">All courses</a>, beides englischsprachig.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20unser%20Kind%20liebt%20Minecraft%20und%20m%C3%B6chte%20damit%20programmieren%20lernen%2C%20gern%20live%20auf%20Englisch.%20Gibt%20es%20eine%20kostenlose%20Probestunde%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'mpl',pos:'end'});">Per WhatsApp schreiben</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Die Mentoren sitzen in Indien und unterrichten live, nur auf Englisch. Für Fragen ist WhatsApp der kürzeste Draht zu uns.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_mpl(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Ihr Name</label>
+            <input id="de-name" type="text" name="name" placeholder="Name von Elternteil oder Lernendem" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Telefon oder WhatsApp, Deutschland +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Altersgruppe</label>
+            <select id="de-age" name="age"><option value="6-12">Kind, 6 bis 12</option><option value="13-18">Jugendliche, 13 bis 18</option><option value="college">Studierende</option><option value="adult">Berufstätige</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Kostenlose Probestunde anfragen</button>
+          <p class="ag-form-note">Kostenlos, ohne Karte, ohne Abo.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Lieber früher starten? Priority Demo buchen</h3><p>Eine Priority Demo ist eine vollständige Unterrichtsstunde von etwa 45 bis 60 Minuten. Danach schickt der Mentor per WhatsApp einen schriftlichen Kompetenzbericht und einen persönlichen Lernplan. Wenn Sie sich anmelden, wird die Demo-Gebühr mit der ersten Monatsgebühr verrechnet: Schicken Sie uns dazu die Bestellnummer der Demo per WhatsApp.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Priority Demo buchen</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live-Online-Unterricht in Programmieren, KI und Mathematik für Menschen von 6 bis 67 Jahren. Wir unterrichten seit 2020, mehr als
+          10.000 Lernende in 25 Ländern.
+        </p>
+      </div>
+      <div><h4>Minecraft und Spiele</h4><ul><li><a href="/courses/minecraft-coding-for-kids-course">Minecraft Coding for Kids</a></li><li><a href="/courses/game-development-masterclass-for-kids">Spiele entwickeln</a></li><li><a href="/courses/roblox-game-coding-for-kids-lua-course">Roblox programmieren</a></li><li><a href="/courses">Alle Kurse</a></li></ul></div>
+      <div><h4>Deutschland</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-classes-for-kids-berlin">Kinder in Berlin</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/student-labs">Projekte</a></li></ul></div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="/about">Über uns</a></li>
+          <li><a href="/how-we-teach">So unterrichten wir</a></li>
+          <li><a href="/love">Bewertungen</a></li>
+          <li><a href="/contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live-Online-Unterricht weltweit.</span>
+      <span>Erst alle Fälle, dann bauen</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Probestunde</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority Demo</a><a href="tel:+919123366161" aria-label="Anrufen +91 91233 66161">Anrufen</a></div>
+
+<script>
+window.submitLead_mpl = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Wird gesendet...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'minecraft-programmieren-lernen-kinder-inline', meta: { name: name, age: age, page: 'minecraft-programmieren-lernen-kinder' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Vielen Dank' + (name ? ', ' + name.split(' ')[0] : '') + '. Ein Mentor ruft Sie in Kürze an.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Netzwerkfehler. Bitte versuchen Sie es erneut.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
