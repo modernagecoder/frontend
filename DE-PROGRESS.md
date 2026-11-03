@@ -61,7 +61,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE038 | java-classes-germany (jav, #3F467C) | door-en (en) | 3,872 | 2.8% vs python-course-germany | Java Classes in Germany: Live Online, Taught in English | the shape of a binary search tree depends on insertion order (degenerate against balanced trees) | a9bf0347 |
 | DE020 | ib-maths-tutor-germany (imt, #2D527A) | door-en (en) | 4,171 | 2.2% vs abitur-vs-ib-vs-a-levels-maths | IB Maths Tutor in Germany: AA and AI, SL and HL, in English | work backwards from the target, then check the answer in the original condition | 58b07f0d |
 | DE010 | coding-classes-cost-germany (cco, #005E70) | pillar (en) | 4,660 | 2.5% vs best-online-coding-classes-germany | Coding Classes Cost in Germany: What You Pay For | an average is not a calendar; count the real days | 0a81ca68 |
-| DE053 | programmierkurs-kinder-online (prk, #6C3B41) | door-de (de) | 3,910 | 1.8% vs informatik-nachhilfe-online | Programmierkurs für Kinder online: live, 6 bis 12 Jahre | turning changes the heading, not the square; keep track of position and heading together | (this commit) |
+| DE053 | programmierkurs-kinder-online (prk, #6C3B41) | door-de (de) | 3,910 | 1.8% vs informatik-nachhilfe-online | Programmierkurs für Kinder online: live, 6 bis 12 Jahre | turning changes the heading, not the square; keep track of position and heading together | 65771ab8 |
+| DE054 | coding-fuer-kinder (kin, #714A5E) | door-de (de) | 3,516 | 1.5% vs informatik-nachhilfe-online | Coding für Kinder: was es ist und wie Kinder es lernen | a code and its key; decoding is the same rule run backwards | (this commit) |
 
 ## Notes
 

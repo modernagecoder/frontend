@@ -789,6 +789,7 @@ const SLUGS = [
   'ib-maths-tutor-germany',
   'coding-classes-cost-germany',
   'programmierkurs-kinder-online',
+  'coding-fuer-kinder',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1657,6 +1658,7 @@ const LLMS_LABELS = {
   'ib-maths-tutor-germany': 'IB maths tutor in Germany',
   'coding-classes-cost-germany': 'Coding classes cost in Germany',
   'programmierkurs-kinder-online': 'Programmierkurs für Kinder online (auf Englisch)',
+  'coding-fuer-kinder': 'Coding für Kinder (Unterricht auf Englisch)',
 };
 
 function wireLlms(slugs) {

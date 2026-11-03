@@ -29785,6 +29785,18 @@
   to = "/src/pages/programmierkurs-kinder-online.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-fuer-kinder"
+  to = "/src/pages/coding-fuer-kinder.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-fuer-kinder.md"
+  to = "/src/pages/coding-fuer-kinder.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
