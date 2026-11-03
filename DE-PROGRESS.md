@@ -178,7 +178,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE193 | coding-classes-for-kids-in-erlangen-germany (erl, #865933) | city-t2 (en) | 3,453 | 1.5% vs coding-classes-for-kids-in-reutlingen-germany | Coding Classes for Kids in Erlangen: Live Online, in English | scaling a count into a picture; whole-number division (//) drops the remainder, so round on purpose and | 681d2cf6 |
 | DE142 | coding-classes-for-kids-in-wuppertal-germany (ckw, #7C5828) | city-t2 (en) | 4,145 | 2.2% vs coding-classes-for-kids-in-aachen-germany | Coding Classes for Kids in Wuppertal, Live in English | a category is hiding inside a text label; split the label, then count | bb7e51c3 |
 | DE143 | coding-and-ai-classes-in-bielefeld-germany (cab, #1C5844) | city-t2 (en) | 4,289 | 2.2% vs coding-and-ai-classes-in-duisburg-germany | Coding and AI Classes in Bielefeld: Live Online in English | make the computer read a German file (encoding, decimal comma, uneven years), then distrust a percentage | 4e20f303 |
-| DE167 | coding-and-ai-classes-in-saarbruecken-germany (cas, #522956) | city-t2 (en) | 4,585 | 1.9% vs coding-classes-in-schleswig-holstein | Coding and AI Classes in Saarbrücken, Live Online in English | nearest neighbours need a common ruler; scale every feature before you measure distance | (this commit) |
+| DE167 | coding-and-ai-classes-in-saarbruecken-germany (cas, #522956) | city-t2 (en) | 4,585 | 1.9% vs coding-classes-in-schleswig-holstein | Coding and AI Classes in Saarbrücken, Live Online in English | nearest neighbours need a common ruler; scale every feature before you measure distance | 4c92b158 |
+| DE168 | online-python-classes-hamm-germany (ham, #7C2526) | city-t2 (en) | 4,008 | 2.1% vs online-python-classes-bochum-germany | Online Python Classes in Hamm: Live, in English, Every Age | a class bundles data with its methods; a method lives on the class, so every object gains it at once | (this commit) |
 
 ## Notes
 
