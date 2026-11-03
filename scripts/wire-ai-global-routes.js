@@ -900,6 +900,7 @@ const SLUGS = [
   'coding-and-ai-classes-in-wolfsburg-germany',
   'online-python-classes-goettingen-germany',
   'coding-classes-for-kids-in-reutlingen-germany',
+  'coding-and-ai-classes-in-bremerhaven-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1879,6 +1880,7 @@ const LLMS_LABELS = {
   'coding-and-ai-classes-in-wolfsburg-germany': 'Coding and AI classes in Wolfsburg',
   'online-python-classes-goettingen-germany': 'Online Python classes in Göttingen',
   'coding-classes-for-kids-in-reutlingen-germany': 'Coding classes for kids in Reutlingen',
+  'coding-and-ai-classes-in-bremerhaven-germany': 'Coding and AI classes in Bremerhaven',
 };
 
 function wireLlms(slugs) {
