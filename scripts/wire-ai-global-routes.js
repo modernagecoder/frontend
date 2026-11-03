@@ -920,6 +920,7 @@ const SLUGS = [
   'coding-and-ai-classes-in-luebeck-germany',
   'online-python-classes-oberhausen-germany',
   'coding-classes-for-kids-in-rostock-germany',
+  'coding-and-ai-classes-in-kassel-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1919,6 +1920,7 @@ const LLMS_LABELS = {
   'coding-and-ai-classes-in-luebeck-germany': 'Coding and AI classes in Lübeck',
   'online-python-classes-oberhausen-germany': 'Online Python classes in Oberhausen',
   'coding-classes-for-kids-in-rostock-germany': 'Coding classes for kids in Rostock',
+  'coding-and-ai-classes-in-kassel-germany': 'Coding and AI classes in Kassel',
 };
 
 function wireLlms(slugs) {
