@@ -128,7 +128,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE056 | programmieren-lernen-ab-12 (ple, #425B8F) | door-de (de) | 3,922 | 2.5% vs informatik-abitur-vorbereitung | Programmieren lernen ab 12: live online auf Englisch | halve what is left; a good guessing strategy needs at most seven questions for 1 to 100 (binary search) | 820db7cc |
 | DE057 | programmierkurs-jugendliche-online (pju, #7B476F) | door-de (de) | 3,598 | 2.1% vs mathe-nachhilfe-auf-englisch | Programmierkurs für Jugendliche online, live auf Englisch | a stop condition with != can be jumped over; stop with a comparison and make sure every step moves towards it | b4c9e605 |
 | DE058 | programmieren-lernen-erwachsene-online (prl, #844D16) | door-de (de) | 3,436 | 2.4% vs programmierkurs-jugendliche-online | Programmieren lernen als Erwachsener: live online auf Englisch | dry run before you change anything; print the plan, check it, then let the script act | 6a4bce11 |
-| DE059 | ki-kurs-fuer-rentner-und-senioren (kkr, #73501F) | door-de (de) | 3,720 | 2.7% vs programmieren-lernen-erwachsene-online | KI-Kurs für Rentner und Senioren: live online, auf Englisch | a language model continues what is likely, not what is true (next-word prediction from counted word pairs) | (this commit) |
+| DE059 | ki-kurs-fuer-rentner-und-senioren (kkr, #73501F) | door-de (de) | 3,720 | 2.7% vs programmieren-lernen-erwachsene-online | KI-Kurs für Rentner und Senioren: live online, auf Englisch | a language model continues what is likely, not what is true (next-word prediction from counted word pairs) | c50f3adb |
+| DE061 | python-lernen-fuer-schueler (pls, #187370) | door-de (de) | 3,427 | 2.4% vs programmieren-lernen-ab-12 | Python lernen für Schüler: live online, auf Englisch | read a traceback from the bottom up, then guard the case that caused it (an empty list) | (this commit) |
 
 ## Notes
 

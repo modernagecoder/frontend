@@ -9402,4 +9402,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ki-kurs-fuer-rentner-und-senioren /src/pages/ki-kurs-fuer-rentner-und-senioren.html 200
 /ki-kurs-fuer-rentner-und-senioren.md /src/pages/ki-kurs-fuer-rentner-und-senioren.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/python-lernen-fuer-schueler /src/pages/python-lernen-fuer-schueler.html 200
+/python-lernen-fuer-schueler.md /src/pages/python-lernen-fuer-schueler.md 200
 /* /src/pages/404.html 404

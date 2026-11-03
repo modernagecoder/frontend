@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Python lernen für Schüler: live online, auf Englisch</title>
+  <meta name="description" content="Python lernen für Schülerinnen und Schüler: live online auf Englisch, passend zu Informatik, Abitur und Jugendwettbewerb 2027, mit dem Lesen von Fehlermeldungen.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/python-lernen-fuer-schueler">
+  <link rel="alternate" type="text/markdown" href="/src/pages/python-lernen-fuer-schueler.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#187370">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/python-lernen-fuer-schueler">
+  <meta property="og:title" content="Python lernen für Schüler: live online, auf Englisch">
+  <meta property="og:description" content="Python für die Schule, live auf Englisch: wo Python im Abitur und im Jugendwettbewerb Informatik 2027 vorkommt, warum Python gut zur Schule passt, und wie man eine Fehlermeldung von unten nach oben liest.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="de_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Python lernen für Schüler: live online, auf Englisch">
+  <meta name="twitter:description" content="Python für Schüler, live auf Englisch: Abitur in Sachsen, Jugendwettbewerb 2027 und Fehlermeldungen richtig lesen.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-pls .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-pls .ag-capsule { border-left-width: 4px; border-radius: 0; }
+.ag-root.ag-pls .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-pls .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-pls .ag-code-head b { letter-spacing: 0.02em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/python-lernen-fuer-schueler#page","url":"https://learn.modernagecoders.com/python-lernen-fuer-schueler","name":"Python lernen für Schüler","description":"Ein Leitfaden für Schülerinnen und Schüler in Deutschland, die Python lernen möchten: Python im Informatik-Abitur nach dem Informatik-Monitor 2026/27, Python im Jugendwettbewerb Informatik ab 2027, die Regeln aus PEP 8 und PEP 20 und ein eigenes Beispiel zum Lesen von Fehlermeldungen.","inLanguage":"de-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Kurse","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Python für Schüler","item":"https://learn.modernagecoders.com/python-lernen-fuer-schueler"}]},{"@type":"Course","name":"Python lernen für Schüler","description":"Live-Online-Python-Unterricht für Schülerinnen und Schüler der Klassen 7 bis 13 in ganz Deutschland, ausschließlich auf Englisch: von den Grundlagen bis zu Oberstufe, Abitur und Wettbewerben, in der Gruppe oder im Einzelunterricht.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/python-lernen-fuer-schueler"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/python-lernen-fuer-schueler"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/python-lernen-fuer-schueler"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Findet der Unterricht auf Deutsch statt?","acceptedAnswer":{"@type":"Answer","text":"Nein, der Unterricht ist live und nur auf Englisch. Gerade bei Python ist das ein Vorteil: Sie lernen Programmieren und Englisch zugleich, und die Fehlermeldungen von Python, die Dokumentation und PEP 8 sind ohnehin englisch. Der Mentor spricht deutlich und passt sich Ihrem Tempo und Ihrer Aussprache an."}},{"@type":"Question","name":"Ab welcher Klasse kann man Python lernen?","acceptedAnswer":{"@type":"Answer","text":"Die meisten Schülerinnen und Schüler beginnen bei uns in Klasse 7 oder 8. Wer jünger ist, startet oft mit Scratch oder unserem Kurs Python und KI für Kinder und wechselt später."}},{"@type":"Question","name":"Kommt Python im Abitur vor?","acceptedAnswer":{"@type":"Answer","text":"Das hängt vom Land ab. Laut Informatik-Monitor 2026/27 sind im schriftlichen Leistungskurs-Abitur Informatik in Sachsen im Prüfungsteil B Dokumentationen für SQL, Python 3 und Java sowie ein zugelassener Computer erlaubt. In Bayern und Nordrhein-Westfalen wird das schriftliche Informatik-Abitur ohne Computer geschrieben."}},{"@type":"Question","name":"Darf man im Jugendwettbewerb Informatik Python benutzen?","acceptedAnswer":{"@type":"Answer","text":"Ab 2027 ja. Laut BWINF können die Aufgaben der 1. und 2. Runde neben Blockly auch in Python bearbeitet werden. Die 1. Runde 2027 läuft vom 22. Februar bis 7. März 2027; angemeldet wird über die Schule."}},{"@type":"Question","name":"Python oder Java: was soll ich lernen?","acceptedAnswer":{"@type":"Answer","text":"Für den Einstieg meist Python, weil es weniger Schreibarbeit verlangt. Verwendet Ihre Oberstufe Java, lernen wir rechtzeitig auch Java; mit Python-Grundlagen geht das deutlich schneller."}},{"@type":"Question","name":"Hilft der Kurs bei Informatik-Hausaufgaben?","acceptedAnswer":{"@type":"Answer","text":"Wir erklären den Stoff und üben mit ähnlichen Aufgaben, machen aber keine Hausaufgaben für Sie. Ziel ist, dass Sie die Aufgabe danach selbst lösen und erklären können."}},{"@type":"Question","name":"Wird im Unterricht KI zum Programmieren benutzt?","acceptedAnswer":{"@type":"Answer","text":"Nein, Sie schreiben Ihren Code selbst. Wer Fehlermeldungen lesen und Programme erklären kann, kann später auch die Vorschläge von KI-Werkzeugen prüfen. Werkzeuge, die erst ab 18 erlaubt sind, empfehlen wir Schülerinnen und Schülern nicht."}},{"@type":"Question","name":"Wann sind die Stunden?","acceptedAnswer":{"@type":"Answer","text":"Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Ein Termin am Samstag um 12:00 Uhr ist im Winter 16:30 Uhr in Indien."}},{"@type":"Question","name":"Was brauche ich dafür?","acceptedAnswer":{"@type":"Answer","text":"Einen Laptop oder Computer mit Tastatur, Internet und ein Headset. Python und der Editor sind kostenlos; die Installation erledigen wir gemeinsam in der ersten Stunde."}},{"@type":"Question","name":"Wie wird bezahlt?","acceptedAnswer":{"@type":"Answer","text":"Monatlich. Die Gebühr erscheint hier in Euro zum Referenzkurs der EZB, abgebucht wird in US-Dollar, und Ihre Bank rechnet um. Die Probestunde kostet nichts."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/python-lernen-fuer-schueler","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-pls">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Deutschland</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Deutschland</a></li>
+      <li><a href="#schule">Schule</a></li>
+      <li><a href="#fehler">Fehler</a></li>
+      <li><a href="#regeln">Regeln</a></li>
+      <li><a href="#zeiten">Zeiten</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Probestunde</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Startseite</a> / <a href="/courses">Kurse</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Python für Schüler
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Deutschland &middot; Python &middot; Klasse 7 bis 13</p>
+        <h1>Python lernen für Schüler, live auf Englisch</h1>
+        <p class="ag-lede">Python ist die Sprache, mit der viele Schülerinnen und Schüler heute zum ersten Mal richtig programmieren, und sie taucht an immer mehr Stellen der Schullaufbahn auf: im Informatikunterricht, in einzelnen Abiturprüfungen und ab 2027 auch im Jugendwettbewerb Informatik. Diese Seite zeigt, wo genau, warum Python für die Schule gut passt, und übt die eine Fähigkeit, die in keinem Schulbuch genug Platz bekommt: eine Fehlermeldung richtig zu lesen.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Kostenlose Probestunde buchen</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Priority Demo buchen</a>
+          <a href="#fehler" class="ag-btn ag-btn--ghost">Fehlermeldungen lesen</a>
+          <a href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20ich%20m%C3%B6chte%20als%20Sch%C3%BClerin%20oder%20Sch%C3%BCler%20Python%20lernen%2C%20live%20auf%20Englisch.%20Gibt%20es%20eine%20kostenlose%20Probestunde%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pls'});">Per WhatsApp fragen</a>
+        </div>
+        <p class="ag-hero-note">Live-Unterricht seit 2020 &middot; mehr als 10.000 Lernende weltweit &middot; auf Englisch, mit einem festen Mentor</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">Auf einen Blick</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4,9 von 5 bei 547 Google-Bewertungen
+        </p>
+        <dl>
+          <dt>Unterrichtssprache</dt><dd>Live-Unterricht ausschließlich auf Englisch, im eigenen Tempo; die Mentoren sprechen deutlich und stellen sich auf Tempo und Akzent der Lernenden ein</dd>
+          <dt>Klassen</dt><dd>7 bis 13, alle Schularten</dd>
+          <dt>Sprache</dt><dd>Python 3, später auf Wunsch Java</dd>
+          <dt>Schwerpunkt</dt><dd>Selbst schreiben und Fehler finden</dd>
+          <dt>Gruppe</dt><dd>Fünfzehn bis zwanzig, oder einzeln</dd>
+          <dt>Passt zu</dt><dd>Informatik, Abitur, Wettbewerben</dd>
+          <dt>Probestunde</dt><dd>Kostenlos</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Kurz gesagt</p>
+      <p>Python lernen für Schüler heißt bei Modern Age Coders: Unterricht in Echtzeit über Video, gehalten auf Englisch von einem Mentor in Indien, der jede Woche derselbe ist und sich nach Ihrer Geschwindigkeit und Aussprache richtet. Schülerinnen und Schüler der Klassen 7 bis 13 lernen Python von den Grundlagen bis zu Datenstrukturen, passend zum Informatikunterricht, zum Abitur und zum Jugendwettbewerb Informatik. Unterrichtet wird in einer Gruppe von fünfzehn bis zwanzig Lernenden oder einzeln.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Passende Kurse</p>
+      <h2>Drei Python-Kurse für die Schulzeit</h2>
+      <p class="ag-lede">Der vollständige Python-Kurs für Jugendliche, der Oberstufenkurs mit Python oder Java und der Kurs für die Informatik-Wettbewerbe.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Kursbild Python für Jugendliche" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PLS / 01</p>
+          <h3>Python für Jugendliche</h3>
+          <p>Für 13 bis 18, ganz ohne Vorwissen. Vom ersten print bis zu Klassen, Dateien und eigenen Projekten.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/informatik-abitur-course-java-python">
+        <div class="ag-pick-shot"><img src="/images/informatik-abitur-java-python.webp" alt="Kursbild Informatik Abitur mit Python und Java" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PLS / 02</p>
+          <h3>Informatik in der Oberstufe</h3>
+          <p>Ab etwa 16 Jahren. Datenstrukturen, Objektorientierung, SQL und Automaten in Python oder Java, dazu Aufgaben auf Papier.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">
+        <div class="ag-pick-shot"><img src="/images/german-informatics-competitions.webp" alt="Kursbild Informatik-Wettbewerbe" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PLS / 03</p>
+          <h3>Wettbewerbe in Informatik</h3>
+          <p>Von etwa 9 bis 19 Jahren. Eigene Übungsaufgaben im Stil von Biber, Jugendwettbewerb und Bundeswettbewerb, gelöst in Python.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="schule">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Python in der Schullaufbahn</p><h2>Wo kommt Python in Schule, Abitur und Wettbewerben vor?</h2><p class="ag-lede">An mehr Stellen, als viele denken, aber nicht überall gleich. Die Bundesländer entscheiden selbst, welche Sprache im Unterricht verwendet wird; oft ist es Python, manchmal Java. Die Tabelle sammelt Stellen, die in Quellen für 2026/27 ausdrücklich beschrieben sind.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Python und Programmieren in der Prüfung, 2026/27 und 2027</caption><thead><tr><th scope="col">Wo</th><th scope="col">Was gilt</th><th scope="col">Quelle</th></tr></thead><tbody><tr><td>Sachsen, Leistungskurs Informatik, schriftliches Abitur</td><td>Zentral gestellt; im Prüfungsteil B Aufgaben mit praktischem Anteil, erlaubt sind Dokumentationen für SQL, Python 3 und Java und ein zugelassener Computer</td><td>Informatik-Monitor 2026/27</td></tr><tr><td>Bayern, schriftliches Informatik-Abitur</td><td>Zentral gestellt; große Teile sind Programmieraufgaben auf Papier, ohne praktische Anteile am Rechner</td><td>Informatik-Monitor 2026/27</td></tr><tr><td>Nordrhein-Westfalen, schriftliches Informatik-Abitur</td><td>Zentral gestellt; ein Computer ist für die Bearbeitung nicht vorgesehen</td><td>Informatik-Monitor 2026/27</td></tr><tr><td>Jugendwettbewerb Informatik 2027, 1. und 2. Runde</td><td>Aufgaben dürfen neben Blockly erstmals auch in Python bearbeitet werden</td><td>BWINF</td></tr><tr><td>Jugendwettbewerb Informatik 2027, Termine</td><td>1. Runde vom 22. Februar bis 7. März 2027, 2. Runde vom 12. bis 25. April 2027, 3. Runde vom 1. September bis 15. November 2027</td><td>BWINF</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Grundlage sind die Seiten zu Sachsen, Bayern und Nordrhein-Westfalen im Informatik-Monitor 2026/27 der GI; Bundesweite Informatikwettbewerbe, Seite zum Jugendwettbewerb Informatik 2026 mit den Terminen für 2027. Gelesen am 2. und 3. November 2026. Modern Age Coders ist weder mit der GI noch mit BWINF verbunden.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Was das für das Lernen heißt</h3><p>Wer in Sachsen den Leistungskurs Informatik wählt, programmiert im Abitur unter Umständen am Rechner und darf die Python-Dokumentation benutzen. Wer in Bayern oder Nordrhein-Westfalen schreibt, muss Code ohne Computer lesen und schreiben können. Beides verlangt dasselbe Fundament: Man muss wissen, was jede Zeile tut, ohne es ausprobieren zu müssen.</p>
+<p>In Sachsen beginnt der Pflichtunterricht in Informatik laut Monitor schon in Klasse 7, mit einer Wochenstunde bis Klasse 10. Bis zum Leistungskurs bleiben also mehrere Jahre, in denen Python nebenher wachsen kann.</p></div><div><h3>Was wir dabei tun</h3><p>Wir unterrichten neben der Schule und richten uns nach der Sprache, die Ihre Schule verwendet. Wir vergeben keine Noten, und für Abitur und Zeugnis zählt allein der Unterricht an Ihrer Schule.</p>
+<p>Für den Jugendwettbewerb 2027 üben wir mit eigenen Aufgaben in Python. Die Originalaufgaben früherer Runden stellt BWINF selbst zum Üben bereit; angemeldet wird man über eine Lehrkraft der eigenen Schule.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="warum">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Warum Python</p><h2>Ist Python die richtige erste Programmiersprache für Schüler?</h2><p class="ag-lede">Für die meisten ja. Python liest sich fast wie Englisch, braucht wenig Zeichen drumherum und zwingt durch die Einrückung zu ordentlichem Code. Python ist dabei älter, als viele Schülerinnen und Schüler glauben: Laut der offiziellen Python-FAQ begann Guido van Rossum in den Weihnachtsferien 1989 damit, am Forschungsinstitut CWI in Amsterdam.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Dieselbe Aufgabe, zwei Sprachen (unser Beispiel)</caption><thead><tr><th scope="col">Aufgabe</th><th scope="col">Python</th><th scope="col">Java</th></tr></thead><tbody><tr><td>Hallo sagen</td><td><code>print("Hallo")</code></td><td><code>System.out.println("Hallo");</code> in einer Klasse mit <code>main</code>-Methode</td></tr><tr><td>Eine Liste anlegen</td><td><code>zahlen = [3, 1, 4]</code></td><td><code>int[] zahlen = {3, 1, 4};</code></td></tr><tr><td>Einen Block markieren</td><td>Einrückung mit vier Leerzeichen</td><td>Geschweifte Klammern</td></tr><tr><td>Typ einer Variable</td><td>ergibt sich beim Ausführen</td><td>muss vorher angegeben werden</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Java hat seine Stärken, gerade in der Oberstufe mancher Länder, und wer Python gut kann, lernt Java später schneller. Der umgekehrte Weg ist für die meisten Zwölf- bis Vierzehnjährigen mühsamer, weil Java viel Schreibarbeit verlangt, bevor das erste Programm überhaupt etwas tut.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="fehler">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Die wichtigste Fähigkeit</p><h2>Wie liest man eine Python-Fehlermeldung richtig?</h2><p class="ag-lede">Von unten nach oben. Das offizielle Python-Tutorial sagt es so: Die letzte Zeile der Fehlermeldung zeigt, was passiert ist; der Teil davor zeigt den Zusammenhang, in Form eines Tracebacks. Das folgende Beispiel ist unser eigenes: Ein Programm berechnet für die Klasse 8b die durchschnittliche Zeit im 100-Meter-Lauf, und für eine Schülerin gibt es noch keine Messung.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>laufzeiten.py</b><span>Python</span></figcaption><pre>def mittelwert(zeiten):
+    return sum(zeiten) / len(zeiten)
+
+def bericht(klasse):
+    for name, zeiten in klasse.items():
+        print(name, round(mittelwert(zeiten), 1))
+
+klasse_8b = {'Aylin': [12.4, 11.9], 'Ben': [13.1], 'Clara': []}
+bericht(klasse_8b)</pre><p class="ag-code-note">Aufgabe: Was erscheint, bevor das Programm abbricht, und in welcher Zeile liegt die Ursache? Erst überlegen, dann weiterlesen.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Die Ausgabe</b><span>Text</span></figcaption><pre>Aylin 12.2
+Ben 13.1
+Traceback (most recent call last):
+  File "laufzeiten.py", line 9, in &lt;module&gt;
+    bericht(klasse_8b)
+  File "laufzeiten.py", line 6, in bericht
+    print(name, round(mittelwert(zeiten), 1))
+  File "laufzeiten.py", line 2, in mittelwert
+    return sum(zeiten) / len(zeiten)
+ZeroDivisionError: division by zero</pre><p class="ag-code-note">So hat Python 3 das Programm bei uns ausgeführt. Den langen Dateipfad haben wir auf den Dateinamen gekürzt, und neuere Python-Versionen setzen unter manche Zeilen zusätzlich Markierungen aus <code>~</code> und <code>^</code>, die auf die genaue Stelle zeigen.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Den Traceback von unten nach oben lesen</caption><thead><tr><th scope="col">Lesen Sie</th><th scope="col">Dort steht</th><th scope="col">Das bedeutet</th></tr></thead><tbody><tr><td>zuerst die letzte Zeile</td><td><code>ZeroDivisionError: division by zero</code></td><td>Es wurde durch null geteilt.</td></tr><tr><td>dann die Zeile darüber</td><td>Zeile 2 in <code>mittelwert</code></td><td>Hier steht die Division <code>/ len(zeiten)</code>.</td></tr><tr><td>dann weiter nach oben</td><td>Zeile 6 in <code>bericht</code></td><td>Von hier wurde <code>mittelwert</code> aufgerufen, gerade für Clara.</td></tr><tr><td>zuletzt ganz oben</td><td>Zeile 9</td><td>Hier begann alles, mit dem Aufruf von <code>bericht</code>.</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Die Ursache ist nicht Zeile 2, sondern die leere Liste von Clara: <code>len([])</code> ist 0. Aylin und Ben wurden noch richtig ausgegeben, deshalb sieht der Fehler auf den ersten Blick rätselhaft aus. Die Lösung ist, den Sonderfall ausdrücklich zu behandeln, statt ihn zu verstecken. PEP 20, die Grundsätze von Python, sagt dazu: "Errors should never pass silently."</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Die verbesserte Fassung</b><span>Python</span></figcaption><pre>def mittelwert(zeiten):
+    if not zeiten:
+        return None
+    return sum(zeiten) / len(zeiten)
+
+def bericht(klasse):
+    for name, zeiten in klasse.items():
+        wert = mittelwert(zeiten)
+        if wert is None:
+            print(name, 'noch keine Zeit')
+        else:
+            print(name, round(wert, 1))
+
+klasse_8b = {'Aylin': [12.4, 11.9], 'Ben': [13.1], 'Clara': []}
+bericht(klasse_8b)</pre><p class="ag-code-note">Ausgabe, von uns ausgeführt: <code>Aylin 12.2</code>, <code>Ben 13.1</code>, <code>Clara noch keine Zeit</code>. Das Programm sagt jetzt offen, dass eine Messung fehlt, statt abzustürzen oder eine falsche Null zu zeigen.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><strong>Unten anfangen.</strong> Die letzte Zeile nennt die Art des Fehlers. Lesen Sie sie laut vor, bevor Sie irgendetwas ändern.</li><li><strong>Nach oben wandern.</strong> Jede Zeile darüber ist ein Schritt zurück auf dem Weg, den das Programm genommen hat.</li><li><strong>Nach dem Wert fragen.</strong> Welcher Wert war in diesem Moment im Spiel? Hier war es eine leere Liste.</li><li><strong>Den Fall behandeln.</strong> Fangen Sie den Sonderfall dort ab, wo er entsteht, und lassen Sie das Programm sagen, was los ist.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="regeln">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Gute Gewohnheiten</p><h2>Welche Regeln für sauberen Python-Code sollten Schüler kennen?</h2><p class="ag-lede">Python hat eine eigene, offizielle Stilrichtlinie, PEP 8, und eine kurze Sammlung von Grundsätzen, PEP 20. Beide sind auf Englisch und frei lesbar. Ein paar dieser Regeln lohnen sich von der ersten Stunde an, weil sie Code für Lehrkräfte, Prüfer und das eigene spätere Ich lesbar machen.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Fünf Regeln aus PEP 8 und PEP 20, und warum sie in der Schule helfen</caption><thead><tr><th scope="col">Regel</th><th scope="col">Wortlaut</th><th scope="col">In der Schule</th></tr></thead><tbody><tr><td>Einrückung</td><td>"Use 4 spaces per indentation level." (PEP 8)</td><td>Wer immer vier Leerzeichen nimmt, sieht sofort, was zur Schleife gehört.</td></tr><tr><td>Zeilenlänge</td><td>"Limit all lines to a maximum of 79 characters." (PEP 8)</td><td>Kurze Zeilen lassen sich auch auf Papier sauber abschreiben.</td></tr><tr><td>Namen</td><td>Funktionsnamen in Kleinbuchstaben, Wörter durch Unterstriche getrennt (PEP 8)</td><td><code>mittelwert</code> und <code>klasse_8b</code> statt <code>MW</code> und <code>x</code>.</td></tr><tr><td>Lesbarkeit</td><td>"Readability counts." (PEP 20)</td><td>Ein Programm wird öfter gelesen als geschrieben, auch im Abitur.</td></tr><tr><td>Fehler</td><td>"Errors should never pass silently." (PEP 20)</td><td>Ein Sonderfall wird gemeldet, nicht verschluckt, wie bei Clara.</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quellen: PEP 8, "Style Guide for Python Code", und PEP 20, "The Zen of Python", auf peps.python.org, gelesen am 3. November 2026. Die Zitate sind wörtlich, die rechte Spalte ist unsere Einordnung. Den vollständigen Text von PEP 20 zeigt jede Python-Installation mit dem Befehl <code>import this</code>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="weg">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Lernweg</p><h2>In welcher Reihenfolge lernt man Python als Schüler am sinnvollsten?</h2><p class="ag-lede">Unsere Reihenfolge folgt dem, was Schülerinnen und Schüler im Unterricht und in Prüfungen brauchen. Die Klassen sind Richtwerte, kein Muss.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Python von Klasse 7 bis zum Abitur (unser Lernweg)</caption><thead><tr><th scope="col">Etwa Klasse</th><th scope="col">Thema</th><th scope="col">Woran man merkt, dass es sitzt</th></tr></thead><tbody><tr><td>7 und 8</td><td>Ausgabe, Variablen, Eingabe, Bedingungen</td><td>Ein kleines Quiz mit if und else läuft ohne Hilfe.</td></tr><tr><td>8 und 9</td><td>Schleifen, Listen, erste Fehlermeldungen</td><td>Ein Traceback wird von unten nach oben gelesen.</td></tr><tr><td>9 und 10</td><td>Funktionen, Wörterbücher, Dateien</td><td>Ein Programm ist in sinnvolle Funktionen zerlegt.</td></tr><tr><td>Einführungsphase</td><td>Klassen und Objekte, Tests</td><td>Eine eigene Klasse mit Methoden wird getestet.</td></tr><tr><td>Qualifikationsphase</td><td>Datenstrukturen, Suchen und Sortieren, SQL</td><td>Laufzeit und Randfälle werden begründet, auch auf Papier.</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Wer früh mit Python beginnt, hat in der Oberstufe Luft für die schwierigen Themen. Wer spät beginnt, holt die Grundlagen bei uns in einigen Monaten nach; der Mentor sieht in der Probestunde, wo Sie stehen.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="zeiten">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unterrichtszeiten</p><h2>Wann findet der Python-Unterricht statt?</h2><p class="ag-lede">Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Beispieltermine, deutsche und indische Uhrzeit</caption><thead><tr><th scope="col">Deutsche Zeit</th><th scope="col">Indische Zeit im Winter (bis 27. März 2027)</th><th scope="col">Indische Zeit im Sommer (ab 28. März 2027)</th></tr></thead><tbody><tr><td>Dienstag 15:45</td><td>20:15</td><td>19:15</td></tr><tr><td>Donnerstag 16:40</td><td>21:10</td><td>20:10</td></tr><tr><td>Samstag 12:00</td><td>16:30</td><td>15:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Das Einheiten- und Zeitgesetz legt für Deutschland im Winter die MEZ (UTC+1) und im Sommer die MESZ (UTC+2) fest. Seit dem 25. Oktober 2026 gilt Winterzeit, ab dem 28. März 2027 wieder Sommerzeit. Indien bleibt bei UTC+5:30 und ist im Winter vier Stunden dreißig Minuten, im Sommer drei Stunden dreißig Minuten voraus. Die Termine sind Beispiele, keine festen Gruppen.</p>
+    <p class="ag-mt-40">Vor Klausuren oder vor einer Wettbewerbsrunde lassen sich zusätzliche Einzelstunden buchen. Bei der Buchung sehen Sie jede Uhrzeit in Ihrer eigenen Zeitzone.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fortschritt</p>
+      <h2>Fünf Stufen bis zum sicheren Python</h2>
+      <p class="ag-lede">Unsere eigenen Stufen, an denen wir den Stand von Schülerinnen und Schülern festmachen.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Fünf Stufen in Python (unsere)</caption><thead><tr><th scope="col">Stufe</th><th scope="col">Typischer Zeitraum</th><th scope="col">Sie können</th></tr></thead><tbody><tr><td>1. Schreiben</td><td class="ag-num">erste Wochen</td><td class="ag-num">kurze Programme mit Variablen und Bedingungen schreiben</td></tr><tr><td>2. Lesen</td><td class="ag-num">bis Monat drei</td><td class="ag-num">vorhersagen, was ein fremdes Programm ausgibt</td></tr><tr><td>3. Reparieren</td><td class="ag-num">bis Monat fünf</td><td class="ag-num">einen Traceback lesen und die Ursache finden</td></tr><tr><td>4. Gliedern</td><td class="ag-num">bis Monat acht</td><td class="ag-num">ein Problem in Funktionen und Klassen zerlegen</td></tr><tr><td>5. Begründen</td><td class="ag-num">ab etwa einem Jahr</td><td class="ag-num">Randfälle und Laufzeit erklären, auch ohne Computer</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Für Eltern</h3><p>Die dritte Stufe ist der Wendepunkt. Wer Fehlermeldungen lesen kann, braucht viel seltener Hilfe und arbeitet zu Hause selbstständig weiter.</p>
+<p>Nach den Stunden bekommen Sie eine knappe Notiz, was geübt wurde.</p></div><div><h3>Für Schülerinnen und Schüler</h3><p>Bei jedem Absturz zuerst die letzte Zeile laut lesen, dann eine Zeile nach oben.</p>
+<p>Testen Sie jede Funktion auch mit einer leeren Liste. Dort steckt erstaunlich oft der Fehler.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weitere Kurse</p>
+      <h2>Neun weitere Kurse rund um Python</h2>
+      <p class="ag-lede">Live, auf Englisch, mit festem Mentor, in der Gruppe oder einzeln.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Python anwenden</h3>
+        <span class="ag-band-sub">13 bis 18 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PLS / ANWENDEN / 01</p>
+          <h4>Data Science mit Python</h4>
+          <p>Daten auswerten, ab 14, mit Python-Grundlagen.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PLS / ANWENDEN / 02</p>
+          <h4>KI und maschinelles Lernen</h4>
+          <p>Eigene Modelle trainieren und prüfen.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PLS / ANWENDEN / 03</p>
+          <h4>Datenbanken und SQL</h4>
+          <p>Abfragen wie in der Qualifikationsphase.</p>
+          <a class="ag-course-link" href="/courses/mysql-mastery-for-teens">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Tiefer denken</h3>
+        <span class="ag-band-sub">13 bis 18 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PLS / DENKEN / 01</p>
+          <h4>Algorithmen und Datenstrukturen</h4>
+          <p>Suchen, Sortieren, Bäume und Graphen.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PLS / DENKEN / 02</p>
+          <h4>Wettbewerbsprogrammierung</h4>
+          <p>Schneller und sicherer lösen.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PLS / DENKEN / 03</p>
+          <h4>Mathe trifft Python</h4>
+          <p>Gleichungen und Muster programmieren, ab 10.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Davor und daneben</h3>
+        <span class="ag-band-sub">9 bis 18 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PLS / DANEBEN / 01</p>
+          <h4>Informatik Companion</h4>
+          <p>Begleitung für Klasse 5 bis 10.</p>
+          <a class="ag-course-link" href="/courses/informatik-companion-course-klasse-5-10">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PLS / DANEBEN / 02</p>
+          <h4>Python und KI für Kinder</h4>
+          <p>Der spielerische Einstieg für Jüngere.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PLS / DANEBEN / 03</p>
+          <h4>Java für Jugendliche</h4>
+          <p>Falls Ihre Oberstufe Java verwendet.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Ablauf</p>
+      <h2>So läuft der Python-Unterricht ab</h2>
+      <p class="ag-lede">Zwei Live-Termine in der Woche, je eine Stunde, mit demselben Mentor. Jede Stunde beginnt mit einem Programm, das Sie zuerst lesen und dann selbst weiterschreiben.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Nachmittags</p><p class="ag-slot-l">Nach dem Unterricht, unter der Woche.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Samstag</p><p class="ag-slot-l">Mittags, mit Zeit für längere Aufgaben.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Einzeln</p><p class="ag-slot-l">Fester Termin, auch vor Klausuren.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Erst lesen</h3><p>Jede Stunde startet mit fremdem Code.</p></div>
+      <div><h3>Dann schreiben</h3><p>Sie tippen selbst, der Mentor fragt nach.</p></div>
+      <div><h3>Fehler üben</h3><p>Absichtlich kaputte Programme reparieren.</p></div>
+      <div><h3>Auf Papier</h3><p>Für Länder, in denen das Abitur ohne Rechner läuft.</p></div>
+      <div><h3>Englisch</h3><p>Die Sprache der Fehlermeldungen, gleich mitgelernt.</p></div>
+      <div><h3>Gruppe oder allein</h3><p>Fünfzehn bis zwanzig Lernende oder Einzelunterricht.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Projekte unserer Lernenden</p>
+      <h2>Projekte von Lernenden</h2>
+      <p class="ag-lede">Mit Python entstehen Spiele, kleine Datenprojekte und Werkzeuge für die Schule. Eine Auswahl unten, weitere auf <a class="ag-inline-link" href="/student-labs">Student labs</a> (auf Englisch).</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Screenshot des Projekts NutriLife, ein KI-Ernährungscoach" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>NutriLife</h4>
+          <p>Ein KI-Ernährungscoach, der Mahlzeiten auswertet und Schritt für Schritt auf ein Ziel hinarbeitet.</p>
+          <p class="ag-proj-meta">von Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Screenshot von Misti, ein KI-Chatbot für Mathematik und Programmieren" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>Misti</h4>
+          <p>Ein Chatbot, der Fragen zu Mathematik und Programmierung beantwortet, von einem Schüler gebaut und veröffentlicht.</p>
+          <p class="ag-proj-meta">von Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Screenshot von GuardianX, ein KI-Assistent für Sicherheit im Internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>GuardianX</h4>
+          <p>Ein Assistent, der jungen Menschen hilft, unsichere Situationen im Internet zu erkennen.</p>
+          <p class="ag-proj-meta">von Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Screenshot der Wetter-App SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web-App</p>
+          <h4>SkyCast</h4>
+          <p>Eine Wetter-Website mit aktuellen Bedingungen für jeden Ort.</p>
+          <p class="ag-proj-meta">von Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preise</p>
+      <h2>Preise für Schülerinnen und Schüler in Deutschland</h2>
+      <p class="ag-lede">Es gibt eine Monatsgebühr für acht Live-Stunden. Angezeigt wird sie in Euro auf Grundlage des Referenzkurses der Europäischen Zentralbank, abgebucht in US-Dollar. Weil Ihre Bank den Wechsel vornimmt, kann der gebuchte Betrag minimal vom angezeigten abweichen.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Kostenlose Probestunde</p>
+        <p class="ag-price-amt">Kostenlos</p>
+        <p class="ag-price-alt">keine Karte nötig</p>
+        <ul><li>Eine kostenlose Probestunde</li><li>Einstufung an einem kleinen Programm</li><li>Ohne Kartendaten</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Buchen</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Gruppenkurs</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group" data-price-format="suffix">90 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Fünfzehn bis zwanzig Lernende</li><li>Ein fester Mentor</li><li>Zwei Stunden pro Woche</li><li>Monatlich kündbar</li></ul>
+        <a href="#start" class="ag-btn">Hier starten</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Einzelunterricht</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal" data-price-format="suffix">134 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Nur Sie und der Mentor</li><li>Ihr Schulstoff, Ihr Tempo</li><li>Termine nach Absprache</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Anfragen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Was Familien sagen</p>
+      <h2>4,9 von 5 bei 547 Google-Bewertungen</h2>
+      <p class="ag-lede">Google-Bewertungen von Familien und Lernenden, nicht übersetzt.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Häufige Fragen</p>
+      <h2>Python lernen für Schüler: häufige Fragen</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Findet der Unterricht auf Deutsch statt?</h3>
+        <p>Nein, der Unterricht ist live und nur auf Englisch. Gerade bei Python ist das ein Vorteil: Sie lernen Programmieren und Englisch zugleich, und die Fehlermeldungen von Python, die Dokumentation und PEP 8 sind ohnehin englisch. Der Mentor spricht deutlich und passt sich Ihrem Tempo und Ihrer Aussprache an.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Ab welcher Klasse kann man Python lernen?</h3>
+        <p>Die meisten Schülerinnen und Schüler beginnen bei uns in Klasse 7 oder 8. Wer jünger ist, startet oft mit Scratch oder unserem Kurs Python und KI für Kinder und wechselt später.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Kommt Python im Abitur vor?</h3>
+        <p>Das hängt vom Land ab. Laut Informatik-Monitor 2026/27 sind im schriftlichen Leistungskurs-Abitur Informatik in Sachsen im Prüfungsteil B Dokumentationen für SQL, Python 3 und Java sowie ein zugelassener Computer erlaubt. In Bayern und Nordrhein-Westfalen wird das schriftliche Informatik-Abitur ohne Computer geschrieben.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Darf man im Jugendwettbewerb Informatik Python benutzen?</h3>
+        <p>Ab 2027 ja. Laut BWINF können die Aufgaben der 1. und 2. Runde neben Blockly auch in Python bearbeitet werden. Die 1. Runde 2027 läuft vom 22. Februar bis 7. März 2027; angemeldet wird über die Schule.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Python oder Java: was soll ich lernen?</h3>
+        <p>Für den Einstieg meist Python, weil es weniger Schreibarbeit verlangt. Verwendet Ihre Oberstufe Java, lernen wir rechtzeitig auch Java; mit Python-Grundlagen geht das deutlich schneller.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Hilft der Kurs bei Informatik-Hausaufgaben?</h3>
+        <p>Wir erklären den Stoff und üben mit ähnlichen Aufgaben, machen aber keine Hausaufgaben für Sie. Ziel ist, dass Sie die Aufgabe danach selbst lösen und erklären können.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wird im Unterricht KI zum Programmieren benutzt?</h3>
+        <p>Nein, Sie schreiben Ihren Code selbst. Wer Fehlermeldungen lesen und Programme erklären kann, kann später auch die Vorschläge von KI-Werkzeugen prüfen. Werkzeuge, die erst ab 18 erlaubt sind, empfehlen wir Schülerinnen und Schülern nicht.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wann sind die Stunden?</h3>
+        <p>Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Ein Termin am Samstag um 12:00 Uhr ist im Winter 16:30 Uhr in Indien.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Was brauche ich dafür?</h3>
+        <p>Einen Laptop oder Computer mit Tastatur, Internet und ein Headset. Python und der Editor sind kostenlos; die Installation erledigen wir gemeinsam in der ersten Stunde.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wie wird bezahlt?</h3>
+        <p>Monatlich. Die Gebühr erscheint hier in Euro zum Referenzkurs der EZB, abgebucht wird in US-Dollar, und Ihre Bank rechnet um. Die Probestunde kostet nichts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weitere Seiten</p>
+      <h2>Weiterlesen</h2>
+      <p class="ag-lede">Mehr zu Informatik und Programmieren in Deutschland, teils auf Englisch.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Unsere Übersicht für Deutschland.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>Hilfe im Schulfach, Klasse 5 bis 13.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-in-german-schools-by-state">Informatik by state</a></h3><p>Alle 16 Länder im Überblick.</p></div>
+      <div><h3><a class="ag-inline-link" href="/abitur-computer-science-in-english">Abitur computer science</a></h3><p>Das Informatik-Abitur, auf Englisch erklärt.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-think-not-copy-ai-germany">Think, not copy AI</a></h3><p>Selbst denken statt abschreiben.</p></div>
+      <div><h3><a class="ag-inline-link" href="/courses">All courses</a></h3><p>Jeder Kurs mit Lehrplan.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Jetzt starten</p>
+        <h2>Kostenlose Python-Probestunde buchen</h2>
+        <p class="ag-lede">In der Probestunde lesen Sie mit dem Mentor ein kurzes Programm, sagen voraus, was es tut, und reparieren einen kleinen Fehler. Danach empfehlen wir den passenden Einstieg.</p>
+        <p class="ag-mt-40">Vorab: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> zeigt unseren Live-Unterricht, <a class="ag-inline-link" href="/courses">All courses</a> alle Lehrpläne (beide auf Englisch).</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20ich%20m%C3%B6chte%20als%20Sch%C3%BClerin%20oder%20Sch%C3%BCler%20Python%20lernen%2C%20live%20auf%20Englisch.%20Gibt%20es%20eine%20kostenlose%20Probestunde%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pls',pos:'end'});">Per WhatsApp schreiben</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Der Unterricht kommt live von Mentoren in Indien und läuft nur auf Englisch. Per WhatsApp antworten wir am schnellsten.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_pls(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Ihr Name</label>
+            <input id="de-name" type="text" name="name" placeholder="Name von Elternteil oder Lernendem" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Telefon oder WhatsApp, Deutschland +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Altersgruppe</label>
+            <select id="de-age" name="age"><option value="6-12">Kind, 6 bis 12</option><option value="13-18">Jugendliche, 13 bis 18</option><option value="college">Studierende</option><option value="adult">Berufstätige</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Kostenlose Probestunde anfragen</button>
+          <p class="ag-form-note">Kostenlos und unverbindlich; unter 18 bitte mit Wissen der Eltern.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Lieber früher starten? Priority Demo buchen</h3><p>Eine Priority Demo ist eine vollständige Unterrichtsstunde von etwa 45 bis 60 Minuten. Danach schickt der Mentor per WhatsApp einen schriftlichen Kompetenzbericht und einen persönlichen Lernplan. Wenn Sie sich anmelden, wird die Demo-Gebühr mit der ersten Monatsgebühr verrechnet: Schicken Sie uns dazu die Bestellnummer der Demo per WhatsApp.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Priority Demo buchen</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live-Online-Unterricht in Programmieren, KI und Mathematik für Menschen von 6 bis 67 Jahren. Wir unterrichten seit 2020, mehr als
+          10.000 Lernende in 25 Ländern.
+        </p>
+      </div>
+      <div><h4>Python</h4><ul><li><a href="/courses/python-complete-masterclass-teens">Python für Jugendliche</a></li><li><a href="/courses/informatik-abitur-course-java-python">Informatik Abitur</a></li><li><a href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">Wettbewerbe</a></li><li><a href="/courses">Alle Kurse</a></li></ul></div>
+      <div><h4>Deutschland</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/abitur-computer-science-in-english">Informatik-Abitur</a></li><li><a href="/student-labs">Projekte</a></li></ul></div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="/about">Über uns</a></li>
+          <li><a href="/how-we-teach">So unterrichten wir</a></li>
+          <li><a href="/love">Bewertungen</a></li>
+          <li><a href="/contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live-Online-Unterricht weltweit.</span>
+      <span>Die letzte Zeile zuerst lesen</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Probestunde</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority Demo</a><a href="tel:+919123366161" aria-label="Anrufen +91 91233 66161">Anrufen</a></div>
+
+<script>
+window.submitLead_pls = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Wird gesendet...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'python-lernen-fuer-schueler-inline', meta: { name: name, age: age, page: 'python-lernen-fuer-schueler' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Vielen Dank' + (name ? ', ' + name.split(' ')[0] : '') + '. Ein Mentor ruft Sie in Kürze an.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Netzwerkfehler. Bitte versuchen Sie es erneut.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
