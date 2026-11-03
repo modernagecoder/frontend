@@ -849,6 +849,7 @@ const SLUGS = [
   'coding-and-maths-classes-in-berlin-germany',
   'coding-classes-in-brandenburg',
   'coding-classes-in-mecklenburg-vorpommern',
+  'coding-classes-in-saxony',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1777,6 +1778,7 @@ const LLMS_LABELS = {
   'coding-and-maths-classes-in-berlin-germany': 'Coding and maths classes in Berlin',
   'coding-classes-in-brandenburg': 'Coding classes in Brandenburg',
   'coding-classes-in-mecklenburg-vorpommern': 'Coding classes in Mecklenburg-Vorpommern',
+  'coding-classes-in-saxony': 'Coding classes in Saxony',
 };
 
 function wireLlms(slugs) {
