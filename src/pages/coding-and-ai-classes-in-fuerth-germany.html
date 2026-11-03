@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding and AI Classes in Fürth: Live Online in English</title>
+  <meta name="description" content="Coding and AI classes in Fürth for children, teens and adults, live online in English: Bavarian Informatik, AI tool ages and a Fürth weather data project.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-and-ai-classes-in-fuerth-germany">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-and-ai-classes-in-fuerth-germany.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#452F47">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-and-ai-classes-in-fuerth-germany">
+  <meta property="og:title" content="Coding and AI Classes in Fürth: Live Online in English">
+  <meta property="og:description" content="Live coding and AI lessons in English for Fürth learners from age 6 to adult, with a machine-learning project on the city's own 1947 to 1955 weather record in which the highest score belongs to the most useless model.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding and AI Classes in Fürth: Live Online in English">
+  <meta name="twitter:description" content="Coding and AI for every age in Fürth, live in English, with a rain forecast built on Fürth weather data.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-caf .ag-hero h1 { letter-spacing: -0.014em; }
+.ag-root.ag-caf .ag-capsule { border-left-width: 4px; }
+.ag-root.ag-caf .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-caf .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-caf .ag-code-head b { letter-spacing: 0.02em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-and-ai-classes-in-fuerth-germany#page","url":"https://learn.modernagecoders.com/coding-and-ai-classes-in-fuerth-germany","name":"Coding and AI Classes in Fürth","description":"A guide for Fürth children, teenagers, parents and adult learners to live coding and AI classes in English: what Bavarian schools teach in Informatik and when, what the KMK now asks schools to teach about AI, which AI tools each age may use, and an original Python project on the Deutscher Wetterdienst record for the Fürth station.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Fürth, all ages","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-fuerth-germany"}]},{"@type":"Course","name":"Coding and AI Classes in Fürth","description":"Live online coding and AI classes in English for Fürth learners aged 6 to adult: Scratch and Python for children, Python, data and machine learning for teenagers, and Python with applied AI for adults, in a group of fifteen to twenty or one to one with a regular mentor.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-and-ai-classes-in-fuerth-germany"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-and-ai-classes-in-fuerth-germany"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-and-ai-classes-in-fuerth-germany"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. Lessons happen live in English and in no other language. The mentors work from India and adjust to how quickly each learner moves and to how they speak. There is no German-language option."}},{"@type":"Question","name":"Who are the classes for?","acceptedAnswer":{"@type":"Answer","text":"Children from 6, teenagers and adults. Children start with Scratch and move to Python, teenagers learn data and machine learning, and adults learn Python and applied AI. Age groups are always taught separately."}},{"@type":"Question","name":"Do Bavarian schools teach coding?","acceptedAnswer":{"@type":"Answer","text":"Partly. The Gesellschaft für Informatik records one compulsory Informatik lesson a week in grades 5 to 10 at the Mittelschule, one weekly Informatik-focused lesson in grades 6 and 7 at the Gymnasium, and two compulsory lessons of informatics in grade 11. Those rules start in secondary school."}},{"@type":"Question","name":"Will my child use ChatGPT in class?","acceptedAnswer":{"@type":"Answer","text":"Children do not. OpenAI sets 13 as its minimum and asks for a parent's permission up to 18, Google sets 16 for Gemini in Germany, and Claude is for adults only. Children learn how AI works by building small models in Python instead."}},{"@type":"Question","name":"When are classes in Fürth time?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Fürth afternoons and early evenings are evenings in India, so the hours fit well."}},{"@type":"Question","name":"What is the Fürth rain project?","acceptedAnswer":{"@type":"Answer","text":"An original Python project of ours on the daily record of the Deutscher Wetterdienst station Fürth/Bayern from 1947 to 1955. Learners find that a model which always says dry scores 73.6% accuracy on the test years while missing all 216 wet days, and learn to count each kind of mistake."}},{"@type":"Question","name":"Is the weather data free to use?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Deutscher Wetterdienst publishes its climate data under the Creative Commons BY 4.0 licence, which allows reuse with credit. We name the source wherever the data appears."}},{"@type":"Question","name":"Can adults join, or is it only for children?","acceptedAnswer":{"@type":"Answer","text":"Adults are welcome and have their own classes. Most adult learners in Germany want Python for work, data analysis, or to understand and check the AI tools their employer has introduced."}},{"@type":"Question","name":"How big are the groups?","acceptedAnswer":{"@type":"Answer","text":"Group classes have fifteen to twenty learners of a similar age. A one-to-one plan gives two private classes a week at agreed times with the same mentor."}},{"@type":"Question","name":"How are fees charged?","acceptedAnswer":{"@type":"Answer","text":"Once a month. The page displays euro, converted with the European Central Bank reference rate, and the charge goes through in US dollars for your bank to convert. Trying the first class costs nothing, and no card details are asked for."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-and-ai-classes-in-fuerth-germany","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-caf">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#who">Who</a></li>
+      <li><a href="#bayern">Schools</a></li>
+      <li><a href="#rain">Rain model</a></li>
+      <li><a href="#clock">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Fürth, all ages
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Fürth &middot; Coding and AI &middot; From age 6 to adult</p>
+        <h1>Coding and AI classes in Fürth</h1>
+        <p class="ag-lede">Ask a computer to forecast rain in Fürth and the laziest answer, "it will stay dry", scores better than every honest attempt. That surprise is the heart of this page. It explains who our live classes in English are for, from a six year old to a working adult, what Bavarian schools teach in Informatik and in which grade, which AI tools each age may sign up for, and a project on the weather the Deutscher Wetterdienst recorded in Fürth from 1947 to 1955.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#rain" class="ag-btn ag-btn--ghost">See the rain model</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20live%20in%20F%C3%BCrth%20and%20would%20like%20to%20try%20coding%20and%20AI%20classes%20in%20English.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'caf'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ learners worldwide &middot; we teach the thinking behind the AI</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Who</dt><dd>Children 6 to 12, teens, adults</dd>
+          <dt>Children</dt><dd>Scratch, then Python</dd>
+          <dt>Teens</dt><dd>Python, data, machine learning</dd>
+          <dt>Adults</dt><dd>Python, automation, applied AI</dd>
+          <dt>Class</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Trial</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>Coding and AI classes for Fürth at Modern Age Coders run live online, in English, for every age: children from 6 start with Scratch and move to Python, teenagers learn data and build machine-learning models they can explain, and adults learn Python for work and how to use AI with judgement. One regular mentor matches each learner's pace and accent, whether they sit among fifteen to twenty classmates or work alone with the mentor.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Which coding and AI course fits each age in Fürth?</h2>
+      <p class="ag-lede">One starting course for each stage of life. The free first class is where a mentor checks the fit and suggests another if it suits better.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CAF / 01</p>
+          <h3>Python and AI for Kids</h3>
+          <p>Ages 9 to 12. Typed Python from the first week, turtle drawings and small games, then simple AI ideas such as a rule that learns a threshold, like the rain model below.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CAF / 02</p>
+          <h3>AI and Machine Learning for Teens</h3>
+          <p>Ages 13 to 18. Python, real data, models trained and tested on separate years, and the habit of asking which mistakes a model makes.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-automation-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Automation Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CAF / 03</p>
+          <h3>Python Automation and Applied AI</h3>
+          <p>Adults. Scripts that read and report on files, then AI services called from Python, always checked against what the data really says.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="who">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Every age</p><h2>Who are coding and AI classes in Fürth for?</h2><p class="ag-lede">Anyone from first grade to retirement who wants to understand how software and AI work, not only how to click them. The order of learning is the same at every age; the speed and the projects change.</p></div>
+    <div class="ag-grid-3"><div><h3>Children, 6 to 12</h3><p>Younger children drag coloured Scratch blocks into stories and games, so spelling and typing never hold them back. From about nine they type real Python. AI enters as an idea, a program that learns a rule from examples, and never as a chatbot account.</p></div><div><h3>Teenagers, 13 to 18</h3><p>Teenagers write Python for data and build small machine-learning models, then test them on data the model has not seen. Many also want help alongside the Informatik they meet at school, which in Bavaria differs by school type and grade.</p></div><div><h3>Adults</h3><p>Adults learn Python to save hours at work, to read spreadsheets and reports with code, and to call AI services from their own scripts. The aim is judgement: knowing when an AI answer is right, and how to prove it.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Minimum ages for common AI tools, from each provider's own terms</caption><thead><tr><th scope="col">Tool</th><th scope="col">Minimum age</th><th scope="col">What that means for a Fürth learner</th></tr></thead><tbody><tr><td>ChatGPT (OpenAI)</td><td>13, with a parent's permission under 18</td><td>Not for primary pupils; teenagers only with a parent's agreement</td></tr><tr><td>Gemini (Google)</td><td>16 in Germany</td><td>Not for most pupils before Oberstufe age</td></tr><tr><td>Claude (Anthropic)</td><td>18</td><td>Adults only; we never use it with under-18s</td></tr><tr><td>Teachable Machine (Google)</td><td>No sign-in needed to train</td><td>Suitable for children in class, with nothing saved to an account</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: the providers' own terms as collected in our AI tool age audit, which quotes each one (OpenAI terms of use, Google Gemini help, Anthropic consumer terms, Google account help), checked in 2026. Terms change; we check them again before using a tool in class.</p>
+    <p class="ag-mt-40">Because of those age rules, our classes for children and younger teenagers teach how AI works by building small models in Python, not by chatting with one. A twelve year old who has written a program that learns a number from data understands more about AI than one who has typed a hundred prompts.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="bayern">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Schools in Bavaria</p><h2>When does a Fürth pupil meet Informatik at school?</h2><p class="ag-lede">It depends on the school. Bavaria gives every Mittelschule pupil a weekly Informatik lesson, while the Gymnasium spreads it more thinly until grade 11. The Gesellschaft für Informatik sets out the rules for 2026/27.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Informatik at Bavarian schools in 2026/27, by school type and grade</caption><thead><tr><th scope="col">School type</th><th scope="col">Grades</th><th scope="col">What the timetable holds</th></tr></thead><tbody><tr><td>Mittelschule</td><td>5 to 10</td><td>Informatik as a compulsory subject, one lesson a week in each grade</td></tr><tr><td>Gymnasium</td><td>6 and 7</td><td>One weekly lesson with an Informatik focus inside the compulsory subject Natur und Technik</td></tr><tr><td>Gymnasium, NTG branch</td><td>9 and 10</td><td>Compulsory Informatik</td></tr><tr><td>Gymnasium, every branch</td><td>11</td><td>Two compulsory lessons of informatics a week</td></tr><tr><td>Abitur</td><td>End of Oberstufe</td><td>Written Informatik tasks set centrally, mostly programming on paper, with no work at a computer</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Gesellschaft für Informatik, Informatik-Monitor 2026/27, Bayern page, read on 2 November 2026. The Monitor quotes the Bavarian rules: one weekly lesson "in den Jahrgangsstufen 5 bis 10" at the Mittelschule, and in grade 11 "in allen Ausbildungsrichtungen verpflichtend zweistündig Informatikunterricht".</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What this means for a Fürth family</h3><p>A Fürth child spends grades 1 to 4 in Grundschule, which the Bavarian Informatik rules above do not cover. At a Gymnasium, the first fixed computing time is one lesson a week in grades 6 and 7, then a gap for most branches until grade 11.</p>
+<p>That gap, roughly from age 13 to 16, is when many teenagers either lose interest in computing or teach themselves. A weekly live class keeps the thread going until the Oberstufe picks it up again.</p></div><div><h3>AI in the school framework</h3><p>The Kultusministerkonferenz adopted its strategy "Bildung in der digitalen Welt" in 2016. Ten years later, in 2026, it added AI-related competences through an updated competence framework, after a 2024 recommendation to school administrations on handling AI in learning.</p>
+<p>So AI is now an official part of what German schools are asked to teach. How it reaches a Fürth classroom is up to Bavaria and each school; our classes sit alongside that and never replace it.</p></div></div>
+    <p class="ag-mt-40">The Bavarian Abitur detail matters for older pupils. Because the written Informatik exam is on paper, a pupil has to be able to read and trace code without running it. Our teenagers practise exactly that: before any program on this page is run, the learner writes down what they expect it to print.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="rain">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A Fürth data project</p><h2>Can a computer learn to forecast rain from Fürth weather data?</h2><p class="ag-lede">A little, and the way it fails is the lesson. The Deutscher Wetterdienst publishes every day its Fürth station recorded from 1947 to 1955, free to reuse under CC BY 4.0. Our learners build a tiny rain forecast on it and discover that the score most people look at first can be fooled.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The data</h3><p>The station is called "Fürth/Bayern (A)", number 01522 in the DWD Climate Data Center. Its file of daily climate data runs from 1 June 1947 to 31 March 1955, 2,861 days, with the rain, air pressure, temperature and cloud cover for each one. We downloaded it on 3 November 2026.</p>
+<p>The station metadata records a move: from 1 March 1954 it stood two metres higher, at 313 m instead of 311 m, a short distance away. Only one rain value is missing, on the very last day. Old data, carefully kept.</p></div><div><h3>The question</h3><p>Given today's weather, will tomorrow be wet, with 1 mm of rain or more? We train on the years 1947 to 1952 and test on 1953 to 1955, so the program is judged on days it has never seen.</p>
+<p>We give learners a small file, fuerth_1947_1955.csv, with the date, the rain, the station pressure in hectopascals, the mean temperature and the cloud cover. The first program tries two models that need no learning at all.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: two models that learn nothing</b><span>Python</span></figcaption><pre>import csv
+
+days = []
+with open("fuerth_1947_1955.csv", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        if row["rain_mm"] != "-999":
+            days.append((row["date"], float(row["rain_mm"]), float(row["pressure_hpa"])))
+
+pairs = []
+for today, tomorrow in zip(days, days[1:]):
+    pairs.append((today[0], today[1] &gt;= 1.0, today[2], tomorrow[1] &gt;= 1.0))
+
+test = [p for p in pairs if p[0] &gt;= "1953"]
+wet = sum(1 for p in test if p[3])
+print("Test days:", len(test), " wet tomorrow:", wet)
+
+def score(name, guess):
+    right = sum(1 for p in test if guess(p) == p[3])
+    missed = sum(1 for p in test if p[3] and not guess(p))
+    false_alarm = sum(1 for p in test if guess(p) and not p[3])
+    print(name, "accuracy", round(100 * right / len(test), 1), "% missed wet:", missed, "false alarms:", false_alarm)
+
+score("Always dry:", lambda p: False)
+score("Same as today:", lambda p: p[1])</pre><p class="ag-code-note">It prints: <code>Test days: 818  wet tomorrow: 216</code>, then <code>Always dry: accuracy 73.6 % missed wet: 216 false alarms: 0</code> and <code>Same as today: accuracy 69.6 % missed wet: 124 false alarms: 125</code>.</p></figure>
+    <p class="ag-mt-40">Read that twice. A program that answers "dry" every single day is right 73.6% of the time, because in Fürth most days are dry. It beats the program that copies today's weather. And it never warned anyone about a single one of the 216 wet days. That is why "accuracy" alone is a dangerous number, in weather and in every AI system built to spot something rare.</p>
+    <p>So we count the two kinds of mistake separately: a wet day the model missed, and a false alarm on a dry day. Then we let the program learn something. Falling air pressure often comes before rain, so Version 2 tries every pressure threshold from 960 to 999.5 hPa on the training years and keeps the one that does equally well on wet and dry days.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: learn a pressure threshold</b><span>Python</span></figcaption><pre>train = [p for p in pairs if p[0] &lt; "1953"]
+
+def balanced(rows, t):
+    wet = [p for p in rows if p[3]]
+    dry = [p for p in rows if not p[3]]
+    caught = sum(1 for p in wet if p[2] &lt; t) / len(wet)
+    calm = sum(1 for p in dry if p[2] &gt;= t) / len(dry)
+    return (caught + calm) / 2
+
+candidates = [960 + x / 2 for x in range(80)]
+t = max(candidates, key=lambda c: balanced(train, c))
+print("Training days:", len(train), " learned threshold:", t, "hPa")
+score("Pressure rule:", lambda p: p[2] &lt; t)</pre><p class="ag-code-note">Run after Version 1, it prints: <code>Training days: 2041  learned threshold: 981.0 hPa</code> and <code>Pressure rule: accuracy 56.6 % missed wet: 52 false alarms: 303</code>.</p></figure>
+    <p class="ag-mt-40">The learned rule catches 164 of the 216 wet days, which neither earlier model came close to, yet its accuracy falls to 56.6% because it raises 303 false alarms. Which model is better? There is no answer until someone decides which mistake costs more. For a farmer cutting hay, a missed shower is expensive. For a school trip, a false alarm only means an umbrella nobody needed.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 3: low pressure and falling</b><span>Python</span></figcaption><pre>falling = {}
+for yesterday, today in zip(days, days[1:]):
+    falling[today[0]] = today[2] &lt; yesterday[2]
+
+score("Low and falling:", lambda p: p[2] &lt; t and falling.get(p[0], False))</pre><p class="ag-code-note">Run after Versions 1 and 2, it prints: <code>Low and falling: accuracy 65.5 % missed wet: 115 false alarms: 167</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Four rain models on 818 test days in Fürth, 1953 to 1955 (our calculation)</caption><thead><tr><th scope="col">Model</th><th scope="col">Accuracy, %</th><th scope="col">Wet days missed</th><th scope="col">False alarms</th></tr></thead><tbody><tr><td>Always dry</td><td class="ag-num">73.6</td><td class="ag-num">216</td><td class="ag-num">0</td></tr><tr><td>Same as today</td><td class="ag-num">69.6</td><td class="ag-num">124</td><td class="ag-num">125</td></tr><tr><td>Pressure below 981.0 hPa</td><td class="ag-num">56.6</td><td class="ag-num">52</td><td class="ag-num">303</td></tr><tr><td>Low and falling</td><td class="ag-num">65.5</td><td class="ag-num">115</td><td class="ag-num">167</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Data: Deutscher Wetterdienst, Climate Data Center, daily climate data, station 01522 Fürth/Bayern (A), 1 June 1947 to 31 March 1955, licence CC BY 4.0, downloaded 3 November 2026. A wet day is our definition: 1.0 mm of rain or more. All models, thresholds and counts are our own.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Wet days (1.0 mm or more) at the Fürth station in each full year (our count)</caption><thead><tr><th scope="col">Year</th><th scope="col">Wet days</th></tr></thead><tbody><tr><td>1948</td><td class="ag-num">106</td></tr><tr><td>1949</td><td class="ag-num">81</td></tr><tr><td>1950</td><td class="ag-num">122</td></tr><tr><td>1951</td><td class="ag-num">106</td></tr><tr><td>1952</td><td class="ag-num">134</td></tr><tr><td>1953</td><td class="ag-num">89</td></tr><tr><td>1954</td><td class="ag-num">109</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Our count from the same DWD file. 1949 had the fewest wet days of the seven full years and 1952 the most, so a model trained on some years and tested on others meets a different climate each time, one more reason to test on separate years.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Ages 6 to 8, no screen.</strong> For two weeks, guess each evening whether tomorrow will be wet, and keep a tally of right guesses, missed rain and false alarms. Then try "always dry" on the same days.</li><li><strong>Ages 9 to 12, Python.</strong> Run Version 1 and explain to a parent why "always dry" wins on accuracy. Then change the wet-day line from 1.0 mm to 5.0 mm and predict, before running, what happens to the score.</li><li><strong>Teenagers.</strong> Write Version 2 yourself before reading ours, then add a column for the share of wet days caught. Which model would you pick for a hay farmer, and which for a school trip?</li><li><strong>Adults.</strong> Replace the two-way score with a cost: a missed wet day costs five, a false alarm costs one. Find the threshold with the lowest total cost on the training years and check it on the test years.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Taught in English</p><h2>Will the lessons be in German or English?</h2><p class="ag-lede">In English, always. We say so before anyone books, because it matters to Fürth families.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>What English-only means in practice</h3><p>Every lesson is live and taught in English by a mentor based in India. We do not run German-language classes, and no lesson switches into German.</p>
+<p>Mentors speak clearly, slow down for younger children, and get used to each learner's accent within a few lessons. When a child reaches for a German word mid-sentence, the mentor simply supplies the English for it and carries on.</p></div><div><h3>Why it works for coding</h3><p>Python keywords such as if, for and print are English words already, so learning in English removes a layer of translation rather than adding one.</p>
+<p>For teenagers and adults, the documentation, error messages and AI tools they will use later are mostly in English too. Coding and English improve together.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="clock">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Times and holidays</p><h2>When are live classes in Fürth time?</h2><p class="ag-lede">After school and work in Fürth is evening in India, which is why the hours fit. Bavarian school holidays do not stop classes.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Example Fürth start times beside the hour in India</caption><thead><tr><th scope="col">Fürth time</th><th scope="col">India time, winter (to 28 March 2027)</th><th scope="col">India time, summer (from 28 March 2027)</th></tr></thead><tbody><tr><td>16:15</td><td>20:45</td><td>19:45</td></tr><tr><td>18:00</td><td>22:30</td><td>21:30</td></tr><tr><td>Saturday 11:00</td><td>15:30</td><td>14:30</td></tr><tr><td>Sunday 10:00</td><td>14:30</td><td>13:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">German clocks follow the Einheitenzeitgesetz: MEZ is UTC+1 and MESZ, the summer clock, is UTC+2. The clocks went back on 25 October 2026 and go forward on 28 March 2027. India never changes from UTC+5:30, so it runs 4 hours 30 minutes ahead of Fürth through the winter and 3 hours 30 minutes ahead in summer. The rows are illustrations; no batch is tied to them.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Bavarian school holidays in the 2026/27 school year (KMK table)</caption><thead><tr><th scope="col">Holiday</th><th scope="col">First and last day</th></tr></thead><tbody><tr><td>Herbstferien</td><td>2 to 6 November 2026</td></tr><tr><td>Weihnachtsferien</td><td>24 December 2026 to 8 January 2027</td></tr><tr><td>Winterferien</td><td>8 to 12 February 2027</td></tr><tr><td>Osterferien</td><td>22 March to 2 April 2027</td></tr><tr><td>Pfingstferien</td><td>18 to 28 May 2027</td></tr><tr><td>Sommerferien</td><td>2 August to 13 September 2027</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Kultusministerkonferenz, Ferien im Schuljahr 2026/2027, Bayern row, status 9 October 2025. The KMK fixes the summer holidays; Bavaria sets the others.</p>
+    <p class="ag-mt-40">The Bavarian autumn break in early November is a good moment for a free first class without homework in the way. Families who travel in August simply pause and pick up again in September; the mentor keeps notes on where the learner stopped.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>How does a Fürth learner progress from first program to AI model?</h2>
+      <p class="ag-lede">Our milestones, in the same order for every age. Children reach them over years, adults over months.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Milestones in coding and AI (ours)</caption><thead><tr><th scope="col">Milestone</th><th scope="col">Child, usual age</th><th scope="col">Teen or adult, usual month</th></tr></thead><tbody><tr><td>Writes exact step-by-step instructions</td><td class="ag-num">6 to 8</td><td class="ag-num">Month 1</td></tr><tr><td>Uses loops, conditions and variables</td><td class="ag-num">8 to 10</td><td class="ag-num">Month 1</td></tr><tr><td>Reads a data file and counts with it</td><td class="ag-num">10 to 12</td><td class="ag-num">Month 2</td></tr><tr><td>Tests a rule on data it was not built on</td><td class="ag-num">11 to 12</td><td class="ag-num">Month 3</td></tr><tr><td>Counts each kind of mistake a model makes</td><td class="ag-num">From 12</td><td class="ag-num">Months 3 to 5</td></tr><tr><td>Chooses a model by the cost of its mistakes</td><td class="ag-num">Teenagers</td><td class="ag-num">Months 5 to 7</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For learners</h3><p>Before you celebrate a high score, ask what the laziest possible program would score on the same data.</p>
+<p>Always keep some data back for testing. A rule that only works on the days it learned from has learned nothing.</p></div><div><h3>For parents</h3><p>Ask your child which mistake their program makes most often. A clear answer is a sign of real understanding.</p>
+<p>Monthly notes describe what was built and what was hard, never just the hours spent.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for Fürth learners</h2>
+      <p class="ag-lede">Sorted into three age bands. Each runs live in English with a mentor who stays with the learner throughout.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Children</h3>
+        <span class="ag-band-sub">Ages 6 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CAF / KID / 01</p>
+          <h4>Coding for Kids</h4>
+          <p>Scratch games and stories from age 6, then apps.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAF / KID / 02</p>
+          <h4>AI literacy for kids</h4>
+          <p>How machines learn, with no adult accounts.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAF / KID / 03</p>
+          <h4>Problem solving for kids</h4>
+          <p>Logic puzzles before any code at all.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teenagers</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CAF / TEEN / 01</p>
+          <h4>Python for teens</h4>
+          <p>From first lines to real projects.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAF / TEEN / 02</p>
+          <h4>Data science for teens</h4>
+          <p>Files, charts and honest conclusions.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAF / TEEN / 03</p>
+          <h4>Informatik Oberstufe and Abitur</h4>
+          <p>Java and Python alongside the school course.</p>
+          <a class="ag-course-link" href="/courses/informatik-abitur-course-java-python">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Adults</h3>
+        <span class="ag-band-sub">Work and study</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CAF / ADULT / 01</p>
+          <h4>Python from zero</h4>
+          <p>A full Python course for adult beginners.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAF / ADULT / 02</p>
+          <h4>Data analysis</h4>
+          <p>Spreadsheets to Python, with checks at each step.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAF / ADULT / 03</p>
+          <h4>AI coding agents</h4>
+          <p>Working with coding agents, for adults only.</p>
+          <a class="ag-course-link" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How it works</p>
+      <h2>How are live coding and AI classes run for Fürth learners?</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Late afternoon</p><p class="ag-slot-l">For pupils after school in Fürth.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Early evening</p><p class="ag-slot-l">For adults after work, until about 18:00.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Saturday or Sunday mornings for any age.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>One mentor</h3><p>A familiar face at every lesson, all year.</p></div>
+      <div><h3>Live, not recorded</h3><p>Every class is taught in real time.</p></div>
+      <div><h3>Code before AI</h3><p>Learners build the model before using one.</p></div>
+      <div><h3>Ages kept apart</h3><p>Children, teens and adults never share a class.</p></div>
+      <div><h3>Mistakes counted</h3><p>Every project ends by asking what went wrong.</p></div>
+      <div><h3>Group or private</h3><p>A shared class of 15 to 20, or a private one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What do our students build?</h2>
+      <p class="ag-lede">A few projects by our students in other countries, built in the same live classes. The <a class="ag-inline-link" href="/student-labs">student labs</a> page shows many more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What do coding and AI classes cost in Fürth?</h2>
+      <p class="ag-lede">One monthly fee covers eight live classes. The euro amounts on this page are converted using the reference rate the European Central Bank publishes; the charge itself is made in US dollars, which your bank turns into euro, so a statement can differ by a little.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short problem and a first program</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>A class of 15 to 20 near the learner's age</li><li>A regular mentor</li><li>Two live classes a week</li><li>Monthly, cancel any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>One learner and one mentor</li><li>Pace and projects set for you</li><li>Times agreed with you</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Learners and parents in their own words, from our Google reviews.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Fürth</p>
+      <h2>Coding and AI classes in Fürth: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. Lessons happen live in English and in no other language. The mentors work from India and adjust to how quickly each learner moves and to how they speak. There is no German-language option.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who are the classes for?</h3>
+        <p>Children from 6, teenagers and adults. Children start with Scratch and move to Python, teenagers learn data and machine learning, and adults learn Python and applied AI. Age groups are always taught separately.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do Bavarian schools teach coding?</h3>
+        <p>Partly. The Gesellschaft für Informatik records one compulsory Informatik lesson a week in grades 5 to 10 at the Mittelschule, one weekly Informatik-focused lesson in grades 6 and 7 at the Gymnasium, and two compulsory lessons of informatics in grade 11. Those rules start in secondary school.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will my child use ChatGPT in class?</h3>
+        <p>Children do not. OpenAI sets 13 as its minimum and asks for a parent's permission up to 18, Google sets 16 for Gemini in Germany, and Claude is for adults only. Children learn how AI works by building small models in Python instead.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes in Fürth time?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Fürth afternoons and early evenings are evenings in India, so the hours fit well.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the Fürth rain project?</h3>
+        <p>An original Python project of ours on the daily record of the Deutscher Wetterdienst station Fürth/Bayern from 1947 to 1955. Learners find that a model which always says dry scores 73.6% accuracy on the test years while missing all 216 wet days, and learn to count each kind of mistake.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the weather data free to use?</h3>
+        <p>Yes. The Deutscher Wetterdienst publishes its climate data under the Creative Commons BY 4.0 licence, which allows reuse with credit. We name the source wherever the data appears.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can adults join, or is it only for children?</h3>
+        <p>Adults are welcome and have their own classes. Most adult learners in Germany want Python for work, data analysis, or to understand and check the AI tools their employer has introduced.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How big are the groups?</h3>
+        <p>Group classes have fifteen to twenty learners of a similar age. A one-to-one plan gives two private classes a week at agreed times with the same mentor.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How are fees charged?</h3>
+        <p>Once a month. The page displays euro, converted with the European Central Bank reference rate, and the charge goes through in US dollars for your bank to convert. Trying the first class costs nothing, and no card details are asked for.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">See also</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Fürth learners and families.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Our hub for every page about Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-bavaria">Coding classes in Bavaria</a></h3><p>The Land rules, holidays and a Bavarian project.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-abitur-bayern">Informatik-Abitur in Bayern</a></h3><p>The written exam and the Oberstufe course.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-germany">AI and machine learning in Germany</a></h3><p>A second machine-learning project on German data.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a></h3><p>Each tool's age rule, quoted.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>A lesson, minute by minute.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class from Fürth</h2>
+        <p class="ag-lede">The trial lesson is short and hands-on: one small problem, one first program, and a chat about what the learner hopes to make. By the end the mentor has a feel for their reasoning and their English, and recommends where to begin.</p>
+        <p class="ag-mt-40">Curious about the format? The <a class="ag-inline-link" href="/how-we-teach">how we teach</a> page walks through a lesson, and <a class="ag-inline-link" href="/courses">the course list</a> holds each syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20live%20in%20F%C3%BCrth%20and%20would%20like%20to%20try%20coding%20and%20AI%20classes%20in%20English.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'caf',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Every class is live online with a mentor in India, in English only. WhatsApp is the quickest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_caf(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Learn</h4><ul><li><a href="/ai-tools-age-guide">AI tools age guide</a></li><li><a href="/student-labs">Student projects</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/courses">All courses</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-classes-in-bavaria">Coding classes in Bavaria</a></li><li><a href="/informatik-abitur-bayern">Informatik-Abitur Bayern</a></li><li><a href="/ai-and-machine-learning-classes-in-germany">AI and ML in Germany</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Ask what the lazy model would score</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_caf = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'coding-and-ai-classes-in-fuerth-germany-inline', meta: { name: name, age: age, page: 'coding-and-ai-classes-in-fuerth-germany' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
