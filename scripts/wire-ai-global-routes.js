@@ -810,6 +810,7 @@ const SLUGS = [
   'mathe-nachhilfe-online-realschule',
   'mathe-nachhilfe-online-oberstufe',
   'mathe-nachhilfe-grundschule-online',
+  'coding-classes-for-kids-stuttgart',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1699,6 +1700,7 @@ const LLMS_LABELS = {
   'mathe-nachhilfe-online-realschule': 'Mathe-Nachhilfe online Realschule (auf Englisch)',
   'mathe-nachhilfe-online-oberstufe': 'Mathe-Nachhilfe online Oberstufe (auf Englisch)',
   'mathe-nachhilfe-grundschule-online': 'Mathe-Nachhilfe Grundschule online (auf Englisch)',
+  'coding-classes-for-kids-stuttgart': 'Coding classes for kids in Stuttgart',
 };
 
 function wireLlms(slugs) {

@@ -82,7 +82,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE072 | mathe-nachhilfe-online-gymnasium (mng, #933A4A) | door-de (de) | 3,463 | 2.7% vs informatik-abitur-vorbereitung | Mathe-Nachhilfe online Gymnasium: Klasse 5 bis 10, auf Englisch | percent changes chain by multiplying growth factors, never by adding the percentages | 86749b65 |
 | DE073 | mathe-nachhilfe-online-realschule (mnr, #8E3869) | door-de (de) | 3,404 | 2.4% vs informatik-pflichtfach-unterstuetzung | Mathe-Nachhilfe online Realschule: Abschluss 2027, auf Englisch | "from which whole number on" with a strict inequality: the answer is the next whole number after the | 390d69ed |
 | DE074 | mathe-nachhilfe-online-oberstufe (mno, #2D5761) | door-de (de) | 3,515 | 2.9% vs mathe-nachhilfe-online-gymnasium | Mathe-Nachhilfe online Oberstufe: EF und Q-Phase, auf Englisch | "at least once" is one minus "never"; probabilities of repeated tries never simply add up | cc94147f |
-| DE075 | mathe-nachhilfe-grundschule-online (mna, #1E4976) | door-de (de) | 3,239 | 2.7% vs informatik-pflichtfach-unterstuetzung | Mathe-Nachhilfe Grundschule online: Klasse 1 bis 4, auf Englisch | find the rule behind a growing pattern, then predict a far term without drawing every step | (this commit) |
+| DE075 | mathe-nachhilfe-grundschule-online (mna, #1E4976) | door-de (de) | 3,239 | 2.7% vs informatik-pflichtfach-unterstuetzung | Mathe-Nachhilfe Grundschule online: Klasse 1 bis 4, auf Englisch | find the rule behind a growing pattern, then predict a far term without drawing every step | 91151dcb |
+| DE126 | coding-classes-for-kids-stuttgart (cst, #964762) | city-t1 (en) | 4,257 | 1.8% vs coding-classes-for-kids-germany | Coding Classes for Kids in Stuttgart: Live Online in English | to compare two series of very different size, index both to the same base year (= 100) | (this commit) |
 
 ## Notes
 
