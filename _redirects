@@ -9174,4 +9174,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /nachhilfe-auf-englisch-online /src/pages/nachhilfe-auf-englisch-online.html 200
 /nachhilfe-auf-englisch-online.md /src/pages/nachhilfe-auf-englisch-online.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/informatik-abitur-nrw /src/pages/informatik-abitur-nrw.html 200
+/informatik-abitur-nrw.md /src/pages/informatik-abitur-nrw.md 200
 /* /src/pages/404.html 404

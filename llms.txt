@@ -1030,6 +1030,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Spiele programmieren lernen (auf Englisch): https://learn.modernagecoders.com/spiele-programmieren-lernen-kinder
 - Programmieren lernen auf Englisch: https://learn.modernagecoders.com/programmieren-lernen-auf-englisch
 - Nachhilfe auf Englisch online: https://learn.modernagecoders.com/nachhilfe-auf-englisch-online
+- Informatik-Abitur NRW (Unterricht auf Englisch): https://learn.modernagecoders.com/informatik-abitur-nrw
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

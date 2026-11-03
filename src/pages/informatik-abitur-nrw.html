@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Informatik-Abitur NRW 2027: Vorgaben, Termin, Übung in Java</title>
+  <meta name="description" content="Informatik-Abitur NRW 2027: Java und SQL, 225 Minuten im Grundkurs, 270 im Leistungskurs, Termin 16. April 2027. Mit Übung in Java und Live-Unterricht auf Englisch.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/informatik-abitur-nrw">
+  <link rel="alternate" type="text/markdown" href="/src/pages/informatik-abitur-nrw.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#365469">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/informatik-abitur-nrw">
+  <meta property="og:title" content="Informatik-Abitur NRW 2027: Vorgaben, Termin, Übung in Java">
+  <meta property="og:description" content="Was das Zentralabitur 2027 in Nordrhein-Westfalen im Fach Informatik verlangt, wann geschrieben wird und eine eigene Übungsaufgabe mit Stapel und Schlange in Java, vollständig gelöst.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="de_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Informatik-Abitur NRW 2027: Vorgaben, Termin, Übung in Java">
+  <meta name="twitter:description" content="Informatik-Abitur NRW 2027: Vorgaben, Termin am 16. April 2027 und eine gelöste Java-Übung mit Stack und Queue.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ian .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-ian .ag-capsule { border-left-width: 5px; }
+.ag-root.ag-ian .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-ian .ag-table th { text-transform: none; }
+.ag-root.ag-ian .ag-code-head b { font-variant-numeric: tabular-nums; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/informatik-abitur-nrw#page","url":"https://learn.modernagecoders.com/informatik-abitur-nrw","name":"Informatik-Abitur NRW","description":"Ein Leitfaden für Schülerinnen, Schüler und Eltern in Nordrhein-Westfalen zum schriftlichen Informatik-Abitur 2027: die Vorgaben des Schulministeriums, der Prüfungstermin, die Stellung des Fachs in der Oberstufe nach dem Informatik-Monitor 2026/27 und eine eigene Übungsaufgabe in Java.","inLanguage":"de-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Kurse","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Informatik-Abitur NRW","item":"https://learn.modernagecoders.com/informatik-abitur-nrw"}]},{"@type":"Course","name":"Informatik-Abitur NRW","description":"Ein Kurs für die Oberstufe in Nordrhein-Westfalen, live im Videounterricht und nur auf Englisch gehalten: Java mit Stack, Queue, List und Bäumen, SQL, Automaten, Grammatiken und viel Arbeit mit dem Stift, wahlweise als Gruppe oder einzeln.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/informatik-abitur-nrw"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/informatik-abitur-nrw"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/informatik-abitur-nrw"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Findet der Unterricht auf Deutsch statt?","acceptedAnswer":{"@type":"Answer","text":"Nein, der Unterricht ist ausschließlich auf Englisch, immer live. Für das Informatik-Abitur ist das ein Gewinn: Ihr Kind übt Programmieren und Englisch zugleich, und Java besteht ohnehin aus englischen Wörtern. Die Mentoren sprechen deutlich und passen Tempo und Aussprache an."}},{"@type":"Question","name":"Wann ist das Informatik-Abitur 2027 in NRW?","acceptedAnswer":{"@type":"Answer","text":"Am Freitag, 16. April 2027, für Grundkurs und Leistungskurs. So steht es in Anlage A zum Runderlass des Schulministeriums vom 30. Mai 2025."}},{"@type":"Question","name":"Wie lange dauert die Prüfung?","acceptedAnswer":{"@type":"Answer","text":"Laut den Vorgaben für 2027 beträgt die Arbeitszeit im Grundkurs 225 Minuten und im Leistungskurs 270 Minuten."}},{"@type":"Question","name":"Welche Programmiersprache wird im NRW-Abitur verwendet?","acceptedAnswer":{"@type":"Answer","text":"Die Vorgaben 2027 nennen Java und SQL. Dazu kommen festgelegte Klassen wie Stack, Queue, List, BinaryTree und BinarySearchTree, im Leistungskurs auch Graph, Vertex und Edge."}},{"@type":"Question","name":"Ist im NRW-Abitur ein Rechner erlaubt?","acceptedAnswer":{"@type":"Answer","text":"Nein. Die Vorgaben sagen, dass der Einsatz eines Computers nicht vorgesehen ist. Zugelassen sind ein Wörterbuch zur deutschen Rechtschreibung und ein wissenschaftlicher Taschenrechner oder ein CAS."}},{"@type":"Question","name":"Können Schülerinnen und Schüler die Aufgaben selbst auswählen?","acceptedAnswer":{"@type":"Answer","text":"Nein. Von vier Aufgaben wählt die Fachlehrkraft im Grundkurs zwei und im Leistungskurs drei aus. Eine Auswahl durch die Prüflinge ist nicht vorgesehen."}},{"@type":"Question","name":"Kann Informatik in NRW eine Naturwissenschaft ersetzen?","acceptedAnswer":{"@type":"Answer","text":"Nach dem Informatik-Monitor 2026/27 ist Informatik in NRW den naturwissenschaftlichen Fächern weder bei den Belegungspflichten noch als Prüfungsfach gleichgestellt. Wer Informatik wählt, braucht also weiterhin eine Naturwissenschaft."}},{"@type":"Question","name":"Wann finden die Stunden statt?","acceptedAnswer":{"@type":"Answer","text":"Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. 14:00 Uhr in NRW ist im Winter 18:30 Uhr in Indien, wo die Mentoren sitzen."}},{"@type":"Question","name":"In welcher Währung zahle ich?","acceptedAnswer":{"@type":"Answer","text":"In US-Dollar. Angezeigt wird der Monatsbetrag in Euro nach dem Referenzkurs der Europäischen Zentralbank, die Umrechnung macht Ihre Bank. Die erste Stunde kostet nichts."}},{"@type":"Question","name":"Vergeben Sie Noten oder ein Zertifikat für das Abitur?","acceptedAnswer":{"@type":"Answer","text":"Nein. Wir unterrichten begleitend zur Schule. Die Note im Abitur entsteht allein in der Schule und in der zentralen Prüfung; wir sind mit dem Schulministerium nicht verbunden."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/informatik-abitur-nrw","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-ian">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Deutschland</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Deutschland</a></li>
+      <li><a href="#vorgaben">Vorgaben</a></li>
+      <li><a href="#termin">Termin</a></li>
+      <li><a href="#uebung">Übung</a></li>
+      <li><a href="#zeiten">Zeiten</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Probestunde</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Startseite</a> / <a href="/courses">Kurse</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Informatik-Abitur NRW
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Nordrhein-Westfalen &middot; Zentralabitur 2027 &middot; Informatik</p>
+        <h1>Informatik-Abitur NRW: Vorbereitung live auf Englisch</h1>
+        <p class="ag-lede">Im Zentralabitur 2027 schreiben Grundkurs und Leistungskurs Informatik in Nordrhein-Westfalen am selben Tag, beide ohne Computer und beide mit Java und SQL als Sprachen der Aufgaben. Hier stehen die Vorgaben des Schulministeriums in einer Tabelle, der Termin mit Datum, die Rolle des Fachs in der Oberstufe und eine eigene Übungsaufgabe mit Stapel und Schlange, so wie sie im Abitur auf Papier verlangt werden könnte.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Kostenlose Probestunde buchen</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Priority Demo buchen</a>
+          <a href="#vorgaben" class="ag-btn ag-btn--ghost">Die Vorgaben 2027</a>
+          <a href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20unser%20Kind%20schreibt%202027%20das%20Informatik-Abitur%20in%20NRW.%20K%C3%B6nnen%20wir%20eine%20kostenlose%20Probestunde%20auf%20Englisch%20buchen%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ian'});">Per WhatsApp fragen</a>
+        </div>
+        <p class="ag-hero-note">Live-Unterricht seit 2020 &middot; mehr als 10.000 Lernende in vielen Ländern &middot; Java auf Papier geübt, live und auf Englisch</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">Auf einen Blick</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4,9 von 5 bei 547 Google-Bewertungen
+        </p>
+        <dl>
+          <dt>Unterrichtssprache</dt><dd>Live-Unterricht ausschließlich auf Englisch, im eigenen Tempo; die Mentoren sprechen deutlich und stellen sich auf Tempo und Akzent der Lernenden ein</dd>
+          <dt>Für</dt><dd>Einführungsphase, Q1 und Q2 in NRW</dd>
+          <dt>Sprachen</dt><dd>Java und SQL, wie in den Vorgaben</dd>
+          <dt>Form</dt><dd>Gruppe mit 15 bis 20 oder Einzelunterricht</dd>
+          <dt>Übung</dt><dd>Code auf Papier, ohne Rechner</dd>
+          <dt>Mentor</dt><dd>Fest zugeteilt, live aus Indien</dd>
+          <dt>Start</dt><dd>Probestunde kostenlos</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Kurz gesagt</p>
+      <p>Das Informatik-Abitur 2027 in NRW wird zentral gestellt: Java und SQL, keine Arbeit am Computer, 225 Minuten im Grundkurs und 270 im Leistungskurs, geschrieben am Freitag, 16. April 2027. Modern Age Coders bereitet Oberstufenschülerinnen und -schüler darauf live online vor, auf Englisch, mit dem Kurs Informatik Oberstufe und Abitur, in der Gruppe oder im Einzelunterricht. Tempo und Aussprache stimmt ein fester Mentor auf Ihr Kind ab.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Passende Kurse</p>
+      <h2>Drei Kurse für die Oberstufe in NRW</h2>
+      <p class="ag-lede">Der erste Kurs ist der Kern für das Abitur, der zweite stärkt die Mathematik, die viele Informatik-Leistungskurse daneben belegen, der dritte richtet sich an alle, die über die Prüfung hinaus knobeln wollen.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/informatik-abitur-course-java-python">
+        <div class="ag-pick-shot"><img src="/images/informatik-abitur-java-python.webp" alt="Kursbild Informatik Oberstufe und Abitur mit Java und Python" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">NRW / 01</p>
+          <h3>Informatik Oberstufe und Abitur</h3>
+          <p>Oberstufe, etwa 16 bis 19. Java von der Klasse bis zum binären Suchbaum, SQL, Automaten und Grammatiken, jede Woche auch eine Aufgabe nur mit Stift.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/abitur-mathematics-course-in-english">
+        <div class="ag-pick-shot"><img src="/images/abitur-mathematik-in-english.webp" alt="Kursbild Abitur-Mathematik auf Englisch" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">NRW / 02</p>
+          <h3>Abitur-Mathematik auf Englisch</h3>
+          <p>Oberstufe, etwa 15 bis 19. Analysis, Stochastik und Vektoren für das Mathematik-Abitur, im selben Live-Format.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">
+        <div class="ag-pick-shot"><img src="/images/german-informatics-competitions.webp" alt="Kursbild Informatik-Wettbewerbe Biber, BwInf und BWKI" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">NRW / 03</p>
+          <h3>Informatik-Wettbewerbe</h3>
+          <p>Etwa 9 bis 19. Eigene Knobel- und Algorithmenaufgaben als Vorbereitung auf Wettbewerbe, für die Neugier neben der Schule.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="vorgaben">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Vorgaben Zentralabitur 2027</p><h2>Was verlangt das Informatik-Abitur 2027 in NRW?</h2><p class="ag-lede">Das Ministerium für Schule und Bildung legt für jeden Abiturjahrgang fest, worauf sich die zentralen Aufgaben stützen. Für 2027 sind das die folgenden Punkte, nach Grund- und Leistungskurs getrennt.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Schriftliches Informatik-Abitur 2027 in Nordrhein-Westfalen</caption><thead><tr><th scope="col">Punkt</th><th scope="col">Grundkurs</th><th scope="col">Leistungskurs</th></tr></thead><tbody><tr><td>Arbeitszeit</td><td>225 Minuten</td><td>270 Minuten</td></tr><tr><td>Aufgabensatz</td><td>vier Aufgaben, die Lehrkraft wählt zwei</td><td>vier Aufgaben, die Lehrkraft wählt drei</td></tr><tr><td>Wahl durch Prüflinge</td><td>nicht vorgesehen</td><td>nicht vorgesehen</td></tr><tr><td>Sprachen</td><td>Java und SQL</td><td>Java und SQL</td></tr><tr><td>Datenstrukturen</td><td>Array bis zweidimensional, Stack, Queue, List, BinaryTree, BinarySearchTree</td><td>dazu Graphen mit Graph, Vertex und Edge</td></tr><tr><td>Datenbanken</td><td>Klassen DatabaseConnector und QueryResult</td><td>Klassen DatabaseConnector und QueryResult</td></tr><tr><td>Netzwerke</td><td>Einzelrechner und Rechnernetzwerke</td><td>dazu Algorithmen zur Kommunikation mit Connection, Client und Server</td></tr><tr><td>Automaten</td><td>deterministische und nichtdeterministische endliche Automaten</td><td>dazu nichtdeterministische Kellerautomaten</td></tr><tr><td>Sprachen und Grammatiken</td><td>Grammatiken regulärer Sprachen, Produktionen mit ε</td><td>reguläre und kontextfreie Grammatiken, Scanner, Parser und Interpreter für eine reguläre Sprache</td></tr><tr><td>Hilfsmittel</td><td>Rechtschreibwörterbuch, WTR oder CAS/MMS</td><td>Rechtschreibwörterbuch, WTR oder CAS/MMS</td></tr><tr><td>Computer</td><td>nicht vorgesehen</td><td>nicht vorgesehen</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Zusammengestellt aus den Vorgaben des NRW-Schulministeriums zum Zentralabitur 2027 im Fach Informatik, Teile II (weitere Vorgaben) und III (Übersicht der Schwerpunkte), von uns gelesen am 3. November 2026. Die Tabelle fasst zusammen; verbindlich bleibt der Kernlehrplan für die Sekundarstufe II mit allen Kompetenzerwartungen, nicht nur den hier genannten Schwerpunkten.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Was die Tabelle für die Vorbereitung heißt</h3><p>Wer in NRW Informatik schreibt, wählt keine Aufgaben selbst aus. Die Fachlehrkraft entscheidet vorher, welche zwei oder drei der vier Aufgaben die Kursgruppe bekommt. Lücken in einem Themenfeld lassen sich also nicht durch geschickte Wahl am Prüfungstag ausgleichen.</p>
+<p>Die Klassen sind namentlich festgelegt. Wer mit Stack, Queue und List im Unterricht nur am Rechner gearbeitet hat, muss im Abitur dieselben Methodenaufrufe mit Stift schreiben und dabei an jeden leeren Fall denken.</p></div><div><h3>Struktogramme und Diagramme</h3><p>Unter Algorithmen nennen die Vorgaben ausdrücklich Struktogramme, unter Objekten und Klassen die Implementationsdiagramme. Beides gehört zum Handwerkszeug: Ein Algorithmus kann als Struktogramm gegeben sein und soll in Java umgesetzt werden, oder umgekehrt.</p>
+<p>Auch der Datenschutz steht in der Liste, unter dem Inhaltsfeld Informatik, Mensch und Gesellschaft. Das sind Textaufgaben, in denen begründet und bewertet wird, und sie verlangen eine andere Art der Übung als das Programmieren.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="termin">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Prüfungstermin und Oberstufe</p><h2>Wann ist das Informatik-Abitur 2027 in NRW, und wer schreibt es?</h2><p class="ag-lede">Grundkurs und Leistungskurs schreiben am Freitag, 16. April 2027. So steht es in Anlage A zum Runderlass des Schulministeriums vom 30. Mai 2025.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Informatik in der gymnasialen Oberstufe in NRW</caption><thead><tr><th scope="col">Frage</th><th scope="col">Antwort</th><th scope="col">Quelle</th></tr></thead><tbody><tr><td>Termin der schriftlichen Prüfung 2027</td><td>Freitag, 16. April 2027, Grundkurs und Leistungskurs</td><td>MSB NRW, Anlage A, Fachprüfungstermine 2027</td></tr><tr><td>Erster und letzter Termin der Liste</td><td>Dienstag, 13. April 2027 bis Mittwoch, 5. Mai 2027 (Mathematik)</td><td>MSB NRW, Anlage A</td></tr><tr><td>Einführungsphase</td><td>dreistündiger Grundkurs Informatik möglich</td><td>Informatik-Monitor 2026/27</td></tr><tr><td>Qualifikationsphase</td><td>Grundkurs mit drei, Leistungskurs mit fünf Wochenstunden</td><td>Informatik-Monitor 2026/27</td></tr><tr><td>Prüfungsform</td><td>Leistungskurs grundsätzlich schriftlich; Grundkurs schriftlich oder mündlich</td><td>Informatik-Monitor 2026/27</td></tr><tr><td>Ersatz für eine Naturwissenschaft</td><td>nein, als Prüfungsfach nicht gleichgestellt</td><td>Informatik-Monitor 2026/27</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Termine aus Anlage A zum Runderlass des Schulministeriums vom 30. Mai 2025, die wir mit der gedruckten Tabelle abgeglichen haben; Gesellschaft für Informatik, Informatik-Monitor 2026/27, Seite Nordrhein-Westfalen; beide gelesen am 2. und 3. November 2026.</p>
+    <p class="ag-mt-40">Der 16. April 2027 liegt früh im Prüfungszeitraum, nur drei Tage nach dem ersten Termin der Liste. Für die Planung heißt das: Die Osterferien sind die letzte längere Übungsphase, und sie sollten nicht erst dem Fach gehören, das ganz am Ende geschrieben wird.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Wie viele wählen Informatik?</h3><p>Laut Informatik-Monitor hatten im Schuljahr 2024/2025 in NRW 14 Prozent der Schülerinnen und Schüler der Sekundarstufe II Informatik belegt (Quelle des Monitors: Kultusministerkonferenz). Als Prüfungsfach im Abitur hatten es 4 Prozent der Abiturientinnen und Abiturienten (Quelle: Schulministerium NRW).</p>
+<p>Wer Informatik als Abiturfach nimmt, sitzt also oft in einer kleinen Gruppe. Das ist ein Vorteil im Unterricht, aber es gibt weniger Mitschülerinnen und Mitschüler, mit denen man zusammen übt.</p></div><div><h3>Lehrkräfte im Land</h3><p>Für das Schuljahr 2025/2026 meldete das Schulministerium dem Monitor 2.808 Informatiklehrkräfte, das sind 3 Prozent aller Lehrkräfte in NRW.</p>
+<p>Pflichtfach ist Informatik in NRW in Klasse 5 und 6 an allen allgemeinbildenden Schularten. Am Gymnasium folgt danach nur ein Wahlpflichtangebot in Klasse 9 und 10 mit insgesamt sechs Wochenstunden. Wer es nicht gewählt hat, beginnt in der Oberstufe mit wenig Vorwissen.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="klassen">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Die Java-Klassen im Blick</p><h2>Welche Klassen und Themen kommen im NRW-Abitur dran?</h2><p class="ag-lede">Die Vorgaben ordnen alles in Inhaltsfelder. Wir übersetzen sie hier in eine Lernreihenfolge, die sich in unserer Vorbereitung bewährt hat. Die Reihenfolge ist unsere, die Inhalte stammen aus den Vorgaben.</p></div>
+    <ol class="ag-steps"><li><strong>Objekte und Klassen, Implementationsdiagramme.</strong> Attribute, Methoden, Konstruktoren, Beziehungen zwischen Klassen. Wer ein Diagramm sicher in Java übersetzt, hat für alle folgenden Themen die Grundlage.</li><li><strong>Arrays, ein- und zweidimensional.</strong> Durchlaufen mit Zählschleifen, Summen, Maxima, Suchen. Das zweidimensionale Array verlangt zwei verschachtelte Schleifen und eine klare Vorstellung von Zeile und Spalte.</li><li><strong>Stack, Queue und List.</strong> Lineare Strukturen, bei denen jede Methode nur unter einer Bedingung sinnvoll ist: Aus einem leeren Stapel nimmt man nichts heraus.</li><li><strong>BinaryTree und BinarySearchTree.</strong> Rekursive Durchläufe (Preorder, Inorder, Postorder), Einfügen und Suchen im Suchbaum.</li><li><strong>Datenbanken mit SQL.</strong> Abfragen über mehrere Tabellen, dazu die Klassen DatabaseConnector und QueryResult, mit denen Java eine Abfrage absetzt und das Ergebnis liest.</li><li><strong>Endliche Automaten und Grammatiken.</strong> Ein Wort durch einen Automaten verfolgen, aus einem nichtdeterministischen einen deterministischen Automaten machen, Ableitungen mit einer Grammatik schreiben.</li><li><strong>Nur Leistungskurs: Graphen, Netzwerke, Kellerautomaten, Parser.</strong> Graph, Vertex und Edge mit Durchlauf und Wegsuche; Client und Server mit einem eigenen Protokoll; kontextfreie Sprachen.</li></ol>
+    <p class="ag-mt-40">Die Beschreibung der Abiturklassen, mit der im Kurs gearbeitet wird, bekommt Ihr Kind von seiner Schule. Auf genau diesem Stand bauen unsere Stunden auf, ergänzt um Aufgaben, die wir selbst geschrieben haben. In der Prüfung zählt allein, was die Vorgaben und die Lehrkraft festlegen; wir unterrichten begleitend zur Schule und vergeben keine Noten.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="uebung">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Eine Übungsaufgabe von uns</p><h2>Wie sieht eine Abituraufgabe mit Stapel und Schlange aus?</h2><p class="ag-lede">Die folgende Aufgabe haben wir selbst geschrieben, im Stil einer Teilaufgabe zu linearen Strukturen. Sie stammt nicht aus einer echten Abiturprüfung. Zum Ausprobieren am Rechner verwenden wir die Java-Klasse ArrayDeque; in der Prüfung arbeiten Sie mit den Klassen Stack und Queue aus den Vorgaben, deren Methoden anders heißen.</p></div>
+    <p><strong>Aufgabe (unsere).</strong> In einer Schlange stehen sechs Namen: Ada, Ben, Cem, Dana, Eli, Fynn, Ada ganz vorn. Die Methode <code>kehreErsteUm(schlange, k)</code> soll die ersten k Namen umdrehen, alle übrigen sollen in ihrer Reihenfolge dahinter bleiben. Als Hilfsmittel steht genau ein Stapel zur Verfügung. a) Geben Sie die Schlange nach dem Aufruf mit k = 4 an. b) Begründen Sie, warum die letzte Schleife nötig ist. c) Was liefert ein zweiter Aufruf mit k = 6?</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Umkehren.java</b><span>Java</span></figcaption><pre>import java.util.ArrayDeque;
+
+public class Umkehren {
+    // Kehrt die ersten k Elemente der Schlange um, der Rest behaelt seine Reihenfolge.
+    static void kehreErsteUm(ArrayDeque&lt;String&gt; schlange, int k) {
+        ArrayDeque&lt;String&gt; stapel = new ArrayDeque&lt;&gt;();
+        for (int i = 0; i &lt; k; i++) {
+            stapel.push(schlange.poll());
+        }
+        while (!stapel.isEmpty()) {
+            schlange.offer(stapel.pop());
+        }
+        int rest = schlange.size() - k;
+        for (int i = 0; i &lt; rest; i++) {
+            schlange.offer(schlange.poll());
+        }
+    }
+
+    public static void main(String[] args) {
+        ArrayDeque&lt;String&gt; s = new ArrayDeque&lt;&gt;();
+        for (String name : new String[] {"Ada", "Ben", "Cem", "Dana", "Eli", "Fynn"}) {
+            s.offer(name);
+        }
+        kehreErsteUm(s, 4);
+        System.out.println(s);
+        kehreErsteUm(s, 6);
+        System.out.println(s);
+    }
+}</pre><p class="ag-code-note">Ausgabe, so von uns mit OpenJDK 21 ausgeführt: <code>[Dana, Cem, Ben, Ada, Eli, Fynn]</code> und danach <code>[Fynn, Eli, Ada, Ben, Cem, Dana]</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Lösung zu a): beide Behälter nach jedem Abschnitt (unsere Darstellung)</caption><thead><tr><th scope="col">Schritt</th><th scope="col">Schlange (vorn links)</th><th scope="col">Stapel (oben links)</th></tr></thead><tbody><tr><td>Start</td><td>Ada, Ben, Cem, Dana, Eli, Fynn</td><td>leer</td></tr><tr><td>Nach 4 mal Entnehmen und Ablegen</td><td>Eli, Fynn</td><td>Dana, Cem, Ben, Ada</td></tr><tr><td>Nach dem Leeren des Stapels</td><td>Eli, Fynn, Dana, Cem, Ben, Ada</td><td>leer</td></tr><tr><td>Nach 2 Rotationen (rest = 6 minus 4)</td><td>Dana, Cem, Ben, Ada, Eli, Fynn</td><td>leer</td></tr></tbody></table></div>
+    <p class="ag-mt-40"><strong>Zu b).</strong> Ohne die letzte Schleife stünden die umgedrehten Namen hinten: Eli, Fynn, Dana, Cem, Ben, Ada. Der Stapel kann Elemente nur oben ablegen und oben wegnehmen, die Schlange nur hinten anfügen und vorn entnehmen. Die zurückgelegten Namen landen daher zwangsläufig hinter Eli und Fynn. Erst wenn die zwei übrigen Namen einmal von vorn nach hinten wandern, steht das Ergebnis richtig. Diese Begründung in zwei Sätzen ist im Abitur meist mehr wert als der Code allein.</p>
+    <p><strong>Zu c).</strong> Mit k = 6 werden alle Namen umgedreht, und <code>rest</code> ist 0: Aus Dana, Cem, Ben, Ada, Eli, Fynn wird Fynn, Eli, Ada, Ben, Cem, Dana. Ein häufiger Fehler ist, <code>rest</code> erst nach dem Zurücklegen mit der falschen Größe zu berechnen; hier ist das unkritisch, weil die Schlange am Ende wieder alle sechs Namen enthält.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Beide Behälter aufschreiben.</strong> Notieren Sie nach jedem Abschnitt, was in der Schlange und was im Stapel steht. Mit zwei Spalten sieht man die Umkehrung, im Kopf verliert man sie.</li><li><strong>Leere Fälle prüfen.</strong> Was passiert mit k = 0? Die Schlange bleibt unverändert, und das ist richtig. In der Prüfung fragt man sich das bei jeder Methode, bevor man <code>front</code> oder <code>top</code> aufruft.</li><li><strong>Die Klassen der Vorgaben verwenden.</strong> Übertragen Sie die Lösung danach selbst auf Stack und Queue aus dem Unterricht. Genau dieser Schritt, von der vertrauten Bibliothek zur Abiturklasse, ist die eigentliche Übung.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="englisch">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unterricht auf Englisch</p><h2>Wie läuft die Vorbereitung auf Englisch ab?</h2><p class="ag-lede">Wir unterrichten ausschließlich auf Englisch. Für Java ist das weniger ungewohnt, als viele denken: Schlüsselwörter, Klassen der Standardbibliothek und Fehlermeldungen sind ohnehin englisch.</p></div>
+    <div class="ag-grid-3"><div><h3>Die Prüfungssprache bleibt Deutsch</h3><p>Die Abituraufgaben sind deutsch formuliert. Deshalb besprechen wir die Operatoren wie erläutern, implementieren oder begründen so, dass Ihr Kind sie im deutschen Aufgabentext sicher erkennt, auch wenn die Stunde auf Englisch läuft.</p></div><div><h3>Fachwörter in beiden Sprachen</h3><p>Stapel heißt stack, Schlange queue, Binärbaum binary tree. Der Mentor nennt beide Wörter, bis sie sitzen, und Ihr Kind darf jederzeit auf Deutsch nachfragen.</p></div><div><h3>Langsam, deutlich, wiederholt</h3><p>Die Mentoren sitzen in Indien und unterrichten live per Video. Sie passen Tempo und Aussprache an, wiederholen schwierige Stellen mit anderen Worten und lassen Zeit zum Mitschreiben.</p></div></div>
+    <ol class="ag-steps ag-mt-40"><li><strong>Stand feststellen.</strong> In der ersten Stunde lösen wir mit Ihrem Kind eine kurze Aufgabe aus seinem aktuellen Halbjahr und sehen, wo es hakt.</li><li><strong>Plan bis zum 16. April 2027.</strong> Wir verteilen die Themen der Vorgaben auf die verbleibenden Wochen, mit Puffer vor den Klausuren der Q2.</li><li><strong>Jede Woche Papier.</strong> Mindestens eine Aufgabe pro Woche wird ohne Rechner gelöst und danach erst am Computer geprüft.</li><li><strong>Begründen üben.</strong> Zu jeder Lösung gehört ein Satz, warum sie stimmt. Das trainiert genau die Teile, die in Textform bewertet werden.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="zeiten">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unterrichtszeiten</p><h2>Zu welchen Uhrzeiten finden die Stunden statt?</h2><p class="ag-lede">Die Mentoren arbeiten in Indien, der Unterricht richtet sich trotzdem nach dem Stundenplan in Nordrhein-Westfalen. Drei Beispiele zeigen, wie eine Uhrzeit hier und dort aussieht.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Beispielzeiten in Deutschland und beim Mentor in Indien</caption><thead><tr><th scope="col">Uhrzeit in NRW</th><th scope="col">In Indien bis 27. März 2027 (MEZ)</th><th scope="col">In Indien ab 28. März 2027 (MESZ)</th></tr></thead><tbody><tr><td>14:00</td><td>18:30</td><td>17:30</td></tr><tr><td>18:00</td><td>22:30</td><td>21:30</td></tr><tr><td>Samstag 11:00</td><td>15:30</td><td>14:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Das Einheiten- und Zeitgesetz legt für Deutschland die MEZ (UTC+1) fest, im Sommer die MESZ (UTC+2); 2026 endete die Sommerzeit am 25. Oktober, 2027 beginnt sie am 28. März. Indien bleibt ganzjährig bei UTC+5:30, ist also im Winter 4 Stunden 30 Minuten und im Sommer 3 Stunden 30 Minuten voraus. Die Zeiten sind Beispiele, keine festen Gruppentermine.</p>
+    <p class="ag-mt-40">Rund um die Klausuren der Q2 und in den Wochen vor dem 16. April 2027 buchen viele Familien zusätzliche Einzelstunden. Sie wählen die Uhrzeit bei der Buchung in Ihrer eigenen Zeitzone.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fortschritt</p>
+      <h2>Woran Sie sehen, dass die Vorbereitung greift</h2>
+      <p class="ag-lede">Unsere eigenen Stufen für die Oberstufe in NRW. Sie sind keine Noten und ersetzen keine Bewertung der Schule.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Fünf Stufen bis zum Informatik-Abitur (unsere Einteilung)</caption><thead><tr><th scope="col">Stufe</th><th scope="col">Zeitpunkt</th><th scope="col">Ihr Kind kann</th></tr></thead><tbody><tr><td>1. Diagramm lesen</td><td class="ag-num">Einführungsphase</td><td class="ag-num">aus einem Implementationsdiagramm die Java-Klassen mit Attributen und Methoden schreiben</td></tr><tr><td>2. Strukturen bedienen</td><td class="ag-num">Q1, erstes Halbjahr</td><td class="ag-num">Stack, Queue und List mit Stift verwenden und jeden leeren Fall abfangen</td></tr><tr><td>3. Rekursiv denken</td><td class="ag-num">Q1, zweites Halbjahr</td><td class="ag-num">einen Binärbaum in allen drei Reihenfolgen durchlaufen und einen Suchbaum aufbauen</td></tr><tr><td>4. Abfragen und Automaten</td><td class="ag-num">Q2, erstes Halbjahr</td><td class="ag-num">SQL über mehrere Tabellen schreiben und Wörter durch einen Automaten verfolgen</td></tr><tr><td>5. Prüfungsreif</td><td class="ag-num">vor dem 16. April 2027</td><td class="ag-num">eine Aufgabe in der Zeit der Vorgaben vollständig lösen und jede Entscheidung begründen</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Für Eltern</h3><p>Nach jedem Monat erhalten Sie eine kurze Rückmeldung, welche Stufe erreicht ist und was noch fehlt.</p>
+<p>Ein Sprung von Stufe 2 zu 3 dauert oft am längsten, weil Rekursion für viele neu ist. Das ist normal und kein Grund zur Sorge.</p></div><div><h3>Für Schülerinnen und Schüler</h3><p>Schreiben Sie jede Lösung zuerst auf Papier. Erst danach tippen und vergleichen.</p>
+<p>Zeichnen Sie Stapel und Schlange als Kästchen. Wer sie sieht, verwechselt oben und vorn nicht mehr.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weitere Kurse</p>
+      <h2>Neun weitere Kurse rund um Informatik und Mathematik</h2>
+      <p class="ag-lede">Sinnvoll vor oder neben der Q1, je nachdem, wo Ihr Kind noch Lücken hat. Format und Sprache sind dieselben wie oben.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Java und Programmieren</h3>
+        <span class="ag-band-sub">13 bis 19 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">NRW / JAVA / 01</p>
+          <h4>Java für Jugendliche</h4>
+          <p>Klassen, Vererbung und Sammlungen von Grund auf.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NRW / JAVA / 02</p>
+          <h4>Datenstrukturen und Algorithmen</h4>
+          <p>Stapel, Schlangen, Bäume und Graphen in der Tiefe.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NRW / JAVA / 03</p>
+          <h4>Python für Jugendliche</h4>
+          <p>Die zweite Sprache neben Java, für Projekte und Studium.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Daten und Netze</h3>
+        <span class="ag-band-sub">13 bis 19 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">NRW / DATEN / 01</p>
+          <h4>SQL und Datenbanken</h4>
+          <p>Joins, Gruppierungen und Datenmodelle.</p>
+          <a class="ag-course-link" href="/courses/mysql-mastery-for-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NRW / DATEN / 02</p>
+          <h4>IT-Sicherheit</h4>
+          <p>Verschlüsselung und Schutz, defensiv gedacht.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NRW / DATEN / 03</p>
+          <h4>Wettbewerbsprogrammierung</h4>
+          <p>Schnelle Algorithmen für Fortgeschrittene.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Mathematik und mehr</h3>
+        <span class="ag-band-sub">15 bis 19 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">NRW / MATHE / 01</p>
+          <h4>Stochastik</h4>
+          <p>Wahrscheinlichkeit und Statistik mit Verständnis.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NRW / MATHE / 02</p>
+          <h4>Mathematik mit Code</h4>
+          <p>Rechnen, Prüfen und Darstellen mit Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">NRW / MATHE / 03</p>
+          <h4>KI und maschinelles Lernen</h4>
+          <p>Modelle verstehen, nicht nur benutzen.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Ablauf</p>
+      <h2>So läuft die Abiturvorbereitung live</h2>
+      <p class="ag-lede">Zwei Live-Stunden pro Woche mit demselben Mentor, jede rund eine Stunde lang. Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Nach der Schule</p><p class="ag-slot-l">Am frühen Nachmittag oder am Abend deutscher Zeit.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Samstag</p><p class="ag-slot-l">Am späten Vormittag, gut für längere Papieraufgaben.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Einzeln</p><p class="ag-slot-l">Vor Q2-Klausuren und in der Osterzeit 2027.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Ein Mentor</h3><p>Dieselbe Person kennt den Kursstand und die Lücken.</p></div>
+      <div><h3>Vorgaben als Plan</h3><p>Die Themen der Vorgaben 2027 bestimmen die Reihenfolge.</p></div>
+      <div><h3>Stift zuerst</h3><p>Lösungen entstehen auf Papier, der Rechner prüft danach.</p></div>
+      <div><h3>Englisch, verständlich</h3><p>Klare Sprache, Fachwörter in beiden Sprachen.</p></div>
+      <div><h3>Bericht an Eltern</h3><p>Monatlich, kurz und mit nächstem Ziel.</p></div>
+      <div><h3>Gruppe oder einzeln</h3><p>Fünfzehn bis zwanzig Lernende oder allein.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Projekte unserer Lernenden</p>
+      <h2>Was Lernende bauen</h2>
+      <p class="ag-lede">Wer Datenstrukturen versteht, baut daraus Anwendungen. Projekte unserer Lernenden zeigen die Karten unten; mehr finden Sie unter <a class="ag-inline-link" href="/student-labs">Student labs</a> (Seite auf Englisch).</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Screenshot des Projekts NutriLife, ein KI-Ernährungscoach" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>NutriLife</h4>
+          <p>Ein KI-Ernährungscoach, der Mahlzeiten auswertet und Schritt für Schritt auf ein Ziel hinarbeitet.</p>
+          <p class="ag-proj-meta">von Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Screenshot von Misti, ein KI-Chatbot für Mathematik und Programmieren" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>Misti</h4>
+          <p>Ein Chatbot, der Fragen zu Mathematik und Programmierung beantwortet, von einem Schüler gebaut und veröffentlicht.</p>
+          <p class="ag-proj-meta">von Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Screenshot von GuardianX, ein KI-Assistent für Sicherheit im Internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>GuardianX</h4>
+          <p>Ein Assistent, der jungen Menschen hilft, unsichere Situationen im Internet zu erkennen.</p>
+          <p class="ag-proj-meta">von Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Screenshot der Wetter-App SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web-App</p>
+          <h4>SkyCast</h4>
+          <p>Eine Wetter-Website mit aktuellen Bedingungen für jeden Ort.</p>
+          <p class="ag-proj-meta">von Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preise</p>
+      <h2>Kosten der Vorbereitung</h2>
+      <p class="ag-lede">Ein Monat umfasst acht Stunden live. Die Euro-Beträge hier stützen sich auf den Referenzkurs der Europäischen Zentralbank; belastet wird Ihr Konto aber in US-Dollar, deren Umrechnung Ihre Bank vornimmt. Kleine Abweichungen auf dem Auszug sind deshalb möglich.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Kostenlose Probestunde</p>
+        <p class="ag-price-amt">Kostenlos</p>
+        <p class="ag-price-alt">keine Karte nötig</p>
+        <ul><li>Kostenlose erste Stunde</li><li>Einstufung an einer Aufgabe aus dem Kurs</li><li>Ohne Kreditkarte</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Buchen</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Gruppenkurs</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group" data-price-format="suffix">90 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Gruppe mit fünfzehn bis zwanzig Lernenden</li><li>Fester Mentor für die ganze Zeit</li><li>Zwei Stunden pro Woche</li><li>Monatlich kündbar</li></ul>
+        <a href="#start" class="ag-btn">Hier starten</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Einzelunterricht</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal" data-price-format="suffix">134 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Nur Ihr Kind und der Mentor</li><li>Plan nach Vorgaben und Kursstand</li><li>Termine nach Absprache</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Anfragen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Was Familien sagen</p>
+      <h2>4,9 von 5 bei 547 Google-Bewertungen</h2>
+      <p class="ag-lede">Bewertungen von Eltern und Lernenden auf Google, im englischen Original belassen.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fragen und Antworten</p>
+      <h2>Informatik-Abitur NRW: häufige Fragen</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Findet der Unterricht auf Deutsch statt?</h3>
+        <p>Nein, der Unterricht ist ausschließlich auf Englisch, immer live. Für das Informatik-Abitur ist das ein Gewinn: Ihr Kind übt Programmieren und Englisch zugleich, und Java besteht ohnehin aus englischen Wörtern. Die Mentoren sprechen deutlich und passen Tempo und Aussprache an.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wann ist das Informatik-Abitur 2027 in NRW?</h3>
+        <p>Am Freitag, 16. April 2027, für Grundkurs und Leistungskurs. So steht es in Anlage A zum Runderlass des Schulministeriums vom 30. Mai 2025.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wie lange dauert die Prüfung?</h3>
+        <p>Laut den Vorgaben für 2027 beträgt die Arbeitszeit im Grundkurs 225 Minuten und im Leistungskurs 270 Minuten.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Welche Programmiersprache wird im NRW-Abitur verwendet?</h3>
+        <p>Die Vorgaben 2027 nennen Java und SQL. Dazu kommen festgelegte Klassen wie Stack, Queue, List, BinaryTree und BinarySearchTree, im Leistungskurs auch Graph, Vertex und Edge.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Ist im NRW-Abitur ein Rechner erlaubt?</h3>
+        <p>Nein. Die Vorgaben sagen, dass der Einsatz eines Computers nicht vorgesehen ist. Zugelassen sind ein Wörterbuch zur deutschen Rechtschreibung und ein wissenschaftlicher Taschenrechner oder ein CAS.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Können Schülerinnen und Schüler die Aufgaben selbst auswählen?</h3>
+        <p>Nein. Von vier Aufgaben wählt die Fachlehrkraft im Grundkurs zwei und im Leistungskurs drei aus. Eine Auswahl durch die Prüflinge ist nicht vorgesehen.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Kann Informatik in NRW eine Naturwissenschaft ersetzen?</h3>
+        <p>Nach dem Informatik-Monitor 2026/27 ist Informatik in NRW den naturwissenschaftlichen Fächern weder bei den Belegungspflichten noch als Prüfungsfach gleichgestellt. Wer Informatik wählt, braucht also weiterhin eine Naturwissenschaft.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wann finden die Stunden statt?</h3>
+        <p>Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. 14:00 Uhr in NRW ist im Winter 18:30 Uhr in Indien, wo die Mentoren sitzen.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>In welcher Währung zahle ich?</h3>
+        <p>In US-Dollar. Angezeigt wird der Monatsbetrag in Euro nach dem Referenzkurs der Europäischen Zentralbank, die Umrechnung macht Ihre Bank. Die erste Stunde kostet nichts.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Vergeben Sie Noten oder ein Zertifikat für das Abitur?</h3>
+        <p>Nein. Wir unterrichten begleitend zur Schule. Die Note im Abitur entsteht allein in der Schule und in der zentralen Prüfung; wir sind mit dem Schulministerium nicht verbunden.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weiterlesen</p>
+      <h2>Weitere Seiten für Familien in Deutschland</h2>
+      <p class="ag-lede">Die meisten dieser Seiten sind auf Englisch geschrieben.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Die Übersicht für ganz Deutschland.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>Für Klasse 5 bis 13, mit allen 16 Ländern.</p></div>
+      <div><h3><a class="ag-inline-link" href="/abitur-computer-science-in-english">Abitur computer science in English</a></h3><p>Das Informatik-Abitur im Ländervergleich.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-in-german-schools-by-state">Informatik by state</a></h3><p>Pflichtstunden in jedem Land.</p></div>
+      <div><h3><a class="ag-inline-link" href="/abitur-maths-in-english">Abitur maths in English</a></h3><p>Das Mathematik-Abitur auf Englisch.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Wie unser Live-Unterricht abläuft.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Jetzt starten</p>
+        <h2>Probestunde für das Informatik-Abitur buchen</h2>
+        <p class="ag-lede">Bringen Sie zur ersten Stunde eine Klausur oder ein Arbeitsblatt aus der Q1 oder Q2 mit. Der Mentor löst mit Ihrem Kind eine Aufgabe daraus und schlägt danach Kurs, Gruppe und Plan bis zum Prüfungstag vor.</p>
+        <p class="ag-mt-40">Zum Vorab-Lesen: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> zeigt, wie eine Live-Stunde aussieht, <a class="ag-inline-link" href="/student-labs">Student labs</a> zeigt Projekte (beide Seiten auf Englisch).</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20unser%20Kind%20schreibt%202027%20das%20Informatik-Abitur%20in%20NRW.%20K%C3%B6nnen%20wir%20eine%20kostenlose%20Probestunde%20auf%20Englisch%20buchen%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ian',pos:'end'});">Per WhatsApp schreiben</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Alle Stunden laufen live online mit Mentoren in Indien und nur auf Englisch. Per WhatsApp antworten wir am schnellsten.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ian(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Ihr Name</label>
+            <input id="de-name" type="text" name="name" placeholder="Name von Elternteil oder Lernendem" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Telefon oder WhatsApp, Deutschland +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Altersgruppe</label>
+            <select id="de-age" name="age"><option value="6-12">Kind, 6 bis 12</option><option value="13-18">Jugendliche, 13 bis 18</option><option value="college">Studierende</option><option value="adult">Berufstätige</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Kostenlose Probestunde anfragen</button>
+          <p class="ag-form-note">Die Probestunde ist gratis, ohne Vertrag und ohne Kartendaten.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Lieber früher starten? Priority Demo buchen</h3><p>Eine Priority Demo ist eine vollständige Unterrichtsstunde von etwa 45 bis 60 Minuten. Danach schickt der Mentor per WhatsApp einen schriftlichen Kompetenzbericht und einen persönlichen Lernplan. Wenn Sie sich anmelden, wird die Demo-Gebühr mit der ersten Monatsgebühr verrechnet: Schicken Sie uns dazu die Bestellnummer der Demo per WhatsApp.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Priority Demo buchen</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live-Online-Unterricht in Programmieren, KI und Mathematik für Menschen von 6 bis 67 Jahren. Wir unterrichten seit 2020, mehr als
+          10.000 Lernende in 25 Ländern.
+        </p>
+      </div>
+      <div><h4>Abitur</h4><ul><li><a href="/courses/informatik-abitur-course-java-python">Informatik Abitur</a></li><li><a href="/courses/abitur-mathematics-course-in-english">Mathematik Abitur</a></li><li><a href="/courses/java-programming-masterclass-for-teens">Java für Jugendliche</a></li><li><a href="/courses">Alle Kurse</a></li></ul></div>
+      <div><h4>Deutschland</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/abitur-computer-science-in-english">Abitur computer science</a></li><li><a href="/student-labs">Projekte</a></li></ul></div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="/about">Über uns</a></li>
+          <li><a href="/how-we-teach">So unterrichten wir</a></li>
+          <li><a href="/love">Bewertungen</a></li>
+          <li><a href="/contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live-Online-Unterricht weltweit.</span>
+      <span>Stapel oben, Schlange vorn</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Probestunde</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority Demo</a><a href="tel:+919123366161" aria-label="Anrufen +91 91233 66161">Anrufen</a></div>
+
+<script>
+window.submitLead_ian = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Wird gesendet...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'informatik-abitur-nrw-inline', meta: { name: name, age: age, page: 'informatik-abitur-nrw' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Vielen Dank' + (name ? ', ' + name.split(' ')[0] : '') + '. Ein Mentor ruft Sie in Kürze an.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Netzwerkfehler. Bitte versuchen Sie es erneut.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

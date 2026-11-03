@@ -799,6 +799,7 @@ const SLUGS = [
   'spiele-programmieren-lernen-kinder',
   'programmieren-lernen-auf-englisch',
   'nachhilfe-auf-englisch-online',
+  'informatik-abitur-nrw',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1677,6 +1678,7 @@ const LLMS_LABELS = {
   'spiele-programmieren-lernen-kinder': 'Spiele programmieren lernen (auf Englisch)',
   'programmieren-lernen-auf-englisch': 'Programmieren lernen auf Englisch',
   'nachhilfe-auf-englisch-online': 'Nachhilfe auf Englisch online',
+  'informatik-abitur-nrw': 'Informatik-Abitur NRW (Unterricht auf Englisch)',
 };
 
 function wireLlms(slugs) {
