@@ -8962,4 +8962,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /igcse-computer-science-tutor-germany /src/pages/igcse-computer-science-tutor-germany.html 200
 /igcse-computer-science-tutor-germany.md /src/pages/igcse-computer-science-tutor-germany.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ap-computer-science-tutor-germany /src/pages/ap-computer-science-tutor-germany.html 200
+/ap-computer-science-tutor-germany.md /src/pages/ap-computer-science-tutor-germany.md 200
 /* /src/pages/404.html 404

@@ -746,6 +746,7 @@ const SLUGS = [
   'learn-to-think-not-copy-ai-germany',
   'ib-computer-science-tutor-germany',
   'igcse-computer-science-tutor-germany',
+  'ap-computer-science-tutor-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1571,6 +1572,7 @@ const LLMS_LABELS = {
   'learn-to-think-not-copy-ai-germany': 'Learn to think, not copy AI',
   'ib-computer-science-tutor-germany': 'IB Computer Science tutor in Germany',
   'igcse-computer-science-tutor-germany': 'IGCSE Computer Science tutor in Germany',
+  'ap-computer-science-tutor-germany': 'AP Computer Science tutor in Germany',
 };
 
 function wireLlms(slugs) {

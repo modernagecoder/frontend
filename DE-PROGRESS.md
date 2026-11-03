@@ -18,7 +18,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE006 | abitur-computer-science-in-english (acs, #00634A) | pillar (en) | 3,820 | 1.4% vs informatik-in-german-schools-by-state | Informatik Abitur in English: How the Exam Works by Land | predict the row count before you run a query | c3418f0b |
 | DE012 | learn-to-think-not-copy-ai-germany (lto, #6C4170) | pillar (en) | 3,829 | 1.9% vs informatik-in-german-schools-by-state | Learn to Think, Not Copy AI: Coding Classes in Germany | check a confident rule against the definition across many cases, not just the one you tried | d45f32ce |
 | DE021 | ib-computer-science-tutor-germany (ico, #604073) | door-en (en) | 4,481 | 1.7% vs ai-and-machine-learning-classes-in-germany | IB Computer Science Tutor in Germany, Live Online in English | turn a rulebook into code, then test it with cases that should fail | 84ffdf90 |
-| DE023 | igcse-computer-science-tutor-germany (igc, #6E4604) | door-en (en) | 3,807 | 1.7% vs ib-computer-science-tutor-germany | IGCSE Computer Science Tutor in Germany (0478), in English | write it in pseudocode first, then translate it line by line into Python | (this commit) |
+| DE023 | igcse-computer-science-tutor-germany (igc, #6E4604) | door-en (en) | 3,807 | 1.7% vs ib-computer-science-tutor-germany | IGCSE Computer Science Tutor in Germany (0478), in English | write it in pseudocode first, then translate it line by line into Python | b29223fc |
+| DE024 | ap-computer-science-tutor-germany (aco, #285D29) | door-en (en) | 3,949 | 2% vs ib-computer-science-tutor-germany | AP Computer Science Tutor in Germany: CSA and CSP in English | trace the 2D array by hand, column by column, before you trust the loop | (this commit) |
 
 ## Notes
 
