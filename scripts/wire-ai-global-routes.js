@@ -911,6 +911,7 @@ const SLUGS = [
   'coding-and-ai-classes-in-oldenburg-oldenburg-germany',
   'online-python-classes-muelheim-an-der-ruhr-germany',
   'coding-classes-for-kids-in-leverkusen-germany',
+  'coding-and-ai-classes-in-darmstadt-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1901,6 +1902,7 @@ const LLMS_LABELS = {
   'coding-and-ai-classes-in-oldenburg-oldenburg-germany': 'Coding and AI classes in Oldenburg',
   'online-python-classes-muelheim-an-der-ruhr-germany': 'Online Python classes in Mülheim an der Ruhr',
   'coding-classes-for-kids-in-leverkusen-germany': 'Coding classes for kids in Leverkusen',
+  'coding-and-ai-classes-in-darmstadt-germany': 'Coding and AI classes in Darmstadt',
 };
 
 function wireLlms(slugs) {
