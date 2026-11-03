@@ -827,6 +827,7 @@ const SLUGS = [
   'coding-classes-in-schleswig-holstein',
   'coding-and-maths-classes-in-hamburg-germany',
   'coding-classes-in-lower-saxony',
+  'coding-classes-in-land-bremen',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1733,6 +1734,7 @@ const LLMS_LABELS = {
   'coding-classes-in-schleswig-holstein': 'Coding classes in Schleswig-Holstein',
   'coding-and-maths-classes-in-hamburg-germany': 'Coding and maths classes in Hamburg',
   'coding-classes-in-lower-saxony': 'Coding classes in Lower Saxony',
+  'coding-classes-in-land-bremen': 'Coding classes in the Land Bremen',
 };
 
 function wireLlms(slugs) {
