@@ -912,6 +912,7 @@ const SLUGS = [
   'online-python-classes-muelheim-an-der-ruhr-germany',
   'coding-classes-for-kids-in-leverkusen-germany',
   'coding-and-ai-classes-in-darmstadt-germany',
+  'online-python-classes-osnabrueck-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1903,6 +1904,7 @@ const LLMS_LABELS = {
   'online-python-classes-muelheim-an-der-ruhr-germany': 'Online Python classes in Mülheim an der Ruhr',
   'coding-classes-for-kids-in-leverkusen-germany': 'Coding classes for kids in Leverkusen',
   'coding-and-ai-classes-in-darmstadt-germany': 'Coding and AI classes in Darmstadt',
+  'online-python-classes-osnabrueck-germany': 'Online Python classes in Osnabrück',
 };
 
 function wireLlms(slugs) {
