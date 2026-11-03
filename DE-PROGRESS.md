@@ -191,7 +191,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE159 | online-python-classes-mainz-germany (pym, #904311) | city-t2 (en) | 4,318 | 2% vs online-python-classes-herne-germany | Online Python Classes in Mainz: Live Lessons in English | a sliding window; the biggest change over a fixed span is not the change from the first reading to the last | 04cf0360 |
 | DE160 | coding-classes-for-kids-in-erfurt-germany (cer, #76640B) | city-t2 (en) | 4,099 | 2.2% vs coding-classes-for-kids-munich | Coding Classes for Kids in Erfurt: Live Online, in English | a winter crosses New Year; group each day by the season it belongs to, not by its calendar year | 2a0b85b8 |
 | DE161 | coding-and-ai-classes-in-luebeck-germany (cal, #246A53) | city-t2 (en) | 4,135 | 1.4% vs coding-classes-for-kids-munich | Coding and AI Classes in Lübeck: Live Online, in English | nearest neighbours vote; choose k by testing on hidden examples, because too few neighbours is noisy and | f8945ec1 |
-| DE162 | online-python-classes-oberhausen-germany (pob, #0F4D52) | city-t2 (en) | 4,122 | 1.7% vs online-python-classes-hamm-germany | Online Python Classes in Oberhausen: Live, Taught in English | write one function and reuse it across files; when a file breaks it, generalise the function rather than | (this commit) |
+| DE162 | online-python-classes-oberhausen-germany (pob, #0F4D52) | city-t2 (en) | 4,122 | 1.7% vs online-python-classes-hamm-germany | Online Python Classes in Oberhausen: Live, Taught in English | write one function and reuse it across files; when a file breaks it, generalise the function rather than | 64960902 |
+| DE163 | coding-classes-for-kids-in-rostock-germany (cro, #2A7077) | city-t2 (en) | 3,727 | 1.9% vs coding-classes-in-mecklenburg-vorpommern | Coding Classes for Kids in Rostock: Live and in English | a record is a running maximum, and the number of records you count depends on the year you start | (this commit) |
 
 ## Notes
 
