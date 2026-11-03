@@ -217,7 +217,7 @@ Each page answers one question for one place, school stage or competition, with 
 
 **Guides to German school and exams:** [Abitur computer science in English](/abitur-computer-science-in-english) · [Abitur maths in English](/abitur-maths-in-english) · [Abitur vs IB vs A levels (maths)](/abitur-vs-ib-vs-a-levels-maths) · [German school system explained](/german-school-system-maths-and-computing-explained) · [Informatik by state](/informatik-in-german-schools-by-state) · [Learn to think, not copy AI](/learn-to-think-not-copy-ai-germany)
 
-**Courses and subjects:** [AI and machine learning classes](/ai-and-machine-learning-classes-in-germany) · [IB Computer Science tutor](/ib-computer-science-tutor-germany)
+**Courses and subjects:** [AI and machine learning classes](/ai-and-machine-learning-classes-in-germany) · [IB Computer Science tutor](/ib-computer-science-tutor-germany) · [IGCSE Computer Science tutor](/igcse-computer-science-tutor-germany)
 
 **Auf Deutsch:** [Informatik-Nachhilfe online](/informatik-nachhilfe-online)
 
