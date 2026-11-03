@@ -12,7 +12,7 @@ Germany · Artificial intelligence · Ages 13 and up
 
 # AI and machine learning classes in Germany
 
-Most people in Germany now use an AI tool; far fewer could build the simplest model themselves or say whether it works. This page is about the second skill. It covers what German schools are now asked to teach about AI, a national AI competition that accepts projects in English, which AI tools a teenager may legally use, and a project on a Bochum weather station in which a learned model first has to beat the guess "it will stay the same".
+Typing a question into an AI tool takes seconds; building the simplest model yourself, and proving whether it works, is a different skill. This page is about that second skill. It covers what German schools are now asked to teach about AI, a national AI competition that accepts projects in English, which AI tools a teenager may legally use, and a project on a Bochum weather station in which a learned model first has to beat the guess "it will stay the same".
 
 At a glance: Teaching language: Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner; Ages: 13 to 18, and adults; Starts with: Python and real data; Then: Models built, tested and explained; German times: Afternoons, evenings and weekends; Teachers: Mentors based in India; First class: Free, no card needed. Rated 4.9 across 547 Google reviews.
 

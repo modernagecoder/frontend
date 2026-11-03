@@ -105,15 +105,14 @@ module.exports = {
   crumbLabel: 'AI and machine learning',
   navLinks: [
     { href: '/coding-classes-in-germany', label: 'Germany' },
-    { href: '#schools', label: 'AI at school' },
-    { href: '#project', label: 'Bochum project' },
+    { href: '#schools', label: 'Schools' },
+    { href: '#project', label: 'Project' },
     { href: '#bwki', label: 'BWKI' },
-    { href: '#ages', label: 'Tool ages' },
-    { href: '#times', label: 'Class times' }
+    { href: '#times', label: 'Times' }
   ],
   eyebrow: 'Germany &middot; Artificial intelligence &middot; Ages 13 and up',
   h1: 'AI and machine learning classes in Germany',
-  lede: 'Most people in Germany now use an AI tool; far fewer could build the simplest model themselves or say whether it works. This page is about the second skill. It covers what German schools are now asked to teach about AI, a national AI competition that accepts projects in English, which AI tools a teenager may legally use, and a project on a Bochum weather station in which a learned model first has to beat the guess "it will stay the same".',
+  lede: 'Typing a question into an AI tool takes seconds; building the simplest model yourself, and proving whether it works, is a different skill. This page is about that second skill. It covers what German schools are now asked to teach about AI, a national AI competition that accepts projects in English, which AI tools a teenager may legally use, and a project on a Bochum weather station in which a learned model first has to beat the guess "it will stay the same".',
   secondaryCta: { href: '#project', label: 'See the Bochum project' },
   wa: 'Hello Modern Age Coders, I am in Germany and would like a free first class in AI and machine learning, taught in English.',
   heroNote: 'Live online since 2020 &middot; 10,000+ students worldwide &middot; models built and tested, not just prompted',

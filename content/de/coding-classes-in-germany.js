@@ -126,12 +126,11 @@ module.exports = {
   crumbs: [{ name: 'Courses', href: '/courses' }],
   crumbLabel: 'Germany',
   navLinks: [
-    { href: '#school', label: 'German schools' },
-    { href: '#english', label: 'In English' },
-    { href: '#project', label: 'Holiday project' },
-    { href: '#contests', label: 'Competitions' },
-    { href: '#times', label: 'Class times' },
-    { href: '/ai-and-machine-learning-classes-in-germany', label: 'AI classes' }
+    { href: '#school', label: 'Schools' },
+    { href: '#english', label: 'English' },
+    { href: '#project', label: 'Project' },
+    { href: '#contests', label: 'Contests' },
+    { href: '#times', label: 'Times' }
   ],
   eyebrow: 'Germany &middot; Coding, AI and maths &middot; Ages 6 and up',
   h1: 'Coding classes in Germany',
