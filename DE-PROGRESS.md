@@ -23,7 +23,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE026 | coding-for-international-school-students-germany (cis, #843D56) | door-en (en) | 3,674 | 2% vs igcse-computer-science-tutor-germany | Coding for International School Students in Germany | tidy messy labels before you count, and keep "unknown" as its own answer | 15970ced |
 | DE043 | coding-interview-prep-for-international-students-germany (cip, #256D6B) | door-en (en) | 3,693 | 1.4% vs ai-and-machine-learning-classes-in-germany | Coding Interview Prep for International Students in Germany | brute force first, then trade memory for time, and prove it by doubling n | 63c84680 |
 | DE044 | python-and-dsa-for-international-students-germany (pdi, #88283C) | door-en (en) | 3,627 | 2.1% vs ib-computer-science-tutor-germany | Python and DSA for International Students in Germany | look up the cost of each operation before you choose the data structure | 44a33fd4 |
-| DE031 | ai-course-for-school-students-germany (aic, #804728) | door-en (en) | 4,645 | 2% vs coding-for-international-school-students-germany | AI Course for School Students in Germany, Taught in English | the step size decides everything; too small crawls, too large explodes | (this commit) |
+| DE031 | ai-course-for-school-students-germany (aic, #804728) | door-en (en) | 4,645 | 2% vs coding-for-international-school-students-germany | AI Course for School Students in Germany, Taught in English | the step size decides everything; too small crawls, too large explodes | 3b2be59c |
+| DE033 | roblox-coding-classes-germany (rco, #0A5F38) | door-en (en) | 4,008 | 2.4% vs ib-computer-science-tutor-germany | Roblox Coding Classes in Germany, Live in English | never trust the client; the server checks every request | (this commit) |
 
 ## Notes
 
