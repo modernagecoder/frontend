@@ -9410,4 +9410,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /app-entwickeln-lernen-jugendliche /src/pages/app-entwickeln-lernen-jugendliche.html 200
 /app-entwickeln-lernen-jugendliche.md /src/pages/app-entwickeln-lernen-jugendliche.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ki-kurs-fuer-schueler /src/pages/ki-kurs-fuer-schueler.html 200
+/ki-kurs-fuer-schueler.md /src/pages/ki-kurs-fuer-schueler.md 200
 /* /src/pages/404.html 404

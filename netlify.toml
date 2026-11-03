@@ -30613,6 +30613,18 @@
   to = "/src/pages/app-entwickeln-lernen-jugendliche.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ki-kurs-fuer-schueler"
+  to = "/src/pages/ki-kurs-fuer-schueler.html"
+  status = 200
+
+[[redirects]]
+  from = "/ki-kurs-fuer-schueler.md"
+  to = "/src/pages/ki-kurs-fuer-schueler.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
