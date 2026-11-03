@@ -32,7 +32,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE042 | app-development-classes-for-teens-germany (adt, #3D5A21) | door-en (en) | 3,892 | 2.2% vs ai-course-for-school-students-germany | App Development Classes for Teens in Germany, in English | never change state in place; copy it, and the screen and undo stay right | c7f3027d |
 | DE045 | informatik-biber-practice-in-english (ibp, #702A52) | competition (en) | 4,570 | 1.2% vs coding-classes-for-kids-berlin | Informatik-Biber Practice in English for Pupils in Germany | reason first, then make the computer check every case (exhaustive search as a proof checker) | a2f6a05f |
 | DE047 | jugendwettbewerb-informatik-preparation (jip, #345F8D) | competition (en) | 4,246 | 1.9% vs informatik-biber-practice-in-english | Jugendwettbewerb Informatik 2027 Preparation in English | trace the program by hand, then run it (prediction before execution) | 856cfa29 |
-| DE049 | math-olympiad-germany-preparation (mol, #6E3D22) | competition (en) | 4,140 | 2% vs informatik-biber-practice-in-english | Mathematik-Olympiade Preparation in English, Germany | write the full proof; a computer check of small cases is evidence, never the proof | (this commit) |
+| DE049 | math-olympiad-germany-preparation (mol, #6E3D22) | competition (en) | 4,140 | 2% vs informatik-biber-practice-in-english | Mathematik-Olympiade Preparation in English, Germany | write the full proof; a computer check of small cases is evidence, never the proof | f6b07ee9 |
+| DE052 | jugend-forscht-computer-science-project-mentoring (jfc, #005045) | competition (en) | 4,311 | 1.3% vs ai-and-machine-learning-classes-in-germany | Jugend forscht Informatik: Project Mentoring in English | design a fair experiment (hypothesis first, many seeded repeats, median and spread reported) | (this commit) |
 
 ## Notes
 

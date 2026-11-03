@@ -9018,4 +9018,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /math-olympiad-germany-preparation /src/pages/math-olympiad-germany-preparation.html 200
 /math-olympiad-germany-preparation.md /src/pages/math-olympiad-germany-preparation.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/jugend-forscht-computer-science-project-mentoring /src/pages/jugend-forscht-computer-science-project-mentoring.html 200
+/jugend-forscht-computer-science-project-mentoring.md /src/pages/jugend-forscht-computer-science-project-mentoring.md 200
 /* /src/pages/404.html 404

@@ -29437,6 +29437,18 @@
   to = "/src/pages/math-olympiad-germany-preparation.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/jugend-forscht-computer-science-project-mentoring"
+  to = "/src/pages/jugend-forscht-computer-science-project-mentoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/jugend-forscht-computer-science-project-mentoring.md"
+  to = "/src/pages/jugend-forscht-computer-science-project-mentoring.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -760,6 +760,7 @@ const SLUGS = [
   'informatik-biber-practice-in-english',
   'jugendwettbewerb-informatik-preparation',
   'math-olympiad-germany-preparation',
+  'jugend-forscht-computer-science-project-mentoring',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1599,6 +1600,7 @@ const LLMS_LABELS = {
   'informatik-biber-practice-in-english': 'Informatik-Biber practice in English',
   'jugendwettbewerb-informatik-preparation': 'Jugendwettbewerb Informatik preparation',
   'math-olympiad-germany-preparation': 'Mathematik-Olympiade preparation in English',
+  'jugend-forscht-computer-science-project-mentoring': 'Jugend forscht computer science project mentoring',
 };
 
 function wireLlms(slugs) {
