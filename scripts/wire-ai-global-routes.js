@@ -855,6 +855,7 @@ const SLUGS = [
   'programmieren-lernen-ab-12',
   'programmierkurs-jugendliche-online',
   'programmieren-lernen-erwachsene-online',
+  'ki-kurs-fuer-rentner-und-senioren',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1789,6 +1790,7 @@ const LLMS_LABELS = {
   'programmieren-lernen-ab-12': 'Programmieren lernen ab 12 (auf Englisch)',
   'programmierkurs-jugendliche-online': 'Programmierkurs für Jugendliche online (auf Englisch)',
   'programmieren-lernen-erwachsene-online': 'Programmieren lernen für Erwachsene (auf Englisch)',
+  'ki-kurs-fuer-rentner-und-senioren': 'KI-Kurs für Rentner und Senioren (auf Englisch)',
 };
 
 function wireLlms(slugs) {

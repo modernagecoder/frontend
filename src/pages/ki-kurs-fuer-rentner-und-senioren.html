@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>KI-Kurs für Rentner und Senioren: live online, auf Englisch</title>
+  <meta name="description" content="KI-Kurs für Rentner und Senioren: Chatbots sicher nutzen und verstehen, live online auf Englisch, in Ruhe. Mit Zahlen von Destatis und Eurostat und BSI-Checkliste.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ki-kurs-fuer-rentner-und-senioren">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ki-kurs-fuer-rentner-und-senioren.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#73501F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ki-kurs-fuer-rentner-und-senioren">
+  <meta property="og:title" content="KI-Kurs für Rentner und Senioren: live online, auf Englisch">
+  <meta property="og:description" content="Künstliche Intelligenz in Ruhe verstehen und sicher nutzen: ein Live-Kurs auf Englisch für Menschen im Ruhestand, mit den Zahlen von Destatis und Eurostat zu den 65- bis 74-Jährigen, der Checkliste des BSI und einem kleinen Experiment, das zeigt, warum Chatbots irren.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="de_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="KI-Kurs für Rentner und Senioren: live online, auf Englisch">
+  <meta name="twitter:description" content="KI sicher nutzen im Ruhestand, live auf Englisch: Zahlen 2025, BSI-Checkliste und warum Chatbots sich irren.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-kkr .ag-hero h1 { letter-spacing: -0.006em; line-height: 1.15; }
+.ag-root.ag-kkr .ag-capsule { border-left-width: 4px; font-size: 1.06rem; line-height: 1.65; }
+.ag-root.ag-kkr .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-kkr .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-kkr .ag-table td { line-height: 1.6; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ki-kurs-fuer-rentner-und-senioren#page","url":"https://learn.modernagecoders.com/ki-kurs-fuer-rentner-und-senioren","name":"KI-Kurs für Rentner und Senioren","description":"Ein Leitfaden für ältere Erwachsene in Deutschland, die KI-Chatbots verstehen und sicher nutzen möchten: Internet- und KI-Nutzung der 65- bis 74-Jährigen nach Destatis und Eurostat 2025, die Transparenz-Checkliste des BSI, die Pflichten aus der KI-Verordnung der EU und ein eigenes kleines Experiment.","inLanguage":"de-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Kurse","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"KI-Kurs für Senioren","item":"https://learn.modernagecoders.com/ki-kurs-fuer-rentner-und-senioren"}]},{"@type":"Course","name":"KI-Kurs für Rentner und Senioren","description":"Live-Online-Kurse für Seniorinnen und Senioren in ganz Deutschland, ausschließlich auf Englisch: KI-Chatbots verstehen, sicher und kritisch nutzen und, wer möchte, erste eigene Programme schreiben, in kleiner Gruppe oder im Einzelunterricht.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ki-kurs-fuer-rentner-und-senioren"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ki-kurs-fuer-rentner-und-senioren"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ki-kurs-fuer-rentner-und-senioren"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Findet der Unterricht auf Deutsch statt?","acceptedAnswer":{"@type":"Answer","text":"Nein, der Kurs ist live und ausschließlich auf Englisch. Für viele Teilnehmende im Ruhestand ist das ein Gewinn: Sie lernen KI kennen und frischen zugleich ihr Englisch auf, in dem die meisten KI-Anwendungen ohnehin beschriftet sind. Der Mentor spricht langsam, schreibt Wichtiges auf und richtet sich nach Ihrem Tempo und Ihrer Aussprache."}},{"@type":"Question","name":"Bin ich nicht zu alt für künstliche Intelligenz?","acceptedAnswer":{"@type":"Answer","text":"Nein. Laut Eurostat haben 2025 in Deutschland 7,5 Prozent der 65- bis 74-Jährigen generative KI genutzt, etwas mehr als im EU-Schnitt. Es ist also noch früh, und Sie sind nicht spät dran. Wer E-Mails schreibt und im Internet sucht, bringt alles mit, was man braucht."}},{"@type":"Question","name":"Welche Vorkenntnisse brauche ich?","acceptedAnswer":{"@type":"Answer","text":"Sie sollten einen Computer oder ein Tablet einschalten, eine E-Mail lesen und eine Internetseite aufrufen können. Alles andere zeigen wir Ihnen in Ruhe."}},{"@type":"Question","name":"Kann ich einem Chatbot vertrauen?","acceptedAnswer":{"@type":"Answer","text":"Nur so weit, wie Sie seine Antwort prüfen können. Das BSI weist darauf hin, dass KI-Anwendungen Inhalte erfinden können, wenn ihnen die Grundlage fehlt. Wichtige Angaben sollten Sie deshalb immer bei einer zuverlässigen Stelle nachprüfen."}},{"@type":"Question","name":"Welche Daten sollte ich einem Chatbot nicht geben?","acceptedAnswer":{"@type":"Answer","text":"Laut BSI so wenig sensible Daten wie möglich. Dazu gehören Passwörter, Kontonummern, Ausweisdaten und vertrauliche Informationen über andere Menschen. Im Kurs üben wir, Fragen so zu formulieren, dass solche Angaben gar nicht nötig sind."}},{"@type":"Question","name":"Muss ein Chatbot sagen, dass er eine Maschine ist?","acceptedAnswer":{"@type":"Answer","text":"Nach Artikel 50 der KI-Verordnung (EU) 2024/1689 müssen KI-Systeme, die direkt mit Menschen sprechen, in der Regel erkennbar machen, dass man mit einer KI interagiert. Die Verordnung gilt laut Artikel 113 grundsätzlich ab dem 2. August 2026. Dies ist eine Erklärung, keine Rechtsberatung."}},{"@type":"Question","name":"Hilft mir der Kurs bei Fragen zu Gesundheit oder Geld?","acceptedAnswer":{"@type":"Answer","text":"Nein, und wir empfehlen auch nicht, solche Fragen einem Chatbot zu überlassen. Dafür sind Fachleute zuständig. Wir zeigen Ihnen, wofür KI im Alltag gut taugt und wo ihre Grenzen liegen."}},{"@type":"Question","name":"Wann finden die Stunden statt?","acceptedAnswer":{"@type":"Answer","text":"Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Beliebt sind Vormittage: 11:00 Uhr in Deutschland ist im Winter 15:30 Uhr beim Mentor in Indien."}},{"@type":"Question","name":"Was brauche ich an Technik?","acceptedAnswer":{"@type":"Answer","text":"Einen Laptop, Computer oder ein Tablet mit Kamera, eine Internetverbindung und am besten Kopfhörer. Bei der Einrichtung des Videoprogramms helfen wir in der Probestunde."}},{"@type":"Question","name":"Wie wird bezahlt?","acceptedAnswer":{"@type":"Answer","text":"Monatlich. Die Beträge sehen Sie auf dieser Seite in Euro, berechnet mit dem Referenzkurs der Europäischen Zentralbank; abgebucht wird in US-Dollar, und Ihre Bank rechnet um. Die erste Stunde ist kostenlos."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ki-kurs-fuer-rentner-und-senioren","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-kkr">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Deutschland</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Deutschland</a></li>
+      <li><a href="#zahlen">Zahlen</a></li>
+      <li><a href="#irrtum">Irrtümer</a></li>
+      <li><a href="#sicher">Schutz</a></li>
+      <li><a href="#zeiten">Zeiten</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Probestunde</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Startseite</a> / <a href="/courses">Kurse</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / KI-Kurs für Senioren
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Deutschland &middot; Künstliche Intelligenz &middot; im Ruhestand</p>
+        <h1>KI-Kurs für Rentner und Senioren, live auf Englisch</h1>
+        <p class="ag-lede">Überall ist von künstlicher Intelligenz die Rede, und viele Menschen im Ruhestand fragen sich, ob sie das noch lernen sollten, wozu es gut ist und wie man sich dabei schützt. Diese Seite gibt ruhige, belegte Antworten: wie viele Menschen zwischen 65 und 74 laut Destatis und Eurostat schon online sind und KI nutzen, warum ein Chatbot überzeugend klingen und trotzdem irren kann, worauf das Bundesamt für Sicherheit in der Informationstechnik achtet, und wie unser Kurs abläuft.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Kostenlose Probestunde buchen</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Priority Demo buchen</a>
+          <a href="#sicher" class="ag-btn ag-btn--ghost">Die Checkliste des BSI</a>
+          <a href="https://wa.me/919123366161?text=Guten%20Tag%2C%20ich%20bin%20im%20Ruhestand%20und%20m%C3%B6chte%20KI%20in%20Ruhe%20verstehen%20und%20sicher%20nutzen%2C%20gern%20im%20Kurs%20auf%20Englisch.%20Kann%20ich%20eine%20kostenlose%20Probestunde%20vereinbaren%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'kkr'});">Per WhatsApp fragen</a>
+        </div>
+        <p class="ag-hero-note">Live-Unterricht seit 2020 &middot; über 10.000 Lernende weltweit &middot; auf Englisch, langsam und mit viel Geduld</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">Auf einen Blick</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4,9 von 5 bei 547 Google-Bewertungen
+        </p>
+        <dl>
+          <dt>Unterrichtssprache</dt><dd>Live-Unterricht ausschließlich auf Englisch, im eigenen Tempo; die Mentoren sprechen deutlich und stellen sich auf Tempo und Akzent der Lernenden ein</dd>
+          <dt>Für</dt><dd>Menschen im Ruhestand und alle ab etwa 60</dd>
+          <dt>Inhalt</dt><dd>Chatbots verstehen, sicher nutzen, Antworten prüfen</dd>
+          <dt>Vorkenntnisse</dt><dd>E-Mail und Internet genügen</dd>
+          <dt>Gruppe</dt><dd>Fünfzehn bis zwanzig, oder ganz allein</dd>
+          <dt>Zeiten</dt><dd>Vormittags und am frühen Nachmittag</dd>
+          <dt>Probestunde</dt><dd>Kostenlos und unverbindlich</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Kurz gesagt</p>
+      <p>Im KI-Kurs für Rentner und Senioren von Modern Age Coders lernen ältere Erwachsene aus ganz Deutschland live online, auf Englisch. Ein fester Mentor aus Indien erklärt langsam und in Ihrem Tempo, wie KI-Chatbots funktionieren, wofür sie taugen, wo sie irren und wie Sie Ihre Daten schützen. Zur Wahl stehen eine Runde von fünfzehn bis zwanzig Personen oder Einzelunterricht, bevorzugt vormittags.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Passende Kurse</p>
+      <h2>Drei Kurse für den Einstieg in die KI</h2>
+      <p class="ag-lede">Einer für den sicheren Umgang mit KI-Werkzeugen, einer für alle, die Tabellen und Zahlen mit KI auswerten wollen, und einer für alle, die neugierig geworden sind und selbst programmieren möchten.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-tools-mastery-complete-college">
+        <div class="ag-pick-shot"><img src="/images/ai-tools-college.webp" alt="Kursbild KI-Werkzeuge für Erwachsene" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">KKR / 01</p>
+          <h3>KI-Werkzeuge sicher nutzen</h3>
+          <p>Für Erwachsene ab 18, ohne Vorkenntnisse. Wie man Fragen an einen Chatbot stellt, Antworten prüft und kleine Abläufe vereinfacht, in ruhigem Tempo.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-and-ai-analytics-for-non-programmers-course">
+        <div class="ag-pick-shot"><img src="/images/data-ai-analytics-non-programmers.webp" alt="Kursbild Daten und KI ohne Programmierkenntnisse" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">KKR / 02</p>
+          <h3>Daten und KI ohne Programmieren</h3>
+          <p>Ohne Programmiererfahrung. Tabellen, Diagramme und kleine Auswertungen, etwa für den Verein oder die Familienchronik.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Kursbild Python für Erwachsene" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">KKR / 03</p>
+          <h3>Python von Grund auf</h3>
+          <p>Für alle, die wissen möchten, wie Programme gebaut sind. Von der ersten Zeile an, ohne Mathematikvorwissen.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="zahlen">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Destatis und Eurostat</p><h2>Wie viele Menschen zwischen 65 und 74 nutzen schon Internet und KI?</h2><p class="ag-lede">Online sind fast alle, KI nutzen bisher wenige. Die amtlichen Zahlen für 2025 zeigen, dass ältere Menschen in Deutschland beim Internet stark aufgeholt haben und dass bei generativer KI noch fast alles offen ist.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Menschen zwischen 65 und 74 Jahren in Deutschland, 2025</caption><thead><tr><th scope="col">Was</th><th scope="col">Anteil</th><th scope="col">Quelle</th></tr></thead><tbody><tr><td>haben das Internet noch nie genutzt</td><td class="ag-num">10 Prozent</td><td>Destatis</td></tr><tr><td>suchen online nach Informationen über Waren und Dienstleistungen</td><td class="ag-num">65 Prozent</td><td>Destatis</td></tr><tr><td>sind in sozialen Netzwerken aktiv</td><td class="ag-num">25 Prozent (2021: 15 Prozent)</td><td>Destatis</td></tr><tr><td>haben in drei Monaten generative KI genutzt</td><td class="ag-num">7,5 Prozent (EU-27: 6,5 Prozent)</td><td>Eurostat</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quellen: Statistisches Bundesamt (Destatis), Zahl der Woche Nr. 09 vom 24. Februar 2026, Pressemitteilung Nr. N014 vom 2. März 2026 und Tabelle "Ausgewählte Internetaktivitäten von Personen nach Alter" (Stand 23. September 2026); Eurostat, Datensatz isoc_ai_iaiu, Jahr 2025, Anteil an allen Personen der Altersgruppe. Abgerufen am 3. November 2026.</p>
+    <p class="ag-mt-40">Zum Vergleich: Laut Destatis waren 2025 gut 3 Prozent aller Menschen zwischen 16 und 74 Jahren noch nie im Internet, das sind knapp 2,1 Millionen; 2021 lag der Anteil noch bei 6 Prozent. Generative KI hat laut Eurostat 2025 knapp ein Drittel der 16- bis 74-Jährigen in Deutschland genutzt, in der Altersgruppe 55 bis 64 waren es gut 17 Prozent.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Warum Menschen zwischen 65 und 74 in Deutschland keine generative KI nutzen, 2025</caption><thead><tr><th scope="col">Genannter Grund</th><th scope="col">Anteil an allen der Altersgruppe</th></tr></thead><tbody><tr><td>Kein Bedarf</td><td class="ag-num">60 Prozent</td></tr><tr><td>Bedenken wegen Datenschutz, Sicherheit oder Schutz</td><td class="ag-num">8 Prozent</td></tr><tr><td>Wusste nicht, wie man es benutzt</td><td class="ag-num">5 Prozent</td></tr><tr><td>Wusste nicht, dass es so etwas gibt</td><td class="ag-num">3 Prozent</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quelle: Eurostat, Datensatz isoc_ai_iaiuxr (Gründe, generative KI nicht zu nutzen), Jahr 2025, Deutschland, auf ganze Zahlen gerundet von uns. Die vier Anteile zählen wir bewusst nicht zusammen; der Rest der Altersgruppe nutzt KI bereits oder nannte andere Gründe.</p>
+    <p class="ag-mt-40">"Kein Bedarf" ist eine völlig vernünftige Antwort. Unser Kurs will niemanden überreden. Er soll Ihnen helfen, selbst zu beurteilen, ob und wofür Sie KI brauchen, und, falls ja, sie so zu nutzen, dass Sie die Kontrolle behalten. Gerade wer Bedenken beim Datenschutz hat, ist hier richtig: Diese Bedenken nehmen wir ernst und machen sie konkret.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="irrtum">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Ein kleines Experiment</p><h2>Warum klingt ein Chatbot so sicher, auch wenn er sich irrt?</h2><p class="ag-lede">Weil er nicht nachschlägt, was wahr ist, sondern fortsetzt, was wahrscheinlich klingt. Das Bundesamt für Sicherheit in der Informationstechnik (BSI) beschreibt es so: Statt zuzugeben, dass eine Antwort fehlt, erfindet die KI oftmals Inhalte, sie "halluziniert". Mit einem winzigen Programm, das wir selbst geschrieben haben, lässt sich das in fünf Minuten zeigen.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Ein Mini-Sprachmodell aus vier Sätzen</b><span>Python</span></figcaption><pre>text = (
+    'der zug nach hamburg faehrt um neun uhr . '
+    'der zug nach berlin faehrt um zehn uhr . '
+    'der bus nach hamburg faehrt um acht uhr . '
+    'der zug nach hamburg faehrt um neun uhr .'
+)
+woerter = text.split()
+
+paare = {}
+for a, b in zip(woerter, woerter[1:]):
+    paare.setdefault(a, {})
+    paare[a][b] = paare[a].get(b, 0) + 1
+
+def weiter(wort):
+    folge = paare[wort]
+    return max(folge, key=folge.get)
+
+satz = ['der', 'bus', 'nach', 'berlin']
+while satz[-1] != '.':
+    satz.append(weiter(satz[-1]))
+print(' '.join(satz))
+print(paare['um'])</pre><p class="ag-code-note">Ausgabe, von uns mit Python 3 ausgeführt: <code>der bus nach berlin faehrt um neun uhr .</code> und dann <code>{'neun': 2, 'zehn': 1, 'acht': 1}</code>. Umlaute haben wir im Code weggelassen, damit er auf jedem Rechner gleich läuft.</p></figure>
+    <p class="ag-mt-40">Das Programm kennt nur vier erfundene Fahrplansätze. Es zählt, welches Wort wie oft auf welches folgt, und wählt dann immer das häufigste. Gefragt nach "der bus nach berlin", antwortet es flüssig: <em>fährt um neun Uhr</em>. Dabei steht in seinen Sätzen gar kein Bus nach Berlin. Die Neun gewinnt nur, weil sie nach dem Wort "um" zweimal vorkommt und die anderen Zahlen je einmal.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Was das Experiment über echte Chatbots zeigt (unsere Einordnung)</caption><thead><tr><th scope="col">Im Mini-Modell</th><th scope="col">Bei einem großen Chatbot</th></tr></thead><tbody><tr><td>Vier Sätze als Grundlage</td><td>Riesige Textmengen bis zu einem Stichtag</td></tr><tr><td>Das häufigste nächste Wort</td><td>Das wahrscheinlichste nächste Wort, viel feiner berechnet</td></tr><tr><td>Ein falscher Fahrplan, flüssig formuliert</td><td>Eine falsche Auskunft, höflich und überzeugend formuliert</td></tr><tr><td>Kein Hinweis auf Unsicherheit</td><td>Oft ebenfalls kein Hinweis, wenn die Grundlage fehlt</td></tr></tbody></table></div>
+    <ol class="ag-steps ag-mt-40"><li><strong>Fragen Sie nach der Quelle.</strong> Bitten Sie den Chatbot, zu sagen, woher eine Angabe stammt, und prüfen Sie diese Quelle selbst.</li><li><strong>Prüfen Sie Wichtiges doppelt.</strong> Termine, Adressen und Zahlen schlagen Sie bei der zuständigen Stelle nach, so wie es das BSI mit dem Faktencheck empfiehlt.</li><li><strong>Fragen Sie ein zweites Mal anders.</strong> Bekommen Sie auf dieselbe Frage zwei verschiedene Antworten, wissen Sie, dass der Chatbot rät.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="sicher">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Sicherheit</p><h2>Wie nutze ich KI-Anwendungen sicher?</h2><p class="ag-lede">Das BSI hat dafür eine Transparenz-Checkliste veröffentlicht. Wer eine KI-Anwendung zu allen acht Punkten geprüft hat, kann laut BSI entscheiden, ob er oder sie die Anwendung benutzen möchte. Die Antworten stehen meist auf der Website des Anbieters oder in dessen Allgemeinen Geschäftsbedingungen.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Die acht Punkte der BSI-Checkliste, in drei Gruppen</caption><thead><tr><th scope="col">Gruppe</th><th scope="col">Punkt</th><th scope="col">Ihre Frage an die Anwendung</th></tr></thead><tbody><tr><td>Sicherheit Ihrer persönlichen Daten</td><td>Umgang mit Ihren Daten</td><td>Werden meine Eingaben weitergegeben oder zum Training verwendet?</td></tr><tr><td>Sicherheit Ihrer persönlichen Daten</td><td>Zugriffsberechtigungen</td><td>Worauf darf die App zugreifen, etwa Postfach, Kalender oder Kamera?</td></tr><tr><td>Fähigkeiten und Limitationen</td><td>Zweckbestimmung</td><td>Wofür ist die Anwendung gebaut, und wofür nicht?</td></tr><tr><td>Fähigkeiten und Limitationen</td><td>Wissensstand</td><td>Bis zu welchem Datum reichen ihre Trainingsdaten?</td></tr><tr><td>Fähigkeiten und Limitationen</td><td>Hinweise zur Nutzung</td><td>Gibt es eine Hilfe oder Anleitung für den richtigen Gebrauch?</td></tr><tr><td>Eigenschaften der Anwendung</td><td>Anbieterinformationen</td><td>Wer steckt dahinter, und an wen gehen meine Eingaben?</td></tr><tr><td>Eigenschaften der Anwendung</td><td>Lizenzmodell</td><td>Was kann die kostenfreie Version, was nur die kostenpflichtige?</td></tr><tr><td>Eigenschaften der Anwendung</td><td>Aktualisierungen</td><td>Was ändert sich nach einem Update?</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quelle: Bundesamt für Sicherheit in der Informationstechnik, "Die Transparenz-Checkliste für KI-Anwendungen", gelesen am 3. November 2026. Die Fragen in der rechten Spalte haben wir aus den Empfehlungen des BSI in eigenen Worten formuliert. Modern Age Coders ist mit dem BSI nicht verbunden.</p>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Wenig preisgeben</h3><p>Das BSI rät, so wenig sensible Daten wie möglich mit einer KI-Anwendung zu teilen. Im Kurs üben wir, Fragen so zu stellen, dass weder Name noch Adresse noch Kontonummer darin vorkommen.</p></div><div><h3>Links prüfen</h3><p>Links und Anhänge, die eine KI-Anwendung ausgibt, sollten laut BSI vor dem Öffnen genau geprüft werden. Wir zeigen Ihnen, woran man eine Adresse im Browser erkennt.</p></div><div><h3>Nachrichten prüfen</h3><p>Das BSI weist darauf hin, dass Sprachmodelle helfen können, betrügerische E-Mails glaubwürdiger klingen zu lassen. Gute Sprache ist deshalb kein Beweis für Echtheit mehr; der Absender und der Weg der Nachricht zählen.</p></div></div>
+    <p class="ag-mt-40">Eine Grenze ziehen wir im Kurs bewusst: Für Fragen zu Gesundheit, Geld oder Recht ist ein Chatbot nicht der richtige Ratgeber. Dafür gibt es Ärztinnen, Banken, Beratungsstellen und Fachleute. Wir zeigen, wofür KI im Alltag gut taugt, zum Beispiel einen Brief zu entwerfen, einen Fachbegriff zu erklären oder eine Urlaubskarte zu übersetzen.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="recht">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Die KI-Verordnung der EU</p><h2>Muss mir ein Chatbot sagen, dass er eine KI ist?</h2><p class="ag-lede">Ja, nach der KI-Verordnung der EU in der Regel schon. Die Verordnung (EU) 2024/1689 wurde am 13. Juni 2024 in Brüssel unterzeichnet. Ihr Artikel 50 regelt Transparenzpflichten, die gerade für Laien wichtig sind.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Zwei Transparenzpflichten aus Artikel 50 der KI-Verordnung</caption><thead><tr><th scope="col">Absatz</th><th scope="col">Was er verlangt</th><th scope="col">Was das für Sie heißt</th></tr></thead><tbody><tr><td>Artikel 50 Absatz 1</td><td>KI-Systeme für die direkte Interaktion mit Menschen müssen so gebaut sein, dass die Menschen informiert werden, dass sie mit einem KI-System interagieren, außer es ist offensichtlich.</td><td>Ein Chat-Fenster im Kundendienst muss erkennbar machen, dass Sie mit einer Maschine schreiben.</td></tr><tr><td>Artikel 50 Absatz 4</td><td>Wer mit KI ein Deepfake erzeugt, also täuschend echte Bilder, Töne oder Videos, muss offenlegen, dass die Inhalte künstlich erzeugt oder manipuliert wurden.</td><td>Gefälschte Bilder oder Stimmen sollen gekennzeichnet sein; fehlt der Hinweis, ist Vorsicht angebracht.</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quelle: Verordnung (EU) 2024/1689, deutsche Fassung im Amtsblatt, abgerufen über das Amt für Veröffentlichungen der EU am 3. November 2026. Laut Artikel 113 gilt die Verordnung ab dem 2. August 2026, einzelne Kapitel schon früher, die Kapitel I und II ab dem 2. Februar 2025. Wir geben den veröffentlichten Text wieder; spätere Änderungen der EU können Termine verschieben. Dies ist keine Rechtsberatung.</p>
+    <p class="ag-mt-40">Die Verordnung nimmt vor allem Anbieter und Betreiber in die Pflicht, nicht Sie als Nutzerin oder Nutzer. Für den Alltag heißt das: Sie haben ein Recht darauf zu wissen, wann eine Maschine mit Ihnen spricht. Im Kurs üben wir, solche Hinweise zu finden, etwa einen kleinen Schriftzug unter dem Chat-Fenster.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="kurs">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Der Kurs</p><h2>Wie läuft ein KI-Kurs für Seniorinnen und Senioren bei uns ab?</h2><p class="ag-lede">In Ruhe, live und mit einem Menschen, der Ihre Fragen beantwortet. Es gibt keine aufgezeichneten Videos und keinen Zeitdruck. Jede Stunde beginnt mit dem, was Sie seit dem letzten Mal ausprobiert haben.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Die ersten acht Wochen (unser Plan, angepasst an Ihr Tempo)</caption><thead><tr><th scope="col">Woche</th><th scope="col">Thema</th><th scope="col">Sie probieren aus</th></tr></thead><tbody><tr><td>1 und 2</td><td>Was ist KI, was ist ein Chatbot?</td><td>eine erste Frage stellen und die Antwort laut vorlesen</td></tr><tr><td>3 und 4</td><td>Warum Chatbots irren</td><td>das Experiment mit dem Mini-Modell und eine Antwort nachprüfen</td></tr><tr><td>5 und 6</td><td>Daten schützen</td><td>die Einstellungen einer Anwendung anhand der BSI-Checkliste durchgehen</td></tr><tr><td>7 und 8</td><td>KI im eigenen Alltag</td><td>einen Brief entwerfen, einen Begriff erklären lassen, einen Text übersetzen</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Für Erwachsene sind auch Werkzeuge erlaubt, die erst ab 18 Jahren freigegeben sind; welche Anwendung Sie nutzen, entscheiden Sie selbst. Wir lesen gemeinsam, was der jeweilige Anbieter in seinen Bedingungen über Mindestalter, gespeicherte Unterhaltungen und kostenpflichtige Varianten schreibt, damit Sie wissen, worauf Sie sich einlassen.</p>
+    <p>Der Unterricht ist auf Englisch. Für viele Menschen im Ruhestand ist das ein willkommenes Training: Sie frischen Ihr Englisch auf und lernen gleichzeitig die Wörter, mit denen die meisten KI-Anwendungen ohnehin beschriftet sind, etwa <em>prompt</em>, <em>chat</em> oder <em>settings</em>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="zeiten">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unterrichtszeiten</p><h2>Zu welchen Uhrzeiten findet der Kurs statt?</h2><p class="ag-lede">Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Beispielzeiten bei Tageslicht, deutsche und indische Zeit</caption><thead><tr><th scope="col">Bei Ihnen in Deutschland</th><th scope="col">Beim Mentor im Winter (bis 27. März 2027)</th><th scope="col">Beim Mentor im Sommer (ab 28. März 2027)</th></tr></thead><tbody><tr><td>09:00</td><td>13:30</td><td>12:30</td></tr><tr><td>11:00</td><td>15:30</td><td>14:30</td></tr><tr><td>14:00</td><td>18:30</td><td>17:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">In Deutschland gilt nach dem Einheiten- und Zeitgesetz im Winter die MEZ (UTC+1) und im Sommer die MESZ (UTC+2); die Uhren wurden am 25. Oktober 2026 zurückgestellt und werden am 28. März 2027 wieder vorgestellt. Indien stellt nie um und hat UTC+5:30, der Mentor ist Ihnen also im Winter viereinhalb, im Sommer dreieinhalb Stunden voraus. Die Zeiten sind Beispiele, keine festen Termine.</p>
+    <p class="ag-mt-40">Viele Teilnehmende im Ruhestand mögen den späten Vormittag: Dann ist der Kopf frisch, und beim Mentor ist es früher Nachmittag. Einzelstunden lassen sich auch um Arzttermine oder Enkelbesuche herum legen.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fortschritt</p>
+      <h2>Woran Sie merken, dass Sie sicherer werden</h2>
+      <p class="ag-lede">Unsere eigenen Stufen für Menschen, die im Ruhestand mit KI beginnen.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Vier Stufen (unsere)</caption><thead><tr><th scope="col">Stufe</th><th scope="col">Typischer Zeitraum</th><th scope="col">Sie können</th></tr></thead><tbody><tr><td>1. Fragen stellen</td><td class="ag-num">erste Wochen</td><td class="ag-num">einem Chatbot eine klare Frage stellen und die Antwort einordnen</td></tr><tr><td>2. Prüfen</td><td class="ag-num">nach etwa einem Monat</td><td class="ag-num">eine Antwort mit einer zuverlässigen Quelle vergleichen</td></tr><tr><td>3. Schützen</td><td class="ag-num">nach etwa zwei Monaten</td><td class="ag-num">Einstellungen und Bedingungen einer Anwendung anhand der Checkliste prüfen</td></tr><tr><td>4. Gezielt einsetzen</td><td class="ag-num">nach etwa drei Monaten</td><td class="ag-num">KI für eigene Aufgaben nutzen und wissen, wann man es lieber lässt</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Für Sie</h3><p>Es gibt keine dummen Fragen. Wenn etwas zu schnell geht, sagen Sie einfach "slower, please". Der Mentor wiederholt gern.</p>
+<p>Notieren Sie sich nach jeder Stunde einen Satz, den Sie behalten möchten.</p></div><div><h3>Für Angehörige</h3><p>Sie können bei der ersten Stunde gern dabei sein und bei der Technik helfen. Danach lernen viele lieber allein.</p>
+<p>Fragen Sie nicht, ob es geklappt hat, sondern lassen Sie sich zeigen, wie man eine Antwort prüft.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weitere Kurse</p>
+      <h2>Neun weitere Kurse für Erwachsene</h2>
+      <p class="ag-lede">Live online, auf Englisch, mit festem Mentor, in der Gruppe oder allein.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Gestalten</h3>
+        <span class="ag-band-sub">ab 13, für Erwachsene geeignet</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">KKR / GESTALT / 01</p>
+          <h4>Canva und KI-Design</h4>
+          <p>Einladungen, Plakate und Fotobücher gestalten.</p>
+          <a class="ag-course-link" href="/courses/canva-ai-design-masterclass">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KKR / GESTALT / 02</p>
+          <h4>Eine eigene Webseite</h4>
+          <p>Für Verein, Hobby oder Familie.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KKR / GESTALT / 03</p>
+          <h4>Datenanalyse</h4>
+          <p>Tabellen auswerten, Schritt für Schritt.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>KI verstehen</h3>
+        <span class="ag-band-sub">ab 18 Jahren</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">KKR / KI / 01</p>
+          <h4>Generative KI von innen</h4>
+          <p>Wie Sprachmodelle entstehen und arbeiten.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KKR / KI / 02</p>
+          <h4>Künstliche Intelligenz</h4>
+          <p>Suche, Logik und Agenten, die Grundlagen.</p>
+          <a class="ag-course-link" href="/courses/artificial-intelligence-complete-masterclass-college">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KKR / KI / 03</p>
+          <h4>KI und maschinelles Lernen</h4>
+          <p>Mit Python eigene Modelle bauen.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Selbst programmieren</h3>
+        <span class="ag-band-sub">ab 18 Jahren</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">KKR / CODE / 01</p>
+          <h4>Python für Alltagsaufgaben</h4>
+          <p>Kleine Skripte, die Arbeit abnehmen.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KKR / CODE / 02</p>
+          <h4>Webanwendungen mit Python</h4>
+          <p>Für alle, die tiefer einsteigen.</p>
+          <a class="ag-course-link" href="/courses/python-web-development-django-flask-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KKR / CODE / 03</p>
+          <h4>Datenbanken</h4>
+          <p>Sammlungen und Listen sauber ordnen.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">So lernen Sie</p>
+      <h2>Unterricht in Ruhe, live und persönlich</h2>
+      <p class="ag-lede">Zweimal pro Woche eine Stunde mit demselben Mentor. Sie sehen seinen Bildschirm, er auf Wunsch Ihren, und jede Frage wird beantwortet, bevor es weitergeht.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Vormittags</p><p class="ag-slot-l">Zwischen etwa neun und zwölf Uhr.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Früher Nachmittag</p><p class="ag-slot-l">Nach dem Mittagessen, vor dem Kaffee.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Einzeln</p><p class="ag-slot-l">Ein Termin, der zu Ihrer Woche passt.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Ein Mensch</h3><p>Kein Video, sondern ein Mentor, der antwortet.</p></div>
+      <div><h3>Langsames Englisch</h3><p>Kurze Sätze, Wichtiges wird aufgeschrieben.</p></div>
+      <div><h3>Große Schrift</h3><p>Wir vergrößern Bildschirm und Text, wann immer Sie möchten.</p></div>
+      <div><h3>Sicher üben</h3><p>Erst mit Beispielen, nie mit Ihren echten Daten.</p></div>
+      <div><h3>Kein Druck</h3><p>Keine Prüfungen und keine Noten.</p></div>
+      <div><h3>Gruppe oder allein</h3><p>Fünfzehn bis zwanzig Personen oder Einzelunterricht.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Projekte unserer Lernenden</p>
+      <h2>Was Lernende bei uns bauen</h2>
+      <p class="ag-lede">Unsere Lernenden aller Altersgruppen bauen kleine Programme, Webseiten und Auswertungen. Eine Auswahl unten, mehr auf <a class="ag-inline-link" href="/student-labs">Student labs</a> (auf Englisch).</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Screenshot des Projekts NutriLife, ein KI-Ernährungscoach" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>NutriLife</h4>
+          <p>Ein KI-Ernährungscoach, der Mahlzeiten auswertet und Schritt für Schritt auf ein Ziel hinarbeitet.</p>
+          <p class="ag-proj-meta">von Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Screenshot von Misti, ein KI-Chatbot für Mathematik und Programmieren" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>Misti</h4>
+          <p>Ein Chatbot, der Fragen zu Mathematik und Programmierung beantwortet, von einem Schüler gebaut und veröffentlicht.</p>
+          <p class="ag-proj-meta">von Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Screenshot von GuardianX, ein KI-Assistent für Sicherheit im Internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>GuardianX</h4>
+          <p>Ein Assistent, der jungen Menschen hilft, unsichere Situationen im Internet zu erkennen.</p>
+          <p class="ag-proj-meta">von Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Screenshot der Wetter-App SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web-App</p>
+          <h4>SkyCast</h4>
+          <p>Eine Wetter-Website mit aktuellen Bedingungen für jeden Ort.</p>
+          <p class="ag-proj-meta">von Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preise</p>
+      <h2>Kosten für Teilnehmende in Deutschland</h2>
+      <p class="ag-lede">Sie zahlen monatlich für acht Live-Stunden. Die Beträge zeigen wir in Euro, umgerechnet mit dem Referenzkurs der Europäischen Zentralbank. Die Abbuchung erfolgt in US-Dollar, und Ihre Bank übernimmt den Wechsel; deshalb kann der Betrag auf dem Kontoauszug geringfügig anders aussehen.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Kostenlose Probestunde</p>
+        <p class="ag-price-amt">Kostenlos</p>
+        <p class="ag-price-alt">keine Karte nötig</p>
+        <ul><li>Eine kostenlose Probestunde</li><li>Hilfe beim ersten Einrichten</li><li>Keine Zahlungsdaten nötig</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Buchen</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Gruppenkurs</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group" data-price-format="suffix">90 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Fünfzehn bis zwanzig Erwachsene</li><li>Ein fester Mentor</li><li>Zwei Stunden pro Woche</li><li>Monatlich kündbar</li></ul>
+        <a href="#start" class="ag-btn">Hier starten</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Einzelunterricht</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal" data-price-format="suffix">134 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Sie allein mit dem Mentor</li><li>Ihr Tempo, Ihre Fragen</li><li>Termine nach Absprache</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Anfragen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Was Familien sagen</p>
+      <h2>4,9 von 5 bei 547 Google-Bewertungen</h2>
+      <p class="ag-lede">Stimmen von Lernenden und Familien auf Google, unverändert im englischen Original.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Häufige Fragen</p>
+      <h2>KI-Kurs für Rentner und Senioren: häufige Fragen</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Findet der Unterricht auf Deutsch statt?</h3>
+        <p>Nein, der Kurs ist live und ausschließlich auf Englisch. Für viele Teilnehmende im Ruhestand ist das ein Gewinn: Sie lernen KI kennen und frischen zugleich ihr Englisch auf, in dem die meisten KI-Anwendungen ohnehin beschriftet sind. Der Mentor spricht langsam, schreibt Wichtiges auf und richtet sich nach Ihrem Tempo und Ihrer Aussprache.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Bin ich nicht zu alt für künstliche Intelligenz?</h3>
+        <p>Nein. Laut Eurostat haben 2025 in Deutschland 7,5 Prozent der 65- bis 74-Jährigen generative KI genutzt, etwas mehr als im EU-Schnitt. Es ist also noch früh, und Sie sind nicht spät dran. Wer E-Mails schreibt und im Internet sucht, bringt alles mit, was man braucht.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Welche Vorkenntnisse brauche ich?</h3>
+        <p>Sie sollten einen Computer oder ein Tablet einschalten, eine E-Mail lesen und eine Internetseite aufrufen können. Alles andere zeigen wir Ihnen in Ruhe.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Kann ich einem Chatbot vertrauen?</h3>
+        <p>Nur so weit, wie Sie seine Antwort prüfen können. Das BSI weist darauf hin, dass KI-Anwendungen Inhalte erfinden können, wenn ihnen die Grundlage fehlt. Wichtige Angaben sollten Sie deshalb immer bei einer zuverlässigen Stelle nachprüfen.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Welche Daten sollte ich einem Chatbot nicht geben?</h3>
+        <p>Laut BSI so wenig sensible Daten wie möglich. Dazu gehören Passwörter, Kontonummern, Ausweisdaten und vertrauliche Informationen über andere Menschen. Im Kurs üben wir, Fragen so zu formulieren, dass solche Angaben gar nicht nötig sind.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Muss ein Chatbot sagen, dass er eine Maschine ist?</h3>
+        <p>Nach Artikel 50 der KI-Verordnung (EU) 2024/1689 müssen KI-Systeme, die direkt mit Menschen sprechen, in der Regel erkennbar machen, dass man mit einer KI interagiert. Die Verordnung gilt laut Artikel 113 grundsätzlich ab dem 2. August 2026. Dies ist eine Erklärung, keine Rechtsberatung.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Hilft mir der Kurs bei Fragen zu Gesundheit oder Geld?</h3>
+        <p>Nein, und wir empfehlen auch nicht, solche Fragen einem Chatbot zu überlassen. Dafür sind Fachleute zuständig. Wir zeigen Ihnen, wofür KI im Alltag gut taugt und wo ihre Grenzen liegen.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wann finden die Stunden statt?</h3>
+        <p>Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Beliebt sind Vormittage: 11:00 Uhr in Deutschland ist im Winter 15:30 Uhr beim Mentor in Indien.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Was brauche ich an Technik?</h3>
+        <p>Einen Laptop, Computer oder ein Tablet mit Kamera, eine Internetverbindung und am besten Kopfhörer. Bei der Einrichtung des Videoprogramms helfen wir in der Probestunde.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wie wird bezahlt?</h3>
+        <p>Monatlich. Die Beträge sehen Sie auf dieser Seite in Euro, berechnet mit dem Referenzkurs der Europäischen Zentralbank; abgebucht wird in US-Dollar, und Ihre Bank rechnet um. Die erste Stunde ist kostenlos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weitere Seiten</p>
+      <h2>Weiterlesen</h2>
+      <p class="ag-lede">Weitere Seiten für Lernende in Deutschland, meist auf Englisch.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Alle unsere Angebote für Deutschland.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-germany">AI and ML in Germany</a></h3><p>Tiefer in KI und maschinelles Lernen.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-think-not-copy-ai-germany">Think, not copy AI</a></h3><p>Selbst denken, auch wenn KI mitredet.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Wie eine Live-Stunde aussieht.</p></div>
+      <div><h3><a class="ag-inline-link" href="/courses">All courses</a></h3><p>Alle Kurse auf einer Seite.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Arbeiten unserer Lernenden.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Jetzt starten</p>
+        <h2>Eine kostenlose Probestunde vereinbaren</h2>
+        <p class="ag-lede">In der Probestunde richten wir gemeinsam die Technik ein, Sie stellen einem Chatbot Ihre erste Frage, und wir prüfen die Antwort zusammen. Danach entscheiden Sie in Ruhe, ob und wie Sie weitermachen.</p>
+        <p class="ag-mt-40">Wer vorher lesen möchte: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> beschreibt den Unterricht, <a class="ag-inline-link" href="/courses">All courses</a> zeigt alle Kurse (beide auf Englisch).</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Guten%20Tag%2C%20ich%20bin%20im%20Ruhestand%20und%20m%C3%B6chte%20KI%20in%20Ruhe%20verstehen%20und%20sicher%20nutzen%2C%20gern%20im%20Kurs%20auf%20Englisch.%20Kann%20ich%20eine%20kostenlose%20Probestunde%20vereinbaren%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'kkr',pos:'end'});">Per WhatsApp schreiben</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Unsere Mentoren unterrichten live aus Indien und ausschließlich auf Englisch. Gern helfen auch Angehörige bei der Anmeldung; per WhatsApp antworten wir am schnellsten.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_kkr(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Ihr Name</label>
+            <input id="de-name" type="text" name="name" placeholder="Name von Elternteil oder Lernendem" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Telefon oder WhatsApp, Deutschland +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Altersgruppe</label>
+            <select id="de-age" name="age"><option value="6-12">Kind, 6 bis 12</option><option value="13-18">Jugendliche, 13 bis 18</option><option value="college">Studierende</option><option value="adult">Berufstätige</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Kostenlose Probestunde anfragen</button>
+          <p class="ag-form-note">Kostenlos, unverbindlich und ohne Zahlungsdaten.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Lieber früher starten? Priority Demo buchen</h3><p>Eine Priority Demo ist eine vollständige Unterrichtsstunde von etwa 45 bis 60 Minuten. Danach schickt der Mentor per WhatsApp einen schriftlichen Kompetenzbericht und einen persönlichen Lernplan. Wenn Sie sich anmelden, wird die Demo-Gebühr mit der ersten Monatsgebühr verrechnet: Schicken Sie uns dazu die Bestellnummer der Demo per WhatsApp.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Priority Demo buchen</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live-Online-Unterricht in Programmieren, KI und Mathematik für Menschen von 6 bis 67 Jahren. Wir unterrichten seit 2020, mehr als
+          10.000 Lernende in 25 Ländern.
+        </p>
+      </div>
+      <div><h4>Für den Einstieg</h4><ul><li><a href="/courses/ai-tools-mastery-complete-college">KI-Werkzeuge</a></li><li><a href="/courses/data-and-ai-analytics-for-non-programmers-course">Daten ohne Code</a></li><li><a href="/courses/python-programming-masterclass-zero-to-advanced-college">Python</a></li><li><a href="/courses">Alle Kurse</a></li></ul></div>
+      <div><h4>Deutschland</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/ai-and-machine-learning-classes-in-germany">KI in Deutschland</a></li><li><a href="/learn-to-think-not-copy-ai-germany">Selbst denken</a></li><li><a href="/student-labs">Projekte</a></li></ul></div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="/about">Über uns</a></li>
+          <li><a href="/how-we-teach">So unterrichten wir</a></li>
+          <li><a href="/love">Bewertungen</a></li>
+          <li><a href="/contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live-Online-Unterricht weltweit.</span>
+      <span>Wahrscheinlich ist nicht dasselbe wie wahr</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Probestunde</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority Demo</a><a href="tel:+919123366161" aria-label="Anrufen +91 91233 66161">Anrufen</a></div>
+
+<script>
+window.submitLead_kkr = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Wird gesendet...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'ki-kurs-fuer-rentner-und-senioren-inline', meta: { name: name, age: age, page: 'ki-kurs-fuer-rentner-und-senioren' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Vielen Dank' + (name ? ', ' + name.split(' ')[0] : '') + '. Ein Mentor ruft Sie in Kürze an.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Netzwerkfehler. Bitte versuchen Sie es erneut.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
