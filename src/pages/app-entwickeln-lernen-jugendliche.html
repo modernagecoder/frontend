@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>App entwickeln lernen für Jugendliche: live auf Englisch</title>
+  <meta name="description" content="App entwickeln lernen für Jugendliche: live online auf Englisch, mit festem Mentor. Dazu Altersregeln der App-Stores, Technik für Android Studio und ein Beispiel.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/app-entwickeln-lernen-jugendliche">
+  <link rel="alternate" type="text/markdown" href="/src/pages/app-entwickeln-lernen-jugendliche.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#60470A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/app-entwickeln-lernen-jugendliche">
+  <meta property="og:title" content="App entwickeln lernen für Jugendliche: live auf Englisch">
+  <meta property="og:description" content="Jugendliche, die eine eigene App bauen wollen: was die App-Stores ab welchem Alter erlauben, welchen Rechner Android Studio braucht, warum man die Logik vor dem Bildschirm baut, und ein Live-Kurs auf Englisch.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="de_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="App entwickeln lernen für Jugendliche: live auf Englisch">
+  <meta name="twitter:description" content="Eigene Apps bauen, live auf Englisch: Altersregeln der Stores, Technik und ein Karteikasten-Beispiel.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ael .ag-hero h1 { letter-spacing: -0.014em; }
+.ag-root.ag-ael .ag-capsule { border-left-width: 4px; border-radius: 6px; }
+.ag-root.ag-ael .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-ael .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-ael .ag-code-head b { letter-spacing: 0.015em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/app-entwickeln-lernen-jugendliche#page","url":"https://learn.modernagecoders.com/app-entwickeln-lernen-jugendliche","name":"App entwickeln lernen für Jugendliche","description":"Ein Leitfaden für Jugendliche und Eltern in Deutschland zum App-Entwickeln: App-Nutzung laut JIM-Studie 2025, Altersregeln von Google Play und Apple, Systemanforderungen von Android Studio, MIT App Inventor als Einstieg und ein eigenes Python-Beispiel für die Logik einer Lern-App.","inLanguage":"de-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Kurse","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"App entwickeln für Jugendliche","item":"https://learn.modernagecoders.com/app-entwickeln-lernen-jugendliche"}]},{"@type":"Course","name":"App entwickeln lernen für Jugendliche","description":"Live-Online-Kurse im App-Entwickeln für Jugendliche von 13 bis 18 Jahren in ganz Deutschland, ausschließlich auf Englisch: JavaScript und React Native, von der Idee bis zur fertigen App, in der Gruppe oder im Einzelunterricht.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/app-entwickeln-lernen-jugendliche"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/app-entwickeln-lernen-jugendliche"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/app-entwickeln-lernen-jugendliche"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Findet der Unterricht auf Deutsch statt?","acceptedAnswer":{"@type":"Answer","text":"Nein, unterrichtet wird live und ausschließlich auf Englisch. Wer Apps bauen will, profitiert davon doppelt: Programmieren und Englisch wachsen gemeinsam, und genau in dieser Sprache sind die Richtlinien von Apple und Google, die React-Native-Dokumentation und fast jede Fehlermeldung geschrieben. Ihr Mentor redet ruhig, wiederholt bei Bedarf und stellt sich auf Ihre Geschwindigkeit und Aussprache ein."}},{"@type":"Question","name":"Ab welchem Alter kann man Apps entwickeln lernen?","acceptedAnswer":{"@type":"Answer","text":"Programmieren kann man in jedem Alter lernen; unser App-Kurs ist für 13 bis 18 Jahre gedacht. Für Jüngere gibt es Kurse mit Blöcken, und MIT App Inventor ist ebenfalls ein guter Einstieg."}},{"@type":"Question","name":"Darf ich mit 15 eine App bei Google Play veröffentlichen?","acceptedAnswer":{"@type":"Answer","text":"Nicht mit einem eigenen Konto. Laut Google muss man mindestens 18 Jahre alt sein, um sich für ein Play-Console-Konto anzumelden. Bauen und auf dem eigenen Handy testen können Sie Ihre App trotzdem."}},{"@type":"Question","name":"Und im App Store von Apple?","acceptedAnswer":{"@type":"Answer","text":"Laut Apple kann ein Elternteil das Entwicklerkonto mit seiner eigenen Apple-ID anlegen und mit Ihnen teilen, wenn Sie noch nicht volljährig sind. Die Entscheidung über eine Veröffentlichung liegt also bei der Familie."}},{"@type":"Question","name":"Brauche ich einen teuren Rechner?","acceptedAnswer":{"@type":"Answer","text":"Nein. Android Studio verlangt laut Google mindestens 8 GB Arbeitsspeicher, mit Emulator 16 GB. Weil wir im Kurs auf dem eigenen Smartphone testen, reicht oft ein normaler Laptop. Windows-Rechner mit ARM-Prozessor werden von Android Studio derzeit nicht unterstützt."}},{"@type":"Question","name":"Welche Programmiersprache lerne ich?","acceptedAnswer":{"@type":"Answer","text":"JavaScript und darauf aufbauend React Native. Damit entsteht aus einem Code eine App für Android und iPhone. Wer möchte, lernt vorher Python, um die Logik in Ruhe zu üben."}},{"@type":"Question","name":"Wird die App mit KI generiert?","acceptedAnswer":{"@type":"Answer","text":"Nein. Jede Zeile Ihrer App tippen Sie selbst, und Sie können jede Regel darin erklären. KI-Dienste mit einer Altersgrenze von 18 Jahren gehören nicht in unseren Unterricht für Jugendliche."}},{"@type":"Question","name":"Zu welchen Zeiten kann ich teilnehmen?","acceptedAnswer":{"@type":"Answer","text":"Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Sonntag um 10:15 Uhr ist im Winter 14:45 Uhr beim Mentor in Indien."}},{"@type":"Question","name":"Gibt es Gruppen?","acceptedAnswer":{"@type":"Answer","text":"Ja, mit fünfzehn bis zwanzig Jugendlichen. Wer an einer eigenen, größeren Idee arbeitet, wählt oft den Einzelunterricht."}},{"@type":"Question","name":"Was kostet der Kurs, und wie wird bezahlt?","acceptedAnswer":{"@type":"Answer","text":"Pro Monat fällt eine Gebühr an, die wir hier in Euro nach dem EZB-Referenzkurs ausweisen; Ihr Konto wird in US-Dollar belastet, den Wechsel macht Ihre Bank. Gebühren für ein Entwicklerkonto bei Google oder Apple sind nicht enthalten. Die Probestunde ist kostenlos."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/app-entwickeln-lernen-jugendliche","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-ael">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Deutschland</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Deutschland</a></li>
+      <li><a href="#konten">Konten</a></li>
+      <li><a href="#rechner">Rechner</a></li>
+      <li><a href="#beispiel">Beispiel</a></li>
+      <li><a href="#zeiten">Zeiten</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Probestunde</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Startseite</a> / <a href="/courses">Kurse</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / App entwickeln für Jugendliche
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Deutschland &middot; App-Entwicklung &middot; 13 bis 18 Jahre</p>
+        <h1>App entwickeln lernen für Jugendliche, live auf Englisch</h1>
+        <p class="ag-lede">Fast jede und jeder Jugendliche hat ein Smartphone, und viele haben schon eine Idee für eine eigene App. Zwischen Idee und App liegen aber Fragen, die selten jemand beantwortet: Ab welchem Alter darf man überhaupt eine App veröffentlichen? Welcher Rechner reicht? Und womit fängt man an, damit das Projekt nicht nach zwei Wochen stecken bleibt? Diese Seite beantwortet sie mit den Regeln von Google und Apple und mit einem Beispiel, das zeigt, wie Profis eine App aufbauen: erst die Logik, dann der Bildschirm.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Kostenlose Probestunde buchen</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Priority Demo buchen</a>
+          <a href="#konten" class="ag-btn ag-btn--ghost">Ab wann darf man veröffentlichen?</a>
+          <a href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20ich%20m%C3%B6chte%20lernen%2C%20eigene%20Apps%20zu%20entwickeln%2C%20live%20auf%20Englisch.%20Kann%20ich%20eine%20kostenlose%20Probestunde%20machen%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ael'});">Per WhatsApp fragen</a>
+        </div>
+        <p class="ag-hero-note">Live-Unterricht seit 2020 &middot; über 10.000 Lernende weltweit &middot; auf Englisch, mit einem eigenen Mentor</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">Auf einen Blick</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4,9 von 5 bei 547 Google-Bewertungen
+        </p>
+        <dl>
+          <dt>Unterrichtssprache</dt><dd>Live-Unterricht ausschließlich auf Englisch, im eigenen Tempo; die Mentoren sprechen deutlich und stellen sich auf Tempo und Akzent der Lernenden ein</dd>
+          <dt>Alter</dt><dd>13 bis 18, Klasse 7 bis 13</dd>
+          <dt>Technik</dt><dd>JavaScript, React Native, später Datenbanken</dd>
+          <dt>Geräte</dt><dd>Android und iPhone aus einem Code</dd>
+          <dt>Gruppe</dt><dd>Fünfzehn bis zwanzig, oder Einzelunterricht</dd>
+          <dt>Ergebnis</dt><dd>Eine eigene, fertige App</dd>
+          <dt>Probestunde</dt><dd>Kostenlos</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Kurz gesagt</p>
+      <p>Bei Modern Age Coders lernen Jugendliche von 13 bis 18, eigene Apps zu entwickeln: live online und auf Englisch, betreut von einem Mentor in Indien, der jede Woche derselbe bleibt und sich nach Ihrem Tempo und Ihrer Aussprache richtet. Mit JavaScript und React Native entsteht eine App für Android und iPhone, von der Idee über geprüfte Regeln bis zum fertigen Bildschirm. Wählbar sind fünfzehn bis zwanzig Mitlernende oder Einzelstunden.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Passende Kurse</p>
+      <h2>Drei Kurse für die erste eigene App</h2>
+      <p class="ag-lede">Der App-Kurs selbst, die Sprache, auf der er aufbaut, und Python für alle, die zuerst sicher programmieren lernen möchten.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/complete-app-development-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/app-dev-teens.webp" alt="Kursbild App-Entwicklung für Jugendliche" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AEL / 01</p>
+          <h3>App-Entwicklung für Jugendliche</h3>
+          <p>Für 13 bis 18, ohne Vorwissen. Mit React Native eine App für Android und iPhone bauen, mit Bildschirmen, Daten und Tests.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/javascript-course-for-teens-beginners-interactive-web">
+        <div class="ag-pick-shot"><img src="/images/javascript-teens.webp" alt="Kursbild JavaScript für Jugendliche" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AEL / 02</p>
+          <h3>JavaScript für Jugendliche</h3>
+          <p>Ab 13. Die Sprache hinter React Native, zuerst an interaktiven Webseiten und kleinen Browserspielen geübt.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Kursbild Python für Jugendliche" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AEL / 03</p>
+          <h3>Python für Jugendliche</h3>
+          <p>Ab 13. Für alle, die erst einmal Logik, Funktionen und Tests lernen wollen, bevor ein Bildschirm dazukommt.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="apps">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Apps im Alltag</p><h2>Welche Apps nutzen Jugendliche in Deutschland am meisten?</h2><p class="ag-lede">Vor allem Apps zum Schreiben und Teilen. Die JIM-Studie 2025 hat 1.200 Jugendliche zwischen 12 und 19 Jahren befragt: 95 Prozent besitzen ein eigenes Smartphone, und die App, die fast alle regelmäßig öffnen, ist ein Messenger.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Regelmäßig genutzte Apps der 12- bis 19-Jährigen, JIM-Studie 2025</caption><thead><tr><th scope="col">App</th><th scope="col">Regelmäßige Nutzung</th><th scope="col">Was eine solche App im Kern tut</th></tr></thead><tbody><tr><td>WhatsApp</td><td class="ag-num">96 Prozent</td><td>Nachrichten speichern, sortieren und zustellen</td></tr><tr><td>Instagram</td><td class="ag-num">63 Prozent</td><td>Bilder anzeigen, in eine Reihenfolge bringen</td></tr><tr><td>Snapchat</td><td class="ag-num">56 Prozent</td><td>Inhalte für eine begrenzte Zeit zeigen</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quelle: mpfs, JIM-Studie 2025, Kapitel zu Apps und Smartphone. WhatsApp zählen laut Studie 84 Prozent zu ihren drei wichtigsten Apps. Die rechte Spalte ist unsere eigene, stark vereinfachte Beschreibung.</p>
+    <p class="ag-mt-40">Die rechte Spalte ist der eigentliche Lernstoff. Hinter jeder dieser Apps steckt eine Logik, die man in wenigen Sätzen beschreiben kann: Was wird gespeichert, wann ändert es sich, was sieht die Person auf dem Bildschirm? Wer lernt, eine App so zu zerlegen, kann auch eine eigene planen. Ein Messenger ist für den Anfang zu groß; ein Vokabeltrainer, ein Hausaufgabenplaner oder ein Trainingstagebuch dagegen nicht.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="konten">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Altersregeln der Stores</p><h2>Ab welchem Alter darf man eine App im App Store oder bei Google Play veröffentlichen?</h2><p class="ag-lede">Programmieren darf man in jedem Alter, veröffentlichen ist eine andere Frage. Beide großen Stores verlangen ein Entwicklerkonto, und beide knüpfen es an die Volljährigkeit.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Entwicklerkonten bei Google und Apple, nach Angaben der Anbieter</caption><thead><tr><th scope="col">Store</th><th scope="col">Altersregel</th><th scope="col">Gebühr</th></tr></thead><tbody><tr><td>Google Play (Play Console)</td><td>Mindestens 18 Jahre für die Anmeldung zu einem Play-Console-Konto</td><td>Einmalige Registrierungsgebühr</td></tr><tr><td>Apple App Store (Apple Developer Program)</td><td>Unter der Volljährigkeit im eigenen Land kann ein Elternteil das Konto mit seiner Apple-ID anlegen und mit dem Kind teilen</td><td>Mitgliedsgebühr pro Mitgliedsjahr</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quellen: Google, Play Console Help, "Get started with Play Console"; Apple, Seite "Enroll" des Apple Developer Program. Gelesen am 3. November 2026. Die aktuelle Höhe der Gebühren nennen die Anbieter selbst; wir geben keine Beträge an. Modern Age Coders ist weder mit Google noch mit Apple verbunden.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Was das für Jugendliche heißt</h3><p>Eine App bauen, auf dem eigenen Handy testen und Freunden zeigen kann man ohne Store-Konto. Erst die Veröffentlichung braucht ein Konto, und unter 18 läuft das über die Eltern: bei Apple ausdrücklich über deren Konto, bei Google erst ab 18 Jahren.</p>
+<p>Wir planen das im Kurs von Anfang an ein. Die Apps laufen über eine Test-App auf dem eigenen Smartphone, und ob und wann veröffentlicht wird, entscheidet die Familie.</p></div><div><h3>Zwei Store-Regeln, die die erste App prägen</h3><p>Apples Richtlinie 4.2 verlangt, dass eine App Funktionen, Inhalte und eine Oberfläche bietet, die über eine umverpackte Webseite hinausgehen. Eine App, die nur eine Webseite anzeigt, hat also schlechte Chancen.</p>
+<p>Wer eine App für Kinder baut, muss Apples Abschnitt 1.3 kennen: Apps in der Kinder-Kategorie dürfen keine Links aus der App heraus, keine Kaufmöglichkeiten und keine anderen Ablenkungen enthalten, außer hinter einer Elternschranke.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="rechner">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Technik zu Hause</p><h2>Welchen Rechner braucht man, um Apps zu entwickeln?</h2><p class="ag-lede">Weniger, als viele befürchten, aber mehr als ein Tablet. Android Studio, die offizielle Entwicklungsumgebung von Google, nennt diese Mindestanforderungen:</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Android Studio, Mindestanforderungen laut Google</caption><thead><tr><th scope="col">Bereich</th><th scope="col">Mindestens</th><th scope="col">Hinweis</th></tr></thead><tbody><tr><td>Betriebssystem</td><td>64-Bit Windows 10, oder macOS 12</td><td>Windows-Rechner mit ARM-Prozessor werden derzeit nicht unterstützt</td></tr><tr><td>Arbeitsspeicher</td><td>8 GB für Android Studio, 16 GB mit Emulator</td><td>Der Emulator simuliert ein Handy auf dem Rechner</td></tr><tr><td>Speicherplatz</td><td>8 GB frei für Android Studio</td><td>Mit Emulator deutlich mehr</td></tr><tr><td>Bildschirm</td><td>1280 x 800</td><td>Ein normaler Laptop reicht</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quelle: Android Developers, "Install Android Studio", Abschnitt Systemanforderungen, gelesen am 3. November 2026.</p>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Unser Weg im Kurs</h3><p>Wir arbeiten mit React Native und testen auf dem eigenen Smartphone. Dafür reicht oft ein Laptop, der für Android Studio mit Emulator zu schwach wäre. Den Emulator brauchen wir nur in Ausnahmen.</p></div><div><h3>iPhone-Apps</h3><p>Wer später eine iPhone-App selbst veröffentlichen möchte, braucht dafür in der Regel Apples Werkzeuge und ein Apple-Entwicklerkonto. Im Kurs testen wir iPhone-Apps über eine Test-App, ohne dass jede Familie einen Mac kaufen muss.</p></div><div><h3>Ohne Rechner?</h3><p>Für die ersten Schritte gibt es MIT App Inventor, eine Umgebung mit Blöcken im Browser. Laut MIT haben über 24 Millionen Lernende aus 195 Ländern damit mehr als 100 Millionen Apps gebaut, und eine einfache App läuft nach weniger als 30 Minuten.</p></div></div>
+    <p class="ag-mt-40">Blöcke sind ein guter Anfang für Jüngere. Für Jugendliche ab 13 empfehlen wir meist den direkten Weg über JavaScript, weil man damit Webseiten und Apps mit derselben Sprache baut und die Grenzen der Blöcke nicht mehr im Weg sind.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="beispiel">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Ein Beispiel aus dem Kurs</p><h2>Wie baut man eine App so, dass sie zuverlässig funktioniert?</h2><p class="ag-lede">Erst die Logik, dann der Bildschirm. Das Beispiel ist unser eigenes: ein Vokabeltrainer nach dem Karteikasten-Prinzip. Jede Karte liegt in einem von fünf Fächern. Wer eine Vokabel weiß, schiebt die Karte ein Fach weiter; wer sie nicht weiß, legt sie zurück in Fach 1. Bevor es auch nur einen einzigen Knopf gibt, schreiben wir diese Regeln als Funktionen und testen sie.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Die Regeln des Karteikastens, ganz ohne Bildschirm</b><span>Python</span></figcaption><pre>FAECHER = 5
+
+def neues_fach(fach, richtig):
+    if richtig:
+        return min(fach + 1, FAECHER)
+    return 1
+
+def ist_faellig(fach, tag):
+    return tag % (2 ** (fach - 1)) == 0
+
+# Tests ohne Bildschirm
+assert neues_fach(1, True) == 2
+assert neues_fach(5, True) == 5
+assert neues_fach(4, False) == 1
+assert ist_faellig(1, 7)
+assert not ist_faellig(3, 6)
+print('alle Tests bestanden')
+
+karte = 1
+for tag, richtig in [(1, True), (2, True), (4, False), (5, True)]:
+    karte = neues_fach(karte, richtig)
+    print('Tag', tag, '-&gt; Fach', karte)</pre><p class="ag-code-note">Ausgabe, von uns mit Python 3 ausgeführt: <code>alle Tests bestanden</code>, dann <code>Tag 1 -&gt; Fach 2</code>, <code>Tag 2 -&gt; Fach 3</code>, <code>Tag 4 -&gt; Fach 1</code>, <code>Tag 5 -&gt; Fach 2</code>. Wir zeigen die Logik in Python, weil sie dort am kürzesten ist; im Kurs schreiben wir dieselben Regeln in JavaScript.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Wann eine Karte wieder drankommt (unsere Regel)</caption><thead><tr><th scope="col">Fach</th><th scope="col">Alle wie viele Tage</th><th scope="col">Grund</th></tr></thead><tbody><tr><td class="ag-num">1</td><td class="ag-num">1</td><td>neu oder vergessen, also jeden Tag</td></tr><tr><td class="ag-num">2</td><td class="ag-num">2</td><td>einmal gewusst</td></tr><tr><td class="ag-num">3</td><td class="ag-num">4</td><td>zweimal hintereinander gewusst</td></tr><tr><td class="ag-num">4</td><td class="ag-num">8</td><td>fast sicher</td></tr><tr><td class="ag-num">5</td><td class="ag-num">16</td><td>nur noch zur Kontrolle</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Der zweite Test, <code>neues_fach(5, True) == 5</code>, ist der wichtigste. In einer ersten Fassung ohne <code>min</code> liefert die Funktion für eine gewusste Karte in Fach 5 eine 6, und der Test bricht mit einem <code>AssertionError</code> ab. In einer App mit Bildschirm hätte man diesen Fehler vielleicht erst nach Wochen bemerkt, wenn eine Karte in einem Fach landet, das es gar nicht gibt, und nie wieder auftaucht.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Regeln in Sätzen aufschreiben.</strong> "Gewusst heißt ein Fach weiter, höchstens bis Fach 5." Jeder Satz wird später eine Funktion.</li><li><strong>Für jede Regel einen Test.</strong> Besonders für die Ränder: das letzte Fach, das erste Fach, ein falscher Tipp ganz oben.</li><li><strong>Erst dann den Bildschirm.</strong> Der Knopf "Gewusst" ruft nur noch <code>neues_fach</code> auf. Die Oberfläche bleibt dünn, die Logik ist geprüft.</li><li><strong>Bei jeder Änderung alle Tests laufen lassen.</strong> So merkt man sofort, wenn eine neue Idee eine alte Regel kaputt macht.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="weg">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Von der Idee zur App</p><h2>Wie lange dauert es, bis die erste eigene App fertig ist?</h2><p class="ag-lede">Eine kleine App mit zwei, drei Bildschirmen schaffen die meisten bei uns in einigen Monaten. Unsere Schritte, mit groben Zeiträumen:</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Von der Idee zur fertigen App (unser Plan)</caption><thead><tr><th scope="col">Schritt</th><th scope="col">Etwa</th><th scope="col">Ergebnis</th></tr></thead><tbody><tr><td>1. Grundlagen in JavaScript</td><td>Monat 1 bis 2</td><td>Variablen, Funktionen, Listen und Objekte sitzen</td></tr><tr><td>2. Die Idee klein schneiden</td><td>Monat 3</td><td>Eine Seite Text: Was speichert die App, welche Regeln gelten?</td></tr><tr><td>3. Logik und Tests</td><td>Monat 3 bis 4</td><td>Alle Regeln als Funktionen, alle Tests grün</td></tr><tr><td>4. Bildschirme bauen</td><td>Monat 4 bis 6</td><td>React-Native-Oberfläche auf dem eigenen Smartphone</td></tr><tr><td>5. Daten speichern</td><td>Monat 6 bis 8</td><td>Die App merkt sich Inhalte auch nach dem Schließen</td></tr><tr><td>6. Zeigen und verbessern</td><td>ab Monat 8</td><td>Freunde testen, Rückmeldungen fließen ein</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Die meisten App-Projekte von Jugendlichen scheitern nicht am Programmieren, sondern daran, dass die Idee zu groß ist. Deshalb verbringt der Mentor mit Ihnen bewusst Zeit mit Schritt 2. Eine fertige kleine App ist mehr wert als eine halbe große.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="zeiten">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unterrichtszeiten</p><h2>Wann finden die App-Stunden statt?</h2><p class="ag-lede">Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Beispielzeiten, in Deutschland und beim Mentor in Indien</caption><thead><tr><th scope="col">Uhrzeit in Deutschland</th><th scope="col">In Indien bis 27. März 2027</th><th scope="col">In Indien ab 28. März 2027</th></tr></thead><tbody><tr><td>14:15</td><td>18:45</td><td>17:45</td></tr><tr><td>Freitag 16:20</td><td>20:50</td><td>19:50</td></tr><tr><td>Sonntag 10:15</td><td>14:45</td><td>13:45</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Für Deutschland gilt nach dem Einheiten- und Zeitgesetz im Winter MEZ (UTC+1) und im Sommer MESZ (UTC+2); die Winterzeit läuft seit dem 25. Oktober 2026, die Sommerzeit kehrt am 28. März 2027 zurück. Indien hat durchgehend UTC+5:30 und liegt im Winter viereinhalb, im Sommer dreieinhalb Stunden vorn. Die Zeiten sind Beispiele, keine festen Gruppentermine.</p>
+    <p class="ag-mt-40">Für längere Bauphasen eignet sich der Sonntagvormittag besonders, weil man ohne Schulstress an einem Bildschirm bleiben kann, bis er fertig ist.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fortschritt</p>
+      <h2>Fünf Stufen zur eigenen App</h2>
+      <p class="ag-lede">Unsere eigenen Stufen für Jugendliche, die Apps entwickeln lernen.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Fünf Stufen der App-Entwicklung (unsere)</caption><thead><tr><th scope="col">Stufe</th><th scope="col">Ungefähr</th><th scope="col">Was Sie dann beherrschen</th></tr></thead><tbody><tr><td>1. Programmieren</td><td class="ag-num">erste zwei Monate</td><td class="ag-num">kleine Programme in JavaScript schreiben und lesen</td></tr><tr><td>2. Planen</td><td class="ag-num">Monat drei</td><td class="ag-num">eine App-Idee in Daten und Regeln zerlegen</td></tr><tr><td>3. Testen</td><td class="ag-num">bis Monat vier</td><td class="ag-num">Regeln als Funktionen schreiben und mit Tests absichern</td></tr><tr><td>4. Gestalten</td><td class="ag-num">bis Monat sechs</td><td class="ag-num">Bildschirme bauen, die nur die geprüfte Logik aufrufen</td></tr><tr><td>5. Fertigstellen</td><td class="ag-num">ab Monat acht</td><td class="ag-num">Daten speichern, Fehler beheben und die App anderen zeigen</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Für Eltern</h3><p>Eine Veröffentlichung im Store ist nicht das Ziel des Kurses, sondern eine mögliche Entscheidung der Familie danach. Unter 18 läuft sie über Ihr Konto.</p>
+<p>Nach den Stunden erfahren Sie kurz, an welchem Teil der App gearbeitet wurde.</p></div><div><h3>Für Jugendliche</h3><p>Schreiben Sie die Regeln Ihrer App zuerst als Sätze auf. Wenn ein Satz nicht passt, passt der Code auch nicht.</p>
+<p>Testen Sie immer das letzte Fach, den letzten Eintrag, den höchsten Wert. Dort brechen Apps am häufigsten.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weitere Kurse</p>
+      <h2>Neun weitere Kurse rund um Apps und Software</h2>
+      <p class="ag-lede">Jeder davon läuft wie der App-Kurs: live, englischsprachig, mit einer festen Bezugsperson.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Web</h3>
+        <span class="ag-band-sub">10 bis 18 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AEL / WEB / 01</p>
+          <h4>Full-Stack-Webentwicklung</h4>
+          <p>React und Node.js für Jugendliche.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AEL / WEB / 02</p>
+          <h4>HTML und CSS</h4>
+          <p>Gestaltung und Layout von Grund auf.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AEL / WEB / 03</p>
+          <h4>Datenbanken für Jugendliche</h4>
+          <p>Wo Apps ihre Daten ablegen.</p>
+          <a class="ag-course-link" href="/courses/mysql-mastery-for-teens">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Spiele und Gestaltung</h3>
+        <span class="ag-band-sub">13 bis 18 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AEL / SPIEL / 01</p>
+          <h4>Spieleentwicklung</h4>
+          <p>Unity und C#, bis zum fertigen Spiel.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AEL / SPIEL / 02</p>
+          <h4>Godot</h4>
+          <p>Spiele in 2D und 3D mit GDScript.</p>
+          <a class="ag-course-link" href="/courses/godot-game-development-course-for-kids-and-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AEL / SPIEL / 03</p>
+          <h4>Design mit Canva</h4>
+          <p>Icons, Screens und Werbebilder ab 13.</p>
+          <a class="ag-course-link" href="/courses/canva-ai-design-masterclass">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Für später, ab 18</h3>
+        <span class="ag-band-sub">ab 18 Jahren</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AEL / SPAETER / 01</p>
+          <h4>Flutter</h4>
+          <p>Dart und plattformübergreifende Apps.</p>
+          <a class="ag-course-link" href="/courses/complete-flutter-app-development-masterclass-college">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AEL / SPAETER / 02</p>
+          <h4>Kotlin und Android</h4>
+          <p>Native Android-Apps.</p>
+          <a class="ag-course-link" href="/courses/complete-kotlin-programming-masterclass-professional">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AEL / SPAETER / 03</p>
+          <h4>Swift und iOS</h4>
+          <p>Native iPhone-Apps mit SwiftUI.</p>
+          <a class="ag-course-link" href="/courses/complete-swift-programming-masterclass-college">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Ablauf</p>
+      <h2>So läuft der App-Kurs ab</h2>
+      <p class="ag-lede">Pro Woche treffen Sie Ihren Mentor zweimal für sechzig Minuten live. Dazwischen arbeiten Sie an Ihrer eigenen App weiter, und in der nächsten Stunde wird gemeinsam geschaut, was funktioniert und was nicht.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Nachmittags</p><p class="ag-slot-l">Nach der Schule, an einem Wochentag.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Sonntag</p><p class="ag-slot-l">Vormittags, für längere Bauphasen.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Einzeln</p><p class="ag-slot-l">Zu einer festen Zeit nach Absprache.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Eigene Idee</h3><p>Ihre App, nicht ein Beispiel aus dem Buch.</p></div>
+      <div><h3>Logik zuerst</h3><p>Regeln und Tests vor dem ersten Knopf.</p></div>
+      <div><h3>Am eigenen Handy</h3><p>Testen über eine Test-App, ohne Store.</p></div>
+      <div><h3>Englisch</h3><p>Die Sprache jeder Dokumentation, gleich mitgelernt.</p></div>
+      <div><h3>Ohne KI-Abkürzung</h3><p>Der Code entsteht im eigenen Kopf.</p></div>
+      <div><h3>Allein oder zusammen</h3><p>Eine Runde mit Gleichaltrigen oder Stunden nur für Sie.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Projekte unserer Lernenden</p>
+      <h2>Projekte von Lernenden</h2>
+      <p class="ag-lede">Apps, Spiele und Webseiten, die unsere Lernenden gebaut haben. Eine Auswahl unten, mehr auf <a class="ag-inline-link" href="/student-labs">Student labs</a> (auf Englisch).</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Screenshot des Projekts NutriLife, ein KI-Ernährungscoach" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>NutriLife</h4>
+          <p>Ein KI-Ernährungscoach, der Mahlzeiten auswertet und Schritt für Schritt auf ein Ziel hinarbeitet.</p>
+          <p class="ag-proj-meta">von Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Screenshot von Misti, ein KI-Chatbot für Mathematik und Programmieren" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>Misti</h4>
+          <p>Ein Chatbot, der Fragen zu Mathematik und Programmierung beantwortet, von einem Schüler gebaut und veröffentlicht.</p>
+          <p class="ag-proj-meta">von Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Screenshot von GuardianX, ein KI-Assistent für Sicherheit im Internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>GuardianX</h4>
+          <p>Ein Assistent, der jungen Menschen hilft, unsichere Situationen im Internet zu erkennen.</p>
+          <p class="ag-proj-meta">von Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Screenshot der Wetter-App SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web-App</p>
+          <h4>SkyCast</h4>
+          <p>Eine Wetter-Website mit aktuellen Bedingungen für jeden Ort.</p>
+          <p class="ag-proj-meta">von Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preise</p>
+      <h2>Preise für Jugendliche in Deutschland</h2>
+      <p class="ag-lede">Bezahlt wird monatlich, ein Monat umfasst acht Live-Stunden. Diese Seite zeigt die Beträge in Euro, umgerechnet mit dem Referenzkurs der Europäischen Zentralbank. Abgebucht wird in US-Dollar; die Bank rechnet um, daher sind kleine Abweichungen auf dem Kontoauszug möglich. Gebühren der App-Stores sind darin nicht enthalten und fallen nur an, wenn die Familie selbst veröffentlicht.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Kostenlose Probestunde</p>
+        <p class="ag-price-amt">Kostenlos</p>
+        <p class="ag-price-alt">keine Karte nötig</p>
+        <ul><li>Eine kostenlose Probestunde</li><li>Gespräch über Ihre App-Idee</li><li>Keine Kartendaten nötig</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Buchen</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Gruppenkurs</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group" data-price-format="suffix">90 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Fünfzehn bis zwanzig Jugendliche</li><li>Ein fester Mentor</li><li>Zwei Stunden pro Woche</li><li>Monatlich kündbar</li></ul>
+        <a href="#start" class="ag-btn">Hier starten</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Einzelunterricht</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal" data-price-format="suffix">134 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Sie und der Mentor allein</li><li>Ihre App, Ihr Tempo</li><li>Termine nach Absprache</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Anfragen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Was Familien sagen</p>
+      <h2>4,9 von 5 bei 547 Google-Bewertungen</h2>
+      <p class="ag-lede">Google-Bewertungen von Eltern und Lernenden, im Original auf Englisch.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Häufige Fragen</p>
+      <h2>App entwickeln lernen für Jugendliche: häufige Fragen</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Findet der Unterricht auf Deutsch statt?</h3>
+        <p>Nein, unterrichtet wird live und ausschließlich auf Englisch. Wer Apps bauen will, profitiert davon doppelt: Programmieren und Englisch wachsen gemeinsam, und genau in dieser Sprache sind die Richtlinien von Apple und Google, die React-Native-Dokumentation und fast jede Fehlermeldung geschrieben. Ihr Mentor redet ruhig, wiederholt bei Bedarf und stellt sich auf Ihre Geschwindigkeit und Aussprache ein.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Ab welchem Alter kann man Apps entwickeln lernen?</h3>
+        <p>Programmieren kann man in jedem Alter lernen; unser App-Kurs ist für 13 bis 18 Jahre gedacht. Für Jüngere gibt es Kurse mit Blöcken, und MIT App Inventor ist ebenfalls ein guter Einstieg.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Darf ich mit 15 eine App bei Google Play veröffentlichen?</h3>
+        <p>Nicht mit einem eigenen Konto. Laut Google muss man mindestens 18 Jahre alt sein, um sich für ein Play-Console-Konto anzumelden. Bauen und auf dem eigenen Handy testen können Sie Ihre App trotzdem.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Und im App Store von Apple?</h3>
+        <p>Laut Apple kann ein Elternteil das Entwicklerkonto mit seiner eigenen Apple-ID anlegen und mit Ihnen teilen, wenn Sie noch nicht volljährig sind. Die Entscheidung über eine Veröffentlichung liegt also bei der Familie.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Brauche ich einen teuren Rechner?</h3>
+        <p>Nein. Android Studio verlangt laut Google mindestens 8 GB Arbeitsspeicher, mit Emulator 16 GB. Weil wir im Kurs auf dem eigenen Smartphone testen, reicht oft ein normaler Laptop. Windows-Rechner mit ARM-Prozessor werden von Android Studio derzeit nicht unterstützt.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Welche Programmiersprache lerne ich?</h3>
+        <p>JavaScript und darauf aufbauend React Native. Damit entsteht aus einem Code eine App für Android und iPhone. Wer möchte, lernt vorher Python, um die Logik in Ruhe zu üben.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wird die App mit KI generiert?</h3>
+        <p>Nein. Jede Zeile Ihrer App tippen Sie selbst, und Sie können jede Regel darin erklären. KI-Dienste mit einer Altersgrenze von 18 Jahren gehören nicht in unseren Unterricht für Jugendliche.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Zu welchen Zeiten kann ich teilnehmen?</h3>
+        <p>Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Sonntag um 10:15 Uhr ist im Winter 14:45 Uhr beim Mentor in Indien.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Gibt es Gruppen?</h3>
+        <p>Ja, mit fünfzehn bis zwanzig Jugendlichen. Wer an einer eigenen, größeren Idee arbeitet, wählt oft den Einzelunterricht.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Was kostet der Kurs, und wie wird bezahlt?</h3>
+        <p>Pro Monat fällt eine Gebühr an, die wir hier in Euro nach dem EZB-Referenzkurs ausweisen; Ihr Konto wird in US-Dollar belastet, den Wechsel macht Ihre Bank. Gebühren für ein Entwicklerkonto bei Google oder Apple sind nicht enthalten. Die Probestunde ist kostenlos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weitere Seiten</p>
+      <h2>Weiterlesen</h2>
+      <p class="ag-lede">Noch mehr Lesestoff zu Informatik und Programmieren in Deutschland.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Alle Seiten für Deutschland.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>Wenn das Schulfach Informatik drückt.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-germany">AI and ML in Germany</a></h3><p>KI-Projekte für Jugendliche.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-think-not-copy-ai-germany">Think, not copy AI</a></h3><p>Warum eigene Gedanken mehr zählen als fertige Antworten.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>So unterrichten wir live.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Projekte unserer Lernenden.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Jetzt starten</p>
+        <h2>Kostenlose Probestunde zur App-Idee</h2>
+        <p class="ag-lede">Bringen Sie Ihre App-Idee mit. In der Probestunde schneiden wir sie gemeinsam auf eine Größe, die sich in einigen Monaten bauen lässt, und schreiben die erste Regel als Funktion.</p>
+        <p class="ag-mt-40">Zum Stöbern vorab: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> erklärt die Live-Stunden, <a class="ag-inline-link" href="/courses">All courses</a> enthält alle Lehrpläne (beide auf Englisch).</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20ich%20m%C3%B6chte%20lernen%2C%20eigene%20Apps%20zu%20entwickeln%2C%20live%20auf%20Englisch.%20Kann%20ich%20eine%20kostenlose%20Probestunde%20machen%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ael',pos:'end'});">Per WhatsApp schreiben</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Die Mentoren sitzen in Indien und unterrichten live, ausschließlich auf Englisch. Per WhatsApp erreichen Sie uns am schnellsten.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ael(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Ihr Name</label>
+            <input id="de-name" type="text" name="name" placeholder="Name von Elternteil oder Lernendem" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Telefon oder WhatsApp, Deutschland +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Altersgruppe</label>
+            <select id="de-age" name="age"><option value="6-12">Kind, 6 bis 12</option><option value="13-18">Jugendliche, 13 bis 18</option><option value="college">Studierende</option><option value="adult">Berufstätige</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Kostenlose Probestunde anfragen</button>
+          <p class="ag-form-note">Kostenlos und unverbindlich; unter 18 bitte mit Wissen der Eltern.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Lieber früher starten? Priority Demo buchen</h3><p>Eine Priority Demo ist eine vollständige Unterrichtsstunde von etwa 45 bis 60 Minuten. Danach schickt der Mentor per WhatsApp einen schriftlichen Kompetenzbericht und einen persönlichen Lernplan. Wenn Sie sich anmelden, wird die Demo-Gebühr mit der ersten Monatsgebühr verrechnet: Schicken Sie uns dazu die Bestellnummer der Demo per WhatsApp.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Priority Demo buchen</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live-Online-Unterricht in Programmieren, KI und Mathematik für Menschen von 6 bis 67 Jahren. Wir unterrichten seit 2020, mehr als
+          10.000 Lernende in 25 Ländern.
+        </p>
+      </div>
+      <div><h4>Apps</h4><ul><li><a href="/courses/complete-app-development-masterclass-for-teens">App-Entwicklung</a></li><li><a href="/courses/javascript-course-for-teens-beginners-interactive-web">JavaScript</a></li><li><a href="/courses/python-complete-masterclass-teens">Python</a></li><li><a href="/courses">Alle Kurse</a></li></ul></div>
+      <div><h4>Deutschland</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/ai-and-machine-learning-classes-in-germany">KI in Deutschland</a></li><li><a href="/student-labs">Projekte</a></li></ul></div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="/about">Über uns</a></li>
+          <li><a href="/how-we-teach">So unterrichten wir</a></li>
+          <li><a href="/love">Bewertungen</a></li>
+          <li><a href="/contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live-Online-Unterricht weltweit.</span>
+      <span>Erst die Regeln, dann die Knöpfe</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Probestunde</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority Demo</a><a href="tel:+919123366161" aria-label="Anrufen +91 91233 66161">Anrufen</a></div>
+
+<script>
+window.submitLead_ael = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Wird gesendet...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'app-entwickeln-lernen-jugendliche-inline', meta: { name: name, age: age, page: 'app-entwickeln-lernen-jugendliche' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Vielen Dank' + (name ? ', ' + name.split(' ')[0] : '') + '. Ein Mentor ruft Sie in Kürze an.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Netzwerkfehler. Bitte versuchen Sie es erneut.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

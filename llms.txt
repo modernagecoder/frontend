@@ -1088,6 +1088,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Programmieren lernen für Erwachsene (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-erwachsene-online
 - KI-Kurs für Rentner und Senioren (auf Englisch): https://learn.modernagecoders.com/ki-kurs-fuer-rentner-und-senioren
 - Python lernen für Schüler (auf Englisch): https://learn.modernagecoders.com/python-lernen-fuer-schueler
+- App entwickeln lernen für Jugendliche (auf Englisch): https://learn.modernagecoders.com/app-entwickeln-lernen-jugendliche
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
