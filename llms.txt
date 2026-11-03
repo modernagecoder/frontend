@@ -1045,6 +1045,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Coding for international school students in Stuttgart: https://learn.modernagecoders.com/coding-for-international-school-students-stuttgart
 - Programmieren lernen für Kinder in Stuttgart: https://learn.modernagecoders.com/programmieren-lernen-kinder-stuttgart
 - Coding classes for kids in Leipzig: https://learn.modernagecoders.com/coding-classes-for-kids-leipzig
+- Programmieren lernen für Kinder in Leipzig: https://learn.modernagecoders.com/programmieren-lernen-kinder-leipzig
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
