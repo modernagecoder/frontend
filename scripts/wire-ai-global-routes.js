@@ -902,6 +902,7 @@ const SLUGS = [
   'coding-classes-for-kids-in-reutlingen-germany',
   'coding-and-ai-classes-in-bremerhaven-germany',
   'online-python-classes-bottrop-germany',
+  'coding-classes-for-kids-in-erlangen-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1883,6 +1884,7 @@ const LLMS_LABELS = {
   'coding-classes-for-kids-in-reutlingen-germany': 'Coding classes for kids in Reutlingen',
   'coding-and-ai-classes-in-bremerhaven-germany': 'Coding and AI classes in Bremerhaven',
   'online-python-classes-bottrop-germany': 'Online Python classes in Bottrop',
+  'coding-classes-for-kids-in-erlangen-germany': 'Coding classes for kids in Erlangen',
 };
 
 function wireLlms(slugs) {

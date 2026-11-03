@@ -31141,6 +31141,18 @@
   to = "/src/pages/online-python-classes-bottrop-germany.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-for-kids-in-erlangen-germany"
+  to = "/src/pages/coding-classes-for-kids-in-erlangen-germany.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-kids-in-erlangen-germany.md"
+  to = "/src/pages/coding-classes-for-kids-in-erlangen-germany.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
