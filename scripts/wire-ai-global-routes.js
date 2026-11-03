@@ -859,6 +859,7 @@ const SLUGS = [
   'python-lernen-fuer-schueler',
   'app-entwickeln-lernen-jugendliche',
   'ki-kurs-fuer-schueler',
+  'coding-classes-for-kids-frankfurt',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1797,6 +1798,7 @@ const LLMS_LABELS = {
   'python-lernen-fuer-schueler': 'Python lernen für Schüler (auf Englisch)',
   'app-entwickeln-lernen-jugendliche': 'App entwickeln lernen für Jugendliche (auf Englisch)',
   'ki-kurs-fuer-schueler': 'KI-Kurs für Schüler (auf Englisch)',
+  'coding-classes-for-kids-frankfurt': 'Coding classes for kids in Frankfurt',
 };
 
 function wireLlms(slugs) {
