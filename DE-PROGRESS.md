@@ -42,7 +42,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE009 | best-online-coding-classes-germany (bco, #733958) | pillar (en) | 5,144 | 2.1% vs coding-classes-in-germany | Best Online Coding Classes in Germany: How to Choose | a time without its zone is not a moment; let the time-zone database do the clock change | c5bb8a60 |
 | DE011 | math-tutor-cost-germany (mtu, #4E477E) | pillar (en) | 4,614 | 1.6% vs best-online-coding-classes-germany | Maths Tutor Cost in Germany: What Drives the Price | plan back from a fixed date and subtract the gaps (set difference on dates) | 06771f70 |
 | DE017 | coding-classes-by-age-germany (cba, #7D3541) | door-en (en) | 4,811 | 1.9% vs coding-classes-in-germany | Coding Classes by Age in Germany: From 6 to Adult | test a shortcut against brute force before you trust it | 22fb7960 |
-| DE018 | online-math-tutor-germany (tut, #852F60) | door-en (en) | 4,545 | 1.7% vs coding-classes-for-kids-berlin | Online Maths Tutor in Germany: Live Classes in English | estimate first (Überschlag), then calculate, then compare the two | (this commit) |
+| DE018 | online-math-tutor-germany (tut, #852F60) | door-en (en) | 4,545 | 1.7% vs coding-classes-for-kids-berlin | Online Maths Tutor in Germany: Live Classes in English | estimate first (Überschlag), then calculate, then compare the two | f9f7ba7a |
+| DE019 | english-speaking-tutor-germany (est, #1E5577) | door-en (en) | 4,030 | 1.8% vs german-school-system-maths-and-computing-explained | English-Speaking Tutor in Germany: Maths and Coding, Live | explain each | (this commit) |
 
 ## Notes
 
