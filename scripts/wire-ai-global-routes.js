@@ -741,6 +741,7 @@ const SLUGS = [
   'coding-classes-in-germany',
   'informatik-in-german-schools-by-state',
   'abitur-vs-ib-vs-a-levels-maths',
+  'german-school-system-maths-and-computing-explained',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1561,6 +1562,7 @@ const LLMS_LABELS = {
   'coding-classes-in-germany': 'Coding classes in Germany',
   'informatik-in-german-schools-by-state': 'Informatik in German schools by state',
   'abitur-vs-ib-vs-a-levels-maths': 'Abitur vs IB vs A levels maths',
+  'german-school-system-maths-and-computing-explained': 'German school system explained',
 };
 
 function wireLlms(slugs) {

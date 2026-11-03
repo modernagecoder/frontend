@@ -29209,6 +29209,18 @@
   to = "/src/pages/abitur-vs-ib-vs-a-levels-maths.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/german-school-system-maths-and-computing-explained"
+  to = "/src/pages/german-school-system-maths-and-computing-explained.html"
+  status = 200
+
+[[redirects]]
+  from = "/german-school-system-maths-and-computing-explained.md"
+  to = "/src/pages/german-school-system-maths-and-computing-explained.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
