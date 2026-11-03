@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bundeswettbewerb Informatik Preparation, Live in English</title>
+  <meta name="description" content="Bundeswettbewerb Informatik 2026 to 2027 explained: rounds, deadlines, who may enter, what a submission needs, and an original algorithm problem taught in English.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/bundeswettbewerb-informatik-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/bundeswettbewerb-informatik-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#19607B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/bundeswettbewerb-informatik-preparation">
+  <meta property="og:title" content="Bundeswettbewerb Informatik Preparation, Live in English">
+  <meta property="og:description" content="The 45th Bundeswettbewerb Informatik from BWINF's own pages: three rounds from September 2026 to September 2027, the eligibility rules, the documentation every task needs, and a worked problem of our own that goes from millions of steps to thousands.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bundeswettbewerb Informatik Preparation, Live in English">
+  <meta name="twitter:description" content="The 45th Bundeswettbewerb Informatik explained, with an original slow-to-fast algorithm problem, taught live in English.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-bin .ag-hero h1 { letter-spacing: -0.02em; }
+.ag-root.ag-bin .ag-capsule { border-left-width: 3px; }
+.ag-root.ag-bin .ag-section-head h2 { max-width: 26ch; }
+.ag-root.ag-bin .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-bin .ag-code-head b { letter-spacing: 0.03em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/bundeswettbewerb-informatik-preparation#page","url":"https://learn.modernagecoders.com/bundeswettbewerb-informatik-preparation","name":"Bundeswettbewerb Informatik Preparation","description":"A guide for teenagers in Germany and their parents to the Bundeswettbewerb Informatik run by BWINF: the 2026 to 2027 rounds and dates, who may take part, the rules on teams, languages and AI tools, how a submission is documented, and an original algorithm problem with working Python.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Bundeswettbewerb Informatik","item":"https://learn.modernagecoders.com/bundeswettbewerb-informatik-preparation"}]},{"@type":"Course","name":"Bundeswettbewerb Informatik Preparation","description":"Live online preparation in English for the Bundeswettbewerb Informatik: algorithms, data structures, clear documentation and honest testing, built on original problems and past rounds after their deadlines, in a group of fifteen to twenty or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/bundeswettbewerb-informatik-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/bundeswettbewerb-informatik-preparation"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/bundeswettbewerb-informatik-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. Every class is live and in English only, with a mentor who adjusts to the pupil's pace and accent. The contest itself accepts any programming language, and code is written in English keywords either way."}},{"@type":"Question","name":"What is the deadline for round 1 in 2026?","acceptedAnswer":{"@type":"Answer","text":"BWINF gives 23 November 2026 as the deadline for round 1 of the 45th Bundeswettbewerb Informatik. Round 2 follows from early 2027 to April 2027, and the final is in September 2027."}},{"@type":"Question","name":"Can I take part if I am not a German citizen?","acceptedAnswer":{"@type":"Answer","text":"On BWINF's rules for the 45th round, yes if you live in Germany from 1 September to 23 November 2026, or attend a recognised German school abroad. You must also be born after 23 November 2004 and not yet studying or working."}},{"@type":"Question","name":"Will you help with the current round 1 tasks?","acceptedAnswer":{"@type":"Answer","text":"No. BWINF does not allow solution ideas to be published before the deadline, so we do not discuss live tasks until 23 November 2026. We teach the methods with our own problems and with past rounds whose deadlines are over."}},{"@type":"Question","name":"Which programming language should I use?","acceptedAnswer":{"@type":"Answer","text":"BWINF sets no restriction. Python is quick to write and a sensible choice for round 1; Java and C++ are common too. Pick the language you can explain most clearly."}},{"@type":"Question","name":"Can I use ChatGPT for the Bundeswettbewerb?","acceptedAnswer":{"@type":"Answer","text":"BWINF allows AI tools in rounds 1 and 2 if you understand and develop the solution yourself and document every tool, and recommends working mostly without them. AI is not possible in the final. OpenAI's own terms require a parent's permission under 18."}},{"@type":"Question","name":"Do I need my school to register me?","acceptedAnswer":{"@type":"Answer","text":"No. You register yourself at login.bwinf.de and found a team, even if you work alone. Your school may still support you, and round 1 allows teamwork with classmates."}},{"@type":"Question","name":"Does the Bundeswettbewerb count for the Abitur?","acceptedAnswer":{"@type":"Answer","text":"BWINF says round 2 can count as the besondere Lernleistung, depending on the Land and the school. Ask your school. We do not award German grades or qualifications."}},{"@type":"Question","name":"When are classes in German time?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Most teenagers choose a late afternoon or a weekend slot."}},{"@type":"Question","name":"How do I pay?","acceptedAnswer":{"@type":"Answer","text":"The page shows the fee in euro, converted at the European Central Bank's reference rate, and the payment goes through in US dollars, which your bank converts. The free first class needs no card."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/bundeswettbewerb-informatik-preparation","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-bin">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#rounds">Rounds</a></li>
+      <li><a href="#who">Entry</a></li>
+      <li><a href="#write-up">Write-up</a></li>
+      <li><a href="#steps">Problem</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Bundeswettbewerb Informatik
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Germany &middot; Bundeswettbewerb Informatik &middot; Up to age 21</p>
+        <h1>Bundeswettbewerb Informatik preparation</h1>
+        <p class="ag-lede">The Bundeswettbewerb Informatik is not a quiz. It hands out real problems, gives weeks to solve them at home in any programming language, and then judges how well the solution is explained as much as whether the program works. This page covers the 45th round from BWINF's own pages, who may enter, what a submission must contain, and a worked problem of our own that shows the skill the contest rewards most: knowing how much work your program does before you run it.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#steps" class="ag-btn ag-btn--ghost">See the worked problem</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20pupil%20in%20Germany%20interested%20in%20the%20Bundeswettbewerb%20Informatik%20and%20would%20like%20a%20free%20first%20class%20in%20English." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'bin'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ students worldwide &middot; algorithms explained, measured and written up</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Who</dt><dd>Pupils up to 21 not yet studying or working</dd>
+          <dt>Languages</dt><dd>Python, Java or C++, the learner's choice</dd>
+          <dt>Focus</dt><dd>Algorithms and the written explanation</dd>
+          <dt>German times</dt><dd>Late afternoons and weekends</dd>
+          <dt>Teachers</dt><dd>Mentors based in India</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Bundeswettbewerb Informatik preparation at Modern Age Coders is a live online class in English for teenagers in Germany, part of our German Informatics Competitions course. Pupils learn the algorithms, data structures and clear written explanations the contest asks for, using problems we write ourselves and past rounds after their deadlines. One regular mentor matches each pupil's pace and accent, in a group of fifteen to twenty or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where Bundeswettbewerb pupils start</p>
+      <h2>Three courses for the Bundeswettbewerb Informatik</h2>
+      <p class="ag-lede">One made for the German contests, one for teenagers who already program and want contest-level algorithms, and one for those who still need a first language.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">
+        <div class="ag-pick-shot"><img src="/images/german-informatics-competitions.webp" alt="German Informatics Competitions course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BIN / 01</p>
+          <h3>German Informatics Competitions</h3>
+          <p>Ages 9 to 19. From Biber puzzles to Bundeswettbewerb algorithms, with a weekly problem set and a monthly mock contest under contest rules.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/competitive-programming-for-teens-course">
+        <div class="ag-pick-shot"><img src="/images/competitive-programming-teens.webp" alt="Competitive Programming for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BIN / 02</p>
+          <h3>Competitive Programming for Teens</h3>
+          <p>Ages 13 to 18 who can already write basic programs. Greedy methods, graphs, dynamic programming and the habit of testing on hard cases.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BIN / 03</p>
+          <h3>Python for Teens</h3>
+          <p>For teenagers starting from zero. Python is a fine contest language, and the junior tasks of round 1 are within reach after a solid first year.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="rounds">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The 45th Bundeswettbewerb</p><h2>How does the Bundeswettbewerb Informatik run in 2026 and 2027?</h2><p class="ag-lede">In three rounds over about a year. The first two are solved at home; the third is an invitation-only final with interviews.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The 45th Bundeswettbewerb Informatik, round by round</caption><thead><tr><th scope="col">Round</th><th scope="col">Dates</th><th scope="col">Tasks</th><th scope="col">How pupils work</th></tr></thead><tbody><tr><td>Round 1</td><td>1 September to 23 November 2026</td><td>Seven offered: five tasks and two junior tasks; at least three to be solved</td><td>Alone or in a team; group work is allowed</td></tr><tr><td>Round 2</td><td>Early 2027 to April 2027</td><td>Three offered, two to be solved</td><td>Alone only</td></tr><tr><td>Round 3, the final</td><td>September 2027</td><td>Team problems and one-to-one interviews</td><td>About 30 invited, on site for 3 to 4 days</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: BWINF, Bundeswettbewerb Informatik overview, FAQ, Teilnehmen and 45th round pages (bwinf.de/bundeswettbewerb/), read on 3 November 2026. BWINF says round 2 tasks are available by Christmas and that round 1 results arrive by the end of the year.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What qualifies a pupil for round 2</h3><p>BWINF's FAQ says a pupil reaches round 2 by solving at least three tasks largely correctly in round 1, alone or with others. If more than three are handed in, the three strongest count. Junior tasks count too, for those allowed to do them.</p>
+<p>The junior tasks are reserved for pupils who have not yet entered the Qualifikationsphase of the Abitur. In 2026 they are also the tasks of the third round of the Jugendwettbewerb Informatik.</p></div><div><h3>How big the field is</h3><p>BWINF reports 1,790 participants in the 43rd Bundeswettbewerb. That is a small field compared with the hundreds of thousands who sit the Informatik-Biber, which is part of why a well documented round 1 entry gets serious attention.</p>
+<p>BWINF's FAQ describes round 3 as a colloquium: each finalist talks with an informatics expert from a school and one from a university, and works with others on two problems.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="who">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Eligibility</p><h2>Who can enter the Bundeswettbewerb Informatik?</h2><p class="ag-lede">Young people up to 21 who are not yet at university or in work, and who meet a residence or school rule. Citizenship is one route, not the only one.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The rules for the 45th round</h3><p>BWINF's Teilnehmen page sets the cut-offs for this round: participants must be born after 23 November 2004, and must be German citizens, or live in Germany from 1 September to 23 November 2026, or attend a recognised German school abroad.</p>
+<p>Excluded are those who had finished an (informatics) training or started work by 1 September 2026, or who study at a university in the winter semester 2026/27 and no longer attend school. A gap year, such as voluntary service, does not exclude anyone.</p></div><div><h3>What that means for international families</h3><p>A pupil who lives in Germany during round 1 is eligible whatever their passport, on BWINF's wording, and whatever kind of school they attend. That includes many teenagers at international schools.</p>
+<p>Registration is individual: a pupil signs up at login.bwinf.de and founds a "team", even when working alone. No school coordinator is needed, although many schools do support their entrants.</p></div></div>
+    <p class="ag-mt-40">Rules on residence and age are BWINF's, and BWINF decides any doubtful case. We quote them here as published on 3 November 2026; if a pupil's situation is unusual, the right step is an email to the Bundeswettbewerb office, not a guess on our part.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="write-up">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The submission</p><h2>What does a Bundeswettbewerb submission need?</h2><p class="ag-lede">For every task: a PDF explaining the idea and the program, enough worked examples, the key parts of the source code, and the program itself. A good explanation does not need to be long, BWINF says, but it must include every example given on the task sheet.</p></div>
+    <ol class="ag-steps"><li><strong>The idea first.</strong> BWINF's tips say to separate the solution idea from its implementation. Write what the method is and why it is correct before saying anything about code.</li><li><strong>Then the program.</strong> Explain how the idea became a program and which parts matter. Any programming language is allowed.</li><li><strong>Name every tool.</strong> Libraries, and AI tools, must be listed in their own section with how they were used. Libraries may help but must not be the core of the solution.</li><li><strong>Show enough examples.</strong> Run the program on every example input from the task sheet and print the results in the document.</li><li><strong>Attach the key code.</strong> Only the parts that carry the algorithm, not the user interface.</li><li><strong>Pack it.</strong> One PDF per task and a folder per task with the source, the runnable program and the input and output files, in one ZIP uploaded through login.bwinf.de. In round 1 one ZIP per team; in round 2 one per pupil.</li></ol>
+    <p class="ag-source-note ag-mt-40">Source: BWINF, Einsenden page and Bundeswettbewerb FAQ (bwinf.de/bundeswettbewerb/einsenden/ and /haeufige-fragen/), read on 3 November 2026. The numbered order is our summary.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>AI tools: allowed, declared, and absent from the final</h3><p>BWINF allows AI tools such as ChatGPT or Copilot in the first two rounds, provided the pupil understands what they hand in, develops the solution themselves and documents every tool used. It recommends doing the tasks mostly without AI, because the contest is there for learning. In the final there is no AI and no technical aid at all.</p>
+<p>Our classes follow the stricter path: pupils under 18 do not use adult-only tools with us, and we train the reasoning a pupil needs when no tool is in the room.</p></div><div><h3>Silence until the deadline</h3><p>BWINF states that no solution ideas or programs may be published before the deadline, and asks pupils who use Git to keep their repositories private.</p>
+<p>So until 23 November 2026 we do not discuss the live round 1 tasks in class at all, and this page names none of them. We teach the methods with our own problems and with past rounds whose deadlines are over.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="steps">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked problem, ours</p><h2>How do you turn a slow correct idea into a fast one?</h2><p class="ag-lede">This problem was written by Modern Age Coders for this page; it is not from any BWINF round. It shows the habit that separates a passing Bundeswettbewerb entry from a strong one: count how many steps a method needs, before and after you improve it, and prove both versions give the same answer.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The problem (ours)</h3><p>Pupils stand in one row for a class photo, front to back. A pupil's view is blocked by anyone taller who stands in front of them. Count the blocked pairs: pairs where the pupil nearer the front is strictly taller.</p>
+<p>Small example: heights 150, 140, 160 and 135 cm. The blocked pairs are 150 before 140, 150 before 135, 140 before 135 and 160 before 135, so the answer is 4.</p></div><div><h3>Two ideas</h3><p><strong>Slow but obviously right:</strong> compare every pair. With n pupils that is n(n-1)/2 comparisons, which is 499,500 for a row of 1,000.</p>
+<p><strong>Fast and also right:</strong> sort the row by merging halves, the method called merge sort. Each time a pupil from the back half is placed before pupils still waiting in the front half, every one of those waiting pupils is taller and stands in front, so all of them form blocked pairs and can be counted at once.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Both methods, with a step counter</b><span>Python</span></figcaption><pre>import random
+
+def blocked_pairs_slow(heights):
+    steps = 0
+    count = 0
+    for i in range(len(heights)):
+        for j in range(i + 1, len(heights)):
+            steps += 1
+            if heights[i] &gt; heights[j]:
+                count += 1
+    return count, steps
+
+def blocked_pairs_fast(heights):
+    steps = 0
+    def sort_count(row):
+        nonlocal steps
+        if len(row) &lt;= 1:
+            return row, 0
+        mid = len(row) // 2
+        left, a = sort_count(row[:mid])
+        right, b = sort_count(row[mid:])
+        merged, count, i, j = [], a + b, 0, 0
+        while i &lt; len(left) and j &lt; len(right):
+            steps += 1
+            if left[i] &lt;= right[j]:
+                merged.append(left[i]); i += 1
+            else:
+                merged.append(right[j]); j += 1
+                count += len(left) - i
+        merged += left[i:] + right[j:]
+        return merged, count
+    _, count = sort_count(heights)
+    return count, steps
+
+random.seed(2026)
+for n in [1000, 2000, 4000]:
+    row = [random.randint(120, 190) for _ in range(n)]
+    slow = blocked_pairs_slow(row)
+    fast = blocked_pairs_fast(row)
+    print(n, "pupils | blocked pairs", slow[0], fast[0], "| steps", slow[1], "vs", fast[1])</pre><p class="ag-code-note">It prints <code>1000 pupils | blocked pairs 253662 253662 | steps 499500 vs 8711</code>, then <code>2000 pupils | blocked pairs 980650 980650 | steps 1999000 vs 19382</code> and <code>4000 pupils | blocked pairs 3912401 3912401 | steps 7998000 vs 42726</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Comparisons needed by each method on random rows (our calculation)</caption><thead><tr><th scope="col">Pupils in the row</th><th scope="col">Blocked pairs</th><th scope="col">Every pair</th><th scope="col">Merge count</th></tr></thead><tbody><tr><td class="ag-num">1,000</td><td class="ag-num">253,662</td><td class="ag-num">499,500</td><td class="ag-num">8,711</td></tr><tr><td class="ag-num">2,000</td><td class="ag-num">980,650</td><td class="ag-num">1,999,000</td><td class="ag-num">19,382</td></tr><tr><td class="ag-num">4,000</td><td class="ag-num">3,912,401</td><td class="ag-num">7,998,000</td><td class="ag-num">42,726</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Heights are random whole numbers from 120 to 190 cm, fixed by random.seed(2026) so that anyone running the code gets the same rows. The counts are our own output, run with Python 3 on 3 November 2026.</p>
+    <p class="ag-mt-40">Both methods agree on every row, which is the first thing a careful entrant checks. Then look at how the work grows. Doubling the row from 2,000 to 4,000 pupils multiplies the every-pair method by four, from 1,999,000 to 7,998,000 comparisons, while the merge method only a little more than doubles, from 19,382 to 42,726. On a row of a million pupils, the first method would need about half a million million comparisons; the second, a few tens of millions. A Bundeswettbewerb write-up that states this growth, shows the measured counts and explains why the faster method is still correct is exactly the kind of documentation BWINF asks for.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Check by hand.</strong> Run both functions on the four heights in the small example and confirm you get 4.</li><li><strong>Find the edge.</strong> What happens when two pupils have the same height? Read the code and say which line decides it.</li><li><strong>Write the idea.</strong> In five sentences, explain why counting len(left) minus i is correct. That paragraph is your Lösungsidee.</li><li><strong>Going further.</strong> Change the problem so that a pupil is blocked only by someone at least 10 cm taller. Which method adapts more easily, and why?</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="after">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What it leads to</p><h2>What can the Bundeswettbewerb Informatik lead to?</h2><p class="ag-lede">More than a certificate, according to BWINF, though nothing on this list can be promised to anyone in advance.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What BWINF says the contest can open up</caption><thead><tr><th scope="col">Stage</th><th scope="col">What BWINF describes</th></tr></thead><tbody><tr><td>Round 1</td><td>Invitations to workshops at universities and companies, such as the HPI Fit-For-BWINF workshop</td></tr><tr><td>Round 2</td><td>Can count as the besondere Lernleistung in the Abitur, depending on the Land and the school</td></tr><tr><td>Round 3</td><td>National winners are admitted to the Studienstiftung des deutschen Volkes</td></tr><tr><td>Top of the contest</td><td>Up to 20 of the strongest are considered for the selection of Germany's team at the International Olympiad in Informatics</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: BWINF, Bundeswettbewerb overview and FAQ, and BWINF, Informatik-Olympiade Teilnehmen page, read on 3 November 2026.</p>
+    <p class="ag-mt-40">The Abitur point is worth reading twice: whether round 2 can replace the besondere Lernleistung is decided by the Land and the school, so a pupil should ask the school before relying on it. We teach alongside school and grant no German qualification; the school decides what counts there. Our role is to make the work itself strong: correct, efficient, tested and clearly explained.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>When do Bundeswettbewerb classes run in German time?</h2><p class="ag-lede">Teenagers mostly choose the late afternoon or a weekend slot. Our mentors teach from India, where the clock runs ahead of Germany.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Example class times in Germany and in India</caption><thead><tr><th scope="col">Start in Germany</th><th scope="col">India until 27 March 2027</th><th scope="col">India from 28 March 2027</th></tr></thead><tbody><tr><td>16:15</td><td>20:45</td><td>19:45</td></tr><tr><td>18:00</td><td>22:30</td><td>21:30</td></tr><tr><td>Saturday 11:00</td><td>15:30</td><td>14:30</td></tr><tr><td>Sunday 14:00</td><td>18:30</td><td>17:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">The Einheitenzeitgesetz puts Germany on UTC+1 in winter and UTC+2 in summer. Summer time ended on 25 October 2026 and resumes on 28 March 2027. India does not change its clocks (UTC+5:30), so the gap is four and a half hours until late March and three and a half after.</p>
+    <p class="ag-mt-40">Rounds 1 and 2 run while school does, so one-to-one pupils often move their lesson nearer a deadline, and back again afterwards. The free first class is booked in your own clock.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Milestones</p>
+      <h2>From a first program to a round 2 submission</h2>
+      <p class="ag-lede">Milestones we use for Bundeswettbewerb pupils; they decide where a new pupil starts and give parents a clear picture of progress.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Bundeswettbewerb milestones (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Typical time</th><th scope="col">The pupil can</th></tr></thead><tbody><tr><td>1. Reading input</td><td class="ag-num">Month 1</td><td class="ag-num">Read a task's example file, store it in lists and dictionaries, and print it back</td></tr><tr><td>2. Correct and slow</td><td class="ag-num">Months 2 to 3</td><td class="ag-num">Solve a problem by trying every case and prove it on all given examples</td></tr><tr><td>3. Counting steps</td><td class="ag-num">Months 3 to 5</td><td class="ag-num">Say how the work grows with the input, and measure it</td></tr><tr><td>4. Correct and fast</td><td class="ag-num">Months 5 to 9</td><td class="ag-num">Use sorting, graphs, greedy methods and dynamic programming where they fit</td></tr><tr><td>5. A full write-up</td><td class="ag-num">From month 6</td><td class="ag-num">Produce the PDF and ZIP for three tasks to the standard BWINF describes</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For pupils</h3><p>A slow program that is right beats a fast one that is wrong. Get it right, then make it fast.</p>
+<p>Write the explanation while you code, not on the last evening. BWINF says writing takes longer than you think.</p></div><div><h3>For parents</h3><p>Round 1 allows teamwork, so a classmate or two can share the load and the learning.</p>
+<p>Ask your teenager to show you the PDF, not the code. If you can follow the idea, a juror will too.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for informatics teenagers in Germany</h2>
+      <p class="ag-lede">Each one is taught live in English by the same mentor every week, in a group of up to twenty or as private lessons.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Contest languages</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BIN / LANG / 01</p>
+          <h4>C++ for teens</h4>
+          <p>The language of the IOI selection, from zero.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BIN / LANG / 02</p>
+          <h4>Java for teens</h4>
+          <p>Objects and types, as many schools teach.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BIN / LANG / 03</p>
+          <h4>Problem solving for teens</h4>
+          <p>Logic and data structures, step by step.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>School Informatik</h3>
+        <span class="ag-band-sub">Oberstufe and IB</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BIN / SCHOOL / 01</p>
+          <h4>Informatik Abitur in English</h4>
+          <p>Java and Python for the Oberstufe.</p>
+          <a class="ag-course-link" href="/courses/informatik-abitur-course-java-python">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BIN / SCHOOL / 02</p>
+          <h4>IB Computer Science</h4>
+          <p>For pupils on the IB Diploma.</p>
+          <a class="ag-course-link" href="/courses/ib-diploma-computer-science-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BIN / SCHOOL / 03</p>
+          <h4>IGCSE Computer Science</h4>
+          <p>Cambridge 0478, for international schools.</p>
+          <a class="ag-course-link" href="/courses/igcse-computer-science-0478-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Beyond school</h3>
+        <span class="ag-band-sub">Ages 17 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BIN / NEXT / 01</p>
+          <h4>Data structures and algorithms</h4>
+          <p>University-level DSA, in depth.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BIN / NEXT / 02</p>
+          <h4>Competitive programming</h4>
+          <p>Codeforces to ICPC, for older learners.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BIN / NEXT / 03</p>
+          <h4>AI and machine learning</h4>
+          <p>For a later BWKI project.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>How live Bundeswettbewerb classes work</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Late afternoon</p><p class="ag-slot-l">After school, from about 16:00 German time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Saturday or Sunday, for longer problem sessions.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">One to one</p><p class="ag-slot-l">Agreed with the mentor, closer to deadlines if needed.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Our own problems</h3><p>Written for teaching, never the live round.</p></div>
+      <div><h3>Idea before code</h3><p>Every solution is explained in words first.</p></div>
+      <div><h3>Steps counted</h3><p>Pupils measure how their program grows.</p></div>
+      <div><h3>Write-up practice</h3><p>PDFs drafted to BWINF's structure.</p></div>
+      <div><h3>Mock rounds</h3><p>A monthly contest under time pressure.</p></div>
+      <div><h3>Same mentor</h3><p>One person who knows the pupil's code.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects built by our students</h2>
+      <p class="ag-lede">A small sample of what our teenage students around the world have built; the <a class="ag-inline-link" href="/student-labs">student labs</a> page holds more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for Bundeswettbewerb preparation</h2>
+      <p class="ag-lede">A monthly fee covers eight live classes. The amount is displayed in euro after conversion at the European Central Bank's reference rate; the charge is processed in US dollars, and your bank converts it, so the euro sum on your statement may not match to the cent.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>One of our problems at your level</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Fifteen to twenty teenagers of a similar level</li><li>One regular mentor</li><li>Two classes a week</li><li>Monthly, cancel whenever you like</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>One pupil, one mentor</li><li>Your own pace and problem list</li><li>Times you agree together</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from our students and their families, shown as they were written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Pupils and parents ask</p>
+      <h2>Bundeswettbewerb Informatik preparation: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. Every class is live and in English only, with a mentor who adjusts to the pupil's pace and accent. The contest itself accepts any programming language, and code is written in English keywords either way.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the deadline for round 1 in 2026?</h3>
+        <p>BWINF gives 23 November 2026 as the deadline for round 1 of the 45th Bundeswettbewerb Informatik. Round 2 follows from early 2027 to April 2027, and the final is in September 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I take part if I am not a German citizen?</h3>
+        <p>On BWINF's rules for the 45th round, yes if you live in Germany from 1 September to 23 November 2026, or attend a recognised German school abroad. You must also be born after 23 November 2004 and not yet studying or working.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you help with the current round 1 tasks?</h3>
+        <p>No. BWINF does not allow solution ideas to be published before the deadline, so we do not discuss live tasks until 23 November 2026. We teach the methods with our own problems and with past rounds whose deadlines are over.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which programming language should I use?</h3>
+        <p>BWINF sets no restriction. Python is quick to write and a sensible choice for round 1; Java and C++ are common too. Pick the language you can explain most clearly.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use ChatGPT for the Bundeswettbewerb?</h3>
+        <p>BWINF allows AI tools in rounds 1 and 2 if you understand and develop the solution yourself and document every tool, and recommends working mostly without them. AI is not possible in the final. OpenAI's own terms require a parent's permission under 18.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need my school to register me?</h3>
+        <p>No. You register yourself at login.bwinf.de and found a team, even if you work alone. Your school may still support you, and round 1 allows teamwork with classmates.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does the Bundeswettbewerb count for the Abitur?</h3>
+        <p>BWINF says round 2 can count as the besondere Lernleistung, depending on the Land and the school. Ask your school. We do not award German grades or qualifications.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes in German time?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Most teenagers choose a late afternoon or a weekend slot.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I pay?</h3>
+        <p>The page shows the fee in euro, converted at the European Central Bank's reference rate, and the payment goes through in US dollars, which your bank converts. The free first class needs no card.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for teenagers in Germany who like hard problems.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Every Germany page in one overview.</p></div>
+      <div><h3><a class="ag-inline-link" href="/abitur-maths-in-english">Abitur maths in English</a></h3><p>The proof habits that algorithm write-ups need.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-germany">AI and machine learning in Germany</a></h3><p>Models, baselines and the BWKI.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>School Informatik support, written in German.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Our live lessons, explained.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Work by our students.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free Bundeswettbewerb class</h2>
+        <p class="ag-lede">In the first class the mentor sets one of our problems, watches how you plan and code it, and suggests the right course and starting point, in English and at your pace.</p>
+        <p class="ag-mt-40">If you would rather read on first, try <a class="ag-inline-link" href="/how-we-teach">how a lesson runs</a> or the <a class="ag-inline-link" href="/courses">full course list</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20pupil%20in%20Germany%20interested%20in%20the%20Bundeswettbewerb%20Informatik%20and%20would%20like%20a%20free%20first%20class%20in%20English." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'bin',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">We teach live online and only in English; the mentors are based in India. WhatsApp in English gets the fastest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_bin(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card is needed for the free first class.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Contests</h4><ul><li><a href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">German informatics competitions</a></li><li><a href="/courses/competitive-programming-for-teens-course">Competitive programming for teens</a></li><li><a href="/courses/cpp-programming-masterclass-for-teens">C++ for teens</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/ai-and-machine-learning-classes-in-germany">AI and machine learning</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/abitur-maths-in-english">Abitur maths in English</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Count the steps before you code</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_bin = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'bundeswettbewerb-informatik-preparation-inline', meta: { name: name, age: age, page: 'bundeswettbewerb-informatik-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

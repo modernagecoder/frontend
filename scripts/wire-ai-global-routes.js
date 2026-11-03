@@ -761,6 +761,9 @@ const SLUGS = [
   'jugendwettbewerb-informatik-preparation',
   'math-olympiad-germany-preparation',
   'jugend-forscht-computer-science-project-mentoring',
+  'kangaroo-math-germany-practice',
+  'bundeswettbewerb-informatik-preparation',
+  'ioi-2027-potsdam-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1601,6 +1604,9 @@ const LLMS_LABELS = {
   'jugendwettbewerb-informatik-preparation': 'Jugendwettbewerb Informatik preparation',
   'math-olympiad-germany-preparation': 'Mathematik-Olympiade preparation in English',
   'jugend-forscht-computer-science-project-mentoring': 'Jugend forscht computer science project mentoring',
+  'kangaroo-math-germany-practice': 'Känguru der Mathematik practice in English',
+  'bundeswettbewerb-informatik-preparation': 'Bundeswettbewerb Informatik preparation',
+  'ioi-2027-potsdam-guide': 'IOI 2027 in Potsdam: a guide for families',
 };
 
 function wireLlms(slugs) {

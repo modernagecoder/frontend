@@ -29449,6 +29449,42 @@
   to = "/src/pages/jugend-forscht-computer-science-project-mentoring.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/kangaroo-math-germany-practice"
+  to = "/src/pages/kangaroo-math-germany-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/kangaroo-math-germany-practice.md"
+  to = "/src/pages/kangaroo-math-germany-practice.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/bundeswettbewerb-informatik-preparation"
+  to = "/src/pages/bundeswettbewerb-informatik-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/bundeswettbewerb-informatik-preparation.md"
+  to = "/src/pages/bundeswettbewerb-informatik-preparation.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ioi-2027-potsdam-guide"
+  to = "/src/pages/ioi-2027-potsdam-guide.html"
+  status = 200
+
+[[redirects]]
+  from = "/ioi-2027-potsdam-guide.md"
+  to = "/src/pages/ioi-2027-potsdam-guide.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
