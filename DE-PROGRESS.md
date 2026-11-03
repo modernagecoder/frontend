@@ -115,7 +115,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE107 | programmieren-lernen-kinder-berlin (plk, #566323) | city-de (de) | 3,816 | 2.7% vs informatik-nachhilfe-online | Programmieren lernen für Kinder in Berlin: live auf Englisch | a Strichliste (tally by group), then a sum by group; "most" and "largest" are different questions | 02e7342b |
 | DE108 | coding-classes-for-kids-hamburg (ckh, #144039) | city-t1 (en) | 4,008 | 2.7% vs coding-classes-for-kids-munich | Coding Classes for Kids in Hamburg: Live Online, in English | text search and capital letters; normalise case before you compare, and know why German needs it | 8731bef5 |
 | DE109 | math-tutor-hamburg-in-english (ena, #7E1E35) | city-t1 (en) | 4,316 | 2.7% vs coding-classes-for-kids-hamburg | Maths Tutor in Hamburg in English: Live Online, ESA to Abitur | the circle formula run backwards (d = U / pi), then a plausibility check before believing any record | 970dd10f |
-| DE110 | coding-for-international-school-students-hamburg (coi, #721D50) | city-t1 (en) | 4,186 | 1.9% vs coding-classes-for-kids-hamburg | Coding for International School Students in Hamburg, in English | the cost of an algorithm; count the comparisons a nested loop makes, then halve them | (this commit) |
+| DE110 | coding-for-international-school-students-hamburg (coi, #721D50) | city-t1 (en) | 4,186 | 1.9% vs coding-classes-for-kids-hamburg | Coding for International School Students in Hamburg, in English | the cost of an algorithm; count the comparisons a nested loop makes, then halve them | 2035ba08 |
+| DE111 | programmieren-lernen-kinder-hamburg (pha, #246984) | city-de (de) | 3,849 | 2.7% vs programmieren-lernen-kinder-muenchen | Programmieren lernen für Kinder in Hamburg: live auf Englisch | text into numbers; the German thousands point, and why a result must be checked for plausibility | (this commit) |
 
 ## Notes
 
