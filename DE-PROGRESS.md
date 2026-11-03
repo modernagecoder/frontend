@@ -206,7 +206,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE201 | online-python-classes-siegen-germany (psi, #A1442B) | city-t2 (en) | 3,709 | 1.9% vs online-python-classes-wuerzburg-germany | Online Python Classes in Siegen: Live and Taught in English | fill a short gap from both neighbours (linear interpolation), test the filler on values you hid | 74c0a9d4 |
 | DE202 | coding-classes-for-kids-in-moers-germany (cmo, #9E480F) | city-t2 (en) | 3,514 | 2% vs coding-and-ai-classes-in-bergisch-gladbach-germany | Coding Classes for Kids in Moers: Live Online, in English | days of the week go round in a circle; count the days and take the remainder by 7 | f787700f |
 | DE203 | coding-and-ai-classes-in-guetersloh-germany (cgu, #593523) | city-t2 (en) | 3,464 | 2.1% vs coding-and-ai-classes-in-trier-germany | Coding and AI Classes in Gütersloh: Live Online, in English | sort largest first, then add up the shares; a running share shows how few hold most (Pareto check) | 94f95e61 |
-| DE204 | online-python-classes-kaiserslautern-germany (pka, #751A00) | city-t2 (en) | 3,764 | 2.3% vs coding-classes-for-kids-in-koblenz-germany | Online Python Classes in Kaiserslautern, Live in English | correlation measures how tightly two things move together on a scale from -1 to 1, not why | (this commit) |
+| DE204 | online-python-classes-kaiserslautern-germany (pka, #751A00) | city-t2 (en) | 3,764 | 2.3% vs coding-classes-for-kids-in-koblenz-germany | Online Python Classes in Kaiserslautern, Live in English | correlation measures how tightly two things move together on a scale from -1 to 1, not why | 15a8085f |
+| DE179 | coding-and-ai-classes-in-neuss-germany (cne, #1B5435) | city-t2 (en) | 4,190 | 2.1% vs online-python-classes-hamm-germany | Coding and AI Classes in Neuss: Live Online in English | put features on a common scale before a nearest-neighbour model measures distance (centimetres of | (this commit) |
 
 ## Notes
 
