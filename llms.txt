@@ -1093,6 +1093,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Coding classes for kids in Frankfurt: https://learn.modernagecoders.com/coding-classes-for-kids-frankfurt
 - Maths tutor in Frankfurt, in English: https://learn.modernagecoders.com/math-tutor-frankfurt-in-english
 - Coding for international school students in Frankfurt: https://learn.modernagecoders.com/coding-for-international-school-students-frankfurt
+- Programmieren lernen für Kinder in Frankfurt (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-frankfurt
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

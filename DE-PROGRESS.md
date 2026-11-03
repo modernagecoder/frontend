@@ -134,7 +134,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE064 | ki-kurs-fuer-schueler (kks, #034D73) | door-de (de) | 3,795 | 2.4% vs programmierkurs-jugendliche-online | KI-Kurs für Schüler: Modelle bauen statt chatten, auf Englisch | confidence is not correctness; check whether "90 percent sure" is right about 90 percent of the time | 4a2dfff5 |
 | DE119 | coding-classes-for-kids-frankfurt (cfr, #5B3649) | city-t1 (en) | 4,436 | 2.3% vs coding-classes-for-kids-stuttgart | Coding Classes for Kids in Frankfurt: Live Online, in English | a height needs its zero; subtract the ground before you compare | e67bf5ec |
 | DE120 | math-tutor-frankfurt-in-english (mtf, #007185) | city-t1 (en) | 4,603 | 1.8% vs math-tutor-munich-in-english | Maths Tutor in Frankfurt, in English: Klasse 1 to Abitur | area from corner coordinates, and squared units scale by the square of the factor | e2daf132 |
-| DE121 | coding-for-international-school-students-frankfurt (fra, #4A6398) | city-t1 (en) | 4,172 | 2.1% vs coding-for-international-school-students-stuttgart | Coding for International School Students in Frankfurt | normalise a key before you join, and count what the join drops | (this commit) |
+| DE121 | coding-for-international-school-students-frankfurt (fra, #4A6398) | city-t1 (en) | 4,172 | 2.1% vs coding-for-international-school-students-stuttgart | Coding for International School Students in Frankfurt | normalise a key before you join, and count what the join drops | 65dcff3d |
+| DE122 | programmieren-lernen-kinder-frankfurt (pfr, #7E5282) | city-de (de) | 3,661 | 2.8% vs programmieren-lernen-kinder-hamburg | Programmieren lernen für Kinder in Frankfurt: live auf Englisch | one cell can hold several answers; split it before you count | (this commit) |
 
 ## Notes
 
