@@ -101,7 +101,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE089 | coding-and-maths-classes-in-hamburg-germany (cmh, #1D4841) | land (en) | 4,242 | 2.6% vs coding-classes-in-schleswig-holstein | Coding and Maths Classes in Hamburg: Live Online, in English | decide what one thing is before you count it; rows are parts, and a key turns parts into objects | 1ef632ad |
 | DE090 | coding-classes-in-lower-saxony (cls, #782445) | land (en) | 4,096 | 2.6% vs coding-classes-in-schleswig-holstein | Coding Classes in Lower Saxony: Live Online, in English | match where the meaning is; "contains" is not "ends with", so list the false hits before you trust a count | e1173f2a |
 | DE091 | coding-classes-in-land-bremen (bre, #86516D) | land (en) | 4,284 | 2.7% vs coding-and-maths-classes-in-hamburg-germany | Coding Classes in Bremen and Bremerhaven: Live Online, in English | guard the denominator; a percentage needs a base that is neither zero nor too small to mean anything | 3a32733b |
-| DE092 | coding-classes-in-north-rhine-westphalia (cnr, #2B606D) | land (en) | 4,288 | 1.8% vs coding-classes-in-lower-saxony | Coding Classes in North Rhine-Westphalia: Live Online, in English | look at the first lines of a file before you parse it; the header is not always on line 1 | (this commit) |
+| DE092 | coding-classes-in-north-rhine-westphalia (cnr, #2B606D) | land (en) | 4,288 | 1.8% vs coding-classes-in-lower-saxony | Coding Classes in North Rhine-Westphalia: Live Online, in English | look at the first lines of a file before you parse it; the header is not always on line 1 | 064d8e64 |
+| DE093 | coding-classes-in-hesse (che, #4F557A) | land (en) | 4,125 | 2.4% vs coding-classes-in-lower-saxony | Coding Classes in Hesse (Hessen): Live Online, in English | read the table's grammar before you add; "davon" parts make up the total, "darunter" parts are a selection | (this commit) |
 
 ## Notes
 
