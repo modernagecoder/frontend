@@ -113,7 +113,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE105 | math-tutor-berlin-in-english (men, #814E32) | city-t1 (en) | 4,630 | 2.2% vs online-math-tutor-germany | Maths Tutor in Berlin in English: Live Online, Klasse 1 to 13 | a running total; differences give the amount, and a difference must be divided by its own time span | 9cc0ba01 |
 | DE106 | coding-for-international-school-students-berlin (cin, #565635) | city-t1 (en) | 4,377 | 2.4% vs coding-classes-for-kids-berlin | Coding for International School Students in Berlin, in English | validate before you compute; sort every record into a named case, then reject what cannot be true | c7670244 |
 | DE107 | programmieren-lernen-kinder-berlin (plk, #566323) | city-de (de) | 3,816 | 2.7% vs informatik-nachhilfe-online | Programmieren lernen für Kinder in Berlin: live auf Englisch | a Strichliste (tally by group), then a sum by group; "most" and "largest" are different questions | 02e7342b |
-| DE108 | coding-classes-for-kids-hamburg (ckh, #144039) | city-t1 (en) | 4,008 | 2.7% vs coding-classes-for-kids-munich | Coding Classes for Kids in Hamburg: Live Online, in English | text search and capital letters; normalise case before you compare, and know why German needs it | (this commit) |
+| DE108 | coding-classes-for-kids-hamburg (ckh, #144039) | city-t1 (en) | 4,008 | 2.7% vs coding-classes-for-kids-munich | Coding Classes for Kids in Hamburg: Live Online, in English | text search and capital letters; normalise case before you compare, and know why German needs it | 8731bef5 |
+| DE109 | math-tutor-hamburg-in-english (ena, #7E1E35) | city-t1 (en) | 4,316 | 2.7% vs coding-classes-for-kids-hamburg | Maths Tutor in Hamburg in English: Live Online, ESA to Abitur | the circle formula run backwards (d = U / pi), then a plausibility check before believing any record | (this commit) |
 
 ## Notes
 
