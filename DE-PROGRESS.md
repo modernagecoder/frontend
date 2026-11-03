@@ -150,7 +150,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE141 | online-python-classes-bochum-germany (boc, #83280E) | city-t2 (en) | 4,188 | 1.7% vs coding-and-ai-classes-in-duisburg-germany | Online Python Classes in Bochum: Live Lessons in English | one giant value drags the mean, not the median; a running total shows when the growth happened | 889b6c82 |
 | DE144 | online-python-classes-mannheim-germany (pma, #71153D) | city-t2 (en) | 3,939 | 1.3% vs coding-classes-for-kids-hannover | Online Python Classes in Mannheim: Live, in English | a live file is a photograph; stamp the time yourself, compare two photos, and check a new download is | 460cbc3d |
 | DE145 | coding-classes-for-kids-in-karlsruhe-germany (ckk, #611C2A) | city-t2 (en) | 3,907 | 2.1% vs online-python-classes-mannheim-germany | Coding Classes for Kids in Karlsruhe: Live Online, in English | a fair comparison needs a rate; the biggest count is often just the biggest place | 6e6056e4 |
-| DE146 | coding-and-ai-classes-in-muenster-germany (mue, #681247) | city-t2 (en) | 4,309 | 1.2% vs online-python-classes-bochum-germany | Coding and AI Classes in Münster, Live Online in English | compare like with like; a weekly rhythm makes "same weekday last week" a far stronger guess than | (this commit) |
+| DE146 | coding-and-ai-classes-in-muenster-germany (mue, #681247) | city-t2 (en) | 4,309 | 1.2% vs online-python-classes-bochum-germany | Coding and AI Classes in Münster, Live Online in English | compare like with like; a weekly rhythm makes "same weekday last week" a far stronger guess than | 090f013b |
+| DE147 | online-python-classes-augsburg-germany (pau, #396684) | city-t2 (en) | 3,737 | 2% vs online-python-classes-bochum-germany | Online Python Classes in Augsburg, Live in English | a date stored as text sorts as text; convert it to a real date before you compare | (this commit) |
 
 ## Notes
 

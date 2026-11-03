@@ -1109,6 +1109,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Online Python classes in Mannheim: https://learn.modernagecoders.com/online-python-classes-mannheim-germany
 - Coding classes for kids in Karlsruhe: https://learn.modernagecoders.com/coding-classes-for-kids-in-karlsruhe-germany
 - Coding and AI classes in Münster: https://learn.modernagecoders.com/coding-and-ai-classes-in-muenster-germany
+- Online Python classes in Augsburg: https://learn.modernagecoders.com/online-python-classes-augsburg-germany
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
