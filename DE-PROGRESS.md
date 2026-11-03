@@ -26,7 +26,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE031 | ai-course-for-school-students-germany (aic, #804728) | door-en (en) | 4,645 | 2% vs coding-for-international-school-students-germany | AI Course for School Students in Germany, Taught in English | the step size decides everything; too small crawls, too large explodes | 3b2be59c |
 | DE033 | roblox-coding-classes-germany (rco, #0A5F38) | door-en (en) | 4,008 | 2.4% vs ib-computer-science-tutor-germany | Roblox Coding Classes in Germany, Live in English | never trust the client; the server checks every request | 266ddaea |
 | DE034 | minecraft-coding-classes-germany (mco, #007162) | door-en (en) | 3,914 | 1.2% vs ib-computer-science-tutor-germany | Minecraft Coding for Kids in Germany, Live in English | check a result by computing it a second, independent way | ee78cd3d |
-| DE039 | online-coding-summer-camp-germany (csc, #5A4B75) | door-en (en) | 3,904 | 2.3% vs roblox-coding-classes-germany | Online Coding Summer Camp in Germany 2027, Live in English | a week is not seven days from any date; align to Mondays before you count | (this commit) |
+| DE039 | online-coding-summer-camp-germany (csc, #5A4B75) | door-en (en) | 3,904 | 2.3% vs roblox-coding-classes-germany | Online Coding Summer Camp in Germany 2027, Live in English | a week is not seven days from any date; align to Mondays before you count | 0afbe862 |
+| DE040 | online-coding-classes-europe (ceu, #873A02) | door-en (en) | 3,757 | 2.3% vs online-coding-summer-camp-germany | Online Coding Classes in Europe, Live and in English | convert through UTC; a local time can be missing or happen twice | (this commit) |
 
 ## Notes
 
