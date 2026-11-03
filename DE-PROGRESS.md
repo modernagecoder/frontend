@@ -133,7 +133,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE068 | app-entwickeln-lernen-jugendliche (ael, #60470A) | door-de (de) | 3,436 | 2.5% vs programmieren-lernen-erwachsene-online | App entwickeln lernen für Jugendliche: live auf Englisch | logic first, screen later; keep an app's rules in plain functions you can test without any button | 6da8173f |
 | DE064 | ki-kurs-fuer-schueler (kks, #034D73) | door-de (de) | 3,795 | 2.4% vs programmierkurs-jugendliche-online | KI-Kurs für Schüler: Modelle bauen statt chatten, auf Englisch | confidence is not correctness; check whether "90 percent sure" is right about 90 percent of the time | 4a2dfff5 |
 | DE119 | coding-classes-for-kids-frankfurt (cfr, #5B3649) | city-t1 (en) | 4,436 | 2.3% vs coding-classes-for-kids-stuttgart | Coding Classes for Kids in Frankfurt: Live Online, in English | a height needs its zero; subtract the ground before you compare | e67bf5ec |
-| DE120 | math-tutor-frankfurt-in-english (mtf, #007185) | city-t1 (en) | 4,603 | 1.8% vs math-tutor-munich-in-english | Maths Tutor in Frankfurt, in English: Klasse 1 to Abitur | area from corner coordinates, and squared units scale by the square of the factor | (this commit) |
+| DE120 | math-tutor-frankfurt-in-english (mtf, #007185) | city-t1 (en) | 4,603 | 1.8% vs math-tutor-munich-in-english | Maths Tutor in Frankfurt, in English: Klasse 1 to Abitur | area from corner coordinates, and squared units scale by the square of the factor | e2daf132 |
+| DE121 | coding-for-international-school-students-frankfurt (fra, #4A6398) | city-t1 (en) | 4,172 | 2.1% vs coding-for-international-school-students-stuttgart | Coding for International School Students in Frankfurt | normalise a key before you join, and count what the join drops | (this commit) |
 
 ## Notes
 
