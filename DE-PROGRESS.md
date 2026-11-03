@@ -51,7 +51,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE014 | online-coding-classes-for-kids-germany (cok, #59570D) | door-en (en) | 4,005 | 1.4% vs best-online-coding-classes-germany | Online Coding Classes for Kids in Germany: How Live Lessons Work | a moment is not a clock reading; convert from the moment and let the time-zone rules do the rest | 54e20805 |
 | DE029 | python-classes-for-kids-germany (pki, #604B83) | door-en (en) | 3,867 | 1.5% vs coding-classes-for-kids-berlin | Python Classes for Kids in Germany: Live Online, in English | clean the text before you compute; data written the German way needs translating for Python | 316c3cd1 |
 | DE032 | scratch-classes-for-kids-germany (ski, #5F4F00) | door-en (en) | 3,912 | 1.8% vs python-classes-for-kids-germany | Scratch Classes for Kids in Germany: Live Online, in English | states and transitions; write down every state and what moves you on before you build | a5335f5a |
-| DE035 | game-coding-classes-for-kids-germany (gck, #754349) | door-en (en) | 3,939 | 2.2% vs scratch-classes-for-kids-germany | Game Coding Classes for Kids in Germany, Live in English | simulate with random numbers, then check the simulation against exact maths | (this commit) |
+| DE035 | game-coding-classes-for-kids-germany (gck, #754349) | door-en (en) | 3,939 | 2.2% vs scratch-classes-for-kids-germany | Game Coding Classes for Kids in Germany, Live in English | simulate with random numbers, then check the simulation against exact maths | 02e2c9c2 |
+| DE030 | ai-course-for-kids-germany (ack, #543F75) | door-en (en) | 3,957 | 1.6% vs scratch-classes-for-kids-germany | AI Course for Kids in Germany: How Machines Learn, in English | a machine learns only from its examples; lopsided examples give lopsided answers | (this commit) |
 
 ## Notes
 
