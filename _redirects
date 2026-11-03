@@ -9202,4 +9202,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /informatik-pflichtfach-unterstuetzung /src/pages/informatik-pflichtfach-unterstuetzung.html 200
 /informatik-pflichtfach-unterstuetzung.md /src/pages/informatik-pflichtfach-unterstuetzung.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/mathe-nachhilfe-online-gymnasium /src/pages/mathe-nachhilfe-online-gymnasium.html 200
+/mathe-nachhilfe-online-gymnasium.md /src/pages/mathe-nachhilfe-online-gymnasium.md 200
 /* /src/pages/404.html 404
