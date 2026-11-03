@@ -9066,4 +9066,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /igcse-maths-tutor-germany /src/pages/igcse-maths-tutor-germany.html 200
 /igcse-maths-tutor-germany.md /src/pages/igcse-maths-tutor-germany.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/a-level-maths-tutor-online-germany /src/pages/a-level-maths-tutor-online-germany.html 200
+/a-level-maths-tutor-online-germany.md /src/pages/a-level-maths-tutor-online-germany.md 200
 /* /src/pages/404.html 404

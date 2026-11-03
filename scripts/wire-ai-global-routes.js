@@ -772,6 +772,7 @@ const SLUGS = [
   'online-math-tutor-germany',
   'english-speaking-tutor-germany',
   'igcse-maths-tutor-germany',
+  'a-level-maths-tutor-online-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1623,6 +1624,7 @@ const LLMS_LABELS = {
   'online-math-tutor-germany': 'Online maths tutor in Germany',
   'english-speaking-tutor-germany': 'English-speaking tutor in Germany',
   'igcse-maths-tutor-germany': 'IGCSE maths tutor in Germany',
+  'a-level-maths-tutor-online-germany': 'A level maths tutor online in Germany',
 };
 
 function wireLlms(slugs) {
