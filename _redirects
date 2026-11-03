@@ -9210,4 +9210,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /mathe-nachhilfe-online-realschule /src/pages/mathe-nachhilfe-online-realschule.html 200
 /mathe-nachhilfe-online-realschule.md /src/pages/mathe-nachhilfe-online-realschule.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/mathe-nachhilfe-online-oberstufe /src/pages/mathe-nachhilfe-online-oberstufe.html 200
+/mathe-nachhilfe-online-oberstufe.md /src/pages/mathe-nachhilfe-online-oberstufe.md 200
 /* /src/pages/404.html 404
