@@ -854,6 +854,7 @@ const SLUGS = [
   'coding-classes-in-thuringia',
   'programmieren-lernen-ab-12',
   'programmierkurs-jugendliche-online',
+  'programmieren-lernen-erwachsene-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1787,6 +1788,7 @@ const LLMS_LABELS = {
   'coding-classes-in-thuringia': 'Coding classes in Thuringia',
   'programmieren-lernen-ab-12': 'Programmieren lernen ab 12 (auf Englisch)',
   'programmierkurs-jugendliche-online': 'Programmierkurs für Jugendliche online (auf Englisch)',
+  'programmieren-lernen-erwachsene-online': 'Programmieren lernen für Erwachsene (auf Englisch)',
 };
 
 function wireLlms(slugs) {

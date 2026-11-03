@@ -126,7 +126,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE102 | coding-classes-in-saxony-anhalt (anc, #444967) | land (en) | 4,092 | 2% vs coding-classes-in-baden-wuerttemberg | Coding Classes in Saxony-Anhalt: Live Online in English | group the rows that belong together before you rank, then decide which rows count (aggregation and | e2891abe |
 | DE103 | coding-classes-in-thuringia (cth, #504663) | land (en) | 3,960 | 2.1% vs coding-classes-in-brandenburg | Coding Classes in Thuringia: Live Online in English | a name is not a key; use the unique identifier, or a dictionary silently overwrites rows | df4230cb |
 | DE056 | programmieren-lernen-ab-12 (ple, #425B8F) | door-de (de) | 3,922 | 2.5% vs informatik-abitur-vorbereitung | Programmieren lernen ab 12: live online auf Englisch | halve what is left; a good guessing strategy needs at most seven questions for 1 to 100 (binary search) | 820db7cc |
-| DE057 | programmierkurs-jugendliche-online (pju, #7B476F) | door-de (de) | 3,598 | 2.1% vs mathe-nachhilfe-auf-englisch | Programmierkurs für Jugendliche online, live auf Englisch | a stop condition with != can be jumped over; stop with a comparison and make sure every step moves towards it | (this commit) |
+| DE057 | programmierkurs-jugendliche-online (pju, #7B476F) | door-de (de) | 3,598 | 2.1% vs mathe-nachhilfe-auf-englisch | Programmierkurs für Jugendliche online, live auf Englisch | a stop condition with != can be jumped over; stop with a comparison and make sure every step moves towards it | b4c9e605 |
+| DE058 | programmieren-lernen-erwachsene-online (prl, #844D16) | door-de (de) | 3,436 | 2.4% vs programmierkurs-jugendliche-online | Programmieren lernen als Erwachsener: live online auf Englisch | dry run before you change anything; print the plan, check it, then let the script act | (this commit) |
 
 ## Notes
 
