@@ -740,6 +740,7 @@ const SLUGS = [
   'abitur-maths-in-english',
   'coding-classes-in-germany',
   'informatik-in-german-schools-by-state',
+  'abitur-vs-ib-vs-a-levels-maths',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1559,6 +1560,7 @@ const LLMS_LABELS = {
   'abitur-maths-in-english': 'Abitur maths in English',
   'coding-classes-in-germany': 'Coding classes in Germany',
   'informatik-in-german-schools-by-state': 'Informatik in German schools by state',
+  'abitur-vs-ib-vs-a-levels-maths': 'Abitur vs IB vs A levels maths',
 };
 
 function wireLlms(slugs) {

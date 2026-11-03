@@ -12,7 +12,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | P1-3 | abitur-maths-in-english (abm, #2B4A6F) | pillar (EN) | 3,611 | 5.2% vs coding-classes-for-kids-berlin | IQB pool structure, marks, NRW 2027 dates, operators | answer the operator | f54e2c36 |
 | DE001 | coding-classes-in-germany (gmy, #3D5A3A) | country hub (EN) | 4,476 | 3.2% vs coding-classes-for-kids-berlin | KMK school stages, 2026/27 contests, summer holidays 2027 | is the last day in or out | a56448ae |
 | DE002 | ai-and-machine-learning-classes-in-germany (dki, #5B3A68) | AI door (EN) | 4,070 | 3% vs coding-classes-in-germany | KMK AI frame, BWKI, tool ages, Bochum weather model | beat the baseline, test on unseen data | 0d9bd24a |
-| DE004 | informatik-in-german-schools-by-state (isb, #784617) | pillar (en) | 4,075 | 1.7% vs coding-classes-in-germany | Is Computer Science Compulsory in German Schools? By State | a guarantee "for all" is the minimum across groups, not the maximum | (this commit) |
+| DE004 | informatik-in-german-schools-by-state (isb, #784617) | pillar (en) | 4,075 | 1.7% vs coding-classes-in-germany | Is Computer Science Compulsory in German Schools? By State | a guarantee "for all" is the minimum across groups, not the maximum | b23421d5 |
+| DE007 | abitur-vs-ib-vs-a-levels-maths (aib, #026256) | pillar (en) | 3,983 | 1.7% vs informatik-in-german-schools-by-state | Abitur vs IB vs A Levels: Maths Compared for Germany | apply a published formula, then test it at its endpoints | (this commit) |
 
 ## Notes
 

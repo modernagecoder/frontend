@@ -971,6 +971,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Informatik-Nachhilfe online (auf Englisch): https://learn.modernagecoders.com/informatik-nachhilfe-online
 - Abitur maths in English: https://learn.modernagecoders.com/abitur-maths-in-english
 - Informatik in German schools by state: https://learn.modernagecoders.com/informatik-in-german-schools-by-state
+- Abitur vs IB vs A levels maths: https://learn.modernagecoders.com/abitur-vs-ib-vs-a-levels-maths
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
