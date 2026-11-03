@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Informatik-Abitur Hessen 2027: Java oder Python, Termine, Übung</title>
+  <meta name="description" content="Landesabitur Hessen 2027, Informatik: Aufgabe A in Java oder Python, Grundkurs 15. April, Leistungskurs 19. April 2027. Dazu eine SQL-Übung, Unterricht auf Englisch.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/informatik-abitur-hessen">
+  <link rel="alternate" type="text/markdown" href="/src/pages/informatik-abitur-hessen.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#74301E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/informatik-abitur-hessen">
+  <meta property="og:title" content="Informatik-Abitur Hessen 2027: Java oder Python, Termine, Übung">
+  <meta property="og:description" content="Wie das Landesabitur 2027 in Hessen im Fach Informatik aufgebaut ist: Sprachvarianten, Bewertungseinheiten, Themen des Kerncurriculums, Termine und eine eigene Übung zur Projektion in SQL.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="de_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Informatik-Abitur Hessen 2027: Java oder Python, Termine, Übung">
+  <meta name="twitter:description" content="Informatik-Abitur Hessen 2027: Java oder Python, Aufbau, Termine und eine gelöste Übung zur Relationenalgebra.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-iah .ag-hero h1 { letter-spacing: -0.013em; }
+.ag-root.ag-iah .ag-capsule { border-left-width: 6px; }
+.ag-root.ag-iah .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-iah .ag-table td:nth-child(2) { white-space: normal; }
+.ag-root.ag-iah .ag-code-head b { letter-spacing: 0.015em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/informatik-abitur-hessen#page","url":"https://learn.modernagecoders.com/informatik-abitur-hessen","name":"Informatik-Abitur Hessen","description":"Hessisches Landesabitur 2027 im Fach Informatik, erklärt für Familien: Aufgabenstruktur, Sprachvarianten und Termine laut Abiturerlass vom 2. Juli 2025, Belegungsregeln laut GI-Monitor und eine selbst geschriebene Übung zu Projektion und SQL.","inLanguage":"de-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Kurse","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Informatik-Abitur Hessen","item":"https://learn.modernagecoders.com/informatik-abitur-hessen"}]},{"@type":"Course","name":"Informatik-Abitur Hessen","description":"Unterricht für die hessische Oberstufe, live und nur auf Englisch: Klassen und Objekte in Java oder Python, Suchen und Sortieren, Rekursion, ER-Modell, SQL und Relationenalgebra, Grammatiken, Automaten und Registermaschine, als Gruppe oder einzeln.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/informatik-abitur-hessen"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/informatik-abitur-hessen"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/informatik-abitur-hessen"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Findet der Unterricht auf Deutsch statt?","acceptedAnswer":{"@type":"Answer","text":"Nein. Unsere Stunden sind live und werden nur auf Englisch gehalten. Gerade hier zahlt sich das aus, denn Ihr Kind trainiert Programmieren und Englisch zugleich; SELECT, class und return kennt es ohnehin. Tempo und Aussprache stimmt der Mentor auf Ihr Kind ab."}},{"@type":"Question","name":"Wird das Informatik-Abitur in Hessen in Java oder in Python geschrieben?","acceptedAnswer":{"@type":"Answer","text":"In beiden. Laut Abiturerlass 2027 gibt es die Pflichtaufgabe A in den Sprachvarianten Java und Python, und jeder Prüfling erhält die Variante, die im Unterricht benutzt wurde."}},{"@type":"Question","name":"Wann ist das Informatik-Abitur 2027 in Hessen?","acceptedAnswer":{"@type":"Answer","text":"Im Grundkurs am Donnerstag, 15. April 2027, im Leistungskurs am Montag, 19. April 2027. Die Nachprüfungen liegen zwischen dem 18. Mai und dem 3. Juni 2027."}},{"@type":"Question","name":"Wie lange dauert die Prüfung?","acceptedAnswer":{"@type":"Answer","text":"Laut Erlass 255 Minuten im Grundkursfach und 300 Minuten im Leistungsfach. Die Auswahlzeit ist darin enthalten."}},{"@type":"Question","name":"Welche Hilfsmittel sind erlaubt?","acceptedAnswer":{"@type":"Answer","text":"Ein Wörterbuch der deutschen Rechtschreibung, das den Aufgaben beigefügte Glossar und eine Liste der fachspezifischen Operatoren. Aufgaben mit PC-Nutzung werden nicht bereitgestellt."}},{"@type":"Question","name":"Ist Informatik in Hessen Pflichtfach?","acceptedAnswer":{"@type":"Answer","text":"Nein. Laut Informatik-Monitor 2026/27 findet in Hessen schulartübergreifend kein verbindlicher Informatikunterricht statt, und verbindliche Pläne für ein Pflichtfach sind nicht bekannt. In der Einführungsphase sind keine Vorkenntnisse nötig."}},{"@type":"Question","name":"Wie viele Bewertungseinheiten gibt es?","acceptedAnswer":{"@type":"Answer","text":"Im Grundkurs höchstens 90 (Aufgabe A 50, Wahlaufgabe B 40), im Leistungskurs höchstens 120 (drei Aufgaben zu je 40)."}},{"@type":"Question","name":"Wann finden die Stunden statt?","acceptedAnswer":{"@type":"Answer","text":"Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. 17:15 Uhr in Frankfurt ist im Winter 21:45 Uhr in Indien."}},{"@type":"Question","name":"In welcher Währung bezahle ich?","acceptedAnswer":{"@type":"Answer","text":"Abgerechnet wird monatlich in US-Dollar. Zur Orientierung steht hier ein Euro-Betrag, berechnet mit dem Referenzkurs der Europäischen Zentralbank, und Ihre Bank übernimmt den Währungswechsel. Für die erste Stunde fällt nichts an."}},{"@type":"Question","name":"Sind Sie mit dem Kultusministerium verbunden?","acceptedAnswer":{"@type":"Answer","text":"Nein. Wir unterrichten neben der Schule, vergeben keine Noten und versprechen kein Ergebnis. Maßgeblich sind Schule, Erlass und Prüfung."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/informatik-abitur-hessen","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-iah">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Deutschland</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Deutschland</a></li>
+      <li><a href="#aufbau">Aufbau</a></li>
+      <li><a href="#termine">Termine</a></li>
+      <li><a href="#uebung">Übung</a></li>
+      <li><a href="#zeiten">Zeiten</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Probestunde</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Startseite</a> / <a href="/courses">Kurse</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Informatik-Abitur Hessen
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Hessen &middot; Landesabitur 2027 &middot; Informatik</p>
+        <h1>Informatik-Abitur Hessen: Vorbereitung live auf Englisch</h1>
+        <p class="ag-lede">Hessen stellt die Pflichtaufgabe im Informatik-Abitur in zwei Fassungen: in Java und in Python, jeweils in der Sprache, die im Kurs verwendet wurde. Gleichzeitig gibt es vor der Oberstufe kein Pflichtfach Informatik, viele beginnen also spät. Hier finden Sie den Aufbau der Prüfung nach dem Abiturerlass 2027, die Termine, die Themen und eine eigene Übung zur Relationenalgebra mit Lösung.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Kostenlose Probestunde buchen</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Priority Demo buchen</a>
+          <a href="#aufbau" class="ag-btn ag-btn--ghost">Aufbau der Prüfung</a>
+          <a href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20unser%20Kind%20hat%20Informatik%20im%20hessischen%20Landesabitur%202027.%20K%C3%B6nnen%20wir%20eine%20Probestunde%20auf%20Englisch%20ausprobieren%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'iah'});">Per WhatsApp fragen</a>
+        </div>
+        <p class="ag-hero-note">Seit 2020 live online &middot; mehr als 10.000 Lernende weltweit &middot; Java und Python auf Englisch erklärt</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">Auf einen Blick</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4,9 von 5 bei 547 Google-Bewertungen
+        </p>
+        <dl>
+          <dt>Unterrichtssprache</dt><dd>Live-Unterricht ausschließlich auf Englisch, im eigenen Tempo; die Mentoren sprechen deutlich und stellen sich auf Tempo und Akzent der Lernenden ein</dd>
+          <dt>Für</dt><dd>E-Phase sowie Q1 bis Q4 in Hessen</dd>
+          <dt>Sprachen</dt><dd>Java oder Python, dazu SQL</dd>
+          <dt>Form</dt><dd>Gruppe von 15 bis 20 oder einzeln</dd>
+          <dt>Übung</dt><dd>handschriftlich, ohne PC</dd>
+          <dt>Mentor</dt><dd>derselbe, live aus Indien</dd>
+          <dt>Beginn</dt><dd>mit kostenloser Probestunde</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Kurz gesagt</p>
+      <p>Im hessischen Landesabitur 2027 gibt es die Pflichtaufgabe A in Informatik auf Java oder Python, je nach Unterrichtssprache; geschrieben wird ohne PC, im Grundkurs am 15. April 2027 und im Leistungskurs am 19. April 2027. Modern Age Coders bereitet live online darauf vor, auf Englisch, im Kurs Informatik Oberstufe und Abitur, als Gruppe oder einzeln, mit festem Mentor und angepasstem Tempo.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Passende Kurse</p>
+      <h2>Drei Kurse für das hessische Abitur</h2>
+      <p class="ag-lede">Der Abiturkurs arbeitet in Java oder Python, wie im Kurs Ihres Kindes. Dazu kommen ein Python-Kurs für alle, die erst in der Oberstufe mit Programmieren beginnen, und ein Datenbankkurs für den großen SQL-Anteil.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/informatik-abitur-course-java-python">
+        <div class="ag-pick-shot"><img src="/images/informatik-abitur-java-python.webp" alt="Kursbild Informatik Oberstufe und Abitur mit Java und Python" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HE / 01</p>
+          <h3>Informatik Oberstufe und Abitur</h3>
+          <p>E-Phase bis Q4. Objektorientierung, Algorithmen, Datenbanken und theoretische Informatik, auf Papier geübt.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Kursbild Python für Jugendliche" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HE / 02</p>
+          <h3>Python für Jugendliche</h3>
+          <p>Ab 13. Für den späten Einstieg: von der ersten Variable bis zu Klassen und Listen, ohne Vorkenntnisse.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/mysql-mastery-for-teens">
+        <div class="ag-pick-shot"><img src="/images/mysql-teens.webp" alt="Kursbild SQL und Datenbanken für Jugendliche" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HE / 03</p>
+          <h3>SQL und Datenbanken für Jugendliche</h3>
+          <p>Ab 13. Tabellen entwerfen, verknüpfen, gruppieren, mit vielen kleinen Abfragen.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="aufbau">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Landesabitur 2027</p><h2>Wie ist das Informatik-Abitur in Hessen aufgebaut?</h2><p class="ag-lede">Der Abiturerlass vom 2. Juli 2025 regelt für jedes Fach Kursart, Aufgabenstruktur, Themen und Hilfsmittel. Für Informatik ergibt sich daraus folgendes Bild.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Informatik im hessischen Landesabitur 2027</caption><thead><tr><th scope="col">Punkt</th><th scope="col">Grundkurs</th><th scope="col">Leistungskurs</th></tr></thead><tbody><tr><td>Pflichtaufgabe A</td><td>Algorithmik und objektorientierte Modellierung, 50 BE</td><td>Algorithmik und objektorientierte Modellierung, 40 BE</td></tr><tr><td>Sprachvariante von A</td><td>Java oder Python, wie im Unterricht</td><td>Java oder Python, wie im Unterricht</td></tr><tr><td>Weitere Aufgaben</td><td>Wahl zwischen B1 und B2 (Datenbanken oder theoretische Informatik), 40 BE</td><td>Pflichtaufgabe B (Datenbanken oder theoretische Informatik) und Wahl zwischen C1 und C2 zum anderen Thema, je 40 BE</td></tr><tr><td>Bewertungseinheiten gesamt</td><td>90</td><td>120</td></tr><tr><td>Bearbeitungszeit inklusive Auswahl</td><td>255 Minuten</td><td>300 Minuten</td></tr><tr><td>Hilfsmittel</td><td>Rechtschreibwörterbuch, beigefügtes Glossar, Operatorenliste</td><td>Rechtschreibwörterbuch, beigefügtes Glossar, Operatorenliste</td></tr><tr><td>Aufgaben mit PC</td><td>werden nicht bereitgestellt</td><td>werden nicht bereitgestellt</td></tr><tr><td>Grundlage</td><td>KCGO Informatik, Ausgabe 2024</td><td>KCGO Informatik, Ausgabe 2024</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Unsere Zusammenfassung aus dem Abiturerlass zum Landesabitur 2027 des Hessischen Ministeriums für Kultus, Bildung und Chancen (Erlass vom 2. Juli 2025): Abschnitt 2.4 zur Bearbeitungszeit, Anlage zu den erlaubten Hilfsmitteln, Auswahlmodus und Abschnitt 27 Informatik. Gelesen am 3. November 2026.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Was die Sprachvarianten bedeuten</h3><p>Die Pflichtaufgabe A wird laut Erlass in den beiden Sprachvarianten Java und Python angeboten. Jeder Prüfling bekommt die Fassung, die im Unterricht benutzt wurde. Es gibt also keine Wahl am Prüfungstag, aber auch keinen Nachteil für Kurse, die mit Python arbeiten.</p>
+<p>Für die Vorbereitung heißt das: Geübt wird in genau der Sprache des eigenen Kurses. Wir fragen deshalb in der ersten Stunde, mit welcher Sprache die Schule arbeitet.</p></div><div><h3>Ohne Rechner, mit Glossar</h3><p>Nach dem Erlass werden keine Aufgabenvorschläge mit PC-Nutzung bereitgestellt, und der Informatik-Monitor 2026/27 hält fest, dass praktische Prüfungsanteile am Rechner in Hessen nicht zulässig sind.</p>
+<p>Den Aufgaben liegt ein Glossar bei, dazu kommt eine Liste der fachspezifischen Operatoren. Wer die Operatoren wie erläutern, implementieren oder beurteilen sicher unterscheidet, schreibt gezieltere Antworten.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="themen">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Themen nach KCGO</p><h2>Welche Themen kommen im hessischen Informatik-Abitur 2027 vor?</h2><p class="ag-lede">Der Erlass nennt die Themenfelder des Kerncurriculums, auf die sich die Aufgaben 2027 schwerpunktmäßig beziehen. Der Leistungskurs hat ein Themenfeld mehr.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Schwerpunkte der Prüfungsaufgaben 2027 nach Themenfeldern des KCGO</caption><thead><tr><th scope="col">Themenfeld</th><th scope="col">Grundkurs</th><th scope="col">Leistungskurs</th></tr></thead><tbody><tr><td>Q1.1 Klassen und Objekte</td><td>ja</td><td>ja</td></tr><tr><td>Q1.2 Such- und Sortieralgorithmen</td><td>ja</td><td>ja</td></tr><tr><td>Q1.3 Rekursion</td><td>ja</td><td>ja</td></tr><tr><td>Q1.4 Höhere Datenstrukturen und ihre objektorientierte Modellierung</td><td>nein</td><td>ja</td></tr><tr><td>Q2.1 ER- und Relationenmodell</td><td>ja</td><td>ja</td></tr><tr><td>Q2.2 SQL</td><td>ja</td><td>ja</td></tr><tr><td>Q2.5 Relationenalgebra</td><td>ja</td><td>ja</td></tr><tr><td>Q3.1 Formale Sprachen und Grammatiken</td><td>ja</td><td>ja</td></tr><tr><td>Q3.2 Endliche Automaten</td><td>ja</td><td>ja</td></tr><tr><td>Q3.5 Registermaschine</td><td>ja</td><td>ja</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quelle: Abiturerlass zum Landesabitur 2027, Abschnitt 27.3 Hinweise zum Prüfungsinhalt (Grundlage: KCGO Informatik, Ausgabe 2024). Die Ja-und-Nein-Darstellung ist unsere; der Erlass listet die Themenfelder je Kursart.</p>
+    <p class="ag-mt-40">Auffällig ist die Breite im Datenbankteil: ER-Modell, SQL und Relationenalgebra stehen nebeneinander. Viele lernen SQL, ohne den Bezug zur Relationenalgebra zu sehen, obwohl genau dieser Vergleich typische Fehler erklärt. Unsere Übung weiter unten greift das auf. Ebenso eigen ist die Registermaschine, ein sehr einfaches Rechnermodell, an dem man Programme Befehl für Befehl verfolgt.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Später Start ist normal</h3><p>In Hessen findet laut Informatik-Monitor schulartübergreifend kein verbindlicher Informatikunterricht statt. Am Gymnasium kann Informatik ab Jahrgangsstufe 7 einstündig als Wahlunterricht angeboten werden.</p>
+<p>Für die Einführungsphase sind laut Monitor keine Vorkenntnisse aus der Sekundarstufe I nötig; Informatik kann dort zwei- bis dreistündig angeboten werden. Der Schulversuch Digitale Welt läuft ab 2026/27 nur noch im Ganztag.</p></div><div><h3>Grund- und Leistungskurs</h3><p>In der Qualifikationsphase können Schulen einen Grundkurs mit zwei oder drei Wochenstunden anbieten, dazu den Leistungskurs mit fünf. Im Leistungsfach wird schriftlich geprüft.</p>
+<p>Ein durchgängig belegter Grundkurs kann drittes Prüfungsfach (schriftlich), viertes (mündlich) oder fünftes Prüfungsfach (Präsentation, besondere Lernleistung oder mündlich) sein. Im Schuljahr 2024/2025 hatten 10 Prozent der Lernenden in der Sekundarstufe II Informatik belegt, 5 Prozent der Abiturientinnen und Abiturienten hatten es als Prüfungsfach.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="termine">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Prüfungstage</p><h2>Wann ist das Informatik-Abitur 2027 in Hessen?</h2><p class="ag-lede">Grundkurs und Leistungskurs schreiben an verschiedenen Tagen. Beide Termine liegen ganz am Anfang des Prüfungszeitraums.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Termine Landesabitur 2027, soweit sie Informatik betreffen</caption><thead><tr><th scope="col">Datum</th><th scope="col">Was</th></tr></thead><tbody><tr><td>19. März 2027</td><td>Ende der Kursphase Q4</td></tr><tr><td>Donnerstag, 15. April 2027</td><td>Informatik im Grundkurs; zugleich Beginn der schriftlichen Prüfungen</td></tr><tr><td>Montag, 19. April 2027</td><td>Informatik im Leistungskurs</td></tr><tr><td>5. Mai 2027</td><td>Ende der schriftlichen Prüfungen (Mathematik)</td></tr><tr><td>18. Mai bis 3. Juni 2027</td><td>Zeitraum der Nachprüfungen</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quelle: Abiturerlass zum Landesabitur 2027, Abschnitt II.1 Prüfungszeitraum und Tabelle 2.1 Prüfungsabfolge für den Haupttermin, gegen die gedruckte Tabelle geprüft am 3. November 2026.</p>
+    <p class="ag-mt-40">Wer Informatik als Leistungskurs hat, schreibt am Montag nach der ersten Prüfungswoche, vor Physik, Chemie, Deutsch, Englisch und Mathematik. Die Zeit nach dem Ende der Q4 am 19. März 2027 bis zum 19. April 2027 ist daher die wichtigste Wiederholungsphase, und die Osterferien liegen mittendrin. Im Grundkurs ist Informatik sogar der allererste schriftliche Termin.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="uebung">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Eine Übungsaufgabe von uns</p><h2>Warum liefert SQL mehr Zeilen als die Relationenalgebra?</h2><p class="ag-lede">Relationenalgebra und SQL stehen in Hessen nebeneinander im Prüfungsstoff. Die folgende Aufgabe ist unsere eigene, keine echte Prüfungsaufgabe; Namen und Daten sind erfunden.</p></div>
+    <p><strong>Aufgabe (unsere).</strong> In der Schulbücherei werden Ausleihen als Paare (Name, Genre) erfasst: (Mara, Krimi), (Mara, Comic), (Jonas, Krimi), (Lea, Sachbuch), (Jonas, Krimi), (Lea, Comic). a) Geben Sie das Ergebnis der Projektion auf das Attribut Genre an. b) Wie viele Zeilen liefert <code>SELECT genre FROM ausleihe</code>, und wie viele mit <code>DISTINCT</code>? c) Erklären Sie den Unterschied und was er für die Erfassung bedeutet.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Lösung zu a) und b) (unsere)</caption><thead><tr><th scope="col">Ausdruck</th><th scope="col">Anzahl</th><th scope="col">Ergebnis</th></tr></thead><tbody><tr><td>Projektion auf Genre (Relationenalgebra)</td><td class="ag-num">3</td><td>Comic, Krimi, Sachbuch</td></tr><tr><td>SELECT genre FROM ausleihe</td><td class="ag-num">6</td><td>Krimi, Comic, Krimi, Sachbuch, Krimi, Comic</td></tr><tr><td>SELECT DISTINCT genre FROM ausleihe</td><td class="ag-num">3</td><td>Comic, Krimi, Sachbuch (sortiert)</td></tr></tbody></table></div>
+    <p class="ag-mt-40"><strong>Zu c).</strong> Eine Relation ist eine Menge von Tupeln. Mengen enthalten kein Element doppelt, deshalb liefert die Projektion jedes Genre nur einmal. SQL arbeitet dagegen mit Tabellen, in denen Zeilen mehrfach vorkommen dürfen; erst <code>DISTINCT</code> entfernt Duplikate. Es gibt noch eine zweite, feinere Beobachtung: Das Paar (Jonas, Krimi) steht zweimal in der Liste. Als Relation aufgefasst wären das nur fünf verschiedene Tupel, nicht sechs. Für eine Bücherei, die jede Ausleihe zählen will, fehlt also ein Attribut, zum Beispiel ein Datum oder eine Ausleihnummer als Primärschlüssel.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>projektion.py: Menge gegen Tabelle</b><span>Python</span></figcaption><pre>import sqlite3
+
+ausleihe = [
+    ("Mara", "Krimi"), ("Mara", "Comic"), ("Jonas", "Krimi"),
+    ("Lea", "Sachbuch"), ("Jonas", "Krimi"), ("Lea", "Comic"),
+]
+
+# Projektion in der Relationenalgebra: Ergebnis ist eine Menge
+projektion = {genre for name, genre in ausleihe}
+print("Relationenalgebra:", sorted(projektion), len(projektion))
+print("Tupel als Menge:", len(set(ausleihe)), "statt", len(ausleihe))
+
+db = sqlite3.connect(":memory:")
+db.execute("CREATE TABLE ausleihe (name TEXT, genre TEXT)")
+db.executemany("INSERT INTO ausleihe VALUES (?, ?)", ausleihe)
+ohne = db.execute("SELECT genre FROM ausleihe").fetchall()
+mit = db.execute("SELECT DISTINCT genre FROM ausleihe ORDER BY genre").fetchall()
+print("SQL ohne DISTINCT:", len(ohne), "Zeilen")
+print("SQL mit DISTINCT:", [z[0] for z in mit], len(mit))</pre><p class="ag-code-note">Ausgabe, von uns ausgeführt: <code>Relationenalgebra: ['Comic', 'Krimi', 'Sachbuch'] 3</code>, <code>Tupel als Menge: 5 statt 6</code>, <code>SQL ohne DISTINCT: 6 Zeilen</code>, <code>SQL mit DISTINCT: ['Comic', 'Krimi', 'Sachbuch'] 3</code>.</p></figure>
+    <p class="ag-mt-40">Python bildet die Projektion mit einer Menge nach, die SQL-Abfragen laufen in einer kleinen SQLite-Datenbank im Arbeitsspeicher. In der Prüfung schreiben Sie beides von Hand. Den Code nutzen wir in der Vorbereitung nur, um eine Lösung hinterher zu überprüfen.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Erst die Anzahl schätzen.</strong> Sagen Sie vor jeder Abfrage voraus, wie viele Zeilen herauskommen. Weicht das Ergebnis ab, haben Sie etwas über die Daten gelernt.</li><li><strong>Menge oder Tabelle?</strong> Fragen Sie bei jeder Lösung, ob Sie in Relationenalgebra (ohne Duplikate) oder in SQL (mit Duplikaten) denken.</li><li><strong>Doppelte Zeilen sind ein Hinweis.</strong> Zwei gleiche Datensätze deuten oft auf einen fehlenden Schlüssel hin. Das ist genau der Übergang zum ER-Modell.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="englisch">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unterricht auf Englisch</p><h2>Wie passt Englisch zu einer hessischen Abiturprüfung?</h2><p class="ag-lede">Wir unterrichten ausschließlich auf Englisch, das Abitur ist auf Deutsch. Bei Java, Python und SQL fällt das kaum auf: SELECT, class, return und while sind englische Wörter.</p></div>
+    <div class="ag-grid-3"><div><h3>Operatoren auf Deutsch</h3><p>Die Operatorenliste ist deutsch. Wir üben, was "erläutern", "implementieren" oder "beurteilen" jeweils verlangt, und antworten in der Stunde trotzdem auf Englisch.</p></div><div><h3>Java oder Python</h3><p>Der Mentor unterrichtet in der Sprachvariante Ihres Kurses. Wer mit Python arbeitet, übt mit Python, wer mit Java arbeitet, mit Java.</p></div><div><h3>Im passenden Tempo</h3><p>Unterrichtet wird live aus Indien. Der Mentor spricht ruhig, erklärt Begriffe ein zweites Mal mit anderen Worten und gibt Zeit zum Nachdenken.</p></div></div>
+    <ol class="ag-steps ag-mt-40"><li><strong>Sprache und Stand klären.</strong> In der ersten Stunde: Java oder Python, Grund- oder Leistungskurs, welches Halbjahr.</li><li><strong>Themenfelder planen.</strong> Die Liste des Erlasses wird auf die Wochen bis April 2027 verteilt, mit Puffer für Q3 und Q4.</li><li><strong>Aufgabe A trainieren.</strong> Algorithmik und objektorientierte Modellierung sind Pflicht für alle. Hier liegt der größte Teil der Übung.</li><li><strong>Wahl üben.</strong> Datenbanken oder theoretische Informatik: Wir üben beide und auch die Entscheidung, welche Wahlaufgabe man nimmt.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="zeiten">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unterrichtszeiten</p><h2>Wann können wir unterrichten?</h2><p class="ag-lede">Die Uhrzeit richtet sich nach dem Stundenplan in Hessen. So sehen drei Beispiele hier und beim Mentor aus:</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Hessen und Indien im Vergleich</caption><thead><tr><th scope="col">Uhrzeit in Hessen</th><th scope="col">Indien im Winter</th><th scope="col">Indien ab 28. März 2027</th></tr></thead><tbody><tr><td>13:00</td><td>17:30</td><td>16:30</td></tr><tr><td>17:15</td><td>21:45</td><td>20:45</td></tr><tr><td>Sonntag 09:00</td><td>13:30</td><td>12:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Das Einheiten- und Zeitgesetz bestimmt die gesetzliche Zeit: MEZ (UTC+1), in der Sommerzeit MESZ (UTC+2). Am 25. Oktober 2026 endete die Sommerzeit, am 28. März 2027 beginnt sie neu. Indien rechnet ganzjährig mit UTC+5:30 und ist daher im Winter 4 Stunden 30 Minuten, im Sommer 3 Stunden 30 Minuten voraus. Nur Beispiele, keine festen Gruppenzeiten.</p>
+    <p class="ag-mt-40">Zwischen dem 19. März und dem 19. April 2027 möchten viele Familien zusätzliche Einzelstunden. Bei der Buchung sehen Sie die Zeiten in Ihrer eigenen Zeitzone.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fortschritt</p>
+      <h2>Woran Sie erkennen, wie weit die Vorbereitung ist</h2>
+      <p class="ag-lede">Unsere eigene Einteilung, abgestimmt auf die Themenfelder des Erlasses. Keine Noten, keine Prognose.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Fünf Stufen bis zum Landesabitur (unsere Einteilung)</caption><thead><tr><th scope="col">Stufe</th><th scope="col">Etwa wann</th><th scope="col">Ihr Kind kann</th></tr></thead><tbody><tr><td>1. Klassen entwerfen</td><td class="ag-num">E-Phase</td><td class="ag-num">Klassen mit Attributen und Methoden in Java oder Python schreiben</td></tr><tr><td>2. Suchen, Sortieren, Rekursion</td><td class="ag-num">Q1</td><td class="ag-num">Algorithmen von Hand ausführen und ihren Aufwand vergleichen</td></tr><tr><td>3. Datenbanken</td><td class="ag-num">Q2</td><td class="ag-num">ein ER-Modell in Tabellen übersetzen, SQL schreiben, Relationenalgebra lesen</td></tr><tr><td>4. Theorie</td><td class="ag-num">Q3</td><td class="ag-num">Grammatiken, Automaten und Registermaschinenprogramme verfolgen</td></tr><tr><td>5. Prüfungsreif</td><td class="ag-num">vor April 2027</td><td class="ag-num">Aufgabe A und eine Wahlaufgabe in der vorgesehenen Zeit sicher lösen</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Für Eltern</h3><p>Einmal im Monat erhalten Sie eine kurze Rückmeldung zu Stufe und nächsten Zielen.</p>
+<p>Wer in der E-Phase ohne Vorwissen startet, braucht in Stufe 1 meist am längsten. Danach geht es oft schneller.</p></div><div><h3>Hinweise für Prüflinge</h3><p>Sagen Sie vor jeder SQL-Abfrage die Zeilenzahl voraus.</p>
+<p>Lesen Sie den Operator zuerst. "Implementieren" verlangt Code, "erläutern" einen Text.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weitere Kurse</p>
+      <h2>Neun weitere Kurse neben dem Abitur</h2>
+      <p class="ag-lede">Für späte Einsteiger, für Vertiefung oder als Ausblick aufs Studium. Alle im selben Live-Format.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Programmieren</h3>
+        <span class="ag-band-sub">13 bis 19 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HE / CODE / 01</p>
+          <h4>Java für Jugendliche</h4>
+          <p>Objektorientierung ohne Vorwissen.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HE / CODE / 02</p>
+          <h4>Algorithmen und Datenstrukturen</h4>
+          <p>Suchen, Sortieren, Rekursion vertieft.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HE / CODE / 03</p>
+          <h4>Wettbewerbsprogrammierung</h4>
+          <p>Für alle, die mehr wollen.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Daten und Systeme</h3>
+        <span class="ag-band-sub">13 bis 19 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HE / DATA / 01</p>
+          <h4>Data Science</h4>
+          <p>Daten mit Python untersuchen.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HE / DATA / 02</p>
+          <h4>IT-Sicherheit</h4>
+          <p>Wie Systeme geschützt werden.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HE / DATA / 03</p>
+          <h4>KI und maschinelles Lernen</h4>
+          <p>Lernende Modelle von innen.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Mathematik</h3>
+        <span class="ag-band-sub">15 bis 19 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HE / MATHE / 01</p>
+          <h4>Abitur-Mathematik</h4>
+          <p>Vorbereitung auf das Mathe-Abitur.</p>
+          <a class="ag-course-link" href="/courses/abitur-mathematics-course-in-english">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HE / MATHE / 02</p>
+          <h4>Stochastik</h4>
+          <p>Zufall und Statistik verstehen.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HE / MATHE / 03</p>
+          <h4>Mathematik mit Code</h4>
+          <p>Mathe in Python nachrechnen.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Ablauf</p>
+      <h2>So läuft die Vorbereitung</h2>
+      <p class="ag-lede">Wöchentlich zwei Live-Einheiten, jede etwa eine Stunde, immer mit Ihrem Mentor. Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Mittag oder später Nachmittag</p><p class="ag-slot-l">Passend zum hessischen Schultag.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Sonntag</p><p class="ag-slot-l">Am Vormittag, für ruhige Übung.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Einzeln</p><p class="ag-slot-l">Nach dem Ende der Q4 bis zum Prüfungstag.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Fester Mentor</h3><p>Kennt Sprache, Kursart und Lücken.</p></div>
+      <div><h3>Nach Erlass</h3><p>Die Themenfelder 2027 sind der Plan.</p></div>
+      <div><h3>Ohne PC üben</h3><p>Lösungen zuerst handschriftlich.</p></div>
+      <div><h3>Klares Englisch</h3><p>Begriffe zusätzlich auf Deutsch.</p></div>
+      <div><h3>Monatlicher Stand</h3><p>Kurz und konkret für Eltern.</p></div>
+      <div><h3>Gruppe oder einzeln</h3><p>Fünfzehn bis zwanzig oder allein.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Projekte unserer Lernenden</p>
+      <h2>Projekte von Lernenden</h2>
+      <p class="ag-lede">Was Lernende neben der Schule programmieren, zeigen die Karten unten. Mehr auf <a class="ag-inline-link" href="/student-labs">Student labs</a> (englischsprachig).</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Screenshot des Projekts NutriLife, ein KI-Ernährungscoach" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>NutriLife</h4>
+          <p>Ein KI-Ernährungscoach, der Mahlzeiten auswertet und Schritt für Schritt auf ein Ziel hinarbeitet.</p>
+          <p class="ag-proj-meta">von Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Screenshot von Misti, ein KI-Chatbot für Mathematik und Programmieren" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>Misti</h4>
+          <p>Ein Chatbot, der Fragen zu Mathematik und Programmierung beantwortet, von einem Schüler gebaut und veröffentlicht.</p>
+          <p class="ag-proj-meta">von Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Screenshot von GuardianX, ein KI-Assistent für Sicherheit im Internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>GuardianX</h4>
+          <p>Ein Assistent, der jungen Menschen hilft, unsichere Situationen im Internet zu erkennen.</p>
+          <p class="ag-proj-meta">von Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Screenshot der Wetter-App SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web-App</p>
+          <h4>SkyCast</h4>
+          <p>Eine Wetter-Website mit aktuellen Bedingungen für jeden Ort.</p>
+          <p class="ag-proj-meta">von Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preise</p>
+      <h2>Preise der Vorbereitung</h2>
+      <p class="ag-lede">Die Gebühr gilt pro Monat und schließt acht Live-Stunden ein. In Euro angezeigt wird sie nach dem Referenzkurs der Europäischen Zentralbank. Abgebucht wird in US-Dollar; die Umrechnung erledigt Ihre Bank, deshalb kann der Endbetrag geringfügig abweichen.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Kostenlose Probestunde</p>
+        <p class="ag-price-amt">Kostenlos</p>
+        <p class="ag-price-alt">keine Karte nötig</p>
+        <ul><li>Probestunde gratis</li><li>Kurze Einstufung</li><li>Ohne Karte</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Buchen</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Gruppenkurs</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group" data-price-format="suffix">90 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Gruppe mit fünfzehn bis zwanzig</li><li>Durchgehend derselbe Mentor</li><li>Zwei Einheiten pro Woche</li><li>Monatlich kündbar</li></ul>
+        <a href="#start" class="ag-btn">Hier starten</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Einzelunterricht</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal" data-price-format="suffix">134 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Einzelunterricht nur für Ihr Kind</li><li>In Java oder Python, wie im Kurs</li><li>Termine nach Absprache</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Anfragen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Was Familien sagen</p>
+      <h2>4,9 von 5 bei 547 Google-Bewertungen</h2>
+      <p class="ag-lede">Google-Bewertungen von Familien und Lernenden, unverändert auf Englisch.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fragen und Antworten</p>
+      <h2>Informatik-Abitur Hessen: häufige Fragen</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Findet der Unterricht auf Deutsch statt?</h3>
+        <p>Nein. Unsere Stunden sind live und werden nur auf Englisch gehalten. Gerade hier zahlt sich das aus, denn Ihr Kind trainiert Programmieren und Englisch zugleich; SELECT, class und return kennt es ohnehin. Tempo und Aussprache stimmt der Mentor auf Ihr Kind ab.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wird das Informatik-Abitur in Hessen in Java oder in Python geschrieben?</h3>
+        <p>In beiden. Laut Abiturerlass 2027 gibt es die Pflichtaufgabe A in den Sprachvarianten Java und Python, und jeder Prüfling erhält die Variante, die im Unterricht benutzt wurde.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wann ist das Informatik-Abitur 2027 in Hessen?</h3>
+        <p>Im Grundkurs am Donnerstag, 15. April 2027, im Leistungskurs am Montag, 19. April 2027. Die Nachprüfungen liegen zwischen dem 18. Mai und dem 3. Juni 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wie lange dauert die Prüfung?</h3>
+        <p>Laut Erlass 255 Minuten im Grundkursfach und 300 Minuten im Leistungsfach. Die Auswahlzeit ist darin enthalten.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Welche Hilfsmittel sind erlaubt?</h3>
+        <p>Ein Wörterbuch der deutschen Rechtschreibung, das den Aufgaben beigefügte Glossar und eine Liste der fachspezifischen Operatoren. Aufgaben mit PC-Nutzung werden nicht bereitgestellt.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Ist Informatik in Hessen Pflichtfach?</h3>
+        <p>Nein. Laut Informatik-Monitor 2026/27 findet in Hessen schulartübergreifend kein verbindlicher Informatikunterricht statt, und verbindliche Pläne für ein Pflichtfach sind nicht bekannt. In der Einführungsphase sind keine Vorkenntnisse nötig.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wie viele Bewertungseinheiten gibt es?</h3>
+        <p>Im Grundkurs höchstens 90 (Aufgabe A 50, Wahlaufgabe B 40), im Leistungskurs höchstens 120 (drei Aufgaben zu je 40).</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wann finden die Stunden statt?</h3>
+        <p>Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. 17:15 Uhr in Frankfurt ist im Winter 21:45 Uhr in Indien.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>In welcher Währung bezahle ich?</h3>
+        <p>Abgerechnet wird monatlich in US-Dollar. Zur Orientierung steht hier ein Euro-Betrag, berechnet mit dem Referenzkurs der Europäischen Zentralbank, und Ihre Bank übernimmt den Währungswechsel. Für die erste Stunde fällt nichts an.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Sind Sie mit dem Kultusministerium verbunden?</h3>
+        <p>Nein. Wir unterrichten neben der Schule, vergeben keine Noten und versprechen kein Ergebnis. Maßgeblich sind Schule, Erlass und Prüfung.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weiterlesen</p>
+      <h2>Weitere Seiten zu Informatik in Deutschland</h2>
+      <p class="ag-lede">Großteils auf Englisch.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Unser Angebot für ganz Deutschland.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>Für alle Klassenstufen.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-in-german-schools-by-state">Informatik by state</a></h3><p>Pflichtfach oder nicht, Land für Land.</p></div>
+      <div><h3><a class="ag-inline-link" href="/abitur-computer-science-in-english">Abitur computer science in English</a></h3><p>Das Fach im Abitur, englisch erklärt.</p></div>
+      <div><h3><a class="ag-inline-link" href="/abitur-maths-in-english">Abitur maths in English</a></h3><p>Mathematik-Abitur auf Englisch.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Projekte unserer Lernenden.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Jetzt starten</p>
+        <h2>Probestunde für Hessen buchen</h2>
+        <p class="ag-lede">Sagen Sie uns vorab, ob in der Schule Java oder Python verwendet wird, und legen Sie eine aktuelle Klausur aus Q1 bis Q4 dazu. Der Mentor löst eine Aufgabe mit Ihrem Kind und schlägt danach Kurs und Wochenplan bis April 2027 vor.</p>
+        <p class="ag-mt-40">Zum Vorab-Lesen: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> über unseren Unterricht, <a class="ag-inline-link" href="/informatik-in-german-schools-by-state">Informatik by state</a> über Informatik in allen Ländern (beide englisch).</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20unser%20Kind%20hat%20Informatik%20im%20hessischen%20Landesabitur%202027.%20K%C3%B6nnen%20wir%20eine%20Probestunde%20auf%20Englisch%20ausprobieren%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'iah',pos:'end'});">Per WhatsApp schreiben</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Live-Unterricht online, ausschließlich auf Englisch, Mentoren in Indien. WhatsApp ist der schnellste Weg zu uns.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_iah(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Ihr Name</label>
+            <input id="de-name" type="text" name="name" placeholder="Name von Elternteil oder Lernendem" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Telefon oder WhatsApp, Deutschland +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Altersgruppe</label>
+            <select id="de-age" name="age"><option value="6-12">Kind, 6 bis 12</option><option value="13-18">Jugendliche, 13 bis 18</option><option value="college">Studierende</option><option value="adult">Berufstätige</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Kostenlose Probestunde anfragen</button>
+          <p class="ag-form-note">Ohne Kosten, ohne Vertrag, ohne Karte.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Lieber früher starten? Priority Demo buchen</h3><p>Eine Priority Demo ist eine vollständige Unterrichtsstunde von etwa 45 bis 60 Minuten. Danach schickt der Mentor per WhatsApp einen schriftlichen Kompetenzbericht und einen persönlichen Lernplan. Wenn Sie sich anmelden, wird die Demo-Gebühr mit der ersten Monatsgebühr verrechnet: Schicken Sie uns dazu die Bestellnummer der Demo per WhatsApp.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Priority Demo buchen</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live-Online-Unterricht in Programmieren, KI und Mathematik für Menschen von 6 bis 67 Jahren. Wir unterrichten seit 2020, mehr als
+          10.000 Lernende in 25 Ländern.
+        </p>
+      </div>
+      <div><h4>Kurse</h4><ul><li><a href="/courses/informatik-abitur-course-java-python">Informatik Abitur</a></li><li><a href="/courses/python-complete-masterclass-teens">Python für Jugendliche</a></li><li><a href="/courses/mysql-mastery-for-teens">SQL für Jugendliche</a></li><li><a href="/courses">Alle Kurse</a></li></ul></div>
+      <div><h4>Deutschland</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/abitur-computer-science-in-english">Abitur computer science</a></li><li><a href="/student-labs">Projekte</a></li></ul></div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="/about">Über uns</a></li>
+          <li><a href="/how-we-teach">So unterrichten wir</a></li>
+          <li><a href="/love">Bewertungen</a></li>
+          <li><a href="/contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live-Online-Unterricht weltweit.</span>
+      <span>Eine Relation kennt keine Duplikate</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Probestunde</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority Demo</a><a href="tel:+919123366161" aria-label="Anrufen +91 91233 66161">Anrufen</a></div>
+
+<script>
+window.submitLead_iah = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Wird gesendet...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'informatik-abitur-hessen-inline', meta: { name: name, age: age, page: 'informatik-abitur-hessen' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Vielen Dank' + (name ? ', ' + name.split(' ')[0] : '') + '. Ein Mentor ruft Sie in Kürze an.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Netzwerkfehler. Bitte versuchen Sie es erneut.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

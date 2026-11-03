@@ -74,7 +74,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE078 | nachhilfe-auf-englisch-online (nen, #7E5104) | door-de (de) | 3,236 | 2.5% vs programmieren-lernen-auf-englisch | Nachhilfe auf Englisch online: Mathe und Informatik, live | significant figures are not decimal places; count from the first non-zero digit | 99485ab5 |
 | DE083 | informatik-abitur-nrw (ian, #365469) | door-de (de) | 3,863 | 1.9% vs informatik-nachhilfe-online | Informatik-Abitur NRW 2027: Vorgaben, Termin, Übung in Java | a stack reverses, a queue keeps order; write down both containers after every step | e92caa00 |
 | DE084 | informatik-abitur-bayern (iab, #5A5587) | door-de (de) | 3,789 | 1.9% vs programmieren-fuer-kinder-ab-8 | Informatik-Abitur Bayern 2027: G9-Prüfung, Termine, KI-Übung | a truth table is a complete test suite; one neuron draws one straight line (XOR fails), and the boundary | e3fb9c26 |
-| DE085 | informatik-abitur-niedersachsen (ina, #68548C) | door-de (de) | 3,357 | 2.6% vs informatik-abitur-bayern | Informatik-Abitur Niedersachsen 2027: Regeln, Termin, Übung | measure before you trust a compression; run-length coding can make data bigger | (this commit) |
+| DE085 | informatik-abitur-niedersachsen (ina, #68548C) | door-de (de) | 3,357 | 2.6% vs informatik-abitur-bayern | Informatik-Abitur Niedersachsen 2027: Regeln, Termin, Übung | measure before you trust a compression; run-length coding can make data bigger | 21cb8a54 |
+| DE086 | informatik-abitur-hessen (iah, #74301E) | door-de (de) | 3,350 | 2.6% vs informatik-abitur-niedersachsen | Informatik-Abitur Hessen 2027: Java oder Python, Termine, Übung | a projection is a set; relational algebra removes duplicates, SQL keeps them unless you say DISTINCT | (this commit) |
 
 ## Notes
 
