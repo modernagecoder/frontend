@@ -884,6 +884,7 @@ const SLUGS = [
   'coding-and-ai-classes-in-braunschweig-germany',
   'online-python-classes-kiel-germany',
   'coding-classes-for-kids-in-chemnitz-germany',
+  'coding-and-ai-classes-in-magdeburg-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1847,6 +1848,7 @@ const LLMS_LABELS = {
   'coding-and-ai-classes-in-braunschweig-germany': 'Coding and AI classes in Braunschweig',
   'online-python-classes-kiel-germany': 'Online Python classes in Kiel',
   'coding-classes-for-kids-in-chemnitz-germany': 'Coding classes for kids in Chemnitz',
+  'coding-and-ai-classes-in-magdeburg-germany': 'Coding and AI classes in Magdeburg',
 };
 
 function wireLlms(slugs) {

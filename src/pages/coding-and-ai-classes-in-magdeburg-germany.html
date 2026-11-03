@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding and AI Classes in Magdeburg: Live Online, in English</title>
+  <meta name="description" content="Coding and AI classes in Magdeburg for children, teens and adults, live online in English: Informatik in Saxony-Anhalt, and a frost forecast on city weather data.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-and-ai-classes-in-magdeburg-germany">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-and-ai-classes-in-magdeburg-germany.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#4B2D3C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-and-ai-classes-in-magdeburg-germany">
+  <meta property="og:title" content="Coding and AI Classes in Magdeburg: Live Online, in English">
+  <meta property="og:description" content="Live online coding and AI in English for Magdeburg learners of all ages: where Informatik is and is not compulsory in Sachsen-Anhalt, what our AI lessons actually build, and a project that teaches a computer to warn of frost from twenty years of Magdeburg weather.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding and AI Classes in Magdeburg: Live Online, in English">
+  <meta name="twitter:description" content="Coding and AI for all ages in Magdeburg, live in English, with a frost-warning model built on the city's weather station.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-mac .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-mac .ag-capsule { border-left-width: 4px; border-radius: 2px; }
+.ag-root.ag-mac .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-mac .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-mac .ag-code-head b { letter-spacing: 0.02em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-and-ai-classes-in-magdeburg-germany#page","url":"https://learn.modernagecoders.com/coding-and-ai-classes-in-magdeburg-germany","name":"Coding and AI Classes in Magdeburg","description":"A guide for Magdeburg children, teenagers, adults and parents to learning coding and AI live online in English, built on Gesellschaft für Informatik, KMK, BWKI and Deutscher Wetterdienst sources, with an original classification project on the Magdeburg weather station.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Coding and AI in Magdeburg","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-magdeburg-germany"}]},{"@type":"Course","name":"Coding and AI Classes in Magdeburg","description":"Live online coding and AI classes in English for Magdeburg: Scratch and Python for children, Python, data and machine learning for teenagers, and applied AI for adults, with one regular mentor, in a group of 15 to 20 or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-and-ai-classes-in-magdeburg-germany"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-and-ai-classes-in-magdeburg-germany"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-and-ai-classes-in-magdeburg-germany"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. We only teach in English, live, and our mentors work from India. They set their speed and vocabulary by the learner and get used to each accent. Since nearly all programming and AI material is written in English, that tends to help."}},{"@type":"Question","name":"Which ages do you teach?","acceptedAnswer":{"@type":"Answer","text":"Children from about 8, teenagers and adults. Children start with Scratch and Python, teenagers learn Python, data and machine learning, and adults learn applied AI. Each group is formed by age and level."}},{"@type":"Question","name":"Is Informatik compulsory in Magdeburg schools?","acceptedAnswer":{"@type":"Answer","text":"At Sekundarschulen and Gemeinschaftsschulen, yes: one lesson a week in grades 6 to 10, according to the Gesellschaft für Informatik. At Gymnasien in Sachsen-Anhalt it is an elective in Sekundarstufe I."}},{"@type":"Question","name":"Will my child use ChatGPT in class?","acceptedAnswer":{"@type":"Answer","text":"No. Children in our classes never need an account with an adult chatbot. Certain AI services are restricted to adults and others ask for parental consent below 18, so instead the children make tiny models of their own and find out how the big ones work."}},{"@type":"Question","name":"When are the classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. In Magdeburg, pupils mostly book late afternoons and working adults the early evening or Sunday."}},{"@type":"Question","name":"Do I need to be good at maths for AI?","acceptedAnswer":{"@type":"Answer","text":"Not at the start. The frost project uses only comparisons and counting. Teenagers and adults who go further meet statistics and some algebra, introduced when they need it."}},{"@type":"Question","name":"Can you help with a BWKI entry?","acceptedAnswer":{"@type":"Answer","text":"Yes. We coach how to plan, code and test an AI project, while the idea and the work remain the pupil's. The contest belongs to the Tübingen AI Center and has no connection with us."}},{"@type":"Question","name":"How big are the groups?","acceptedAnswer":{"@type":"Answer","text":"Between 15 and 20 people at a similar age and stage. Prefer private teaching? Take the one-to-one plan: two lessons each week with the mentor on your own."}},{"@type":"Question","name":"What currency are fees charged in?","acceptedAnswer":{"@type":"Answer","text":"Payment is in US dollars once a month. We display euro equivalents worked out with the ECB reference rate, and the exact euro debit is set by your own bank's conversion. There is no charge for the first lesson."}},{"@type":"Question","name":"What is the frost model on this page?","acceptedAnswer":{"@type":"Answer","text":"An original project of ours on the Deutscher Wetterdienst's Magdeburg station data. Learners teach the computer to warn of frost from today's temperature and cloud, test it on 2020 to 2025, and learn why counting misses and false alarms matters more than a single accuracy figure."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-and-ai-classes-in-magdeburg-germany","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-mac">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#frost">Frost model</a></li>
+      <li><a href="#school">School</a></li>
+      <li><a href="#ages">Ages</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Coding and AI in Magdeburg
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Magdeburg &middot; Coding and AI &middot; Children, teens, adults</p>
+        <h1>Coding and AI classes in Magdeburg</h1>
+        <p class="ag-lede">Here is a question a Magdeburg gardener, cyclist or parent asks every autumn evening: will it freeze tonight? It is also a perfect first machine-learning problem, because the answer is a simple yes or no and the city's weather station has written down the result every day for decades. On this page you will see how we use it to teach AI honestly, what Informatik looks like at schools in Sachsen-Anhalt, and how our live classes in English work for children, teenagers and adults.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#frost" class="ag-btn ag-btn--ghost">See the frost model</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Magdeburg%20and%20would%20like%20to%20know%20more%20about%20your%20live%20coding%20and%20AI%20classes%20in%20English.%20Could%20I%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'mac'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students worldwide &middot; 4.9 from about 547 Google reviews</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Learners</dt><dd>Children from 8, teens, adults</dd>
+          <dt>Core</dt><dd>Python, data and machine learning</dd>
+          <dt>Lessons</dt><dd>Live on video, two a week</dd>
+          <dt>Size</dt><dd>15 to 20 learners, or one to one</dd>
+          <dt>Language</dt><dd>English, mentors in India</dd>
+          <dt>Trial</dt><dd>Free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Short version</p>
+      <p>Modern Age Coders teaches coding and AI to Magdeburg learners of every age in live online classes held in English. Children begin with Scratch and Python; teenagers learn Python, data and machine learning; adults learn to build and judge AI models for work. A regular mentor matches each learner's pace and accent, and you choose a group of 15 to 20 or one-to-one lessons, at times from mid afternoon to the weekend.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Which AI course is right for which learner in Magdeburg?</h2>
+      <p class="ag-lede">A course without code for teenagers who want to see machine learning first, a Python route for teenagers who want to build it, and a full course for adults.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">
+        <div class="ag-pick-shot"><img src="/images/orange-data-mining-teens.webp" alt="Orange Data Mining Course for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MAC / 01</p>
+          <h3>Visual Machine Learning for Teens</h3>
+          <p>Machine learning with drag-and-drop blocks before any code, so teenagers grasp training, testing and errors first. A gentle bridge to Python.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MAC / 02</p>
+          <h3>Machine learning in Python, ages 13 to 18</h3>
+          <p>Python from the ground up, then real datasets and models, tested the honest way. Projects like the frost forecast below.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-complete-college">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-college.webp" alt="AI and ML Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MAC / 03</p>
+          <h3>Grown-up route: AI and ML in depth</h3>
+          <p>For adults and students. Classic machine learning, neural networks and where generative AI fits, with code you write yourself.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="frost">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real Magdeburg project</p><h2>Can a computer learn to warn Magdeburg of frost?</h2><p class="ag-lede">The Deutscher Wetterdienst publishes daily records from its Magdeburg station, number 3126, free to reuse with attribution (CC BY 4.0). Learners from about 14 upward take roughly twenty years of them to build a frost warning, and then learn the hardest lesson in AI: how to tell whether it is any good.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The data</h3><p>The station sits 79 metres above sea level at the same spot since 1946. From its daily file we keep three columns from 6 April 2006 to 31 December 2025: the day's mean temperature, the mean cloud cover in eighths of the sky, and the lowest temperature, 7,210 days in all.</p>
+<p>The DWD marks a missing value as -999, and our first program skips any day with one.</p></div><div><h3>The task</h3><p>From today's mean temperature, and later today's cloud, guess whether tomorrow's lowest temperature will be below 0 °C. Learn the rule from the years before 2020, then test it on 2020 to 2025, years it has never seen.</p>
+<p>Every guess is either a hit (frost warned, frost came), a miss (no warning, frost came) or a false alarm (warning, no frost). We count all three.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: learn one number</b><span>Python</span></figcaption><pre>import csv
+
+days = []
+with open("magdeburg_days.csv", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        days.append((row["date"], float(row["mean"]), float(row["cloud"]), float(row["low"])))
+
+pairs = []                       # today's weather, and did tomorrow freeze?
+for today, tomorrow in zip(days, days[1:]):
+    if -999 not in (today[1], today[2], tomorrow[3]):
+        pairs.append((today[0], today[1], today[2], tomorrow[3] &lt; 0))
+
+train = [p for p in pairs if p[0] &lt; "2020"]
+test = [p for p in pairs if p[0] &gt;= "2020"]
+
+def score(rule, data):
+    hits = sum(1 for p in data if rule(p) and p[3])
+    misses = sum(1 for p in data if not rule(p) and p[3])
+    alarms = sum(1 for p in data if rule(p) and not p[3])
+    return hits, misses, alarms
+
+# learn one number: the mean temperature below which we say "frost tomorrow"
+chosen_t, fewest = None, None
+for tenth in range(-100, 101):
+    t = tenth / 10
+    hits, misses, alarms = score(lambda p: p[1] &lt;= t, train)
+    if fewest is None or misses + alarms &lt; fewest:
+        chosen_t, fewest = t, misses + alarms
+
+print("Training days:", len(train), " test days:", len(test))
+print("Learned rule: frost tomorrow if today's mean is at or below", chosen_t, "C")
+print("On the test years (hits, misses, false alarms):", score(lambda p: p[1] &lt;= chosen_t, test))</pre><p class="ag-code-note">It prints: <code>Training days: 4981  test days: 2168</code>, <code>Learned rule: frost tomorrow if today's mean is at or below 2.8 C</code> and <code>On the test years (hits, misses, false alarms): (193, 113, 89)</code>.</p></figure>
+    <p class="ag-mt-40">The computer tried every threshold from -10 to +10 °C in tenths and kept the one with the fewest mistakes on the training years: warn of frost when today's mean is 2.8 °C or colder. On the six test years it warned correctly 193 times, missed 113 frosts and raised 89 false alarms. Is that good? Here is the trap. Frost came on only 306 of the 2,168 test nights, so a lazy rule that always says "no frost" is right 1,862 times, 85.9 percent. Our rule is right 1,966 times, 90.7 percent. Better, but the percentage hides the part that matters: the lazy rule misses every single frost.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: let the sky help</b><span>Python</span></figcaption><pre># clear skies let heat escape at night: allow a warmer day to count when the sky is clearer
+choice, fewest = None, None
+for tenth in range(-100, 101):
+    for step in range(0, 21):
+        t, extra = tenth / 10, step / 10
+        rule = lambda p: p[1] &lt;= t + extra * (8 - p[2])
+        hits, misses, alarms = score(rule, train)
+        if fewest is None or misses + alarms &lt; fewest:
+            choice, fewest = (t, extra), misses + alarms
+
+t, extra = choice
+print("Two-number rule: base", t, "C, plus", extra, "C for every clear eighth of sky")
+print("On the test years:", score(lambda p: p[1] &lt;= t + extra * (8 - p[2]), test))
+print("Frost nights in the test years:", sum(1 for p in test if p[3]), "of", len(test))</pre><p class="ag-code-note">It prints: <code>Two-number rule: base 1.2 C, plus 0.8 C for every clear eighth of sky</code>, <code>On the test years: (200, 106, 78)</code> and <code>Frost nights in the test years: 306 of 2168</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Three frost rules on the test years 2020 to 2025, Magdeburg station 3126 (our calculation)</caption><thead><tr><th scope="col">Rule</th><th scope="col">Frosts warned</th><th scope="col">Frosts missed</th><th scope="col">False alarms</th><th scope="col">Right overall</th></tr></thead><tbody><tr><td>Always say "no frost"</td><td class="ag-num">0</td><td class="ag-num">306</td><td class="ag-num">0</td><td class="ag-num">85.9%</td></tr><tr><td>One number: mean at or below 2.8 °C</td><td class="ag-num">193</td><td class="ag-num">113</td><td class="ag-num">89</td><td class="ag-num">90.7%</td></tr><tr><td>Two numbers: temperature and clear sky</td><td class="ag-num">200</td><td class="ag-num">106</td><td class="ag-num">78</td><td class="ag-num">91.5%</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Data: Deutscher Wetterdienst, Climate Data Center, daily climate data, station 3126 Magdeburg, file to 31 December 2025, reused under CC BY 4.0 and fetched on 3 November 2026. "Frost" here means a daily minimum below 0 °C at 2 metres. The rules, the training and test split and all counts are ours, for teaching; they are not a weather service.</p>
+    <p class="ag-mt-40">Clear nights lose heat to the sky, so the second rule allows a slightly warmer day to count as frost risk when there are few clouds: the base of 1.2 °C rises by 0.8 °C for every clear eighth. It catches seven more frosts and gives eleven fewer false alarms. Small gains, honestly measured, are what real machine learning mostly looks like. Learners then ask the question that matters for any AI system: who pays for a miss, and who pays for a false alarm? A gardener might accept many false alarms to save the plants; a road service with a gritting budget might not.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Run and read.</strong> Run Version 1 and explain in your own words what 113 means.</li><li><strong>Change what counts.</strong> Make a miss count twice as much as a false alarm while learning. What threshold does the computer choose now?</li><li><strong>Add a feature.</strong> Try yesterday's lowest temperature as a second number instead of cloud. Does it help more?</li><li><strong>For younger learners.</strong> On paper, sort ten made-up days into "frost" and "no frost" by temperature alone, then find the day your rule gets wrong.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Schools in Sachsen-Anhalt</p><h2>Is Informatik compulsory at Magdeburg schools?</h2><p class="ag-lede">It depends on the school type. That is unusual, and it is worth knowing which side of the line your child is on.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Informatik by school type in Sachsen-Anhalt</caption><thead><tr><th scope="col">School type</th><th scope="col">Grades 5 to 10</th><th scope="col">Oberstufe</th></tr></thead><tbody><tr><td>Sekundarschule, Gemeinschaftsschule</td><td>One compulsory lesson a week in grades 6 to 10, plus an hour brought forward into grade 5</td><td>Where offered</td></tr><tr><td>Gymnasium</td><td>Elective only</td><td>Grade 10 Einführungsphase, 11 and 12 Qualifikationsphase (G8)</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Gesellschaft für Informatik, Informatik-Monitor 2026/27, Sachsen-Anhalt page ("für die Jahrgangsstufen 6 bis 10 im Pflichtbereich je eine Wochenstunde Informatikunterricht") and national overview, read 2 November 2026. The monitor counts Sachsen-Anhalt among six Länder "ohne einen für alle verbindlichen Informatikunterricht". Modern Age Coders has no tie to the Land, the KMK or any Magdeburg school.</p>
+    <p class="ag-mt-40">So a pupil at a Magdeburg Sekundarschule has an hour of Informatik a week from grade 6, while a pupil at a Gymnasium may go through Sekundarstufe I without any, unless they choose it. For a Gymnasium pupil who is curious about programming or AI, outside lessons fill a real gap. For a Sekundarschule pupil, they add depth to the weekly hour. Either way our lessons run next to school, never in place of it; marks and the Abitur are decided by the school course alone.</p>
+    <p>Teenagers who want a challenge can aim at the Bundeswettbewerb Künstliche Intelligenz. The Tübingen AI Center organises it for Sekundarstufe I and II, accepting solo entries and teams, and every entry needs a written report, code that runs and a brief video. This year's finalists meet in Tübingen on 13 November 2026; dates for the following year appear on the contest's own site. We can coach method and testing; the project must stay the pupil's own, and we have no link with the competition.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ages">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">For every age</p><h2>What do children, teenagers and adults each learn?</h2><p class="ag-lede">One idea runs through all three: learn from examples, test on new ones, and look hard at the mistakes. The tools change with age.</p></div>
+    <div class="ag-grid-3"><div><h3>Children, 8 to 12</h3><p>Scratch first, then typed Python. Around ten, children build a game that sorts animals by size or sounds by loudness and learn that the computer is following a rule they chose. No chatbot accounts; children build the "AI" themselves and see how it works.</p></div><div><h3>Teenagers, 13 to 18</h3><p>Python, files and real data, then models like the frost rule. Teenagers learn to split training and test data, to count misses and false alarms, and to write down what a model cannot know. Good preparation for school Informatik and for the BWKI.</p></div><div><h3>Adults</h3><p>Practical Python, data handling and machine learning, with time to understand rather than just copy. Adults in Magdeburg bring questions from work or hobbies and leave able to judge an AI claim by asking how it was tested.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>From first program to judged model, by age (our plan)</caption><thead><tr><th scope="col">Step</th><th scope="col">Children</th><th scope="col">Teens</th><th scope="col">Adults</th></tr></thead><tbody><tr><td>Give exact instructions</td><td>Scratch, weeks 1 to 6</td><td>Python, weeks 1 to 3</td><td>Python, weeks 1 to 2</td></tr><tr><td>Store examples in data</td><td>Lists in Scratch</td><td>Lists and CSV files</td><td>CSV files and tables</td></tr><tr><td>Learn a rule</td><td>A threshold chosen by the child</td><td>A threshold found by search</td><td>Search, then library models</td></tr><tr><td>Test fairly</td><td>Try it on new examples</td><td>Separate test years</td><td>Test sets and error measures</td></tr><tr><td>Judge the cost of mistakes</td><td>Which mistake is worse?</td><td>Misses versus false alarms</td><td>Costs written into the model</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">This table is our plan, not an official curriculum. Where a learner starts is decided in the free first class, and under-18s are never asked to open accounts with AI tools that require an adult or a parent's consent.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">In English</p><h2>Why are the classes in English, and can I keep up?</h2><p class="ag-lede">We teach only in English. Most learners keep up comfortably, because the mentors make it their job that they do.</p></div>
+    <div class="ag-grid-3"><div><h3>No German option</h3><p>Our mentors, based in India, teach every class in English. We do not offer lessons in German, and we tell you so before you book.</p></div><div><h3>Pace and accent matched</h3><p>Mentors adapt how fast they speak and which words they use, check often that the point has landed, and tune in to how each learner speaks within a few lessons.</p></div><div><h3>The field speaks English</h3><p>Python, its libraries, AI papers and most tutorials are in English. Taught in English, the lesson and the manuals use the same words.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">When</p><h2>What times do the classes run in Magdeburg?</h2><p class="ag-lede">India is ahead of Magdeburg, so a Magdeburg afternoon or early evening is the mentor's evening. These sample slots just show the difference.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Sample Magdeburg times and India time</caption><thead><tr><th scope="col">Magdeburg clock</th><th scope="col">India clock before 28 March 2027</th><th scope="col">India clock after 28 March 2027</th></tr></thead><tbody><tr><td>16:10</td><td>20:40</td><td>19:40</td></tr><tr><td>17:45</td><td>22:15</td><td>21:15</td></tr><tr><td>Sunday 12:00</td><td>16:30</td><td>15:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Germany runs on MEZ (UTC+1) in winter and MESZ (UTC+2) in summer under the Einheitenzeitgesetz; 25 October 2026 ended this year's summer time and 28 March 2027 starts the next. India has no clock change and stays at UTC+5:30, putting it 4 hours 30 minutes ahead of Magdeburg in winter and 3 hours 30 minutes ahead in summer.</p>
+    <p class="ag-mt-40">In Sachsen-Anhalt the Christmas holidays are 21 December 2026 to 2 January 2027 and the summer holidays 10 July to 20 August 2027, as listed by the KMK. Lessons go on through the holidays, and a family trip just means a pause.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Milestones</p>
+      <h2>How do we measure progress in coding and AI?</h2>
+      <p class="ag-lede">By what a learner can build and explain. These milestones are ours.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Coding and AI milestones (ours)</caption><thead><tr><th scope="col">Milestone</th><th scope="col">Reached around</th><th scope="col">The learner can</th></tr></thead><tbody><tr><td>Commands</td><td class="ag-num">Age 8 and up</td><td class="ag-num">Write steps a computer follows exactly</td></tr><tr><td>Examples</td><td class="ag-num">Age 10 and up</td><td class="ag-num">Keep labelled examples in a list or file</td></tr><tr><td>Rule</td><td class="ag-num">Age 12 and up</td><td class="ag-num">Find a threshold that separates two groups</td></tr><tr><td>Test</td><td class="ag-num">Age 13 and up</td><td class="ag-num">Measure a rule on data it has not seen</td></tr><tr><td>Judgement</td><td class="ag-num">Age 14 and up</td><td class="ag-num">Weigh misses against false alarms and explain the choice</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Judgement is what the frost project trains. It is the difference between a teenager who can use AI and one who can question it.</p>
+<p>Younger children reach Rule through games, not through adult tools.</p></div><div><h3>For adults</h3><p>If you already code, Rule takes days. Test and Judgement are where the real learning is.</p>
+<p>Bring your own question. The method transfers to almost any yes-or-no decision.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Further courses</p>
+      <h2>Nine more courses for Magdeburg learners</h2>
+      <p class="ag-lede">Grouped by age, all live and in English, with a regular mentor.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Children</h3>
+        <span class="ag-band-sub">Ages 8 to 14</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MAC / KID / 01</p>
+          <h4>Python and AI for Kids</h4>
+          <p>Typed Python and playful AI projects from 9.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MAC / KID / 02</p>
+          <h4>Understanding AI, ages 8 to 14</h4>
+          <p>Guessing machines, built and fooled by children.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MAC / KID / 03</p>
+          <h4>Coding for Kids</h4>
+          <p>Scratch first, for younger beginners.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teenagers</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MAC / TEEN / 01</p>
+          <h4>Teen data science</h4>
+          <p>Public datasets, tidied and plotted with Python.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MAC / TEEN / 02</p>
+          <h4>Python for teens</h4>
+          <p>A full Python course before machine learning.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MAC / TEEN / 03</p>
+          <h4>Abitur Informatik support</h4>
+          <p>Java and Python practice for grades 10 to 12.</p>
+          <a class="ag-course-link" href="/courses/informatik-abitur-course-java-python">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Adults</h3>
+        <span class="ag-band-sub">Students and professionals</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MAC / ADULT / 01</p>
+          <h4>Data science course</h4>
+          <p>From statistics to deep learning.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MAC / ADULT / 02</p>
+          <h4>Generative AI</h4>
+          <p>Large language models, retrieval and agents, for adults.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MAC / ADULT / 03</p>
+          <h4>Statistics and probability</h4>
+          <p>The maths for judging any model.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Each week</p>
+      <h2>A normal week of lessons, seen from Magdeburg</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Afternoon slots for children and teens.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">After work</p><p class="ag-slot-l">Evening slots for adults.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Saturday and Sunday options.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Two lessons a week</h3><p>About an hour each, live.</p></div>
+      <div><h3>A mentor who stays</h3><p>The same person week after week.</p></div>
+      <div><h3>Your own code</h3><p>Typed by you, not pasted.</p></div>
+      <div><h3>Honest testing</h3><p>Every model meets new data.</p></div>
+      <div><h3>Safe for children</h3><p>No adult AI accounts for under-18s.</p></div>
+      <div><h3>Group or private</h3><p>15 to 20 learners, or one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have built</h2>
+      <p class="ag-lede">Games, apps and models by our students, as they made them. See more in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What the Magdeburg classes cost</h2>
+      <p class="ag-lede">Each month's fee covers eight live lessons. The prices shown are in euro at the European Central Bank reference rate; the payment is actually made in US dollars and converted by your bank, which is why your statement may differ by a small amount.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>A short task at your level</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>15 to 20 learners of similar age and level</li><li>A regular mentor</li><li>Two live lessons per week</li><li>Monthly, stop any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Private lessons with one mentor</li><li>Projects around your interests</li><li>Times arranged with you</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from our students and their parents, unchanged.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Magdeburg asks</p>
+      <h2>Coding and AI classes in Magdeburg: questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. We only teach in English, live, and our mentors work from India. They set their speed and vocabulary by the learner and get used to each accent. Since nearly all programming and AI material is written in English, that tends to help.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which ages do you teach?</h3>
+        <p>Children from about 8, teenagers and adults. Children start with Scratch and Python, teenagers learn Python, data and machine learning, and adults learn applied AI. Each group is formed by age and level.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Informatik compulsory in Magdeburg schools?</h3>
+        <p>At Sekundarschulen and Gemeinschaftsschulen, yes: one lesson a week in grades 6 to 10, according to the Gesellschaft für Informatik. At Gymnasien in Sachsen-Anhalt it is an elective in Sekundarstufe I.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will my child use ChatGPT in class?</h3>
+        <p>No. Children in our classes never need an account with an adult chatbot. Certain AI services are restricted to adults and others ask for parental consent below 18, so instead the children make tiny models of their own and find out how the big ones work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. In Magdeburg, pupils mostly book late afternoons and working adults the early evening or Sunday.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to be good at maths for AI?</h3>
+        <p>Not at the start. The frost project uses only comparisons and counting. Teenagers and adults who go further meet statistics and some algebra, introduced when they need it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you help with a BWKI entry?</h3>
+        <p>Yes. We coach how to plan, code and test an AI project, while the idea and the work remain the pupil's. The contest belongs to the Tübingen AI Center and has no connection with us.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How big are the groups?</h3>
+        <p>Between 15 and 20 people at a similar age and stage. Prefer private teaching? Take the one-to-one plan: two lessons each week with the mentor on your own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What currency are fees charged in?</h3>
+        <p>Payment is in US dollars once a month. We display euro equivalents worked out with the ECB reference rate, and the exact euro debit is set by your own bank's conversion. There is no charge for the first lesson.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the frost model on this page?</h3>
+        <p>An original project of ours on the Deutscher Wetterdienst's Magdeburg station data. Learners teach the computer to warn of frost from today's temperature and cloud, test it on 2020 to 2025, and learn why counting misses and false alarms matters more than a single accuracy figure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Magdeburg learners and parents.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-saxony-anhalt">Coding classes in Saxony-Anhalt</a></h3><p>Our page for the Land.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-germany">AI and ML in Germany</a></h3><p>Machine learning for all of Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/bundeswettbewerb-ki-bwki-project-help">BWKI project help</a></h3><p>Coaching for a contest entry.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-course-for-kids-germany">AI course for kids</a></h3><p>AI for younger learners.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a></h3><p>Which tools suit which age.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Our live lessons explained.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first coding or AI lesson</h2>
+        <p class="ag-lede">The trial is hands-on: a short program typed live, and for teenagers and adults a first yes-or-no prediction. You leave with a suggested group and course and the reasons for it.</p>
+        <p class="ag-mt-40">To learn more first, see <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or browse the <a class="ag-inline-link" href="/courses">courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Magdeburg%20and%20would%20like%20to%20know%20more%20about%20your%20live%20coding%20and%20AI%20classes%20in%20English.%20Could%20I%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'mac',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Live, online, in English, with mentors in India. The quickest way to reach us is WhatsApp.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_mac(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>AI</h4><ul><li><a href="/ai-and-machine-learning-classes-in-germany">AI and ML in Germany</a></li><li><a href="/ai-course-for-school-students-germany">AI for school students</a></li><li><a href="/vibe-coding-and-ai-agents-classes-germany">Vibe coding and AI agents</a></li><li><a href="/learn-to-think-not-copy-ai-germany">Think, do not copy</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-classes-in-saxony-anhalt">Saxony-Anhalt</a></li><li><a href="/student-labs">Student projects</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Count the misses, not just the hits</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_mac = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'coding-and-ai-classes-in-magdeburg-germany-inline', meta: { name: name, age: age, page: 'coding-and-ai-classes-in-magdeburg-germany' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
