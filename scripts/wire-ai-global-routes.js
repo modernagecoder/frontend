@@ -744,6 +744,7 @@ const SLUGS = [
   'german-school-system-maths-and-computing-explained',
   'abitur-computer-science-in-english',
   'learn-to-think-not-copy-ai-germany',
+  'ib-computer-science-tutor-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1567,6 +1568,7 @@ const LLMS_LABELS = {
   'german-school-system-maths-and-computing-explained': 'German school system explained',
   'abitur-computer-science-in-english': 'Abitur computer science in English',
   'learn-to-think-not-copy-ai-germany': 'Learn to think, not copy AI',
+  'ib-computer-science-tutor-germany': 'IB Computer Science tutor in Germany',
 };
 
 function wireLlms(slugs) {
