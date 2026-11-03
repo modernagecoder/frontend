@@ -30517,6 +30517,18 @@
   to = "/src/pages/coding-classes-in-saxony.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-saxony-anhalt"
+  to = "/src/pages/coding-classes-in-saxony-anhalt.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-saxony-anhalt.md"
+  to = "/src/pages/coding-classes-in-saxony-anhalt.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
