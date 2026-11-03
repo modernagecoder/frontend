@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AI Course for School Students in Germany, Taught in English</title>
+  <meta name="description" content="A live online AI course in English for pupils in Germany aged 13 to 19: Python, the Abitur maths that trains models, and projects for the BWKI and Jugend forscht.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ai-course-for-school-students-germany">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ai-course-for-school-students-germany.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#804728">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ai-course-for-school-students-germany">
+  <meta property="og:title" content="AI Course for School Students in Germany, Taught in English">
+  <meta property="og:description" content="For pupils at German schools from Klasse 7 to the Abitur year: an AI course taught live in English that turns Analysis and Stochastik into models a teenager trains and checks.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Course for School Students in Germany, Taught in English">
+  <meta name="twitter:description" content="An AI course for school students in Germany, live in English, built on the maths pupils already learn.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-aic .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-aic .ag-capsule { border-left-width: 5px; }
+.ag-root.ag-aic .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-aic .ag-table td:nth-child(2) { font-variant-numeric: tabular-nums; }
+.ag-root.ag-aic .ag-code-head b { letter-spacing: 0.03em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ai-course-for-school-students-germany#page","url":"https://learn.modernagecoders.com/ai-course-for-school-students-germany","name":"AI Course for School Students in Germany","description":"A guide for pupils aged 13 to 19 at schools in Germany who want to learn artificial intelligence properly: how many take Informatik in each Land, how Abitur maths connects to machine learning, competitions that accept AI projects, tool age rules, and an original gradient descent example.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"AI course for pupils","item":"https://learn.modernagecoders.com/ai-course-for-school-students-germany"}]},{"@type":"Course","name":"AI Course for School Students in Germany","description":"A live online AI course in English for school students in Germany aged 13 to 19: Python, data, gradient descent and model testing built on school maths, in a group of fifteen to twenty or one to one, with one regular mentor.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ai-course-for-school-students-germany"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ai-course-for-school-students-germany"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ai-course-for-school-students-germany"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. All classes are live and in English only, with a mentor based in India who matches the pupil's pace and accent. Python itself uses English keywords, so the code looks the same whatever language a pupil thinks in."}},{"@type":"Question","name":"Is my child's English good enough?","acceptedAnswer":{"@type":"Answer","text":"Usually yes. Most of the lesson is code on a shared screen, and the mentor speaks slowly, repeats in simpler words and waits for answers. Pupils at German schools often find their English improves as a side effect."}},{"@type":"Question","name":"What age is the course for?","acceptedAnswer":{"@type":"Answer","text":"For pupils aged 13 to 19, from about Klasse 7 to the Abitur year. Younger children can start with our AI literacy course for ages 8 to 14."}},{"@type":"Question","name":"Does my child need Informatik at school?","acceptedAnswer":{"@type":"Answer","text":"No. According to the Informatik-Monitor 2026/27, only about 15 percent of upper-school pupils across Germany take Informatik in the Qualifikationsphase. The course starts from Python basics for anyone who has not programmed."}},{"@type":"Question","name":"Does the course help with the Abitur?","acceptedAnswer":{"@type":"Answer","text":"It uses the same maths, Analysis, geometry and Stochastik, and many pupils say school maths makes more sense afterwards. It does not replace school and awards no German grade or qualification; the school course is the one that counts."}},{"@type":"Question","name":"Can my child enter the BWKI or Jugend forscht?","acceptedAnswer":{"@type":"Answer","text":"Yes, if they meet the organisers' conditions. The BWKI accepts projects in German or English from Sekundarstufe I and II, and Jugend forscht has a Mathematik/Informatik field for ages 15 to 21, with a junior section up to 14. We are not connected with either and do not enter work for pupils."}},{"@type":"Question","name":"Will my child use ChatGPT or Claude?","acceptedAnswer":{"@type":"Answer","text":"Not as part of the course: pupils write their models in Python. Anthropic's terms put Claude at 18 or over, so we never use it with anyone under 18. Rules for other tools are quoted in our AI tools age guide."}},{"@type":"Question","name":"When are the classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. In German time that usually means after school or on weekend mornings."}},{"@type":"Question","name":"How are fees paid?","acceptedAnswer":{"@type":"Answer","text":"Fees appear in euro at the European Central Bank reference rate and are charged in US dollars, which your bank converts, so the exact amount on your statement can vary slightly. The first class costs nothing."}},{"@type":"Question","name":"Group or one to one?","acceptedAnswer":{"@type":"Answer","text":"A group of fifteen to twenty pupils suits a steady pace and costs less. One to one suits a pupil with a competition deadline, exam weeks to plan around or a project of their own."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ai-course-for-school-students-germany","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-aic">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#informatik">Informatik</a></li>
+      <li><a href="#maths">Maths</a></li>
+      <li><a href="#example">Example</a></li>
+      <li><a href="#contests">Contests</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / AI course for pupils
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Germany &middot; AI for pupils &middot; Ages 13 to 19</p>
+        <h1>AI course for school students in Germany</h1>
+        <p class="ag-lede">A pupil in Germany can finish school having used AI tools every week and never once having trained a model. That is not a lack of talent. Whether Informatik is even on the timetable depends on the Land, and the maths that explains how a model learns sits in a different classroom, under a different name. This page joins the two up, and shows a model learning a rule with nothing but school maths and a few lines of Python.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#example" class="ag-btn ag-btn--ghost">See the worked example</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20goes%20to%20school%20in%20Germany%20and%20would%20like%20a%20free%20first%20class%20in%20your%20AI%20course%2C%20taught%20in%20English." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'aic'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live since 2020 &middot; 10,000+ students worldwide &middot; models trained by the pupil, never pasted in</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Who</dt><dd>Pupils aged 13 to 19</dd>
+          <dt>School stage</dt><dd>Klasse 7 to the Abitur year</dd>
+          <dt>Built on</dt><dd>Analysis and Stochastik</dd>
+          <dt>Language</dt><dd>English, matched to the pupil</dd>
+          <dt>Format</dt><dd>Group or one to one, live</dd>
+          <dt>First class</dt><dd>Free</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>The AI course for school students in Germany at Modern Age Coders is a live online course in English for pupils aged 13 to 19. Pupils learn Python, then train and test real models using the derivatives and probability they meet in school maths. A regular mentor matches each pupil's pace and accent, in a group of fifteen to twenty or one to one, and prepares projects fit for the BWKI or Jugend forscht.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Three ways in</p>
+      <h2>Which AI course suits a pupil in Germany?</h2>
+      <p class="ag-lede">Most pupils start with the first. A younger pupil with no Python yet may begin with the second, and a pupil aiming at a competition adds the third.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AIC / 01</p>
+          <h3>AI and Machine Learning for Teens</h3>
+          <p>The main course for 13 to 18. From the first loop in Python to models a pupil trains, measures and can explain to a jury.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AIC / 02</p>
+          <h3>Python for Teens</h3>
+          <p>For a pupil who has never programmed. Every AI idea on this page needs Python first, and this course builds it properly.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">
+        <div class="ag-pick-shot"><img src="/images/german-informatics-competitions.webp" alt="German Informatics Competitions course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AIC / 03</p>
+          <h3>German Informatics Competitions</h3>
+          <p>The Informatik-Biber, the Bundeswettbewerb Informatik and the BWKI, with practice problems we write ourselves.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="informatik">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What school gives</p><h2>Do pupils in Germany learn AI at school?</h2><p class="ag-lede">Pupils meet AI as a topic in many subjects, but building a model is computer science, and how many pupils take computer science in the upper school differs enormously between Länder.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Using AI is now in the framework</h3><p>In 2026 the KMK, the conference of the Länder education ministers, adopted an update of its competence framework Bildung in der digitalen Welt that adds competences related to artificial intelligence. That covers how pupils use, question and judge AI across their subjects.</p>
+<p>It does not mean that a pupil writes code. A history lesson that asks whether a chatbot answer is reliable is part of that framework, and so is a German lesson on AI-written text.</p></div><div><h3>Building AI depends on Informatik</h3><p>The Gesellschaft für Informatik counts, in its Informatik-Monitor 2026/27, how many pupils take Informatik in the Qualifikationsphase of the Gymnasium upper school. Across Germany the average is about 15 percent.</p>
+<p>Behind that average the Länder sit far apart. In the 2024/25 figures, Sachsen and Mecklenburg-Vorpommern are above 40 percent, while Baden-Württemberg is at 7 percent and Niedersachsen at 9.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Share of upper-school pupils taking Informatik in the Qualifikationsphase, school year 2024/25</caption><thead><tr><th scope="col">Land</th><th scope="col">Share taking Informatik</th></tr></thead><tbody><tr><td>Sachsen</td><td class="ag-num">43 %</td></tr><tr><td>Mecklenburg-Vorpommern</td><td class="ag-num">40 %</td></tr><tr><td>Thüringen</td><td class="ag-num">33 %</td></tr><tr><td>Rheinland-Pfalz</td><td class="ag-num">26 %</td></tr><tr><td>Hamburg</td><td class="ag-num">22 %</td></tr><tr><td>Brandenburg</td><td class="ag-num">15 %</td></tr><tr><td>Saarland</td><td class="ag-num">15 %</td></tr><tr><td>Nordrhein-Westfalen</td><td class="ag-num">14 %</td></tr><tr><td>Sachsen-Anhalt</td><td class="ag-num">14 %</td></tr><tr><td>Berlin</td><td class="ag-num">12 %</td></tr><tr><td>Schleswig-Holstein</td><td class="ag-num">12 %</td></tr><tr><td>Bayern</td><td class="ag-num">11 %</td></tr><tr><td>Hessen</td><td class="ag-num">10 %</td></tr><tr><td>Niedersachsen</td><td class="ag-num">9 %</td></tr><tr><td>Baden-Württemberg</td><td class="ag-num">7 %</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Gesellschaft für Informatik, Informatik-Monitor 2026/27, map of the gymnasiale Oberstufe, each Land marked "Stand 2024/25". Read on 3 November 2026. Bremen is left out because the same page gives two figures for it that do not agree.</p>
+    <p class="ag-mt-40">Read the table the other way round and it says that in most Länder, eight or nine pupils in every ten leave the Gymnasium without a single Informatik course in their final two years. Many of them are strong in maths. They simply never had the place where maths turns into a program that learns. Our AI course is meant for exactly those pupils, and also for the ones who do take Informatik and want to go further than the school course has time for. It runs alongside school; the school course is the one that counts for grades and the Abitur.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="maths">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The maths already in the timetable</p><h2>Which school maths do you need to understand AI?</h2><p class="ag-lede">Far less new maths than people fear. The three areas of the German Abitur maths exam are the same three areas that machine learning is built from.</p></div>
+    <p>The IQB, the Länder institute that coordinates the shared Abitur task pools, describes the structure of the maths exam in its own paper on the pool tasks: a Part A without aids and a Part B where aids are allowed, and both parts contain tasks on each of Analysis, Analytische Geometrie/Lineare Algebra and Stochastik. Shared pools for maths have existed since the 2017 exam year. A pupil in the Oberstufe therefore spends two years on precisely the topics our course leans on, usually without hearing what they are for outside school.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The three Abitur maths areas and the AI idea each one explains (our mapping)</caption><thead><tr><th scope="col">Abitur area</th><th scope="col">What the pupil does at school</th><th scope="col">What it does in machine learning</th></tr></thead><tbody><tr><td>Analysis</td><td>Derivatives, slopes, finding a minimum</td><td>Gradient descent: walk downhill on the error until it is as small as it gets</td></tr><tr><td>Analytische Geometrie / Lineare Algebra</td><td>Vectors, lines, planes, dot products</td><td>Every input becomes a vector; a simple model is a weighted sum, a dot product</td></tr><tr><td>Stochastik</td><td>Probability, expected value, distributions</td><td>Judging a model: how often is it right, and how sure should we be?</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source for the three areas: IQB, Beschreibung der Struktur der Aufgaben für die Abiturprüfung im Fach Mathematik, and the IQB Abitur page on the shared pools. The right-hand column is our own teaching map, not an IQB statement.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For pupils in Klasse 7 to 10</h3><p>A younger pupil has not met derivatives yet, and does not need to. We start with what they know: a line through points, an average, a percentage. The idea that a model guesses, measures how wrong it is and adjusts can be shown with a slope and a ruler long before the word derivative appears.</p>
+<p>When the derivative arrives in Klasse 10 or 11, it has an obvious use already waiting.</p></div><div><h3>For pupils in the Oberstufe</h3><p>An Oberstufe pupil can follow every line of the example below on paper. The two partial derivatives in it are a small step beyond the school course, and we take that step slowly, in English, with the German words beside the English ones where it helps: Ableitung, Steigung, Tiefpunkt.</p>
+<p>Pupils often tell us that their maths lessons make more sense once they have watched a model use them.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="example">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Worked example, ours</p><h2>How does a model learn a rule nobody told it?</h2><p class="ag-lede">Give a program pairs of temperatures in Celsius and Fahrenheit and nothing else. It starts by guessing zero for everything, and by following the slope of its own error it finds the rule on its own. How fast it gets there depends on one number: the step size.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>What the program does</h3><p>The model is a straight line, prediction = w times Celsius + b. At the start w and b are both zero, so every prediction is zero and the average squared error, the loss, is 3,290.7.</p>
+<p>At each step the program works out the two partial derivatives of the loss, which say in which direction w and b should move to make the error smaller, and moves them a little that way. The size of that move is the learning rate.</p></div><div><h3>Why this is the heart of AI</h3><p>Large language models and image recognisers have billions of numbers instead of two, but they are trained by the same idea: measure the error, take its derivative, step downhill, repeat.</p>
+<p>Every engineer who trains a model has to choose a step size, and a bad choice wastes days or ruins the run. A pupil can see both failures here in a second.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: the same model, three step sizes, 5,000 steps each</b><span>Python</span></figcaption><pre># Celsius readings and the Fahrenheit values that go with them (our own example data)
+celsius = [-10, -3, 0, 4, 9, 15, 21, 28, 34]
+fahrenheit = [c * 9 / 5 + 32 for c in celsius]
+n = len(celsius)
+
+def loss(w, b):
+    return sum((w * c + b - f) ** 2 for c, f in zip(celsius, fahrenheit)) / n
+
+def step(w, b, rate):
+    # the two partial derivatives of the loss, straight from Oberstufe Analysis
+    dw = sum(2 * (w * c + b - f) * c for c, f in zip(celsius, fahrenheit)) / n
+    db = sum(2 * (w * c + b - f) for c, f in zip(celsius, fahrenheit)) / n
+    return w - rate * dw, b - rate * db
+
+for rate in [0.0001, 0.001, 0.003]:
+    w, b = 0.0, 0.0
+    for _ in range(5000):
+        w, b = step(w, b, rate)
+    print("rate", rate, " w =", round(w, 3), " b =", round(b, 3), " loss =", f"{loss(w, b):.3g}")</pre><p class="ag-code-note">It prints <code>rate 0.0001  w = 2.399  b = 14.837  loss = 183</code>, then <code>rate 0.001  w = 1.802  b = 31.935  loss = 0.00259</code> and <code>rate 0.003  w = 1.8  b = 32.0  loss = 4.18e-14</code>.</p></figure>
+    <p class="ag-mt-40">The true rule is Fahrenheit = 1.8 times Celsius + 32, and nobody typed it in. With the smallest step the model is still far off after 5,000 steps: it has found a slope near 2.4 and an offset near 15, a line that is roughly right in the middle of the data and wrong at the ends. With a step ten times larger it is almost there. With 0.003 it has found 1.8 and 32 to the last digit shown. So is a bigger step always better? Version 2 answers that.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: one step size that works, one that is slightly too big</b><span>Python</span></figcaption><pre>for rate in [0.003, 0.005]:
+    w, b = 0.0, 0.0
+    history = []
+    for _ in range(6):
+        w, b = step(w, b, rate)
+        history.append(f"{loss(w, b):.0f}")
+    print("rate", rate, " loss after steps 1 to 6:", ", ".join(history))</pre><p class="ag-code-note">Run after Version 1. It prints <code>rate 0.003  loss after steps 1 to 6: 2672, 2195, 1827, 1543, 1324, 1154</code> and <code>rate 0.005  loss after steps 1 to 6: 12669, 55174, 247728, 1119912, 5070438, 22964118</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>How the step size changes the training (our calculation, starting loss 3,290.7)</caption><thead><tr><th scope="col">Learning rate</th><th scope="col">Steps until the loss is under 0.01</th><th scope="col">What happens</th></tr></thead><tbody><tr><td>0.0001</td><td class="ag-num">44,584</td><td class="ag-num">Learns, but very slowly</td></tr><tr><td>0.001</td><td class="ag-num">4,456</td><td class="ag-num">Learns steadily</td></tr><tr><td>0.003</td><td class="ag-num">1,484</td><td class="ag-num">Learns fastest of the three</td></tr><tr><td>0.005</td><td class="ag-num">Never</td><td class="ag-num">Each step overshoots; the loss grows about four to five times per step</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">The data, the code and every number in this section are our own, run with Python 3 on 3 November 2026. The temperatures are a teaching example, not measurements.</p>
+    <p class="ag-mt-40">Between 0.003 and 0.005 lies a cliff. Our calculation puts the edge at about 0.0032: beyond that, every step jumps across the valley of the error and lands higher up the other side, and the next step jumps further. The edge is set by how steeply the loss curves, and the Celsius values up to 34 make it curve steeply in the w direction. That is why engineers rescale their inputs before training, and why a pupil who understands a second derivative understands a real training problem. We work through that argument with Oberstufe pupils on paper after they have watched it happen on screen.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Predict first.</strong> Before running Version 1, write down which of the three rates you expect to win. Then run it.</li><li><strong>Find the cliff.</strong> Try 0.0031, 0.0032 and 0.0033 in Version 2 and describe what changes in the six losses.</li><li><strong>Rescale.</strong> Divide every Celsius value by 10 before training, and adjust the final w. How large can the rate be now?</li><li><strong>Going further.</strong> Add a little random noise to the Fahrenheit values. The model can no longer reach zero loss. What does it reach instead, and why?</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="contests">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Competitions</p><h2>Which AI competitions can school students in Germany enter?</h2><p class="ag-lede">Three established routes accept a pupil's own AI work. They differ in age, in what they want to see and in how you enter.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Routes for a school student's AI project in Germany, from the organisers' own pages</caption><thead><tr><th scope="col">Route</th><th scope="col">Who can enter</th><th scope="col">What is handed in</th><th scope="col">Dates and entry</th></tr></thead><tbody><tr><td>Bundeswettbewerb Künstliche Intelligenz (BWKI), Tübingen AI Center</td><td>Pupils in Sekundarstufe I and II, alone or in a team</td><td>Written documentation, runnable code and a video pitch; German or English</td><td>2026 round: registration from 1 March 2026, projects due 20 September 2026, final 13 November 2026</td></tr><tr><td>Jugend forscht, field Mathematik/Informatik</td><td>Ages 15 to 21; Jugend forscht junior up to 14, from Klasse 4</td><td>A written research report, then a stand at the contest</td><td>Online registration by 30 November; the site already lists the Bundeswettbewerb 2027</td></tr><tr><td>Dr. Hans Riegel-Fachpreise</td><td>Pupils shortly before the Abitur or Matura</td><td>A final paper with its focus in subjects including Mathematik or Informatik</td><td>Run separately by each partner university for its region</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: bw-ki.de (Teilnahmebedingungen and the 2026 timeline); jugend-forscht.de (age groups, the timeline at a glance, the Mathematik/Informatik field); hans-riegel-fachpreise.com (competition page and checklist). Read on 3 November 2026.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What each one rewards</h3><p>The BWKI wants a machine-learning method at the centre and says so in its conditions. Jugend forscht is a research competition: the question and how carefully it is answered matter more than the size of the model. The Riegel prizes reward a written school paper, such as a Facharbeit or seminar paper, judged by a university; the organisers say about 300 prize winners are honoured each year.</p>
+<p>The BWKI also runs an award for schools, KI-Schule des Jahres, whose new round started on 1 August 2026.</p></div><div><h3>What we do and do not do</h3><p>We are not connected with the Tübingen AI Center, Jugend forscht, the Dr. Hans Riegel-Stiftung or any school, and we never enter work on a pupil's behalf. The project and the entry are the pupil's own.</p>
+<p>What we teach is the craft underneath: a precise question, data the pupil is allowed to use, a model they can explain line by line, an honest test, and a write-up a jury can follow. A pupil who can explain the step-size table above to a stranger is well on the way.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="tools">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Age rules</p><h2>Which AI tools may a pupil under 18 use?</h2><p class="ag-lede">Each provider sets its own minimum age in its terms, and a course for school students has to follow them.</p></div>
+    <p>Anthropic's consumer terms say, in their own words: "You must be at least 18 years old or the minimum age required to consent to use the Services in your location, whichever is higher." So Claude is for adults only, and we never use it with a pupil under 18, in class or as homework. Other tools have different rules; OpenAI, for example, allows teenagers with a parent's permission. We keep every provider's quoted rule, with the date it was read, in our <a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a>.</p>
+    <p class="ag-mt-40">The age rules matter less in our course than parents expect, because the course does not run on chatbots. Pupils write the model themselves, in Python, on their own computer, as in the example above. No account with an AI company is needed for any of it. Where a pupil wants to try a chatbot for a project, the mentor checks the provider's rule first and the family decides.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>When are the classes in German time?</h2><p class="ag-lede">After school on weekdays and at weekends. Mentors are in India, a few hours ahead, which puts German afternoons in the Indian evening.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Example German class times and the matching time in India</caption><thead><tr><th scope="col">Germany</th><th scope="col">India, until 28 March 2027</th><th scope="col">India, from 28 March 2027</th></tr></thead><tbody><tr><td>16:15</td><td>20:45</td><td>19:45</td></tr><tr><td>18:15</td><td>22:45</td><td>21:45</td></tr><tr><td>Saturday 12:15</td><td>16:45</td><td>15:45</td></tr><tr><td>Sunday 10:00</td><td>14:30</td><td>13:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">German clocks run at UTC+1 (MEZ) through the winter and UTC+2 (MESZ) through the summer, as the Einheitenzeitgesetz sets out; they went back on 25 October 2026 and go forward on 28 March 2027. India never changes from UTC+5:30, which leaves it 4 hours 30 ahead of Germany in winter and 3 hours 30 in summer. The times are examples, not fixed batches.</p>
+    <p class="ag-mt-40">The booking form shows trial slots in the time of your own device. In the weeks before the Abitur or a class test a one-to-one pupil can move lessons, and a group pupil can catch up with the mentor afterwards.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>From a first loop to a project a jury can question</h2>
+      <p class="ag-lede">The stages we use to place a pupil and to report to parents. They are ours, not a school standard.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>AI course stages for school students (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Usually reached</th><th scope="col">The pupil can</th></tr></thead><tbody><tr><td>1. Python basics</td><td class="ag-num">First weeks</td><td class="ag-num">Write loops, lists and functions without help</td></tr><tr><td>2. Data</td><td class="ag-num">Month 2</td><td class="ag-num">Load a table, count and average it, draw a chart</td></tr><tr><td>3. Learning by steps</td><td class="ag-num">Months 3 to 4</td><td class="ag-num">Train a line by gradient descent and choose a step size</td></tr><tr><td>4. Judging a model</td><td class="ag-num">Months 5 to 6</td><td class="ag-num">Split data, measure accuracy and say how sure the result is</td></tr><tr><td>5. Own project</td><td class="ag-num">Month 7 onwards</td><td class="ag-num">Plan, build and present a model, with its limits written down</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For pupils</h3><p>Run the code before you believe the explanation, and change one number to see what breaks.</p>
+<p>If you cannot say what your model gets wrong, you do not know it yet.</p></div><div><h3>For parents</h3><p>Ask your child to show you one model and explain a single line of it. That tells you more than any certificate.</p>
+<p>Progress shows in the questions they start asking, not only in the projects.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine further courses for school students</h2>
+      <p class="ag-lede">Each one is taught live in English by a mentor who keeps to the pupil's pace, in a group or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Getting started</h3>
+        <span class="ag-band-sub">Ages 8 to 15</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AIC / START / 01</p>
+          <h4>AI literacy</h4>
+          <p>How AI works and where it fails, for younger pupils.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIC / START / 02</p>
+          <h4>Visual machine learning</h4>
+          <p>Models built by dragging blocks, before the code.</p>
+          <a class="ag-course-link" href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIC / START / 03</p>
+          <h4>Maths through coding</h4>
+          <p>School maths, explored in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>School maths and Informatik</h3>
+        <span class="ag-band-sub">Klasse 9 to the Abitur</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AIC / SCHOOL / 01</p>
+          <h4>Abitur maths in English</h4>
+          <p>Analysis, geometry and Stochastik for the Abitur.</p>
+          <a class="ag-course-link" href="/courses/abitur-mathematics-course-in-english">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIC / SCHOOL / 02</p>
+          <h4>Informatik Abitur</h4>
+          <p>Support for the school Informatik course.</p>
+          <a class="ag-course-link" href="/courses/informatik-abitur-course-java-python">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIC / SCHOOL / 03</p>
+          <h4>Statistics and probability</h4>
+          <p>The Stochastik behind judging a model.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Going further</h3>
+        <span class="ag-band-sub">Ages 14 to 19</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AIC / MORE / 01</p>
+          <h4>Data science for teens</h4>
+          <p>Real datasets, cleaned and questioned.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIC / MORE / 02</p>
+          <h4>Problem solving and algorithms</h4>
+          <p>The thinking behind efficient programs.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIC / MORE / 03</p>
+          <h4>AI tools for teens</h4>
+          <p>Using AI tools well, within their age rules.</p>
+          <a class="ag-course-link" href="/courses/teens-ai-tools-mastery-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How it runs</p>
+      <h2>How the live AI course runs for pupils in Germany</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Weekday slots from about 16:00 German time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Saturday and Sunday mornings and early afternoons.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Private</p><p class="ag-slot-l">A time fixed with the mentor, moved around exams.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Pupil writes the code</h3><p>Nothing is pasted in from a chatbot.</p></div>
+      <div><h3>Maths made visible</h3><p>Derivatives and probability, shown at work.</p></div>
+      <div><h3>Clear English</h3><p>Spoken at the pupil's pace, rephrased gladly.</p></div>
+      <div><h3>One mentor</h3><p>The same person every week.</p></div>
+      <div><h3>Tool ages respected</h3><p>No adult-only tools for under-18s.</p></div>
+      <div><h3>Your choice of size</h3><p>Fifteen to twenty pupils, or just one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have made</h2>
+      <p class="ag-lede">A few projects by our students in different countries; the <a class="ag-inline-link" href="/student-labs">student labs</a> page has many more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for the AI course in Germany</h2>
+      <p class="ag-lede">Each month covers eight live classes. We show the fee in euro, converted at the European Central Bank reference rate, but take the payment in US dollars, so it is your bank that converts it and your statement may differ by a little.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A small coding task to find the right level</li><li>No payment details asked for</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>A group of fifteen to twenty pupils</li><li>A regular mentor who knows each pupil</li><li>Two live classes a week</li><li>Pay monthly, stop any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>The pupil alone with a mentor</li><li>Pace and projects set around school</li><li>Lesson times agreed together</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What parents and students wrote about us on Google, word for word.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Families in Germany ask</p>
+      <h2>AI course for school students in Germany: questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. All classes are live and in English only, with a mentor based in India who matches the pupil's pace and accent. Python itself uses English keywords, so the code looks the same whatever language a pupil thinks in.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is my child's English good enough?</h3>
+        <p>Usually yes. Most of the lesson is code on a shared screen, and the mentor speaks slowly, repeats in simpler words and waits for answers. Pupils at German schools often find their English improves as a side effect.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age is the course for?</h3>
+        <p>For pupils aged 13 to 19, from about Klasse 7 to the Abitur year. Younger children can start with our AI literacy course for ages 8 to 14.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need Informatik at school?</h3>
+        <p>No. According to the Informatik-Monitor 2026/27, only about 15 percent of upper-school pupils across Germany take Informatik in the Qualifikationsphase. The course starts from Python basics for anyone who has not programmed.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does the course help with the Abitur?</h3>
+        <p>It uses the same maths, Analysis, geometry and Stochastik, and many pupils say school maths makes more sense afterwards. It does not replace school and awards no German grade or qualification; the school course is the one that counts.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child enter the BWKI or Jugend forscht?</h3>
+        <p>Yes, if they meet the organisers' conditions. The BWKI accepts projects in German or English from Sekundarstufe I and II, and Jugend forscht has a Mathematik/Informatik field for ages 15 to 21, with a junior section up to 14. We are not connected with either and do not enter work for pupils.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will my child use ChatGPT or Claude?</h3>
+        <p>Not as part of the course: pupils write their models in Python. Anthropic's terms put Claude at 18 or over, so we never use it with anyone under 18. Rules for other tools are quoted in our AI tools age guide.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. In German time that usually means after school or on weekend mornings.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How are fees paid?</h3>
+        <p>Fees appear in euro at the European Central Bank reference rate and are charged in US dollars, which your bank converts, so the exact amount on your statement can vary slightly. The first class costs nothing.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Group or one to one?</h3>
+        <p>A group of fifteen to twenty pupils suits a steady pace and costs less. One to one suits a pupil with a competition deadline, exam weeks to plan around or a project of their own.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Also on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Further reading for pupils and parents in Germany.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Every page we have written for Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-germany">AI and machine learning in Germany</a></h3><p>The wider guide, for teens and adults.</p></div>
+      <div><h3><a class="ag-inline-link" href="/abitur-maths-in-english">Abitur maths in English</a></h3><p>The exam whose maths this page uses.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>Help with the school subject, in German.</p></div>
+      <div><h3><a class="ag-inline-link" href="/machine-learning-competitions-for-high-school-students">Machine learning competitions</a></h3><p>Contests for teenagers around the world.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a></h3><p>Minimum ages, quoted from the providers.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class in the AI course</h2>
+        <p class="ag-lede">The mentor talks with your child about school, maths and what they want to build, gives a short task to judge the level, and suggests where to begin. All in English, at your child's pace.</p>
+        <p class="ag-mt-40">Want to know more first? Read <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or look through <a class="ag-inline-link" href="/courses">all courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20goes%20to%20school%20in%20Germany%20and%20would%20like%20a%20free%20first%20class%20in%20your%20AI%20course%2C%20taught%20in%20English." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'aic',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are live online and taught in English by mentors based in India. WhatsApp, in English, is the fastest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_aic(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free and no card is needed.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>AI for pupils</h4><ul><li><a href="/ai-tools-age-guide">AI tools age guide</a></li><li><a href="/ai-projects-for-high-school-students">AI projects for teens</a></li><li><a href="/student-labs">Student projects</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/ai-and-machine-learning-classes-in-germany">AI and machine learning</a></li><li><a href="/abitur-maths-in-english">Abitur maths in English</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Mind the step size</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_aic = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'ai-course-for-school-students-germany-inline', meta: { name: name, age: age, page: 'ai-course-for-school-students-germany' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

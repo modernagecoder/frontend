@@ -981,6 +981,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Coding for international school students in Germany: https://learn.modernagecoders.com/coding-for-international-school-students-germany
 - Coding interview prep for international students in Germany: https://learn.modernagecoders.com/coding-interview-prep-for-international-students-germany
 - Python and DSA for international students in Germany: https://learn.modernagecoders.com/python-and-dsa-for-international-students-germany
+- AI course for school students in Germany: https://learn.modernagecoders.com/ai-course-for-school-students-germany
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
