@@ -10,7 +10,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | P1-1 | coding-classes-for-kids-berlin (ber, #8A2D1C) | city door (EN) | 4,183 | 5.2% vs abitur-maths-in-english | Berlin school gaps, Biber 2026, bike counter | a missing value is not a zero | 08e0769b |
 | P1-2 | informatik-nachhilfe-online (inf, #1E5560) | German door (DE) | 3,438 | 0.7% vs coding-classes-for-kids-berlin | Informatik Pflichtfach in all 16 Laender, Schreibtischtest | trace the loop, test the boundary | ec10827e |
 | P1-3 | abitur-maths-in-english (abm, #2B4A6F) | pillar (EN) | 3,611 | 5.2% vs coding-classes-for-kids-berlin | IQB pool structure, marks, NRW 2027 dates, operators | answer the operator | f54e2c36 |
-| DE001 | coding-classes-in-germany (gmy, #3D5A3A) | country hub (EN) | 4,476 | 3.2% vs coding-classes-for-kids-berlin | KMK school stages, 2026/27 contests, summer holidays 2027 | is the last day in or out | (this commit) |
+| DE001 | coding-classes-in-germany (gmy, #3D5A3A) | country hub (EN) | 4,476 | 3.2% vs coding-classes-for-kids-berlin | KMK school stages, 2026/27 contests, summer holidays 2027 | is the last day in or out | a56448ae |
+| DE002 | ai-and-machine-learning-classes-in-germany (dki, #5B3A68) | AI door (EN) | 4,070 | 3% vs coding-classes-in-germany | KMK AI frame, BWKI, tool ages, Bochum weather model | beat the baseline, test on unseen data | (this commit) |
 
 ## Notes
 

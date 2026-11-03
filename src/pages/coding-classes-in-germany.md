@@ -217,6 +217,8 @@ Each page answers one question for one place, school stage or competition, with 
 
 **Guides to German school and exams:** [Abitur maths in English](/abitur-maths-in-english)
 
+**Courses and subjects:** [AI and machine learning classes](/ai-and-machine-learning-classes-in-germany)
+
 **Auf Deutsch:** [Informatik-Nachhilfe online](/informatik-nachhilfe-online)
 
 **Cities:** [Berlin: coding for kids](/coding-classes-for-kids-berlin)
