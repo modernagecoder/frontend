@@ -54,6 +54,7 @@ const PY = [
 module.exports = {
   cluster: 'ag',
   clusterName: 'Germany',
+  hub: { group: 'german', label: 'Informatik-Nachhilfe online' },
   slug: 'informatik-nachhilfe-online',
   code: 'inf',
   accent: '#1E5560',

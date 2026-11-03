@@ -738,6 +738,7 @@ const SLUGS = [
   'coding-classes-for-kids-berlin',
   'informatik-nachhilfe-online',
   'abitur-maths-in-english',
+  'coding-classes-in-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1555,6 +1556,7 @@ const LLMS_LABELS = {
   'coding-classes-for-kids-berlin': 'Coding classes for kids in Berlin',
   'informatik-nachhilfe-online': 'Informatik-Nachhilfe online (auf Englisch)',
   'abitur-maths-in-english': 'Abitur maths in English',
+  'coding-classes-in-germany': 'Coding classes in Germany',
 };
 
 function wireLlms(slugs) {

@@ -68,6 +68,7 @@ const V2 = [
 module.exports = {
   cluster: 'ag',
   clusterName: 'Germany',
+  hub: { group: 'city', label: 'Berlin: coding for kids' },
   slug: 'coding-classes-for-kids-berlin',
   code: 'ber',
   accent: '#8A2D1C',

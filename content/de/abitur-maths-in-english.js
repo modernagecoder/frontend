@@ -27,6 +27,7 @@ const { EN: DE_EN } = require('../../scripts/nl/lib/market-de');
 module.exports = {
   cluster: 'ag',
   clusterName: 'Germany',
+  hub: { group: 'guide', label: 'Abitur maths in English' },
   slug: 'abitur-maths-in-english',
   code: 'abm',
   accent: '#2B4A6F',

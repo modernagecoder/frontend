@@ -33,10 +33,10 @@ case "$SL" in best-online-*|best-coding-classes-for-*|best-*-germany) BESTMAX=12
 [ -n "$BEST" ] && [ "$BEST" -le "$BESTMAX" ] || { echo "GATE FAIL $SL: 'best' appears $BEST times in visible text (limit $BESTMAX for this page type)"; exit 1; }
 echo "$R" | grep -q "RESULT PASS" || { echo "$R" | grep -E "BAD|MISS|RESULT"; echo "GATE FAIL $SL: render-check"; exit 1; }
 
-# Germany index pages (Land pages list their cities). The national hub
-# /coding-classes-in-germany is a legacy page outside this pipeline, so it is linked down by hand
-# (scripts/nl/link-down.js) and not rebuilt here.
-INDEXES="${DE_INDEXES:-}"
+# Germany index pages, rebuilt after every page so their lists can never drift from the cluster. The national
+# hub /coding-classes-in-germany (content/de, rebuilt on the ag template 2026-11-03) lists every built Germany page
+# from content/de (scripts/nl/lib/uk-index.js builtPages('de')); Land pages that list their cities join DE_INDEXES.
+INDEXES="$HUB ${DE_INDEXES:-}"
 for P in $INDEXES; do
   [ "$P" = "$SL" ] && continue
   [ -f "content/de/$P.js" ] && [ -f "src/pages/$P.html" ] || continue
@@ -44,9 +44,9 @@ for P in $INDEXES; do
   PCL=coding-global; grep -q "cluster: 'ag'" "content/de/$P.js" && PCL=build-ai
   node scripts/verify-cluster-pages.js "$PCL" 2>&1 | grep -qE "^PASS .*$P$" || { echo "index page $P no longer passes verify ($PCL)"; exit 1; }
 done
-# Link the page down from the hub with scripts/nl/link-down.js before shipping; the hub is staged with the page.
-# DE_NO_HUB=1: the pilots ship before the hub rewrite (spec section 7, P0); the hub links them when it is rebuilt.
-[ "$DE_NO_HUB" = 1 ] || grep -q "href=\"/$SL\"" "src/pages/$HUB.html" || { echo "Germany hub does not link to /$SL (run scripts/nl/link-down.js on src/pages/$HUB.html and .md first)"; exit 1; }
+# The rebuilt hub must now link the page (its index reads content/de); the hub is staged with the page.
+# DE_NO_HUB=1 skips this check, for shipping the hub itself.
+[ "$DE_NO_HUB" = 1 ] || [ "$SL" = "$HUB" ] || grep -q "href=\"/$SL\"" "src/pages/$HUB.html" || { echo "Germany hub does not link to /$SL (does content/de/$SL.js have a hub: { group, label } field?)"; exit 1; }
 c=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "http://localhost:3001/$SL"); [ "$c" = 200 ] || { echo "/$SL returns $c locally"; exit 1; }
 
 # Phone country picker + mac-lead-country meta (d826ae5d5). Netlify's build:phone adds them at

@@ -20,6 +20,15 @@ const { neutralFee, feeAnchor, feeRegion, ldPrice, feeText } = require('./fee-an
 const ROOT = path.resolve(__dirname, '..', '..', '..');
 const BRAND = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts', 'brand-facts.json'), 'utf8'));
 const SITE = 'https://learn.modernagecoders.com';
+// A page in the country hreflang cluster (content/markets.json) must carry the whole set or
+// scripts/verify-hreflang.js fails the build; read from markets.json, opt in with hreflangCluster: true
+// (the Germany hub, rebuilt on this template 2026-11-03). Same rule as render-cg.js.
+function hreflangLinks(page) {
+  if (!page.hreflangCluster) return '';
+  const m = JSON.parse(fs.readFileSync(path.join(ROOT, 'content', 'markets.json'), 'utf8'));
+  return m.markets.map(x => [x.hreflang, x.path]).concat([['x-default', m.xDefault]])
+    .map(([code, p]) => `  <link rel="alternate" hreflang="${code}" href="${SITE}${p === '/' ? '' : p}">`).join('\n') + '\n';
+}
 const WA = 'https://wa.me/919123366161?text=';
 
 // Priority demo entry points (owner request 2026-09-27), same contract as render-cg.js:
@@ -283,7 +292,7 @@ function render(page) {
   <meta name="description" content="${esc(page.description)}">
   <meta name="author" content="Modern Age Coders">
   <link rel="canonical" href="${url}">
-  <link rel="alternate" type="text/markdown" href="/src/pages/${page.slug}.md" title="Markdown version for AI agents">
+${hreflangLinks(page)}  <link rel="alternate" type="text/markdown" href="/src/pages/${page.slug}.md" title="Markdown version for AI agents">
 
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
