@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding for International School Students in Germany</title>
+  <meta name="description" content="Live coding classes in English for pupils at international schools in Germany, ages 6 to 18: Scratch and Python first, then IGCSE, IB or AP Computer Science.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-for-international-school-students-germany">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-for-international-school-students-germany.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#843D56">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-for-international-school-students-germany">
+  <meta property="og:title" content="Coding for International School Students in Germany">
+  <meta property="og:description" content="A computing route by age for children at international schools in Germany, taught live in English, with a look at which programmes these schools list and a small Python data-cleaning project on that list.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding for International School Students in Germany">
+  <meta name="twitter:description" content="Coding in English for international school pupils in Germany, from PYP age to IB, IGCSE and AP.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cis .ag-hero h1 { letter-spacing: -0.02em; }
+.ag-root.ag-cis .ag-capsule { border-left-width: 6px; }
+.ag-root.ag-cis .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-cis .ag-table td:nth-child(2) { font-style: italic; }
+.ag-root.ag-cis .ag-code pre { white-space: pre-wrap; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-for-international-school-students-germany#page","url":"https://learn.modernagecoders.com/coding-for-international-school-students-germany","name":"Coding for International School Students in Germany","description":"A guide for families at international schools in Germany: what these schools offer according to AGIS and the KMK, how coding fits from primary years to the final exams, an original Python project that tidies and counts the programmes schools list, and live classes in English.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"International school students","item":"https://learn.modernagecoders.com/coding-for-international-school-students-germany"}]},{"@type":"Course","name":"Coding for International School Students in Germany","description":"Live online coding classes in English for pupils aged 6 to 18 at international schools in Germany: Scratch and Python for younger children, then IGCSE, IB Diploma or AP Computer Science support, in a group of fifteen to twenty or one to one, with one regular mentor.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-for-international-school-students-germany"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-international-school-students-germany"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-international-school-students-germany"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. All classes are live and in English only, the language AGIS says its member schools teach in. The mentor keeps to your child's pace and accent."}},{"@type":"Question","name":"From what age can my child start?","acceptedAnswer":{"@type":"Answer","text":"From 6, with Scratch. Most children move to typed Python around 8 to 10. There is no upper limit for school-age pupils."}},{"@type":"Question","name":"Do you teach IB, IGCSE and AP Computer Science?","acceptedAnswer":{"@type":"Answer","text":"Yes: IB Diploma Computer Science at SL and HL, Cambridge IGCSE Computer Science 0478, and AP Computer Science A and Principles. We follow whichever programme your child's school runs."}},{"@type":"Question","name":"Are you connected with my child's school or with AGIS?","acceptedAnswer":{"@type":"Answer","text":"No. We are an independent online school. We name schools on this page only as context from the AGIS directory, and we do not award grades or qualifications."}},{"@type":"Question","name":"Is the IB Diploma recognised in Germany?","acceptedAnswer":{"@type":"Answer","text":"AGIS describes its IB Diploma as equal in standing to the Abitur when the required subjects are taken. The KMK sets those combinations in its recognition agreement; your school's IB coordinator can say how they apply to your child."}},{"@type":"Question","name":"What if we move to another country?","acceptedAnswer":{"@type":"Answer","text":"Classes continue online with the same mentor. You choose new times in your new time zone."}},{"@type":"Question","name":"When are classes in German time?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Many international school families pick late afternoon or Sunday morning."}},{"@type":"Question","name":"How do we pay?","acceptedAnswer":{"@type":"Answer","text":"Fees appear in euro, converted at the European Central Bank reference rate, and are charged in US dollars; your bank does the conversion, so its figure can be a little different. The first class is free."}},{"@type":"Question","name":"Will my child use AI tools?","acceptedAnswer":{"@type":"Answer","text":"Only tools whose providers allow your child's age. Several set 18 as the minimum and we never use those with under-18 pupils."}},{"@type":"Question","name":"Can siblings of different ages join?","acceptedAnswer":{"@type":"Answer","text":"Yes, in different groups by age and level, or one to one each. Families with two children often book back-to-back slots."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-for-international-school-students-germany","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-cis">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#landscape">Schools</a></li>
+      <li><a href="#route">Routes</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / International school students
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Germany &middot; International schools &middot; Ages 6 to 18</p>
+        <h1>Coding for international school students in Germany</h1>
+        <p class="ag-lede">Children at international schools in Germany learn in English, often move country every few years, and end school with the IB Diploma, IGCSE and A levels, or an American diploma with AP. Computing turns up in all of these routes, but at different ages and under different names. This page sets out what these schools say they offer, a coding route from age six to the final exams, and a project in which pupils tidy and count those very programmes in Python.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#route" class="ag-btn ag-btn--ghost">See the route by age</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20at%20an%20international%20school%20in%20Germany.%20Could%20we%20book%20a%20free%20first%20coding%20class%20in%20English%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cis'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students worldwide &middot; from Scratch to IB, IGCSE and AP</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Ages</dt><dd>6 to 18</dd>
+          <dt>Younger pupils</dt><dd>Scratch, then Python</dd>
+          <dt>Older pupils</dt><dd>IGCSE, IB or AP Computer Science</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>German times</dt><dd>After school, Sunday mornings</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Coding for international school students in Germany at Modern Age Coders means live online classes in English for pupils aged 6 to 18: Scratch and Python for younger children, then support for IGCSE Computer Science, IB Diploma Computer Science or AP Computer Science, matched to the school's programme. One regular mentor keeps to your child's pace and accent, in a group of fifteen to twenty or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses for international school pupils in Germany</h2>
+      <p class="ag-lede">One for the youngest coders, one for the IGCSE years, and one for the IB Diploma, the programme most international schools in Germany list.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CIS / 01</p>
+          <h3>Python and AI for kids</h3>
+          <p>Ages 8 to 12. Real Python, typed by the child, with small projects on games, numbers and simple AI ideas.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/igcse-computer-science-0478-course">
+        <div class="ag-pick-shot"><img src="/images/igcse-computer-science.webp" alt="IGCSE Computer Science (0478) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CIS / 02</p>
+          <h3>IGCSE Computer Science</h3>
+          <p>Ages 14 to 16. Cambridge 0478, both papers, pseudocode and Python.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ib-diploma-computer-science-course">
+        <div class="ag-pick-shot"><img src="/images/ib-computer-science.webp" alt="IB DP Computer Science (New Guide, First Assessment 2027) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CIS / 03</p>
+          <h3>IB Diploma Computer Science</h3>
+          <p>Ages 16 to 19. Standard or Higher Level, from writing programs to the theory papers and the project the school marks.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="landscape">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The schools</p><h2>What do international schools in Germany offer?</h2><p class="ag-lede">Mostly IB programmes, but not only. The association AGIS and the KMK give the clearest public picture, and neither publishes a count of pupils.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>What AGIS says about its members</h3><p>AGIS, the Arbeitsgemeinschaft der Internationalen Schulen in Deutschland, states that each member is authorised by the IB and runs one or more of its four programmes (Primary Years, Middle Years, Diploma, Career-related). It says the schools bring together children from up to 65 nations and use English as the common language of lessons, and that they are non-profit organisations.</p>
+<p>In the association's words, its IB Diploma counts as gleichwertig, of equal standing, with the German Abitur provided the required subject mix is taken, while members offering the Middle Years Programme or IGCSE give pupils a qualification equivalent to the Mittlere Reife.</p></div><div><h3>Other English-medium and bilingual options</h3><p>The KMK's description of the German school system mentions five European Schools in Germany, which teach a European model. Berlin's Staatliche Europa-Schule is a network of bilingual streams at 33 schools with about 6,000 pupils, in German and a partner language.</p>
+<p>The KMK also says the Deutsches Internationales Abitur is awarded at German schools abroad, so it is not a route inside Germany. And in the KMK agreement on the IB Diploma, the annex dated 26 March 2026 numbers 59 schools in Germany under a special arrangement on maths at Standard Level.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: AGIS, agis-schools.org (homepage, Wer wir sind and school directory), read 2 November 2026; KMK, Eurydice dossier on the German education system; KMK, Vereinbarung über die Anerkennung des International Baccalaureate Diploma, Anlage 1. AGIS pages give two different member counts, 23 on the homepage and 20 on Wer wir sind, so we print neither as a fact. We are not connected with AGIS, the KMK or any school.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="route">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A route by age</p><h2>When should a child at an international school start coding, and what comes next?</h2><p class="ag-lede">Our suggested route follows the IB stages most of these schools use, with the Cambridge and American routes beside them. It is our plan, not any school's.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A coding route for pupils at international schools in Germany (ours)</caption><thead><tr><th scope="col">Age</th><th scope="col">School stage, roughly</th><th scope="col">What we teach</th></tr></thead><tbody><tr><td>6 to 8</td><td>IB Primary Years, early grades</td><td>Scratch: sequences, loops and events through small animated stories</td></tr><tr><td>8 to 11</td><td>Primary Years, upper grades</td><td>Python basics typed by the child; simple games and number puzzles</td></tr><tr><td>11 to 14</td><td>Middle Years, or Cambridge Lower Secondary</td><td>Python projects, data, a first look at the web and at algorithms</td></tr><tr><td>14 to 16</td><td>MYP years 4 and 5, or IGCSE</td><td>IGCSE Computer Science 0478, or MYP Design and personal projects</td></tr><tr><td>16 to 19</td><td>IB Diploma, A levels or AP</td><td>IB Computer Science, Cambridge 9618, or AP CSA and CSP</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Our own route. Stage names follow the programmes listed in the AGIS school directory; the age bands are approximate and each school sets its own.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why start early, and gently</h3><p>Children who move between schools and countries meet computing in very different forms: one school teaches Scratch in grade 2, another nothing until grade 7. A steady weekly class keeps a thread running through those moves, in the same language as school.</p>
+<p>For six to eight year olds the aim is not exam content. It is getting used to giving exact instructions and spotting why they went wrong.</p></div><div><h3>Why the exam years need a plan</h3><p>From about fourteen the route forks: IGCSE Computer Science on a Cambridge track, or the MYP and then the IB Diploma, or AP on an American track. Each has its own exam language, from Cambridge pseudocode to Java for AP Computer Science A.</p>
+<p>A pupil who can already write and test programs arrives at that fork with a free choice, instead of avoiding Computer Science because it looks too late to start.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Our worked project</p><h2>Can pupils use Python to find out which programmes these schools list?</h2><p class="ag-lede">Yes, and it teaches the most underrated skill in data work: cleaning labels before you count them. We copied the qualifications listed on 25 AGIS directory pages into a text file, one school per line.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Three lines of our file agis_offers.txt</b><span>Text</span></figcaption><pre>Bonn International School | IB Primary Years Programme (PYP); IB Diploma Programme (DP); IB Middle Years Programme (MYP)
+International School of Ulm/Neu-Ulm | IB Primary Years Programme (PYP); International Baccalaureate (IB); International General Certificate of Secondary Education ( IGCSE)
+John F. Kennedy School Berlin | Advanced Placement (AP); American High School Diploma; Deutsches Abitur</pre><p class="ag-code-note">The labels are exactly as the AGIS pages give them, including the stray spaces in "( IGCSE)".</p></figure>
+    <p class="ag-mt-40">Look at the first two lines. Bonn lists "IB Diploma Programme (DP)". Ulm/Neu-Ulm lists "International Baccalaureate (IB)", which could mean the Diploma or the IB in general; the label does not say. A careless count would either drop Ulm/Neu-Ulm or add it to the Diploma column. Both are guesses. Our program keeps it as its own answer instead.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Our program: tidy the labels, then count schools</b><span>Python</span></figcaption><pre>raw_labels = set()
+schools = []
+with open("agis_offers.txt", encoding="utf-8") as f:
+    for line in f:
+        name, offers = line.strip().split(" | ")
+        labels = [x.strip() for x in offers.split(";") if x.strip() not in ("", "-")]
+        raw_labels.update(labels)
+        schools.append((name, labels))
+
+def tidy(label):
+    if "Diploma" in label and label.startswith("IB"):
+        return "IB Diploma"
+    if label == "International Baccalaureate (IB)":
+        return "IB, programme not named"
+    if "IGCSE" in label:
+        return "IGCSE"
+    if "AS / A Levels" in label:
+        return "A levels"
+    if "Advanced Placement" in label:
+        return "AP"
+    if "Abitur" in label:
+        return "Abitur"
+    return None
+
+counts = {}
+for name, labels in schools:
+    for group in {tidy(x) for x in labels} - {None}:
+        counts[group] = counts.get(group, 0) + 1
+
+print("Schools read:", len(schools))
+print("Different labels before tidying:", len(raw_labels))
+for group in sorted(counts, key=counts.get, reverse=True):
+    print(group, counts[group])</pre><p class="ag-code-note">It prints <code>Schools read: 25</code>, <code>Different labels before tidying: 27</code>, then <code>IB Diploma 13</code>, <code>IB, programme not named 9</code>, <code>IGCSE 8</code>, <code>AP 3</code>, <code>Abitur 2</code> and <code>A levels 1</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Schools among the 25 AGIS directory pages we read that list each qualification (our count)</caption><thead><tr><th scope="col">Qualification</th><th scope="col">Schools</th></tr></thead><tbody><tr><td>IB Diploma, named as such</td><td class="ag-num">13</td></tr><tr><td>IB, programme not named</td><td class="ag-num">9</td></tr><tr><td>IGCSE</td><td class="ag-num">8</td></tr><tr><td>AP</td><td class="ag-num">3</td></tr><tr><td>German Abitur</td><td class="ag-num">2</td></tr><tr><td>Cambridge AS and A levels</td><td class="ag-num">1</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Data: AGIS school directory pages, agis-schools.org, read 2 November 2026; 25 pages, not a complete list of international schools in Germany. The grouping and the counts are ours. A school can appear in several rows.</p>
+    <p class="ag-mt-40">Twenty-seven different labels came down to six groups, and one design decision mattered more than any line of code. The order of the tests inside <code>tidy</code> decides where a label lands: Augsburg lists "IB Diploma (including German Abitur recognition)", which contains both "Diploma" and "Abitur". Because the IB test comes first, it counts once, as an IB Diploma, and the Abitur row shows only the two schools that list the Abitur in its own right. Swap the order of those two tests and the answer changes. A pupil who can explain that has understood something many adults with spreadsheets have not.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Run it.</strong> Make your own agis_offers.txt from the three sample lines and check what your shorter file prints.</li><li><strong>Move one test.</strong> Put the Abitur test before the IB Diploma test and predict the new Abitur count before running it.</li><li><strong>Add a group.</strong> Count the Middle Years Programme too. How many label spellings does it need?</li><li><strong>Say what is missing.</strong> Write two sentences on why 25 directory pages cannot tell us how many international schools Germany has.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="moving">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Families on the move</p><h2>What happens to coding when a family moves to or from Germany?</h2><p class="ag-lede">Online classes travel. The mentor, the course and the progress stay the same when the school changes.</p></div>
+    <div class="ag-grid-3"><div><h3>Arriving in Germany</h3><p>A child joining an international school mid-year keeps the same weekly class through the move, which is one fewer thing that changes at once.</p></div><div><h3>Between programmes</h3><p>Moving from a Cambridge school to an IB one, or the reverse, we map what the new school expects and fill the gap in order.</p></div><div><h3>Leaving Germany</h3><p>Classes continue from the next country. Only the clock changes, and families choose times in their own time zone.</p></div></div>
+    <p class="ag-mt-40">Some families at international schools also follow the German system for a younger child, or plan a later move into a German Gymnasium. For them we teach the Informatik that German schools now ask for, in English, through our <a class="ag-inline-link" href="/courses/informatik-companion-course-klasse-5-10">Informatik companion course for Klasse 5 to 10</a>, and explain the German side on our <a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe page</a>.</p>
+    <p class="ag-mt-40">With children under 18 we keep to the age rules the AI providers set in their own terms: no tool with an adult minimum age is used in their classes. The <a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a> quotes the rules tool by tool.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>When can a pupil in Germany fit in a coding class?</h2><p class="ag-lede">International school days often end later than German ones, so many families choose late afternoon or Sunday morning. India, where the mentors are, runs 4 h 30 ahead in winter and 3 h 30 in summer.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Sample slots in German time, with the matching time in India</caption><thead><tr><th scope="col">Germany</th><th scope="col">India before 28 March 2027</th><th scope="col">India from 28 March 2027</th></tr></thead><tbody><tr><td>14:15</td><td>18:45</td><td>17:45</td></tr><tr><td>16:15</td><td>20:45</td><td>19:45</td></tr><tr><td>Sunday 09:45</td><td>14:15</td><td>13:15</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Under the Einheitenzeitgesetz Germany keeps UTC+1 (MEZ) in winter and UTC+2 (MESZ) in summer; the clocks changed on 25 October 2026 and change again on 28 March 2027. India is UTC+5:30 throughout. These are sample times, not fixed groups.</p>
+    <p class="ag-mt-40">Younger children usually do best with one class at the same time each week; exam-year pupils often add a second. The free first class is booked in your own clock.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Milestones</p>
+      <h2>From a first Scratch story to an exam project</h2>
+      <p class="ag-lede">How we track a pupil's progress across the years, whatever programme their school runs. These steps are ours.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Coding steps for international school pupils (ours)</caption><thead><tr><th scope="col">Step</th><th scope="col">Age, usually</th><th scope="col">What the pupil does</th></tr></thead><tbody><tr><td>1. Instructions</td><td class="ag-num">6 to 8</td><td class="ag-num">Builds a Scratch story with loops and events, and fixes it when it misbehaves</td></tr><tr><td>2. Typed code</td><td class="ag-num">8 to 11</td><td class="ag-num">Writes a Python game with variables, conditions and a score</td></tr><tr><td>3. Data</td><td class="ag-num">11 to 14</td><td class="ag-num">Reads a file, cleans it and counts, like the AGIS project above</td></tr><tr><td>4. Exam foundations</td><td class="ag-num">14 to 16</td><td class="ag-num">Traces algorithms and writes tested programs for IGCSE or the MYP</td></tr><tr><td>5. Own project</td><td class="ag-num">16 to 19</td><td class="ag-num">Plans, builds and defends a project for IB, A level or AP</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For pupils</h3><p>When a label is unclear, count it as unclear. Guessing is not data.</p>
+<p>Keep your old projects. Moving schools is easier with a portfolio.</p></div><div><h3>For parents</h3><p>Ask the school which computing courses run in which years before choosing options.</p>
+<p>A weekly class in the language of school survives a move better than a local club.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for international school pupils</h2>
+      <p class="ag-lede">Live and in English throughout, and the mentor a child starts with is the mentor they keep.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Primary years</h3>
+        <span class="ag-band-sub">Ages 6 to 11</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CIS / PY / 01</p>
+          <h4>Scratch programming</h4>
+          <p>Stories, games and the first loops.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIS / PY / 02</p>
+          <h4>Minecraft coding</h4>
+          <p>Code in a world children already know.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIS / PY / 03</p>
+          <h4>Computational thinking</h4>
+          <p>Puzzles that train exact thinking.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Middle years</h3>
+        <span class="ag-band-sub">Ages 11 to 15</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CIS / MY / 01</p>
+          <h4>Python for teens</h4>
+          <p>From first script to real projects.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIS / MY / 02</p>
+          <h4>JavaScript for teens</h4>
+          <p>Interactive pages and browser games.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIS / MY / 03</p>
+          <h4>Informatics competitions</h4>
+          <p>Biber and beyond, with puzzles of our own.</p>
+          <a class="ag-course-link" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Final exams</h3>
+        <span class="ag-band-sub">Ages 15 to 19</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CIS / EX / 01</p>
+          <h4>AP Computer Science A</h4>
+          <p>Java for pupils on an American track.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIS / EX / 02</p>
+          <h4>A Level Computer Science</h4>
+          <p>Cambridge 9618 after IGCSE.</p>
+          <a class="ag-course-link" href="/courses/cambridge-a-level-computer-science-9618-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIS / EX / 03</p>
+          <h4>IB Maths AA and AI</h4>
+          <p>Compulsory for every Diploma pupil.</p>
+          <a class="ag-course-link" href="/courses/ib-mathematics-aa-ai-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>How live classes fit an international school week in Germany</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Afternoon</p><p class="ag-slot-l">Weekday slots once the school day is over.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Sunday morning</p><p class="ag-slot-l">A calm slot before the week starts.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">One to one</p><p class="ag-slot-l">A time fixed with the mentor that moves with the school calendar.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>The child types</h3><p>Every program is built by the pupil, not shown on screen.</p></div>
+      <div><h3>School's language</h3><p>English, as at school, at a pace that suits.</p></div>
+      <div><h3>Programme-aware</h3><p>IB, Cambridge or American, the plan follows it.</p></div>
+      <div><h3>One mentor</h3><p>The same person through school moves.</p></div>
+      <div><h3>Age-safe tools</h3><p>No adult-only AI tools for under-18s.</p></div>
+      <div><h3>Class size</h3><p>A class of fifteen to twenty, or private lessons.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Made by our students</h2>
+      <p class="ag-lede">A handful of projects by our learners in many countries; <a class="ag-inline-link" href="/student-labs">student labs</a> collects more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for coding classes for international school pupils</h2>
+      <p class="ag-lede">Each month of eight live classes has a single fee. You see it here in euro, based on the European Central Bank reference rate; the payment is processed in US dollars and your bank converts it, which can leave a small difference on your statement.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short task matched to age and school stage</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Fifteen to twenty pupils of a similar age and level</li><li>One regular mentor</li><li>Two classes a week</li><li>Month to month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>One pupil, one mentor</li><li>Plan built around the school programme</li><li>Continues through a move abroad</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews our students and their parents posted on Google, copied without changes.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">International school families ask</p>
+      <h2>Coding for international school pupils in Germany: your questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. All classes are live and in English only, the language AGIS says its member schools teach in. The mentor keeps to your child's pace and accent.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>From what age can my child start?</h3>
+        <p>From 6, with Scratch. Most children move to typed Python around 8 to 10. There is no upper limit for school-age pupils.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you teach IB, IGCSE and AP Computer Science?</h3>
+        <p>Yes: IB Diploma Computer Science at SL and HL, Cambridge IGCSE Computer Science 0478, and AP Computer Science A and Principles. We follow whichever programme your child's school runs.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you connected with my child's school or with AGIS?</h3>
+        <p>No. We are an independent online school. We name schools on this page only as context from the AGIS directory, and we do not award grades or qualifications.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the IB Diploma recognised in Germany?</h3>
+        <p>AGIS describes its IB Diploma as equal in standing to the Abitur when the required subjects are taken. The KMK sets those combinations in its recognition agreement; your school's IB coordinator can say how they apply to your child.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What if we move to another country?</h3>
+        <p>Classes continue online with the same mentor. You choose new times in your new time zone.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes in German time?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Many international school families pick late afternoon or Sunday morning.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do we pay?</h3>
+        <p>Fees appear in euro, converted at the European Central Bank reference rate, and are charged in US dollars; your bank does the conversion, so its figure can be a little different. The first class is free.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will my child use AI tools?</h3>
+        <p>Only tools whose providers allow your child's age. Several set 18 as the minimum and we never use those with under-18 pupils.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can siblings of different ages join?</h3>
+        <p>Yes, in different groups by age and level, or one to one each. Families with two children often book back-to-back slots.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Further pages for families at international schools.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Our main page for families in Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ib-computer-science-online-tuition">IB Computer Science, worldwide page</a></h3><p>The Diploma course in depth.</p></div>
+      <div><h3><a class="ag-inline-link" href="/cambridge-igcse-computer-science-tuition">IGCSE Computer Science tuition</a></h3><p>Cambridge 0478 in depth.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a></h3><p>Java for the AP exam.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-roadmap">Coding roadmap</a></h3><p>How the skills build over the years.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a></h3><p>Tool ages from the providers' terms.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first coding class</h2>
+        <p class="ag-lede">The mentor asks about your child's age, school programme and any coding so far, gives a short task to find the right level, and suggests a starting course, all in English and at a comfortable pace.</p>
+        <p class="ag-mt-40">You can also read <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or browse <a class="ag-inline-link" href="/courses">every course</a> first.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20at%20an%20international%20school%20in%20Germany.%20Could%20we%20book%20a%20free%20first%20coding%20class%20in%20English%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cis',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our classes are live online, in English, with mentors who work from India. WhatsApp in English is the quickest route to us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cis(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free, without card details.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>School programmes</h4><ul><li><a href="/ib-computer-science-online-tuition">IB Computer Science</a></li><li><a href="/cambridge-igcse-computer-science-tuition">IGCSE Computer Science</a></li><li><a href="/ap-computer-science-a-online-classes">AP Computer Science A</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-classes-for-kids-berlin">Coding for kids in Berlin</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/abitur-maths-in-english">Abitur maths in English</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Unclear is an answer too</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cis = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'coding-for-international-school-students-germany-inline', meta: { name: name, age: age, page: 'coding-for-international-school-students-germany' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

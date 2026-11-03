@@ -747,6 +747,7 @@ const SLUGS = [
   'ib-computer-science-tutor-germany',
   'igcse-computer-science-tutor-germany',
   'ap-computer-science-tutor-germany',
+  'coding-for-international-school-students-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1573,6 +1574,7 @@ const LLMS_LABELS = {
   'ib-computer-science-tutor-germany': 'IB Computer Science tutor in Germany',
   'igcse-computer-science-tutor-germany': 'IGCSE Computer Science tutor in Germany',
   'ap-computer-science-tutor-germany': 'AP Computer Science tutor in Germany',
+  'coding-for-international-school-students-germany': 'Coding for international school students in Germany',
 };
 
 function wireLlms(slugs) {
