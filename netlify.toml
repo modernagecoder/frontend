@@ -30541,6 +30541,18 @@
   to = "/src/pages/coding-classes-in-thuringia.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/programmieren-lernen-ab-12"
+  to = "/src/pages/programmieren-lernen-ab-12.html"
+  status = 200
+
+[[redirects]]
+  from = "/programmieren-lernen-ab-12.md"
+  to = "/src/pages/programmieren-lernen-ab-12.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -124,7 +124,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE100 | coding-classes-in-mecklenburg-vorpommern (cmv, #7A5266) | land (en) | 4,023 | 1.9% vs coding-and-maths-classes-in-berlin-germany | Coding Classes in Mecklenburg-Vorpommern: Online in English | test a formula on shapes you can check by hand before you trust it on real data (the shoelace formula), | c5ad4f31 |
 | DE101 | coding-classes-in-saxony (sac, #236675) | land (en) | 4,181 | 2.3% vs coding-classes-in-mecklenburg-vorpommern | Coding Classes in Saxony: Live Online in English, Klasse 7+ | percent, percentage points and growth factor are three different answers; say which one you mean | 83366b7f |
 | DE102 | coding-classes-in-saxony-anhalt (anc, #444967) | land (en) | 4,092 | 2% vs coding-classes-in-baden-wuerttemberg | Coding Classes in Saxony-Anhalt: Live Online in English | group the rows that belong together before you rank, then decide which rows count (aggregation and | e2891abe |
-| DE103 | coding-classes-in-thuringia (cth, #504663) | land (en) | 3,960 | 2.1% vs coding-classes-in-brandenburg | Coding Classes in Thuringia: Live Online in English | a name is not a key; use the unique identifier, or a dictionary silently overwrites rows | (this commit) |
+| DE103 | coding-classes-in-thuringia (cth, #504663) | land (en) | 3,960 | 2.1% vs coding-classes-in-brandenburg | Coding Classes in Thuringia: Live Online in English | a name is not a key; use the unique identifier, or a dictionary silently overwrites rows | df4230cb |
+| DE056 | programmieren-lernen-ab-12 (ple, #425B8F) | door-de (de) | 3,922 | 2.5% vs informatik-abitur-vorbereitung | Programmieren lernen ab 12: live online auf Englisch | halve what is left; a good guessing strategy needs at most seven questions for 1 to 100 (binary search) | (this commit) |
 
 ## Notes
 
