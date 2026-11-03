@@ -775,6 +775,7 @@ const SLUGS = [
   'a-level-maths-tutor-online-germany',
   'coding-and-maths-for-indian-families-in-germany',
   'coding-classes-for-kids-germany',
+  'online-coding-classes-for-kids-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1629,6 +1630,7 @@ const LLMS_LABELS = {
   'a-level-maths-tutor-online-germany': 'A level maths tutor online in Germany',
   'coding-and-maths-for-indian-families-in-germany': 'Coding and maths for Indian families in Germany',
   'coding-classes-for-kids-germany': 'Coding classes for kids in Germany',
+  'online-coding-classes-for-kids-germany': 'Online coding classes for kids in Germany',
 };
 
 function wireLlms(slugs) {
