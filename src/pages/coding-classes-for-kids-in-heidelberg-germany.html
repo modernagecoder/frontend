@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding Classes for Kids in Heidelberg: Live, in English</title>
+  <meta name="description" content="Coding classes for kids in Heidelberg aged 6 to 12, live online in English: the new BW Informatik subject, a first contest, and a Heidelberg weather sensor project.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-classes-for-kids-in-heidelberg-germany">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-classes-for-kids-in-heidelberg-germany.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#715735">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-classes-for-kids-in-heidelberg-germany">
+  <meta property="og:title" content="Coding Classes for Kids in Heidelberg: Live, in English">
+  <meta property="og:description" content="Live coding lessons in English for Heidelberg children of 6 to 12: when Baden-Württemberg schools start Informatik, what younger children can learn first, and a project on the city's street weather sensors that catches three broken readings.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding Classes for Kids in Heidelberg: Live, in English">
+  <meta name="twitter:description" content="Coding for Heidelberg kids, live in English: BW Informatik from grade 5 and a weather sensor project.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-hei .ag-hero h1 { letter-spacing: -0.008em; }
+.ag-root.ag-hei .ag-capsule { border-left-width: 4px; border-radius: 3px; }
+.ag-root.ag-hei .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-hei .ag-table caption { text-align: left; font-weight: 600; letter-spacing: 0.01em; }
+.ag-root.ag-hei .ag-code-note { font-size: 0.95rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-classes-for-kids-in-heidelberg-germany#page","url":"https://learn.modernagecoders.com/coding-classes-for-kids-in-heidelberg-germany","name":"Coding Classes for Kids in Heidelberg","description":"A guide for Heidelberg parents of children aged 6 to 12 to learning to code in English, built on Gesellschaft für Informatik and KMK sources, BWINF and Känguru dates, and an original project on the City of Heidelberg's open weather sensor data.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Baden-Württemberg","item":"https://learn.modernagecoders.com/coding-classes-in-baden-wuerttemberg"},{"@type":"ListItem","position":5,"name":"Kids in Heidelberg","item":"https://learn.modernagecoders.com/coding-classes-for-kids-in-heidelberg-germany"}]},{"@type":"Course","name":"Coding Classes for Kids in Heidelberg","description":"Live online coding classes in English for Heidelberg children aged 6 to 12: puzzles and Scratch first, then typed Python and small data projects, one to one or in an age-matched group of fifteen to twenty, with one regular mentor.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-classes-for-kids-in-heidelberg-germany"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-kids-in-heidelberg-germany"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-kids-in-heidelberg-germany"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. Lessons are live and only ever in English. Mentors keep sentences short, demonstrate on screen before they explain, and tune their speed to how your child speaks and listens, which makes them easy to follow for a child whose English is still growing."}},{"@type":"Question","name":"From what age can my child start?","acceptedAnswer":{"@type":"Answer","text":"At 6. The youngest begin with picture puzzles and Scratch blocks that click into place, so no typing is needed. Around 9, children who read comfortably can switch to typed Python."}},{"@type":"Question","name":"Do Heidelberg schools teach coding?","acceptedAnswer":{"@type":"Answer","text":"From grade 5. Baden-Württemberg introduced the compulsory subject Informatik und Medienbildung from the 2025/26 school year, starting in grades 5 and 6. Grundschule, grades 1 to 4, has no Informatik subject."}},{"@type":"Question","name":"Will this clash with Informatik in grade 5?","acceptedAnswer":{"@type":"Answer","text":"No. We teach alongside school, and the school course and its teacher remain the ones that count for marks. Children who have coded before usually find the start of the school subject easier and more fun."}},{"@type":"Question","name":"When are classes in Heidelberg time?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Most Heidelberg children take an afternoon slot or a Saturday morning."}},{"@type":"Question","name":"Who are the teachers?","acceptedAnswer":{"@type":"Answer","text":"Mentors based in India who teach live over video. India is four and a half hours ahead of Heidelberg in winter, so a 15:15 class here is 19:45 for the mentor."}},{"@type":"Question","name":"How many children are in a class?","acceptedAnswer":{"@type":"Answer","text":"Batches hold fifteen to twenty children close in age. If you would rather your child had the mentor alone, the one-to-one plan means two private lessons weekly, scheduled with you."}},{"@type":"Question","name":"What is the Informatik-Biber?","acceptedAnswer":{"@type":"Answer","text":"A national online puzzle contest with no entry fee and no coding needed, for grades 3 up to 13. Primary children get nine tasks and 30 minutes. This year it is held between 9 and 20 November 2026, with entry through the school."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"You pay month by month. Prices here appear in euro using the European Central Bank reference rate, the charge runs in US dollars, and your bank converts it, so expect a small difference on the statement. Trying the first class is free."}},{"@type":"Question","name":"Does my child use AI chatbots in class?","acceptedAnswer":{"@type":"Answer","text":"Not on adult accounts. Younger children learn how AI works through safe examples, and every child writes and explains their own code. We teach thinking, not copying answers from people or machines."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-classes-for-kids-in-heidelberg-germany","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-hei">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#bw">BW school</a></li>
+      <li><a href="#sensors">Weather</a></li>
+      <li><a href="#english">In English</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / <a href="/coding-classes-in-baden-wuerttemberg">Baden-Württemberg</a> / Kids in Heidelberg
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Heidelberg &middot; Children 6 to 12 &middot; Live online</p>
+        <h1>Coding classes for kids in Heidelberg</h1>
+        <p class="ag-lede">A Heidelberg pupil now meets Informatik as a required subject in grade 5; Baden-Württemberg brought that rule in for 2025/26. That is good news, and it also means a Heidelberg child in Grundschule has four years before the first computing lesson. Here is what a child of 6 to 12 can learn in those years, how our live English classes work for that age, a free contest that fits a primary pupil, and a small project on Heidelberg's own street weather sensors that ends with a lesson about not believing every number.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#sensors" class="ag-btn ag-btn--ghost">See the weather project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20live%20in%20Heidelberg%20and%20our%20child%20would%20like%20to%20learn%20coding%20in%20English.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'hei'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching children live since 2020 &middot; 10,000+ students worldwide &middot; one mentor per child, in English</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Ages</dt><dd>6 to 12, in age bands</dd>
+          <dt>First steps</dt><dd>Puzzles, Scratch, then Python from about 9</dd>
+          <dt>Class size</dt><dd>Fifteen to twenty, or just your child</dd>
+          <dt>Lesson length</dt><dd>One hour, twice a week</dd>
+          <dt>Teachers</dt><dd>Mentors in India, teaching in English</dd>
+          <dt>Trial</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Modern Age Coders runs coding classes for kids in Heidelberg as live video lessons in English, for any child from 6 to 12. Younger children start with puzzles and Scratch, older ones move to typed Python and small projects with real Heidelberg data. One regular mentor matches your child's pace and accent, one to one or in an age-matched batch of up to twenty, after school or at weekends.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to begin</p>
+      <h2>Which coding course suits a Heidelberg child of 6 to 12?</h2>
+      <p class="ag-lede">The right first course depends more on how a child reads and types than on their exact age. These three cover most Heidelberg families.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/reasoning-and-readiness-course-for-young-thinkers">
+        <div class="ag-pick-shot"><img src="/images/reasoning-readiness-young-thinkers.webp" alt="Reasoning and Readiness for Young Thinkers (Ages 6 to 9) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HEI / 01</p>
+          <h3>Reasoning for Young Thinkers</h3>
+          <p>Built for children of six to nine: spotting a rule, putting things in order and solving small puzzles, the habits a coder needs before the first line.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/kids-coding-blocks-masterclass">
+        <div class="ag-pick-shot"><img src="/images/kids-coding.webp" alt="Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HEI / 02</p>
+          <h3>Coding for Kids</h3>
+          <p>The long route from Scratch blocks to games, apps and a first taste of AI, with batches grouped by age.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HEI / 03</p>
+          <h3>Python and AI for Kids</h3>
+          <p>For confident readers of about nine and up. Real typed code, drawings, games and data, like the sensor project below.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="bw">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">School in Baden-Württemberg</p><h2>When does a Heidelberg child first have Informatik at school?</h2><p class="ag-lede">In grade 5, under a rule that is only one school year old. Before that, in Grundschule, there is no Informatik subject.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>A new compulsory subject</h3><p>The Gesellschaft für Informatik reports that from the 2025/26 school year Baden-Württemberg introduced the compulsory subject Informatik und Medienbildung across secondary school types, beginning with grades 5 and 6 and adding a grade each year. Its 2026/27 Informatik-Monitor counts Baden-Württemberg among four Länder that now meet the recommendation of four compulsory hours.</p>
+<p>For a Heidelberg family, that means a child who starts secondary school will meet computing as a real subject, in a Gymnasium, Realschule or Gemeinschaftsschule alike.</p></div><div><h3>Four years before it starts</h3><p>As in most Länder, Heidelberg children spend grades 1 to 4 at Grundschule. Those are the years from about 6 to about 10, and they have no Informatik subject of their own.</p>
+<p>The monitor adds a less cheerful figure: across Baden-Württemberg roughly one pupil in twelve in the Oberstufe picks Informatik. The report does not say why so few choose it; our view is simply that a child who already enjoys coding has one more reason to keep it.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Computing for a Heidelberg child, by grade</caption><thead><tr><th scope="col">Grades</th><th scope="col">Typical age</th><th scope="col">At school</th><th scope="col">What our classes add</th></tr></thead><tbody><tr><td>1 and 2</td><td>6 to 8</td><td>Grundschule, no Informatik</td><td>Puzzles, patterns and Scratch stories</td></tr><tr><td>3 and 4</td><td>8 to 10</td><td>Grundschule, no Informatik</td><td>Scratch games, then typed Python for confident readers</td></tr><tr><td>5 and 6</td><td>10 to 12</td><td>Compulsory Informatik und Medienbildung</td><td>Python projects that go further than the lesson</td></tr><tr><td>From 7</td><td>12 and up</td><td>The new subject grows year by year</td><td>Teen courses in Python, web and AI</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: Gesellschaft für Informatik, Informatik-Monitor 2026/27, national page and page for Baden-Württemberg; KMK, Primarbereich; both read on 2 November 2026. The right-hand column is ours. Population: Destatis, Gemeindeverzeichnis, 31 December 2024: Heidelberg 155,756, Baden-Württemberg 11,245,898.</p>
+    <p class="ag-mt-40">So the question for a Heidelberg parent is not whether school will teach computing, because from grade 5 it will. It is whether your child arrives in grade 5 already used to breaking a problem into steps, testing an idea and fixing a mistake without giving up. That is what the first years of our classes are for. We teach alongside school, never instead of it, and the school's Informatik teacher stays the one who sets the marks.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Taught in English</p><h2>Can a Heidelberg child learn coding in English if English is not their first language?</h2><p class="ag-lede">Yes. Every class is live and in English only, and the mentor shapes the English to the child.</p></div>
+    <div class="ag-grid-3"><div><h3>Short, clear sentences</h3><p>Mentors speak slowly to younger children, show before they tell and check with a question rather than a long explanation. A seven year old needs only a handful of words to start: move, turn, repeat, if.</p></div><div><h3>Your child's accent is fine</h3><p>The mentor gets used to how your child speaks within a class or two. A child who answers with one word, or drops in a German word, is understood and simply hears the English one back.</p></div><div><h3>A bonus for school</h3><p>Heidelberg children at German schools practise listening and speaking English in a setting that is not a test. Children at bilingual or international schools in the region carry on in the language they already learn in.</p></div></div>
+    <p class="ag-mt-40">We say plainly that we do not offer lessons in German. Your child's mentor works from India over a live video link and stays the same from one week to the next. By the second month that mentor can tell whether your child wants harder puzzles, needs a quiet pause before answering, or learns fastest by tinkering with a finished game.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="sensors">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real Heidelberg project</p><h2>Was it really 22.5 degrees in Heidelberg on a November evening?</h2><p class="ag-lede">Heidelberg has small weather sensors on streets and squares across the city, and it shares their readings as open data that anyone may reuse. One evening of readings is enough for a project that teaches children to ask whether a number can be true.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The data</h3><p>The City of Heidelberg publishes the readings of its Barani street weather sensors through its data platform, listed on GovData with the licence CC0 1.0. We downloaded every sensor's latest reading on 3 November 2026, at about 17:55 UTC, which was just before 19:00 in Heidelberg.</p>
+<p>There are 25 sensors in the file. Two are wind sensors with no temperature, which leaves 23 temperatures, from places such as Bismarckplatz, Uniplatz, Bahnstadt, Pfaffengrund, Wieblingen and Boxberg.</p></div><div><h3>The question</h3><p>What was the temperature in Heidelberg that evening? A child's first idea is a good one: add up all the sensors and divide by how many there are. That is the average.</p>
+<p>Children work from a tidy file called heidelberg_sensors.csv. Each line holds a place name, a temperature and the moment it was measured. Version 1 follows the child's plan exactly.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: average every sensor</b><span>Python</span></figcaption><pre>import csv
+
+temps = []
+with open("heidelberg_sensors.csv", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        if row["temp"] != "":
+            temps.append(float(row["temp"]))
+
+print("Sensors with a temperature:", len(temps))
+print("Average:", round(sum(temps) / len(temps), 1))
+print("Warmest:", max(temps), " Coldest:", min(temps))</pre><p class="ag-code-note">It prints <code>Sensors with a temperature: 23</code>, <code>Average: 22.5</code> and <code>Warmest: 104.7  Coldest: 7.2</code>.</p></figure>
+    <p class="ag-mt-40">A Heidelberg evening in November at 22.5 degrees? Children laugh at this before any adult does. The warmest reading, 104.7, is hotter than boiling water, and it appears three times. Looking at the file shows more: one sensor in Neuenheim last reported in May 2023, one in Pfaffengrund in July 2023, and one in Bergheim on 19 July 2026, a summer evening. Their numbers are old news, still sitting in the list.</p>
+    <p>So Version 2 asks two questions of every reading. Is it from today? And does it roughly agree with its neighbours? For the second question we sort today's readings and take the one in the middle, then set aside any reading more than 3 degrees away from it.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: today only, and close to the middle</b><span>Python</span></figcaption><pre>import csv
+
+rows = []
+with open("heidelberg_sensors.csv", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        if row["temp"] != "":
+            rows.append((row["place"], float(row["temp"]), row["time"]))
+
+today = [r for r in rows if r[2].startswith("2026-11-03")]
+values = sorted(t for _, t, _ in today)
+middle = values[len(values) // 2]
+print("Readings from today:", len(today), " Middle value:", middle)
+
+good = []
+for place, temp, time in today:
+    if abs(temp - middle) &gt; 3:
+        print("Does not agree with its neighbours:", place, temp)
+    else:
+        good.append(temp)
+
+print("Readings we trust:", len(good))
+print("Average we trust:", round(sum(good) / len(good), 1))</pre><p class="ag-code-note">It prints <code>Readings from today: 20  Middle value: 8.4</code>, then <code>Does not agree with its neighbours:</code> for Neuenheim Haydnstr. 104.7, Altstadt Uniplatz West 104.7 and Handschuhsheim Mühltalstr. 21.8, then <code>Readings we trust: 17</code> and <code>Average we trust: 8.3</code>.</p></figure>
+    <p class="ag-mt-40">The trusted average is 8.3 degrees, which matches a damp November evening. The middle value works as a referee because a few wild numbers cannot move it: the sensor in the middle of the queue is still an ordinary one. Notice what Version 2 did not throw out. Boxberg read 7.2, more than a degree below the middle, but a degree or so is a believable difference between two parts of one city, so it stays. The rule is "far from the neighbours", not "different".</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Heidelberg sensor readings set aside, 3 November 2026 (our check)</caption><thead><tr><th scope="col">Sensor</th><th scope="col">Reading</th><th scope="col">Why we set it aside</th></tr></thead><tbody><tr><td>Neuenheim Haydnstr.</td><td class="ag-num">104.7</td><td>Far from the middle value of 8.4</td></tr><tr><td>Altstadt Uniplatz West</td><td class="ag-num">104.7</td><td>Far from the middle value of 8.4</td></tr><tr><td>Handschuhsheim Mühltalstr.</td><td class="ag-num">21.8</td><td>Far from the middle value of 8.4</td></tr><tr><td>Neuenheim Bürgeramt</td><td class="ag-num">104.7</td><td>Last reading 8 May 2023</td></tr><tr><td>Pfaffengrund Richard Drach Str</td><td class="ag-num">18.7</td><td>Last reading 27 July 2023</td></tr><tr><td>Bergheim Alte Eppelheimerstr.</td><td class="ag-num">21.8</td><td>Last reading 19 July 2026</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Data: Stadt Heidelberg, Wetterstationen der Stadt Heidelberg (Barani), licence CC0 1.0, latest readings downloaded 3 November 2026 at about 17:55 UTC. The checks and averages are our own. The data does not say why the readings are wrong, so we do not guess; 104.7 appearing three times looks like an error code rather than a temperature, but that is a question to ask the data owner, not a fact.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Ages 6 to 8, no screen.</strong> Ask five family members to guess the temperature outside, then add a sixth guess of 100. Line the guesses up from smallest to largest and point to the middle one. Did the 100 change it?</li><li><strong>Ages 8 to 10, Scratch.</strong> Put the 23 readings in a list, work out the average, then delete the three biggest and do it again. Say in one sentence why the answers differ.</li><li><strong>Ages 10 to 12, Python.</strong> Start with Version 1. Open the CSV and find the oldest date by eye. Now code your own date filter, and only then compare it with Version 2.</li><li><strong>Going further.</strong> Change the 3 degrees in Version 2 to 1 degree. Which honest sensor is now thrown out by mistake?</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="contests">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">First contests</p><h2>Is there a free coding contest for a Heidelberg primary pupil?</h2><p class="ag-lede">Yes, and it runs this month. Maths lovers have a second one in April 2027. We are not connected to either organiser.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Informatik-Biber, November 2026</h3><p>Bundesweite Informatikwettbewerbe organises the Informatik-Biber, which costs nothing and asks for no coding experience. It is open from grade 3 up to grade 13. A primary pupil gets nine tasks and half an hour; the 2026 Biberwochen are 9 to 20 November 2026.</p>
+<p>Entry goes through a school, which signs its classes up and holds the contest during a lesson. A quick message to the class teacher tells you whether your child's school is in.</p></div><div><h3>Känguru der Mathematik, April 2027</h3><p>The Känguru maths contest normally sits in March, but its organisers moved the 2027 contest to 8 April 2027 because the usual date fell just before the Easter holidays in almost every Land. Online registration opens on 1 December 2026 and closes on 31 January 2027.</p>
+<p>Like the Biber, it is entered through the school, which registers the class.</p></div></div>
+    <p class="ag-mt-40">Neither contest's tasks appear in our lessons. Our mentors invent fresh puzzles about hidden rules, orderings and short paths, and families who want the real style are sent to the organisers' own free practice sets.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>When are the classes in Heidelberg time?</h2><p class="ag-lede">Classes sit in Heidelberg afternoons and weekend mornings, which are evenings and afternoons for a mentor in India.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Example Heidelberg times and the clock in India</caption><thead><tr><th scope="col">Heidelberg</th><th scope="col">India, winter until 27 March 2027</th><th scope="col">India, summer from the end of March 2027</th></tr></thead><tbody><tr><td>Tuesday 15:15</td><td>19:45</td><td>18:45</td></tr><tr><td>Friday 14:15</td><td>18:45</td><td>17:45</td></tr><tr><td>Saturday 11:30</td><td>16:00</td><td>15:00</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Heidelberg runs on MEZ (UTC+1) through the winter and MESZ (UTC+2) through the summer, as the Einheitenzeitgesetz sets out. This autumn's change was on 25 October 2026; the spring one falls on 28 March 2027. Indian clocks never change from UTC+5:30, so the gap is four and a half hours now and three and a half from late March. Treat the rows as examples; batches have no fixed time.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Baden-Württemberg school holidays 2026/27 (KMK table)</caption><thead><tr><th scope="col">Holiday</th><th scope="col">Dates</th></tr></thead><tbody><tr><td>Autumn</td><td>26 to 31 October 2026</td></tr><tr><td>Christmas</td><td>23 December 2026 to 9 January 2027</td></tr><tr><td>Easter</td><td>25 March, then 30 March to 3 April 2027</td></tr><tr><td>Whitsun</td><td>18 to 29 May 2027</td></tr><tr><td>Summer</td><td>29 July to 11 September 2027</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: KMK, Ferien im Schuljahr 2026/2027, Stand 9 October 2025, first and last holiday days for Baden-Württemberg. Classes continue in the holidays; many families pause for a trip and simply carry on afterwards.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Milestones</p>
+      <h2>How will I know my child is making progress?</h2>
+      <p class="ag-lede">Five stages we use to match a child to a batch and to show parents what has moved on. They are ours, not a school scale.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Five stages for Heidelberg children (our scale)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Usual age</th><th scope="col">Your child can</th></tr></thead><tbody><tr><td>1. Order</td><td class="ag-num">6 to 7</td><td class="ag-num">Put picture steps in the right order and spot the step that is missing</td></tr><tr><td>2. Repeat</td><td class="ag-num">7 to 8</td><td class="ag-num">Make a Scratch character repeat a dance and stop at the right moment</td></tr><tr><td>3. Decide</td><td class="ag-num">8 to 9</td><td class="ag-num">Use if and else so a game reacts differently to a win and a loss</td></tr><tr><td>4. Type</td><td class="ag-num">9 to 11</td><td class="ag-num">Type a short Python program and calmly read the error message it gives</td></tr><tr><td>5. Doubt</td><td class="ag-num">10 to 12</td><td class="ag-num">Check data for old or impossible values before trusting an answer</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 5 is the sensor project. It is the stage we care about most, because a child who asks "can that be true?" carries the question far beyond coding.</p>
+<p>Reports to parents describe what was built and what your child could explain, not screen time.</p></div><div><h3>For children</h3><p>If a computer tells you something odd, it is not always right. Look at the numbers it used.</p>
+<p>The middle of a sorted list is hard to fool. One silly number cannot move it far.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More for children</p>
+      <h2>Nine more courses for Heidelberg children</h2>
+      <p class="ag-lede">Each is taught live in English by a regular mentor, for a single child or an age-matched batch.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Thinking skills</h3>
+        <span class="ag-band-sub">Ages 5 to 14</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HEI / THI / 01</p>
+          <h4>Computational thinking</h4>
+          <p>Logic puzzles in the spirit of the Biber, all written by us.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HEI / THI / 02</p>
+          <h4>AI literacy for kids</h4>
+          <p>How a machine learns from examples, with no adult accounts.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HEI / THI / 03</p>
+          <h4>Mental maths</h4>
+          <p>Number sense for 5 to 10 year olds, without tricks.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Games and blocks</h3>
+        <span class="ag-band-sub">Ages 6 to 14</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HEI / GAM / 01</p>
+          <h4>Scratch for kids</h4>
+          <p>A complete first course that ends with real games.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HEI / GAM / 02</p>
+          <h4>Minecraft coding</h4>
+          <p>Code inside a world children already love.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HEI / GAM / 03</p>
+          <h4>Roblox coding</h4>
+          <p>Scripted Roblox games in Luau, 8 to 14.</p>
+          <a class="ag-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Building things</h3>
+        <span class="ag-band-sub">Ages 8 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HEI / MAK / 01</p>
+          <h4>Apps for kids</h4>
+          <p>Phone apps built with blocks that really run.</p>
+          <a class="ag-course-link" href="/courses/block-coding-app-development-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HEI / MAK / 02</p>
+          <h4>First websites</h4>
+          <p>A child's own web page, from 9.</p>
+          <a class="ag-course-link" href="/courses/kids-ai-web-development-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HEI / MAK / 03</p>
+          <h4>Hackathon for kids</h4>
+          <p>A twelve-week build towards one shared event.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>How do live coding classes work for a Heidelberg family?</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After Grundschule</p><p class="ag-slot-l">Heidelberg afternoons, once homework is done.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Saturday</p><p class="ag-slot-l">A calm late-morning slot for younger children.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Solo</p><p class="ag-slot-l">A time you agree with your child's own mentor.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>One familiar face</h3><p>The same mentor every week, who learns your child's way of thinking.</p></div>
+      <div><h3>Age bands</h3><p>Six year olds learn with six year olds, not with twelves.</p></div>
+      <div><h3>Hands on</h3><p>Your child drives the mouse and keyboard from the start.</p></div>
+      <div><h3>Gentle English</h3><p>Short sentences, shown first, repeated kindly.</p></div>
+      <div><h3>Notes for parents</h3><p>What was made, what was tricky, what is next.</p></div>
+      <div><h3>Batch or solo</h3><p>A class of up to twenty, or a mentor all to themselves.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Where young coders can go next</h2>
+      <p class="ag-lede">Projects by some of our older students, to show where an early start can lead; the <a class="ag-inline-link" href="/student-labs">student labs</a> page has more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for Heidelberg families</h2>
+      <p class="ag-lede">Each month's fee pays for eight live classes. We print the amounts in euro, converted with the reference rate of the European Central Bank, while the card payment itself goes through in US dollars; your bank handles the exchange, so the figure on the statement may move a little.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A puzzle and a first small program</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>An age-matched batch of fifteen to twenty</li><li>One regular mentor</li><li>Two classes each week</li><li>Monthly, stop whenever you like</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Your child with their own mentor</li><li>Pace and projects set around your child</li><li>Times that fit your week</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What parents and students wrote on Google, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Heidelberg parents ask</p>
+      <h2>Coding classes for kids in Heidelberg: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. Lessons are live and only ever in English. Mentors keep sentences short, demonstrate on screen before they explain, and tune their speed to how your child speaks and listens, which makes them easy to follow for a child whose English is still growing.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>From what age can my child start?</h3>
+        <p>At 6. The youngest begin with picture puzzles and Scratch blocks that click into place, so no typing is needed. Around 9, children who read comfortably can switch to typed Python.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do Heidelberg schools teach coding?</h3>
+        <p>From grade 5. Baden-Württemberg introduced the compulsory subject Informatik und Medienbildung from the 2025/26 school year, starting in grades 5 and 6. Grundschule, grades 1 to 4, has no Informatik subject.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will this clash with Informatik in grade 5?</h3>
+        <p>No. We teach alongside school, and the school course and its teacher remain the ones that count for marks. Children who have coded before usually find the start of the school subject easier and more fun.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes in Heidelberg time?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Most Heidelberg children take an afternoon slot or a Saturday morning.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who are the teachers?</h3>
+        <p>Mentors based in India who teach live over video. India is four and a half hours ahead of Heidelberg in winter, so a 15:15 class here is 19:45 for the mentor.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many children are in a class?</h3>
+        <p>Batches hold fifteen to twenty children close in age. If you would rather your child had the mentor alone, the one-to-one plan means two private lessons weekly, scheduled with you.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the Informatik-Biber?</h3>
+        <p>A national online puzzle contest with no entry fee and no coding needed, for grades 3 up to 13. Primary children get nine tasks and 30 minutes. This year it is held between 9 and 20 November 2026, with entry through the school.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost?</h3>
+        <p>You pay month by month. Prices here appear in euro using the European Central Bank reference rate, the charge runs in US dollars, and your bank converts it, so expect a small difference on the statement. Trying the first class is free.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child use AI chatbots in class?</h3>
+        <p>Not on adult accounts. Younger children learn how AI works through safe examples, and every child writes and explains their own code. We teach thinking, not copying answers from people or machines.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Heidelberg parents.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-baden-wuerttemberg">Coding classes in Baden-Württemberg</a></h3><p>The Land's school rules and dates.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-kids-germany">Coding classes for kids in Germany</a></h3><p>Our children's courses across Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/scratch-classes-for-kids-germany">Scratch classes for kids</a></h3><p>The usual first step for under nines.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-course-for-kids-germany">AI course for kids</a></h3><p>How children learn about AI safely.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a></h3><p>Which tools allow which ages.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Our live lessons in detail.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class for your child</h2>
+        <p class="ag-lede">In the trial lesson your child solves a little puzzle and builds a very small program. Watching that, the mentor learns how your child tackles problems and copes with English, and recommends a course and an age band.</p>
+        <p class="ag-mt-40">To read more first, <a class="ag-inline-link" href="/how-we-teach">how we teach</a> explains our classes, and <a class="ag-inline-link" href="/courses">all courses</a> lists each syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20live%20in%20Heidelberg%20and%20our%20child%20would%20like%20to%20learn%20coding%20in%20English.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'hei',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our mentors teach from India, live and in English only. Message us on WhatsApp in English for the quickest answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_hei(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, with no card and nothing to sign.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Children</h4><ul><li><a href="/coding-classes-for-kids-germany">Kids coding in Germany</a></li><li><a href="/scratch-classes-for-kids-germany">Scratch for kids</a></li><li><a href="/ai-course-for-kids-germany">AI for kids</a></li><li><a href="/ai-tools-age-guide">AI tools age guide</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-classes-in-baden-wuerttemberg">Baden-Württemberg</a></li><li><a href="/student-labs">Student projects</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Ask the middle value first</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_hei = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'coding-classes-for-kids-in-heidelberg-germany-inline', meta: { name: name, age: age, page: 'coding-classes-for-kids-in-heidelberg-germany' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

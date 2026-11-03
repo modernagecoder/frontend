@@ -160,7 +160,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE155 | coding-and-ai-classes-in-magdeburg-germany (mac, #4B2D3C) | city-t2 (en) | 4,018 | 1.4% vs coding-classes-for-kids-berlin | Coding and AI Classes in Magdeburg: Live Online, in English | misses and false alarms, not accuracy; a rare event makes "always no" look clever | fe8886a3 |
 | DE156 | online-python-classes-freiburg-im-breisgau-germany (pfb, #084465) | city-t2 (en) | 3,812 | 1.8% vs online-python-classes-moenchengladbach-germany | Online Python Classes in Freiburg: Live Lessons in English | do not count the same thing twice; a total row inside a table must be checked, then used alone | 90dbb098 |
 | DE157 | coding-classes-for-kids-in-krefeld-germany (ckr, #23396A) | city-t2 (en) | 3,748 | 1.9% vs coding-classes-for-kids-in-chemnitz-germany | Coding Classes for Kids in Krefeld, Live Online in English | tally and sort; before you crown the top of a list, check that it is a real thing and not a label | d54cde7d |
-| DE177 | online-python-classes-herne-germany (phe, #973B22) | city-t2 (en) | 4,576 | 2% vs coding-classes-for-kids-dusseldorf | Online Python Classes in Herne: Live and in English | sweep events in time order with a running count, and decide how ties sort (a closing year before an | (this commit) |
+| DE177 | online-python-classes-herne-germany (phe, #973B22) | city-t2 (en) | 4,576 | 2% vs coding-classes-for-kids-dusseldorf | Online Python Classes in Herne: Live and in English | sweep events in time order with a running count, and decide how ties sort (a closing year before an | 538edf22 |
+| DE178 | coding-classes-for-kids-in-heidelberg-germany (hei, #715735) | city-t2 (en) | 4,147 | 1.9% vs coding-classes-for-kids-in-karlsruhe-germany | Coding Classes for Kids in Heidelberg: Live, in English | before you average sensors, check each reading's date and whether it agrees with its neighbours (the | (this commit) |
 
 ## Notes
 
