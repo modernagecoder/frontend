@@ -145,7 +145,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE134 | coding-classes-for-kids-dresden (cdr, #005730) | city-t1 (en) | 3,844 | 1.7% vs coding-classes-for-kids-essen | Coding Classes for Kids in Dresden: Live Online, in English | distance on a map grid with Pythagoras, and the nested loop that compares every pair | 53ced106 |
 | DE137 | coding-classes-for-kids-hannover (cha, #562B42) | city-t1 (en) | 3,967 | 1.8% vs coding-classes-for-kids-dresden | Coding Classes for Kids in Hannover: Live Online in English | find the first time something happens (stop at the first match), then turn dates into day numbers to | ea5177f2 |
 | DE138 | programmieren-lernen-kinder-hannover (han, #356377) | city-de (de) | 3,658 | 2% vs programmieren-lernen-kinder-frankfurt | Programmieren lernen für Kinder in Hannover: live auf Englisch | computers sort by character numbers; to sort like a German dictionary, give sorted() a key | 77f689ec |
-| DE139 | coding-classes-for-kids-bonn (cbo, #344962) | city-t1 (en) | 3,872 | 1.8% vs coding-classes-for-kids-hannover | Coding Classes for Kids in Bonn: Live Online, in English | compare things of different sizes with a ratio, not a difference | (this commit) |
+| DE139 | coding-classes-for-kids-bonn (cbo, #344962) | city-t1 (en) | 3,872 | 1.8% vs coding-classes-for-kids-hannover | Coding Classes for Kids in Bonn: Live Online, in English | compare things of different sizes with a ratio, not a difference | 6152e137 |
+| DE140 | coding-and-ai-classes-in-duisburg-germany (cai, #725574) | city-t2 (en) | 4,572 | 1.6% vs coding-classes-for-kids-dortmund | Coding and AI Classes in Duisburg, Live Online in English | a totals row is not a member; strip summary rows, then check your sum against the publisher's | (this commit) |
 
 ## Notes
 
