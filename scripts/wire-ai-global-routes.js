@@ -756,6 +756,7 @@ const SLUGS = [
   'online-coding-summer-camp-germany',
   'online-coding-classes-europe',
   'vibe-coding-and-ai-agents-classes-germany',
+  'app-development-classes-for-teens-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1591,6 +1592,7 @@ const LLMS_LABELS = {
   'online-coding-summer-camp-germany': 'Online coding summer camp in Germany',
   'online-coding-classes-europe': 'Online coding classes in Europe',
   'vibe-coding-and-ai-agents-classes-germany': 'Vibe coding and AI agents classes in Germany',
+  'app-development-classes-for-teens-germany': 'App development classes for teens in Germany',
 };
 
 function wireLlms(slugs) {

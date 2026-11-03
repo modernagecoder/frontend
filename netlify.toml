@@ -29389,6 +29389,18 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-germany.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/app-development-classes-for-teens-germany"
+  to = "/src/pages/app-development-classes-for-teens-germany.html"
+  status = 200
+
+[[redirects]]
+  from = "/app-development-classes-for-teens-germany.md"
+  to = "/src/pages/app-development-classes-for-teens-germany.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
