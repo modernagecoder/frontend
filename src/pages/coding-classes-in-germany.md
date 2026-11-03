@@ -229,7 +229,7 @@ Each page answers one question for one place, school stage or competition, with 
 
 **Maths in English, by city:** [Berlin: maths tutor](/math-tutor-berlin-in-english) · [Cologne: maths tutor in English](/math-tutor-cologne-in-english) · [Hamburg: maths tutor](/math-tutor-hamburg-in-english) · [Munich: maths tutor in English](/math-tutor-munich-in-english)
 
-**International school families:** [Berlin: international school coding](/coding-for-international-school-students-berlin) · [Munich: international school pupils](/coding-for-international-school-students-munich) · [Stuttgart: international school pupils](/coding-for-international-school-students-stuttgart)
+**International school families:** [Berlin: international school coding](/coding-for-international-school-students-berlin) · [Hamburg: international school coding](/coding-for-international-school-students-hamburg) · [Munich: international school pupils](/coding-for-international-school-students-munich) · [Stuttgart: international school pupils](/coding-for-international-school-students-stuttgart)
 
 **Städte, auf Deutsch:** [Berlin: Programmieren für Kinder](/programmieren-lernen-kinder-berlin) · [Köln: Programmieren für Kinder](/programmieren-lernen-kinder-koeln) · [Leipzig: Programmieren für Kinder](/programmieren-lernen-kinder-leipzig) · [München: Programmieren für Kinder](/programmieren-lernen-kinder-muenchen) · [Nürnberg: Programmieren für Kinder](/programmieren-lernen-kinder-nuernberg) · [Stuttgart: Programmieren für Kinder](/programmieren-lernen-kinder-stuttgart)
 

@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding for International School Students in Hamburg, in English</title>
+  <meta name="description" content="Coding for international school students in Hamburg: IB, Cambridge and Hamburg Abitur computing explained, live online classes in English, and a StadtRAD project.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-for-international-school-students-hamburg">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-for-international-school-students-hamburg.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#721D50">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-for-international-school-students-hamburg">
+  <meta property="og:title" content="Coding for International School Students in Hamburg, in English">
+  <meta property="og:description" content="Live online computer science help in English for Hamburg teenagers at English-medium schools or moving between systems: the IB and Cambridge routes, Hamburg's Informatik rules, and an algorithm project on the StadtRAD stations.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding for International School Students in Hamburg, in English">
+  <meta name="twitter:description" content="Computer science for Hamburg's international school pupils, live in English: IB, Cambridge, Abitur and a StadtRAD project.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-coi .ag-hero h1 { letter-spacing: -0.014em; }
+.ag-root.ag-coi .ag-capsule { border-left-width: 5px; border-radius: 2px; }
+.ag-root.ag-coi .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-coi .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-coi .ag-code-head b { letter-spacing: 0.015em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-for-international-school-students-hamburg#page","url":"https://learn.modernagecoders.com/coding-for-international-school-students-hamburg","name":"Coding for International School Students in Hamburg","description":"A guide for teenagers at English-medium schools in Hamburg to computer science routes and help, built from the AGIS directory, the KMK IB recognition agreement, the Gesellschaft für Informatik and Cambridge sources, with an original Python project on the StadtRAD station data.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"International schools, Hamburg","item":"https://learn.modernagecoders.com/coding-for-international-school-students-hamburg"}]},{"@type":"Course","name":"Coding for International School Students in Hamburg","description":"Live online computer science tutoring in English for pupils of 13 to 19 at international schools in Hamburg and those moving into the Hamburg system: IB Diploma Computer Science, IGCSE Computer Science and Abitur Informatik, in a group of fifteen to twenty or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-for-international-school-students-hamburg"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-international-school-students-hamburg"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-international-school-students-hamburg"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. All classes are live and taught only in English, by mentors who adjust to your pace and accent. IB and Cambridge exams are written in English anyway, and Hamburg Informatik loses nothing, because Python and Java keywords are English words."}},{"@type":"Question","name":"Do you help with IB Diploma Computer Science?","acceptedAnswer":{"@type":"Answer","text":"Yes. The course is built on the IB guide first examined in 2027 and walks you through the internal assessment step by step. Exam details are not repeated here, since ibo.org was closed to us; ask your IB coordinator for the official version."}},{"@type":"Question","name":"Does IB Computer Science count toward German university entry?","acceptedAnswer":{"@type":"Answer","text":"The KMK agreement on the IB Diploma lists Computer Science among the subjects that can be the sixth exam subject, alongside a required natural science from Biology, Chemistry or Physics. We do not give admissions advice; check your subject plan with your school."}},{"@type":"Question","name":"Is a computer allowed in the Hamburg Abitur in Informatik?","acceptedAnswer":{"@type":"Answer","text":"No. The Informatik-Monitor 2026/27 says the written Hamburg Abitur in Informatik is developed centrally, the same across Hamburg, with no practical parts; only a non-programmable calculator and a spelling dictionary are allowed."}},{"@type":"Question","name":"Is Informatik compulsory at Hamburg state schools?","acceptedAnswer":{"@type":"Answer","text":"Yes. Since 2025/26 four weekly hours of Informatik are compulsory at Stadtteilschulen and Gymnasien, spread over grades 7 to 10 by each school. A pupil moving from an international school may join classmates who already have that background."}},{"@type":"Question","name":"Do you teach IGCSE Computer Science?","acceptedAnswer":{"@type":"Answer","text":"Yes. We follow Cambridge 0478 as valid from 2026 to 2028. Both papers last 1 hour 45 minutes and carry 75 marks; the second, on algorithms and programming, accepts answers in pseudocode or in Python, Visual Basic or Java."}},{"@type":"Question","name":"Which school do your Hamburg students go to?","acceptedAnswer":{"@type":"Answer","text":"We never name schools as sources of students. The school on this page appears only because the AGIS directory lists its qualifications. Neither AGIS nor any school in Hamburg has a link with us."}},{"@type":"Question","name":"What times are classes from Hamburg?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. A class at 16:35 in Hamburg is 21:05 for the mentor in India in winter."}},{"@type":"Question","name":"What does it cost, and in what currency?","acceptedAnswer":{"@type":"Answer","text":"A month of eight live classes is one fee. We quote it in euro from the European Central Bank reference rate, take the payment in US dollars, and leave the conversion to your bank, which can shift the final figure a little. Your first class costs nothing."}},{"@type":"Question","name":"Can you write my coursework for me?","acceptedAnswer":{"@type":"Answer","text":"No. We teach you to plan, build and test it yourself and explain the assessment criteria in plain English. The work you submit stays yours from the first line to the last."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-for-international-school-students-hamburg","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-coi">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#school">School</a></li>
+      <li><a href="#compare">Compare</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / International schools, Hamburg
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Hamburg &middot; International schools &middot; Ages 13 to 19</p>
+        <h1>Coding for international school students in Hamburg</h1>
+        <p class="ag-lede">Hamburg has one member of the Association of International Schools in Germany, and its directory entry lists IB programmes and Cambridge Lower Secondary. Hamburg's state schools, meanwhile, now teach every pupil Informatik and set a central Abitur paper in it with no computer in the room. A teenager who moves between the two, or who simply wants computer science in English, needs to know how each route works. This page explains them, shows how we teach for both, and ends with a Python project on Hamburg's bike-share stations about the question every computer science exam asks sooner or later: how much work does your algorithm do?</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#compare" class="ag-btn ag-btn--ghost">Compare the routes</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20go%20to%20school%20in%20Hamburg%20and%20want%20computer%20science%20help%20in%20English.%20Could%20I%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'coi'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ students worldwide &middot; IB, Cambridge and Abitur computing in English</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Ages</dt><dd>13 to 19</dd>
+          <dt>Routes</dt><dd>IB Diploma, IGCSE, Hamburg Abitur</dd>
+          <dt>Languages</dt><dd>Python, Java, pseudocode</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Teachers</dt><dd>Mentors based in India, live</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Modern Age Coders offers coding for international school students in Hamburg as live online computer science lessons, taught in English, for teenagers from 13 to 19: IB Diploma Computer Science, IGCSE Computer Science 0478 for Cambridge routes, and Informatik for pupils joining a Hamburg Oberstufe. A regular mentor adapts to your pace and accent, and you choose one to one or a group of fifteen to twenty.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Three routes, three courses</p>
+      <h2>Courses for Hamburg pupils on each computing route</h2>
+      <p class="ag-lede">Choose by the qualification you are working toward, not by the school you attend.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ib-diploma-computer-science-course">
+        <div class="ag-pick-shot"><img src="/images/ib-computer-science.webp" alt="IB DP Computer Science (New Guide, First Assessment 2027) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">COI / 01</p>
+          <h3>IB Diploma Computer Science</h3>
+          <p>For the last two school years. Built on the IB guide first examined in 2027: programming, algorithms, data and a supervised path through the internal assessment.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/igcse-computer-science-0478-course">
+        <div class="ag-pick-shot"><img src="/images/igcse-computer-science.webp" alt="IGCSE Computer Science (0478) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">COI / 02</p>
+          <h3>IGCSE Computer Science 0478</h3>
+          <p>For pupils of about 14 to 16 on a Cambridge route after Lower Secondary: both written papers, pseudocode until it is second nature, Python for the code.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/informatik-abitur-course-java-python">
+        <div class="ag-pick-shot"><img src="/images/informatik-abitur-java-python.webp" alt="Informatik Abitur in English course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">COI / 03</p>
+          <h3>Informatik Abitur in English</h3>
+          <p>Ages 16 to 19. For pupils moving into a Hamburg Oberstufe: Java or Python, data structures and the habit of writing code on paper.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">International schools in Hamburg</p><h2>What does Hamburg's international school offer, according to AGIS?</h2><p class="ag-lede">In Hamburg, the directory of AGIS (Arbeitsgemeinschaft der Internationalen Schulen in Deutschland) has a single member school. We describe its listing as context only; we have no connection with the school or with AGIS, and we never name a school as a source of students.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Qualifications AGIS lists for the International School of Hamburg, and how AGIS says Germany reads them</caption><thead><tr><th scope="col">Listed by AGIS</th><th scope="col">How AGIS describes its value in Germany</th></tr></thead><tbody><tr><td>IPC, International Primary Curriculum</td><td>No German equivalence stated</td></tr><tr><td>Cambridge Lower Secondary</td><td>No German equivalence stated</td></tr><tr><td>IB Middle Years Programme (MYP)</td><td>Schools offering the MYP give a qualification equivalent to the Mittlere Reife</td></tr><tr><td>International Baccalaureate (IB Diploma)</td><td>Equivalent to the German Abitur, with prescribed subject combinations</td></tr><tr><td>IB Career-related Programme (CP)</td><td>No German equivalence stated</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: AGIS school directory entry for the International School of Hamburg; AGIS homepage and Wer wir sind. Read on 2 November 2026. According to AGIS, every member is an authorised IB school, pupils come from as many as 65 nations, and lessons share English as their language.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Where Computer Science fits the IB rule</h3><p>The KMK agreement that recognises the IB Diploma in Germany asks for a particular mix among the six exam subjects: two languages, a natural science from Biology, Chemistry or Physics, mathematics, and a social science. The sixth subject can come from a further list.</p>
+<p>Computer Science is on that further list, alongside Design Technology and Digital Society. So a pupil who wants the German recognition takes Computer Science in addition to a natural science, not instead of one. Your IB coordinator is the person to confirm a subject plan.</p></div><div><h3>Cambridge before the IB</h3><p>AGIS lists Cambridge Lower Secondary for the Hamburg school but not IGCSE, so a Hamburg pupil who wants IGCSE Computer Science would be taking it through another school, privately, or after moving from another city.</p>
+<p>For those pupils the 0478 syllabus is the reference, and it is set out in the next section. Everything we say about a particular school's offer comes from AGIS; the school's own pages are the authority on what it teaches in a given year.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="compare">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Routes compared</p><h2>How does computing differ between IB, IGCSE and the Hamburg Abitur?</h2><p class="ag-lede">All three teach the same core ideas. They differ in how many hours you get, what language you answer in, and whether a computer is allowed in the exam.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Computing on three routes open to Hamburg pupils</caption><thead><tr><th scope="col">Route</th><th scope="col">Before the final exam</th><th scope="col">The exam</th><th scope="col">Computer in the exam?</th></tr></thead><tbody><tr><td>Hamburg state school, Abitur</td><td>Four compulsory Informatik hours across grades 7 to 10 since 2025/26; at raised level a profile subject of at least four hours a week</td><td>Written paper developed centrally, the same across Hamburg</td><td>No: no practical parts; only a non-programmable, non-graphing calculator and a spelling dictionary</td></tr><tr><td>Cambridge IGCSE 0478</td><td>The two-year syllabus</td><td>Two written papers of 75 marks and 1 hour 45 minutes each: one on computer systems, one on algorithms, programming and logic</td><td>No: answers are handwritten, in pseudocode or in Python, Visual Basic or Java</td></tr><tr><td>IB Diploma</td><td>The two-year IB course</td><td>Set by the IB</td><td>Left blank: we could not read ibo.org, so we quote nothing</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Where this comes from: the Informatik-Monitor 2026/27 page on Hamburg, published by the Gesellschaft für Informatik; the Cambridge 0478 syllabus valid from 2026 to 2028; the KMK recognition agreement for the IB Diploma. We read them on 2 and 3 November 2026 and left the IB row without figures on purpose.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Hamburg is a paper-and-pen Land</h3><p>The Informatik-Monitor says Hamburg's written Abitur papers in Informatik are developed centrally and are uniform across the city, and that no practical parts are currently allowed. The only aids are a calculator that cannot be programmed or draw graphs, and a spelling dictionary.</p>
+<p>That surprises pupils from international schools, where code is often written and tested on a laptop all the way to the final project. A pupil joining a Hamburg Oberstufe has to learn to trace and write programs by hand, which is the skill IGCSE Paper 2 also rewards.</p></div><div><h3>Hours and teachers</h3><p>Hamburg is one of four Länder that meet the recommendation of four compulsory Informatik hours, and the Informatik-Monitor gives the share of Informatik teachers among all Hamburg teachers in 2025/26 as 5 percent. The GI itself says a share of at least 8 percent would be needed to teach six hours.</p>
+<p>In other words, the subject is compulsory but specialist teachers are still scarce. A pupil who arrives from an international school with strong programming may find the class moves slowly; a pupil arriving with none may find the paper tasks hard. Both are reasons families look for help outside school.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Taught in English</p><h2>Why take computer science lessons in English in Hamburg?</h2><p class="ag-lede">Because the IB and Cambridge exams are in English, and because the languages of programming are English too.</p></div>
+    <div class="ag-grid-3"><div><h3>English, only</h3><p>Lessons are live and taught in English, with no German-language option. Mentors adjust to each pupil's pace and accent and put an idea another way when the first way does not work.</p></div><div><h3>The board's own words</h3><p>We practise with the command words and formats of your syllabus, so an exam question reads the way the examiner meant it.</p></div><div><h3>One mentor all year</h3><p>The same mentor teaches you every week and keeps track of what is still shaky. Our mentors work from India and teach you live, on video, in a code editor you both type into.</p></div></div>
+    <p class="ag-mt-40">We teach pupils to reason, not to collect answers. Nobody writes your internal assessment for you, and no AI tool is used to do the thinking. For pupils under 18 we never recommend adult-only AI services; our <a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a> shows the minimum ages in each tool's own terms.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A Hamburg data project</p><h2>How much work does a nearest-station search do? An algorithm project on StadtRAD data</h2><p class="ag-lede">Hamburg's transport authority publishes the locations of its StadtRAD bike-share stations as open data. Finding the nearest station to each station is a classic exercise, and it teaches what IB and IGCSE call efficiency.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The data</h3><p>The dataset StadtRAD-Stationen Hamburg comes from the Behörde für Verkehr und Mobilitätswende under the Datenlizenz Deutschland Namensnennung 2.0. On 3 November 2026 we downloaded it from the city's open API and saved it as stadtrad.json: 358 stations, each with a name and a longitude and latitude.</p>
+<p>To measure the distance between two points on the Earth we use the haversine formula, with the Earth's radius taken as 6,371 km. It is a short function, and every distance in the project comes from it.</p></div><div><h3>The question</h3><p>For every station, which other station is nearest, and which station is the most isolated? The simplest algorithm compares every station with every other station. With 358 stations, how many distance calculations is that?</p>
+<p>Pupils should guess before running anything. Most guess a few thousand. The real number is the point of the lesson.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: compare everything with everything</b><span>Python</span></figcaption><pre>import json, math
+
+def metres(a, b):
+    lon1, lat1, lon2, lat2 = map(math.radians, (a[0], a[1], b[0], b[1]))
+    h = math.sin((lat2 - lat1) / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2
+    return 2 * 6371000 * math.asin(math.sqrt(h))
+
+with open("stadtrad.json", encoding="utf-8") as f:
+    stations = [(s["properties"]["name"], s["geometry"]["coordinates"]) for s in json.load(f)["features"]]
+
+checks = 0
+nearest = {}
+for i, (name, here) in enumerate(stations):
+    for j, (other, there) in enumerate(stations):
+        if i == j:
+            continue
+        checks += 1
+        d = metres(here, there)
+        if name not in nearest or d &lt; nearest[name]:
+            nearest[name] = d
+
+print("Stations:", len(stations), "Distance checks:", checks)
+loneliest = max(nearest, key=nearest.get)
+print("Most isolated:", loneliest, round(nearest[loneliest]), "m")</pre><p class="ag-code-note">It prints <code>Stations: 358 Distance checks: 127806</code> and <code>Most isolated: StadtRad-Station Bahnhof Dammtor / Dag-Hammarskjöld-Platz 6013309 m</code>.</p></figure>
+    <p class="ag-mt-40">Two lessons in one run. First the cost: 358 stations times 357 others is 127,806 distance checks. Double the stations and the checks roughly quadruple, which is what quadratic time means. Second, the answer is absurd: a station at Hamburg Dammtor station cannot be 6,013 km from its nearest neighbour. Its record in the file has the coordinates 0, 0, a point in the Atlantic off West Africa that mapping people call Null Island. The algorithm is right; the input is not.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: compare each pair only once</b><span>Python</span></figcaption><pre>checks = 0
+closest = None
+for i in range(len(stations)):
+    for j in range(i + 1, len(stations)):
+        checks += 1
+        d = metres(stations[i][1], stations[j][1])
+        if closest is None or d &lt; closest[0]:
+            closest = (d, stations[i][0], stations[j][0])
+
+print("Distance checks:", checks)
+print("Closest pair:", round(closest[0]), "m")</pre><p class="ag-code-note">Run after Version 1, it prints <code>Distance checks: 63903</code> and <code>Closest pair: 82 m</code>.</p></figure>
+    <p>The distance from A to B is the same as from B to A, so the inner loop can start just after the outer one. That halves the work to 63,903 checks, still quadratic but twice as fast, and it finds the two stations closest together, 82 m apart near Osakaallee in the Überseequartier. Leave out the station at 0, 0 and run Version 1 again on the 357 stations with Hamburg coordinates: the most isolated real station is S Rissen / Gudrunstraße, 3,813 m from its nearest neighbour, and the median distance to a nearest neighbour is 463 m.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Distance checks for the nearest-station search (our calculation)</caption><thead><tr><th scope="col">Method</th><th scope="col">Checks for 358 stations</th><th scope="col">Formula</th></tr></thead><tbody><tr><td>Every station against every other</td><td class="ag-num">127,806</td><td class="ag-num">n times (n minus 1)</td></tr><tr><td>Each pair once</td><td class="ag-num">63,903</td><td class="ag-num">n times (n minus 1), halved</td></tr><tr><td>Each pair once, for 716 stations</td><td class="ag-num">255,970</td><td class="ag-num">Twice the stations, about four times the checks</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Data: Behörde für Verkehr und Mobilitätswende, via Transparenzportal Hamburg, StadtRAD-Stationen Hamburg, Datenlizenz Deutschland Namensnennung 2.0; downloaded 3 November 2026 through api.hamburg.de. Every count and distance is our own. The last row of the table is a calculation for a city with twice as many stations, not real data.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>IGCSE.</strong> Write Version 2 as Cambridge-style pseudocode with two nested FOR loops, and trace it by hand for four stations. How many times does the inner loop body run?</li><li><strong>IB.</strong> Explain in Big O terms why Version 2 is faster but not in a different class from Version 1. Then describe a grid-based method that would avoid comparing stations kilometres apart.</li><li><strong>Abitur.</strong> Add a validation step that rejects any station outside a rectangle around Hamburg, and write two test cases: one that must pass, one that must fail.</li><li><strong>Everyone.</strong> Before you run any program on a new file, plot the points or print the extremes. One look would have found Null Island.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>What times work for a Hamburg pupil?</h2><p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. International school days can run late, so many pupils book an early evening or a weekend slot.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Sample Hamburg lesson times, with the mentor's clock</caption><thead><tr><th scope="col">Hamburg</th><th scope="col">Mentor in India, winter</th><th scope="col">Mentor in India, from 28 March 2027</th></tr></thead><tbody><tr><td>16:35</td><td>21:05</td><td>20:05</td></tr><tr><td>17:50</td><td>22:20</td><td>21:20</td></tr><tr><td>Saturday 14:20</td><td>18:50</td><td>17:50</td></tr><tr><td>Sunday 12:30</td><td>17:00</td><td>16:00</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Under the Einheitenzeitgesetz Germany uses Central European Time, UTC+1, and summer time, UTC+2; the clocks went back on 25 October 2026 and go forward on 28 March 2027. India is on UTC+5:30 throughout, so the mentor is 4 hours 30 minutes ahead of Hamburg in winter and 3 hours 30 minutes ahead in summer. The rows are only examples.</p>
+    <p class="ag-mt-40">International schools set their own calendars. For comparison, the KMK table gives Hamburg's state school holidays for 2026/27 as 21 December 2026 to 1 January 2027 at Christmas, 1 to 12 March 2027 in spring and 1 July to 11 August 2027 in summer. Tell your mentor your own term dates and mock exam weeks.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Milestones</p>
+      <h2>Five stages to exam-ready computer science</h2>
+      <p class="ag-lede">Our own stages, the same whichever route a Hamburg pupil is on.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Computer science stages for ages 13 to 19 (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Usual age</th><th scope="col">By then the pupil can</th></tr></thead><tbody><tr><td>1. Read and trace</td><td class="ag-num">13 to 14</td><td class="ag-num">Follow a program by hand and predict its output</td></tr><tr><td>2. Loops inside loops</td><td class="ag-num">14 to 15</td><td class="ag-num">Write nested loops and count how often the inner part runs</td></tr><tr><td>3. Efficiency</td><td class="ag-num">15 to 16</td><td class="ag-num">Compare two algorithms by the work they do, not by feel</td></tr><tr><td>4. Objects and data</td><td class="ag-num">16 to 17</td><td class="ag-num">Design classes and choose a data structure for a task</td></tr><tr><td>5. Exam form</td><td class="ag-num">16 to 19</td><td class="ag-num">Answer unseen questions on paper or screen in the board's format</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 3 is the StadtRAD project. Pupils who can count an algorithm's work answer efficiency questions with reasons rather than guesses.</p>
+<p>Reports say what your child can now do without help, with an example.</p></div><div><h3>For pupils</h3><p>Guess how many steps your program takes before you run it. Then count them.</p>
+<p>When an answer is absurd, check the input first. The bug may be in the data.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for Hamburg pupils</h2>
+      <p class="ag-lede">Live and in English, with the same mentor each week, as a group or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Programming</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">COI / CODE / 01</p>
+          <h4>Python for teens</h4>
+          <p>The language most computing syllabuses accept, done thoroughly.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COI / CODE / 02</p>
+          <h4>JavaScript for teens</h4>
+          <p>Interactive web pages and small browser games.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COI / CODE / 03</p>
+          <h4>Competitive programming</h4>
+          <p>Fast algorithms under time limits, for strong coders.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>German school and contests</h3>
+        <span class="ag-band-sub">Ages 10 to 19</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">COI / DE / 01</p>
+          <h4>Informatik Companion</h4>
+          <p>Hamburg's grades 7 to 10 Informatik, in English.</p>
+          <a class="ag-course-link" href="/courses/informatik-companion-course-klasse-5-10">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COI / DE / 02</p>
+          <h4>German informatics contests</h4>
+          <p>From Biber puzzles to BwInf rounds and BWKI projects, using our own problems.</p>
+          <a class="ag-course-link" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COI / DE / 03</p>
+          <h4>AP Computer Science A</h4>
+          <p>Java and the AP exam, for American-system pupils.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Data and maths</h3>
+        <span class="ag-band-sub">Ages 13 to 19</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">COI / DATA / 01</p>
+          <h4>Data science for teens</h4>
+          <p>Clean and chart real files in Python.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COI / DATA / 02</p>
+          <h4>Data structures and algorithms</h4>
+          <p>The theory behind efficiency questions.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COI / DATA / 03</p>
+          <h4>IB maths AA and AI</h4>
+          <p>The maths that IB computer scientists lean on.</p>
+          <a class="ag-course-link" href="/courses/ib-mathematics-aa-ai-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>What a week of live computer science lessons looks like from Hamburg</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Twice a week, an hour each time, you and the mentor work in one shared editor.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Early evening</p><p class="ag-slot-l">After a full international school day.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Saturday afternoon or Sunday lunchtime for longer tasks.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">One to one</p><p class="ag-slot-l">A slot agreed with the mentor, shifted for mocks.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Your route only</h3><p>IB, Cambridge or Abitur, never a blend.</p></div>
+      <div><h3>Paper practice</h3><p>Hand-traced code for the paper exams.</p></div>
+      <div><h3>Original tasks</h3><p>Everything we set is written by us.</p></div>
+      <div><h3>Say it first</h3><p>Explain the idea, then write the code.</p></div>
+      <div><h3>Short updates</h3><p>Parents hear progress and next steps.</p></div>
+      <div><h3>Group or private</h3><p>Up to twenty pupils, or one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Work by our students</h2>
+      <p class="ag-lede">Our older students build real tools and games. A few are shown below, and the <a class="ag-inline-link" href="/student-labs">student labs</a> page collects more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for Hamburg pupils</h2>
+      <p class="ag-lede">Eight live classes a month, one monthly fee. The figure on this page is in euro, based on the European Central Bank reference rate, while the card is charged in US dollars; your bank converts the payment, so the euro amount you finally see may differ a little.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>One programming task at your level</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Fifteen to twenty pupils on your route</li><li>One regular mentor</li><li>Two classes a week</li><li>Monthly, cancel any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>You and one mentor</li><li>Your syllabus and your deadlines</li><li>Times that fit your school day</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews from parents and students on Google, unchanged.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Hamburg pupils and parents ask</p>
+      <h2>Coding for international school students in Hamburg: questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. All classes are live and taught only in English, by mentors who adjust to your pace and accent. IB and Cambridge exams are written in English anyway, and Hamburg Informatik loses nothing, because Python and Java keywords are English words.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you help with IB Diploma Computer Science?</h3>
+        <p>Yes. The course is built on the IB guide first examined in 2027 and walks you through the internal assessment step by step. Exam details are not repeated here, since ibo.org was closed to us; ask your IB coordinator for the official version.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does IB Computer Science count toward German university entry?</h3>
+        <p>The KMK agreement on the IB Diploma lists Computer Science among the subjects that can be the sixth exam subject, alongside a required natural science from Biology, Chemistry or Physics. We do not give admissions advice; check your subject plan with your school.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is a computer allowed in the Hamburg Abitur in Informatik?</h3>
+        <p>No. The Informatik-Monitor 2026/27 says the written Hamburg Abitur in Informatik is developed centrally, the same across Hamburg, with no practical parts; only a non-programmable calculator and a spelling dictionary are allowed.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Informatik compulsory at Hamburg state schools?</h3>
+        <p>Yes. Since 2025/26 four weekly hours of Informatik are compulsory at Stadtteilschulen and Gymnasien, spread over grades 7 to 10 by each school. A pupil moving from an international school may join classmates who already have that background.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you teach IGCSE Computer Science?</h3>
+        <p>Yes. We follow Cambridge 0478 as valid from 2026 to 2028. Both papers last 1 hour 45 minutes and carry 75 marks; the second, on algorithms and programming, accepts answers in pseudocode or in Python, Visual Basic or Java.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which school do your Hamburg students go to?</h3>
+        <p>We never name schools as sources of students. The school on this page appears only because the AGIS directory lists its qualifications. Neither AGIS nor any school in Hamburg has a link with us.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are classes from Hamburg?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. A class at 16:35 in Hamburg is 21:05 for the mentor in India in winter.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost, and in what currency?</h3>
+        <p>A month of eight live classes is one fee. We quote it in euro from the European Central Bank reference rate, take the payment in US dollars, and leave the conversion to your bank, which can shift the final figure a little. Your first class costs nothing.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you write my coursework for me?</h3>
+        <p>No. We teach you to plan, build and test it yourself and explain the assessment criteria in plain English. The work you submit stays yours from the first line to the last.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More on computing for pupils in Germany.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Every page for families in Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-international-school-students-germany">International school students, Germany</a></h3><p>All AGIS schools and routes.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ib-computer-science-tutor-germany">IB Computer Science tutor</a></h3><p>The IB subject plan and German recognition.</p></div>
+      <div><h3><a class="ag-inline-link" href="/igcse-computer-science-tutor-germany">IGCSE Computer Science tutor</a></h3><p>The 0478 papers in detail.</p></div>
+      <div><h3><a class="ag-inline-link" href="/abitur-computer-science-in-english">Abitur computer science</a></h3><p>Oberstufe Informatik, in English.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-in-german-schools-by-state">Informatik by Land</a></h3><p>Compulsory hours in all 16 Länder.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Let us know which route you are on and when your next deadline falls. The mentor gives you one short programming problem, watches how you tackle it, and suggests a course and a format.</p>
+        <p class="ag-mt-40">To read first, see the <a class="ag-inline-link" href="/courses/ib-diploma-computer-science-course">IB Computer Science course</a>, the <a class="ag-inline-link" href="/courses/igcse-computer-science-0478-course">IGCSE 0478 course</a> or <a class="ag-inline-link" href="/how-we-teach">how we teach</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20go%20to%20school%20in%20Hamburg%20and%20want%20computer%20science%20help%20in%20English.%20Could%20I%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'coi',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Every lesson is live online, in English, with a mentor in India. WhatsApp gets the quickest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_coi(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, with no card and no commitment.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Courses</h4><ul><li><a href="/courses/ib-diploma-computer-science-course">IB Computer Science</a></li><li><a href="/courses/igcse-computer-science-0478-course">IGCSE Computer Science</a></li><li><a href="/courses/informatik-abitur-course-java-python">Informatik Abitur</a></li><li><a href="/courses/python-complete-masterclass-teens">Python for teens</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-for-international-school-students-germany">International schools, Germany</a></li><li><a href="/informatik-in-german-schools-by-state">Informatik by Land</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Count the work before you trust the answer</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_coi = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'coding-for-international-school-students-hamburg-inline', meta: { name: name, age: age, page: 'coding-for-international-school-students-hamburg' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
