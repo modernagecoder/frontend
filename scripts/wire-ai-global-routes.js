@@ -809,6 +809,7 @@ const SLUGS = [
   'mathe-nachhilfe-online-gymnasium',
   'mathe-nachhilfe-online-realschule',
   'mathe-nachhilfe-online-oberstufe',
+  'mathe-nachhilfe-grundschule-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1697,6 +1698,7 @@ const LLMS_LABELS = {
   'mathe-nachhilfe-online-gymnasium': 'Mathe-Nachhilfe online Gymnasium (auf Englisch)',
   'mathe-nachhilfe-online-realschule': 'Mathe-Nachhilfe online Realschule (auf Englisch)',
   'mathe-nachhilfe-online-oberstufe': 'Mathe-Nachhilfe online Oberstufe (auf Englisch)',
+  'mathe-nachhilfe-grundschule-online': 'Mathe-Nachhilfe Grundschule online (auf Englisch)',
 };
 
 function wireLlms(slugs) {
