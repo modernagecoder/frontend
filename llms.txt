@@ -1077,6 +1077,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Programmieren lernen für Kinder in Hamburg (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-hamburg
 - Coding classes in Baden-Württemberg: https://learn.modernagecoders.com/coding-classes-in-baden-wuerttemberg
 - Coding classes in Bavaria: https://learn.modernagecoders.com/coding-classes-in-bavaria
+- Coding and maths classes in Berlin: https://learn.modernagecoders.com/coding-and-maths-classes-in-berlin-germany
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -846,6 +846,7 @@ const SLUGS = [
   'programmieren-lernen-kinder-hamburg',
   'coding-classes-in-baden-wuerttemberg',
   'coding-classes-in-bavaria',
+  'coding-and-maths-classes-in-berlin-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1771,6 +1772,7 @@ const LLMS_LABELS = {
   'programmieren-lernen-kinder-hamburg': 'Programmieren lernen für Kinder in Hamburg (auf Englisch)',
   'coding-classes-in-baden-wuerttemberg': 'Coding classes in Baden-Württemberg',
   'coding-classes-in-bavaria': 'Coding classes in Bavaria',
+  'coding-and-maths-classes-in-berlin-germany': 'Coding and maths classes in Berlin',
 };
 
 function wireLlms(slugs) {
