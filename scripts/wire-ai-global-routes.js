@@ -796,6 +796,7 @@ const SLUGS = [
   'minecraft-programmieren-lernen-kinder',
   'ki-kurs-fuer-kinder',
   'roblox-programmieren-lernen-kinder',
+  'spiele-programmieren-lernen-kinder',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1671,6 +1672,7 @@ const LLMS_LABELS = {
   'minecraft-programmieren-lernen-kinder': 'Minecraft programmieren lernen (auf Englisch)',
   'ki-kurs-fuer-kinder': 'KI-Kurs für Kinder (auf Englisch)',
   'roblox-programmieren-lernen-kinder': 'Roblox programmieren lernen (auf Englisch)',
+  'spiele-programmieren-lernen-kinder': 'Spiele programmieren lernen (auf Englisch)',
 };
 
 function wireLlms(slugs) {

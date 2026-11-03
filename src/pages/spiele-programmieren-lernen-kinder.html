@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Spiele programmieren lernen: Kurs für Kinder von 6 bis 12</title>
+  <meta name="description" content="Spiele programmieren lernen für Kinder von 6 bis 12: live auf Englisch, mit Scratch und Python. Mit KIM-Zahlen, den USK-Stufen und einem echten Sprungspiel.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/spiele-programmieren-lernen-kinder">
+  <link rel="alternate" type="text/markdown" href="/src/pages/spiele-programmieren-lernen-kinder.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#892A2A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/spiele-programmieren-lernen-kinder">
+  <meta property="og:title" content="Spiele programmieren lernen: Kurs für Kinder von 6 bis 12">
+  <meta property="og:description" content="Vom Spielen zum Selbermachen: welche Spiele Kinder in welchem Alter bauen können, was die USK-Kennzeichen bedeuten, und warum eine Figur manchmal im Sprung verliert. Live-Unterricht auf Englisch.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="de_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Spiele programmieren lernen: Kurs für Kinder von 6 bis 12">
+  <meta name="twitter:description" content="Spiele programmieren lernen, live auf Englisch: Kinder von 6 bis 12 bauen eigene Spiele in Scratch und Python.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-spl .ag-hero h1 { letter-spacing: -0.011em; }
+.ag-root.ag-spl .ag-capsule { border-left-width: 4px; border-radius: 0; }
+.ag-root.ag-spl .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-spl .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-spl .ag-table td { hyphens: auto; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/spiele-programmieren-lernen-kinder#page","url":"https://learn.modernagecoders.com/spiele-programmieren-lernen-kinder","name":"Spiele programmieren lernen für Kinder","description":"Ein Leitfaden für Eltern in Deutschland, deren Kind eigene Spiele programmieren möchte: wie viel Kinder laut KIM-Studie 2024 spielen, was die Altersstufen nach § 14 Jugendschutzgesetz und die USK-Kennzeichen bedeuten, welche Spiele Kinder von 6 bis 12 selbst bauen können, und eine eigene Lektion zur Kollisionsprüfung in Scratch und Python.","inLanguage":"de-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Kurse","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Spiele programmieren","item":"https://learn.modernagecoders.com/spiele-programmieren-lernen-kinder"}]},{"@type":"Course","name":"Spiele programmieren lernen für Kinder","description":"Live-Online-Kurs für Kinder von 6 bis 12 Jahren in ganz Deutschland, ausschließlich auf Englisch: eigene Spiele in Scratch und ab etwa 10 Jahren in Python, mit Figuren, Punkten, Leveln, Sprüngen und Kollisionen, in der Gruppe oder im Einzelunterricht.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/spiele-programmieren-lernen-kinder"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/spiele-programmieren-lernen-kinder"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/spiele-programmieren-lernen-kinder"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Findet der Unterricht auf Deutsch statt?","acceptedAnswer":{"@type":"Answer","text":"Nein, die Unterrichtssprache ist immer Englisch, und jede Stunde ist live. Unsere Mentoren in Indien wählen einfache Sätze, sprechen klar und passen sich an, wie schnell Ihr Kind versteht und wie es selbst spricht. Viele Eltern sehen darin einen doppelten Gewinn: Ihr Kind baut Spiele und lernt dabei Englisch, die Sprache, in der später jede Programmiersprache geschrieben ist."}},{"@type":"Question","name":"Ab welchem Alter kann mein Kind Spiele programmieren lernen?","acceptedAnswer":{"@type":"Answer","text":"Ab 6 Jahren, mit Scratch. Die Jüngsten bauen Spiele, in denen eine Figur läuft und Dinge einsammelt. Ab etwa 10 Jahren kommen erste Spiele in Python dazu, in denen das Kind Dinge wie Kollisionen selbst berechnet."}},{"@type":"Question","name":"Muss mein Kind dafür gut Englisch können?","acceptedAnswer":{"@type":"Answer","text":"Nein. Für die Jüngsten reichen ein paar Wörter; der Mentor zeigt viel und wiederholt. In Scratch kann die Oberfläche auf Deutsch bleiben, der Mentor nennt das englische Wort für jeden Block dazu."}},{"@type":"Question","name":"Welches Gerät braucht mein Kind?","acceptedAnswer":{"@type":"Answer","text":"Einen Laptop oder PC mit Maus und eine stabile Internetverbindung. Ein Tablet reicht für die meisten Spiele, die wir bauen, nicht aus, weil Kinder dort schlecht tippen und Blöcke ziehen. Laut KIM-Studie 2024 spielen nur 43 Prozent der spielenden Kinder regelmäßig am PC oder Laptop, deshalb lohnt es sich, den Rechner vor der ersten Stunde einmal einzurichten."}},{"@type":"Question","name":"Was bedeuten die USK-Kennzeichen?","acceptedAnswer":{"@type":"Answer","text":"Sie zeigen die Altersfreigabe nach § 14 Jugendschutzgesetz: ohne Altersbeschränkung, ab sechs, ab zwölf, ab sechzehn Jahren oder keine Jugendfreigabe. Laut KIM-Studie 2024 kennen 40 Prozent der Sechs- bis Siebenjährigen die Kennzeichnung, bei den Acht- bis Neunjährigen sind es 70 Prozent."}},{"@type":"Question","name":"Spielt mein Kind im Kurs nicht einfach nur?","acceptedAnswer":{"@type":"Answer","text":"Nein. Gespielt wird am Ende jeder Stunde, und zwar das eigene Spiel, um Fehler zu finden. Den größten Teil der Zeit bauen die Kinder: Figuren, Regeln, Punkte und Level."}},{"@type":"Question","name":"Was lernt mein Kind außer Spielen?","acceptedAnswer":{"@type":"Answer","text":"Logisches Denken, Koordinaten, Zahlen und Geduld. Schon die Kollisionsprüfung auf dieser Seite ist Geometrie: Zwei Rechtecke berühren sich nur, wenn sie sich in beiden Richtungen überlappen. Viele Kinder rechnen danach lieber mit Koordinaten als vorher."}},{"@type":"Question","name":"Zu welchen Zeiten finden die Stunden statt?","acceptedAnswer":{"@type":"Answer","text":"Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Eine Stunde um 15:40 Uhr deutscher Winterzeit ist beim Mentor in Indien 20:10 Uhr."}},{"@type":"Question","name":"Was kostet der Kurs?","acceptedAnswer":{"@type":"Answer","text":"Auf dieser Seite sehen Sie die Monatsgebühr in Euro, auf Basis des EZB-Referenzkurses. Die Abbuchung erfolgt in US-Dollar; die Umrechnung erledigt Ihre Bank. Für die Probestunde zahlen Sie nichts."}},{"@type":"Question","name":"Kann mein Kind später zu Roblox oder Minecraft wechseln?","acceptedAnswer":{"@type":"Answer","text":"Ja. Wer in Scratch Bedingungen, Schleifen und Variablen gelernt hat, kommt in Roblox mit Luau oder in Minecraft schnell zurecht. Dafür haben wir eigene Kurse."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/spiele-programmieren-lernen-kinder","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-spl">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Deutschland</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Deutschland</a></li>
+      <li><a href="#spielen">Zahlen</a></li>
+      <li><a href="#usk">USK</a></li>
+      <li><a href="#sprung">Sprungspiel</a></li>
+      <li><a href="#zeiten">Zeiten</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Probestunde</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Startseite</a> / <a href="/courses">Kurse</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Spiele programmieren
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Deutschland &middot; Spiele bauen &middot; 6 bis 12 Jahre</p>
+        <h1>Spiele programmieren lernen: vom Spielen zum Selberbauen</h1>
+        <p class="ag-lede">Fast jedes Kind in Deutschland spielt, viele jede Woche. Spiele selbst zu programmieren ist der Schritt vom Konsumieren zum Erfinden, und dabei lernen Kinder ganz nebenbei Logik, Geometrie und Geduld. Diese Seite zeigt, was Kinder in welchem Alter bauen können, was die USK-Kennzeichen auf ihren Spielen bedeuten, und eine erste Lektion, die in jedem Jump and Run steckt. Gelehrt wird live auf Englisch, und die Mentoren sitzen in Indien.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Kostenlose Probestunde buchen</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Priority Demo buchen</a>
+          <a href="#sprung" class="ag-btn ag-btn--ghost">Zum Sprungspiel</a>
+          <a href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20unser%20Kind%20m%C3%B6chte%20Spiele%20programmieren%20lernen%2C%20gern%20auf%20Englisch.%20K%C3%B6nnen%20wir%20eine%20kostenlose%20Probestunde%20ausmachen%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'spl'});">Per WhatsApp fragen</a>
+        </div>
+        <p class="ag-hero-note">Unterricht auf Englisch, mit Mentoren aus Indien &middot; Live-Unterricht seit 2020 &middot; mehr als 10.000 Lernende weltweit</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">Auf einen Blick</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4,9 von 5 bei 547 Google-Bewertungen
+        </p>
+        <dl>
+          <dt>Unterrichtssprache</dt><dd>Live-Unterricht ausschließlich auf Englisch, im eigenen Tempo; die Mentoren sprechen deutlich und stellen sich auf Tempo und Akzent der Lernenden ein</dd>
+          <dt>Alter</dt><dd>6 bis 12 Jahre</dd>
+          <dt>Werkzeuge</dt><dd>Scratch, ab etwa 10 Python</dd>
+          <dt>Gerät</dt><dd>Laptop oder PC mit Maus</dd>
+          <dt>Gruppe</dt><dd>Fünfzehn bis zwanzig, oder einzeln</dd>
+          <dt>Sprache</dt><dd>Englisch, einfach und deutlich</dd>
+          <dt>Probestunde</dt><dd>Kostenlos, ohne Karte</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Kurz gesagt</p>
+      <p>Spiele programmieren lernen heißt bei Modern Age Coders: Sechs- bis Zwölfjährige aus ganz Deutschland erfinden live und auf Englisch ihre eigenen Spiele, angeleitet von Mentoren aus Indien. Zuerst stecken sie Blöcke in Scratch zusammen, mit etwa zehn Jahren schreiben sie Python: Figuren, Sprünge, Punkte, Level. Ihr Kind lernt entweder mit fünfzehn bis zwanzig Gleichaltrigen oder allein mit dem Mentor, so schnell oder langsam es mag.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Passende Kurse</p>
+      <h2>Drei Kurse, in denen Kinder ihre eigenen Spiele bauen</h2>
+      <p class="ag-lede">Einer reist durch mehrere Spielwelten, einer bleibt bei Scratch und geht dort in die Tiefe, einer führt ältere Kinder zu einer echten Spiel-Engine.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/game-development-masterclass-for-kids">
+        <div class="ag-pick-shot"><img src="/images/game-dev-kids.webp" alt="Kursbild Spieleentwicklung für Kinder mit Scratch, Roblox und Minecraft" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">SPL / 01</p>
+          <h3>Spiele entwickeln für Kinder</h3>
+          <p>Drei Welten, ein Handwerk: Wer in Scratch eine Figur steuert, macht das bald auch in Roblox und Minecraft, mit Punkten und Leveln.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/scratch-programming-complete-course">
+        <div class="ag-pick-shot"><img src="/images/scratch-kids.webp" alt="Kursbild Scratch für Kinder" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">SPL / 02</p>
+          <h3>Scratch für Kinder</h3>
+          <p>Sechs bis elf Jahre. In drei Monaten vom ersten bewegten Sprite bis zu einem Spiel mit mehreren Leveln.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/godot-game-development-course-for-kids-and-teens">
+        <div class="ag-pick-shot"><img src="/images/godot-game-dev.webp" alt="Kursbild Spieleentwicklung mit Godot für Kinder und Jugendliche" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">SPL / 03</p>
+          <h3>Spiele mit Godot</h3>
+          <p>Für ältere Kinder und Jugendliche, denen Scratch zu eng wird: Godot ist kostenlos, kann 2D und 3D und nutzt die Sprache GDScript.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="spielen">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Was Kinder spielen</p><h2>Wie viel spielen Kinder in Deutschland?</h2><p class="ag-lede">Viel, und mit jedem Lebensjahr mehr. Grundlage ist die KIM-Studie 2024, für die der mpfs Kinder im Grundschul- und frühen Teenageralter befragt hat.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Digitale Spiele bei Kindern von sechs bis 13 Jahren, KIM-Studie 2024</caption><thead><tr><th scope="col">Aussage</th><th scope="col">Anteil</th><th scope="col">Bezugsgruppe</th></tr></thead><tbody><tr><td>Spielen mindestens wöchentlich</td><td class="ag-num">64 %</td><td>alle Kinder</td></tr><tr><td>Spielen täglich</td><td class="ag-num">28 %</td><td>alle Kinder</td></tr><tr><td>Spielen regelmäßig, Sechs- bis Siebenjährige</td><td class="ag-num">45 %</td><td>Kinder dieser Altersgruppe</td></tr><tr><td>Spielen regelmäßig, Zwölf- bis 13-Jährige</td><td class="ag-num">80 %</td><td>Kinder dieser Altersgruppe</td></tr><tr><td>Spielen mindestens wöchentlich am Handy oder Smartphone</td><td class="ag-num">67 %</td><td>Kinder, die zumindest gelegentlich spielen</td></tr><tr><td>Spielen regelmäßig am PC oder Laptop</td><td class="ag-num">43 %</td><td>Kinder, die zumindest gelegentlich spielen</td></tr><tr><td>Nennen Minecraft als eines ihrer Lieblingsspiele</td><td class="ag-num">24 %</td><td>Kinder, die digitale Spiele nutzen</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quelle: KIM-Studie 2024 des mpfs (Medienpädagogischer Forschungsverbund Südwest), Abschnitt über digitale Spiele. Die persönlichen Interviews mit 1.225 Kindern von sechs bis 13 Jahren und je einem Elternteil fanden vom 18. September bis 7. November 2024 statt. Von uns gelesen am 3. November 2026.</p>
+    <p class="ag-mt-40">Eine Zahl in dieser Tabelle ist für unseren Kurs besonders wichtig: Nur 43 Prozent der spielenden Kinder spielen regelmäßig am PC oder Laptop, die meisten am Smartphone. Gebaut werden Spiele aber am Rechner, mit Tastatur und Maus. Für viele Kinder ist die erste Stunde deshalb auch die erste Begegnung mit dem Laptop als Werkzeug und nicht nur als Bildschirm.</p>
+    <p>Wer selbst ein Spiel gebaut hat, sieht die Spiele anderer mit neuen Augen. Kinder fragen dann plötzlich, warum ein Level so schwer ist, wie die Punkte gezählt werden oder warum eine Figur durch eine Wand laufen kann. Das sind Fragen, aus denen Programmieren wird.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="usk">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Altersfreigaben</p><h2>Was bedeuten die USK-Kennzeichen auf Spielen?</h2><p class="ag-lede">Sie sagen, ab welchem Alter ein Spiel freigegeben ist. Die Stufen stehen im Jugendschutzgesetz; vergeben werden sie von der Unterhaltungssoftware Selbstkontrolle (USK).</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Die fünf Altersstufen nach § 14 Absatz 2 Jugendschutzgesetz</caption><thead><tr><th scope="col">Kennzeichen</th><th scope="col">Wortlaut im Gesetz</th><th scope="col">Erläuterung (USK 0 bis 12: Auszug von der USK)</th></tr></thead><tbody><tr><td>USK 0</td><td>Freigegeben ohne Altersbeschränkung</td><td>Spiele, die aus Sicht des Jugendschutzes keinerlei Beeinträchtigungen für Kinder beinhalten</td></tr><tr><td>USK 6</td><td>Freigegeben ab sechs Jahren</td><td>Überwiegend familienfreundliche Spiele, die bereits spannender und wettkampfbetonter ausfallen dürfen</td></tr><tr><td>USK 12</td><td>Freigegeben ab zwölf Jahren</td><td>Häufig schon deutlich kampfbetonter</td></tr><tr><td>USK 16</td><td>Freigegeben ab sechzehn Jahren</td><td>Unsere Anmerkung: nichts für Kinder im Grundschulalter</td></tr><tr><td>USK 18</td><td>Keine Jugendfreigabe</td><td>Unsere Anmerkung: nur für Erwachsene</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quellen: Jugendschutzgesetz (JuSchG) § 14 Absatz 2, gesetze-im-internet.de; USK, Häufige Fragen: Welche Alterskennzeichen gibt es?; beide gelesen am 3. November 2026. Laut KIM-Studie 2024 ist die Alterskennzeichnung in Deutschland für alle Videospiele gesetzlich verpflichtend. Mit der USK sind wir nicht verbunden.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Was Kinder darüber wissen</h3><p>Laut KIM-Studie 2024 haben 70 Prozent der spielenden Kinder die Kennzeichnung schon wahrgenommen. Bei den Sechs- bis Siebenjährigen kennen sie aber nur 40 Prozent, bei den Acht- bis Neunjährigen schon 70 Prozent.</p>
+<p>Ein guter Grund, mit Kindern über die Zeichen zu sprechen, bevor sie sich ein Spiel wünschen. Wer selbst Spiele baut, versteht schnell, dass Inhalte bewusst gestaltet werden, auch die, die Angst machen sollen.</p></div><div><h3>Und die Spiele, die Kinder selbst bauen?</h3><p>Die Spiele in unserem Kurs bleiben freundlich: Sammeln, Springen, Rätseln, Wettrennen. Wenn ein Kind ein Spiel mit Monstern bauen möchte, ist das in Ordnung, solange es zu seinem Alter passt; der Mentor achtet darauf.</p>
+<p>Wir empfehlen Kindern nur Werkzeuge, die für ihr Alter gedacht sind. Konten bei Spieleplattformen richten Eltern ein, nicht wir.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="alter">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Nach Alter</p><h2>Welche Spiele können Kinder in welchem Alter programmieren?</h2><p class="ag-lede">Unsere eigene Einteilung nach vielen Jahren Unterricht. Lesen, Schreiben und Englisch spielen dabei eine größere Rolle als das Alter allein.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Spiele, die Kinder bei uns bauen, nach Alter (unsere Planung)</caption><thead><tr><th scope="col">Alter</th><th scope="col">Typisches Spiel</th><th scope="col">Was das Kind dabei lernt</th></tr></thead><tbody><tr><td>6 und 7</td><td>Eine Figur, die auf Tastendruck läuft und Sterne einsammelt</td><td>Abläufe, Ereignisse, erste Schleifen</td></tr><tr><td>8 und 9</td><td>Ein Fangspiel mit Punkten und einer Uhr</td><td>Variablen, Bedingungen, Zufall</td></tr><tr><td>9 und 10</td><td>Ein Jump and Run mit Hindernissen und Leben</td><td>Koordinaten, Schwerkraft, Kollisionen</td></tr><tr><td>10 und 11</td><td>Ein Spiel mit mehreren Leveln und einem Endgegner</td><td>Listen, eigene Blöcke, Zustände</td></tr><tr><td>11 und 12</td><td>Dasselbe Sprungspiel noch einmal in Python</td><td>Funktionen, Rechtecke als Zahlen, Testen</td></tr></tbody></table></div>
+    <p class="ag-mt-40">In Deutschland geht ein Kind meist von Klasse 1 bis 4 in die Grundschule, in Berlin und Brandenburg bis Klasse 6. Viele Kinder beginnen bei uns in der zweiten oder dritten Klasse, wenn sie sicher genug lesen, um Blöcke zu erkennen. Jüngere Kinder sind willkommen; der Mentor zeigt dann mehr und liest Wörter vor.</p>
+    <p>Scratch eignet sich als Einstieg, weil Kinder Befehle nicht tippen müssen, sondern als Blöcke zusammenstecken. Die Blöcke gibt es auch mit deutscher Beschriftung; im Unterricht nennt der Mentor dazu immer das englische Wort, damit der spätere Wechsel zu Python leichtfällt.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="sprung">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Eine Lektion aus dem Kurs</p><h2>Warum verliert die Figur, obwohl sie über den Stein gesprungen ist?</h2><p class="ag-lede">Weil das Spiel nur nach links und rechts schaut. Diese Frage stellen uns Kinder in fast jedem Kurs, und die Antwort ist eine der schönsten kleinen Mathematiklektionen: Zwei Dinge berühren sich nur, wenn sie sich nach links und rechts und zugleich nach oben und unten überlappen. Beispiel und Code sind unsere eigenen.</p></div>
+    <p><strong>Für Sechs- bis Neunjährige: das Sprungspiel in Scratch.</strong> So bauen wir es Schritt für Schritt, mit einer Katze als Figur und einem Stein als Hindernis.</p>
+    <ol class="ag-steps"><li><strong>Start.</strong> Unter <code>Wenn die grüne Flagge angeklickt wird</code> setzt das Kind die Katze mit <code>gehe zu x: (-200) y: (-100)</code> an den linken Rand.</li><li><strong>Laufen.</strong> In einer Schleife <code>wiederhole fortlaufend</code> bewegt sich die Katze mit <code>ändere x um (5)</code> nach rechts.</li><li><strong>Springen.</strong> Ein zweites Skript beginnt mit <code>Wenn Taste [Leertaste] gedrückt wird</code>: zehnmal <code>ändere y um (10)</code>, dann zehnmal <code>ändere y um (-10)</code>.</li><li><strong>Verlieren.</strong> In die Schleife kommt <code>falls &lt;wird [Stein] berührt?&gt; dann</code> und darin <code>stoppe [alles]</code>.</li><li><strong>Testen.</strong> Das Kind springt zu früh, zu spät und genau richtig und beobachtet, wann das Spiel stoppt. Dann ändert es die Sprunghöhe und probiert es noch einmal.</li></ol>
+    <p class="ag-mt-40">Scratch nimmt Kindern die schwierige Rechnung ab: Der Block <code>wird [Stein] berührt?</code> prüft für sie, ob sich die Bilder überlappen. Ab etwa zehn Jahren bauen wir die Prüfung selbst, und dann zeigt sich, warum sie zwei Richtungen braucht.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Ab ungefähr zehn: die Prüfung selbst programmieren</b><span>Python</span></figcaption><pre># Eine Figur springt über einen Stein. Beide sind Rechtecke:
+# x, y = linke untere Ecke, b = Breite, h = Höhe (y zählt nach oben, wie in Scratch)
+stein = {'x': 100, 'y': 0, 'b': 30, 'h': 30}
+
+def trifft_nur_x(a, s):
+    # Version 1: prüft nur, ob sich die beiden links-rechts überlappen
+    return a['x'] &lt; s['x'] + s['b'] and s['x'] &lt; a['x'] + a['b']
+
+def trifft(a, s):
+    # Version 2: Überlappung links-rechts UND oben-unten
+    return (a['x'] &lt; s['x'] + s['b'] and s['x'] &lt; a['x'] + a['b'] and
+            a['y'] &lt; s['y'] + s['h'] and s['y'] &lt; a['y'] + a['h'])
+
+# Zwei Sprünge: pro Bild geht die Figur 10 Schritte nach rechts
+spruenge = {
+    'hoch':  [0, 0, 0, 0, 0, 0, 20, 40, 55, 60, 55, 45, 35, 15, 0],
+    'flach': [0, 0, 0, 0, 0, 0, 20, 35, 40, 35, 20, 0, 0, 0, 0],
+}
+for name, hoehen in spruenge.items():
+    treffer_1, treffer_2 = [], []
+    for bild, y in enumerate(hoehen):
+        figur = {'x': 10 * bild, 'y': y, 'b': 40, 'h': 40}
+        if trifft_nur_x(figur, stein):
+            treffer_1.append(bild)
+        if trifft(figur, stein):
+            treffer_2.append(bild)
+    print(name, '| Version 1:', treffer_1, '| Version 2:', treffer_2)</pre><p class="ag-code-note">Diese zwei Zeilen hat unser Lauf mit Python 3.14 ausgegeben:<br><code>hoch | Version 1: [7, 8, 9, 10, 11, 12] | Version 2: []</code><br><code>flach | Version 1: [7, 8, 9, 10, 11, 12] | Version 2: [10, 11, 12]</code></p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Der hohe Sprung, Bild für Bild über dem Stein (unser Beispiel)</caption><thead><tr><th scope="col">Bild</th><th scope="col">Figur links bei x</th><th scope="col">Höhe y</th><th scope="col">Version 1 sagt</th><th scope="col">Version 2 sagt</th></tr></thead><tbody><tr><td class="ag-num">7</td><td class="ag-num">70</td><td class="ag-num">40</td><td>Treffer</td><td>kein Treffer</td></tr><tr><td class="ag-num">8</td><td class="ag-num">80</td><td class="ag-num">55</td><td>Treffer</td><td>kein Treffer</td></tr><tr><td class="ag-num">9</td><td class="ag-num">90</td><td class="ag-num">60</td><td>Treffer</td><td>kein Treffer</td></tr><tr><td class="ag-num">10</td><td class="ag-num">100</td><td class="ag-num">55</td><td>Treffer</td><td>kein Treffer</td></tr><tr><td class="ag-num">11</td><td class="ag-num">110</td><td class="ag-num">45</td><td>Treffer</td><td>kein Treffer</td></tr><tr><td class="ag-num">12</td><td class="ag-num">120</td><td class="ag-num">35</td><td>Treffer</td><td>kein Treffer</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Version 1 meldet bei beiden Sprüngen sechs Treffer, auch beim hohen, bei dem die Figur nie tiefer als 35 kommt, während der Stein nur 30 hoch ist. Das ist der Fehler, über den sich Kinder ärgern: "Ich war doch drüber!" Version 2 prüft zusätzlich oben und unten und meldet beim hohen Sprung keinen Treffer. Beim flachen Sprung landet die Figur in Bild 10 auf Höhe 20, also mitten im Stein, und Version 2 meldet zu Recht die Bilder 10, 11 und 12.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Zwei Richtungen prüfen.</strong> Zwei Rechtecke berühren sich nur, wenn sie sich nach links und rechts und zugleich nach oben und unten überlappen.</li><li><strong>Bild für Bild denken.</strong> Ein Spiel ist eine Folge von Bildern. Wer eine Tabelle wie oben ausfüllt, findet den Fehler, bevor er ihn sucht.</li><li><strong>Den Grenzfall ausprobieren.</strong> Was passiert, wenn die Figur genau auf Höhe 30 ist, also auf dem Stein steht? Mit &lt; statt &lt;= im Code zählt das nicht als Treffer, und das ist eine Entscheidung, die das Kind selbst treffen darf.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="zeiten">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unterrichtszeiten</p><h2>Wann findet der Spiele-Kurs statt?</h2><p class="ag-lede">Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Mögliche Kurszeiten in Deutschland und die Stunde beim Mentor</caption><thead><tr><th scope="col">Bei Ihnen</th><th scope="col">Beim Mentor im Winter</th><th scope="col">Beim Mentor ab 28. März 2027</th></tr></thead><tbody><tr><td>14:10</td><td>18:40</td><td>17:40</td></tr><tr><td>15:40</td><td>20:10</td><td>19:10</td></tr><tr><td>Sonntag 09:45</td><td>14:15</td><td>13:15</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Deutschland folgt dem Einheiten- und Zeitgesetz: MEZ entspricht UTC+1, die Sommerzeit MESZ UTC+2. Seit dem 25. Oktober 2026 gilt wieder die Normalzeit, ab dem 28. März 2027 die Sommerzeit. Indiens Zeit liegt fest bei UTC+5:30, das macht viereinhalb Stunden Unterschied im Winter und dreieinhalb im Sommer. Gezeigt sind Beispiele, keine festen Gruppen.</p>
+    <p class="ag-mt-40">Für Grundschulkinder empfehlen wir den frühen Nachmittag oder den Sonntagvormittag, nicht den Abend. Das Buchungsformular zeigt jede Uhrzeit in der Zeitzone Ihres Geräts.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fortschritt</p>
+      <h2>Woran Sie den Fortschritt Ihres Kindes erkennen</h2>
+      <p class="ag-lede">Fünf Stufen, mit denen wir selbst arbeiten. Sie beschreiben, was ein Kind allein schafft.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Fünf Stufen im Spiele-Kurs (unsere)</caption><thead><tr><th scope="col">Stufe</th><th scope="col">Meist mit</th><th scope="col">Das Kind schafft allein</th></tr></thead><tbody><tr><td>1. Bewegen</td><td class="ag-num">6 bis 7</td><td class="ag-num">eine Figur auf Tastendruck laufen und springen lassen</td></tr><tr><td>2. Zählen</td><td class="ag-num">7 bis 9</td><td class="ag-num">Punkte, Leben und eine Uhr mit Variablen bauen</td></tr><tr><td>3. Regeln bauen</td><td class="ag-num">8 bis 10</td><td class="ag-num">mit Bedingungen festlegen, wann man gewinnt oder verliert</td></tr><tr><td>4. Level planen</td><td class="ag-num">9 bis 11</td><td class="ag-num">ein Spiel mit mehreren Leveln und steigender Schwierigkeit entwerfen</td></tr><tr><td>5. Selbst prüfen</td><td class="ag-num">10 bis 12</td><td class="ag-num">eine Kollision selbst berechnen und einen Fehler Bild für Bild finden</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Für Eltern</h3><p>Spielen Sie das Spiel Ihres Kindes und fragen Sie, warum etwas passiert. Ein Kind, das seine Regeln erklären kann, hat programmiert und nicht nur abgeschrieben.</p>
+<p>Wir melden uns regelmäßig mit einer kurzen Nachricht: was gebaut wurde, was gelungen ist, was als Nächstes kommt.</p></div><div><h3>Für Kinder</h3><p>Bauen Sie zuerst das kleinste Spiel, das funktioniert, und machen Sie es danach schöner.</p>
+<p>Wenn etwas komisch aussieht, gehen Sie Bild für Bild durch. Der Fehler versteckt sich fast immer in einem einzigen Bild.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weitere Kurse</p>
+      <h2>Neun weitere Kurse rund ums Erfinden und Bauen</h2>
+      <p class="ag-lede">Überall dasselbe Prinzip: live, englischsprachig, ein Mentor, der bleibt, wahlweise Gruppe oder Einzelstunde.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Für die Jüngsten</h3>
+        <span class="ag-band-sub">6 bis 9 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">SPL / START / 01</p>
+          <h4>Coding mit Blöcken</h4>
+          <p>Der erste Kontakt mit Befehlen, Schleifen und Ereignissen.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SPL / START / 02</p>
+          <h4>Knobeln und logisch denken</h4>
+          <p>Muster erkennen und Schritte ordnen, oft mit Papier.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SPL / START / 03</p>
+          <h4>Eigene Apps aus Blöcken</h4>
+          <p>Kleine Apps fürs Tablet, selbst zusammengesteckt.</p>
+          <a class="ag-course-link" href="/courses/block-coding-app-development-masterclass">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Andere Spielwelten</h3>
+        <span class="ag-band-sub">8 bis 14 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">SPL / WELT / 01</p>
+          <h4>Roblox Game Coding</h4>
+          <p>Eigene Roblox-Spiele mit Luau, 8 bis 14.</p>
+          <a class="ag-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SPL / WELT / 02</p>
+          <h4>Coding in Minecraft</h4>
+          <p>Die Lieblingswelt vieler Kinder als Programmierlabor.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SPL / WELT / 03</p>
+          <h4>Erste Schritte in Python</h4>
+          <p>Schildkrötengrafik, kleine Spiele, erste schlaue Programme.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Wenn es größer wird</h3>
+        <span class="ag-band-sub">10 bis 16 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">SPL / NEXT / 01</p>
+          <h4>JavaScript ab 13</h4>
+          <p>Spiele, die im Browser laufen und sich leicht teilen lassen.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SPL / NEXT / 02</p>
+          <h4>Unity und C# ab 13</h4>
+          <p>Größere Spiele mit einer Profi-Engine.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SPL / NEXT / 03</p>
+          <h4>Mathematik mit Python</h4>
+          <p>Koordinaten und Muster im eigenen Code.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Ablauf</p>
+      <h2>So läuft eine Stunde im Spiele-Kurs</h2>
+      <p class="ag-lede">Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Nach der Schule</p><p class="ag-slot-l">Früher Nachmittag, etwa ab 14:10 Uhr.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Sonntag</p><p class="ag-slot-l">Vormittags, in Ruhe und ausgeschlafen.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Einzeln</p><p class="ag-slot-l">Zu Zeiten, die Sie mit dem Mentor abstimmen.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Eine Spielidee</h3><p>Jede Stunde beginnt mit einer Idee, die das Kind selbst mitbringt oder auswählt.</p></div>
+      <div><h3>Bauen am eigenen Rechner</h3><p>Das Kind teilt den Bildschirm, der Mentor schaut zu und hilft.</p></div>
+      <div><h3>Einfaches Englisch</h3><p>Kurze Sätze, Zeigen statt Erklären, Wörter werden wiederholt.</p></div>
+      <div><h3>Testen und Spielen</h3><p>Am Ende spielt das Kind sein Spiel und sucht mit dem Mentor die Fehler.</p></div>
+      <div><h3>Ein fester Mentor</h3><p>Immer dieselbe Person, die die Ideen Ihres Kindes kennt.</p></div>
+      <div><h3>Kurze Rückmeldung</h3><p>Sie erfahren, was gebaut wurde und was als Nächstes kommt.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Projekte unserer Lernenden</p>
+      <h2>Spiele und Projekte von Kindern aus unseren Kursen</h2>
+      <p class="ag-lede">Ein Ausschnitt aus Projekten von Lernenden weltweit; viele weitere zeigt <a class="ag-inline-link" href="/student-labs">Student labs</a> (auf Englisch).</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Screenshot des Projekts NutriLife, ein KI-Ernährungscoach" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>NutriLife</h4>
+          <p>Ein KI-Ernährungscoach, der Mahlzeiten auswertet und Schritt für Schritt auf ein Ziel hinarbeitet.</p>
+          <p class="ag-proj-meta">von Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Screenshot von Misti, ein KI-Chatbot für Mathematik und Programmieren" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>Misti</h4>
+          <p>Ein Chatbot, der Fragen zu Mathematik und Programmierung beantwortet, von einem Schüler gebaut und veröffentlicht.</p>
+          <p class="ag-proj-meta">von Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Screenshot von GuardianX, ein KI-Assistent für Sicherheit im Internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>GuardianX</h4>
+          <p>Ein Assistent, der jungen Menschen hilft, unsichere Situationen im Internet zu erkennen.</p>
+          <p class="ag-proj-meta">von Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Screenshot der Wetter-App SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web-App</p>
+          <h4>SkyCast</h4>
+          <p>Eine Wetter-Website mit aktuellen Bedingungen für jeden Ort.</p>
+          <p class="ag-proj-meta">von Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preise</p>
+      <h2>Kosten für den Spiele-Kurs</h2>
+      <p class="ag-lede">Abgerechnet wird monatlich, acht Live-Stunden sind enthalten. Die Euro-Beträge auf dieser Seite beruhen auf dem Referenzkurs der Europäischen Zentralbank; gezahlt wird in US-Dollar, und Ihre Bank rechnet um. Deshalb kann der Betrag, den Sie später auf dem Konto sehen, ein wenig abweichen.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Kostenlose Probestunde</p>
+        <p class="ag-price-amt">Kostenlos</p>
+        <p class="ag-price-alt">keine Karte nötig</p>
+        <ul><li>Eine kostenlose Probestunde mit einem kleinen Spiel</li><li>Ein Gespräch über Alter, Rechner und Interessen</li><li>Keine Kreditkarte nötig</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Buchen</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Gruppenkurs</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group" data-price-format="suffix">90 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Fünfzehn bis zwanzig Kinder ähnlichen Alters</li><li>Ein Mentor, der bleibt</li><li>Zwei Stunden pro Woche</li><li>Monatlich zahlbar, monatlich kündbar</li></ul>
+        <a href="#start" class="ag-btn">Hier starten</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Einzelunterricht</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal" data-price-format="suffix">134 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Ihr Kind allein mit dem Mentor</li><li>Eigene Spielideen im eigenen Tempo</li><li>Zeiten nach Absprache</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Anfragen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Was Familien sagen</p>
+      <h2>4,9 von 5 bei 547 Google-Bewertungen</h2>
+      <p class="ag-lede">Was Eltern und Kinder bei Google über uns geschrieben haben, unverändert auf Englisch.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Häufige Fragen</p>
+      <h2>Spiele programmieren lernen: häufige Fragen</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Findet der Unterricht auf Deutsch statt?</h3>
+        <p>Nein, die Unterrichtssprache ist immer Englisch, und jede Stunde ist live. Unsere Mentoren in Indien wählen einfache Sätze, sprechen klar und passen sich an, wie schnell Ihr Kind versteht und wie es selbst spricht. Viele Eltern sehen darin einen doppelten Gewinn: Ihr Kind baut Spiele und lernt dabei Englisch, die Sprache, in der später jede Programmiersprache geschrieben ist.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Ab welchem Alter kann mein Kind Spiele programmieren lernen?</h3>
+        <p>Ab 6 Jahren, mit Scratch. Die Jüngsten bauen Spiele, in denen eine Figur läuft und Dinge einsammelt. Ab etwa 10 Jahren kommen erste Spiele in Python dazu, in denen das Kind Dinge wie Kollisionen selbst berechnet.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Muss mein Kind dafür gut Englisch können?</h3>
+        <p>Nein. Für die Jüngsten reichen ein paar Wörter; der Mentor zeigt viel und wiederholt. In Scratch kann die Oberfläche auf Deutsch bleiben, der Mentor nennt das englische Wort für jeden Block dazu.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Welches Gerät braucht mein Kind?</h3>
+        <p>Einen Laptop oder PC mit Maus und eine stabile Internetverbindung. Ein Tablet reicht für die meisten Spiele, die wir bauen, nicht aus, weil Kinder dort schlecht tippen und Blöcke ziehen. Laut KIM-Studie 2024 spielen nur 43 Prozent der spielenden Kinder regelmäßig am PC oder Laptop, deshalb lohnt es sich, den Rechner vor der ersten Stunde einmal einzurichten.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Was bedeuten die USK-Kennzeichen?</h3>
+        <p>Sie zeigen die Altersfreigabe nach § 14 Jugendschutzgesetz: ohne Altersbeschränkung, ab sechs, ab zwölf, ab sechzehn Jahren oder keine Jugendfreigabe. Laut KIM-Studie 2024 kennen 40 Prozent der Sechs- bis Siebenjährigen die Kennzeichnung, bei den Acht- bis Neunjährigen sind es 70 Prozent.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Spielt mein Kind im Kurs nicht einfach nur?</h3>
+        <p>Nein. Gespielt wird am Ende jeder Stunde, und zwar das eigene Spiel, um Fehler zu finden. Den größten Teil der Zeit bauen die Kinder: Figuren, Regeln, Punkte und Level.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Was lernt mein Kind außer Spielen?</h3>
+        <p>Logisches Denken, Koordinaten, Zahlen und Geduld. Schon die Kollisionsprüfung auf dieser Seite ist Geometrie: Zwei Rechtecke berühren sich nur, wenn sie sich in beiden Richtungen überlappen. Viele Kinder rechnen danach lieber mit Koordinaten als vorher.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Zu welchen Zeiten finden die Stunden statt?</h3>
+        <p>Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Eine Stunde um 15:40 Uhr deutscher Winterzeit ist beim Mentor in Indien 20:10 Uhr.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Was kostet der Kurs?</h3>
+        <p>Auf dieser Seite sehen Sie die Monatsgebühr in Euro, auf Basis des EZB-Referenzkurses. Die Abbuchung erfolgt in US-Dollar; die Umrechnung erledigt Ihre Bank. Für die Probestunde zahlen Sie nichts.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Kann mein Kind später zu Roblox oder Minecraft wechseln?</h3>
+        <p>Ja. Wer in Scratch Bedingungen, Schleifen und Variablen gelernt hat, kommt in Roblox mit Luau oder in Minecraft schnell zurecht. Dafür haben wir eigene Kurse.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weiterlesen</p>
+      <h2>Mehr zum Lesen für Eltern</h2>
+      <p class="ag-lede">Größtenteils auf Englisch.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Alle unsere Kurse für Familien in Deutschland.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-kids-berlin">Coding classes for kids in Berlin</a></h3><p>Für Familien in der Hauptstadt, mit Berliner Beispielen.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>Wenn Informatik auf dem Stundenplan steht.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-think-not-copy-ai-germany">Learn to think, not copy AI</a></h3><p>Selbst denken lernen statt abschreiben.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Wie eine Live-Stunde bei uns abläuft.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Spiele und Projekte unserer Lernenden.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Jetzt starten</p>
+        <h2>Kostenlose Probestunde: das erste eigene Spiel</h2>
+        <p class="ag-lede">In der Probestunde baut Ihr Kind mit dem Mentor eine Figur, die läuft und springt, und probiert gleich den ersten Stein als Hindernis aus. Danach wissen Sie, wie Ihr Kind mit Englisch und Rechner zurechtkommt, und wir empfehlen die passende Gruppe.</p>
+        <p class="ag-mt-40">Mehr zum Unterricht steht auf <a class="ag-inline-link" href="/how-we-teach">How we teach</a>, alle Lehrpläne finden Sie auf <a class="ag-inline-link" href="/courses">All courses</a>; beide Seiten sind englischsprachig.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20unser%20Kind%20m%C3%B6chte%20Spiele%20programmieren%20lernen%2C%20gern%20auf%20Englisch.%20K%C3%B6nnen%20wir%20eine%20kostenlose%20Probestunde%20ausmachen%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'spl',pos:'end'});">Per WhatsApp schreiben</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Live online, auf Englisch, mit Mentoren aus Indien. Eine WhatsApp-Nachricht beantworten wir meist am schnellsten.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_spl(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Ihr Name</label>
+            <input id="de-name" type="text" name="name" placeholder="Name von Elternteil oder Lernendem" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Telefon oder WhatsApp, Deutschland +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Altersgruppe</label>
+            <select id="de-age" name="age"><option value="6-12">Kind, 6 bis 12</option><option value="13-18">Jugendliche, 13 bis 18</option><option value="college">Studierende</option><option value="adult">Berufstätige</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Kostenlose Probestunde anfragen</button>
+          <p class="ag-form-note">Kostenlos, ohne Kreditkarte, ohne Abo.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Lieber früher starten? Priority Demo buchen</h3><p>Eine Priority Demo ist eine vollständige Unterrichtsstunde von etwa 45 bis 60 Minuten. Danach schickt der Mentor per WhatsApp einen schriftlichen Kompetenzbericht und einen persönlichen Lernplan. Wenn Sie sich anmelden, wird die Demo-Gebühr mit der ersten Monatsgebühr verrechnet: Schicken Sie uns dazu die Bestellnummer der Demo per WhatsApp.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Priority Demo buchen</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live-Online-Unterricht in Programmieren, KI und Mathematik für Menschen von 6 bis 67 Jahren. Wir unterrichten seit 2020, mehr als
+          10.000 Lernende in 25 Ländern.
+        </p>
+      </div>
+      <div><h4>Spiele bauen</h4><ul><li><a href="/courses/game-development-masterclass-for-kids">Spiele für Kinder</a></li><li><a href="/courses/scratch-programming-complete-course">Scratch für Kinder</a></li><li><a href="/courses/godot-game-development-course-for-kids-and-teens">Spiele mit Godot</a></li><li><a href="/courses">Alle Kurse</a></li></ul></div>
+      <div><h4>Deutschland</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-classes-for-kids-berlin">Programmieren in Berlin</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/student-labs">Projekte</a></li></ul></div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="/about">Über uns</a></li>
+          <li><a href="/how-we-teach">So unterrichten wir</a></li>
+          <li><a href="/love">Bewertungen</a></li>
+          <li><a href="/contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live-Online-Unterricht weltweit.</span>
+      <span>Links-rechts und oben-unten</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Probestunde</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority Demo</a><a href="tel:+919123366161" aria-label="Anrufen +91 91233 66161">Anrufen</a></div>
+
+<script>
+window.submitLead_spl = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Wird gesendet...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'spiele-programmieren-lernen-kinder-inline', meta: { name: name, age: age, page: 'spiele-programmieren-lernen-kinder' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Vielen Dank' + (name ? ', ' + name.split(' ')[0] : '') + '. Ein Mentor ruft Sie in Kürze an.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Netzwerkfehler. Bitte versuchen Sie es erneut.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

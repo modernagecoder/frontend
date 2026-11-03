@@ -68,7 +68,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE060 | python-kurs-kinder-online (pkk, #366536) | door-de (de) | 3,482 | 2% vs informatik-nachhilfe-online | Python-Kurs für Kinder online: live, etwa 9 bis 14 Jahre | the order of conditions matters; test the special case first | 85fff4d8 |
 | DE065 | minecraft-programmieren-lernen-kinder (mpl, #4E4A6F) | door-de (de) | 3,605 | 1.6% vs python-kurs-kinder-online | Minecraft programmieren lernen: für Kinder, live online | truth tables; list every case before you build (AND, OR, NOT) | 498d6311 |
 | DE063 | ki-kurs-fuer-kinder (kkk, #652D4C) | door-de (de) | 4,475 | 2.4% vs informatik-nachhilfe-online | KI-Kurs für Kinder: KI verstehen und selbst bauen, auf Englisch | a good yes/no question splits the group in half; when two examples look the same, the machine needs a | e6aba94d |
-| DE066 | roblox-programmieren-lernen-kinder (rpl, #5B4668) | door-de (de) | 3,645 | 2.3% vs ki-kurs-fuer-kinder | Roblox programmieren lernen: Kurs für Kinder, auf Englisch | move by elapsed time, not by frame count (frame-rate independence with deltaTime) | (this commit) |
+| DE066 | roblox-programmieren-lernen-kinder (rpl, #5B4668) | door-de (de) | 3,645 | 2.3% vs ki-kurs-fuer-kinder | Roblox programmieren lernen: Kurs für Kinder, auf Englisch | move by elapsed time, not by frame count (frame-rate independence with deltaTime) | 3f17bb3a |
+| DE067 | spiele-programmieren-lernen-kinder (spl, #892A2A) | door-de (de) | 3,737 | 2% vs roblox-programmieren-lernen-kinder | Spiele programmieren lernen: Kurs für Kinder von 6 bis 12 | two rectangles touch only if they overlap on both axes (axis-aligned collision) | (this commit) |
 
 ## Notes
 
