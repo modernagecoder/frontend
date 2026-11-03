@@ -25,7 +25,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE044 | python-and-dsa-for-international-students-germany (pdi, #88283C) | door-en (en) | 3,627 | 2.1% vs ib-computer-science-tutor-germany | Python and DSA for International Students in Germany | look up the cost of each operation before you choose the data structure | 44a33fd4 |
 | DE031 | ai-course-for-school-students-germany (aic, #804728) | door-en (en) | 4,645 | 2% vs coding-for-international-school-students-germany | AI Course for School Students in Germany, Taught in English | the step size decides everything; too small crawls, too large explodes | 3b2be59c |
 | DE033 | roblox-coding-classes-germany (rco, #0A5F38) | door-en (en) | 4,008 | 2.4% vs ib-computer-science-tutor-germany | Roblox Coding Classes in Germany, Live in English | never trust the client; the server checks every request | 266ddaea |
-| DE034 | minecraft-coding-classes-germany (mco, #007162) | door-en (en) | 3,914 | 1.2% vs ib-computer-science-tutor-germany | Minecraft Coding for Kids in Germany, Live in English | check a result by computing it a second, independent way | (this commit) |
+| DE034 | minecraft-coding-classes-germany (mco, #007162) | door-en (en) | 3,914 | 1.2% vs ib-computer-science-tutor-germany | Minecraft Coding for Kids in Germany, Live in English | check a result by computing it a second, independent way | ee78cd3d |
+| DE039 | online-coding-summer-camp-germany (csc, #5A4B75) | door-en (en) | 3,904 | 2.3% vs roblox-coding-classes-germany | Online Coding Summer Camp in Germany 2027, Live in English | a week is not seven days from any date; align to Mondays before you count | (this commit) |
 
 ## Notes
 
