@@ -743,6 +743,7 @@ const SLUGS = [
   'abitur-vs-ib-vs-a-levels-maths',
   'german-school-system-maths-and-computing-explained',
   'abitur-computer-science-in-english',
+  'learn-to-think-not-copy-ai-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1565,6 +1566,7 @@ const LLMS_LABELS = {
   'abitur-vs-ib-vs-a-levels-maths': 'Abitur vs IB vs A levels maths',
   'german-school-system-maths-and-computing-explained': 'German school system explained',
   'abitur-computer-science-in-english': 'Abitur computer science in English',
+  'learn-to-think-not-copy-ai-germany': 'Learn to think, not copy AI',
 };
 
 function wireLlms(slugs) {
