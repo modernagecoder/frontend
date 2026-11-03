@@ -898,6 +898,7 @@ const SLUGS = [
   'online-python-classes-heilbronn-germany',
   'coding-classes-for-kids-in-ulm-germany',
   'coding-and-ai-classes-in-wolfsburg-germany',
+  'online-python-classes-goettingen-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1875,6 +1876,7 @@ const LLMS_LABELS = {
   'online-python-classes-heilbronn-germany': 'Online Python classes in Heilbronn',
   'coding-classes-for-kids-in-ulm-germany': 'Coding classes for kids in Ulm',
   'coding-and-ai-classes-in-wolfsburg-germany': 'Coding and AI classes in Wolfsburg',
+  'online-python-classes-goettingen-germany': 'Online Python classes in Göttingen',
 };
 
 function wireLlms(slugs) {
