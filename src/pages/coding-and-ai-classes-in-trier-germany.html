@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding and AI Classes in Trier: Live Online, in English</title>
+  <meta name="description" content="Coding and AI classes in Trier for children, teens and adults: live online in English, Rhineland-Palatinate school facts, AI ages and a bus stop data project.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-and-ai-classes-in-trier-germany">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-and-ai-classes-in-trier-germany.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#691F0A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-and-ai-classes-in-trier-germany">
+  <meta property="og:title" content="Coding and AI Classes in Trier: Live Online, in English">
+  <meta property="og:description" content="Live coding and AI lessons in English for every age in Trier, with an original project on the city's own bus stop service that shows why careful data collection comes before any AI.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding and AI Classes in Trier: Live Online, in English">
+  <meta name="twitter:description" content="Coding and AI for all ages in Trier, live in English, starting with how to collect data properly.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cat .ag-hero h1 { letter-spacing: -0.017em; }
+.ag-root.ag-cat .ag-capsule { border-left-width: 5px; }
+.ag-root.ag-cat .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-cat .ag-table td:last-child { font-variant-numeric: tabular-nums; }
+.ag-root.ag-cat .ag-code-head b { letter-spacing: 0.018em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-and-ai-classes-in-trier-germany#page","url":"https://learn.modernagecoders.com/coding-and-ai-classes-in-trier-germany","name":"Coding and AI Classes in Trier","description":"A guide for Trier learners of every age to coding and artificial intelligence: why collecting data correctly comes first, an original Python project on the Stadt Trier bus stop service, what Rhineland-Palatinate schools teach before and after 2028/29, AI tool ages and class times.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Trier","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-trier-germany"}]},{"@type":"Course","name":"Coding and AI Classes in Trier","description":"Live online coding and AI classes in English for learners in Trier from age 6: Scratch and Python for children, Python, data and machine learning for teenagers, automation and applied AI for adults, in a group of fifteen to twenty or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-and-ai-classes-in-trier-germany"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-and-ai-classes-in-trier-germany"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-and-ai-classes-in-trier-germany"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. All lessons are live and in English only, with a mentor who adjusts speed and accent to the learner. Python and Scratch use English words anyway, so the two fit together."}},{"@type":"Question","name":"Why not start straight with AI?","acceptedAnswer":{"@type":"Answer","text":"Because AI depends on data and code. A few weeks of programming teach a learner to check what a computer returns, which is the skill that makes AI useful and safe to rely on."}},{"@type":"Question","name":"What is the minimum age?","acceptedAnswer":{"@type":"Answer","text":"Six. The youngest begin with Scratch, where blocks replace typing, and switch to Python when reading and keyboard skills allow, often at nine."}},{"@type":"Question","name":"Do Trier schools teach Informatik?","acceptedAnswer":{"@type":"Answer","text":"Only some pupils have it for now: the Land has no Informatik binding on everyone, except grade 5 at 21 profile schools. The Gesellschaft für Informatik reports that from the 2028/29 school year every school will teach it, four weekly hours spread over the grades."}},{"@type":"Question","name":"Which AI tools will my teenager use?","acceptedAnswer":{"@type":"Answer","text":"OpenAI allows ChatGPT from 13 with a parent's permission under 18, and we follow that. Anthropic sets 18 for Claude, so it is used only in adult classes. Children's courses need no AI account at all."}},{"@type":"Question","name":"When are classes in Trier time?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Pupils tend to come after school and adults after work."}},{"@type":"Question","name":"Who are the mentors?","acceptedAnswer":{"@type":"Answer","text":"Programmers and teachers based in India who teach live over video, in English. Each learner keeps the same mentor."}},{"@type":"Question","name":"Which currency is used?","acceptedAnswer":{"@type":"Answer","text":"Fees appear in euro, converted at the European Central Bank reference rate, and are charged in US dollars. Your bank converts the payment, so the booked amount may vary a little. The first class is free."}},{"@type":"Question","name":"What is the bus stop project?","acceptedAnswer":{"@type":"Answer","text":"An exercise on the City of Trier's bus stop service. Reading pages until the first short one gives 598 stops; reading until an empty page gives 660, of which 659 are different; the service itself claims 648."}},{"@type":"Question","name":"Can adults with no experience join?","acceptedAnswer":{"@type":"Answer","text":"Yes. Adult courses start from the first line of Python and move to data and AI at a pace that fits work."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-and-ai-classes-in-trier-germany","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-cat">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#why">Why</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#school">School</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Trier
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Trier &middot; Coding and AI &middot; All ages</p>
+        <h1>Coding and AI classes in Trier</h1>
+        <p class="ag-lede">Every AI system is only as good as the data it was given, and somebody had to collect that data, usually with a few lines of code. Learning to do that carefully is a skill for a ten year old, a sixteen year old and a fifty year old alike. This page is for learners of every age in Trier: why we teach coding before AI, a project on the city's own bus stop service in which the data quietly goes missing, what Rhineland-Palatinate schools teach now and from 2028/29, and when live classes in English fit your week.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#project" class="ag-btn ag-btn--ghost">See the bus stop project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Trier%20and%20would%20like%20a%20free%20first%20class%20in%20coding%20or%20AI%2C%20taught%20in%20English." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cat'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ students worldwide &middot; data first, then models</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Ages</dt><dd>From 6, teens and adults</dd>
+          <dt>Children start with</dt><dd>Scratch, then Python</dd>
+          <dt>Older learners start with</dt><dd>Python and live data</dd>
+          <dt>Trier times</dt><dd>After school, after work, weekends</dd>
+          <dt>Teachers</dt><dd>Mentors based in India</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Modern Age Coders teaches coding and AI to learners in Trier from age 6 upwards, in live online lessons held in English. Children work in Scratch and then Python; teenagers collect and analyse data and train models; adults automate tasks and learn to use AI they can check. A regular mentor based in India sets the pace and gets used to each learner's accent. Choose a class of fifteen to twenty or one to one, in the afternoon, evening or at weekends.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start by age</p>
+      <h2>Three first courses for Trier learners</h2>
+      <p class="ag-lede">The mentor confirms the choice after the free first class, depending on age and what the learner already knows.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CAT / 01</p>
+          <h3>Python and AI for Kids</h3>
+          <p>Children of 9 to 12 type real Python, make games and drawings, and find out how a program can learn from a list of examples.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CAT / 02</p>
+          <h3>AI and Machine Learning for Teens</h3>
+          <p>Teenagers gather data, check it, and train models that must outperform a naive guess before anyone calls them clever.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-automation-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Automation Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CAT / 03</p>
+          <h3>Python Automation and Applied AI</h3>
+          <p>Adults learn to fetch, tidy and summarise data with Python and to pass it to AI services, reviewing every result.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="why">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Coding before AI</p><h2>Why learn to code before learning AI, at any age?</h2><p class="ag-lede">Because AI is built from data and code, and judged by people who understand both. Each age reaches that understanding by a different road.</p></div>
+    <div class="ag-grid-3"><div><h3>Children, 6 to 12</h3><p>A child who has told a Scratch cat exactly what to do knows that computers follow instructions, not wishes. From about 10 they build tiny programs that sort examples into groups, which is what much of AI really does, without needing any account on an adult AI service.</p></div><div><h3>Teenagers, 13 to 18</h3><p>Teenagers write the code that collects data, then train a model and test it fairly. They learn that a model is only as honest as the dataset behind it, which is exactly where the Trier project below begins.</p></div><div><h3>Adults</h3><p>Adults get the most from AI when they can check it. With some Python they can fetch the data themselves, compare it with what a tool tells them, and automate the dull parts of their work without handing over their judgement.</p></div></div>
+    <p class="ag-mt-40">AI tools have age limits in their providers' own terms, and we follow them. OpenAI allows ChatGPT from 13, with a parent's permission until 18; Anthropic allows Claude only from 18, so it appears only in adult courses. Each limit is quoted with its date in our <a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a>. A teenager looking for a national target might try the Bundeswettbewerb Künstliche Intelligenz: its conditions allow an entry written in English. It is run independently of us.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A Trier data project</p><h2>How many bus stops does Trier's own data service list?</h2><p class="ag-lede">The City of Trier publishes the locations of its city bus stops through an online map service, free to reuse under the Datenlizenz Deutschland Namensnennung 2.0. Asking it a simple question teaches the first rule of collecting data for any AI: get all of it, get each item once, and check the answer yourself.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>How the service answers</h3><p>The data sits behind a standard web interface for map features, run on the Rhineland-Palatinate geoportal. It describes the stops of the Stadtwerke Trier buses in Trier and the surrounding area. Ask it for stops and it does not send them all at once; it sends a page of them, plus a link to the next page.</p>
+<p>You choose how many stops per page, but only from a fixed list. When we asked for 5,000 at once, the service refused and listed the sizes it accepts, from 1 up to 4,000. We used pages of 200 and saved each answer as a file, stops_offset_0.json, stops_offset_200.json and so on.</p></div><div><h3>The obvious plan</h3><p>Every page also carries a number called numberMatched, the service's own count of how many stops match. The obvious plan is to keep reading pages until one comes back with fewer than 200 stops, because a short page must surely be the last.</p>
+<p>Version 1 does exactly that. It is the code most people would write, and on this service it is wrong.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: stop at the first short page</b><span>Python</span></figcaption><pre>import json
+
+LIMIT = 200
+
+def page(offset):                         # one saved answer from the Trier service
+    with open(f"stops_offset_{offset}.json", encoding="utf-8") as f:
+        return json.load(f)
+
+first = page(0)
+print("The service says it matched:", first["numberMatched"])
+
+stops, offset = [], 0
+while True:
+    features = page(offset)["features"]
+    stops += features
+    if len(features) &lt; LIMIT:             # "a short page must be the last one"
+        break
+    offset += LIMIT
+print("Stopping at the first short page:", len(stops), "stops")</pre><p class="ag-code-note">It prints <code>The service says it matched: 648</code> and <code>Stopping at the first short page: 598 stops</code>.</p></figure>
+    <p class="ag-mt-40">The third page brought 198 stops instead of 200, so Version 1 decided it had reached the end. It had not. The service simply sent a slightly short page in the middle, and 62 more stops were waiting on the fourth page. A program that trusts "short means last" would hand an AI model, a map or a report about nine percent too few stops, and nobody would see an error message.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: stop only at an empty page, then check the ids</b><span>Python</span></figcaption><pre>stops, offset = [], 0
+while True:
+    features = page(offset)["features"]
+    if not features:                      # only an empty page means the end
+        break
+    print("  offset", offset, "gave", len(features))
+    stops += features
+    offset += LIMIT
+
+ids = [s["properties"]["gid"] for s in stops]
+print("Stopping at the first empty page:", len(stops), "stops,", len(set(ids)), "different ids")
+twice = sorted({i for i in ids if ids.count(i) &gt; 1})
+print("Ids that came twice:", twice)</pre><p class="ag-code-note">It prints <code>offset 0 gave 200</code>, <code>offset 200 gave 200</code>, <code>offset 400 gave 198</code>, <code>offset 600 gave 62</code>, then <code>Stopping at the first empty page: 660 stops, 659 different ids</code> and <code>Ids that came twice: [35006]</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Three answers to "how many bus stops?", Stadt Trier service, 3 November 2026 (our counts)</caption><thead><tr><th scope="col">Method</th><th scope="col">Stops</th></tr></thead><tbody><tr><td>The service's own numberMatched</td><td class="ag-num">648</td></tr><tr><td>Reading until the first short page</td><td class="ag-num">598</td></tr><tr><td>Reading until the first empty page</td><td class="ag-num">660</td></tr><tr><td>After removing the stop that arrived twice</td><td class="ag-num">659</td></tr><tr><td>One request for up to 1,000 stops</td><td class="ag-num">659</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Data: Stadt Trier, Stadtbus - Haltestellen (SWT), via the geoportal.rlp.de feature service, Datenlizenz Deutschland Namensnennung 2.0 (dl-de/by2-0, www.trier.de); pages saved on 3 November 2026. Every count in the table, and the reading of it, is ours.</p>
+    <p class="ag-mt-40">Version 2 keeps going until a page is empty, which is the only safe sign of the end. It then finds a second, smaller problem: one stop, id 35006, appears on two neighbouring pages, so 660 records hold 659 different stops. Paging can repeat or skip items at page edges, which is why a careful collector always de-duplicates by id. The final surprise is the service's own total. It says 648 on every page, yet it delivers 659 different stops, and a single large request agrees with 659. A number a system reports about itself is a claim, not a fact, until you count.</p>
+    <p>There are also more stop records than stop names. The file lists 347 different names for its 659 records, because a busy stop is listed more than once: Trier, Porta Nigra alone appears eight times, most likely once per platform or direction. Deciding whether "a stop" means a name or a platform comes before any analysis, and the right answer depends on the question.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Children, 9 to 12.</strong> Read a long book list aloud ten titles at a time. Make one "page" only nine titles long by mistake. Does the listener stop early?</li><li><strong>Teenagers.</strong> After running the two versions, add a third that halts when the service gives no next link at all. Does the service ever stop giving one?</li><li><strong>Adults.</strong> Think of an export at work that comes in pages or batches. How would you prove you received everything exactly once?</li><li><strong>Going further.</strong> Group the 659 records by stop name and list the five names with the most platforms.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Rhineland-Palatinate schools</p><h2>What do Trier schools teach about Informatik, now and from 2028/29?</h2><p class="ag-lede">Trier follows the Rhineland-Palatinate rules, which are about to change. Here is the picture today and the one the Land has announced.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Informatik in Rhineland-Palatinate, as reported in the Informatik-Monitor 2026/27</caption><thead><tr><th scope="col">Topic</th><th scope="col">Today</th><th scope="col">From the 2028/29 school year</th></tr></thead><tbody><tr><td>Compulsory for all pupils?</td><td>No; Rhineland-Palatinate is one of six Länder without it</td><td>Yes, at all schools</td></tr><tr><td>Where it is compulsory now</td><td>Grade 5 at 21 Informatik-Profil-Schulen, since 2021/22</td><td>Every school</td></tr><tr><td>How much</td><td>Varies by school</td><td>Four weekly hours, added up over the years taught</td></tr><tr><td>Oberstufe</td><td>Optional, where a school offers it</td><td>Optional, where a school offers it</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">From the Informatik-Monitor 2026/27 of the Gesellschaft für Informatik (overview and the Land's own page), consulted 2 November 2026. Secondary schools in the Land include the Gymnasium, mostly nine years with an eight-year route at some, and the Realschule plus.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What that means for a Trier family</h3><p>A child who is 7 today will meet Informatik as a subject at secondary school. A teenager in grade 9 today will most likely finish school without it, unless they choose it. Across Germany, according to the monitor, roughly 15 out of every 100 pupils in the last two school years have Informatik on their timetable.</p>
+<p>Either way, the subject is new to the timetable, and many pupils will meet it with no practice behind them.</p></div><div><h3>Where we fit</h3><p>Nothing we teach replaces a lesson at a Trier school, and only the school awards marks or the Abitur. If a pupil does take Informatik there, our <a class="ag-inline-link" href="/courses/informatik-companion-course-klasse-5-10">Informatik companion for Klasse 5 to 10</a> and <a class="ag-inline-link" href="/courses/informatik-abitur-course-java-python">Informatik Abitur course</a> follow school topics in English.</p>
+<p>For holidays, school types and the reform timetable across the whole Land, see our <a class="ag-inline-link" href="/coding-classes-in-rhineland-palatinate">Rhineland-Palatinate overview</a>.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>When do classes run in Trier time?</h2><p class="ag-lede">Pupils mostly come after school, adults after work, and many learners on Saturday or Sunday. In India, where the mentor teaches, it is already evening.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Trier time and the mentor's time, four examples</caption><thead><tr><th scope="col">Trier</th><th scope="col">India, this winter</th><th scope="col">India, from 28 March 2027</th></tr></thead><tbody><tr><td>16:50</td><td>21:20</td><td>20:20</td></tr><tr><td>17:40</td><td>22:10</td><td>21:10</td></tr><tr><td>Saturday 11:00</td><td>15:30</td><td>14:30</td></tr><tr><td>Sunday 14:00</td><td>18:30</td><td>17:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">The Einheitenzeitgesetz puts Trier on UTC+1 in winter (since 25 October 2026) and on UTC+2 in summer (from 28 March 2027). India uses UTC+5:30 the whole year. Illustrations only; group times are agreed when a class forms.</p>
+    <p class="ag-mt-40">The Kultusministerkonferenz table for 2026/27 gives Rhineland-Palatinate an autumn break that ended on 16 October 2026 after starting on the 5th, a Christmas break from 23 December 2026 to 8 January 2027, two Easter weeks from 22 March 2027 ending on 2 April, and six summer weeks from 28 June 2027 until 6 August. Classes continue through the holidays for anyone who wants them. Learners join from all parts of Trier and from nearby Konz, Schweich, Saarburg, Hermeskeil and Bitburg.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Milestones</p>
+      <h2>Five milestones from first program to AI project</h2>
+      <p class="ag-lede">Our own milestones, the same for every age, used to place learners and report progress.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Coding and AI milestones (ours)</caption><thead><tr><th scope="col">Milestone</th><th scope="col">Usually</th><th scope="col">The learner can</th></tr></thead><tbody><tr><td>First program</td><td class="ag-num">First week</td><td class="ag-num">Make the computer follow steps exactly</td></tr><tr><td>Loops and choices</td><td class="ag-num">First months</td><td class="ag-num">Repeat work and decide between cases</td></tr><tr><td>Collecting data</td><td class="ag-num">Months 3 to 5</td><td class="ag-num">Fetch every page of a dataset, once each, and check the count</td></tr><tr><td>A tested model</td><td class="ag-num">Months 5 to 9</td><td class="ag-num">Train a model and compare it with a naive guess</td></tr><tr><td>A project</td><td class="ag-num">Later</td><td class="ag-num">Build, document and explain something new</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>The third milestone is the Trier bus stop project. A child who checks a total for themselves will do the same in maths homework.</p>
+<p>Reports describe what your child made and could explain.</p></div><div><h3>For adult learners</h3><p>A system's own count is a claim until you have counted.</p>
+<p>If data arrives in pages, stop when a page is empty, never when it is merely short.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for Trier learners</h2>
+      <p class="ag-lede">Each is live and in English, with one mentor throughout, in a class or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Children</h3>
+        <span class="ag-band-sub">Ages 6 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CAT / KIDS / 01</p>
+          <h4>Coding for kids</h4>
+          <p>Scratch first, then apps and a taste of AI.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAT / KIDS / 02</p>
+          <h4>AI literacy for kids</h4>
+          <p>What AI is and is not, for 8 to 14.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAT / KIDS / 03</p>
+          <h4>Vibe coding for kids</h4>
+          <p>Children steer an AI helper and check its work.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teenagers</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CAT / TEEN / 01</p>
+          <h4>Backend for teens</h4>
+          <p>APIs and databases from the server side.</p>
+          <a class="ag-course-link" href="/courses/backend-coding-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAT / TEEN / 02</p>
+          <h4>Visual machine learning</h4>
+          <p>Models in Orange before writing code.</p>
+          <a class="ag-course-link" href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAT / TEEN / 03</p>
+          <h4>Biber, BwInf and BWKI</h4>
+          <p>From contest puzzles to an AI entry.</p>
+          <a class="ag-course-link" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Adults</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CAT / ADULT / 01</p>
+          <h4>Data science</h4>
+          <p>From raw data to models and reports.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAT / ADULT / 02</p>
+          <h4>Artificial intelligence</h4>
+          <p>Search, logic and agents, from first principles.</p>
+          <a class="ag-course-link" href="/courses/artificial-intelligence-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAT / ADULT / 03</p>
+          <h4>SQL and databases</h4>
+          <p>Where most organisations keep their data.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How it works</p>
+      <h2>How live classes run for Trier learners</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Late afternoon</p><p class="ag-slot-l">For pupils, once school is done.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evening</p><p class="ag-slot-l">For adults on working days.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Private</p><p class="ag-slot-l">A time fixed with the mentor, weekends too.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Typed by the learner</h3><p>The mentor never takes the keyboard.</p></div>
+      <div><h3>Checked counts</h3><p>Every dataset is counted before it is used.</p></div>
+      <div><h3>Gentle English</h3><p>Slower, simpler, repeated when needed.</p></div>
+      <div><h3>One mentor</h3><p>The same person from start to finish.</p></div>
+      <div><h3>Ages kept separate</h3><p>Children, teens and adults in their own groups.</p></div>
+      <div><h3>Group or solo</h3><p>Fifteen to twenty learners, or private.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have built</h2>
+      <p class="ag-lede">Projects from our learners in many countries; the <a class="ag-inline-link" href="/student-labs">student labs</a> page collects more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for learners in Trier</h2>
+      <p class="ag-lede">You pay once a month for eight live classes. The euro amount on this page is converted at the European Central Bank reference rate, while the payment runs in US dollars; your bank handles the exchange, so the euro it books may be a few cents off.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short task at the learner's level</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Fifteen to twenty learners of similar age</li><li>One regular mentor</li><li>Two classes each week</li><li>Monthly, cancel when you like</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>One learner, one mentor</li><li>Your own goals and pace</li><li>Times agreed together</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Students' and parents' Google reviews, copied without changes.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Trier learners ask</p>
+      <h2>Coding and AI classes in Trier: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. All lessons are live and in English only, with a mentor who adjusts speed and accent to the learner. Python and Scratch use English words anyway, so the two fit together.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why not start straight with AI?</h3>
+        <p>Because AI depends on data and code. A few weeks of programming teach a learner to check what a computer returns, which is the skill that makes AI useful and safe to rely on.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the minimum age?</h3>
+        <p>Six. The youngest begin with Scratch, where blocks replace typing, and switch to Python when reading and keyboard skills allow, often at nine.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do Trier schools teach Informatik?</h3>
+        <p>Only some pupils have it for now: the Land has no Informatik binding on everyone, except grade 5 at 21 profile schools. The Gesellschaft für Informatik reports that from the 2028/29 school year every school will teach it, four weekly hours spread over the grades.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which AI tools will my teenager use?</h3>
+        <p>OpenAI allows ChatGPT from 13 with a parent's permission under 18, and we follow that. Anthropic sets 18 for Claude, so it is used only in adult classes. Children's courses need no AI account at all.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes in Trier time?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Pupils tend to come after school and adults after work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who are the mentors?</h3>
+        <p>Programmers and teachers based in India who teach live over video, in English. Each learner keeps the same mentor.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which currency is used?</h3>
+        <p>Fees appear in euro, converted at the European Central Bank reference rate, and are charged in US dollars. Your bank converts the payment, so the booked amount may vary a little. The first class is free.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the bus stop project?</h3>
+        <p>An exercise on the City of Trier's bus stop service. Reading pages until the first short one gives 598 stops; reading until an empty page gives 660, of which 659 are different; the service itself claims 648.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can adults with no experience join?</h3>
+        <p>Yes. Adult courses start from the first line of Python and move to data and AI at a pace that fits work.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Trier learners.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Our national page, with links onward.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-rhineland-palatinate">Coding classes in Rhineland-Palatinate</a></h3><p>The Land's school rules in full.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-germany">AI and machine learning in Germany</a></h3><p>Teen and adult machine learning.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vibe-coding-and-ai-agents-classes-germany">Vibe coding and AI agents</a></h3><p>Working with AI coding tools, carefully.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-coding-classes-europe">Online coding classes in Europe</a></h3><p>For families near the borders.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>What happens in a live class.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Send us an age and one interest. In the free class the mentor sets a short task, sees how the learner approaches it and how easy English feels, and recommends a course.</p>
+        <p class="ag-mt-40">Further reading: <a class="ag-inline-link" href="/how-we-teach">how we teach</a> and <a class="ag-inline-link" href="/courses">all courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Trier%20and%20would%20like%20a%20free%20first%20class%20in%20coding%20or%20AI%2C%20taught%20in%20English." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cat',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Live online classes in English only, with mentors in India. For quick questions, WhatsApp us in English.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cat(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free and asks for no card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Coding and AI</h4><ul><li><a href="/ai-and-machine-learning-classes-in-germany">AI and ML in Germany</a></li><li><a href="/vibe-coding-and-ai-agents-classes-germany">Vibe coding and agents</a></li><li><a href="/ai-tools-age-guide">AI tools age guide</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-classes-in-rhineland-palatinate">Rhineland-Palatinate</a></li><li><a href="/online-coding-classes-europe">Coding classes in Europe</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Read until the page is empty</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cat = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'coding-and-ai-classes-in-trier-germany-inline', meta: { name: name, age: age, page: 'coding-and-ai-classes-in-trier-germany' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
