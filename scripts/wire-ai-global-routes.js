@@ -874,6 +874,7 @@ const SLUGS = [
   'programmieren-lernen-kinder-hannover',
   'coding-classes-for-kids-bonn',
   'coding-and-ai-classes-in-duisburg-germany',
+  'online-python-classes-bochum-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1827,6 +1828,7 @@ const LLMS_LABELS = {
   'programmieren-lernen-kinder-hannover': 'Programmieren lernen für Kinder in Hannover (auf Englisch)',
   'coding-classes-for-kids-bonn': 'Coding classes for kids in Bonn',
   'coding-and-ai-classes-in-duisburg-germany': 'Coding and AI classes in Duisburg',
+  'online-python-classes-bochum-germany': 'Online Python classes in Bochum',
 };
 
 function wireLlms(slugs) {
