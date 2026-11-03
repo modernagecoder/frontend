@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Online Python Classes in Hagen: Live Lessons in English</title>
+  <meta name="description" content="Online Python classes in Hagen, live in English: what a mentor-led class adds, NRW's paper-only Informatik Abitur, and a Hagen rain data task that breaks a float.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/online-python-classes-hagen-germany">
+  <link rel="alternate" type="text/markdown" href="/src/pages/online-python-classes-hagen-germany.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#164659">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/online-python-classes-hagen-germany">
+  <meta property="og:title" content="Online Python Classes in Hagen: Live Lessons in English">
+  <meta property="og:description" content="Live online Python for Hagen learners, in English at their own pace: why a live mentor matters, how the NRW Informatik Abitur is written without a computer, and an original project in which 29 years of Hagen rain expose a floating-point trap.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Online Python Classes in Hagen: Live Lessons in English">
+  <meta name="twitter:description" content="Live online Python in Hagen, in English: NRW's paper Abitur and a rain project where 971 is not 971.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-pyh .ag-hero h1 { letter-spacing: -0.018em; }
+.ag-root.ag-pyh .ag-capsule { border-left-width: 5px; border-radius: 3px; }
+.ag-root.ag-pyh .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-pyh .ag-table caption { text-align: left; font-weight: 500; }
+.ag-root.ag-pyh .ag-code-head b { letter-spacing: 0.016em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/online-python-classes-hagen-germany#page","url":"https://learn.modernagecoders.com/online-python-classes-hagen-germany","name":"Online Python Classes in Hagen","description":"A guide for Hagen learners and families to live online Python classes in English, built from the GI Informatik-Monitor, the KMK holiday table and Destatis, with an original floating-point project on Deutscher Wetterdienst rain data from Hagen-Fley.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"North Rhine-Westphalia","item":"https://learn.modernagecoders.com/coding-classes-in-north-rhine-westphalia"},{"@type":"ListItem","position":5,"name":"Python in Hagen","item":"https://learn.modernagecoders.com/online-python-classes-hagen-germany"}]},{"@type":"Course","name":"Online Python Classes in Hagen","description":"Live online Python classes in English for learners in Hagen: Python for children from 9, Informatik Abitur preparation in Python and Java, and Python certification preparation for teenagers and adults, in a group of fifteen to twenty or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/online-python-classes-hagen-germany"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/online-python-classes-hagen-germany"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/online-python-classes-hagen-germany"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the Python classes in German?","acceptedAnswer":{"@type":"Answer","text":"No, English is the only teaching language. Mentors work from India and fit their speed and wording to each learner. Python's own keywords and error messages are English, so the language of the class matches the language of the code."}},{"@type":"Question","name":"Are the classes live?","acceptedAnswer":{"@type":"Answer","text":"Yes. A mentor is on the video call for the full hour, sees the learner's shared screen and helps in the moment. There are no pre-recorded lessons in place of the mentor."}},{"@type":"Question","name":"Is the Informatik Abitur in NRW written on a computer?","acceptedAnswer":{"@type":"Answer","text":"No, it is a paper exam: the GI states that no computer is used for the written Informatik papers in North Rhine-Westphalia. The Land sets the tasks, and the teacher chooses two of four in a Grundkurs and three of four in a Leistungskurs."}},{"@type":"Question","name":"Do NRW pupils learn Informatik before the Oberstufe?","acceptedAnswer":{"@type":"Answer","text":"Yes. Grades 5 and 6 include required Informatik at all general schools, and electives follow later, differing by school type."}},{"@type":"Question","name":"When can I take classes in Hagen time?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Pupils often choose late afternoons, adults evenings or weekend mornings."}},{"@type":"Question","name":"What is the rain project on this page?","acceptedAnswer":{"@type":"Answer","text":"A lesson we built from Hagen-Fley rainfall published by the Deutscher Wetterdienst, 1979 to 2007. Adding the daily values as floats gives 970.9999999999999 mm for 1987; counting in whole tenths of a millimetre gives exactly 971.0."}},{"@type":"Question","name":"Why does 0.1 + 0.2 not equal 0.3 in Python?","acceptedAnswer":{"@type":"Answer","text":"Because Python stores such numbers in binary, and 0.1 and 0.2 have no exact binary form. Each is stored as the nearest possible value, so the sum prints as 0.30000000000000004. Compare floats with a tolerance, or count in whole units."}},{"@type":"Question","name":"Can my child learn Python online?","acceptedAnswer":{"@type":"Answer","text":"From about 9, yes, in our Python and AI for Kids course. Younger children usually start with Scratch, where blocks replace typing."}},{"@type":"Question","name":"How big are the classes?","acceptedAnswer":{"@type":"Answer","text":"Batches run with fifteen to twenty learners matched by age and level; with one-to-one there is nobody else, just the learner and the mentor twice a week."}},{"@type":"Question","name":"How do I pay?","acceptedAnswer":{"@type":"Answer","text":"Each month. The euro price you see uses the European Central Bank reference rate; the money moves in US dollars, and your bank turns that into euro, so a few cents can differ. The trial costs nothing and needs no card details."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/online-python-classes-hagen-germany","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-pyh">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#mentor">Live</a></li>
+      <li><a href="#abitur">Abitur</a></li>
+      <li><a href="#rain">Rain data</a></li>
+      <li><a href="#weeks">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / <a href="/coding-classes-in-north-rhine-westphalia">North Rhine-Westphalia</a> / Python in Hagen
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Hagen &middot; Python, live and online &middot; Ages 9 to adult</p>
+        <h1>Online Python classes in Hagen</h1>
+        <p class="ag-lede">Add up a year of Hagen rainfall in Python and you can get 970.9999999999999 millimetres instead of 971. Nothing is broken; that is how computers store decimals, and it is exactly the kind of thing a learner alone with a video never notices. Our live online Python classes put a mentor beside you, in English, to catch it. This page explains what that looks like, how Informatik works in North Rhine-Westphalia up to an Abitur written without a computer, and the Hagen rain project in full.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#rain" class="ag-btn ag-btn--ghost">See the rain project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20live%20in%20Hagen%20and%20would%20like%20live%20online%20Python%20classes%20in%20English.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pyh'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live classes since 2020 &middot; 10,000+ students worldwide &middot; Google rating 4.9 across about 547 reviews</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Language</dt><dd>Python 3, typed from day one</dd>
+          <dt>Learners</dt><dd>From age 9 to adult</dd>
+          <dt>Lessons</dt><dd>Live video, two hours a week</dd>
+          <dt>Class size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Mentors</dt><dd>Based in India, English only</dd>
+          <dt>Start</dt><dd>Free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The answer first</p>
+      <p>Modern Age Coders teaches online Python classes for Hagen as live video lessons in English: a mentor follows what each learner types and makes sure they understand why the code works. There are separate courses for children from 9, for Oberstufe pupils facing the Informatik Abitur and for adults, each taught by one regular mentor to a batch of fifteen to twenty people or to a single learner.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Choose a starting course</p>
+      <h2>Which Python course fits a Hagen learner?</h2>
+      <p class="ag-lede">One for children, one for Oberstufe pupils heading for an Informatik exam, and one for anyone from 13 who wants a recognised Python qualification to aim at.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PYH / 01</p>
+          <h3>Python and AI for Kids</h3>
+          <p>For children of nine to twelve, roughly two terms and a half. A child types every line, draws with turtle graphics, builds small games and reaches real data files.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/informatik-abitur-course-java-python">
+        <div class="ag-pick-shot"><img src="/images/informatik-abitur-java-python.webp" alt="Informatik Abitur in English course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PYH / 02</p>
+          <h3>Informatik Abitur in English</h3>
+          <p>Oberstufe pupils aged 16 to 19, six months, Grundkurs and Leistungskurs paths. Java and Python, data structures, and tracing code on paper.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/pcep-pcap-python-certification-course">
+        <div class="ag-pick-shot"><img src="/images/pcep-python-certification.webp" alt="PCEP and PCAP Python Certification Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PYH / 03</p>
+          <h3>PCEP and PCAP Preparation</h3>
+          <p>From about 13 to adult, five months, joinable any month. Python from zero to the level of the Python Institute's two entry exams.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="mentor">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Why live</p><h2>What does a live mentor add to learning Python online?</h2><p class="ag-lede">Videos explain. A mentor notices. Most of what goes wrong for a beginner is something only a person watching would notice.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What tends to happen to a beginner, alone and with a live mentor (from our classes)</caption><thead><tr><th scope="col">Moment</th><th scope="col">Alone with a video</th><th scope="col">With a live mentor</th></tr></thead><tbody><tr><td>First error message</td><td>Copied into a search engine, often misread</td><td>Read aloud together, line number first</td></tr><tr><td>Indentation slip</td><td>Program silently does the wrong thing</td><td>Spotted on the shared screen within seconds</td></tr><tr><td>A strange decimal like 970.9999999999999</td><td>Assumed to be a bug in Python</td><td>Explained: how computers store decimals</td></tr><tr><td>Stuck for twenty minutes</td><td>The evening ends there</td><td>One question from the mentor unblocks it</td></tr><tr><td>Code that works</td><td>Moved on from</td><td>Explained back in the learner's own words</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Our own observations from teaching live classes, not a study. The decimal row is the subject of the Hagen project below.</p>
+    <p class="ag-mt-40">Concretely: sixty minutes of video call, one screen shared at a time. The learner types in their own editor on their own computer; the mentor sees it, asks questions and only very rarely takes over the keyboard. Between classes there is one short task. In a batch, learners share their screens in turn, so a mistake one person makes becomes a lesson for everyone.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>In English, at your pace</h3><p>Every class is taught in English by mentors based in India. We offer no lessons in German, and we say so before anyone books.</p>
+<p>Mentors speak calmly, rephrase, and get used to each learner's accent. Since Python's keywords and error messages are English anyway, the class and the code speak the same language.</p></div><div><h3>What you need</h3><p>A laptop or desktop computer, a stable connection and a headset. Python costs nothing; setting it up is the first job you and your mentor do together.</p>
+<p>A tablet is fine for a ten year old watching Scratch, but Python needs a real keyboard.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="abitur">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">NRW schools and the Abitur</p><h2>How does Informatik work in Hagen schools, up to the Abitur?</h2><p class="ag-lede">It starts early, in grades 5 and 6 for every pupil, and it ends on paper: NRW's written Informatik Abitur uses no computer.</p></div>
+    <p>According to the Informatik-Monitor 2026/27 of the Gesellschaft für Informatik, Informatik is required in grades 5 and 6 at every general school type in North Rhine-Westphalia. In the Oberstufe it can be taken as a three-hour Grundkurs from the Einführungsphase and, in the Qualifikationsphase, either as a three-hour Grundkurs or a five-hour Leistungskurs.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The written Informatik Abitur in North Rhine-Westphalia</caption><thead><tr><th scope="col">Question</th><th scope="col">What the GI reports</th></tr></thead><tbody><tr><td>Who sets the tasks?</td><td>The Land, centrally, the same for every school</td></tr><tr><td>How many tasks?</td><td>One set of four for the Grundkurs and one of four for the Leistungskurs</td></tr><tr><td>Who chooses?</td><td>The teacher picks two of the four in a Grundkurs and three in a Leistungskurs; pupils do not choose</td></tr><tr><td>Is a computer used?</td><td>No: "Der Einsatz eines Computers ist für die Bearbeitung der schriftlich Abituraufgaben nicht vorgesehen."</td></tr><tr><td>Which aids?</td><td>A German spelling dictionary and a scientific calculator or CAS</td></tr><tr><td>Written or oral?</td><td>Always written in a Leistungskurs; written or oral in a Grundkurs</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quoted and summarised from the GI's Informatik-Monitor 2026/27, NRW entry, as published on 2 November 2026 when we read it.</p>
+    <p class="ag-mt-40">A paper exam changes how you should learn to program. With no computer to run the code, a pupil must predict what it does: trace the loop, track every variable, know what a number will look like. That is why our Python classes ask learners to predict output before they run anything, and why the rain project below is a good exam habit as much as a coding one. We teach alongside the school course and award no grades; the school's Informatik is the one that counts. Our <a class="ag-inline-link" href="/informatik-abitur-nrw">Informatik Abitur in NRW</a> page goes deeper.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="rain">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real Hagen project</p><h2>Why does Python say Hagen had 970.9999999999999 mm of rain?</h2><p class="ag-lede">A simple question, how much rain fell in a year, leads straight to one of the most useful lessons in programming.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The data</h3><p>Between June 1978 and December 2007 the Deutscher Wetterdienst operated a station named Hagen-Fley. Its day-by-day observations are open data (CC BY 4.0: reuse is fine as long as the DWD is credited), and our copy dates from 3 November 2026.</p>
+<p>From it we made hagen_regen.csv: one row per day from 1 January 1979 to 31 December 2007, 10,592 days, with the date and the rainfall in millimetres, always written with one decimal place, such as 2.2.</p></div><div><h3>The question</h3><p>Which year was the wettest, and how much rain fell in 1987? Version 1 adds up each year's daily values as ordinary decimal numbers (floats) and prints the totals.</p>
+<p>It also asks a yes-or-no question that looks too easy to fail: was 1987's total exactly 971.0 mm?</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: add the decimals</b><span>Python</span></figcaption><pre>import csv
+
+rain = {}
+with open("hagen_regen.csv", encoding="utf-8") as f:
+    for rec in csv.DictReader(f):
+        year = rec["datum"][:4]
+        rain[year] = rain.get(year, 0) + float(rec["regen_mm"])
+
+wettest = max(rain, key=rain.get)
+print("Wettest year:", wettest, rain[wettest], "mm")
+print("1987 total:", rain["1987"])
+print("Was 1987 exactly 971.0 mm?", rain["1987"] == 971.0)</pre><p class="ag-code-note">It prints: <code>Wettest year: 1981 1201.2999999999988 mm</code>, <code>1987 total: 970.9999999999999</code> and <code>Was 1987 exactly 971.0 mm? False</code>.</p></figure>
+    <p class="ag-mt-40">Every daily value had one decimal place, so every total should too. Instead Python prints 1201.2999999999988 and 970.9999999999999, and the comparison with 971.0 says False. The reason is that a computer stores numbers in binary, and most decimal fractions, 0.1 among them, have no exact binary form, the way one third has no exact decimal form. Each value is stored as the nearest possible binary number, and after 365 additions the tiny differences show. Try it yourself: in Python, 0.1 + 0.2 prints 0.30000000000000004.</p>
+    <p>The fix is to count in whole numbers. Every value in this file is given to a tenth of a millimetre, so Version 2 turns each day into an integer number of tenths (2.2 becomes 22), adds integers, which a computer does exactly, and divides by 10 only once, when printing.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: add below Version 1, count in tenths</b><span>Python</span></figcaption><pre>tenths = {}
+with open("hagen_regen.csv", encoding="utf-8") as f:
+    for rec in csv.DictReader(f):
+        year = rec["datum"][:4]
+        tenths[year] = tenths.get(year, 0) + round(float(rec["regen_mm"]) * 10)
+
+wettest = max(tenths, key=tenths.get)
+print("Wettest year:", wettest, tenths[wettest] / 10, "mm")
+print("1987 total:", tenths["1987"] / 10)
+print("Was 1987 exactly 971.0 mm?", tenths["1987"] == 9710)
+print("Years over 1,000 mm:", sorted(y for y in tenths if tenths[y] &gt;= 10000))</pre><p class="ag-code-note">The new lines it prints: <code>Wettest year: 1981 1201.3 mm</code>, <code>1987 total: 971.0</code>, <code>Was 1987 exactly 971.0 mm? True</code> and <code>Years over 1,000 mm: ['1981', '1984', '1986', '1993', '1998', '2002', '2007']</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Yearly rainfall at Hagen-Fley: float totals against integer tenths (our calculation)</caption><thead><tr><th scope="col">Year</th><th scope="col">Adding floats</th><th scope="col">Adding tenths</th></tr></thead><tbody><tr><td>1981</td><td class="ag-num">1201.2999999999988</td><td class="ag-num">1201.3</td></tr><tr><td>1987</td><td class="ag-num">970.9999999999999</td><td class="ag-num">971.0</td></tr><tr><td>1989</td><td class="ag-num">767.3999999999996</td><td class="ag-num">767.4</td></tr><tr><td>1991</td><td class="ag-num">754.3000000000003</td><td class="ag-num">754.3</td></tr><tr><td>2003</td><td class="ag-num">719.8</td><td class="ag-num">719.8</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Rain values: DWD, station 01920 Hagen-Fley, RSK (precipitation per day), years 1979 to 2007, CC BY 4.0, file taken on 3 November 2026. We wrote the code and did the adding; seven of the 29 years passed 1,000 mm. The DWD is not involved in our classes.</p>
+    <p class="ag-mt-40">Look at 2003: the float total happens to come out as exactly 719.8. That is the dangerous part. The error is not always visible, so a program that seems to work on one year can fail on the next. The rule that follows is short: never compare two floats with ==, and when you need exact sums of decimal values, count in whole units.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Ages 9 to 12.</strong> Add 0.1 to a variable ten times in a loop and print it after every step. At which step does it first look strange?</li><li><strong>Teenagers.</strong> Without running it, predict whether round(970.9999999999999, 1) == 971.0 is True. Then check. Why is rounding a fix for printing but a weak fix for comparing?</li><li><strong>Adults.</strong> Rewrite Version 1 using math.fsum on a list of each year's values, and compare its 1987 result with both versions on this page.</li><li><strong>Exam practice.</strong> On paper, trace a loop that adds 0.5 four times. Then explain why 0.5 behaves perfectly when 0.1 does not.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="path">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">From first line to exam level</p><h2>What is the Python path for a Hagen learner?</h2><p class="ag-lede">Our sequence, with the habit each stage builds. Children move through it slowly with games; teenagers and adults faster with data.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our Python path and the habit behind each stage (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Content</th><th scope="col">Habit</th></tr></thead><tbody><tr><td>1</td><td>print, variables, arithmetic</td><td>Predict before you run</td></tr><tr><td>2</td><td>if, for, while</td><td>Trace the loop by hand</td></tr><tr><td>3</td><td>Lists and dictionaries</td><td>Choose the right container</td></tr><tr><td>4</td><td>Functions</td><td>Write it once, test it twice</td></tr><tr><td>5</td><td>Files and real data</td><td>Check what the data really contains</td></tr><tr><td>6</td><td>Numbers inside the machine</td><td>Know what a float can and cannot hold</td></tr><tr><td>7</td><td>Projects and exam tasks</td><td>Explain every line in words</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Our own outline. Abitur pupils work through stages 1 to 7 with Java alongside Python, as the Informatik Abitur course does.</p>
+    <p class="ag-mt-40">Stage 6 is where many self-taught programmers have a gap. It looks like trivia until a bank balance, a grade average or a sensor total goes subtly wrong. For pupils facing a paper exam it is also the stage that makes predictions reliable: if you know that 0.1 is stored inexactly, you will not be surprised by the output you are asked to predict.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="weeks">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Times and holidays</p><h2>When are live Python classes for Hagen learners?</h2><p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Example Hagen times and the mentor's local time</caption><thead><tr><th scope="col">Hagen</th><th scope="col">India, to 28 March 2027</th><th scope="col">India, from 28 March 2027</th></tr></thead><tbody><tr><td>15:35</td><td>20:05</td><td>19:05</td></tr><tr><td>17:40</td><td>22:10</td><td>21:10</td></tr><tr><td>Saturday 12:30</td><td>17:00</td><td>16:00</td></tr><tr><td>Sunday 09:30</td><td>14:00</td><td>13:00</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Germany switches between MEZ, UTC+1, and MESZ, UTC+2, under the Einheitenzeitgesetz; the latest switch to MEZ was on 25 October 2026 and the next to MESZ is on 28 March 2027. India does not switch (UTC+5:30), so its clocks run four hours thirty ahead of Hagen in winter and three hours thirty in summer. Batch times are agreed, not fixed.</p>
+    <p class="ag-mt-40">School holidays in North Rhine-Westphalia for 2026/27, from the KMK overview dated 9 October 2025: autumn from 17 to 31 October 2026; Christmas from 23.12.2026 to 06.01.2027; Easter from 22 March to 3 April 2027; a single Whitsun day on 18 May 2027; and summer from 19 July to 31 August 2027. Classes carry on through all of them unless you choose to pause.</p>
+    <p>Hagen's population on 31 December 2024 was 190,384, by the Destatis count; North Rhine-Westphalia as a whole had 18,034,454. Learners from Dortmund (603,462), Bochum (358,676) or Wuppertal (358,193) are also in North Rhine-Westphalia and share the same school calendar and the same central Abitur.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Checks of understanding</p>
+      <h2>How do we know a Python learner really understands?</h2>
+      <p class="ag-lede">Five checks we use in class. Each one is a small task, not a test score.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Five checks of understanding (ours)</caption><thead><tr><th scope="col">Check</th><th scope="col">The learner can</th></tr></thead><tbody><tr><td>Prediction</td><td class="ag-num">Write down the output of a short program before running it</td></tr><tr><td>Tracing</td><td class="ag-num">Fill in a table of variable values for each loop step on paper</td></tr><tr><td>Error reading</td><td class="ag-num">Find the failing line from a traceback alone</td></tr><tr><td>Number sense</td><td class="ag-num">Explain why 0.1 + 0.2 is not printed as 0.3</td></tr><tr><td>Explanation</td><td class="ag-num">Describe a program they wrote in five plain sentences</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For Abitur pupils</h3><p>Prediction and tracing are exactly what a paper exam rewards. We practise them on every program, not only before exams.</p>
+<p>Number sense often decides the last marks on a tracing task.</p></div><div><h3>For adults</h3><p>Number sense is the check most professionals have never been taught. It matters the moment Python touches money or measurements.</p>
+<p>Bring a spreadsheet from work and we will test it with you.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Other courses</p>
+      <h2>Nine more courses for Hagen learners</h2>
+      <p class="ag-lede">Some come before Python, some beside school, some after the first course.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Younger learners</h3>
+        <span class="ag-band-sub">Ages 6 to 16</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PYH / YOUNG / 01</p>
+          <h4>Scratch first</h4>
+          <p>Block coding for children not yet typing, 6 to 12.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PYH / YOUNG / 02</p>
+          <h4>Maths through coding</h4>
+          <p>Graphs, fractions and geometry with code, 10 to 15.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PYH / YOUNG / 03</p>
+          <h4>Informatik Companion</h4>
+          <p>Support for the school subject, Klasse 5 to 10.</p>
+          <a class="ag-course-link" href="/courses/informatik-companion-course-klasse-5-10">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teenagers</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PYH / TEEN / 01</p>
+          <h4>Python for teens</h4>
+          <p>A complete Python course from zero, 13 to 18.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PYH / TEEN / 02</p>
+          <h4>Algorithms for teens</h4>
+          <p>Data structures and problem solving, 13 to 18.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PYH / TEEN / 03</p>
+          <h4>Data science for teens</h4>
+          <p>Pandas, charts and simple models, 14 to 18.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Adults</h3>
+        <span class="ag-band-sub">18 and over</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PYH / ADULT / 01</p>
+          <h4>Python masterclass</h4>
+          <p>From the first line to confident programs.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PYH / ADULT / 02</p>
+          <h4>Python automation</h4>
+          <p>Scripts that take over routine work.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PYH / ADULT / 03</p>
+          <h4>MySQL databases</h4>
+          <p>Storing and querying data properly.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The format</p>
+      <h2>How are the live Python classes run?</h2>
+      <p class="ag-lede">Two one-hour classes each week on video with the same mentor, and a short task in between. No recordings stand in for a person.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">School-day afternoons</p><p class="ag-slot-l">For children and pupils in Hagen.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evenings and weekends</p><p class="ag-slot-l">For adults, and for pupils before exams.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">One to one</p><p class="ag-slot-l">A slot agreed with your mentor.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Screen shared</h3><p>The mentor sees each line as you type.</p></div>
+      <div><h3>Predict first</h3><p>Output is guessed before code runs.</p></div>
+      <div><h3>Same mentor</h3><p>Continuity from first class to last.</p></div>
+      <div><h3>Age groups</h3><p>Children, teenagers and adults apart.</p></div>
+      <div><h3>Paper practice</h3><p>Tracing tasks for exam candidates.</p></div>
+      <div><h3>Short updates</h3><p>What was learned and what comes next.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Student projects</h2>
+      <p class="ag-lede">A handful of things our students made. The <a class="ag-inline-link" href="/student-labs">student labs</a> page has more examples.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What do online Python classes cost in Hagen?</h2>
+      <p class="ag-lede">One fee per month, eight live classes. The euro amount on this page is calculated with the European Central Bank reference rate, but payment is taken in US dollars, so your bank converts it and its euro figure can be a little different from ours.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Python installed, a first program written</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>A batch of fifteen to twenty</li><li>One mentor throughout</li><li>Two classes a week</li><li>Monthly, stop in any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>One learner, one mentor</li><li>Your own pace, including exam timing</li><li>Times you set together</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews on Google by parents and students, as they wrote them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Hagen asks</p>
+      <h2>Online Python classes in Hagen: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the Python classes in German?</h3>
+        <p>No, English is the only teaching language. Mentors work from India and fit their speed and wording to each learner. Python's own keywords and error messages are English, so the language of the class matches the language of the code.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are the classes live?</h3>
+        <p>Yes. A mentor is on the video call for the full hour, sees the learner's shared screen and helps in the moment. There are no pre-recorded lessons in place of the mentor.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the Informatik Abitur in NRW written on a computer?</h3>
+        <p>No, it is a paper exam: the GI states that no computer is used for the written Informatik papers in North Rhine-Westphalia. The Land sets the tasks, and the teacher chooses two of four in a Grundkurs and three of four in a Leistungskurs.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do NRW pupils learn Informatik before the Oberstufe?</h3>
+        <p>Yes. Grades 5 and 6 include required Informatik at all general schools, and electives follow later, differing by school type.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When can I take classes in Hagen time?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Pupils often choose late afternoons, adults evenings or weekend mornings.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the rain project on this page?</h3>
+        <p>A lesson we built from Hagen-Fley rainfall published by the Deutscher Wetterdienst, 1979 to 2007. Adding the daily values as floats gives 970.9999999999999 mm for 1987; counting in whole tenths of a millimetre gives exactly 971.0.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does 0.1 + 0.2 not equal 0.3 in Python?</h3>
+        <p>Because Python stores such numbers in binary, and 0.1 and 0.2 have no exact binary form. Each is stored as the nearest possible value, so the sum prints as 0.30000000000000004. Compare floats with a tolerance, or count in whole units.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child learn Python online?</h3>
+        <p>From about 9, yes, in our Python and AI for Kids course. Younger children usually start with Scratch, where blocks replace typing.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How big are the classes?</h3>
+        <p>Batches run with fifteen to twenty learners matched by age and level; with one-to-one there is nobody else, just the learner and the mentor twice a week.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I pay?</h3>
+        <p>Each month. The euro price you see uses the European Central Bank reference rate; the money moves in US dollars, and your bank turns that into euro, so a few cents can differ. The trial costs nothing and needs no card details.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Further pages</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Python learners in Hagen and North Rhine-Westphalia.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-north-rhine-westphalia">North Rhine-Westphalia</a></h3><p>Informatik across NRW school types.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-abitur-nrw">Informatik Abitur in NRW</a></h3><p>The central paper exam in detail.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-course-germany">Python course in Germany</a></h3><p>All our Python courses for Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/abitur-computer-science-in-english">Abitur computer science in English</a></h3><p>Informatik in the Oberstufe, explained in English.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-adults-germany">Coding for adults</a></h3><p>For those starting after school.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Our live method in detail.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first Python class</h2>
+        <p class="ag-lede">Let us know how old the learner is and what the aim is: a first program, the Abitur, or something for work. The free hour gets Python running and tries one small task; after it you hear which course and which format we suggest.</p>
+        <p class="ag-mt-40">Curious about the method? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> describes it, and <a class="ag-inline-link" href="/courses">the course list</a> has every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20live%20in%20Hagen%20and%20would%20like%20live%20online%20Python%20classes%20in%20English.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pyh',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">All classes are live online and only in English, with mentors in India. Message us on WhatsApp for the quickest reply, in English.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_pyh(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free; no card; no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Python and exams</h4><ul><li><a href="/python-course-germany">Python course in Germany</a></li><li><a href="/informatik-abitur-nrw">Informatik Abitur NRW</a></li><li><a href="/abitur-computer-science-in-english">Abitur CS in English</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-classes-in-north-rhine-westphalia">North Rhine-Westphalia</a></li><li><a href="/coding-classes-for-adults-germany">Coding for adults</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Count in tenths, not in floats</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_pyh = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'online-python-classes-hagen-germany-inline', meta: { name: name, age: age, page: 'online-python-classes-hagen-germany' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
