@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding Classes for Kids in Leipzig: Live Online, in English</title>
+  <meta name="description" content="Coding classes for kids in Leipzig, ages 6 to 12: live online in English, Informatik in Saxon schools from grade 7, the Mathematik-Olympiade and a tree data project.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-classes-for-kids-leipzig">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-classes-for-kids-leipzig.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#1A6E8D">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-classes-for-kids-leipzig">
+  <meta property="og:title" content="Coding Classes for Kids in Leipzig: Live Online, in English">
+  <meta property="og:description" content="Live online coding in English for Leipzig children aged 6 to 12: what Saxon schools teach and when, a maths olympiad open from grade 3, and a project on the city's register of almost 188,000 trees.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding Classes for Kids in Leipzig: Live Online, in English">
+  <meta name="twitter:description" content="Coding for Leipzig kids, live in English: Saxon school Informatik, the Mathematik-Olympiade and a Leipzig tree project.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ckl .ag-hero h1 { letter-spacing: -0.011em; }
+.ag-root.ag-ckl .ag-capsule { border-left-width: 5px; border-radius: 0; }
+.ag-root.ag-ckl .ag-section-head h2 { max-width: 26ch; }
+.ag-root.ag-ckl .ag-table caption { text-align: left; font-weight: 500; }
+.ag-root.ag-ckl .ag-code-head b { letter-spacing: 0.012em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-classes-for-kids-leipzig#page","url":"https://learn.modernagecoders.com/coding-classes-for-kids-leipzig","name":"Coding Classes for Kids in Leipzig","description":"A guide for Leipzig parents of children aged 6 to 12 to learning to code, built from the Informatik-Monitor page for Sachsen, the Mathematik-Olympiade pages, the KMK holiday table and an original project on the Leipzig Baumkataster.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Kids in Leipzig","item":"https://learn.modernagecoders.com/coding-classes-for-kids-leipzig"}]},{"@type":"Course","name":"Coding Classes for Kids in Leipzig","description":"Live online coding classes in English for Leipzig children aged 6 to 12: block games first, then typed Python and small data and AI projects, in a group of fifteen to twenty or one to one, with a mentor who stays the same.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-classes-for-kids-leipzig"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-kids-leipzig"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-kids-leipzig"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes taught in German?","acceptedAnswer":{"@type":"Answer","text":"No. Classes are live and in English only. The mentor uses simple sentences, shows each step on screen and adapts to your child's pace and accent, so children who are new to English manage well. Keywords in Scratch and Python are the same in any language."}},{"@type":"Question","name":"Do Leipzig primary schools teach coding?","acceptedAnswer":{"@type":"Answer","text":"Not as a subject. Grundschule in Saxony runs from grade 1 to grade 4 without one. Grades 5 and 6 have Technik/Computer, a combined subject with some informatics, and Informatik itself starts in grade 7 with one lesson a week."}},{"@type":"Question","name":"Is Informatik compulsory in Saxony?","acceptedAnswer":{"@type":"Answer","text":"Yes, from grade 7 to grade 10, at both the Oberschule and the Gymnasium, one lesson a week, according to the Informatik-Monitor 2026/27. In the Oberstufe it can be a Grundkurs, and a Leistungskurs exists at selected Gymnasien."}},{"@type":"Question","name":"How young can my child start?","acceptedAnswer":{"@type":"Answer","text":"At 6. The youngest work with picture blocks, so they need neither typing nor fluent reading. Most children move to typed Python somewhere around 9, when reading and typing feel easy."}},{"@type":"Question","name":"When are classes in Leipzig time?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Leipzig families often pick a slot between about 15:30 and 17:30, or a Sunday morning."}},{"@type":"Question","name":"Which contest could my primary-age child try?","acceptedAnswer":{"@type":"Answer","text":"The Mathematik-Olympiade has a primary version for grades 3 and 4 with three rounds. Pupils enter through their maths teacher at school, and the school round begins at the start of the school year."}},{"@type":"Question","name":"Where do the mentors teach from?","acceptedAnswer":{"@type":"Answer","text":"From India, live over video. A 15:40 class in Leipzig starts at 20:10 for the mentor in winter. Your child has the same mentor each week."}},{"@type":"Question","name":"How large are the groups?","acceptedAnswer":{"@type":"Answer","text":"Fifteen to twenty children of a similar age. If you would prefer private teaching, the one-to-one plan gives your child two lessons a week with the mentor alone."}},{"@type":"Question","name":"What does it cost, and in which currency?","acceptedAnswer":{"@type":"Answer","text":"Fees are monthly. You see them in euro at the European Central Bank reference rate, but the payment is made in US dollars and converted by your bank, so the amount may differ slightly. The trial class is free and needs no card."}},{"@type":"Question","name":"What kind of projects will my child do?","acceptedAnswer":{"@type":"Answer","text":"Young children make games and animated stories from blocks. Older children write Python, draw with code and, from about 10, ask questions of real data, such as counting the trees in Leipzig's register."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-classes-for-kids-leipzig","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-ckl">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#school">Schools</a></li>
+      <li><a href="#trees">Trees</a></li>
+      <li><a href="#olympiad">Olympiad</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Kids in Leipzig
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Leipzig &middot; Coding for children &middot; Ages 6 to 12</p>
+        <h1>Coding classes for kids in Leipzig</h1>
+        <p class="ag-lede">Saxony is one of the Länder that already gives every secondary pupil a weekly Informatik lesson, from grade 7. That still leaves six school years, from the first day of Grundschule to the end of grade 6, before a Leipzig child writes a program in class. This page explains the Saxon timetable, how our English-language video lessons run for six to twelve year olds, a maths olympiad that primary pupils can enter, and what Leipzig's own tree register teaches about counting carefully.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#trees" class="ag-btn ag-btn--ghost">See the tree project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Leipzig%20and%20our%20child%20would%20like%20to%20learn%20coding%20in%20English.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ckl'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online teaching since 2020 &middot; 10,000+ learners worldwide &middot; one regular mentor, lessons in English</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Ages</dt><dd>6 to 12, grouped by age</dd>
+          <dt>Begins with</dt><dd>Visual blocks, then typed Python</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Leipzig times</dt><dd>Afternoons and weekend mornings, flexible</dd>
+          <dt>Mentors</dt><dd>Based in India, live by video</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In a nutshell</p>
+      <p>Leipzig children aged 6 to 12 learn to code with Modern Age Coders in live online classes taught in English. They begin with block games, move to typed Python from around nine, and later try small data projects such as counting the trees in Leipzig's open register. Each child keeps one mentor, who adapts the pace and speaks clearly for young learners of English. Families choose a class of fifteen to twenty or private lessons, in the afternoon or on weekend mornings.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Starting points</p>
+      <h2>Three courses for Leipzig children</h2>
+      <p class="ag-lede">A short taster in blocks, a puzzle course that trains the thinking behind code, and a typed Python course that leads to projects like the tree count below.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/scratch-programming-complete-course">
+        <div class="ag-pick-shot"><img src="/images/scratch-kids.webp" alt="Scratch Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CKL / 01</p>
+          <h3>A first term of Scratch</h3>
+          <p>Suits complete beginners from about 7. Three to four months of building games, so you can see quickly whether coding clicks.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-and-computational-thinking-for-kids">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-kids.webp" alt="Problem Solving and Computational Thinking for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CKL / 02</p>
+          <h3>Thinking like a programmer</h3>
+          <p>Suits 7 to 12 year olds. Logic puzzles, patterns and step-by-step plans, useful for school maths and olympiad problems alike.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CKL / 03</p>
+          <h3>Python with small AI projects</h3>
+          <p>Suits 9 to 12 year olds who read fluently. Real typed code, drawings, games and data work such as counting Leipzig's trees.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Saxon schools</p><h2>When do Leipzig schools start teaching computing?</h2><p class="ag-lede">In grade 7 as its own subject, with some computing inside a broader subject in grades 5 and 6. The details come from the Sachsen page of the Informatik-Monitor 2026/27, published by the GI.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Primary school and grades 5 and 6</h3><p>In Saxony the Grundschule covers grades 1 to 4 and has no computing subject. In grades 5 and 6, both the Oberschule and the Gymnasium teach Technik/Computer, a combined subject whose curriculum names some media and some informatics skills.</p>
+<p>So a Leipzig child of eight sees computers at school, but nobody is required to teach that child how a program works.</p></div><div><h3>From grade 7: Informatik for everyone</h3><p>From grade 7 to grade 10, Informatik is taught for one lesson a week at both the Oberschule and the Gymnasium, under a curriculum dated 2022. Saxony is one of four Länder the monitor counts as meeting the short-term goal of four compulsory hours.</p>
+<p>The subject is popular later on. The monitor puts the share of Saxon upper-secondary pupils taking Informatik at 43 percent, and its national summary says about half take it in Saxony and Mecklenburg-Vorpommern.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Computing on a Leipzig pupil's timetable, 2026/27</caption><thead><tr><th scope="col">Grades</th><th scope="col">Stage</th><th scope="col">Computing lessons</th></tr></thead><tbody><tr><td>1 to 4</td><td>Grundschule</td><td>None as a subject</td></tr><tr><td>5 and 6</td><td>Oberschule or Gymnasium</td><td>Technik/Computer, a combined subject with some informatics</td></tr><tr><td>7 to 10</td><td>Oberschule or Gymnasium</td><td>Informatik, one lesson a week, compulsory</td></tr><tr><td>10</td><td>Gymnasium</td><td>Einführungsphase of the Oberstufe (eight-year route)</td></tr><tr><td>11 and 12</td><td>Gymnasium</td><td>Informatik as a Grundkurs; a Leistungskurs only at selected schools</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Informatik-Monitor 2026/27 of the Gesellschaft für Informatik, Sachsen page and national summary, read on 2 November 2026. Leipzig, with 611,850 residents on 31 December 2024 according to Destatis, is the largest city in Saxony, slightly ahead of Dresden with 564,904; the Land as a whole has 4,042,422.</p>
+    <p class="ag-mt-40">Because the rules are set for the whole Land, a family in Markkleeberg, Taucha, Schkeuditz or Markranstädt sees the same timetable as one in Connewitz or Gohlis. A child who has spent the primary years making games and solving puzzles walks into grade 7 Informatik already comfortable with loops and variables, and has time to enjoy the subject instead of catching up.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">In English</p><h2>Do the classes happen in German or English?</h2><p class="ag-lede">English, always, and live. Here is why that works for children who are still learning the language.</p></div>
+    <div class="ag-grid-3"><div><h3>We say it up front</h3><p>There is no German-language version of our classes. We would rather a Leipzig family knew that before booking than discovered it in the trial.</p></div><div><h3>Pace that fits the child</h3><p>The mentor waits, rephrases and demonstrates. When a seven year old mixes German and English in one sentence, the mentor understands and calmly supplies the missing English word.</p></div><div><h3>Code keeps its words</h3><p>Programs use the same keywords in every country: repeat, if, print. A child who learns them in English meets exactly the same words in grade 7 Informatik.</p></div></div>
+    <p class="ag-mt-40">The mentors are in India and teach over a live video link with the screen shared. India is ahead of Leipzig by several hours, so the late afternoon here is the mentor's evening, and a child keeps the same mentor for months. That continuity matters at this age: the mentor learns which child needs encouragement before trying, and which one wants the harder version straight away.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="trees">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real Leipzig project</p><h2>What is the most common tree in Leipzig?</h2><p class="ag-lede">Leipzig publishes a register of the trees it looks after, open for anyone to reuse. It is a perfect file for a child's first data question, because the answer changes depending on how you decide to group the trees.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The register</h3><p>The Baumkataster lists street trees and trees on city land: parks, cemeteries, allotment gardens, forest, river banks, sports grounds, schools and children's centres. The copy we downloaded in November 2026 has 187,690 rows, one per tree, and the city notes that the inventory is not finished yet.</p>
+<p>Each row gives a genus, such as Acer, and a German species name, such as Berg-Ahorn. We save just those two columns as leipzig_trees.csv.</p></div><div><h3>The question</h3><p>Which tree does Leipzig have most of? Children guess oak, or chestnut, or "the ones on our street". The first program counts each species name and prints the top three.</p>
+<p>The second program counts by genus, the larger family a species belongs to. Watch how the winner changes, and look closely at the third name in the first answer.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: count by species name</b><span>Python</span></figcaption><pre>import csv
+
+species = {}
+with open("leipzig_trees.csv", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        name = row["species"]
+        species[name] = species.get(name, 0) + 1
+
+top = sorted(species, key=species.get, reverse=True)[:3]
+for name in top:
+    print(name, species[name])</pre><p class="ag-code-note">It prints: <code>Gemeine Esche 12411</code>, <code>Berg-Ahorn 11522</code> and <code>Linde 11340</code>.</p></figure>
+    <p class="ag-mt-40">Common ash comes first with 12,411 trees. Third is "Linde", plain linden, with 11,340. But Linde is not a species: in the scientific column those rows say Tilia species, which means someone recorded that the tree is a linden without saying which kind. The register also lists Winter-Linde, Stadt-Linde, Kaiser-Linde and many more as separate names. So the species count mixes exact names with an "unknown kind" bucket, and splits one family into many small piles.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: count by genus</b><span>Python</span></figcaption><pre>genus = {}
+with open("leipzig_trees.csv", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        name = row["genus"]
+        genus[name] = genus.get(name, 0) + 1
+
+top = sorted(genus, key=genus.get, reverse=True)[:3]
+for name in top:
+    print(name, genus[name])</pre><p class="ag-code-note">It prints: <code>Acer 37236</code>, <code>Tilia 36025</code> and <code>Fraxinus 16204</code>.</p></figure>
+    <p>Counted by family, the maples (Acer) win with 37,236 trees and the lindens (Tilia) are close behind with 36,025. The ashes (Fraxinus), first by species, drop to third with 16,204. Neither answer is wrong. They answer two different questions, and a careful programmer says which question was asked before printing a winner.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Leipzig's register counted two ways (our calculation)</caption><thead><tr><th scope="col">Counted by</th><th scope="col">First</th><th scope="col">Second</th><th scope="col">Third</th></tr></thead><tbody><tr><td>Species name (615 different names)</td><td class="ag-num">Gemeine Esche, 12,411</td><td class="ag-num">Berg-Ahorn, 11,522</td><td>Linde (kind not recorded), 11,340</td></tr><tr><td>Genus (102 different genera)</td><td class="ag-num">Acer, maples, 37,236</td><td class="ag-num">Tilia, lindens, 36,025</td><td>Fraxinus, ashes, 16,204</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Data: Stadt Leipzig, Baumkataster, published through the Freistaat Sachsen open data portal, licence Datenlizenz Deutschland Namensnennung 2.0, downloaded 2 November 2026. All counts are our own; rows with an empty name are counted as their own group and do not reach the top three.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Ages 6 to 8, at the table.</strong> Sort a bag of buttons by colour, then by size. Which pile is biggest each time? Is it the same pile?</li><li><strong>Ages 8 to 10, in Scratch.</strong> Make two lists, one of tree names and one of families, and let a sprite announce which family appears most often.</li><li><strong>Ages 10 to 12, in Python.</strong> Run Version 1, find out what Linde really means, then write Version 2 without looking.</li><li><strong>Going further.</strong> The register also has a height column. Sort by it and look at the top two entries, 9,002 and 6,961 metres. No tree is that tall. What should a program do with values that cannot be true?</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="olympiad">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A contest from grade 3</p><h2>Can a Leipzig primary pupil enter a maths olympiad?</h2><p class="ag-lede">Yes. The Mathematik-Olympiade has a primary version for grades 3 and 4, entered through the school.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The competition</h3><p>The Mathematik-Olympiade is a national contest with about 200,000 pupils a year, and since 2005 it has been offered to primary schools as well. For grades 3 and 4 it runs in three rounds.</p>
+<p>Its problems ask children to explain their reasoning, not only to find a number, which is the same habit good programmers need.</p></div><div><h3>How to take part</h3><p>The organisers ask pupils to go straight to the maths teacher at their own school. Its information page says the school round starts each year when the new school year begins, so the moment to ask is early in the autumn term.</p>
+<p>For older pupils, the national association lists the Landesrunde of the 66th olympiad for 26 to 28 February 2027 and the Bundesrunde, held in Kaiserslautern, for 30 May to 2 June 2027.</p></div></div>
+    <p class="ag-mt-40">We never use the olympiad's own problems in class. Our mentors write fresh puzzles that build the same skills, such as trying small cases, spotting a rule and checking it. We have no connection with the Mathematik-Olympiaden e.V. or with any Saxon school.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>What times suit a Leipzig family?</h2><p class="ag-lede">Weekday afternoons and weekend mornings are the usual choices. The rows below translate a few Leipzig start times into the mentor's time.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Example Leipzig start times and the matching time in India</caption><thead><tr><th scope="col">Leipzig</th><th scope="col">India until 27 March 2027</th><th scope="col">India from 28 March 2027</th></tr></thead><tbody><tr><td>15:40</td><td>20:10</td><td>19:10</td></tr><tr><td>17:10</td><td>21:40</td><td>20:40</td></tr><tr><td>Sunday 10:00</td><td>14:30</td><td>13:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Example times, not fixed batches. German legal time is CET (UTC+1) in winter and CEST (UTC+2) in summer under the Einheitenzeitgesetz; the clocks went back on 25 October 2026 and go forward on 28 March 2027. India is on UTC+5:30 all year: four and a half hours ahead of Leipzig in winter, three and a half in summer.</p>
+    <p class="ag-mt-40">Saxon school holidays for 2026/27, from the KMK table: autumn break 12 to 24 October 2026, Christmas 23 December 2026 to 2 January 2027, a winter break from 8 to 19 February 2027, Easter 26 March to 2 April 2027, Whitsun 15 to 18 May 2027 and summer 10 July to 20 August 2027. Classes carry on through all of them, and families who travel simply skip a week.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Milestones</p>
+      <h2>Five steps from first blocks to real data</h2>
+      <p class="ag-lede">Our own scale. We use it to place a new child and to tell parents, in plain words, what has moved on.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our coding steps for ages 6 to 12</caption><thead><tr><th scope="col">Step</th><th scope="col">Age, roughly</th><th scope="col">What the child does</th></tr></thead><tbody><tr><td>1. Sequence</td><td class="ag-num">6 to 7</td><td class="ag-num">Snaps blocks in order so a character walks, jumps and talks</td></tr><tr><td>2. Loop</td><td class="ag-num">7 to 8</td><td class="ag-num">Replaces a long chain of copies with one repeat block</td></tr><tr><td>3. Branch</td><td class="ag-num">8 to 9</td><td class="ag-num">Builds a game that reacts to keys and keeps a score</td></tr><tr><td>4. Text code</td><td class="ag-num">9 to 11</td><td class="ag-num">Types Python with variables, lists and loops</td></tr><tr><td>5. Grouping data</td><td class="ag-num">10 to 12</td><td class="ag-num">Counts items in a file and explains how they were grouped</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Step 5 is the tree project. The skill that matters is the sentence at the end: "counted by family, maples win".</p>
+<p>Updates describe what your child made and understood, not minutes spent at a screen.</p></div><div><h3>For children</h3><p>Before you say what is biggest, say how you sorted.</p>
+<p>If a name looks vague, find out what it really means before you trust it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More for children</p>
+      <h2>Nine more courses for Leipzig children</h2>
+      <p class="ag-lede">Live, in English and with a regular mentor, either in a class or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Early starters</h3>
+        <span class="ag-band-sub">Ages 5 to 10</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CKL / EARLY / 01</p>
+          <h4>Readiness for young thinkers</h4>
+          <p>Patterns and order for six to nine year olds.</p>
+          <a class="ag-course-link" href="/courses/reasoning-and-readiness-course-for-young-thinkers">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CKL / EARLY / 02</p>
+          <h4>A year of block coding</h4>
+          <p>Games that grow into apps, by age group.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CKL / EARLY / 03</p>
+          <h4>Abacus maths</h4>
+          <p>Bead work that turns into mental arithmetic.</p>
+          <a class="ag-course-link" href="/courses/abacus-mental-maths-course-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Building games</h3>
+        <span class="ag-band-sub">Ages 7 to 14</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CKL / GAME / 01</p>
+          <h4>Coding inside Minecraft</h4>
+          <p>From visual blocks to written commands.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CKL / GAME / 02</p>
+          <h4>Roblox in Luau</h4>
+          <p>Scripted worlds for 8 to 14 year olds.</p>
+          <a class="ag-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CKL / GAME / 03</p>
+          <h4>Three game platforms</h4>
+          <p>Scratch, Roblox and Minecraft in sequence.</p>
+          <a class="ag-course-link" href="/courses/game-development-masterclass-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Beyond games</h3>
+        <span class="ag-band-sub">Ages 8 to 15</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CKL / MORE / 01</p>
+          <h4>Maths meets code</h4>
+          <p>School topics explored with short programs.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CKL / MORE / 02</p>
+          <h4>First steps in C++</h4>
+          <p>Puzzles and small games for 9 to 12.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CKL / MORE / 03</p>
+          <h4>A kids' hackathon</h4>
+          <p>Twelve weeks towards a finished project.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How it works</p>
+      <h2>A normal week of classes for a Leipzig child</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday afternoons</p><p class="ag-slot-l">After Hort or homework, from mid-afternoon.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend mornings</p><p class="ag-slot-l">Quieter sessions that suit the youngest.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Booked around your family's week.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Continuity</h3><p>The mentor who taught last week teaches this week.</p></div>
+      <div><h3>Clear speech</h3><p>Short instructions, shown as well as said.</p></div>
+      <div><h3>Child at the controls</h3><p>Your child builds; the mentor guides.</p></div>
+      <div><h3>Age-matched groups</h3><p>Classes are formed by age and level.</p></div>
+      <div><h3>Notes home</h3><p>A few lines after lessons on progress.</p></div>
+      <div><h3>Your choice of format</h3><p>A class of fifteen to twenty, or private teaching.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What older students have built</h2>
+      <p class="ag-lede">Early starters often keep going into their teens and build things that surprise their parents. A selection is below; <a class="ag-inline-link" href="/student-labs">student labs</a> collects more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for Leipzig families</h2>
+      <p class="ag-lede">Each month covers eight live classes. Figures on this page are shown in euro, using the reference rate set by the European Central Bank, while the payment is processed in US dollars; your bank handles the conversion, so the statement may show a slightly different amount.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free trial class</li><li>A puzzle and a first small program</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Fifteen to twenty children close in age</li><li>A regular mentor</li><li>Two classes each week</li><li>Paid monthly, easy to stop</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>One child, one mentor</li><li>Projects chosen with your child</li><li>Times set around your week</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from parents and students, quoted exactly.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Leipzig parents ask</p>
+      <h2>Coding classes for kids in Leipzig: frequently asked questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes taught in German?</h3>
+        <p>No. Classes are live and in English only. The mentor uses simple sentences, shows each step on screen and adapts to your child's pace and accent, so children who are new to English manage well. Keywords in Scratch and Python are the same in any language.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do Leipzig primary schools teach coding?</h3>
+        <p>Not as a subject. Grundschule in Saxony runs from grade 1 to grade 4 without one. Grades 5 and 6 have Technik/Computer, a combined subject with some informatics, and Informatik itself starts in grade 7 with one lesson a week.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Informatik compulsory in Saxony?</h3>
+        <p>Yes, from grade 7 to grade 10, at both the Oberschule and the Gymnasium, one lesson a week, according to the Informatik-Monitor 2026/27. In the Oberstufe it can be a Grundkurs, and a Leistungskurs exists at selected Gymnasien.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How young can my child start?</h3>
+        <p>At 6. The youngest work with picture blocks, so they need neither typing nor fluent reading. Most children move to typed Python somewhere around 9, when reading and typing feel easy.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes in Leipzig time?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Leipzig families often pick a slot between about 15:30 and 17:30, or a Sunday morning.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which contest could my primary-age child try?</h3>
+        <p>The Mathematik-Olympiade has a primary version for grades 3 and 4 with three rounds. Pupils enter through their maths teacher at school, and the school round begins at the start of the school year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where do the mentors teach from?</h3>
+        <p>From India, live over video. A 15:40 class in Leipzig starts at 20:10 for the mentor in winter. Your child has the same mentor each week.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How large are the groups?</h3>
+        <p>Fifteen to twenty children of a similar age. If you would prefer private teaching, the one-to-one plan gives your child two lessons a week with the mentor alone.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost, and in which currency?</h3>
+        <p>Fees are monthly. You see them in euro at the European Central Bank reference rate, but the payment is made in US dollars and converted by your bank, so the amount may differ slightly. The trial class is free and needs no card.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What kind of projects will my child do?</h3>
+        <p>Young children make games and animated stories from blocks. Older children write Python, draw with code and, from about 10, ask questions of real data, such as counting the trees in Leipzig's register.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for families in and around Leipzig.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Our hub for families across Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-in-german-schools-by-state">Informatik by Land</a></h3><p>How Saxony compares with the other fifteen Länder.</p></div>
+      <div><h3><a class="ag-inline-link" href="/math-olympiad-germany-preparation">Maths olympiad preparation</a></h3><p>More on the Mathematik-Olympiade and how to prepare.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-10-year-olds">Python for 10 year olds</a></h3><p>What typed code looks like at ten.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-projects-for-kids">AI projects for kids</a></h3><p>Ideas sorted by age.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>What happens in one of our lessons.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free trial class</h2>
+        <p class="ag-lede">The trial is a friendly puzzle followed by a first small program. From it the mentor can tell how your child approaches a problem and how much English feels comfortable, and suggests where to begin.</p>
+        <p class="ag-mt-40">You can also read <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or browse <a class="ag-inline-link" href="/courses">all courses</a> before booking.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Leipzig%20and%20our%20child%20would%20like%20to%20learn%20coding%20in%20English.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ckl',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Live online classes, in English only, with mentors in India. Send us a WhatsApp message in English if you have a question first.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ckl(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No cost and no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Children</h4><ul><li><a href="/scratch-coding-classes-for-kids">Scratch for kids</a></li><li><a href="/python-for-10-year-olds">Python at ten</a></li><li><a href="/ai-projects-for-kids">AI projects for kids</a></li><li><a href="/math-olympiad-germany-preparation">Maths olympiad prep</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/informatik-in-german-schools-by-state">Informatik by Land</a></li><li><a href="/student-labs">Student projects</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Say how you sorted before you name a winner</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ckl = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'coding-classes-for-kids-leipzig-inline', meta: { name: name, age: age, page: 'coding-classes-for-kids-leipzig' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

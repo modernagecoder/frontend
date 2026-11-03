@@ -85,7 +85,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE075 | mathe-nachhilfe-grundschule-online (mna, #1E4976) | door-de (de) | 3,239 | 2.7% vs informatik-pflichtfach-unterstuetzung | Mathe-Nachhilfe Grundschule online: Klasse 1 bis 4, auf Englisch | find the rule behind a growing pattern, then predict a far term without drawing every step | 91151dcb |
 | DE126 | coding-classes-for-kids-stuttgart (cst, #964762) | city-t1 (en) | 4,257 | 1.8% vs coding-classes-for-kids-germany | Coding Classes for Kids in Stuttgart: Live Online in English | to compare two series of very different size, index both to the same base year (= 100) | 341247e0 |
 | DE127 | coding-for-international-school-students-stuttgart (stu, #9D4352) | city-t1 (en) | 4,349 | 1.4% vs coding-classes-for-kids-stuttgart | Coding for International School Students in Stuttgart | two single years can tell any story; compare equal windows, measured the same way, and say how many | e8da8a6d |
-| DE128 | programmieren-lernen-kinder-stuttgart (pst, #621D46) | city-de (de) | 3,626 | 1.8% vs informatik-abitur-nrw | Programmieren lernen für Kinder in Stuttgart: live auf Englisch | the title of a list is only a claim; check every record's own fields before you count | (this commit) |
+| DE128 | programmieren-lernen-kinder-stuttgart (pst, #621D46) | city-de (de) | 3,626 | 1.8% vs informatik-abitur-nrw | Programmieren lernen für Kinder in Stuttgart: live auf Englisch | the title of a list is only a claim; check every record's own fields before you count | dc91705b |
+| DE129 | coding-classes-for-kids-leipzig (ckl, #1A6E8D) | city-t1 (en) | 3,742 | 2% vs coding-classes-for-kids-berlin | Coding Classes for Kids in Leipzig: Live Online, in English | decide the level of a category (kind or family) before you count, and read what a vague label means | (this commit) |
 
 ## Notes
 
