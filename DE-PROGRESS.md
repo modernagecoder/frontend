@@ -92,7 +92,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE136 | programmieren-lernen-kinder-nuernberg (pnu, #5E2831) | city-de (de) | 3,499 | 2.6% vs programmieren-lernen-kinder-leipzig | Programmieren lernen für Kinder in Nürnberg: live auf Englisch | searching the text is not understanding it; turn words like "bis" into data (a range) before you ask | e16adf18 |
 | DE112 | coding-classes-for-kids-munich (ckm, #3C6797) | city-t1 (en) | 4,438 | 2.1% vs coding-classes-for-kids-stuttgart | Coding Classes for Kids in Munich: Live Online in English | streaks, a counter that grows and resets | 3f291cff |
 | DE113 | math-tutor-munich-in-english (enb, #59425B) | city-t1 (en) | 4,069 | 1.8% vs coding-classes-for-kids-munich | Maths Tutor in Munich, in English: Live Online Lessons | a line of best fit by least squares, and why a trend is not a forecast | dd94d85f |
-| DE114 | coding-for-international-school-students-munich (cmu, #753000) | city-t1 (en) | 3,900 | 2.7% vs math-tutor-munich-in-english | Coding for International School Students in Munich | two-dimensional arrays, aggregating rows into a 7 by 24 table | (this commit) |
+| DE114 | coding-for-international-school-students-munich (cmu, #753000) | city-t1 (en) | 3,900 | 2.7% vs math-tutor-munich-in-english | Coding for International School Students in Munich | two-dimensional arrays, aggregating rows into a 7 by 24 table | 06bc9f09 |
+| DE115 | programmieren-lernen-kinder-muenchen (pmu, #673C14) | city-de (de) | 3,756 | 2% vs informatik-abitur-vorbereitung | Programmieren lernen für Kinder in München: live auf Englisch | drawing a chart from text, a loop that repeats a character | (this commit) |
 
 ## Notes
 
