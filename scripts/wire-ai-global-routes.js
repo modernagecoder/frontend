@@ -786,6 +786,7 @@ const SLUGS = [
   'learn-coding-in-english-germany',
   'python-course-germany',
   'java-classes-germany',
+  'ib-maths-tutor-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1651,6 +1652,7 @@ const LLMS_LABELS = {
   'learn-coding-in-english-germany': 'Learn coding in English in Germany',
   'python-course-germany': 'Python course in Germany',
   'java-classes-germany': 'Java classes in Germany',
+  'ib-maths-tutor-germany': 'IB maths tutor in Germany',
 };
 
 function wireLlms(slugs) {
