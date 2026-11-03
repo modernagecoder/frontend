@@ -927,6 +927,7 @@ const SLUGS = [
   'online-python-classes-remscheid-germany',
   'coding-classes-for-kids-in-koblenz-germany',
   'coding-and-ai-classes-in-bergisch-gladbach-germany',
+  'online-python-classes-jena-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1933,6 +1934,7 @@ const LLMS_LABELS = {
   'online-python-classes-remscheid-germany': 'Online Python classes in Remscheid',
   'coding-classes-for-kids-in-koblenz-germany': 'Coding classes for kids in Koblenz',
   'coding-and-ai-classes-in-bergisch-gladbach-germany': 'Coding and AI classes in Bergisch Gladbach',
+  'online-python-classes-jena-germany': 'Online Python classes in Jena',
 };
 
 function wireLlms(slugs) {

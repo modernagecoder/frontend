@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Online Python Classes in Jena: Live Lessons in English</title>
+  <meta name="description" content="Online Python classes in Jena for ages 9 to adult: six checks before you book, Thuringia's MBI subject, and two centuries of Jena temperatures in Python.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/online-python-classes-jena-germany">
+  <link rel="alternate" type="text/markdown" href="/src/pages/online-python-classes-jena-germany.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#642700">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/online-python-classes-jena-germany">
+  <meta property="og:title" content="Online Python Classes in Jena: Live Lessons in English">
+  <meta property="og:description" content="Live online Python in English for Jena learners, with an original project on the Jena Sternwarte weather station: 195 years of temperatures, smoothed with a 30-year moving window that knows when to stay silent.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Online Python Classes in Jena: Live Lessons in English">
+  <meta name="twitter:description" content="Live online Python in English for Jena, from a first loop to two centuries of temperatures.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-pje .ag-hero h1 { letter-spacing: -0.013em; }
+.ag-root.ag-pje .ag-capsule { border-left-width: 5px; }
+.ag-root.ag-pje .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-pje .ag-table td:last-child { font-variant-numeric: tabular-nums; }
+.ag-root.ag-pje .ag-code-head b { letter-spacing: 0.012em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/online-python-classes-jena-germany#page","url":"https://learn.modernagecoders.com/online-python-classes-jena-germany","name":"Online Python Classes in Jena","description":"A guide for Jena families and adults choosing an online Python class: six questions to ask any provider, what Thuringian schools now teach in Medienbildung und Informatik, and an original moving-average project on the Deutscher Wetterdienst record from the Jena Sternwarte.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Jena","item":"https://learn.modernagecoders.com/online-python-classes-jena-germany"}]},{"@type":"Course","name":"Online Python Classes in Jena","description":"Live online Python classes in English for learners in Jena aged 9 and up, from typed basics through files and data to small models, with one regular mentor, in a group of fifteen to twenty or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/online-python-classes-jena-germany"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/online-python-classes-jena-germany"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/online-python-classes-jena-germany"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. Lessons are only in English, and always live. Mentors adapt their speed and accent to the learner and explain again in simpler words when needed, so pupils who learn English at school can follow comfortably."}},{"@type":"Question","name":"How do I know an online class is any good?","acceptedAnswer":{"@type":"Answer","text":"Ask whether it is live, who types the code, whether the teacher stays the same and what the learner will have built at the end. A free first class lets you see all four for yourself."}},{"@type":"Question","name":"What does my child learn in MBI at school?","acceptedAnswer":{"@type":"Answer","text":"Medienbildung und Informatik is a new compulsory subject in Thuringia, taught in grades 5 to 7 in 2026/27 and growing by one grade a year to grade 10 in 2029/30, according to the Gesellschaft für Informatik."}},{"@type":"Question","name":"At what age can my child start Python?","acceptedAnswer":{"@type":"Answer","text":"Nine is a good age, when a child reads fluently and can find letters on a keyboard. Six to eight year olds begin in Scratch and switch later."}},{"@type":"Question","name":"Is the Jena temperature project too hard for a child?","acceptedAnswer":{"@type":"Answer","text":"The full version suits teenagers and adults. Children of 9 to 12 do a shorter version with a week of their own noon temperatures, then a short list of Jena years."}},{"@type":"Question","name":"When are classes in Jena time?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Pupils usually come after school and adults in the evening."}},{"@type":"Question","name":"Who teaches?","acceptedAnswer":{"@type":"Answer","text":"Mentors based in India who teach live online in English. A learner keeps the same mentor for the whole course."}},{"@type":"Question","name":"How is payment handled?","acceptedAnswer":{"@type":"Answer","text":"By the month. We quote euro using the ECB reference rate, collect the payment in US dollars, and leave the exchange to your bank, which is why the amount you see on the statement can be marginally different. You pay nothing for the first class."}},{"@type":"Question","name":"Do you use AI tools in class?","acceptedAnswer":{"@type":"Answer","text":"Only where the provider's age limit allows. Children's courses use none. Teenagers may use ChatGPT from 13 with a parent's permission; Claude is kept to adult courses because Anthropic sets 18."}},{"@type":"Question","name":"Can adults join?","acceptedAnswer":{"@type":"Answer","text":"Yes, in their own classes, starting from the very first line of Python."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/online-python-classes-jena-germany","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-pje">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#checks">Checks</a></li>
+      <li><a href="#school">School</a></li>
+      <li><a href="#climate">Project</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Jena
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Jena &middot; Python &middot; Live online</p>
+        <h1>Online Python classes in Jena</h1>
+        <p class="ag-lede">Jena has measured its weather at the same observatory site for two centuries, and that record is now open data. It makes a fine first serious Python project, because it is long, real and full of gaps. This page is for Jena learners and parents weighing up an online Python class: six questions to ask before you book with anyone, what the new Thuringian school subject covers, and how our learners turn 195 years of temperatures into a trend they can defend.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#climate" class="ag-btn ag-btn--ghost">See the Jena project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20live%20in%20Jena%20and%20would%20like%20a%20free%20first%20Python%20class%2C%20live%20and%20in%20English." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pje'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online classes since 2020 &middot; 10,000+ students worldwide &middot; every line typed by the learner</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Ages</dt><dd>9 and up, adults welcome</dd>
+          <dt>Format</dt><dd>Live video with a shared screen</dd>
+          <dt>Teaching language</dt><dd>English, at the learner's pace</dd>
+          <dt>Jena times</dt><dd>Afternoons, evenings, weekends</dd>
+          <dt>Teachers</dt><dd>Mentors based in India</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Modern Age Coders runs online Python classes for Jena that are live, taught in English, and hands-on: on a video call the learner writes and runs Python in their own editor while the mentor watches the shared screen and asks questions. From about 9 children type their own programs; older learners go further, into data files and simple models. Classes of fifteen to twenty or one to one, with one India-based mentor who keeps to each learner's pace and accent.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Python by age</p>
+      <h2>Three Python courses for Jena learners</h2>
+      <p class="ag-lede">One for children, one for teenagers, one for adults. The free first class tells us which suits.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PJE / 01</p>
+          <h3>Python and AI for Kids</h3>
+          <p>Nine to twelve year olds type their first programs, draw with turtle graphics and build small games before trying a little machine learning.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PJE / 02</p>
+          <h3>Python for Teens</h3>
+          <p>Thirteen to eighteen. A full route from variables and loops to files, classes and data projects like the Jena temperature record.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PJE / 03</p>
+          <h3>Python Masterclass for Adults</h3>
+          <p>Adults with no experience. Clear foundations first, then the scripts and libraries that make Python useful at work.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="checks">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Before you book</p><h2>What should you check before booking an online Python class in Jena?</h2><p class="ag-lede">There are many online courses, and they differ more than their websites suggest. These six questions sort them quickly. They apply to us as much as to anyone.</p></div>
+    <ol class="ag-steps"><li><strong>Is it live?</strong> A recorded video cannot notice that a learner is stuck. Ask whether a person teaches in real time, and how often.</li><li><strong>Who types?</strong> If the teacher writes the code and the learner watches, very little is learned. In our classes the learner types from the first minute.</li><li><strong>Is it the same teacher each time?</strong> A mentor who knows the learner's gaps saves weeks. Ours stay with a learner for the whole course.</li><li><strong>In which language, and at what speed?</strong> We teach only in English, slowly when needed, and we tell families before any trial.</li><li><strong>Which tools, at which age?</strong> AI tools have minimum ages in their providers' terms. A course for children should not need any adult account.</li><li><strong>What will exist at the end?</strong> Ask for an example of a finished project. A good course ends with something the learner built and can explain.</li></ol>
+    <p class="ag-source-note ag-mt-40">Our own checklist. Tool ages are quoted from the providers' terms in our <a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a>; OpenAI sets 13 with a parent's permission under 18, Anthropic sets 18.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What a week looks like</h3><p>Two live classes of an hour each, usually a few days apart, and a short task in between. In class the mentor introduces one idea, the learner uses it to build something, then deliberately breaks it and explains the error message.</p>
+<p>Between classes the learner finishes the task alone and brings questions. Nothing is marked; the point is to arrive with something to show.</p></div><div><h3>What you need in Jena</h3><p>Any laptop or desktop made in the last ten years will do, plus a camera, headphones with a microphone and reliable internet. Python costs nothing; setting it up together is part of lesson one.</p>
+<p>A quiet corner helps more than a fast machine. The programs on this page run in seconds on an ordinary laptop.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Thuringian schools</p><h2>What do Jena schools teach in Medienbildung und Informatik?</h2><p class="ag-lede">Thuringia is building up a new compulsory subject, Medienbildung und Informatik, or MBI, one year group at a time.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>A subject that grows each year</h3><p>According to the Gesellschaft für Informatik's Informatik-Monitor 2026/27, MBI started in the 2024/25 school year at all general schools in Thuringia. It is currently taught in grades 5, 6 and 7 and is being extended one grade a year, reaching grade 10 in the 2029/30 school year.</p>
+<p>A Jena pupil in grade 5 today will have MBI every year up to grade 10. An older sibling in grade 8 may have none at all, because the subject arrived after them.</p></div><div><h3>Ahead of most Länder</h3><p>The KMK's scientific commission recommends six compulsory weekly hours of Informatik across lower secondary by 2030. The monitor names Thuringia as one of only three Länder that already meet that target, with Mecklenburg-Vorpommern and Saarland.</p>
+<p>Thuringian secondary pupils attend a Gymnasium, a Regelschule with two tracks or a Gemeinschaftsschule with three; MBI applies to all of them.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>MBI by grade for Jena pupils, school year 2026/27</caption><thead><tr><th scope="col">Grade in 2026/27</th><th scope="col">MBI this year?</th><th scope="col">MBI through to grade 10?</th></tr></thead><tbody><tr><td>5</td><td>Yes</td><td>Yes</td></tr><tr><td>6</td><td>Yes</td><td>Yes</td></tr><tr><td>7</td><td>Yes</td><td>Yes, as the subject moves up</td></tr><tr><td>8</td><td>No</td><td>The rollout reaches grade 8 in 2027/28, after this year group</td></tr><tr><td>9 and 10</td><td>No</td><td>The rollout reaches these grades after this year group has left them</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Gesellschaft für Informatik, Informatik-Monitor 2026/27, national summary and Thuringia page, read on 2 November 2026. The year-by-year reading in the right-hand column is our own, from the stated rollout of one grade per year to grade 10 in 2029/30.</p>
+    <p class="ag-mt-40">Our classes run next to school and never replace it; school marks come from school. For a pupil who wants more programming than MBI offers, or who missed it, typed Python is the natural next step. Our <a class="ag-inline-link" href="/courses/informatik-companion-course-klasse-5-10">Informatik companion for Klasse 5 to 10</a> follows school topics in English, and the <a class="ag-inline-link" href="/coding-classes-in-thuringia">Thuringia page</a> covers the Land in more depth.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="climate">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A Jena data project</p><h2>Has Jena got warmer since the 1800s, and how can Python show it fairly?</h2><p class="ag-lede">The Deutscher Wetterdienst publishes the yearly mean temperature for its station Jena (Sternwarte) back to 1821, free to reuse under CC BY 4.0. A single year tells you little; a moving window over thirty years tells you a lot, as long as it refuses to fill holes it cannot see into.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The data</h3><p>The file we downloaded on 3 November 2026 holds one row per year, and the sixth column, called JA_TT, is the annual mean air temperature. A value of -999 means "missing". We saved the product file as jena_years.txt and read it with nothing but plain Python.</p>
+<p>It has gaps of two kinds. Two years, 1823 and 1845, are present but marked -999. Eight years, 1843, 1870, 1875 to 1878, 1922 and 1945, are simply absent. A program that does not look for both kinds will quietly get wrong answers.</p></div><div><h3>Measured the same way?</h3><p>The station's metadata says the early values come from three readings a day, at 08, 14 and 20 local time in 1821 and 1822 and at 07, 14 and 21 from 1824. Instruments and routines changed later too, and the station moved slightly over the years; it has stood at 154.5 metres since August 2004.</p>
+<p>So we treat the very early decades with care, and we say so. Part of working with real data is writing down what you do not know.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: read the years, skip the missing marks</b><span>Python</span></figcaption><pre>mean_temp = {}
+with open("jena_years.txt", encoding="latin-1") as f:
+    next(f)                                   # skip the header line
+    for line in f:
+        cols = [c.strip() for c in line.split(";")]
+        year, value = int(cols[1][:4]), float(cols[5])
+        if value != -999:                     # -999 is the DWD code for "no value"
+            mean_temp[year] = value
+
+print("Years with a mean temperature:", len(mean_temp))
+print("First:", min(mean_temp), " last:", max(mean_temp))
+for y in (1864, 1990, 2024):
+    print(y, mean_temp[y], "C")</pre><p class="ag-code-note">It prints <code>Years with a mean temperature: 195</code>, <code>First: 1821  last: 2025</code>, then <code>1864 6.19 C</code>, <code>1990 10.7 C</code> and <code>2024 12.01 C</code>.</p></figure>
+    <p class="ag-mt-40">Single years jump around. 1864 is the coldest year in the file at 6.19 degrees, 2024 the warmest at 12.01, and the years in between swing by a degree or more from one to the next. Comparing two chosen years can tell almost any story. A moving average does something fairer: for every end year it averages the thirty years up to and including it, so each value rests on three decades of weather rather than one.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: a thirty-year window that refuses to guess</b><span>Python</span></figcaption><pre>def window_mean(end, size=30):
+    years = range(end - size + 1, end + 1)
+    if any(y not in mean_temp for y in years):
+        return None                           # a gap: refuse to guess
+    return round(sum(mean_temp[y] for y in years) / size, 2)
+
+for end in (1908, 1921, 1950, 1990, 2020, 2025):
+    print("30 years to", end, ":", window_mean(end))</pre><p class="ag-code-note">It prints <code>30 years to 1908 : 8.11</code>, <code>30 years to 1921 : 8.61</code>, <code>30 years to 1950 : None</code>, <code>30 years to 1990 : 9.28</code>, <code>30 years to 2020 : 10.3</code> and <code>30 years to 2025 : 10.51</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Thirty-year mean temperature at the Jena Sternwarte, by last year of the window (our calculation)</caption><thead><tr><th scope="col">Thirty years ending</th><th scope="col">Mean temperature</th></tr></thead><tbody><tr><td>1908 (1879 to 1908)</td><td class="ag-num">8.11 C</td></tr><tr><td>1921 (1892 to 1921)</td><td class="ag-num">8.61 C</td></tr><tr><td>1950</td><td class="ag-num">No answer: 1922 and 1945 missing</td></tr><tr><td>1990 (1961 to 1990)</td><td class="ag-num">9.28 C</td></tr><tr><td>2020 (1991 to 2020)</td><td class="ag-num">10.3 C</td></tr><tr><td>2025 (1996 to 2025)</td><td class="ag-num">10.51 C</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Data: Deutscher Wetterdienst, Climate Data Center, annual values for station 02444 Jena (Sternwarte), column JA_TT, CC BY 4.0, downloaded 3 November 2026. The windows, the None results and the table are our own work.</p>
+    <p class="ag-mt-40">Look at the None. Any window that contains 1922 or 1945 has a hole, and the function returns nothing rather than averaging 29 years and calling it 30. That rule costs a lot: complete windows exist only for end years 1908 to 1921 and 1975 to 2025, 65 windows in all. But the ones it does give are honest, and they climb: from 8.11 degrees for the thirty years to 1908, to 9.28 for 1961 to 1990, to 10.51 for 1996 to 2025. Over the two complete stretches the Jena record has warmed by more than two degrees on a thirty-year average. That is our reading of this one station's data, not a forecast and not a statement about anywhere else.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Ages 9 to 12.</strong> Write down the temperature at noon every day for a week. Average each three days in a row. Is the line of averages smoother than the daily one?</li><li><strong>Teenagers.</strong> Run both versions, then change the window to ten years. How many more answers do you get, and how much jumpier are they?</li><li><strong>Adults.</strong> Change the refusal rule to allow at most one missing year per window. Which numbers change, and would you trust them?</li><li><strong>Going further.</strong> Print the five warmest and five coldest single years. How many of the warmest fall after 2000?</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>When are online Python classes in Jena time?</h2><p class="ag-lede">A Jena afternoon is an Indian evening, and a Jena weekend morning is an Indian afternoon, which leaves plenty of room for both sides.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Example slots in Jena and on the mentor's clock</caption><thead><tr><th scope="col">Jena</th><th scope="col">India in winter</th><th scope="col">India from 28 March 2027</th></tr></thead><tbody><tr><td>16:40</td><td>21:10</td><td>20:10</td></tr><tr><td>17:20</td><td>21:50</td><td>20:50</td></tr><tr><td>Saturday 14:00</td><td>18:30</td><td>17:30</td></tr><tr><td>Sunday 12:00</td><td>16:30</td><td>15:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Jena keeps German legal time under the Einheitenzeitgesetz: UTC+1 from 25 October 2026 and UTC+2 from 28 March 2027. India stays at UTC+5:30. The rows are illustrations, not fixed batch times.</p>
+    <p class="ag-mt-40">Thuringian school holidays in 2026/27, per the Kultusministerkonferenz table: autumn 12 to 24 October 2026, Christmas 23 December 2026 to 2 January 2027, winter 1 to 6 February 2027, Easter 22 March to 3 April 2027, a free day on 7 May 2027, and summer from 10 July to 20 August 2027. Classes continue through them unless a family pauses. Learners join from across Jena and from nearby Weimar, Apolda, Stadtroda, Kahla and Erfurt.</p>
+    <p>For pupils who want a contest alongside the course: the Informatik-Biber runs from 9 to 20 November 2026 through schools, and pupils from grade 3 can also try the Jugendwettbewerb Informatik. Our <a class="ag-inline-link" href="/math-and-coding-competitions-germany">competitions calendar</a> lists the dates. We are not connected with any organiser.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Skills ladder</p>
+      <h2>The Python skills a Jena learner builds</h2>
+      <p class="ag-lede">Our own ladder. Each rung is a thing the learner can do without help.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Python skills ladder (ours)</caption><thead><tr><th scope="col">Rung</th><th scope="col">Skill</th><th scope="col">Shown by</th></tr></thead><tbody><tr><td>1</td><td class="ag-num">Variables, input and output</td><td class="ag-num">A program that asks a question and answers it</td></tr><tr><td>2</td><td class="ag-num">Loops and decisions</td><td class="ag-num">Tracing a loop on paper before running it</td></tr><tr><td>3</td><td class="ag-num">Lists and dictionaries</td><td class="ag-num">Storing a year and its value, like the Jena file</td></tr><tr><td>4</td><td class="ag-num">Functions with clear rules</td><td class="ag-num">A function that returns None when it cannot answer</td></tr><tr><td>5</td><td class="ag-num">Files and real data</td><td class="ag-num">Reading a published file and naming its gaps</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Rung 4 is the heart of the Jena project: a function that knows when to refuse.</p>
+<p>Progress is reported as things your child can do, not hours spent.</p></div><div><h3>For learners</h3><p>Before you average anything, count how many values you actually have.</p>
+<p>A program that says "I cannot tell" is more useful than one that guesses quietly.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Beyond the first course</p>
+      <h2>Nine more courses for Jena learners</h2>
+      <p class="ag-lede">Each one live and in English, with a mentor who stays with the learner, in a class or on its own.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Children</h3>
+        <span class="ag-band-sub">Ages 8 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PJE / KIDS / 01</p>
+          <h4>Coding for kids</h4>
+          <p>Scratch first for children not yet ready to type.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PJE / KIDS / 02</p>
+          <h4>Maths through coding</h4>
+          <p>Averages and patterns explored in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PJE / KIDS / 03</p>
+          <h4>AI literacy for kids</h4>
+          <p>How machines learn, with no adult accounts.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teenagers</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PJE / TEEN / 01</p>
+          <h4>Data science for teens</h4>
+          <p>Long datasets, charts and first models.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PJE / TEEN / 02</p>
+          <h4>Competitive programming</h4>
+          <p>Contest problems and fast solutions.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PJE / TEEN / 03</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>Saving and sharing code properly.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Adults</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PJE / ADULT / 01</p>
+          <h4>Data analysis</h4>
+          <p>Python, SQL and spreadsheets for real work.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PJE / ADULT / 02</p>
+          <h4>AI and machine learning</h4>
+          <p>From Python to deep learning.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PJE / ADULT / 03</p>
+          <h4>Python certification prep</h4>
+          <p>PCEP and PCAP, for a recognised milestone.</p>
+          <a class="ag-course-link" href="/courses/pcep-pcap-python-certification-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Practicalities</p>
+      <h2>How live Python classes are arranged for Jena</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">School afternoons</p><p class="ag-slot-l">For pupils after lessons and homework.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Early evenings</p><p class="ag-slot-l">For adults on working days.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Private slots</p><p class="ag-slot-l">Agreed with the mentor, weekends included.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Live every time</h3><p>A person teaches, nothing is replayed.</p></div>
+      <div><h3>Learner at the keys</h3><p>The mentor asks; the learner types.</p></div>
+      <div><h3>One mentor</h3><p>Continuity from first loop to project.</p></div>
+      <div><h3>Plain English</h3><p>Slowed down and repeated when needed.</p></div>
+      <div><h3>Age-correct tools</h3><p>No adult accounts in children's classes.</p></div>
+      <div><h3>Your choice of size</h3><p>A class of fifteen to twenty, or private.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Work by our students</h2>
+      <p class="ag-lede">Projects from Python learners in many countries; see the <a class="ag-inline-link" href="/student-labs">student labs</a> page for more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for online Python in Jena</h2>
+      <p class="ag-lede">Eight live classes are included in each monthly fee. For Jena we print the price in euro, using the ECB reference rate of the day, but you are charged in US dollars; the bank exchanges it on your side, so cents may differ.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A first Python task at the right level</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Fifteen to twenty learners of a similar level</li><li>One mentor throughout</li><li>Two classes a week</li><li>Pay monthly, stop any time</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Private lessons with one mentor</li><li>Your own projects</li><li>Times you agree</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from students and parents, quoted word for word.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Jena learners ask</p>
+      <h2>Online Python classes in Jena: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. Lessons are only in English, and always live. Mentors adapt their speed and accent to the learner and explain again in simpler words when needed, so pupils who learn English at school can follow comfortably.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I know an online class is any good?</h3>
+        <p>Ask whether it is live, who types the code, whether the teacher stays the same and what the learner will have built at the end. A free first class lets you see all four for yourself.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does my child learn in MBI at school?</h3>
+        <p>Medienbildung und Informatik is a new compulsory subject in Thuringia, taught in grades 5 to 7 in 2026/27 and growing by one grade a year to grade 10 in 2029/30, according to the Gesellschaft für Informatik.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>At what age can my child start Python?</h3>
+        <p>Nine is a good age, when a child reads fluently and can find letters on a keyboard. Six to eight year olds begin in Scratch and switch later.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the Jena temperature project too hard for a child?</h3>
+        <p>The full version suits teenagers and adults. Children of 9 to 12 do a shorter version with a week of their own noon temperatures, then a short list of Jena years.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes in Jena time?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Pupils usually come after school and adults in the evening.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who teaches?</h3>
+        <p>Mentors based in India who teach live online in English. A learner keeps the same mentor for the whole course.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is payment handled?</h3>
+        <p>By the month. We quote euro using the ECB reference rate, collect the payment in US dollars, and leave the exchange to your bank, which is why the amount you see on the statement can be marginally different. You pay nothing for the first class.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you use AI tools in class?</h3>
+        <p>Only where the provider's age limit allows. Children's courses use none. Teenagers may use ChatGPT from 13 with a parent's permission; Claude is kept to adult courses because Anthropic sets 18.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can adults join?</h3>
+        <p>Yes, in their own classes, starting from the very first line of Python.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Jena learners.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Our pages for every part of Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-thuringia">Coding classes in Thuringia</a></h3><p>MBI, holidays and the Land in detail.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-course-germany">Python course in Germany</a></h3><p>Python for learners anywhere in Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-teens-germany">Coding for teens in Germany</a></h3><p>Courses for 13 to 18.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-in-german-schools-by-state">Informatik by Land</a></h3><p>How all sixteen Länder compare.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Our method, class by class.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first Python class</h2>
+        <p class="ag-lede">Treat the free class as a taster lesson. A few lines of Python get written and run, the mentor sees how the learner reasons and how easy English feels, and you get a clear suggestion for a course and group.</p>
+        <p class="ag-mt-40">Want to read first? Try <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or <a class="ag-inline-link" href="/courses">all courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20live%20in%20Jena%20and%20would%20like%20a%20free%20first%20Python%20class%2C%20live%20and%20in%20English." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pje',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Live online lessons, in English only, with mentors in India. WhatsApp, in English, is the quickest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_pje(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, nothing to sign.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Python</h4><ul><li><a href="/python-course-germany">Python course in Germany</a></li><li><a href="/python-classes-for-kids-germany">Python for kids</a></li><li><a href="/coding-classes-for-teens-germany">Coding for teens</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-classes-in-thuringia">Thuringia</a></li><li><a href="/informatik-in-german-schools-by-state">Informatik by Land</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>A window with a hole stays silent</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_pje = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'online-python-classes-jena-germany-inline', meta: { name: name, age: age, page: 'online-python-classes-jena-germany' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
