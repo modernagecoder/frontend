@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding Interview Prep for International Students in Germany</title>
+  <meta name="description" content="Live coding interview practice in English for international students in Germany: data structures, algorithms, thinking aloud and mock interviews, one to one.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-interview-prep-for-international-students-germany">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-interview-prep-for-international-students-germany.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#256D6B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-interview-prep-for-international-students-germany">
+  <meta property="og:title" content="Coding Interview Prep for International Students in Germany">
+  <meta property="og:description" content="Technical interview preparation for international students at German universities, taught live in English: a five-step way to answer any coding question, and a classic problem solved twice and timed.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding Interview Prep for International Students in Germany">
+  <meta name="twitter:description" content="Coding interview practice in English for international students in Germany, with mock interviews and real timings.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cip .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-cip .ag-capsule { border-left-width: 4px; }
+.ag-root.ag-cip .ag-section-head h2 { max-width: 29ch; }
+.ag-root.ag-cip .ag-table td:nth-child(2) { font-variant-numeric: tabular-nums; }
+.ag-root.ag-cip .ag-steps li { line-height: 1.6; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-interview-prep-for-international-students-germany#page","url":"https://learn.modernagecoders.com/coding-interview-prep-for-international-students-germany","name":"Coding Interview Prep for International Students in Germany","description":"A guide for international students at universities in Germany preparing for technical interviews: who studies in Germany according to Wissenschaft weltoffen, what a coding interview tests, an original pair-sum problem solved by brute force and with a dictionary and timed, and live practice in English.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Coding interview prep","item":"https://learn.modernagecoders.com/coding-interview-prep-for-international-students-germany"}]},{"@type":"Course","name":"Coding Interview Prep for International Students in Germany","description":"Live online coding interview preparation in English for international university students in Germany: data structures and algorithms in Python or Java, complexity, thinking aloud and timed mock interviews, one to one or in a group of fifteen to twenty.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-interview-prep-for-international-students-germany"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-interview-prep-for-international-students-germany"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-interview-prep-for-international-students-germany"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the sessions in German?","acceptedAnswer":{"@type":"Answer","text":"No. All sessions are live and in English only. The mentor adjusts to your pace and accent and helps you phrase answers clearly in English."}},{"@type":"Question","name":"Which programming language should I use?","acceptedAnswer":{"@type":"Answer","text":"The one you will use in the interview, usually Python or Java. If the company lets you choose, pick the language you write fastest and most correctly."}},{"@type":"Question","name":"I study engineering, not computer science. Can I still prepare?","acceptedAnswer":{"@type":"Answer","text":"Yes. If you can write simple programs, the interview topics can be learnt step by step. Wissenschaft weltoffen reports engineering as the largest subject group of international students in Germany, 42.7% in winter semester 2024/25."}},{"@type":"Question","name":"How long does preparation take?","acceptedAnswer":{"@type":"Answer","text":"It depends on your start. Students who already program comfortably often need eight to twelve weeks of regular practice for the main patterns; complete beginners should take a Python or Java course first."}},{"@type":"Question","name":"Do you guarantee a job or a working-student post?","acceptedAnswer":{"@type":"Answer","text":"No. We make no promises about offers or pay. We help you perform better in the technical round, which is the part practice can change."}},{"@type":"Question","name":"Can you advise me on work permits or the rules for working while studying?","acceptedAnswer":{"@type":"Answer","text":"No. We give no legal, visa or immigration advice. Your university's international office and the official authorities are the right places to ask."}},{"@type":"Question","name":"Will you help with an online assessment I have been sent?","acceptedAnswer":{"@type":"Answer","text":"No. We do not solve live assessments or take-home tests for anyone. We prepare you with our own practice problems beforehand."}},{"@type":"Question","name":"When can I book sessions?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Students often like German mornings and lunchtimes."}},{"@type":"Question","name":"How is the fee paid?","acceptedAnswer":{"@type":"Answer","text":"The page shows euro, worked out from the European Central Bank reference rate, and the payment is taken in US dollars; your bank converts it, so the final figure can vary slightly. The first session is free."}},{"@type":"Question","name":"Are the mock interviews recorded?","acceptedAnswer":{"@type":"Answer","text":"Sessions are live. Your written feedback after each mock interview is the record we keep for you, so you can see what improved from one to the next."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-interview-prep-for-international-students-germany","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-cip">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#who">Students</a></li>
+      <li><a href="#method">Steps</a></li>
+      <li><a href="#problem">Problem</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Coding interview prep
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Germany &middot; University students &middot; Technical interviews</p>
+        <h1>Coding interview prep for international students in Germany</h1>
+        <p class="ag-lede">A technical interview is a strange exam. You solve a problem you have never seen, out loud, in a language that may not be your first, while someone watches. Many international students at German universities can already code; what they lack is practice at that performance. This page looks at who studies in Germany, sets out a five-step method for any coding question, solves one classic problem two ways and times both, and explains how our one-to-one mock interviews work.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#method" class="ag-btn ag-btn--ghost">See the five steps</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20an%20international%20student%20in%20Germany%20preparing%20for%20coding%20interviews.%20Could%20I%20book%20a%20free%20first%20session%20in%20English%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cip'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students worldwide &middot; mock interviews with written feedback</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>For</dt><dd>University students and graduates</dd>
+          <dt>Languages</dt><dd>Python or Java</dd>
+          <dt>Covers</dt><dd>Data structures, algorithms, complexity</dd>
+          <dt>Format</dt><dd>One to one, or groups of fifteen to twenty</dd>
+          <dt>German times</dt><dd>Mornings, lunchtimes, Saturdays</dd>
+          <dt>First session</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Coding interview prep for international students in Germany at Modern Age Coders is live online practice in English: data structures and algorithms in Python or Java, Big O reasoning, explaining your thinking aloud and timed mock interviews with written feedback, through our Data Structures and Algorithms course. One regular mentor matches your pace and accent, one to one or in a group of fifteen to twenty.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses for interview preparation</h2>
+      <p class="ag-lede">The algorithms course at the centre of interview practice, and a Python and a Java course for students who want their main language solid first.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures &amp; Algorithms Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CIP / 01</p>
+          <h3>Data Structures and Algorithms</h3>
+          <p>Arrays, hashing, trees, graphs and dynamic programming, with timed problems and mock interviews in Python or Java.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CIP / 02</p>
+          <h3>Python Masterclass</h3>
+          <p>For students whose degree used another language: idiomatic Python, fast enough to write under interview pressure.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-java-programming-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/java-college.webp" alt="Java Course for College course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CIP / 03</p>
+          <h3>Java for university students</h3>
+          <p>Core Java with collections and object design, for students interviewing where Java is the main language.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="who">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">International students in Germany</p><h2>How many international students are there in Germany, and what do they study?</h2><p class="ag-lede">About 426,200 in winter semester 2025/26, according to Wissenschaft weltoffen, published by the DAAD with the DZHW. Engineering is by far the largest subject group.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The headline numbers</h3><p>Wissenschaft weltoffen counts around 426,200 international students at German universities in winter semester 2025/26, 6% more than a year earlier and 14.8% of all students in Germany.</p>
+<p>In winter semester 2024/25 India was the largest country of origin with 14.6% of international students, ahead of China with 9.7%. The number of Indian students rose by 137% from winter semester 2019/20, and India has been the main country of origin since winter semester 2022/23.</p></div><div><h3>What they are studying for</h3><p>The 2026 edition of Wissenschaft weltoffen kompakt says 94% of international students in winter semester 2024/25 were aiming for a degree in Germany. In its breakdown by type of degree, 46.7% were working towards a master's degree and 34.5% towards a bachelor's.</p>
+<p>It also counts 2,381 English-language study programmes at state-recognised universities in July 2025, of which 1,928, or 81%, were master's programmes.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>International students in Germany by subject group, winter semester 2024/25 (largest groups)</caption><thead><tr><th scope="col">Subject group</th><th scope="col">Share of international students</th></tr></thead><tbody><tr><td>Engineering</td><td class="ag-num">42.7%</td></tr><tr><td>Law, economics and social sciences</td><td class="ag-num">25.3%</td></tr><tr><td>Mathematics and natural sciences</td><td class="ag-num">11.9%</td></tr><tr><td>Humanities</td><td class="ag-num">8.3%</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: Wissenschaft weltoffen (DAAD and DZHW), Im Fokus, Internationale Studierende nach Herkunftsländern, read 2 November 2026; Wissenschaft weltoffen kompakt 2026, figures 6, 10, 11, 12 and 36, based on the Federal Statistical Office student statistics. We quote shares as published and do not combine them. We are not connected with the DAAD or the DZHW.</p>
+    <p class="ag-mt-40">For a technical interview the subject matters less than it seems. Engineering, physics and economics students often write code in their degree, in Python, MATLAB or R, but rarely practise the classic interview topics: hashing, recursion, graphs and the cost of an algorithm as the input grows. Those topics can be learnt in a few months by anyone who already programs a little, and they are what this page is about.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="method">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A method for any question</p><h2>How should you answer a coding interview question?</h2><p class="ag-lede">With a routine you have practised so often that it runs even when you are nervous. This is the five-step routine we teach; it is ours, and interviewers will not ask for it by name, but they will notice it.</p></div>
+    <ol class="ag-steps"><li><strong>Restate the problem.</strong> Say it back in your own words and ask one question about the input: can it be empty, can values repeat, how large can it get?</li><li><strong>Work two small examples by hand.</strong> One normal, one awkward. Write the expected output before any code.</li><li><strong>Give the brute-force answer first.</strong> Describe it in one sentence and state its cost. A correct slow answer on the board beats a clever one in your head.</li><li><strong>Improve it, and say what you trade.</strong> Usually the trade is memory for time: store something you have already seen so that you never look for it twice.</li><li><strong>Test aloud.</strong> Run your two examples through the finished code line by line, then name one case you have not handled.</li></ol>
+    <p class="ag-mt-40">Step 3 is the one candidates skip, especially strong ones. They sense that the nested loop is too slow, stay silent while hunting for something better, and the interviewer sees a minute of nothing. Saying "the simple version checks every pair, which is quadratic; let me write that and then improve it" shows the two things an interview is trying to see: that you can get to a correct answer, and that you know what it costs.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="problem">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Our worked problem</p><h2>What does the classic pair-sum problem teach about complexity?</h2><p class="ag-lede">Given a list of prices and a budget, find two different items whose prices add up exactly to the budget. It is one of the oldest interview questions, and it shows the whole five-step routine in twenty lines.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Our solution: brute force, then a dictionary, both timed</b><span>Python</span></figcaption><pre>import random
+import time
+
+def pair_slow(prices, budget):
+    for i in range(len(prices)):
+        for j in range(i + 1, len(prices)):
+            if prices[i] + prices[j] == budget:
+                return i, j
+    return None
+
+def pair_fast(prices, budget):
+    seen = {}
+    for j, price in enumerate(prices):
+        if budget - price in seen:
+            return seen[budget - price], j
+        seen[price] = j
+    return None
+
+print(pair_slow([12, 7, 30, 5, 18], 23), pair_fast([12, 7, 30, 5, 18], 23))
+
+random.seed(2026)
+for n in (1000, 2000, 4000):
+    prices = [random.randrange(1, 10**6) * 2 for _ in range(n)]
+    budget = 1                       # odd: no pair of even numbers can reach it
+    start = time.perf_counter()
+    pair_slow(prices, budget)
+    slow = time.perf_counter() - start
+    start = time.perf_counter()
+    pair_fast(prices, budget)
+    fast = time.perf_counter() - start
+    print(f"n={n}: nested loops {slow:.3f} s, dictionary {fast:.5f} s")</pre><p class="ag-code-note">On our laptop with Python 3.14 it printed <code>(3, 4) (3, 4)</code>, then <code>n=1000: nested loops 0.008 s, dictionary 0.00006 s</code>, <code>n=2000: nested loops 0.031 s, dictionary 0.00016 s</code> and <code>n=4000: nested loops 0.126 s, dictionary 0.00024 s</code>. Your times will differ; the pattern will not.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>What happens when n doubles (our timings above)</caption><thead><tr><th scope="col">n</th><th scope="col">Nested loops</th><th scope="col">Dictionary</th></tr></thead><tbody><tr><td class="ag-num">1,000</td><td class="ag-num">0.008 s</td><td class="ag-num">0.00006 s</td></tr><tr><td class="ag-num">2,000</td><td class="ag-num">0.031 s</td><td class="ag-num">0.00016 s</td></tr><tr><td class="ag-num">4,000</td><td class="ag-num">0.126 s</td><td class="ag-num">0.00024 s</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Our own code and timings, measured with time.perf_counter, which the Python documentation describes as the clock with the highest available resolution for short durations. The budget is odd and every price even, so neither function ever finds a pair: that forces the worst case for both.</p>
+    <p class="ag-mt-40">Read the nested-loop column as an interviewer would. Each time n doubles, the time roughly quadruples: 0.008, 0.031, 0.126. That is what quadratic means in practice, and it is far more convincing than reciting "O(n squared)". The dictionary column grows much more gently, because each price is looked at once and each lookup is, on average, constant time. The Python documentation gives <code>key in d</code> as O(1) on average and adds a warning worth repeating in an interview: in the worst case, when every key hashes to the same value, those operations take O(n) time.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The trade, stated plainly</h3><p>The fast version keeps a dictionary of every price seen so far, so it uses memory that grows with n. The slow version uses almost none. Saying that out loud, unprompted, is step 4 of the routine.</p>
+<p>If the interviewer then says memory is tight, the next idea is to sort the list and walk two pointers inwards from both ends: n log n time, little extra memory.</p></div><div><h3>Follow-up questions to expect</h3><p>What if the list is already sorted? What if you need all pairs, not one? What if the same item may not be used twice, and prices can repeat? Each changes the code a little, and our mock interviews practise exactly these turns.</p>
+<p>Notice the check order in <code>pair_fast</code>: it looks for the partner before storing the current price, so an item can never pair with itself.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Language</p><h2>How do you think aloud in an English technical interview?</h2><p class="ag-lede">With a small set of phrases you have said many times before the day. Fluency in an interview is mostly rehearsal, not vocabulary.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Phrases we practise for each step (ours)</caption><thead><tr><th scope="col">Moment</th><th scope="col">A phrase that works</th></tr></thead><tbody><tr><td>Clarifying</td><td>"Before I start, can the list be empty, and can prices repeat?"</td></tr><tr><td>Buying time</td><td>"Let me try a small example first so I am sure I understand."</td></tr><tr><td>Brute force</td><td>"The simple approach checks every pair. That is quadratic, but it is correct."</td></tr><tr><td>Improving</td><td>"If I remember what I have seen, I can check each item once, at the cost of extra memory."</td></tr><tr><td>Testing</td><td>"Let me run the first example through the code line by line."</td></tr><tr><td>Stuck</td><td>"I am not sure yet. Here is what I know, and here is where I am stuck."</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Our mentors work in English every day with learners from many countries, and they correct the things that cost marks rather than accent or grammar: unclear variable names said aloud, long silences, and answers that start with code before the plan. Classes are live and in English only. Students who would like to practise the same answer in two ways, first slowly, then at interview speed, can ask for that in one-to-one sessions.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="scope">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What we do and do not do</p><h2>Will interview practice get me a job or a working-student post?</h2><p class="ag-lede">We cannot promise that, and nobody honest can. What practice changes is how you perform in the technical round.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>What we do</h3><p>We teach data structures and algorithms, run timed mock interviews in Python or Java, and give written feedback after each one on correctness, complexity, testing and how clearly you explained.</p>
+<p>We also review your solutions to practice problems you have done alone, and help you build a short list of projects you can talk about with confidence.</p></div><div><h3>What we do not do</h3><p>We do not place students with employers, we make no claims about offers or pay, and we give no advice on residence permits or on the rules for working while studying. Your university's international office and the official authorities answer those questions.</p>
+<p>We do not solve take-home tests or online assessments for anyone. Practising on our own problems is the honest route, and the one that holds up in the live round.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Session times</p><h2>When can a student in Germany book interview practice?</h2><p class="ag-lede">Students often have free mornings and lunch breaks between lectures, which suits a mentor in India well: India is 4 h 30 ahead in winter and 3 h 30 ahead in summer.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Sample session times for students in Germany, with Indian time</caption><thead><tr><th scope="col">Germany</th><th scope="col">India until 28 March 2027</th><th scope="col">India from 28 March 2027</th></tr></thead><tbody><tr><td>08:00</td><td>12:30</td><td>11:30</td></tr><tr><td>12:30</td><td>17:00</td><td>16:00</td></tr><tr><td>Saturday 09:00</td><td>13:30</td><td>12:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">German time follows the Einheitenzeitgesetz: MEZ (UTC+1) in winter, MESZ (UTC+2) in summer, with the switch back on 25 October 2026 and forward on 28 March 2027. India keeps UTC+5:30. Sample times only.</p>
+    <p class="ag-mt-40">Before an interview date, many students book two or three mock interviews in the final week. Tell the mentor the date and the language the company uses, and the sessions are planned backwards from it.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Milestones</p>
+      <h2>From brute force to a calm mock interview</h2>
+      <p class="ag-lede">Our own stages for interview preparation, used to plan sessions and to report progress.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Interview preparation stages (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Weeks, typically</th><th scope="col">You can</th></tr></thead><tbody><tr><td>1. Foundations</td><td class="ag-num">1 to 3</td><td class="ag-num">Use lists, dictionaries and sets fluently and state the cost of each operation</td></tr><tr><td>2. Patterns</td><td class="ag-num">3 to 8</td><td class="ag-num">Recognise two pointers, sliding windows, hashing and recursion in a new problem</td></tr><tr><td>3. Trees and graphs</td><td class="ag-num">6 to 12</td><td class="ag-num">Write breadth-first and depth-first search without notes</td></tr><tr><td>4. Dynamic programming</td><td class="ag-num">10 to 16</td><td class="ag-num">Turn a recursive idea into a table and explain why it is faster</td></tr><tr><td>5. Mock interviews</td><td class="ag-num">Throughout</td><td class="ag-num">Solve a medium problem in 30 minutes while explaining every step</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>In the interview</h3><p>A correct slow answer, written down, is your safety net. Write it first.</p>
+<p>Double n in your head: if the time quadruples, say "quadratic".</p></div><div><h3>Before the interview</h3><p>Practise aloud. Silent practice trains a different skill.</p>
+<p>Ask the company which language you may use, and use that one in practice.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for students and graduates in Germany</h2>
+      <p class="ag-lede">Taught live in English with a regular mentor, one to one or in a group.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Engineering basics</h3>
+        <span class="ag-band-sub">Adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CIP / ENG / 01</p>
+          <h4>Git and GitHub</h4>
+          <p>Branches, pull requests and a clean history.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIP / ENG / 02</p>
+          <h4>SQL and databases</h4>
+          <p>Queries and joins, a common second round.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIP / ENG / 03</p>
+          <h4>Full-stack web development</h4>
+          <p>A project worth talking about.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Data and maths</h3>
+        <span class="ag-band-sub">Adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CIP / DATA / 01</p>
+          <h4>Python automation and applied AI</h4>
+          <p>Scripts that do real work.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIP / DATA / 02</p>
+          <h4>Statistics and probability</h4>
+          <p>For data roles and probability puzzles.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIP / DATA / 03</p>
+          <h4>Maths for data analytics</h4>
+          <p>The algebra behind data work.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Building with AI</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CIP / AI / 01</p>
+          <h4>AI coding agents</h4>
+          <p>Codex and Claude Code, reviewed and tested by you.</p>
+          <a class="ag-course-link" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIP / AI / 02</p>
+          <h4>Vibe coding for adults</h4>
+          <p>Full-stack projects with AI help, checked properly.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIP / AI / 03</p>
+          <h4>PCEP and PCAP</h4>
+          <p>Python certification from the Python Institute.</p>
+          <a class="ag-course-link" href="/courses/pcep-pcap-python-certification-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How sessions run</p>
+      <h2>How live interview practice works from Germany</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Morning</p><p class="ag-slot-l">Early sessions before lectures, German time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Lunchtime</p><p class="ag-slot-l">A midday slot between seminars.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">One to one</p><p class="ag-slot-l">A time fixed with the mentor, more often near an interview.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Shared editor</h3><p>You type, the mentor watches, as in a real round.</p></div>
+      <div><h3>Timed problems</h3><p>A clock on every mock, from 20 to 45 minutes.</p></div>
+      <div><h3>Spoken English</h3><p>Phrases practised until they come easily.</p></div>
+      <div><h3>Written feedback</h3><p>Notes after each mock on what to fix next.</p></div>
+      <div><h3>Your language</h3><p>Python or Java, whichever you will use.</p></div>
+      <div><h3>One to one first</h3><p>Most students choose private sessions; groups exist too.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects from our learners</h2>
+      <p class="ag-lede">Work our learners elsewhere in the world have built during their courses; <a class="ag-inline-link" href="/student-labs">student labs</a> has more examples.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for coding interview preparation</h2>
+      <p class="ag-lede">You pay one monthly fee for eight live sessions. The euro amount shown uses the European Central Bank reference rate, but the payment is collected in US dollars and converted by your bank, whose own rate decides the exact figure you see.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first session</li><li>A short problem to find your level</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Fifteen to twenty learners</li><li>One regular mentor</li><li>Two sessions a week</li><li>Monthly, stop at any time</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>One learner, one mentor</li><li>Mock interviews on your dates</li><li>Python or Java</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Learners and parents reviewed us on Google; their words are unchanged here.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">International students ask</p>
+      <h2>Coding interview prep in Germany: questions from students</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the sessions in German?</h3>
+        <p>No. All sessions are live and in English only. The mentor adjusts to your pace and accent and helps you phrase answers clearly in English.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which programming language should I use?</h3>
+        <p>The one you will use in the interview, usually Python or Java. If the company lets you choose, pick the language you write fastest and most correctly.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>I study engineering, not computer science. Can I still prepare?</h3>
+        <p>Yes. If you can write simple programs, the interview topics can be learnt step by step. Wissenschaft weltoffen reports engineering as the largest subject group of international students in Germany, 42.7% in winter semester 2024/25.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long does preparation take?</h3>
+        <p>It depends on your start. Students who already program comfortably often need eight to twelve weeks of regular practice for the main patterns; complete beginners should take a Python or Java course first.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you guarantee a job or a working-student post?</h3>
+        <p>No. We make no promises about offers or pay. We help you perform better in the technical round, which is the part practice can change.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you advise me on work permits or the rules for working while studying?</h3>
+        <p>No. We give no legal, visa or immigration advice. Your university's international office and the official authorities are the right places to ask.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you help with an online assessment I have been sent?</h3>
+        <p>No. We do not solve live assessments or take-home tests for anyone. We prepare you with our own practice problems beforehand.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When can I book sessions?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Students often like German mornings and lunchtimes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the fee paid?</h3>
+        <p>The page shows euro, worked out from the European Central Bank reference rate, and the payment is taken in US dollars; your bank converts it, so the final figure can vary slightly. The first session is free.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are the mock interviews recorded?</h3>
+        <p>Sessions are live. Your written feedback after each mock interview is the record we keep for you, so you can see what improved from one to the next.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for students and graduates.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Our main page for Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/data-structures-and-algorithms-course">Data structures and algorithms course</a></h3><p>The course behind this page.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-dsa-course">Java DSA course</a></h3><p>Algorithms practised in Java.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-germany">AI and machine learning in Germany</a></h3><p>Models built from scratch, in English.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-roadmap">Coding roadmap</a></h3><p>Where interview topics fit in the bigger picture.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>What a live session looks like.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first interview practice session</h2>
+        <p class="ag-lede">The mentor sets one short problem, watches how you approach it, and tells you honestly which stage to start from and how many weeks that may take, in English and at your pace.</p>
+        <p class="ag-mt-40">You may want to read <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or look at <a class="ag-inline-link" href="/courses">all courses</a> first.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20an%20international%20student%20in%20Germany%20preparing%20for%20coding%20interviews.%20Could%20I%20book%20a%20free%20first%20session%20in%20English%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cip',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Sessions are live online, in English, with mentors working in India. WhatsApp, in English, reaches us fastest.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cip(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card is needed for the free first session.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Interview prep</h4><ul><li><a href="/data-structures-and-algorithms-course">Data structures and algorithms</a></li><li><a href="/java-dsa-course">Java DSA course</a></li><li><a href="/coding-roadmap">Coding roadmap</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/ai-and-machine-learning-classes-in-germany">AI classes in Germany</a></li><li><a href="/abitur-maths-in-english">Abitur maths in English</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Write the slow answer first</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cip = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'coding-interview-prep-for-international-students-germany-inline', meta: { name: name, age: age, page: 'coding-interview-prep-for-international-students-germany' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
