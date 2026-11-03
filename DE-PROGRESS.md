@@ -79,7 +79,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE087 | informatik-abitur-baden-wuerttemberg (iwu, #616019) | door-de (de) | 3,493 | 3.1% vs informatik-abitur-niedersachsen | Informatik-Abitur Baden-Württemberg 2027: Facherlass, Termin | start from the data, not from a guessed constant; test with duplicates and all-negative input | f51877b3 |
 | DE070 | informatik-abitur-vorbereitung (iav, #246742) | door-de (de) | 4,201 | 1.9% vs informatik-abitur-nrw | Informatik-Abitur Vorbereitung: live auf Englisch, GK und LK | a recursion is only as good as its base case: test the smallest inputs first and argue termination | 8b7778ff |
 | DE071 | informatik-pflichtfach-unterstuetzung (ipu, #23504F) | door-de (de) | 3,558 | 2.5% vs roblox-programmieren-lernen-kinder | Neues Pflichtfach Informatik: Unterstützung live auf Englisch | a check digit catches every single wrong digit but not every swap: test all the errors systematically | 16fb3cb1 |
-| DE072 | mathe-nachhilfe-online-gymnasium (mng, #933A4A) | door-de (de) | 3,463 | 2.7% vs informatik-abitur-vorbereitung | Mathe-Nachhilfe online Gymnasium: Klasse 5 bis 10, auf Englisch | percent changes chain by multiplying growth factors, never by adding the percentages | (this commit) |
+| DE072 | mathe-nachhilfe-online-gymnasium (mng, #933A4A) | door-de (de) | 3,463 | 2.7% vs informatik-abitur-vorbereitung | Mathe-Nachhilfe online Gymnasium: Klasse 5 bis 10, auf Englisch | percent changes chain by multiplying growth factors, never by adding the percentages | 86749b65 |
+| DE073 | mathe-nachhilfe-online-realschule (mnr, #8E3869) | door-de (de) | 3,404 | 2.4% vs informatik-pflichtfach-unterstuetzung | Mathe-Nachhilfe online Realschule: Abschluss 2027, auf Englisch | "from which whole number on" with a strict inequality: the answer is the next whole number after the | (this commit) |
 
 ## Notes
 

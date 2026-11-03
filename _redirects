@@ -9206,4 +9206,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /mathe-nachhilfe-online-gymnasium /src/pages/mathe-nachhilfe-online-gymnasium.html 200
 /mathe-nachhilfe-online-gymnasium.md /src/pages/mathe-nachhilfe-online-gymnasium.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/mathe-nachhilfe-online-realschule /src/pages/mathe-nachhilfe-online-realschule.html 200
+/mathe-nachhilfe-online-realschule.md /src/pages/mathe-nachhilfe-online-realschule.md 200
 /* /src/pages/404.html 404

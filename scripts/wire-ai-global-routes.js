@@ -807,6 +807,7 @@ const SLUGS = [
   'informatik-abitur-vorbereitung',
   'informatik-pflichtfach-unterstuetzung',
   'mathe-nachhilfe-online-gymnasium',
+  'mathe-nachhilfe-online-realschule',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1693,6 +1694,7 @@ const LLMS_LABELS = {
   'informatik-abitur-vorbereitung': 'Informatik-Abitur Vorbereitung (auf Englisch)',
   'informatik-pflichtfach-unterstuetzung': 'Informatik-Pflichtfach: Unterstützung (auf Englisch)',
   'mathe-nachhilfe-online-gymnasium': 'Mathe-Nachhilfe online Gymnasium (auf Englisch)',
+  'mathe-nachhilfe-online-realschule': 'Mathe-Nachhilfe online Realschule (auf Englisch)',
 };
 
 function wireLlms(slugs) {
