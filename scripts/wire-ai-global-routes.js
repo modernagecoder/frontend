@@ -778,6 +778,7 @@ const SLUGS = [
   'online-coding-classes-for-kids-germany',
   'python-classes-for-kids-germany',
   'scratch-classes-for-kids-germany',
+  'game-coding-classes-for-kids-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1635,6 +1636,7 @@ const LLMS_LABELS = {
   'online-coding-classes-for-kids-germany': 'Online coding classes for kids in Germany',
   'python-classes-for-kids-germany': 'Python classes for kids in Germany',
   'scratch-classes-for-kids-germany': 'Scratch classes for kids in Germany',
+  'game-coding-classes-for-kids-germany': 'Game coding classes for kids in Germany',
 };
 
 function wireLlms(slugs) {

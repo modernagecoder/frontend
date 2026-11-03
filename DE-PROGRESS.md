@@ -50,7 +50,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE013 | coding-classes-for-kids-germany (cki, #7E3634) | door-en (en) | 4,428 | 1% vs english-speaking-tutor-germany | Coding Classes for Kids in Germany, Ages 6 to 12, in English | what you sort by decides the winner; then check your answer against a published one | 219ad138 |
 | DE014 | online-coding-classes-for-kids-germany (cok, #59570D) | door-en (en) | 4,005 | 1.4% vs best-online-coding-classes-germany | Online Coding Classes for Kids in Germany: How Live Lessons Work | a moment is not a clock reading; convert from the moment and let the time-zone rules do the rest | 54e20805 |
 | DE029 | python-classes-for-kids-germany (pki, #604B83) | door-en (en) | 3,867 | 1.5% vs coding-classes-for-kids-berlin | Python Classes for Kids in Germany: Live Online, in English | clean the text before you compute; data written the German way needs translating for Python | 316c3cd1 |
-| DE032 | scratch-classes-for-kids-germany (ski, #5F4F00) | door-en (en) | 3,912 | 1.8% vs python-classes-for-kids-germany | Scratch Classes for Kids in Germany: Live Online, in English | states and transitions; write down every state and what moves you on before you build | (this commit) |
+| DE032 | scratch-classes-for-kids-germany (ski, #5F4F00) | door-en (en) | 3,912 | 1.8% vs python-classes-for-kids-germany | Scratch Classes for Kids in Germany: Live Online, in English | states and transitions; write down every state and what moves you on before you build | a5335f5a |
+| DE035 | game-coding-classes-for-kids-germany (gck, #754349) | door-en (en) | 3,939 | 2.2% vs scratch-classes-for-kids-germany | Game Coding Classes for Kids in Germany, Live in English | simulate with random numbers, then check the simulation against exact maths | (this commit) |
 
 ## Notes
 
