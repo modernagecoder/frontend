@@ -9194,4 +9194,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /informatik-abitur-baden-wuerttemberg /src/pages/informatik-abitur-baden-wuerttemberg.html 200
 /informatik-abitur-baden-wuerttemberg.md /src/pages/informatik-abitur-baden-wuerttemberg.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/informatik-abitur-vorbereitung /src/pages/informatik-abitur-vorbereitung.html 200
+/informatik-abitur-vorbereitung.md /src/pages/informatik-abitur-vorbereitung.md 200
 /* /src/pages/404.html 404

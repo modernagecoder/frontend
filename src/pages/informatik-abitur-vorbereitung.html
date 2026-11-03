@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Informatik-Abitur Vorbereitung: live auf Englisch, GK und LK</title>
+  <meta name="description" content="Informatik-Abitur Vorbereitung live auf Englisch: was die KMK im Grund- und Leistungskurs verlangt, Anforderungsbereiche, Punkte und ein Rekursionsbeispiel.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/informatik-abitur-vorbereitung">
+  <link rel="alternate" type="text/markdown" href="/src/pages/informatik-abitur-vorbereitung.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#246742">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/informatik-abitur-vorbereitung">
+  <meta property="og:title" content="Informatik-Abitur Vorbereitung: live auf Englisch, GK und LK">
+  <meta property="og:description" content="Vorbereitung auf das Informatik-Abitur, live auf Englisch: die bundesweiten Prüfungsanforderungen der KMK, das Zentralabitur 2027 in NRW als Beispiel, ein Plan bis zur Prüfung und eine eigene Rekursionsaufgabe.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="de_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Informatik-Abitur Vorbereitung: live auf Englisch, GK und LK">
+  <meta name="twitter:description" content="Informatik-Abitur vorbereiten, live auf Englisch: KMK-Anforderungen, AFB I bis III, NRW 2027, Rekursion mit Basisfall.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-iav .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-iav .ag-capsule { border-left-width: 5px; border-radius: 2px; }
+.ag-root.ag-iav .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-iav .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-iav .ag-table td { hyphens: auto; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/informatik-abitur-vorbereitung#page","url":"https://learn.modernagecoders.com/informatik-abitur-vorbereitung","name":"Informatik-Abitur Vorbereitung","description":"Ein Leitfaden für Schülerinnen und Schüler der Oberstufe und ihre Eltern zur Vorbereitung auf das Informatik-Abitur: die Einheitlichen Prüfungsanforderungen Informatik der Kultusministerkonferenz, die Anforderungsbereiche, die Schwellen für 05 und 11 Punkte, das Zentralabitur 2027 in Nordrhein-Westfalen als konkreter Fall und eine eigene Übungsaufgabe zur Rekursion in Java und Python.","inLanguage":"de-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Kurse","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Informatik-Abitur","item":"https://learn.modernagecoders.com/informatik-abitur-vorbereitung"}]},{"@type":"Course","name":"Informatik-Abitur Vorbereitung","description":"Live-Online-Vorbereitung auf das Informatik-Abitur im Grundkurs und Leistungskurs, ausschließlich auf Englisch: Modellierung, Datenstrukturen, Algorithmen, Automaten, Datenbanken und Netze in Java oder Python, mit Aufgaben auf Papier, in der Gruppe oder im Einzelunterricht.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/informatik-abitur-vorbereitung"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/informatik-abitur-vorbereitung"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/informatik-abitur-vorbereitung"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Findet der Unterricht auf Deutsch statt?","acceptedAnswer":{"@type":"Answer","text":"Nein. Der Unterricht ist live und ausschließlich auf Englisch, mit Mentoren in Indien, die Tempo und Aussprache an Sie anpassen. Viele sehen das als Vorteil: Sie lernen Informatik in der Sprache, aus der Java, Python und SQL stammen, und üben Englisch zugleich. Die deutschen Fachbegriffe für die Prüfung sammeln wir gemeinsam."}},{"@type":"Question","name":"Was wird im Informatik-Abitur geprüft?","acceptedAnswer":{"@type":"Answer","text":"Nach den Einheitlichen Prüfungsanforderungen der Kultusministerkonferenz drei Bereiche: Grundlegende Modellierungstechniken, Interaktion mit und von Informatiksystemen sowie Möglichkeiten und Grenzen informatischer Verfahren. Jede schriftliche Prüfungsaufgabe muss sich auf die Modellierungstechniken beziehen. Was Ihr Land genau verlangt, steht in seinen Vorgaben."}},{"@type":"Question","name":"Wie viel Prozent braucht man für 05 Punkte im Informatik-Abitur?","acceptedAnswer":{"@type":"Answer","text":"Laut EPA Informatik soll \"ausreichend\" (05 Punkte) gegeben werden, wenn mindestens 45 Prozent der erwarteten Gesamtleistung erbracht sind; Leistungen nur im Anforderungsbereich I reichen dafür nicht. Für \"gut\" (11 Punkte) nennen die EPA mindestens 75 Prozent."}},{"@type":"Question","name":"Was ist der Unterschied zwischen Grundkurs und Leistungskurs in Informatik?","acceptedAnswer":{"@type":"Answer","text":"Beide prüfen dieselben drei Bereiche. Der Leistungskurs behandelt laut EPA mindestens drei statt zwei Modellierungstechniken und verlangt mehr Selbstständigkeit, Abstraktion und Formalisierung. In Nordrhein-Westfalen kommen 2027 im Leistungskurs zum Beispiel Graphen hinzu, und die Arbeitszeit ist mit 270 statt 225 Minuten länger."}},{"@type":"Question","name":"Darf man im Informatik-Abitur einen Computer benutzen?","acceptedAnswer":{"@type":"Answer","text":"Das regelt jedes Land selbst. In Nordrhein-Westfalen ist der Einsatz eines Computers im Zentralabitur 2027 nicht vorgesehen, in Bayern besteht das schriftliche Informatik-Abitur zu großen Teilen aus Programmieraufgaben auf Papier. Deshalb üben wir das Schreiben und Verfolgen von Code ohne Rechner."}},{"@type":"Question","name":"Bereiten Sie auf Java oder auf Python vor?","acceptedAnswer":{"@type":"Answer","text":"Auf die Sprache, die Ihre Schule verwendet. In Nordrhein-Westfalen sind Java und SQL vorgegeben; andere Länder und Schulen arbeiten auch mit Python. Der Mentor richtet sich nach Ihrem Kursmaterial."}},{"@type":"Question","name":"Benoten Sie oder ersetzen Sie den Schulunterricht?","acceptedAnswer":{"@type":"Answer","text":"Weder noch. Wir unterrichten begleitend zur Schule und vergeben keine Noten oder Abschlüsse. Was für das Abitur zählt, sind allein der Unterricht und die Prüfungen Ihrer Schule und Ihres Landes. Unsere Probeprüfungen dienen nur der Übung."}},{"@type":"Question","name":"Wann finden die Stunden statt?","acceptedAnswer":{"@type":"Answer","text":"Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Im Winter ist Indien 4 Stunden 30 Minuten voraus, im Sommer 3 Stunden 30 Minuten."}},{"@type":"Question","name":"Was kostet die Vorbereitung, und wie wird bezahlt?","acceptedAnswer":{"@type":"Answer","text":"Die Monatsgebühr steht auf dieser Seite in Euro, umgerechnet zum Referenzkurs der Europäischen Zentralbank. Abgebucht wird in US-Dollar, die Umrechnung übernimmt Ihre Bank. Die Probestunde kostet nichts und braucht keine Karte."}},{"@type":"Question","name":"Ich hatte in der Mittelstufe kein Informatik. Ist das ein Problem?","acceptedAnswer":{"@type":"Answer","text":"Nein, aber planen Sie Zeit ein. In mehreren Ländern ist Informatik in der Sekundarstufe I nicht für alle verpflichtend. Unser Kurs Informatik Companion holt Schleifen, Bedingungen, Funktionen und Listen nach, bevor die Oberstufe mit Klassen und Datenstrukturen beginnt."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/informatik-abitur-vorbereitung","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-iav">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Deutschland</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Deutschland</a></li>
+      <li><a href="#bereiche">Bereiche</a></li>
+      <li><a href="#pruefung">Prüfung</a></li>
+      <li><a href="#beispiel">Beispiel</a></li>
+      <li><a href="#plan">Plan</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Probestunde</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Startseite</a> / <a href="/courses">Kurse</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Informatik-Abitur
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Deutschland &middot; Informatik &middot; Oberstufe und Abitur</p>
+        <h1>Informatik-Abitur Vorbereitung, live auf Englisch</h1>
+        <p class="ag-lede">Jedes Land stellt sein Informatik-Abitur selbst, aber alle bauen auf denselben Prüfungsanforderungen der Kultusministerkonferenz auf. Diese Seite erklärt diesen gemeinsamen Rahmen: welche drei Bereiche geprüft werden, was die Anforderungsbereiche I, II und III verlangen, ab wie viel Prozent es 05 und 11 Punkte gibt, wie das Zentralabitur 2027 in Nordrhein-Westfalen konkret aussieht und wie Sie sich mit einem festen Mentor, live und auf Englisch, darauf vorbereiten.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Kostenlose Probestunde buchen</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Priority Demo buchen</a>
+          <a href="#bereiche" class="ag-btn ag-btn--ghost">Was geprüft wird</a>
+          <a href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20ich%20bereite%20mich%20auf%20das%20Informatik-Abitur%20vor%20und%20interessiere%20mich%20f%C3%BCr%20Unterricht%20auf%20Englisch.%20Kann%20ich%20eine%20kostenlose%20Probestunde%20buchen%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'iav'});">Per WhatsApp fragen</a>
+        </div>
+        <p class="ag-hero-note">Abiturvorbereitung live per Video &middot; seit 2020 online &middot; mehr als 10.000 Lernende weltweit &middot; Unterricht auf Englisch</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">Auf einen Blick</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4,9 von 5 bei 547 Google-Bewertungen
+        </p>
+        <dl>
+          <dt>Unterrichtssprache</dt><dd>Live-Unterricht ausschließlich auf Englisch, im eigenen Tempo; die Mentoren sprechen deutlich und stellen sich auf Tempo und Akzent der Lernenden ein</dd>
+          <dt>Für</dt><dd>Einführungs- und Qualifikationsphase</dd>
+          <dt>Kurse</dt><dd>Grundkurs und Leistungskurs</dd>
+          <dt>Sprachen</dt><dd>Java oder Python, dazu SQL</dd>
+          <dt>Format</dt><dd>Gruppe mit fünfzehn bis zwanzig, oder einzeln</dd>
+          <dt>Unterricht</dt><dd>Live, auf Englisch, Mentoren in Indien</dd>
+          <dt>Probestunde</dt><dd>Kostenlos, ohne Karte</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Die Antwort in Kürze</p>
+      <p>Wer sich bei Modern Age Coders auf das Informatik-Abitur vorbereitet, lernt live und auf Englisch, im Grundkurs wie im Leistungskurs und in jedem Bundesland: Modellierung, Datenstrukturen, Algorithmen, Automaten und SQL in Java oder Python, geübt mit eigenen Aufgaben auf Papier im Stil der Prüfung. Grundlage ist unser Kurs Informatik Oberstufe und Abitur, wahlweise in einer Gruppe von fünfzehn bis zwanzig Lernenden oder einzeln, immer mit demselben Mentor.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Kurse für das Abitur</p>
+      <h2>Drei Kurse für die Zeit bis zur Prüfung</h2>
+      <p class="ag-lede">Der erste Kurs ist der Kern der Vorbereitung. Die beiden anderen schließen Lücken davor und daneben: Grundlagen aus der Mittelstufe und Datenbanken mit SQL.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/informatik-abitur-course-java-python">
+        <div class="ag-pick-shot"><img src="/images/informatik-abitur-java-python.webp" alt="Kursbild Informatik Oberstufe und Abitur mit Java und Python" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IAV / 01</p>
+          <h3>Informatik Oberstufe und Abitur</h3>
+          <p>Ab 16 und bis 19. Klassen und Objekte, Listen, Stapel, Schlangen und Bäume, Automaten, Netze und SQL, mit Prüfungsaufgaben auf Papier, die wir selbst schreiben.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/informatik-companion-course-klasse-5-10">
+        <div class="ag-pick-shot"><img src="/images/informatik-companion-klasse-5-10.webp" alt="Kursbild Informatik Companion für Klasse 5 bis 10" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IAV / 02</p>
+          <h3>Informatik Companion, Klasse 5 bis 10</h3>
+          <p>Für alle, die ohne Informatik aus der Mittelstufe in die Einführungsphase kommen: Schleifen, Bedingungen, Funktionen und Listen in Python, in Ruhe nachgeholt.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/mysql-mastery-for-teens">
+        <div class="ag-pick-shot"><img src="/images/mysql-teens.webp" alt="Kursbild Datenbanken und SQL für Jugendliche" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IAV / 03</p>
+          <h3>Datenbanken und SQL</h3>
+          <p>Ab 13 Jahren. Tabellen, Schlüssel, Verbünde und Gruppierungen, also genau die Abfragen, die im Abitur als Text auf Papier geschrieben werden.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="bereiche">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Der gemeinsame Rahmen</p><h2>Was wird im Informatik-Abitur bundesweit verlangt?</h2><p class="ag-lede">Grundlage sind die Einheitlichen Prüfungsanforderungen in der Abiturprüfung Informatik, kurz EPA, ein Beschluss der Kultusministerkonferenz vom 01.12.1989 in der Fassung vom 05.02.2004. Die Länder sollten sie spätestens zur Abiturprüfung im Jahre 2007 umsetzen. Seitdem richten sich alle Landeslehrpläne für die Oberstufe danach.</p></div>
+    <p>Die EPA nennen drei Lern- und Prüfungsbereiche, die für das Grundkursfach und das Leistungskursfach verbindlich sind: <strong>Grundlegende Modellierungstechniken</strong>, <strong>Interaktion mit und von Informatiksystemen</strong> sowie <strong>Möglichkeiten und Grenzen informatischer Verfahren</strong>. Der erste Bereich ist der wichtigste, denn jede schriftliche Prüfungsaufgabe muss sich laut EPA in jedem Fall auf ihn beziehen. Er enthält sechs Modellierungstechniken, von denen der Grundkurs mindestens zwei und der Leistungskurs mindestens drei behandeln muss.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Die sechs Modellierungstechniken der EPA Informatik und was jeweils dazugehört</caption><thead><tr><th scope="col">Modellierungstechnik</th><th scope="col">Laut EPA insbesondere</th><th scope="col">Typisch im Unterricht (unsere Einordnung)</th></tr></thead><tbody><tr><td>Objektorientierte Modellierung</td><td>Objekt, Klasse, Beziehungen zwischen Klassen, Interaktion von Objekten, Klassendiagramm (z. B. mit UML)</td><td>Klassen in Java oder Python entwerfen, Assoziation und Vererbung im Diagramm</td></tr><tr><td>Datenmodellierung</td><td>Semantisches Datenmodell (ER-Modell), logisches Datenmodell (z. B. relationales Datenmodell)</td><td>ER-Diagramm zeichnen, in Tabellen überführen, SQL-Abfragen schreiben</td></tr><tr><td>Zustandsorientierte Modellierung</td><td>Variablenkonzept, Automaten (Zustände und Zustandsübergänge), Zustandsdiagramme</td><td>Endliche Automaten zeichnen und Wörter durchlaufen lassen</td></tr><tr><td>Modellierung von Abläufen mit Algorithmen</td><td>Algorithmusbegriff, Ablaufstrukturen, Datenstrukturen, Teilalgorithmen, Struktogramme, z. B. Rekursion, Sortier- und Suchverfahren</td><td>Struktogramm lesen, Sortierverfahren verfolgen, Rekursion begründen</td></tr><tr><td>Funktionale Modellierung</td><td>Funktionale Zusammenhänge, Kombination von Funktionen, funktionale Abstraktion</td><td>Seltener; Funktionen ohne Seiteneffekte, Verkettung</td></tr><tr><td>Regelbasierte Modellierung</td><td>Fakten und Regeln, Klauseln, Anfragen</td><td>Selten; logische Programmierung, etwa in Prolog</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quelle: Kultusministerkonferenz, Einheitliche Prüfungsanforderungen in der Abiturprüfung Informatik, Beschluss vom 01.12.1989 i.d.F. vom 05.02.2004, Abschnitt 1.2, gelesen am 3. November 2026. Die rechte Spalte ist unsere eigene Einschätzung dessen, was in Oberstufenkursen häufig vorkommt, keine Angabe der KMK.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Die beiden anderen Bereiche</h3><p>Zur Interaktion mit und von Informatiksystemen zählen die EPA unter anderem die Repräsentation von Information, formale Sprachen mit Syntax und Semantik, Netze und Kommunikationsprotokolle sowie Datenschutz und Datensicherheit, etwa Kryptologie.</p>
+<p>Unter Möglichkeiten und Grenzen informatischer Verfahren stehen das von-Neumann-Rechnermodell, die Beurteilung von Verfahren nach Effizienz, prinzipielle und praktische Grenzen der Berechenbarkeit sowie gesellschaftliche, ethische und rechtliche Fragen.</p></div><div><h3>Grundkurs oder Leistungskurs?</h3><p>Beide Kursarten prüfen dieselben drei Bereiche. Der Unterschied liegt laut EPA unter anderem im Grad der Vorstrukturierung, in der Offenheit der Aufgabenstellung, in der Selbstständigkeit, im Abstraktions- und Formalisierungsgrad und in der Komplexität.</p>
+<p>Für die Vorbereitung heißt das: Im Grundkurs gibt die Aufgabe oft Zwischenschritte vor. Im Leistungskurs muss man den Weg häufiger selbst finden und begründen, warum er funktioniert.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="pruefung">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Die schriftliche Prüfung</p><h2>Wie ist die schriftliche Informatik-Prüfung aufgebaut, und wann gibt es welche Punkte?</h2><p class="ag-lede">Die EPA legen fest, wie eine Prüfungsaufgabe gebaut sein muss und wie sie bewertet wird. Wer das kennt, kann gezielter üben, statt nur Stoff zu wiederholen.</p></div>
+    <ol class="ag-steps"><li><strong>Zwei oder drei Aufgaben.</strong> Eine Prüfungsaufgabe im Fach Informatik besteht laut EPA aus zwei oder drei Aufgaben, jede kann in Teilaufgaben gegliedert sein.</li><li><strong>Immer mit Modellierung.</strong> Die Aufgabe muss sich auf mehrere Bereiche beziehen und in jedem Fall auf die Grundlegenden Modellierungstechniken.</li><li><strong>Nicht nur ein Halbjahr.</strong> Eine Prüfungsaufgabe darf sich nicht auf die Inhalte nur eines Kurshalbjahres beschränken. Wer nur das letzte Halbjahr wiederholt, ist also nicht vorbereitet.</li><li><strong>Teilaufgaben unabhängig.</strong> Die Teilaufgaben sollen so unabhängig voneinander sein, dass ein Fehler am Anfang die weitere Bearbeitung nicht unmöglich macht. Es lohnt sich also immer, weiterzuschreiben.</li><li><strong>Schwerpunkt im Anforderungsbereich II.</strong> Der größte Teil der erwarteten Leistung liegt im Anforderungsbereich II, daneben kommen I und III vor, und zwar I in höherem Maße als III.</li></ol>
+    <p class="ag-mt-40">Für die Bewertung nennen die EPA zwei feste Schwellen: Die Note "ausreichend" (05 Punkte) soll erteilt werden, wenn mindestens 45 Prozent der erwarteten Gesamtleistung erbracht sind, und dazu reichen Leistungen allein im Anforderungsbereich I nicht aus. Die Note "gut" (11 Punkte) gibt es ab mindestens 75 Prozent. Dazwischen und darüber werden die Notenstufen ungefähr linear zugeordnet. Außerdem stellen die EPA klar, dass erläuternde, kommentierende und begründende Texte unverzichtbare Bestandteile der Prüfungsleistung sind und dass Fehler in der Fachsprache als fachliche Fehler gelten.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Ein konkreter Fall: das Zentralabitur Informatik 2027 in Nordrhein-Westfalen</caption><thead><tr><th scope="col">Punkt</th><th scope="col">Grundkurs</th><th scope="col">Leistungskurs</th></tr></thead><tbody><tr><td>Aufgaben, die die Schule erhält</td><td>Ein Aufgabensatz mit vier Aufgaben</td><td>Ein Aufgabensatz mit vier Aufgaben</td></tr><tr><td>Davon bearbeitet</td><td>Zwei, ausgewählt von der Fachlehrkraft</td><td>Drei, ausgewählt von der Fachlehrkraft</td></tr><tr><td>Auswahl durch Prüflinge</td><td>Nicht vorgesehen</td><td>Nicht vorgesehen</td></tr><tr><td>Arbeitszeit</td><td>225 Minuten</td><td>270 Minuten</td></tr><tr><td>Sprachen</td><td>Java und SQL</td><td>Java und SQL</td></tr><tr><td>Datenstrukturen</td><td>Bis Binärbaum und binärer Suchbaum</td><td>Zusätzlich Graphen (Klassen Graph, Vertex, Edge)</td></tr><tr><td>Computer</td><td>Nicht vorgesehen</td><td>Nicht vorgesehen</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quelle: Ministerium für Schule und Bildung NRW, Standardsicherung, "Zentralabitur 2027, Informatik", Vorgaben vom 14.08.2024, Abschnitte II und III, gelesen am 3. November 2026. Die Vorgaben für 2028 erschienen am 25.08.2025, die für 2029 am 25.08.2026. Andere Länder regeln Auswahl, Zeit und Sprache anders; eine Übersicht aller Länder finden Sie auf unserer englischen Seite zum Informatik-Abitur.</p>
+    <p class="ag-mt-40">Die Tabelle zeigt, warum die Vorbereitung früh beginnen sollte: Die Prüflinge wählen in Nordrhein-Westfalen keine Aufgaben selbst aus, und sie schreiben ohne Computer. Wer in der Qualifikationsphase Code nur am Rechner ausprobiert hat, muss das Programmieren auf Papier eigens üben. Nur eine Minderheit wählt das Fach überhaupt: Der Informatik-Monitor 2026/27 beziffert die bundesweite Belegungsquote in der Qualifikationsphase auf rund 15 Prozent. Wer dazugehört, hat oft kleine Kurse und wenig Vergleich mit anderen Prüflingen.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="afb">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Anforderungsbereiche</p><h2>Was bedeuten Anforderungsbereich I, II und III in Informatik?</h2><p class="ag-lede">Jede Teilaufgabe im Abitur gehört zu einem der drei Anforderungsbereiche. Die EPA beschreiben sie für Informatik mit konkreten Tätigkeiten. Daraus leiten wir ab, wie man jeden Bereich übt.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Die drei Anforderungsbereiche in Informatik, mit Beispielen aus den EPA</caption><thead><tr><th scope="col">Bereich</th><th scope="col">Kern laut EPA</th><th scope="col">Beispiele aus den EPA</th><th scope="col">So üben wir es (unser Vorgehen)</th></tr></thead><tbody><tr><td>I, Wiedergeben</td><td>Bekannte Sachverhalte und Verfahren wiedergeben und beschreiben</td><td>Datenstrukturen beschreiben, bekannte Automaten darstellen, in eine andere Darstellungsform übersetzen</td><td>Kurze Abfragen zu Begriffen, jeden Begriff auch auf Englisch und Deutsch</td></tr><tr><td>II, Anwenden</td><td>Gelerntes selbstständig auf vergleichbare neue Situationen übertragen</td><td>Gegebenen Algorithmus analysieren, ER-Diagramm in ein Relationenmodell umsetzen, Terminierung und Aufwand begründen</td><td>Fremden Code verfolgen, Eigenschaften in ganzen Sätzen begründen</td></tr><tr><td>III, Gestalten und Beurteilen</td><td>Komplexe Probleme planmäßig bearbeiten, Methoden selbst auswählen und anpassen</td><td>Problem in Teilprobleme zerlegen, neues Verfahren entwickeln, eine einfache Sprache entwickeln</td><td>Offene Aufgaben ohne Zwischenschritte, danach die eigene Lösung bewerten</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quelle: Kultusministerkonferenz, EPA Informatik, Abschnitt 2.2 "Fachspezifische Beschreibung der Anforderungsbereiche", gelesen am 3. November 2026. Die letzte Spalte beschreibt unseren Unterricht.</p>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Warum II zählt</h3><p>Da der Schwerpunkt der Prüfung im Anforderungsbereich II liegt, üben wir am meisten das Übertragen: eine bekannte Datenstruktur in einem neuen Zusammenhang, ein bekannter Algorithmus mit einer kleinen Änderung.</p></div><div><h3>Warum I nicht reicht</h3><p>Die EPA sagen ausdrücklich, dass Leistungen allein im Anforderungsbereich I für 05 Punkte nicht ausreichen. Auswendig gelernte Definitionen sind nötig, aber nicht genug.</p></div><div><h3>Begründen schreiben</h3><p>Weil begründende Texte zur Prüfungsleistung gehören, schreibt jede Lernende und jeder Lernende bei uns Begründungen aus, in kurzen, vollständigen Sätzen. Der Mentor korrigiert die Logik, nicht nur das Ergebnis.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="beispiel">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Ein Übungsbeispiel</p><h2>Wie begründet man im Abitur, dass eine Rekursion endet?</h2><p class="ag-lede">Die EPA nennen das Begründen der Terminierung eines gegebenen Algorithmus ausdrücklich als Tätigkeit im Anforderungsbereich II. Die Aufgabe unten haben wir selbst geschrieben; sie stammt aus keinem Abitur. Sie zeigt, warum man eine Rekursion immer zuerst mit den kleinsten Eingaben testet.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Die Methode binaer</b><span>Java</span></figcaption><pre>public class Binaer {
+    public static String binaer(int n) {
+        if (n &lt; 2) {
+            return String.valueOf(n);
+        }
+        return binaer(n / 2) + (n % 2);
+    }
+
+    public static void main(String[] args) {
+        int[] tests = {0, 1, 2, 13};
+        for (int n : tests) {
+            System.out.println(n + " -&gt; " + binaer(n));
+        }
+    }
+}</pre><p class="ag-code-note">Ausgabe, von uns kompiliert und ausgeführt: <code>0 -&gt; 0</code>, <code>1 -&gt; 1</code>, <code>2 -&gt; 10</code>, <code>13 -&gt; 1101</code>. Die Methode liefert die Binärdarstellung einer natürlichen Zahl als Zeichenkette.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Der Aufruf binaer(13), Ebene für Ebene (unser Beispiel)</caption><thead><tr><th scope="col">Ebene</th><th scope="col">Aufruf</th><th scope="col">n / 2 und n % 2</th><th scope="col">Rückgabe nach oben</th></tr></thead><tbody><tr><td class="ag-num">1</td><td>binaer(13)</td><td>6 und 1</td><td>binaer(6) + "1" = "1101"</td></tr><tr><td class="ag-num">2</td><td>binaer(6)</td><td>3 und 0</td><td>binaer(3) + "0" = "110"</td></tr><tr><td class="ag-num">3</td><td>binaer(3)</td><td>1 und 1</td><td>binaer(1) + "1" = "11"</td></tr><tr><td class="ag-num">4</td><td>binaer(1)</td><td>Basisfall, n &lt; 2</td><td>"1"</td></tr></tbody></table></div>
+    <p class="ag-mt-40"><strong>Die Begründung der Terminierung, so wie wir sie aufschreiben lassen:</strong> Für jedes n größer oder gleich 2 ruft die Methode sich mit n / 2 auf. Diese Zahl ist kleiner als n und mindestens 1. Die Argumente bilden also eine streng fallende Folge natürlicher Zahlen, und eine solche Folge kann nicht unendlich lang sein. Spätestens nach endlich vielen Schritten ist n kleiner als 2, und der Basisfall beendet die Rekursion.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Dieselbe Methode in Python, mit einer fehlerhaften Variante</b><span>Python</span></figcaption><pre>def binaer(n):
+    if n &lt; 2:
+        return str(n)
+    return binaer(n // 2) + str(n % 2)
+
+def binaer_fehler(n):
+    if n == 1:
+        return "1"
+    return binaer_fehler(n // 2) + str(n % 2)
+
+for n in [0, 1, 2, 13]:
+    print(n, "-&gt;", binaer(n))
+print("binaer_fehler(13) -&gt;", binaer_fehler(13))
+try:
+    binaer_fehler(0)
+except RecursionError:
+    print("binaer_fehler(0) -&gt; RecursionError")</pre><p class="ag-code-note">Ausgabe, von uns mit Python 3 ausgeführt: <code>0 -&gt; 0</code>, <code>1 -&gt; 1</code>, <code>2 -&gt; 10</code>, <code>13 -&gt; 1101</code>, dann <code>binaer_fehler(13) -&gt; 1101</code> und <code>binaer_fehler(0) -&gt; RecursionError</code>. In Java endet derselbe Fehler mit einem StackOverflowError.</p></figure>
+    <p class="ag-mt-40">Die Variante <code>binaer_fehler</code> sieht richtig aus und liefert für 13 dasselbe Ergebnis. Ihr Basisfall prüft aber nur <code>n == 1</code>. Wird sie mit 0 aufgerufen, ist 0 / 2 wieder 0: Das Argument wird nicht kleiner, die Begründung von oben greift nicht, und die Rekursion endet nie. Wer nur mit 13 testet, findet diesen Fehler nicht.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Kleinste Eingaben zuerst.</strong> Testen Sie jede rekursive Methode mit 0, 1 und 2, bevor Sie eine große Zahl nehmen.</li><li><strong>Das Maß benennen.</strong> Schreiben Sie auf, welche Größe bei jedem Aufruf kleiner wird, hier n, und warum sie nicht unter den Basisfall fallen kann.</li><li><strong>Jede Ebene eine Zeile.</strong> Notieren Sie Aufrufe in einer Tabelle wie oben und lesen Sie die Rückgaben von unten nach oben.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Vorbereitungsplan</p><h2>Wann sollte man mit der Vorbereitung auf das Informatik-Abitur anfangen?</h2><p class="ag-lede">Spätestens zu Beginn des letzten Schuljahres. Weil eine Prüfungsaufgabe nicht nur ein Kurshalbjahr abdecken darf, braucht die Wiederholung Zeit. In Nordrhein-Westfalen beginnen die schriftlichen Abiturprüfungen 2027 am 13. April 2027 und enden am 5. Mai 2027; der letzte Unterrichtstag der Qualifikationsphase 2 ist Freitag, der 19. März 2027.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Ein Plan für die letzten Monate vor dem schriftlichen Abitur 2027 (unser Vorschlag)</caption><thead><tr><th scope="col">Zeitraum</th><th scope="col">Schwerpunkt</th><th scope="col">Ergebnis</th></tr></thead><tbody><tr><td>November und Dezember 2026</td><td>Lücken aus allen Halbjahren finden: Klassen und Objekte, lineare Strukturen, Bäume</td><td>Eine Liste der Themen, die noch unsicher sind</td></tr><tr><td>Januar 2027</td><td>Datenbanken: ER-Modell, Relationenmodell, SQL auf Papier</td><td>Abfragen ohne Rechner sicher schreiben</td></tr><tr><td>Februar 2027</td><td>Automaten und Grammatiken, Netze und Datenschutz</td><td>Wörter durch Automaten verfolgen, Begriffe sicher erklären</td></tr><tr><td>März 2027</td><td>Vollständige Probeprüfungen unter Zeit, mit eigenen Aufgaben im Prüfungsstil</td><td>Gefühl für die Arbeitszeit, Begründungen ausformuliert</td></tr><tr><td>Bis zum Prüfungstag</td><td>Nur noch Schwachstellen, Fachsprache, Schreibtischtests</td><td>Ruhe und Routine</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Der Plan ist ein Vorschlag, der sich am Schulkurs ausrichtet. Wir unterrichten parallel zur Schule und vergeben keine Noten; was im Abitur zählt, ist allein der Unterricht und die Prüfung Ihrer Schule. In anderen Ländern liegen die Termine anders; der Mentor verschiebt die Monate entsprechend.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Mögliche Unterrichtszeiten, deutsche Zeit und Zeit des Mentors in Indien</caption><thead><tr><th scope="col">Deutsche Zeit</th><th scope="col">In Indien, MEZ (bis 28. März 2027)</th><th scope="col">In Indien, MESZ (ab 28. März 2027)</th></tr></thead><tbody><tr><td>Dienstag 16:15</td><td>20:45</td><td>19:45</td></tr><tr><td>Donnerstag 18:00</td><td>22:30</td><td>21:30</td></tr><tr><td>Samstag 12:15</td><td>16:45</td><td>15:45</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Umrechnung von uns. Nach dem Einheiten- und Zeitgesetz gilt in Deutschland von Ende Oktober bis Ende März MEZ (UTC+1), sonst MESZ (UTC+2); umgestellt wurde zuletzt am 25. Oktober 2026, die nächste Umstellung folgt am 28. März 2027. Für Indien gilt das ganze Jahr UTC+5:30. Die Zeiten sind Beispiele, keine festen Gruppentermine.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="englisch">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unterrichtssprache</p><h2>Kann man sich auf Englisch auf ein deutsches Abitur vorbereiten?</h2><p class="ag-lede">Ja, und in Informatik passt das besonders gut. Wir sagen es dennoch deutlich: Der Unterricht findet ausschließlich auf Englisch statt, die Prüfung schreiben Sie auf Deutsch.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Was auf Englisch leicht fällt</h3><p>Java, Python und SQL bestehen aus englischen Schlüsselwörtern. Die Klassen der NRW-Vorgaben heißen Stack, Queue, List, BinaryTree und DatabaseConnector. Wer die Fachsprache im Unterricht auf Englisch hört, versteht diese Namen sofort.</p>
+<p>Die Mentoren sprechen langsam und deutlich, passen Tempo und Aussprache an und wiederholen schwierige Stellen mit anderen Worten.</p></div><div><h3>Was wir eigens auf Deutsch üben</h3><p>Da Fehler in der Fachsprache laut EPA als fachliche Fehler gelten, legen wir zu jedem Thema eine Liste mit den deutschen Fachbegriffen an: Basisfall, Terminierung, Zustandsübergang, Primärschlüssel.</p>
+<p>Begründungen, die im Abitur auf Deutsch stehen müssen, formulieren Sie selbst auf Deutsch; der Mentor prüft die Logik dahinter auf Englisch. So üben Sie nebenbei Englisch, ohne dass die Prüfungssprache leidet.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fortschritt</p>
+      <h2>Woran Sie merken, dass die Vorbereitung wirkt</h2>
+      <p class="ag-lede">Fünf Stufen, die wir für die Oberstufe verwenden und an denen wir Eltern und Lernenden den Stand zurückmelden.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Fünf Stufen der Abiturvorbereitung in Informatik (unsere)</caption><thead><tr><th scope="col">Stufe</th><th scope="col">Zeitpunkt</th><th scope="col">Was Sie dann können</th></tr></thead><tbody><tr><td>1. Begriffe sicher</td><td class="ag-num">Einführungsphase</td><td class="ag-num">Klasse, Objekt, Methode, Liste und Automat erklären, auf Deutsch und Englisch</td></tr><tr><td>2. Code lesen</td><td class="ag-num">Erstes Jahr der Qualifikationsphase</td><td class="ag-num">fremden Code auf Papier verfolgen und die Ausgabe vorhersagen</td></tr><tr><td>3. Übertragen</td><td class="ag-num">Erstes Jahr der Qualifikationsphase</td><td class="ag-num">einen bekannten Algorithmus an eine neue Aufgabe anpassen</td></tr><tr><td>4. Begründen</td><td class="ag-num">Zweites Jahr der Qualifikationsphase</td><td class="ag-num">Terminierung, Aufwand und Korrektheit in ganzen Sätzen begründen</td></tr><tr><td>5. Prüfungsreif</td><td class="ag-num">Vor der Prüfung</td><td class="ag-num">eine ganze Probeprüfung in der Arbeitszeit ohne Computer bearbeiten</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Für Eltern</h3><p>Ein häufiger Engpass liegt zwischen Stufe 2 und 4: Der Code läuft, aber die schriftliche Begründung fehlt. Genau dort verlieren viele Prüflinge Punkte, obwohl sie den Stoff kennen.</p>
+<p>Nach jeder Einheit schreibt der Mentor zwei, drei Sätze: woran gearbeitet wurde und welches Thema als Nächstes folgt.</p></div><div><h3>Für Schülerinnen und Schüler</h3><p>Schreiben Sie zu jeder Lösung einen Satz, warum sie stimmt. Wenn Ihnen der Satz nicht einfällt, ist das die Stelle, die Sie wiederholen sollten.</p>
+<p>Testen Sie jede Methode zuerst mit der kleinsten sinnvollen Eingabe.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weitere Kurse</p>
+      <h2>Neun weitere Kurse rund um das Informatik-Abitur</h2>
+      <p class="ag-lede">Jeder Kurs läuft live auf Englisch, mit einem festen Mentor, als Gruppe oder im Einzelunterricht.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Programmieren vertiefen</h3>
+        <span class="ag-band-sub">13 bis 19 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IAV / CODE / 01</p>
+          <h4>Java für Jugendliche</h4>
+          <p>Objektorientierung, die im Abitur meist in Java geprüft wird.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IAV / CODE / 02</p>
+          <h4>Python für Jugendliche</h4>
+          <p>Für Schulen, die die Oberstufe in Python unterrichten.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IAV / CODE / 03</p>
+          <h4>Algorithmen und Datenstrukturen</h4>
+          <p>Listen, Bäume, Suchen und Sortieren in der Tiefe.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Über den Kurs hinaus</h3>
+        <span class="ag-band-sub">13 bis 19 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IAV / PLUS / 01</p>
+          <h4>Informatik-Wettbewerbe</h4>
+          <p>Vom Informatik-Biber bis zum Bundeswettbewerb Informatik.</p>
+          <a class="ag-course-link" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IAV / PLUS / 02</p>
+          <h4>Wettbewerbsprogrammierung</h4>
+          <p>Für alle, die schneller und genauer programmieren wollen.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IAV / PLUS / 03</p>
+          <h4>IT-Sicherheit für Jugendliche</h4>
+          <p>Verschlüsselung und Schutz, passend zum Thema Datensicherheit.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Andere Abschlüsse</h3>
+        <span class="ag-band-sub">15 bis 19 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IAV / INT / 01</p>
+          <h4>IB Computer Science</h4>
+          <p>Für das IB Diploma an internationalen Schulen.</p>
+          <a class="ag-course-link" href="/courses/ib-diploma-computer-science-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IAV / INT / 02</p>
+          <h4>AP Computer Science A</h4>
+          <p>Java-Prüfung des amerikanischen College Board.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IAV / INT / 03</p>
+          <h4>Abitur Mathematik auf Englisch</h4>
+          <p>Für das zweite Prüfungsfach, ebenfalls live.</p>
+          <a class="ag-course-link" href="/courses/abitur-mathematics-course-in-english">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Ablauf</p>
+      <h2>Wie die Vorbereitung im Live-Unterricht abläuft</h2>
+      <p class="ag-lede">Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Nach der Schule</p><p class="ag-slot-l">Späte Nachmittage und frühe Abende deutscher Zeit.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Samstag</p><p class="ag-slot-l">Vormittags, gut für längere Probeprüfungen.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Vor Klausuren</p><p class="ag-slot-l">Zusätzliche Einzelstunden nach Absprache.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Ein Mentor</h3><p>Dieselbe Person bis zur Prüfung, die Ihren Kurs und Ihre Schwächen kennt.</p></div>
+      <div><h3>Ihr Schulstoff</h3><p>Wir arbeiten mit den Vorgaben Ihres Landes und dem Material Ihres Kurses.</p></div>
+      <div><h3>Papier statt Rechner</h3><p>Code schreiben und verfolgen ohne Ausführen, wie in der Prüfung.</p></div>
+      <div><h3>Eigene Aufgaben</h3><p>Übungsaufgaben im Prüfungsstil, die wir selbst schreiben.</p></div>
+      <div><h3>Begründungen</h3><p>Jede Lösung mit einem Satz dazu, warum sie stimmt.</p></div>
+      <div><h3>Rückmeldung</h3><p>Kurzer Bericht nach jeder Einheit, auch an die Eltern.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Projekte unserer Lernenden</p>
+      <h2>Was Lernende bauen</h2>
+      <p class="ag-lede">Neben der Prüfung entstehen bei uns eigene Programme. Eine Auswahl sehen Sie unten, mehr auf <a class="ag-inline-link" href="/student-labs">Student labs</a> (Seite auf Englisch).</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Screenshot des Projekts NutriLife, ein KI-Ernährungscoach" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>NutriLife</h4>
+          <p>Ein KI-Ernährungscoach, der Mahlzeiten auswertet und Schritt für Schritt auf ein Ziel hinarbeitet.</p>
+          <p class="ag-proj-meta">von Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Screenshot von Misti, ein KI-Chatbot für Mathematik und Programmieren" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>Misti</h4>
+          <p>Ein Chatbot, der Fragen zu Mathematik und Programmierung beantwortet, von einem Schüler gebaut und veröffentlicht.</p>
+          <p class="ag-proj-meta">von Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Screenshot von GuardianX, ein KI-Assistent für Sicherheit im Internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>GuardianX</h4>
+          <p>Ein Assistent, der jungen Menschen hilft, unsichere Situationen im Internet zu erkennen.</p>
+          <p class="ag-proj-meta">von Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Screenshot der Wetter-App SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web-App</p>
+          <h4>SkyCast</h4>
+          <p>Eine Wetter-Website mit aktuellen Bedingungen für jeden Ort.</p>
+          <p class="ag-proj-meta">von Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preise</p>
+      <h2>Kosten der Abiturvorbereitung</h2>
+      <p class="ag-lede">Abgerechnet wird monatlich, acht Live-Einheiten sind enthalten. Auf dieser Seite sehen Sie die Beträge in Euro, umgerechnet zum Referenzkurs der Europäischen Zentralbank. Die Zahlung selbst erfolgt in US-Dollar, und Ihre Bank rechnet sie in Euro um, weshalb der abgebuchte Betrag minimal abweichen kann.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Kostenlose Probestunde</p>
+        <p class="ag-price-amt">Kostenlos</p>
+        <p class="ag-price-alt">keine Karte nötig</p>
+        <ul><li>Eine kostenlose Probestunde</li><li>Ein Blick auf Ihren Kursstand und Ihre Klausuren</li><li>Ohne Karte und ohne Bindung</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Buchen</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Gruppenkurs</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group" data-price-format="suffix">90 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Fünfzehn bis zwanzig Lernende aus der Oberstufe</li><li>Ein fester Mentor bis zur Prüfung</li><li>Zwei Einheiten pro Woche</li><li>Monatlich kündbar</li></ul>
+        <a href="#start" class="ag-btn">Hier starten</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Einzelunterricht</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal" data-price-format="suffix">134 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Sie und Ihr Mentor allein</li><li>Plan nach Ihrem Prüfungstermin</li><li>Zeiten nach Absprache</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Anfragen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Was Familien sagen</p>
+      <h2>4,9 von 5 bei 547 Google-Bewertungen</h2>
+      <p class="ag-lede">Echte Google-Bewertungen von Familien und Lernenden, im englischen Wortlaut belassen.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fragen und Antworten</p>
+      <h2>Informatik-Abitur Vorbereitung: häufige Fragen</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Findet der Unterricht auf Deutsch statt?</h3>
+        <p>Nein. Der Unterricht ist live und ausschließlich auf Englisch, mit Mentoren in Indien, die Tempo und Aussprache an Sie anpassen. Viele sehen das als Vorteil: Sie lernen Informatik in der Sprache, aus der Java, Python und SQL stammen, und üben Englisch zugleich. Die deutschen Fachbegriffe für die Prüfung sammeln wir gemeinsam.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Was wird im Informatik-Abitur geprüft?</h3>
+        <p>Nach den Einheitlichen Prüfungsanforderungen der Kultusministerkonferenz drei Bereiche: Grundlegende Modellierungstechniken, Interaktion mit und von Informatiksystemen sowie Möglichkeiten und Grenzen informatischer Verfahren. Jede schriftliche Prüfungsaufgabe muss sich auf die Modellierungstechniken beziehen. Was Ihr Land genau verlangt, steht in seinen Vorgaben.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wie viel Prozent braucht man für 05 Punkte im Informatik-Abitur?</h3>
+        <p>Laut EPA Informatik soll "ausreichend" (05 Punkte) gegeben werden, wenn mindestens 45 Prozent der erwarteten Gesamtleistung erbracht sind; Leistungen nur im Anforderungsbereich I reichen dafür nicht. Für "gut" (11 Punkte) nennen die EPA mindestens 75 Prozent.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Was ist der Unterschied zwischen Grundkurs und Leistungskurs in Informatik?</h3>
+        <p>Beide prüfen dieselben drei Bereiche. Der Leistungskurs behandelt laut EPA mindestens drei statt zwei Modellierungstechniken und verlangt mehr Selbstständigkeit, Abstraktion und Formalisierung. In Nordrhein-Westfalen kommen 2027 im Leistungskurs zum Beispiel Graphen hinzu, und die Arbeitszeit ist mit 270 statt 225 Minuten länger.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Darf man im Informatik-Abitur einen Computer benutzen?</h3>
+        <p>Das regelt jedes Land selbst. In Nordrhein-Westfalen ist der Einsatz eines Computers im Zentralabitur 2027 nicht vorgesehen, in Bayern besteht das schriftliche Informatik-Abitur zu großen Teilen aus Programmieraufgaben auf Papier. Deshalb üben wir das Schreiben und Verfolgen von Code ohne Rechner.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Bereiten Sie auf Java oder auf Python vor?</h3>
+        <p>Auf die Sprache, die Ihre Schule verwendet. In Nordrhein-Westfalen sind Java und SQL vorgegeben; andere Länder und Schulen arbeiten auch mit Python. Der Mentor richtet sich nach Ihrem Kursmaterial.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Benoten Sie oder ersetzen Sie den Schulunterricht?</h3>
+        <p>Weder noch. Wir unterrichten begleitend zur Schule und vergeben keine Noten oder Abschlüsse. Was für das Abitur zählt, sind allein der Unterricht und die Prüfungen Ihrer Schule und Ihres Landes. Unsere Probeprüfungen dienen nur der Übung.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wann finden die Stunden statt?</h3>
+        <p>Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Im Winter ist Indien 4 Stunden 30 Minuten voraus, im Sommer 3 Stunden 30 Minuten.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Was kostet die Vorbereitung, und wie wird bezahlt?</h3>
+        <p>Die Monatsgebühr steht auf dieser Seite in Euro, umgerechnet zum Referenzkurs der Europäischen Zentralbank. Abgebucht wird in US-Dollar, die Umrechnung übernimmt Ihre Bank. Die Probestunde kostet nichts und braucht keine Karte.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Ich hatte in der Mittelstufe kein Informatik. Ist das ein Problem?</h3>
+        <p>Nein, aber planen Sie Zeit ein. In mehreren Ländern ist Informatik in der Sekundarstufe I nicht für alle verpflichtend. Unser Kurs Informatik Companion holt Schleifen, Bedingungen, Funktionen und Listen nach, bevor die Oberstufe mit Klassen und Datenstrukturen beginnt.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Mehr dazu</p>
+      <h2>Weitere Seiten zum Thema</h2>
+      <p class="ag-lede">Seiten für Lernende und Familien in Deutschland, zum Teil auf Englisch.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/abitur-computer-science-in-english">Abitur computer science in English</a></h3><p>Das Informatik-Abitur Land für Land, auf Englisch.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>Unterstützung von Klasse 5 bis zur Oberstufe.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-in-german-schools-by-state">Informatik in German schools by state</a></h3><p>Wo Informatik Pflichtfach ist, auf Englisch.</p></div>
+      <div><h3><a class="ag-inline-link" href="/abitur-maths-in-english">Abitur maths in English</a></h3><p>Das Mathematik-Abitur und seine Struktur.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Alle unsere Seiten für Deutschland.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Wie unser Live-Unterricht funktioniert.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Jetzt starten</p>
+        <h2>Probestunde für die Abiturvorbereitung buchen</h2>
+        <p class="ag-lede">In der ersten Stunde schaut der Mentor mit Ihnen auf eine alte Klausur oder die Vorgaben Ihres Landes und findet heraus, welche Themen noch wackeln. Danach schlagen wir einen Plan bis zur Prüfung vor.</p>
+        <p class="ag-mt-40">Zum Vorab-Lesen: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> über unseren Unterricht und <a class="ag-inline-link" href="/courses/informatik-abitur-course-java-python">den Kurs Informatik Oberstufe und Abitur</a> mit dem vollständigen Lehrplan (beide auf Englisch).</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20ich%20bereite%20mich%20auf%20das%20Informatik-Abitur%20vor%20und%20interessiere%20mich%20f%C3%BCr%20Unterricht%20auf%20Englisch.%20Kann%20ich%20eine%20kostenlose%20Probestunde%20buchen%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'iav',pos:'end'});">Per WhatsApp schreiben</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Alle Stunden sind live online, auf Englisch, mit Mentoren in Indien. Per WhatsApp antworten wir am schnellsten, auf Englisch oder kurz auf Deutsch.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_iav(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Ihr Name</label>
+            <input id="de-name" type="text" name="name" placeholder="Name von Elternteil oder Lernendem" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Telefon oder WhatsApp, Deutschland +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Altersgruppe</label>
+            <select id="de-age" name="age"><option value="6-12">Kind, 6 bis 12</option><option value="13-18">Jugendliche, 13 bis 18</option><option value="college">Studierende</option><option value="adult">Berufstätige</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Kostenlose Probestunde anfragen</button>
+          <p class="ag-form-note">Kostenlos und unverbindlich, keine Karte nötig.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Lieber früher starten? Priority Demo buchen</h3><p>Eine Priority Demo ist eine vollständige Unterrichtsstunde von etwa 45 bis 60 Minuten. Danach schickt der Mentor per WhatsApp einen schriftlichen Kompetenzbericht und einen persönlichen Lernplan. Wenn Sie sich anmelden, wird die Demo-Gebühr mit der ersten Monatsgebühr verrechnet: Schicken Sie uns dazu die Bestellnummer der Demo per WhatsApp.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Priority Demo buchen</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live-Online-Unterricht in Programmieren, KI und Mathematik für Menschen von 6 bis 67 Jahren. Wir unterrichten seit 2020, mehr als
+          10.000 Lernende in 25 Ländern.
+        </p>
+      </div>
+      <div><h4>Abitur</h4><ul><li><a href="/courses/informatik-abitur-course-java-python">Informatik Abitur</a></li><li><a href="/courses/abitur-mathematics-course-in-english">Mathematik Abitur</a></li><li><a href="/courses/mysql-mastery-for-teens">SQL für Jugendliche</a></li><li><a href="/courses">Alle Kurse</a></li></ul></div>
+      <div><h4>Deutschland</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/abitur-computer-science-in-english">Informatik-Abitur (EN)</a></li><li><a href="/student-labs">Projekte</a></li></ul></div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="/about">Über uns</a></li>
+          <li><a href="/how-we-teach">So unterrichten wir</a></li>
+          <li><a href="/love">Bewertungen</a></li>
+          <li><a href="/contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live-Online-Unterricht weltweit.</span>
+      <span>Erst der Basisfall, dann die Rekursion</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Probestunde</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority Demo</a><a href="tel:+919123366161" aria-label="Anrufen +91 91233 66161">Anrufen</a></div>
+
+<script>
+window.submitLead_iav = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Wird gesendet...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'informatik-abitur-vorbereitung-inline', meta: { name: name, age: age, page: 'informatik-abitur-vorbereitung' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Vielen Dank' + (name ? ', ' + name.split(' ')[0] : '') + '. Ein Mentor ruft Sie in Kürze an.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Netzwerkfehler. Bitte versuchen Sie es erneut.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

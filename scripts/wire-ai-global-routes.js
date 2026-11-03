@@ -804,6 +804,7 @@ const SLUGS = [
   'informatik-abitur-niedersachsen',
   'informatik-abitur-hessen',
   'informatik-abitur-baden-wuerttemberg',
+  'informatik-abitur-vorbereitung',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1687,6 +1688,7 @@ const LLMS_LABELS = {
   'informatik-abitur-niedersachsen': 'Informatik-Abitur Niedersachsen (Unterricht auf Englisch)',
   'informatik-abitur-hessen': 'Informatik-Abitur Hessen (Unterricht auf Englisch)',
   'informatik-abitur-baden-wuerttemberg': 'Informatik-Abitur Baden-Württemberg (Unterricht auf Englisch)',
+  'informatik-abitur-vorbereitung': 'Informatik-Abitur Vorbereitung (auf Englisch)',
 };
 
 function wireLlms(slugs) {
