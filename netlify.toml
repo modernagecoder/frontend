@@ -30685,6 +30685,18 @@
   to = "/src/pages/coding-classes-for-kids-dusseldorf.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-for-international-school-students-dusseldorf"
+  to = "/src/pages/coding-for-international-school-students-dusseldorf.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-for-international-school-students-dusseldorf.md"
+  to = "/src/pages/coding-for-international-school-students-dusseldorf.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

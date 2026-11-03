@@ -136,7 +136,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE120 | math-tutor-frankfurt-in-english (mtf, #007185) | city-t1 (en) | 4,603 | 1.8% vs math-tutor-munich-in-english | Maths Tutor in Frankfurt, in English: Klasse 1 to Abitur | area from corner coordinates, and squared units scale by the square of the factor | e2daf132 |
 | DE121 | coding-for-international-school-students-frankfurt (fra, #4A6398) | city-t1 (en) | 4,172 | 2.1% vs coding-for-international-school-students-stuttgart | Coding for International School Students in Frankfurt | normalise a key before you join, and count what the join drops | 65dcff3d |
 | DE122 | programmieren-lernen-kinder-frankfurt (pfr, #7E5282) | city-de (de) | 3,661 | 2.8% vs programmieren-lernen-kinder-hamburg | Programmieren lernen für Kinder in Frankfurt: live auf Englisch | one cell can hold several answers; split it before you count | 248a0ea1 |
-| DE123 | coding-classes-for-kids-dusseldorf (ckd, #933332) | city-t1 (en) | 3,962 | 1.9% vs coding-classes-for-kids-cologne | Coding Classes for Kids in Düsseldorf: Live Online, in English | the last period in a file may not be finished; check the data's date before you compare it | (this commit) |
+| DE123 | coding-classes-for-kids-dusseldorf (ckd, #933332) | city-t1 (en) | 3,962 | 1.9% vs coding-classes-for-kids-cologne | Coding Classes for Kids in Düsseldorf: Live Online, in English | the last period in a file may not be finished; check the data's date before you compare it | c92af348 |
+| DE124 | coding-for-international-school-students-dusseldorf (dus, #655637) | city-t1 (en) | 4,089 | 1.7% vs coding-for-international-school-students-munich | Coding for International School Students in Düsseldorf | when two columns describe the same thing, measure how often they disagree before you pick one | (this commit) |
 
 ## Notes
 

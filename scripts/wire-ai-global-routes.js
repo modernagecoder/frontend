@@ -864,6 +864,7 @@ const SLUGS = [
   'coding-for-international-school-students-frankfurt',
   'programmieren-lernen-kinder-frankfurt',
   'coding-classes-for-kids-dusseldorf',
+  'coding-for-international-school-students-dusseldorf',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1807,6 +1808,7 @@ const LLMS_LABELS = {
   'coding-for-international-school-students-frankfurt': 'Coding for international school students in Frankfurt',
   'programmieren-lernen-kinder-frankfurt': 'Programmieren lernen für Kinder in Frankfurt (auf Englisch)',
   'coding-classes-for-kids-dusseldorf': 'Coding classes for kids in Düsseldorf',
+  'coding-for-international-school-students-dusseldorf': 'Coding for international school students in Düsseldorf',
 };
 
 function wireLlms(slugs) {
