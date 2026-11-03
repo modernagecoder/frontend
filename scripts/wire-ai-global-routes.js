@@ -905,6 +905,7 @@ const SLUGS = [
   'coding-classes-for-kids-in-erlangen-germany',
   'coding-classes-for-kids-in-wuppertal-germany',
   'coding-and-ai-classes-in-bielefeld-germany',
+  'coding-and-ai-classes-in-saarbruecken-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1889,6 +1890,7 @@ const LLMS_LABELS = {
   'coding-classes-for-kids-in-erlangen-germany': 'Coding classes for kids in Erlangen',
   'coding-classes-for-kids-in-wuppertal-germany': 'Coding classes for kids in Wuppertal',
   'coding-and-ai-classes-in-bielefeld-germany': 'Coding and AI classes in Bielefeld',
+  'coding-and-ai-classes-in-saarbruecken-germany': 'Coding and AI classes in Saarbrücken',
 };
 
 function wireLlms(slugs) {
