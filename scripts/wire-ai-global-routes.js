@@ -847,6 +847,7 @@ const SLUGS = [
   'coding-classes-in-baden-wuerttemberg',
   'coding-classes-in-bavaria',
   'coding-and-maths-classes-in-berlin-germany',
+  'coding-classes-in-brandenburg',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1773,6 +1774,7 @@ const LLMS_LABELS = {
   'coding-classes-in-baden-wuerttemberg': 'Coding classes in Baden-Württemberg',
   'coding-classes-in-bavaria': 'Coding classes in Bavaria',
   'coding-and-maths-classes-in-berlin-germany': 'Coding and maths classes in Berlin',
+  'coding-classes-in-brandenburg': 'Coding classes in Brandenburg',
 };
 
 function wireLlms(slugs) {

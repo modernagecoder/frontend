@@ -119,7 +119,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE111 | programmieren-lernen-kinder-hamburg (pha, #246984) | city-de (de) | 3,849 | 2.7% vs programmieren-lernen-kinder-muenchen | Programmieren lernen für Kinder in Hamburg: live auf Englisch | text into numbers; the German thousands point, and why a result must be checked for plausibility | 143d0a6d |
 | DE095 | coding-classes-in-baden-wuerttemberg (cbw, #6A3A06) | land (en) | 4,869 | 1.8% vs coding-classes-in-schleswig-holstein | Coding Classes in Baden-Württemberg: Live Online in English | a rate beats a raw total, but only across rows that are alike (compare like with like) | b8fbc1b5 |
 | DE096 | coding-classes-in-bavaria (cob, #4D4B00) | land (en) | 4,555 | 1.9% vs coding-classes-for-kids-nuremberg | Coding Classes in Bavaria: Live Online in English, Klasse 5+ | check the axes and the units before you compute; a column label can be wrong, and a degree east is shorter | bfe54d78 |
-| DE098 | coding-and-maths-classes-in-berlin-germany (cma, #0A463D) | land (en) | 4,456 | 1.9% vs coding-classes-for-kids-berlin | Coding and Maths Classes in Berlin: Live Online in English | cross-check two fields that should agree before you report a percentage; then summarise with mean and median | (this commit) |
+| DE098 | coding-and-maths-classes-in-berlin-germany (cma, #0A463D) | land (en) | 4,456 | 1.9% vs coding-classes-for-kids-berlin | Coding and Maths Classes in Berlin: Live Online in English | cross-check two fields that should agree before you report a percentage; then summarise with mean and median | f12a9cc7 |
+| DE099 | coding-classes-in-brandenburg (brc, #63404B) | land (en) | 4,283 | 2.2% vs coding-and-maths-classes-in-berlin-germany | Coding Classes in Brandenburg: Live Online in English | match the meaning, not the exact label; combined categories make groups overlap, so parts can add up to | (this commit) |
 
 ## Notes
 
