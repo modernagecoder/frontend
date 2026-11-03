@@ -897,6 +897,7 @@ const SLUGS = [
   'coding-and-ai-classes-in-fuerth-germany',
   'online-python-classes-heilbronn-germany',
   'coding-classes-for-kids-in-ulm-germany',
+  'coding-and-ai-classes-in-wolfsburg-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1873,6 +1874,7 @@ const LLMS_LABELS = {
   'coding-and-ai-classes-in-fuerth-germany': 'Coding and AI classes in Fürth',
   'online-python-classes-heilbronn-germany': 'Online Python classes in Heilbronn',
   'coding-classes-for-kids-in-ulm-germany': 'Coding classes for kids in Ulm',
+  'coding-and-ai-classes-in-wolfsburg-germany': 'Coding and AI classes in Wolfsburg',
 };
 
 function wireLlms(slugs) {
