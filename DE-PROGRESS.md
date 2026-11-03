@@ -94,7 +94,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE113 | math-tutor-munich-in-english (enb, #59425B) | city-t1 (en) | 4,069 | 1.8% vs coding-classes-for-kids-munich | Maths Tutor in Munich, in English: Live Online Lessons | a line of best fit by least squares, and why a trend is not a forecast | dd94d85f |
 | DE114 | coding-for-international-school-students-munich (cmu, #753000) | city-t1 (en) | 3,900 | 2.7% vs math-tutor-munich-in-english | Coding for International School Students in Munich | two-dimensional arrays, aggregating rows into a 7 by 24 table | 06bc9f09 |
 | DE115 | programmieren-lernen-kinder-muenchen (pmu, #673C14) | city-de (de) | 3,756 | 2% vs informatik-abitur-vorbereitung | Programmieren lernen für Kinder in München: live auf Englisch | drawing a chart from text, a loop that repeats a character | 8657e4ef |
-| DE116 | coding-classes-for-kids-cologne (coe, #136C52) | city-t1 (en) | 3,930 | 1.9% vs coding-classes-for-kids-berlin | Coding Classes for Kids in Cologne: Live Online, in English | grouping changes the answer; count by the right category | (this commit) |
+| DE116 | coding-classes-for-kids-cologne (coe, #136C52) | city-t1 (en) | 3,930 | 1.9% vs coding-classes-for-kids-berlin | Coding Classes for Kids in Cologne: Live Online, in English | grouping changes the answer; count by the right category | 1a8b4631 |
+| DE117 | math-tutor-cologne-in-english (enc, #68243E) | city-t1 (en) | 3,665 | 1.5% vs online-math-tutor-germany | Maths Tutor in Cologne, in English: Live Online Lessons | reading number formats (German thousands point), then percentage change and mean against median | (this commit) |
 
 ## Notes
 

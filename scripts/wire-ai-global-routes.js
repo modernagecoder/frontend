@@ -822,6 +822,7 @@ const SLUGS = [
   'coding-for-international-school-students-munich',
   'programmieren-lernen-kinder-muenchen',
   'coding-classes-for-kids-cologne',
+  'math-tutor-cologne-in-english',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1723,6 +1724,7 @@ const LLMS_LABELS = {
   'coding-for-international-school-students-munich': 'Coding for international school students in Munich',
   'programmieren-lernen-kinder-muenchen': 'Programmieren lernen für Kinder in München (auf Englisch)',
   'coding-classes-for-kids-cologne': 'Coding classes for kids in Cologne',
+  'math-tutor-cologne-in-english': 'Maths tutor in Cologne, in English',
 };
 
 function wireLlms(slugs) {
