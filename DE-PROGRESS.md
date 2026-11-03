@@ -143,7 +143,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE132 | coding-classes-for-kids-bremen (ckb, #904A37) | city-t1 (en) | 4,095 | 1.7% vs coding-classes-for-kids-hamburg | Coding Classes for Kids in Bremen: Live Online in English | a time written as text is not a number; convert before you compare | e4e96092 |
 | DE133 | coding-classes-for-kids-essen (cke, #8D4F0C) | city-t1 (en) | 3,942 | 1.9% vs coding-classes-for-kids-dortmund | Coding Classes for Kids in Essen: Live and in English | the average is not the typical value; one very large value pulls the mean, the middle value does not | e48ca430 |
 | DE134 | coding-classes-for-kids-dresden (cdr, #005730) | city-t1 (en) | 3,844 | 1.7% vs coding-classes-for-kids-essen | Coding Classes for Kids in Dresden: Live Online, in English | distance on a map grid with Pythagoras, and the nested loop that compares every pair | 53ced106 |
-| DE137 | coding-classes-for-kids-hannover (cha, #562B42) | city-t1 (en) | 3,967 | 1.8% vs coding-classes-for-kids-dresden | Coding Classes for Kids in Hannover: Live Online in English | find the first time something happens (stop at the first match), then turn dates into day numbers to | (this commit) |
+| DE137 | coding-classes-for-kids-hannover (cha, #562B42) | city-t1 (en) | 3,967 | 1.8% vs coding-classes-for-kids-dresden | Coding Classes for Kids in Hannover: Live Online in English | find the first time something happens (stop at the first match), then turn dates into day numbers to | ea5177f2 |
+| DE138 | programmieren-lernen-kinder-hannover (han, #356377) | city-de (de) | 3,658 | 2% vs programmieren-lernen-kinder-frankfurt | Programmieren lernen für Kinder in Hannover: live auf Englisch | computers sort by character numbers; to sort like a German dictionary, give sorted() a key | (this commit) |
 
 ## Notes
 

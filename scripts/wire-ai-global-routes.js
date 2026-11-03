@@ -871,6 +871,7 @@ const SLUGS = [
   'coding-classes-for-kids-essen',
   'coding-classes-for-kids-dresden',
   'coding-classes-for-kids-hannover',
+  'programmieren-lernen-kinder-hannover',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1821,6 +1822,7 @@ const LLMS_LABELS = {
   'coding-classes-for-kids-essen': 'Coding classes for kids in Essen',
   'coding-classes-for-kids-dresden': 'Coding classes for kids in Dresden',
   'coding-classes-for-kids-hannover': 'Coding classes for kids in Hannover',
+  'programmieren-lernen-kinder-hannover': 'Programmieren lernen für Kinder in Hannover (auf Englisch)',
 };
 
 function wireLlms(slugs) {
