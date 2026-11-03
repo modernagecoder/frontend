@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Online Python Classes in Mannheim: Live, in English</title>
+  <meta name="description" content="Online Python classes in Mannheim, live in English: how live lessons differ from video courses, the first month week by week, BW Informatik and a nextbike project.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/online-python-classes-mannheim-germany">
+  <link rel="alternate" type="text/markdown" href="/src/pages/online-python-classes-mannheim-germany.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#71153D">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/online-python-classes-mannheim-germany">
+  <meta property="og:title" content="Online Python Classes in Mannheim: Live, in English">
+  <meta property="og:description" content="Live Python lessons in English for Mannheim learners from 9 to adult: why live beats recorded for most beginners, what the first four weeks look like, and a project on Mannheim's bike-share data that changes while you look at it.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Online Python Classes in Mannheim: Live, in English">
+  <meta name="twitter:description" content="Python for Mannheim, live online in English, with a project on the city's live bike-share feed.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-pma .ag-hero h1 { letter-spacing: -0.02em; }
+.ag-root.ag-pma .ag-capsule { border-left-width: 6px; border-radius: 2px; }
+.ag-root.ag-pma .ag-section-head h2 { max-width: 29ch; }
+.ag-root.ag-pma .ag-table th:first-child { width: 22%; }
+.ag-root.ag-pma .ag-code-head b { letter-spacing: 0.015em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/online-python-classes-mannheim-germany#page","url":"https://learn.modernagecoders.com/online-python-classes-mannheim-germany","name":"Online Python Classes in Mannheim","description":"A guide for Mannheim learners and parents to live online Python classes in English: how live lessons compare with recorded courses and in-person classes, the first month step by step, Python next to Informatik in Baden-Württemberg, and an original project on the city's nextbike station data.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Python in Mannheim","item":"https://learn.modernagecoders.com/online-python-classes-mannheim-germany"}]},{"@type":"Course","name":"Online Python Classes in Mannheim","description":"Live online Python classes in English for Mannheim learners: children from 9, teenagers and adults, with a regular mentor on a shared screen, in a group of 15 to 20 or one to one, from a first program to working with live open data.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/online-python-classes-mannheim-germany"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/online-python-classes-mannheim-germany"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/online-python-classes-mannheim-germany"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. All lessons are live and taught in English only. The mentor speaks clearly, adapts to the learner's pace and accent, and repeats in simpler words when asked. Python's keywords and error messages are English anyway."}},{"@type":"Question","name":"Is a live online lesson really better than a video course?","acceptedAnswer":{"@type":"Answer","text":"For most beginners, yes, because a mentor sees the code as it is typed and helps the moment an error appears. Video courses suit some confident self-learners; we only teach live."}},{"@type":"Question","name":"What does the learner need?","acceptedAnswer":{"@type":"Answer","text":"A computer with a real keyboard, an internet connection that holds a video call and a headset. Python costs nothing; setting it up is part of lesson one."}},{"@type":"Question","name":"From what age can my child learn Python?","acceptedAnswer":{"@type":"Answer","text":"Nine is the usual starting age for typed code with us; six to eight year olds begin with Scratch blocks instead. Adults of any age are welcome."}},{"@type":"Question","name":"How does this relate to Informatik at a Baden-Württemberg school?","acceptedAnswer":{"@type":"Answer","text":"Baden-Württemberg introduced the compulsory subject Informatik und Medienbildung from 2025/26, starting in grades 5 and 6. Our lessons are extra practice and depth next to that; the school subject and its marks are what count."}},{"@type":"Question","name":"When are lessons in Mannheim time?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. School pupils often choose afternoons, adults early evenings."}},{"@type":"Question","name":"Where are the mentors?","acceptedAnswer":{"@type":"Answer","text":"They teach from India. While Germany is on winter time the mentor's clock reads four and a half hours later than Mannheim's, so 15:40 here is 20:10 there; after the change on 28 March 2027 the gap shrinks to three and a half hours."}},{"@type":"Question","name":"Can adults earn a Python certificate?","acceptedAnswer":{"@type":"Answer","text":"Our PCEP and PCAP course prepares for the Python Institute's exams, which are taken with the Python Institute, not with us. We do not award German qualifications."}},{"@type":"Question","name":"How is the fee shown and charged?","acceptedAnswer":{"@type":"Answer","text":"Monthly, for eight lessons. It is shown here in euro at the European Central Bank reference rate and charged in US dollars, which your bank converts, so the amount on your statement may differ very slightly. The first lesson is free."}},{"@type":"Question","name":"What will the learner build in the first month?","acceptedAnswer":{"@type":"Answer","text":"A calculator, a scoring quiz, a times-table trainer and a first program that reads a small data file, such as a simpler version of the Mannheim bike project on this page."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/online-python-classes-mannheim-germany","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-pma">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#formats">Formats</a></li>
+      <li><a href="#month">Month 1</a></li>
+      <li><a href="#nextbike">Bike data</a></li>
+      <li><a href="#slots">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Python in Mannheim
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Mannheim &middot; Python &middot; Live online</p>
+        <h1>Online Python classes in Mannheim</h1>
+        <p class="ag-lede">Search for online Python and you will mostly find videos. They work for some people, but most beginners stall the first time an error message appears and nobody is there to read it with them. Our Python classes for Mannheim are live: a mentor, a shared screen and real code, in English. Here is how that compares with the alternatives, what the first month looks like, where Python sits next to Informatik in Baden-Württemberg, and a project on Mannheim's bike-share data that keeps changing while you study it.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#nextbike" class="ag-btn ag-btn--ghost">See the bike project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Mannheim%20and%20would%20like%20a%20free%20live%20Python%20lesson%20in%20English.%20When%20could%20we%20start%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pma'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ students worldwide &middot; a person on the other side of every error message</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Language</dt><dd>Python 3</dd>
+          <dt>Learners</dt><dd>From age 9 to adult</dd>
+          <dt>Format</dt><dd>Live video and shared screen</dd>
+          <dt>Pace</dt><dd>Two lessons a week</dd>
+          <dt>Group</dt><dd>15 to 20 learners, or 1-on-1</dd>
+          <dt>First lesson</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">What it is</p>
+      <p>Modern Age Coders teaches Python to Mannheim learners in live online lessons held in English: a regular mentor and the learner share a screen, write code together and fix errors as they happen, at a pace and in an accent the learner can follow. Nine year olds can join, and so can teenagers and adults with or without experience, either in a class of 15 to 20 or alone with the mentor, in Mannheim afternoons, evenings or weekends.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Pick a starting point</p>
+      <h2>Python courses for Mannheim learners</h2>
+      <p class="ag-lede">Three courses for three situations: a child ready to type, a teenager who wants the whole language, and an adult who would like a recognised Python certificate at the end.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PMA / 01</p>
+          <h3>Python and AI for Kids</h3>
+          <p>For 9 to 12 year olds. Short typed programs, drawings, games and small projects with real data, paced for young typists.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PMA / 02</p>
+          <h3>Python for Teens</h3>
+          <p>For 13 to 18 year olds. From variables to classes, files and data, with the reading and tracing skills an Informatik course values.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/pcep-pcap-python-certification-course">
+        <div class="ag-pick-shot"><img src="/images/pcep-python-certification.webp" alt="PCEP and PCAP Python Certification Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PMA / 03</p>
+          <h3>PCEP and PCAP Certification</h3>
+          <p>For adults and older teens who want to finish with the Python Institute's entry and associate exams in view.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="formats">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Live, recorded or in a room</p><h2>How is a live online Python class different from a recorded course?</h2><p class="ag-lede">All three formats can teach Python. They differ in what happens at the moment a learner gets stuck, which for a beginner is several times every lesson.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Three ways to learn Python, compared (our assessment)</caption><thead><tr><th scope="col"></th><th scope="col">Recorded video course</th><th scope="col">In-person class</th><th scope="col">Live online class (ours)</th></tr></thead><tbody><tr><td>When you are stuck</td><td>Pause, search, hope</td><td>Raise a hand and wait for the teacher</td><td>The mentor sees your screen and helps at once</td></tr><tr><td>Who sees your code</td><td>Nobody</td><td>The teacher, when they reach your desk</td><td>The mentor, line by line, as you type</td></tr><tr><td>Pace</td><td>Yours, with nobody checking</td><td>The room's</td><td>Yours, with someone checking</td></tr><tr><td>Travel in Mannheim</td><td>None</td><td>To the venue and back</td><td>None</td></tr><tr><td>Language</td><td>Whatever the video uses</td><td>Usually German</td><td>English only, at your pace and accent</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Our own comparison. We teach only the third format, so read it as our view rather than an independent test.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the shared screen matters</h3><p>Most beginner errors are tiny: a missing colon, a capital letter, a space that Python treats as meaningful. On a video they can cost an evening. With a mentor watching the screen they cost a minute, and the learner sees how the error was found, which is the real lesson.</p>
+<p>Learners share their screen for most of each lesson, so they are typing, not watching.</p></div><div><h3>Why English</h3><p>Every class is taught in English only. Python itself reads like short English sentences, its error messages are in English, and nearly all of its documentation is too. Learning in English removes a translation step most German learners otherwise do in their heads.</p>
+<p>The mentors, who teach from India, keep their speech clear and unhurried and soon tune in to how each learner talks.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="month">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The first four weeks</p><h2>What does the first month of live online Python look like?</h2><p class="ag-lede">Eight lessons, two a week. Here is the usual route for a teenage or adult beginner; children take the same steps with smaller programs and more time per step.</p></div>
+    <ol class="ag-steps"><li><strong>Week 1: Python answers back.</strong> Install Python or open a browser editor with the mentor, then print, input and arithmetic. By the second lesson the learner has written a small calculator that asks for two numbers.</li><li><strong>Week 2: decisions.</strong> if, elif and else, comparisons and the first error messages read aloud together. Project: a quiz that keeps score.</li><li><strong>Week 3: repetition.</strong> for and while loops, and the habit of predicting what a loop prints before running it. Project: a times-table trainer.</li><li><strong>Week 4: collections and a first file.</strong> Lists and dictionaries, then reading a small CSV file of real data. The bike project below is the kind of file a learner opens for the first time here, in a simpler version.</li></ol>
+    <p class="ag-source-note ag-mt-40">Our own course plan for beginners. The pace is set by the learner, not by the calendar.</p>
+    <p class="ag-mt-40">At the end of the month the mentor writes a short note: what the learner can now do alone, what still needs practice, and which course suits them next. For a child that note goes to a parent; adults get it themselves. Nobody is moved on before they are ready, and nobody is held back if they are flying.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="nextbike">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A Mannheim dataset</p><h2>How fast does Mannheim's bike-share data change?</h2><p class="ag-lede">Stadt Mannheim publishes the live status of every VRNnextbike station in the city as open data under the Datenlizenz Deutschland Namensnennung 2.0. Unlike a yearly statistic, this file is a moment. That makes it a perfect first lesson in data that moves.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The file</h3><p>The dataset is called VRN-Nextbike on the city's open data portal. Each download is a CSV file with one row per station: its name, its number, how many bikes are available, how many racks it has and more. Ours had 103 stations.</p>
+<p>There is no column saying when the snapshot was taken. So we downloaded it three times on 3 November 2026, at 14:45, 14:50 and 14:58 German time, and named each file after the moment we fetched it.</p></div><div><h3>The questions</h3><p>How many bikes does the 14:45 file show, and how many stations are empty? Then: how much changed five minutes later, and eight minutes after that?</p>
+<p>A learner at the end of their first month can write both programs below. The answers are short; the thinking behind them is not.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Program 1: one snapshot</b><span>Python</span></figcaption><pre>import csv
+
+BIKES = "Anzahl verfügbare Fahrräder"
+
+def load(path):
+    with open(path, encoding="utf-8-sig") as f:
+        return {r["Stationsnummer"]: r for r in csv.DictReader(f, delimiter=";")}
+
+first = load("nextbike_1445.csv")
+bikes = sum(int(r[BIKES] or 0) for r in first.values())
+empty = sum(1 for r in first.values() if int(r[BIKES] or 0) == 0)
+print("Stations:", len(first), " Bikes shown:", bikes, " Empty stations:", empty)</pre><p class="ag-code-note">It prints <code>Stations: 103  Bikes shown: 435  Empty stations: 22</code>.</p></figure>
+    <p class="ag-mt-40">At 14:45 the file showed 435 bikes across 103 stations, and 22 stations had none. That is our count of one column at one moment, not an official fleet size: bikes that were being ridden, or parked away from a station, are not in it. A careful learner writes that sentence next to the number before anyone asks.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Program 2: compare snapshots</b><span>Python</span></figcaption><pre>def compare(a, b):
+    moved = [s for s in a if s in b and a[s][BIKES] != b[s][BIKES]]
+    before = sum(int(a[s][BIKES] or 0) for s in a)
+    after = sum(int(b[s][BIKES] or 0) for s in b)
+    return len(moved), after - before
+
+second = load("nextbike_1450.csv")
+third = load("nextbike_1458.csv")
+print("14:45 to 14:50, stations changed and net bikes:", compare(first, second))
+print("14:50 to 14:58, stations changed and net bikes:", compare(second, third))</pre><p class="ag-code-note">Run after Program 1. It prints <code>14:45 to 14:50, stations changed and net bikes: (17, -2)</code> and <code>14:50 to 14:58, stations changed and net bikes: (0, 0)</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Three downloads of the Mannheim nextbike file on 3 November 2026 (our comparison)</caption><thead><tr><th scope="col">Downloaded (German time)</th><th scope="col">Stations that changed since the last download</th><th scope="col">Change in bikes shown</th></tr></thead><tbody><tr><td>14:45</td><td class="ag-num">First download</td><td class="ag-num">Baseline: 435</td></tr><tr><td>14:50</td><td class="ag-num">17</td><td class="ag-num">-2</td></tr><tr><td>14:58</td><td class="ag-num">0</td><td class="ag-num">0</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Data: Stadt Mannheim, VRN-Nextbike (free_bike_status), mannheim.opendatasoft.com via Open Data BW, licence Datenlizenz Deutschland Namensnennung 2.0, downloaded on 3 November 2026 at the times shown. All counts and comparisons are our own.</p>
+    <p class="ag-mt-40">In five minutes, 17 of 103 stations changed. The station Universität Schloss went from 20 bikes to 14, and the Hauptbahnhof from 3 to 8. Then the third download, eight minutes later, was byte for byte identical to the second. Did nobody take a bike for eight minutes? Possibly, but the likelier explanation is that the published file is refreshed at intervals rather than every second. The data does not tell us which, so the honest conclusion is narrower: a new download is not proof of new data.</p>
+    <p>Two more surprises wait in the file for curious learners. Only 46 of the 103 stations list a number of racks at all, and at 6 of those 46 the file shows more bikes than racks, presumably bikes parked beside the stand. A number that looks like a limit is not always a limit. Each of these is a small, true observation, and saying exactly how far it goes is a skill that matters far beyond Python.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Ages 9 to 12.</strong> Count bikes at three stations from Program 1's file by hand, then let Python do it. Which was faster, and which made fewer mistakes?</li><li><strong>Ages 13 to 18.</strong> Change Program 2 so it also prints the station with the biggest change, and its name.</li><li><strong>Adults.</strong> Download the file yourself every five minutes for an hour, saving each with the time in its name, and chart how many stations change each time.</li><li><strong>Going further.</strong> Find the stations where bikes exceed racks and decide how you would report them without implying that something is wrong.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="bw">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Python and BW schools</p><h2>How does Python fit next to Informatik in Baden-Württemberg?</h2><p class="ag-lede">Baden-Württemberg is changing fast. A new compulsory subject has reached grades 5 and 6, while in the Oberstufe Informatik is still a minority choice.</p></div>
+    <div class="ag-grid-3"><div><h3>The new subject</h3><p>From the 2025/26 school year, Baden-Württemberg made Informatik und Medienbildung compulsory across secondary school types, starting in grades 5 and 6 and growing year by year, according to the GI Informatik-Monitor 2026/27.</p></div><div><h3>An older profile fading out</h3><p>The profile subject IMP, which combined Informatik, Mathematik and Physik, is being phased out. At Gemeinschaftsschulen it can still be offered in grades 8 to 10 while it lasts.</p></div><div><h3>The Oberstufe gap</h3><p>The same monitor names Baden-Württemberg among the Länder where only about one pupil in twelve takes Informatik in the Oberstufe. Most Mannheim teenagers therefore finish school without an Informatik Abitur course.</p></div></div>
+    <p class="ag-mt-40">That is where a Python class earns its place. A Mannheim pupil in grades 5 to 7 meets the new subject at school and can go further with us at their own pace; a teenager whose school offers little in the Oberstufe can still learn a real programming language properly. We teach next to school, not instead of it, and the school's subject and its marks are what count.</p>
+    <p>Teenagers who enjoy algorithmic puzzles can test themselves nationally, and 23 November 2026 is the date to remember: it closes the first round of the 45th Bundeswettbewerb Informatik, open since 1 September, and the third round of the Jugendwettbewerb Informatik. BWINF organises both; we are independent of it and write our own practice problems.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="slots">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Mannheim time</p><h2>When are live Python lessons in Mannheim time?</h2><p class="ag-lede">Afternoons for school pupils, early evenings for adults, and weekend slots for anyone. Mentors teach from India, which is ahead of Mannheim.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Illustrative Mannheim lesson times and the mentor's time in India</caption><thead><tr><th scope="col">Mannheim</th><th scope="col">Mentor in India, winter</th><th scope="col">Mentor in India, summer</th></tr></thead><tbody><tr><td>15:40, after school</td><td>20:10</td><td>19:10</td></tr><tr><td>18:20, after work</td><td>22:50</td><td>21:50</td></tr><tr><td>Saturday 11:30</td><td>16:00</td><td>15:00</td></tr><tr><td>Sunday 14:00</td><td>18:30</td><td>17:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">In Germany the Einheitenzeitgesetz sets MEZ (UTC+1) for winter and MESZ (UTC+2) for summer. This winter began on 25 October 2026; summer time comes back on 28 March 2027. With India fixed at UTC+5:30, the mentor is four and a half hours ahead of Mannheim until then and three and a half hours ahead afterwards. Not fixed batch times.</p>
+    <p class="ag-mt-40">Baden-Württemberg's school holidays for 2026/27, from the KMK table: autumn 26 to 31 October 2026, a Christmas break lasting until 9 January 2027 (from 23 December), Easter on 25 March and from 30 March to 3 April 2027, a long Pfingsten break from 18 to 29 May 2027, and summer from 29 July to 11 September 2027. Lessons continue through all of them unless you ask for a pause.</p>
+    <p>Mannheim had 318,035 residents on 31 December 2024, according to Destatis. Across the Rhine, Ludwigshafen am Rhein (177,222) is in Rheinland-Pfalz, and Heidelberg (155,756) is a short ride up the Neckar; learners in all three cities, and in Viernheim or Schwetzingen, join the same online lessons. Only the school holidays differ where the Land does.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Signs of progress</p>
+      <h2>How a Mannheim learner can tell the Python is working</h2>
+      <p class="ag-lede">Our own checkpoints, reported in the mentor's monthly note.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Python checkpoints (ours)</caption><thead><tr><th scope="col">Checkpoint</th><th scope="col">Usually by</th><th scope="col">The learner can</th></tr></thead><tbody><tr><td>Error reader</td><td class="ag-num">Week 2</td><td class="ag-num">Say which line an error points to and what it means</td></tr><tr><td>Loop predictor</td><td class="ag-num">Week 3</td><td class="ag-num">Write down what a loop will print before running it</td></tr><tr><td>File opener</td><td class="ag-num">Week 4</td><td class="ag-num">Read a small CSV file and count something in it</td></tr><tr><td>Function writer</td><td class="ag-num">Month 2</td><td class="ag-num">Wrap repeated code in a function and reuse it</td></tr><tr><td>Careful reporter</td><td class="ag-num">Month 3</td><td class="ag-num">State what a result shows and what it does not</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For learners</h3><p>Write the time into every file name when the data is live.</p>
+<p>If two downloads match exactly, ask whether the data changed or only the clock did.</p></div><div><h3>For parents</h3><p>Ask your child what their program cannot tell you. A good answer is a sign of real understanding.</p>
+<p>Time at the keyboard says little; a clear explanation of their own code says a lot.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Next steps</p>
+      <h2>Nine more courses for Mannheim Python learners</h2>
+      <p class="ag-lede">For learners who have the basics. Each is live, in English, with a regular mentor, in a group or solo.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Python and data</h3>
+        <span class="ag-band-sub">Ages 13 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PMA / DATA / 01</p>
+          <h4>Data science for teens</h4>
+          <p>Charts, cleaning and a first model on real files.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PMA / DATA / 02</p>
+          <h4>Data analysis for adults</h4>
+          <p>Python and SQL for reports that build themselves.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PMA / DATA / 03</p>
+          <h4>Machine learning for teens</h4>
+          <p>Training and testing models, maths included.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Python on the web</h3>
+        <span class="ag-band-sub">Ages 13 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PMA / WEB / 01</p>
+          <h4>Django and Flask</h4>
+          <p>Turning a script into a site with pages and forms.</p>
+          <a class="ag-course-link" href="/courses/python-web-development-django-flask-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PMA / WEB / 02</p>
+          <h4>Backend for teens</h4>
+          <p>APIs and databases behind real apps.</p>
+          <a class="ag-course-link" href="/courses/backend-coding-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PMA / WEB / 03</p>
+          <h4>Git and GitHub</h4>
+          <p>Saving, sharing and undoing code like a team does.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Python for school and contests</h3>
+        <span class="ag-band-sub">Ages 12 to 19</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PMA / SCHOOL / 01</p>
+          <h4>Informatik Abitur in English</h4>
+          <p>Oberstufe Informatik topics in Python or Java.</p>
+          <a class="ag-course-link" href="/courses/informatik-abitur-course-java-python">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PMA / SCHOOL / 02</p>
+          <h4>Problem solving for teens</h4>
+          <p>Data structures and algorithms, step by step.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PMA / SCHOOL / 03</p>
+          <h4>Competitive programming</h4>
+          <p>Contest-style problems, written by us.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Practicalities</p>
+      <h2>How live Python lessons are arranged for Mannheim</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Afternoon slots for school pupils in Mannheim.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">After work</p><p class="ag-slot-l">Early evening, the usual choice for adults.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Saturday or Sunday, late morning or afternoon.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Screen shared</h3><p>The mentor follows the code as it is written.</p></div>
+      <div><h3>Two a week</h3><p>Close enough together that nothing fades.</p></div>
+      <div><h3>English, plainly</h3><p>Short sentences, said again on request.</p></div>
+      <div><h3>All live</h3><p>There are no recordings to watch alone.</p></div>
+      <div><h3>One mentor</h3><p>The same teacher from the first lesson on.</p></div>
+      <div><h3>Group or solo</h3><p>A class of 15 to 20, or private lessons.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Built by our Python students</h2>
+      <p class="ag-lede">Students of ours in many countries have gone from a first print statement to projects like these. More are collected on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for live Python lessons in Mannheim</h2>
+      <p class="ag-lede">Lessons are billed by the month, eight at a time. On this page the monthly fee is converted to euro with the European Central Bank reference rate; at checkout the charge runs in US dollars and your bank makes the final conversion, so a cent or two of difference is normal.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first Python lesson</li><li>A first program written together</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>15 to 20 learners at one level</li><li>A regular mentor</li><li>Two lessons a week</li><li>Monthly, stop any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>A mentor for one learner</li><li>Your pace, your projects</li><li>Times agreed in advance</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Our Google reviews from students and parents, copied without edits.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Mannheim asks</p>
+      <h2>Online Python classes in Mannheim: questions answered</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. All lessons are live and taught in English only. The mentor speaks clearly, adapts to the learner's pace and accent, and repeats in simpler words when asked. Python's keywords and error messages are English anyway.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is a live online lesson really better than a video course?</h3>
+        <p>For most beginners, yes, because a mentor sees the code as it is typed and helps the moment an error appears. Video courses suit some confident self-learners; we only teach live.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does the learner need?</h3>
+        <p>A computer with a real keyboard, an internet connection that holds a video call and a headset. Python costs nothing; setting it up is part of lesson one.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>From what age can my child learn Python?</h3>
+        <p>Nine is the usual starting age for typed code with us; six to eight year olds begin with Scratch blocks instead. Adults of any age are welcome.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How does this relate to Informatik at a Baden-Württemberg school?</h3>
+        <p>Baden-Württemberg introduced the compulsory subject Informatik und Medienbildung from 2025/26, starting in grades 5 and 6. Our lessons are extra practice and depth next to that; the school subject and its marks are what count.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are lessons in Mannheim time?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. School pupils often choose afternoons, adults early evenings.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where are the mentors?</h3>
+        <p>They teach from India. While Germany is on winter time the mentor's clock reads four and a half hours later than Mannheim's, so 15:40 here is 20:10 there; after the change on 28 March 2027 the gap shrinks to three and a half hours.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can adults earn a Python certificate?</h3>
+        <p>Our PCEP and PCAP course prepares for the Python Institute's exams, which are taken with the Python Institute, not with us. We do not award German qualifications.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the fee shown and charged?</h3>
+        <p>Monthly, for eight lessons. It is shown here in euro at the European Central Bank reference rate and charged in US dollars, which your bank converts, so the amount on your statement may differ very slightly. The first lesson is free.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What will the learner build in the first month?</h3>
+        <p>A calculator, a scoring quiz, a times-table trainer and a first program that reads a small data file, such as a simpler version of the Mannheim bike project on this page.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Also on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Further reading for anyone in Germany learning Python.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>The hub for all our Germany pages.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-baden-wuerttemberg">Coding classes in Baden-Württemberg</a></h3><p>The Land page for Baden-Württemberg.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-classes-for-kids-germany">Python classes for kids</a></h3><p>Typed code for primary-age learners.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-adults-germany">Coding for adults</a></h3><p>Starting Python later in life.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-in-german-schools-by-state">Informatik by Land</a></h3><p>The rules in all sixteen Länder.</p></div>
+      <div><h3><a class="ag-inline-link" href="/bundeswettbewerb-informatik-preparation">Bundeswettbewerb Informatik</a></h3><p>Preparing for the national contest.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Try a free live Python lesson</h2>
+        <p class="ag-lede">Lesson one is not a sales talk: the learner writes a short program with the mentor and then extends it unaided. You leave with a suggested course and format.</p>
+        <p class="ag-mt-40">More on our approach is in <a class="ag-inline-link" href="/how-we-teach">how we teach</a>; syllabuses are listed under <a class="ag-inline-link" href="/courses">courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Mannheim%20and%20would%20like%20a%20free%20live%20Python%20lesson%20in%20English.%20When%20could%20we%20start%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pma',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Every lesson is live, online and in English; the mentors are in India. WhatsApp messages in English get the quickest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_pma(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson costs nothing and needs no card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Python</h4><ul><li><a href="/python-classes-for-kids-germany">Python for kids</a></li><li><a href="/coding-classes-for-adults-germany">Coding for adults</a></li><li><a href="/student-labs">Student projects</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/informatik-in-german-schools-by-state">Informatik by Land</a></li><li><a href="/bundeswettbewerb-informatik-preparation">Bundeswettbewerb Informatik</a></li><li><a href="/ai-and-machine-learning-classes-in-germany">AI and ML in Germany</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Stamp the time on live data</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_pma = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'online-python-classes-mannheim-germany-inline', meta: { name: name, age: age, page: 'online-python-classes-mannheim-germany' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
