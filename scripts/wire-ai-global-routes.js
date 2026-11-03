@@ -801,6 +801,7 @@ const SLUGS = [
   'nachhilfe-auf-englisch-online',
   'informatik-abitur-nrw',
   'informatik-abitur-bayern',
+  'informatik-abitur-niedersachsen',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1681,6 +1682,7 @@ const LLMS_LABELS = {
   'nachhilfe-auf-englisch-online': 'Nachhilfe auf Englisch online',
   'informatik-abitur-nrw': 'Informatik-Abitur NRW (Unterricht auf Englisch)',
   'informatik-abitur-bayern': 'Informatik-Abitur Bayern (Unterricht auf Englisch)',
+  'informatik-abitur-niedersachsen': 'Informatik-Abitur Niedersachsen (Unterricht auf Englisch)',
 };
 
 function wireLlms(slugs) {

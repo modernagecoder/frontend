@@ -29929,6 +29929,18 @@
   to = "/src/pages/informatik-abitur-bayern.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/informatik-abitur-niedersachsen"
+  to = "/src/pages/informatik-abitur-niedersachsen.html"
+  status = 200
+
+[[redirects]]
+  from = "/informatik-abitur-niedersachsen.md"
+  to = "/src/pages/informatik-abitur-niedersachsen.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
