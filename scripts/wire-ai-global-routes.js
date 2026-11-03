@@ -889,6 +889,7 @@ const SLUGS = [
   'coding-classes-for-kids-in-krefeld-germany',
   'online-python-classes-herne-germany',
   'coding-classes-for-kids-in-heidelberg-germany',
+  'online-python-classes-regensburg-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1857,6 +1858,7 @@ const LLMS_LABELS = {
   'coding-classes-for-kids-in-krefeld-germany': 'Coding classes for kids in Krefeld',
   'online-python-classes-herne-germany': 'Online Python classes in Herne',
   'coding-classes-for-kids-in-heidelberg-germany': 'Coding classes for kids in Heidelberg',
+  'online-python-classes-regensburg-germany': 'Online Python classes in Regensburg',
 };
 
 function wireLlms(slugs) {
