@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Online Python Classes in Freiburg: Live Lessons in English</title>
+  <meta name="description" content="Online Python classes in Freiburg im Breisgau, live in English for teens and adults: how live lessons work, the Python path, and a city bike-counter data project.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/online-python-classes-freiburg-im-breisgau-germany">
+  <link rel="alternate" type="text/markdown" href="/src/pages/online-python-classes-freiburg-im-breisgau-germany.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#084465">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/online-python-classes-freiburg-im-breisgau-germany">
+  <meta property="og:title" content="Online Python Classes in Freiburg: Live Lessons in English">
+  <meta property="og:description" content="Live online Python in English for Freiburg im Breisgau: what you actually do in a live lesson, a four-stage path from first script to real data, Informatik in Baden-Württemberg, and a project on the city's 653,041-row bike-counter file where a naive sum counts every bike twice.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Online Python Classes in Freiburg: Live Lessons in English">
+  <meta name="twitter:description" content="Live Python lessons in English for Freiburg, with a project on the city's hourly bike counters since 2015.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-pfb .ag-hero h1 { letter-spacing: -0.01em; }
+.ag-root.ag-pfb .ag-capsule { border-left-width: 5px; border-radius: 2px; }
+.ag-root.ag-pfb .ag-section-head h2 { max-width: 36ch; }
+.ag-root.ag-pfb .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-pfb .ag-steps li { margin-bottom: 8px; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/online-python-classes-freiburg-im-breisgau-germany#page","url":"https://learn.modernagecoders.com/online-python-classes-freiburg-im-breisgau-germany","name":"Online Python Classes in Freiburg im Breisgau","description":"A guide for teenagers, adults and parents in Freiburg im Breisgau to learning Python live online in English, built on Gesellschaft für Informatik, KMK and BWINF sources and an original project on Stadt Freiburg's open bike-counter time series.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Python in Freiburg","item":"https://learn.modernagecoders.com/online-python-classes-freiburg-im-breisgau-germany"}]},{"@type":"Course","name":"Online Python Classes in Freiburg im Breisgau","description":"Live online Python classes in English for Freiburg learners from about 13 and adults: typed Python, data files and a project of their own, with one regular mentor, in a group of 15 to 20 or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/online-python-classes-freiburg-im-breisgau-germany"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/online-python-classes-freiburg-im-breisgau-germany"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/online-python-classes-freiburg-im-breisgau-germany"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. Lessons happen live and solely in English; the mentors sit in India and tune their speed and wording to each learner and their accent. As Python itself is written in English words, nothing gets lost between the explanation and the code."}},{"@type":"Question","name":"Is this a recorded course?","acceptedAnswer":{"@type":"Answer","text":"No. All lessons are live video calls. The mentor sees your shared screen, follows your code as you write it, answers straight away and reviews your homework in the next lesson."}},{"@type":"Question","name":"Do I need to know any Python?","acceptedAnswer":{"@type":"Answer","text":"No. The first stage starts from zero. If you already know some, the free first lesson places you at the right stage."}},{"@type":"Question","name":"What lesson times are possible?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Freiburg pupils often choose late afternoons, students and adults the evening or Saturday."}},{"@type":"Question","name":"Does it help with the new school subject in Baden-Württemberg?","acceptedAnswer":{"@type":"Answer","text":"It can add depth. Informatik und Medienbildung became compulsory in Sekundarstufe I from 2025/26, starting in grades 5 and 6. We teach alongside school; the school decides marks and the Abitur."}},{"@type":"Question","name":"Are university students and adults welcome?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Python Masterclass and the Data Analysis course are built for adults and students, and one-to-one lessons can fit around lectures, shifts or family."}},{"@type":"Question","name":"How many learners are in a group?","acceptedAnswer":{"@type":"Answer","text":"15 to 20 at a similar stage. With the one-to-one plan you have two private lessons a week at agreed times."}},{"@type":"Question","name":"What currency do I pay in?","acceptedAnswer":{"@type":"Answer","text":"The monthly charge is made in dollars (USD). For orientation we print euro figures based on the ECB reference rate; your bank's own exchange decides the final euro debit. Your first lesson is free of charge."}},{"@type":"Question","name":"What is the bike-counter project?","acceptedAnswer":{"@type":"Answer","text":"A teaching project we wrote around Stadt Freiburg's open hourly bike counts. Learners find that adding every row counts bikes twice, because the all-directions row already contains the in and out rows, prove the rule on 55,131 hours, and then total counter 1 by year."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/online-python-classes-freiburg-im-breisgau-germany","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-pfb">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#lesson">A lesson</a></li>
+      <li><a href="#bikes">Bike data</a></li>
+      <li><a href="#stages">Stages</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Python in Freiburg
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Freiburg im Breisgau &middot; Python &middot; Live online, in English</p>
+        <h1>Online Python classes in Freiburg im Breisgau</h1>
+        <p class="ag-lede">Freiburg counts its cyclists every hour, and publishes the counts. That file has more than six hundred thousand rows, and the first thing it teaches a new programmer is humility: add it up the obvious way and you count every bike twice. This page explains how our live online Python lessons in English work, the stages from a first script to a file that size, where Informatik stands in Baden-Württemberg's schools, and the bike-counter project in full.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#bikes" class="ag-btn ag-btn--ghost">See the bike project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Freiburg%20and%20would%20like%20to%20learn%20Python%20live%20online%20in%20English.%20Could%20I%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pfb'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ students worldwide &middot; one mentor who follows your code, in English</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Who</dt><dd>From about 13, and adults</dd>
+          <dt>What</dt><dd>Python 3, data files, projects</dd>
+          <dt>How</dt><dd>Live video, shared screen</dd>
+          <dt>Size</dt><dd>15 to 20, or one to one</dd>
+          <dt>Teachers</dt><dd>Mentors in India, English only</dd>
+          <dt>First lesson</dt><dd>Free</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Straight answer</p>
+      <p>Modern Age Coders gives online Python classes for Freiburg im Breisgau as live video lessons in English. A mentor watches your shared screen as you write code, asks why, and helps the moment something breaks. Teenagers from about 13 and adults progress from first scripts to real data files and then a project they design. Classes run for 15 to 20 people or for one learner alone, and the mentor, the same each week, sets the speed and the English to suit you.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Starting courses</p>
+      <h2>Which Python course should a Freiburg learner pick?</h2>
+      <p class="ag-lede">One for pupils, one for adults and university students, and one for anyone who already writes loops and wants to work with data.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PFB / 01</p>
+          <h3>Python for Teens</h3>
+          <p>For school pupils from about 13. Building blocks first, then files and small projects, with every task checked live by the mentor.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PFB / 02</p>
+          <h3>Adult Python, zero to confident</h3>
+          <p>For students at Freiburg's universities and for working adults. Clear, organised Python that you can use on your own files.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-analysis-mastery-course-college">
+        <div class="ag-pick-shot"><img src="/images/data-analysis-college.webp" alt="Data Analysis Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PFB / 03</p>
+          <h3>Data Analysis</h3>
+          <p>For adults who want answers from data. Spreadsheets, SQL and Python together, with projects on large public files like the bike counters.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="lesson">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What live means</p><h2>How does a live online Python lesson actually work?</h2><p class="ag-lede">Think of it as sitting next to an experienced programmer who can see your screen, except the programmer is on a video call.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>You drive</h3><p>From the first lesson you write the code. The mentor watches your shared screen, and when something goes wrong asks a question rather than taking over: what did you expect this line to do? What does the error say?</p>
+<p>It feels slower than watching a video. It is much faster at the one thing that matters, which is being able to do it alone afterwards.</p></div><div><h3>The mentor steers</h3><p>The mentor chooses problems a little above what you can already do, and spots habits early, such as copying code you do not understand or ignoring the last line of an error message.</p>
+<p>In a group, the mentor follows several screens and stops the class when one learner's mistake will help everyone. One to one, the whole hour is yours.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>What you need for live online Python, and what you do not (ours)</caption><thead><tr><th scope="col">Need</th><th scope="col">Do not need</th></tr></thead><tbody><tr><td>A laptop or desktop with a real keyboard</td><td>An expensive computer: any recent machine works</td></tr><tr><td>A microphone, a webcam if you like</td><td>Paid software: Python and the editor are free</td></tr><tr><td>A stable internet connection</td><td>Prior programming knowledge</td></tr><tr><td>Two hours a week, plus a little practice</td><td>Fluent English: the mentor adapts</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Our own summary of how Modern Age Coders teaches. Lessons are live, never pre-recorded, and taught in English by mentors based in India.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Language</p><h2>Do you also teach Python in German?</h2><p class="ag-lede">No. Our lessons are in English only. For Python, that is less of a hurdle than it sounds.</p></div>
+    <div class="ag-grid-3"><div><h3>Clear about it</h3><p>All lessons are taught in English by mentors who work from India. There is no German-speaking option, and we say so before anyone books.</p></div><div><h3>Fitted to you</h3><p>Mentors slow down, reword, and repeat without impatience, and adjust to your accent over the first lessons. A German word in the middle of a sentence is fine.</p></div><div><h3>Code is English already</h3><p>Every Python keyword is an English word, and so is every error it prints. Learning in English means fewer things to translate in your head.</p></div></div>
+    <p class="ag-mt-40">Freiburg is a university city close to France and Switzerland, and many learners here already study or work in English. School pupils gain a weekly hour of spoken technical English on top of the programming.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="stages">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The path</p><h2>What are the stages from first script to real data?</h2><p class="ag-lede">Four stages, each ending with something you have built and can explain. Speeds vary, and the mentor tells you honestly where you are.</p></div>
+    <ol class="ag-steps"><li><strong>Talk to Python.</strong> Printing, variables, input, if and else. You finish with a short quiz program that scores the answers.</li><li><strong>Repeat and organise.</strong> Loops, lists, dictionaries and functions. You finish with a game or a tool split into small functions you can test one at a time.</li><li><strong>Read real files.</strong> CSV files, counting, grouping, and checking your own totals. You finish with a counted answer from a large public dataset, like Freiburg's bike counters.</li><li><strong>Make it yours.</strong> You choose a question, gather data, write the program and explain both the answer and how far to trust it.</li></ol>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The four stages at two lessons a week (our planning figures)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Typical span</th><th scope="col">Proof you can do it</th></tr></thead><tbody><tr><td>Talk to Python</td><td>4 to 6 weeks</td><td>A quiz that keeps score</td></tr><tr><td>Repeat and organise</td><td>6 to 8 weeks</td><td>A program of tested functions</td></tr><tr><td>Read real files</td><td>8 to 10 weeks</td><td>A checked total from a public file</td></tr><tr><td>Make it yours</td><td>Open</td><td>A project with its limits written down</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Spans are ours and not a promise. Anyone who already knows a bit begins wherever the trial lesson shows they should.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="bikes">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real Freiburg project</p><h2>How many bikes passed Freiburg's counters, and how do you avoid counting them twice?</h2><p class="ag-lede">Stadt Freiburg publishes the hourly counts of its bicycle counters as one long file under Datenlizenz Deutschland Namensnennung 2.0. Our Stage 3 learners use it to learn that a table can contain its own totals, and that adding everything is then wrong.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The file</h3><p>The download has 653,041 rows. Each row is one hour at one counter: the date, the hour, a counter number from 1 to 18, the number of bikes, a direction code and a usage code. The file does not name the counters, so we refer to them by number.</p>
+<p>The column for direction is headed "Fahrrad-Zählstelle Richtung (in, out, all)", and the values are 1, 2 and 3. The dataset page says the series runs from 2015 to the end of 2025; the file we downloaded on 3 November 2026 already reaches 8 April 2026.</p></div><div><h3>The trap</h3><p>Some counters have rows for code 1, code 2 and code 3 in the same hour. If 1 is in, 2 is out and 3 is all, then the code 3 row already contains the other two, and summing the whole file counts each bike twice.</p>
+<p>That "if" needs checking. The first program shows the problem; the second checks the guess on every hour in the file before relying on it.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: add up one counter, the obvious way</b><span>Python</span></figcaption><pre>import csv
+
+totals = {}
+with open("freiburg_bikes.csv", encoding="utf-8-sig") as counts_file:
+    rows = csv.reader(counts_file, delimiter=";")
+    next(rows)                      # skip the header line
+    for row in rows:
+        year, counter, bikes = row[0][:4], row[3], row[4]
+        if counter == "5" and year == "2024" and bikes != "":
+            totals[row[5]] = totals.get(row[5], 0) + int(bikes)
+
+print("Rows added up by direction code:", totals)
+print("Naive total for counter 5 in 2024:", sum(totals.values()))</pre><p class="ag-code-note">It prints: <code>Rows added up by direction code: {'3': 234431, '1': 118546, '2': 115885}</code> and <code>Naive total for counter 5 in 2024: 468862</code>.</p></figure>
+    <p class="ag-mt-40">Look at the three numbers: 118,546 plus 115,885 is 234,431, exactly the code 3 figure. The naive total of 468,862 is precisely twice the real number of bikes. A learner who reported it would have doubled Freiburg's cycling at that counter with one line of code.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: check the rule everywhere, then use only code 3</b><span>Python</span></figcaption><pre>import csv
+
+by_hour = {}
+with open("freiburg_bikes.csv", encoding="utf-8-sig") as counts_file:
+    rows = csv.reader(counts_file, delimiter=";")
+    next(rows)
+    for row in rows:
+        if row[4] != "":
+            by_hour.setdefault((row[3], row[2]), {})[row[5]] = int(row[4])
+
+checked = broken = 0
+for codes in by_hour.values():
+    if "1" in codes and "2" in codes and "3" in codes:
+        checked += 1
+        if codes["3"] != codes["1"] + codes["2"]:
+            broken += 1
+print("Hours with all three codes:", checked, " where 3 is not 1 + 2:", broken)
+
+yearly = {}
+for (counter, stamp), codes in by_hour.items():
+    if counter == "1" and "3" in codes:
+        yearly[stamp[:4]] = yearly.get(stamp[:4], 0) + codes["3"]
+for year in ("2015", "2019", "2024", "2025"):
+    print("Counter 1,", year, ":", yearly[year])</pre><p class="ag-code-note">It prints: <code>Hours with all three codes: 55131  where 3 is not 1 + 2: 0</code>, then <code>Counter 1, 2015 : 2587770</code>, <code>Counter 1, 2019 : 2507586</code>, <code>Counter 1, 2024 : 2436346</code> and <code>Counter 1, 2025 : 2676857</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Counter 1, bikes per year from code 3 rows only (our calculation)</caption><thead><tr><th scope="col">Year</th><th scope="col">Bikes</th><th scope="col">Hours with a count</th></tr></thead><tbody><tr><td>2015</td><td class="ag-num">2,587,770</td><td class="ag-num">8,760</td></tr><tr><td>2018</td><td class="ag-num">2,710,305</td><td class="ag-num">8,760</td></tr><tr><td>2021</td><td class="ag-num">2,343,945</td><td class="ag-num">8,760</td></tr><tr><td>2023</td><td class="ag-num">2,675,823</td><td class="ag-num">8,748</td></tr><tr><td>2025</td><td class="ag-num">2,676,857</td><td class="ag-num">8,759</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Data: Stadt Freiburg i. Br., Garten- und Tiefbauamt, Fahrrad-Zählstellen Zeitreihe (FR.ITZ dataset 3800), licence Datenlizenz Deutschland Namensnennung 2.0, downloaded 3 November 2026. The reading of codes 1, 2 and 3 as in, out and all is ours, from the column heading and the check above. Totals are ours.</p>
+    <p class="ag-mt-40">In all 55,131 hours that have the three codes, code 3 equals code 1 plus code 2 without a single exception, so the guess holds and the safe rule is: use code 3 only. Counter 1, which has run since 2015, then gives between about 2.3 and 2.7 million bikes a year, with 2018 the busiest of the years shown and 2021 the quietest. Two smaller checks belong in any write-up: 2023 has 8,748 counted hours instead of 8,760, so twelve are missing, and the file reaches further than its description says. Both are worth a sentence, not a panic.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Reproduce it.</strong> Run Version 1 for counter 10 instead of 5. Do the numbers show the same pattern?</li><li><strong>Commuter rhythm.</strong> For counter 1 in 2025 we found weekday averages of 682 bikes at 08:00 and 713 at 17:00, but 124 and 372 at weekends. Write the code that reproduces those four numbers.</li><li><strong>Missing hours.</strong> Find the twelve hours of 2023 with no count at counter 1. Are they together or spread out?</li><li><strong>Explain it.</strong> In four sentences for a non-programmer, say why the naive total was wrong and how you proved the fix.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">School in Baden-Württemberg</p><h2>How is Informatik changing at Baden-Württemberg schools?</h2><p class="ag-lede">Quickly. A new compulsory subject started in 2025/26 and grows by a year at a time, while few pupils carry Informatik into the Abitur.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Informatik in Baden-Württemberg, as the Informatik-Monitor 2026/27 records it</caption><thead><tr><th scope="col">Topic</th><th scope="col">What the monitor says</th></tr></thead><tbody><tr><td>New subject</td><td>Informatik und Medienbildung, compulsory across Sekundarstufe I school types from 2025/26, starting in grades 5 and 6</td></tr><tr><td>Older profile</td><td>The profile subject IMP (Informatik, Mathematik, Physik) is being phased out</td></tr><tr><td>Hours</td><td>One of four Länder that already give four compulsory hours, the near-term target</td></tr><tr><td>Oberstufe</td><td>At most Gymnasien grade 10 is the Einführungsphase and grades 11 and 12 the Qualifikationsphase</td></tr><tr><td>Abitur uptake</td><td>About one pupil in twelve takes Informatik in the Oberstufe</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Gesellschaft für Informatik, Informatik-Monitor 2026/27, Baden-Württemberg page and national overview, read 2 November 2026. We work next to the school subject, not instead of it: grades come from school, and Modern Age Coders is independent of the Land and its schools.</p>
+    <p class="ag-mt-40">For a Freiburg pupil in grade 7 today, that means a compulsory subject has only just begun and is still being built up year by year. Outside lessons in Python give such a pupil depth the timetable cannot yet offer, and give an Oberstufe pupil practice for writing and reading real programs. With entries accepted from 1 September to 23 November 2026, round one of the Bundeswettbewerb Informatik is a good target for Stage 2 or 3 learners; we practise with our own problems only.</p>
+    <p>Baden-Württemberg's Christmas holidays run from 23 December 2026 to 9 January 2027 and its summer holidays from 29 July to 11 September 2027, later than most Länder, according to the KMK. Lessons continue through the holidays for anyone who wants them.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Times</p><h2>When could my Python lessons be, in Freiburg time?</h2><p class="ag-lede">India is ahead of Freiburg, so Freiburg afternoons and early evenings fall in the mentor's evening. The rows show the gap, not set batches.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Sample slots: Freiburg and India</caption><thead><tr><th scope="col">Freiburg</th><th scope="col">India while Germany is on winter time</th><th scope="col">India once summer time starts on 28 March 2027</th></tr></thead><tbody><tr><td>16:20</td><td>20:50</td><td>19:50</td></tr><tr><td>18:10</td><td>22:40</td><td>21:40</td></tr><tr><td>Saturday 13:00</td><td>17:30</td><td>16:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Germany's legal time (Einheitenzeitgesetz) is MEZ, UTC+1, in winter and MESZ, UTC+2, in summer; this autumn's change was on 25 October 2026 and the spring change is on 28 March 2027. India keeps UTC+5:30 all year: four and a half hours ahead of Freiburg now, three and a half from late March.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Checkpoints</p>
+      <h2>How will I see my progress?</h2>
+      <p class="ag-lede">Five checkpoints of ours, each one something you can show.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Five checkpoints we use with every Python learner</caption><thead><tr><th scope="col">Checkpoint</th><th scope="col">Typically around</th><th scope="col">What you can show</th></tr></thead><tbody><tr><td>First run</td><td class="ag-num">Week 1</td><td class="ag-num">Write and run a script on your own computer</td></tr><tr><td>Choices</td><td class="ag-num">Week 4</td><td class="ag-num">Branch with if, elif and else</td></tr><tr><td>Functions</td><td class="ag-num">Week 10</td><td class="ag-num">Split a program into small, testable functions</td></tr><tr><td>Big files</td><td class="ag-num">Week 18</td><td class="ag-num">Read a file of hundreds of thousands of rows</td></tr><tr><td>Self-check</td><td class="ag-num">Week 22</td><td class="ag-num">Prove your total is right before reporting it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For pupils and parents</h3><p>Self-check is the bike project. It is also what teachers mean by "show your working" in Informatik.</p>
+<p>Parents of pupils receive short notes after each checkpoint.</p></div><div><h3>For adults</h3><p>Adults with some spreadsheet experience often reach Big files in three to four months.</p>
+<p>If work gets in the way, the plan bends; the mentor picks up where you are.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More options</p>
+      <h2>Nine more courses for Freiburg learners</h2>
+      <p class="ag-lede">The same live format in English, the same regular mentor.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>School-age</h3>
+        <span class="ag-band-sub">Ages 9 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PFB / SCH / 01</p>
+          <h4>Python and AI for Kids</h4>
+          <p>For younger siblings, typed Python from 9.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PFB / SCH / 02</p>
+          <h4>Informatik companion</h4>
+          <p>Help beside the new compulsory subject.</p>
+          <a class="ag-course-link" href="/courses/informatik-companion-course-klasse-5-10">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PFB / SCH / 03</p>
+          <h4>Oberstufe Informatik</h4>
+          <p>Abitur-style Java and Python, in English.</p>
+          <a class="ag-course-link" href="/courses/informatik-abitur-course-java-python">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Data and maths</h3>
+        <span class="ag-band-sub">Teens and adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PFB / DATA / 01</p>
+          <h4>Teen data projects</h4>
+          <p>Public data, charts and first models.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PFB / DATA / 02</p>
+          <h4>Statistics and probability</h4>
+          <p>The tools for honest totals and averages.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PFB / DATA / 03</p>
+          <h4>Data science course</h4>
+          <p>Python, statistics and machine learning.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Building</h3>
+        <span class="ag-band-sub">Teens and adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PFB / BUILD / 01</p>
+          <h4>Python on the web</h4>
+          <p>From a first route to a site people can use.</p>
+          <a class="ag-course-link" href="/courses/python-web-development-django-flask-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PFB / BUILD / 02</p>
+          <h4>PCEP and PCAP</h4>
+          <p>Towards the Python Institute certificates.</p>
+          <a class="ag-course-link" href="/courses/pcep-pcap-python-certification-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PFB / BUILD / 03</p>
+          <h4>Git and GitHub</h4>
+          <p>Version control from the first commit.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Rhythm</p>
+      <h2>How the weekly live Python lessons fit a Freiburg week</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Afternoon</p><p class="ag-slot-l">After school for pupils.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evening</p><p class="ag-slot-l">After lectures or work.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Saturday</p><p class="ag-slot-l">A midday slot for anyone.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Two per week</h3><p>Live lessons of about an hour.</p></div>
+      <div><h3>Your mentor</h3><p>The same one every week.</p></div>
+      <div><h3>Your keyboard</h3><p>You type; the mentor guides.</p></div>
+      <div><h3>Real files</h3><p>Public data, not toy lists.</p></div>
+      <div><h3>Checked work</h3><p>Homework reviewed live.</p></div>
+      <div><h3>Group or solo</h3><p>15 to 20 learners, or one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Built by our students</h2>
+      <p class="ag-lede">Projects from our students, unpolished and real. The <a class="ag-inline-link" href="/student-labs">student labs</a> show more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for online Python in Freiburg</h2>
+      <p class="ag-lede">You pay per month for eight live lessons. Here we list the fee in euro, converted with the European Central Bank reference rate; the actual charge is in US dollars and your bank changes it into euro, so the booked amount may be a little higher or lower.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>A script written live</li><li>No card</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>15 to 20 learners at a similar stage</li><li>A regular mentor</li><li>Two lessons weekly</li><li>Monthly, cancel anytime</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>You and one mentor</li><li>Your pace, your data</li><li>Times that suit you</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What students and parents said about us on Google, as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Freiburg asks</p>
+      <h2>Online Python classes in Freiburg im Breisgau: questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. Lessons happen live and solely in English; the mentors sit in India and tune their speed and wording to each learner and their accent. As Python itself is written in English words, nothing gets lost between the explanation and the code.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this a recorded course?</h3>
+        <p>No. All lessons are live video calls. The mentor sees your shared screen, follows your code as you write it, answers straight away and reviews your homework in the next lesson.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to know any Python?</h3>
+        <p>No. The first stage starts from zero. If you already know some, the free first lesson places you at the right stage.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What lesson times are possible?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Freiburg pupils often choose late afternoons, students and adults the evening or Saturday.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does it help with the new school subject in Baden-Württemberg?</h3>
+        <p>It can add depth. Informatik und Medienbildung became compulsory in Sekundarstufe I from 2025/26, starting in grades 5 and 6. We teach alongside school; the school decides marks and the Abitur.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are university students and adults welcome?</h3>
+        <p>Yes. The Python Masterclass and the Data Analysis course are built for adults and students, and one-to-one lessons can fit around lectures, shifts or family.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many learners are in a group?</h3>
+        <p>15 to 20 at a similar stage. With the one-to-one plan you have two private lessons a week at agreed times.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What currency do I pay in?</h3>
+        <p>The monthly charge is made in dollars (USD). For orientation we print euro figures based on the ECB reference rate; your bank's own exchange decides the final euro debit. Your first lesson is free of charge.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the bike-counter project?</h3>
+        <p>A teaching project we wrote around Stadt Freiburg's open hourly bike counts. Learners find that adding every row counts bikes twice, because the all-directions row already contains the in and out rows, prove the rule on 55,131 hours, and then total counter 1 by year.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Next reads for Freiburg and the rest of the Land.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-baden-wuerttemberg">Coding classes in Baden-Württemberg</a></h3><p>Our page for the Land.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-abitur-baden-wuerttemberg">Informatik Abitur BW</a></h3><p>The exam subject in this Land.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-course-germany">Python course in Germany</a></h3><p>Every Python course we offer.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-and-dsa-for-international-students-germany">Python and DSA</a></h3><p>For international students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-adults-germany">Coding for adults</a></h3><p>Starting as a grown-up.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>The live format, step by step.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free live Python lesson</h2>
+        <p class="ag-lede">In the free lesson you write your first lines of Python while the mentor watches, then agree which stage and course fit. No installation beforehand; that is the first thing you do together.</p>
+        <p class="ag-mt-40">Want the details first? Read <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or open a <a class="ag-inline-link" href="/courses">course syllabus</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Freiburg%20and%20would%20like%20to%20learn%20Python%20live%20online%20in%20English.%20Could%20I%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pfb',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Live, online, in English, with India-based mentors. A WhatsApp message is the quickest route to us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_pfb(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card needed.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Python</h4><ul><li><a href="/python-course-germany">Python course in Germany</a></li><li><a href="/coding-classes-for-teens-germany">Coding for teens</a></li><li><a href="/online-coding-course-for-career-changers-germany">Career changers</a></li><li><a href="/learn-coding-in-english-germany">Coding in English</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-classes-in-baden-wuerttemberg">Baden-Württemberg</a></li><li><a href="/student-labs">Student projects</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Never count the same bike twice</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_pfb = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'online-python-classes-freiburg-im-breisgau-germany-inline', meta: { name: name, age: age, page: 'online-python-classes-freiburg-im-breisgau-germany' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

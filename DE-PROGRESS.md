@@ -157,7 +157,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE152 | coding-and-ai-classes-in-braunschweig-germany (brb, #4A5A3D) | city-t2 (en) | 4,163 | 1.6% vs roblox-coding-classes-germany | Coding and AI Classes in Braunschweig: Live, in English | study the biggest errors, and cross-check an outlier against a neighbour before believing it | 6c51efe3 |
 | DE153 | online-python-classes-kiel-germany (pyk, #651135) | city-t2 (en) | 3,680 | 2.3% vs coding-classes-in-schleswig-holstein | Online Python Classes in Kiel: Live Lessons in English | rates, not totals; a suspiciously flat series and a round number are clues about how data was made | 938352cf |
 | DE154 | coding-classes-for-kids-in-chemnitz-germany (chb, #6B0625) | city-t2 (en) | 3,609 | 2.1% vs coding-classes-for-kids-berlin | Coding Classes for Kids in Chemnitz, Live Online in English | ratios and the odd one out; when two measurements disagree by a steady factor, the one that breaks the | e5557243 |
-| DE155 | coding-and-ai-classes-in-magdeburg-germany (mac, #4B2D3C) | city-t2 (en) | 4,018 | 1.4% vs coding-classes-for-kids-berlin | Coding and AI Classes in Magdeburg: Live Online, in English | misses and false alarms, not accuracy; a rare event makes "always no" look clever | (this commit) |
+| DE155 | coding-and-ai-classes-in-magdeburg-germany (mac, #4B2D3C) | city-t2 (en) | 4,018 | 1.4% vs coding-classes-for-kids-berlin | Coding and AI Classes in Magdeburg: Live Online, in English | misses and false alarms, not accuracy; a rare event makes "always no" look clever | fe8886a3 |
+| DE156 | online-python-classes-freiburg-im-breisgau-germany (pfb, #084465) | city-t2 (en) | 3,812 | 1.8% vs online-python-classes-moenchengladbach-germany | Online Python Classes in Freiburg: Live Lessons in English | do not count the same thing twice; a total row inside a table must be checked, then used alone | (this commit) |
 
 ## Notes
 
