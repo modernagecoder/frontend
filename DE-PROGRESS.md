@@ -46,7 +46,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE019 | english-speaking-tutor-germany (est, #1E5577) | door-en (en) | 4,030 | 1.8% vs german-school-system-maths-and-computing-explained | English-Speaking Tutor in Germany: Maths and Coding, Live | explain each | 1bfe3b13 |
 | DE022 | igcse-maths-tutor-germany (ima, #7A413E) | door-en (en) | 3,803 | 1.8% vs online-math-tutor-germany | IGCSE Maths Tutor in Germany: Cambridge 0580 and Edexcel 4MA1 | carry full accuracy and round once, at the end | 1859d06e |
 | DE025 | a-level-maths-tutor-online-germany (atu, #296361) | door-en (en) | 3,604 | 2.4% vs igcse-maths-tutor-germany | A Level Maths Tutor Online in Germany: Edexcel and AQA | fix the decision rule (the critical region) before you look at the data | 6eb77ee8 |
-| DE027 | coding-and-maths-for-indian-families-in-germany (cmi, #844366) | door-en (en) | 3,920 | 1.9% vs online-math-tutor-germany | Coding and Maths for Indian Families in Germany, in English | one value, many notations: separate what a number is from how it is written | (this commit) |
+| DE027 | coding-and-maths-for-indian-families-in-germany (cmi, #844366) | door-en (en) | 3,920 | 1.9% vs online-math-tutor-germany | Coding and Maths for Indian Families in Germany, in English | one value, many notations: separate what a number is from how it is written | 1d03d10c |
+| DE013 | coding-classes-for-kids-germany (cki, #7E3634) | door-en (en) | 4,428 | 1% vs english-speaking-tutor-germany | Coding Classes for Kids in Germany, Ages 6 to 12, in English | what you sort by decides the winner; then check your answer against a published one | (this commit) |
 
 ## Notes
 
