@@ -55,7 +55,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE030 | ai-course-for-kids-germany (ack, #543F75) | door-en (en) | 3,957 | 1.6% vs scratch-classes-for-kids-germany | AI Course for Kids in Germany: How Machines Learn, in English | a machine learns only from its examples; lopsided examples give lopsided answers | 6ec62da2 |
 | DE015 | coding-classes-for-teens-germany (cte, #495704) | door-en (en) | 4,525 | 1.9% vs coding-classes-by-age-germany | Coding Classes for Teens in Germany, Live in English | a formula against the official table it must reproduce: truncation, not rounding, and a cap | d088ef78 |
 | DE016 | coding-classes-for-adults-germany (ada, #1A6462) | door-en (en) | 3,727 | 1.7% vs ap-computer-science-tutor-germany | Online Coding Classes for Adults in Germany, in English | a flattened multi-dimensional index (JSON-stat): the order keys appear in is not the order of the data | 412604cd |
-| DE037 | online-coding-course-for-career-changers-germany (cch, #0B5B61) | door-en (en) | 3,910 | 2% vs minecraft-coding-classes-germany | Online Coding Course for Career Changers in Germany | choosing test data that breaks your code: identifiers with a leading zero are text, not numbers | (this commit) |
+| DE037 | online-coding-course-for-career-changers-germany (cch, #0B5B61) | door-en (en) | 3,910 | 2% vs minecraft-coding-classes-germany | Online Coding Course for Career Changers in Germany | choosing test data that breaks your code: identifiers with a leading zero are text, not numbers | 9a4e4436 |
+| DE036 | learn-coding-in-english-germany (lce, #684256) | door-en (en) | 3,962 | 2.2% vs coding-classes-for-teens-germany | Learn Coding in English in Germany: Live Online Classes | tokens: the keywords are fixed English words, the names are the programmer's own (keyword vs identifier) | (this commit) |
 
 ## Notes
 
