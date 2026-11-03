@@ -782,6 +782,7 @@ const SLUGS = [
   'ai-course-for-kids-germany',
   'coding-classes-for-teens-germany',
   'coding-classes-for-adults-germany',
+  'online-coding-course-for-career-changers-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1643,6 +1644,7 @@ const LLMS_LABELS = {
   'ai-course-for-kids-germany': 'AI course for kids in Germany',
   'coding-classes-for-teens-germany': 'Coding classes for teens in Germany',
   'coding-classes-for-adults-germany': 'Coding classes for adults in Germany',
+  'online-coding-course-for-career-changers-germany': 'Online coding course for career changers in Germany',
 };
 
 function wireLlms(slugs) {
