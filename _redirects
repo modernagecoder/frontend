@@ -9314,4 +9314,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /mathe-nachhilfe-auf-englisch /src/pages/mathe-nachhilfe-auf-englisch.html 200
 /mathe-nachhilfe-auf-englisch.md /src/pages/mathe-nachhilfe-auf-englisch.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ib-und-igcse-nachhilfe-mathe-informatik /src/pages/ib-und-igcse-nachhilfe-mathe-informatik.html 200
+/ib-und-igcse-nachhilfe-mathe-informatik.md /src/pages/ib-und-igcse-nachhilfe-mathe-informatik.md 200
 /* /src/pages/404.html 404

@@ -834,6 +834,7 @@ const SLUGS = [
   'coding-classes-in-saarland',
   'mathe-abitur-vorbereitung-online',
   'mathe-nachhilfe-auf-englisch',
+  'ib-und-igcse-nachhilfe-mathe-informatik',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1747,6 +1748,7 @@ const LLMS_LABELS = {
   'coding-classes-in-saarland': 'Coding classes in Saarland',
   'mathe-abitur-vorbereitung-online': 'Mathe-Abitur-Vorbereitung online (auf Englisch)',
   'mathe-nachhilfe-auf-englisch': 'Mathe-Nachhilfe auf Englisch',
+  'ib-und-igcse-nachhilfe-mathe-informatik': 'IB- und IGCSE-Nachhilfe in Mathe und Informatik',
 };
 
 function wireLlms(slugs) {
