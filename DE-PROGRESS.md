@@ -148,7 +148,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE139 | coding-classes-for-kids-bonn (cbo, #344962) | city-t1 (en) | 3,872 | 1.8% vs coding-classes-for-kids-hannover | Coding Classes for Kids in Bonn: Live Online, in English | compare things of different sizes with a ratio, not a difference | 6152e137 |
 | DE140 | coding-and-ai-classes-in-duisburg-germany (cai, #725574) | city-t2 (en) | 4,572 | 1.6% vs coding-classes-for-kids-dortmund | Coding and AI Classes in Duisburg, Live Online in English | a totals row is not a member; strip summary rows, then check your sum against the publisher's | 1b15e801 |
 | DE141 | online-python-classes-bochum-germany (boc, #83280E) | city-t2 (en) | 4,188 | 1.7% vs coding-and-ai-classes-in-duisburg-germany | Online Python Classes in Bochum: Live Lessons in English | one giant value drags the mean, not the median; a running total shows when the growth happened | 889b6c82 |
-| DE144 | online-python-classes-mannheim-germany (pma, #71153D) | city-t2 (en) | 3,939 | 1.3% vs coding-classes-for-kids-hannover | Online Python Classes in Mannheim: Live, in English | a live file is a photograph; stamp the time yourself, compare two photos, and check a new download is | (this commit) |
+| DE144 | online-python-classes-mannheim-germany (pma, #71153D) | city-t2 (en) | 3,939 | 1.3% vs coding-classes-for-kids-hannover | Online Python Classes in Mannheim: Live, in English | a live file is a photograph; stamp the time yourself, compare two photos, and check a new download is | 460cbc3d |
+| DE145 | coding-classes-for-kids-in-karlsruhe-germany (ckk, #611C2A) | city-t2 (en) | 3,907 | 2.1% vs online-python-classes-mannheim-germany | Coding Classes for Kids in Karlsruhe: Live Online, in English | a fair comparison needs a rate; the biggest count is often just the biggest place | (this commit) |
 
 ## Notes
 

@@ -876,6 +876,7 @@ const SLUGS = [
   'coding-and-ai-classes-in-duisburg-germany',
   'online-python-classes-bochum-germany',
   'online-python-classes-mannheim-germany',
+  'coding-classes-for-kids-in-karlsruhe-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1831,6 +1832,7 @@ const LLMS_LABELS = {
   'coding-and-ai-classes-in-duisburg-germany': 'Coding and AI classes in Duisburg',
   'online-python-classes-bochum-germany': 'Online Python classes in Bochum',
   'online-python-classes-mannheim-germany': 'Online Python classes in Mannheim',
+  'coding-classes-for-kids-in-karlsruhe-germany': 'Coding classes for kids in Karlsruhe',
 };
 
 function wireLlms(slugs) {
