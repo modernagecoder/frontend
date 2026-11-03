@@ -933,6 +933,7 @@ const SLUGS = [
   'online-python-classes-siegen-germany',
   'coding-classes-for-kids-in-moers-germany',
   'coding-and-ai-classes-in-guetersloh-germany',
+  'online-python-classes-kaiserslautern-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1945,6 +1946,7 @@ const LLMS_LABELS = {
   'online-python-classes-siegen-germany': 'Online Python classes in Siegen',
   'coding-classes-for-kids-in-moers-germany': 'Coding classes for kids in Moers',
   'coding-and-ai-classes-in-guetersloh-germany': 'Coding and AI classes in Gütersloh',
+  'online-python-classes-kaiserslautern-germany': 'Online Python classes in Kaiserslautern',
 };
 
 function wireLlms(slugs) {
