@@ -107,7 +107,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE097 | coding-classes-in-saarland (csa, #476130) | land (en) | 4,046 | 2.1% vs coding-classes-in-rhineland-palatinate | Coding Classes in Saarland: Live Online, in English | a degree of longitude is not a degree of latitude; measure distances in metres, not raw degrees | 510d4db2 |
 | DE076 | mathe-abitur-vorbereitung-online (mav, #694D6B) | door-de (de) | 4,416 | 1.9% vs informatik-abitur-vorbereitung | Mathe-Abitur-Vorbereitung online: live auf Englisch, LK und GK | a parameter stands for a whole family; solve it in general, then test one member with a value table | e18a8e67 |
 | DE077 | mathe-nachhilfe-auf-englisch (mne, #68482D) | door-de (de) | 3,736 | 2.1% vs nachhilfe-auf-englisch-online | Mathe-Nachhilfe auf Englisch: live online, Klasse 1 bis 13 | decide the type of Zuordnung first (quotient-equal, product-equal or neither), then calculate | df3798bf |
-| DE080 | ib-und-igcse-nachhilfe-mathe-informatik (iui, #37706D) | door-de (de) | 3,661 | 2% vs informatik-nachhilfe-online | IB- und IGCSE-Nachhilfe in Mathe und Informatik, auf Englisch | halve the interval (bisection), and predict the number of steps from the accuracy before running it | (this commit) |
+| DE080 | ib-und-igcse-nachhilfe-mathe-informatik (iui, #37706D) | door-de (de) | 3,661 | 2% vs informatik-nachhilfe-online | IB- und IGCSE-Nachhilfe in Mathe und Informatik, auf Englisch | halve the interval (bisection), and predict the number of steps from the accuracy before running it | c685dea4 |
+| DE081 | bundeswettbewerb-informatik-vorbereitung (biv, #7E4B52) | door-de (de) | 3,774 | 2.4% vs ib-und-igcse-nachhilfe-mathe-informatik | Bundeswettbewerb Informatik: Vorbereitung live auf Englisch | search in layers (breadth-first): the first time a state is reached is the fewest steps; and an | (this commit) |
 
 ## Notes
 

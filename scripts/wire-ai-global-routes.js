@@ -835,6 +835,7 @@ const SLUGS = [
   'mathe-abitur-vorbereitung-online',
   'mathe-nachhilfe-auf-englisch',
   'ib-und-igcse-nachhilfe-mathe-informatik',
+  'bundeswettbewerb-informatik-vorbereitung',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1749,6 +1750,7 @@ const LLMS_LABELS = {
   'mathe-abitur-vorbereitung-online': 'Mathe-Abitur-Vorbereitung online (auf Englisch)',
   'mathe-nachhilfe-auf-englisch': 'Mathe-Nachhilfe auf Englisch',
   'ib-und-igcse-nachhilfe-mathe-informatik': 'IB- und IGCSE-Nachhilfe in Mathe und Informatik',
+  'bundeswettbewerb-informatik-vorbereitung': 'Bundeswettbewerb Informatik Vorbereitung (auf Englisch)',
 };
 
 function wireLlms(slugs) {

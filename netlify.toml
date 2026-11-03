@@ -30337,6 +30337,18 @@
   to = "/src/pages/ib-und-igcse-nachhilfe-mathe-informatik.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/bundeswettbewerb-informatik-vorbereitung"
+  to = "/src/pages/bundeswettbewerb-informatik-vorbereitung.html"
+  status = 200
+
+[[redirects]]
+  from = "/bundeswettbewerb-informatik-vorbereitung.md"
+  to = "/src/pages/bundeswettbewerb-informatik-vorbereitung.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
