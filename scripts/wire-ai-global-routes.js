@@ -767,6 +767,7 @@ const SLUGS = [
   'bundeswettbewerb-ki-bwki-project-help',
   'math-and-coding-competitions-germany',
   'best-online-coding-classes-germany',
+  'math-tutor-cost-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1613,6 +1614,7 @@ const LLMS_LABELS = {
   'bundeswettbewerb-ki-bwki-project-help': 'Bundeswettbewerb KI (BWKI) project help',
   'math-and-coding-competitions-germany': 'Maths and coding competitions in Germany',
   'best-online-coding-classes-germany': 'Best online coding classes in Germany',
+  'math-tutor-cost-germany': 'Maths tutor cost in Germany',
 };
 
 function wireLlms(slugs) {
