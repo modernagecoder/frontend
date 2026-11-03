@@ -882,6 +882,7 @@ const SLUGS = [
   'online-python-classes-moenchengladbach-germany',
   'coding-classes-for-kids-in-aachen-germany',
   'coding-and-ai-classes-in-braunschweig-germany',
+  'online-python-classes-kiel-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1843,6 +1844,7 @@ const LLMS_LABELS = {
   'online-python-classes-moenchengladbach-germany': 'Online Python classes in Mönchengladbach',
   'coding-classes-for-kids-in-aachen-germany': 'Coding classes for kids in Aachen',
   'coding-and-ai-classes-in-braunschweig-germany': 'Coding and AI classes in Braunschweig',
+  'online-python-classes-kiel-germany': 'Online Python classes in Kiel',
 };
 
 function wireLlms(slugs) {
