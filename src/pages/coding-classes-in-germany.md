@@ -227,7 +227,7 @@ Each page answers one question for one place, school stage or competition, with 
 
 **International school families:** [Stuttgart: international school pupils](/coding-for-international-school-students-stuttgart)
 
-**Städte, auf Deutsch:** [Leipzig: Programmieren für Kinder](/programmieren-lernen-kinder-leipzig) · [Stuttgart: Programmieren für Kinder](/programmieren-lernen-kinder-stuttgart)
+**Städte, auf Deutsch:** [Leipzig: Programmieren für Kinder](/programmieren-lernen-kinder-leipzig) · [Nürnberg: Programmieren für Kinder](/programmieren-lernen-kinder-nuernberg) · [Stuttgart: Programmieren für Kinder](/programmieren-lernen-kinder-stuttgart)
 
 ## What a learner in Germany can do at each stage
 
