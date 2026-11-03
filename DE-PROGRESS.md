@@ -53,7 +53,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE032 | scratch-classes-for-kids-germany (ski, #5F4F00) | door-en (en) | 3,912 | 1.8% vs python-classes-for-kids-germany | Scratch Classes for Kids in Germany: Live Online, in English | states and transitions; write down every state and what moves you on before you build | a5335f5a |
 | DE035 | game-coding-classes-for-kids-germany (gck, #754349) | door-en (en) | 3,939 | 2.2% vs scratch-classes-for-kids-germany | Game Coding Classes for Kids in Germany, Live in English | simulate with random numbers, then check the simulation against exact maths | 02e2c9c2 |
 | DE030 | ai-course-for-kids-germany (ack, #543F75) | door-en (en) | 3,957 | 1.6% vs scratch-classes-for-kids-germany | AI Course for Kids in Germany: How Machines Learn, in English | a machine learns only from its examples; lopsided examples give lopsided answers | 6ec62da2 |
-| DE015 | coding-classes-for-teens-germany (cte, #495704) | door-en (en) | 4,525 | 1.9% vs coding-classes-by-age-germany | Coding Classes for Teens in Germany, Live in English | a formula against the official table it must reproduce: truncation, not rounding, and a cap | (this commit) |
+| DE015 | coding-classes-for-teens-germany (cte, #495704) | door-en (en) | 4,525 | 1.9% vs coding-classes-by-age-germany | Coding Classes for Teens in Germany, Live in English | a formula against the official table it must reproduce: truncation, not rounding, and a cap | d088ef78 |
+| DE016 | coding-classes-for-adults-germany (ada, #1A6462) | door-en (en) | 3,727 | 1.7% vs ap-computer-science-tutor-germany | Online Coding Classes for Adults in Germany, in English | a flattened multi-dimensional index (JSON-stat): the order keys appear in is not the order of the data | (this commit) |
 
 ## Notes
 

@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Online Coding Classes for Adults in Germany, in English</title>
+  <meta name="description" content="Live online coding classes in English for adults of any age in Germany: Python, automation, web and data, with Eurostat figures on who codes and a real JSON project.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-classes-for-adults-germany">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-classes-for-adults-germany.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#1A6462">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-classes-for-adults-germany">
+  <meta property="og:title" content="Online Coding Classes for Adults in Germany, in English">
+  <meta property="og:description" content="Coding for grown-ups in Germany, taught live in English: what Eurostat says about how many adults here write code, at which ages, and a first project that reads those figures straight from the source file.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Online Coding Classes for Adults in Germany, in English">
+  <meta name="twitter:description" content="Live coding classes in English for adults in Germany, from a first script to automation, websites and data work.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ada .ag-hero h1 { letter-spacing: -0.01em; }
+.ag-root.ag-ada .ag-capsule { border-left-width: 3px; }
+.ag-root.ag-ada .ag-section-head h2 { max-width: 26ch; }
+.ag-root.ag-ada .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-ada .ag-code-head b { letter-spacing: 0.03em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-classes-for-adults-germany#page","url":"https://learn.modernagecoders.com/coding-classes-for-adults-germany","name":"Coding Classes for Adults in Germany","description":"A guide for adults in Germany who want to learn to program: Eurostat figures on how many people in Germany wrote code in 2021, 2023 and 2025 by age group compared with the EU, courses by goal, realistic evening and weekend times, and an original Python project that parses the Eurostat JSON-stat file.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Coding for adults","item":"https://learn.modernagecoders.com/coding-classes-for-adults-germany"}]},{"@type":"Course","name":"Coding Classes for Adults in Germany","description":"Live online coding classes in English for adults in Germany of any age: Python and automation, web development, data analysis and AI tools, in a group of fifteen to twenty adults or one to one, with one regular mentor.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-classes-for-adults-germany"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-adults-germany"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-adults-germany"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. All classes are live and in English only. The mentor adapts to your pace and your accent, explains again in simpler words when needed, and never expects perfect English."}},{"@type":"Question","name":"Am I too old to learn to code?","acceptedAnswer":{"@type":"Answer","text":"No. We teach adults of every age, and Eurostat's 2025 survey found that 1.69 percent of people aged 65 to 74 in Germany had written code in the previous three months, slightly above the EU figure of 1.17 percent."}},{"@type":"Question","name":"I have never programmed. Where do I start?","acceptedAnswer":{"@type":"Answer","text":"With Python, from the first line. Our adult courses assume no experience, and the free first class finds the right starting point."}},{"@type":"Question","name":"How much time do I need each week?","acceptedAnswer":{"@type":"Answer","text":"Two live classes a week, plus about an hour of practice in between if you can manage it. Weeks with less practice are normal for working adults."}},{"@type":"Question","name":"Will I get a German qualification?","acceptedAnswer":{"@type":"Answer","text":"No. We do not award a qualification recognised by German employers or authorities. You learn to program, and you keep the programs you built."}},{"@type":"Question","name":"Can you help me change career into software?","acceptedAnswer":{"@type":"Answer","text":"We teach the skills honestly and help you build projects you can show, but we make no promises about jobs or pay. Talk your plans through with the mentor in the free class first."}},{"@type":"Question","name":"Do you teach AI tools like ChatGPT and Claude?","acceptedAnswer":{"@type":"Answer","text":"Yes, for adults. Our AI coding agents course uses Codex and Claude Code, and Anthropic's terms make Claude available only to people of 18 and over. We teach Python first, so you can check what an AI tool writes."}},{"@type":"Question","name":"When are classes in German time?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Early mornings in Germany are midday for the mentor in India, so they are easy to arrange."}},{"@type":"Question","name":"How do I pay from Germany?","acceptedAnswer":{"@type":"Answer","text":"Fees appear on this page in euro at the European Central Bank reference rate, and the payment is made in US dollars, which your bank converts. The first class costs nothing."}},{"@type":"Question","name":"Group or one to one?","acceptedAnswer":{"@type":"Answer","text":"Either. A group has fifteen to twenty adults at a similar level; one-to-one classes follow only your plan and your timetable."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-classes-for-adults-germany","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-ada">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#numbers">Who</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#goals">Courses</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Coding for adults
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Germany &middot; Adults &middot; Any age from 18</p>
+        <h1>Coding classes for adults in Germany</h1>
+        <p class="ag-lede">Writing code is still unusual among adults in Germany. In Eurostat's 2025 survey about six in every hundred people here had written any code in the previous three months, and the share falls with every age band after 34. This page is for the adults who want to be among them: what the figures say, what you can learn in two evenings a week, which course fits which goal, and a first project that reads the Eurostat figures straight out of the file Eurostat publishes.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#numbers" class="ag-btn ag-btn--ghost">See the Eurostat figures</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20an%20adult%20living%20in%20Germany%20and%20would%20like%20a%20free%20first%20coding%20class%2C%20taught%20in%20English." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ada'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live classes since 2020 &middot; 10,000+ students worldwide &middot; adults from their twenties to retirement</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Who</dt><dd>Adults of any age, no upper limit</dd>
+          <dt>Starts with</dt><dd>Python, from the very first line</dd>
+          <dt>Then</dt><dd>Automation, web, data or AI tools</dd>
+          <dt>German times</dt><dd>Early mornings, evenings, weekends</dd>
+          <dt>Mentors</dt><dd>Based in India, teaching in English</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Modern Age Coders runs live online coding classes in English for adults in Germany, whatever their age: Python from the first line, then automation of everyday work, websites, data analysis or AI tools. A regular mentor adjusts to each adult's pace and accent. Classes fit around work, early in the morning, in the evening or at weekends, with fifteen to twenty adults or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three first courses for adults in Germany</h2>
+      <p class="ag-lede">One for adults who want their computer to do repetitive work for them, one for adults who want to learn programming thoroughly, and one for adults who work with spreadsheets and reports.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-automation-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Automation Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ADA / 01</p>
+          <h3>Python Automation and Applied AI</h3>
+          <p>Scripts that rename files, merge spreadsheets, read web pages and send the weekly report, so an afternoon of clicking becomes a minute.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ADA / 02</p>
+          <h3>Python from Zero to Advanced</h3>
+          <p>The whole language, properly: data types, functions, files, classes, testing and a project of your own at the end.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-analysis-mastery-course-college">
+        <div class="ag-pick-shot"><img src="/images/data-analysis-college.webp" alt="Data Analysis Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ADA / 03</p>
+          <h3>Data Analysis: Excel, SQL and Python</h3>
+          <p>From the spreadsheet you already use to SQL queries and Python, with real public data from the start.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="numbers">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The figures</p><h2>How many adults in Germany write code?</h2><p class="ag-lede">Eurostat asks the same question in every EU country: have you written code in a programming language in the last three months? The answers for Germany in 2025 show how small the group still is, and that age matters less than many people think.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>People who wrote code in a programming language in the last three months, 2025, percent of each age group</caption><thead><tr><th scope="col">Age group</th><th scope="col">Germany</th><th scope="col">EU 27</th></tr></thead><tbody><tr><td>All people surveyed</td><td class="ag-num">6.06</td><td class="ag-num">7.15</td></tr><tr><td>16 to 24</td><td class="ag-num">9.59</td><td class="ag-num">14.62</td></tr><tr><td>25 to 34</td><td class="ag-num">10.59</td><td class="ag-num">11.99</td></tr><tr><td>35 to 44</td><td class="ag-num">8.43</td><td class="ag-num">8.89</td></tr><tr><td>45 to 54</td><td class="ag-num">4.58</td><td class="ag-num">5.59</td></tr><tr><td>55 to 64</td><td class="ag-num">2.71</td><td class="ag-num">2.91</td></tr><tr><td>65 to 74</td><td class="ag-num">1.69</td><td class="ag-num">1.17</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Eurostat, dataset isoc_sk_cskl_i21, Individuals' level of computer skills (2021 onwards), indicator "Individuals who have written code in a programming language (3 months)", percentage of individuals; dataset updated 17 April 2026, downloaded 3 November 2026. Figures as published; we have not added or combined any.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What stands out</h3><p>Germany sits below the EU figure in every age group up to 64. The gap is widest among the youngest: 9.59 percent of 16 to 24 year olds in Germany against 14.62 percent across the EU.</p>
+<p>From 65 to 74 the order turns round. In 2025 1.69 percent of that age group in Germany had written code, against 1.17 percent across the EU. Small numbers, but proof that people start or carry on programming well past working age.</p></div><div><h3>How it has moved</h3><p>For everyone surveyed in Germany the share rose from 4.63 percent in 2021 to 5.52 in 2023 and 6.06 in 2025. Among 55 to 74 year olds it went from 1.47 to 1.95 to 2.28 over the same three surveys.</p>
+<p>Among 16 to 24 year olds it barely moved: 10.06, 9.45 and 9.59. In these three surveys, the growth in Germany came from adults rather than from the young.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A first adult project</p><h2>Can an adult beginner read official statistics with Python?</h2><p class="ag-lede">Yes, and it is a good first real task, because the figures above come from Eurostat as a JSON file and the obvious way to read it gives the wrong answer. Our adult learners meet this problem in their second or third month.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The file</h3><p>Eurostat publishes its tables through a free web interface. Asking it for the "wrote code" indicator for Germany and the EU, nine age groups and the years 2021, 2023 and 2025 returns a file of 3,919 bytes, which we saved as eurostat_cprg2.json on 3 November 2026.</p>
+<p>Inside, the numbers sit in one flat list called "value", each with a position number. Separate lists say what the dimensions are, in which order, and how many entries each has.</p></div><div><h3>Why this matters at work</h3><p>Statistics offices, central banks and many company systems hand out data in this shape. An adult who can read it with ten lines of Python no longer needs to copy figures from a web page into a spreadsheet by hand.</p>
+<p>It is also the moment most learners discover that a program can run without any error message and still print the wrong numbers.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: read the values in the order they appear</b><span>Python</span></figcaption><pre>import json
+
+with open("eurostat_cprg2.json", encoding="utf-8") as f:
+    data = json.load(f)
+
+ages = list(data["dimension"]["ind_type"]["category"]["index"])
+places = list(data["dimension"]["geo"]["category"]["index"])
+years = list(data["dimension"]["time"]["category"]["index"])
+print("Places:", places, " Years:", years)
+
+# first try: read the values in the order they appear
+values = list(data["value"].values())
+print(places[0], ages[0], values[0:3])</pre><p class="ag-code-note">It prints <code>Places: ['EU27_2020', 'DE']  Years: ['2021', '2023', '2025']</code> and then <code>EU27_2020 IND_TOTAL [4.63, 5.52, 6.06]</code>.</p></figure>
+    <p class="ag-mt-40">Those three numbers are not the EU at all. They are Germany's. The file happens to list position "3" first, and Version 1 trusted the order in which the numbers appear rather than the position number each one carries. No error, no warning, and a table that would have gone into a report with every EU figure wrong.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: work out each value's position</b><span>Python</span></figcaption><pre># second try: every value has a position number; work out what it stands for
+sizes = data["size"]                 # one length per dimension, in data["id"] order
+def position(**chosen):
+    pos = 0
+    for name, size in zip(data["id"], sizes):
+        index = data["dimension"][name]["category"]["index"]
+        pos = pos * size + (index[chosen[name]] if name in chosen else 0)
+    return str(pos)
+
+for place in ("EU27_2020", "DE"):
+    for age in ("IND_TOTAL", "Y16_24", "Y25_54", "Y55_74"):
+        row = [data["value"].get(position(geo=place, ind_type=age, time=y)) for y in years]
+        print(place, age, row)</pre><p class="ag-code-note">Run after Version 1 in the same file. The first lines it prints are <code>EU27_2020 IND_TOTAL [5.82, 6.51, 7.15]</code>, and further down <code>DE IND_TOTAL [4.63, 5.52, 6.06]</code> and <code>DE Y55_74 [1.47, 1.95, 2.28]</code>.</p></figure>
+    <p class="ag-mt-40">The file says its dimensions are, in order, frequency, age group, indicator, unit, place and year, with sizes 1, 9, 1, 1, 2 and 3. A value's position is worked out the way an odometer counts: the last dimension turns fastest. The function <code>position</code> does exactly that, and with it every figure lands under the right heading. Checking one figure by hand against the Eurostat website is the last step, and the one most beginners skip.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Run Version 1</strong> and write down what you think the three numbers are before reading on.</li><li><strong>Prove the bug.</strong> Print the keys of <code>data["value"]</code> in the order they come. Which key comes first?</li><li><strong>Extend Version 2.</strong> Add the age groups 25 to 34 and 65 to 74 and check them against the table on this page.</li><li><strong>Going further.</strong> Write the result to a CSV file that opens cleanly in a German spreadsheet, with a semicolon between columns and a comma as the decimal mark.</li></ol>
+    <p class="ag-source-note ag-mt-40">Data: Eurostat, isoc_sk_cskl_i21, indicator I_CPRG2, Germany and EU 27, downloaded 3 November 2026. The code, the explanation and the exercises are our own.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="goals">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Choosing a course</p><h2>Which coding course should an adult in Germany choose?</h2><p class="ag-lede">Start from what you want to be able to do in six months, not from a language. The table is our own guide, and the free first class is where a mentor checks it against your plans.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From a goal to a first course (our guide)</caption><thead><tr><th scope="col">You want to</th><th scope="col">Start with</th><th scope="col">Then</th></tr></thead><tbody><tr><td>Stop doing the same spreadsheet work every week</td><td>Python automation</td><td>Data analysis with SQL</td></tr><tr><td>Understand programming properly, for its own sake</td><td>Python from zero to advanced</td><td>Data structures and algorithms</td></tr><tr><td>Build a website or a small web app</td><td>HTML and CSS for beginners</td><td>Full-stack web development</td></tr><tr><td>Make sense of data at work</td><td>Data analysis: Excel, SQL and Python</td><td>Statistics and machine learning</td></tr><tr><td>Use AI tools to write code, and check what they write</td><td>Python first, always</td><td>AI coding agents, 18 and over</td></tr><tr><td>Keep the mind active after retiring</td><td>Python from zero, one to one</td><td>A project you choose yourself</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Our own guide, based on what adult learners have asked us for since 2020. Every course on it is taught live and in English.</p>
+    <p class="ag-mt-40">We do not offer a qualification that German employers or authorities recognise, and we make no promises about jobs. What an adult takes away is the ability itself: programs they wrote, understand and can change. Adults thinking of a new career in software should read our <a class="ag-inline-link" href="/coding-classes-in-germany">Germany overview</a> first and talk it through with the mentor in the free class.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="pace">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Learning as an adult</p><h2>Is it harder to learn coding as an adult?</h2><p class="ag-lede">Different rather than harder. Adults bring things a fifteen year old does not have, and they have less time. Our classes are built around both.</p></div>
+    <div class="ag-grid-3"><div><h3>What adults bring</h3><p>Real problems from work or home to solve, patience with a hard idea, and the habit of reading carefully. A first program that saves an adult an hour a week is worth more to them than any exercise.</p></div><div><h3>What gets in the way</h3><p>Time and confidence. A missed week is normal. The mentor keeps a short written summary of each class, so picking up again after a business trip or a busy month takes minutes, not a fresh start.</p></div><div><h3>How English fits in</h3><p>Programming keywords, error messages and almost all documentation are in English. Our mentors teach only in English and adapt to each adult: plain words, a slower pace when needed, and patience with any accent.</p></div></div>
+    <p class="ag-mt-40">Adults over sixty are welcome and often among the steadiest learners. Many choose one-to-one classes so they can set the speed entirely themselves. The Eurostat figures above show that in Germany people aged 65 to 74 were writing code in 2025, a little more often than across the EU as a whole.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>When can an adult in Germany take a live coding class?</h2><p class="ag-lede">Before work, at lunchtime, in the early evening or at the weekend. The mentor is in India, which is ahead of Germany all year.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Sample class times for adults in Germany, and the time in India</caption><thead><tr><th scope="col">Class starts in Germany</th><th scope="col">Mentor's clock now</th><th scope="col">Mentor's clock after 28 March 2027</th></tr></thead><tbody><tr><td>07:30</td><td>12:00</td><td>11:00</td></tr><tr><td>12:15</td><td>16:45</td><td>15:45</td></tr><tr><td>18:00</td><td>22:30</td><td>21:30</td></tr><tr><td>Saturday 08:30</td><td>13:00</td><td>12:00</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">German legal time, set by the Einheitenzeitgesetz, is MEZ (UTC+1) through the winter and MESZ (UTC+2) through the summer; this winter began on 25 October 2026 and ends on 28 March 2027. India never changes its clocks and stays at UTC+5:30, so the mentor is four and a half hours ahead now and three and a half hours ahead in summer.</p>
+    <p class="ag-mt-40">An early-morning class in Germany falls at midday in India, which makes it one of the easiest times to arrange. These rows are examples, not fixed groups: when you book, you choose the time of your free class in German time.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Milestones</p>
+      <h2>What an adult can do after each stage</h2>
+      <p class="ag-lede">The milestones we use with adult learners. They are our own markers of progress, not a German qualification.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Milestones for adult learners (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Typical start</th><th scope="col">You can</th></tr></thead><tbody><tr><td>1. First scripts</td><td class="ag-num">Month 1</td><td class="ag-num">Write a short program that asks, calculates and answers</td></tr><tr><td>2. Files and data</td><td class="ag-num">Months 2 to 3</td><td class="ag-num">Read a CSV or JSON file and pull out what you need, like the Eurostat project</td></tr><tr><td>3. Automation</td><td class="ag-num">Months 4 to 5</td><td class="ag-num">Make a weekly task run by itself</td></tr><tr><td>4. A larger program</td><td class="ag-num">Months 6 to 8</td><td class="ag-num">Organise code into functions and modules, with tests</td></tr><tr><td>5. Your own project</td><td class="ag-num">Months 9 and up</td><td class="ag-num">Plan, build and explain something you use yourself</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For beginners</h3><p>A program that runs is not yet a program that is right. Check one result by hand.</p>
+<p>Twenty minutes of typing on a free evening beats two hours of watching once a month.</p></div><div><h3>For returners</h3><p>If you last coded years ago, the ideas come back faster than the syntax. Start one stage lower than you think.</p>
+<p>Bring a real file from work, with anything private removed, and learn on that.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More for adults</p>
+      <h2>Nine more courses for adults in Germany</h2>
+      <p class="ag-lede">Taught live in English, at a pace set for adults, with the same mentor in a group or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>The web</h3>
+        <span class="ag-band-sub">Adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ADA / WEB / 01</p>
+          <h4>HTML and CSS for beginners</h4>
+          <p>A real website, built by hand.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ADA / WEB / 02</p>
+          <h4>Full-stack web development</h4>
+          <p>React, Node.js and a server of your own.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ADA / WEB / 03</p>
+          <h4>Java</h4>
+          <p>From core Java to Spring Boot.</p>
+          <a class="ag-course-link" href="/courses/complete-java-programming-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Data</h3>
+        <span class="ag-band-sub">Adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ADA / DATA / 01</p>
+          <h4>Data and AI without programming</h4>
+          <p>Excel, Sheets and Power BI, for a gentler start.</p>
+          <a class="ag-course-link" href="/courses/data-and-ai-analytics-for-non-programmers-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ADA / DATA / 02</p>
+          <h4>MySQL and databases</h4>
+          <p>SQL queries and database design.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ADA / DATA / 03</p>
+          <h4>Statistics and probability</h4>
+          <p>The maths behind every chart at work.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Tools and AI</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ADA / TOOLS / 01</p>
+          <h4>Git and GitHub</h4>
+          <p>Keeping track of every change you make.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ADA / TOOLS / 02</p>
+          <h4>AI and machine learning</h4>
+          <p>Python, models and generative AI.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ADA / TOOLS / 03</p>
+          <h4>AI coding agents</h4>
+          <p>Codex and Claude Code, for adults only.</p>
+          <a class="ag-course-link" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>How live coding classes work for adults in Germany</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Before work</p><p class="ag-slot-l">From about 07:00 German time, midday for the mentor.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">After work</p><p class="ag-slot-l">Early evening, up to about 18:00 German time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">One to one</p><p class="ag-slot-l">Any agreed time, weekends included, moved when work changes.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Your own problems</h3><p>Exercises built on tasks from your work or life.</p></div>
+      <div><h3>Short summaries</h3><p>A written note after class to pick up from.</p></div>
+      <div><h3>Plain English</h3><p>Explained again, more slowly, whenever needed.</p></div>
+      <div><h3>One mentor</h3><p>The same teacher, who remembers where you left off.</p></div>
+      <div><h3>No age limit</h3><p>Learners in their twenties and in their seventies.</p></div>
+      <div><h3>Class or private</h3><p>Fifteen to twenty adults, or just you.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects built by our students</h2>
+      <p class="ag-lede">A selection of work by our students in several countries; see the <a class="ag-inline-link" href="/student-labs">student labs</a> for the rest.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for adult coding classes in Germany</h2>
+      <p class="ag-lede">You pay once a month for eight live classes. The figure is given here in euro, converted at the European Central Bank's reference rate, while the charge is made in US dollars; your bank handles the exchange, so your statement may differ slightly from the figure shown.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short task matched to your experience</li><li>No card details asked for</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Fifteen to twenty adults at a similar level</li><li>One regular mentor</li><li>Two classes a week</li><li>Month to month, cancel any time</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Just you and a mentor</li><li>Your own goals and speed</li><li>Times that fit your week</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from our students and the families of our younger learners, exactly as they were posted.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Adults in Germany ask</p>
+      <h2>Coding classes for adults in Germany: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. All classes are live and in English only. The mentor adapts to your pace and your accent, explains again in simpler words when needed, and never expects perfect English.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Am I too old to learn to code?</h3>
+        <p>No. We teach adults of every age, and Eurostat's 2025 survey found that 1.69 percent of people aged 65 to 74 in Germany had written code in the previous three months, slightly above the EU figure of 1.17 percent.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>I have never programmed. Where do I start?</h3>
+        <p>With Python, from the first line. Our adult courses assume no experience, and the free first class finds the right starting point.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much time do I need each week?</h3>
+        <p>Two live classes a week, plus about an hour of practice in between if you can manage it. Weeks with less practice are normal for working adults.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will I get a German qualification?</h3>
+        <p>No. We do not award a qualification recognised by German employers or authorities. You learn to program, and you keep the programs you built.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you help me change career into software?</h3>
+        <p>We teach the skills honestly and help you build projects you can show, but we make no promises about jobs or pay. Talk your plans through with the mentor in the free class first.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you teach AI tools like ChatGPT and Claude?</h3>
+        <p>Yes, for adults. Our AI coding agents course uses Codex and Claude Code, and Anthropic's terms make Claude available only to people of 18 and over. We teach Python first, so you can check what an AI tool writes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes in German time?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Early mornings in Germany are midday for the mentor in India, so they are easy to arrange.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I pay from Germany?</h3>
+        <p>Fees appear on this page in euro at the European Central Bank reference rate, and the payment is made in US dollars, which your bank converts. The first class costs nothing.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Group or one to one?</h3>
+        <p>Either. A group has fifteen to twenty adults at a similar level; one-to-one classes follow only your plan and your timetable.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for adult learners in Germany.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>The overview for every age and Land.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-germany">AI and machine learning in Germany</a></h3><p>Models you build and test yourself.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-roadmap">Coding roadmap</a></h3><p>What to learn after what, in order.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a></h3><p>Who may use which AI tool, from the terms.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Our live classes, explained.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Projects our students have built.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first coding class</h2>
+        <p class="ag-lede">The mentor asks what you would like to be able to do, sets a small task to see where you are, and suggests a course and a time that fit your week, in English and at your pace.</p>
+        <p class="ag-mt-40">To look around first, read <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or browse <a class="ag-inline-link" href="/courses">the full course list</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20an%20adult%20living%20in%20Germany%20and%20would%20like%20a%20free%20first%20coding%20class%2C%20taught%20in%20English." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ada',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are live online in English, taught by mentors based in India. For a quick question, message us on WhatsApp in English.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ada(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free. We do not ask for card details.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Adults</h4><ul><li><a href="/courses/python-ai-automation-masterclass-college">Python automation</a></li><li><a href="/courses/data-analysis-mastery-course-college">Data analysis</a></li><li><a href="/student-labs">Student projects</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/ai-and-machine-learning-classes-in-germany">AI and machine learning</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/abitur-maths-in-english">Abitur maths in English</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Trust the position, not the order</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ada = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'coding-classes-for-adults-germany-inline', meta: { name: name, age: age, page: 'coding-classes-for-adults-germany' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

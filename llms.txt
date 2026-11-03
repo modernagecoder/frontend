@@ -1012,6 +1012,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Game coding classes for kids in Germany: https://learn.modernagecoders.com/game-coding-classes-for-kids-germany
 - AI course for kids in Germany: https://learn.modernagecoders.com/ai-course-for-kids-germany
 - Coding classes for teens in Germany: https://learn.modernagecoders.com/coding-classes-for-teens-germany
+- Coding classes for adults in Germany: https://learn.modernagecoders.com/coding-classes-for-adults-germany
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
