@@ -805,6 +805,7 @@ const SLUGS = [
   'informatik-abitur-hessen',
   'informatik-abitur-baden-wuerttemberg',
   'informatik-abitur-vorbereitung',
+  'informatik-pflichtfach-unterstuetzung',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1689,6 +1690,7 @@ const LLMS_LABELS = {
   'informatik-abitur-hessen': 'Informatik-Abitur Hessen (Unterricht auf Englisch)',
   'informatik-abitur-baden-wuerttemberg': 'Informatik-Abitur Baden-Württemberg (Unterricht auf Englisch)',
   'informatik-abitur-vorbereitung': 'Informatik-Abitur Vorbereitung (auf Englisch)',
+  'informatik-pflichtfach-unterstuetzung': 'Informatik-Pflichtfach: Unterstützung (auf Englisch)',
 };
 
 function wireLlms(slugs) {

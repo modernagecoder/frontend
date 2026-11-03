@@ -77,7 +77,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE085 | informatik-abitur-niedersachsen (ina, #68548C) | door-de (de) | 3,357 | 2.6% vs informatik-abitur-bayern | Informatik-Abitur Niedersachsen 2027: Regeln, Termin, Übung | measure before you trust a compression; run-length coding can make data bigger | 21cb8a54 |
 | DE086 | informatik-abitur-hessen (iah, #74301E) | door-de (de) | 3,350 | 2.6% vs informatik-abitur-niedersachsen | Informatik-Abitur Hessen 2027: Java oder Python, Termine, Übung | a projection is a set; relational algebra removes duplicates, SQL keeps them unless you say DISTINCT | bde9d7c5 |
 | DE087 | informatik-abitur-baden-wuerttemberg (iwu, #616019) | door-de (de) | 3,493 | 3.1% vs informatik-abitur-niedersachsen | Informatik-Abitur Baden-Württemberg 2027: Facherlass, Termin | start from the data, not from a guessed constant; test with duplicates and all-negative input | f51877b3 |
-| DE070 | informatik-abitur-vorbereitung (iav, #246742) | door-de (de) | 4,201 | 1.9% vs informatik-abitur-nrw | Informatik-Abitur Vorbereitung: live auf Englisch, GK und LK | a recursion is only as good as its base case: test the smallest inputs first and argue termination | (this commit) |
+| DE070 | informatik-abitur-vorbereitung (iav, #246742) | door-de (de) | 4,201 | 1.9% vs informatik-abitur-nrw | Informatik-Abitur Vorbereitung: live auf Englisch, GK und LK | a recursion is only as good as its base case: test the smallest inputs first and argue termination | 8b7778ff |
+| DE071 | informatik-pflichtfach-unterstuetzung (ipu, #23504F) | door-de (de) | 3,558 | 2.5% vs roblox-programmieren-lernen-kinder | Neues Pflichtfach Informatik: Unterstützung live auf Englisch | a check digit catches every single wrong digit but not every swap: test all the errors systematically | (this commit) |
 
 ## Notes
 

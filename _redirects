@@ -9198,4 +9198,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /informatik-abitur-vorbereitung /src/pages/informatik-abitur-vorbereitung.html 200
 /informatik-abitur-vorbereitung.md /src/pages/informatik-abitur-vorbereitung.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/informatik-pflichtfach-unterstuetzung /src/pages/informatik-pflichtfach-unterstuetzung.html 200
+/informatik-pflichtfach-unterstuetzung.md /src/pages/informatik-pflichtfach-unterstuetzung.md 200
 /* /src/pages/404.html 404
