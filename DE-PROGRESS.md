@@ -186,7 +186,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE172 | coding-classes-for-kids-in-leverkusen-germany (lev, #01454A) | city-t2 (en) | 3,872 | 2.1% vs online-python-classes-hamm-germany | Coding Classes for Kids in Leverkusen, Live Online in English | a small or bunched sample can fool you; bigger samples spread across the whole period wobble less | 1e4575a0 |
 | DE173 | coding-and-ai-classes-in-darmstadt-germany (cda, #183D4C) | city-t2 (en) | 3,755 | 2.3% vs coding-classes-for-kids-in-offenbach-am-main-germany | Coding and AI Classes in Darmstadt, Live Online in English | data drift; a model trained on the past goes stale when the world changes, so test on recent data and retrain | 1921db41 |
 | DE174 | online-python-classes-osnabrueck-germany (pos, #183D64) | city-t2 (en) | 3,631 | 2.2% vs coding-and-ai-classes-in-oldenburg-oldenburg-germany | Online Python Classes in Osnabrück: Live, in English | an API answers in pages; follow the next link until there is none, or the missing pages vanish silently | d48057cb |
-| DE175 | coding-classes-for-kids-in-solingen-germany (cso, #402B5F) | city-t2 (en) | 3,701 | 2.6% vs online-python-classes-hamm-germany | Coding Classes for Kids in Solingen: Live Online, in English | equal values share a place; a ranking needs a rule for ties | (this commit) |
+| DE175 | coding-classes-for-kids-in-solingen-germany (cso, #402B5F) | city-t2 (en) | 3,701 | 2.6% vs online-python-classes-hamm-germany | Coding Classes for Kids in Solingen: Live Online, in English | equal values share a place; a ranking needs a rule for ties | 3fab827a |
+| DE158 | coding-and-ai-classes-in-halle-saale-germany (cah, #543856) | city-t2 (en) | 4,691 | 1.9% vs ai-and-machine-learning-classes-in-germany | Coding and AI Classes in Halle (Saale): Live, in English | similarity is a choice of features; measure overlap (Jaccard), and drop the features everything shares or | (this commit) |
 
 ## Notes
 
