@@ -1099,6 +1099,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Programmieren lernen für Kinder in Düsseldorf (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-duesseldorf
 - Coding classes for kids in Dortmund: https://learn.modernagecoders.com/coding-classes-for-kids-dortmund
 - Coding classes for kids in Bremen: https://learn.modernagecoders.com/coding-classes-for-kids-bremen
+- Coding classes for kids in Essen: https://learn.modernagecoders.com/coding-classes-for-kids-essen
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

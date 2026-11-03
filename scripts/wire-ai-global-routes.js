@@ -868,6 +868,7 @@ const SLUGS = [
   'programmieren-lernen-kinder-duesseldorf',
   'coding-classes-for-kids-dortmund',
   'coding-classes-for-kids-bremen',
+  'coding-classes-for-kids-essen',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1815,6 +1816,7 @@ const LLMS_LABELS = {
   'programmieren-lernen-kinder-duesseldorf': 'Programmieren lernen für Kinder in Düsseldorf (auf Englisch)',
   'coding-classes-for-kids-dortmund': 'Coding classes for kids in Dortmund',
   'coding-classes-for-kids-bremen': 'Coding classes for kids in Bremen',
+  'coding-classes-for-kids-essen': 'Coding classes for kids in Essen',
 };
 
 function wireLlms(slugs) {
