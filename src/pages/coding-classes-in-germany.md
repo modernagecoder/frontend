@@ -221,7 +221,7 @@ Each page answers one question for one place, school stage or competition, with 
 
 **Competitions:** [Bundeswettbewerb Informatik](/bundeswettbewerb-informatik-preparation) · [BWKI project help](/bundeswettbewerb-ki-bwki-project-help) · [Informatik-Biber practice](/informatik-biber-practice-in-english) · [IOI 2027 in Potsdam](/ioi-2027-potsdam-guide) · [Jugend forscht computer science](/jugend-forscht-computer-science-project-mentoring) · [Jugendwettbewerb Informatik](/jugendwettbewerb-informatik-preparation) · [Känguru der Mathematik practice](/kangaroo-math-germany-practice) · [Mathematik-Olympiade preparation](/math-olympiad-germany-preparation)
 
-**Auf Deutsch:** [Informatik-Nachhilfe online](/informatik-nachhilfe-online)
+**Auf Deutsch:** [Informatik-Nachhilfe online](/informatik-nachhilfe-online) · [Programmierkurs für Kinder online](/programmierkurs-kinder-online)
 
 **Cities:** [Berlin: coding for kids](/coding-classes-for-kids-berlin)
 
