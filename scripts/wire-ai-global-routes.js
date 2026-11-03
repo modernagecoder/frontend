@@ -922,6 +922,7 @@ const SLUGS = [
   'coding-classes-for-kids-in-rostock-germany',
   'coding-and-ai-classes-in-kassel-germany',
   'online-python-classes-hagen-germany',
+  'coding-classes-for-kids-in-potsdam-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1923,6 +1924,7 @@ const LLMS_LABELS = {
   'coding-classes-for-kids-in-rostock-germany': 'Coding classes for kids in Rostock',
   'coding-and-ai-classes-in-kassel-germany': 'Coding and AI classes in Kassel',
   'online-python-classes-hagen-germany': 'Online Python classes in Hagen',
+  'coding-classes-for-kids-in-potsdam-germany': 'Coding classes for kids in Potsdam',
 };
 
 function wireLlms(slugs) {
