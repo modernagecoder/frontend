@@ -64,7 +64,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE053 | programmierkurs-kinder-online (prk, #6C3B41) | door-de (de) | 3,910 | 1.8% vs informatik-nachhilfe-online | Programmierkurs für Kinder online: live, 6 bis 12 Jahre | turning changes the heading, not the square; keep track of position and heading together | 65771ab8 |
 | DE054 | coding-fuer-kinder (kin, #714A5E) | door-de (de) | 3,516 | 1.5% vs informatik-nachhilfe-online | Coding für Kinder: was es ist und wie Kinder es lernen | a code and its key; decoding is the same rule run backwards | 8ee2d837 |
 | DE055 | programmieren-fuer-kinder-ab-8 (pro, #285D80) | door-de (de) | 3,625 | 1.9% vs informatik-nachhilfe-online | Programmieren für Kinder ab 8: warum jetzt, wie es geht | repetition and turning; a closed shape turns once all the way round (360 degrees), a star twice | 47f97d51 |
-| DE062 | scratch-kurs-kinder-online (skk, #904651) | door-de (de) | 3,610 | 1.7% vs programmieren-fuer-kinder-ab-8 | Scratch-Kurs für Kinder online: live, mit Mentor | coordinate a sequence with messages, not with guessed waiting times | (this commit) |
+| DE062 | scratch-kurs-kinder-online (skk, #904651) | door-de (de) | 3,610 | 1.7% vs programmieren-fuer-kinder-ab-8 | Scratch-Kurs für Kinder online: live, mit Mentor | coordinate a sequence with messages, not with guessed waiting times | 43023e64 |
+| DE060 | python-kurs-kinder-online (pkk, #366536) | door-de (de) | 3,482 | 2% vs informatik-nachhilfe-online | Python-Kurs für Kinder online: live, etwa 9 bis 14 Jahre | the order of conditions matters; test the special case first | (this commit) |
 
 ## Notes
 

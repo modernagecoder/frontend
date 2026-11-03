@@ -792,6 +792,7 @@ const SLUGS = [
   'coding-fuer-kinder',
   'programmieren-fuer-kinder-ab-8',
   'scratch-kurs-kinder-online',
+  'python-kurs-kinder-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1663,6 +1664,7 @@ const LLMS_LABELS = {
   'coding-fuer-kinder': 'Coding für Kinder (Unterricht auf Englisch)',
   'programmieren-fuer-kinder-ab-8': 'Programmieren für Kinder ab 8 (auf Englisch)',
   'scratch-kurs-kinder-online': 'Scratch-Kurs für Kinder online (auf Englisch)',
+  'python-kurs-kinder-online': 'Python-Kurs für Kinder online (auf Englisch)',
 };
 
 function wireLlms(slugs) {
