@@ -917,6 +917,7 @@ const SLUGS = [
   'coding-and-ai-classes-in-halle-saale-germany',
   'online-python-classes-mainz-germany',
   'coding-classes-for-kids-in-erfurt-germany',
+  'coding-and-ai-classes-in-luebeck-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1913,6 +1914,7 @@ const LLMS_LABELS = {
   'coding-and-ai-classes-in-halle-saale-germany': 'Coding and AI classes in Halle (Saale)',
   'online-python-classes-mainz-germany': 'Online Python classes in Mainz',
   'coding-classes-for-kids-in-erfurt-germany': 'Coding classes for kids in Erfurt',
+  'coding-and-ai-classes-in-luebeck-germany': 'Coding and AI classes in Lübeck',
 };
 
 function wireLlms(slugs) {

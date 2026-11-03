@@ -189,7 +189,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE175 | coding-classes-for-kids-in-solingen-germany (cso, #402B5F) | city-t2 (en) | 3,701 | 2.6% vs online-python-classes-hamm-germany | Coding Classes for Kids in Solingen: Live Online, in English | equal values share a place; a ranking needs a rule for ties | 3fab827a |
 | DE158 | coding-and-ai-classes-in-halle-saale-germany (cah, #543856) | city-t2 (en) | 4,691 | 1.9% vs ai-and-machine-learning-classes-in-germany | Coding and AI Classes in Halle (Saale): Live, in English | similarity is a choice of features; measure overlap (Jaccard), and drop the features everything shares or | a630fc38 |
 | DE159 | online-python-classes-mainz-germany (pym, #904311) | city-t2 (en) | 4,318 | 2% vs online-python-classes-herne-germany | Online Python Classes in Mainz: Live Lessons in English | a sliding window; the biggest change over a fixed span is not the change from the first reading to the last | 04cf0360 |
-| DE160 | coding-classes-for-kids-in-erfurt-germany (cer, #76640B) | city-t2 (en) | 4,099 | 2.2% vs coding-classes-for-kids-munich | Coding Classes for Kids in Erfurt: Live Online, in English | a winter crosses New Year; group each day by the season it belongs to, not by its calendar year | (this commit) |
+| DE160 | coding-classes-for-kids-in-erfurt-germany (cer, #76640B) | city-t2 (en) | 4,099 | 2.2% vs coding-classes-for-kids-munich | Coding Classes for Kids in Erfurt: Live Online, in English | a winter crosses New Year; group each day by the season it belongs to, not by its calendar year | 2a0b85b8 |
+| DE161 | coding-and-ai-classes-in-luebeck-germany (cal, #246A53) | city-t2 (en) | 4,135 | 1.4% vs coding-classes-for-kids-munich | Coding and AI Classes in Lübeck: Live Online, in English | nearest neighbours vote; choose k by testing on hidden examples, because too few neighbours is noisy and | (this commit) |
 
 ## Notes
 
