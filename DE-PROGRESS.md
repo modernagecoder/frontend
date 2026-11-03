@@ -21,7 +21,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE023 | igcse-computer-science-tutor-germany (igc, #6E4604) | door-en (en) | 3,807 | 1.7% vs ib-computer-science-tutor-germany | IGCSE Computer Science Tutor in Germany (0478), in English | write it in pseudocode first, then translate it line by line into Python | b29223fc |
 | DE024 | ap-computer-science-tutor-germany (aco, #285D29) | door-en (en) | 3,949 | 2% vs ib-computer-science-tutor-germany | AP Computer Science Tutor in Germany: CSA and CSP in English | trace the 2D array by hand, column by column, before you trust the loop | bb2ed43f |
 | DE026 | coding-for-international-school-students-germany (cis, #843D56) | door-en (en) | 3,674 | 2% vs igcse-computer-science-tutor-germany | Coding for International School Students in Germany | tidy messy labels before you count, and keep "unknown" as its own answer | 15970ced |
-| DE043 | coding-interview-prep-for-international-students-germany (cip, #256D6B) | door-en (en) | 3,693 | 1.4% vs ai-and-machine-learning-classes-in-germany | Coding Interview Prep for International Students in Germany | brute force first, then trade memory for time, and prove it by doubling n | (this commit) |
+| DE043 | coding-interview-prep-for-international-students-germany (cip, #256D6B) | door-en (en) | 3,693 | 1.4% vs ai-and-machine-learning-classes-in-germany | Coding Interview Prep for International Students in Germany | brute force first, then trade memory for time, and prove it by doubling n | 63c84680 |
+| DE044 | python-and-dsa-for-international-students-germany (pdi, #88283C) | door-en (en) | 3,627 | 2.1% vs ib-computer-science-tutor-germany | Python and DSA for International Students in Germany | look up the cost of each operation before you choose the data structure | (this commit) |
 
 ## Notes
 

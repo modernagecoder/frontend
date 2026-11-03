@@ -749,6 +749,7 @@ const SLUGS = [
   'ap-computer-science-tutor-germany',
   'coding-for-international-school-students-germany',
   'coding-interview-prep-for-international-students-germany',
+  'python-and-dsa-for-international-students-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1577,6 +1578,7 @@ const LLMS_LABELS = {
   'ap-computer-science-tutor-germany': 'AP Computer Science tutor in Germany',
   'coding-for-international-school-students-germany': 'Coding for international school students in Germany',
   'coding-interview-prep-for-international-students-germany': 'Coding interview prep for international students in Germany',
+  'python-and-dsa-for-international-students-germany': 'Python and DSA for international students in Germany',
 };
 
 function wireLlms(slugs) {
