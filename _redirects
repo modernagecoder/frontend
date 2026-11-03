@@ -9322,4 +9322,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /bundeswettbewerb-informatik-vorbereitung /src/pages/bundeswettbewerb-informatik-vorbereitung.html 200
 /bundeswettbewerb-informatik-vorbereitung.md /src/pages/bundeswettbewerb-informatik-vorbereitung.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/mathematik-olympiade-vorbereitung /src/pages/mathematik-olympiade-vorbereitung.html 200
+/mathematik-olympiade-vorbereitung.md /src/pages/mathematik-olympiade-vorbereitung.md 200
 /* /src/pages/404.html 404

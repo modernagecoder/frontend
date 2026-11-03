@@ -1067,6 +1067,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Mathe-Nachhilfe auf Englisch: https://learn.modernagecoders.com/mathe-nachhilfe-auf-englisch
 - IB- und IGCSE-Nachhilfe in Mathe und Informatik: https://learn.modernagecoders.com/ib-und-igcse-nachhilfe-mathe-informatik
 - Bundeswettbewerb Informatik Vorbereitung (auf Englisch): https://learn.modernagecoders.com/bundeswettbewerb-informatik-vorbereitung
+- Mathematik-Olympiade Vorbereitung (auf Englisch): https://learn.modernagecoders.com/mathematik-olympiade-vorbereitung
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

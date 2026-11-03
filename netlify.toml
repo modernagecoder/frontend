@@ -30349,6 +30349,18 @@
   to = "/src/pages/bundeswettbewerb-informatik-vorbereitung.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/mathematik-olympiade-vorbereitung"
+  to = "/src/pages/mathematik-olympiade-vorbereitung.html"
+  status = 200
+
+[[redirects]]
+  from = "/mathematik-olympiade-vorbereitung.md"
+  to = "/src/pages/mathematik-olympiade-vorbereitung.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

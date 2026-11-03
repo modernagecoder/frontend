@@ -108,7 +108,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE076 | mathe-abitur-vorbereitung-online (mav, #694D6B) | door-de (de) | 4,416 | 1.9% vs informatik-abitur-vorbereitung | Mathe-Abitur-Vorbereitung online: live auf Englisch, LK und GK | a parameter stands for a whole family; solve it in general, then test one member with a value table | e18a8e67 |
 | DE077 | mathe-nachhilfe-auf-englisch (mne, #68482D) | door-de (de) | 3,736 | 2.1% vs nachhilfe-auf-englisch-online | Mathe-Nachhilfe auf Englisch: live online, Klasse 1 bis 13 | decide the type of Zuordnung first (quotient-equal, product-equal or neither), then calculate | df3798bf |
 | DE080 | ib-und-igcse-nachhilfe-mathe-informatik (iui, #37706D) | door-de (de) | 3,661 | 2% vs informatik-nachhilfe-online | IB- und IGCSE-Nachhilfe in Mathe und Informatik, auf Englisch | halve the interval (bisection), and predict the number of steps from the accuracy before running it | c685dea4 |
-| DE081 | bundeswettbewerb-informatik-vorbereitung (biv, #7E4B52) | door-de (de) | 3,774 | 2.4% vs ib-und-igcse-nachhilfe-mathe-informatik | Bundeswettbewerb Informatik: Vorbereitung live auf Englisch | search in layers (breadth-first): the first time a state is reached is the fewest steps; and an | (this commit) |
+| DE081 | bundeswettbewerb-informatik-vorbereitung (biv, #7E4B52) | door-de (de) | 3,774 | 2.4% vs ib-und-igcse-nachhilfe-mathe-informatik | Bundeswettbewerb Informatik: Vorbereitung live auf Englisch | search in layers (breadth-first): the first time a state is reached is the fewest steps; and an | c1ca4f3c |
+| DE082 | mathematik-olympiade-vorbereitung (mov, #914870) | door-de (de) | 3,741 | 2% vs mathe-nachhilfe-online-gymnasium | Mathematik-Olympiade Vorbereitung: live auf Englisch, 2026/27 | find what never changes (an invariant); it proves that something is impossible, a simulation only hints | (this commit) |
 
 ## Notes
 
