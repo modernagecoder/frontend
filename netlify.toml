@@ -30553,6 +30553,18 @@
   to = "/src/pages/programmieren-lernen-ab-12.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/programmierkurs-jugendliche-online"
+  to = "/src/pages/programmierkurs-jugendliche-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/programmierkurs-jugendliche-online.md"
+  to = "/src/pages/programmierkurs-jugendliche-online.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

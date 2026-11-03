@@ -853,6 +853,7 @@ const SLUGS = [
   'coding-classes-in-saxony-anhalt',
   'coding-classes-in-thuringia',
   'programmieren-lernen-ab-12',
+  'programmierkurs-jugendliche-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1785,6 +1786,7 @@ const LLMS_LABELS = {
   'coding-classes-in-saxony-anhalt': 'Coding classes in Saxony-Anhalt',
   'coding-classes-in-thuringia': 'Coding classes in Thuringia',
   'programmieren-lernen-ab-12': 'Programmieren lernen ab 12 (auf Englisch)',
+  'programmierkurs-jugendliche-online': 'Programmierkurs für Jugendliche online (auf Englisch)',
 };
 
 function wireLlms(slugs) {

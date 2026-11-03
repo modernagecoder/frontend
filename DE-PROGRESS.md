@@ -125,7 +125,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE101 | coding-classes-in-saxony (sac, #236675) | land (en) | 4,181 | 2.3% vs coding-classes-in-mecklenburg-vorpommern | Coding Classes in Saxony: Live Online in English, Klasse 7+ | percent, percentage points and growth factor are three different answers; say which one you mean | 83366b7f |
 | DE102 | coding-classes-in-saxony-anhalt (anc, #444967) | land (en) | 4,092 | 2% vs coding-classes-in-baden-wuerttemberg | Coding Classes in Saxony-Anhalt: Live Online in English | group the rows that belong together before you rank, then decide which rows count (aggregation and | e2891abe |
 | DE103 | coding-classes-in-thuringia (cth, #504663) | land (en) | 3,960 | 2.1% vs coding-classes-in-brandenburg | Coding Classes in Thuringia: Live Online in English | a name is not a key; use the unique identifier, or a dictionary silently overwrites rows | df4230cb |
-| DE056 | programmieren-lernen-ab-12 (ple, #425B8F) | door-de (de) | 3,922 | 2.5% vs informatik-abitur-vorbereitung | Programmieren lernen ab 12: live online auf Englisch | halve what is left; a good guessing strategy needs at most seven questions for 1 to 100 (binary search) | (this commit) |
+| DE056 | programmieren-lernen-ab-12 (ple, #425B8F) | door-de (de) | 3,922 | 2.5% vs informatik-abitur-vorbereitung | Programmieren lernen ab 12: live online auf Englisch | halve what is left; a good guessing strategy needs at most seven questions for 1 to 100 (binary search) | 820db7cc |
+| DE057 | programmierkurs-jugendliche-online (pju, #7B476F) | door-de (de) | 3,598 | 2.1% vs mathe-nachhilfe-auf-englisch | Programmierkurs für Jugendliche online, live auf Englisch | a stop condition with != can be jumped over; stop with a comparison and make sure every step moves towards it | (this commit) |
 
 ## Notes
 
