@@ -851,6 +851,7 @@ const SLUGS = [
   'coding-classes-in-mecklenburg-vorpommern',
   'coding-classes-in-saxony',
   'coding-classes-in-saxony-anhalt',
+  'coding-classes-in-thuringia',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1781,6 +1782,7 @@ const LLMS_LABELS = {
   'coding-classes-in-mecklenburg-vorpommern': 'Coding classes in Mecklenburg-Vorpommern',
   'coding-classes-in-saxony': 'Coding classes in Saxony',
   'coding-classes-in-saxony-anhalt': 'Coding classes in Saxony-Anhalt',
+  'coding-classes-in-thuringia': 'Coding classes in Thuringia',
 };
 
 function wireLlms(slugs) {

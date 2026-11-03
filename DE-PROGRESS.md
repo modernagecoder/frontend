@@ -123,7 +123,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE099 | coding-classes-in-brandenburg (brc, #63404B) | land (en) | 4,283 | 2.2% vs coding-and-maths-classes-in-berlin-germany | Coding Classes in Brandenburg: Live Online in English | match the meaning, not the exact label; combined categories make groups overlap, so parts can add up to | 4f0f176e |
 | DE100 | coding-classes-in-mecklenburg-vorpommern (cmv, #7A5266) | land (en) | 4,023 | 1.9% vs coding-and-maths-classes-in-berlin-germany | Coding Classes in Mecklenburg-Vorpommern: Online in English | test a formula on shapes you can check by hand before you trust it on real data (the shoelace formula), | c5ad4f31 |
 | DE101 | coding-classes-in-saxony (sac, #236675) | land (en) | 4,181 | 2.3% vs coding-classes-in-mecklenburg-vorpommern | Coding Classes in Saxony: Live Online in English, Klasse 7+ | percent, percentage points and growth factor are three different answers; say which one you mean | 83366b7f |
-| DE102 | coding-classes-in-saxony-anhalt (anc, #444967) | land (en) | 4,092 | 2% vs coding-classes-in-baden-wuerttemberg | Coding Classes in Saxony-Anhalt: Live Online in English | group the rows that belong together before you rank, then decide which rows count (aggregation and | (this commit) |
+| DE102 | coding-classes-in-saxony-anhalt (anc, #444967) | land (en) | 4,092 | 2% vs coding-classes-in-baden-wuerttemberg | Coding Classes in Saxony-Anhalt: Live Online in English | group the rows that belong together before you rank, then decide which rows count (aggregation and | e2891abe |
+| DE103 | coding-classes-in-thuringia (cth, #504663) | land (en) | 3,960 | 2.1% vs coding-classes-in-brandenburg | Coding Classes in Thuringia: Live Online in English | a name is not a key; use the unique identifier, or a dictionary silently overwrites rows | (this commit) |
 
 ## Notes
 
