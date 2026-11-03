@@ -8934,4 +8934,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /abitur-maths-in-english /src/pages/abitur-maths-in-english.html 200
 /abitur-maths-in-english.md /src/pages/abitur-maths-in-english.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/informatik-in-german-schools-by-state /src/pages/informatik-in-german-schools-by-state.html 200
+/informatik-in-german-schools-by-state.md /src/pages/informatik-in-german-schools-by-state.md 200
 /* /src/pages/404.html 404

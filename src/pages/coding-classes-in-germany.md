@@ -215,7 +215,7 @@ Children usually come straight after school or on a weekend morning. Teenagers i
 
 Each page answers one question for one place, school stage or competition, with its own sources and its own project.
 
-**Guides to German school and exams:** [Abitur maths in English](/abitur-maths-in-english)
+**Guides to German school and exams:** [Abitur maths in English](/abitur-maths-in-english) · [Informatik by state](/informatik-in-german-schools-by-state)
 
 **Courses and subjects:** [AI and machine learning classes](/ai-and-machine-learning-classes-in-germany)
 

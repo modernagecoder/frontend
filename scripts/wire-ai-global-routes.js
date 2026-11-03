@@ -739,6 +739,7 @@ const SLUGS = [
   'informatik-nachhilfe-online',
   'abitur-maths-in-english',
   'coding-classes-in-germany',
+  'informatik-in-german-schools-by-state',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1557,6 +1558,7 @@ const LLMS_LABELS = {
   'informatik-nachhilfe-online': 'Informatik-Nachhilfe online (auf Englisch)',
   'abitur-maths-in-english': 'Abitur maths in English',
   'coding-classes-in-germany': 'Coding classes in Germany',
+  'informatik-in-german-schools-by-state': 'Informatik in German schools by state',
 };
 
 function wireLlms(slugs) {
