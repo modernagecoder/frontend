@@ -21,8 +21,8 @@ At a glance: Grades: 6 to 8; MATHCOUNTS: School to national, four rounds; Math K
 A dedicated competition course first, then the depth and the algebra behind it.
 
 - [Middle school math competitions](/courses/middle-school-math-competitions-course): Roughly ages 10 to 14. MATHCOUNTS, AMC 8 and Math Kangaroo.
+- [AMC 8 math competition prep](/courses/amc-8-math-competition-prep-course): Grades 5 to 8. The AMC 8 alone, explained from zero, with a worked example every fortnight.
 - [Math olympiad and competitions](/courses/olympiad-competition-mathematics-mastery): For students ready to go past middle school contests.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Grades 7 to 9. The algebra most contest problems lean on.
 
 ## MATHCOUNTS, Math Kangaroo and MOEMS compared
 
@@ -274,8 +274,8 @@ Taught live online, with the same teacher each week, as a group class or private
 Grades 6 to 8 and beyond
 
 - [Middle school math competitions](/courses/middle-school-math-competitions-course): MATHCOUNTS, AMC 8, Kangaroo.
+- [AMC 8 math competition prep](/courses/amc-8-math-competition-prep-course): The AMC 8 in depth.
 - [Olympiad and competition math](/courses/olympiad-competition-mathematics-mastery): The next level up.
-- [Problem solving for kids](/courses/problem-solving-and-computational-thinking-for-kids): Logic for younger solvers.
 
 ### School math, deeper
 

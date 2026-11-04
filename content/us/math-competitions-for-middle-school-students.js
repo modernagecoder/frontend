@@ -87,8 +87,8 @@ module.exports = {
     lede: 'A dedicated competition course first, then the depth and the algebra behind it.',
     items: [
       { course: 'middle-school-math-competitions-course', code: 'MCMS / 01', title: 'Middle school math competitions', note: 'Roughly ages 10 to 14. MATHCOUNTS, AMC 8 and Math Kangaroo.' },
-      { course: 'olympiad-competition-mathematics-mastery', code: 'MCMS / 02', title: 'Math olympiad and competitions', note: 'For students ready to go past middle school contests.' },
-      { course: 'algebra-foundations-masterclass', code: 'MCMS / 03', title: 'Algebra foundations', note: 'Grades 7 to 9. The algebra most contest problems lean on.' }
+      { course: 'amc-8-math-competition-prep-course', code: 'MCMS / 02', title: 'AMC 8 math competition prep', note: 'Grades 5 to 8. The AMC 8 alone, explained from zero, with a worked example every fortnight.' },
+      { course: 'olympiad-competition-mathematics-mastery', code: 'MCMS / 03', title: 'Math olympiad and competitions', note: 'For students ready to go past middle school contests.' }
     ]
   },
 
@@ -321,8 +321,8 @@ module.exports = {
     bands: [
       { num: 'I', h3: 'Competition math', sub: 'Grades 6 to 8 and beyond', courses: [
         { code: 'MCMS / CMP / 01', slug: 'middle-school-math-competitions-course', title: 'Middle school math competitions', blurb: 'MATHCOUNTS, AMC 8, Kangaroo.' },
-        { code: 'MCMS / CMP / 02', slug: 'olympiad-competition-mathematics-mastery', title: 'Olympiad and competition math', blurb: 'The next level up.' },
-        { code: 'MCMS / CMP / 03', slug: 'problem-solving-and-computational-thinking-for-kids', title: 'Problem solving for kids', blurb: 'Logic for younger solvers.' }
+        { code: 'MCMS / CMP / 02', slug: 'amc-8-math-competition-prep-course', title: 'AMC 8 math competition prep', blurb: 'The AMC 8 in depth.' },
+        { code: 'MCMS / CMP / 03', slug: 'olympiad-competition-mathematics-mastery', title: 'Olympiad and competition math', blurb: 'The next level up.' }
       ] },
       { num: 'II', h3: 'School math, deeper', sub: 'The base under every contest', courses: [
         { code: 'MCMS / SCH / 01', slug: 'algebra-foundations-masterclass', title: 'Algebra foundations', blurb: 'Pre-algebra and Algebra 1.' },

@@ -307,7 +307,7 @@ Grades 9 to 12
 
 - [High school math](/courses/complete-high-school-mathematics-mastery): The curriculum the COMC builds on.
 - [Ontario Grade 12 university math](/courses/ontario-grade-12-university-math-mhf4u-mcv4u-course): MHF4U and MCV4U, taught beside school.
-- [Statistics and probability](/courses/statistics-probability-maths-course): Counting and probability in depth.
+- [AMC 12 prep](/courses/amc-12-math-competition-prep-course): The AMC 12 and the AIME, alongside the COMC.
 
 ### Beyond
 

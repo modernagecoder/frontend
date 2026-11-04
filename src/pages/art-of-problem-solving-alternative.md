@@ -20,9 +20,9 @@ At a glance: AoPS founded: Textbooks from 1993; AoPS online courses: Since 2003;
 
 Our olympiad course, the middle school contest course, and algebra for the student meeting AoPS-style prealgebra and algebra.
 
-- [Olympiad mathematics](/courses/olympiad-competition-mathematics-mastery): AMC 8 and 10 through AIME-style problem solving.
-- [Middle school competitions](/courses/middle-school-math-competitions-course): MATHCOUNTS, AMC 8 and Kangaroo-style reasoning.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): Prealgebra and Algebra 1 taught for understanding.
+- [AMC 10 math competition prep](/courses/amc-10-math-competition-prep-course): Algebra, counting, number theory and geometry for the AMC 10, and the 2027 AIME path.
+- [AMC 8 math competition prep](/courses/amc-8-math-competition-prep-course): Grades 5 to 8, with a worked example every fortnight.
+- [Olympiad mathematics](/courses/olympiad-competition-mathematics-mastery): Past the AMC, through AIME-style problem solving.
 
 ## What is Art of Problem Solving?
 
@@ -228,9 +228,9 @@ Live online classes with a teacher who knows the student, in a group batch or on
 
 Grades 5 to 12
 
-- [Olympiad mathematics](/courses/olympiad-competition-mathematics-mastery): AMC to AIME problem solving.
-- [Middle school competitions](/courses/middle-school-math-competitions-course): MATHCOUNTS and AMC 8.
-- [Counting and probability](/courses/statistics-probability-maths-course): Chance and combinations.
+- [AMC 8 prep](/courses/amc-8-math-competition-prep-course): Grades 5 to 8.
+- [AMC 10 prep](/courses/amc-10-math-competition-prep-course): Grade 10 and below.
+- [AMC 12 prep](/courses/amc-12-math-competition-prep-course): The AMC 12 and the AIME.
 
 ### Core math done deeply
 

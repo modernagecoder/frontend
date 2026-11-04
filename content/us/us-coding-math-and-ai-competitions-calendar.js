@@ -322,10 +322,10 @@ module.exports = {
         { code: 'UMAC / COD / 02', slug: 'problem-solving-dsa-masterclass-teens', title: 'Problem solving and DSA', blurb: 'The structures behind them.' },
         { code: 'UMAC / COD / 03', slug: 'picoctf-cyberpatriot-cybersecurity-competition-prep-for-teens', title: 'Cybersecurity competitions', blurb: 'CyberPatriot and CTF.' }
       ] },
-      { num: 'II', h3: 'Math contests', sub: 'MATHCOUNTS, Kangaroo, MOEMS', courses: [
+      { num: 'II', h3: 'Math contests', sub: 'MATHCOUNTS, Kangaroo, AMC', courses: [
         { code: 'UMAC / MTH / 01', slug: 'middle-school-math-competitions-course', title: 'Middle school math competitions', blurb: 'The three main contests.' },
-        { code: 'UMAC / MTH / 02', slug: 'olympiad-competition-mathematics-mastery', title: 'Olympiad mathematics', blurb: 'Beyond middle school level.' },
-        { code: 'UMAC / MTH / 03', slug: 'algebra-foundations-masterclass', title: 'Algebra foundations', blurb: 'The base for every contest.' }
+        { code: 'UMAC / MTH / 02', slug: 'amc-8-math-competition-prep-course', title: 'AMC 8 prep', blurb: 'For the January window.' },
+        { code: 'UMAC / MTH / 03', slug: 'amc-10-math-competition-prep-course', title: 'AMC 10 prep', blurb: 'For the November dates.' }
       ] },
       { num: 'III', h3: 'AI and building', sub: 'SI Challenge, USA-NA-AIO, apps', courses: [
         { code: 'UMAC / AI / 01', slug: 'ai-ml-masterclass-teens', title: 'AI and machine learning', blurb: 'Models built and explained.' },

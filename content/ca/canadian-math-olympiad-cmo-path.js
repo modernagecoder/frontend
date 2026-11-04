@@ -372,7 +372,7 @@ module.exports = {
       { num: 'II', h3: 'High school', sub: 'Grades 9 to 12', courses: [
         { code: 'CMOC / HS / 01', slug: 'complete-high-school-mathematics-mastery', title: 'High school math', blurb: 'The curriculum the COMC builds on.' },
         { code: 'CMOC / HS / 02', slug: 'ontario-grade-12-university-math-mhf4u-mcv4u-course', title: 'Ontario Grade 12 university math', blurb: 'MHF4U and MCV4U, taught beside school.' },
-        { code: 'CMOC / HS / 03', slug: 'statistics-probability-maths-course', title: 'Statistics and probability', blurb: 'Counting and probability in depth.' }
+        { code: 'CMOC / HS / 03', slug: 'amc-12-math-competition-prep-course', title: 'AMC 12 prep', blurb: 'The AMC 12 and the AIME, alongside the COMC.' }
       ] },
       { num: 'III', h3: 'Beyond', sub: 'University math and informatics', courses: [
         { code: 'CMOC / NEXT / 01', slug: 'college-mathematics-complete-masterclass', title: 'University mathematics', blurb: 'Analysis and linear algebra, an early look.' },

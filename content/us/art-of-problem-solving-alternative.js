@@ -83,9 +83,9 @@ module.exports = {
     h2: 'Courses for students who love hard problems',
     lede: 'Our olympiad course, the middle school contest course, and algebra for the student meeting AoPS-style prealgebra and algebra.',
     items: [
-      { course: 'olympiad-competition-mathematics-mastery', code: 'APS / 01', title: 'Olympiad mathematics', note: 'AMC 8 and 10 through AIME-style problem solving.' },
-      { course: 'middle-school-math-competitions-course', code: 'APS / 02', title: 'Middle school competitions', note: 'MATHCOUNTS, AMC 8 and Kangaroo-style reasoning.' },
-      { course: 'algebra-foundations-masterclass', code: 'APS / 03', title: 'Algebra foundations', note: 'Prealgebra and Algebra 1 taught for understanding.' }
+      { course: 'amc-10-math-competition-prep-course', code: 'APS / 01', title: 'AMC 10 math competition prep', note: 'Algebra, counting, number theory and geometry for the AMC 10, and the 2027 AIME path.' },
+      { course: 'amc-8-math-competition-prep-course', code: 'APS / 02', title: 'AMC 8 math competition prep', note: 'Grades 5 to 8, with a worked example every fortnight.' },
+      { course: 'olympiad-competition-mathematics-mastery', code: 'APS / 03', title: 'Olympiad mathematics', note: 'Past the AMC, through AIME-style problem solving.' }
     ]
   },
 
@@ -287,9 +287,9 @@ module.exports = {
     lede: 'Live online classes with a teacher who knows the student, in a group batch or one to one.',
     bands: [
       { num: 'I', h3: 'Contest math', sub: 'Grades 5 to 12', courses: [
-        { code: 'APS / CON / 01', slug: 'olympiad-competition-mathematics-mastery', title: 'Olympiad mathematics', blurb: 'AMC to AIME problem solving.' },
-        { code: 'APS / CON / 02', slug: 'middle-school-math-competitions-course', title: 'Middle school competitions', blurb: 'MATHCOUNTS and AMC 8.' },
-        { code: 'APS / CON / 03', slug: 'statistics-probability-maths-course', title: 'Counting and probability', blurb: 'Chance and combinations.' }
+        { code: 'APS / CON / 01', slug: 'amc-8-math-competition-prep-course', title: 'AMC 8 prep', blurb: 'Grades 5 to 8.' },
+        { code: 'APS / CON / 02', slug: 'amc-10-math-competition-prep-course', title: 'AMC 10 prep', blurb: 'Grade 10 and below.' },
+        { code: 'APS / CON / 03', slug: 'amc-12-math-competition-prep-course', title: 'AMC 12 prep', blurb: 'The AMC 12 and the AIME.' }
       ] },
       { num: 'II', h3: 'Core math done deeply', sub: 'Grades 4 to 12', courses: [
         { code: 'APS / COR / 01', slug: 'algebra-foundations-masterclass', title: 'Algebra foundations', blurb: 'Prealgebra and Algebra 1.' },

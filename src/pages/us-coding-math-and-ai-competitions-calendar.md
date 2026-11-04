@@ -251,11 +251,11 @@ ACSL, USACO, CyberPatriot
 
 ### Math contests
 
-MATHCOUNTS, Kangaroo, MOEMS
+MATHCOUNTS, Kangaroo, AMC
 
 - [Middle school math competitions](/courses/middle-school-math-competitions-course): The three main contests.
-- [Olympiad mathematics](/courses/olympiad-competition-mathematics-mastery): Beyond middle school level.
-- [Algebra foundations](/courses/algebra-foundations-masterclass): The base for every contest.
+- [AMC 8 prep](/courses/amc-8-math-competition-prep-course): For the January window.
+- [AMC 10 prep](/courses/amc-10-math-competition-prep-course): For the November dates.
 
 ### AI and building
 
