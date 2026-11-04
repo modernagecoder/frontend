@@ -304,6 +304,27 @@ Not in class. You write and explain your own code; that is how the thinking is l
 - [Learn coding in English](/learn-coding-in-english-germany): Why English-language classes work.
 - [How we teach](/how-we-teach): A live lesson, described.
 
+## More pages for this Land
+
+Part of the guide: [Coding classes in Bavaria](/coding-classes-in-bavaria)
+
+### Cities and pages in Bavaria
+
+- [Coding and AI classes in Fürth](/coding-and-ai-classes-in-fuerth-germany)
+- [Coding classes for kids in Erlangen](/coding-classes-for-kids-in-erlangen-germany)
+- [Coding classes for kids in Ingolstadt](/coding-classes-for-kids-in-ingolstadt-germany)
+- [Coding classes for kids in Munich](/coding-classes-for-kids-munich)
+- [Coding classes for kids in Nuremberg](/coding-classes-for-kids-nuremberg)
+- [Coding for international school students in Munich](/coding-for-international-school-students-munich)
+- [Informatik-Abitur Bayern (Unterricht auf Englisch)](/informatik-abitur-bayern)
+- [Maths tutor in Munich, in English](/math-tutor-munich-in-english)
+- [Online Python classes in Augsburg](/online-python-classes-augsburg-germany)
+- [Online Python classes in Würzburg](/online-python-classes-wuerzburg-germany)
+- [Programmieren lernen für Kinder in München (auf Englisch)](/programmieren-lernen-kinder-muenchen)
+- [Programmieren lernen für Kinder in Nürnberg](/programmieren-lernen-kinder-nuernberg)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
+
 ## Contact
 
 Book the free first class at [https://learn.modernagecoders.com/online-python-classes-regensburg-germany](https://learn.modernagecoders.com/online-python-classes-regensburg-germany#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

@@ -6,7 +6,7 @@ source: src/pages/math-tutor-frankfurt-in-english.html
 ---
 > A maths tutor in Frankfurt, in English: Modern Age Coders gives live online maths lessons in English to Frankfurt pupils from Klasse 1 to 13, following the Hessen curriculum and its exams, from the central Realschule papers in May 2027 to the Landesabitur, or the IB, IGCSE or AP courses of international schools. One regular mentor explains each method in clear English at your child's pace, in a group or one to one.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Maths in Frankfurt
+[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding classes in Hesse](/coding-classes-in-hesse) / Maths in Frankfurt
 
 Frankfurt am Main · Maths tutoring · Klasse 1 to 13
 
@@ -333,6 +333,22 @@ In India. They teach live over video, so a 16:50 lesson in Frankfurt is 21:20 fo
 - [Coding classes in Hesse](/coding-classes-in-hesse): Our page for families across the Land.
 - [Maths and coding competitions](/math-and-coding-competitions-germany): Every national contest for pupils in Germany, with dates.
 - [Coding classes in Germany](/coding-classes-in-germany): All our Germany pages.
+
+## More pages for this Land
+
+Part of the guide: [Coding classes in Hesse](/coding-classes-in-hesse)
+
+### Cities and pages in Hesse
+
+- [Coding and AI classes in Darmstadt](/coding-and-ai-classes-in-darmstadt-germany)
+- [Coding and AI classes in Kassel](/coding-and-ai-classes-in-kassel-germany)
+- [Coding classes for kids in Frankfurt](/coding-classes-for-kids-frankfurt)
+- [Coding classes for kids in Offenbach am Main](/coding-classes-for-kids-in-offenbach-am-main-germany)
+- [Coding for international school students in Frankfurt](/coding-for-international-school-students-frankfurt)
+- [Informatik-Abitur Hessen (Unterricht auf Englisch)](/informatik-abitur-hessen)
+- [Programmieren lernen für Kinder in Frankfurt (auf Englisch)](/programmieren-lernen-kinder-frankfurt)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Contact
 

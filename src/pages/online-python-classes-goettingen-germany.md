@@ -6,7 +6,7 @@ source: src/pages/online-python-classes-goettingen-germany.html
 ---
 > Online Python classes for Göttingen at Modern Age Coders are live lessons over video, taught in English: the mentor and the learner see the same code, the learner types and runs it, and the mentor explains and corrects in real time. Pupils from about 10, students and adults move along one Python path at their own speed, and the mentor tunes the lesson to how fast they work and how they speak, whether they share it with fifteen to twenty others or have it alone.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Göttingen, Python
+[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony) / Göttingen, Python
 
 Göttingen · Python · Taught live online
 
@@ -323,6 +323,23 @@ Each month. The page converts fees into euro with the ECB reference rate, while 
 - [AI and machine learning in Germany](/ai-and-machine-learning-classes-in-germany): Where Python can lead.
 - [Student labs](/student-labs): What our students build.
 - [How we teach](/how-we-teach): Our method in detail.
+
+## More pages for this Land
+
+Part of the guide: [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony)
+
+### Cities and pages in Lower Saxony
+
+- [Coding and AI classes in Braunschweig](/coding-and-ai-classes-in-braunschweig-germany)
+- [Coding and AI classes in Oldenburg](/coding-and-ai-classes-in-oldenburg-oldenburg-germany)
+- [Coding and AI classes in Wolfsburg](/coding-and-ai-classes-in-wolfsburg-germany)
+- [Coding classes for kids in Hannover](/coding-classes-for-kids-hannover)
+- [Coding classes for kids in Salzgitter](/coding-classes-for-kids-in-salzgitter-germany)
+- [Informatik-Abitur Niedersachsen (Unterricht auf Englisch)](/informatik-abitur-niedersachsen)
+- [Online Python classes in Osnabrück](/online-python-classes-osnabrueck-germany)
+- [Programmieren lernen für Kinder in Hannover (auf Englisch)](/programmieren-lernen-kinder-hannover)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Contact
 

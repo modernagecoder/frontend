@@ -6,7 +6,7 @@ source: src/pages/coding-classes-for-kids-in-salzgitter-germany.html
 ---
 > For Salzgitter children aged 6 to 12, Modern Age Coders runs coding classes that are live, online and in English. Six to eight year olds snap Scratch blocks into games and stories; at nine or so they switch to typing Python and counting real data. Their mentor, who works from India, goes at the child's speed and gets used to how they talk. Families choose a class of fifteen to twenty or private lessons, on weekday afternoons or Saturday and Sunday mornings. Lower Saxony's compulsory Informatik only begins in grade 9.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Kids in Salzgitter
+[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony) / Kids in Salzgitter
 
 Salzgitter · Coding for children · Ages 6 to 12
 
@@ -298,6 +298,23 @@ Children of about 10 to 12 count snow days at the old Salzgitter-Ringelheim weat
 - [Python for kids in Germany](/python-classes-for-kids-germany): When a child is ready to type.
 - [AI course for kids](/ai-course-for-kids-germany): How machines learn, for children.
 - [How we teach](/how-we-teach): Our live classes explained.
+
+## More pages for this Land
+
+Part of the guide: [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony)
+
+### Cities and pages in Lower Saxony
+
+- [Coding and AI classes in Braunschweig](/coding-and-ai-classes-in-braunschweig-germany)
+- [Coding and AI classes in Oldenburg](/coding-and-ai-classes-in-oldenburg-oldenburg-germany)
+- [Coding and AI classes in Wolfsburg](/coding-and-ai-classes-in-wolfsburg-germany)
+- [Coding classes for kids in Hannover](/coding-classes-for-kids-hannover)
+- [Informatik-Abitur Niedersachsen (Unterricht auf Englisch)](/informatik-abitur-niedersachsen)
+- [Online Python classes in Göttingen](/online-python-classes-goettingen-germany)
+- [Online Python classes in Osnabrück](/online-python-classes-osnabrueck-germany)
+- [Programmieren lernen für Kinder in Hannover (auf Englisch)](/programmieren-lernen-kinder-hannover)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Contact
 

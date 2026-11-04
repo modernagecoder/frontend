@@ -6,7 +6,7 @@ source: src/pages/coding-classes-for-kids-in-leverkusen-germany.html
 ---
 > Modern Age Coders teaches coding classes for kids in Leverkusen live online in English, for ages 6 to 12. Younger children make Scratch games and stories; from about nine they move to typed Python with Python and AI for Kids. A regular mentor in India keeps the same child week after week and fits pace and accent to them, in a class of fifteen to twenty or alone. NRW schools start Informatik in grade 5.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Kids in Leverkusen
+[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia) / Kids in Leverkusen
 
 Leverkusen · Coding for children · Ages 6 to 12
 
@@ -318,6 +318,47 @@ The page shows the monthly fee in euro at the European Central Bank reference ra
 - [Mathematik-Olympiade preparation](/math-olympiad-germany-preparation): Getting ready for the olympiad.
 - [Informatik-Biber practice](/informatik-biber-practice-in-english): The Biber in English.
 - [Coding classes in Germany](/coding-classes-in-germany): All our Germany pages.
+
+## More pages for this Land
+
+Part of the guide: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia)
+
+### Cities and pages in North Rhine-Westphalia
+
+- [Coding and AI classes in Bergisch Gladbach](/coding-and-ai-classes-in-bergisch-gladbach-germany)
+- [Coding and AI classes in Bielefeld](/coding-and-ai-classes-in-bielefeld-germany)
+- [Coding and AI classes in Duisburg](/coding-and-ai-classes-in-duisburg-germany)
+- [Coding and AI classes in Gütersloh](/coding-and-ai-classes-in-guetersloh-germany)
+- [Coding and AI classes in Münster](/coding-and-ai-classes-in-muenster-germany)
+- [Coding and AI classes in Neuss](/coding-and-ai-classes-in-neuss-germany)
+- [Coding and AI classes in Recklinghausen](/coding-and-ai-classes-in-recklinghausen-germany)
+- [Coding classes for kids in Bonn](/coding-classes-for-kids-bonn)
+- [Coding classes for kids in Cologne](/coding-classes-for-kids-cologne)
+- [Coding classes for kids in Dortmund](/coding-classes-for-kids-dortmund)
+- [Coding classes for kids in Düsseldorf](/coding-classes-for-kids-dusseldorf)
+- [Coding classes for kids in Essen](/coding-classes-for-kids-essen)
+- [Coding classes for kids in Aachen](/coding-classes-for-kids-in-aachen-germany)
+- [Coding classes for kids in Krefeld](/coding-classes-for-kids-in-krefeld-germany)
+- [Coding classes for kids in Moers](/coding-classes-for-kids-in-moers-germany)
+- [Coding classes for kids in Solingen](/coding-classes-for-kids-in-solingen-germany)
+- [Coding classes for kids in Wuppertal](/coding-classes-for-kids-in-wuppertal-germany)
+- [Coding for international school students in Düsseldorf](/coding-for-international-school-students-dusseldorf)
+- [Informatik-Abitur NRW (Unterricht auf Englisch)](/informatik-abitur-nrw)
+- [Maths tutor in Cologne, in English](/math-tutor-cologne-in-english)
+- [Online Python classes in Bochum](/online-python-classes-bochum-germany)
+- [Online Python classes in Bottrop](/online-python-classes-bottrop-germany)
+- [Online Python classes in Hagen](/online-python-classes-hagen-germany)
+- [Online Python classes in Hamm](/online-python-classes-hamm-germany)
+- [Online Python classes in Herne](/online-python-classes-herne-germany)
+- [Online Python classes in Mönchengladbach](/online-python-classes-moenchengladbach-germany)
+- [Online Python classes in Mülheim an der Ruhr](/online-python-classes-muelheim-an-der-ruhr-germany)
+- [Online Python classes in Oberhausen](/online-python-classes-oberhausen-germany)
+- [Online Python classes in Remscheid](/online-python-classes-remscheid-germany)
+- [Online Python classes in Siegen](/online-python-classes-siegen-germany)
+- [Programmieren lernen für Kinder in Düsseldorf (auf Englisch)](/programmieren-lernen-kinder-duesseldorf)
+- [Programmieren lernen für Kinder in Köln (auf Englisch)](/programmieren-lernen-kinder-koeln)
+
+More guides: [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Contact
 

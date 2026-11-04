@@ -6,7 +6,7 @@ source: src/pages/math-tutor-hamburg-in-english.html
 ---
 > A maths tutor in Hamburg from Modern Age Coders gives live online maths lessons in English to pupils from Klasse 5 to the Abitur, with one regular mentor who suits the pace and accent of your child. We plan toward Hamburg's central papers: ESA maths on 12 April 2027, MSA maths on 13 April 2027, and the Abitur from 13 April to 5 May 2027. Lessons are one to one or in a group of fifteen to twenty.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Maths tutor, Hamburg
+[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany) / Maths tutor, Hamburg
 
 Hamburg · Maths tutoring · Klasse 5 to 13
 
@@ -326,6 +326,18 @@ No, and nobody honestly can. We teach the maths, practise with our own tasks und
 - [IGCSE maths tutor](/igcse-maths-tutor-germany): For Cambridge pupils in Germany.
 - [Mathematik-Olympiade](/math-olympiad-germany-preparation): Rounds and our own practice problems.
 - [Maths tutoring costs](/math-tutor-cost-germany): What maths help costs in Germany.
+
+## More pages for this Land
+
+Part of the guide: [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany)
+
+### More Hamburg pages
+
+- [Coding classes for kids in Hamburg](/coding-classes-for-kids-hamburg)
+- [Coding for international school students in Hamburg](/coding-for-international-school-students-hamburg)
+- [Programmieren lernen für Kinder in Hamburg (auf Englisch)](/programmieren-lernen-kinder-hamburg)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Contact
 

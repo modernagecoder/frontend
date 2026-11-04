@@ -6,7 +6,7 @@ source: src/pages/programmieren-lernen-kinder-frankfurt.html
 ---
 > Programmieren lernen für Kinder in Frankfurt: Modern Age Coders unterrichtet Kinder von 6 bis 12 Jahren live online und auf Englisch, mit Mentoren aus Indien. Die Jüngeren bauen Spiele mit Scratch, ab etwa 9 Jahren schreiben die Kinder echten Python-Code und arbeiten mit echten Daten der Stadt. Jedes Kind hat einen festen Mentor, der sich in Sprechtempo und Aussprache nach ihm richtet. So übt Ihr Kind Programmieren und Englisch zugleich, in der Gruppe oder im Einzelunterricht.
 
-[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Kinder in Frankfurt
+[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding in Hessen](/coding-classes-in-hesse) / Kinder in Frankfurt
 
 Frankfurt am Main · Programmieren für Kinder · 6 bis 12 Jahre
 
@@ -296,6 +296,22 @@ Unter 9 Jahren vor allem Spiele, Geschichten und Quiz in Scratch. Danach Python-
 - [Coding classes in Germany](/coding-classes-in-germany): Unser Überblick für ganz Deutschland.
 - [Coding classes in Hesse](/coding-classes-in-hesse): Unsere Seite für ganz Hessen, auf Englisch.
 - [How we teach](/how-we-teach): Ein Blick in eine Live-Stunde.
+
+## Weitere Seiten in diesem Bundesland
+
+Teil des Leitfadens: [Coding in Hessen](/coding-classes-in-hesse)
+
+### Städte und Seiten in Hessen
+
+- [Coding and AI classes in Darmstadt](/coding-and-ai-classes-in-darmstadt-germany)
+- [Coding and AI classes in Kassel](/coding-and-ai-classes-in-kassel-germany)
+- [Coding classes for kids in Frankfurt](/coding-classes-for-kids-frankfurt)
+- [Coding classes for kids in Offenbach am Main](/coding-classes-for-kids-in-offenbach-am-main-germany)
+- [Coding for international school students in Frankfurt](/coding-for-international-school-students-frankfurt)
+- [Informatik-Abitur Hessen (Unterricht auf Englisch)](/informatik-abitur-hessen)
+- [Maths tutor in Frankfurt, in English](/math-tutor-frankfurt-in-english)
+
+Weitere Leitfäden: [Coding in Nordrhein-Westfalen](/coding-classes-in-north-rhine-westphalia), [Coding in Niedersachsen](/coding-classes-in-lower-saxony), [Coding in Land Bremen](/coding-classes-in-land-bremen), [Coding in Bayern](/coding-classes-in-bavaria), [Coding in Sachsen-Anhalt](/coding-classes-in-saxony-anhalt), [Coding in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding in Saarland](/coding-classes-in-saarland), [Coding in Rheinland-Pfalz](/coding-classes-in-rhineland-palatinate), [Coding in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding in Sachsen](/coding-classes-in-saxony), [Coding in Thüringen](/coding-classes-in-thuringia), [Coding in Brandenburg](/coding-classes-in-brandenburg), [Coding in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Kontakt
 

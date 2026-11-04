@@ -315,6 +315,26 @@ No. We teach learners to think through a problem and to check any answer, includ
 - [Vibe coding and AI agents](/vibe-coding-and-ai-agents-classes-germany): Building with AI help, carefully.
 - [How we teach](/how-we-teach): What a live class is like.
 
+## More pages for this Land
+
+Part of the guide: [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg)
+
+### Cities and pages in Baden-Württemberg
+
+- [Coding classes for kids in Heidelberg](/coding-classes-for-kids-in-heidelberg-germany)
+- [Coding classes for kids in Karlsruhe](/coding-classes-for-kids-in-karlsruhe-germany)
+- [Coding classes for kids in Reutlingen](/coding-classes-for-kids-in-reutlingen-germany)
+- [Coding classes for kids in Ulm](/coding-classes-for-kids-in-ulm-germany)
+- [Coding classes for kids in Stuttgart](/coding-classes-for-kids-stuttgart)
+- [Coding for international school students in Stuttgart](/coding-for-international-school-students-stuttgart)
+- [Informatik-Abitur Baden-Württemberg (Unterricht auf Englisch)](/informatik-abitur-baden-wuerttemberg)
+- [Online Python classes in Freiburg im Breisgau](/online-python-classes-freiburg-im-breisgau-germany)
+- [Online Python classes in Heilbronn](/online-python-classes-heilbronn-germany)
+- [Online Python classes in Mannheim](/online-python-classes-mannheim-germany)
+- [Programmieren lernen für Kinder in Stuttgart](/programmieren-lernen-kinder-stuttgart)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
+
 ## Contact
 
 Book the free first class at [https://learn.modernagecoders.com/coding-and-ai-classes-in-pforzheim-germany](https://learn.modernagecoders.com/coding-and-ai-classes-in-pforzheim-germany#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

@@ -336,6 +336,15 @@ No. We are an independent online school, not linked to the Ministerium für Bild
 - [Learn to think, not copy AI](/learn-to-think-not-copy-ai-germany): Why we teach reasoning first.
 - [How we teach](/how-we-teach): What happens in a live lesson.
 
+## Every page for this Land
+
+### Cities and pages in Saxony-Anhalt
+
+- [Coding and AI classes in Halle (Saale)](/coding-and-ai-classes-in-halle-saale-germany)
+- [Coding and AI classes in Magdeburg](/coding-and-ai-classes-in-magdeburg-germany)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
+
 ## Contact
 
 Book the free first class at [https://learn.modernagecoders.com/coding-classes-in-saxony-anhalt](https://learn.modernagecoders.com/coding-classes-in-saxony-anhalt#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

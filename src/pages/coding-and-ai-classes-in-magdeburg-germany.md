@@ -6,7 +6,7 @@ source: src/pages/coding-and-ai-classes-in-magdeburg-germany.html
 ---
 > Modern Age Coders teaches coding and AI to Magdeburg learners of every age in live online classes held in English. Children begin with Scratch and Python; teenagers learn Python, data and machine learning; adults learn to build and judge AI models for work. A regular mentor matches each learner's pace and accent, and you choose a group of 15 to 20 or one-to-one lessons, at times from mid afternoon to the weekend.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Coding and AI in Magdeburg
+[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt) / Coding and AI in Magdeburg
 
 Magdeburg · Coding and AI · Children, teens, adults
 
@@ -317,6 +317,16 @@ An original project of ours on the Deutscher Wetterdienst's Magdeburg station da
 - [AI course for kids](/ai-course-for-kids-germany): AI for younger learners.
 - [AI tools age guide](/ai-tools-age-guide): Which tools suit which age.
 - [How we teach](/how-we-teach): Our live lessons explained.
+
+## More pages for this Land
+
+Part of the guide: [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt)
+
+### Cities and pages in Saxony-Anhalt
+
+- [Coding and AI classes in Halle (Saale)](/coding-and-ai-classes-in-halle-saale-germany)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Contact
 

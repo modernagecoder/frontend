@@ -6,7 +6,7 @@ source: src/pages/coding-classes-for-kids-dresden.html
 ---
 > For Dresden children of 6 to 12, Modern Age Coders runs live online coding classes in English: puzzles and Scratch at the start, then Python typed by the child, with maths and small AI projects in our Python and AI for Kids course. A mentor fits the lesson to your child's pace and accent, in a group of fifteen to twenty or one to one. It prepares the ground for the Informatik that Saxony teaches every week from grade 7.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Kids in Dresden
+[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding classes in Saxony](/coding-classes-in-saxony) / Kids in Dresden
 
 Dresden · Coding for children · Ages 6 to 12
 
@@ -310,6 +310,18 @@ Monthly. The page shows the fee in euro at the European Central Bank reference r
 - [Competitions in Germany](/math-and-coding-competitions-germany): Maths and coding contests at a glance.
 - [Coding classes in Saxony](/coding-classes-in-saxony): The Saxony Land page.
 - [How we teach](/how-we-teach): Our live lessons explained.
+
+## More pages for this Land
+
+Part of the guide: [Coding classes in Saxony](/coding-classes-in-saxony)
+
+### Cities and pages in Saxony
+
+- [Coding classes for kids in Chemnitz](/coding-classes-for-kids-in-chemnitz-germany)
+- [Coding classes for kids in Leipzig](/coding-classes-for-kids-leipzig)
+- [Programmieren lernen für Kinder in Leipzig](/programmieren-lernen-kinder-leipzig)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Contact
 

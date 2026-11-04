@@ -347,6 +347,18 @@ Each month, by card. Prices appear in euro using the European Central Bank's ref
 - [Jugendwettbewerb Informatik](/jugendwettbewerb-informatik-preparation): The national contest between Biber and BwInf.
 - [How we teach](/how-we-teach): What a live lesson looks like.
 
+## Every page for this Land
+
+### Cities and pages in Rhineland-Palatinate
+
+- [Coding and AI classes in Trier](/coding-and-ai-classes-in-trier-germany)
+- [Coding classes for kids in Koblenz](/coding-classes-for-kids-in-koblenz-germany)
+- [Coding classes for kids in Ludwigshafen am Rhein](/coding-classes-for-kids-in-ludwigshafen-am-rhein-germany)
+- [Online Python classes in Kaiserslautern](/online-python-classes-kaiserslautern-germany)
+- [Online Python classes in Mainz](/online-python-classes-mainz-germany)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
+
 ## Contact
 
 Book the free first class at [https://learn.modernagecoders.com/coding-classes-in-rhineland-palatinate](https://learn.modernagecoders.com/coding-classes-in-rhineland-palatinate#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

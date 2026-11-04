@@ -336,6 +336,15 @@ No. Modern Age Coders is a private online provider; neither the Thuringian minis
 - [Abitur computer science in English](/abitur-computer-science-in-english): The Oberstufe subject in depth.
 - [How we teach](/how-we-teach): Inside a live lesson.
 
+## Every page for this Land
+
+### Cities and pages in Thuringia
+
+- [Coding classes for kids in Erfurt](/coding-classes-for-kids-in-erfurt-germany)
+- [Online Python classes in Jena](/online-python-classes-jena-germany)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
+
 ## Contact
 
 Book the free first class at [https://learn.modernagecoders.com/coding-classes-in-thuringia](https://learn.modernagecoders.com/coding-classes-in-thuringia#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

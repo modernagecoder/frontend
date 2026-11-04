@@ -6,7 +6,7 @@ source: src/pages/programmieren-lernen-kinder-hamburg.html
 ---
 > Programmieren lernen für Kinder in Hamburg heißt bei Modern Age Coders: Kinder zwischen 6 und 12 Jahren lernen live per Video und auf Englisch, betreut von einem Mentor aus Indien, der Woche für Woche derselbe bleibt und sich nach Tempo und Aussprache Ihres Kindes richtet. Die Jüngeren starten mit Scratch und Knobelaufgaben, ab etwa 9 Jahren folgt Python. Zur Wahl stehen Einzelunterricht oder eine Gruppe von fünfzehn bis zwanzig Gleichaltrigen, und das Englisch üben die Kinder ganz nebenbei.
 
-[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Kinder in Hamburg
+[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding in Hamburg](/coding-and-maths-classes-in-hamburg-germany) / Kinder in Hamburg
 
 Hamburg · Programmieren für Kinder · 6 bis 12 Jahre
 
@@ -323,6 +323,18 @@ Ja, wenn Sie nicht pausieren möchten. Viele Familien nutzen die Frühjahrsferie
 - [Informatik-Biber üben](/informatik-biber-practice-in-english): Eigene Rätsel im Biber-Stil (auf Englisch).
 - [KI-Projekte für Kinder](/ai-projects-for-kids): Ideen nach Alter (auf Englisch).
 - [So unterrichten wir](/how-we-teach): Wie eine Stunde abläuft, Schritt für Schritt (auf Englisch).
+
+## Weitere Seiten in diesem Bundesland
+
+Teil des Leitfadens: [Coding in Hamburg](/coding-and-maths-classes-in-hamburg-germany)
+
+### Weitere Seiten zu Hamburg
+
+- [Coding classes for kids in Hamburg](/coding-classes-for-kids-hamburg)
+- [Coding for international school students in Hamburg](/coding-for-international-school-students-hamburg)
+- [Maths tutor in Hamburg, in English](/math-tutor-hamburg-in-english)
+
+Weitere Leitfäden: [Coding in Nordrhein-Westfalen](/coding-classes-in-north-rhine-westphalia), [Coding in Niedersachsen](/coding-classes-in-lower-saxony), [Coding in Land Bremen](/coding-classes-in-land-bremen), [Coding in Hessen](/coding-classes-in-hesse), [Coding in Bayern](/coding-classes-in-bavaria), [Coding in Sachsen-Anhalt](/coding-classes-in-saxony-anhalt), [Coding in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding in Saarland](/coding-classes-in-saarland), [Coding in Rheinland-Pfalz](/coding-classes-in-rhineland-palatinate), [Coding in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding in Sachsen](/coding-classes-in-saxony), [Coding in Thüringen](/coding-classes-in-thuringia), [Coding in Brandenburg](/coding-classes-in-brandenburg), [Coding in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Kontakt
 

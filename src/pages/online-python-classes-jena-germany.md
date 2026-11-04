@@ -6,7 +6,7 @@ source: src/pages/online-python-classes-jena-germany.html
 ---
 > Modern Age Coders runs online Python classes for Jena that are live, taught in English, and hands-on: on a video call the learner writes and runs Python in their own editor while the mentor watches the shared screen and asks questions. From about 9 children type their own programs; older learners go further, into data files and simple models. Classes of fifteen to twenty or one to one, with one India-based mentor who keeps to each learner's pace and accent.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Jena
+[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding classes in Thuringia](/coding-classes-in-thuringia) / Jena
 
 Jena · Python · Live online
 
@@ -292,6 +292,16 @@ Yes, in their own classes, starting from the very first line of Python.
 - [Coding for teens in Germany](/coding-classes-for-teens-germany): Courses for 13 to 18.
 - [Informatik by Land](/informatik-in-german-schools-by-state): How all sixteen Länder compare.
 - [How we teach](/how-we-teach): Our method, class by class.
+
+## More pages for this Land
+
+Part of the guide: [Coding classes in Thuringia](/coding-classes-in-thuringia)
+
+### Cities and pages in Thuringia
+
+- [Coding classes for kids in Erfurt](/coding-classes-for-kids-in-erfurt-germany)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Contact
 

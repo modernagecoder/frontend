@@ -6,7 +6,7 @@ source: src/pages/programmieren-lernen-kinder-leipzig.html
 ---
 > Modern Age Coders bringt Leipziger Kindern von 6 bis 12 Jahren das Programmieren bei, live per Video und auf Englisch. Am Anfang stehen Spiele aus Bausteinen, ab etwa neun Jahren getipptes Python und kleine Datenaufgaben, etwa mit den Besucherzahlen des Leipziger Zoos. Ein fester Mentor stellt sich auf Tempo und Aussprache Ihres Kindes ein. Unterrichtet wird in Gruppen von fünfzehn bis zwanzig Kindern oder einzeln, nachmittags oder am Wochenendvormittag.
 
-[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Kinder in Leipzig
+[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding in Sachsen](/coding-classes-in-saxony) / Kinder in Leipzig
 
 Leipzig · Programmieren für Kinder · 6 bis 12 Jahre
 
@@ -298,6 +298,18 @@ Zuerst Spiele und kleine Trickfilme aus Bausteinen. Später Python, Zeichnungen 
 - [Informatik in allen Ländern](/informatik-in-german-schools-by-state): Sachsen im bundesweiten Vergleich, auf Englisch.
 - [KI-Projekte für Kinder](/ai-projects-for-kids): Projektideen nach Alter, auf Englisch.
 - [Unser Unterricht](/how-we-teach): Eine Stunde von Anfang bis Ende, auf Englisch.
+
+## Weitere Seiten in diesem Bundesland
+
+Teil des Leitfadens: [Coding in Sachsen](/coding-classes-in-saxony)
+
+### Städte und Seiten in Sachsen
+
+- [Coding classes for kids in Dresden](/coding-classes-for-kids-dresden)
+- [Coding classes for kids in Chemnitz](/coding-classes-for-kids-in-chemnitz-germany)
+- [Coding classes for kids in Leipzig](/coding-classes-for-kids-leipzig)
+
+Weitere Leitfäden: [Coding in Nordrhein-Westfalen](/coding-classes-in-north-rhine-westphalia), [Coding in Niedersachsen](/coding-classes-in-lower-saxony), [Coding in Land Bremen](/coding-classes-in-land-bremen), [Coding in Hessen](/coding-classes-in-hesse), [Coding in Bayern](/coding-classes-in-bavaria), [Coding in Sachsen-Anhalt](/coding-classes-in-saxony-anhalt), [Coding in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding in Saarland](/coding-classes-in-saarland), [Coding in Rheinland-Pfalz](/coding-classes-in-rhineland-palatinate), [Coding in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding in Thüringen](/coding-classes-in-thuringia), [Coding in Brandenburg](/coding-classes-in-brandenburg), [Coding in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Kontakt
 

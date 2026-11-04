@@ -6,7 +6,7 @@ source: src/pages/informatik-abitur-bayern.html
 ---
 > Das schriftliche Informatik-Abitur in Bayern besteht seit dem G9 aus drei Aufgaben, die Prüflinge aus vier auswählen: 255 Minuten und 90 Bewertungseinheiten auf grundlegendem, 300 Minuten und 120 auf erhöhtem Niveau, ohne Computer. Modern Age Coders bereitet darauf live online vor, auf Englisch, im Kurs Informatik Oberstufe und Abitur, in der Gruppe oder einzeln, mit einem festen Mentor für Ihr Kind.
 
-[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Informatik-Abitur Bayern
+[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding in Bayern](/coding-classes-in-bavaria) / Informatik-Abitur Bayern
 
 Bayern · G9-Gymnasium · Abitur Informatik
 
@@ -337,6 +337,27 @@ Nein. Wir unterrichten neben der Schule, vergeben keine Noten und sind weder mit
 - [Abitur computer science in English](/abitur-computer-science-in-english): Informatik-Abitur im Überblick.
 - [Learn to think, not copy AI](/learn-to-think-not-copy-ai-germany): Selbst denken statt KI abschreiben.
 - [How we teach](/how-we-teach): So sieht eine Live-Stunde aus.
+
+## Weitere Seiten in diesem Bundesland
+
+Teil des Leitfadens: [Coding in Bayern](/coding-classes-in-bavaria)
+
+### Städte und Seiten in Bayern
+
+- [Coding and AI classes in Fürth](/coding-and-ai-classes-in-fuerth-germany)
+- [Coding classes for kids in Erlangen](/coding-classes-for-kids-in-erlangen-germany)
+- [Coding classes for kids in Ingolstadt](/coding-classes-for-kids-in-ingolstadt-germany)
+- [Coding classes for kids in Munich](/coding-classes-for-kids-munich)
+- [Coding classes for kids in Nuremberg](/coding-classes-for-kids-nuremberg)
+- [Coding for international school students in Munich](/coding-for-international-school-students-munich)
+- [Maths tutor in Munich, in English](/math-tutor-munich-in-english)
+- [Online Python classes in Augsburg](/online-python-classes-augsburg-germany)
+- [Online Python classes in Regensburg](/online-python-classes-regensburg-germany)
+- [Online Python classes in Würzburg](/online-python-classes-wuerzburg-germany)
+- [Programmieren lernen für Kinder in München (auf Englisch)](/programmieren-lernen-kinder-muenchen)
+- [Programmieren lernen für Kinder in Nürnberg](/programmieren-lernen-kinder-nuernberg)
+
+Weitere Leitfäden: [Coding in Nordrhein-Westfalen](/coding-classes-in-north-rhine-westphalia), [Coding in Niedersachsen](/coding-classes-in-lower-saxony), [Coding in Land Bremen](/coding-classes-in-land-bremen), [Coding in Hessen](/coding-classes-in-hesse), [Coding in Sachsen-Anhalt](/coding-classes-in-saxony-anhalt), [Coding in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding in Saarland](/coding-classes-in-saarland), [Coding in Rheinland-Pfalz](/coding-classes-in-rhineland-palatinate), [Coding in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding in Sachsen](/coding-classes-in-saxony), [Coding in Thüringen](/coding-classes-in-thuringia), [Coding in Brandenburg](/coding-classes-in-brandenburg), [Coding in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Kontakt
 

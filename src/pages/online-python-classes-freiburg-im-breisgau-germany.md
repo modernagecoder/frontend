@@ -6,7 +6,7 @@ source: src/pages/online-python-classes-freiburg-im-breisgau-germany.html
 ---
 > Modern Age Coders gives online Python classes for Freiburg im Breisgau as live video lessons in English. A mentor watches your shared screen as you write code, asks why, and helps the moment something breaks. Teenagers from about 13 and adults progress from first scripts to real data files and then a project they design. Classes run for 15 to 20 people or for one learner alone, and the mentor, the same each week, sets the speed and the English to suit you.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Python in Freiburg
+[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg) / Python in Freiburg
 
 Freiburg im Breisgau · Python · Live online, in English
 
@@ -328,6 +328,26 @@ A teaching project we wrote around Stadt Freiburg's open hourly bike counts. Lea
 - [Python and DSA](/python-and-dsa-for-international-students-germany): For international students.
 - [Coding for adults](/coding-classes-for-adults-germany): Starting as a grown-up.
 - [How we teach](/how-we-teach): The live format, step by step.
+
+## More pages for this Land
+
+Part of the guide: [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg)
+
+### Cities and pages in Baden-Württemberg
+
+- [Coding and AI classes in Pforzheim](/coding-and-ai-classes-in-pforzheim-germany)
+- [Coding classes for kids in Heidelberg](/coding-classes-for-kids-in-heidelberg-germany)
+- [Coding classes for kids in Karlsruhe](/coding-classes-for-kids-in-karlsruhe-germany)
+- [Coding classes for kids in Reutlingen](/coding-classes-for-kids-in-reutlingen-germany)
+- [Coding classes for kids in Ulm](/coding-classes-for-kids-in-ulm-germany)
+- [Coding classes for kids in Stuttgart](/coding-classes-for-kids-stuttgart)
+- [Coding for international school students in Stuttgart](/coding-for-international-school-students-stuttgart)
+- [Informatik-Abitur Baden-Württemberg (Unterricht auf Englisch)](/informatik-abitur-baden-wuerttemberg)
+- [Online Python classes in Heilbronn](/online-python-classes-heilbronn-germany)
+- [Online Python classes in Mannheim](/online-python-classes-mannheim-germany)
+- [Programmieren lernen für Kinder in Stuttgart](/programmieren-lernen-kinder-stuttgart)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Contact
 

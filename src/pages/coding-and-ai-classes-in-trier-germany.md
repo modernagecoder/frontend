@@ -6,7 +6,7 @@ source: src/pages/coding-and-ai-classes-in-trier-germany.html
 ---
 > Modern Age Coders teaches coding and AI to learners in Trier from age 6 upwards, in live online lessons held in English. Children work in Scratch and then Python; teenagers collect and analyse data and train models; adults automate tasks and learn to use AI they can check. A regular mentor based in India sets the pace and gets used to each learner's accent. Choose a class of fifteen to twenty or one to one, in the afternoon, evening or at weekends.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Trier
+[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate) / Trier
 
 Trier · Coding and AI · All ages
 
@@ -292,6 +292,19 @@ Yes. Adult courses start from the first line of Python and move to data and AI a
 - [Vibe coding and AI agents](/vibe-coding-and-ai-agents-classes-germany): Working with AI coding tools, carefully.
 - [Online coding classes in Europe](/online-coding-classes-europe): For families near the borders.
 - [How we teach](/how-we-teach): What happens in a live class.
+
+## More pages for this Land
+
+Part of the guide: [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate)
+
+### Cities and pages in Rhineland-Palatinate
+
+- [Coding classes for kids in Koblenz](/coding-classes-for-kids-in-koblenz-germany)
+- [Coding classes for kids in Ludwigshafen am Rhein](/coding-classes-for-kids-in-ludwigshafen-am-rhein-germany)
+- [Online Python classes in Kaiserslautern](/online-python-classes-kaiserslautern-germany)
+- [Online Python classes in Mainz](/online-python-classes-mainz-germany)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Contact
 

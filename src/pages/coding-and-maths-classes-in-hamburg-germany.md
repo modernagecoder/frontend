@@ -356,6 +356,17 @@ Monthly. Fees are shown in euro at the European Central Bank reference rate and 
 - [International school pupils](/coding-for-international-school-students-germany): IB, IGCSE and AP computing in Germany.
 - [How we teach](/how-we-teach): Our live lessons in detail.
 
+## Every page for this Land
+
+### More Hamburg pages
+
+- [Coding classes for kids in Hamburg](/coding-classes-for-kids-hamburg)
+- [Coding for international school students in Hamburg](/coding-for-international-school-students-hamburg)
+- [Maths tutor in Hamburg, in English](/math-tutor-hamburg-in-english)
+- [Programmieren lernen für Kinder in Hamburg (auf Englisch)](/programmieren-lernen-kinder-hamburg)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
+
 ## Contact
 
 Book the free first class at [https://learn.modernagecoders.com/coding-and-maths-classes-in-hamburg-germany](https://learn.modernagecoders.com/coding-and-maths-classes-in-hamburg-germany#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

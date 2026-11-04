@@ -6,7 +6,7 @@ source: src/pages/programmieren-lernen-kinder-berlin.html
 ---
 > Programmieren lernen für Kinder in Berlin bei Modern Age Coders heißt: Live-Online-Unterricht auf Englisch für Kinder von 6 bis 12 Jahren, mit einem festen Mentor aus Indien, der sich an Tempo und Aussprache Ihres Kindes anpasst. Erst Scratch-Spiele, ab etwa 9 Jahren Python und kleine KI-Projekte. Ihr Kind lernt in einer Gruppe mit fünfzehn bis zwanzig Kindern oder im Einzelunterricht, nachmittags oder am Wochenende, und übt nebenbei Englisch.
 
-[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Kinder in Berlin
+[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding in Berlin](/coding-and-maths-classes-in-berlin-germany) / Kinder in Berlin
 
 Berlin · Programmieren für Kinder · 6 bis 12 Jahre
 
@@ -318,6 +318,18 @@ Nein, nicht in den Kursen für 6 bis 12 Jahre. Kinder lernen, selbst zu denken u
 - [Informatik-Biber üben](/informatik-biber-practice-in-english): Eigene Übungsrätsel im Biber-Stil (auf Englisch).
 - [Scratch für Kinder](/scratch-coding-classes-for-kids): Wo die meisten jungen Kinder beginnen (auf Englisch).
 - [So unterrichten wir](/how-we-teach): Eine Live-Stunde im Detail (auf Englisch).
+
+## Weitere Seiten in diesem Bundesland
+
+Teil des Leitfadens: [Coding in Berlin](/coding-and-maths-classes-in-berlin-germany)
+
+### Weitere Seiten zu Berlin
+
+- [Coding classes for kids in Berlin](/coding-classes-for-kids-berlin)
+- [Coding for international school students in Berlin](/coding-for-international-school-students-berlin)
+- [Maths tutor in Berlin, in English](/math-tutor-berlin-in-english)
+
+Weitere Leitfäden: [Coding in Nordrhein-Westfalen](/coding-classes-in-north-rhine-westphalia), [Coding in Niedersachsen](/coding-classes-in-lower-saxony), [Coding in Land Bremen](/coding-classes-in-land-bremen), [Coding in Hessen](/coding-classes-in-hesse), [Coding in Bayern](/coding-classes-in-bavaria), [Coding in Sachsen-Anhalt](/coding-classes-in-saxony-anhalt), [Coding in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding in Saarland](/coding-classes-in-saarland), [Coding in Rheinland-Pfalz](/coding-classes-in-rhineland-palatinate), [Coding in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding in Sachsen](/coding-classes-in-saxony), [Coding in Thüringen](/coding-classes-in-thuringia), [Coding in Brandenburg](/coding-classes-in-brandenburg), [Coding in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Kontakt
 

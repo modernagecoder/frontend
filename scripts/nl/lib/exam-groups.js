@@ -20,7 +20,7 @@ function live(slug) { return fs.existsSync(path.join(ROOT, 'src', 'pages', slug 
 
 function label(m) {
   if (typeof m !== 'string') return m.label;
-  for (const d of ['uk', 'us']) {
+  for (const d of ['uk', 'us', 'de']) {
     const f = path.join(ROOT, 'content', d, m + '.js');
     if (fs.existsSync(f)) { const mod = require(f); return mod.routeLabel || String(mod.pageName).replace(/<[^>]+>/g, ''); }
   }
@@ -33,7 +33,8 @@ function load() {
     index: h.index,
     market: h.market,
     label: h.label,
-    sections: h.sections.map(s => ({ name: s.name, members: s.members.map(m => typeof m === 'string' ? m : m.slug), raw: s.members }))
+    label_de: h.label_de || h.label,
+    sections: h.sections.map(s => ({ name: s.name, name_de: s.name_de || s.name, members: s.members.map(m => typeof m === 'string' ? m : m.slug), raw: s.members }))
   }));
   return cache;
 }
@@ -44,33 +45,46 @@ function links(sec, self) {
     .map(x => ({ href: '/' + x.slug, label: label(x.m) }));
 }
 
+// Germany Land hubs (market DE): German-language pages (market lang de-DE) get the German headings and labels.
+function words(page, hub) {
+  const de = hub.market === 'DE' && page.market && /^de/.test(page.market.lang || '');
+  if (hub.market !== 'DE') return { all: 'Every page in this guide', rel: 'Related pages in this guide', sec: s => s.name, lab: h => h.label };
+  return de
+    ? { all: 'Alle Seiten in diesem Bundesland', rel: 'Weitere Seiten in diesem Bundesland', sec: s => s.name_de, lab: h => h.label_de }
+    : { all: 'Every page for this Land', rel: 'More pages for this Land', sec: s => s.name, lab: h => h.label };
+}
+
 function withGroup(page) {
   const hubs = load();
   const own = hubs.find(h => h.index === page.slug);
   if (own) {
+    const w = words(page, own);
     return Object.assign({}, page, { cluster_related: {
-      h2: 'Every page in this guide',
+      h2: w.all,
       index: null,
-      sections: own.sections.map(s => ({ name: s.name, links: links(s, page.slug) })).filter(s => s.links.length),
-      others: hubs.filter(h => h !== own && h.market === own.market && live(h.index)).map(h => ({ href: '/' + h.index, label: h.label }))
+      sections: own.sections.map(s => ({ name: w.sec(s), links: links(s, page.slug) })).filter(s => s.links.length),
+      others: hubs.filter(h => h !== own && h.market === own.market && live(h.index)).map(h => ({ href: '/' + h.index, label: w.lab(h) }))
     } });
   }
   const mine = hubs.filter(h => h.sections.some(s => s.members.includes(page.slug)));
   if (!mine.length) return page;
   const hub = mine[0];
+  const w = words(page, hub);
   const indexLive = live(hub.index);
   const sections = [];
   // Every section of every hub the page belongs to, the page's own sections first.
   for (const pass of [true, false]) for (const h of mine) for (const s of h.sections) {
     if (s.members.includes(page.slug) !== pass) continue;
     const l = links(s, page.slug);
-    if (l.length && !sections.some(x => x.name === s.name)) sections.push({ name: s.name, links: l });
+    if (l.length && !sections.some(x => x.name === w.sec(s))) sections.push({ name: w.sec(s), links: l });
   }
-  const others = hubs.filter(h => h !== hub && h.market === hub.market && live(h.index)).map(h => ({ href: '/' + h.index, label: h.label }));
-  const crumbs = indexLive ? page.crumbs.concat([{ name: hub.label, href: '/' + hub.index }]) : page.crumbs;
+  const others = hubs.filter(h => h !== hub && h.market === hub.market && live(h.index)).map(h => ({ href: '/' + h.index, label: w.lab(h) }));
+  // A page whose own crumbs already name the index (some Germany city pages crumb to their Land) keeps them as they are.
+  const hasCrumb = (page.crumbs || []).some(c => c.href === '/' + hub.index);
+  const crumbs = indexLive && !hasCrumb ? page.crumbs.concat([{ name: w.lab(hub), href: '/' + hub.index }]) : page.crumbs;
   return Object.assign({}, page, { crumbs, cluster_related: {
-    h2: 'Related pages in this guide',
-    index: indexLive ? { href: '/' + hub.index, label: hub.label } : null,
+    h2: w.rel,
+    index: indexLive ? { href: '/' + hub.index, label: w.lab(hub) } : null,
     sections,
     others
   } });

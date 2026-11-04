@@ -6,7 +6,7 @@ source: src/pages/coding-classes-for-kids-frankfurt.html
 ---
 > Coding classes for kids in Frankfurt: Modern Age Coders teaches Frankfurt children aged 6 to 12 to code in live online lessons in English. Younger children build games with Scratch blocks; from about 9 they type real Python and work with real data, such as Frankfurt's high-rise register. One regular mentor sets the pace and speaks clearly for children still learning English. Classes run after school or on weekend mornings, one to one or with fifteen to twenty children.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Kids in Frankfurt
+[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding classes in Hesse](/coding-classes-in-hesse) / Kids in Frankfurt
 
 Frankfurt am Main · Coding for children · Ages 6 to 12
 
@@ -319,6 +319,22 @@ Under 9, mostly Scratch games, animated stories and quizzes. From about 9, Pytho
 - [Scratch classes for kids](/scratch-coding-classes-for-kids): Where the youngest children begin.
 - [Coding classes in Hesse](/coding-classes-in-hesse): School rules, holidays and data for the whole Land.
 - [How we teach](/how-we-teach): Our live lessons, step by step.
+
+## More pages for this Land
+
+Part of the guide: [Coding classes in Hesse](/coding-classes-in-hesse)
+
+### Cities and pages in Hesse
+
+- [Coding and AI classes in Darmstadt](/coding-and-ai-classes-in-darmstadt-germany)
+- [Coding and AI classes in Kassel](/coding-and-ai-classes-in-kassel-germany)
+- [Coding classes for kids in Offenbach am Main](/coding-classes-for-kids-in-offenbach-am-main-germany)
+- [Coding for international school students in Frankfurt](/coding-for-international-school-students-frankfurt)
+- [Informatik-Abitur Hessen (Unterricht auf Englisch)](/informatik-abitur-hessen)
+- [Maths tutor in Frankfurt, in English](/math-tutor-frankfurt-in-english)
+- [Programmieren lernen für Kinder in Frankfurt (auf Englisch)](/programmieren-lernen-kinder-frankfurt)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Contact
 

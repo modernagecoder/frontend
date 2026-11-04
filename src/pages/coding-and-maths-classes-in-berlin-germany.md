@@ -355,6 +355,17 @@ No. We are an independent online school with no connection to the Senatsverwaltu
 - [Mathematik-Olympiade](/math-olympiad-germany-preparation): Rounds and practice for 2026/27.
 - [Känguru practice](/kangaroo-math-germany-practice): Original problems in the Känguru style.
 
+## Every page for this Land
+
+### More Berlin pages
+
+- [Coding classes for kids in Berlin](/coding-classes-for-kids-berlin)
+- [Coding for international school students in Berlin](/coding-for-international-school-students-berlin)
+- [Maths tutor in Berlin, in English](/math-tutor-berlin-in-english)
+- [Programmieren lernen für Kinder in Berlin (auf Englisch)](/programmieren-lernen-kinder-berlin)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
+
 ## Contact
 
 Book the free first class at [https://learn.modernagecoders.com/coding-and-maths-classes-in-berlin-germany](https://learn.modernagecoders.com/coding-and-maths-classes-in-berlin-germany#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

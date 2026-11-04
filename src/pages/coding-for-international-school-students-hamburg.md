@@ -6,7 +6,7 @@ source: src/pages/coding-for-international-school-students-hamburg.html
 ---
 > Modern Age Coders offers coding for international school students in Hamburg as live online computer science lessons, taught in English, for teenagers from 13 to 19: IB Diploma Computer Science, IGCSE Computer Science 0478 for Cambridge routes, and Informatik for pupils joining a Hamburg Oberstufe. A regular mentor adapts to your pace and accent, and you choose one to one or a group of fifteen to twenty.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / International schools, Hamburg
+[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany) / International schools, Hamburg
 
 Hamburg · International schools · Ages 13 to 19
 
@@ -318,6 +318,18 @@ No. We teach you to plan, build and test it yourself and explain the assessment 
 - [IGCSE Computer Science tutor](/igcse-computer-science-tutor-germany): The 0478 papers in detail.
 - [Abitur computer science](/abitur-computer-science-in-english): Oberstufe Informatik, in English.
 - [Informatik by Land](/informatik-in-german-schools-by-state): Compulsory hours in all 16 Länder.
+
+## More pages for this Land
+
+Part of the guide: [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany)
+
+### More Hamburg pages
+
+- [Coding classes for kids in Hamburg](/coding-classes-for-kids-hamburg)
+- [Maths tutor in Hamburg, in English](/math-tutor-hamburg-in-english)
+- [Programmieren lernen für Kinder in Hamburg (auf Englisch)](/programmieren-lernen-kinder-hamburg)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Contact
 

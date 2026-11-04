@@ -6,7 +6,7 @@ source: src/pages/programmieren-lernen-kinder-hannover.html
 ---
 > Modern Age Coders bringt Hannoveraner Kindern zwischen 6 und 12 das Programmieren bei, live online und auf Englisch: zuerst mit Scratch und Knobelaufgaben, danach mit Python, das die Kinder selbst tippen, und kleinen KI-Projekten im Kurs Python and AI for Kids. Unterrichtet wird in Gruppen von fünfzehn bis zwanzig Kindern oder einzeln, immer von demselben Mentor, der sich auf das Tempo und die Aussprache Ihres Kindes einstellt. In der Schule wird Informatik in Niedersachsen erst ab Klasse 9 Pflicht.
 
-[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Kinder in Hannover
+[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding in Niedersachsen](/coding-classes-in-lower-saxony) / Kinder in Hannover
 
 Hannover · Programmieren für Kinder · 6 bis 12 Jahre
 
@@ -304,6 +304,23 @@ Angezeigt wird der Monatsbetrag in Euro, umgerechnet mit dem EZB-Referenzkurs. B
 - [Informatik-Biber auf Englisch](/informatik-biber-practice-in-english): Wie der Biber funktioniert und wie man übt.
 - [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony): Die Seite für ganz Niedersachsen (englischsprachig).
 - [So unterrichten wir](/how-we-teach): Ein Blick in den Live-Unterricht.
+
+## Weitere Seiten in diesem Bundesland
+
+Teil des Leitfadens: [Coding in Niedersachsen](/coding-classes-in-lower-saxony)
+
+### Städte und Seiten in Niedersachsen
+
+- [Coding and AI classes in Braunschweig](/coding-and-ai-classes-in-braunschweig-germany)
+- [Coding and AI classes in Oldenburg](/coding-and-ai-classes-in-oldenburg-oldenburg-germany)
+- [Coding and AI classes in Wolfsburg](/coding-and-ai-classes-in-wolfsburg-germany)
+- [Coding classes for kids in Hannover](/coding-classes-for-kids-hannover)
+- [Coding classes for kids in Salzgitter](/coding-classes-for-kids-in-salzgitter-germany)
+- [Informatik-Abitur Niedersachsen (Unterricht auf Englisch)](/informatik-abitur-niedersachsen)
+- [Online Python classes in Göttingen](/online-python-classes-goettingen-germany)
+- [Online Python classes in Osnabrück](/online-python-classes-osnabrueck-germany)
+
+Weitere Leitfäden: [Coding in Nordrhein-Westfalen](/coding-classes-in-north-rhine-westphalia), [Coding in Land Bremen](/coding-classes-in-land-bremen), [Coding in Hessen](/coding-classes-in-hesse), [Coding in Bayern](/coding-classes-in-bavaria), [Coding in Sachsen-Anhalt](/coding-classes-in-saxony-anhalt), [Coding in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding in Saarland](/coding-classes-in-saarland), [Coding in Rheinland-Pfalz](/coding-classes-in-rhineland-palatinate), [Coding in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding in Sachsen](/coding-classes-in-saxony), [Coding in Thüringen](/coding-classes-in-thuringia), [Coding in Brandenburg](/coding-classes-in-brandenburg), [Coding in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Kontakt
 

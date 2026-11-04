@@ -6,7 +6,7 @@ source: src/pages/informatik-abitur-baden-wuerttemberg.html
 ---
 > Das schriftliche Informatik-Abitur 2027 in Baden-Württemberg gibt es im Leistungsfach an Schulversuchsschulen: Pflichtteil A plus drei von vier Wahlaufgaben, je 30 Bewertungseinheiten, 270 Minuten, am Montag, 19. April 2027. Wer sich mit Modern Age Coders vorbereitet, lernt live im Videounterricht und auf Englisch, im Kurs Informatik Oberstufe und Abitur: als Teil einer Gruppe oder allein, begleitet von einem festen Mentor im Tempo Ihres Kindes.
 
-[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Informatik-Abitur Baden-Württemberg
+[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg) / Informatik-Abitur Baden-Württemberg
 
 Baden-Württemberg · Abitur 2027 · Leistungsfach Informatik
 
@@ -354,6 +354,26 @@ Nein. Wir sind mit Ministerium und Abiturkommission nicht verbunden, unterrichte
 - [Abitur computer science in English](/abitur-computer-science-in-english): Informatik im Abitur auf Englisch.
 - [Learn to think, not copy AI](/learn-to-think-not-copy-ai-germany): Denken lernen statt abschreiben.
 - [How we teach](/how-we-teach): Wie eine Live-Stunde abläuft.
+
+## Weitere Seiten in diesem Bundesland
+
+Teil des Leitfadens: [Coding in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg)
+
+### Städte und Seiten in Baden-Württemberg
+
+- [Coding and AI classes in Pforzheim](/coding-and-ai-classes-in-pforzheim-germany)
+- [Coding classes for kids in Heidelberg](/coding-classes-for-kids-in-heidelberg-germany)
+- [Coding classes for kids in Karlsruhe](/coding-classes-for-kids-in-karlsruhe-germany)
+- [Coding classes for kids in Reutlingen](/coding-classes-for-kids-in-reutlingen-germany)
+- [Coding classes for kids in Ulm](/coding-classes-for-kids-in-ulm-germany)
+- [Coding classes for kids in Stuttgart](/coding-classes-for-kids-stuttgart)
+- [Coding for international school students in Stuttgart](/coding-for-international-school-students-stuttgart)
+- [Online Python classes in Freiburg im Breisgau](/online-python-classes-freiburg-im-breisgau-germany)
+- [Online Python classes in Heilbronn](/online-python-classes-heilbronn-germany)
+- [Online Python classes in Mannheim](/online-python-classes-mannheim-germany)
+- [Programmieren lernen für Kinder in Stuttgart](/programmieren-lernen-kinder-stuttgart)
+
+Weitere Leitfäden: [Coding in Nordrhein-Westfalen](/coding-classes-in-north-rhine-westphalia), [Coding in Niedersachsen](/coding-classes-in-lower-saxony), [Coding in Land Bremen](/coding-classes-in-land-bremen), [Coding in Hessen](/coding-classes-in-hesse), [Coding in Bayern](/coding-classes-in-bavaria), [Coding in Sachsen-Anhalt](/coding-classes-in-saxony-anhalt), [Coding in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding in Saarland](/coding-classes-in-saarland), [Coding in Rheinland-Pfalz](/coding-classes-in-rhineland-palatinate), [Coding in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding in Sachsen](/coding-classes-in-saxony), [Coding in Thüringen](/coding-classes-in-thuringia), [Coding in Brandenburg](/coding-classes-in-brandenburg), [Coding in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Kontakt
 

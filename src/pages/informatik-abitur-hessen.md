@@ -6,7 +6,7 @@ source: src/pages/informatik-abitur-hessen.html
 ---
 > Im hessischen Landesabitur 2027 gibt es die Pflichtaufgabe A in Informatik auf Java oder Python, je nach Unterrichtssprache; geschrieben wird ohne PC, im Grundkurs am 15. April 2027 und im Leistungskurs am 19. April 2027. Modern Age Coders bereitet live online darauf vor, auf Englisch, im Kurs Informatik Oberstufe und Abitur, als Gruppe oder einzeln, mit festem Mentor und angepasstem Tempo.
 
-[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Informatik-Abitur Hessen
+[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding in Hessen](/coding-classes-in-hesse) / Informatik-Abitur Hessen
 
 Hessen · Landesabitur 2027 · Informatik
 
@@ -316,6 +316,22 @@ Nein. Wir unterrichten neben der Schule, vergeben keine Noten und versprechen ke
 - [Abitur computer science in English](/abitur-computer-science-in-english): Das Fach im Abitur, englisch erklärt.
 - [Abitur maths in English](/abitur-maths-in-english): Mathematik-Abitur auf Englisch.
 - [Student labs](/student-labs): Projekte unserer Lernenden.
+
+## Weitere Seiten in diesem Bundesland
+
+Teil des Leitfadens: [Coding in Hessen](/coding-classes-in-hesse)
+
+### Städte und Seiten in Hessen
+
+- [Coding and AI classes in Darmstadt](/coding-and-ai-classes-in-darmstadt-germany)
+- [Coding and AI classes in Kassel](/coding-and-ai-classes-in-kassel-germany)
+- [Coding classes for kids in Frankfurt](/coding-classes-for-kids-frankfurt)
+- [Coding classes for kids in Offenbach am Main](/coding-classes-for-kids-in-offenbach-am-main-germany)
+- [Coding for international school students in Frankfurt](/coding-for-international-school-students-frankfurt)
+- [Maths tutor in Frankfurt, in English](/math-tutor-frankfurt-in-english)
+- [Programmieren lernen für Kinder in Frankfurt (auf Englisch)](/programmieren-lernen-kinder-frankfurt)
+
+Weitere Leitfäden: [Coding in Nordrhein-Westfalen](/coding-classes-in-north-rhine-westphalia), [Coding in Niedersachsen](/coding-classes-in-lower-saxony), [Coding in Land Bremen](/coding-classes-in-land-bremen), [Coding in Bayern](/coding-classes-in-bavaria), [Coding in Sachsen-Anhalt](/coding-classes-in-saxony-anhalt), [Coding in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding in Saarland](/coding-classes-in-saarland), [Coding in Rheinland-Pfalz](/coding-classes-in-rhineland-palatinate), [Coding in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding in Sachsen](/coding-classes-in-saxony), [Coding in Thüringen](/coding-classes-in-thuringia), [Coding in Brandenburg](/coding-classes-in-brandenburg), [Coding in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Kontakt
 

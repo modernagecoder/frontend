@@ -1,5 +1,5 @@
 {
-  "_about": "UK and US exams cluster (2026-10-31): each hub has one index page and named sections. render-ag adds a related-pages block (class ag-siblings, excluded from the uniqueness gate) and an index breadcrumb to every member. Members are content/uk|us module slugs (label = routeLabel) or {slug, label} for legacy pages outside the pipeline. A link is emitted only when src/pages/<slug>.html exists.",
+  "_about": "UK and US exams cluster (2026-10-31): each hub has one index page and named sections. render-ag adds a related-pages block (class ag-siblings, excluded from the uniqueness gate) and an index breadcrumb to every member. Members are content/uk|us module slugs (label = routeLabel) or {slug, label} for legacy pages outside the pipeline. A link is emitted only when src/pages/<slug>.html exists. Germany (2026-11-04): one hub per Land, index = the Land page, members = its city pages and Land Abitur doors from content/de; label_de and name_de are used on German-language pages.",
   "hubs": [
     {
       "index": "uk-maths-exam-boards-and-specification-codes",
@@ -101,6 +101,150 @@
         { "name": "Math contests", "members": ["moems-math-olympiad-preparation", "noetic-math-contest-preparation", "math-league-contest-preparation", "continental-math-league-preparation", "math-competitions-for-middle-school-students", "online-math-circle-for-kids", "art-of-problem-solving-alternative"] },
         { "name": "Coding and robotics", "members": ["bebras-challenge-practice", "first-lego-league-coding-help-usa", "ftc-programming-help", "vex-iq-programming-help", "science-olympiad-coding-events-help", "acsl-competition-preparation", "coding-competitions-for-middle-school-students", "coding-competitions-for-high-school-students"] },
         { "name": "Projects and next steps", "members": ["isef-computer-science-project-mentoring", "girls-who-code-next-step", "after-hour-of-code-next-steps", "us-coding-math-and-ai-competitions-calendar"] }
+      ]
+    },
+    {
+      "index": "coding-classes-in-north-rhine-westphalia",
+      "market": "DE",
+      "label": "Coding classes in North Rhine-Westphalia",
+      "label_de": "Coding in Nordrhein-Westfalen",
+      "sections": [
+        { "name": "Cities and pages in North Rhine-Westphalia", "name_de": "Städte und Seiten in Nordrhein-Westfalen", "members": ["coding-and-ai-classes-in-bergisch-gladbach-germany", "coding-and-ai-classes-in-bielefeld-germany", "coding-and-ai-classes-in-duisburg-germany", "coding-and-ai-classes-in-guetersloh-germany", "coding-and-ai-classes-in-muenster-germany", "coding-and-ai-classes-in-neuss-germany", "coding-and-ai-classes-in-recklinghausen-germany", "coding-classes-for-kids-bonn", "coding-classes-for-kids-cologne", "coding-classes-for-kids-dortmund", "coding-classes-for-kids-dusseldorf", "coding-classes-for-kids-essen", "coding-classes-for-kids-in-aachen-germany", "coding-classes-for-kids-in-krefeld-germany", "coding-classes-for-kids-in-leverkusen-germany", "coding-classes-for-kids-in-moers-germany", "coding-classes-for-kids-in-solingen-germany", "coding-classes-for-kids-in-wuppertal-germany", "coding-for-international-school-students-dusseldorf", "informatik-abitur-nrw", "math-tutor-cologne-in-english", "online-python-classes-bochum-germany", "online-python-classes-bottrop-germany", "online-python-classes-hagen-germany", "online-python-classes-hamm-germany", "online-python-classes-herne-germany", "online-python-classes-moenchengladbach-germany", "online-python-classes-muelheim-an-der-ruhr-germany", "online-python-classes-oberhausen-germany", "online-python-classes-remscheid-germany", "online-python-classes-siegen-germany", "programmieren-lernen-kinder-duesseldorf", "programmieren-lernen-kinder-koeln"] }
+      ]
+    },
+    {
+      "index": "coding-classes-in-lower-saxony",
+      "market": "DE",
+      "label": "Coding classes in Lower Saxony",
+      "label_de": "Coding in Niedersachsen",
+      "sections": [
+        { "name": "Cities and pages in Lower Saxony", "name_de": "Städte und Seiten in Niedersachsen", "members": ["coding-and-ai-classes-in-braunschweig-germany", "coding-and-ai-classes-in-oldenburg-oldenburg-germany", "coding-and-ai-classes-in-wolfsburg-germany", "coding-classes-for-kids-hannover", "coding-classes-for-kids-in-salzgitter-germany", "informatik-abitur-niedersachsen", "online-python-classes-goettingen-germany", "online-python-classes-osnabrueck-germany", "programmieren-lernen-kinder-hannover"] }
+      ]
+    },
+    {
+      "index": "coding-classes-in-land-bremen",
+      "market": "DE",
+      "label": "Coding classes in Land Bremen",
+      "label_de": "Coding in Land Bremen",
+      "sections": [
+        { "name": "More Land Bremen pages", "name_de": "Weitere Seiten zu Land Bremen", "members": ["coding-and-ai-classes-in-bremerhaven-germany", "coding-classes-for-kids-bremen"] }
+      ]
+    },
+    {
+      "index": "coding-classes-in-hesse",
+      "market": "DE",
+      "label": "Coding classes in Hesse",
+      "label_de": "Coding in Hessen",
+      "sections": [
+        { "name": "Cities and pages in Hesse", "name_de": "Städte und Seiten in Hessen", "members": ["coding-and-ai-classes-in-darmstadt-germany", "coding-and-ai-classes-in-kassel-germany", "coding-classes-for-kids-frankfurt", "coding-classes-for-kids-in-offenbach-am-main-germany", "coding-for-international-school-students-frankfurt", "informatik-abitur-hessen", "math-tutor-frankfurt-in-english", "programmieren-lernen-kinder-frankfurt"] }
+      ]
+    },
+    {
+      "index": "coding-classes-in-bavaria",
+      "market": "DE",
+      "label": "Coding classes in Bavaria",
+      "label_de": "Coding in Bayern",
+      "sections": [
+        { "name": "Cities and pages in Bavaria", "name_de": "Städte und Seiten in Bayern", "members": ["coding-and-ai-classes-in-fuerth-germany", "coding-classes-for-kids-in-erlangen-germany", "coding-classes-for-kids-in-ingolstadt-germany", "coding-classes-for-kids-munich", "coding-classes-for-kids-nuremberg", "coding-for-international-school-students-munich", "informatik-abitur-bayern", "math-tutor-munich-in-english", "online-python-classes-augsburg-germany", "online-python-classes-regensburg-germany", "online-python-classes-wuerzburg-germany", "programmieren-lernen-kinder-muenchen", "programmieren-lernen-kinder-nuernberg"] }
+      ]
+    },
+    {
+      "index": "coding-classes-in-saxony-anhalt",
+      "market": "DE",
+      "label": "Coding classes in Saxony-Anhalt",
+      "label_de": "Coding in Sachsen-Anhalt",
+      "sections": [
+        { "name": "Cities and pages in Saxony-Anhalt", "name_de": "Städte und Seiten in Sachsen-Anhalt", "members": ["coding-and-ai-classes-in-halle-saale-germany", "coding-and-ai-classes-in-magdeburg-germany"] }
+      ]
+    },
+    {
+      "index": "coding-classes-in-schleswig-holstein",
+      "market": "DE",
+      "label": "Coding classes in Schleswig-Holstein",
+      "label_de": "Coding in Schleswig-Holstein",
+      "sections": [
+        { "name": "Cities and pages in Schleswig-Holstein", "name_de": "Städte und Seiten in Schleswig-Holstein", "members": ["coding-and-ai-classes-in-luebeck-germany", "online-python-classes-kiel-germany"] }
+      ]
+    },
+    {
+      "index": "coding-classes-in-baden-wuerttemberg",
+      "market": "DE",
+      "label": "Coding classes in Baden-Württemberg",
+      "label_de": "Coding in Baden-Württemberg",
+      "sections": [
+        { "name": "Cities and pages in Baden-Württemberg", "name_de": "Städte und Seiten in Baden-Württemberg", "members": ["coding-and-ai-classes-in-pforzheim-germany", "coding-classes-for-kids-in-heidelberg-germany", "coding-classes-for-kids-in-karlsruhe-germany", "coding-classes-for-kids-in-reutlingen-germany", "coding-classes-for-kids-in-ulm-germany", "coding-classes-for-kids-stuttgart", "coding-for-international-school-students-stuttgart", "informatik-abitur-baden-wuerttemberg", "online-python-classes-freiburg-im-breisgau-germany", "online-python-classes-heilbronn-germany", "online-python-classes-mannheim-germany", "programmieren-lernen-kinder-stuttgart"] }
+      ]
+    },
+    {
+      "index": "coding-classes-in-saarland",
+      "market": "DE",
+      "label": "Coding classes in Saarland",
+      "label_de": "Coding in Saarland",
+      "sections": [
+        { "name": "Cities and pages in Saarland", "name_de": "Städte und Seiten in Saarland", "members": ["coding-and-ai-classes-in-saarbruecken-germany"] }
+      ]
+    },
+    {
+      "index": "coding-classes-in-rhineland-palatinate",
+      "market": "DE",
+      "label": "Coding classes in Rhineland-Palatinate",
+      "label_de": "Coding in Rheinland-Pfalz",
+      "sections": [
+        { "name": "Cities and pages in Rhineland-Palatinate", "name_de": "Städte und Seiten in Rheinland-Pfalz", "members": ["coding-and-ai-classes-in-trier-germany", "coding-classes-for-kids-in-koblenz-germany", "coding-classes-for-kids-in-ludwigshafen-am-rhein-germany", "online-python-classes-kaiserslautern-germany", "online-python-classes-mainz-germany"] }
+      ]
+    },
+    {
+      "index": "coding-and-maths-classes-in-berlin-germany",
+      "market": "DE",
+      "label": "Coding and maths in Berlin",
+      "label_de": "Coding in Berlin",
+      "sections": [
+        { "name": "More Berlin pages", "name_de": "Weitere Seiten zu Berlin", "members": ["coding-classes-for-kids-berlin", "coding-for-international-school-students-berlin", "math-tutor-berlin-in-english", "programmieren-lernen-kinder-berlin"] }
+      ]
+    },
+    {
+      "index": "coding-and-maths-classes-in-hamburg-germany",
+      "market": "DE",
+      "label": "Coding and maths in Hamburg",
+      "label_de": "Coding in Hamburg",
+      "sections": [
+        { "name": "More Hamburg pages", "name_de": "Weitere Seiten zu Hamburg", "members": ["coding-classes-for-kids-hamburg", "coding-for-international-school-students-hamburg", "math-tutor-hamburg-in-english", "programmieren-lernen-kinder-hamburg"] }
+      ]
+    },
+    {
+      "index": "coding-classes-in-saxony",
+      "market": "DE",
+      "label": "Coding classes in Saxony",
+      "label_de": "Coding in Sachsen",
+      "sections": [
+        { "name": "Cities and pages in Saxony", "name_de": "Städte und Seiten in Sachsen", "members": ["coding-classes-for-kids-dresden", "coding-classes-for-kids-in-chemnitz-germany", "coding-classes-for-kids-leipzig", "programmieren-lernen-kinder-leipzig"] }
+      ]
+    },
+    {
+      "index": "coding-classes-in-thuringia",
+      "market": "DE",
+      "label": "Coding classes in Thuringia",
+      "label_de": "Coding in Thüringen",
+      "sections": [
+        { "name": "Cities and pages in Thuringia", "name_de": "Städte und Seiten in Thüringen", "members": ["coding-classes-for-kids-in-erfurt-germany", "online-python-classes-jena-germany"] }
+      ]
+    },
+    {
+      "index": "coding-classes-in-brandenburg",
+      "market": "DE",
+      "label": "Coding classes in Brandenburg",
+      "label_de": "Coding in Brandenburg",
+      "sections": [
+        { "name": "Cities and pages in Brandenburg", "name_de": "Städte und Seiten in Brandenburg", "members": ["coding-classes-for-kids-in-potsdam-germany"] }
+      ]
+    },
+    {
+      "index": "coding-classes-in-mecklenburg-vorpommern",
+      "market": "DE",
+      "label": "Coding classes in Mecklenburg-Vorpommern",
+      "label_de": "Coding in Mecklenburg-Vorpommern",
+      "sections": [
+        { "name": "Cities and pages in Mecklenburg-Vorpommern", "name_de": "Städte und Seiten in Mecklenburg-Vorpommern", "members": ["coding-classes-for-kids-in-rostock-germany"] }
       ]
     }
   ]

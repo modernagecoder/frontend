@@ -6,7 +6,7 @@ source: src/pages/coding-classes-for-kids-berlin.html
 ---
 > Coding classes for kids in Berlin at Modern Age Coders are live online lessons in English for children aged 6 to 12: Scratch games first, then typed Python and small AI projects, with one regular mentor who matches your child's pace and speaks clearly for a child still learning English. Classes run in Berlin afternoons and weekend mornings, in a group of fifteen to twenty or one to one. They fill a real gap: Berlin has no Informatik lesson that every pupil must take.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Kids in Berlin
+[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany) / Kids in Berlin
 
 Berlin · Coding for children · Ages 6 to 12
 
@@ -304,6 +304,18 @@ Younger children build games and animated stories in Scratch. Children from abou
 - [AI tools age guide](/ai-tools-age-guide): Which AI tools allow which ages.
 - [AI projects for kids](/ai-projects-for-kids): More project ideas by age.
 - [How we teach](/how-we-teach): Our live classes in detail.
+
+## More pages for this Land
+
+Part of the guide: [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany)
+
+### More Berlin pages
+
+- [Coding for international school students in Berlin](/coding-for-international-school-students-berlin)
+- [Maths tutor in Berlin, in English](/math-tutor-berlin-in-english)
+- [Programmieren lernen für Kinder in Berlin (auf Englisch)](/programmieren-lernen-kinder-berlin)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Bavaria](/coding-classes-in-bavaria), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Contact
 

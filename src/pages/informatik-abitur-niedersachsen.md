@@ -6,7 +6,7 @@ source: src/pages/informatik-abitur-niedersachsen.html
 ---
 > Das Informatik-Abitur 2027 in Niedersachsen wird zentral gestellt und am Montag, 26. April 2027 geschrieben, ohne Rechner, ohne Taschenrechner und ohne Formelsammlung; erlaubt ist nur ein Informationsblatt des Landes. Modern Age Coders bereitet darauf live online vor, auf Englisch, im Kurs Informatik Oberstufe und Abitur, als Gruppe oder im Einzelunterricht, mit einem Mentor, der sich auf Ihr Kind einstellt.
 
-[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Informatik-Abitur Niedersachsen
+[Startseite](/) / [Kurse](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding in Niedersachsen](/coding-classes-in-lower-saxony) / Informatik-Abitur Niedersachsen
 
 Niedersachsen · Zentralabitur 2027 · Informatik
 
@@ -302,6 +302,23 @@ Wir unterrichten begleitend zur Schule und versprechen keine Noten. Bewertet wir
 - [Abitur computer science in English](/abitur-computer-science-in-english): Das Fach im Abitur, auf Englisch erklärt.
 - [Abitur maths in English](/abitur-maths-in-english): Mathematik-Abitur auf Englisch.
 - [How we teach](/how-we-teach): Unser Unterricht im Detail.
+
+## Weitere Seiten in diesem Bundesland
+
+Teil des Leitfadens: [Coding in Niedersachsen](/coding-classes-in-lower-saxony)
+
+### Städte und Seiten in Niedersachsen
+
+- [Coding and AI classes in Braunschweig](/coding-and-ai-classes-in-braunschweig-germany)
+- [Coding and AI classes in Oldenburg](/coding-and-ai-classes-in-oldenburg-oldenburg-germany)
+- [Coding and AI classes in Wolfsburg](/coding-and-ai-classes-in-wolfsburg-germany)
+- [Coding classes for kids in Hannover](/coding-classes-for-kids-hannover)
+- [Coding classes for kids in Salzgitter](/coding-classes-for-kids-in-salzgitter-germany)
+- [Online Python classes in Göttingen](/online-python-classes-goettingen-germany)
+- [Online Python classes in Osnabrück](/online-python-classes-osnabrueck-germany)
+- [Programmieren lernen für Kinder in Hannover (auf Englisch)](/programmieren-lernen-kinder-hannover)
+
+Weitere Leitfäden: [Coding in Nordrhein-Westfalen](/coding-classes-in-north-rhine-westphalia), [Coding in Land Bremen](/coding-classes-in-land-bremen), [Coding in Hessen](/coding-classes-in-hesse), [Coding in Bayern](/coding-classes-in-bavaria), [Coding in Sachsen-Anhalt](/coding-classes-in-saxony-anhalt), [Coding in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding in Saarland](/coding-classes-in-saarland), [Coding in Rheinland-Pfalz](/coding-classes-in-rhineland-palatinate), [Coding in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding in Sachsen](/coding-classes-in-saxony), [Coding in Thüringen](/coding-classes-in-thuringia), [Coding in Brandenburg](/coding-classes-in-brandenburg), [Coding in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Kontakt
 

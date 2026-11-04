@@ -6,7 +6,7 @@ source: src/pages/coding-and-ai-classes-in-fuerth-germany.html
 ---
 > Coding and AI classes for Fürth at Modern Age Coders run live online, in English, for every age: children from 6 start with Scratch and move to Python, teenagers learn data and build machine-learning models they can explain, and adults learn Python for work and how to use AI with judgement. One regular mentor matches each learner's pace and accent, whether they sit among fifteen to twenty classmates or work alone with the mentor.
 
-[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / Fürth, all ages
+[Home](/) / [Courses](/courses) / [Coding classes in Germany](/coding-classes-in-germany) / [Coding classes in Bavaria](/coding-classes-in-bavaria) / Fürth, all ages
 
 Fürth · Coding and AI · From age 6 to adult
 
@@ -364,6 +364,27 @@ Once a month. The page displays euro, converted with the European Central Bank r
 - [AI and machine learning in Germany](/ai-and-machine-learning-classes-in-germany): A second machine-learning project on German data.
 - [AI tools age guide](/ai-tools-age-guide): Each tool's age rule, quoted.
 - [How we teach](/how-we-teach): A lesson, minute by minute.
+
+## More pages for this Land
+
+Part of the guide: [Coding classes in Bavaria](/coding-classes-in-bavaria)
+
+### Cities and pages in Bavaria
+
+- [Coding classes for kids in Erlangen](/coding-classes-for-kids-in-erlangen-germany)
+- [Coding classes for kids in Ingolstadt](/coding-classes-for-kids-in-ingolstadt-germany)
+- [Coding classes for kids in Munich](/coding-classes-for-kids-munich)
+- [Coding classes for kids in Nuremberg](/coding-classes-for-kids-nuremberg)
+- [Coding for international school students in Munich](/coding-for-international-school-students-munich)
+- [Informatik-Abitur Bayern (Unterricht auf Englisch)](/informatik-abitur-bayern)
+- [Maths tutor in Munich, in English](/math-tutor-munich-in-english)
+- [Online Python classes in Augsburg](/online-python-classes-augsburg-germany)
+- [Online Python classes in Regensburg](/online-python-classes-regensburg-germany)
+- [Online Python classes in Würzburg](/online-python-classes-wuerzburg-germany)
+- [Programmieren lernen für Kinder in München (auf Englisch)](/programmieren-lernen-kinder-muenchen)
+- [Programmieren lernen für Kinder in Nürnberg](/programmieren-lernen-kinder-nuernberg)
+
+More guides: [Coding classes in North Rhine-Westphalia](/coding-classes-in-north-rhine-westphalia), [Coding classes in Lower Saxony](/coding-classes-in-lower-saxony), [Coding classes in Land Bremen](/coding-classes-in-land-bremen), [Coding classes in Hesse](/coding-classes-in-hesse), [Coding classes in Saxony-Anhalt](/coding-classes-in-saxony-anhalt), [Coding classes in Schleswig-Holstein](/coding-classes-in-schleswig-holstein), [Coding classes in Baden-Württemberg](/coding-classes-in-baden-wuerttemberg), [Coding classes in Saarland](/coding-classes-in-saarland), [Coding classes in Rhineland-Palatinate](/coding-classes-in-rhineland-palatinate), [Coding and maths in Berlin](/coding-and-maths-classes-in-berlin-germany), [Coding and maths in Hamburg](/coding-and-maths-classes-in-hamburg-germany), [Coding classes in Saxony](/coding-classes-in-saxony), [Coding classes in Thuringia](/coding-classes-in-thuringia), [Coding classes in Brandenburg](/coding-classes-in-brandenburg), [Coding classes in Mecklenburg-Vorpommern](/coding-classes-in-mecklenburg-vorpommern)
 
 ## Contact
 
