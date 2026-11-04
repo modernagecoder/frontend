@@ -23,6 +23,10 @@ SITE = 'https://learn.modernagecoders.com'
 cfg = json.loads(re.sub(r'//.*', '', open(os.path.join(ROOT, 'pricing/pricing.config.jsonc'),
                                           encoding='utf-8').read()))
 PLANS = cfg['plans']
+# Germany (owner 2026-11-02): euro shown on the page, USD charged at checkout; same rounding as the site.
+GER = cfg.get('germany') or {}
+def eur(usd):
+    return int(float(usd) / GER['usdPerEur'] + 0.5)
 OVERRIDES = cfg['courseOverrides']
 BF = json.load(open(os.path.join(ROOT, 'scripts/brand-facts.json'), encoding='utf-8'))
 
@@ -265,6 +269,8 @@ para('Work out where the person is first, then give only the price that applies 
 out()
 out('  If the person is in India, quote in rupees.')
 out('  If the person is in Canada, quote in Canadian dollars (CAD).')
+if GER.get('live'):
+    out('  If the person is in Germany, quote the euro figure on our Germany pages (see PART 4).')
 out('  If the person is anywhere else, quote in US dollars.')
 out('  If you genuinely cannot tell, ask one short question: "Which country are you in?"')
 out('  A +1 phone number can be the United States or Canada, so ask before quoting a price.')
@@ -494,6 +500,21 @@ out('    CAD %s a month, %s.' % (PLANS['gemini']['canada']['personal'],
                                 schedule('gemini', 'canada', 'personal')))
 out('  Canadian families pay in CAD at checkout. Never quote them a US dollar figure.')
 out()
+if GER.get('live'):
+    out('FOR A STUDENT IN GERMANY, PER MONTH, SHOWN IN EURO')
+    out()
+    out('    Group class:   %s euro a month, %s' % (eur(PLANS['coding']['international']['group']),
+                                                  schedule('coding', 'international', 'group')))
+    out('    One to one:    %s euro a month, %s' % (eur(PLANS['coding']['international']['personal']),
+                                                  schedule('coding', 'international', 'personal')))
+    out()
+    para('Our Germany pages show these euro figures. Checkout charges the US dollar amount '
+         '(%s or %s US dollars, plus the payment gateway charge) and the family\'s bank converts it. '
+         'Quote the euro figure. Give the US dollar amount only if they ask what their card will be '
+         'charged. Classes for Germany are live and in English only, with a mentor matched to the '
+         'learner\'s pace and accent; we do not teach in German.'
+         % (PLANS['coding']['international']['group'], PLANS['coding']['international']['personal']), '  ')
+    out()
 out('FOR A STUDENT ANYWHERE ELSE OUTSIDE INDIA, PER MONTH')
 out()
 out('    Group class:   $%s a month, %s' % (PLANS['coding']['international']['group'],
@@ -1038,7 +1059,7 @@ para('Each guide explains one family of exams or tests and links to a page for e
      'or area. Send the guide for a broad question, and the specific page for a specific exam.', '  ')
 out()
 for h in EXAMS:
-    if ('/' + h['index']) not in sm:
+    if h['market'] not in ('GB', 'US') or ('/' + h['index']) not in sm:
         continue
     out('  %s (%s)' % (h['label'], 'UK' if h['market'] == 'GB' else 'US'))
     out('      %s/%s' % (SITE, h['index']))
@@ -1048,6 +1069,25 @@ for h in EXAMS:
             if ('/' + slug) in sm:
                 out('      %s/%s' % (SITE, slug))
     out()
+# Germany (2026-11-04): the hub, then each Land page with its city pages (the DE hubs in exam-cluster-groups.json).
+DE_HUBS = [h for h in EXAMS if h['market'] == 'DE' and ('/' + h['index']) in sm]
+if DE_HUBS:
+    out('GERMANY: THE 16 LAENDER AND THEIR CITIES')
+    out()
+    para('Classes for Germany are live and in English only, with a mentor matched to the learner\'s '
+         'pace and accent; we do not teach in German. Send the family\'s city page if there is one, '
+         'otherwise their Land page, otherwise the Germany hub.', '  ')
+    out()
+    out('  %-46s %s/coding-classes-in-germany' % ('Germany hub, every Germany page', SITE))
+    out()
+    for h in DE_HUBS:
+        out('  %s' % h['label'])
+        out('      %s/%s' % (SITE, h['index']))
+        for sec in h['sections']:
+            for slug in sec['members']:
+                if ('/' + slug) in sm:
+                    out('      %s/%s' % (SITE, slug))
+        out()
 out('BLOG ARTICLES (%d)' % len(blogs))
 out()
 for u in blogs:

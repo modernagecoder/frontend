@@ -1,6 +1,6 @@
 # Modern Age Coders: AI Agent, WhatsApp Agent and Support Knowledge Base
 
-**Version 2.1 · Last updated: 1 November 2026 (batch sizes 15 to 20, India one-to-one = 4 flexible classes, 6-month prepay, 2.5% gateway charges, Canada in CAD, Priority Live Demo, overseas demo times in the family's own clock, 24 new courses, UK and US exam guides) · Supersedes the August 2026 edition**
+**Version 2.2 · Last updated: 4 November 2026 (Germany: about 200 pages, euro on the page and USD at checkout, classes in English only; v2.1 of 1 November: batch sizes 15 to 20, India one-to-one = 4 flexible classes, 6-month prepay, 2.5% gateway charges, Canada in CAD, Priority Live Demo, overseas demo times in the family's own clock, 24 new courses, UK and US exam guides) · Supersedes the August 2026 edition**
 
 > **Purpose.** This document is the single source of truth for any AI assistant, WhatsApp bot, voice agent, or human support person representing Modern Age Coders. Read it top to bottom before answering customers. When uncertain, default to the answers and tone in this document. Anything not covered here, route to a human (Shivam Sir).
 >
@@ -217,6 +217,8 @@ Identical to coding **except the one-to-one tier**.
 | Mini Batch | **Not sold internationally.** India only. |
 
 **Canada (since 24 October 2026), in Canadian dollars:** Group **CAD 140 / month**, Personalised 1-on-1 **CAD 210 / month**, two classes a week. Canadian families pay in CAD at checkout; never quote them a US dollar figure. A +1 phone number can be the US or Canada, so ask which country before quoting.
+
+**Germany (since 2 November 2026), shown in euro:** the Germany pages, and visitors in a German time zone, show Group **€90 / month** and Personalised 1-on-1 **€134 / month**: the US dollar price converted at the ECB rate of 30 October 2026 and rounded to whole euro. **Checkout charges the US dollar amount** ($100 or $150) and the payment popup says so; the family's bank converts it. Quote a family in Germany the euro figure. If they ask what their card will be charged, say $100 (group) or $150 (one-to-one) in US dollars, plus the 2.5% gateway charge. Never put a euro and a dollar figure side by side unless they ask about the card charge.
 
 Applies to coding and maths alike. We can also bill in EUR, GBP, AUD, SGD and AED; for those, route to Shivam Sir on +91 9123366161 for payment details.
 
@@ -683,6 +685,7 @@ We are **online only**. There is no campus students attend. Our registered offic
 - **Kolkata neighbourhoods and complexes**, including Howrah, Salt Lake, Bhowanipore, Jodhpur Park and Golpark
 - **Large country clusters** for the United States (states, cities, state math tests), the United Kingdom (towns, 11+ areas, exam boards), Canada (provinces, cities, Ontario and Western courses), Australia and Ireland, plus pages for New Zealand, Germany, Switzerland, Sweden, Singapore, Hong Kong, UAE, Qatar, Saudi Arabia and more
 - **UK and US exam guides**, listed in §5.4
+- **Germany (since November 2026):** about 200 pages from the hub `/coding-classes-in-germany`: one page for each of the 16 Laender (for example `/coding-classes-in-bavaria`, `/coding-classes-in-north-rhine-westphalia`), city pages (Berlin, Hamburg, Munich, Cologne, Frankfurt and about 70 more), guides to the German school system, Informatik by Land and Abitur maths in English (`/informatik-in-german-schools-by-state`, `/abitur-maths-in-english`), IB, IGCSE, AP and A level tutoring for international-school families, competitions (BWINF, Mathematik-Olympiade, BWKI) and German-language pages such as `/programmieren-lernen-auf-englisch` and `/mathe-nachhilfe-auf-englisch`. **Every class for Germany is live and taught in English only**, by a mentor matched to the learner's pace and accent. German-language pages describe the same English-taught classes; we do not teach in German.
 
 > **Standard answer to "Are you in my city?":**
 > "Yes. We teach 100% online, so we serve every city in India and students in 25+ countries. Your child joins from home over a live video class."
@@ -845,6 +848,9 @@ Yes: state tests (STAAR, Regents, CAASPP, MCAS, PSSA and others), the SHSAT and 
 
 **Q45. We are in Canada. What does it cost?**
 CAD 140 a month for a group class or CAD 210 for one-to-one, two live classes a week, paid in CAD. The Priority Live Demo is CAD 14.
+
+**Q46. We are in Germany. Do you teach in German, and what does it cost?**
+Classes are live and in English only; we do not teach in German. We match your child with a mentor whose pace and accent suit them, and a German school's topics (Informatik, Abitur maths, IB or IGCSE) can be taught in English alongside school. It costs €90 a month for a group class or €134 for one-to-one, two live classes a week. Payment is taken in US dollars at checkout ($100 or $150, plus the 2.5% gateway charge). Send `/coding-classes-in-germany`, or the family's Land or city page.
 
 ---
 
@@ -1040,6 +1046,8 @@ PRICING (International, per month):
   Mini Batch           NOT SOLD outside India
 
 PRICING (Canada, per month, CAD): Group 140 · 1-on-1 210
+PRICING (Germany, shown in euro): Group €90 · 1-on-1 €134 · checkout charges USD $100 / $150
+GERMANY .............. classes live, English only, mentor matched to pace and accent; hub /coding-classes-in-germany
 
 6 MONTHS AT ONCE (optional): India Rs 7,199 / 14,399 / 24,000 · Canada CAD 629 / 941 · elsewhere $449 / $672
 GATEWAY CHARGE ....... 2.5% added at checkout, shown on the bill, not refunded
@@ -1084,6 +1092,7 @@ ESCALATE TO SHIVAM SIR FOR:
 
 ## 20. CHANGELOG
 
+- **4 November 2026 (v2.2).** Germany: about 200 pages (hub, 16 Laender, cities, school guides, German-language pages). Germany pages show euro (€90 group, €134 one-to-one; checkout charges USD $100 / $150). Classes for Germany are live and in English only, with a mentor matched to the learner's pace and accent. New Q46.
 - **1 November 2026 (v2.1).** Group batches **15 to 20** (owner ruling 13 October). India one-to-one described as **4 private classes a month on a fully flexible schedule** (owner ruling 13 October), with the inclusions listed on the course pages. **Canada priced in CAD** from 24 October (140 / 210, camp 280, demo 14). Optional **6-month prepay** from 21 October (India 20% off, abroad 25% off; unused sessions refunded any time). **2.5% payment gateway charge** at checkout from 23 October, not refunded. Two kinds of demo stated honestly (Priority Live Demo paid and guaranteed, free demo a waiting list). Overseas families choose demo times in their own clock (26 October). Online enrolment on every course page. 24 new courses (now 142). Ten UK and US exam guide pages. School bootcamp group corrected to ₹1,499.
 - **10 August 2026 (owner price change).** India one-to-one moved to **₹4,999 per month** for coding AND maths (the ₹8,500 maths exception ended), on a new schedule of **one class a week, four a month — India only**. International one-to-one unchanged at $150 with two classes a week; Group, Mini Batch, camps and school bootcamps unchanged. Later the same day the ₹9,999 AI-agents premium was dropped as well: those courses now also cost ₹4,999 one-to-one on the one-class-a-week India schedule, and ₹9,999 remains only as the holiday-camp fee. ₹4,999 is a current price again and no longer a retired figure; **₹7,500 and ₹8,500 are retired instead**.
 - **4 August 2026 (v2.0, this edition).** Rebuilt from the live codebase. Flat worldwide pricing adopted 1 August 2026: India ₹1,499 / ₹2,999 / ₹7,500 (maths one-to-one ₹8,500), international $100 group and $150 one-to-one. Per-country and purchasing-power pricing removed. Brand facts corrected to 10,000+ students, 547 Google reviews, 25+ countries, ages 6 to 67.

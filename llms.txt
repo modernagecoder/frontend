@@ -967,205 +967,252 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - US math placement and college readiness tests: https://learn.modernagecoders.com/us-math-placement-and-college-readiness-tests
 - Homeschool math curriculum guide: https://learn.modernagecoders.com/homeschool-math-curriculum-guide-usa
 - US math and coding competitions guide: https://learn.modernagecoders.com/us-math-and-coding-competitions-guide
-- Coding classes for kids in Berlin: https://learn.modernagecoders.com/coding-classes-for-kids-berlin
-- Informatik-Nachhilfe online (auf Englisch): https://learn.modernagecoders.com/informatik-nachhilfe-online
-- Abitur maths in English: https://learn.modernagecoders.com/abitur-maths-in-english
-- Informatik in German schools by state: https://learn.modernagecoders.com/informatik-in-german-schools-by-state
-- Abitur vs IB vs A levels maths: https://learn.modernagecoders.com/abitur-vs-ib-vs-a-levels-maths
-- German school system explained: https://learn.modernagecoders.com/german-school-system-maths-and-computing-explained
+
+## Germany (live online classes in English, mentors matched to the learner's pace and accent)
+
+Hub: https://learn.modernagecoders.com/coding-classes-in-germany. Every class is live and taught in English only; German-language pages explain the same English-taught classes. Fees show in euro on the page and checkout charges USD.
+
+### Guides to German schools, Informatik and maths
 - Abitur computer science in English: https://learn.modernagecoders.com/abitur-computer-science-in-english
+- Abitur maths in English: https://learn.modernagecoders.com/abitur-maths-in-english
+- Abitur vs IB vs A levels maths: https://learn.modernagecoders.com/abitur-vs-ib-vs-a-levels-maths
+- Best online coding classes in Germany: https://learn.modernagecoders.com/best-online-coding-classes-germany
+- Coding classes cost in Germany: https://learn.modernagecoders.com/coding-classes-cost-germany
+- German school system explained: https://learn.modernagecoders.com/german-school-system-maths-and-computing-explained
+- Informatik in German schools by state: https://learn.modernagecoders.com/informatik-in-german-schools-by-state
 - Learn to think, not copy AI: https://learn.modernagecoders.com/learn-to-think-not-copy-ai-germany
-- IB Computer Science tutor in Germany: https://learn.modernagecoders.com/ib-computer-science-tutor-germany
-- IGCSE Computer Science tutor in Germany: https://learn.modernagecoders.com/igcse-computer-science-tutor-germany
+- Maths and coding competitions in Germany: https://learn.modernagecoders.com/math-and-coding-competitions-germany
+- Maths tutor cost in Germany: https://learn.modernagecoders.com/math-tutor-cost-germany
+
+### Courses and tutoring for families in Germany
+- A level maths tutor online in Germany: https://learn.modernagecoders.com/a-level-maths-tutor-online-germany
+- AI course for kids in Germany: https://learn.modernagecoders.com/ai-course-for-kids-germany
+- AI course for school students in Germany: https://learn.modernagecoders.com/ai-course-for-school-students-germany
 - AP Computer Science tutor in Germany: https://learn.modernagecoders.com/ap-computer-science-tutor-germany
+- App development classes for teens in Germany: https://learn.modernagecoders.com/app-development-classes-for-teens-germany
+- Coding and maths for Indian families in Germany: https://learn.modernagecoders.com/coding-and-maths-for-indian-families-in-germany
+- Coding classes by age in Germany: https://learn.modernagecoders.com/coding-classes-by-age-germany
+- Coding classes for adults in Germany: https://learn.modernagecoders.com/coding-classes-for-adults-germany
+- Coding classes for kids in Germany: https://learn.modernagecoders.com/coding-classes-for-kids-germany
+- Coding classes for teens in Germany: https://learn.modernagecoders.com/coding-classes-for-teens-germany
 - Coding for international school students in Germany: https://learn.modernagecoders.com/coding-for-international-school-students-germany
 - Coding interview prep for international students in Germany: https://learn.modernagecoders.com/coding-interview-prep-for-international-students-germany
-- Python and DSA for international students in Germany: https://learn.modernagecoders.com/python-and-dsa-for-international-students-germany
-- AI course for school students in Germany: https://learn.modernagecoders.com/ai-course-for-school-students-germany
-- Roblox coding classes in Germany: https://learn.modernagecoders.com/roblox-coding-classes-germany
-- Minecraft coding classes in Germany: https://learn.modernagecoders.com/minecraft-coding-classes-germany
-- Online coding summer camp in Germany: https://learn.modernagecoders.com/online-coding-summer-camp-germany
-- Online coding classes in Europe: https://learn.modernagecoders.com/online-coding-classes-europe
-- Vibe coding and AI agents classes in Germany: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-germany
-- App development classes for teens in Germany: https://learn.modernagecoders.com/app-development-classes-for-teens-germany
-- Informatik-Biber practice in English: https://learn.modernagecoders.com/informatik-biber-practice-in-english
-- Jugendwettbewerb Informatik preparation: https://learn.modernagecoders.com/jugendwettbewerb-informatik-preparation
-- Mathematik-Olympiade preparation in English: https://learn.modernagecoders.com/math-olympiad-germany-preparation
-- Jugend forscht computer science project mentoring: https://learn.modernagecoders.com/jugend-forscht-computer-science-project-mentoring
-- Känguru der Mathematik practice in English: https://learn.modernagecoders.com/kangaroo-math-germany-practice
-- Bundeswettbewerb Informatik preparation: https://learn.modernagecoders.com/bundeswettbewerb-informatik-preparation
-- IOI 2027 in Potsdam: a guide for families: https://learn.modernagecoders.com/ioi-2027-potsdam-guide
-- Bundeswettbewerb KI (BWKI) project help: https://learn.modernagecoders.com/bundeswettbewerb-ki-bwki-project-help
-- Maths and coding competitions in Germany: https://learn.modernagecoders.com/math-and-coding-competitions-germany
-- Best online coding classes in Germany: https://learn.modernagecoders.com/best-online-coding-classes-germany
-- Maths tutor cost in Germany: https://learn.modernagecoders.com/math-tutor-cost-germany
-- Coding classes by age in Germany: https://learn.modernagecoders.com/coding-classes-by-age-germany
-- Online maths tutor in Germany: https://learn.modernagecoders.com/online-math-tutor-germany
 - English-speaking tutor in Germany: https://learn.modernagecoders.com/english-speaking-tutor-germany
-- IGCSE maths tutor in Germany: https://learn.modernagecoders.com/igcse-maths-tutor-germany
-- A level maths tutor online in Germany: https://learn.modernagecoders.com/a-level-maths-tutor-online-germany
-- Coding and maths for Indian families in Germany: https://learn.modernagecoders.com/coding-and-maths-for-indian-families-in-germany
-- Coding classes for kids in Germany: https://learn.modernagecoders.com/coding-classes-for-kids-germany
-- Online coding classes for kids in Germany: https://learn.modernagecoders.com/online-coding-classes-for-kids-germany
-- Python classes for kids in Germany: https://learn.modernagecoders.com/python-classes-for-kids-germany
-- Scratch classes for kids in Germany: https://learn.modernagecoders.com/scratch-classes-for-kids-germany
 - Game coding classes for kids in Germany: https://learn.modernagecoders.com/game-coding-classes-for-kids-germany
-- AI course for kids in Germany: https://learn.modernagecoders.com/ai-course-for-kids-germany
-- Coding classes for teens in Germany: https://learn.modernagecoders.com/coding-classes-for-teens-germany
-- Coding classes for adults in Germany: https://learn.modernagecoders.com/coding-classes-for-adults-germany
-- Online coding course for career changers in Germany: https://learn.modernagecoders.com/online-coding-course-for-career-changers-germany
-- Learn coding in English in Germany: https://learn.modernagecoders.com/learn-coding-in-english-germany
-- Python course in Germany: https://learn.modernagecoders.com/python-course-germany
-- Java classes in Germany: https://learn.modernagecoders.com/java-classes-germany
+- IB Computer Science tutor in Germany: https://learn.modernagecoders.com/ib-computer-science-tutor-germany
 - IB maths tutor in Germany: https://learn.modernagecoders.com/ib-maths-tutor-germany
-- Coding classes cost in Germany: https://learn.modernagecoders.com/coding-classes-cost-germany
-- Programmierkurs für Kinder online (auf Englisch): https://learn.modernagecoders.com/programmierkurs-kinder-online
+- IGCSE Computer Science tutor in Germany: https://learn.modernagecoders.com/igcse-computer-science-tutor-germany
+- IGCSE maths tutor in Germany: https://learn.modernagecoders.com/igcse-maths-tutor-germany
+- Java classes in Germany: https://learn.modernagecoders.com/java-classes-germany
+- Learn coding in English in Germany: https://learn.modernagecoders.com/learn-coding-in-english-germany
+- Minecraft coding classes in Germany: https://learn.modernagecoders.com/minecraft-coding-classes-germany
+- Online coding classes in Europe: https://learn.modernagecoders.com/online-coding-classes-europe
+- Online coding classes for kids in Germany: https://learn.modernagecoders.com/online-coding-classes-for-kids-germany
+- Online coding course for career changers in Germany: https://learn.modernagecoders.com/online-coding-course-for-career-changers-germany
+- Online coding summer camp in Germany: https://learn.modernagecoders.com/online-coding-summer-camp-germany
+- Online maths tutor in Germany: https://learn.modernagecoders.com/online-math-tutor-germany
+- Python and DSA for international students in Germany: https://learn.modernagecoders.com/python-and-dsa-for-international-students-germany
+- Python classes for kids in Germany: https://learn.modernagecoders.com/python-classes-for-kids-germany
+- Python course in Germany: https://learn.modernagecoders.com/python-course-germany
+- Roblox coding classes in Germany: https://learn.modernagecoders.com/roblox-coding-classes-germany
+- Scratch classes for kids in Germany: https://learn.modernagecoders.com/scratch-classes-for-kids-germany
+- Vibe coding and AI agents classes in Germany: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-germany
+
+### Competitions and olympiads
+- Bundeswettbewerb Informatik preparation: https://learn.modernagecoders.com/bundeswettbewerb-informatik-preparation
+- Bundeswettbewerb KI (BWKI) project help: https://learn.modernagecoders.com/bundeswettbewerb-ki-bwki-project-help
+- Informatik-Biber practice in English: https://learn.modernagecoders.com/informatik-biber-practice-in-english
+- IOI 2027 in Potsdam: a guide for families: https://learn.modernagecoders.com/ioi-2027-potsdam-guide
+- Jugend forscht computer science project mentoring: https://learn.modernagecoders.com/jugend-forscht-computer-science-project-mentoring
+- Jugendwettbewerb Informatik preparation: https://learn.modernagecoders.com/jugendwettbewerb-informatik-preparation
+- Känguru der Mathematik practice in English: https://learn.modernagecoders.com/kangaroo-math-germany-practice
+- Mathematik-Olympiade preparation in English: https://learn.modernagecoders.com/math-olympiad-germany-preparation
+
+### German-language pages (Seiten auf Deutsch, Unterricht auf Englisch)
+- App entwickeln lernen für Jugendliche (auf Englisch): https://learn.modernagecoders.com/app-entwickeln-lernen-jugendliche
+- Bundeswettbewerb Informatik Vorbereitung (auf Englisch): https://learn.modernagecoders.com/bundeswettbewerb-informatik-vorbereitung
 - Coding für Kinder (Unterricht auf Englisch): https://learn.modernagecoders.com/coding-fuer-kinder
-- Programmieren für Kinder ab 8 (auf Englisch): https://learn.modernagecoders.com/programmieren-fuer-kinder-ab-8
-- Scratch-Kurs für Kinder online (auf Englisch): https://learn.modernagecoders.com/scratch-kurs-kinder-online
-- Python-Kurs für Kinder online (auf Englisch): https://learn.modernagecoders.com/python-kurs-kinder-online
-- Minecraft programmieren lernen (auf Englisch): https://learn.modernagecoders.com/minecraft-programmieren-lernen-kinder
-- KI-Kurs für Kinder (auf Englisch): https://learn.modernagecoders.com/ki-kurs-fuer-kinder
-- Roblox programmieren lernen (auf Englisch): https://learn.modernagecoders.com/roblox-programmieren-lernen-kinder
-- Spiele programmieren lernen (auf Englisch): https://learn.modernagecoders.com/spiele-programmieren-lernen-kinder
-- Programmieren lernen auf Englisch: https://learn.modernagecoders.com/programmieren-lernen-auf-englisch
-- Nachhilfe auf Englisch online: https://learn.modernagecoders.com/nachhilfe-auf-englisch-online
-- Informatik-Abitur NRW (Unterricht auf Englisch): https://learn.modernagecoders.com/informatik-abitur-nrw
-- Informatik-Abitur Bayern (Unterricht auf Englisch): https://learn.modernagecoders.com/informatik-abitur-bayern
-- Informatik-Abitur Niedersachsen (Unterricht auf Englisch): https://learn.modernagecoders.com/informatik-abitur-niedersachsen
-- Informatik-Abitur Hessen (Unterricht auf Englisch): https://learn.modernagecoders.com/informatik-abitur-hessen
-- Informatik-Abitur Baden-Württemberg (Unterricht auf Englisch): https://learn.modernagecoders.com/informatik-abitur-baden-wuerttemberg
+- IB- und IGCSE-Nachhilfe in Mathe und Informatik: https://learn.modernagecoders.com/ib-und-igcse-nachhilfe-mathe-informatik
 - Informatik-Abitur Vorbereitung (auf Englisch): https://learn.modernagecoders.com/informatik-abitur-vorbereitung
+- Informatik-Nachhilfe online (auf Englisch): https://learn.modernagecoders.com/informatik-nachhilfe-online
 - Informatik-Pflichtfach: Unterstützung (auf Englisch): https://learn.modernagecoders.com/informatik-pflichtfach-unterstuetzung
-- Mathe-Nachhilfe online Gymnasium (auf Englisch): https://learn.modernagecoders.com/mathe-nachhilfe-online-gymnasium
-- Mathe-Nachhilfe online Realschule (auf Englisch): https://learn.modernagecoders.com/mathe-nachhilfe-online-realschule
-- Mathe-Nachhilfe online Oberstufe (auf Englisch): https://learn.modernagecoders.com/mathe-nachhilfe-online-oberstufe
-- Mathe-Nachhilfe Grundschule online (auf Englisch): https://learn.modernagecoders.com/mathe-nachhilfe-grundschule-online
-- Coding classes for kids in Stuttgart: https://learn.modernagecoders.com/coding-classes-for-kids-stuttgart
-- Coding for international school students in Stuttgart: https://learn.modernagecoders.com/coding-for-international-school-students-stuttgart
-- Programmieren lernen für Kinder in Stuttgart: https://learn.modernagecoders.com/programmieren-lernen-kinder-stuttgart
-- Coding classes for kids in Leipzig: https://learn.modernagecoders.com/coding-classes-for-kids-leipzig
-- Programmieren lernen für Kinder in Leipzig: https://learn.modernagecoders.com/programmieren-lernen-kinder-leipzig
-- Coding classes for kids in Nuremberg: https://learn.modernagecoders.com/coding-classes-for-kids-nuremberg
-- Programmieren lernen für Kinder in Nürnberg: https://learn.modernagecoders.com/programmieren-lernen-kinder-nuernberg
-- Coding classes for kids in Munich: https://learn.modernagecoders.com/coding-classes-for-kids-munich
-- Maths tutor in Munich, in English: https://learn.modernagecoders.com/math-tutor-munich-in-english
-- Coding for international school students in Munich: https://learn.modernagecoders.com/coding-for-international-school-students-munich
-- Programmieren lernen für Kinder in München (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-muenchen
-- Coding classes for kids in Cologne: https://learn.modernagecoders.com/coding-classes-for-kids-cologne
-- Maths tutor in Cologne, in English: https://learn.modernagecoders.com/math-tutor-cologne-in-english
-- Programmieren lernen für Kinder in Köln (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-koeln
-- Coding classes in Schleswig-Holstein: https://learn.modernagecoders.com/coding-classes-in-schleswig-holstein
-- Coding and maths classes in Hamburg: https://learn.modernagecoders.com/coding-and-maths-classes-in-hamburg-germany
-- Coding classes in Lower Saxony: https://learn.modernagecoders.com/coding-classes-in-lower-saxony
-- Coding classes in the Land Bremen: https://learn.modernagecoders.com/coding-classes-in-land-bremen
-- Coding classes in North Rhine-Westphalia: https://learn.modernagecoders.com/coding-classes-in-north-rhine-westphalia
-- Coding classes in Hesse: https://learn.modernagecoders.com/coding-classes-in-hesse
-- Coding classes in Rhineland-Palatinate: https://learn.modernagecoders.com/coding-classes-in-rhineland-palatinate
-- Coding classes in Saarland: https://learn.modernagecoders.com/coding-classes-in-saarland
+- KI-Kurs für Kinder (auf Englisch): https://learn.modernagecoders.com/ki-kurs-fuer-kinder
+- KI-Kurs für Rentner und Senioren (auf Englisch): https://learn.modernagecoders.com/ki-kurs-fuer-rentner-und-senioren
+- KI-Kurs für Schüler (auf Englisch): https://learn.modernagecoders.com/ki-kurs-fuer-schueler
 - Mathe-Abitur-Vorbereitung online (auf Englisch): https://learn.modernagecoders.com/mathe-abitur-vorbereitung-online
 - Mathe-Nachhilfe auf Englisch: https://learn.modernagecoders.com/mathe-nachhilfe-auf-englisch
-- IB- und IGCSE-Nachhilfe in Mathe und Informatik: https://learn.modernagecoders.com/ib-und-igcse-nachhilfe-mathe-informatik
-- Bundeswettbewerb Informatik Vorbereitung (auf Englisch): https://learn.modernagecoders.com/bundeswettbewerb-informatik-vorbereitung
+- Mathe-Nachhilfe Grundschule online (auf Englisch): https://learn.modernagecoders.com/mathe-nachhilfe-grundschule-online
+- Mathe-Nachhilfe online Gymnasium (auf Englisch): https://learn.modernagecoders.com/mathe-nachhilfe-online-gymnasium
+- Mathe-Nachhilfe online Oberstufe (auf Englisch): https://learn.modernagecoders.com/mathe-nachhilfe-online-oberstufe
+- Mathe-Nachhilfe online Realschule (auf Englisch): https://learn.modernagecoders.com/mathe-nachhilfe-online-realschule
 - Mathematik-Olympiade Vorbereitung (auf Englisch): https://learn.modernagecoders.com/mathematik-olympiade-vorbereitung
-- Maths tutor in Berlin, in English: https://learn.modernagecoders.com/math-tutor-berlin-in-english
-- Coding for international school students in Berlin: https://learn.modernagecoders.com/coding-for-international-school-students-berlin
-- Programmieren lernen für Kinder in Berlin (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-berlin
-- Coding classes for kids in Hamburg: https://learn.modernagecoders.com/coding-classes-for-kids-hamburg
-- Maths tutor in Hamburg, in English: https://learn.modernagecoders.com/math-tutor-hamburg-in-english
-- Coding for international school students in Hamburg: https://learn.modernagecoders.com/coding-for-international-school-students-hamburg
-- Programmieren lernen für Kinder in Hamburg (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-hamburg
-- Coding classes in Baden-Württemberg: https://learn.modernagecoders.com/coding-classes-in-baden-wuerttemberg
-- Coding classes in Bavaria: https://learn.modernagecoders.com/coding-classes-in-bavaria
-- Coding and maths classes in Berlin: https://learn.modernagecoders.com/coding-and-maths-classes-in-berlin-germany
-- Coding classes in Brandenburg: https://learn.modernagecoders.com/coding-classes-in-brandenburg
-- Coding classes in Mecklenburg-Vorpommern: https://learn.modernagecoders.com/coding-classes-in-mecklenburg-vorpommern
-- Coding classes in Saxony: https://learn.modernagecoders.com/coding-classes-in-saxony
-- Coding classes in Saxony-Anhalt: https://learn.modernagecoders.com/coding-classes-in-saxony-anhalt
-- Coding classes in Thuringia: https://learn.modernagecoders.com/coding-classes-in-thuringia
+- Minecraft programmieren lernen (auf Englisch): https://learn.modernagecoders.com/minecraft-programmieren-lernen-kinder
+- Nachhilfe auf Englisch online: https://learn.modernagecoders.com/nachhilfe-auf-englisch-online
+- Programmieren für Kinder ab 8 (auf Englisch): https://learn.modernagecoders.com/programmieren-fuer-kinder-ab-8
 - Programmieren lernen ab 12 (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-ab-12
-- Programmierkurs für Jugendliche online (auf Englisch): https://learn.modernagecoders.com/programmierkurs-jugendliche-online
+- Programmieren lernen auf Englisch: https://learn.modernagecoders.com/programmieren-lernen-auf-englisch
 - Programmieren lernen für Erwachsene (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-erwachsene-online
-- KI-Kurs für Rentner und Senioren (auf Englisch): https://learn.modernagecoders.com/ki-kurs-fuer-rentner-und-senioren
+- Programmierkurs für Jugendliche online (auf Englisch): https://learn.modernagecoders.com/programmierkurs-jugendliche-online
+- Programmierkurs für Kinder online (auf Englisch): https://learn.modernagecoders.com/programmierkurs-kinder-online
+- Python-Kurs für Kinder online (auf Englisch): https://learn.modernagecoders.com/python-kurs-kinder-online
 - Python lernen für Schüler (auf Englisch): https://learn.modernagecoders.com/python-lernen-fuer-schueler
-- App entwickeln lernen für Jugendliche (auf Englisch): https://learn.modernagecoders.com/app-entwickeln-lernen-jugendliche
-- KI-Kurs für Schüler (auf Englisch): https://learn.modernagecoders.com/ki-kurs-fuer-schueler
-- Coding classes for kids in Frankfurt: https://learn.modernagecoders.com/coding-classes-for-kids-frankfurt
-- Maths tutor in Frankfurt, in English: https://learn.modernagecoders.com/math-tutor-frankfurt-in-english
-- Coding for international school students in Frankfurt: https://learn.modernagecoders.com/coding-for-international-school-students-frankfurt
-- Programmieren lernen für Kinder in Frankfurt (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-frankfurt
-- Coding classes for kids in Düsseldorf: https://learn.modernagecoders.com/coding-classes-for-kids-dusseldorf
-- Coding for international school students in Düsseldorf: https://learn.modernagecoders.com/coding-for-international-school-students-dusseldorf
-- Programmieren lernen für Kinder in Düsseldorf (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-duesseldorf
-- Coding classes for kids in Dortmund: https://learn.modernagecoders.com/coding-classes-for-kids-dortmund
-- Coding classes for kids in Bremen: https://learn.modernagecoders.com/coding-classes-for-kids-bremen
-- Coding classes for kids in Essen: https://learn.modernagecoders.com/coding-classes-for-kids-essen
-- Coding classes for kids in Dresden: https://learn.modernagecoders.com/coding-classes-for-kids-dresden
-- Coding classes for kids in Hannover: https://learn.modernagecoders.com/coding-classes-for-kids-hannover
-- Programmieren lernen für Kinder in Hannover (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-hannover
-- Coding classes for kids in Bonn: https://learn.modernagecoders.com/coding-classes-for-kids-bonn
-- Coding and AI classes in Duisburg: https://learn.modernagecoders.com/coding-and-ai-classes-in-duisburg-germany
-- Online Python classes in Bochum: https://learn.modernagecoders.com/online-python-classes-bochum-germany
-- Online Python classes in Mannheim: https://learn.modernagecoders.com/online-python-classes-mannheim-germany
-- Coding classes for kids in Karlsruhe: https://learn.modernagecoders.com/coding-classes-for-kids-in-karlsruhe-germany
-- Coding and AI classes in Münster: https://learn.modernagecoders.com/coding-and-ai-classes-in-muenster-germany
-- Online Python classes in Augsburg: https://learn.modernagecoders.com/online-python-classes-augsburg-germany
-- Online Python classes in Mönchengladbach: https://learn.modernagecoders.com/online-python-classes-moenchengladbach-germany
-- Coding classes for kids in Aachen: https://learn.modernagecoders.com/coding-classes-for-kids-in-aachen-germany
-- Coding and AI classes in Braunschweig: https://learn.modernagecoders.com/coding-and-ai-classes-in-braunschweig-germany
-- Online Python classes in Kiel: https://learn.modernagecoders.com/online-python-classes-kiel-germany
-- Coding classes for kids in Chemnitz: https://learn.modernagecoders.com/coding-classes-for-kids-in-chemnitz-germany
-- Coding and AI classes in Magdeburg: https://learn.modernagecoders.com/coding-and-ai-classes-in-magdeburg-germany
-- Online Python classes in Freiburg im Breisgau: https://learn.modernagecoders.com/online-python-classes-freiburg-im-breisgau-germany
-- Coding classes for kids in Krefeld: https://learn.modernagecoders.com/coding-classes-for-kids-in-krefeld-germany
-- Online Python classes in Herne: https://learn.modernagecoders.com/online-python-classes-herne-germany
-- Coding classes for kids in Heidelberg: https://learn.modernagecoders.com/coding-classes-for-kids-in-heidelberg-germany
-- Online Python classes in Regensburg: https://learn.modernagecoders.com/online-python-classes-regensburg-germany
-- Coding classes for kids in Ingolstadt: https://learn.modernagecoders.com/coding-classes-for-kids-in-ingolstadt-germany
-- Coding and AI classes in Pforzheim: https://learn.modernagecoders.com/coding-and-ai-classes-in-pforzheim-germany
-- Online Python classes in Würzburg: https://learn.modernagecoders.com/online-python-classes-wuerzburg-germany
-- Coding classes for kids in Offenbach am Main: https://learn.modernagecoders.com/coding-classes-for-kids-in-offenbach-am-main-germany
-- Coding and AI classes in Fürth: https://learn.modernagecoders.com/coding-and-ai-classes-in-fuerth-germany
-- Online Python classes in Heilbronn: https://learn.modernagecoders.com/online-python-classes-heilbronn-germany
-- Coding classes for kids in Ulm: https://learn.modernagecoders.com/coding-classes-for-kids-in-ulm-germany
-- Coding and AI classes in Wolfsburg: https://learn.modernagecoders.com/coding-and-ai-classes-in-wolfsburg-germany
-- Online Python classes in Göttingen: https://learn.modernagecoders.com/online-python-classes-goettingen-germany
-- Coding classes for kids in Reutlingen: https://learn.modernagecoders.com/coding-classes-for-kids-in-reutlingen-germany
-- Coding and AI classes in Bremerhaven: https://learn.modernagecoders.com/coding-and-ai-classes-in-bremerhaven-germany
-- Online Python classes in Bottrop: https://learn.modernagecoders.com/online-python-classes-bottrop-germany
-- Coding classes for kids in Erlangen: https://learn.modernagecoders.com/coding-classes-for-kids-in-erlangen-germany
-- Coding classes for kids in Wuppertal: https://learn.modernagecoders.com/coding-classes-for-kids-in-wuppertal-germany
-- Coding and AI classes in Bielefeld: https://learn.modernagecoders.com/coding-and-ai-classes-in-bielefeld-germany
-- Coding and AI classes in Saarbrücken: https://learn.modernagecoders.com/coding-and-ai-classes-in-saarbruecken-germany
-- Online Python classes in Hamm: https://learn.modernagecoders.com/online-python-classes-hamm-germany
-- Coding classes for kids in Ludwigshafen am Rhein: https://learn.modernagecoders.com/coding-classes-for-kids-in-ludwigshafen-am-rhein-germany
-- Coding and AI classes in Oldenburg: https://learn.modernagecoders.com/coding-and-ai-classes-in-oldenburg-oldenburg-germany
-- Online Python classes in Mülheim an der Ruhr: https://learn.modernagecoders.com/online-python-classes-muelheim-an-der-ruhr-germany
-- Coding classes for kids in Leverkusen: https://learn.modernagecoders.com/coding-classes-for-kids-in-leverkusen-germany
-- Coding and AI classes in Darmstadt: https://learn.modernagecoders.com/coding-and-ai-classes-in-darmstadt-germany
-- Online Python classes in Osnabrück: https://learn.modernagecoders.com/online-python-classes-osnabrueck-germany
-- Coding classes for kids in Solingen: https://learn.modernagecoders.com/coding-classes-for-kids-in-solingen-germany
-- Coding and AI classes in Halle (Saale): https://learn.modernagecoders.com/coding-and-ai-classes-in-halle-saale-germany
-- Online Python classes in Mainz: https://learn.modernagecoders.com/online-python-classes-mainz-germany
-- Coding classes for kids in Erfurt: https://learn.modernagecoders.com/coding-classes-for-kids-in-erfurt-germany
-- Coding and AI classes in Lübeck: https://learn.modernagecoders.com/coding-and-ai-classes-in-luebeck-germany
-- Online Python classes in Oberhausen: https://learn.modernagecoders.com/online-python-classes-oberhausen-germany
-- Coding classes for kids in Rostock: https://learn.modernagecoders.com/coding-classes-for-kids-in-rostock-germany
-- Coding and AI classes in Kassel: https://learn.modernagecoders.com/coding-and-ai-classes-in-kassel-germany
-- Online Python classes in Hagen: https://learn.modernagecoders.com/online-python-classes-hagen-germany
-- Coding classes for kids in Potsdam: https://learn.modernagecoders.com/coding-classes-for-kids-in-potsdam-germany
-- Coding and AI classes in Recklinghausen: https://learn.modernagecoders.com/coding-and-ai-classes-in-recklinghausen-germany
-- Online Python classes in Remscheid: https://learn.modernagecoders.com/online-python-classes-remscheid-germany
-- Coding classes for kids in Koblenz: https://learn.modernagecoders.com/coding-classes-for-kids-in-koblenz-germany
+- Roblox programmieren lernen (auf Englisch): https://learn.modernagecoders.com/roblox-programmieren-lernen-kinder
+- Scratch-Kurs für Kinder online (auf Englisch): https://learn.modernagecoders.com/scratch-kurs-kinder-online
+- Spiele programmieren lernen (auf Englisch): https://learn.modernagecoders.com/spiele-programmieren-lernen-kinder
+
+### The 16 Laender and their cities
+
+#### North Rhine-Westphalia
+- Coding classes in North Rhine-Westphalia: https://learn.modernagecoders.com/coding-classes-in-north-rhine-westphalia
 - Coding and AI classes in Bergisch Gladbach: https://learn.modernagecoders.com/coding-and-ai-classes-in-bergisch-gladbach-germany
-- Online Python classes in Jena: https://learn.modernagecoders.com/online-python-classes-jena-germany
-- Coding classes for kids in Salzgitter: https://learn.modernagecoders.com/coding-classes-for-kids-in-salzgitter-germany
-- Coding and AI classes in Trier: https://learn.modernagecoders.com/coding-and-ai-classes-in-trier-germany
-- Online Python classes in Siegen: https://learn.modernagecoders.com/online-python-classes-siegen-germany
-- Coding classes for kids in Moers: https://learn.modernagecoders.com/coding-classes-for-kids-in-moers-germany
+- Coding and AI classes in Bielefeld: https://learn.modernagecoders.com/coding-and-ai-classes-in-bielefeld-germany
+- Coding and AI classes in Duisburg: https://learn.modernagecoders.com/coding-and-ai-classes-in-duisburg-germany
 - Coding and AI classes in Gütersloh: https://learn.modernagecoders.com/coding-and-ai-classes-in-guetersloh-germany
-- Online Python classes in Kaiserslautern: https://learn.modernagecoders.com/online-python-classes-kaiserslautern-germany
+- Coding and AI classes in Münster: https://learn.modernagecoders.com/coding-and-ai-classes-in-muenster-germany
 - Coding and AI classes in Neuss: https://learn.modernagecoders.com/coding-and-ai-classes-in-neuss-germany
+- Coding and AI classes in Recklinghausen: https://learn.modernagecoders.com/coding-and-ai-classes-in-recklinghausen-germany
+- Coding classes for kids in Bonn: https://learn.modernagecoders.com/coding-classes-for-kids-bonn
+- Coding classes for kids in Cologne: https://learn.modernagecoders.com/coding-classes-for-kids-cologne
+- Coding classes for kids in Dortmund: https://learn.modernagecoders.com/coding-classes-for-kids-dortmund
+- Coding classes for kids in Düsseldorf: https://learn.modernagecoders.com/coding-classes-for-kids-dusseldorf
+- Coding classes for kids in Essen: https://learn.modernagecoders.com/coding-classes-for-kids-essen
+- Coding classes for kids in Aachen: https://learn.modernagecoders.com/coding-classes-for-kids-in-aachen-germany
+- Coding classes for kids in Krefeld: https://learn.modernagecoders.com/coding-classes-for-kids-in-krefeld-germany
+- Coding classes for kids in Leverkusen: https://learn.modernagecoders.com/coding-classes-for-kids-in-leverkusen-germany
+- Coding classes for kids in Moers: https://learn.modernagecoders.com/coding-classes-for-kids-in-moers-germany
+- Coding classes for kids in Solingen: https://learn.modernagecoders.com/coding-classes-for-kids-in-solingen-germany
+- Coding classes for kids in Wuppertal: https://learn.modernagecoders.com/coding-classes-for-kids-in-wuppertal-germany
+- Coding for international school students in Düsseldorf: https://learn.modernagecoders.com/coding-for-international-school-students-dusseldorf
+- Informatik-Abitur NRW (Unterricht auf Englisch): https://learn.modernagecoders.com/informatik-abitur-nrw
+- Maths tutor in Cologne, in English: https://learn.modernagecoders.com/math-tutor-cologne-in-english
+- Online Python classes in Bochum: https://learn.modernagecoders.com/online-python-classes-bochum-germany
+- Online Python classes in Bottrop: https://learn.modernagecoders.com/online-python-classes-bottrop-germany
+- Online Python classes in Hagen: https://learn.modernagecoders.com/online-python-classes-hagen-germany
+- Online Python classes in Hamm: https://learn.modernagecoders.com/online-python-classes-hamm-germany
+- Online Python classes in Herne: https://learn.modernagecoders.com/online-python-classes-herne-germany
+- Online Python classes in Mönchengladbach: https://learn.modernagecoders.com/online-python-classes-moenchengladbach-germany
+- Online Python classes in Mülheim an der Ruhr: https://learn.modernagecoders.com/online-python-classes-muelheim-an-der-ruhr-germany
+- Online Python classes in Oberhausen: https://learn.modernagecoders.com/online-python-classes-oberhausen-germany
+- Online Python classes in Remscheid: https://learn.modernagecoders.com/online-python-classes-remscheid-germany
+- Online Python classes in Siegen: https://learn.modernagecoders.com/online-python-classes-siegen-germany
+- Programmieren lernen für Kinder in Düsseldorf (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-duesseldorf
+- Programmieren lernen für Kinder in Köln (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-koeln
+
+#### Lower Saxony
+- Coding classes in Lower Saxony: https://learn.modernagecoders.com/coding-classes-in-lower-saxony
+- Coding and AI classes in Braunschweig: https://learn.modernagecoders.com/coding-and-ai-classes-in-braunschweig-germany
+- Coding and AI classes in Oldenburg: https://learn.modernagecoders.com/coding-and-ai-classes-in-oldenburg-oldenburg-germany
+- Coding and AI classes in Wolfsburg: https://learn.modernagecoders.com/coding-and-ai-classes-in-wolfsburg-germany
+- Coding classes for kids in Hannover: https://learn.modernagecoders.com/coding-classes-for-kids-hannover
+- Coding classes for kids in Salzgitter: https://learn.modernagecoders.com/coding-classes-for-kids-in-salzgitter-germany
+- Informatik-Abitur Niedersachsen (Unterricht auf Englisch): https://learn.modernagecoders.com/informatik-abitur-niedersachsen
+- Online Python classes in Göttingen: https://learn.modernagecoders.com/online-python-classes-goettingen-germany
+- Online Python classes in Osnabrück: https://learn.modernagecoders.com/online-python-classes-osnabrueck-germany
+- Programmieren lernen für Kinder in Hannover (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-hannover
+
+#### Land Bremen
+- Coding classes in the Land Bremen: https://learn.modernagecoders.com/coding-classes-in-land-bremen
+- Coding and AI classes in Bremerhaven: https://learn.modernagecoders.com/coding-and-ai-classes-in-bremerhaven-germany
+- Coding classes for kids in Bremen: https://learn.modernagecoders.com/coding-classes-for-kids-bremen
+
+#### Hesse
+- Coding classes in Hesse: https://learn.modernagecoders.com/coding-classes-in-hesse
+- Coding and AI classes in Darmstadt: https://learn.modernagecoders.com/coding-and-ai-classes-in-darmstadt-germany
+- Coding and AI classes in Kassel: https://learn.modernagecoders.com/coding-and-ai-classes-in-kassel-germany
+- Coding classes for kids in Frankfurt: https://learn.modernagecoders.com/coding-classes-for-kids-frankfurt
+- Coding classes for kids in Offenbach am Main: https://learn.modernagecoders.com/coding-classes-for-kids-in-offenbach-am-main-germany
+- Coding for international school students in Frankfurt: https://learn.modernagecoders.com/coding-for-international-school-students-frankfurt
+- Informatik-Abitur Hessen (Unterricht auf Englisch): https://learn.modernagecoders.com/informatik-abitur-hessen
+- Maths tutor in Frankfurt, in English: https://learn.modernagecoders.com/math-tutor-frankfurt-in-english
+- Programmieren lernen für Kinder in Frankfurt (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-frankfurt
+
+#### Bavaria
+- Coding classes in Bavaria: https://learn.modernagecoders.com/coding-classes-in-bavaria
+- Coding and AI classes in Fürth: https://learn.modernagecoders.com/coding-and-ai-classes-in-fuerth-germany
+- Coding classes for kids in Erlangen: https://learn.modernagecoders.com/coding-classes-for-kids-in-erlangen-germany
+- Coding classes for kids in Ingolstadt: https://learn.modernagecoders.com/coding-classes-for-kids-in-ingolstadt-germany
+- Coding classes for kids in Munich: https://learn.modernagecoders.com/coding-classes-for-kids-munich
+- Coding classes for kids in Nuremberg: https://learn.modernagecoders.com/coding-classes-for-kids-nuremberg
+- Coding for international school students in Munich: https://learn.modernagecoders.com/coding-for-international-school-students-munich
+- Informatik-Abitur Bayern (Unterricht auf Englisch): https://learn.modernagecoders.com/informatik-abitur-bayern
+- Maths tutor in Munich, in English: https://learn.modernagecoders.com/math-tutor-munich-in-english
+- Online Python classes in Augsburg: https://learn.modernagecoders.com/online-python-classes-augsburg-germany
+- Online Python classes in Regensburg: https://learn.modernagecoders.com/online-python-classes-regensburg-germany
+- Online Python classes in Würzburg: https://learn.modernagecoders.com/online-python-classes-wuerzburg-germany
+- Programmieren lernen für Kinder in München (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-muenchen
+- Programmieren lernen für Kinder in Nürnberg: https://learn.modernagecoders.com/programmieren-lernen-kinder-nuernberg
+
+#### Saxony-Anhalt
+- Coding classes in Saxony-Anhalt: https://learn.modernagecoders.com/coding-classes-in-saxony-anhalt
+- Coding and AI classes in Halle (Saale): https://learn.modernagecoders.com/coding-and-ai-classes-in-halle-saale-germany
+- Coding and AI classes in Magdeburg: https://learn.modernagecoders.com/coding-and-ai-classes-in-magdeburg-germany
+
+#### Schleswig-Holstein
+- Coding classes in Schleswig-Holstein: https://learn.modernagecoders.com/coding-classes-in-schleswig-holstein
+- Coding and AI classes in Lübeck: https://learn.modernagecoders.com/coding-and-ai-classes-in-luebeck-germany
+- Online Python classes in Kiel: https://learn.modernagecoders.com/online-python-classes-kiel-germany
+
+#### Baden-Württemberg
+- Coding classes in Baden-Württemberg: https://learn.modernagecoders.com/coding-classes-in-baden-wuerttemberg
+- Coding and AI classes in Pforzheim: https://learn.modernagecoders.com/coding-and-ai-classes-in-pforzheim-germany
+- Coding classes for kids in Heidelberg: https://learn.modernagecoders.com/coding-classes-for-kids-in-heidelberg-germany
+- Coding classes for kids in Karlsruhe: https://learn.modernagecoders.com/coding-classes-for-kids-in-karlsruhe-germany
+- Coding classes for kids in Reutlingen: https://learn.modernagecoders.com/coding-classes-for-kids-in-reutlingen-germany
+- Coding classes for kids in Ulm: https://learn.modernagecoders.com/coding-classes-for-kids-in-ulm-germany
+- Coding classes for kids in Stuttgart: https://learn.modernagecoders.com/coding-classes-for-kids-stuttgart
+- Coding for international school students in Stuttgart: https://learn.modernagecoders.com/coding-for-international-school-students-stuttgart
+- Informatik-Abitur Baden-Württemberg (Unterricht auf Englisch): https://learn.modernagecoders.com/informatik-abitur-baden-wuerttemberg
+- Online Python classes in Freiburg im Breisgau: https://learn.modernagecoders.com/online-python-classes-freiburg-im-breisgau-germany
+- Online Python classes in Heilbronn: https://learn.modernagecoders.com/online-python-classes-heilbronn-germany
+- Online Python classes in Mannheim: https://learn.modernagecoders.com/online-python-classes-mannheim-germany
+- Programmieren lernen für Kinder in Stuttgart: https://learn.modernagecoders.com/programmieren-lernen-kinder-stuttgart
+
+#### Saarland
+- Coding classes in Saarland: https://learn.modernagecoders.com/coding-classes-in-saarland
+- Coding and AI classes in Saarbrücken: https://learn.modernagecoders.com/coding-and-ai-classes-in-saarbruecken-germany
+
+#### Rhineland-Palatinate
+- Coding classes in Rhineland-Palatinate: https://learn.modernagecoders.com/coding-classes-in-rhineland-palatinate
+- Coding and AI classes in Trier: https://learn.modernagecoders.com/coding-and-ai-classes-in-trier-germany
+- Coding classes for kids in Koblenz: https://learn.modernagecoders.com/coding-classes-for-kids-in-koblenz-germany
+- Coding classes for kids in Ludwigshafen am Rhein: https://learn.modernagecoders.com/coding-classes-for-kids-in-ludwigshafen-am-rhein-germany
+- Online Python classes in Kaiserslautern: https://learn.modernagecoders.com/online-python-classes-kaiserslautern-germany
+- Online Python classes in Mainz: https://learn.modernagecoders.com/online-python-classes-mainz-germany
+
+#### Berlin
+- Coding and maths classes in Berlin: https://learn.modernagecoders.com/coding-and-maths-classes-in-berlin-germany
+- Coding classes for kids in Berlin: https://learn.modernagecoders.com/coding-classes-for-kids-berlin
+- Coding for international school students in Berlin: https://learn.modernagecoders.com/coding-for-international-school-students-berlin
+- Maths tutor in Berlin, in English: https://learn.modernagecoders.com/math-tutor-berlin-in-english
+- Programmieren lernen für Kinder in Berlin (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-berlin
+
+#### Hamburg
+- Coding and maths classes in Hamburg: https://learn.modernagecoders.com/coding-and-maths-classes-in-hamburg-germany
+- Coding classes for kids in Hamburg: https://learn.modernagecoders.com/coding-classes-for-kids-hamburg
+- Coding for international school students in Hamburg: https://learn.modernagecoders.com/coding-for-international-school-students-hamburg
+- Maths tutor in Hamburg, in English: https://learn.modernagecoders.com/math-tutor-hamburg-in-english
+- Programmieren lernen für Kinder in Hamburg (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-hamburg
+
+#### Saxony
+- Coding classes in Saxony: https://learn.modernagecoders.com/coding-classes-in-saxony
+- Coding classes for kids in Dresden: https://learn.modernagecoders.com/coding-classes-for-kids-dresden
+- Coding classes for kids in Chemnitz: https://learn.modernagecoders.com/coding-classes-for-kids-in-chemnitz-germany
+- Coding classes for kids in Leipzig: https://learn.modernagecoders.com/coding-classes-for-kids-leipzig
+- Programmieren lernen für Kinder in Leipzig: https://learn.modernagecoders.com/programmieren-lernen-kinder-leipzig
+
+#### Thuringia
+- Coding classes in Thuringia: https://learn.modernagecoders.com/coding-classes-in-thuringia
+- Coding classes for kids in Erfurt: https://learn.modernagecoders.com/coding-classes-for-kids-in-erfurt-germany
+- Online Python classes in Jena: https://learn.modernagecoders.com/online-python-classes-jena-germany
+
+#### Brandenburg
+- Coding classes in Brandenburg: https://learn.modernagecoders.com/coding-classes-in-brandenburg
+- Coding classes for kids in Potsdam: https://learn.modernagecoders.com/coding-classes-for-kids-in-potsdam-germany
+
+#### Mecklenburg-Vorpommern
+- Coding classes in Mecklenburg-Vorpommern: https://learn.modernagecoders.com/coding-classes-in-mecklenburg-vorpommern
+- Coding classes for kids in Rostock: https://learn.modernagecoders.com/coding-classes-for-kids-in-rostock-germany
+
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -1,6 +1,6 @@
 # Modern Age Coders: AI Agent, WhatsApp Agent and Support Knowledge Base
 
-**Version 2.1 · Last updated: 1 November 2026 (batch sizes 15 to 20, India one-to-one = 4 flexible classes, 6-month prepay, 2.5% gateway charges, Canada in CAD, Priority Live Demo, overseas demo times in the family's own clock, 24 new courses, UK and US exam guides) · Supersedes the August 2026 edition**
+**Version 2.2 · Last updated: 4 November 2026 (Germany: about 200 pages, euro on the page and USD at checkout, classes in English only; v2.1 of 1 November: batch sizes 15 to 20, India one-to-one = 4 flexible classes, 6-month prepay, 2.5% gateway charges, Canada in CAD, Priority Live Demo, overseas demo times in the family's own clock, 24 new courses, UK and US exam guides) · Supersedes the August 2026 edition**
 
 > **Purpose.** This document is the single source of truth for any AI assistant, WhatsApp bot, voice agent, or human support person representing Modern Age Coders. Read it top to bottom before answering customers. When uncertain, default to the answers and tone in this document. Anything not covered here, route to a human (Shivam Sir).
 >
@@ -217,6 +217,8 @@ Identical to coding **except the one-to-one tier**.
 | Mini Batch | **Not sold internationally.** India only. |
 
 **Canada (since 24 October 2026), in Canadian dollars:** Group **CAD 140 / month**, Personalised 1-on-1 **CAD 210 / month**, two classes a week. Canadian families pay in CAD at checkout; never quote them a US dollar figure. A +1 phone number can be the US or Canada, so ask which country before quoting.
+
+**Germany (since 2 November 2026), shown in euro:** the Germany pages, and visitors in a German time zone, show Group **€90 / month** and Personalised 1-on-1 **€134 / month**: the US dollar price converted at the ECB rate of 30 October 2026 and rounded to whole euro. **Checkout charges the US dollar amount** ($100 or $150) and the payment popup says so; the family's bank converts it. Quote a family in Germany the euro figure. If they ask what their card will be charged, say $100 (group) or $150 (one-to-one) in US dollars, plus the 2.5% gateway charge. Never put a euro and a dollar figure side by side unless they ask about the card charge.
 
 Applies to coding and maths alike. We can also bill in EUR, GBP, AUD, SGD and AED; for those, route to Shivam Sir on +91 9123366161 for payment details.
 
@@ -683,6 +685,7 @@ We are **online only**. There is no campus students attend. Our registered offic
 - **Kolkata neighbourhoods and complexes**, including Howrah, Salt Lake, Bhowanipore, Jodhpur Park and Golpark
 - **Large country clusters** for the United States (states, cities, state math tests), the United Kingdom (towns, 11+ areas, exam boards), Canada (provinces, cities, Ontario and Western courses), Australia and Ireland, plus pages for New Zealand, Germany, Switzerland, Sweden, Singapore, Hong Kong, UAE, Qatar, Saudi Arabia and more
 - **UK and US exam guides**, listed in §5.4
+- **Germany (since November 2026):** about 200 pages from the hub `/coding-classes-in-germany`: one page for each of the 16 Laender (for example `/coding-classes-in-bavaria`, `/coding-classes-in-north-rhine-westphalia`), city pages (Berlin, Hamburg, Munich, Cologne, Frankfurt and about 70 more), guides to the German school system, Informatik by Land and Abitur maths in English (`/informatik-in-german-schools-by-state`, `/abitur-maths-in-english`), IB, IGCSE, AP and A level tutoring for international-school families, competitions (BWINF, Mathematik-Olympiade, BWKI) and German-language pages such as `/programmieren-lernen-auf-englisch` and `/mathe-nachhilfe-auf-englisch`. **Every class for Germany is live and taught in English only**, by a mentor matched to the learner's pace and accent. German-language pages describe the same English-taught classes; we do not teach in German.
 
 > **Standard answer to "Are you in my city?":**
 > "Yes. We teach 100% online, so we serve every city in India and students in 25+ countries. Your child joins from home over a live video class."
@@ -845,6 +848,9 @@ Yes: state tests (STAAR, Regents, CAASPP, MCAS, PSSA and others), the SHSAT and 
 
 **Q45. We are in Canada. What does it cost?**
 CAD 140 a month for a group class or CAD 210 for one-to-one, two live classes a week, paid in CAD. The Priority Live Demo is CAD 14.
+
+**Q46. We are in Germany. Do you teach in German, and what does it cost?**
+Classes are live and in English only; we do not teach in German. We match your child with a mentor whose pace and accent suit them, and a German school's topics (Informatik, Abitur maths, IB or IGCSE) can be taught in English alongside school. It costs €90 a month for a group class or €134 for one-to-one, two live classes a week. Payment is taken in US dollars at checkout ($100 or $150, plus the 2.5% gateway charge). Send `/coding-classes-in-germany`, or the family's Land or city page.
 
 ---
 
@@ -1040,6 +1046,8 @@ PRICING (International, per month):
   Mini Batch           NOT SOLD outside India
 
 PRICING (Canada, per month, CAD): Group 140 · 1-on-1 210
+PRICING (Germany, shown in euro): Group €90 · 1-on-1 €134 · checkout charges USD $100 / $150
+GERMANY .............. classes live, English only, mentor matched to pace and accent; hub /coding-classes-in-germany
 
 6 MONTHS AT ONCE (optional): India Rs 7,199 / 14,399 / 24,000 · Canada CAD 629 / 941 · elsewhere $449 / $672
 GATEWAY CHARGE ....... 2.5% added at checkout, shown on the bill, not refunded
@@ -1084,6 +1092,7 @@ ESCALATE TO SHIVAM SIR FOR:
 
 ## 20. CHANGELOG
 
+- **4 November 2026 (v2.2).** Germany: about 200 pages (hub, 16 Laender, cities, school guides, German-language pages). Germany pages show euro (€90 group, €134 one-to-one; checkout charges USD $100 / $150). Classes for Germany are live and in English only, with a mentor matched to the learner's pace and accent. New Q46.
 - **1 November 2026 (v2.1).** Group batches **15 to 20** (owner ruling 13 October). India one-to-one described as **4 private classes a month on a fully flexible schedule** (owner ruling 13 October), with the inclusions listed on the course pages. **Canada priced in CAD** from 24 October (140 / 210, camp 280, demo 14). Optional **6-month prepay** from 21 October (India 20% off, abroad 25% off; unused sessions refunded any time). **2.5% payment gateway charge** at checkout from 23 October, not refunded. Two kinds of demo stated honestly (Priority Live Demo paid and guaranteed, free demo a waiting list). Overseas families choose demo times in their own clock (26 October). Online enrolment on every course page. 24 new courses (now 142). Ten UK and US exam guide pages. School bootcamp group corrected to ₹1,499.
 - **10 August 2026 (owner price change).** India one-to-one moved to **₹4,999 per month** for coding AND maths (the ₹8,500 maths exception ended), on a new schedule of **one class a week, four a month — India only**. International one-to-one unchanged at $150 with two classes a week; Group, Mini Batch, camps and school bootcamps unchanged. Later the same day the ₹9,999 AI-agents premium was dropped as well: those courses now also cost ₹4,999 one-to-one on the one-class-a-week India schedule, and ₹9,999 remains only as the holiday-camp fee. ₹4,999 is a current price again and no longer a retired figure; **₹7,500 and ₹8,500 are retired instead**.
 - **4 August 2026 (v2.0, this edition).** Rebuilt from the live codebase. Flat worldwide pricing adopted 1 August 2026: India ₹1,499 / ₹2,999 / ₹7,500 (maths one-to-one ₹8,500), international $100 group and $150 one-to-one. Per-country and purchasing-power pricing removed. Brand facts corrected to 10,000+ students, 547 Google reviews, 25+ countries, ages 6 to 67.
@@ -1094,12 +1103,12 @@ ESCALATE TO SHIVAM SIR FOR:
 - **January 2026.** Terms of Service last reviewed.
 - **2020.** Modern Age Coders founded by Shivam Khemka.
 
-## APPENDIX A: EVERY COURSE PAGE (142 live courses)
+## APPENDIX A: EVERY COURSE PAGE (147 live courses)
 
 All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Every URL below was checked against the sitemap and the routing table on 4 August 2026.
 
 
-### A.1 Coding, AI and technology courses (100)
+### A.1 Coding, AI and technology courses (103)
 
 | Course | URL path | Who it is for |
 |---|---|---|
@@ -1157,6 +1166,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | Game Development for Teens: Unity, C# and Real Shipped Games | `/courses/complete-game-development-masterclass-for-teens` | Teens |
 | GCSE Computer Science: AQA, OCR and Edexcel Exam Prep | `/courses/gcse-computer-science-course` | Teens |
 | Generative AI Course: LLMs, RAG and AI Agents | `/courses/complete-generative-ai-masterclass-college` | College |
+| German Informatics Competitions: Biber, BwInf and BWKI | `/courses/german-informatics-competitions-course-biber-bwinf-bwki` | Teens |
 | Git & GitHub Course for College Students: Team-Ready Skills | `/courses/git-github-version-control-course-for-college-students` | College |
 | Git & GitHub Course for Teens: Version Control from Zero | `/courses/git-github-version-control-course-for-teens` | Teens |
 | Go Course: Backend Services from Zero to Production Habits | `/courses/complete-golang-programming-masterclass-college` | College |
@@ -1169,6 +1179,8 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | ICSE Computer Applications (Class 9-10): Java with BlueJ | `/courses/icse-computer-applications-java-bluej-course` | Teens |
 | IGCSE Computer Science (0478): Full Syllabus and Exam Prep | `/courses/igcse-computer-science-0478-course` | Teens |
 | Informatics Practices (IP) Class 11-12: CBSE Python & SQL | `/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course` | Teens |
+| Informatik Abitur in English: Java and Python | `/courses/informatik-abitur-course-java-python` | Teens |
+| Informatik Companion, Klasse 5 to 10 (in English) | `/courses/informatik-companion-course-klasse-5-10` | Teens |
 | Java Course for College: Core Java to Spring Boot | `/courses/complete-java-programming-masterclass-college` | College |
 | Java for Teens: Complete Course from Beginner to Advanced | `/courses/java-programming-masterclass-for-teens` | Teens |
 | JavaScript for Teens: Interactive Websites & Browser Games | `/courses/javascript-course-for-teens-beginners-interactive-web` | Teens |
@@ -1204,7 +1216,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17) | `/courses/vibe-coding-for-teens-python-web-ai-projects-course` | Teens |
 | Web Development for Kids: Build Real Websites | `/courses/kids-ai-web-development-course` | Kids |
 
-### A.2 Mathematics courses (42)
+### A.2 Mathematics courses (44)
 
 | Course | URL path | Who it is for |
 |---|---|---|
@@ -1212,6 +1224,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | A Level Further Maths: Core Pure and Applied Options | `/courses/a-level-further-maths-course` | High school |
 | A-Level Maths: Pure, Mechanics, Statistics (Edexcel/AQA) | `/courses/a-level-maths-course-pure-mechanics-statistics` | High school |
 | Abacus & Mental Maths for Kids: From First Beads to Anzan | `/courses/abacus-mental-maths-course-for-kids` | Elementary |
+| Abitur Mathematik in English: Leistungskurs and Grundkurs | `/courses/abitur-mathematics-course-in-english` | High school |
 | ACT Math Prep: Live Classes for the ACT Mathematics Section | `/courses/act-math-prep-course` | High school |
 | Algebra Foundations: Pre-Algebra & Algebra 1, Live Online | `/courses/algebra-foundations-masterclass` | Middle school |
 | AP Calculus AB & BC Exam Prep, Live Online, Score 5 Goal | `/courses/ap-calculus-exam-prep` | High school |
@@ -1232,6 +1245,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | IGCSE Maths: Core, Extended & Additional Mathematics Online | `/courses/igcse-mathematics-mastery` | High school |
 | JEE Foundation Maths Class 8-10: Proofs & Problem Solving | `/courses/jee-foundation-maths-course-class-8-10` | High school |
 | KS2 SATs Maths: Arithmetic, Reasoning and Times Tables | `/courses/ks2-sats-maths-course` | Elementary |
+| Mathematik-Olympiade and Känguru Training in English | `/courses/mathematik-olympiade-and-kaenguru-training-course` | Middle school |
 | Maths for Data Science: Statistics, Linear Algebra and ML | `/courses/data-analytics-mathematics-masterclass` | Professionals |
 | Maths Olympiad & Competition Course: AMC, AIME to IMO | `/courses/olympiad-competition-mathematics-mastery` | Elementary, Girls only, High school, Middle school |
 | Maths Through Coding: Learn Math in Python (Ages 10-15) | `/courses/maths-through-coding` | Middle school |
@@ -1253,7 +1267,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 
 ---
 
-## APPENDIX B: COMPLETE SITE URL INDEX (2828 live URLs)
+## APPENDIX B: COMPLETE SITE URL INDEX (3032 live URLs)
 
 Every URL below is present in a sitemap **and** resolves through the routing table. Redirect-only URLs are excluded. The site-wide link check passed with 0 broken internal links across 53,903 link instances on 4 August 2026. Prefix any path with `https://learn.modernagecoders.com`.
 
@@ -1298,7 +1312,7 @@ Every URL below is present in a sitemap **and** resolves through the routing tab
 | `/success-stories` | Success Stories |
 | `/terms` | Terms of Service |
 
-### B.2 Course detail pages (142)
+### B.2 Course detail pages (147)
 
 Listed with titles in Appendix A.
 
@@ -1308,6 +1322,7 @@ Listed with titles in Appendix A.
 /courses/a-level-further-maths-course
 /courses/a-level-maths-course-pure-mechanics-statistics
 /courses/abacus-mental-maths-course-for-kids
+/courses/abitur-mathematics-course-in-english
 /courses/act-math-prep-course
 /courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students
 /courses/ai-agents-with-microsoft-copilot-studio-course-for-teens
@@ -1381,6 +1396,7 @@ Listed with titles in Appendix A.
 /courses/gcse-computer-science-course
 /courses/gcse-mathematics-mastery
 /courses/gcse-maths-resit-course
+/courses/german-informatics-competitions-course-biber-bwinf-bwki
 /courses/git-github-advanced-version-control-masterclass-for-professionals
 /courses/git-github-version-control-course-for-college-students
 /courses/git-github-version-control-course-for-teens
@@ -1396,12 +1412,15 @@ Listed with titles in Appendix A.
 /courses/icse-computer-applications-java-bluej-course
 /courses/igcse-computer-science-0478-course
 /courses/igcse-mathematics-mastery
+/courses/informatik-abitur-course-java-python
+/courses/informatik-companion-course-klasse-5-10
 /courses/java-programming-masterclass-for-teens
 /courses/javascript-course-for-teens-beginners-interactive-web
 /courses/jee-foundation-maths-course-class-8-10
 /courses/kids-ai-web-development-course
 /courses/kids-coding-blocks-masterclass
 /courses/ks2-sats-maths-course
+/courses/mathematik-olympiade-and-kaenguru-training-course
 /courses/maths-through-coding
 /courses/mental-maths-mastery-kids
 /courses/mern-stack-development-masterclass-college
@@ -1907,7 +1926,7 @@ Listed with titles in Appendix C.
 | `/best-coding-class-in-wrexham` | Best Coding Classes in Wrexham |
 | `/best-coding-class-in-york` | Best Coding Classes in York |
 
-### B.7 School partnership pages (23)
+### B.7 School partnership pages (24)
 
 | URL path | Page title |
 |---|---|
@@ -1915,6 +1934,7 @@ Listed with titles in Appendix C.
 | `/coding-and-maths-for-birla-high-school-mukundapur-kolkata` | Coding & Maths Classes for BHS Mukundapur Students Kolkata |
 | `/coding-and-maths-for-don-bosco-park-circus-kolkata` | Coding & Maths Classes for Don Bosco Park Circus Students Kolkata |
 | `/coding-and-maths-for-heritage-school-kolkata` | Coding & Maths Classes for Heritage School Students Kolkata |
+| `/coding-and-maths-for-indian-families-in-germany` | Coding and Maths for Indian Families in Germany, in English |
 | `/coding-and-maths-for-mahadevi-birla-world-academy-kolkata` | Coding & Maths Classes for Mahadevi Birla World Academy Students |
 | `/coding-and-maths-for-sushila-birla-girls-school-kolkata` | Coding & Maths Classes for Sushila Birla Girls' School Kolkata |
 | `/coding-classes-for-dps-bangalore` | Coding Classes for DPS Bangalore Students |
@@ -1935,7 +1955,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-for-la-martiniere-girls-kolkata` | Coding Classes for La Martiniere for Girls Students |
 | `/coding-classes-for-middle-school-students` | Coding Classes for Middle School Students: Grades 6 to 8 |
 
-### B.8 Country and international pages (575)
+### B.8 Country and international pages (629)
 
 | URL path | Page title |
 |---|---|
@@ -1944,7 +1964,7 @@ Listed with titles in Appendix C.
 | `/ai-and-machine-learning-classes-in-bahrain` | AI and Machine Learning Classes in Bahrain |
 | `/ai-and-machine-learning-classes-in-brunei` | AI and Machine Learning Classes in Brunei |
 | `/ai-and-machine-learning-classes-in-canada` | AI and Machine Learning Classes in Canada |
-| `/ai-and-machine-learning-classes-in-germany` | AI and Machine Learning Classes in Germany |
+| `/ai-and-machine-learning-classes-in-germany` | AI and Machine Learning Classes in Germany, Live in English |
 | `/ai-and-machine-learning-classes-in-hong-kong` | AI and Machine Learning Classes in Hong Kong |
 | `/ai-and-machine-learning-classes-in-ireland` | AI and Machine Learning Classes in Ireland |
 | `/ai-and-machine-learning-classes-in-kuwait` | AI & Machine Learning Classes in Kuwait |
@@ -1964,8 +1984,10 @@ Listed with titles in Appendix C.
 | `/ai-classes-in-dubai` | AI Classes in Dubai |
 | `/ai-classes-in-qatar` | AI Classes in Qatar |
 | `/ai-classes-in-saudi-arabia` | AI Classes in Saudi Arabia |
+| `/coding-classes-by-age-germany` | Coding Classes by Age in Germany: From 6 to Adult |
 | `/coding-classes-cost-australia` | Coding Classes Cost in Australia 2026: Per Lesson and Term |
 | `/coding-classes-cost-canada` | Coding Classes Cost in Canada 2026: Fees by Format |
+| `/coding-classes-cost-germany` | Coding Classes Cost in Germany: What You Pay For |
 | `/coding-classes-cost-india-2026` | Coding Classes Cost in India 2026: Honest Price Guide |
 | `/coding-classes-for-11-and-12-year-olds-australia` | Coding Classes for 11 and 12 Year Olds in Australia |
 | `/coding-classes-for-5-and-6-year-olds-australia` | Coding Classes for 5 and 6 Year Olds in Australia |
@@ -1973,35 +1995,73 @@ Listed with titles in Appendix C.
 | `/coding-classes-for-9-and-10-year-olds-australia` | Coding Classes for 9 and 10 Year Olds in Australia |
 | `/coding-classes-for-adults` | Coding Classes for Adults: Live, Small Batches, Ages 18 to 67 |
 | `/coding-classes-for-adults-australia` | Coding Classes for Adults in Australia |
+| `/coding-classes-for-adults-germany` | Online Coding Classes for Adults in Germany, in English |
 | `/coding-classes-for-adults-in-canada` | Coding Classes for Adults in Canada: Python and Web, Live |
 | `/coding-classes-for-elementary-students` | Coding Classes for Elementary Students: Grades 1 to 5 |
 | `/coding-classes-for-girls` | Coding Classes for Girls |
 | `/coding-classes-for-kids-adelaide` | Coding Classes for Kids in Adelaide |
+| `/coding-classes-for-kids-berlin` | Coding Classes for Kids in Berlin: Live Online, in English |
+| `/coding-classes-for-kids-bonn` | Coding Classes for Kids in Bonn: Live Online, in English |
+| `/coding-classes-for-kids-bremen` | Coding Classes for Kids in Bremen: Live Online in English |
 | `/coding-classes-for-kids-brisbane` | Coding Classes for Kids in Brisbane |
 | `/coding-classes-for-kids-canberra` | Coding Classes for Kids in Canberra |
+| `/coding-classes-for-kids-cologne` | Coding Classes for Kids in Cologne: Live Online, in English |
 | `/coding-classes-for-kids-cost` | Coding Classes for Kids Cost 2026: US Prices by Format |
+| `/coding-classes-for-kids-dortmund` | Coding Classes for Kids in Dortmund: Live Online, in English |
+| `/coding-classes-for-kids-dresden` | Coding Classes for Kids in Dresden: Live Online, in English |
+| `/coding-classes-for-kids-dusseldorf` | Coding Classes for Kids in Düsseldorf: Live Online, in English |
+| `/coding-classes-for-kids-essen` | Coding Classes for Kids in Essen: Live and in English |
+| `/coding-classes-for-kids-frankfurt` | Coding Classes for Kids in Frankfurt: Live Online, in English |
+| `/coding-classes-for-kids-germany` | Coding Classes for Kids in Germany, Ages 6 to 12, in English |
 | `/coding-classes-for-kids-gold-coast` | Coding Classes for Kids on the Gold Coast |
+| `/coding-classes-for-kids-hamburg` | Coding Classes for Kids in Hamburg: Live Online, in English |
+| `/coding-classes-for-kids-hannover` | Coding Classes for Kids in Hannover: Live Online in English |
+| `/coding-classes-for-kids-in-aachen-germany` | Coding Classes for Kids in Aachen: Live Online in English |
 | `/coding-classes-for-kids-in-abbotsford` | Coding Classes for Kids in Abbotsford, BC |
 | `/coding-classes-for-kids-in-ajax-and-pickering` | Coding Classes for Kids in Ajax and Pickering |
 | `/coding-classes-for-kids-in-cambridge-ontario` | Coding Classes for Kids in Cambridge, Ontario |
 | `/coding-classes-for-kids-in-canada` | Coding Classes for Kids in Canada: Live Online, Ages 6 to 12 |
+| `/coding-classes-for-kids-in-chemnitz-germany` | Coding Classes for Kids in Chemnitz, Live Online in English |
 | `/coding-classes-for-kids-in-doha` | Coding Classes for Kids in Doha |
 | `/coding-classes-for-kids-in-dubai` | Coding Classes for Kids in Dubai |
+| `/coding-classes-for-kids-in-erfurt-germany` | Coding Classes for Kids in Erfurt: Live Online, in English |
+| `/coding-classes-for-kids-in-erlangen-germany` | Coding Classes for Kids in Erlangen: Live Online, in English |
 | `/coding-classes-for-kids-in-etobicoke-toronto` | Coding Classes for Kids in Etobicoke |
+| `/coding-classes-for-kids-in-heidelberg-germany` | Coding Classes for Kids in Heidelberg: Live, in English |
+| `/coding-classes-for-kids-in-ingolstadt-germany` | Coding Classes for Kids in Ingolstadt: Live in English |
+| `/coding-classes-for-kids-in-karlsruhe-germany` | Coding Classes for Kids in Karlsruhe: Live Online, in English |
+| `/coding-classes-for-kids-in-koblenz-germany` | Coding Classes for Kids in Koblenz: Live Online, in English |
+| `/coding-classes-for-kids-in-krefeld-germany` | Coding Classes for Kids in Krefeld, Live Online in English |
 | `/coding-classes-for-kids-in-langley-bc` | Coding Classes for Kids in Langley, BC |
+| `/coding-classes-for-kids-in-leverkusen-germany` | Coding Classes for Kids in Leverkusen, Live Online in English |
+| `/coding-classes-for-kids-in-ludwigshafen-am-rhein-germany` | Coding Classes for Kids in Ludwigshafen: Live in English |
+| `/coding-classes-for-kids-in-moers-germany` | Coding Classes for Kids in Moers: Live Online, in English |
 | `/coding-classes-for-kids-in-nassau` | Coding Classes for Kids in Nassau |
 | `/coding-classes-for-kids-in-north-york-toronto` | Coding Classes for Kids in North York |
+| `/coding-classes-for-kids-in-offenbach-am-main-germany` | Coding Classes for Kids in Offenbach am Main: Live in English |
 | `/coding-classes-for-kids-in-oshawa-and-whitby` | Coding Classes for Kids in Oshawa and Whitby |
+| `/coding-classes-for-kids-in-potsdam-germany` | Coding Classes for Kids in Potsdam: Live Online, in English |
+| `/coding-classes-for-kids-in-reutlingen-germany` | Coding Classes for Kids in Reutlingen: Live Online, English |
 | `/coding-classes-for-kids-in-riyadh` | Coding Classes for Kids in Riyadh |
+| `/coding-classes-for-kids-in-rostock-germany` | Coding Classes for Kids in Rostock: Live and in English |
+| `/coding-classes-for-kids-in-salzgitter-germany` | Coding Classes for Kids in Salzgitter: Live Online, in English |
 | `/coding-classes-for-kids-in-scarborough-toronto` | Coding Classes for Kids in Scarborough |
+| `/coding-classes-for-kids-in-solingen-germany` | Coding Classes for Kids in Solingen: Live Online, in English |
 | `/coding-classes-for-kids-in-st-catharines-niagara` | Coding Classes for Kids in St. Catharines and Niagara |
+| `/coding-classes-for-kids-in-ulm-germany` | Coding Classes for Kids in Ulm: Live Online, in English |
+| `/coding-classes-for-kids-in-wuppertal-germany` | Coding Classes for Kids in Wuppertal, Live in English |
+| `/coding-classes-for-kids-leipzig` | Coding Classes for Kids in Leipzig: Live Online, in English |
 | `/coding-classes-for-kids-melbourne` | Coding Classes for Kids in Melbourne |
+| `/coding-classes-for-kids-munich` | Coding Classes for Kids in Munich: Live Online in English |
 | `/coding-classes-for-kids-netherlands` | Coding Classes for Kids in the Netherlands |
 | `/coding-classes-for-kids-newcastle` | Coding Classes for Kids in Newcastle NSW |
+| `/coding-classes-for-kids-nuremberg` | Coding Classes for Kids in Nuremberg: Live Online, in English |
 | `/coding-classes-for-kids-perth` | Coding Classes for Kids in Perth |
+| `/coding-classes-for-kids-stuttgart` | Coding Classes for Kids in Stuttgart: Live Online in English |
 | `/coding-classes-for-kids-sydney` | Coding Classes for Kids in Sydney |
 | `/coding-classes-for-seniors-in-canada` | Coding Classes for Seniors in Canada: Patient, Live Online |
 | `/coding-classes-for-teens-australia` | Coding Classes for Teens in Australia |
+| `/coding-classes-for-teens-germany` | Coding Classes for Teens in Germany, Live in English |
 | `/coding-classes-for-teens-in-canada` | Coding Classes for Teens in Canada: High School and Beyond |
 | `/coding-classes-for-teens-netherlands` | Coding Classes for Teens in the Netherlands |
 | `/coding-classes-in-aberdeenshire` | Coding Classes in Aberdeenshire |
@@ -2058,6 +2118,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-avani-riverside-howrah` | Coding & Maths Classes near Avani Riverside, Howrah |
 | `/coding-classes-in-avidipta-mukundapur` | Coding & Maths Classes near Avidipta |
 | `/coding-classes-in-azaiba` | Coding Classes in Azaiba |
+| `/coding-classes-in-baden-wuerttemberg` | Coding Classes in Baden-Württemberg: Live Online in English |
 | `/coding-classes-in-bahla` | Coding Classes in Bahla |
 | `/coding-classes-in-bahrain` | Online Coding Classes in Bahrain |
 | `/coding-classes-in-ballincollig-cork` | Coding Classes in Ballincollig, Cork |
@@ -2066,6 +2127,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-barka` | Coding Classes in Barka |
 | `/coding-classes-in-barking-and-dagenham-london` | Coding Classes in Barking and Dagenham |
 | `/coding-classes-in-barnet-london` | Coding Classes in Barnet, Finchley, Hendon |
+| `/coding-classes-in-bavaria` | Coding Classes in Bavaria: Live Online in English, Klasse 5+ |
 | `/coding-classes-in-bawshar` | Online Coding Classes in Bawshar |
 | `/coding-classes-in-bedfordshire` | Coding Classes in Bedfordshire |
 | `/coding-classes-in-bergen-op-zoom` | Coding Classes in Bergen op Zoom |
@@ -2079,6 +2141,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-blackrock-dublin` | Coding Classes in Blackrock, Dublin |
 | `/coding-classes-in-blaenau-gwent` | Coding Classes in Blaenau Gwent |
 | `/coding-classes-in-blanchardstown-dublin` | Coding Classes in Blanchardstown, Dublin 15 |
+| `/coding-classes-in-brandenburg` | Coding Classes in Brandenburg: Live Online in English |
 | `/coding-classes-in-breda` | Coding Classes in Breda |
 | `/coding-classes-in-brent-london` | Coding Classes in Brent, Wembley and Kilburn |
 | `/coding-classes-in-bridgend` | Coding Classes in Bridgend |
@@ -2191,7 +2254,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-gelderland` | Coding Classes in Gelderland |
 | `/coding-classes-in-genexx-valley-joka` | Coding & Maths Classes in Joka |
 | `/coding-classes-in-georgia` | Coding Classes in Georgia, USA |
-| `/coding-classes-in-germany` | Coding & AI Classes in Germany |
+| `/coding-classes-in-germany` | Coding Classes in Germany: Live Online in English, Ages 6+ |
 | `/coding-classes-in-gestel` | Coding Classes in Gestel, Eindhoven |
 | `/coding-classes-in-glanmire-cork` | Coding Classes in Glanmire, Cork |
 | `/coding-classes-in-glasnevin-dublin` | Coding Classes in Glasnevin, Dublin |
@@ -2222,6 +2285,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-hengelo` | Coding Classes in Hengelo |
 | `/coding-classes-in-herefordshire` | Coding Classes in Herefordshire |
 | `/coding-classes-in-hertfordshire` | Coding Classes in Hertfordshire |
+| `/coding-classes-in-hesse` | Coding Classes in Hesse (Hessen): Live Online, in English |
 | `/coding-classes-in-highland` | Coding Classes in the Highlands |
 | `/coding-classes-in-hiland-park` | Coding & Maths Classes near Hiland Park |
 | `/coding-classes-in-hiland-willows` | Coding & Maths Classes near Hiland Willows |
@@ -2262,6 +2326,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-laak` | Coding Classes in Laak, The Hague |
 | `/coding-classes-in-lambeth-london` | Coding Classes in Lambeth, Brixton, Clapham |
 | `/coding-classes-in-lancashire` | Coding Classes in Lancashire |
+| `/coding-classes-in-land-bremen` | Coding Classes in Bremen and Bremerhaven: Live Online, in English |
 | `/coding-classes-in-leeuwarden` | Coding Classes in Leeuwarden |
 | `/coding-classes-in-leicester` | Online Coding Classes in Leicester |
 | `/coding-classes-in-leicestershire` | Coding Classes in Leicestershire |
@@ -2275,6 +2340,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-lincolnshire` | Coding Classes in Lincolnshire |
 | `/coding-classes-in-liwa` | Coding Classes in Liwa |
 | `/coding-classes-in-loosduinen` | Coding Classes in Loosduinen, The Hague |
+| `/coding-classes-in-lower-saxony` | Coding Classes in Lower Saxony: Live Online, in English |
 | `/coding-classes-in-lucan-dublin` | Coding Classes in Lucan, Dublin |
 | `/coding-classes-in-maastricht` | Coding Classes in Maastricht |
 | `/coding-classes-in-madha` | Coding Classes in Madha |
@@ -2289,6 +2355,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-maryland` | Coding and AI Classes in Maryland |
 | `/coding-classes-in-masirah` | Coding Classes in Masirah |
 | `/coding-classes-in-mawaleh` | Coding Classes in Mawaleh |
+| `/coding-classes-in-mecklenburg-vorpommern` | Coding Classes in Mecklenburg-Vorpommern: Online in English |
 | `/coding-classes-in-meierijstad` | Coding Classes in Meierijstad |
 | `/coding-classes-in-merseyside` | Coding Classes in Merseyside |
 | `/coding-classes-in-merthyr-tydfil-county-borough` | Coding Classes in Merthyr Tydfil |
@@ -2322,6 +2389,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-norfolk` | Coding Classes in Norfolk |
 | `/coding-classes-in-north-ayrshire` | Coding Classes in North Ayrshire |
 | `/coding-classes-in-north-lanarkshire` | Coding Classes in North Lanarkshire |
+| `/coding-classes-in-north-rhine-westphalia` | Coding Classes in North Rhine-Westphalia: Live Online, in English |
 | `/coding-classes-in-north-yorkshire` | Coding Classes in North Yorkshire |
 | `/coding-classes-in-northamptonshire` | Coding Classes in Northamptonshire |
 | `/coding-classes-in-northumberland` | Coding Classes in Northumberland |
@@ -2351,6 +2419,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-rathmines-dublin` | Coding Classes in Rathmines, Dublin |
 | `/coding-classes-in-redbridge-london` | Coding Classes in Redbridge, Ilford, Woodford |
 | `/coding-classes-in-renfrewshire` | Coding Classes in Renfrewshire |
+| `/coding-classes-in-rhineland-palatinate` | Coding Classes in Rhineland-Palatinate: Live Online, in English |
 | `/coding-classes-in-rhondda-cynon-taf` | Coding Classes in Rhondda Cynon Taf |
 | `/coding-classes-in-richmond-upon-thames-london` | Coding Classes in Richmond, Twickenham, Kew |
 | `/coding-classes-in-rijswijk` | Coding Classes in Rijswijk |
@@ -2362,14 +2431,18 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-rotterdam-centrum` | Coding Classes in Rotterdam Centrum |
 | `/coding-classes-in-rustaq` | Coding Classes in Rustaq |
 | `/coding-classes-in-rutland` | Coding Classes in Rutland |
+| `/coding-classes-in-saarland` | Coding Classes in Saarland: Live Online, in English |
 | `/coding-classes-in-saham` | Coding Classes in Saham |
 | `/coding-classes-in-salalah` | Coding Classes in Salalah |
 | `/coding-classes-in-samail` | Coding Classes in Samail |
 | `/coding-classes-in-sandyford-dublin` | Coding Classes in Sandyford, Dublin 18 |
 | `/coding-classes-in-saskatchewan` | Coding Classes in Saskatchewan |
 | `/coding-classes-in-saudi-arabia` | Coding Classes in Saudi Arabia |
+| `/coding-classes-in-saxony` | Coding Classes in Saxony: Live Online in English, Klasse 7+ |
+| `/coding-classes-in-saxony-anhalt` | Coding Classes in Saxony-Anhalt: Live Online in English |
 | `/coding-classes-in-scheveningen` | Coding Classes in Scheveningen, The Hague |
 | `/coding-classes-in-schiedam` | Coding Classes in Schiedam |
+| `/coding-classes-in-schleswig-holstein` | Coding Classes in Schleswig-Holstein: Live Online, in English |
 | `/coding-classes-in-scottish-borders` | Coding Classes in the Scottish Borders |
 | `/coding-classes-in-seeb` | Online Coding Classes in Seeb |
 | `/coding-classes-in-segbroek` | Coding Classes in Segbroek, The Hague |
@@ -2415,6 +2488,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-the-hague-centrum` | Coding Classes in Den Haag Centrum |
 | `/coding-classes-in-the-west-midlands` | Coding Classes in the West Midlands |
 | `/coding-classes-in-thumrait` | Coding Classes in Thumrait |
+| `/coding-classes-in-thuringia` | Coding Classes in Thuringia: Live Online in English |
 | `/coding-classes-in-tilburg` | Coding Classes in Tilburg |
 | `/coding-classes-in-tongelre` | Coding Classes in Tongelre, Eindhoven |
 | `/coding-classes-in-torfaen` | Coding Classes in Torfaen |
@@ -2561,10 +2635,11 @@ Listed with titles in Appendix C.
 | `/python-for-class-8` | Python for Class 8: OOP, Flask API, sklearn, Kaggle Datasets & DSA Intro |
 | `/python-for-class-9` | Python for Class 9: CBSE Code 402 Python, Flask, Django Intro & Kaggle |
 
-### B.11 Comparison and alternative pages (54)
+### B.11 Comparison and alternative pages (55)
 
 | URL path | Page title |
 |---|---|
+| `/abitur-vs-ib-vs-a-levels-maths` | Abitur vs IB vs A Levels: Maths Compared for Germany |
 | `/after-school-coding-club-vs-online-class-australia` | After-School Coding Club vs Online Class in Australia |
 | `/aqa-vs-edexcel-vs-ocr-gcse-maths` | AQA vs Edexcel vs OCR GCSE Maths: How the Boards Differ |
 | `/art-of-problem-solving-alternative` | Art of Problem Solving Alternative: AoPS Compared, and a Tutor |
@@ -2620,7 +2695,7 @@ Listed with titles in Appendix C.
 | `/whitehat-jr-alternative` | WhiteHat Jr Alternative in 2026: Real Mentors, Not Scripts |
 | `/year-round-coding-classes-vs-summer-camps-bahamas` | Year-Round Coding Classes vs Summer Camps in The Bahamas |
 
-### B.12 Camps (summer and winter) (16)
+### B.12 Camps (summer and winter) (17)
 
 | URL path | Page title |
 |---|---|
@@ -2631,6 +2706,7 @@ Listed with titles in Appendix C.
 | `/march-break-coding-camp-online` | March Break Coding Online: 2027 Dates, PA Days, Live Classes |
 | `/online-coding-summer-camp` | Online Coding Summer Camp |
 | `/online-coding-summer-camp-canada` | Online Coding Summer Camp in Canada: Summer 2027 Guide |
+| `/online-coding-summer-camp-germany` | Online Coding Summer Camp in Germany 2027, Live in English |
 | `/summer-coding-camp` | Summer Coding Camp 2026 |
 | `/summer-coding-camp-adults` | Summer Coding Bootcamp for Adults 2026 (18+) |
 | `/summer-coding-camp-kids` | Summer Coding Camp for Kids 2026 - Ages 6-12 |
@@ -2641,7 +2717,7 @@ Listed with titles in Appendix C.
 | `/winter-coding-camp-kids` | Winter Coding Camp for Kids 2026 (Ages 6-11) |
 | `/winter-coding-camp-teens` | Winter Coding Camp for Teens 2026 (Ages 12-17) |
 
-### B.13 Mathematics landing pages (365)
+### B.13 Mathematics landing pages (383)
 
 | URL path | Page title |
 |---|---|
@@ -2680,7 +2756,9 @@ Listed with titles in Appendix C.
 | `/7-plus-maths-preparation` | 7 Plus Maths Preparation |
 | `/a-level-maths-tuition-online` | A-Level Maths Tuition Online · 1:1 Pure, Mechanics & Statistics |
 | `/a-level-maths-tutor-cost-uk` | A Level Maths Tutor Cost UK 2026: Hourly Rates Compared |
+| `/a-level-maths-tutor-online-germany` | A Level Maths Tutor Online in Germany: Edexcel and AQA |
 | `/a-level-maths-tutor-uae` | A-Level Maths Tutor in the UAE · 1:1 Online Pure, Mechanics & Statistics |
+| `/abitur-maths-in-english` | Abitur Maths in English: Exam Structure, Dates and Tutoring |
 | `/accelerated-math-program-online` | Accelerated Math Program Online: Compacted Math Help |
 | `/accuplacer-math-prep` | ACCUPLACER Math Prep: Arithmetic, QAS and AAF Tests |
 | `/act-math-tutoring-online` | ACT Math Tutoring Online · 1:1 ACT Math Prep |
@@ -2701,6 +2779,7 @@ Listed with titles in Appendix C.
 | `/ap-computer-science-a-practice-questions` | AP Computer Science A Practice Questions, With Answers |
 | `/ap-computer-science-a-score-calculator` | AP Computer Science A Score Calculator: A Labelled Estimate |
 | `/ap-computer-science-principles-online-coaching` | AP Computer Science Principles Online Coaching |
+| `/ap-computer-science-tutor-germany` | AP Computer Science Tutor in Germany: CSA and CSP in English |
 | `/ap-csp-create-performance-task-guide` | AP CSP Create Performance Task Guide: Rules, PPR and Deadline |
 | `/ap-csp-score-calculator` | AP CSP Score Calculator: Weights, Rubric Points, an Estimate |
 | `/ap-precalculus-tutoring-online` | AP Precalculus Tutoring Online: Units 1 to 3, May 2027 Exam |
@@ -2736,6 +2815,8 @@ Listed with titles in Appendix C.
 | `/cem-11-plus-maths-practice` | CEM 11 Plus Maths Practice |
 | `/clep-calculus-prep` | CLEP Calculus Prep and CLEP Precalculus Prep: Exam Guide |
 | `/clep-college-algebra-prep` | CLEP College Algebra Prep: Exam Topics, Scores, Practice |
+| `/coding-and-maths-classes-in-berlin-germany` | Coding and Maths Classes in Berlin: Live Online in English |
+| `/coding-and-maths-classes-in-hamburg-germany` | Coding and Maths Classes in Hamburg: Live Online, in English |
 | `/coding-class-or-maths-tutor-first-australia` | Coding Class or Maths Tutor First? A Guide for Australian Parents |
 | `/colorado-cmas-math-practice` | CMAS Math Practice for Colorado Grades 3 to 8 (2027 Test) |
 | `/common-core-math-tutor` | Common Core Math Tutor Online: Homework Help, Grades K to 8 |
@@ -2770,6 +2851,7 @@ Listed with titles in Appendix C.
 | `/gcse-statistics-tutor-online` | GCSE Statistics Tutor Online |
 | `/geometry-regents-prep` | Geometry Regents Prep: Proofs, Tools and the June 2027 Exam |
 | `/geometry-tutoring-online-usa` | Geometry Tutoring Online (USA) · 1:1 High School Geometry & Proofs |
+| `/german-school-system-maths-and-computing-explained` | German School System Explained in English: Maths and Computing |
 | `/gifted-and-talented-maths-and-coding-uk` | Gifted and Talented Maths and Coding UK: More Able Pupils |
 | `/gl-assessment-11-plus-maths-practice` | GL Assessment 11 Plus Maths Practice |
 | `/go-math-homework-help` | Go Math Homework Help (and Into Math): Live Tutor, Grades K to 6 |
@@ -2790,11 +2872,13 @@ Listed with titles in Appendix C.
 | `/ib-maths-ai-sl-tutor-online` | IB Maths AI SL Tutor Online |
 | `/ib-maths-ia-guidance` | IB Maths IA Guidance |
 | `/ib-maths-tuition-online` | IB Maths Tuition Online |
+| `/ib-maths-tutor-germany` | IB Maths Tutor in Germany: AA and AI, SL and HL, in English |
 | `/ib-maths-tutor-uae` | IB Maths Tutor in the UAE · 1:1 Maths AA & AI (SL & HL) |
 | `/ib-myp-maths-tutor-online` | IB MYP Maths Tutor Online |
 | `/icas-maths-practice-online` | ICAS Maths Practice Online |
 | `/igcse-maths-for-home-educated-students-uk` | IGCSE Maths for Home-Educated Students: Private Candidates |
 | `/igcse-maths-tuition-online` | IGCSE Maths Tuition Online |
+| `/igcse-maths-tutor-germany` | IGCSE Maths Tutor in Germany: Cambridge 0580 and Edexcel 4MA1 |
 | `/illinois-iar-math-practice` | Illinois IAR Math Practice: The Spring 2027 Test, Grades 3 to 8 |
 | `/independent-school-11-plus-maths-london` | London 11 Plus Consortium Maths |
 | `/integrated-math-1-tutoring` | Integrated Math 1 Tutoring: Integrated Math I Help Online |
@@ -2805,6 +2889,7 @@ Listed with titles in Appendix C.
 | `/is-maths-tuition-worth-it-uk` | Is Maths Tuition Worth It? An Honest UK Guide for 2026 |
 | `/iseb-common-pre-test-maths-practice` | ISEB Common Pre-Test Maths Practice |
 | `/isee-ssat-math-prep` | ISEE & SSAT Math Prep Online |
+| `/kangaroo-math-germany-practice` | Känguru der Mathematik 2027: Practice in English, Germany |
 | `/keystone-algebra-1-prep` | Keystone Algebra 1 Prep: Modules, Anchors and 2027 Dates |
 | `/ks1-maths-tuition-online` | KS1 Maths Tuition Online |
 | `/ks1-sats-maths-explained` | KS1 SATs Maths Explained |
@@ -2814,6 +2899,7 @@ Listed with titles in Appendix C.
 | `/ks3-maths-tuition-online` | KS3 Maths Tuition Online · 1:1 Year 7-9 Maths |
 | `/map-growth-math-test-prep` | MAP Growth Math Test Prep: RIT Scores and Readiness |
 | `/math-30-1-tutor-alberta` | Math 30-1 Tutor, Alberta: Outcomes, Worked Problems, Practice |
+| `/math-and-coding-competitions-germany` | Maths and Coding Competitions in Germany: 2026/27 Calendar |
 | `/math-catch-up-program` | Math Catch-Up Program |
 | `/math-classes-for-kids-in-canada` | Math Classes for Kids in Canada: Grades 1 to 8, Live Online |
 | `/math-competitions-for-middle-school-students` | Math Competitions for Middle School: MATHCOUNTS and More |
@@ -2822,14 +2908,21 @@ Listed with titles in Appendix C.
 | `/math-league-contest-preparation` | Math League Contest Preparation: 2026-27 Dates and Rounds |
 | `/math-mammoth-tutor` | Math Mammoth Tutor Online: Live Help for Grades 1 to 7 |
 | `/math-olympiad-amc-tutoring` | Math Olympiad & AMC Tutoring Online · 1:1 AMC 8/10/12 & MATHCOUNTS Coaching |
+| `/math-olympiad-germany-preparation` | Mathematik-Olympiade Preparation in English, Germany |
+| `/math-tutor-berlin-in-english` | Maths Tutor in Berlin in English: Live Online, Klasse 1 to 13 |
 | `/math-tutor-brampton` | Math Tutor Brampton |
 | `/math-tutor-burnaby` | Math Tutor Burnaby |
 | `/math-tutor-calgary` | Math Tutor Calgary |
+| `/math-tutor-cologne-in-english` | Maths Tutor in Cologne, in English: Live Online Lessons |
 | `/math-tutor-cost-canada` | Math Tutor Cost in Canada: Hourly Rates, Free Options, Real Price |
+| `/math-tutor-cost-germany` | Maths Tutor Cost in Germany: What Drives the Price |
 | `/math-tutor-edmonton` | Math Tutor Edmonton |
+| `/math-tutor-frankfurt-in-english` | Maths Tutor in Frankfurt, in English: Klasse 1 to Abitur |
+| `/math-tutor-hamburg-in-english` | Maths Tutor in Hamburg in English: Live Online, ESA to Abitur |
 | `/math-tutor-markham` | Math Tutor Markham |
 | `/math-tutor-mississauga` | Math Tutor Mississauga |
 | `/math-tutor-montreal` | Math Tutor Montreal |
+| `/math-tutor-munich-in-english` | Maths Tutor in Munich, in English: Live Online Lessons |
 | `/math-tutor-oakville` | Math Tutor Oakville |
 | `/math-tutor-ottawa` | Math Tutor Ottawa |
 | `/math-tutor-richmond-hill` | Math Tutor Richmond Hill |
@@ -2922,6 +3015,7 @@ Listed with titles in Appendix C.
 | `/online-math-tutor-9th-grade` | Online Math Tutor for 9th Grade |
 | `/online-math-tutor-canada` | Online Math Tutor Canada |
 | `/online-math-tutor-cost` | Online Math Tutor Cost 2026: Real US Prices by Format |
+| `/online-math-tutor-germany` | Online Maths Tutor in Germany: Live Classes in English |
 | `/online-math-tutor-kindergarten` | Online Math Tutor for Kindergarten |
 | `/online-maths-circle-uk` | Online Maths Circle UK: University Clubs and a Weekly Circle |
 | `/online-maths-classes-for-adults-in-uk` | Online Maths Classes for Adults in the UK · 1:1 Numeracy, GCSE Resit & Functional Skills |
@@ -3011,7 +3105,7 @@ Listed with titles in Appendix C.
 | `/year-8-maths-tutor-online` | Year 8 Maths Tutor Online |
 | `/year-9-maths-tutor-online` | Year 9 Maths Tutor Online |
 
-### B.14 AI and machine learning pages (214)
+### B.14 AI and machine learning pages (216)
 
 | URL path | Page title |
 |---|---|
@@ -3194,6 +3288,8 @@ Listed with titles in Appendix C.
 | `/ai-classes-for-teens-australia` | AI Classes for Teens in Australia |
 | `/ai-coding-course` | AI Coding Course |
 | `/ai-course-for-beginners` | AI Course for Beginners |
+| `/ai-course-for-kids-germany` | AI Course for Kids in Germany: How Machines Learn, in English |
+| `/ai-course-for-school-students-germany` | AI Course for School Students in Germany, Taught in English |
 | `/ai-courses-for-high-school-students` | AI Courses for High School Students: School, Free and Live |
 | `/ai-courses-for-kids-australia` | AI Courses for Kids in Australia |
 | `/ai-development-services` | AI Development Company |
@@ -3230,12 +3326,13 @@ Listed with titles in Appendix C.
 | `/python-for-machine-learning` | Python for Machine Learning |
 | `/uk-olympiad-in-artificial-intelligence-preparation` | UK Olympiad in AI Preparation |
 
-### B.15 Programming language and topic pages (925)
+### B.15 Programming language and topic pages (1047)
 
 | URL path | Page title |
 |---|---|
 | `/a-level-computer-science-nea-help` | A-Level Computer Science NEA Help |
 | `/a-level-computer-science-tutor-online-uk` | A Level Computer Science Tutor Online |
+| `/abitur-computer-science-in-english` | Informatik Abitur in English: How the Exam Works by Land |
 | `/acsl-competition-preparation` | ACSL Competition Preparation: Divisions, Dates, Topics |
 | `/advanced-higher-computing-science-project-help` | Advanced Higher Computing Science Project Help |
 | `/after-code-club-next-step-coding-uk` | After Code Club: The Next Step in Coding, UK |
@@ -3246,10 +3343,12 @@ Listed with titles in Appendix C.
 | `/agentic-coding-classes` | Agentic Coding Classes |
 | `/aio-to-ioi-pathway-australia` | AIO to IOI Pathway in Australia |
 | `/app-development-classes-for-teens-canada` | App Development Classes for Teens in Canada: Build and Ship |
+| `/app-development-classes-for-teens-germany` | App Development Classes for Teens in Germany, in English |
 | `/app-development-course-australia` | App Development Course in Australia |
 | `/app-development-course-ireland` | App Development Course in Ireland |
 | `/app-development-course-netherlands` | App Development Course in the Netherlands |
 | `/app-development-course-uk` | App Development Course in the UK |
+| `/app-entwickeln-lernen-jugendliche` | App entwickeln lernen für Jugendliche: live auf Englisch |
 | `/app-inventor-for-kids` | MIT App Inventor for Kids: Sign-In, Setup and a First App |
 | `/aqa-a-level-computer-science-7517-help` | AQA A-level Computer Science 7517 Help |
 | `/aqa-gcse-computer-science-8525-help` | AQA GCSE Computer Science 8525 Help |
@@ -3420,6 +3519,7 @@ Listed with titles in Appendix C.
 | `/best-java-classes-in-india` | Best Java Classes in India |
 | `/best-online-coding-classes-for-kids-2026` | Online Coding Classes for Kids: Best Live Options, Ranked (2026) |
 | `/best-online-coding-classes-for-kids-usa-compared` | Online Coding Classes for Kids in the USA, Compared (2026) |
+| `/best-online-coding-classes-germany` | Best Online Coding Classes in Germany: How to Choose |
 | `/best-online-coding-classes-in-canada` | Best Online Coding Classes in Canada (2026): How to Choose |
 | `/best-online-coding-classes-ireland` | Best Online Coding Classes in Ireland |
 | `/best-online-coding-classes-uk` | Best Online Coding Classes in the UK |
@@ -3438,6 +3538,9 @@ Listed with titles in Appendix C.
 | `/build-real-ai-projects-oman` | Build Real AI Projects: Oman Student Portfolios |
 | `/build-real-ai-projects-uk` | Build Real AI Projects in the UK |
 | `/build-your-own-gpt-python` | Build Your Own GPT in Python: From Tokenizer to Trained Model in 300 Lines |
+| `/bundeswettbewerb-informatik-preparation` | Bundeswettbewerb Informatik Preparation, Live in English |
+| `/bundeswettbewerb-informatik-vorbereitung` | Bundeswettbewerb Informatik: Vorbereitung live auf Englisch |
+| `/bundeswettbewerb-ki-bwki-project-help` | Bundeswettbewerb KI (BWKI) Project Help in English |
 | `/c-plus-plus-certification-course` | C++ Certification Course |
 | `/c-plus-plus-classes-for-college-students` | C++ Classes for College Students |
 | `/c-plus-plus-classes-for-teens` | C++ Classes for Teens |
@@ -3490,26 +3593,38 @@ Listed with titles in Appendix C.
 | `/coding-and-ai-classes-in-arkansas` | Coding and AI Classes in Arkansas |
 | `/coding-and-ai-classes-in-australian-capital-territory` | Coding and AI Classes in the ACT |
 | `/coding-and-ai-classes-in-bahamas` | Coding and AI Classes in The Bahamas |
+| `/coding-and-ai-classes-in-bergisch-gladbach-germany` | Coding and AI Classes in Bergisch Gladbach, Live in English |
+| `/coding-and-ai-classes-in-bielefeld-germany` | Coding and AI Classes in Bielefeld: Live Online in English |
+| `/coding-and-ai-classes-in-braunschweig-germany` | Coding and AI Classes in Braunschweig: Live, in English |
+| `/coding-and-ai-classes-in-bremerhaven-germany` | Coding and AI Classes in Bremerhaven: Live Online, English |
 | `/coding-and-ai-classes-in-calgary` | Coding and AI Classes in Calgary |
 | `/coding-and-ai-classes-in-colorado` | Coding and AI Classes in Colorado |
 | `/coding-and-ai-classes-in-connacht` | Coding and AI Classes in Connacht |
 | `/coding-and-ai-classes-in-connecticut` | Coding and AI Classes in Connecticut |
+| `/coding-and-ai-classes-in-darmstadt-germany` | Coding and AI Classes in Darmstadt, Live Online in English |
 | `/coding-and-ai-classes-in-delaware` | Coding and AI Classes in Delaware |
+| `/coding-and-ai-classes-in-duisburg-germany` | Coding and AI Classes in Duisburg, Live Online in English |
 | `/coding-and-ai-classes-in-east-midlands` | Coding and AI Classes in the East Midlands |
 | `/coding-and-ai-classes-in-east-of-england` | Coding and AI Classes in the East of England |
 | `/coding-and-ai-classes-in-edmonton` | Coding and AI Classes in Edmonton |
 | `/coding-and-ai-classes-in-england` | Coding and AI Classes in England |
 | `/coding-and-ai-classes-in-florida` | Coding and AI Classes in Florida |
+| `/coding-and-ai-classes-in-fuerth-germany` | Coding and AI Classes in Fürth: Live Online in English |
+| `/coding-and-ai-classes-in-guetersloh-germany` | Coding and AI Classes in Gütersloh: Live Online, in English |
 | `/coding-and-ai-classes-in-halifax-nova-scotia` | Coding and AI Classes in Halifax, Nova Scotia |
+| `/coding-and-ai-classes-in-halle-saale-germany` | Coding and AI Classes in Halle (Saale): Live, in English |
 | `/coding-and-ai-classes-in-hawaii` | Coding and AI Classes in Hawaii |
 | `/coding-and-ai-classes-in-idaho` | Coding and AI Classes in Idaho |
 | `/coding-and-ai-classes-in-indiana` | Coding and AI Classes in Indiana |
 | `/coding-and-ai-classes-in-iowa` | Coding and AI Classes in Iowa |
 | `/coding-and-ai-classes-in-kansas` | Coding and AI Classes in Kansas |
+| `/coding-and-ai-classes-in-kassel-germany` | Coding and AI Classes in Kassel: Live Online in English |
 | `/coding-and-ai-classes-in-kentucky` | Coding and AI Classes in Kentucky |
 | `/coding-and-ai-classes-in-leinster` | Coding and AI Classes in Leinster |
 | `/coding-and-ai-classes-in-london-ontario` | Coding and AI Classes in London, Ontario |
 | `/coding-and-ai-classes-in-louisiana` | Coding and AI Classes in Louisiana |
+| `/coding-and-ai-classes-in-luebeck-germany` | Coding and AI Classes in Lübeck: Live Online, in English |
+| `/coding-and-ai-classes-in-magdeburg-germany` | Coding and AI Classes in Magdeburg: Live Online, in English |
 | `/coding-and-ai-classes-in-maine` | Coding and AI Classes in Maine |
 | `/coding-and-ai-classes-in-massachusetts` | Coding and AI Classes in Massachusetts |
 | `/coding-and-ai-classes-in-michigan` | Coding and AI Classes in Michigan |
@@ -3518,8 +3633,10 @@ Listed with titles in Appendix C.
 | `/coding-and-ai-classes-in-missouri` | Coding and AI Classes in Missouri |
 | `/coding-and-ai-classes-in-montana` | Coding and AI Classes in Montana |
 | `/coding-and-ai-classes-in-montreal` | Coding and AI Classes in Montreal |
+| `/coding-and-ai-classes-in-muenster-germany` | Coding and AI Classes in Münster, Live Online in English |
 | `/coding-and-ai-classes-in-munster` | Coding and AI Classes in Munster |
 | `/coding-and-ai-classes-in-nassau` | Coding and AI Classes in Nassau, Bahamas |
+| `/coding-and-ai-classes-in-neuss-germany` | Coding and AI Classes in Neuss: Live Online in English |
 | `/coding-and-ai-classes-in-nevada` | Coding and AI Classes in Nevada |
 | `/coding-and-ai-classes-in-new-hampshire` | Coding and AI Classes in New Hampshire |
 | `/coding-and-ai-classes-in-new-mexico` | Coding and AI Classes in New Mexico |
@@ -3532,13 +3649,17 @@ Listed with titles in Appendix C.
 | `/coding-and-ai-classes-in-northern-territory` | Coding and AI Classes in the Northern Territory |
 | `/coding-and-ai-classes-in-ohio` | Coding and AI Classes in Ohio |
 | `/coding-and-ai-classes-in-oklahoma` | Coding and AI Classes in Oklahoma |
+| `/coding-and-ai-classes-in-oldenburg-oldenburg-germany` | Coding and AI Classes in Oldenburg: Live Online, in English |
 | `/coding-and-ai-classes-in-oregon` | Coding and AI Classes in Oregon |
 | `/coding-and-ai-classes-in-ottawa` | Coding and AI Classes in Ottawa |
 | `/coding-and-ai-classes-in-pennsylvania` | Coding and AI Classes in Pennsylvania |
+| `/coding-and-ai-classes-in-pforzheim-germany` | Coding and AI Classes in Pforzheim: Live Online, in English |
 | `/coding-and-ai-classes-in-quebec-city` | Coding and AI Classes in Quebec City |
 | `/coding-and-ai-classes-in-queensland` | Coding and AI Classes in Queensland |
+| `/coding-and-ai-classes-in-recklinghausen-germany` | Coding and AI Classes in Recklinghausen, Live in English |
 | `/coding-and-ai-classes-in-regina` | Coding and AI Classes in Regina |
 | `/coding-and-ai-classes-in-rhode-island` | Coding and AI Classes in Rhode Island |
+| `/coding-and-ai-classes-in-saarbruecken-germany` | Coding and AI Classes in Saarbrücken, Live Online in English |
 | `/coding-and-ai-classes-in-saskatoon` | Coding and AI Classes in Saskatoon |
 | `/coding-and-ai-classes-in-scotland` | Coding and AI Classes in Scotland |
 | `/coding-and-ai-classes-in-south-australia` | Coding and AI Classes in South Australia |
@@ -3550,6 +3671,7 @@ Listed with titles in Appendix C.
 | `/coding-and-ai-classes-in-tasmania` | Coding and AI Classes in Tasmania |
 | `/coding-and-ai-classes-in-tennessee` | Coding and AI Classes in Tennessee |
 | `/coding-and-ai-classes-in-toronto` | Coding and AI Classes in Toronto |
+| `/coding-and-ai-classes-in-trier-germany` | Coding and AI Classes in Trier: Live Online, in English |
 | `/coding-and-ai-classes-in-ulster` | Coding and AI Classes in Ulster |
 | `/coding-and-ai-classes-in-utah` | Coding and AI Classes in Utah |
 | `/coding-and-ai-classes-in-vermont` | Coding and AI Classes in Vermont |
@@ -3562,6 +3684,7 @@ Listed with titles in Appendix C.
 | `/coding-and-ai-classes-in-western-australia` | Coding and AI Classes in Western Australia |
 | `/coding-and-ai-classes-in-winnipeg` | Coding and AI Classes in Winnipeg |
 | `/coding-and-ai-classes-in-wisconsin` | Coding and AI Classes in Wisconsin |
+| `/coding-and-ai-classes-in-wolfsburg-germany` | Coding and AI Classes in Wolfsburg: Live Online in English |
 | `/coding-and-ai-classes-in-wyoming` | Coding and AI Classes in Wyoming |
 | `/coding-and-ai-classes-in-yorkshire-and-the-humber` | Coding and AI Classes in Yorkshire and the Humber |
 | `/coding-before-a-degree-apprenticeship-uk` | Coding Before a Degree Apprenticeship, UK |
@@ -3577,10 +3700,19 @@ Listed with titles in Appendix C.
 | `/coding-for-homeschool-kids-australia` | Coding for Homeschool Kids in Australia |
 | `/coding-for-icse-students` | Coding for ICSE Students: Java BlueJ, Computer Applications & ISC CS |
 | `/coding-for-igcse-students` | Coding for IGCSE Students: Cambridge CS 0478, 0984, ICT & Python |
+| `/coding-for-international-school-students-berlin` | Coding for International School Students in Berlin, in English |
+| `/coding-for-international-school-students-dusseldorf` | Coding for International School Students in Düsseldorf |
+| `/coding-for-international-school-students-frankfurt` | Coding for International School Students in Frankfurt |
+| `/coding-for-international-school-students-germany` | Coding for International School Students in Germany |
+| `/coding-for-international-school-students-hamburg` | Coding for International School Students in Hamburg, in English |
+| `/coding-for-international-school-students-munich` | Coding for International School Students in Munich |
+| `/coding-for-international-school-students-stuttgart` | Coding for International School Students in Stuttgart |
 | `/coding-for-university-students-australia` | Coding for University Students in Australia |
 | `/coding-for-university-students-uk` | Coding for University Students in the UK |
 | `/coding-for-year-7-australia` | Coding for Year 7 in Australia: From Blocks to Python |
+| `/coding-fuer-kinder` | Coding für Kinder: was es ist und wie Kinder es lernen |
 | `/coding-games-for-kids-australia` | Coding Games for Kids in Australia |
+| `/coding-interview-prep-for-international-students-germany` | Coding Interview Prep for International Students in Germany |
 | `/coding-lang` | Programming Languages, Frameworks and Tools to Learn in 2026: The Complete Guide |
 | `/coding-milestones-by-age` | Coding Milestones by Age: What Kids Can Do from 6 to 18 |
 | `/coding-olympiad-medal-track` | Coding Olympiad Medal Track: IOQI, ZIO, INOI, IOI, Bebras, Math Kangaroo Coaching |
@@ -3623,6 +3755,7 @@ Listed with titles in Appendix C.
 | `/duke-of-edinburgh-skills-section-coding` | Duke of Edinburgh Skills Section Coding: Plans by Level |
 | `/eclipse-java-help-for-students` | Eclipse Java Help for Students: Run, Errors and Setup Fixes |
 | `/edexcel-gcse-computer-science-1cp2-help` | Edexcel GCSE Computer Science 1CP2 Help |
+| `/english-speaking-tutor-germany` | English-Speaking Tutor in Germany: Maths and Coding, Live |
 | `/epq-computer-science-artefact-mentoring` | EPQ Computer Science Artefact Mentoring |
 | `/euclid-contest-preparation` | Euclid Contest 2027: Date, Marking and Full Solutions |
 | `/fermat-contest-preparation` | Fermat Contest 2027 (Grade 11): Date, Timing, Practice |
@@ -3637,6 +3770,7 @@ Listed with titles in Appendix C.
 | `/full-stack-software-development-course-ireland` | Full Stack Software Development Course |
 | `/full-stack-software-development-course-netherlands` | Full Stack Software Development Course, Netherlands |
 | `/full-stack-software-development-course-uk` | Full Stack Software Development Course, UK |
+| `/game-coding-classes-for-kids-germany` | Game Coding Classes for Kids in Germany, Live in English |
 | `/game-design-classes-for-teens` | Game Design for Teens: Live Classes, a Method and Real Code |
 | `/game-development-classes-for-kids-canada` | Game Development Classes for Kids in Canada: Scratch to Roblox |
 | `/game-development-for-kids-australia` | Game Development for Kids in Australia |
@@ -3673,6 +3807,8 @@ Listed with titles in Appendix C.
 | `/hsc-enterprise-computing-help` | HSC Enterprise Computing Help |
 | `/hsc-software-engineering-help` | HSC Software Engineering Help |
 | `/ib-computer-science-online-tuition` | IB Computer Science Online Tuition |
+| `/ib-computer-science-tutor-germany` | IB Computer Science Tutor in Germany, Live Online in English |
+| `/ib-und-igcse-nachhilfe-mathe-informatik` | IB- und IGCSE-Nachhilfe in Mathe und Informatik, auf Englisch |
 | `/icas-digital-technologies-practice` | ICAS Digital Technologies Practice: Papers by Year Level |
 | `/icd2o-digital-technology-course-explained` | ICD2O Explained: Ontario Grade 10 Computer Course, and ICS2O |
 | `/ics3u-computer-science-help` | ICS3U Computer Science Help: Python, Java, Exam Review |
@@ -3688,10 +3824,22 @@ Listed with titles in Appendix C.
 | `/icse-class-10-computer-applications-syllabus-explained` | ICSE Class 10 Computer Applications Syllabus 2026-27 Explained |
 | `/icse-class-10-java-classes-online` | ICSE Class 10 Java Classes Online |
 | `/icse-class-10-java-programs-practice` | ICSE Class 10 Java Programs Practice |
+| `/igcse-computer-science-tutor-germany` | IGCSE Computer Science Tutor in Germany (0478), in English |
 | `/indian-computing-olympiad-preparation` | Indian Computing Olympiad Prep: ZIO, ZCO and INOI, Live Online |
+| `/informatik-abitur-baden-wuerttemberg` | Informatik-Abitur Baden-Württemberg 2027: Facherlass, Termin |
+| `/informatik-abitur-bayern` | Informatik-Abitur Bayern 2027: G9-Prüfung, Termine, KI-Übung |
+| `/informatik-abitur-hessen` | Informatik-Abitur Hessen 2027: Java oder Python, Termine, Übung |
+| `/informatik-abitur-niedersachsen` | Informatik-Abitur Niedersachsen 2027: Regeln, Termin, Übung |
+| `/informatik-abitur-nrw` | Informatik-Abitur NRW 2027: Vorgaben, Termin, Übung in Java |
+| `/informatik-abitur-vorbereitung` | Informatik-Abitur Vorbereitung: live auf Englisch, GK und LK |
+| `/informatik-biber-practice-in-english` | Informatik-Biber Practice in English for Pupils in Germany |
+| `/informatik-in-german-schools-by-state` | Is Computer Science Compulsory in German Schools? By State |
+| `/informatik-nachhilfe-online` | Informatik-Nachhilfe online: live auf Englisch, Klasse 5 bis 13 |
+| `/informatik-pflichtfach-unterstuetzung` | Neues Pflichtfach Informatik: Unterstützung live auf Englisch |
 | `/inside-neural-networks` | Inside Neural Networks: How Deep Learning Really Works, From Perceptron to Transformer |
 | `/intellij-and-pycharm-free-for-students` | IntelliJ and PyCharm Free for Students: License and Setup |
 | `/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation` | Cayley, Hamilton and Maclaurin Preparation |
+| `/ioi-2027-potsdam-guide` | IOI 2027 in Potsdam: A Guide for Families in Germany |
 | `/ioi-olympiad-informatics-training` | IOI and Informatics Olympiad Training |
 | `/ioqm-rmo-inmo-preparation` | IOQM, RMO and INMO Preparation Online: India's Olympiad Pathway |
 | `/is-ap-computer-science-hard` | Is AP Computer Science Hard? CSA and CSP, by the Numbers |
@@ -3701,6 +3849,7 @@ Listed with titles in Appendix C.
 | `/java-classes-for-adults` | Java Classes for Adults |
 | `/java-classes-for-teens` | Java Classes for Teens |
 | `/java-classes-for-teens-in-canada` | Java Classes for Teens in Canada: ICS3U, ICS4U and Beyond |
+| `/java-classes-germany` | Java Classes in Germany: Live Online, Taught in English |
 | `/java-classes-ireland` | Java Classes in Ireland |
 | `/java-classes-netherlands` | Java Classes in the Netherlands |
 | `/java-classes-online-australia` | Java Classes Online in Australia |
@@ -3714,9 +3863,14 @@ Listed with titles in Appendix C.
 | `/javascript-classes-online-australia` | JavaScript Classes Online in Australia |
 | `/javascript-for-kids` | JavaScript for Kids: Where to Start, With Three Real Programs |
 | `/jee-aspirant-coding-track` | JEE Aspirant Coding Track: Python & Computational Maths for Class 11 & 12 Without Distu... |
+| `/jugend-forscht-computer-science-project-mentoring` | Jugend forscht Informatik: Project Mentoring in English |
+| `/jugendwettbewerb-informatik-preparation` | Jugendwettbewerb Informatik 2027 Preparation in English |
 | `/junior-cycle-coding-short-course-help` | Junior Cycle Coding Short Course Help |
 | `/junior-mathematical-olympiad-preparation` | Junior Mathematical Olympiad Preparation |
 | `/jupyter-notebook-errors-for-students` | Jupyter Notebook Errors: A Fix Guide for Students |
+| `/ki-kurs-fuer-kinder` | KI-Kurs für Kinder: KI verstehen und selbst bauen, auf Englisch |
+| `/ki-kurs-fuer-rentner-und-senioren` | KI-Kurs für Rentner und Senioren: live online, auf Englisch |
+| `/ki-kurs-fuer-schueler` | KI-Kurs für Schüler: Modelle bauen statt chatten, auf Englisch |
 | `/kids-coding-languages-australia` | Kids Coding Languages: Which One First? Australia Guide |
 | `/ks1-coding-lessons-online` | KS1 Coding Lessons Online |
 | `/ks2-coding-lessons-online` | Key Stage 2 Coding Lessons Online |
@@ -3725,11 +3879,13 @@ Listed with titles in Appendix C.
 | `/learn-coding-by-age` | Learn Coding by Age (8-17) |
 | `/learn-coding-by-class` | Learn Coding by Class (4-12) |
 | `/learn-coding-from-first-principles` | Learn Coding From First Principles: Understand How Code Actually Works |
+| `/learn-coding-in-english-germany` | Learn Coding in English in Germany: Live Online Classes |
 | `/learn-to-build-ai` | Learn to Build AI, Not Just Use It |
 | `/learn-to-code-minecraft-mods` | Learn to Code Minecraft Mods in Java: A Guide for Teens |
 | `/learn-to-code-over-50-australia` | Learn to Code Over 50 in Australia |
 | `/learn-to-code-over-50-uk` | Learn to Code Over 50, UK |
 | `/learn-to-code-with-ai` | Learn to Code with AI |
+| `/learn-to-think-not-copy-ai-germany` | Learn to Think, Not Copy AI: Coding Classes in Germany |
 | `/learn-to-think-not-just-use-ai-tools-australia` | Learn to Think, Not Just Use AI Tools |
 | `/learn-to-think-not-just-use-ai-tools-ireland` | Learn to Think, Not Just Use AI Tools |
 | `/learn-to-think-not-just-use-ai-tools-uk` | Learn to Think, Not Just Use AI Tools |
@@ -3746,16 +3902,26 @@ Listed with titles in Appendix C.
 | `/makecode-arcade-help-for-students` | MakeCode Arcade Help: Jump, Gravity, Levels and Saving |
 | `/master-ai-ml-python-java` | Master AI, ML, Python & Java: Go Deeper |
 | `/mathcounts-preparation` | MATHCOUNTS Preparation Online: Sprint, Target, Team, Countdown |
+| `/mathe-abitur-vorbereitung-online` | Mathe-Abitur-Vorbereitung online: live auf Englisch, LK und GK |
+| `/mathe-nachhilfe-auf-englisch` | Mathe-Nachhilfe auf Englisch: live online, Klasse 1 bis 13 |
+| `/mathe-nachhilfe-grundschule-online` | Mathe-Nachhilfe Grundschule online: Klasse 1 bis 4, auf Englisch |
+| `/mathe-nachhilfe-online-gymnasium` | Mathe-Nachhilfe online Gymnasium: Klasse 5 bis 10, auf Englisch |
+| `/mathe-nachhilfe-online-oberstufe` | Mathe-Nachhilfe online Oberstufe: EF und Q-Phase, auf Englisch |
+| `/mathe-nachhilfe-online-realschule` | Mathe-Nachhilfe online Realschule: Abschluss 2027, auf Englisch |
 | `/mathematical-olympiad-for-girls-preparation` | Mathematical Olympiad for Girls Preparation |
+| `/mathematik-olympiade-vorbereitung` | Mathematik-Olympiade Vorbereitung: live auf Englisch, 2026/27 |
 | `/mcr3u-functions-tutor` | MCR3U Functions Tutor: Grade 11 Help and Final Exam Prep |
 | `/mdm4u-data-management-tutor` | MDM4U Data Management Tutor: Grade 12 Help and Practice |
 | `/mhf4u-advanced-functions-tutor` | MHF4U Advanced Functions Tutor: Grade 12 Help and Exam Prep |
 | `/minecraft-coding-classes-australia` | Minecraft Coding Classes in Australia |
 | `/minecraft-coding-classes-for-kids` | Minecraft Coding Classes for Kids |
+| `/minecraft-coding-classes-germany` | Minecraft Coding for Kids in Germany, Live in English |
+| `/minecraft-programmieren-lernen-kinder` | Minecraft programmieren lernen: für Kinder, live online |
 | `/mobile-app-development-services` | Mobile App Development Company |
 | `/model-context-protocol-mcp-course` | Model Context Protocol (MCP) Course |
 | `/multiplication-tables-check-year-4-practice` | Multiplication Tables Check Practice, Year 4 |
 | `/mvp-development-company` | MVP Development Company for Startups |
+| `/nachhilfe-auf-englisch-online` | Nachhilfe auf Englisch online: Mathe und Informatik, live |
 | `/naplan-numeracy-practice-online` | NAPLAN Numeracy Practice Online |
 | `/naplan-year-3-numeracy-practice` | NAPLAN Year 3 Numeracy Practice |
 | `/naplan-year-5-numeracy-practice` | NAPLAN Year 5 Numeracy Practice |
@@ -3921,14 +4087,39 @@ Listed with titles in Appendix C.
 | `/online-coding-and-python-classes-in-yarra-ranges-melbourne` | Online Coding and Python Classes in Yarra Ranges, Melbourne |
 | `/online-coding-classes-australia-compared` | Online Coding Classes in Australia Compared: What to Check |
 | `/online-coding-classes-cost` | How Much Do Coding Classes Cost in 2026? Fees by Format |
+| `/online-coding-classes-europe` | Online Coding Classes in Europe, Live and in English |
 | `/online-coding-classes-for-kids-australia` | Online Coding Classes for Kids in Australia |
+| `/online-coding-classes-for-kids-germany` | Online Coding Classes for Kids in Germany: How Live Lessons Work |
 | `/online-coding-classes-for-kids-uk` | Online Coding Classes for Kids in the UK |
 | `/online-coding-classes-for-kids-usa` | Online Coding Classes for Kids in the USA |
+| `/online-coding-course-for-career-changers-germany` | Online Coding Course for Career Changers in Germany |
 | `/online-coding-summer-course-ireland` | Online Coding Summer Course in Ireland |
 | `/online-coding-summer-course-uk` | Online Coding Summer Course, UK |
 | `/online-coding-tutor-australia` | Online Coding Tutor in Australia |
 | `/online-coding-tutor-uk` | Online Coding Tutor UK |
 | `/online-java-classes` | Online Java Classes |
+| `/online-python-classes-augsburg-germany` | Online Python Classes in Augsburg, Live in English |
+| `/online-python-classes-bochum-germany` | Online Python Classes in Bochum: Live Lessons in English |
+| `/online-python-classes-bottrop-germany` | Online Python Classes in Bottrop: Live, Taught in English |
+| `/online-python-classes-freiburg-im-breisgau-germany` | Online Python Classes in Freiburg: Live Lessons in English |
+| `/online-python-classes-goettingen-germany` | Online Python Classes in Göttingen: Live and in English |
+| `/online-python-classes-hagen-germany` | Online Python Classes in Hagen: Live Lessons in English |
+| `/online-python-classes-hamm-germany` | Online Python Classes in Hamm: Live, in English, Every Age |
+| `/online-python-classes-heilbronn-germany` | Online Python Classes in Heilbronn: Live, in English |
+| `/online-python-classes-herne-germany` | Online Python Classes in Herne: Live and in English |
+| `/online-python-classes-jena-germany` | Online Python Classes in Jena: Live Lessons in English |
+| `/online-python-classes-kaiserslautern-germany` | Online Python Classes in Kaiserslautern, Live in English |
+| `/online-python-classes-kiel-germany` | Online Python Classes in Kiel: Live Lessons in English |
+| `/online-python-classes-mainz-germany` | Online Python Classes in Mainz: Live Lessons in English |
+| `/online-python-classes-mannheim-germany` | Online Python Classes in Mannheim: Live, in English |
+| `/online-python-classes-moenchengladbach-germany` | Online Python Classes in Mönchengladbach, Live in English |
+| `/online-python-classes-muelheim-an-der-ruhr-germany` | Online Python Classes in Mülheim an der Ruhr, Live in English |
+| `/online-python-classes-oberhausen-germany` | Online Python Classes in Oberhausen: Live, Taught in English |
+| `/online-python-classes-osnabrueck-germany` | Online Python Classes in Osnabrück: Live, in English |
+| `/online-python-classes-regensburg-germany` | Online Python Classes in Regensburg: Live, in English |
+| `/online-python-classes-remscheid-germany` | Online Python Classes in Remscheid: Live, Taught in English |
+| `/online-python-classes-siegen-germany` | Online Python Classes in Siegen: Live and Taught in English |
+| `/online-python-classes-wuerzburg-germany` | Online Python Classes in Würzburg: Live Lessons in English |
 | `/ontario-coding-curriculum-grades-1-to-8` | Ontario Math Curriculum Coding, Grades 1 to 8, by Grade |
 | `/ontario-computer-science-course-pathway` | Ontario Computer Science Pathway: ICD2O to ICS4U, Grade by Grade |
 | `/ontario-high-school-diploma-credits-explained` | Ontario High School Credits Explained: OSSD Requirements |
@@ -3945,17 +4136,36 @@ Listed with titles in Appendix C.
 | `/problem-solving-skills-through-coding-ireland` | Problem Solving Skills Through Coding |
 | `/problem-solving-skills-through-coding-uk` | Problem-Solving Skills Through Coding |
 | `/problem-solving-through-coding-australia` | Problem Solving Through Coding |
+| `/programmieren-fuer-kinder-ab-8` | Programmieren für Kinder ab 8: warum jetzt, wie es geht |
+| `/programmieren-lernen-ab-12` | Programmieren lernen ab 12: live online auf Englisch |
+| `/programmieren-lernen-auf-englisch` | Programmieren lernen auf Englisch: live online, mit Mentor |
+| `/programmieren-lernen-erwachsene-online` | Programmieren lernen als Erwachsener: live online auf Englisch |
+| `/programmieren-lernen-kinder-berlin` | Programmieren lernen für Kinder in Berlin: live auf Englisch |
+| `/programmieren-lernen-kinder-duesseldorf` | Programmieren lernen für Kinder in Düsseldorf: live auf Englisch |
+| `/programmieren-lernen-kinder-frankfurt` | Programmieren lernen für Kinder in Frankfurt: live auf Englisch |
+| `/programmieren-lernen-kinder-hamburg` | Programmieren lernen für Kinder in Hamburg: live auf Englisch |
+| `/programmieren-lernen-kinder-hannover` | Programmieren lernen für Kinder in Hannover: live auf Englisch |
+| `/programmieren-lernen-kinder-koeln` | Programmieren lernen für Kinder in Köln: live auf Englisch |
+| `/programmieren-lernen-kinder-leipzig` | Programmieren lernen für Kinder in Leipzig: live auf Englisch |
+| `/programmieren-lernen-kinder-muenchen` | Programmieren lernen für Kinder in München: live auf Englisch |
+| `/programmieren-lernen-kinder-nuernberg` | Programmieren lernen für Kinder in Nürnberg: live auf Englisch |
+| `/programmieren-lernen-kinder-stuttgart` | Programmieren lernen für Kinder in Stuttgart: live auf Englisch |
+| `/programmierkurs-jugendliche-online` | Programmierkurs für Jugendliche online, live auf Englisch |
+| `/programmierkurs-kinder-online` | Programmierkurs für Kinder online: live, 6 bis 12 Jahre |
 | `/prompt-engineering-course` | Prompt Engineering Course |
 | `/python-ai-course-for-kids-australia` | Python AI Course for Kids in Australia |
 | `/python-and-ai-classes-for-kids-teens` | Python for Kids & Teens |
 | `/python-and-ai-track-for-students-bahamas` | The 12-Month Python and AI Track for Bahamian Students |
+| `/python-and-dsa-for-international-students-germany` | Python and DSA for International Students in Germany |
 | `/python-certification-pcep-pcap-course` | Python Certification Course |
+| `/python-classes-for-kids-germany` | Python Classes for Kids in Germany: Live Online, in English |
 | `/python-classes-in-canada` | Python Classes in Canada: Live Online for Kids, Teens, Adults |
 | `/python-classes-in-dubai` | Python Classes in Dubai |
 | `/python-classes-in-qatar` | Python Classes in Qatar |
 | `/python-classes-in-saudi-arabia` | Python Classes in Saudi Arabia |
 | `/python-classes-netherlands` | Python Classes in the Netherlands |
 | `/python-classes-online-australia` | Python Classes Online in Australia |
+| `/python-course-germany` | Python Course in Germany: Live Online Classes in English |
 | `/python-for-beginners-kids` | Python for Beginners Kids: Absolute Zero Start, Fun Projects, Live 1-on-1 Classes |
 | `/python-for-cbse-class-10-ai` | Python for CBSE Class 10 AI (417) |
 | `/python-for-data-science` | Python for Data Science |
@@ -3963,6 +4173,8 @@ Listed with titles in Appendix C.
 | `/python-from-the-ground-up` | Python From the Ground Up: Complete, In-Depth Python Course (Grade 6 to Professional) |
 | `/python-games-for-kids` | Python Games for Kids: Code Your First Game, Then Pygame |
 | `/python-indentation-error-explained` | Python IndentationError Explained: Every Message and Fix |
+| `/python-kurs-kinder-online` | Python-Kurs für Kinder online: live, etwa 9 bis 14 Jahre |
+| `/python-lernen-fuer-schueler` | Python lernen für Schüler: live online, auf Englisch |
 | `/python-projects-for-kids` | Python Projects for Kids: 20+ Finishable Python Projects (Ages 8 to 15) |
 | `/python-to-ai-roadmap-for-students-netherlands` | Python to AI Roadmap for Students in the Netherlands |
 | `/python-to-ai-roadmap-for-students-oman` | Python to AI Roadmap for Students in Oman |
@@ -3973,6 +4185,8 @@ Listed with titles in Appendix C.
 | `/results` | Our Results |
 | `/roblox-coding-classes-australia` | Roblox Coding Classes in Australia |
 | `/roblox-coding-classes-for-kids` | Roblox Coding Classes for Kids |
+| `/roblox-coding-classes-germany` | Roblox Coding Classes in Germany, Live in English |
+| `/roblox-programmieren-lernen-kinder` | Roblox programmieren lernen: Kurs für Kinder, auf Englisch |
 | `/roblox-studio-errors-fixed` | Roblox Studio Errors Fixed: 403, 502, HTTP and Output |
 | `/robocup-junior-australia-coding-help` | RoboCup Junior Australia Coding Help: Challenges Explained |
 | `/sace-digital-technologies-help` | SACE Digital Technologies Help |
@@ -3982,7 +4196,9 @@ Listed with titles in Appendix C.
 | `/science-fair-project-ideas-ai` | AI Science Fair Project Ideas That Follow the Actual Rules |
 | `/science-olympiad-coding-events-help` | Science Olympiad Coding Events Help: 2027 Season Guide |
 | `/scottish-mathematical-challenge-practice` | Scottish Mathematical Challenge Practice |
+| `/scratch-classes-for-kids-germany` | Scratch Classes for Kids in Germany: Live Online, in English |
 | `/scratch-coding-classes-for-kids` | Scratch Coding Classes for Kids |
+| `/scratch-kurs-kinder-online` | Scratch-Kurs für Kinder online: live, mit Mentor |
 | `/scratch-not-working-help` | Scratch Not Working? Fixes for Saving, Sign-In and Loading |
 | `/screen-time-to-skill` | Screen Time to Skill Calculator: Turn Your Child's YouTube Hours into Apps, Code & Income |
 | `/sentinus-young-innovators-coding-help` | Sentinus Young Innovators Coding Help |
@@ -3994,6 +4210,7 @@ Listed with titles in Appendix C.
 | `/software-engineering-major-project-help-hsc` | HSC Software Engineering Project Help |
 | `/software-maintenance-and-support` | Bug Fixing, QA & Software Maintenance Services |
 | `/software-scaling-and-modernization` | Software Scaling & Modernization Services |
+| `/spiele-programmieren-lernen-kinder` | Spiele programmieren lernen: Kurs für Kinder von 6 bis 12 |
 | `/student-hackathons-uk` | Student Hackathons UK |
 | `/summer-research-programs-coding` | Summer Research Programs in Coding and AI |
 | `/t-level-digital-coding-help` | T Level Digital Software Development Help |
@@ -4020,6 +4237,7 @@ Listed with titles in Appendix C.
 | `/vce-applied-computing-data-analytics-help` | VCE Data Analytics Help |
 | `/vce-applied-computing-software-development-help` | VCE Software Development Help |
 | `/vex-iq-programming-help` | VEX IQ Programming Help: Coding Tutorial for 2026-27 |
+| `/vibe-coding-and-ai-agents-classes-germany` | Vibe Coding and AI Agents Classes in Germany, in English |
 | `/vibe-coding-and-ai-agents-classes-in-airdrie` | Vibe Coding and AI Agents Classes in Airdrie |
 | `/vibe-coding-and-ai-agents-classes-in-albany-wa` | Vibe Coding and AI Agents Classes in Albany, WA |
 | `/vibe-coding-and-ai-agents-classes-in-albury-wodonga` | Vibe Coding and AI Agents Classes in Albury-Wodonga |
@@ -4454,9 +4672,9 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
     "one_to_one": 1,
     "custom_group": "3-10"
   },
-  "courses_live": 142,
+  "courses_live": 147,
   "blog_posts": 176,
-  "live_urls": 2828,
+  "live_urls": 3032,
   "pricing": {
     "coding": {
       "india": {
@@ -4880,6 +5098,37 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Weeks 31-32: The Graded Mental Test and Family Show
 
 **Projects students build:** My abacus card: the child draws bead pictures for the numbers 1 to 9 and reads them back from the drawing; Two-digit dictation sheet: 20 numbers set from hearing alone, scored and kept as the month 1 record; Make-5 rainbow chart: the child's own picture of the pairs that make 5, used at home during practice; Row book started: a notebook of daily rows with date and score, kept for the rest of the course; Make-10 rainbow chart to sit beside the make-5 chart at home; Mixed-rules row sheet: 15 rows solved and marked with which friend rule each step used; Speed ladder record: one row sheet attempted three times with times and scores charted by the child; Shop game record: a pretend-shop worksheet of five purchases totalled and checked on the abacus; Eyes-closed challenge card: ten single-number settings done mentally and verified, signed off in class; Flash round scorecard: three class flash rounds with scores tracked by the child; Listening log: ten dictated mental rows across the fortnight with scores and row lengths recorded; Level test one: a graded mental-only paper of rows, flash and listening sums, marked and kept; Table pattern cards: bead-picture cards for the 2, 3, 4 and 5 tables made by the child; Mixed paper folder: three 20-question mixed papers completed, marked and filed across the fortnight; Row book review page: the child charts their own week 8 versus week 30 row length and speed - plus 2 more on the course page.
+
+### Abitur Mathematik in English: Leistungskurs and Grundkurs
+
+`/courses/abitur-mathematics-course-in-english` · 6 months (24 weeks), joinable any month, LK and GK paths · Oberstufe students (ages 16 to 19), Leistungskurs or Grundkurs
+
+  - PHASE 1: Analysis (Months 1-2, Weeks 1-8)
+    The largest area of the written exam, from derivatives and curve analysis to integrals and modelling.
+    - Month 1: Functions, Derivatives and Curve Analysis
+      - Weeks 1-2: Your Exam, Your Pace, and Derivatives
+      - Weeks 3-4: Curve Analysis (Kurvendiskussion)
+    - Month 2: Exponential Functions, Integrals and Modelling
+      - Weeks 5-6: Exponential and Logarithmic Functions
+      - Weeks 7-8: Integrals and Areas
+  - PHASE 2: Analytische Geometrie and Lineare Algebra (Months 3-4, Weeks 9-16)
+    Vectors in space, lines and planes, and the matrix topics some Länder examine.
+    - Month 3: Vectors, Lines and Planes
+      - Weeks 9-10: Vectors and Lines
+      - Weeks 11-12: Planes
+    - Month 4: Distances, Angles and Matrices
+      - Weeks 13-14: Distances and Angles
+      - Weeks 15-16: Matrices and Systems of Equations
+  - PHASE 3: Stochastik and Exam Craft (Months 5-6, Weeks 17-24)
+    Probability and statistics for the third area of the exam, then full timed practice in the pool format.
+    - Month 5: Probability, Distributions and Tests
+      - Weeks 17-18: Probability and the Binomial Distribution
+      - Weeks 19-20: Normal Distribution and Hypothesis Tests
+    - Month 6: Abitur Exam Craft and Full Mocks
+      - Weeks 21-22: Part A, Part B and the Operators
+      - Weeks 23-24: Full Mock Papers and Final Plan
+
+**Projects students build:** A personal formula sheet with German and English names, built and checked in class; A complete curve analysis of a function family, written up as an exam answer; A growth model for a real data set, fitted and interpreted; A full Analysis task of our own, solved, then rewritten after feedback; A geometry pack of our own based on a pyramid or a roof; A model of a building's roof faces with all intersections computed; A full geometry task of our own, solved and rewritten after feedback; A transition-matrix model for a population or market share; A probability investigation of a game of our own design; A test planned and run on a claim from a product or poll of our own; A personal exam strategy sheet, tested on a timed half paper; Two full timed mocks with written feedback.
 
 ### ACT Math Prep: Live Classes for the ACT Mathematics Section
 
@@ -7910,6 +8159,37 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Text-based calculator program; Todo list application; File organizer script; Simple data analyzer from CSV; Web scraper basics with requests; Command-line application; Personal expense tracker; Password generator and validator; Data analysis pipeline for CSV files; Student grade analyzer with Pandas; Weather data visualizer; E-commerce sales dashboard; Stock price analyzer and plotter; Text file analyzer with regex; Custom data class library - plus 138 more on the course page.
 
+### German Informatics Competitions: Biber, BwInf and BWKI
+
+`/courses/german-informatics-competitions-course-biber-bwinf-bwki` · 6 months (24 weeks), joinable any month, batches by level · Ages 9 to 19 (Klasse 3 to 13); the puzzle level needs no coding
+
+  - PHASE 1: Computational Thinking for the Biber and Jugendwettbewerb (Months 1-2, Weeks 1-8)
+    The puzzle level: informatics ideas without heavy coding, then the first short programming tasks. Older pupils move through this phase faster.
+    - Month 1: Biber-Style Thinking
+      - Weeks 1-2: The Competition Ladder and Logic Puzzles
+      - Weeks 3-4: Encoding, Graphs and Sorting Ideas
+    - Month 2: First Programming Tasks
+      - Weeks 5-6: Programs as Instructions
+      - Weeks 7-8: Loops, Lists and Simple Simulations
+  - PHASE 2: Algorithms for the Jugendwettbewerb and Bundeswettbewerb Round 1 (Months 3-4, Weeks 9-16)
+    The algorithm level, in Python: classic methods, written solutions and the habit of testing on tricky inputs.
+    - Month 3: Search, Greedy Methods and Recursion
+      - Weeks 9-10: Brute Force, Simulation and Greedy Methods
+      - Weeks 11-12: Recursion and Backtracking
+    - Month 4: Graphs, Dynamic Programming and Written Solutions
+      - Weeks 13-14: Graph Algorithms
+      - Weeks 15-16: Dynamic Programming and the Written Submission
+  - PHASE 3: Bundeswettbewerb Round 2 Depth and a BWKI Project (Months 5-6, Weeks 17-24)
+    Two tracks to choose from: contest depth toward round 2 and olympiad-style training, or a machine-learning project for the BWKI. Many pupils do both.
+    - Month 5: Running Time, Harder Problems and C++
+      - Weeks 17-18: Running Time and Efficient Algorithms
+      - Weeks 19-20: A First Step into C++ and Olympiad Context
+    - Month 6: A BWKI Machine-Learning Project
+      - Weeks 21-22: From Idea to Model
+      - Weeks 23-24: Documentation, Code and the Video Pitch
+
+**Projects students build:** A personal puzzle journal with every solved task explained in one sentence; A puzzle of the pupil's own invention, solved by the batch; A grid robot that collects items and avoids walls, written in Python; A simulation of a queue at a school canteen; A scheduling solver with a greedy method and a test set; A Sudoku or tiling solver using backtracking; A route planner for a small city map of our own; A full written solution of our own Bundeswettbewerb-style task, with code and examples; A solution improved from slow to fast, with timings and an explanation; Three of your own earlier solutions rewritten in C++; A working first model with a test report; A complete BWKI-style project: documentation, runnable code and a video pitch.
+
 ### Git & GitHub Course for College Students: Team-Ready Skills
 
 `/courses/git-github-version-control-course-for-college-students` · 24 classes (12 weeks · 2 classes/week) · Beginner to job-ready collaborator (college students and recent graduates)
@@ -8581,6 +8861,68 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Computer system diagram with all components labeled; Input-output devices classification chart with 20+ devices; Research project: Latest processor technologies in 2026-27; Memory hierarchy pyramid diagram with specifications; Software classification chart, 15+ examples each category; Compare 5 open-source vs proprietary software alternatives; 10 print() variations, different data types, multiple arguments; Interactive mode exploration, test 20 expressions; Valid/invalid identifier quiz, 30 examples; Student information collector, input name, age, class, marks, display formatted; Simple interest calculator, P, R, T as input; BMI calculator with formatted output; Swap two variables, 3 methods: temp, arithmetic, Pythonic a,b = b,a; Expression evaluator worksheet, 30 complex expressions with step-by-step solutions; Electricity bill calculator with slab rates - plus 84 more on the course page.
 
+### Informatik Abitur in English: Java and Python
+
+`/courses/informatik-abitur-course-java-python` · 6 months (24 weeks), joinable any month, Grundkurs and Leistungskurs paths · Oberstufe students (ages 16 to 19), Grundkurs or Leistungskurs
+
+  - PHASE 1: Object-Oriented Modelling and Programming (Months 1-2, Weeks 1-8)
+    The programming core every Oberstufe Informatik course builds on, taught in Java or Python and practised both on screen and on paper.
+    - Month 1: Classes, Objects and Basic Algorithms
+      - Weeks 1-2: Your Oberstufe, Your Language, and Objects
+      - Weeks 3-4: Control Structures, Arrays, Searching and Sorting
+    - Month 2: Inheritance, Relationships, Recursion and Running Time
+      - Weeks 5-6: Inheritance, Polymorphism and Associations
+      - Weeks 7-8: Recursion, Faster Sorting and Running Time
+  - PHASE 2: Data Structures and Databases (Months 3-4, Weeks 9-16)
+    Abstract data types and the relational database model, two topics that recur across Land curricula for Oberstufe Informatik.
+    - Month 3: Lists, Stacks, Queues, Trees and Graphs
+      - Weeks 9-10: Linear Data Structures
+      - Weeks 11-12: Binary Trees and Graphs
+    - Month 4: Database Modelling and SQL
+      - Weeks 13-14: Entity-Relationship Models and the Relational Model
+      - Weeks 15-16: SQL Queries
+  - PHASE 3: Automata, Languages, Networks and Exam Craft (Months 5-6, Weeks 17-24)
+    Theoretical informatics and computer systems, then a month of exam technique with timed papers of our own.
+    - Month 5: Automata and Formal Languages
+      - Weeks 17-18: Finite Automata
+      - Weeks 19-20: Grammars, Pushdown Automata and Limits
+    - Month 6: Networks, Cryptography and Abitur Exam Craft
+      - Weeks 21-22: Networks and Cryptography
+      - Weeks 23-24: Abitur Exam Technique and Mock Papers
+
+**Projects students build:** A Konto (bank account) class with deposits, withdrawals and validation, drawn first as a class diagram; A sorting comparison program that counts steps for three algorithms; A library or school timetable model with a class hierarchy and associations; A timing experiment that sorts growing arrays and plots the running time; A print-queue and undo-stack simulator built on your own linked list; A binary search tree word dictionary with all three traversals; An ER model and table design for a sports club, normalised step by step; A school database queried with twenty SQL questions of rising difficulty; A validator for number plates or email-like strings, built as an automaton in code; A bracket checker built as a pushdown automaton with a stack; A Vigenère encoder and cracker, plus a short written explanation of RSA; Two full timed mock papers with detailed written feedback.
+
+### Informatik Companion, Klasse 5 to 10 (in English)
+
+`/courses/informatik-companion-course-klasse-5-10` · 6 months (24 weeks), joinable any month, batches by Klasse · Klasse 5 to 10 (ages 10 to 16), any school type; no coding needed
+
+  - PHASE 1: Algorithmen and Information und Daten with Scratch (Months 1-2, Weeks 1-8)
+    The two GI content areas every Land starts with, taught visually in Scratch so the ideas come before the syntax.
+    - Month 1: Starting Points, Data and First Algorithms
+      - Weeks 1-2: Where You Are, and How Computers Store Information
+      - Weeks 3-4: Algorithms in Scratch: Sequence, Loops and Conditions
+    - Month 2: Variables, Lists, Structure Charts and Puzzle Thinking
+      - Weeks 5-6: Variables, Lists and Messages in Scratch
+      - Weeks 7-8: Structure Charts, Searching, Sorting and Puzzles
+  - PHASE 2: From Blocks to Python, and Working with Data (Months 3-4, Weeks 9-16)
+    The move from Scratch to text code in Python, a clear and widely used language, then real data and simple encryption.
+    - Month 3: Python Foundations
+      - Weeks 9-10: From Blocks to Text Code
+      - Weeks 11-12: Loops, Functions and Turtle Graphics
+    - Month 4: Lists, Text, Encryption and Data Tables
+      - Weeks 13-14: Lists, Strings and the Caesar Cipher
+      - Weeks 15-16: Data Tables, Charts and Privacy
+  - PHASE 3: Informatiksysteme, Networks, Automata, Society and AI (Months 5-6, Weeks 17-24)
+    The remaining GI content areas, which Klasse 7 to 10 classes meet in many Länder, finished with a school-test style review and a final project.
+    - Month 5: How Computers and Networks Work
+      - Weeks 17-18: Inside a Computer
+      - Weeks 19-20: The Internet, the Web and Staying Safe
+    - Month 6: Automata, AI, Society and Review
+      - Weeks 21-22: Automata, Rules and Artificial Intelligence
+      - Weeks 23-24: School-Test Style Review and Final Project
+
+**Projects students build:** A secret message written in binary, decoded by a classmate in class; A maze game where a sprite reacts to walls and keys; A quiz game that stores questions in a list and keeps score; A Scratch animation that sorts a row of numbered cards step by step; A number-guessing game in Python with hints and a guess counter; A turtle drawing program that builds a pattern from your own functions; A Caesar cipher tool that encrypts, decrypts and cracks a message; A class survey analysed in Python with a short spoken presentation; A truth-table checker in Python for small logic circuits; A personal web page about a hobby, written in HTML; A state machine in Python for a traffic light, plus a one-page AI explainer; A final project of the pupil's choice, presented live in English.
+
 ### Java Course for College: Core Java to Spring Boot
 
 `/courses/complete-java-programming-masterclass-college` · 10-12 months (44-52 weeks) · Complete beginner (18+); college students, graduates and working professionals
@@ -8899,6 +9241,37 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Weeks 31-32: Calm Before the Tests
 
 **Projects students build:** Fact chart started: every fact up to 12 by 12 coloured by speed after the diagnostic; Fact chart updated: amber and red facts listed with a hook for each; Fact family cards made for the ten facts the child finds slowest; Fact chart completed: the aim is every fact green; Method book started: one worked example per method, written by the child; Method book entry: long multiplication and long division set out step by step; Method book entry: every fraction method with a worked example; Arithmetic tracker: score and time recorded for every practice paper; Problem journal started: one solved problem per question type with a bar model; Problem journal entry: a measures question for each unit type; Problem journal entry: geometry and statistics questions with labelled diagrams; Explanation bank: model answers to ten explain questions, written in the child's own words; Paper tracker: scores for each paper on one chart; Repair list: each weak area with the date it was fixed; Paper tracker completed - plus 1 more on the course page.
+
+### Mathematik-Olympiade and Känguru Training in English
+
+`/courses/mathematik-olympiade-and-kaenguru-training-course` · 6 months (24 weeks), joinable any month, batches by Klassenstufe · Ages 8 to 18 (Klassenstufe 3 to 13) who enjoy maths
+
+  - PHASE 1: Känguru Foundations (Months 1-2, Weeks 1-8)
+    Reasoning puzzles across all areas, then speed: the Känguru gives 75 minutes for 24 or 30 problems. Problems are pitched to each Klassenstufe band.
+    - Month 1: Number Sense, Logic and Counting
+      - Weeks 1-2: Starting Points and Clever Arithmetic
+      - Weeks 3-4: Logic Puzzles and Systematic Counting
+    - Month 2: Geometry Puzzles and Speed
+      - Weeks 5-6: Shapes, Areas and Spatial Reasoning
+      - Weeks 7-8: Speed, Estimation and Elimination
+  - PHASE 2: Mathematik-Olympiade Core Topics and Written Solutions (Months 3-4, Weeks 9-16)
+    The four areas of olympiad mathematics, at the right depth for each Klassenstufe, written up as complete solutions.
+    - Month 3: Number Theory and Combinatorics
+      - Weeks 9-10: Divisibility, Primes and Remainders
+      - Weeks 11-12: Counting, Pigeonholes and Invariants
+    - Month 4: Algebra and Geometry
+      - Weeks 13-14: Equations, Inequalities and Sequences
+      - Weeks 15-16: Olympiad Geometry
+  - PHASE 3: Proof Methods, Round-Style Papers and the Känguru Mock (Months 5-6, Weeks 17-24)
+    Sharper proofs, then papers timed like the MO rounds, a final Känguru mock, and a look at what comes next.
+    - Month 5: Proof Methods and MO Round Practice
+      - Weeks 17-18: Proof by Cases, Contradiction and Induction
+      - Weeks 19-20: Papers in the Style of the MO Rounds
+    - Month 6: Känguru Mock, Review and Next Steps
+      - Weeks 21-22: Full Känguru Mock and Review
+      - Weeks 23-24: Final Papers and What Comes Next
+
+**Projects students build:** A personal problem journal: each solved problem with the key idea in one sentence; A logic puzzle of the pupil's own invention, solved by the batch; A set of original area puzzles solved by cutting, drawn by hand; A personal pacing plan tested on a full-length mock; Three original number theory problems, each with a complete written solution; A two-player game analysed with a written winning strategy; A set of original algebra problems with full written solutions; Three original geometry problems with complete written proofs; A proof portfolio: one problem proved by each method; Two round-style papers with detailed written feedback; A full mock with a personal review sheet; A favourite solution presented live, plus a personal training plan.
 
 ### Maths for Data Science: Statistics, Linear Algebra and ML
 
