@@ -1,0 +1,708 @@
+{
+  "meta": {
+    "slug": "amc-10-math-competition-prep-course",
+    "date": "2026-11-04",
+    "title": "AMC 10 Math Competition Prep: Algebra to AIME",
+    "description": "Live online AMC 10 prep for grades 8 to 10: algebra, number theory, counting, probability and geometry, plus 6/1.5/0 scoring strategy and the 2027 AIME path.",
+    "keywords": [
+      "amc 10 prep",
+      "amc 10 prep course online",
+      "amc 10 practice problems",
+      "amc 10 scoring",
+      "amc 10 aime cutoff",
+      "how to prepare for amc 10",
+      "amc 10 number theory",
+      "amc 10 counting and probability",
+      "amc 10 geometry",
+      "amc 10a and 10b",
+      "aime qualification 2027",
+      "amc 10 vs amc 12",
+      "math competition classes for teens",
+      "amc 10 tutor"
+    ],
+    "category": "Competition Mathematics & Olympiad Training",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "8 months (32 weeks) per cycle, joinable any month; many students start in the spring or summer before the November contest",
+    "level": "Students in grade 10 or below (roughly ages 13 to 16) who are confident with school algebra and geometry and want harder, contest-style problems",
+    "commitment": "2 live classes/week + weekly problem sets, a worked-example review and a monthly timed set of original problems",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment (this is not an MAA document or an AMC score)",
+    "image_path": "amc-10-math-prep.webp",
+    "dateModified": "2026-11-04"
+  },
+  "program_overview": {
+    "title": "AMC 10 Math Competition Prep: Algebra to AIME",
+    "tagline": "Twenty-five questions, seventy-five minutes, no calculator: the school maths your child already knows, pushed to the depth the AMC 10 asks for, one worked example at a time.",
+    "description": "The AMC 10 is a mathematics contest run by the Mathematical Association of America (MAA). It is the middle step of the American Mathematics Competitions: the AMC 8 for younger students, the AMC 10 for students in grade 10 or below, and the AMC 12 for students in grade 12 or below. To sit the AMC 10 a student must be in grade 10 or below and under 17.5 years old on competition day. Students do not register on their own: a school or an approved competition manager registers them, and the contest is not something we run or register for.\n\nThe format is simple to describe. There are 25 multiple-choice questions, each with five answer choices, and 75 minutes to answer them. Calculators are not allowed. The contest is offered on two dates each year, the AMC 10A and the AMC 10B (in 2026 these were 5 November and 13 November). A student may sit one A contest and one B contest, but cannot take the AMC 10 and the AMC 12 on the same date.\n\nThe scoring shapes the whole strategy. A correct answer earns 6 points, a blank earns 1.5 points and a wrong answer earns 0, so the maximum is 150. That means a wild guess is a bad deal: with five choices a random guess is worth 6 divided by 5, or 1.2 points on average, less than the 1.5 a blank gives you. Once a student can rule out two choices, a guess among the remaining three is worth 2 points on average, more than a blank. Ruling out exactly one choice is break-even at 1.5. Students who understand this stop throwing points away in the last ten minutes.\n\nThe AMC 10 covers elementary algebra, basic geometry, area and volume, elementary number theory and elementary probability. There is no trigonometry, advanced algebra or advanced geometry. The questions get harder as the paper goes on: the early ones reward speed and accuracy, the later ones reward real problem solving. The contest also leads somewhere. From the 2027 AIME, the MAA has set a fixed qualifying score: 100 or more on the AMC 10 (or 85 or more on the AMC 12), plus other eligibility rules. The AIME has 15 questions with integer answers from 000 to 999, and USAJMO and USAMO selection is now based primarily on the AIME score.\n\nThis course takes eight months, in four phases. Months 1 and 2 cover how the contest works, the scoring maths and the algebra the early questions lean on. Months 3 and 4 cover number theory and counting and probability. Months 5 and 6 cover AMC 10 geometry, from similar triangles to circles, coordinate geometry and solids. Months 7 and 8 are contest craft: 75-minute pacing, full-length timed sets of our own original problems, an error log and a plan for the road to the AIME. Every two-week block teaches one central idea and walks through one original worked example in class, so students see the method, not just the answer.\n\nThis is not our year-long Olympiad course, which runs from AMC level towards the AIME and international olympiads with proofs. This course is focused on one contest, the AMC 10, and on scoring well on it through understanding. We are independent of the MAA. Past AMC papers are published by the MAA, and we never copy them into our materials: every practice problem is written by us. We promise learning, never scores, AIME qualification or awards.",
+    "what_makes_this_different": [
+      "Built only for the AMC 10: 25 questions, 75 minutes, no calculator, 6 points for a correct answer, 1.5 for a blank and 0 for a wrong answer",
+      "The blank-versus-guess maths taught as real probability, so students know exactly when a guess is worth taking",
+      "Every two-week block has one original worked example solved step by step in class, with the transferable idea written down",
+      "AMC 10 content only: elementary algebra, number theory, counting and probability, and geometry, with no trigonometry or advanced algebra",
+      "Full-length 75-minute timed sets of our own original problems and an error log reviewed with the teacher",
+      "Clear and current on the 2027 AIME changes: a fixed AMC 10 qualifying score of 100, with no promise that any student reaches it"
+    ],
+    "learning_path": {
+      "phase_1": "How the AMC 10 works, the 6/1.5/0 scoring maths, a diagnostic, and the algebra the first half of the paper relies on",
+      "phase_2": "Number theory (primes, divisors, modular arithmetic, digits and bases) and counting and probability (casework, complements, stars and bars, expected value)",
+      "phase_3": "AMC 10 geometry: triangles and similarity, Pythagorean triples, circles and power of a point, areas, coordinates and 3D solids",
+      "phase_4": "Contest craft and the road to the AIME: 75-minute pacing, full-length timed sets, an error log, contest week and when to move to the AMC 12"
+    },
+    "career_outcomes": [
+      "Fast, accurate algebra without a calculator, including systems, quadratics and inequalities",
+      "Number theory tools: divisor counting, GCD and LCM, remainders and integer equations",
+      "Counting and probability done by method rather than by listing",
+      "AMC 10 geometry facts known by heart and used with a clear diagram",
+      "A scoring strategy based on real expected-value maths, not on nerves",
+      "Calm, practised pacing across a 75-minute, 25-question paper"
+    ]
+  },
+  "phase_1_contest_strategy_and_algebra": {
+    "title": "PHASE 1: Contest Strategy and Algebra Foundations (Months 1-2, Weeks 1-8)",
+    "description": "How the AMC 10 is scored and what that means for every decision, followed by the algebra that most of the first fifteen questions rest on.",
+    "month_1_how_the_amc_10_works": {
+      "title": "Month 1: How the AMC 10 Works, Linear Equations and Rates",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: The AMC 10 Format, Scoring and a Starting Diagnostic",
+        "description": "The AMC 10 gives 6 points for a correct answer, 1.5 for a blank and 0 for a wrong answer. Because a random guess among five choices is worth only 1.2 points on average, a blank beats a wild guess, but once you can rule out two choices a guess is worth 2 points and beats the blank. The common trap is treating the contest like a school test where every question must be attempted.",
+        "topics": [
+          "The format: 25 multiple-choice questions, five choices each, 75 minutes, no calculator",
+          "Scoring: 6 correct, 1.5 blank, 0 wrong, maximum 150",
+          "Expected value of a guess: 6/5 = 1.2 with no eliminations, 6/4 = 1.5 with one, 6/3 = 2 with two",
+          "Working backwards from a score to the number of correct, blank and wrong answers",
+          "Who can sit the AMC 10: grade 10 or below and under 17.5 on competition day",
+          "The A and B dates, and why a student cannot sit the AMC 10 and AMC 12 on the same date",
+          "A diagnostic set of our own original problems to find each student's starting point",
+          "Starting an error log: question, what went wrong, the fix"
+        ],
+        "worked_example": {
+          "problem": "On the AMC 10 Riya answered 19 questions and left the other 6 blank. Her score was 99. How many of her answers were wrong? (A) 2 (B) 3 (C) 4 (D) 5 (E) 6",
+          "steps": [
+            "The 6 blanks earn 6 x 1.5 = 9 points.",
+            "So her correct answers earned 99 - 9 = 90 points.",
+            "Each correct answer is worth 6, so she had 90 / 6 = 15 correct.",
+            "She answered 19 questions, so 19 - 15 = 4 were wrong."
+          ],
+          "answer": "(C) 4",
+          "idea": "Split a score into its blank part and its correct part first, because wrong answers add nothing and are found last by subtraction."
+        },
+        "projects": [
+          "A one-page scoring card: the 6/1.5/0 rule, the guess values 1.2, 1.5 and 2, and three score problems written by the student"
+        ],
+        "practice": "The diagnostic set taken in 40 minutes, then ten score-reconstruction problems at about one minute each"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Linear Equations, Systems and Rate and Work Problems",
+        "description": "Many early AMC 10 questions are word problems that become one or two linear equations. In rate and work problems the key move is to add rates (jobs per hour), never times. The trap is averaging or adding hours directly, which gives a number that looks reasonable and is wrong.",
+        "topics": [
+          "Turning a sentence into an equation: naming the unknown and its units",
+          "Systems of two linear equations by elimination and substitution",
+          "Systems with three unknowns where adding all equations helps",
+          "Distance, rate and time, including average speed over a round trip",
+          "Work problems: rate = 1 job divided by time, and rates add",
+          "Filling and draining together: a draining pipe is a negative rate",
+          "Mixture and percent problems set up as linear equations",
+          "Checking an answer by putting it back into the original words"
+        ],
+        "worked_example": {
+          "problem": "Pipe P fills a tank in 6 hours and pipe Q fills it in 3 hours. A drain at the bottom empties a full tank in 4 hours. If the tank starts empty and both pipes and the drain are open, how many hours does it take to fill? (A) 2 (B) 5/2 (C) 3 (D) 7/2 (E) 4",
+          "steps": [
+            "Write each rate in tanks per hour: P fills 1/6, Q fills 1/3, the drain removes 1/4.",
+            "Combined rate = 1/6 + 1/3 - 1/4 = 2/12 + 4/12 - 3/12 = 3/12 = 1/4 tank per hour.",
+            "Time = 1 tank divided by 1/4 tank per hour = 4 hours."
+          ],
+          "answer": "(E) 4",
+          "idea": "Rates add and times do not, so convert every time into a rate before combining."
+        },
+        "projects": [
+          "A rate and work problem pack: five original problems written by the student, each with a rate table"
+        ],
+        "practice": "Twelve original word problems in 25 minutes, each with the equation written before solving",
+        "assessment": "Month 1 timed set: 15 original problems on scoring, linear equations and rates in 35 minutes, scored 6/1.5/0"
+      }
+    },
+    "month_2_quadratics_and_inequalities": {
+      "title": "Month 2: Quadratics, Vieta, Absolute Value and Inequalities",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Quadratics, Factoring and Vieta's Formulas",
+        "description": "For a quadratic x^2 + bx + c = 0, Vieta's formulas say the two roots add to -b and multiply to c. This lets you find things like the sum of the squares of the roots without ever solving the equation, which saves time and avoids messy square roots. The trap is solving with the quadratic formula when the question only asks about a symmetric expression of the roots.",
+        "topics": [
+          "Factoring quadratics, difference of squares and perfect square trinomials",
+          "Completing the square and the quadratic formula",
+          "The discriminant: two, one or no real roots",
+          "Vieta's formulas: sum of roots = -b/a, product = c/a",
+          "Symmetric expressions: r^2 + s^2 = (r + s)^2 - 2rs and 1/r + 1/s = (r + s)/rs",
+          "Building a quadratic from given roots",
+          "Integer roots: using the product to list possibilities",
+          "Simple factoring tricks for expressions like xy + x + y"
+        ],
+        "worked_example": {
+          "problem": "Let r and s be the roots of x^2 - 7x + 3 = 0. What is r^2 + s^2? (A) 37 (B) 40 (C) 43 (D) 46 (E) 49",
+          "steps": [
+            "By Vieta's formulas, r + s = 7 and rs = 3.",
+            "Use the identity r^2 + s^2 = (r + s)^2 - 2rs.",
+            "Substitute: 7^2 - 2 x 3 = 49 - 6 = 43."
+          ],
+          "answer": "(C) 43",
+          "idea": "When a question asks about a symmetric combination of roots, rewrite it in terms of their sum and product instead of finding the roots."
+        },
+        "projects": [
+          "A Vieta identity sheet: six symmetric expressions written in terms of r + s and rs, each tested on an original quadratic"
+        ],
+        "practice": "Ten original quadratic problems in 20 minutes, solved without the quadratic formula wherever Vieta works"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Absolute Value, Inequalities and Algebra Review",
+        "description": "Absolute value |x - a| is simply the distance between x and a on the number line. Thinking in distances turns many absolute value questions into a picture you can read at a glance. The trap is splitting into cases without a plan and losing track of which case applies where.",
+        "topics": [
+          "|x - a| as distance on the number line",
+          "Sums of absolute values as total distance to two points",
+          "Solving absolute value equations by cases with clear boundaries",
+          "Linear inequalities and flipping the sign when multiplying by a negative",
+          "Counting integer solutions of an inequality",
+          "Quadratic inequalities from a sketch of the parabola",
+          "AM-GM in its simplest form for two positive numbers",
+          "Mixed algebra review across Phase 1"
+        ],
+        "worked_example": {
+          "problem": "How many integers x satisfy |x - 3| + |x + 2| <= 9? (A) 7 (B) 8 (C) 9 (D) 10 (E) 11",
+          "steps": [
+            "|x - 3| + |x + 2| is the distance from x to 3 plus the distance from x to -2.",
+            "For x between -2 and 3 the total is exactly 5, which is at most 9, so -2 to 3 all work.",
+            "To the right of 3, the total is 5 + 2(x - 3); setting this <= 9 gives x <= 5.",
+            "To the left of -2, the total is 5 + 2(-2 - x); setting this <= 9 gives x >= -4.",
+            "So x runs from -4 to 5, which is 10 integers."
+          ],
+          "answer": "(D) 10",
+          "idea": "Read absolute values as distances on a number line, and a case split becomes a picture."
+        },
+        "projects": [
+          "A Phase 1 formula and method sheet written from memory, then corrected against class notes"
+        ],
+        "practice": "A 30-minute mixed algebra set of 12 original problems, with every blank-versus-guess decision noted in the margin",
+        "assessment": "Phase 1 assessment: 20 original problems in 55 minutes covering scoring strategy and all Phase 1 algebra, scored 6/1.5/0 and reviewed with the error log"
+      }
+    }
+  },
+  "phase_2_number_theory_and_counting": {
+    "title": "PHASE 2: Number Theory, Counting and Probability (Months 3-4, Weeks 9-16)",
+    "description": "The two areas where AMC 10 questions most reward a method over a calculation: properties of whole numbers, and counting without listing.",
+    "month_3_number_theory": {
+      "title": "Month 3: Primes, Divisors, Remainders and Integer Equations",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Primes, Divisor Counting, GCD and LCM",
+        "description": "Every whole number above 1 breaks into primes in exactly one way, and that prime factorisation answers most divisor questions. If n = 2^a x 3^b x 5^c, then n has (a + 1)(b + 1)(c + 1) divisors, because each divisor picks how many of each prime to use. The trap is listing divisors by hand and missing some.",
+        "topics": [
+          "Prime factorisation and why it is unique",
+          "Divisibility rules for 2, 3, 4, 5, 8, 9 and 11",
+          "Counting divisors with (a + 1)(b + 1)(c + 1)",
+          "Counting divisors with a condition, such as multiples of 6 or odd divisors",
+          "GCD and LCM from prime factorisations, and gcd x lcm = product",
+          "Perfect squares and cubes: every exponent even, or every exponent a multiple of 3",
+          "Trailing zeros of a factorial by counting factors of 5",
+          "Sum of divisors in small cases"
+        ],
+        "worked_example": {
+          "problem": "How many positive divisors of 720 are multiples of 6? (A) 16 (B) 18 (C) 20 (D) 24 (E) 30",
+          "steps": [
+            "Factor: 720 = 2^4 x 3^2 x 5.",
+            "A divisor that is a multiple of 6 can be written as 6 x m, where m divides 720 / 6 = 120.",
+            "Factor 120 = 2^3 x 3 x 5.",
+            "The number of divisors of 120 is (3 + 1)(1 + 1)(1 + 1) = 16."
+          ],
+          "answer": "(A) 16",
+          "idea": "To count divisors with a required factor, divide that factor out and count the divisors of what is left."
+        },
+        "projects": [
+          "A divisor-counting table for ten numbers chosen by the student, checked by listing for the two smallest"
+        ],
+        "practice": "Ten original number theory problems in 20 minutes, factorisation written first every time"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Modular Arithmetic, Digits, Bases and Integer Equations",
+        "description": "Modular arithmetic means working only with remainders, which makes huge numbers small. It also solves equations where the answers must be whole numbers: looking at an equation's remainders tells you which values are even possible. The trap is forgetting the problem's conditions, such as positive integers only, when counting solutions.",
+        "topics": [
+          "Remainders and the notation a = b (mod n)",
+          "Adding and multiplying remainders, and last digits of large powers",
+          "Cycles of remainders, for example the last digit of powers of 7",
+          "Digit sums and divisibility by 9",
+          "Writing numbers in base 2, base 5 and other bases, and converting back",
+          "Linear equations in integers, such as 4x + 7y = 100, solved with remainders",
+          "Simon's factoring trick for equations like xy - 2x - 3y = 0",
+          "Parity (odd and even) arguments that rule out cases fast"
+        ],
+        "worked_example": {
+          "problem": "A shop sells stickers at 4 dollars and badges at 7 dollars. Arjun spends exactly 100 dollars and buys at least one sticker and at least one badge. How many different combinations of stickers and badges could he have bought? (A) 3 (B) 4 (C) 5 (D) 6 (E) 7",
+          "steps": [
+            "Let x be stickers and y be badges, so 4x + 7y = 100 with x, y at least 1.",
+            "100 and 4x are multiples of 4, so 7y must be a multiple of 4, which means y is a multiple of 4.",
+            "y can be 4, 8 or 12 (y = 16 gives 7y = 112, more than 100).",
+            "These give x = 18, 11 and 4, all positive, so there are 3 combinations."
+          ],
+          "answer": "(A) 3",
+          "idea": "In an integer equation, look at it modulo one of the coefficients to cut the possible values down to a short list."
+        },
+        "projects": [
+          "A remainder-cycle chart for the last digits of powers of 2 through 9, with one original problem for each"
+        ],
+        "practice": "Twelve original modular arithmetic and integer-equation problems in 25 minutes",
+        "assessment": "Month 3 timed set: 15 original number theory problems in 35 minutes, scored 6/1.5/0"
+      }
+    },
+    "month_4_counting_and_probability": {
+      "title": "Month 4: Counting and Probability",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Permutations, Combinations, Complements and Casework",
+        "description": "Counting is about choosing a method that cannot miss or double count. Sometimes the easiest way to count what you want is to count everything, then subtract what you do not want: that is complementary counting. The trap is counting the cases directly and either missing some or counting a number twice.",
+        "topics": [
+          "The multiplication principle and when order matters",
+          "Permutations and factorials, including arrangements with repeated letters",
+          "Combinations and choosing a committee",
+          "Complementary counting: total minus the unwanted cases",
+          "Casework with clearly separated, non-overlapping cases",
+          "Inclusion and exclusion for two and three sets",
+          "Arrangements in a row with restrictions, such as two people never next to each other",
+          "Pascal's triangle and simple binomial coefficient patterns"
+        ],
+        "worked_example": {
+          "problem": "How many four-digit whole numbers contain at least one digit 7? (A) 2916 (B) 3168 (C) 3240 (D) 3439 (E) 3600",
+          "steps": [
+            "There are 9000 four-digit numbers, from 1000 to 9999.",
+            "Count the ones with no 7: the first digit has 8 choices (1 to 9 except 7), each other digit has 9 choices (0 to 9 except 7).",
+            "That is 8 x 9 x 9 x 9 = 5832 numbers with no 7.",
+            "So 9000 - 5832 = 3168 contain at least one 7."
+          ],
+          "answer": "(B) 3168",
+          "idea": "When a question says at least one, count the opposite (none) and subtract from the total."
+        },
+        "projects": [
+          "A counting decision chart: for each of eight original problems, which method was used and why the others would be slower"
+        ],
+        "practice": "Ten original counting problems in 25 minutes, with the method named before any arithmetic"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Stars and Bars, Expected Value and Geometric Probability",
+        "description": "Stars and bars counts ways to share identical objects among people: picture the objects as stars and the dividers between people as bars. Expected value is the long-run average of a random outcome, the same idea that sits behind the AMC 10 blank-versus-guess rule. The trap in stars and bars is forgetting a minimum, such as each person getting at least two.",
+        "topics": [
+          "Stars and bars for sharing identical objects among people",
+          "Handling minimums by giving each person their minimum first",
+          "Probability as favourable outcomes over equally likely outcomes",
+          "Independent events and multiplying probabilities",
+          "Conditional probability in small, concrete cases",
+          "Expected value as a weighted average, linked back to the 6/1.5/0 scoring",
+          "Geometric probability: probability as a ratio of lengths or areas",
+          "Probability with two dice and coins using a grid of outcomes"
+        ],
+        "worked_example": {
+          "problem": "Ten identical sweets are shared among three children so that every child gets at least 2 sweets. In how many ways can this be done? (A) 10 (B) 15 (C) 21 (D) 28 (E) 36",
+          "steps": [
+            "Give each child 2 sweets first. That uses 6, leaving 4 to share with no minimum.",
+            "Sharing 4 identical sweets among 3 children is arranging 4 stars and 2 bars in a row.",
+            "Choose the 2 bar positions out of 6: C(6, 2) = 15."
+          ],
+          "answer": "(B) 15",
+          "idea": "Satisfy every minimum first, then use stars and bars on what remains."
+        },
+        "projects": [
+          "Write and solve a five-problem probability set of your own, including one geometric probability and one expected value problem"
+        ],
+        "practice": "A 30-minute mixed counting and probability set of 12 original problems",
+        "assessment": "Phase 2 assessment: 20 original number theory, counting and probability problems in 55 minutes, scored 6/1.5/0 and reviewed against the error log"
+      }
+    }
+  },
+  "phase_3_amc_10_geometry": {
+    "title": "PHASE 3: AMC 10 Geometry (Months 5-6, Weeks 17-24)",
+    "description": "The geometry the AMC 10 actually uses, with no trigonometry: triangles and similarity, circles, areas, coordinates and solids, always starting from a clear labelled diagram.",
+    "month_5_triangles_and_circles": {
+      "title": "Month 5: Triangles, Similarity and Circles",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Triangles, Similar Triangles and Pythagorean Triples",
+        "description": "Two triangles are similar when their angles match, and then all their sides are in the same ratio. In a right triangle, the altitude to the hypotenuse creates two smaller triangles similar to the original, which gives quick formulas for the pieces. The trap is matching the wrong sides when writing a ratio, so always label corresponding vertices in the same order.",
+        "topics": [
+          "Angle sums, exterior angles and isosceles triangles",
+          "Similar triangles: AA similarity and writing ratios in matching order",
+          "The altitude to the hypotenuse and the three similar right triangles",
+          "Pythagorean triples: 3-4-5, 5-12-13, 8-15-17, 7-24-25 and their multiples",
+          "Special right triangles: 45-45-90 and 30-60-90 side ratios",
+          "Area of a triangle in several ways: half base times height, and Heron's formula for small cases",
+          "The angle bisector theorem",
+          "Triangle inequality to rule out impossible lengths"
+        ],
+        "worked_example": {
+          "problem": "A right triangle has legs of length 9 and 12. The altitude from the right angle divides the hypotenuse into two pieces. What is the length of the shorter piece? (A) 4.8 (B) 5.4 (C) 6 (D) 7.2 (E) 9.6",
+          "steps": [
+            "The hypotenuse is 15, because 9, 12, 15 is the 3-4-5 triple times 3.",
+            "The small triangle next to the leg of length 9 is similar to the whole triangle.",
+            "Matching sides: piece / 9 = 9 / 15, so piece = 81 / 15 = 5.4.",
+            "The other piece is 15 - 5.4 = 9.6, so 5.4 is the shorter one."
+          ],
+          "answer": "(B) 5.4",
+          "idea": "The altitude to the hypotenuse makes similar triangles, so each leg squared equals the hypotenuse times the piece next to that leg."
+        },
+        "projects": [
+          "A triangle facts sheet with the five Pythagorean triples, the special right triangles and one original problem for each"
+        ],
+        "practice": "Ten original triangle problems in 25 minutes, each started with a labelled diagram"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Circles: Chords, Tangents, Inscribed Angles and Power of a Point",
+        "description": "An inscribed angle is half the arc it cuts off, and a tangent always meets the radius at a right angle. Power of a point says that for any point and any line through it that meets the circle twice, the product of the two distances is the same, and for a tangent it equals the tangent length squared. The trap is measuring a secant from the circle instead of from the outside point.",
+        "topics": [
+          "Central angles, inscribed angles and the half-the-arc rule",
+          "An angle in a semicircle is a right angle",
+          "Tangent lines: perpendicular to the radius, and equal tangents from an external point",
+          "Chords: the perpendicular from the centre bisects a chord",
+          "Power of a point for two chords, two secants, and a tangent with a secant",
+          "Cyclic quadrilaterals: opposite angles add to 180 degrees",
+          "Inscribed and circumscribed circles of right triangles",
+          "Arc length and sector area as fractions of the full circle"
+        ],
+        "worked_example": {
+          "problem": "From a point P outside a circle, a tangent touches the circle at T with PT = 12. A line through P meets the circle at A and then at B, with PA = 8. What is the length of the chord AB? (A) 6 (B) 8 (C) 9 (D) 10 (E) 12",
+          "steps": [
+            "Power of a point: PT^2 = PA x PB.",
+            "So 144 = 8 x PB, which gives PB = 18.",
+            "The chord is AB = PB - PA = 18 - 8 = 10."
+          ],
+          "answer": "(D) 10",
+          "idea": "Power of a point always measures from the outside point, so find the full secant length first and subtract to get the chord."
+        },
+        "projects": [
+          "A circle theorems poster: each theorem with a diagram drawn by the student and one original problem"
+        ],
+        "practice": "Ten original circle problems in 25 minutes, with every equal length and right angle marked on the diagram",
+        "assessment": "Month 5 timed set: 15 original triangle and circle problems in 35 minutes, scored 6/1.5/0"
+      }
+    },
+    "month_6_area_coordinates_and_solids": {
+      "title": "Month 6: Areas, Coordinate Geometry and 3D Solids",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Areas and Coordinate Geometry",
+        "description": "Coordinates turn a geometry picture into algebra you can calculate. The shoelace formula gives the area of any polygon straight from its vertex coordinates, with no heights needed. The trap is listing the vertices out of order around the shape, which gives a wrong area.",
+        "topics": [
+          "Areas of composite shapes by adding and subtracting simple pieces",
+          "Ratios of areas of similar figures: the square of the side ratio",
+          "Distance and midpoint formulas",
+          "Slopes, parallel and perpendicular lines, and equations of lines",
+          "The shoelace formula for polygon area",
+          "Pick's theorem for lattice polygons",
+          "Equations of circles centred at a point",
+          "Shaded regions with circles and squares"
+        ],
+        "worked_example": {
+          "problem": "What is the area of the triangle with vertices (1, 2), (7, 5) and (4, 11)? (A) 21 (B) 22.5 (C) 24 (D) 27 (E) 30",
+          "steps": [
+            "Shoelace formula: area = half of |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)|.",
+            "Substitute: 1(5 - 11) + 7(11 - 2) + 4(2 - 5) = -6 + 63 - 12 = 45.",
+            "Area = 45 / 2 = 22.5."
+          ],
+          "answer": "(B) 22.5",
+          "idea": "When a shape is given by coordinates, the shoelace formula finds the area without needing any height."
+        },
+        "projects": [
+          "A coordinate geometry toolkit page: distance, midpoint, slope, line equations, shoelace and Pick's theorem, each with a worked original example"
+        ],
+        "practice": "Ten original area and coordinate problems in 25 minutes"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: 3D Solids: Volume, Surface Area and Space Diagonals",
+        "description": "Solid geometry on the AMC 10 is about boxes, cubes, cylinders, cones, spheres and pyramids. Often the cleanest route is to name the dimensions as unknowns and write equations, rather than reaching for a formula. The trap is mixing up surface area and volume, or forgetting that a box has three pairs of faces.",
+        "topics": [
+          "Volume and surface area of rectangular boxes and cubes",
+          "Cylinders, cones and spheres: volume and surface area formulas",
+          "Pyramids and the one-third rule for volume",
+          "The space diagonal of a box: the square root of a^2 + b^2 + c^2",
+          "Unfolding a solid into a net to find the shortest path on its surface",
+          "Cubes built from unit cubes and counting painted faces",
+          "Scaling: lengths times k means areas times k^2 and volumes times k^3",
+          "Cross sections of a cube"
+        ],
+        "worked_example": {
+          "problem": "A rectangular box has faces with areas 24, 30 and 80 square units. What is the volume of the box? (A) 160 (B) 200 (C) 240 (D) 300 (E) 360",
+          "steps": [
+            "Call the edges a, b and c, so ab = 24, bc = 30 and ac = 80.",
+            "Multiply all three: (abc)^2 = 24 x 30 x 80 = 57600.",
+            "Take the square root: abc = 240.",
+            "Check: a = 8, b = 3, c = 10 gives 24, 30 and 80, and 8 x 3 x 10 = 240."
+          ],
+          "answer": "(C) 240",
+          "idea": "When you know products of pairs, multiply all the equations together to get the square of the product you want."
+        },
+        "projects": [
+          "A complete geometry formula sheet for the AMC 10 built from memory, then checked against class notes"
+        ],
+        "practice": "A 30-minute mixed geometry set of 12 original problems",
+        "assessment": "Phase 3 assessment: 20 original geometry problems in 55 minutes, scored 6/1.5/0 and reviewed one to one with the teacher"
+      }
+    }
+  },
+  "phase_4_contest_craft_and_aime": {
+    "title": "PHASE 4: Contest Craft and the Road to the AIME (Months 7-8, Weeks 25-32)",
+    "description": "Putting all four content areas together under the real 75-minute limit, learning from every mistake, and understanding exactly what comes after the AMC 10.",
+    "month_7_pacing_and_full_length_sets": {
+      "title": "Month 7: Pacing, Decisions and Full-Length Sets",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
+        "title": "Weeks 25-26: 75-Minute Pacing, the First 10 and the Last 10",
+        "description": "The first ten questions on the AMC 10 are usually quicker, and every one is worth the same 6 points as the hardest, so accuracy there matters more than speed. On the hardest questions a student should decide quickly whether to work, guess after eliminating choices, or leave a blank. The trap is spending fifteen minutes on one late question and rushing the easier ones.",
+        "topics": [
+          "A pacing plan for 75 minutes: checkpoints after questions 10 and 18",
+          "Why a careless slip on question 5 costs as much as a miss on question 25",
+          "Deciding in under a minute: solve, eliminate and guess, or skip",
+          "The expected value rule applied question by question: blank 1.5, guess among 3 worth 2",
+          "Eliminating choices by estimation, parity, units and extreme cases",
+          "Testing answer choices back into the problem when it is faster",
+          "Reading the whole question: not, except, and least",
+          "Returning to skipped questions with fresh eyes"
+        ],
+        "worked_example": {
+          "problem": "With a few minutes left, Kabir has 8 questions not yet answered. On 3 of them he has ruled out exactly two choices. On the other 5 he cannot rule out any choice. If he makes the decision with the highest expected score on each question, what is his expected total from these 8 questions? (A) 12 (B) 12.5 (C) 13 (D) 13.5 (E) 14",
+          "steps": [
+            "With two choices ruled out, a guess among 3 is worth 6/3 = 2 points on average, more than the 1.5 for a blank, so he guesses on those 3.",
+            "Those 3 questions are worth 3 x 2 = 6 points on average.",
+            "With no choices ruled out, a guess is worth 6/5 = 1.2, less than 1.5, so he leaves those 5 blank.",
+            "Those 5 blanks give 5 x 1.5 = 7.5 points.",
+            "Expected total = 6 + 7.5 = 13.5."
+          ],
+          "answer": "(D) 13.5",
+          "idea": "Decide each question separately by comparing 6 divided by the remaining choices with 1.5."
+        },
+        "projects": [
+          "A personal pacing plan with time checkpoints, tested on one full-length set and revised afterwards"
+        ],
+        "practice": "One full-length 25-question, 75-minute set of original problems, followed by a written pacing review"
+      },
+      "week_27_28": {
+        "title": "Weeks 27-28: Mixed Full-Length Sets and the Error Log",
+        "description": "A real AMC 10 mixes every topic, so students must recognise quickly which tool a problem needs. The error log turns every mistake into a lesson: each entry records the question type, why it went wrong and the fix. The trap is reviewing only the questions that were wrong and ignoring the ones that were right by luck.",
+        "topics": [
+          "Recognising the topic and tool within the first thirty seconds",
+          "Problems that combine number theory with algebra, or counting with geometry",
+          "Sorting errors: careless, concept gap, misread, or out of time",
+          "Reviewing lucky correct answers as carefully as wrong ones",
+          "Targeted mini-lessons on each student's two weakest areas",
+          "Writing a clean solution after the set, not just the answer",
+          "Prime factorisation with exponent conditions for squares and cubes",
+          "Building stamina across two full sets in one week"
+        ],
+        "worked_example": {
+          "problem": "What is the smallest positive integer n such that n/5 is a perfect square and n/2 is a perfect cube? (A) 400 (B) 1000 (C) 1600 (D) 2000 (E) 4000",
+          "steps": [
+            "n must use the primes 2 and 5, so try n = 2^a x 5^b.",
+            "n/5 = 2^a x 5^(b - 1) is a square, so a is even and b - 1 is even.",
+            "n/2 = 2^(a - 1) x 5^b is a cube, so a - 1 is a multiple of 3 and b is a multiple of 3.",
+            "The smallest a that is even with a - 1 a multiple of 3 is 4; the smallest b that is odd and a multiple of 3 is 3.",
+            "n = 2^4 x 5^3 = 16 x 125 = 2000."
+          ],
+          "answer": "(D) 2000",
+          "idea": "Turn conditions like square or cube into conditions on each prime's exponent, then solve each exponent separately."
+        },
+        "projects": [
+          "An error log summary page: the student's ten most common mistakes, grouped by type, with a one-line fix for each"
+        ],
+        "practice": "Two full-length 75-minute sets of original problems this fortnight, each logged in the error log within two days",
+        "assessment": "Month 7 assessment: a full-length 25-question, 75-minute set of original problems, scored 6/1.5/0 and reviewed one to one with the teacher"
+      }
+    },
+    "month_8_aime_road_and_contest_week": {
+      "title": "Month 8: The Road to the AIME, Contest Week and What Comes Next",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
+        "title": "Weeks 29-30: The 2027 AIME Changes and AIME-Style Thinking",
+        "description": "From the 2027 AIME, the MAA uses a fixed qualifying score: 100 or more on the AMC 10, plus other eligibility rules. The AIME is a different kind of test, with 15 questions whose answers are whole numbers from 000 to 999 and no answer choices to check against. The trap is relying on answer choices to guide you, a habit that does not work when there are none.",
+        "topics": [
+          "The fixed AIME qualifying score from 2027: AMC 10 of 100 or more, plus other eligibility rules",
+          "What 100 out of 150 looks like in correct answers and blanks, worked out from the scoring rule",
+          "The AIME format: 15 questions, integer answers from 000 to 999",
+          "The 2027 AIME: computer based at Pearson testing centers in the United States and Canada on 5 or 6 February 2027",
+          "Two parts: 8 questions in 90 minutes, then 7 in 90 minutes, with no return to Part 1",
+          "Students outside the US and Canada: check with your competition manager what applies to you",
+          "Solving without answer choices: checking an answer by a second method",
+          "Inclusion and exclusion for counting with several conditions"
+        ],
+        "worked_example": {
+          "problem": "AIME-style, no answer choices: how many positive integers less than 1000 are divisible by 3 or by 7, but not by 5? Give your answer as an integer from 000 to 999.",
+          "steps": [
+            "Divisible by 3: 333 numbers. Divisible by 7: 142. Divisible by both (by 21): 47. So divisible by 3 or 7: 333 + 142 - 47 = 428.",
+            "Now remove those also divisible by 5. Divisible by 15: 66. By 35: 28. By 105: 9.",
+            "Divisible by 5 and by 3 or 7: 66 + 28 - 9 = 85.",
+            "Answer: 428 - 85 = 343."
+          ],
+          "answer": "343",
+          "idea": "Inclusion and exclusion handles or and not cleanly: count the or set first, then subtract the part that breaks the not condition."
+        },
+        "projects": [
+          "A one-page AIME fact sheet in the student's own words: qualifying score, format, timing and what to check with the competition manager"
+        ],
+        "practice": "Eight original AIME-style integer-answer problems in 60 minutes, each checked by a second method"
+      },
+      "week_31_32": {
+        "title": "Weeks 31-32: Contest Week Plan and When to Move to the AMC 12",
+        "description": "The last weeks are about sharp, calm practice, not cramming new topics. Students also decide, with the teacher, whether their next contest should be the AMC 10 again or the AMC 12, which adds trigonometry, advanced algebra and advanced geometry. The trap is switching to the AMC 12 before those topics are secure.",
+        "topics": [
+          "A contest-week plan: light timed sets, rest and a review of the error log",
+          "Contest day routine: pacing checkpoints and the blank-versus-guess rule",
+          "Sitting one A and one B contest, and why not the AMC 10 and AMC 12 on the same date",
+          "Registration through a school or approved competition manager, checked early",
+          "AMC 10 or AMC 12 next year: age, grade and the extra AMC 12 topics",
+          "Probability with two dice using a 6 by 6 grid of outcomes",
+          "Reflecting on the course: strongest topics and next steps",
+          "Presenting a favourite problem and its solution to the class"
+        ],
+        "worked_example": {
+          "problem": "Two fair six-sided dice are rolled. What is the probability that the product of the two numbers is a multiple of 6? (A) 1/4 (B) 1/3 (C) 7/18 (D) 4/9 (E) 5/12",
+          "steps": [
+            "There are 36 equally likely outcomes.",
+            "If either die shows 6, the product is a multiple of 6: that is 11 outcomes.",
+            "Without a 6, the product needs a factor 2 and a factor 3. Then one die must show 3 and the other must show 2 or 4.",
+            "Pairs: (3, 2), (3, 4), (2, 3), (4, 3), so 4 more outcomes, for 15 in total.",
+            "Probability = 15 / 36 = 5/12."
+          ],
+          "answer": "(E) 5/12",
+          "idea": "For small probability questions, draw the full grid of outcomes and count by clear cases, so nothing is missed or counted twice."
+        },
+        "projects": [
+          "Write a full solution to your favourite problem of the course, clear enough for a newer student to follow"
+        ],
+        "practice": "Short daily timed sets of 8 original problems in 20 minutes during contest week",
+        "assessment": "Final assessment: a full-length 25-question, 75-minute set of original problems, scored 6/1.5/0, plus a short conversation with the teacher about the student's method and guessing decisions"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is the AMC 10?",
+      "answer": "The AMC 10 is a mathematics contest run by the Mathematical Association of America (MAA) for students in grade 10 or below. It is part of the American Mathematics Competitions, alongside the AMC 8 and the AMC 12. It covers elementary algebra, basic geometry, area and volume, elementary number theory and elementary probability."
+    },
+    {
+      "question": "What is the AMC 10 format?",
+      "answer": "There are 25 multiple-choice questions, each with five choices, and 75 minutes to answer them. Calculators are not allowed. There is no trigonometry, advanced algebra or advanced geometry on the AMC 10."
+    },
+    {
+      "question": "How is the AMC 10 scored, and should my child guess?",
+      "answer": "A correct answer earns 6 points, a blank earns 1.5 and a wrong answer earns 0, for a maximum of 150. A random guess among five choices is worth only 1.2 points on average, less than a blank. If a student can rule out two choices, a guess among the remaining three is worth 2 points on average, more than a blank, so guessing then makes sense. Ruling out exactly one choice is break-even."
+    },
+    {
+      "question": "Who can take the AMC 10?",
+      "answer": "Students in grade 10 or below who are under 17.5 years old on competition day. Students in grade 12 or below and under 19.5 can take the AMC 12 instead."
+    },
+    {
+      "question": "How do we register for the AMC 10?",
+      "answer": "Registration is done by a school or an approved competition manager, not by individual students and not by us. Ask your school whether it offers the contest, or find a competition manager near you, and check early. Our course prepares students for the maths, and the family arranges the sitting."
+    },
+    {
+      "question": "When is the AMC 10, and can my child take it twice?",
+      "answer": "There are two dates each year, the AMC 10A and the AMC 10B. In 2026 these were 5 November and 13 November. A student may sit one A contest and one B contest, but cannot take the AMC 10 and the AMC 12 on the same date."
+    },
+    {
+      "question": "When should my child start preparing?",
+      "answer": "The course runs for eight months, so starting in the spring or early summer before the November contest gives a full cycle. Students can join in any month and pick up the current phase, then revisit earlier topics in the next cycle. In the free demo class the teacher looks at your child's current level and suggests a starting point."
+    },
+    {
+      "question": "Should my child take the AMC 10 or the AMC 12?",
+      "answer": "The AMC 12 adds trigonometry, advanced algebra and advanced geometry to the AMC 10 content. A student in grade 10 or below who has not yet studied those topics in depth is usually better served by the AMC 10. Students who have, and who meet the AMC 12 age and grade rules, can discuss the switch with the teacher in the final month of the course."
+    },
+    {
+      "question": "My child did the AMC 8. Is this the next step?",
+      "answer": "Yes, for most students. The AMC 10 is longer (75 minutes instead of 40), harder, and scored differently: the AMC 8 has no penalty for guessing, while the AMC 10 gives 1.5 points for a blank and 0 for a wrong answer. The first month of this course teaches exactly that change in strategy."
+    },
+    {
+      "question": "What changed for the AIME in 2027?",
+      "answer": "From the 2027 AIME, the MAA uses a fixed qualifying score: 100 or more on the AMC 10, or 85 or more on the AMC 12, plus other eligibility rules. The AIME is 15 questions with integer answers from 000 to 999, computer based at Pearson testing centers in the United States and Canada on 5 or 6 February 2027, in two parts of 90 minutes each with no return to Part 1. Students must be at least 13, and the fee is $85 plus taxes. Students outside the US and Canada should check with their competition manager what applies to them."
+    },
+    {
+      "question": "Do AMC scores still count towards USAJMO and USAMO?",
+      "answer": "According to the MAA's 2026 announcement, USAJMO and USAMO selection is now primarily based on the AIME score, and AMC scores are no longer a factor. The AMC 10 remains the route to the AIME through the fixed qualifying score."
+    },
+    {
+      "question": "What does a class look like?",
+      "answer": "Each class is live online with a real teacher. The teacher introduces the idea of the fortnight, works through an original example step by step with the class, then students try similar problems while the teacher gives feedback. Problem sets follow each class, and every month ends with a timed set scored the AMC way."
+    },
+    {
+      "question": "How is this different from your year-long Olympiad course?",
+      "answer": "Our Olympiad course is a year-long programme that runs from AMC level towards the AIME and international olympiads, with proofs and harder topics. This course is eight months focused only on the AMC 10: its content, its scoring and its pacing, with a worked example in every two-week block. Many students take this course first and move to the Olympiad course afterwards."
+    },
+    {
+      "question": "Do you use real AMC questions?",
+      "answer": "No. Every practice problem in the course is written by us at AMC 10 level. Past AMC papers are published by the MAA, and students may practise from them separately, but we never copy them into our materials."
+    },
+    {
+      "question": "Can you guarantee an AIME qualification or an award?",
+      "answer": "No. We are independent of the MAA and promise learning, never scores, AIME qualification or awards. What the course gives is a full syllabus, a worked example in every block, monthly timed sets, an error log and honest feedback. Classes are group batches of 15 to 20 students or 1-on-1, and the first class is free."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A scoring card with the 6/1.5/0 rule and the guess values 1.2, 1.5 and 2",
+      "Rate and work, Vieta and number theory problem packs written by the student",
+      "A counting decision chart and an original probability set",
+      "A circle theorems poster and a complete AMC 10 geometry formula sheet",
+      "A personal pacing plan and an error log summary of the ten most common mistakes",
+      "An AIME fact sheet and a full written solution to a favourite problem"
+    ],
+    "total_projects_built": "Sixteen worked examples studied step by step, student-written problem sets in every area, an error log, formula sheets and a history of monthly timed sets",
+    "skills_mastered": [
+      "Linear equations, systems, rates and work",
+      "Quadratics, Vieta's formulas, absolute value and inequalities",
+      "Primes, divisor counting, GCD, LCM, modular arithmetic and integer equations",
+      "Permutations, combinations, complementary counting, casework and stars and bars",
+      "Probability, expected value and geometric probability",
+      "Triangles, similarity, circles, areas, coordinates and solids",
+      "75-minute pacing and the blank-versus-guess decision"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week",
+      "practice": "A problem set after every class with core and stretch problems, plus review of the fortnight's worked example",
+      "review": "A timed set every month scored 6/1.5/0, and a regular error log check with the teacher"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not an MAA document or an AMC score. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with hints first and full solutions after a real attempt",
+      "progress_updates": "A monthly progress note to parents with timed-set results and next steps",
+      "official_practice": "Past AMC papers are published by the MAA; students may practise from them on their own, and we review their reasoning in class without copying any problem into our materials"
+    }
+  },
+  "prerequisites": {
+    "math_level": "Confident with school algebra (linear equations, basic quadratics) and basic geometry, and happy to spend time on a problem that does not open up straight away",
+    "age": "Grade 10 or below, roughly ages 13 to 16. The AMC 10 itself requires grade 10 or below and under 17.5 on competition day. A strong grade 7 or 8 student may join after the demo class",
+    "equipment": "A computer with stable internet, paper, a pencil, a ruler and a compass for practice diagrams",
+    "eligibility": "AMC 10 registration is done by a school or an approved competition manager, not through us",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays"
+  },
+  "who_is_this_for": {
+    "amc_8_graduates": "Students who have taken the AMC 8 and are ready for a longer, harder contest with a different scoring rule",
+    "first_time_amc_10_students": "Students in grades 8 to 10 sitting the AMC 10 for the first time who want to understand the contest from zero",
+    "aime_aspirants": "Students aiming at the fixed AMC 10 score of 100 for AIME qualification, who want to work towards it with a clear plan",
+    "strong_math_students": "Students who find school maths easy and want harder, contest-style problems in algebra, number theory, counting and geometry",
+    "families_new_to_the_amc": "Parents who want their child prepared by a teacher who explains the format, scoring and next steps clearly"
+  },
+  "career_paths_after_completion": [
+    "The AIME, for students who meet the fixed qualifying score and the other eligibility rules",
+    "The AMC 12, once trigonometry, advanced algebra and advanced geometry are secure",
+    "Our year-long Olympiad course, towards the AIME and olympiad-style proofs",
+    "SAT maths and school mathematics at a higher level, through our SAT Math course",
+    "Coding and computer science, where the same problem-solving habits apply"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "batches": "Group batches of 15 to 20 students, or personal 1-on-1 classes.",
+    "original_problems": "Every practice problem and worked example is our own; we never copy past AMC or AIME problems.",
+    "worked_examples": "A step-by-step original worked example in every two-week block, with the transferable idea written down.",
+    "feedback": "A timed set every month scored 6/1.5/0, an error log and a monthly progress note to parents.",
+    "independence": "We are independent of the MAA and promise learning, never scores, AIME qualification or awards.",
+    "free_demo": "The first class is free, so you can decide with no pressure."
+  }
+}

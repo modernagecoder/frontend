@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "slug": "amc-8-math-competition-prep-course",
+    "date": "2026-11-04",
+    "title": "AMC 8 Math Competition Prep: Grades 5 to 8",
+    "description": "Live online AMC 8 prep for ages 10 to 14: 25 questions in 40 minutes, number theory, counting, algebra and geometry, with worked examples and timed mock sets.",
+    "keywords": [
+      "amc 8 prep",
+      "amc 8 preparation course",
+      "amc 8 online classes",
+      "how to prepare for amc 8",
+      "amc 8 practice problems",
+      "amc 8 2027",
+      "amc 8 scoring",
+      "amc 8 eligibility",
+      "amc 8 tutoring",
+      "amc 8 math competition",
+      "amc 8 number theory",
+      "amc 8 counting and probability",
+      "amc 8 mock test",
+      "middle school math contest prep"
+    ],
+    "category": "Competition Mathematics & Olympiad Training",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks) per cycle, joinable any month; starting by July gives a full cycle before the January 2027 contest window",
+    "level": "Students in grade 8 or below (roughly ages 10 to 14) who are confident with school maths and want to go deeper into contest problem solving",
+    "commitment": "2 live classes/week + weekly problem sets, an error log and a monthly timed 25-question set",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment (this is not an MAA document or an AMC 8 score)",
+    "image_path": "amc-8-math-prep.webp",
+    "dateModified": "2026-11-04"
+  },
+  "program_overview": {
+    "title": "AMC 8 Math Competition Prep: Grades 5 to 8",
+    "tagline": "Twenty-five questions, forty minutes, no calculator and no penalty for guessing: the AMC 8 explained from zero, then taught topic by topic with a worked example every fortnight.",
+    "description": "The AMC 8 is a maths contest for middle school students run by the Mathematical Association of America (MAA), the organisation behind the American Mathematics Competitions. It is open to students in grade 8 or below, and for the 2026-27 season the MAA age limit is under 15.5 years on competition day. The next contest window is 21 to 27 January 2027. Students do not sign up on their own: registration is done by a school or an approved competition manager, not by us.\n\nThe format is simple to describe and hard to do well. There are 25 multiple-choice questions, each with five answer choices, and students have 40 minutes, with no calculator. The questions start easy and get steadily harder, so the last few need real problem-solving ideas rather than school routines. That works out to a little over a minute and a half per question on average, which is why speed with arithmetic and a clear plan for the clock matter as much as knowing the topics.\n\nScoring shapes the whole strategy. A correct answer earns 1 point, and a wrong answer or a blank earns 0, so the maximum is 25. Because a wrong answer costs nothing, a student should answer every single question, even when time is nearly up. A blank can never score, while a guess sometimes does, and a guess after ruling out one or two choices is even better. Many students lose points simply by leaving questions empty; this course trains the habit of filling every answer.\n\nThe topics are the core of middle school maths taken further than most school classes go: arithmetic and fractions, ratios, rates and percents, patterns and sequences, number theory (primes, divisibility, remainders and digits), counting and probability, algebra and word problems, and geometry (angles, area, the Pythagorean theorem, circles, grids, solids and nets). Past AMC papers are published by the MAA, and they show the same thing: a well-prepared student needs broad, flexible skills, not tricks. The AMC 8 also leads somewhere. Students who enjoy it usually move on to the AMC 10 in high school, and the habits built here (careful reading, clean working, answer-choice thinking) carry straight over.\n\nThis course is AMC 8 only, built over six months. Months 1 and 2 lay the foundation: how the contest works, a starting diagnostic, arithmetic shortcuts, fractions, ratios, percents, patterns and first counting. Months 3 and 4 cover the core contest topics in depth: number theory, counting and probability, algebra and word problems, and geometry. Months 5 and 6 are contest craft: 40-minute pacing, estimation and answer-choice elimination, mixed timed sets, error log review and a plan for contest week. Every two-week block teaches one central idea in plain words and includes a fully worked original example, so a student (and a parent reading along) can see exactly how the thinking goes.\n\nEvery practice problem is our own original problem; we never copy or reconstruct real AMC questions. We are independent of the MAA. We promise real learning and honest feedback, never a score, an award or an honor roll place.",
+    "what_makes_this_different": [
+      "AMC 8 only: every week is shaped by the real format of 25 questions in 40 minutes, no calculator, 1 point each and no penalty for guessing",
+      "A fully worked original example in every two-week block, with the steps written out and the one transferable idea named",
+      "Plain-language explanations of each topic that a parent and a 12-year-old can follow together",
+      "Answer-every-question strategy taught from week one: why a blank never scores and how elimination makes guesses better",
+      "Pacing practice built around the contest's rising difficulty: quick early questions, more time for the hard ones at the end",
+      "Honest and independent: we are not connected with the MAA and promise learning, never scores or awards"
+    ],
+    "learning_path": {
+      "phase_1": "Foundations: how the AMC 8 works, a diagnostic, arithmetic shortcuts, fractions, ratios, rates, percents, patterns, sequences and first counting",
+      "phase_2": "Core contest topics in depth: number theory, counting and probability, algebra and word problems, and geometry from angles to 3D solids",
+      "phase_3": "Contest craft: 40-minute pacing, estimation and answer-choice elimination, mixed timed sets, error log review and a contest-week plan"
+    },
+    "career_outcomes": [
+      "Fast, accurate arithmetic with fractions, decimals and percents, without a calculator",
+      "Number theory tools: primes, divisibility, GCD and LCM, remainders and digit patterns",
+      "Systematic counting and simple probability, including complementary counting",
+      "Confident algebra for word problems, plus the skill of testing answer choices",
+      "Geometry facts known by heart: angles, area, the Pythagorean theorem, circles and solids",
+      "A tested plan for 40 minutes: pace, estimate, eliminate and answer every question"
+    ]
+  },
+  "phase_1_foundations": {
+    "title": "PHASE 1: Foundations (Months 1-2, Weeks 1-8)",
+    "description": "How the AMC 8 works, where each student is starting from, and the arithmetic, ratio, percent and pattern skills that the rest of the contest depends on.",
+    "month_1_contest_basics_and_arithmetic": {
+      "title": "Month 1: How the AMC 8 Works, and Arithmetic That Saves Time",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: How the AMC 8 Works and a Starting Diagnostic",
+        "description": "The AMC 8 has 25 multiple-choice questions in 40 minutes, with no calculator, and each correct answer is worth 1 point while a wrong answer or a blank is worth 0. That last rule is the most important strategy fact on the contest: guessing never costs anything, so every question should get an answer. The questions get harder as you go, so the early ones reward speed and accuracy and the later ones reward ideas. The trap most new students fall into is leaving questions blank because they are not sure, which throws away free chances to score.",
+        "topics": [
+          "The format: 25 questions, five choices each, 40 minutes, no calculator",
+          "Scoring: 1 point for correct, 0 for wrong or blank, maximum 25",
+          "Why you answer every question, and how ruling out choices improves a guess",
+          "Who can sit it: grade 8 or below, under 15.5 on competition day for 2026-27",
+          "How registration works through a school or competition manager",
+          "A diagnostic of our own original problems to find each student's starting point",
+          "The four-step routine: read, plan, solve, check",
+          "Starting an error log on day one"
+        ],
+        "worked_example": {
+          "problem": "On a 25-question contest, each correct answer scores 1 point and a wrong or blank answer scores 0. Sam answers 15 questions correctly. On each of the other 10 questions he rules out 3 of the 5 choices and guesses between the 2 that are left. What is his expected (average) score? (A) 15 (B) 18 (C) 19 (D) 20 (E) 25",
+          "steps": [
+            "The 15 questions he knows give 15 points.",
+            "A guess between 2 choices is right half the time, so it is worth 1/2 point on average.",
+            "Ten such guesses are worth 10 times 1/2 = 5 points on average.",
+            "Expected score: 15 + 5 = 20. Leaving those 10 blank would give exactly 15."
+          ],
+          "answer": "(D) 20",
+          "idea": "With no penalty for wrong answers, a blank is always worth 0, so every guess can only add points, and an informed guess adds more."
+        },
+        "projects": [
+          "A personal starting profile: diagnostic results, strongest topics, gaps and a target topic list"
+        ],
+        "practice": "Twelve short original problems, each solved with the read, plan, solve, check routine written out"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Arithmetic Shortcuts and Fractions",
+        "description": "Without a calculator, the fastest students are not the ones who multiply fastest but the ones who avoid multiplying at all. Long products of fractions often cancel almost completely, and numbers like 25, 125 or 99 can be handled in your head with the right trick. On the AMC 8 this matters because the early questions should take well under a minute each. The common trap is grinding through a long calculation without first looking for a pattern that makes most of it disappear.",
+        "topics": [
+          "Cancelling before multiplying in long fraction products (telescoping)",
+          "Writing 1 + 1/n as (n + 1)/n and other useful rewrites",
+          "Mental multiplication with 5, 25, 125, 99 and 101",
+          "The distributive law as a shortcut: 17 times 6 + 17 times 4 = 17 times 10",
+          "Converting between fractions, decimals and percents quickly",
+          "Order of operations in long expressions",
+          "Comparing fractions without a common denominator",
+          "Estimation as a check before choosing an answer"
+        ],
+        "worked_example": {
+          "problem": "What is the value of (1 + 1/2)(1 + 1/3)(1 + 1/4) and so on up to (1 + 1/20)? (A) 10 (B) 21/2 (C) 11 (D) 20 (E) 21",
+          "steps": [
+            "Rewrite each bracket as one fraction: 1 + 1/2 = 3/2, 1 + 1/3 = 4/3, and so on up to 1 + 1/20 = 21/20.",
+            "The product is 3/2 times 4/3 times 5/4 and so on up to 21/20.",
+            "Each numerator cancels the denominator of the next fraction: the 3s cancel, the 4s cancel, all the way to the 20s.",
+            "Only the first denominator, 2, and the last numerator, 21, are left, giving 21/2."
+          ],
+          "answer": "(B) 21/2",
+          "idea": "Before multiplying a long product, rewrite each piece and look for cancellation."
+        },
+        "projects": [
+          "A personal shortcut sheet of ten mental-arithmetic tricks, each with an example written by the student"
+        ],
+        "practice": "Daily ten-minute no-calculator drills, with the time and accuracy recorded",
+        "assessment": "Month 1 check: a timed 10-question set of original arithmetic and fraction problems in 15 minutes"
+      }
+    },
+    "month_2_ratios_patterns_and_counting": {
+      "title": "Month 2: Ratios, Percents, Patterns and First Counting",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Ratios, Rates and Percent",
+        "description": "A percent change is really a multiplication: raising a price by 20% multiplies it by 1.2, and cutting it by 25% multiplies it by 0.75. Thinking this way turns long percent stories into one short calculation, and the same idea handles ratios and rates (speed, work, unit prices). AMC 8 questions often chain two or three of these changes together. The classic trap is to add and subtract the percents, as if up 20% then down 25% were simply down 5%, which gives the wrong answer.",
+        "topics": [
+          "Percent change as a multiplier: up 20% means times 1.2, down 25% means times 0.75",
+          "Successive percent changes and why they do not simply add",
+          "Working backwards from a final amount to the original",
+          "Ratios as parts of a whole, and scaling a ratio up",
+          "Rates: distance, speed and time, and average speed over two trips",
+          "Work rates: how long two people take together",
+          "Unit conversions inside a word problem",
+          "Unit prices and which deal is cheaper"
+        ],
+        "worked_example": {
+          "problem": "A jacket's price is raised by 20%, and then the new price is cut by 25%. The jacket now costs $54. What was the original price? (A) $54 (B) $56 (C) $58 (D) $60 (E) $64",
+          "steps": [
+            "Raising by 20% multiplies the price by 1.2.",
+            "Cutting by 25% multiplies by 0.75.",
+            "Together: 1.2 times 0.75 = 0.9, so the final price is 0.9 times the original.",
+            "0.9 times the original = 54, so the original = 54 divided by 0.9 = 60."
+          ],
+          "answer": "(D) $60",
+          "idea": "Turn every percent change into a multiplier, multiply the multipliers, then work backwards in one step."
+        },
+        "projects": [
+          "Write and solve three original percent and rate problems for a classmate, each with a trap answer explained"
+        ],
+        "practice": "Fifteen mixed ratio, rate and percent problems, aiming for about a minute and a half each"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Patterns, Sequences and First Counting",
+        "description": "Many contest problems describe a pattern that grows step by step, and the key is to find a rule for the nth step instead of drawing every picture. When each step adds the same amount, the pattern is an arithmetic sequence, and its terms can be added quickly by pairing the first with the last. Counting begins in the same spirit: count in an organised way so nothing is missed or counted twice. The usual trap is counting by drawing and listing, which is slow and breaks down once the numbers get large.",
+        "topics": [
+          "Finding the rule for the nth term of a growing pattern",
+          "Arithmetic sequences: common difference and the nth term",
+          "Sum of 1 + 2 + ... + n and of any arithmetic sequence by pairing",
+          "Repeating patterns and using remainders to find a far-away term",
+          "Counting the numbers in a list such as 7, 11, 15, ..., 203",
+          "Organised lists and tables so nothing is missed",
+          "First uses of the multiplication principle",
+          "Checking a rule on the first few cases before trusting it"
+        ],
+        "worked_example": {
+          "problem": "Figure 1 is made of 4 toothpicks, Figure 2 of 7 and Figure 3 of 10, and each figure uses 3 more toothpicks than the one before. How many toothpicks are needed to build Figures 1 through 20, all at the same time? (A) 630 (B) 650 (C) 670 (D) 700 (E) 720",
+          "steps": [
+            "Figure n uses 3n + 1 toothpicks (check: n = 1 gives 4, n = 2 gives 7).",
+            "The total is 3 times (1 + 2 + ... + 20) plus twenty 1s.",
+            "1 + 2 + ... + 20 = 20 times 21 divided by 2 = 210.",
+            "Total: 3 times 210 + 20 = 630 + 20 = 650."
+          ],
+          "answer": "(B) 650",
+          "idea": "Find the rule for the nth figure first, then add with a formula instead of building every picture."
+        },
+        "projects": [
+          "A pattern notebook page: five original growing patterns, each with its nth-term rule and a check"
+        ],
+        "practice": "Ten pattern and sequence problems, timed at 15 minutes",
+        "assessment": "Phase 1 assessment: a timed 15-question set of original foundation problems in 25 minutes, with every question answered"
+      }
+    }
+  },
+  "phase_2_core_contest_topics": {
+    "title": "PHASE 2: Core Contest Topics (Months 3-4, Weeks 9-16)",
+    "description": "The four big topic families of the AMC 8, taken in depth: number theory, counting and probability, algebra and word problems, and geometry.",
+    "month_3_number_theory_and_counting": {
+      "title": "Month 3: Number Theory, Counting and Probability",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Number Theory: Primes, Divisibility, GCD, LCM, Remainders and Digits",
+        "description": "Number theory is the study of whole numbers: how they break into primes, which numbers divide which, and what is left over after division. A powerful idea is that if a number leaves the same remainder when divided by several numbers, then subtracting that remainder gives a common multiple of all of them. Units digits also follow short repeating cycles, so huge powers can be handled without working them out. The trap is testing numbers one by one at random instead of using the structure to narrow the search.",
+        "topics": [
+          "Prime factorisation and why it is unique",
+          "Divisibility rules for 2, 3, 4, 5, 6, 8, 9 and 11",
+          "GCD and LCM from prime factorisations",
+          "Remainders: if n leaves remainder r on division by several numbers, n minus r is a common multiple",
+          "Counting the factors of a number from its prime factorisation",
+          "Units-digit cycles of powers",
+          "Digit sums and what they tell you",
+          "Even and odd arguments"
+        ],
+        "worked_example": {
+          "problem": "What is the smallest positive integer that leaves a remainder of 1 when divided by each of 2, 3, 4, 5 and 6, and is also divisible by 7? (A) 301 (B) 361 (C) 421 (D) 481 (E) 541",
+          "steps": [
+            "A remainder of 1 for all five divisors means n minus 1 is a multiple of each of 2, 3, 4, 5 and 6.",
+            "The LCM of 2, 3, 4, 5 and 6 is 60, so n is one of 61, 121, 181, 241, 301 and so on.",
+            "Test each for division by 7: 61, 121, 181 and 241 all leave a remainder, but 301 = 7 times 43.",
+            "So the smallest such number is 301. (The other choices all leave remainder 1 too, but none is divisible by 7.)"
+          ],
+          "answer": "(A) 301",
+          "idea": "Turn a shared remainder into a shared multiple, then search only the short list that structure allows."
+        },
+        "projects": [
+          "A number theory toolkit page: divisibility rules, the factor-counting method and units-digit cycles, each with an original example"
+        ],
+        "practice": "Twelve original number theory problems in 20 minutes, then a written check of any wrong answers in the error log"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Counting and Probability",
+        "description": "Counting on the AMC 8 is about choosing a method, not listing everything. The multiplication principle says that if one choice can be made in a ways and the next in b ways, together there are a times b ways. When a question says at least one, it is usually easier to count the opposite (none at all) and subtract from the total, which is called complementary counting. Probability is then just the number of good outcomes divided by the number of equally likely outcomes. The trap is trying to count at least one directly and double-counting the cases that have two or more.",
+        "topics": [
+          "Organised lists and tree diagrams for small cases",
+          "The multiplication principle for choices made in order",
+          "Complementary counting for at least one questions",
+          "Overlapping groups: counting with a Venn diagram",
+          "Arrangements of letters and people in a line",
+          "Choosing a group when order does not matter",
+          "Simple probability: favourable outcomes over equally likely outcomes",
+          "Two dice, coins and spinners: tables of outcomes"
+        ],
+        "worked_example": {
+          "problem": "How many three-digit positive integers have at least one digit equal to 5? (A) 225 (B) 243 (C) 252 (D) 271 (E) 300",
+          "steps": [
+            "There are 900 three-digit numbers, from 100 to 999.",
+            "Count the opposite: numbers with no 5 at all.",
+            "Hundreds digit: 1 to 9 except 5, so 8 ways. Tens and units: 0 to 9 except 5, so 9 ways each. That is 8 times 9 times 9 = 648.",
+            "At least one 5: 900 minus 648 = 252."
+          ],
+          "answer": "(C) 252",
+          "idea": "When a question says at least one, count the numbers with none and subtract from the total."
+        },
+        "projects": [
+          "Write five original counting problems, each solved two ways (directly and by complement) to check the answer"
+        ],
+        "practice": "Fifteen counting and probability problems in 25 minutes",
+        "assessment": "Month 3 check: a timed set of original number theory, counting and probability problems, 12 questions in 20 minutes"
+      }
+    },
+    "month_4_algebra_and_geometry": {
+      "title": "Month 4: Algebra, Word Problems and Geometry",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Algebra and Word Problems",
+        "description": "Most AMC 8 word problems turn into one or two simple equations once you name the unknown carefully. A quick alternative is to start from an easy assumption (for example, everyone bought the cheaper ticket) and then adjust, which is often faster than writing equations. On a multiple-choice contest you can also test the answer choices directly. The trap is choosing the unknown badly or answering a different question from the one asked, such as giving the number of student tickets when the question asked for adult tickets.",
+        "topics": [
+          "Naming the unknown and writing an equation from words",
+          "Two unknowns: totals of items and totals of cost",
+          "The assume-and-adjust method",
+          "Testing answer choices, starting from the middle choice",
+          "Age, coin and mixture problems",
+          "Averages: using the total instead of the list",
+          "Distance, speed and time equations",
+          "Re-reading the last line: what exactly is being asked"
+        ],
+        "worked_example": {
+          "problem": "A school play sold 120 tickets. Adult tickets cost $8 and student tickets cost $5, and the total taken was $741. How many adult tickets were sold? (A) 35 (B) 41 (C) 44 (D) 47 (E) 53",
+          "steps": [
+            "Assume all 120 tickets were student tickets: that gives 120 times 5 = $600.",
+            "The real total is $741, which is $141 more.",
+            "Changing one student ticket into an adult ticket adds $3.",
+            "So the number of adult tickets is 141 divided by 3 = 47. Check: 47 times 8 + 73 times 5 = 376 + 365 = 741."
+          ],
+          "answer": "(D) 47",
+          "idea": "Assume the simplest case, measure how far off it is, and divide by how much each change fixes."
+        },
+        "projects": [
+          "A one-page method guide: the same word problem solved by equation, by assume-and-adjust and by testing choices"
+        ],
+        "practice": "Twelve original word problems, each solved by the fastest method the student can justify, in 20 minutes"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Geometry: Angles, Area, Pythagoras, Circles, Grids and Solids",
+        "description": "AMC 8 geometry uses a small set of facts in clever ways: angles in triangles and on straight lines, area formulas, the Pythagorean theorem and the parts of a circle. A key habit is to draw the figure and add one helpful line, such as a diagonal or a radius, which often reveals a right triangle. Solids and nets test whether you can picture a shape folding up or a cube being cut. The trap is trusting how a figure looks instead of what the facts say, since contest figures are not always drawn to scale.",
+        "topics": [
+          "Angles on a line, around a point, in triangles and in polygons",
+          "Area of rectangles, triangles, trapezoids and composite shapes",
+          "The Pythagorean theorem and common right triangles such as 3-4-5 and 5-12-13",
+          "Circles: radius, diameter, circumference and area in terms of pi",
+          "A rectangle's diagonal as the diameter of the circle through its corners",
+          "Shapes on a grid: counting squares and finding areas by subtraction",
+          "Cubes and boxes: volume, surface area and painted-cube problems",
+          "Nets: which flat patterns fold into a cube"
+        ],
+        "worked_example": {
+          "problem": "A rectangle measures 8 by 6. A circle passes through all four of its corners. What is the area of the circle? (A) 25π (B) 36π (C) 48π (D) 64π (E) 100π",
+          "steps": [
+            "The diagonal of the rectangle passes through the centre of the circle, so it is a diameter.",
+            "By the Pythagorean theorem, the diagonal is the square root of 8 squared + 6 squared, which is the square root of 100 = 10.",
+            "So the radius is 5.",
+            "Area = π times 5 squared = 25π."
+          ],
+          "answer": "(A) 25π",
+          "idea": "Add the one line (here a diagonal) that turns the figure into a right triangle you already know."
+        },
+        "projects": [
+          "A geometry formula sheet built from memory, then checked and corrected against class notes"
+        ],
+        "practice": "Fifteen original geometry problems with figures drawn by the student, in 25 minutes",
+        "assessment": "Phase 2 assessment: a full original 25-question set in 40 minutes covering all four topic families, with every question answered"
+      }
+    }
+  },
+  "phase_3_contest_craft": {
+    "title": "PHASE 3: Contest Craft (Months 5-6, Weeks 17-24)",
+    "description": "Turning knowledge into points in 40 minutes: pacing, structure spotting, estimation, answer-choice elimination, mixed timed sets, error log review and a plan for contest week.",
+    "month_5_pacing_and_estimation": {
+      "title": "Month 5: Pacing and Estimation",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: The 40-Minute Plan",
+        "description": "Because the questions get harder as the paper goes on, time should not be shared out equally. A good plan is to move through roughly the first 15 questions quickly and carefully, saving most of the time for the last 10, which are the hard ones. Many early questions look heavy but have a hidden structure that makes them quick, so spotting structure is a speed skill. The trap is spending five minutes on one stubborn question and then rushing or skipping several easier ones later.",
+        "topics": [
+          "Roughly the first 15 questions fast, the last 10 with more time",
+          "Time checkpoints during the 40 minutes",
+          "Spotting structure that makes a calculation short",
+          "Difference of squares and other algebra shortcuts for arithmetic",
+          "When to move on, mark a question and come back",
+          "Filling in a guess on every question before time runs out",
+          "Quick checks that catch careless errors"
+        ],
+        "worked_example": {
+          "problem": "What is 2026 times 2028 minus 2027 times 2027? (A) -2 (B) -1 (C) 0 (D) 1 (E) 2",
+          "steps": [
+            "Let n = 2027, so 2026 = n - 1 and 2028 = n + 1.",
+            "(n - 1)(n + 1) = n squared - 1.",
+            "So the expression is (n squared - 1) - n squared = -1."
+          ],
+          "answer": "(B) -1",
+          "idea": "Before computing big numbers, name the middle number and look for a pattern such as a difference of squares."
+        },
+        "projects": [
+          "A personal pacing card: target times for questions 1 to 15 and 16 to 25, and a rule for when to move on"
+        ],
+        "practice": "Two original 15-question sets of early-paper style problems, each in 15 minutes"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Estimation and Answer-Choice Elimination",
+        "description": "On a multiple-choice contest the five answer choices are information. If the choices are far apart, a rough estimate is enough to pick the right one, and if they differ in size, parity or units digit, a quick check can rule some out. Eliminating even one or two choices makes any guess much more likely to be right. The trap is computing to full precision when the choices are so spread out that a ten-second estimate would have done.",
+        "topics": [
+          "Rounding to friendly numbers before calculating",
+          "Powers of ten and dividing by small decimals",
+          "Ruling out choices by size, sign, parity or units digit",
+          "Plugging a simple number into a general question",
+          "Testing answer choices from the middle",
+          "Using elimination to make every guess an informed one",
+          "When an estimate is safe and when you must compute exactly"
+        ],
+        "worked_example": {
+          "problem": "Which of these is closest to (19.8 times 0.51) divided by 0.098? (A) 1 (B) 10 (C) 100 (D) 1000 (E) 10000",
+          "steps": [
+            "Round to friendly numbers: 19.8 is about 20, 0.51 is about 0.5 and 0.098 is about 0.1.",
+            "20 times 0.5 = 10.",
+            "Dividing by 0.1 is the same as multiplying by 10, so the answer is about 100.",
+            "The choices are ten times apart, so the estimate is safe: the exact value is a little over 103."
+          ],
+          "answer": "(C) 100",
+          "idea": "Read the answer choices first; when they are far apart, a quick estimate is all you need."
+        },
+        "projects": [
+          "An elimination log: ten original problems where the student records which choices were ruled out and why"
+        ],
+        "practice": "Ten estimation and elimination problems in 10 minutes, then a full 25-question original set in 40 minutes",
+        "assessment": "Month 5 check: a full original 25-question set in 40 minutes, scored, with the pacing card used and reviewed"
+      }
+    },
+    "month_6_timed_sets_and_contest_week": {
+      "title": "Month 6: Mixed Timed Sets, Review and Contest Week",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Mixed Timed Sets and the Error Log",
+        "description": "Real contests mix topics in a random order, so the student must recognise what kind of problem it is before choosing a method. Full timed sets build that recognition, and the error log turns every mistake into a lesson: was it a reading slip, an arithmetic slip, a missing idea or a time problem? Counting problems on grids are a good example, because they look like geometry but are solved with counting. The trap is checking only the final score and never looking at why points were lost.",
+        "topics": [
+          "Recognising the topic and method within the first read",
+          "Problems that mix two topics, such as counting on a grid",
+          "Counting rectangles and squares on a grid by choosing lines",
+          "Sorting errors: reading, arithmetic, missing idea, or time",
+          "Rewriting one wrong solution in full each week",
+          "Spotting repeated mistakes across several timed sets",
+          "Choosing three focus topics for the final weeks"
+        ],
+        "worked_example": {
+          "problem": "How many rectangles, including squares, can be found in a grid of unit squares that is 3 squares wide and 2 squares tall? (A) 6 (B) 9 (C) 12 (D) 15 (E) 18",
+          "steps": [
+            "The grid is made by 4 vertical lines and 3 horizontal lines.",
+            "Every rectangle is fixed by choosing 2 of the vertical lines (its left and right sides) and 2 of the horizontal lines (its top and bottom).",
+            "Pairs of vertical lines: 6. Pairs of horizontal lines: 3.",
+            "Total: 6 times 3 = 18."
+          ],
+          "answer": "(E) 18",
+          "idea": "Count shapes by the choices that build them, not by drawing each one."
+        },
+        "projects": [
+          "An error log review page: the three most common error types across all timed sets, with a fix for each"
+        ],
+        "practice": "Two full original 25-question sets in 40 minutes each, with every wrong answer logged and rewritten"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: The Last Ten Questions and the Contest-Week Plan",
+        "description": "The last questions on the AMC 8 need a real idea, often a clever rewrite that turns a strange equation into something you can count. Practising a few of these each day keeps the problem-solving muscles warm, while the contest-week plan keeps the student calm: light review, sleep, a known routine and the rule to answer every question. The 2027 window is 21 to 27 January, and the school or competition manager sets the exact day. The trap in the final week is cramming new topics instead of polishing what the student already knows.",
+        "topics": [
+          "Rewriting an equation so it factors (Simon's favourite factoring trick)",
+          "Counting solutions by counting factor pairs",
+          "Checking whether every case has been included",
+          "A light review schedule for the last week before the contest",
+          "The contest-day routine: what to bring, warm-up, pacing card",
+          "Answering every question in the final minute",
+          "After the contest: looking back, and the road to the AMC 10"
+        ],
+        "worked_example": {
+          "problem": "How many ordered pairs of positive integers (a, b) satisfy 1/a + 1/b = 1/6? (A) 5 (B) 6 (C) 8 (D) 9 (E) 10",
+          "steps": [
+            "Multiply both sides by 6ab: 6b + 6a = ab.",
+            "Rearrange and add 36 to both sides: ab - 6a - 6b + 36 = 36, which factors as (a - 6)(b - 6) = 36.",
+            "Both a and b must be bigger than 6, because if either were 6 or less its fraction alone would already be at least 1/6. So a - 6 and b - 6 are positive.",
+            "36 has 9 positive factors (1, 2, 3, 4, 6, 9, 12, 18, 36), and each gives one ordered pair, so there are 9 pairs."
+          ],
+          "answer": "(D) 9",
+          "idea": "Rearrange an awkward equation into a product equal to a number, then count the factor pairs."
+        },
+        "projects": [
+          "A written contest-week plan, plus a full solution to the student's favourite problem of the course written for a newer student"
+        ],
+        "practice": "Three hard original problems a day in the final weeks, with one full 25-question set early in the week",
+        "assessment": "Final assessment: a full original 25-question set in 40 minutes, plus a short conversation with the teacher about method choices and pacing"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is the AMC 8?",
+      "answer": "The AMC 8 is a maths contest for middle school students, run by the Mathematical Association of America (MAA) as part of the American Mathematics Competitions. It tests problem solving with middle school topics such as number theory, counting, algebra and geometry. Questions start easy and get harder, so it challenges strong students while staying open to everyone who enjoys maths."
+    },
+    {
+      "question": "What is the AMC 8 format?",
+      "answer": "There are 25 multiple-choice questions, each with five answer choices, and students have 40 minutes. Calculators are not allowed. The questions get harder as the paper goes on, which is why our course teaches a pacing plan as well as the topics."
+    },
+    {
+      "question": "How is the AMC 8 scored, and should my child guess?",
+      "answer": "Each correct answer earns 1 point, and a wrong answer or a blank earns 0, so the maximum score is 25. Because there is no penalty for a wrong answer, a student should always answer every question. A blank can never score, while a guess sometimes does, and a guess after ruling out a choice or two is even better."
+    },
+    {
+      "question": "Who can take the AMC 8?",
+      "answer": "The AMC 8 is for students in grade 8 or below. For the 2026-27 season, the MAA age limit is under 15.5 years on competition day. Younger students in lower grades can take it too, and our course suits students roughly aged 10 to 14."
+    },
+    {
+      "question": "How do we register for the AMC 8?",
+      "answer": "Registration is done by a school or an approved competition manager, not by individual families and not by us. Ask your school whether it offers the AMC 8, or look for an approved competition manager near you. We teach the maths and the contest strategy; we do not register students or run the contest."
+    },
+    {
+      "question": "When is the AMC 8 in 2027?",
+      "answer": "The 2027 AMC 8 window is 21 to 27 January 2027. The exact day and time a student sits the contest is set by their school or competition manager within that window. Always confirm the details with them."
+    },
+    {
+      "question": "When should my child start preparing?",
+      "answer": "The course runs for 6 months (24 weeks), so starting by July gives a full cycle before the January 2027 window. Students can join in any month, and those who start later still get the foundations and the contest-craft weeks, with the teacher adjusting the focus. A student in a lower grade can also take a full cycle now and repeat the contest-craft phase the following season."
+    },
+    {
+      "question": "What does a class look like?",
+      "answer": "Each live class teaches one central idea in plain words, works through an original example step by step, and then has students try similar problems while the teacher watches their thinking. Between classes there is a problem set and an error log entry. Once a month there is a timed set so students practise working against the 40-minute clock."
+    },
+    {
+      "question": "How is this different from your Middle School Math Competitions course?",
+      "answer": "Our Middle School Math Competitions course is broader: it prepares students for MATHCOUNTS, the AMC 8 and Math Kangaroo together. This course is AMC 8 only and goes deeper into that one contest, with its exact scoring and pacing, and a fully worked example in every two-week block. Choose this course if the AMC 8 is your main goal, and the broader course if your child plans to sit several contests."
+    },
+    {
+      "question": "Do you use real AMC 8 questions?",
+      "answer": "No. Every problem in our classes and practice sets is our own original problem written in the contest style. Past AMC papers are published by the MAA, and students are welcome to try them from the MAA's own materials. We never copy or reconstruct official questions."
+    },
+    {
+      "question": "What comes after the AMC 8?",
+      "answer": "Students who enjoy the AMC 8 usually move on to the AMC 10 once they are in high school. The habits built in this course, such as careful reading, clean working, estimation and answer-choice thinking, carry straight over. We also run a separate AMC 10 course for that next step."
+    },
+    {
+      "question": "Can a calculator be used on the AMC 8?",
+      "answer": "No, calculators are not allowed on the AMC 8. That is why the course trains mental arithmetic, fraction shortcuts and estimation from the first month. All our practice is done without a calculator."
+    },
+    {
+      "question": "Can you guarantee a score or an award?",
+      "answer": "No. We promise real learning, live teaching and honest feedback, never a particular score, an award or an honor roll place. Results depend on the student, the contest paper on the day and many other things nobody can control."
+    },
+    {
+      "question": "Are you connected with the MAA?",
+      "answer": "No. Modern Age Coders is independent and is not connected with or endorsed by the Mathematical Association of America. Our certificate records learning in our course and is not an MAA document or an AMC 8 score. Always check current rules and dates with your school or competition manager."
+    },
+    {
+      "question": "How are the classes run, and can we try one?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group batch of 15 to 20 students or 1-on-1. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. The first class is free, with no obligation to enrol."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Starting profile and a mental-arithmetic shortcut sheet",
+      "Original percent and rate problems with trap answers explained",
+      "A pattern notebook and a number theory toolkit page",
+      "Counting problems solved two ways, and a word-problem method guide",
+      "A geometry formula sheet built from memory",
+      "A pacing card, an elimination log, an error log review and a contest-week plan"
+    ],
+    "total_projects_built": "Twelve worked examples studied in depth, a course of solved original problems, an error log, a formula sheet, a pacing card and a history of timed 25-question sets",
+    "skills_mastered": [
+      "Fast, accurate arithmetic and fraction work without a calculator",
+      "Ratios, rates, percents and patterns",
+      "Number theory: primes, divisibility, GCD and LCM, remainders and digits",
+      "Counting and probability, including complementary counting",
+      "Algebra for word problems and testing answer choices",
+      "Geometry: angles, area, the Pythagorean theorem, circles, grids and solids",
+      "Pacing a 40-minute paper and answering every question"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week",
+      "practice": "A problem set after every class, with core and stretch problems, plus short no-calculator drills",
+      "review": "A timed set every month and a regular error log check"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not an MAA document or an AMC 8 score. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with hints first and full solutions after a real attempt",
+      "progress_updates": "A monthly progress note to parents with timed-set results and next steps",
+      "official_practice": "Past AMC papers are published by the MAA; students may try them from the MAA's own materials and bring questions to class"
+    }
+  },
+  "prerequisites": {
+    "math_level": "Comfortable with school maths for the student's grade, including fractions and basic equations, and happy to think hard about one problem",
+    "age": "Grade 8 or below, roughly ages 10 to 14. A strong younger student may join after the demo class",
+    "equipment": "A computer with stable internet, paper and a pencil",
+    "eligibility": "AMC 8 registration is done through a school or an approved competition manager, not through us",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays"
+  },
+  "who_is_this_for": {
+    "first_time_contestants": "Students sitting the AMC 8 for the first time who want to understand the format and build every topic from the ground up",
+    "returning_contestants": "Students who have sat the AMC 8 before and want to go deeper into the harder last questions",
+    "grade_5_to_8_students": "Students in grades 5 to 8 who find school maths easy and want real problem solving",
+    "future_amc_10_students": "Students who plan to move on to the AMC 10 and want strong foundations first",
+    "parents_who_want_clarity": "Families new to maths contests who want everything explained in plain words"
+  },
+  "career_paths_after_completion": [
+    "The AMC 10 in high school, through our AMC 10 course",
+    "Other maths contests through our Middle School Math Competitions course",
+    "A strong start in algebra and high school maths",
+    "Coding and computer science, where the same problem-solving habits apply",
+    "Science, technology, engineering and maths programmes in high school"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "batches": "Group batches of 15 to 20 students, or personal 1-on-1 classes.",
+    "original_problems": "Every practice problem and worked example is our own; we never copy or reconstruct real AMC questions.",
+    "contest_ready": "Practice in the real AMC 8 format: 25 questions, 40 minutes, no calculator, every question answered.",
+    "feedback": "A timed set every month, an error log and a monthly progress note to parents.",
+    "independence": "We are independent of the MAA and promise learning, never scores, AIME qualification or awards.",
+    "free_demo": "The first class is free, so you can decide with no pressure."
+  }
+}

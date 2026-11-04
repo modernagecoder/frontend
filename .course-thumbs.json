@@ -531,6 +531,18 @@
   "img": "/images/a-level-computer-science-aqa-ocr.webp",
   "alt": "A Level Computer Science for AQA 7517 and OCR H446 - Modern Age Coders course"
  },
+ "amc-8-math-competition-prep-course": {
+  "img": "/images/amc-8-math-prep.webp",
+  "alt": "AMC 8 Math Competition Prep: Grades 5 to 8 - Modern Age Coders course"
+ },
+ "amc-10-math-competition-prep-course": {
+  "img": "/images/amc-10-math-prep.webp",
+  "alt": "AMC 10 Math Competition Prep: Algebra to AIME - Modern Age Coders course"
+ },
+ "amc-12-math-competition-prep-course": {
+  "img": "/images/amc-12-math-prep.webp",
+  "alt": "AMC 12 Math Competition Prep: Advanced Algebra to the AIME - Modern Age Coders course"
+ },
  "shsat-math-prep-course": {
   "img": "/images/shsat-math-prep.webp",
   "alt": "SHSAT Math Prep: NYC Specialized High Schools Test - Modern Age Coders course"

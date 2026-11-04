@@ -1,0 +1,691 @@
+{
+  "meta": {
+    "slug": "amc-12-math-competition-prep-course",
+    "date": "2026-11-04",
+    "title": "AMC 12 Math Competition Prep: Advanced Algebra to the AIME",
+    "description": "Live online AMC 12 prep for high school: advanced algebra, trigonometry, complex numbers, number theory, counting, geometry, timed sets and an AIME bridge.",
+    "keywords": [
+      "amc 12 prep",
+      "amc 12 prep course online",
+      "amc 12 math competition",
+      "amc 12 practice problems",
+      "amc 12 scoring",
+      "amc 12 vs amc 10",
+      "amc 12 trigonometry and complex numbers",
+      "aime qualification amc 12",
+      "aime 2027 prep",
+      "amc 12a amc 12b",
+      "high school math competition prep",
+      "amc 12 tutoring online",
+      "how to prepare for amc 12"
+    ],
+    "category": "Competition Mathematics & Olympiad Training",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "8 months (32 weeks) per cycle, joinable any month; most students start in the spring or summer before the November contest dates",
+    "level": "High school students in grades 9 to 12 (roughly ages 15 to 18) who are secure in algebra and geometry and want contest-level depth in the whole high school curriculum",
+    "commitment": "2 live classes/week + weekly original problem sets, an error log and a monthly 75-minute timed set",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment (this is not an MAA document or score)",
+    "image_path": "amc-12-math-prep.webp",
+    "dateModified": "2026-11-04"
+  },
+  "program_overview": {
+    "title": "AMC 12 Math Competition Prep: Advanced Algebra to the AIME",
+    "tagline": "The whole high school curriculum at contest depth, a worked example every fortnight, the scoring maths that decides when to guess, and a bridge to the 2027 AIME.",
+    "description": "The AMC 12 is a mathematics contest for high school students run by the Mathematical Association of America (MAA). It is the senior contest in the American Mathematics Competitions series, which also includes the AMC 8 and the AMC 10. Any student in grade 12 or below who is under 19.5 on competition day can sit it. It is held twice a year, as the AMC 12A and then the AMC 12B (in 2026 the dates were 5 November and 13 November). A student may sit one A contest and one B contest, but cannot take the AMC 10 and the AMC 12 on the same date. Registration is done through a school or an approved competition manager, not through us.\n\nThe paper has 25 multiple-choice questions, each with five answer choices, and lasts 75 minutes. Calculators are not allowed. Questions start gentle and become much harder towards the end, so a strong student often spends more time on the last ten questions than on the first fifteen.\n\nThe scoring shapes strategy. A correct answer earns 6 points, a blank earns 1.5 points and a wrong answer earns 0, so the maximum is 150. That means guessing is not free. A random guess among five choices is worth 6/5 = 1.2 points on average, less than the 1.5 a blank earns, so a blind guess loses points over time. If you can rule out one choice, a guess among four is worth exactly 1.5, break-even. If you can rule out two, a guess among three is worth 2 points, more than a blank. We teach students to make that decision quickly and honestly on every question they cannot finish.\n\nThe AMC 12 covers the whole high school curriculum, including trigonometry, advanced algebra and advanced geometry, but never calculus. That is the big difference from the AMC 10, which stops at elementary algebra, basic geometry, elementary number theory and elementary probability. The AMC 12 is also the door to the next contest. From the 2027 AIME, the MAA announced on 26 August 2026 that qualification is a fixed score: 85 or more on the AMC 12 (or 100 or more on the AMC 10), plus other eligibility rules. The AIME is 15 questions, every answer an integer from 000 to 999, taken on computer at Pearson testing centers in the United States and Canada on 5 or 6 February 2027, in two parts: 8 questions in 90 minutes, then 7 questions in 90 minutes, with no return to Part 1. USAJMO and USAMO selection is now based primarily on the AIME score, and AMC scores are no longer a factor. Students outside the US and Canada should check with their competition manager what applies to them.\n\nThis course takes eight months. Months 1 and 2 explain how the AMC 12 works, set a diagnostic and build advanced algebra: polynomials and Vieta's formulas, the remainder and factor theorems, functions, exponentials and logarithms, sequences and series. Months 3 and 4 cover trigonometry, complex numbers and advanced number theory. Months 5 and 6 cover counting, probability and advanced geometry, including circles, coordinates, vectors and solids. Months 7 and 8 are contest craft: 75-minute pacing, full-length timed sets of our own original problems, an error log, and an AIME bridge practised under the new two-part split. Every fortnight is built around a fully worked original example so students see exactly how an idea is used under time pressure.\n\nAll problems in our materials are written by us. Past AMC papers are published by the MAA, and students may use them on their own, but we never copy or reconstruct contest items. We are independent of the MAA and we promise learning, never scores, AIME qualification or awards.",
+    "what_makes_this_different": [
+      "AMC 12 only: the whole high school curriculum at contest depth, with trigonometry, complex numbers and advanced geometry that the AMC 10 leaves out",
+      "A fully worked original example in every fortnight, with the transferable idea written in one sentence",
+      "The 6, 1.5 and 0 scoring taught as real maths, so students know when a guess is worth more than a blank",
+      "Monthly 75-minute timed sets of original problems and an error log reviewed with the teacher",
+      "An AIME bridge built on the 2027 format: integer answers from 000 to 999, two parts of 8 and 7 questions, 90 minutes each, no return to Part 1",
+      "Honest by design: independent of the MAA, no copied contest problems, no promised scores or qualifications"
+    ],
+    "learning_path": {
+      "phase_1": "How the AMC 12 works and advanced algebra: scoring maths, a diagnostic, polynomials, Vieta, functions, logarithms, sequences and series",
+      "phase_2": "Trigonometry, complex numbers and advanced number theory: identities, laws of sines and cosines, De Moivre, roots of unity, modular arithmetic and bases",
+      "phase_3": "Counting, probability and advanced geometry: identities, recursion, expected value, conditional probability, power of a point, coordinates, vectors and solids",
+      "phase_4": "Contest craft and the AIME bridge: 75-minute pacing, full-length timed sets, error log review and practice in the 2027 AIME two-part format"
+    },
+    "career_outcomes": [
+      "Fluent advanced algebra: polynomials, Vieta's formulas, logarithms, functions and series",
+      "Trigonometry and complex numbers used as tools, not just formulas",
+      "Modular arithmetic and number theory reasoning without a calculator",
+      "Clear counting and probability arguments, including recursion and expected value",
+      "Geometry solved in several ways: synthetic, trigonometric, coordinate and vector",
+      "Calm pacing over 75 minutes and a rational blank-or-guess decision on every hard question",
+      "A first feel for AIME problems with integer answers and long multi-step solutions"
+    ]
+  },
+  "phase_1_how_amc12_works_and_advanced_algebra": {
+    "title": "PHASE 1: How the AMC 12 Works and Advanced Algebra (Months 1-2, Weeks 1-8)",
+    "description": "Students learn the rules and scoring of the AMC 12, take a diagnostic, and build the advanced algebra that runs through the whole paper.",
+    "month_1_contest_rules_and_polynomials": {
+      "title": "Month 1: Contest Rules, Scoring Maths and Polynomials",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: How the AMC 12 Works, Blank Versus Guess, and a Diagnostic",
+        "description": "The AMC 12 gives 6 points for a right answer, 1.5 for a blank and 0 for a wrong one, so a blind guess is worth only 1.2 points on average and loses to leaving the question empty. Once two choices are ruled out, a guess among three is worth 2 points and beats the blank. The common trap is guessing everything out of habit from tests with no penalty, or leaving everything blank out of fear. This fortnight also sets a diagnostic so each student knows where to start.",
+        "topics": [
+          "The format: 25 multiple-choice questions, five choices each, 75 minutes, no calculators",
+          "Eligibility: grade 12 or below and under 19.5 on competition day",
+          "The A and B dates, and why a student cannot sit the AMC 10 and AMC 12 on the same date",
+          "AMC 10 versus AMC 12: the trigonometry, advanced algebra and advanced geometry only the AMC 12 tests",
+          "Expected value of a guess: 6/5 with nothing ruled out, 6/4 with one ruled out, 6/3 with two ruled out",
+          "Elimination tactics: checking parity, sign, size and units against the choices",
+          "A diagnostic of our own across algebra, number theory, counting and geometry",
+          "Starting an error log: the question, the mistake, the fix, the idea to remember"
+        ],
+        "worked_example": {
+          "problem": "A student finishes the AMC 12 sure of 15 answers, all of them correct. On 4 other questions she has ruled out exactly two choices each, and on the remaining 6 she has ruled out nothing. If she chooses for each group whether to guess or leave blank so as to make her expected score as large as possible, what is that expected score? (A) 101 (B) 104 (C) 105.5 (D) 107 (E) 110",
+          "steps": [
+            "The 15 correct answers give 15 x 6 = 90 points.",
+            "On the 4 questions with three choices left, a guess is worth 6/3 = 2 points on average, more than 1.5 for a blank, so she guesses: 4 x 2 = 8.",
+            "On the 6 questions with five choices left, a guess is worth 6/5 = 1.2, less than 1.5, so she leaves them blank: 6 x 1.5 = 9.",
+            "Expected total: 90 + 8 + 9 = 107."
+          ],
+          "answer": "(D) 107",
+          "idea": "Guess only when you have ruled out at least two choices; otherwise the 1.5-point blank is worth more."
+        },
+        "projects": [
+          "A personal starting profile from the diagnostic: three strengths, three gaps and a first target list"
+        ],
+        "practice": "Ten original mixed problems in 25 minutes, with a blank-or-guess decision written beside each one left unfinished"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Polynomials, Vieta's Formulas, and the Remainder and Factor Theorems",
+        "description": "Vieta's formulas link the roots of a polynomial to its coefficients, so you can find sums and products of roots without ever solving the equation. That matters because AMC 12 polynomials are often impossible to factor by hand, yet the question only asks about a symmetric expression of the roots. The trap is mixing up signs: for x^3 + ax^2 + bx + c the sum of roots is minus a, not a.",
+        "topics": [
+          "Vieta's formulas for quadratics, cubics and quartics, with the sign pattern",
+          "Symmetric sums: sum of squares and sum of reciprocals of roots from the coefficients",
+          "The remainder theorem: P(a) is the remainder when P(x) is divided by x minus a",
+          "The factor theorem and finding integer roots with the rational root test",
+          "Polynomial division and the remainder on division by a quadratic",
+          "Building a polynomial from given roots, and transforming roots (roots doubled, roots shifted)",
+          "Counting real roots with sign changes and simple graph sketches",
+          "Coefficient sums: P(1) and P(-1) as quick checks"
+        ],
+        "worked_example": {
+          "problem": "Let r, s and t be the roots of x^3 - 6x^2 + 5x - 2 = 0. What is r^2 + s^2 + t^2? (A) 16 (B) 21 (C) 26 (D) 31 (E) 36",
+          "steps": [
+            "By Vieta, r + s + t = 6 and rs + st + tr = 5.",
+            "Use the identity r^2 + s^2 + t^2 = (r + s + t)^2 - 2(rs + st + tr).",
+            "Substitute: 6^2 - 2 x 5 = 36 - 10 = 26."
+          ],
+          "answer": "(C) 26",
+          "idea": "When a question asks about a symmetric expression of roots, rewrite it in terms of sums and products and never solve the polynomial."
+        },
+        "projects": [
+          "A one-page polynomial formula sheet in the student's own words, with a tiny original example under each formula"
+        ],
+        "practice": "Twelve original polynomial problems in 30 minutes, each checked by substituting P(1) or a root back in",
+        "assessment": "Month 1 check: a 40-minute timed set of original problems on scoring decisions and polynomials"
+      }
+    },
+    "month_2_functions_logs_and_series": {
+      "title": "Month 2: Functions, Exponentials, Logarithms, Sequences and Series",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Functions, Functional Reasoning, Exponentials and Logarithms",
+        "description": "A logarithm answers the question: what power do I raise the base to? On the AMC 12 the key skill is changing every logarithm in a problem to one common base so they can be added like ordinary numbers. The usual trap is treating log_4 x as if it were log_2 x, forgetting that log_4 x is only half of log_2 x.",
+        "topics": [
+          "Function notation, composition, inverses and domain restrictions",
+          "Functional equations solved by substituting clever values such as x and 1 - x",
+          "Laws of exponents and solving exponential equations by matching bases",
+          "Logarithm rules: product, quotient, power and change of base",
+          "Equations mixing logarithms of different bases",
+          "Checking that every solution is inside the domain of the logarithm",
+          "Comparing sizes of numbers like 2^100 and 3^63 using logarithms",
+          "Graphs of exponential and logarithmic functions and their transformations"
+        ],
+        "worked_example": {
+          "problem": "If log_2 x + log_4 x + log_16 x = 7, what is x? (A) 2 (B) 4 (C) 8 (D) 16 (E) 32",
+          "steps": [
+            "Change to base 2: log_4 x = (log_2 x)/2 and log_16 x = (log_2 x)/4.",
+            "The equation becomes log_2 x times (1 + 1/2 + 1/4) = 7, that is (7/4) log_2 x = 7.",
+            "So log_2 x = 4 and x = 2^4 = 16.",
+            "Check: 4 + 2 + 1 = 7."
+          ],
+          "answer": "(D) 16",
+          "idea": "Put every logarithm in one base first; then the problem is ordinary algebra."
+        },
+        "projects": [
+          "An original set of six functional-equation and logarithm problems, each with a full solution written for a classmate"
+        ],
+        "practice": "Ten original problems in 25 minutes, with every answer checked against the domain"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Sequences, Series and Telescoping Sums",
+        "description": "A telescoping sum is one where each term cancels part of the next, so a long sum collapses to its first and last pieces. The AMC 12 loves sums that look hopeless until one term is rewritten, often by rationalising a denominator or splitting a fraction. The trap is starting to add terms one by one and running out of time.",
+        "topics": [
+          "Arithmetic sequences: nth term and sum formulas, and the average-times-count shortcut",
+          "Geometric sequences and infinite geometric series with ratio between minus 1 and 1",
+          "Telescoping by partial fractions such as 1/(k(k+1)) = 1/k - 1/(k+1)",
+          "Telescoping by rationalising denominators with square roots",
+          "Recursive sequences: computing early terms and spotting a cycle",
+          "Sums of squares and cubes and when to use them",
+          "Sigma notation read and rewritten correctly"
+        ],
+        "worked_example": {
+          "problem": "What is the value of the sum 1/(sqrt(1) + sqrt(2)) + 1/(sqrt(2) + sqrt(3)) + ... + 1/(sqrt(24) + sqrt(25))? (A) 3 (B) 4 (C) 5 (D) 2 sqrt(6) (E) 24",
+          "steps": [
+            "Rationalise one term: 1/(sqrt(k) + sqrt(k+1)) = (sqrt(k+1) - sqrt(k)) / ((k+1) - k) = sqrt(k+1) - sqrt(k).",
+            "The sum becomes (sqrt(2) - sqrt(1)) + (sqrt(3) - sqrt(2)) + ... + (sqrt(25) - sqrt(24)).",
+            "Everything in the middle cancels, leaving sqrt(25) - sqrt(1) = 5 - 1 = 4."
+          ],
+          "answer": "(B) 4",
+          "idea": "If a long sum appears, rewrite one general term as a difference and look for cancellation before adding anything."
+        },
+        "projects": [
+          "A series toolkit page: arithmetic, geometric and three telescoping patterns, each with an original example"
+        ],
+        "practice": "Eight original series problems in 20 minutes, writing the general term before any arithmetic",
+        "assessment": "Phase 1 assessment: a 75-minute timed set of 25 original problems on scoring, polynomials, functions, logarithms and series, scored 6, 1.5 and 0"
+      }
+    }
+  },
+  "phase_2_trigonometry_complex_numbers_number_theory": {
+    "title": "PHASE 2: Trigonometry, Complex Numbers and Number Theory (Months 3-4, Weeks 9-16)",
+    "description": "The topics that separate the AMC 12 from the AMC 10: trigonometry and complex numbers, followed by number theory at the depth the hardest questions need.",
+    "month_3_trigonometry_and_complex_numbers": {
+      "title": "Month 3: Trigonometry and Complex Numbers",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Trigonometric Identities, the Law of Sines and the Law of Cosines",
+        "description": "The law of cosines is the Pythagorean theorem for any triangle: it gives an angle from three sides, or a side from two sides and the angle between them. Once an angle is known, the area is half of two sides times the sine of the angle between them. The trap is using the wrong angle: the angle in the formula must sit opposite the side you single out.",
+        "topics": [
+          "Unit circle values for multiples of 30 and 45 degrees, known by heart",
+          "Pythagorean, double-angle and sum and difference identities",
+          "The law of sines, including the circumradius form a/sin A = 2R",
+          "The law of cosines for finding angles and sides",
+          "Triangle area as (1/2)ab sin C",
+          "Trigonometry inside geometry: heights, chords and inscribed angles",
+          "Solving trigonometric equations on a stated interval",
+          "Radians and degrees, and converting without slips"
+        ],
+        "worked_example": {
+          "problem": "A triangle has sides 5, 7 and 8. What is its area? (A) 10 (B) 10 sqrt(2) (C) 10 sqrt(3) (D) 20 (E) 20 sqrt(3)",
+          "steps": [
+            "Let C be the angle opposite the side 7. By the law of cosines, 49 = 25 + 64 - 2(5)(8) cos C.",
+            "So 80 cos C = 40 and cos C = 1/2, which gives C = 60 degrees.",
+            "Area = (1/2)(5)(8) sin 60 degrees = 20 x (sqrt(3)/2) = 10 sqrt(3).",
+            "Check with Heron's formula: s = 10 and sqrt(10 x 5 x 3 x 2) = sqrt(300) = 10 sqrt(3)."
+          ],
+          "answer": "(C) 10 sqrt(3)",
+          "idea": "Use the law of cosines to find a nice angle, then the sine area formula finishes the job."
+        },
+        "projects": [
+          "A trigonometry reference card written from memory: unit circle values, the key identities and both laws"
+        ],
+        "practice": "Ten original trigonometry problems in 25 minutes, each with a labelled sketch"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Complex Numbers, Polar Form, De Moivre and Roots of Unity",
+        "description": "A complex number can be written by its distance from zero and its angle, and in that form multiplying means multiply the distances and add the angles. That turns a huge power like (1 + i)^20 into a quick calculation. The trap is expanding the power by hand, which takes far too long and invites mistakes.",
+        "topics": [
+          "Rectangular form, conjugates and modulus",
+          "Polar form r(cos t + i sin t) and converting between forms",
+          "De Moivre's theorem for powers",
+          "The nth roots of unity as vertices of a regular polygon",
+          "Sums and products of roots of unity, and why they are often 0 or 1",
+          "Complex numbers as rotations in the plane",
+          "Solving z^n = w for all n solutions",
+          "Using complex numbers to evaluate trigonometric sums"
+        ],
+        "worked_example": {
+          "problem": "What is (1 + i)^20? (A) -1024 (B) 1024 (C) -1024i (D) 1024i (E) 512",
+          "steps": [
+            "Write 1 + i in polar form: modulus sqrt(2), angle 45 degrees.",
+            "By De Moivre, (1 + i)^20 has modulus (sqrt(2))^20 = 2^10 = 1024 and angle 20 x 45 = 900 degrees.",
+            "900 degrees is 2 full turns plus 180 degrees, so the number points along the negative real axis.",
+            "The result is -1024. Quick check: (1 + i)^2 = 2i, so (1 + i)^20 = (2i)^10 = 1024 x i^10 = -1024."
+          ],
+          "answer": "(A) -1024",
+          "idea": "For powers of complex numbers, switch to modulus and angle; powers become multiplication and addition."
+        },
+        "projects": [
+          "A diagram sheet of the 6th, 8th and 12th roots of unity with three original questions about each"
+        ],
+        "practice": "Eight original complex-number problems in 20 minutes, with the polar form written first",
+        "assessment": "Month 3 check: a 45-minute timed set of original trigonometry and complex-number problems"
+      }
+    },
+    "month_4_advanced_number_theory": {
+      "title": "Month 4: Advanced Number Theory",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Modular Arithmetic and Orders",
+        "description": "Modular arithmetic means keeping only the remainder, like reading a clock. To find the last two digits of a huge power you only need the remainder when dividing by 100, and powers always fall into a repeating cycle. The trap is trying to compute the power itself instead of finding how long the cycle is.",
+        "topics": [
+          "Congruences and the rules for adding, subtracting and multiplying them",
+          "Last digits and last two digits of large powers",
+          "The order of a number: the smallest power that gives remainder 1",
+          "Fermat's little theorem and Euler's theorem as shortcuts for the cycle length",
+          "Divisibility tests proved with modular arithmetic",
+          "Solving linear congruences and finding inverses",
+          "Squares modulo 3, 4, 8 and 9 to rule out impossible equations"
+        ],
+        "worked_example": {
+          "problem": "What is the remainder when 7^2026 is divided by 100? (A) 1 (B) 7 (C) 43 (D) 49 (E) 57",
+          "steps": [
+            "Compute small powers mod 100: 7^1 = 7, 7^2 = 49, 7^3 = 343, which is 43 mod 100, and 7^4 = 2401, which is 1 mod 100.",
+            "So the order of 7 mod 100 is 4: the remainders repeat every 4 powers.",
+            "2026 = 4 x 506 + 2, so 7^2026 has the same remainder as 7^2.",
+            "The remainder is 49."
+          ],
+          "answer": "(D) 49",
+          "idea": "For a huge power, find the cycle length first, then reduce the exponent by that length."
+        },
+        "projects": [
+          "An order table of our own: the order of 2, 3, 7 and 9 modulo 10, 100 and 13, with the pattern explained"
+        ],
+        "practice": "Ten original modular-arithmetic problems in 25 minutes, no calculator"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: The Chinese Remainder Idea, Divisors and Bases",
+        "description": "The Chinese remainder idea says that if you know a number's remainders when divided by numbers that share no factors, the number is fixed up to their product. In practice you solve one condition, list the numbers that satisfy it, and test them against the next condition. The trap is listing all numbers up to the product one by one when stepping through a single condition is far faster.",
+        "topics": [
+          "Systems of congruences solved by stepping through one condition at a time",
+          "Why the moduli must share no common factor for a unique answer",
+          "Prime factorisation and the formulas for the number and sum of divisors",
+          "GCD, LCM and the Euclidean algorithm",
+          "Number bases: converting, and arithmetic in base b",
+          "Digit problems written as polynomials in the base",
+          "Diophantine equations solved with factoring and parity"
+        ],
+        "worked_example": {
+          "problem": "What is the smallest positive integer that leaves remainder 2 when divided by 5, remainder 3 when divided by 7, and remainder 4 when divided by 9? (A) 67 (B) 112 (C) 157 (D) 202 (E) 247",
+          "steps": [
+            "Remainder 4 on division by 9 means the number is one of 4, 13, 22, 31, 40, 49, 58, 67, 76, 85, 94, 103, 112, 121, 130, 139, 148, 157, and so on.",
+            "Remainder 3 on division by 7 picks out 31, then every 63 after it: 31, 94, 157, 220, and so on.",
+            "Check remainder 2 on division by 5: 31 gives 1, 94 gives 4, 157 gives 2.",
+            "The answer is 157, and the next one would be 157 + 315 = 472."
+          ],
+          "answer": "(C) 157",
+          "idea": "Satisfy one congruence, then step in jumps of its modulus to meet the next; the answers repeat every product of the moduli."
+        },
+        "projects": [
+          "Write five original number-theory problems with full solutions for a newer student"
+        ],
+        "practice": "Ten original number-theory problems in 25 minutes, each answer checked against every condition",
+        "assessment": "Phase 2 assessment: a 75-minute timed set of 25 original problems on trigonometry, complex numbers and number theory, scored 6, 1.5 and 0"
+      }
+    }
+  },
+  "phase_3_counting_probability_geometry": {
+    "title": "PHASE 3: Counting, Probability and Advanced Geometry (Months 5-6, Weeks 17-24)",
+    "description": "Counting and probability at AMC 12 level, then the advanced geometry the senior contest tests: circles, coordinates, vectors, solids and areas through trigonometry.",
+    "month_5_counting_and_probability": {
+      "title": "Month 5: Counting and Probability",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Combinatorial Identities and Recursion",
+        "description": "Recursion means counting the big case by building it from smaller cases you have already counted. For example, a string with no two 1s next to each other either ends in 0 or ends in 01, which links each length to the two before it. The trap is trying to list every case directly, which is slow and almost always misses some.",
+        "topics": [
+          "Permutations, combinations and the multiplication principle",
+          "Stars and bars for distributing identical objects",
+          "Pascal's identity and the hockey stick identity",
+          "Complementary counting and inclusion-exclusion",
+          "Setting up a recursion from the last step",
+          "Fibonacci-type recursions in tilings, stairs and strings",
+          "Bijections: counting one set by matching it with an easier one",
+          "Counting with symmetry and avoiding double counting"
+        ],
+        "worked_example": {
+          "problem": "How many strings of ten digits, each digit 0 or 1, contain no two 1s next to each other? (A) 55 (B) 89 (C) 110 (D) 144 (E) 233",
+          "steps": [
+            "Let a(n) be the number of good strings of length n. A good string either ends in 0, after any good string of length n - 1, or ends in 01, after any good string of length n - 2.",
+            "So a(n) = a(n - 1) + a(n - 2), with a(1) = 2 and a(2) = 3.",
+            "Continue: 5, 8, 13, 21, 34, 55, 89, 144.",
+            "a(10) = 144."
+          ],
+          "answer": "(D) 144",
+          "idea": "Split by how the object ends; that usually gives a recursion you can run in under a minute."
+        },
+        "projects": [
+          "A recursion notebook page: three original counting problems, each solved once by recursion and once by another method"
+        ],
+        "practice": "Ten original counting problems in 25 minutes, with the method named before solving"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Expected Value and Conditional Probability",
+        "description": "Conditional probability asks for a chance when you already know something has happened, so the known event becomes the whole new set of possibilities. Expected value is the long-run average, and linearity of expectation lets you add expected values even when events depend on each other. The trap is dividing by all 36 dice outcomes when the question has already told you which smaller set you are in.",
+        "topics": [
+          "Probability as favourable over equally likely outcomes, and when outcomes are not equally likely",
+          "Conditional probability: restrict to the known event, then count",
+          "Independence, and checking it rather than assuming it",
+          "Expected value as a weighted average",
+          "Linearity of expectation with indicator variables",
+          "Geometric probability using lengths and areas",
+          "States and simple recursions for games and random walks"
+        ],
+        "worked_example": {
+          "problem": "Two fair six-sided dice are rolled and the sum is 8. What is the probability that at least one die shows a 6? (A) 1/6 (B) 11/36 (C) 1/3 (D) 2/5 (E) 1/2",
+          "steps": [
+            "List the outcomes with sum 8: (2,6), (3,5), (4,4), (5,3), (6,2). There are 5, all equally likely.",
+            "The ones with a 6 are (2,6) and (6,2): 2 outcomes.",
+            "The probability is 2/5."
+          ],
+          "answer": "(D) 2/5",
+          "idea": "Given information shrinks the sample space; count only inside the event you are told has happened."
+        },
+        "projects": [
+          "An expected-value experiment: simulate an original game by hand 30 times, then compare with the exact expected value"
+        ],
+        "practice": "Ten original probability problems in 25 minutes, each with the sample space written first",
+        "assessment": "Month 5 check: a 45-minute timed set of original counting and probability problems"
+      }
+    },
+    "month_6_advanced_geometry": {
+      "title": "Month 6: Advanced Geometry",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Circles and Power of a Point",
+        "description": "Power of a point says that for any line through a point and a circle, the product of the two distances from the point to the circle is always the same number. For a tangent, both distances are the tangent length, so the product is the tangent length squared. The trap is multiplying the inside piece of a secant instead of the whole distance from the point.",
+        "topics": [
+          "Inscribed angles, central angles and cyclic quadrilaterals",
+          "Power of a point for two chords, two secants and a tangent with a secant",
+          "Tangent lengths from an external point being equal",
+          "Incircle and circumcircle radii, including area = rs and R = abc/(4K)",
+          "Ptolemy's theorem for cyclic quadrilaterals",
+          "Similar triangles hidden inside circle diagrams",
+          "Choosing between synthetic, trigonometric and coordinate approaches"
+        ],
+        "worked_example": {
+          "problem": "From a point P outside a circle, a tangent touches the circle at T with PT = 12. A line through P meets the circle at A and then at B, with PA = 8. What is AB? (A) 9 (B) 10 (C) 12 (D) 15 (E) 18",
+          "steps": [
+            "Power of a point: PA x PB = PT^2.",
+            "So 8 x PB = 144, which gives PB = 18.",
+            "AB = PB - PA = 18 - 8 = 10."
+          ],
+          "answer": "(B) 10",
+          "idea": "Every distance in power of a point is measured from the point itself, so find the whole secant first, then subtract."
+        },
+        "projects": [
+          "A circle theorems poster with one original diagram and problem for each theorem"
+        ],
+        "practice": "Eight original circle problems in 25 minutes, each with an accurate diagram drawn first"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Coordinates, Vectors, Three-Dimensional Solids and Areas via Trigonometry",
+        "description": "Many hard geometry questions become routine once you place the figure on coordinate axes, because lengths, planes and distances turn into short formulas. A cube is ideal for this, since its corners have simple coordinates. The trap is placing the axes awkwardly, which makes every later step messy.",
+        "topics": [
+          "Placing a figure on axes to keep the algebra small",
+          "Distance, midpoint and section formulas in two and three dimensions",
+          "Vectors, dot products and the angle between two lines",
+          "Equation of a plane and distance from a point to a plane",
+          "Volumes and surface areas of prisms, pyramids, cylinders, cones and spheres",
+          "Cross sections and nets of solids",
+          "Areas of polygons using trigonometry and the shoelace formula"
+        ],
+        "worked_example": {
+          "problem": "A cube has edge length 6. One vertex is V, and the three vertices joined to V by an edge determine a plane. What is the distance from V to that plane? (A) sqrt(3) (B) 2 sqrt(2) (C) 3 (D) 2 sqrt(3) (E) 3 sqrt(2)",
+          "steps": [
+            "Put V at (0, 0, 0); its three neighbours are (6, 0, 0), (0, 6, 0) and (0, 0, 6).",
+            "Those three points lie on the plane x + y + z = 6.",
+            "The distance from (0, 0, 0) to that plane is |0 + 0 + 0 - 6| / sqrt(1 + 1 + 1) = 6/sqrt(3).",
+            "Simplify: 6/sqrt(3) = 2 sqrt(3)."
+          ],
+          "answer": "(D) 2 sqrt(3)",
+          "idea": "Choose coordinates that make the given points simple; a plane through intercepts a, a, a is x + y + z = a."
+        },
+        "projects": [
+          "A geometry method map: one original problem solved three ways (synthetic, trigonometric, coordinates), with a note on which was quickest"
+        ],
+        "practice": "Eight original coordinate and solid-geometry problems in 25 minutes",
+        "assessment": "Phase 3 assessment: a 75-minute timed set of 25 original problems on counting, probability and geometry, scored 6, 1.5 and 0"
+      }
+    }
+  },
+  "phase_4_contest_craft_and_aime_bridge": {
+    "title": "PHASE 4: Contest Craft and the AIME Bridge (Months 7-8, Weeks 25-32)",
+    "description": "Full-length 75-minute practice, pacing and error review for the AMC 12, then a bridge to the 2027 AIME with integer answers and the new two-part format.",
+    "month_7_contest_craft": {
+      "title": "Month 7: Contest Craft for 75 Minutes",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
+        "title": "Weeks 25-26: Pacing, Estimation and Using the Answer Choices",
+        "description": "Pacing means deciding in advance how long each part of the paper deserves, so the hard questions at the end get real time. Estimation is a big part of this: often you only need to know which answer is largest, not its exact value. The trap is spending ten minutes on one early question and arriving at the last ten with no time left.",
+        "topics": [
+          "A 75-minute plan: a first pass on the early questions, then the middle, then the hardest",
+          "Recognising in under a minute whether a problem is for now, later or blank",
+          "Estimation with logarithms and bounds to compare answer choices",
+          "Testing simple cases and plugging in choices when that is faster",
+          "Reading the choices first to see what form the answer takes",
+          "Checking with parity, size and special values before committing",
+          "The blank-or-guess rule applied in real time"
+        ],
+        "worked_example": {
+          "problem": "Which of these numbers is the largest? (A) 10^30 (B) 5^43 (C) 3^63 (D) 2^100 (E) 7^36",
+          "steps": [
+            "Compare the base 10 logarithms: log 2 is about 0.301, log 3 about 0.477, log 5 about 0.699, log 7 about 0.845.",
+            "Estimates: 10^30 gives 30, 5^43 gives about 30.06, 3^63 about 30.06, 2^100 about 30.10, and 7^36 about 30.42.",
+            "The others are all very close to 30, but 7^36 is clearly larger.",
+            "The gap is safe: 30.42 against 30.10 means 7^36 is about twice 2^100, far bigger than any rounding error in the estimates."
+          ],
+          "answer": "(E) 7^36",
+          "idea": "When choices are huge powers, compare their logarithms; a rough estimate is enough to separate them."
+        },
+        "projects": [
+          "A personal pacing plan with three checkpoints, tested on two full timed sets and revised"
+        ],
+        "practice": "Two full 75-minute timed sets of 25 original problems, each followed by a written pacing review"
+      },
+      "week_27_28": {
+        "title": "Weeks 27-28: Full-Length Timed Sets and the Error Log",
+        "description": "An error log turns each mistake into a rule you will remember: what went wrong, why, and what to check next time. Many AMC 12 points are lost not to hard maths but to traps, such as an equation that looks solvable but has no solutions. The trap is reviewing only the questions you got wrong, not the ones you got right by luck.",
+        "topics": [
+          "Full-length 75-minute sets of original problems under contest conditions",
+          "Sorting errors into types: concept, careless, misread, time",
+          "Spotting impossibility early with parity and remainders",
+          "Reviewing correct answers that were guesses or took too long",
+          "Targeted mini-lessons on each student's two weakest topics",
+          "A short personal checklist used before every answer is marked"
+        ],
+        "worked_example": {
+          "problem": "How many ordered pairs of integers (x, y) satisfy x^2 - y^2 = 2026? (A) 0 (B) 2 (C) 4 (D) 8 (E) 16",
+          "steps": [
+            "Factor: x^2 - y^2 = (x - y)(x + y).",
+            "x - y and x + y differ by 2y, an even number, so they are both even or both odd.",
+            "If both are odd, the product is odd. If both are even, the product is a multiple of 4.",
+            "2026 is even but 2026 = 4 x 506 + 2, so it is not a multiple of 4. No pair works."
+          ],
+          "answer": "(A) 0",
+          "idea": "Before searching for solutions, check remainders mod 2 or mod 4; the answer may be none."
+        },
+        "projects": [
+          "An error log summary: the ten most useful rules the student wrote this course, ranked"
+        ],
+        "practice": "One full 75-minute timed set each week, plus a 20-minute review of every error log entry",
+        "assessment": "Month 7 assessment: a full 75-minute timed set reviewed one to one with the teacher, including blank-or-guess decisions"
+      }
+    },
+    "month_8_aime_bridge": {
+      "title": "Month 8: The AIME Bridge",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
+        "title": "Weeks 29-30: How the 2027 AIME Works and Integer-Answer Problems",
+        "description": "From 2027, the AIME is open to students who score 85 or more on the AMC 12, plus other eligibility rules. It has 15 questions with no answer choices, and every answer is an integer from 000 to 999, so you cannot check against choices or guess usefully. The trap is stopping at an answer that is close but not finished, for example forgetting to take the remainder the question asks for.",
+        "topics": [
+          "The 2027 AIME: fixed AMC 12 qualifying score of 85, plus other eligibility rules",
+          "15 questions, answers from 000 to 999, computer based at Pearson testing centers in the US and Canada",
+          "Two parts: 8 questions in 90 minutes, then 7 questions in 90 minutes, with no return to Part 1",
+          "No rulers or compasses, graph-paper booklets supplied, minimum age 13",
+          "USAJMO and USAMO selection now based primarily on the AIME score",
+          "Why integer answers change checking: no choices to test",
+          "Divisor sums, remainders and answers reduced mod 1000"
+        ],
+        "worked_example": {
+          "problem": "AIME style, answer an integer from 000 to 999: let S be the sum of all positive divisors of 360. Find the remainder when S is divided by 1000.",
+          "steps": [
+            "Factor: 360 = 2^3 x 3^2 x 5.",
+            "The divisor sum multiplies across prime powers: (1 + 2 + 4 + 8)(1 + 3 + 9)(1 + 5) = 15 x 13 x 6.",
+            "15 x 13 = 195, and 195 x 6 = 1170.",
+            "1170 divided by 1000 leaves remainder 170."
+          ],
+          "answer": "170",
+          "idea": "On integer-answer problems, finish the last step the question asks for, such as the remainder, before you write the answer."
+        },
+        "projects": [
+          "An AIME starter set: ten original integer-answer problems written and solved by the student"
+        ],
+        "practice": "Original AIME-style problems in sets of 4 in 45 minutes, answers written as three digits"
+      },
+      "week_31_32": {
+        "title": "Weeks 31-32: Practising the Two-Part Split and Final Assessment",
+        "description": "Because the 2027 AIME has two separate 90-minute parts and no return to Part 1, students must finish and check Part 1 before moving on. Practising under that split teaches you to budget time for 8 questions, then 7. The trap is leaving a Part 1 question half done, expecting to come back to it.",
+        "topics": [
+          "Timed practice: 8 original questions in 90 minutes, then 7 in 90 minutes",
+          "Deciding when to stop work on a question and when to check",
+          "Long multi-step problems linking complex numbers, counting and number theory",
+          "Writing clean solutions so checking is fast",
+          "Reviewing the AMC 12 contest plan for the A and B dates",
+          "Planning next steps after the course, whatever the result"
+        ],
+        "worked_example": {
+          "problem": "AIME style, answer an integer from 000 to 999: for how many integers n with 1 <= n <= 999 is (1 + i)^n a real number?",
+          "steps": [
+            "(1 + i) has angle 45 degrees, so (1 + i)^n has angle 45n degrees.",
+            "It is real exactly when 45n is a multiple of 180, that is when n is a multiple of 4.",
+            "The multiples of 4 from 1 to 999 are 4, 8, ..., 996.",
+            "There are 996/4 = 249 of them."
+          ],
+          "answer": "249",
+          "idea": "Turn a condition about complex powers into a condition about angles, then count with divisibility."
+        },
+        "projects": [
+          "Write a full solution to your favourite problem of the course for a newer student"
+        ],
+        "practice": "Two full practice runs of the 8 then 7 split using original problems, each with a written review",
+        "assessment": "Final assessment: a 75-minute AMC 12-style timed set of original problems plus an 8-question, 90-minute AIME-style part, then a short conversation about the student's method choices"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is the AMC 12?",
+      "answer": "The AMC 12 is a high school mathematics contest run by the Mathematical Association of America (MAA), the senior contest in the American Mathematics Competitions after the AMC 8 and AMC 10. It has 25 multiple-choice questions in 75 minutes, with no calculators. It covers the whole high school curriculum, including trigonometry, advanced algebra and advanced geometry, but no calculus."
+    },
+    {
+      "question": "How is the AMC 12 scored?",
+      "answer": "Each correct answer earns 6 points, each blank earns 1.5 points and each wrong answer earns 0, for a maximum of 150. Because a blank earns points, guessing has a cost. A random guess among five choices is worth 1.2 points on average, less than a blank, while a guess after ruling out two choices is worth 2 points, more than a blank."
+    },
+    {
+      "question": "Should my child guess or leave questions blank?",
+      "answer": "It depends on how many choices they can rule out. With none ruled out, leave it blank (1.2 points expected versus 1.5). With one ruled out it is break-even at 1.5, and with two or more ruled out a guess is worth more. We practise this decision on every timed set so it becomes quick."
+    },
+    {
+      "question": "Who can take the AMC 12?",
+      "answer": "Students in grade 12 or below who are under 19.5 years old on competition day. Younger students can take it too if they are ready for the content. The MAA's current rules always take priority, so check them with your school or competition manager."
+    },
+    {
+      "question": "How do we register, and when is it held?",
+      "answer": "Registration is done through a school or an approved competition manager, not through us. The contest runs twice a year as the AMC 12A and AMC 12B; in 2026 the dates were 5 November and 13 November. A student may sit one A and one B contest, but not the AMC 10 and AMC 12 on the same date."
+    },
+    {
+      "question": "Should my child take the AMC 10 or the AMC 12?",
+      "answer": "The AMC 10 is for grade 10 or below and stops at elementary algebra, basic geometry, elementary number theory and elementary probability. The AMC 12 adds trigonometry, advanced algebra and advanced geometry. A student in grade 10 or below who is comfortable with trigonometry and complex numbers may prefer the AMC 12; others often start with the AMC 10, and we have a separate AMC 10 course. The teacher can advise after the free demo class."
+    },
+    {
+      "question": "What changed for the 2027 AIME?",
+      "answer": "The MAA announced on 26 August 2026 that AIME qualification is now a fixed score: 85 or more on the AMC 12, or 100 or more on the AMC 10, plus other eligibility rules. The 2027 AIME is 15 questions with integer answers from 000 to 999, taken on computer at Pearson testing centers in the US and Canada on 5 or 6 February 2027. It has two parts, 8 questions in 90 minutes and then 7 questions in 90 minutes, and you cannot return to Part 1. Students must be at least 13, and the fee is $85 plus taxes."
+    },
+    {
+      "question": "How are USAJMO and USAMO students selected now?",
+      "answer": "Selection is now primarily based on the AIME score, and AMC scores are no longer a factor. That makes the AIME bridge in Month 8 important for students aiming beyond the AMC 12. Our course stops at the AIME bridge; olympiad proof writing is covered in our separate year-long olympiad course."
+    },
+    {
+      "question": "We live outside the US and Canada. Does this still apply?",
+      "answer": "The mathematics is the same wherever you live, and the course works the same online. For which AMC and AIME rules apply to students outside the US and Canada, check with your competition manager what applies to you."
+    },
+    {
+      "question": "When should my child start?",
+      "answer": "The course is eight months, so starting in the spring or early summer leaves time to finish before the November contest dates. Students can join any month, and a later start still gives months of timed practice. In the free demo class the teacher looks at your child's level and suggests a start date."
+    },
+    {
+      "question": "What does a class look like?",
+      "answer": "Each live class introduces one idea, works through an original example step by step, then gives students problems to try while the teacher watches and helps. There are two one-hour classes a week, a problem set after each class and a timed set every month. Classes run in group batches of 15 to 20 students or 1-on-1."
+    },
+    {
+      "question": "How is this different from your year-long olympiad course?",
+      "answer": "Our olympiad course runs for more than a year and leads from the AMC through the AIME towards olympiad proof writing. This course is only the AMC 12: eight months on the exact high school content, scoring and pacing of the AMC 12, a worked example in every fortnight, and an AIME bridge at the end. Students who finish here and want proofs can move on to the olympiad course."
+    },
+    {
+      "question": "Do you use real AMC problems?",
+      "answer": "No. Every problem in our materials is original and written by us at contest level. Past AMC papers are published by the MAA, and students may practise with them on their own, but we never copy or reconstruct contest items."
+    },
+    {
+      "question": "Can you guarantee an AIME qualification or a score?",
+      "answer": "No. We are independent of the MAA and promise learning, never scores, AIME qualification or awards. What we do promise is live teaching, original problems, monthly timed sets, an error log and honest feedback on every weak topic."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A starting profile from the diagnostic and an error log kept from week one",
+      "A polynomial formula sheet and a series toolkit page",
+      "A trigonometry reference card and a roots of unity diagram sheet",
+      "An order table and an original number-theory problem set",
+      "A recursion notebook page and an expected-value experiment",
+      "A circle theorems poster and a geometry method map",
+      "A pacing plan, an error log summary and an AIME starter set"
+    ],
+    "total_projects_built": "Sixteen worked examples studied in depth, hundreds of solved original problems, a complete error log, formula sheets for every topic and a history of monthly 75-minute timed sets",
+    "skills_mastered": [
+      "Scoring strategy: when to guess and when to leave a blank",
+      "Polynomials, Vieta's formulas, functions, logarithms and series",
+      "Trigonometry, the laws of sines and cosines, and trigonometric area",
+      "Complex numbers in polar form, De Moivre and roots of unity",
+      "Modular arithmetic, orders, the Chinese remainder idea and bases",
+      "Counting, recursion, expected value and conditional probability",
+      "Circles, power of a point, coordinates, vectors and solids",
+      "75-minute pacing and the 2027 AIME two-part format"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week",
+      "practice": "A problem set after every class, with core and stretch original problems",
+      "review": "A timed set every month, scored 6, 1.5 and 0, and a monthly error log check"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not an MAA document or score. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with hints first and full solutions after a real attempt",
+      "progress_updates": "A monthly progress note to parents with timed-set results and next steps",
+      "official_information": "We read the current MAA rules and dates together in class; registration stays with your school or competition manager"
+    }
+  },
+  "prerequisites": {
+    "math_level": "Secure in algebra 1, geometry and most of algebra 2; trigonometry is taught in the course, but some exposure helps",
+    "age": "Grades 9 to 12, roughly ages 15 to 18. A strong younger student may join after the demo class if the teacher agrees the level fits",
+    "equipment": "A computer with stable internet, paper and a pencil",
+    "eligibility": "AMC 12 registration is done through a school or an approved competition manager, not through us",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays"
+  },
+  "who_is_this_for": {
+    "grade_9_and_10_students": "Strong grade 9 and 10 students ready for trigonometry and complex numbers who want the AMC 12 rather than the AMC 10",
+    "grade_11_and_12_students": "Grade 11 and 12 students preparing for the AMC 12A or 12B",
+    "aime_aspirants": "Students aiming for the AMC 12 score that qualifies for the 2027 AIME and wanting a first taste of AIME problems",
+    "amc_10_graduates": "Students who have taken the AMC 10 and are moving up to the AMC 12",
+    "curious_problem_solvers": "Students who find school math easy and want harder, deeper problems"
+  },
+  "career_paths_after_completion": [
+    "Further AIME preparation and the year-long olympiad course for proof-based contests",
+    "Stronger performance in advanced school mathematics and calculus courses",
+    "University study in mathematics, physics, computer science or engineering",
+    "Coding and computer science, where the same problem-solving habits apply",
+    "Other mathematics competitions and enrichment programs"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "batches": "Group batches of 15 to 20 students, or personal 1-on-1 classes.",
+    "original_problems": "Every practice problem and worked example is our own; we never copy or reconstruct AMC or AIME problems.",
+    "worked_examples": "A fully worked original example in every fortnight, with the transferable idea written out.",
+    "feedback": "A 75-minute timed set every month, an error log and a monthly progress note to parents.",
+    "independence": "We are independent of the MAA and promise learning, never scores, AIME qualification or awards.",
+    "free_demo": "The first class is free, so you can decide with no pressure."
+  }
+}

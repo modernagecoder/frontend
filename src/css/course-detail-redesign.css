@@ -414,6 +414,13 @@ body.editorial .success-metric-label{color:rgba(251,248,242,.72) !important}
 .content-section-title svg{width:15px;height:15px;color:var(--amber);flex-shrink:0}
 .practice-section .content-section-title,.assessment-section .content-section-title{margin-bottom:.45rem}
 .practice-text,.assessment-text{margin:0}
+/* Worked example inside a syllabus week (AMC courses): problem, numbered steps, answer, idea */
+.worked-section{margin:.9rem 0;background:var(--paper);border:1px solid var(--rule,#E4DCCD);border-radius:10px;padding:.85rem 1rem;font-size:.92rem;line-height:1.65;color:var(--ink-soft)}
+.worked-section strong{color:var(--ink)}
+.worked-problem,.worked-answer,.worked-idea{margin:.35rem 0}
+.worked-steps{margin:.5rem 0 .5rem 1.2rem;padding:0}
+.worked-steps li{margin:.3rem 0;overflow-wrap:anywhere}
+.worked-idea{border-top:1px dashed var(--rule,#E4DCCD);padding-top:.5rem}
 .week-desc{color:var(--ink-soft);font-size:.92rem;line-height:1.65;margin:.9rem 0}
 .track-group{margin:.6rem 0 1rem}
 .track-label{font-family:var(--font-mono);font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--amber-deep);background:var(--amber-tint);border-radius:7px;padding:.4rem .7rem;display:inline-block;margin:.3rem 0 .7rem}

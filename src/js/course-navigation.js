@@ -212,6 +212,11 @@ function toggleAccordion(section, type) {
         setTimeout(() => {
             updateParentHeights(section);
         }, 50);
+        // Measure again once this section's own .35s max-height transition has finished:
+        // at 50ms it is still part-open, so a tall week inside a month was clipped.
+        setTimeout(() => {
+            updateParentHeights(section);
+        }, 420);
     }
 }
 

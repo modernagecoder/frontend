@@ -338,6 +338,9 @@ class CourseGenerator {
         const projects = weekData.projects || [];
         const practice = weekData.practice || '';
         const assessment = weekData.assessment || '';
+        // Optional worked example (AMC courses 2026-11-04): { problem, steps: [..], answer, idea }.
+        // Rendered only when present, so every other course page is unchanged.
+        const worked = weekData.worked_example || null;
 
         // Week range chip derived from the key (week_1_2 -> "Weeks 1-2")
         const weekNums = (weekKey.match(/\d+/g) || []);
@@ -385,6 +388,19 @@ class CourseGenerator {
             }
 
             html += `</div>`;
+        }
+
+        // Worked example section: one original problem solved step by step
+        if (worked && worked.problem) {
+            const steps = Array.isArray(worked.steps) ? worked.steps : [];
+            html += `
+                <div class="worked-section">
+                    <h5 class="content-section-title">${CD_ICONS.topics}<span>Worked Example</span></h5>
+                    <p class="worked-problem"><strong>Problem.</strong> ${this.escapeHtml(worked.problem)}</p>
+                    ${steps.length ? `<ol class="worked-steps">${steps.map(st => `<li>${this.escapeHtml(st)}</li>`).join('')}</ol>` : ''}
+                    ${worked.answer ? `<p class="worked-answer"><strong>Answer.</strong> ${this.escapeHtml(worked.answer)}</p>` : ''}
+                    ${worked.idea ? `<p class="worked-idea"><strong>The idea to keep.</strong> ${this.escapeHtml(worked.idea)}</p>` : ''}
+                </div>`;
         }
 
         // Projects section
