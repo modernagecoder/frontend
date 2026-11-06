@@ -426,6 +426,9 @@
 .bx-sib-m { font-family: var(--bx-mono); font-size: 0.75rem; color: var(--bx-muted); }
 /* code samples: ligatures off so <=, != and /= read literally on output pages */
 .bx-root code, .bx-root pre { font-variant-ligatures: none; }
+/* long inline code (Character.isLetterOrDigit(...)) must wrap inside grid columns on phones */
+.bx-grid-2 > *, .bx-grid-3 > *, .bx-grid-4 > * { min-width: 0; }
+.bx-root p code, .bx-root li code, .bx-root td code { overflow-wrap: anywhere; }
 /* grouped related block (2026-11-06): every page of the board, in groups */
 .bx-siblings:has(.bx-sibgroup) { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px 36px; align-items: start; }
 .bx-sibgroup h3 { font-family: var(--bx-mono); font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--bx-accent); margin: 0 0 10px; padding-bottom: 8px; border-bottom: 1px solid var(--bx-rule); }
