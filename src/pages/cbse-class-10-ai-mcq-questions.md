@@ -260,8 +260,9 @@ Strike the plainly wrong ones. With no negative marking, a choice between the la
 ### Choose your skips early
 On a first read, mark the four AI items you are least sure of, answer the rest in order, then return if time allows.
 
-We have not seen CBSE confirm assertion and reason items for 417, so this bank keeps to four-option MCQs;
-judging a reason against a claim is still drilled in class. Written answers for every unit are on [CBSE Class 10 AI important questions](/cbse-class-10-ai-important-questions).
+Section A also carries assertion and reason items: they appeared in the 2025 and 2026 board papers and the 2025-26
+sample paper. This bank keeps to four-option MCQs; assertion and reason sets have their own page,
+[CBSE Class 10 AI assertion reason questions](/cbse-class-10-ai-assertion-reason-questions). Written answers for every unit are on [CBSE Class 10 AI important questions](/cbse-class-10-ai-important-questions).
 
 ## How the live batch turns an MCQ bank into marks
 
@@ -319,7 +320,7 @@ Option 1, fixed batch: Monday and Wednesday at 9:00 PM IST, live online, fifteen
 
 **Are MCQs asked from Statistical Data and Advance Python?** Not in the theory paper. Units 4 and 7 are assessed through the practical: the file, the practical exam and the viva. Examiners there ask what a short NumPy or Matplotlib program will show.
 
-**Are assertion reason questions asked in CBSE Class 10 AI?** We cannot confirm it for 417. Assertion and reason items are confirmed for the related IT 402 paper, but the 2026-27 sample paper for 417 is not out. We still practise judging whether a reason explains a claim.
+**Are assertion reason questions asked in CBSE Class 10 AI?** Yes. Assertion and reason items appeared in Section A of the 2025 and 2026 CBSE Class 10 AI board papers and in the 2025-26 sample paper, alongside two-statement items. Each asks whether both statements are true and whether the reason explains the assertion. The 2026-27 sample paper is not out yet, so we drill the format without promising its exact count.
 
 **How should I practise AI class 10 chapter wise MCQ?** One unit at a time first, timed at about a minute per item, then mixed sets once every unit is done. Read the reason for every option, and redo the weakest unit a week later with new numbers.
 
@@ -335,9 +336,11 @@ Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 stude
 
 **Classes, tuition and batches:** [The Mon and Wed 9 PM AI batch](/cbse-class-10-ai-classes-online), [CBSE AI classes in the Gulf and abroad](/cbse-class-10-ai-online-classes-gulf-and-abroad).
 
-**Unit by unit:** [CBSE AI 417 syllabus explained](/cbse-class-10-ai-syllabus-explained), [Python for Class 10 AI](/python-for-cbse-class-10-ai), [Part A employability skills](/cbse-class-10-ai-employability-skills-part-a).
+**Unit by unit:** [CBSE AI 417 syllabus explained](/cbse-class-10-ai-syllabus-explained), [Python for Class 10 AI](/python-for-cbse-class-10-ai), [Part A employability skills](/cbse-class-10-ai-employability-skills-part-a), [Unit 3: Evaluating Models](/cbse-class-10-ai-evaluating-models-questions), [Confusion matrix numericals](/confusion-matrix-class-10-ai-numericals), [Unit 2: Advanced modeling](/cbse-class-10-ai-advanced-modeling-questions), [Unit 6: Natural Language Processing](/cbse-class-10-ai-nlp-questions), [Bag of Words and TFIDF, worked](/bag-of-words-tfidf-class-10-ai), [Unit 5: Computer Vision](/cbse-class-10-ai-computer-vision-questions).
 
-**Questions and practice:** [CBSE AI important questions](/cbse-class-10-ai-important-questions), [Sample paper and mock tests](/cbse-class-10-ai-sample-paper-and-mock-tests).
+**Questions and practice:** [CBSE AI important questions](/cbse-class-10-ai-important-questions), [Sample paper and mock tests](/cbse-class-10-ai-sample-paper-and-mock-tests), [Previous year papers, solved](/cbse-class-10-ai-previous-year-question-papers), [AI practical and project viva](/cbse-class-10-ai-viva-questions), [Case based questions](/cbse-class-10-ai-case-based-questions), [Employability skills MCQ](/employability-skills-class-10-mcq).
+
+**Notes and revision:** [Class 10 AI notes, unit wise](/cbse-class-10-ai-notes), [Class 10 AI one shot revision](/cbse-class-10-ai-one-shot-revision), [30, 7 and 1 day revision plan](/cbse-class-10-ai-revision-plan), [Worksheets with answers](/cbse-class-10-ai-worksheets).
 
 **Exam, marks and practicals:** [CBSE AI board exam preparation](/cbse-class-10-ai-board-exam-preparation), [AI project and practical file](/cbse-class-10-ai-project-and-practical-file), [Exam date 2027 and paper pattern](/cbse-class-10-ai-exam-date-and-paper-pattern).
 

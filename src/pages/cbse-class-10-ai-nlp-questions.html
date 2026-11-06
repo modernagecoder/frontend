@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NLP Class 10 Questions and Answers, CBSE AI 417 2026-27</title>
+  <meta name="description" content="NLP class 10 questions and answers for CBSE AI 417, 2026-27: stages of NLP, script bot vs smart bot, worked text normalisation, answers for every mark.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/cbse-class-10-ai-nlp-questions">
+  <link rel="alternate" type="text/markdown" href="/src/pages/cbse-class-10-ai-nlp-questions.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#1E4A8C">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/cbse-class-10-ai-nlp-questions">
+  <meta property="og:title" content="NLP Class 10 Questions and Answers for the 2026-27 Paper">
+  <meta property="og:description" content="The whole 8-mark Natural Language Processing unit of CBSE 417 in exam format: the five stages with examples, chatbots, applications, a worked text normalisation and model answers for every mark band.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NLP Class 10 Questions and Answers for the 2026-27 Paper">
+  <meta name="twitter:description" content="Unit 6 of CBSE AI 417 as exam answers: stages of NLP, script bot vs smart bot, text normalisation worked step by step.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "Nepal"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          {
+            "@type": "Country",
+            "name": "Malaysia"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "knowsAbout": [
+          "CBSE Artificial Intelligence 417",
+          "CBSE Class 10 Board Examination",
+          "Python",
+          "AI Project Cycle",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/cbse-class-10-ai-nlp-questions#article",
+        "headline": "NLP Class 10 Questions and Answers: the Whole Unit 6 in Exam Format for 2026-27",
+        "description": "The whole 8-mark Natural Language Processing unit of CBSE 417 in exam format: the five stages with examples, chatbots, applications, a worked text normalisation and model answers for every mark band.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-11-06",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/cbse-class-10-ai-nlp-questions"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/cbse-class-10-ai-nlp-questions#course",
+        "name": "CBSE Class 10 AI (417) Natural Language Processing, Live Online",
+        "description": "Live online teaching of Unit 6, Natural Language Processing, for CBSE Class 10 Artificial Intelligence (417), session 2026-27: the five stages of NLP, chatbots, text normalisation, Bag of Words and TFIDF taught for understanding, then written as one-, two- and four-mark answers and marked against the scheme on screen, with the Orange sentiment analysis case study done hands-on for the practical, every Monday and Wednesday at 9:00 PM IST or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/cbse-class-10-ai-nlp-questions",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "1499",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, group batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseSchedule": {
+            "@type": "Schedule",
+            "repeatFrequency": "P1W",
+            "byDay": [
+              "Monday",
+              "Wednesday"
+            ],
+            "startTime": "21:00",
+            "scheduleTimezone": "Asia/Kolkata"
+          },
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "https://learn.modernagecoders.com/cbse-class-10-ai-nlp-questions"
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Class 10 AI classes",
+            "item": "https://learn.modernagecoders.com/cbse-class-10-ai-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "NLP questions",
+            "item": "https://learn.modernagecoders.com/cbse-class-10-ai-nlp-questions"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the important NLP class 10 questions and answers for 2026-27?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The questions that recur are: the five stages of NLP with examples, differences between a script bot and a smart bot, four applications of NLP, the steps of text normalisation on given text, stemming against lemmatisation, and a Bag of Words or TFIDF calculation on a small corpus. This page answers each of them in the length the marks deserve."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many marks is NLP in CBSE Class 10 AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Unit 6, Natural Language Processing, carries 8 of the 50 theory marks in CBSE 417 for 2026-27. In the 2025-26 sample paper it appeared as five one-mark objective items, one two-mark question and one four-mark question, with choice across units. The sentiment analysis case study is assessed in the practical instead."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the stages of NLP class 10?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There are five: lexical analysis splits text into sentences and words; syntactic analysis checks grammar; semantic analysis checks meaning; discourse integration links each sentence with those around it; pragmatic analysis finds the real intent. Learn them in this order with one example each."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between a script bot and a smart bot?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A script bot follows a fixed, pre-written flow, has little or no language processing, does not learn and is easy to build. A smart bot uses NLP to understand free text, learns from more data, works with large databases and needs coding. A menu-based fee bot is a script bot; a voice assistant is a smart bot."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the steps of text normalisation in class 10?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sentence segmentation, tokenisation, removing stopwords and special characters, converting to a common case, and stemming or lemmatisation. The output is a clean list of base words for the whole corpus, which then becomes the dictionary for Bag of Words. In a four-mark answer, show the text after every step, not just the final list, because each step usually carries its own share of the marks."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the applications of NLP for class 10?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The curriculum names voice assistants, auto-generated captions, language translation, sentiment analysis, text classification and keyword extraction. For a four-mark answer, explain four of them with one real example each, such as spam filtering for text classification. Sentiment analysis is worth knowing best, because it is also the case study you build in Orange for the practical."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are punctuation marks counted as tokens?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. In tokenisation every word, number and special character, including commas, full stops and exclamation marks, becomes a separate token. Punctuation is only removed in the next step, along with stopwords. Most token-count mistakes come from forgetting this. So \"Stop, Riya!\" is four tokens: two words, a comma and an exclamation mark."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where can I find natural language processing class 10 notes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This page works as exam-focused notes for the whole unit: the marks, the stages table, chatbots, applications and a worked normalisation. For notes on every unit of 417 in one place, see our Class 10 AI notes page, and the CBSE handbook remains the base text."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is TFIDF in the Class 10 AI theory paper?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. TFIDF is listed under text processing in the theory part of Unit 6 for 2026-27, alongside Bag of Words and text normalisation. A small corpus calculation is a natural four-mark question, which is why we give it a page of its own with full tables."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is sentiment analysis asked in the written paper?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "As an application of NLP, yes: you may be asked what it is or for an example. The hands-on sentiment analysis case study in Orange is listed under the practical part of Unit 6, so it is assessed through the practical exam and viva rather than written out in full."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you teach NLP separately or as part of the whole course?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both are possible. In the batch, NLP is taught in its place in the 417 syllabus, with written answers and the Orange case study. One to one can focus only on Unit 6 if that is the gap. Both are covered by the monthly fee shown on this page, and the first class is a free demo."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-cb07 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">417 &middot; Unit 6 NLP</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#marks">Marks</a>
+      <a href="#stages">Stages</a>
+      <a href="#chatbots">Chatbots</a>
+      <a href="#normalise">Normalisation</a>
+      <a href="#answers">Q and A</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/cbse-class-10-ai-classes-online">Class 10 AI classes</a> <span>/</span> <span>NLP questions</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">CBSE Class 10 &middot; Artificial Intelligence, code 417 &middot; Unit 6, 2026-27</p>
+        <h1>NLP class 10 questions and answers: Unit 6 written the way the examiner marks it.</h1>
+        <p class="bx-lede">These NLP class 10 questions and answers cover all of Unit 6 of CBSE 417 for 2026-27: why computers find human language hard, where NLP is used, the five stages, script bots and smart bots, and text normalisation done on a real piece of text. Each topic ends in an answer you could write in the paper, sized to its marks. In our Monday class the unit is taught this way, and the written answers are marked on screen against the scheme.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20help%20with%20NLP%2C%20Unit%206%20of%20CBSE%20Class%2010%20AI%20417." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'cb07'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; whole Unit 6 answered &middot; stages, chatbots, normalisation &middot; answers marked on screen &middot; Orange case study for the practical &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When Unit 6 is taught">
+        <p class="bx-tt-title"><span>NLP in the batch</span><b>CBSE 417</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Monday, NLP theory and answers</span><span class="bx-tt-time">9:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, Orange sentiment case</span><span class="bx-tt-time">9:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Theory marks for Unit 6</span><span class="bx-tt-time">8<small>of 50</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Stages of NLP to know</span><span class="bx-tt-time">5<small>stages</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843">CBSE Class 10 AI (417) Board Preparation, Live</a></p>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Group batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.group">₹1,499</span><small>/month</small></span><span class="bx-offer-v">Mon and Wed, 9:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>Dubai, Abu Dhabi, Muscat:</b> 7:30 PM. <b>Riyadh, Doha, Kuwait City, Manama:</b> 6:30 PM. <b>Nairobi:</b> 6:30 PM. <b>Kathmandu:</b> 9:15 PM. <b>Singapore:</b> late, so one to one is better there.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Unit 6: 8 theory marks</span>
+          <span class="bx-stamp">Sentiment case in practical</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Courses that teach Unit 6</h2>
+      <p class="bx-lede">The 417 course whose Class 10 batch covers this unit, the Orange course for the sentiment analysis case study the practical uses, and Python for students who want to see text processing done in code.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843">
+        <div class="bx-pick-shot"><img src="/images/ct-ai-teens.webp" alt="CBSE Computational Thinking and AI for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / 417 Class 10</p>
+          <h3>CBSE AI for Class 9 to 12</h3>
+          <p>Unit 6 taught in order, from features of language to TFIDF, with written answers in every mark band marked live.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">
+        <div class="bx-pick-shot"><img src="/images/orange-data-mining-teens.webp" alt="Visual Machine Learning with Orange for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Practical / Orange</p>
+          <h3>Visual ML with Orange</h3>
+          <p>The no-code sentiment analysis walkthrough the curriculum names for the NLP practical, built widget by widget.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="bx-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Code / Python</p>
+          <h3>Python for Teens</h3>
+          <p>Splitting, lowercasing and counting words in a few lines of Python, so tokens and stopwords stop being abstract.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>NLP class 10 questions and answers for CBSE 417 come from Unit 6, Natural Language Processing, worth 8 of the 50 theory marks in 2026-27. The examined topics are: features of natural language, applications of NLP, the five stages (lexical, syntactic, semantic, discourse integration, pragmatic), script bots versus smart bots, and text processing: text normalisation, Bag of Words and TFIDF. In the 2025-26 sample paper the unit had five one-mark items, one two-mark and one four-mark question. Modern Age Coders teaches the unit live in a Monday and Wednesday 9:00 PM IST batch, or personalised one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="marks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. How much is NLP worth?</p>
+      <h2>How many marks is NLP in Class 10 AI, and what is examined?</h2>
+      <p class="bx-lede">Natural Language Processing carries 8 of the 50 theory marks in CBSE 417 for 2026-27, the third-largest unit after Modeling (11) and Evaluating Models (10). The curriculum splits it into a theory part and a smaller practical part.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Topic in Unit 6</th><th scope="col">Assessed in</th><th scope="col">What the answer usually asks</th></tr></thead>
+        <tbody>
+          <tr><td>Features of natural language, why NLP is needed</td><td>Theory</td><td>Two features, or why a computer struggles with human language</td></tr>
+          <tr><td>Applications of NLP</td><td>Theory</td><td>Name and explain two or four, with a real example</td></tr>
+          <tr><td>Stages of NLP</td><td>Theory</td><td>Name a stage from a description, or explain all five</td></tr>
+          <tr><td>Chatbots: script bot and smart bot</td><td>Theory</td><td>Differences, or classify a given bot</td></tr>
+          <tr><td>Text processing: normalisation, Bag of Words, TFIDF</td><td>Theory</td><td>Normalise given text, build a vector, compute TFIDF</td></tr>
+          <tr><td>Code and no-code NLP tools, sentiment analysis in Orange</td><td>Practical</td><td>Run the case study, explain each step in the viva</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-2 bx-mt-40" style="align-items:start">
+      <div>
+        <h3>The question shapes, from the last sample paper</h3>
+        <ul class="bx-check">
+          <li><b>Five one-mark objective items</b> in the 2025-26 paper, with choice across the AI units.</li>
+          <li><b>One two-mark question</b>, typically a difference or a short definition.</li>
+          <li><b>One four-mark question</b>, often text normalisation or a TFIDF calculation on a small corpus.</li>
+          <li>The 2026-27 sample paper for 417 has not been published yet, so treat these counts as a guide, not a promise.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Where hours go in the syllabus</h3>
+        <p>CBSE gives the unit 20 theory hours and 7 practical hours. The theory hours are spent mostly on the stages and on text processing, which is also where the longer answers come from. The practical hours go to sentiment analysis, which reaches the practical exam and the viva rather than the written paper.</p>
+        <p>The full blueprint for every unit is on <a class="bx-link" href="/cbse-class-10-ai-exam-date-and-paper-pattern">the 417 exam date and paper pattern page</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="stages">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. What are the stages?</p>
+      <h2>What are the stages of NLP in Class 10?</h2>
+      <p class="bx-lede">The five stages of NLP are lexical analysis, syntactic analysis, semantic analysis, discourse integration and pragmatic analysis, in that order. Each one checks the text at a deeper level than the one before: words, then grammar, then meaning, then the link between sentences, then the intended purpose.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Stage</th><th scope="col">One-line definition</th><th scope="col">Example that passes or fails it</th></tr></thead>
+        <tbody>
+          <tr><td>1. Lexical analysis</td><td>Breaks a long text into paragraphs, sentences and words, and identifies each word</td><td>"Rohan bought mangoes. They were sweet." becomes two sentences and their words</td></tr>
+          <tr><td>2. Syntactic analysis (parsing)</td><td>Checks that the words follow the grammar of the language</td><td>"Mangoes bought Rohan sweet were" fails: the order breaks the rules</td></tr>
+          <tr><td>3. Semantic analysis</td><td>Checks that the grammatically correct sentence actually makes sense</td><td>"The mango sang loudly" passes grammar but fails meaning</td></tr>
+          <tr><td>4. Discourse integration</td><td>Links a sentence with those before and after it</td><td>Working out that "They" in the second sentence means the mangoes</td></tr>
+          <tr><td>5. Pragmatic analysis</td><td>Finds the intended meaning in the real situation</td><td>"Can you pass the salt?" is a request, not a question about ability</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Model answer, 4 marks</b><span>explain the stages of NLP</span></figcaption>
+  <pre>NLP understands text in five stages.
+1. Lexical analysis: the text is split
+   into sentences and words.
+2. Syntactic analysis: the sentence is
+   checked against grammar rules.
+3. Semantic analysis: the meaning is
+   checked; "the mango sang" fails.
+4. Discourse integration: each sentence
+   is read with the ones around it, so
+   "they" is linked to "mangoes".
+5. Pragmatic analysis: the real intent
+   is found; "can you pass the salt?"
+   is understood as a request.</pre>
+  <p class="bx-code-note">Five stages, each with one line and one example. Order matters: a jumbled list loses a mark in most schemes.</p>
+</figure>
+      <div>
+        <h3>How students lose marks here</h3>
+        <ul class="bx-check">
+          <li><b>Mixing up syntactic and semantic.</b> Syntax is grammar; semantics is meaning. A sentence can pass the first and fail the second, never the reverse in a useful exam example.</li>
+          <li><b>Calling discourse "the meaning".</b> Discourse is about how sentences connect, especially pronouns like it, he and they.</li>
+          <li><b>Skipping the example.</b> A definition alone usually earns half the marks for a stage.</li>
+          <li><b>Writing "parsing" for lexical.</b> Parsing is the other name for syntactic analysis.</li>
+        </ul>
+        <p>A one-mark form of the same idea: "Which stage would reject a grammatically correct sentence that makes no sense?" Answer: semantic analysis.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="chatbots">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. Applications and chatbots</p>
+      <h2>Applications of NLP, and script bot vs smart bot</h2>
+      <p class="bx-lede">A chatbot is a program that holds a conversation with a person in text or speech. A script bot follows a fixed, pre-written flow; a smart bot uses NLP and machine learning to understand open questions and improves as it sees more data.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Point of difference</th><th scope="col">Script bot</th><th scope="col">Smart bot</th></tr></thead>
+        <tbody>
+          <tr><td>How it works</td><td>Follows a script: buttons, menus or set keywords</td><td>Understands free text using NLP</td></tr>
+          <tr><td>Language processing</td><td>Little or none</td><td>Large: intent, context and meaning</td></tr>
+          <tr><td>Learning</td><td>Does not learn; changes only when someone edits the script</td><td>Learns from more data and conversations</td></tr>
+          <tr><td>Data it uses</td><td>A small set of fixed replies</td><td>Large databases and other resources</td></tr>
+          <tr><td>Building it</td><td>Easy, often with no coding</td><td>Needs coding and training</td></tr>
+          <tr><td>Example</td><td>A school fee bot that offers "1 for dates, 2 for receipts"</td><td>A voice assistant that answers "Will I need an umbrella in Pune tomorrow?"</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">A two-mark question asks for two differences; four rows of this table cover a four-mark one. Write each difference as a pair, script bot first, so the examiner can tick both halves.</p>
+    <h3 class="bx-mt-40">Applications of NLP the syllabus names</h3>
+    <div class="bx-grid-3">
+      <div class="bx-card"><h3>Voice assistants</h3><p>Turn speech into text, find the intent and reply, such as setting an alarm when told "wake me at six".</p></div>
+      <div class="bx-card"><h3>Auto-generated captions</h3><p>Speech in a video is converted to text on screen as it plays, which helps viewers with hearing loss.</p></div>
+      <div class="bx-card"><h3>Language translation</h3><p>Text in one language is rewritten in another while keeping its meaning, not word by word.</p></div>
+      <div class="bx-card"><h3>Sentiment analysis</h3><p>Decides whether a review or post is positive, negative or neutral. This is also the practical case study in Orange.</p></div>
+      <div class="bx-card"><h3>Text classification</h3><p>Puts text into categories, such as sorting emails into spam and not spam, or news into sport and politics.</p></div>
+      <div class="bx-card"><h3>Keyword extraction</h3><p>Pulls the most important words out of a long text, so a report can be tagged or summarised quickly.</p></div>
+    </div>
+    <p class="bx-mt-40">Why is any of this hard for a computer? Human language is ambiguous ("I saw her duck"), the same idea can be said many ways, and it keeps changing. Those three features of natural language are a common two-mark question in their own right. Short contrasts of this kind are collected on <a class="bx-link" href="/cbse-class-10-ai-difference-between-questions">CBSE Class 10 AI difference between questions</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="normalise">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. Normalise this text</p>
+      <h2>Text normalisation class 10: the steps, worked on real text</h2>
+      <p class="bx-lede">Text normalisation is the cleaning of a whole corpus so a machine can work with it: the text is cut into sentences and tokens, low-value words and symbols are dropped, case is made uniform and each word is reduced to a base form. Here it is done on a two-document corpus, step by step.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>The corpus</b><span>two documents</span></figcaption>
+  <pre>Document 1:
+Grandma tells the best stories at night.
+
+Document 2:
+We were listening to her stories, and
+we laughed!</pre>
+  <p class="bx-code-note">A corpus is the whole collection of text being processed. Normalisation works on all of it together.</p>
+</figure>
+      <ol class="bx-steps">
+        <li class="bx-step"><h4>Sentence segmentation</h4><p>Each document here is one sentence, so the corpus gives two sentences.</p></li>
+        <li class="bx-step"><h4>Tokenisation</h4><p>Every word and every punctuation mark becomes a token. Document 1 gives 8 tokens (7 words and the full stop); Document 2 gives 11 (9 words, a comma and an exclamation mark). 19 tokens in all.</p></li>
+        <li class="bx-step"><h4>Removing stopwords and special characters</h4><p>Dropping the, at, we, were, to, her, and, and all punctuation leaves "Grandma tells best stories night" and "listening stories laughed".</p></li>
+        <li class="bx-step"><h4>Converting to a common case</h4><p>Everything becomes lower case, so "Grandma" and "grandma" can never be counted as two different words.</p></li>
+        <li class="bx-step"><h4>Stemming or lemmatisation</h4><p>Each word is cut to its base: tells to tell, listening to listen, laughed to laugh, stories to story (lemma). The result: grandma, tell, best, story, night, listen, laugh, 7 unique words.</p></li>
+      </ol>
+    </div>
+    <div class="bx-table-wrap bx-mt-40">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Word</th><th scope="col">After stemming</th><th scope="col">After lemmatisation</th><th scope="col">What it shows</th></tr></thead>
+        <tbody>
+          <tr><td>stories</td><td>stori</td><td>story</td><td>A stem need not be a real word; a lemma always is</td></tr>
+          <tr><td>listening</td><td>listen</td><td>listen</td><td>Both methods agree when the suffix is regular</td></tr>
+          <tr><td>better</td><td>better</td><td>good</td><td>Only lemmatisation knows the dictionary root</td></tr>
+          <tr><td>happily</td><td>happili</td><td>happy</td><td>Rules chop endings without checking the result is English</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-2 bx-mt-40" style="align-items:start">
+      <div>
+        <h3>Stemming against lemmatisation, in one answer</h3>
+        <p>Stemming removes affixes by rule, so it is fast but may leave a word that does not exist. Lemmatisation finds the proper dictionary form, so it is slower but always gives a meaningful word. The usual exam choice: lemmatisation when meaning matters, stemming when speed matters.</p>
+      </div>
+      <div>
+        <h3>What comes next: Bag of Words and TFIDF</h3>
+        <p>The 7 normalised words become the dictionary for Bag of Words, and each document becomes a row of counts. TFIDF then scores every word by how special it is to one document. The complete worked tables, three documents from raw text to final TFIDF values, are on <a class="bx-link" href="/bag-of-words-tfidf-class-10-ai">Bag of Words and TFIDF for Class 10 AI</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="answers">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. Practise by mark band</p>
+      <h2>NLP class 10 questions and answers, by marks</h2>
+      <p class="bx-lede">Original questions in the shapes the paper uses. Try each before opening the answer. The one-mark answers are short on purpose; the two- and four-mark ones show the length the scheme rewards.</p>
+    </div>
+    <div class="bx-grid-2" style="align-items:start">
+      <div>
+        <h3>One mark each</h3>
+        <ol class="bx-qlist">
+          <li>Which stage of NLP works out that "she" in the second sentence refers to Asha in the first?
+            <details><summary>Answer</summary> Discourse integration, which links each sentence with its neighbours.</details></li>
+          <li>How many tokens are there in "Is it raining? Take an umbrella, Riya."?
+            <details><summary>Answer</summary> 10: seven words plus the question mark, the comma and the full stop.</details></li>
+          <li>Words such as "is", "an" and "the" that are removed because they add little meaning are called
+            <details><summary>Answer</summary> Stopwords.</details></li>
+          <li>A bank's chatbot only lets you tap one of four buttons. Is it a script bot or a smart bot?
+            <details><summary>Answer</summary> A script bot: it follows a fixed flow and understands no free text.</details></li>
+          <li>Name the NLP application that turns spoken words in a video into text on screen.
+            <details><summary>Answer</summary> Auto-generated captions.</details></li>
+          <li>"Doctors said the new medicine works. It works fast!" How many tokens?
+            <details><summary>Answer</summary> 11: nine words, the full stop and the exclamation mark. "works" counts twice because tokens are not unique words.</details></li>
+          <li>Which gives a meaningful base word: stemming or lemmatisation?
+            <details><summary>Answer</summary> Lemmatisation.</details></li>
+          <li>What is the whole body of text taken from all the documents together called?
+            <details><summary>Answer</summary> The corpus.</details></li>
+        </ol>
+      </div>
+      <div>
+        <h3>Two marks each</h3>
+        <ol class="bx-qlist" start="9">
+          <li>Give two differences between a script bot and a smart bot.
+            <details><summary>Answer</summary> A script bot follows a pre-written script and has little language processing, while a smart bot understands free text using NLP. A script bot does not learn, while a smart bot improves with more data.</details></li>
+          <li>Differentiate between syntactic and semantic analysis with an example.
+            <details><summary>Answer</summary> Syntactic analysis checks grammar; semantic analysis checks meaning. "The mango sang loudly" is grammatically correct, so it passes the syntactic stage, but it makes no sense, so it fails the semantic stage.</details></li>
+          <li>Why is text converted to a common case during normalisation?
+            <details><summary>Answer</summary> A machine treats "School" and "school" as different words because their characters differ. Lowercasing everything makes them one word, so counts and vectors are correct.</details></li>
+          <li>State any two features of natural language that make NLP difficult.
+            <details><summary>Answer</summary> It is ambiguous: one sentence can have more than one meaning. It is redundant and changing: the same idea can be said in many ways, and words and usage change over time.</details></li>
+        </ol>
+        <h3 class="bx-mt-40">Four marks each</h3>
+        <ol class="bx-qlist" start="13">
+          <li>Explain any four applications of NLP with one example each.
+            <details><summary>Answer</summary> Voice assistants turn speech into an action, such as setting an alarm. Translation rewrites text in another language, such as a Hindi sign read in English. Sentiment analysis labels a review positive or negative, such as rating feedback on a product. Text classification sorts text into groups, such as moving spam out of the inbox.</details></li>
+          <li>Normalise "Riya plays football. Her brothers play cricket!" Treat "her" as the only stopword. Show each step and give the final dictionary.
+            <details><summary>Answer</summary> Segmentation: two sentences. Tokenisation: 9 tokens, seven words plus the full stop and the exclamation mark. Remove "Her" and both punctuation marks. Lower case: riya plays football / brothers play cricket. Lemmatise: plays to play, brothers to brother. Dictionary of unique words: riya, play, football, brother, cricket, so 5 words.</details></li>
+        </ol>
+      </div>
+    </div>
+    <p class="bx-mt-40">More objective items for this unit sit with every other unit on <a class="bx-link" href="/cbse-class-10-ai-mcq-questions">Class 10 AI MCQ with answers</a>, and the spoken versions of these questions are on <a class="bx-link" href="/cbse-class-10-ai-viva-questions">CBSE Class 10 AI viva questions</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="live">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. How is Unit 6 taught?</p>
+      <h2>Natural language processing class 10 notes become marks in the live batch</h2>
+      <p class="bx-lede">Notes tell a student what NLP is. Marks come from writing the stages in order, sizing an answer to its marks and counting tokens without slips. That is the work the class does each week.</p>
+    </div>
+    <div class="bx-grid-3">
+      <div class="bx-card"><h3>Taught on real sentences</h3><p>Each stage is shown on a sentence the class suggests, then broken on purpose: a jumbled one for syntax, a silly one for semantics, a pronoun puzzle for discourse. Students remember the stage by the sentence that failed it.</p></div>
+      <div class="bx-card"><h3>Answers marked against the scheme</h3><p>Two- and four-mark answers are written in the last part of the Monday class, then shared and marked on screen point by point. A missing example or a stage out of order is caught before it becomes a habit.</p></div>
+      <div class="bx-card"><h3>The practical in Orange</h3><p>On Wednesday the sentiment analysis walkthrough is built live in Orange: load reviews, preprocess, score and read the result. Students rehearse explaining each widget, because that is what the viva asks.</p></div>
+    </div>
+    <p class="bx-mt-40">The no-code tool itself has its own page, <a class="bx-link" href="/orange-data-mining-class-10-ai">Orange Data Mining for Class 10 AI</a>. The neighbouring theory unit, worth 4 marks, is answered the same way on <a class="bx-link" href="/cbse-class-10-ai-computer-vision-questions">computer vision class 10 questions and answers</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Learn Unit 6 in the Monday and Wednesday batch, or one to one</h2>
+      <p class="bx-lede">The batch takes NLP in its place in the syllabus, with classmates whose answers you see marked beside yours. One to one starts wherever your child is stuck, whether that is the stages or a TFIDF table. Billed monthly, no admission fee, and you can stop at the end of any month.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Group batch, Monday and Wednesday 9 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.group">₹1,499</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Monday and Wednesday, 9:00 PM IST, live on video</li><li>Fifteen to twenty Class 10 AI students with one teacher</li><li>Stages, chatbots and normalisation taught in order</li><li>Written NLP answers marked on screen every week</li><li>Orange sentiment case study built in class</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>A day and hour you choose, in your own time zone</li><li>Starts from the NLP topic your child finds hardest</li><li>Normalisation and TFIDF repeated on fresh text until steady</li><li>Every four-mark answer read and corrected one to one</li><li>Same CBSE 417 syllabus and the same teachers</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40">If Unit 6 is the only weak spot, a handful of one to one sessions on the stages and text processing is usually enough. If the student has not reached NLP yet, or is behind on several units, the batch covers the whole syllabus in order. Fees appear in your own currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>NLP classes for CBSE Class 10 students outside India</h2>
+      <p class="bx-lede">CBSE schools in the Gulf and East Africa sit the same 417 paper, with the same 8 marks for Natural Language Processing. These are the batch times in local terms this winter.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Mon and Wed 9:00 PM IST</th><th scope="col">Best format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td class="bx-num">9:00 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>UAE and Oman<br><span class="bx-src">Dubai, Abu Dhabi, Sharjah, Muscat</span></td><td class="bx-num">7:30 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>Saudi Arabia, Qatar, Kuwait, Bahrain<br><span class="bx-src">Riyadh, Jeddah, Dammam, Doha, Kuwait City, Manama</span></td><td class="bx-num">6:30 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>Nepal<br><span class="bx-src">Kathmandu</span></td><td class="bx-num">9:15 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>Ethiopia and East Africa<br><span class="bx-src">Addis Ababa and East Africa Time</span></td><td class="bx-num">6:30 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>Singapore and Malaysia<br><span class="bx-src">Singapore, Kuala Lumpur</span></td><td class="bx-num">11:30 PM</td><td><span class="bx-fit bx-fit--no">Choose 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">Where the 9:00 PM IST batch falls too late, personalised one to one runs at a local hour you choose. More on studying from abroad is on <a class="bx-link" href="/cbse-class-10-ai-online-classes-gulf-and-abroad">CBSE Class 10 AI online classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the CBSE Class 10 AI (417) series, grouped by what you need: classes, each unit, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a></li>
+          <li><a href="/cbse-class-10-ai-online-classes-gulf-and-abroad">CBSE AI classes in the Gulf and abroad</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Unit by unit</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a></li>
+          <li><a href="/python-for-cbse-class-10-ai">Python for Class 10 AI</a></li>
+          <li><a href="/cbse-class-10-ai-employability-skills-part-a">Part A employability skills</a></li>
+          <li><a href="/cbse-class-10-ai-evaluating-models-questions">Unit 3: Evaluating Models</a></li>
+          <li><a href="/confusion-matrix-class-10-ai-numericals">Confusion matrix numericals</a></li>
+          <li><a href="/cbse-class-10-ai-advanced-modeling-questions">Unit 2: Advanced modeling</a></li>
+          <li><a href="/bag-of-words-tfidf-class-10-ai">Bag of Words and TFIDF, worked</a></li>
+          <li><a href="/cbse-class-10-ai-computer-vision-questions">Unit 5: Computer Vision</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a></li>
+          <li><a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></li>
+          <li><a href="/cbse-class-10-ai-mcq-questions">Class 10 AI MCQ, unit wise</a></li>
+          <li><a href="/cbse-class-10-ai-previous-year-question-papers">Previous year papers, solved</a></li>
+          <li><a href="/cbse-class-10-ai-viva-questions">AI practical and project viva</a></li>
+          <li><a href="/cbse-class-10-ai-case-based-questions">Case based questions</a></li>
+          <li><a href="/employability-skills-class-10-mcq">Employability skills MCQ</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Notes and revision</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-notes">Class 10 AI notes, unit wise</a></li>
+          <li><a href="/cbse-class-10-ai-one-shot-revision">Class 10 AI one shot revision</a></li>
+          <li><a href="/cbse-class-10-ai-revision-plan">30, 7 and 1 day revision plan</a></li>
+          <li><a href="/cbse-class-10-ai-worksheets">Worksheets with answers</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and practicals</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-board-exam-preparation">CBSE AI board exam preparation</a></li>
+          <li><a href="/cbse-class-10-ai-project-and-practical-file">AI project and practical file</a></li>
+          <li><a href="/cbse-class-10-ai-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>ICSE Class 10 Computer Applications (Java):</b> <a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a> <span aria-hidden="true">&middot;</span> <a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a> <span aria-hidden="true">&middot;</span> <a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a> <span aria-hidden="true">&middot;</span> <a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about NLP in Class 10 AI</p>
+      <h2>NLP class 10: what students and parents ask</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>What are the important NLP class 10 questions and answers for 2026-27?</h3><p>The questions that recur are: the five stages of NLP with examples, differences between a script bot and a smart bot, four applications of NLP, the steps of text normalisation on given text, stemming against lemmatisation, and a Bag of Words or TFIDF calculation on a small corpus. This page answers each of them in the length the marks deserve.</p></div>
+      <div class="bx-faq-item"><h3>How many marks is NLP in CBSE Class 10 AI?</h3><p>Unit 6, Natural Language Processing, carries 8 of the 50 theory marks in CBSE 417 for 2026-27. In the 2025-26 sample paper it appeared as five one-mark objective items, one two-mark question and one four-mark question, with choice across units. The sentiment analysis case study is assessed in the practical instead.</p></div>
+      <div class="bx-faq-item"><h3>What are the stages of NLP class 10?</h3><p>There are five: lexical analysis splits text into sentences and words; syntactic analysis checks grammar; semantic analysis checks meaning; discourse integration links each sentence with those around it; pragmatic analysis finds the real intent. Learn them in this order with one example each.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between a script bot and a smart bot?</h3><p>A script bot follows a fixed, pre-written flow, has little or no language processing, does not learn and is easy to build. A smart bot uses NLP to understand free text, learns from more data, works with large databases and needs coding. A menu-based fee bot is a script bot; a voice assistant is a smart bot.</p></div>
+      <div class="bx-faq-item"><h3>What are the steps of text normalisation in class 10?</h3><p>Sentence segmentation, tokenisation, removing stopwords and special characters, converting to a common case, and stemming or lemmatisation. The output is a clean list of base words for the whole corpus, which then becomes the dictionary for Bag of Words. In a four-mark answer, show the text after every step, not just the final list, because each step usually carries its own share of the marks.</p></div>
+      <div class="bx-faq-item"><h3>What are the applications of NLP for class 10?</h3><p>The curriculum names voice assistants, auto-generated captions, language translation, sentiment analysis, text classification and keyword extraction. For a four-mark answer, explain four of them with one real example each, such as spam filtering for text classification. Sentiment analysis is worth knowing best, because it is also the case study you build in Orange for the practical.</p></div>
+      <div class="bx-faq-item"><h3>Are punctuation marks counted as tokens?</h3><p>Yes. In tokenisation every word, number and special character, including commas, full stops and exclamation marks, becomes a separate token. Punctuation is only removed in the next step, along with stopwords. Most token-count mistakes come from forgetting this. So &quot;Stop, Riya!&quot; is four tokens: two words, a comma and an exclamation mark.</p></div>
+      <div class="bx-faq-item"><h3>Where can I find natural language processing class 10 notes?</h3><p>This page works as exam-focused notes for the whole unit: the marks, the stages table, chatbots, applications and a worked normalisation. For notes on every unit of 417 in one place, see our Class 10 AI notes page, and the CBSE handbook remains the base text.</p></div>
+      <div class="bx-faq-item"><h3>Is TFIDF in the Class 10 AI theory paper?</h3><p>Yes. TFIDF is listed under text processing in the theory part of Unit 6 for 2026-27, alongside Bag of Words and text normalisation. A small corpus calculation is a natural four-mark question, which is why we give it a page of its own with full tables.</p></div>
+      <div class="bx-faq-item"><h3>Is sentiment analysis asked in the written paper?</h3><p>As an application of NLP, yes: you may be asked what it is or for an example. The hands-on sentiment analysis case study in Orange is listed under the practical part of Unit 6, so it is assessed through the practical exam and viva rather than written out in full.</p></div>
+      <div class="bx-faq-item"><h3>Do you teach NLP separately or as part of the whole course?</h3><p>Both are possible. In the batch, NLP is taught in its place in the 417 syllabus, with written answers and the Orange case study. One to one can focus only on Unit 6 if that is the gap. Both are covered by the monthly fee shown on this page, and the first class is a free demo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Try a free NLP class with a teacher</h2>
+        </div>
+        <p>In the free first class your child normalises a short piece of text with the teacher, names the stage each broken sentence fails, and writes one two-mark answer that is marked on screen. Afterwards the mentor tells you which parts of Unit 6 are solid and which need work, and whether the batch or one to one would suit your child better.</p>
+        <p>Want every unit summarised first? Start with <a class="bx-link" href="/cbse-class-10-ai-notes">CBSE Class 10 AI notes</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20help%20with%20NLP%2C%20Unit%206%20of%20CBSE%20Class%2010%20AI%20417." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-cb07-parent">Parent's name</label><input id="bx-cb07-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-cb07-phone">Phone or WhatsApp</label><input id="bx-cb07-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-cb07-email">Email</label><input id="bx-cb07-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-cb07-format">Preferred format</label>
+              <select id="bx-cb07-format" name="format" required>
+                <option value="group">Mon and Wed 9 PM group batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-cb07-child">Student's name and school (optional)</label><input id="bx-cb07-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>CBSE Class 10 AI</h4><ul><li><a href="/cbse-class-10-ai-classes-online">The Mon and Wed batch</a></li><li><a href="/cbse-class-10-ai-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mocks</a></li><li><a href="/cbse-class-10-ai-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>CBSE 417 &middot; Class 10 NLP questions</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'cbse-class-10-ai-nlp-questions', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'cbse-class-10-ai-nlp-questions', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

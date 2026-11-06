@@ -56,4 +56,5 @@ Any search about preparing for CBSE Class 10 Artificial Intelligence (417) or IC
 
 - CBSE 417 2026-27: theory 50, practical 50. Part A 10 (five units, 2 each). Part B theory U1 7, U2 11, U3 10, U5 4, U6 8; U4 Statistical Data and U7 Advance Python practical only. Part C: file 15 (at least 15 programs), practical exam 15, viva 5, project 10, project viva 5. CBSE lists 8 suggested programs; any 15-program list is ours, not CBSE's.
 - ICSE CA 2027: one 2-hour paper of 100 marks (external) plus internal assessment; Section A 40 compulsory (Q1 20 MCQs x1, Q2 10 x2), Section B any 4 of 6 at 15. At least 20 lab assignments. 2D arrays and wrapper classes in; recursion out (official 2027 syllabus PDF, checked 2026-10-13; a third-party page lists recursion as revision, so the page says recursion is not examined).
-- Unconfirmed, do not state: assertion-reason inside AI 417 (only IT 402 confirmed), separate-vs-combined passing rule for AI, AI in the 2027 second exam, 2027 ICSE specimen changes.
+- Confirmed 2026-11-06: assertion-reason and two-statement items appear in Section A of the 2025 and 2026 AI 417 main papers and the 2025-26 SQP (marking schemes). The cbseacademic "2026-27" 417 SQP is the 2025-26 paper re-listed.
+- Unconfirmed, do not state: separate-vs-combined passing rule for AI, AI in the 2027 second exam, 2027 ICSE specimen changes.

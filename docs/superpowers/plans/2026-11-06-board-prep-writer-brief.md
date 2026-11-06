@@ -6,8 +6,9 @@ You are writing ONE OR MORE page modules for the Class 10 board-prep series of l
 
 A module `content/board-prep/<slug>.js` in exactly the shape of the existing modules. Study these two first and copy their structure, field names and HTML class vocabulary:
 
-- CBSE: `content/board-prep/cbse-class-10-ai-important-questions.js`
-- ICSE: `content/board-prep/icse-class-10-computer-applications-important-questions.js`
+- CBSE: `content/board-prep/cbse-class-10-ai-mcq-questions.js` (the owner-approved wave 3 preview, the quality bar)
+- ICSE: `content/board-prep/icse-class-10-java-output-questions.js` (the owner-approved wave 3 preview, the quality bar)
+- Older examples: `content/board-prep/cbse-class-10-ai-important-questions.js`, `content/board-prep/icse-class-10-computer-applications-important-questions.js`
 
 The chrome (head, schema, nav, hero offer card, chooser, zone table, reviews, related pages, FAQ, form, footer) comes from `scripts/board-prep/build.js`. You write the page-specific fields only. Then build: `node scripts/board-prep/build.js <slug>` (writes `src/pages/<slug>.html` and `.md`). Do NOT edit build.js, series.json, the CSS, or any other page.
 
@@ -30,11 +31,23 @@ The owner wants pages that rank for the primary keyword AND get quoted by ChatGP
 4. **Inside the syllabus.** CBSE 417 2026-27 and ICSE CA 2027 facts are in the design doc. ICSE: no recursion questions; 2D arrays and wrapper classes are in. CBSE: Units 4 (Statistical Data) and 7 (Advance Python) are practical only. Do not state anything the design doc lists as unconfirmed; if your page's topic depends on one (for example assertion-reason in AI 417), say honestly what is and is not confirmed.
 5. **Keywords placed naturally.** The primary keyword in the title (under 62 characters), H1, description (under 158 characters), first paragraph and at least one H2. Secondary keywords in H2s, FAQ questions and body where they read naturally. FAQ questions should be the questions people literally type. No stuffing.
 6. **Answer capsule.** The `capsule` is a 70 to 110 word direct answer to the primary keyword, quotable on its own (AI engines lift it). It must mention the live classes and the one to one option.
-7. **Depth.** 4 to 6 body sections, each with an H2 and real substance: tables, code pairs (`bx-code-pair`), question lists (`bx-qlist`), cards (`bx-grid-3`), worked examples. 8 to 12 FAQs with full answers. The body (sections + capsule + FAQs) should be 1,800 to 3,000 words.
-8. **Sell the classes without shouting.** Each page should show how this topic is taught live: timed practice, marking against the scheme on screen, mock tests, worksheets, doubt time, viva rehearsal, full revision. End sections with a natural link to the most relevant sibling pages (only slugs in series.json, or existing pages listed in its `HUBS`). Link 3 to 6 sibling pages in the body with `class="bx-link"`.
+7. **Depth.** 4 to 6 body sections, each with an H2 and real substance: tables, code pairs (`bx-code-pair`), question lists (`bx-qlist`), cards (`bx-grid-3`), worked examples. 8 to 12 FAQs with full answers. The body (sections + capsule + FAQs) should be 1,800 to 3,500 words.
+8. **Sell the classes without shouting.** Each page should show how this topic is taught live: timed practice, marking against the scheme on screen, mock tests, worksheets, doubt time, viva rehearsal, full revision. End sections with a natural link to the most relevant sibling pages (only slugs in series.json, or existing pages listed in its `HUBS`). Link 4 to 8 sibling pages in the body with `class="bx-link"`. Any slug in series.json may be linked even if not built yet (all 100 will exist); the gate's "sibling not built yet" warning is fine.
 9. **Unique.** Your prose must not reuse sentences from any other board page. Write chrome-adjacent fields (lede, chooseLede, chooseAfter, zonesLede, zonesAfter, startHtml, timetable rows) fresh for THIS page's topic. The uniqueness gate fails pages above 6% shared text.
 
+## Search intent and AEO (owner: "SEO and AEO must be very strong")
+
+Before writing, run 3 to 6 WebSearch queries on your primary and secondary keywords and read what ranks and what "People also ask" style questions appear. Write the page to satisfy that intent better than what ranks: answer first, then depth. Concretely:
+- H2s phrased the way people ask ("How many MCQs are in the CBSE Class 10 AI paper?", "What is a spy number in Java?").
+- The first sentence under each H2 answers it directly in one or two sentences, then the detail follows (AI engines quote these).
+- Tables for anything comparative, numbered steps for any process, definitions in one plain sentence.
+- FAQs: 8 to 12, taken from real People-also-ask and autocomplete phrasings you found; answers 40 to 90 words, self-contained.
+- Mention the board, the class and the year (2026-27 or 2027 exam) naturally so the page is clearly current.
+- Do not invent statistics, pass rates, toppers, student counts or testimonials. Brand numbers only come from the chrome.
+
 ## Style rules (hard)
+
+- Section ids must not clash with the chrome's ids: never use `picks`, `fees`, `zones`, `reviews`, `more`, `faq`, `start`.
 
 - No em dashes or en dashes anywhere (use commas, colons, "to"). The build throws on an em dash.
 - Never the word "Premium". No emoji. Never write bare "IST" without a time before it in running prose (fine in "9:00 PM IST").
@@ -43,6 +56,10 @@ The owner wants pages that rank for the primary keyword AND get quoted by ChatGP
 - Only course slugs that exist in `COURSES` inside build.js may be used in `picks` (exactly three picks).
 - Crumbs: Home, then the board hub (`/cbse-class-10-ai-classes-online` "Class 10 AI classes" or `/icse-class-10-java-classes-online` "ICSE Class 10 Java classes"), then this page.
 - Set `dateModified: '2026-11-06'`.
+
+## Scratch files
+
+Keep every test file in your OWN folder: `/private/tmp/claude-501/-Users-shivamkhemka-Desktop-SkyCoders-kiro24-frontend/2f1266ca-082f-4406-8392-c7d57c2744f0/scratchpad/writers/<your-first-slug>/`. Other writers share the scratchpad, so never write loose files at its top level.
 
 ## Gates you must run and pass before you finish
 

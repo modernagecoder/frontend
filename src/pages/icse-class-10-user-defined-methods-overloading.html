@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Function Overloading ICSE Class 10: Methods, Programs 2027</title>
+  <meta name="description" content="Function overloading for ICSE Class 10: user-defined methods, three board-format programs run in Java, pure and impure methods, call by value, a checklist.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/icse-class-10-user-defined-methods-overloading">
+  <link rel="alternate" type="text/markdown" href="/src/pages/icse-class-10-user-defined-methods-overloading.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#334E7A">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/icse-class-10-user-defined-methods-overloading">
+  <meta property="og:title" content="Function Overloading and User-Defined Methods, ICSE Class 10">
+  <meta property="og:description" content="Method overloading programs written the way ICSE Section B marks them, run in Java 21: which version Java calls and why, prototype and signature, pure and impure methods, call by value and call by reference, and a checklist for the 15 marks.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Function Overloading and User-Defined Methods, ICSE Class 10">
+  <meta name="twitter:description" content="Function overloading for ICSE Class 10 Java: board-format programs run in Java, pure and impure methods, call by value and reference.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          },
+          {
+            "@type": "Country",
+            "name": "Thailand"
+          }
+        ],
+        "knowsAbout": [
+          "ICSE Computer Applications",
+          "Java",
+          "BlueJ",
+          "CISCE ICSE Class 10 Examination",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-user-defined-methods-overloading#article",
+        "headline": "Function Overloading in ICSE Class 10: User-Defined Methods, Programs and a Marking Checklist",
+        "description": "Method overloading programs written the way ICSE Section B marks them, run in Java 21: which version Java calls and why, prototype and signature, pure and impure methods, call by value and call by reference, and a checklist for the 15 marks.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-11-06",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/icse-class-10-user-defined-methods-overloading"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-user-defined-methods-overloading#course",
+        "name": "ICSE Class 10 Computer Applications (Java) User-Defined Methods and Overloading, Live Online",
+        "description": "Live online teaching of the ICSE Class 10 Computer Applications user-defined methods chapter for the 2027 examination: method prototype and signature, actual and formal parameters, static and non-static methods, pure and impure methods, pass by value and pass by reference, return values and method overloading, with overloading programs written in Section B format and run in BlueJ, in a Tuesday and Wednesday evening mini batch in India or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/icse-class-10-user-defined-methods-overloading",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "2999",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, mini batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": [
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Tuesday"
+              ],
+              "startTime": "17:30",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-user-defined-methods-overloading"
+            }
+          },
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Wednesday"
+              ],
+              "startTime": "20:00",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-user-defined-methods-overloading"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ICSE Class 10 Java classes",
+            "item": "https://learn.modernagecoders.com/icse-class-10-java-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Methods and overloading",
+            "item": "https://learn.modernagecoders.com/icse-class-10-user-defined-methods-overloading"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is function overloading in Java ICSE Class 10?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Function overloading means writing two or more methods with the same name in one class, where each has a different parameter list: a different number of parameters, different types, or the same types in a different order. Java picks the version to run by matching the arguments in the call. It is how the Class 10 syllabus shows polymorphism."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can methods be overloaded by changing only the return type?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Java tells methods apart by their signature, which is the name and the parameter types. Two methods with the same name and parameters but different return types have the same signature, so javac reports that the method is already defined. The parameter list must differ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between a method prototype and a method signature?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The prototype is the whole first line of the method: access specifier, return type, name and parameter list, for example public double area(double l, double b). The signature is only the name and the parameter types in order, area(double, double). Overloaded methods must have different signatures."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between pure and impure methods?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A pure method returns a value that depends only on its parameters and does not change anything outside itself, so calling it twice with the same arguments gives the same result. An impure method changes something outside itself, such as a data member of the object or the contents of an array passed to it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is call by value and call by reference in ICSE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In call by value the method receives a copy of a primitive value, so changes inside the method do not affect the caller. In call by reference the method receives a reference to an object or array, so changes made to its contents are seen by the caller. The syllabus asks for call by value with programs and call by reference as a definition with an example."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are actual and formal parameters?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Formal parameters are the variables named in the method header that receive values, such as l and b in area(double l, double b). Actual parameters are the values or variables written in the call, such as 7.5 and 4 in ob.area(7.5, 4). Their number, types and order must match a version of the method."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which method is called if there is no exact match for the argument?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Java widens the argument to the nearest type that has a version. A char argument goes to an int version before a double one, and a long or float argument goes to a double version. If two versions fit equally well after widening, the call is ambiguous and the program does not compile."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between static and non-static methods?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A static method belongs to the class and can be called without creating an object, like Math.sqrt. A non-static method belongs to each object and is called through an object, like ob.work(5). Calling a non-static method directly from the static main method, without an object, does not compile."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many marks is a function overloading question in ICSE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An overloading program is usually set as a full Section B question, and each Section B question carries 15 marks; students answer any four of the six. Overloading also appears in Section A as short theory or output questions about which version is called."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you teach user-defined methods in live classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. In the ICSE mini batch on Tuesday at 5:30 PM and Wednesday at 8:00 PM IST, students predict which overloaded version runs, write a timed overloading answer and have it marked against a checklist on screen. Families who need another time can choose personalised one to one classes."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-ic09 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">ICSE CA &middot; Methods</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#methods">Methods</a>
+      <a href="#overloading">Overloading</a>
+      <a href="#which">Which runs?</a>
+      <a href="#checklist">Checklist</a>
+      <a href="#fees">Batch or 1-on-1</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> <span>/</span> <span>Methods and overloading</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">ICSE Class 10 &middot; Computer Applications (Java) &middot; User-defined methods 2027</p>
+        <h1>Function overloading in ICSE Class 10, written the way the marks are given.</h1>
+        <p class="bx-lede">Function overloading in ICSE Class 10 means one class with several methods of the same name that differ in their parameters, and it is one of the most predictable Section B questions in Computer Applications. This page covers the whole user-defined methods chapter around it: prototype and signature, pure and impure methods, call by value and call by reference. Three overloading programs are worked in board format and were run in Java 21. In our live mini batch students write these against the clock and are marked on screen.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20help%20with%20ICSE%20Class%2010%20user-defined%20methods%20and%20function%20overloading." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'ic09'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; three overloading programs, run &middot; which version Java picks &middot; 15-mark checklist &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When methods are practised">
+        <p class="bx-tt-title"><span>Methods practice</span><b>ICSE CA</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Tuesday, method calls traced</span><span class="bx-tt-time">5:30<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, an overloading program</span><span class="bx-tt-time">8:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Overloading programs on this page</span><span class="bx-tt-time">3<small>run</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Checklist points per answer</span><span class="bx-tt-time">7<small>ticked</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/icse-computer-applications-java-bluej-course">ICSE Class 10 Computer Applications, Java with BlueJ, Live</a></p>
+          <a class="bx-offer-opt" href="#fees" data-india-only="true"><span class="bx-offer-k">Mini batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.miniBatch">₹2,999</span><small>/month</small></span><span class="bx-offer-v">Tue 5:30 PM and Wed 8:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>In India:</b> methods and overloading are covered on these two evenings of the mini batch. <b>Outside India:</b> a private teacher takes your child through the identical programs and checklist, at an hour that suits the local school day, whether you live in Dubai, Jakarta or Singapore.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Section B &middot; 15 marks</span>
+          <span class="bx-stamp">Written, run, ticked</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Three courses that build on methods</h2>
+      <p class="bx-lede">Overloading answers are written and marked weekly on our BlueJ course for Classes 9 and 10. After the board, ISC Computer Science splits every program into methods, and a data structures course shows methods with clear inputs and outputs holding larger designs together.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/icse-computer-applications-java-bluej-course">
+        <div class="bx-pick-shot"><img src="/images/java-teens.webp" alt="ICSE Computer Applications Java with BlueJ course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / ICSE CA</p>
+          <h3>ICSE Computer Applications, Java with BlueJ</h3>
+          <p>Class 9 and 10 Computer Applications in a mini batch, where every overloading answer is ticked against the same seven-point checklist.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+        <div class="bx-pick-shot"><img src="/images/ip-cs-class-11-12.webp" alt="Computer Science Class 11 and 12 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Next step / ISC</p>
+          <h3>Computer Science Class 11 and 12</h3>
+          <p>For students moving to ISC, where whole programs are split into methods that pass values and objects to each other.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="bx-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures and Algorithms course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Beyond the syllabus / DSA</p>
+          <h3>Data Structures and Algorithms</h3>
+          <p>For the student who wants to see how methods with clear inputs and outputs make larger programs easy to test.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>Function overloading in ICSE Class 10 Computer Applications means defining two or more methods with the same name in one class, each with a different parameter list: a different number of parameters, different types, or a different order of types. Java decides which one to run from the arguments in the call. The return type alone cannot tell overloaded methods apart. Overloading is how the Class 10 syllabus shows polymorphism, and a Section B question often asks for three versions of one method plus a main method that calls them. Modern Age Coders teaches it live in a Tuesday and Wednesday mini batch in India, or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="methods">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. What are the parts of a user-defined method?</p>
+      <h2>User defined methods ICSE: prototype, signature and parameters</h2>
+      <p class="bx-lede">A user-defined method is a named block of code written by the programmer, which can take values in through parameters and send one value back with return. Its first line is the prototype; its name with the parameter types is the signature.</p>
+    </div>
+    <div class="bx-grid-2" style="align-items:start">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>One method, labelled</b><span>header and body</span></figcaption>
+  <pre><i>// prototype (method header):</i>
+public double area(double l, double b)
+<i>// access   return  name  formal parameters</i>
+<i>// specifier type</i>
+{
+    return l * b;     <i>// body: sends one value back</i>
+}
+
+<i>// signature: area(double, double)</i>
+<i>// a call with actual parameters:</i>
+double r = ob.area(7.5, 4);</pre>
+  <p class="bx-code-note">The prototype includes the return type and the access specifier. The signature does not: it is only the name and the parameter types, in order. That difference is exactly why overloading cannot rely on return type.</p>
+</figure>
+      <div class="bx-table-wrap">
+        <table class="bx-table">
+          <thead><tr><th scope="col">Term</th><th scope="col">Plain meaning</th><th scope="col">In the example</th></tr></thead>
+          <tbody>
+            <tr><td>Method prototype</td><td>The first line of a method: access, return type, name, parameter list</td><td><code>public double area(double l, double b)</code></td></tr>
+            <tr><td>Method signature</td><td>The name and the types of the parameters, in order</td><td><code>area(double, double)</code></td></tr>
+            <tr><td>Formal parameters</td><td>Variables in the header that receive values</td><td><code>l</code>, <code>b</code></td></tr>
+            <tr><td>Actual parameters</td><td>Values written in the call</td><td><code>7.5</code>, <code>4</code></td></tr>
+            <tr><td>Return type</td><td>Type of the value sent back, or <code>void</code> for none</td><td><code>double</code></td></tr>
+            <tr><td>Static method</td><td>Belongs to the class; called without an object</td><td><code>Math.sqrt(16)</code></td></tr>
+            <tr><td>Non-static method</td><td>Belongs to each object; called through an object</td><td><code>ob.area(7.5, 4)</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p class="bx-mt-40">Methods live inside a class, so this chapter leans on the one before it: <a class="bx-link" href="/icse-class-10-class-as-basis-of-computation">class as the basis of all computation</a>. Access specifiers such as public and private are covered on <a class="bx-link" href="/icse-class-10-encapsulation-access-specifiers">encapsulation and access specifiers</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="overloading">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. What does an overloading answer look like?</p>
+      <h2>Function overloading programs in ICSE board format</h2>
+      <p class="bx-lede">An overloading question names the class, names the method and describes each version. The answer is the class with every version written exactly as described, plus a main method that creates an object and calls each one. Below are three original questions in that shape, each with a full answer that was run.</p>
+    </div>
+    <div class="bx-dated">
+      <p><b>Question A.</b> Design a class Compute to overload a method <code>work()</code> as follows. (i) <code>void work(int n)</code>: print the sum of the digits of n. (ii) <code>void work(int a, int b)</code>: print the highest common factor of a and b. (iii) <code>void work(String s)</code>: print the number of vowels in s. Write a main method to create an object and call all three.</p>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Answer A: Compute</b><span>three work() methods</span></figcaption>
+  <pre>class Compute {
+    <i>// sum of the digits of n</i>
+    void work(int n) {
+        int sum = 0;
+        while (n &gt; 0) {
+            sum += n % 10;
+            n /= 10;
+        }
+        System.out.println("Digit sum = " + sum);
+    }
+
+    <i>// highest common factor of a and b</i>
+    void work(int a, int b) {
+        while (b != 0) {
+            int r = a % b;
+            a = b;
+            b = r;
+        }
+        System.out.println("HCF = " + a);
+    }
+
+    <i>// number of vowels in s</i>
+    void work(String s) {
+        int v = 0;
+        s = s.toUpperCase();
+        for (int i = 0; i &lt; s.length(); i++) {
+            char ch = s.charAt(i);
+            if ("AEIOU".indexOf(ch) != -1)
+                v++;
+        }
+        System.out.println("Vowels = " + v);
+    }
+
+    public static void main(String[] args) {
+        Compute ob = new Compute();
+        ob.work(4072);
+        ob.work(84, 36);
+        ob.work("Overloading");
+    }
+}</pre>
+</figure>
+      <div>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Output</b><span>one line per call</span></figcaption>
+  <pre>Digit sum = 13
+HCF = 12
+Vowels = 5</pre>
+  <p class="bx-code-note">4 + 0 + 7 + 2 is 13. The HCF loop is Euclid's method: 84 and 36, then 36 and 12, then 12 and 0. "Overloading" has O, e, o, a and i.</p>
+</figure>
+        <div class="bx-table-wrap bx-mt-40">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Call</th><th scope="col">Arguments</th><th scope="col">Version run</th></tr></thead>
+            <tbody>
+              <tr><td><code>ob.work(4072)</code></td><td>one int</td><td><code>work(int)</code></td></tr>
+              <tr><td><code>ob.work(84, 36)</code></td><td>two ints</td><td><code>work(int, int)</code></td></tr>
+              <tr><td><code>ob.work("Overloading")</code></td><td>one String</td><td><code>work(String)</code></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="bx-dated bx-mt-40">
+      <p><b>Question B.</b> Design a class Area with three overloaded methods <code>double area(...)</code>: one parameter r returns the area of a circle (take pi as 3.14); two parameters return the area of a rectangle; three sides a, b, c return the area of a triangle by Heron's formula. Print each result from main.</p>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Answer B: Area</b><span>methods that return</span></figcaption>
+  <pre>class Area {
+    double area(double r) {
+        return 3.14 * r * r;
+    }
+
+    double area(double l, double b) {
+        return l * b;
+    }
+
+    double area(double a, double b, double c) {
+        double s = (a + b + c) / 2;
+        return Math.sqrt(s * (s - a) * (s - b) * (s - c));
+    }
+
+    public static void main(String[] args) {
+        Area ob = new Area();
+        System.out.println("Circle: " + ob.area(5));
+        System.out.println("Rectangle: " + ob.area(7.5, 4));
+        System.out.println("Triangle: " + ob.area(13, 14, 15));
+    }
+}
+
+<i>// Output</i>
+Circle: 78.5
+Rectangle: 30.0
+Triangle: 84.0</pre>
+  <p class="bx-code-note">These are pure methods: they return a value and print nothing, so main does the printing. The int 5 is widened to double to match <code>area(double)</code>.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Answer C: Series</b><span>overloading with series</span></figcaption>
+  <pre><i>// Question C. Overload void sum():</i>
+<i>// sum(int n): 1 + 2 + ... + n</i>
+<i>// sum(double x, int n): x/1 + x/2 + ... + x/n</i>
+class Series {
+    void sum(int n) {
+        int s = 0;
+        for (int i = 1; i &lt;= n; i++)
+            s += i;
+        System.out.println("Sum of first " + n + " numbers = " + s);
+    }
+
+    void sum(double x, int n) {
+        double s = 0;
+        for (int i = 1; i &lt;= n; i++)
+            s += x / i;
+        System.out.println("Series sum = " + s);
+    }
+
+    public static void main(String[] args) {
+        Series ob = new Series();
+        ob.sum(10);
+        ob.sum(6.0, 4);
+    }
+}
+
+<i>// Output</i>
+Sum of first 10 numbers = 55
+Series sum = 12.5</pre>
+  <p class="bx-code-note">6/1 + 6/2 + 6/3 + 6/4 = 6 + 3 + 2 + 1.5. Because x is double, x / i is real division.</p>
+</figure>
+    </div>
+    <p class="bx-mt-40">Overloading questions very often wrap series or string tasks, so practise those bodies on their own as well: <a class="bx-link" href="/icse-class-10-series-programs-java">series programs in Java</a> and <a class="bx-link" href="/icse-class-10-string-programs">ICSE Class 10 string programs</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="which">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. Which overloaded version does Java call?</p>
+      <h2>How Java chooses an overloaded method, and what is not overloading</h2>
+      <p class="bx-lede">Java first looks for a version whose parameter types match the arguments exactly. If there is none, it allows a widening conversion, such as char to int or int to double. If two versions fit equally well, the program does not compile.</p>
+    </div>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Five versions of show()</b><span>run in Java 21</span></figcaption>
+  <pre>static void show(int x)    { System.out.println("int " + x); }
+static void show(double x) { System.out.println("double " + x); }
+static void show(String x) { System.out.println("String " + x); }
+static void show(int x, double y) { System.out.println("int,double " + (x + y)); }
+static void show(double x, int y) { System.out.println("double,int " + (x * y)); }</pre>
+</figure>
+    <div class="bx-table-wrap bx-mt-40">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Call</th><th scope="col">Output</th><th scope="col">Why</th></tr></thead>
+        <tbody>
+          <tr><td><code>show(7)</code></td><td class="bx-num">int 7</td><td>Exact match for int</td></tr>
+          <tr><td><code>show(7.0)</code></td><td class="bx-num">double 7.0</td><td>Exact match for double</td></tr>
+          <tr><td><code>show('A')</code></td><td class="bx-num">int 65</td><td>No char version, so char widens to int, the nearest type</td></tr>
+          <tr><td><code>show(9L)</code></td><td class="bx-num">double 9.0</td><td>A long cannot shrink to int, but it can widen to double</td></tr>
+          <tr><td><code>show(5.0f)</code></td><td class="bx-num">double 5.0</td><td>float widens to double</td></tr>
+          <tr><td><code>show("7")</code></td><td class="bx-num">String 7</td><td>A String argument only fits the String version</td></tr>
+          <tr><td><code>show(2, 3.5)</code></td><td class="bx-num">int,double 5.5</td><td>The order of types picks the version</td></tr>
+          <tr><td><code>show(2.5, 4)</code></td><td class="bx-num">double,int 10.0</td><td>Same two types, other order, other version</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-2 bx-mt-40" style="align-items:start">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Not overloading 1</b><span>return type only</span></figcaption>
+  <pre>int val(int x) { return x; }
+double val(int x) { return x; }
+
+<i>// javac: error: method val(int) is</i>
+<i>// already defined in class RetOnly</i></pre>
+  <p class="bx-code-note">Both have the signature <code>val(int)</code>. A different return type does not make a different method.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Not compiling 2</b><span>an ambiguous call</span></figcaption>
+  <pre>static void show(int x, double y) { }
+static void show(double x, int y) { }
+<i>// ...</i>
+show(2, 3);
+
+<i>// javac: error: reference to show is ambiguous</i></pre>
+  <p class="bx-code-note">Two ints fit both versions after one widening each, and neither is closer, so Java refuses to pick.</p>
+</figure>
+    </div>
+    <p class="bx-mt-40">Questions that ask for the output of an overloaded call are traced on <a class="bx-link" href="/icse-class-10-java-output-questions">ICSE Java output questions</a>, and comparisons such as pure versus impure or static versus non-static are collected on <a class="bx-link" href="/icse-computer-difference-between-questions">ICSE difference between questions</a>. Constructors can be overloaded with the same rules; that chapter is on <a class="bx-link" href="/icse-class-10-constructors-questions">ICSE Class 10 constructors questions</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="pure">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. What are pure and impure methods, and how are values passed?</p>
+      <h2>Pure and impure methods, call by value and call by reference in ICSE</h2>
+      <p class="bx-lede">A pure method returns a result that depends only on its parameters and changes nothing outside itself. An impure method changes something outside itself, such as a data member of the object or an array it was given. The syllabus asks for pass by value with programs, and pass by reference as a definition with an example.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>PureImpure</b><span>one of each</span></figcaption>
+  <pre>class PureImpure {
+    int total = 0;
+
+    <i>// pure: uses only its parameter, changes nothing outside</i>
+    int cube(int x) {
+        return x * x * x;
+    }
+
+    <i>// impure: changes the object's data member</i>
+    void addScore(int s) {
+        total = total + s;
+    }
+
+    public static void main(String[] args) {
+        PureImpure ob = new PureImpure();
+        System.out.println(ob.cube(3) + " " + ob.cube(3));
+        ob.addScore(40);
+        ob.addScore(25);
+        System.out.println("total = " + ob.total);
+    }
+}
+
+<i>// Output</i>
+27 27
+total = 65</pre>
+  <p class="bx-code-note">Calling cube(3) twice gives 27 twice and nothing else changes. Each call to addScore leaves the object different, which is what makes it impure.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Passing</b><span>value and reference</span></figcaption>
+  <pre>class Passing {
+    static void swap(int a, int b) {
+        int t = a;
+        a = b;
+        b = t;
+        System.out.println("Inside: a = " + a + ", b = " + b);
+    }
+
+    static void doubleAll(int[] arr) {
+        for (int i = 0; i &lt; arr.length; i++)
+            arr[i] = arr[i] * 2;
+    }
+
+    public static void main(String[] args) {
+        int a = 30, b = 50;
+        swap(a, b);
+        System.out.println("After: a = " + a + ", b = " + b);
+        int[] m = {3, 5, 7};
+        doubleAll(m);
+        System.out.println(m[0] + " " + m[1] + " " + m[2]);
+    }
+}
+
+<i>// Output</i>
+Inside: a = 50, b = 30
+After: a = 30, b = 50
+6 10 14</pre>
+  <p class="bx-code-note">swap works on copies of 30 and 50, so main's variables do not change. doubleAll receives a reference to the same array, so its changes are seen in main.</p>
+</figure>
+    </div>
+    <div class="bx-table-wrap bx-mt-40">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Point</th><th scope="col">Call (pass) by value</th><th scope="col">Call (pass) by reference</th></tr></thead>
+        <tbody>
+          <tr><td>What the method receives</td><td>A copy of the value</td><td>A reference to the same object or array</td></tr>
+          <tr><td>Types passed this way</td><td>Primitive types: int, double, char, boolean and the rest</td><td>Reference types: arrays and objects</td></tr>
+          <tr><td>Change inside the method</td><td>Not seen by the caller</td><td>Changes to the object's contents are seen by the caller</td></tr>
+          <tr><td>Example above</td><td><code>swap(a, b)</code></td><td><code>doubleAll(m)</code></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">Strictly, Java copies the reference itself, which is why assigning a new String or a new array to a parameter does not affect the caller. In the ICSE answer, the definitions in the table are what is expected. Ready-to-learn versions of these definitions are in <a class="bx-link" href="/icse-computer-applications-notes">ICSE Computer Applications chapter-wise notes</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" style="font-variant-ligatures:none" id="checklist">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. How is an overloading question marked?</p>
+      <h2>A marking checklist for a 15-mark overloading question</h2>
+      <p class="bx-lede">An overloading answer is easy to get mostly right and annoyingly easy to lose marks on. Tick these seven points before moving to the next question. They are the points our teachers mark against in class.</p>
+    </div>
+    <ul class="bx-check">
+      <li><b>Class name exactly as given.</b> If the question says class Compute, it is Compute, not Overload or Main.</li>
+      <li><b>Method name identical in every version.</b> work, work and work. A version called work2 is not overloading at all.</li>
+      <li><b>Parameter types and order as stated.</b> If the question says <code>(double x, int n)</code>, writing <code>(int n, double x)</code> is a different signature.</li>
+      <li><b>Return type as stated.</b> void versions print; returning versions return and let main print. Swapping the two changes what the question asked for.</li>
+      <li><b>Each body correct on its own.</b> Test each version with one small value you can check by hand, as the outputs above were checked.</li>
+      <li><b>main creates an object and calls every version.</b> Non-static methods need <code>ob.work(...)</code>; a version that is never called shows nothing.</li>
+      <li><b>Variable descriptions.</b> Meaningful names or a short description of each variable, as the Section B instructions ask.</li>
+    </ul>
+    <div class="bx-table-wrap bx-mt-40">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Common slip</th><th scope="col">Result</th></tr></thead>
+        <tbody>
+          <tr><td>Two versions differ only in return type</td><td>Does not compile: "already defined"</td></tr>
+          <tr><td>Method declared inside main</td><td>Does not compile (illegal start of expression): a method cannot be defined inside another method</td></tr>
+          <tr><td>Non-static method called from main without an object</td><td>Does not compile: non-static method cannot be referenced from a static context</td></tr>
+          <tr><td>Missing return in a non-void version</td><td>Does not compile: missing return statement</td></tr>
+          <tr><td>Digit loop changes n, then n is printed in the message</td><td>Prints 0 instead of the number the user gave</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The same checklist idea, applied to every kind of Section B answer, is on <a class="bx-link" href="/how-to-score-100-in-icse-computer-applications">how to score 100 in ICSE Computer Applications</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="live">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. How is this chapter taught live?</p>
+      <h2>Methods and overloading in the mini batch</h2>
+      <p class="bx-lede">The chapter is learnt by calling methods, watching which version runs, and writing full answers that are ticked against the checklist.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>Tuesday: guess the version</h4><p>At the 5:30 PM IST class students see a set of overloaded headers and a list of calls, and write which version each call runs before BlueJ settles it.</p></li>
+      <li class="bx-step"><h4>Tuesday: pure or impure?</h4><p>Short methods are sorted into pure and impure, and value or reference, out loud, so the theory answers come out in the student's own words.</p></li>
+      <li class="bx-step"><h4>Wednesday: one overloading question, timed</h4><p>At the 8:00 PM IST class an original question in board shape is answered on paper in about 20 minutes, then typed and run.</p></li>
+      <li class="bx-step"><h4>Ticked on screen</h4><p>The teacher marks each answer against the seven points with the student watching, and the missed point becomes the first thing checked next week.</p></li>
+      <li class="bx-step"><h4>Viva and mocks</h4><p>Prototype, signature and overloading are favourite oral questions, so they are rehearsed before internal assessment, and overloading appears in the full two-hour mocks from December.</p></li>
+    </ol>
+    <p class="bx-mt-40">The oral side is covered on <a class="bx-link" href="/icse-computer-applications-viva-questions">ICSE Computer Applications viva questions</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Learn methods and overloading in the mini batch, or one to one</h2>
+      <p class="bx-lede">Whichever format you pick, your child gets the same overloading questions, the same drills on which version Java calls and the same seven-point checklist. An Indian family may take the two fixed evenings or a private hour; overseas, only private classes are offered. Billing is month to month and there is no admission fee.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card" data-india-only="true">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Mini batch, Tuesday 5:30 PM and Wednesday 8 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Tuesday 5:30 PM and Wednesday 8:00 PM IST, live</li><li>No more than six ICSE Class 10 students</li><li>Overloaded calls predicted, then run in BlueJ</li><li>A timed overloading answer each Wednesday</li><li>Every answer ticked against the checklist</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>A time the family sets, in India or abroad</li><li>Focus on whichever checklist point keeps slipping</li><li>Theory definitions rehearsed until they are exact</li><li>Harder overloading questions as confidence grows</li><li>Checklist and programs identical to the batch</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
+    <p class="bx-mt-40">A student who writes working methods but loses marks on names, signatures or a missing main usually needs only a few one to one sessions with the checklist. A student still unsure how parameters and return values work does better with the steady rhythm of two batch classes a week. Fees show in your own currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>Learning methods and overloading from outside India</h2>
+      <p class="bx-lede">A CISCE school in the Gulf or South East Asia writes the very same Computer Applications paper, and an overloading program is worth just as much there. Families abroad get private classes, timed to fit after the local school day.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Time difference</th><th scope="col">Usual class window, local time</th><th scope="col">Format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td>IST</td><td class="bx-num">Tue 5:30 PM, Wed 8:00 PM</td><td><span class="bx-fit">Mini batch or 1-on-1</span></td></tr>
+          <tr><td>United Arab Emirates<br><span class="bx-src">Dubai, Sharjah</span></td><td>1 h 30 min behind India</td><td class="bx-num">3:00 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Indonesia and Thailand<br><span class="bx-src">West Java, Bangkok area</span></td><td>1 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Singapore<br><span class="bx-src">Singapore</span></td><td>2 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">We agree the hour once the free demo is done, and shift it when school tests get in the way. More detail for overseas families is on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the ICSE Class 10 Computer Applications series, grouped by what you need: classes, each chapter, Section B programs, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a></li>
+          <li><a href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Java classes in the Gulf and abroad</a></li>
+          <li><a href="/icse-class-10-bluej-java-coaching">ICSE BlueJ Java coaching</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Chapter by chapter</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a></li>
+          <li><a href="/icse-class-10-constructors-questions">Constructors</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Programs for Section B</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a></li>
+          <li><a href="/icse-class-10-string-programs">String programs</a></li>
+          <li><a href="/icse-special-number-programs-java">Special number programs</a></li>
+          <li><a href="/icse-class-10-sorting-and-searching-programs">Sorting and searching programs</a></li>
+          <li><a href="/icse-class-10-2d-array-programs">2D array programs</a></li>
+          <li><a href="/icse-class-10-pattern-programs-java">Pattern programs</a></li>
+          <li><a href="/icse-class-10-menu-driven-programs">Menu driven and switch case</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></li>
+          <li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mock tests</a></li>
+          <li><a href="/icse-computer-applications-previous-year-papers-solved">Previous year papers, solved</a></li>
+          <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
+          <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
+          <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and internal assessment</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-board-exam-preparation">ICSE board exam preparation</a></li>
+          <li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+          <li><a href="/icse-class-10-computer-applications-project-and-internal-assessment">Project and internal assessment</a></li>
+          <li><a href="/how-to-score-100-in-icse-computer-applications">How to score 100</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>CBSE Class 10 AI (417):</b> <a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about methods and overloading</p>
+      <h2>What students ask about function overloading and user-defined methods</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>What is function overloading in Java ICSE Class 10?</h3><p>Function overloading means writing two or more methods with the same name in one class, where each has a different parameter list: a different number of parameters, different types, or the same types in a different order. Java picks the version to run by matching the arguments in the call. It is how the Class 10 syllabus shows polymorphism.</p></div>
+      <div class="bx-faq-item"><h3>Can methods be overloaded by changing only the return type?</h3><p>No. Java tells methods apart by their signature, which is the name and the parameter types. Two methods with the same name and parameters but different return types have the same signature, so javac reports that the method is already defined. The parameter list must differ.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between a method prototype and a method signature?</h3><p>The prototype is the whole first line of the method: access specifier, return type, name and parameter list, for example public double area(double l, double b). The signature is only the name and the parameter types in order, area(double, double). Overloaded methods must have different signatures.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between pure and impure methods?</h3><p>A pure method returns a value that depends only on its parameters and does not change anything outside itself, so calling it twice with the same arguments gives the same result. An impure method changes something outside itself, such as a data member of the object or the contents of an array passed to it.</p></div>
+      <div class="bx-faq-item"><h3>What is call by value and call by reference in ICSE?</h3><p>In call by value the method receives a copy of a primitive value, so changes inside the method do not affect the caller. In call by reference the method receives a reference to an object or array, so changes made to its contents are seen by the caller. The syllabus asks for call by value with programs and call by reference as a definition with an example.</p></div>
+      <div class="bx-faq-item"><h3>What are actual and formal parameters?</h3><p>Formal parameters are the variables named in the method header that receive values, such as l and b in area(double l, double b). Actual parameters are the values or variables written in the call, such as 7.5 and 4 in ob.area(7.5, 4). Their number, types and order must match a version of the method.</p></div>
+      <div class="bx-faq-item"><h3>Which method is called if there is no exact match for the argument?</h3><p>Java widens the argument to the nearest type that has a version. A char argument goes to an int version before a double one, and a long or float argument goes to a double version. If two versions fit equally well after widening, the call is ambiguous and the program does not compile.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between static and non-static methods?</h3><p>A static method belongs to the class and can be called without creating an object, like Math.sqrt. A non-static method belongs to each object and is called through an object, like ob.work(5). Calling a non-static method directly from the static main method, without an object, does not compile.</p></div>
+      <div class="bx-faq-item"><h3>How many marks is a function overloading question in ICSE?</h3><p>An overloading program is usually set as a full Section B question, and each Section B question carries 15 marks; students answer any four of the six. Overloading also appears in Section A as short theory or output questions about which version is called.</p></div>
+      <div class="bx-faq-item"><h3>Do you teach user-defined methods in live classes?</h3><p>Yes. In the ICSE mini batch on Tuesday at 5:30 PM and Wednesday at 8:00 PM IST, students predict which overloaded version runs, write a timed overloading answer and have it marked against a checklist on screen. Families who need another time can choose personalised one to one classes.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Try a free live class on methods and overloading</h2>
+        </div>
+        <p>In the free demo your child predicts which overloaded method each call will run, writes one version of an overloading question with the mentor, and runs it in BlueJ. Afterwards you hear which parts of the methods chapter are secure and which need work, and whether the mini batch or one to one fits better.</p>
+        <p>Prefer to see the whole subject first? Look at <a class="bx-link" href="/icse-class-10-computer-applications-important-questions">ICSE Computer Applications important questions</a> or <a class="bx-link" href="/icse-class-10-java-classes-online">the ICSE Class 10 Java classes</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20help%20with%20ICSE%20Class%2010%20user-defined%20methods%20and%20function%20overloading." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic09-parent">Parent's name</label><input id="bx-ic09-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-ic09-phone">Phone or WhatsApp</label><input id="bx-ic09-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic09-email">Email</label><input id="bx-ic09-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-ic09-format">Preferred format</label>
+              <select id="bx-ic09-format" name="format" required>
+                <option value="mini">Tue 5:30 PM and Wed 8 PM mini batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-ic09-child">Student's name and school (optional)</label><input id="bx-ic09-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>ICSE Class 10 Computer Applications</h4><ul><li><a href="/icse-class-10-java-classes-online">The Tue and Wed batch</a></li><li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mocks</a></li><li><a href="/icse-class-10-computer-applications-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>ICSE Computer Applications &middot; Methods and overloading 2027</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'icse-class-10-user-defined-methods-overloading', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'icse-class-10-user-defined-methods-overloading', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

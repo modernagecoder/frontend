@@ -7,8 +7,9 @@
 // <details> so readers can self-mark and crawlers still read them.
 // Theory MCQs come only from Part A and Units 1, 2, 3, 5, 6; Units 4 and 7 are a
 // short group labelled practical only. Paper weighting is quoted from the 2025-26
-// sample paper (the 2026-27 417 SQP is not out); assertion-reason for 417 is NOT
-// claimed (only IT 402 is confirmed).
+// sample paper (the 2026-27 417 SQP is not out). Assertion-reason items appear in
+// the 2025 and 2026 main papers and the 2025-26 SQP (marking schemes checked
+// 2026-11-06); nothing is promised for 2027.
 // Every numerical was recomputed with python3 on 2026-11-06 (scratch cb01.py):
 // confusion matrix TP 54, FP 6, FN 36, TN 104 gives accuracy 0.79, precision 0.90,
 // recall 0.60, F1 0.72 (plain average 0.75), wrong predictions 42; all-healthy
@@ -323,8 +324,9 @@ Predicted No    FN = 36      TN = 104</pre>
       <div class="bx-card"><h3>Choose your skips early</h3><p>On a first read, mark the four AI items you are least sure of, answer the rest in order, then return if time allows.</p></div>
     </div>
     <p class="bx-mt-40">
-      We have not seen CBSE confirm assertion and reason items for 417, so this bank keeps to four-option MCQs;
-      judging a reason against a claim is still drilled in class. Written answers for every unit are on <a class="bx-link" href="/cbse-class-10-ai-important-questions">CBSE Class 10 AI important questions</a>.
+      Section A also carries assertion and reason items: they appeared in the 2025 and 2026 board papers and the 2025-26
+      sample paper. This bank keeps to four-option MCQs; assertion and reason sets have their own page,
+      <a class="bx-link" href="/cbse-class-10-ai-assertion-reason-questions">CBSE Class 10 AI assertion reason questions</a>. Written answers for every unit are on <a class="bx-link" href="/cbse-class-10-ai-important-questions">CBSE Class 10 AI important questions</a>.
     </p>
   </div>
 </section>`,
@@ -376,7 +378,7 @@ Predicted No    FN = 36      TN = 104</pre>
     ['Is there negative marking in class 10 AI MCQs?', 'No. The 2025-26 sample paper has no negative marking in the objective section, so attempt every item, using elimination when unsure.'],
     ['Which unit has the most MCQs in Class 10 AI?', 'Evaluating Models, with 6 of the 24 AI objective items in the 2025-26 blueprint, many of them confusion matrix calculations. Units 1 and 6 follow with 5 each, and Units 2 and 5 have 4 each.'],
     ['Are MCQs asked from Statistical Data and Advance Python?', 'Not in the theory paper. Units 4 and 7 are assessed through the practical: the file, the practical exam and the viva. Examiners there ask what a short NumPy or Matplotlib program will show.'],
-    ['Are assertion reason questions asked in CBSE Class 10 AI?', 'We cannot confirm it for 417. Assertion and reason items are confirmed for the related IT 402 paper, but the 2026-27 sample paper for 417 is not out. We still practise judging whether a reason explains a claim.'],
+    ['Are assertion reason questions asked in CBSE Class 10 AI?', 'Yes. Assertion and reason items appeared in Section A of the 2025 and 2026 CBSE Class 10 AI board papers and in the 2025-26 sample paper, alongside two-statement items. Each asks whether both statements are true and whether the reason explains the assertion. The 2026-27 sample paper is not out yet, so we drill the format without promising its exact count.'],
     ['How should I practise AI class 10 chapter wise MCQ?', 'One unit at a time first, timed at about a minute per item, then mixed sets once every unit is done. Read the reason for every option, and redo the weakest unit a week later with new numbers.'],
     ['Are numerical MCQs asked in Class 10 AI?', 'Yes. Expect confusion matrix metrics (accuracy, precision, recall, F1 score), the perceptron weighted sum, pixel and RGB value counts, token counts and Bag of Words vectors.'],
     ['How long should I spend on Section A?', 'Our mocks give the objective section about 45 to 50 minutes of the two hours, leaving the rest for written answers.'],

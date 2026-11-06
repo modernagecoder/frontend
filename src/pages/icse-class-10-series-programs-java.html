@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Series Programs in Java ICSE Class 10, Solved for 2027</title>
+  <meta name="description" content="Series programs in Java for ICSE 2027: sum of series, Fibonacci and factorial series grouped by loop pattern, each print and sum version run in Java.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/icse-class-10-series-programs-java">
+  <link rel="alternate" type="text/markdown" href="/src/pages/icse-class-10-series-programs-java.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#3B5B4B">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/icse-class-10-series-programs-java">
+  <meta property="og:title" content="Series Programs in Java for ICSE, Grouped by Loop Pattern">
+  <meta property="og:description" content="Fourteen series for ICSE Class 10 Computer Applications grouped into five loop patterns: term from the counter, term from the previous term, Fibonacci from the two previous terms, alternating signs, and running factorials and totals. Each has a print or sum version with the output of a real Java run.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Series Programs in Java for ICSE, Grouped by Loop Pattern">
+  <meta name="twitter:description" content="ICSE Class 10 series programs in Java grouped by loop pattern: sum of series, Fibonacci and factorial series, each run in Java.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          },
+          {
+            "@type": "Country",
+            "name": "Thailand"
+          }
+        ],
+        "knowsAbout": [
+          "ICSE Computer Applications",
+          "Java",
+          "BlueJ",
+          "CISCE ICSE Class 10 Examination",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-series-programs-java#article",
+        "headline": "Series Programs in Java for ICSE Class 10, 2027: Fourteen Series Grouped by the Loop Pattern That Generates Them",
+        "description": "Fourteen series for ICSE Class 10 Computer Applications grouped into five loop patterns: term from the counter, term from the previous term, Fibonacci from the two previous terms, alternating signs, and running factorials and totals. Each has a print or sum version with the output of a real Java run.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-10-13",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/icse-class-10-series-programs-java"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-series-programs-java#course",
+        "name": "ICSE Class 10 Computer Applications (Java) Series Programs Practice, Live Online",
+        "description": "Live online practice of series programs for the ICSE Class 10 Computer Applications 2027 examination: printing terms and summing series, terms from the loop counter, terms built from the previous term, the Fibonacci series with loops, alternating signs, factorial series and running totals, each planned with a term table, written by hand and run in BlueJ on a shared screen, in a Tuesday and Wednesday evening mini batch in India or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/icse-class-10-series-programs-java",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "2999",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, mini batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": [
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Tuesday"
+              ],
+              "startTime": "17:30",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-series-programs-java"
+            }
+          },
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Wednesday"
+              ],
+              "startTime": "20:00",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-series-programs-java"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ICSE Class 10 Java classes",
+            "item": "https://learn.modernagecoders.com/icse-class-10-java-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Series programs",
+            "item": "https://learn.modernagecoders.com/icse-class-10-series-programs-java"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do you write a series program in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Write the first four terms with their positions 1, 2, 3, 4, and find where each term comes from: a formula in the position, the previous term, the two previous terms, a flipping sign or a growing factorial. Then write one for loop from 1 to n that makes the term and either prints it or adds it to a sum."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you find the sum of a series in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Declare a sum variable before the loop and set it to 0. Inside the loop, work out the current term and add it with s = s + term. Print s once, after the loop ends. Use double for s whenever any term involves division or Math.pow."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you print the Fibonacci series in Java without recursion?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start with a = 0 and b = 1. In each pass of a loop print a, then set c = a + b, a = b and b = c. For the first n terms use a for loop; for all terms up to a limit use a while loop that runs as long as a has not passed the limit. Recursion is not needed and is not in the ICSE 2027 syllabus."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you write a factorial series program in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Keep a running factorial f that starts at 1 and becomes f * i in each pass, so it equals i! for the current term. Add f, or a term built from it, to the sum. Do not write a separate inner loop for each factorial. Use long, because factorials pass the int limit at 13!."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does my series program print 0 for every term?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Usually because of integer division. In 1 / (i * i) both sides are int, so the answer is 0 for every i above 1. Write 1.0 / (i * i) or cast to double, and make the sum variable a double."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you handle alternating plus and minus signs in a series?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Keep an int sign that starts at 1, multiply each term by sign, and set sign = -sign at the end of every pass. Or test i % 2: add the term when i is odd and subtract it when i is even. Both are accepted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you print the series 1, 11, 111, 1111 in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Keep a term t that starts at 0, and in each pass set t = t * 10 + 1 and print it. The same idea with + 2 gives 2, 22, 222. Use long, because these terms grow by a factor of ten each time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for series, a for loop or a while loop?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use for when the number of terms n is given, because the counter doubles as the term position. Use while when the series must stop at a value, such as all terms up to 100, because the number of passes is not known in advance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are series programs important for ICSE Class 10?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They matter a lot. Series test loops, data types and careful reading at once. They come as whole Section B programs, and also as one branch of a larger overloading or menu program. Getting the term right is most of the work."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you teach series programs in live classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We do. Each week the small ICSE batch meets a new series, reads it with a term table, writes the program by hand, checks a hand sum and runs it in BlueJ on a shared screen. Private one to one lessons are the alternative when batch times clash."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-ic24 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">ICSE CA &middot; Series</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#patterns">Loop patterns</a>
+      <a href="#counter">From the counter</a>
+      <a href="#previous">From the last term</a>
+      <a href="#fibonacci">Fibonacci</a>
+      <a href="#factorial">Factorial series</a>
+      <a href="#fees">Batch or 1-on-1</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> <span>/</span> <span>Series programs</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">ICSE Class 10 &middot; Computer Applications (Java) &middot; Series programs 2027</p>
+        <h1>Series programs in Java for ICSE, grouped by the loop that generates them.</h1>
+        <p class="bx-lede">Series programs in Java for ICSE either print the first n terms of a sequence or add them up. Every one of them is a single loop, and what differs is where the next term comes from: the loop counter, the term before it, the two terms before it, a sign that flips, or a factorial that grows. This page sorts fourteen series into those five loop patterns, gives a print or sum version of each, with the result Java 21 actually printed, and shows how the same work is done in our live mini batch.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20help%20with%20ICSE%20Class%2010%20series%20programs%20in%20Java." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'ic24'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; fourteen series, five loop patterns &middot; print and sum versions &middot; Fibonacci and factorial without recursion &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When series programs are practised">
+        <p class="bx-tt-title"><span>Series practice</span><b>ICSE CA</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Tuesday, term tables on paper</span><span class="bx-tt-time">5:30<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, sums checked in BlueJ</span><span class="bx-tt-time">8:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Loop patterns behind every series</span><span class="bx-tt-time">5<small>patterns</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Sum checked by hand first</span><span class="bx-tt-time">Every<small>series</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/icse-computer-applications-java-bluej-course">ICSE Class 10 Computer Applications, Java with BlueJ, Live</a></p>
+          <a class="bx-offer-opt" href="#fees" data-india-only="true"><span class="bx-offer-k">Mini batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.miniBatch">₹2,999</span><small>/month</small></span><span class="bx-offer-v">Tue 5:30 PM and Wed 8:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>In India:</b> the mini batch at these two times. <b>Outside India:</b> private series lessons fitted to the family's local evening, wherever the ICSE school is.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Section B &middot; loops and methods</span>
+          <span class="bx-stamp">Term table, then code</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Courses where series programs are taught</h2>
+      <p class="bx-lede">The ICSE Java course where these series form part of the weekly batch work, the Class 11 and 12 Computer Science course where series return inside ISC programs, and the CBSE Class 10 Maths prep course for a student who wants the sequences and progressions behind them on firmer ground.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/icse-computer-applications-java-bluej-course">
+        <div class="bx-pick-shot"><img src="/images/java-teens.webp" alt="ICSE Computer Applications Java with BlueJ course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / ICSE CA</p>
+          <h3>ICSE Computer Applications, Java with BlueJ</h3>
+          <p>The full Class 9 and 10 syllabus in small groups; every series starts as a term table and ends as a BlueJ run.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+        <div class="bx-pick-shot"><img src="/images/ip-cs-class-11-12.webp" alt="Computer Science Class 11 and 12 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Next step / ISC</p>
+          <h3>Computer Science Class 11 and 12</h3>
+          <p>After Class 10, ISC brings series back inside longer programs, and recursion joins the toolkit there.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-class-10-maths-board-exam-prep-course">
+        <div class="bx-pick-shot"><img src="/images/cbse-class-10-maths.webp" alt="CBSE Class 10 Maths board exam prep course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Maths support / Class 10</p>
+          <h3>CBSE Class 10 Maths board exam prep</h3>
+          <p>For the student who finds arithmetic progressions and powers shaky and wants them steady before writing series in code.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>Series programs in Java for ICSE Class 10 print the first n terms of a sequence or find the sum of a series using one loop. They fall into five loop patterns: the term is a formula in the counter (1/i²), it is built from the previous term (1, 11, 111), it is the sum of the two before it (Fibonacci), the sign alternates, or a factorial or running total grows inside the loop. Use double for fractions and long for large terms. Modern Age Coders teaches them live twice a week in a small ICSE batch in India, with private one to one lessons as the other option.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="patterns">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. How do you recognise which loop a series needs?</p>
+      <h2>Series generation in BlueJ: the five loop patterns</h2>
+      <p class="bx-lede">Write the first four terms in a column, then ask where each term comes from. If you can work out term i from i alone, it is pattern 1. If you need the term before it, it is pattern 2. Two terms before it: pattern 3. A sign that flips: pattern 4. A product or total that keeps growing: pattern 5.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Pattern</th><th scope="col">Example series</th><th scope="col">The line that makes the term</th><th scope="col">On this page</th></tr></thead>
+        <tbody>
+          <tr><td>1. Term from the counter</td><td class="bx-num">2, 5, 10, 17, ...</td><td><code>term = i * i + 1;</code></td><td>Q2</td></tr>
+          <tr><td>2. Term from the previous term</td><td class="bx-num">1, 11, 111, 1111, ...</td><td><code>t = t * 10 + 1;</code></td><td>Q3</td></tr>
+          <tr><td>3. Term from the two previous terms</td><td class="bx-num">0, 1, 1, 2, 3, 5, ...</td><td><code>c = a + b; a = b; b = c;</code></td><td>Q4</td></tr>
+          <tr><td>4. Alternating sign</td><td class="bx-num">1 - 2 + 3 - 4 + ...</td><td><code>s = s + sign * i; sign = -sign;</code></td><td>Q5</td></tr>
+          <tr><td>5. Running factorial or total</td><td class="bx-num">1! + 2! + 3! + ...</td><td><code>f = f * i; s = s + f;</code></td><td>Q5</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="bx-mt-40">Print version or sum version?</h3>
+    <p>The loop is the same in both. A print version calls <code>System.out.print(term + " ")</code> inside the loop. A sum version declares <code>s = 0</code> before the loop, adds each term with <code>s = s + term</code>, and prints <code>s</code> once, after the loop. Printing s inside the loop is the most common slip: the answer then shows every partial sum instead of one total.</p>
+    <div class="bx-table-wrap bx-mt-40">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Choose</th><th scope="col">When</th><th scope="col">Why</th></tr></thead>
+        <tbody>
+          <tr><td><code>int</code></td><td>Whole-number terms that stay small</td><td>Exact and simple</td></tr>
+          <tr><td><code>long</code></td><td>Terms that grow fast: 1, 11, 111, powers, factorials</td><td>13! is already past the int limit of about 2.1 billion</td></tr>
+          <tr><td><code>double</code></td><td>Any term with division or Math.pow</td><td>1 / (i * i) in int arithmetic is 0 for every i above 1</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="counter">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. How do you write a sum of series program in Java?</p>
+      <h2>Sum of series program ICSE: when the term is a formula in i</h2>
+      <p class="bx-lede">If term i can be written straight from i, put that formula inside a for loop from 1 to n. Use a decimal point (1.0) or Math.pow whenever the term divides, so Java works in double.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>FromCounter.java</b><span>pattern 1: term from i</span></figcaption>
+  <pre>class FromCounter {
+    static void printTerms(int n) {              <i>// 2, 5, 10, 17, ...</i>
+        for (int i = 1; i &lt;= n; i++)
+            System.out.print(i * i + 1 + " ");
+        System.out.println();
+    }
+    static void sumTerms(int n) {                <i>// 1 + 1/4 + 1/9 + ... + 1/n^2</i>
+        double s = 0;
+        for (int i = 1; i &lt;= n; i++)
+            s = s + 1.0 / (i * i);
+        System.out.println("Sum = " + s);
+    }
+    static void oddPowers(double x, int n) {     <i>// x + x^3 + x^5 + ... n terms</i>
+        double s = 0;
+        for (int i = 1; i &lt;= n; i++)
+            s = s + Math.pow(x, 2 * i - 1);
+        System.out.println("Sum = " + s);
+    }
+    public static void main(String args[]) {
+        printTerms(6);
+        sumTerms(4);
+        oddPowers(2, 4);
+    }
+}</pre>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Output</b><span>Java 21</span></figcaption>
+  <pre>2 5 10 17 26 37
+Sum = 1.4236111111111112
+Sum = 170.0</pre>
+  <p class="bx-code-note">In printTerms, i * i + 1 is worked out before the String " " joins it, because * and the first + both act on numbers. oddPowers for x = 2 is 2 + 8 + 32 + 128, which is 170; Math.pow returns double, so Java prints 170.0.</p>
+</figure>
+    </div>
+    <h3 class="bx-mt-40">Finding the formula for term i</h3>
+    <ol class="bx-qlist">
+      <li><b>Write i above each term.</b> For 2, 5, 10, 17 the pairs are (1, 2), (2, 5), (3, 10), (4, 17).</li>
+      <li><b>Compare with i, i², 2i and 2i - 1.</b> Each term is one more than i², so term = i * i + 1.</li>
+      <li><b>For powers, look at the exponents.</b> x, x³, x⁵ have exponents 1, 3, 5, which is 2i - 1.</li>
+      <li><b>Check term 4 with the formula</b> before writing the loop. If it is wrong, the whole series is wrong.</li>
+    </ol>
+    <p class="bx-mt-40">
+      Math.pow, Math.sqrt and the other Math methods a series may need, with their return types, are on
+      <a class="bx-link" href="/icse-class-10-math-library-methods">Math library methods for ICSE Class 10</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="previous">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. What if each term depends on the one before it?</p>
+      <h2>Series built from the previous term: 1, 11, 111 and friends</h2>
+      <p class="bx-lede">Keep the current term in a variable outside the loop and update it once per pass. The update line is the whole idea: multiply by 10 and add a digit, multiply by a ratio, or add a growing gap.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>FromPrevious.java</b><span>pattern 2: term from the last term</span></figcaption>
+  <pre>class FromPrevious {
+    static void ones(int n) {                    <i>// 1, 11, 111, ...</i>
+        long t = 0;
+        for (int i = 1; i &lt;= n; i++) {
+            t = t * 10 + 1;
+            System.out.print(t + " ");
+        }
+        System.out.println();
+    }
+    static void sumTwos(int n) {                 <i>// 2 + 22 + 222 + ...</i>
+        long t = 0, s = 0;
+        for (int i = 1; i &lt;= n; i++) {
+            t = t * 10 + 2;
+            s = s + t;
+        }
+        System.out.println("Sum = " + s);
+    }
+    static void times3(int n) {                  <i>// 1, 3, 9, 27, ...</i>
+        long t = 1;
+        for (int i = 1; i &lt;= n; i++) {
+            System.out.print(t + " ");
+            t = t * 3;
+        }
+        System.out.println();
+    }
+    static void growingGaps(int n) {             <i>// 1, 2, 4, 7, 11, ...</i>
+        int t = 1;
+        for (int i = 1; i &lt;= n; i++) {
+            System.out.print(t + " ");
+            t = t + i;
+        }
+        System.out.println();
+    }
+    public static void main(String args[]) {
+        ones(5);
+        sumTwos(4);
+        times3(7);
+        growingGaps(8);
+    }
+}</pre>
+</figure>
+      <div>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Output</b><span>Java 21</span></figcaption>
+  <pre>1 11 111 1111 11111
+Sum = 2468
+1 3 9 27 81 243 729
+1 2 4 7 11 16 22 29</pre>
+  <p class="bx-code-note">Look at the order of the two lines inside each loop. In ones the term is updated and then printed, so t starts at 0. In times3 it is printed and then updated, so t starts at 1. Both orders work if the starting value matches.</p>
+</figure>
+        <div class="bx-table-wrap bx-mt-40">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Pass i</th><th scope="col">t = t * 10 + 2</th><th scope="col">s = s + t</th></tr></thead>
+            <tbody>
+              <tr><td class="bx-num">1</td><td class="bx-num">2</td><td class="bx-num">2</td></tr>
+              <tr><td class="bx-num">2</td><td class="bx-num">22</td><td class="bx-num">24</td></tr>
+              <tr><td class="bx-num">3</td><td class="bx-num">222</td><td class="bx-num">246</td></tr>
+              <tr><td class="bx-num">4</td><td class="bx-num">2222</td><td class="bx-num">2468</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <p class="bx-mt-40">The growing-gaps series adds 1, then 2, then 3: the gap is the counter itself. Series like this are easy to misread as a formula in i; the term table in Q1 tells you quickly that the differences, not the terms, follow i. The loop habits behind all of this are practised on
+      <a class="bx-link" href="/icse-class-10-loop-programs-java">loop programs in Java for ICSE Class 10</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="fibonacci">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. How do you print the Fibonacci series in Java for ICSE?</p>
+      <h2>Fibonacci series Java ICSE: two variables that slide along</h2>
+      <p class="bx-lede">Each Fibonacci term is the sum of the two before it, starting 0 and 1. Keep the last two terms in a and b; each pass prints a, makes c = a + b, then slides the pair one place: a takes b, and b takes c. No recursion is needed, and recursion is not in the ICSE 2027 syllabus.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Fibonacci.java</b><span>first n terms and their sum</span></figcaption>
+  <pre>import java.util.Scanner;
+class Fibonacci {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("How many terms? ");
+        int n = sc.nextInt();
+        int a = 0, b = 1, sum = 0;
+        for (int i = 1; i &lt;= n; i++) {
+            System.out.print(a + " ");
+            sum = sum + a;
+            int c = a + b;      <i>// next term</i>
+            a = b;              <i>// slide the pair along</i>
+            b = c;
+        }
+        System.out.println();
+        System.out.println("Sum of the terms = " + sum);
+    }
+}</pre>
+  <p class="bx-code-note">The order a = b, then b = c matters. Swap those two lines and both a and b take the new value, so the run prints 0 1 2 4 8 16, doubling instead of Fibonacci.</p>
+</figure>
+      <div>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>n</td><td>int</td><td>number of terms to print</td></tr>
+              <tr><td>a, b</td><td>int</td><td>the current term and the one after it</td></tr>
+              <tr><td>c</td><td>int</td><td>the next term, a + b</td></tr>
+              <tr><td>sum</td><td>int</td><td>total of the printed terms</td></tr>
+              <tr><td>i</td><td>int</td><td>loop counter, 1 to n</td></tr>
+            </tbody>
+          </table>
+        </div>
+<figure class="bx-code bx-mt-40">
+  <figcaption class="bx-code-head"><b>Sample run</b><span>Java 21</span></figcaption>
+  <pre>How many terms? <b>10</b>
+0 1 1 2 3 5 8 13 21 34
+Sum of the terms = 88</pre>
+</figure>
+      </div>
+    </div>
+    <h3 class="bx-mt-40">Fibonacci terms up to a limit: while, not for</h3>
+    <p>When the question gives a largest value instead of a number of terms, the count is unknown, so use while with the limit as the condition.</p>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>FibLimit.java</b><span>terms up to 100</span></figcaption>
+  <pre>class FibLimit {
+    public static void main(String args[]) {
+        int a = 0, b = 1;
+        while (a &lt;= 100) {
+            System.out.print(a + " ");
+            int c = a + b;
+            a = b;
+            b = c;
+        }
+        System.out.println();
+    }
+}</pre>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Output</b><span>Java 21</span></figcaption>
+  <pre>0 1 1 2 3 5 8 13 21 34 55 89</pre>
+  <p class="bx-code-note">The next term, 144, fails a &lt;= 100, so the loop stops after 89. A for loop to a fixed n could not know to stop here.</p>
+</figure>
+    </div>
+    <p class="bx-mt-40">
+      Checking whether one given number is a Fibonacci number, and other single-number tests, sit with the number families on
+      <a class="bx-link" href="/icse-special-number-programs-java">special number programs in Java for ICSE</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="factorial">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. How do you handle alternating signs and factorial series?</p>
+      <h2>Factorial series ICSE and alternating signs, in one loop each</h2>
+      <p class="bx-lede">For a sign that flips, keep a variable <code>sign</code> that starts at 1 and is multiplied by -1 every pass, or test whether i is even. For a factorial series, never write a second loop to work out each factorial: multiply the running factorial by i, and it is ready for this term.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>SignSeries.java</b><span>pattern 4: alternating sign</span></figcaption>
+  <pre>class SignSeries {
+    static void plusMinus(int n) {               <i>// 1 - 2 + 3 - 4 + ... n terms</i>
+        int s = 0, sign = 1;
+        for (int i = 1; i &lt;= n; i++) {
+            s = s + sign * i;
+            sign = -sign;
+        }
+        System.out.println("Sum = " + s);
+    }
+    static void powerOverIndex(double x, int n) { <i>// x - x^2/2 + x^3/3 - ...</i>
+        double s = 0;
+        for (int i = 1; i &lt;= n; i++) {
+            double term = Math.pow(x, i) / i;
+            if (i % 2 == 0)
+                s = s - term;
+            else
+                s = s + term;
+        }
+        System.out.println("Sum = " + s);
+    }
+    public static void main(String args[]) {
+        plusMinus(7);
+        plusMinus(10);
+        powerOverIndex(2, 4);
+    }
+}</pre>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Output</b><span>Java 21</span></figcaption>
+  <pre>Sum = 4
+Sum = -5
+Sum = -1.3333333333333335</pre>
+  <p class="bx-code-note">For x = 2 and four terms: 2 - 2 + 8/3 - 4, which is -4/3. The two methods show both ways of flipping the sign; either earns the marks.</p>
+</figure>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>FactSeries.java</b><span>pattern 5: running factorial and total</span></figcaption>
+  <pre>class FactSeries {
+    static void sumOfFactorials(int n) {         <i>// 1! + 2! + 3! + ... + n!</i>
+        long f = 1, s = 0;
+        for (int i = 1; i &lt;= n; i++) {
+            f = f * i;           <i>// f is now i!</i>
+            s = s + f;
+        }
+        System.out.println("Sum = " + s);
+    }
+    static void expSeries(double x, int n) {     <i>// 1 + x/1! + x^2/2! + ... n terms after 1</i>
+        double term = 1, s = 1;
+        for (int i = 1; i &lt;= n; i++) {
+            term = term * x / i;  <i>// builds x^i / i! from the last term</i>
+            s = s + term;
+        }
+        System.out.println("Sum = " + s);
+    }
+    static void runningTotals(int n) {           <i>// 1 + (1+2) + (1+2+3) + ...</i>
+        int p = 0, s = 0;
+        for (int i = 1; i &lt;= n; i++) {
+            p = p + i;           <i>// p is now 1 + 2 + ... + i</i>
+            s = s + p;
+        }
+        System.out.println("Sum = " + s);
+    }
+    public static void main(String args[]) {
+        sumOfFactorials(5);
+        expSeries(1, 10);
+        runningTotals(5);
+    }
+}</pre>
+</figure>
+      <div>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Output</b><span>Java 21</span></figcaption>
+  <pre>Sum = 153
+Sum = 2.7182818011463845
+Sum = 35</pre>
+  <p class="bx-code-note">1 + 2 + 6 + 24 + 120 is 153. With x = 1 the exp series adds 1/i! terms and creeps towards the number e, 2.71828. The running total adds 1, 3, 6, 10 and 15.</p>
+</figure>
+        <div class="bx-table-wrap bx-mt-40">
+          <table class="bx-table">
+            <thead><tr><th scope="col">i</th><th scope="col">f = f * i</th><th scope="col">s = s + f</th></tr></thead>
+            <tbody>
+              <tr><td class="bx-num">1</td><td class="bx-num">1</td><td class="bx-num">1</td></tr>
+              <tr><td class="bx-num">2</td><td class="bx-num">2</td><td class="bx-num">3</td></tr>
+              <tr><td class="bx-num">3</td><td class="bx-num">6</td><td class="bx-num">9</td></tr>
+              <tr><td class="bx-num">4</td><td class="bx-num">24</td><td class="bx-num">33</td></tr>
+              <tr><td class="bx-num">5</td><td class="bx-num">120</td><td class="bx-num">153</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <p class="bx-mt-40">
+      Overloading questions often carry a series in one of their versions; that shape is covered on
+      <a class="bx-link" href="/icse-class-10-user-defined-methods-overloading">user-defined methods and overloading for ICSE Class 10</a>, or as one option of a switch menu on
+      <a class="bx-link" href="/icse-class-10-menu-driven-programs">menu driven programs for ICSE</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" style="font-variant-ligatures:none" id="live">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. How are series taught in the live class?</p>
+      <h2>Term table, code, hand check, BlueJ: a series lesson in the mini batch</h2>
+      <p class="bx-lede">The hard part of a series question is not the loop but reading the series correctly. Lessons spend their time there.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>A new series in board wording</h4><p>At the Tuesday 5:30 PM IST class, students get a series they have not met, written the way the paper writes it, sometimes with an x to read in.</p></li>
+      <li class="bx-step"><h4>The term table</h4><p>Each student writes i beside the first four terms and names the loop pattern, then writes the one line that makes the term.</p></li>
+      <li class="bx-step"><h4>Hand-written program and a hand sum</h4><p>The program is written on paper with a variable description table, and the sum of the first three terms is worked by hand as the check value.</p></li>
+      <li class="bx-step"><h4>Run in BlueJ on a shared screen</h4><p>At the Wednesday 8:00 PM IST class the programs are run. If BlueJ disagrees with the hand sum, the group traces the loop to find whether the term, the type or the print position was wrong.</p></li>
+      <li class="bx-step"><h4>Series inside overloading and full mocks</h4><p>Later in the year the same families come back as parts of whole mock papers, sat in two hours and marked question by question.</p></li>
+    </ol>
+    <p class="bx-mt-40">
+      Every other Section B family has its own page, linked from <a class="bx-link" href="/icse-class-10-java-programs-practice">ICSE Class 10 Java programs for practice</a>, and nested loops that print shapes instead of numbers are on
+      <a class="bx-link" href="/icse-class-10-pattern-programs-java">pattern programs for ICSE</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Practise series in the mini batch, or one to one</h2>
+      <p class="bx-lede">In both formats series are read with a term table, written by hand, checked against a hand sum and then run. Families in India choose between the fixed evening mini batch and a private slot; ICSE students abroad study one to one. Billing is monthly with no admission fee.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card" data-india-only="true">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Mini batch, Tuesday 5:30 PM and Wednesday 8 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Tuesday 5:30 PM and Wednesday 8:00 PM IST, live</li><li>Up to six ICSE Class 10 students per batch</li><li>A fresh series in board wording most weeks</li><li>Hand sums compared with BlueJ in front of the group</li><li>Series met again as parts of longer questions</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>Lesson times fixed around your child's week</li><li>Slow, careful work on reading the series, the usual sticking point</li><li>Series taken from the school's own exercises</li><li>Harder x-series and factorial series once the basics hold</li><li>The batch teachers and syllabus, one student at a time</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
+    <p class="bx-mt-40">Students who can code a loop but misread what the series is asking often need only a handful of one to one sessions on term tables. Students who want every Section B family covered in a steady rhythm are better placed in the twice-weekly batch. Each format's fee is listed in your local currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>Series program practice for ICSE students abroad</h2>
+      <p class="bx-lede">ICSE schools outside India sit the same Computer Applications paper, so the same series turn up in Section B, often inside an overloading question. Families abroad book private lessons, timed for the end of their school day.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Time difference</th><th scope="col">Usual class window, local time</th><th scope="col">Format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td>IST</td><td class="bx-num">Tue 5:30 PM, Wed 8:00 PM</td><td><span class="bx-fit">Mini batch or 1-on-1</span></td></tr>
+          <tr><td>United Arab Emirates<br><span class="bx-src">Dubai, Sharjah</span></td><td>1 h 30 min behind India</td><td class="bx-num">3:00 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Indonesia and Thailand<br><span class="bx-src">West Java, Bangkok area</span></td><td>1 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Singapore<br><span class="bx-src">Singapore</span></td><td>2 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The slot is settled after the free demo and shifts around school tests when needed. Details for overseas families are on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the ICSE Class 10 Computer Applications series, grouped by what you need: classes, each chapter, Section B programs, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a></li>
+          <li><a href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Java classes in the Gulf and abroad</a></li>
+          <li><a href="/icse-class-10-bluej-java-coaching">ICSE BlueJ Java coaching</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Chapter by chapter</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a></li>
+          <li><a href="/icse-class-10-user-defined-methods-overloading">User-defined methods and overloading</a></li>
+          <li><a href="/icse-class-10-constructors-questions">Constructors</a></li>
+          <li><a href="/icse-class-10-wrapper-and-library-classes">Wrapper and library classes</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Programs for Section B</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a></li>
+          <li><a href="/icse-class-10-string-programs">String programs</a></li>
+          <li><a href="/icse-special-number-programs-java">Special number programs</a></li>
+          <li><a href="/icse-class-10-sorting-and-searching-programs">Sorting and searching programs</a></li>
+          <li><a href="/icse-class-10-2d-array-programs">2D array programs</a></li>
+          <li><a href="/icse-class-10-pattern-programs-java">Pattern programs</a></li>
+          <li><a href="/icse-class-10-menu-driven-programs">Menu driven and switch case</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></li>
+          <li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mock tests</a></li>
+          <li><a href="/icse-computer-applications-previous-year-papers-solved">Previous year papers, solved</a></li>
+          <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
+          <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
+          <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and internal assessment</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-board-exam-preparation">ICSE board exam preparation</a></li>
+          <li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+          <li><a href="/icse-class-10-computer-applications-project-and-internal-assessment">Project and internal assessment</a></li>
+          <li><a href="/how-to-score-100-in-icse-computer-applications">How to score 100</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>CBSE Class 10 AI (417):</b> <a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about series programs</p>
+      <h2>What students ask about ICSE series programs</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>How do you write a series program in Java?</h3><p>Write the first four terms with their positions 1, 2, 3, 4, and find where each term comes from: a formula in the position, the previous term, the two previous terms, a flipping sign or a growing factorial. Then write one for loop from 1 to n that makes the term and either prints it or adds it to a sum.</p></div>
+      <div class="bx-faq-item"><h3>How do you find the sum of a series in Java?</h3><p>Declare a sum variable before the loop and set it to 0. Inside the loop, work out the current term and add it with s = s + term. Print s once, after the loop ends. Use double for s whenever any term involves division or Math.pow.</p></div>
+      <div class="bx-faq-item"><h3>How do you print the Fibonacci series in Java without recursion?</h3><p>Start with a = 0 and b = 1. In each pass of a loop print a, then set c = a + b, a = b and b = c. For the first n terms use a for loop; for all terms up to a limit use a while loop that runs as long as a has not passed the limit. Recursion is not needed and is not in the ICSE 2027 syllabus.</p></div>
+      <div class="bx-faq-item"><h3>How do you write a factorial series program in Java?</h3><p>Keep a running factorial f that starts at 1 and becomes f * i in each pass, so it equals i! for the current term. Add f, or a term built from it, to the sum. Do not write a separate inner loop for each factorial. Use long, because factorials pass the int limit at 13!.</p></div>
+      <div class="bx-faq-item"><h3>Why does my series program print 0 for every term?</h3><p>Usually because of integer division. In 1 / (i * i) both sides are int, so the answer is 0 for every i above 1. Write 1.0 / (i * i) or cast to double, and make the sum variable a double.</p></div>
+      <div class="bx-faq-item"><h3>How do you handle alternating plus and minus signs in a series?</h3><p>Keep an int sign that starts at 1, multiply each term by sign, and set sign = -sign at the end of every pass. Or test i % 2: add the term when i is odd and subtract it when i is even. Both are accepted.</p></div>
+      <div class="bx-faq-item"><h3>How do you print the series 1, 11, 111, 1111 in Java?</h3><p>Keep a term t that starts at 0, and in each pass set t = t * 10 + 1 and print it. The same idea with + 2 gives 2, 22, 222. Use long, because these terms grow by a factor of ten each time.</p></div>
+      <div class="bx-faq-item"><h3>Which is better for series, a for loop or a while loop?</h3><p>Use for when the number of terms n is given, because the counter doubles as the term position. Use while when the series must stop at a value, such as all terms up to 100, because the number of passes is not known in advance.</p></div>
+      <div class="bx-faq-item"><h3>Are series programs important for ICSE Class 10?</h3><p>They matter a lot. Series test loops, data types and careful reading at once. They come as whole Section B programs, and also as one branch of a larger overloading or menu program. Getting the term right is most of the work.</p></div>
+      <div class="bx-faq-item"><h3>Do you teach series programs in live classes?</h3><p>We do. Each week the small ICSE batch meets a new series, reads it with a term table, writes the program by hand, checks a hand sum and runs it in BlueJ on a shared screen. Private one to one lessons are the alternative when batch times clash.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Book a free series lesson, live</h2>
+        </div>
+        <p>During the demo your child reads an unfamiliar series with the mentor, builds the term table, writes the loop and checks a hand sum against BlueJ. Afterwards you get an honest view of where the gaps are, reading, types or loops, and whether the mini batch or one to one suits better.</p>
+        <p>Planning the whole year? Start from <a class="bx-link" href="/icse-class-10-computer-applications-important-questions">ICSE Computer Applications important questions</a> or <a class="bx-link" href="/icse-class-10-java-classes-online">the ICSE Class 10 Java classes</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20help%20with%20ICSE%20Class%2010%20series%20programs%20in%20Java." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic24-parent">Parent's name</label><input id="bx-ic24-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-ic24-phone">Phone or WhatsApp</label><input id="bx-ic24-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic24-email">Email</label><input id="bx-ic24-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-ic24-format">Preferred format</label>
+              <select id="bx-ic24-format" name="format" required>
+                <option value="mini">Tue 5:30 PM and Wed 8 PM mini batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-ic24-child">Student's name and school (optional)</label><input id="bx-ic24-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>ICSE Class 10 Computer Applications</h4><ul><li><a href="/icse-class-10-java-classes-online">The Tue and Wed batch</a></li><li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mocks</a></li><li><a href="/icse-class-10-computer-applications-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>ICSE Computer Applications &middot; Series programs 2027</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'icse-class-10-series-programs-java', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'icse-class-10-series-programs-java', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=5d83c35fbe"></script>
+    <script src="/js/international-pricing.js?v=73c0675aaf"></script>
+</body>
+</html>

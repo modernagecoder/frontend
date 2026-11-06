@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Class 10 AI Formulas 2026-27 (417): One-Page Formula Sheet</title>
+  <meta name="description" content="Class 10 AI formulas for CBSE 417, 2026-27: accuracy, precision, recall, F1, error, TFIDF, pixels and the perceptron sum, each with a worked line.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/cbse-class-10-ai-formula-sheet">
+  <link rel="alternate" type="text/markdown" href="/src/pages/cbse-class-10-ai-formula-sheet.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#334E7A">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/cbse-class-10-ai-formula-sheet">
+  <meta property="og:title" content="Class 10 AI Formulas on One Page, Each Worked Once">
+  <meta property="og:description" content="Every formula and counting rule in CBSE Class 10 AI (417) for 2026-27, numbered on one printable sheet: confusion matrix metrics, error, train-test split, perceptron sum, pixels and colour values, tokens, Bag of Words and TFIDF with log base 10, plus the practical statistics, each with a worked one-liner.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Class 10 AI Formulas on One Page, Each Worked Once">
+  <meta name="twitter:description" content="Every 417 formula on one printable sheet, each with a worked line checked in Python.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "Nepal"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          {
+            "@type": "Country",
+            "name": "Malaysia"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "knowsAbout": [
+          "CBSE Artificial Intelligence 417",
+          "CBSE Class 10 Board Examination",
+          "Python",
+          "AI Project Cycle",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/cbse-class-10-ai-formula-sheet#article",
+        "headline": "Class 10 AI Formulas for 2026-27: Every 417 Formula and Rule on One Sheet, with a Worked Line Each",
+        "description": "Every formula and counting rule in CBSE Class 10 AI (417) for 2026-27, numbered on one printable sheet: confusion matrix metrics, error, train-test split, perceptron sum, pixels and colour values, tokens, Bag of Words and TFIDF with log base 10, plus the practical statistics, each with a worked one-liner.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-11-06",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/cbse-class-10-ai-formula-sheet"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/cbse-class-10-ai-formula-sheet#course",
+        "name": "CBSE Class 10 AI (417) Numericals Practice, Live Online",
+        "description": "Live online numericals practice for CBSE Class 10 Artificial Intelligence (417), session 2026-27: every formula in the syllabus drilled on fresh figures, from confusion matrix metrics and error to perceptron sums, pixel counts and TFIDF, with working marked on screen and timed numerical sets inside mock papers, every Monday and Wednesday at 9:00 PM IST or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/cbse-class-10-ai-formula-sheet",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "1499",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, group batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseSchedule": {
+            "@type": "Schedule",
+            "repeatFrequency": "P1W",
+            "byDay": [
+              "Monday",
+              "Wednesday"
+            ],
+            "startTime": "21:00",
+            "scheduleTimezone": "Asia/Kolkata"
+          },
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "https://learn.modernagecoders.com/cbse-class-10-ai-formula-sheet"
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Class 10 AI classes",
+            "item": "https://learn.modernagecoders.com/cbse-class-10-ai-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Formula sheet",
+            "item": "https://learn.modernagecoders.com/cbse-class-10-ai-formula-sheet"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the formulas in class 10 AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most are in Evaluating Models: accuracy, error rate, precision, recall and F1 score from a confusion matrix, plus error for number predictions and the train-test split. The others are the perceptron weighted sum, pixel and colour-value counts in Computer Vision, and token counts, Bag of Words and TFIDF in NLP. Mean, median, mode and convolution belong to the practical."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the formula of accuracy, precision and recall?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Accuracy = (TP + TN) / (TP + TN + FP + FN). Precision = TP / (TP + FP), the share of predicted positives that were right. Recall = TP / (TP + FN), the share of real positives the model caught. For TP 56, FP 14, FN 8, TN 122 they are 0.89, 0.80 and 0.875."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the F1 score formula in class 10 AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "F1 = 2 x precision x recall / (precision + recall). It balances the two and is pulled toward the lower one. With precision 0.80 and recall 0.875, F1 = 1.4 / 1.675 = 0.84, slightly below their plain average of 0.8375. Never take the simple average."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the TFIDF formula for class 10?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "TFIDF(W) = TF(W) x log10(N / DF(W)). TF is how many times the word appears in the document, N is the total number of documents, and DF is how many documents contain the word. For a word appearing twice in a document and in 3 of 6 documents, TFIDF = 2 x log10 2 = 0.602."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is log base 10 or natural log used for TFIDF in class 10 AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Base 10. The CBSE handbook for Class 10 AI takes log to base 10 of N divided by DF. Natural log, or the smoothed version software libraries use, gives different numbers that will not match the marking scheme, so use the log button for base 10 when you check your work."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you calculate error in class 10 AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For a model that predicts a number, error = |actual - predicted|, error rate = error / actual, and accuracy = 1 minus the error rate. A wait predicted as 230 seconds that was really 250 gives error 20, rate 0.08 and accuracy 0.92. For a classifier, error rate = (FP + FN) / total, which is 1 minus accuracy."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you calculate the number of pixels in an image?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Multiply width by height in pixels. A 1024 x 768 image has 786,432 pixels. A grayscale image stores one value per pixel, so 786,432 values; an RGB image stores three, one each for red, green and blue, so 2,359,296. With 8 bits per value each one runs from 0 to 255."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is the perceptron output calculated?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Multiply each input by its weight, add the products, add the bias, then compare with the threshold. Inputs 1, 0, 1, 1 with weights 0.2, 0.9, -0.4, 0.6 and bias -0.3 give 0.1, above a threshold of 0, so the output is 1. In the latest sample paper this appears only as an objective item."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there an AI class 10 cheat sheet I can print?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, the numbered table at the top of this page is the cheat sheet: twenty formulas and rules with a worked line each. Use your browser's Print option and save it as a PDF if you want a file. It is for revision at home; nothing can be taken into the board exam hall."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are mean, median and mode asked in the class 10 AI theory paper?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. They belong to Statistical Data, which is assessed only in the practical, together with Advance Python. Expect them in the lab exam and viva, often as a NumPy program whose output you must predict, such as the median of an even-length list."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do your classes cover all these numericals?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Every formula on this sheet is taught from its idea and then drilled on fresh figures in timed sets, marked live, in the Monday and Wednesday 9:00 PM IST batch or one to one. It is covered by the monthly fee shown on this page, with no admission fee, and the first class is a free demo."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-cb33 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">417 &middot; Formula sheet</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#sheet">The sheet</a>
+      <a href="#metrics">Metrics</a>
+      <a href="#tfidf">TFIDF</a>
+      <a href="#fees">Batch or 1-on-1</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/cbse-class-10-ai-classes-online">Class 10 AI classes</a> <span>/</span> <span>Formula sheet</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">CBSE Class 10 &middot; Artificial Intelligence, code 417 &middot; Formula sheet 2026-27</p>
+        <h1>Class 10 AI formulas: every formula in CBSE 417 on one sheet, each worked once.</h1>
+        <p class="bx-lede">These are all the class 10 AI formulas and counting rules in CBSE 417 for 2026-27, numbered on one sheet you can print. Each comes with a single worked line on fresh numbers, and every number was checked in Python. The sheet marks which formulas belong to the theory paper and which only to the practical. In our live batch each one is drilled on new figures until the working is automatic.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20numericals%20practice%20for%20CBSE%20Class%2010%20AI%20417." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'cb33'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; every 417 formula on one sheet &middot; a worked line for each &middot; checked in Python &middot; theory and practical marked &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When the formulas are drilled">
+        <p class="bx-tt-title"><span>Numericals practice</span><b>CBSE 417</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Monday, one formula family taught</span><span class="bx-tt-time">9:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, timed numerical set</span><span class="bx-tt-time">9:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Formulas and rules on this sheet</span><span class="bx-tt-time">20<small>numbered</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Worked one-liners checked</span><span class="bx-tt-time">20<small>in Python</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843">CBSE Class 10 AI (417) Board Preparation, Live</a></p>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Group batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.group">₹1,499</span><small>/month</small></span><span class="bx-offer-v">Mon and Wed, 9:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>UAE and Oman:</b> 7:30 PM local. <b>Saudi Arabia, Qatar, Kuwait and Bahrain:</b> 6:30 PM local. <b>Kenya:</b> 6:30 PM local. <b>Singapore and Malaysia:</b> close to midnight, so one to one at a local hour is the better fit.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Theory and practical marked</span>
+          <span class="bx-stamp">Session 2026-27</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Courses behind this formula sheet</h2>
+      <p class="bx-lede">The 417 course whose Class 10 batch drills these numericals, the Python course where the same formulas become short programs, and the Data Science course for students who want the metrics on real data.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843">
+        <div class="bx-pick-shot"><img src="/images/ct-ai-teens.webp" alt="CBSE Computational Thinking and AI for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / 417 Class 10</p>
+          <h3>CBSE AI for Class 9 to 12</h3>
+          <p>The full 417 course: each formula taught from its idea, then practised as timed numericals marked in class.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="bx-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Practical / Python</p>
+          <h3>Python for Teens</h3>
+          <p>NumPy and plain Python versions of the formulas, the way the lab exam and viva ask about them.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/data-science-course-for-teens-python-data">
+        <div class="bx-pick-shot"><img src="/images/data-science-teens.webp" alt="Data Science for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Beyond the board / Data</p>
+          <h3>Data Science for Teens</h3>
+          <p>Accuracy, precision and recall computed on real data sets in notebooks, a step past the board unit.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>The class 10 AI formulas for CBSE 417 in 2026-27 come from four units. Evaluating Models: accuracy = (TP + TN) / total, error rate = 1 minus accuracy, precision = TP / (TP + FP), recall = TP / (TP + FN), F1 = 2PR / (P + R). Modeling: perceptron sum = inputs times weights, added, plus bias. Computer Vision: pixels = width x height, values = pixels x 3 for RGB, 2 to the power 8 = 256 levels. NLP: TFIDF = TF x log10(N / documents containing the word). Modern Age Coders drills them live, Monday and Wednesday at 9:00 PM IST, or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="sheet">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The sheet. Print this part</p>
+      <h2>What formulas are in class 10 AI? The complete list</h2>
+      <p class="bx-lede">Twenty formulas and rules cover every calculation in the 417 syllabus. Numbers 1 to 16 can appear in the theory paper; 17 to 20 belong to the practical units. The worked lines underneath use the same figures, so you can check each one.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">No.</th><th scope="col">Formula or rule</th><th scope="col">Unit</th><th scope="col">Worked one-liner</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Total = TP + FP + FN + TN</td><td>3</td><td>56 + 14 + 8 + 122 = 200</td></tr>
+          <tr><td>2</td><td>Accuracy = (TP + TN) / total</td><td>3</td><td>(56 + 122) / 200 = 0.89</td></tr>
+          <tr><td>3</td><td>Error rate = (FP + FN) / total = 1 - accuracy</td><td>3</td><td>22 / 200 = 0.11</td></tr>
+          <tr><td>4</td><td>Precision = TP / (TP + FP)</td><td>3</td><td>56 / 70 = 0.80</td></tr>
+          <tr><td>5</td><td>Recall = TP / (TP + FN)</td><td>3</td><td>56 / 64 = 0.875</td></tr>
+          <tr><td>6</td><td>F1 = 2 x P x R / (P + R)</td><td>3</td><td>2 x 0.80 x 0.875 / 1.675 = 0.84</td></tr>
+          <tr><td>7</td><td>Error = |actual - predicted|; error rate = error / actual; accuracy = 1 - error rate</td><td>3</td><td>|250 - 230| = 20; 20 / 250 = 0.08; 0.92</td></tr>
+          <tr><td>8</td><td>Train-test split: rows x share</td><td>3</td><td>1,200 at 75:25 = 900 train, 300 test</td></tr>
+          <tr><td>9</td><td>Perceptron sum = x<sub>1</sub>w<sub>1</sub> + x<sub>2</sub>w<sub>2</sub> + ... + bias; output 1 if it passes the threshold</td><td>2</td><td>0.2 + 0 - 0.4 + 0.6 - 0.3 = 0.1, so 1</td></tr>
+          <tr><td>10</td><td>Pixels = width x height</td><td>5</td><td>1024 x 768 = 786,432</td></tr>
+          <tr><td>11</td><td>Values stored = pixels x channels (1 grayscale, 3 RGB)</td><td>5</td><td>786,432 x 3 = 2,359,296</td></tr>
+          <tr><td>12</td><td>Levels = 2<sup>bits</sup>; values run 0 to 2<sup>bits</sup> - 1</td><td>5</td><td>2<sup>8</sup> = 256, so 0 to 255</td></tr>
+          <tr><td>13</td><td>Tokens = words + punctuation marks</td><td>6</td><td>"Rain fell, and the match stopped." = 8</td></tr>
+          <tr><td>14</td><td>Bag of Words vector = count of each dictionary word, in dictionary order</td><td>6</td><td>[ball, bat, run, out] for "bat ball bat run" = [1, 2, 1, 0]</td></tr>
+          <tr><td>15</td><td>TF = count of the word in that document; IDF = N / DF</td><td>6</td><td>N 6, word in 3 documents: IDF = 6 / 3 = 2</td></tr>
+          <tr><td>16</td><td>TFIDF = TF x log<sub>10</sub>(N / DF)</td><td>6</td><td>2 x log<sub>10</sub> 2 = 0.602</td></tr>
+          <tr><td>17</td><td>Mean = sum / count</td><td>4, practical</td><td>72 / 6 = 12</td></tr>
+          <tr><td>18</td><td>Median = middle of the sorted list; even count: average of the two middle values</td><td>4, practical</td><td>9, 9, 11, 12, 14, 17: (11 + 12) / 2 = 11.5</td></tr>
+          <tr><td>19</td><td>Mode = the most frequent value</td><td>4, practical</td><td>9 appears twice, so 9</td></tr>
+          <tr><td>20</td><td>Convolution output size = n - k + 1</td><td>5, practical</td><td>7 x 7 image, 3 x 3 kernel: 5 x 5</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-2 bx-mt-40" style="align-items:start">
+      <div>
+        <h3>Where these formulas earn marks</h3>
+        <p>Evaluating Models, worth 10 theory marks, holds six of the twenty and supplies most of the calculation items in a paper. In the latest sample paper the perceptron sum appears only as a one-mark objective item, and pixel or token counts usually do too. TFIDF can come as a short calculation inside an NLP answer.</p>
+      </div>
+      <div>
+        <h3>Printing it</h3>
+        <p>Print the table above on its own: choose Print in your browser, set the range to the first page, and save as PDF if you want a file. It is meant to be read the evening before the paper, after you have written each formula from memory first.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="metrics">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Formulas 1 to 8. Evaluating Models</p>
+      <h2>Accuracy, precision, recall and F1 formula for class 10 AI</h2>
+      <p class="bx-lede">Accuracy is correct predictions over all predictions; precision is how many of the predicted positives were right; recall is how many of the real positives were caught; F1 combines precision and recall into one score. All four start from the confusion matrix, so build that first.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>One matrix, eight formulas</b><span>200 test cases</span></figcaption>
+  <pre>A plant-disease app checks 200 leaf photos.
+                Really diseased   Healthy
+Predicted sick     TP = 56        FP = 14
+Predicted fine     FN = 8         TN = 122
+
+Accuracy   = 178 / 200         = 0.89
+Error rate = 22 / 200          = 0.11
+Precision  = 56 / 70           = 0.80
+Recall     = 56 / 64           = 0.875
+F1         = 1.4 / 1.675       = 0.84</pre>
+  <p class="bx-code-note">The plain average of precision and recall is 0.8375. F1 is never above the average, and it falls further when the two are far apart.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>The same, checked in Python</b><span>run as printed</span></figcaption>
+  <pre>tp, fp, fn, tn = 56, 14, 8, 122
+total = tp + fp + fn + tn
+p = tp / (tp + fp)
+r = tp / (tp + fn)
+print(total, (tp + tn) / total, (fp + fn) / total)
+print(p, r, round(2 * p * r / (p + r), 2))
+
+<i># output</i>
+200 0.89 0.11
+0.8 0.875 0.84</pre>
+  <p class="bx-code-note">Writing the formulas as code is a good self-test: if the program needs a number you cannot find in the matrix, you have the formula wrong.</p>
+</figure>
+    </div>
+    <div class="bx-grid-2 bx-mt-40" style="align-items:start">
+      <div>
+        <h3>Error for a number prediction (formula 7)</h3>
+        <p>When a model predicts a number, not a yes or no, there is no matrix. Error is the gap, ignoring the sign. A bus app predicts a 230-second wait; the bus takes 250. Error = 20 seconds, error rate = 20 / 250 = 0.08, and accuracy for that prediction = 1 - 0.08 = 0.92.</p>
+        <h3 class="bx-mt-40">Train-test split (formula 8)</h3>
+        <p>Multiply the rows by each share. 1,200 rows split 75:25 gives 900 to train on and 300 to test on. The test rows must be ones the model never saw in training.</p>
+      </div>
+      <div>
+        <h3>Which metric the question wants</h3>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">The costly mistake</th><th scope="col">Cell</th><th scope="col">Use</th></tr></thead>
+            <tbody>
+              <tr><td>Missing a real case (disease, fire, fraud)</td><td>FN</td><td>Recall</td></tr>
+              <tr><td>A false alarm (good mail sent to spam)</td><td>FP</td><td>Precision</td></tr>
+              <tr><td>Both matter, or classes are uneven</td><td>FP and FN</td><td>F1</td></tr>
+              <tr><td>Both classes common and equal in cost</td><td>All four</td><td>Accuracy</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <p class="bx-mt-40">Ten graded matrix problems are on <a class="bx-link" href="/confusion-matrix-class-10-ai-numericals">confusion matrix numericals</a>, and the written answers for the rest of the unit on <a class="bx-link" href="/cbse-class-10-ai-evaluating-models-questions">evaluating models questions</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="tfidf">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Formulas 13 to 16. Natural Language Processing</p>
+      <h2>TFIDF formula for class 10, with tokens and Bag of Words</h2>
+      <p class="bx-lede">TFIDF = TF x log<sub>10</sub>(N / DF), where TF is how often the word appears in this document, N is the number of documents and DF is how many of them contain the word. It is high for a word common in one document and rare in the rest.</p>
+    </div>
+    <div class="bx-grid-2" style="align-items:start">
+      <div>
+        <h3>The four NLP rules in order</h3>
+        <ol class="bx-qlist" start="13">
+          <li><b>Tokens.</b> Split into words and keep each punctuation mark as its own token. "Rain fell, and the match stopped." has six words, a comma and a full stop: 8 tokens.</li>
+          <li><b>Bag of Words.</b> After normalising, list each unique word once as the dictionary, then count. Dictionary [ball, bat, run, out]; "bat ball bat run" becomes [1, 2, 1, 0]. Order follows the dictionary, not the sentence.</li>
+          <li><b>TF and IDF.</b> TF is the raw count from the vector. The CBSE handbook writes IDF as the ratio N / DF, and takes its logarithm in the next step.</li>
+          <li><b>TFIDF.</b> Multiply TF by log<sub>10</sub> of that ratio. Base 10, not the natural log: a calculator's ln key gives different numbers that will not match the marking scheme.</li>
+        </ol>
+      </div>
+      <div class="bx-table-wrap">
+        <table class="bx-table">
+          <thead><tr><th scope="col">N = 6 documents</th><th scope="col">TF</th><th scope="col">DF</th><th scope="col">TFIDF</th></tr></thead>
+          <tbody>
+            <tr><td>Word in half the documents</td><td class="bx-num">2</td><td class="bx-num">3</td><td>2 x log<sub>10</sub>(6/3) = 0.602</td></tr>
+            <tr><td>Word in only this document</td><td class="bx-num">1</td><td class="bx-num">1</td><td>log<sub>10</sub>(6/1) = 0.778</td></tr>
+            <tr><td>Word repeated, in two documents</td><td class="bx-num">4</td><td class="bx-num">2</td><td>4 x log<sub>10</sub>(6/2) = 1.908</td></tr>
+            <tr><td>Word in every document</td><td>any</td><td class="bx-num">6</td><td>log<sub>10</sub>(6/6) = 0</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p class="bx-mt-40">A word that appears in every document scores 0 however often it occurs, which is why stopwords such as "the" and "is" end up worthless for telling documents apart. The whole pipeline on a three-document corpus, cell by cell, is on <a class="bx-link" href="/bag-of-words-tfidf-class-10-ai">Bag of Words and TFIDF, worked</a>; the rest of the unit is on <a class="bx-link" href="/cbse-class-10-ai-nlp-questions">NLP questions and answers</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="pixels">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Formulas 9 to 12. Modeling and Computer Vision</p>
+      <h2>Pixel, colour value and perceptron formulas</h2>
+      <p class="bx-lede">The number of pixels is width times height; the number of values stored is pixels times channels; the perceptron's sum is each input times its weight, added, plus the bias. These are short one-mark calculations, so the only real risk is a slip.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Formula 9, perceptron</b><span>threshold 0</span></figcaption>
+  <pre>inputs   1     0     1     1
+weights  0.2   0.9   -0.4  0.6
+bias     -0.3
+
+sum = 0.2 + 0 - 0.4 + 0.6 - 0.3 = 0.1
+0.1 > 0, so output = 1</pre>
+  <p class="bx-code-note">An input of 0 cancels its weight, however large: the 0.9 adds nothing. A negative weight subtracts. Forgetting the bias here gives 0.4.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Formulas 9 to 16, checked</b><span>run as printed</span></figcaption>
+  <pre>import math
+x = [1, 0, 1, 1]
+w = [0.2, 0.9, -0.4, 0.6]
+s = sum(a * b for a, b in zip(x, w)) - 0.3
+print(round(s, 2), 1 if s > 0 else 0)
+print(1024 * 768, 1024 * 768 * 3, 2 ** 8)
+print(round(2 * math.log10(6 / 3), 3), round(math.log10(6 / 1), 3), math.log10(6 / 6))
+
+<i># output</i>
+0.1 1
+786432 2359296 256
+0.602 0.778 0.0</pre>
+  <p class="bx-code-note">The round() matters: without it, Python prints the perceptron sum as 0.09999999999999998, a floating point effect, not a different answer.</p>
+</figure>
+    </div>
+    <div class="bx-table-wrap bx-mt-40">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Image</th><th scope="col">Pixels (formula 10)</th><th scope="col">Values in grayscale</th><th scope="col">Values in RGB (formula 11)</th></tr></thead>
+        <tbody>
+          <tr><td>1024 x 768</td><td class="bx-num">786,432</td><td class="bx-num">786,432</td><td class="bx-num">2,359,296</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">For formula 12, an 8-bit value has 2<sup>8</sup> = 256 possible levels, 0 (black) to 255 (white). The rule works for any bit depth: with 1 bit there are only 2 levels, black and white. The perceptron is drilled on <a class="bx-link" href="/cbse-class-10-ai-advanced-modeling-questions">Unit 2 modeling questions</a> and the image counts on <a class="bx-link" href="/cbse-class-10-ai-computer-vision-questions">Unit 5 computer vision questions</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="practical">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Formulas 17 to 20. Practical only</p>
+      <h2>Statistics and convolution: the formulas for the practical and viva</h2>
+      <p class="bx-lede">Statistical Data and Advance Python are not in the theory paper, and convolution sits on the practical side of Computer Vision. Examiners ask about these in the lab exam and viva, usually as "what will this program print?".</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Formulas 17 to 19</b><span>numpy, run as printed</span></figcaption>
+  <pre>import numpy as np
+from statistics import mode
+d = [14, 9, 11, 9, 17, 12]
+print(np.mean(d), np.median(d), mode(d))
+
+<i># output</i>
+12.0 11.5 9</pre>
+  <p class="bx-code-note">Sorted, the list is 9, 9, 11, 12, 14, 17. Six values, so the median is the average of the third and fourth. NumPy prints the mean as 12.0, a decimal, because it always divides as floating point.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Formula 20, convolution</b><span>practical side of Unit 5</span></figcaption>
+  <pre>output size = n - k + 1
+7 x 7 image, 3 x 3 kernel -> 5 x 5
+
+one output cell = multiply and add
+patch  [[1, 2],    kernel [[0, 1],
+        [3, 4]]            [1, 0]]
+= 1x0 + 2x1 + 3x1 + 4x0 = 5</pre>
+  <p class="bx-code-note">The kernel slides one step at a time and never hangs off the edge, which is why the output shrinks by k - 1 in each direction.</p>
+</figure>
+    </div>
+    <p class="bx-mt-40">The eight suggested lab programs, written and explained, are on <a class="bx-link" href="/python-for-cbse-class-10-ai">Python for CBSE Class 10 AI</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="cheat">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Using the sheet</p>
+      <h2>AI class 10 cheat sheet: the slips that cost formula marks</h2>
+      <p class="bx-lede">Students rarely forget a formula outright. They lose marks by feeding it the wrong number. These are the slips we see most often when marking timed numerical sets.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Formula</th><th scope="col">The slip</th><th scope="col">The check that catches it</th></tr></thead>
+        <tbody>
+          <tr><td>Precision and recall</td><td>FP and FN swapped, so the two answers trade places</td><td>Precision's denominator is the "predicted yes" row; recall's is the "really yes" column</td></tr>
+          <tr><td>F1</td><td>Taking the plain average</td><td>F1 must be at or below the average; if it is above, redo it</td></tr>
+          <tr><td>Accuracy</td><td>Dividing by TP + TN only, giving 1</td><td>The denominator is always all four cells</td></tr>
+          <tr><td>Error, number model</td><td>A negative error</td><td>Use the gap without its sign</td></tr>
+          <tr><td>Perceptron</td><td>Bias left out, or a 0 input still counted</td><td>Write one product per input, then the bias, then add</td></tr>
+          <tr><td>RGB values</td><td>Answering in pixels when values were asked</td><td>Underline "pixels" or "values" in the question</td></tr>
+          <tr><td>Tokens</td><td>Punctuation not counted</td><td>Circle every mark before counting</td></tr>
+          <tr><td>TFIDF</td><td>Natural log, or IDF written upside down as DF / N</td><td>Use log<sub>10</sub>; a word in every document must come out 0</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-3 bx-mt-40">
+      <div class="bx-card"><h3>One family per Monday</h3><p>Each Monday class takes one family of formulas, metrics or NLP or images, builds it from the idea up, and works examples on screen with the class calling out each step.</p></div>
+      <div class="bx-card"><h3>Fresh numbers on Wednesday</h3><p>The Wednesday class sets a timed numerical set on new figures, marked live, so a remembered answer is no use and only the method scores.</p></div>
+      <div class="bx-card"><h3>Formula recall inside mocks</h3><p>Before each full mock, students write this sheet from memory in five minutes. Any formula missing from their version is drilled again that week.</p></div>
+    </div>
+    <p class="bx-mt-40">One-mark items that use these formulas, with answers and reasons, are on <a class="bx-link" href="/cbse-class-10-ai-mcq-questions">Class 10 AI MCQ with answers</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Drill these formulas in the batch, or one to one</h2>
+      <p class="bx-lede">The same sheet and the same teachers, two formats. The batch works through one formula family a week with classmates racing the same clock; one to one goes straight to the formulas your child keeps getting wrong. Monthly billing, no admission fee, stop at the end of any month.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Group batch, Monday and Wednesday 9 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.group">₹1,499</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Monday and Wednesday, 9:00 PM IST, live on video</li><li>Fifteen to twenty Class 10 AI students, one teacher</li><li>One formula family taught each week</li><li>A timed numerical set on fresh figures every Wednesday</li><li>The sheet written from memory before every mock</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>Days and time picked by you, in your own time zone</li><li>Only the formulas your child slips on</li><li>The same formula reworked on new numbers until steady</li><li>Working checked line by line on screen</li><li>Same CBSE 417 syllabus and teachers</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40">If your child knows the formulas but loses marks to small slips under time pressure, the batch's weekly timed sets usually fix it. If the confusion matrix itself does not make sense yet, a few one to one sessions that rebuild it from the idea are quicker. Fees are shown in your own currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>Class 10 AI formulas practice for CBSE students in the Gulf and abroad</h2>
+      <p class="bx-lede">The 417 formulas and marking are identical in a CBSE school in Kuwait or Nairobi, so the same sheet applies. Here is the batch hour in local time this winter.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Mon and Wed 9:00 PM IST</th><th scope="col">Best format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td class="bx-num">9:00 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>UAE and Oman<br><span class="bx-src">Dubai, Abu Dhabi, Sharjah, Muscat</span></td><td class="bx-num">7:30 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>Saudi Arabia, Qatar, Kuwait, Bahrain<br><span class="bx-src">Riyadh, Jeddah, Dammam, Doha, Kuwait City, Manama</span></td><td class="bx-num">6:30 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>Nepal<br><span class="bx-src">Kathmandu</span></td><td class="bx-num">9:15 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>Ethiopia and East Africa<br><span class="bx-src">Addis Ababa and East Africa Time</span></td><td class="bx-num">6:30 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>Singapore and Malaysia<br><span class="bx-src">Singapore, Kuala Lumpur</span></td><td class="bx-num">11:30 PM</td><td><span class="bx-fit bx-fit--no">Choose 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">If the evening hour does not suit, one to one runs at a local time you choose. More for families abroad is on <a class="bx-link" href="/cbse-class-10-ai-online-classes-gulf-and-abroad">CBSE Class 10 AI online classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the CBSE Class 10 AI (417) series, grouped by what you need: classes, each unit, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a></li>
+          <li><a href="/cbse-class-10-ai-online-classes-gulf-and-abroad">CBSE AI classes in the Gulf and abroad</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Unit by unit</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a></li>
+          <li><a href="/python-for-cbse-class-10-ai">Python for Class 10 AI</a></li>
+          <li><a href="/cbse-class-10-ai-employability-skills-part-a">Part A employability skills</a></li>
+          <li><a href="/cbse-class-10-ai-evaluating-models-questions">Unit 3: Evaluating Models</a></li>
+          <li><a href="/confusion-matrix-class-10-ai-numericals">Confusion matrix numericals</a></li>
+          <li><a href="/cbse-class-10-ai-advanced-modeling-questions">Unit 2: Advanced modeling</a></li>
+          <li><a href="/cbse-class-10-ai-nlp-questions">Unit 6: Natural Language Processing</a></li>
+          <li><a href="/bag-of-words-tfidf-class-10-ai">Bag of Words and TFIDF, worked</a></li>
+          <li><a href="/cbse-class-10-ai-computer-vision-questions">Unit 5: Computer Vision</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a></li>
+          <li><a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></li>
+          <li><a href="/cbse-class-10-ai-mcq-questions">Class 10 AI MCQ, unit wise</a></li>
+          <li><a href="/cbse-class-10-ai-previous-year-question-papers">Previous year papers, solved</a></li>
+          <li><a href="/cbse-class-10-ai-viva-questions">AI practical and project viva</a></li>
+          <li><a href="/cbse-class-10-ai-case-based-questions">Case based questions</a></li>
+          <li><a href="/employability-skills-class-10-mcq">Employability skills MCQ</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Notes and revision</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-notes">Class 10 AI notes, unit wise</a></li>
+          <li><a href="/cbse-class-10-ai-one-shot-revision">Class 10 AI one shot revision</a></li>
+          <li><a href="/cbse-class-10-ai-revision-plan">30, 7 and 1 day revision plan</a></li>
+          <li><a href="/cbse-class-10-ai-worksheets">Worksheets with answers</a></li>
+          <li><a href="/cbse-class-10-ai-textbook-solutions">AI handbook exercise answers</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and practicals</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-board-exam-preparation">CBSE AI board exam preparation</a></li>
+          <li><a href="/cbse-class-10-ai-project-and-practical-file">AI project and practical file</a></li>
+          <li><a href="/cbse-class-10-ai-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+          <li><a href="/cbse-class-10-ai-practical-exam-questions">AI practical exam questions</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>ICSE Class 10 Computer Applications (Java):</b> <a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a> <span aria-hidden="true">&middot;</span> <a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a> <span aria-hidden="true">&middot;</span> <a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a> <span aria-hidden="true">&middot;</span> <a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about Class 10 AI formulas</p>
+      <h2>What students ask about class 10 AI formulas</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>What are the formulas in class 10 AI?</h3><p>Most are in Evaluating Models: accuracy, error rate, precision, recall and F1 score from a confusion matrix, plus error for number predictions and the train-test split. The others are the perceptron weighted sum, pixel and colour-value counts in Computer Vision, and token counts, Bag of Words and TFIDF in NLP. Mean, median, mode and convolution belong to the practical.</p></div>
+      <div class="bx-faq-item"><h3>What is the formula of accuracy, precision and recall?</h3><p>Accuracy = (TP + TN) / (TP + TN + FP + FN). Precision = TP / (TP + FP), the share of predicted positives that were right. Recall = TP / (TP + FN), the share of real positives the model caught. For TP 56, FP 14, FN 8, TN 122 they are 0.89, 0.80 and 0.875.</p></div>
+      <div class="bx-faq-item"><h3>What is the F1 score formula in class 10 AI?</h3><p>F1 = 2 x precision x recall / (precision + recall). It balances the two and is pulled toward the lower one. With precision 0.80 and recall 0.875, F1 = 1.4 / 1.675 = 0.84, slightly below their plain average of 0.8375. Never take the simple average.</p></div>
+      <div class="bx-faq-item"><h3>What is the TFIDF formula for class 10?</h3><p>TFIDF(W) = TF(W) x log10(N / DF(W)). TF is how many times the word appears in the document, N is the total number of documents, and DF is how many documents contain the word. For a word appearing twice in a document and in 3 of 6 documents, TFIDF = 2 x log10 2 = 0.602.</p></div>
+      <div class="bx-faq-item"><h3>Is log base 10 or natural log used for TFIDF in class 10 AI?</h3><p>Base 10. The CBSE handbook for Class 10 AI takes log to base 10 of N divided by DF. Natural log, or the smoothed version software libraries use, gives different numbers that will not match the marking scheme, so use the log button for base 10 when you check your work.</p></div>
+      <div class="bx-faq-item"><h3>How do you calculate error in class 10 AI?</h3><p>For a model that predicts a number, error = |actual - predicted|, error rate = error / actual, and accuracy = 1 minus the error rate. A wait predicted as 230 seconds that was really 250 gives error 20, rate 0.08 and accuracy 0.92. For a classifier, error rate = (FP + FN) / total, which is 1 minus accuracy.</p></div>
+      <div class="bx-faq-item"><h3>How do you calculate the number of pixels in an image?</h3><p>Multiply width by height in pixels. A 1024 x 768 image has 786,432 pixels. A grayscale image stores one value per pixel, so 786,432 values; an RGB image stores three, one each for red, green and blue, so 2,359,296. With 8 bits per value each one runs from 0 to 255.</p></div>
+      <div class="bx-faq-item"><h3>How is the perceptron output calculated?</h3><p>Multiply each input by its weight, add the products, add the bias, then compare with the threshold. Inputs 1, 0, 1, 1 with weights 0.2, 0.9, -0.4, 0.6 and bias -0.3 give 0.1, above a threshold of 0, so the output is 1. In the latest sample paper this appears only as an objective item.</p></div>
+      <div class="bx-faq-item"><h3>Is there an AI class 10 cheat sheet I can print?</h3><p>Yes, the numbered table at the top of this page is the cheat sheet: twenty formulas and rules with a worked line each. Use your browser's Print option and save it as a PDF if you want a file. It is for revision at home; nothing can be taken into the board exam hall.</p></div>
+      <div class="bx-faq-item"><h3>Are mean, median and mode asked in the class 10 AI theory paper?</h3><p>No. They belong to Statistical Data, which is assessed only in the practical, together with Advance Python. Expect them in the lab exam and viva, often as a NumPy program whose output you must predict, such as the median of an even-length list.</p></div>
+      <div class="bx-faq-item"><h3>Do your classes cover all these numericals?</h3><p>Yes. Every formula on this sheet is taught from its idea and then drilled on fresh figures in timed sets, marked live, in the Monday and Wednesday 9:00 PM IST batch or one to one. It is covered by the monthly fee shown on this page, with no admission fee, and the first class is a free demo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Try a timed numerical set free, with a teacher</h2>
+        </div>
+        <p>In the free first class your child solves a short timed set across the formula families with a teacher, then goes through the working line by line on screen. Afterwards the mentor tells you which formulas are secure, which slips keep recurring, and whether the batch or one to one would suit better.</p>
+        <p>Want the whole syllabus in one sitting as well? Read <a class="bx-link" href="/cbse-class-10-ai-one-shot-revision">the Class 10 AI one shot revision</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20numericals%20practice%20for%20CBSE%20Class%2010%20AI%20417." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-cb33-parent">Parent's name</label><input id="bx-cb33-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-cb33-phone">Phone or WhatsApp</label><input id="bx-cb33-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-cb33-email">Email</label><input id="bx-cb33-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-cb33-format">Preferred format</label>
+              <select id="bx-cb33-format" name="format" required>
+                <option value="group">Mon and Wed 9 PM group batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-cb33-child">Student's name and school (optional)</label><input id="bx-cb33-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>CBSE Class 10 AI</h4><ul><li><a href="/cbse-class-10-ai-classes-online">The Mon and Wed batch</a></li><li><a href="/cbse-class-10-ai-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mocks</a></li><li><a href="/cbse-class-10-ai-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>CBSE 417 &middot; Class 10 AI formulas</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'cbse-class-10-ai-formula-sheet', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'cbse-class-10-ai-formula-sheet', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

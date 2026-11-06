@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bubble Sort and Selection Sort ICSE Class 10, with Traces</title>
+  <meta name="description" content="Bubble sort and selection sort for ICSE Class 10 with pass-by-pass trace tables, linear and binary search programs, and four Section B array programs, run in Java.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/icse-class-10-sorting-and-searching-programs">
+  <link rel="alternate" type="text/markdown" href="/src/pages/icse-class-10-sorting-and-searching-programs.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#7A4A1E">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/icse-class-10-sorting-and-searching-programs">
+  <meta property="og:title" content="Bubble Sort, Selection Sort and Binary Search for ICSE Class 10">
+  <meta property="og:description" content="Pass-by-pass trace tables for bubble sort, selection sort and binary search, a linear search on names, and four board-style Section B array programs for ICSE Class 10 Computer Applications, each with a variable description table and a sample run from Java 21.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bubble Sort, Selection Sort and Binary Search for ICSE Class 10">
+  <meta name="twitter:description" content="Bubble sort, selection sort, linear and binary search for ICSE Class 10, traced pass by pass and run in Java.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          },
+          {
+            "@type": "Country",
+            "name": "Thailand"
+          }
+        ],
+        "knowsAbout": [
+          "ICSE Computer Applications",
+          "Java",
+          "BlueJ",
+          "CISCE ICSE Class 10 Examination",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-sorting-and-searching-programs#article",
+        "headline": "Bubble Sort and Selection Sort for ICSE Class 10, Traced Pass by Pass, with Linear and Binary Search and Four Array Programs",
+        "description": "Pass-by-pass trace tables for bubble sort, selection sort and binary search, a linear search on names, and four board-style Section B array programs for ICSE Class 10 Computer Applications, each with a variable description table and a sample run from Java 21.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-10-13",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/icse-class-10-sorting-and-searching-programs"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-sorting-and-searching-programs#course",
+        "name": "ICSE Class 10 Computer Applications (Java) Arrays, Sorting and Searching Practice, Live Online",
+        "description": "Live online practice of ICSE Class 10 Computer Applications single dimensional arrays for the 2027 examination: bubble sort and selection sort in both orders, linear search and binary search, sorting Strings with compareTo, parallel arrays and array statistics, each traced pass by pass on paper and then run in BlueJ, in a Tuesday and Wednesday evening mini batch in India or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/icse-class-10-sorting-and-searching-programs",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "2999",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, mini batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": [
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Tuesday"
+              ],
+              "startTime": "17:30",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-sorting-and-searching-programs"
+            }
+          },
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Wednesday"
+              ],
+              "startTime": "20:00",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-sorting-and-searching-programs"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ICSE Class 10 Java classes",
+            "item": "https://learn.modernagecoders.com/icse-class-10-java-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Sorting and searching programs",
+            "item": "https://learn.modernagecoders.com/icse-class-10-sorting-and-searching-programs"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the difference between bubble sort and selection sort?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bubble sort compares neighbouring elements and swaps whenever they are out of order, so it can swap many times in one pass. Selection sort scans the unsorted part for the smallest or largest value and makes one swap per pass. Both make n(n - 1) / 2 comparisons on n elements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many passes does bubble sort need?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An array of n elements needs at most n minus 1 passes, because each pass settles one more value at the end and the last value is then automatically in place. Five elements need at most four passes. With a no-swap flag the sort can stop sooner if the array becomes sorted early."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you write the array after a given pass?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Trace it by hand. For bubble sort, walk left to right comparing neighbours and swapping, and write the whole array after each pass. For selection sort, find the largest or smallest value in the unsorted part, swap it into place, and write the array. Never skip a pass, even one with no changes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is binary search in Java ICSE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Binary search finds a value in a sorted array by checking the middle element. If the key is larger, it searches the right half by setting low to mid plus 1; if smaller, the left half by setting high to mid minus 1. It stops when the key is found or when low passes high."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why must the array be sorted for binary search?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Binary search throws away half the array after each check, on the assumption that every value to one side of mid is smaller and every value to the other side is larger. If the array is not sorted that assumption is false, and the search can report a value as absent when it is there."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is linear search in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Linear search compares the key with each element in turn, from index 0 onwards, until it finds a match or reaches the end. It works on any array, sorted or not, and on Strings with equals. For n elements it needs up to n comparisons, which is slow on large arrays but fine for Class 10 sizes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you sort names alphabetically in Java ICSE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use bubble or selection sort exactly as for numbers, but compare with compareTo or compareToIgnoreCase instead of greater than. A positive result means the left String comes later in the alphabet, so the two should be swapped. compareToIgnoreCase stops small and capital letters sorting into separate groups."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use Arrays.sort in the ICSE exam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "When a question asks for bubble sort or selection sort, it is testing whether you can write the algorithm, so a library call would not earn the marks for the logic. Write the nested loops and the swap yourself, with a variable description table, and use the library only where a question clearly allows it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many comparisons does binary search need?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Each comparison roughly halves what is left, so an array of 10 elements needs at most 4 comparisons and one of 100 elements needs at most 7. Linear search on the same arrays could need 10 and 100. That gap is the reason binary search is worth the extra condition of sorted data."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you teach sorting and searching in live classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. In the mini batch on Tuesday and Wednesday evenings in India, students trace passes by hand against a timer, have full array programs marked against the scheme on screen, and check every trace in BlueJ. Families abroad, or who need another time, can take personalised one to one classes."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-ic05 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">ICSE CA &middot; Sort and search</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#bubble">Bubble sort</a>
+      <a href="#selection">Selection sort</a>
+      <a href="#search">Searching</a>
+      <a href="#arrays">Array programs</a>
+      <a href="#fees">Batch or 1-on-1</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> <span>/</span> <span>Sorting and searching programs</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">ICSE Class 10 &middot; Computer Applications (Java) &middot; Sorting and searching 2027</p>
+        <h1>Bubble sort and selection sort for ICSE Class 10, traced pass by pass.</h1>
+        <p class="bx-lede">Bubble sort and selection sort are the two sorting methods ICSE Class 10 expects, and linear and binary search are the two searches. Examiners ask for the program, and just as often for the state of the array after a given pass. This page shows each algorithm as a full Scanner program that prints its own passes, with a trace table you can check your dry run against, then four Section B array programs. Every run is from Java 21. In our live mini batch the traces are written by hand before BlueJ confirms them.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20help%20with%20ICSE%20Class%2010%20sorting%20and%20searching%20programs." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'ic05'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; pass-by-pass traces &middot; bubble, selection, linear, binary &middot; four Section B array programs &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When arrays are practised">
+        <p class="bx-tt-title"><span>Array practice</span><b>ICSE CA</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Tuesday, passes traced on paper</span><span class="bx-tt-time">5:30<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, array program run in BlueJ</span><span class="bx-tt-time">8:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Algorithms traced</span><span class="bx-tt-time">4<small>two sorts, two searches</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Section B array shapes</span><span class="bx-tt-time">4<small>in rotation</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/icse-computer-applications-java-bluej-course">ICSE Class 10 Computer Applications, Java with BlueJ, Live</a></p>
+          <a class="bx-offer-opt" href="#fees" data-india-only="true"><span class="bx-offer-k">Mini batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.miniBatch">₹2,999</span><small>/month</small></span><span class="bx-offer-v">Tue 5:30 PM and Wed 8:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>In India:</b> the mini batch at these two times. <b>Outside India:</b> the same traces and programs one to one, at an evening hour for ICSE students in the Gulf, South East Asia and elsewhere.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Section B &middot; 15 marks each</span>
+          <span class="bx-stamp">Traced, then run</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Courses where sorting and searching are taught</h2>
+      <p class="bx-lede">The ICSE Java course where the mini batch traces these passes, the Class 11 and 12 Computer Science course where ISC adds insertion sort and two-dimensional work, and the data structures course for the student who wants to know why binary search is so much faster.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/icse-computer-applications-java-bluej-course">
+        <div class="bx-pick-shot"><img src="/images/java-teens.webp" alt="ICSE Computer Applications Java with BlueJ course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / ICSE CA</p>
+          <h3>ICSE Computer Applications, Java with BlueJ</h3>
+          <p>Class 9 and 10 Computer Applications in a mini batch, with sorts and searches traced by hand before each one is run in BlueJ.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+        <div class="bx-pick-shot"><img src="/images/ip-cs-class-11-12.webp" alt="Computer Science Class 11 and 12 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Next step / ISC</p>
+          <h3>Computer Science Class 11 and 12</h3>
+          <p>For students moving to ISC Computer Science, where more sorting methods and larger array problems follow.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="bx-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures and Algorithms course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Beyond the syllabus / DSA</p>
+          <h3>Data Structures and Algorithms</h3>
+          <p>For the student who wants to measure algorithms, compare sorts properly and meet faster ones.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>For ICSE Class 10, bubble sort compares neighbouring elements and swaps them when they are out of order, so after each pass the largest remaining value settles at the end. Selection sort finds the smallest (or largest) remaining value and swaps it into place, making at most one swap per pass. Linear search checks every element in turn and works on any array; binary search halves a sorted array each step using low, high and mid. Questions ask for the program and for the array after a given pass. Modern Age Coders teaches these live in a Tuesday and Wednesday mini batch in India, or personalised one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="bubble">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. How does bubble sort work, pass by pass?</p>
+      <h2>Bubble sort ICSE Class 10: the program and its trace</h2>
+      <p class="bx-lede">Bubble sort walks along the array comparing a[j] with a[j + 1] and swaps them if the left one is bigger. One walk is a pass. After pass 1 the largest value is at the end, after pass 2 the second largest is next to it, and an array of n elements needs at most n minus 1 passes.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>BubbleTrace.java</b><span>ascending, prints each pass</span></figcaption>
+  <pre>import java.util.Scanner;
+class BubbleTrace {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("How many numbers? ");
+        int n = sc.nextInt();
+        int a[] = new int[n];
+        System.out.println("Enter " + n + " numbers:");
+        for (int i = 0; i &lt; n; i++)
+            a[i] = sc.nextInt();
+        for (int p = 0; p &lt; n - 1; p++) {            <i>// pass number p + 1</i>
+            int swaps = 0;
+            for (int j = 0; j &lt; n - 1 - p; j++) {     <i>// compare neighbours</i>
+                if (a[j] &gt; a[j + 1]) {
+                    int t = a[j];
+                    a[j] = a[j + 1];
+                    a[j + 1] = t;
+                    swaps++;
+                }
+            }
+            System.out.print("After pass " + (p + 1) + ":");
+            for (int i = 0; i &lt; n; i++)
+                System.out.print(" " + a[i]);
+            System.out.println("   swaps = " + swaps);
+        }
+    }
+}</pre>
+  <p class="bx-code-note">The inner limit n - 1 - p shrinks each pass, because the values already settled at the end need no more comparing.</p>
+</figure>
+      <div>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>n</td><td>int</td><td>number of elements</td></tr>
+              <tr><td>a</td><td>int[]</td><td>the numbers being sorted</td></tr>
+              <tr><td>p</td><td>int</td><td>pass counter, from 0</td></tr>
+              <tr><td>j</td><td>int</td><td>position being compared</td></tr>
+              <tr><td>t</td><td>int</td><td>temporary store for the swap</td></tr>
+              <tr><td>swaps</td><td>int</td><td>swaps made in this pass</td></tr>
+              <tr><td>i</td><td>int</td><td>loop counter for input and printing</td></tr>
+            </tbody>
+          </table>
+        </div>
+<figure class="bx-code bx-mt-40">
+  <figcaption class="bx-code-head"><b>Sample run</b><span>Java 21</span></figcaption>
+  <pre>How many numbers? <b>5</b>
+Enter 5 numbers:
+<b>47 12 38 5 26</b>
+After pass 1: 12 38 5 26 47   swaps = 4
+After pass 2: 12 5 26 38 47   swaps = 2
+After pass 3: 5 12 26 38 47   swaps = 1
+After pass 4: 5 12 26 38 47   swaps = 0</pre>
+</figure>
+      </div>
+    </div>
+    <h3 class="bx-mt-40">Inside pass 1: every comparison</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">j</th><th scope="col">Compare</th><th scope="col">Swap?</th><th scope="col">Array after the step</th></tr></thead>
+        <tbody>
+          <tr><td class="bx-num">0</td><td class="bx-num">47 &gt; 12</td><td>yes</td><td class="bx-num">12 47 38 5 26</td></tr>
+          <tr><td class="bx-num">1</td><td class="bx-num">47 &gt; 38</td><td>yes</td><td class="bx-num">12 38 47 5 26</td></tr>
+          <tr><td class="bx-num">2</td><td class="bx-num">47 &gt; 5</td><td>yes</td><td class="bx-num">12 38 5 47 26</td></tr>
+          <tr><td class="bx-num">3</td><td class="bx-num">47 &gt; 26</td><td>yes</td><td class="bx-num">12 38 5 26 47</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-3 bx-mt-40">
+      <div class="bx-card"><h3>Count the comparisons</h3><p>Passes make 4, 3, 2 and 1 comparisons: 10 in all for five elements, whatever the data. That total, n(n - 1) / 2, is a favourite two-mark question.</p></div>
+      <div class="bx-card"><h3>Descending order</h3><p>Change one sign: swap when <code>a[j] &lt; a[j + 1]</code>. Now the smallest value sinks to the end each pass.</p></div>
+      <div class="bx-card"><h3>Stopping early</h3><p>A pass with no swaps means the array is sorted. Some answers add a boolean flag and break out; it is an improvement, not a requirement.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="selection">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. How is selection sort different?</p>
+      <h2>Selection sort ICSE Class 10, in descending order, traced</h2>
+      <p class="bx-lede">Selection sort looks through the unsorted part for the largest (or smallest) value, remembers only its position, and makes a single swap at the end of the pass. Bubble sort may swap many times in a pass; selection sort swaps at most once.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>SelectDesc.java</b><span>descending, prints each pass</span></figcaption>
+  <pre>import java.util.Scanner;
+class SelectDesc {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int a[] = new int[6];
+        System.out.println("Enter 6 scores:");
+        for (int i = 0; i &lt; 6; i++)
+            a[i] = sc.nextInt();
+        for (int i = 0; i &lt; 5; i++) {
+            int big = i;                           <i>// position of the largest so far</i>
+            for (int j = i + 1; j &lt; 6; j++)
+                if (a[j] &gt; a[big])
+                    big = j;
+            int t = a[i];                          <i>// one swap per pass</i>
+            a[i] = a[big];
+            a[big] = t;
+            System.out.print("Pass " + (i + 1) + " (largest at index " + big + "):");
+            for (int k = 0; k &lt; 6; k++)
+                System.out.print(" " + a[k]);
+            System.out.println();
+        }
+    }
+}</pre>
+  <p class="bx-code-note">For ascending order, look for the smallest instead: change &gt; to &lt; in the comparison and rename big to small.</p>
+</figure>
+      <div>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>a</td><td>int[]</td><td>six scores</td></tr>
+              <tr><td>i</td><td>int</td><td>the place being filled</td></tr>
+              <tr><td>j</td><td>int</td><td>scans the unsorted part</td></tr>
+              <tr><td>big</td><td>int</td><td>index of the largest found</td></tr>
+              <tr><td>t</td><td>int</td><td>temporary store for the swap</td></tr>
+              <tr><td>k</td><td>int</td><td>loop counter for printing</td></tr>
+            </tbody>
+          </table>
+        </div>
+<figure class="bx-code bx-mt-40">
+  <figcaption class="bx-code-head"><b>Sample run</b><span>Java 21</span></figcaption>
+  <pre>Enter 6 scores:
+<b>61 88 45 92 70 88</b>
+Pass 1 (largest at index 3): 92 88 45 61 70 88
+Pass 2 (largest at index 1): 92 88 45 61 70 88
+Pass 3 (largest at index 5): 92 88 88 61 70 45
+Pass 4 (largest at index 4): 92 88 88 70 61 45
+Pass 5 (largest at index 4): 92 88 88 70 61 45</pre>
+</figure>
+      </div>
+    </div>
+    <h3 class="bx-mt-40">The trace, one row per pass</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Pass</th><th scope="col">Searched</th><th scope="col">Largest</th><th scope="col">Swap</th><th scope="col">Array after</th></tr></thead>
+        <tbody>
+          <tr><td class="bx-num">1</td><td>index 0 to 5</td><td class="bx-num">92 at 3</td><td>a[0] with a[3]</td><td class="bx-num">92 88 45 61 70 88</td></tr>
+          <tr><td class="bx-num">2</td><td>index 1 to 5</td><td class="bx-num">88 at 1</td><td>with itself</td><td class="bx-num">92 88 45 61 70 88</td></tr>
+          <tr><td class="bx-num">3</td><td>index 2 to 5</td><td class="bx-num">88 at 5</td><td>a[2] with a[5]</td><td class="bx-num">92 88 88 61 70 45</td></tr>
+          <tr><td class="bx-num">4</td><td>index 3 to 5</td><td class="bx-num">70 at 4</td><td>a[3] with a[4]</td><td class="bx-num">92 88 88 70 61 45</td></tr>
+          <tr><td class="bx-num">5</td><td>index 4 to 5</td><td class="bx-num">61 at 4</td><td>with itself</td><td class="bx-num">92 88 88 70 61 45</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">In pass 2 the 88 at index 5 is not chosen, because <code>a[j] &gt; a[big]</code> is strict: an equal value does not replace the one already found. Examiners like duplicate values for exactly this reason.</p>
+    <div class="bx-table-wrap bx-mt-40">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Point</th><th scope="col">Bubble sort</th><th scope="col">Selection sort</th></tr></thead>
+        <tbody>
+          <tr><td>What is compared</td><td>Neighbours, a[j] and a[j + 1]</td><td>Each element with the best found so far</td></tr>
+          <tr><td>Swaps in one pass</td><td>Any number</td><td>At most one</td></tr>
+          <tr><td>After pass 1 (ascending)</td><td>Largest value at the end</td><td>Smallest value at the start</td></tr>
+          <tr><td>Comparisons for n elements</td><td>n(n - 1) / 2</td><td>n(n - 1) / 2</td></tr>
+          <tr><td>Can stop early</td><td>Yes, with a no-swap flag</td><td>No</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="search">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. Linear search or binary search?</p>
+      <h2>Linear search Java ICSE and the binary search program, with traces</h2>
+      <p class="bx-lede">Linear search checks the elements one by one and works on any array, sorted or not. Binary search needs the array sorted; it checks the middle element and throws away half of what is left at every step, so ten elements need at most four checks.</p>
+    </div>
+    <h3>Linear search on names, with a parallel array</h3>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>LinearNames.java</b><span>search Strings, report a partner value</span></figcaption>
+  <pre>import java.util.Scanner;
+class LinearNames {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        String city[] = new String[5];
+        int pin[] = new int[5];
+        System.out.println("Enter 5 cities, each followed by its PIN code:");
+        for (int i = 0; i &lt; 5; i++) {
+            city[i] = sc.next();
+            pin[i] = sc.nextInt();
+        }
+        System.out.print("City to search: ");
+        String key = sc.next();
+        int pos = -1;
+        for (int i = 0; i &lt; 5; i++) {
+            if (city[i].equalsIgnoreCase(key)) {
+                pos = i;
+                break;                             <i>// stop at the first match</i>
+            }
+        }
+        if (pos == -1)
+            System.out.println(key + " is not in the list");
+        else
+            System.out.println(city[pos] + " found at position " + (pos + 1) + ", PIN " + pin[pos]);
+    }
+}</pre>
+  <p class="bx-code-note">pos starts at -1, a value no real index can have, so after the loop it tells you plainly whether the search succeeded.</p>
+</figure>
+      <div>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>city</td><td>String[]</td><td>five city names</td></tr>
+              <tr><td>pin</td><td>int[]</td><td>PIN code of each city, same index</td></tr>
+              <tr><td>key</td><td>String</td><td>the city searched for</td></tr>
+              <tr><td>pos</td><td>int</td><td>index found, or -1</td></tr>
+              <tr><td>i</td><td>int</td><td>loop counter</td></tr>
+            </tbody>
+          </table>
+        </div>
+<figure class="bx-code bx-mt-40">
+  <figcaption class="bx-code-head"><b>Sample runs</b><span>Java 21</span></figcaption>
+  <pre>Enter 5 cities, each followed by its PIN code:
+<b>Pune 411001 Kochi 682001 Agra 282001 Shimla 171001 Patna 800001</b>
+City to search: <b>shimla</b>
+Shimla found at position 4, PIN 171001
+
+Enter 5 cities, each followed by its PIN code:
+<b>Pune 411001 Kochi 682001 Agra 282001 Shimla 171001 Patna 800001</b>
+City to search: <b>Goa</b>
+Goa is not in the list</pre>
+</figure>
+      </div>
+    </div>
+    <h3 class="bx-mt-40">Binary search, printing low, high and mid</h3>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>BinaryTrace.java</b><span>sorted array, halves each step</span></figcaption>
+  <pre>import java.util.Scanner;
+class BinaryTrace {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int a[] = {6, 14, 19, 27, 33, 41, 58, 62, 75, 90};   <i>// already in ascending order</i>
+        System.out.print("Enter the number to search: ");
+        int key = sc.nextInt();
+        int low = 0, high = a.length - 1, pos = -1;
+        while (low &lt;= high) {
+            int mid = (low + high) / 2;
+            System.out.println("low=" + low + " high=" + high + " mid=" + mid + " a[mid]=" + a[mid]);
+            if (a[mid] == key) {
+                pos = mid;
+                break;
+            } else if (key &gt; a[mid])
+                low = mid + 1;                     <i>// throw away the left half</i>
+            else
+                high = mid - 1;                    <i>// throw away the right half</i>
+        }
+        if (pos == -1)
+            System.out.println(key + " not found");
+        else
+            System.out.println(key + " found at index " + pos);
+    }
+}</pre>
+  <p class="bx-code-note">mid = (low + high) / 2 is integer division, so it rounds down: low 2 and high 3 give mid 2.</p>
+</figure>
+      <div>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>a</td><td>int[]</td><td>ten values in ascending order</td></tr>
+              <tr><td>key</td><td>int</td><td>value searched for</td></tr>
+              <tr><td>low, high</td><td>int</td><td>ends of the part still in play</td></tr>
+              <tr><td>mid</td><td>int</td><td>middle index checked</td></tr>
+              <tr><td>pos</td><td>int</td><td>index found, or -1</td></tr>
+            </tbody>
+          </table>
+        </div>
+<figure class="bx-code bx-mt-40">
+  <figcaption class="bx-code-head"><b>Sample runs</b><span>Java 21</span></figcaption>
+  <pre>Enter the number to search: <b>62</b>
+low=0 high=9 mid=4 a[mid]=33
+low=5 high=9 mid=7 a[mid]=62
+62 found at index 7
+
+Enter the number to search: <b>20</b>
+low=0 high=9 mid=4 a[mid]=33
+low=0 high=3 mid=1 a[mid]=14
+low=2 high=3 mid=2 a[mid]=19
+low=3 high=3 mid=3 a[mid]=27
+20 not found</pre>
+</figure>
+      </div>
+    </div>
+    <h3 class="bx-mt-40">The trace for 20, a value that is not there</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Step</th><th scope="col">low</th><th scope="col">high</th><th scope="col">mid</th><th scope="col">a[mid]</th><th scope="col">Decision</th></tr></thead>
+        <tbody>
+          <tr><td class="bx-num">1</td><td class="bx-num">0</td><td class="bx-num">9</td><td class="bx-num">4</td><td class="bx-num">33</td><td>20 &lt; 33, so high = 3</td></tr>
+          <tr><td class="bx-num">2</td><td class="bx-num">0</td><td class="bx-num">3</td><td class="bx-num">1</td><td class="bx-num">14</td><td>20 &gt; 14, so low = 2</td></tr>
+          <tr><td class="bx-num">3</td><td class="bx-num">2</td><td class="bx-num">3</td><td class="bx-num">2</td><td class="bx-num">19</td><td>20 &gt; 19, so low = 3</td></tr>
+          <tr><td class="bx-num">4</td><td class="bx-num">3</td><td class="bx-num">3</td><td class="bx-num">3</td><td class="bx-num">27</td><td>20 &lt; 27, so high = 2</td></tr>
+          <tr><td>end</td><td class="bx-num">3</td><td class="bx-num">2</td><td colspan="3">low &gt; high, the loop stops: not found</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-table-wrap bx-mt-40">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Point</th><th scope="col">Linear search</th><th scope="col">Binary search</th></tr></thead>
+        <tbody>
+          <tr><td>Array must be sorted</td><td>No</td><td>Yes</td></tr>
+          <tr><td>Checks for 10 elements, worst case</td><td class="bx-num">10</td><td class="bx-num">4</td></tr>
+          <tr><td>Works on Strings</td><td>Yes, with equals</td><td>Yes, with compareTo, if sorted</td></tr>
+          <tr><td>Finds every occurrence</td><td>Yes, if you do not break</td><td>No, it finds one</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="arrays">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. What array programs does Section B set?</p>
+      <h2>Array programs ICSE Class 10: the four standard Section B shapes</h2>
+      <p class="bx-lede">Most Section B array questions are one of four shapes: sort words alphabetically, sort one array and carry a partner array with it, search a sorted list, or work out the highest, lowest and average. Each shape below is a full program with Scanner input and a real run.</p>
+    </div>
+    <h3>Shape 1: sort names in alphabetical order</h3>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>SortNames.java</b><span>bubble sort on Strings</span></figcaption>
+  <pre>import java.util.Scanner;
+class SortNames {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        String nm[] = new String[6];
+        System.out.println("Enter 6 names:");
+        for (int i = 0; i &lt; 6; i++)
+            nm[i] = sc.next();
+        for (int i = 0; i &lt; 5; i++)
+            for (int j = 0; j &lt; 5 - i; j++)
+                if (nm[j].compareToIgnoreCase(nm[j + 1]) &gt; 0) {
+                    String t = nm[j];
+                    nm[j] = nm[j + 1];
+                    nm[j + 1] = t;
+                }
+        System.out.println("In alphabetical order:");
+        for (int i = 0; i &lt; 6; i++)
+            System.out.println(nm[i]);
+    }
+}</pre>
+  <p class="bx-code-note">compareToIgnoreCase returns a positive number when the left word comes later in the alphabet, so &gt; 0 plays the part of &gt; in a number sort.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Sample run</b><span>Java 21</span></figcaption>
+  <pre>Enter 6 names:
+<b>Zoya aarav Meera Kabir neel Ishaan</b>
+In alphabetical order:
+aarav
+Ishaan
+Kabir
+Meera
+neel
+Zoya</pre>
+  <p class="bx-code-note">Variables: nm String[] names; i, j int pass and position; t String temporary. With plain compareTo the small-letter names would sort after Zoya, because small letters have higher codes.</p>
+</figure>
+    </div>
+    <h3 class="bx-mt-40">Shape 2: a merit list from two parallel arrays</h3>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>MeritList.java</b><span>sort marks, move names too</span></figcaption>
+  <pre>import java.util.Scanner;
+class MeritList {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        String name[] = new String[5];
+        int marks[] = new int[5];
+        System.out.println("Enter name and marks of 5 students:");
+        for (int i = 0; i &lt; 5; i++) {
+            name[i] = sc.next();
+            marks[i] = sc.nextInt();
+        }
+        for (int i = 0; i &lt; 4; i++) {
+            int big = i;
+            for (int j = i + 1; j &lt; 5; j++)
+                if (marks[j] &gt; marks[big])
+                    big = j;
+            int t = marks[i]; marks[i] = marks[big]; marks[big] = t;
+            String s = name[i]; name[i] = name[big]; name[big] = s;   <i>// move the name with its marks</i>
+        }
+        System.out.println("Rank\tName\tMarks");
+        for (int i = 0; i &lt; 5; i++)
+            System.out.println((i + 1) + "\t" + name[i] + "\t" + marks[i]);
+    }
+}</pre>
+  <p class="bx-code-note">Whatever swap is made in marks must be made in name at the same two indices, or names and marks drift apart.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Sample run</b><span>Java 21</span></figcaption>
+  <pre>Enter name and marks of 5 students:
+<b>Tara 78 Dev 91 Anya 66 Rohan 84 Sana 91</b>
+Rank	Name	Marks
+1	Dev	91
+2	Sana	91
+3	Rohan	84
+4	Tara	78
+5	Anya	66</pre>
+  <p class="bx-code-note">Variables: name String[], marks int[]; i, j, big int; t int and s String temporaries. Dev stays ahead of Sana because the strict &gt; does not move an equal mark.</p>
+</figure>
+    </div>
+    <h3 class="bx-mt-40">Shape 3: binary search with an order check</h3>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>RollSearch.java</b><span>check sorted, then search</span></figcaption>
+  <pre>import java.util.Scanner;
+class RollSearch {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int roll[] = new int[8];
+        System.out.println("Enter 8 roll numbers in ascending order:");
+        for (int i = 0; i &lt; 8; i++)
+            roll[i] = sc.nextInt();
+        <i>// check the order first: binary search is only valid on sorted data</i>
+        boolean sorted = true;
+        for (int i = 0; i &lt; 7; i++)
+            if (roll[i] &gt; roll[i + 1])
+                sorted = false;
+        if (!sorted) {
+            System.out.println("Roll numbers are not in ascending order");
+            return;
+        }
+        System.out.print("Roll number to find: ");
+        int key = sc.nextInt();
+        int low = 0, high = 7, steps = 0, pos = -1;
+        while (low &lt;= high) {
+            int mid = (low + high) / 2;
+            steps++;
+            if (roll[mid] == key) { pos = mid; break; }
+            if (roll[mid] &lt; key) low = mid + 1;
+            else high = mid - 1;
+        }
+        if (pos &gt;= 0)
+            System.out.println("Present at position " + (pos + 1) + " after " + steps + " comparisons");
+        else
+            System.out.println("Absent, decided after " + steps + " comparisons");
+    }
+}</pre>
+  <p class="bx-code-note">The order check costs seven comparisons and saves a wrong answer: binary search on unsorted data can miss a value that is there.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Sample runs</b><span>Java 21</span></figcaption>
+  <pre>Enter 8 roll numbers in ascending order:
+<b>3 7 12 18 21 25 30 34</b>
+Roll number to find: <b>25</b>
+Present at position 6 after 2 comparisons
+
+Enter 8 roll numbers in ascending order:
+<b>3 7 12 18 21 25 30 34</b>
+Roll number to find: <b>4</b>
+Absent, decided after 3 comparisons
+
+Enter 8 roll numbers in ascending order:
+<b>3 7 12 9 21 25 30 34</b>
+Roll numbers are not in ascending order</pre>
+  <p class="bx-code-note">Variables: roll int[]; sorted boolean; key, low, high, mid, steps, pos int.</p>
+</figure>
+    </div>
+    <h3 class="bx-mt-40">Shape 4: highest, lowest, average and above-average count</h3>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>MaxMinAvg.java</b><span>one pass, then a second</span></figcaption>
+  <pre>import java.util.Scanner;
+class MaxMinAvg {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        double t[] = new double[7];
+        System.out.println("Enter the maximum temperature for 7 days:");
+        for (int i = 0; i &lt; 7; i++)
+            t[i] = sc.nextDouble();
+        double max = t[0], min = t[0], sum = 0;
+        int hot = 0;                               <i>// day number of the hottest day</i>
+        for (int i = 0; i &lt; 7; i++) {
+            sum = sum + t[i];
+            if (t[i] &gt; max) { max = t[i]; hot = i; }
+            if (t[i] &lt; min) min = t[i];
+        }
+        double avg = sum / 7;
+        int above = 0;
+        for (int i = 0; i &lt; 7; i++)
+            if (t[i] &gt; avg) above++;
+        System.out.println("Highest = " + max + " on day " + (hot + 1));
+        System.out.println("Lowest = " + min);
+        System.out.println("Average = " + Math.round(avg * 100) / 100.0);
+        System.out.println("Days above average = " + above);
+    }
+}</pre>
+  <p class="bx-code-note">max and min start at t[0], not at 0: a week of temperatures all below 0 would otherwise report a maximum of 0.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Sample run</b><span>Java 21</span></figcaption>
+  <pre>Enter the maximum temperature for 7 days:
+<b>31.5 33 29.5 35.5 34 30 32</b>
+Highest = 35.5 on day 4
+Lowest = 29.5
+Average = 32.21
+Days above average = 3</pre>
+  <p class="bx-code-note">Variables: t double[]; max, min, sum, avg double; hot, above, i int. The average needs the whole first pass, so counting days above it needs a second loop.</p>
+</figure>
+    </div>
+    <p class="bx-mt-40">
+      Rows and columns are the next step:
+      <a class="bx-link" href="/icse-class-10-2d-array-programs">2D array programs for ICSE Class 10</a>. Sorting a sentence's letters or words also draws on
+      <a class="bx-link" href="/icse-class-10-string-programs">ICSE Class 10 string programs</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" style="font-variant-ligatures:none" id="live">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. How are sorting and searching taught in the live classes?</p>
+      <h2>Sorting and searching ICSE: trace on paper, then prove it in BlueJ</h2>
+      <p class="bx-lede">The marks in this topic go to students who can produce the array after pass 2 without running anything. So the live classes put the paper trace first and the computer second.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>Cards before code</h4><p>In the first session students sort a handful of numbered cards on camera, once by bubble and once by selection, saying each comparison aloud. The algorithm is understood before a line of Java is written.</p></li>
+      <li class="bx-step"><h4>Timed trace sets on Tuesday</h4><p>At 5:30 PM IST each student fills pass tables for a fresh array, including duplicates and a value that is not in the list, against the clock.</p></li>
+      <li class="bx-step"><h4>Programs marked against the scheme</h4><p>Full Section B answers are marked on screen: input loop, sort or search logic, output format, comments and the variable description table.</p></li>
+      <li class="bx-step"><h4>Run with the printing turned on</h4><p>At 8:00 PM IST on Wednesday the programs are run in BlueJ with a print inside each pass, exactly as on this page, so every student can compare the machine's trace with their own.</p></li>
+      <li class="bx-step"><h4>Worksheets, doubts and full mocks</h4><p>A worksheet of variations follows each shape, the next class starts with doubts, and from December arrays appear inside complete timed papers.</p></li>
+    </ol>
+    <p class="bx-mt-40">
+      Searching and sorting also turn up in the one-mark section as short traces; practise those on
+      <a class="bx-link" href="/icse-class-10-java-output-questions">ICSE Computer Applications output questions</a>. Every other program family is listed on
+      <a class="bx-link" href="/icse-class-10-java-programs-practice">ICSE Class 10 Java programs for practice</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Trace sorts and searches in the mini batch, or one to one</h2>
+      <p class="bx-lede">The traces, the four array shapes and the BlueJ runs are the same in both formats. In India, families pick the fixed evening mini batch or a private slot; ICSE students abroad are taught one to one. Monthly billing, no admission fee.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card" data-india-only="true">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Mini batch, Tuesday 5:30 PM and Wednesday 8 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Tuesday 5:30 PM and Wednesday 8:00 PM IST, live</li><li>A maximum of six ICSE Class 10 students</li><li>Pass tables filled by hand against a timer</li><li>Section B answers marked against the scheme on screen</li><li>Every trace confirmed in BlueJ the next day</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>A time chosen by the family, in India or abroad</li><li>Extra traces on whichever sort your child mixes up</li><li>Parallel arrays and String sorting at their own pace</li><li>Harder arrays once the basic passes are secure</li><li>The same mentors and the same 2027 syllabus</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
+    <p class="bx-mt-40">A student who writes the sort correctly but cannot say what the array looks like after pass 2 usually needs only a few one to one sessions of tracing. A student who wants steady practice across all of Section B is better served by the two batch classes each week. Fees are shown in your own currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>Sorting and searching practice for ICSE students abroad</h2>
+      <p class="bx-lede">ICSE schools overseas take the same Computer Applications paper, so the same pass traces and array shapes carry the same Section B marks. Abroad, these classes run one to one in an evening slot in the student's own time zone.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Time difference</th><th scope="col">Usual class window, local time</th><th scope="col">Format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td>IST</td><td class="bx-num">Tue 5:30 PM, Wed 8:00 PM</td><td><span class="bx-fit">Mini batch or 1-on-1</span></td></tr>
+          <tr><td>United Arab Emirates<br><span class="bx-src">Dubai, Sharjah</span></td><td>1 h 30 min behind India</td><td class="bx-num">3:00 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Indonesia and Thailand<br><span class="bx-src">West Java, Bangkok area</span></td><td>1 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Singapore<br><span class="bx-src">Singapore</span></td><td>2 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The slot is set after the free demo and can shift around school tests. More for overseas families is on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the ICSE Class 10 Computer Applications series, grouped by what you need: classes, each chapter, Section B programs, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a></li>
+          <li><a href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Java classes in the Gulf and abroad</a></li>
+          <li><a href="/icse-class-10-bluej-java-coaching">ICSE BlueJ Java coaching</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Chapter by chapter</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a></li>
+          <li><a href="/icse-class-10-user-defined-methods-overloading">User-defined methods and overloading</a></li>
+          <li><a href="/icse-class-10-constructors-questions">Constructors</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Programs for Section B</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a></li>
+          <li><a href="/icse-class-10-string-programs">String programs</a></li>
+          <li><a href="/icse-special-number-programs-java">Special number programs</a></li>
+          <li><a href="/icse-class-10-2d-array-programs">2D array programs</a></li>
+          <li><a href="/icse-class-10-pattern-programs-java">Pattern programs</a></li>
+          <li><a href="/icse-class-10-menu-driven-programs">Menu driven and switch case</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></li>
+          <li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mock tests</a></li>
+          <li><a href="/icse-computer-applications-previous-year-papers-solved">Previous year papers, solved</a></li>
+          <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
+          <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
+          <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and internal assessment</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-board-exam-preparation">ICSE board exam preparation</a></li>
+          <li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+          <li><a href="/icse-class-10-computer-applications-project-and-internal-assessment">Project and internal assessment</a></li>
+          <li><a href="/how-to-score-100-in-icse-computer-applications">How to score 100</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>CBSE Class 10 AI (417):</b> <a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about sorting and searching</p>
+      <h2>What students ask about sorting and searching in ICSE Class 10</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>What is the difference between bubble sort and selection sort?</h3><p>Bubble sort compares neighbouring elements and swaps whenever they are out of order, so it can swap many times in one pass. Selection sort scans the unsorted part for the smallest or largest value and makes one swap per pass. Both make n(n - 1) / 2 comparisons on n elements.</p></div>
+      <div class="bx-faq-item"><h3>How many passes does bubble sort need?</h3><p>An array of n elements needs at most n minus 1 passes, because each pass settles one more value at the end and the last value is then automatically in place. Five elements need at most four passes. With a no-swap flag the sort can stop sooner if the array becomes sorted early.</p></div>
+      <div class="bx-faq-item"><h3>How do you write the array after a given pass?</h3><p>Trace it by hand. For bubble sort, walk left to right comparing neighbours and swapping, and write the whole array after each pass. For selection sort, find the largest or smallest value in the unsorted part, swap it into place, and write the array. Never skip a pass, even one with no changes.</p></div>
+      <div class="bx-faq-item"><h3>What is binary search in Java ICSE?</h3><p>Binary search finds a value in a sorted array by checking the middle element. If the key is larger, it searches the right half by setting low to mid plus 1; if smaller, the left half by setting high to mid minus 1. It stops when the key is found or when low passes high.</p></div>
+      <div class="bx-faq-item"><h3>Why must the array be sorted for binary search?</h3><p>Binary search throws away half the array after each check, on the assumption that every value to one side of mid is smaller and every value to the other side is larger. If the array is not sorted that assumption is false, and the search can report a value as absent when it is there.</p></div>
+      <div class="bx-faq-item"><h3>What is linear search in Java?</h3><p>Linear search compares the key with each element in turn, from index 0 onwards, until it finds a match or reaches the end. It works on any array, sorted or not, and on Strings with equals. For n elements it needs up to n comparisons, which is slow on large arrays but fine for Class 10 sizes.</p></div>
+      <div class="bx-faq-item"><h3>How do you sort names alphabetically in Java ICSE?</h3><p>Use bubble or selection sort exactly as for numbers, but compare with compareTo or compareToIgnoreCase instead of greater than. A positive result means the left String comes later in the alphabet, so the two should be swapped. compareToIgnoreCase stops small and capital letters sorting into separate groups.</p></div>
+      <div class="bx-faq-item"><h3>Can I use Arrays.sort in the ICSE exam?</h3><p>When a question asks for bubble sort or selection sort, it is testing whether you can write the algorithm, so a library call would not earn the marks for the logic. Write the nested loops and the swap yourself, with a variable description table, and use the library only where a question clearly allows it.</p></div>
+      <div class="bx-faq-item"><h3>How many comparisons does binary search need?</h3><p>Each comparison roughly halves what is left, so an array of 10 elements needs at most 4 comparisons and one of 100 elements needs at most 7. Linear search on the same arrays could need 10 and 100. That gap is the reason binary search is worth the extra condition of sorted data.</p></div>
+      <div class="bx-faq-item"><h3>Do you teach sorting and searching in live classes?</h3><p>Yes. In the mini batch on Tuesday and Wednesday evenings in India, students trace passes by hand against a timer, have full array programs marked against the scheme on screen, and check every trace in BlueJ. Families abroad, or who need another time, can take personalised one to one classes.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Book a free live sorting and searching class</h2>
+        </div>
+        <p>In the free demo your child traces bubble sort and binary search on a fresh array by hand, then runs the same program in BlueJ with the mentor and compares the printed passes with the paper ones. Afterwards you get a straight answer on where the gaps are, and on whether the mini batch or one to one suits better.</p>
+        <p>Prefer to see the whole syllabus first? Go to <a class="bx-link" href="/icse-class-10-computer-applications-important-questions">ICSE Computer Applications important questions</a> or <a class="bx-link" href="/icse-class-10-java-classes-online">the ICSE Class 10 Java classes</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20help%20with%20ICSE%20Class%2010%20sorting%20and%20searching%20programs." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic05-parent">Parent's name</label><input id="bx-ic05-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-ic05-phone">Phone or WhatsApp</label><input id="bx-ic05-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic05-email">Email</label><input id="bx-ic05-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-ic05-format">Preferred format</label>
+              <select id="bx-ic05-format" name="format" required>
+                <option value="mini">Tue 5:30 PM and Wed 8 PM mini batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-ic05-child">Student's name and school (optional)</label><input id="bx-ic05-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>ICSE Class 10 Computer Applications</h4><ul><li><a href="/icse-class-10-java-classes-online">The Tue and Wed batch</a></li><li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mocks</a></li><li><a href="/icse-class-10-computer-applications-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>ICSE Computer Applications &middot; Sorting and searching 2027</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'icse-class-10-sorting-and-searching-programs', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'icse-class-10-sorting-and-searching-programs', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

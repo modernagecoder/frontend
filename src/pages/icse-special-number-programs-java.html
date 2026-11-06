@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Special Number Programs in Java for ICSE Class 10, 2027</title>
+  <meta name="description" content="Special number programs in Java for ICSE: spy, Niven, duck, Armstrong, neon, magic and perfect, built on one digit template, every program run in Java 21.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/icse-special-number-programs-java">
+  <link rel="alternate" type="text/markdown" href="/src/pages/icse-special-number-programs-java.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#4F4A6E">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/icse-special-number-programs-java">
+  <meta property="og:title" content="Special Number Programs in Java for ICSE, on One Template">
+  <meta property="og:description" content="A seventeen-row definitions table of the special numbers ICSE Class 10 programs use, one reusable digit-extraction template, and full board-style programs for spy, Niven, neon, Armstrong, duck, magic, perfect, special and Disarium numbers, each with a variable description table and a real sample run.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Special Number Programs in Java for ICSE, on One Template">
+  <meta name="twitter:description" content="Spy, Niven, duck, Armstrong, neon, magic and perfect number programs for ICSE Class 10, built on one digit template and run in Java.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          },
+          {
+            "@type": "Country",
+            "name": "Thailand"
+          }
+        ],
+        "knowsAbout": [
+          "ICSE Computer Applications",
+          "Java",
+          "BlueJ",
+          "CISCE ICSE Class 10 Examination",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/icse-special-number-programs-java#article",
+        "headline": "Special Number Programs in Java for ICSE Class 10: One Digit Template, Seventeen Definitions, Full Programs",
+        "description": "A seventeen-row definitions table of the special numbers ICSE Class 10 programs use, one reusable digit-extraction template, and full board-style programs for spy, Niven, neon, Armstrong, duck, magic, perfect, special and Disarium numbers, each with a variable description table and a real sample run.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-10-13",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/icse-special-number-programs-java"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/icse-special-number-programs-java#course",
+        "name": "ICSE Class 10 Computer Applications (Java) Number Programs Practice, Live Online",
+        "description": "Live online practice of ICSE Class 10 Computer Applications number programs for the 2027 examination: the digit-extraction loop, user-defined methods for digit sum, product and count, spy, Niven, neon, Armstrong, duck, magic, perfect, special and Disarium numbers, menu-driven checks and range scans, written by hand and then run in BlueJ, in a Tuesday and Wednesday evening mini batch in India or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/icse-special-number-programs-java",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "2999",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, mini batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": [
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Tuesday"
+              ],
+              "startTime": "17:30",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-special-number-programs-java"
+            }
+          },
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Wednesday"
+              ],
+              "startTime": "20:00",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-special-number-programs-java"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ICSE Class 10 Java classes",
+            "item": "https://learn.modernagecoders.com/icse-class-10-java-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Special number programs",
+            "item": "https://learn.modernagecoders.com/icse-special-number-programs-java"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a spy number in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A spy number is one whose digit sum equals its digit product. For 1124, the sum 1 + 1 + 2 + 4 is 8 and the product 1 x 1 x 2 x 4 is also 8, so it is a spy number. In Java, keep a sum starting at 0 and a product starting at 1, and fill both with the same digit loop."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a Niven number in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A Niven number, also called a Harshad number, is divisible by the sum of its digits. 156 has digit sum 12, and 156 divided by 12 is exactly 13, so it is a Niven number. Find the digit sum with the template, then test n % sum == 0, making sure the number is above 0 first."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a duck number in ICSE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A duck number has at least one zero after its first non-zero digit, such as 4070 or 0703. Leading zeros alone do not count, so 0045 is not a duck number. Read the input as a String with next(), skip the leading zeros, then look for a zero in the rest with charAt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you write an Armstrong number program for ICSE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Count the digits first and call the count k. Then use the digit loop to add each digit raised to the power k with (int) Math.pow(d, k). If the total equals the original number, it is an Armstrong number. 153 works with k = 3 and 1634 with k = 4."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a neon number?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A neon number equals the sum of the digits of its square. 9 squared is 81, and 8 + 1 is 9, so 9 is a neon number. Run the digit-sum loop on n * n and compare with n. Between 1 and 9999 the only neon numbers are 1 and 9."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between a magic number and a happy number?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both repeat a step until a single value is reached. A magic number adds its digits again and again until one digit is left, and that digit must be 1, as in 199, 19, 10, 1. A happy number adds the squares of its digits each time, as in 19, 82, 68, 100, 1."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a perfect number in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A perfect number equals the sum of its factors other than itself. 28 is perfect because 1 + 2 + 4 + 7 + 14 is 28; 6 and 496 are the other common examples. In Java, loop i from 1 to n minus 1, add i whenever n % i == 0, then compare the total with n."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between Armstrong and Disarium numbers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both raise digits to powers. An Armstrong number raises every digit to the same power, the number of digits, as in 153. A Disarium number raises each digit to its own position from the left, as in 135, which is 1 + 3 squared + 5 cubed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I have to memorise every special number program?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Memorise the definitions and one template: take d = n % 10, use d, then n = n / 10, all on a copy of n. Every program on this page is that loop with one line changed. If the exam gives an unfamiliar number with its definition, the same template still works."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which special number programs come in the ICSE board exam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Number-property programs are a regular Section B shape, and the question normally states the definition it wants. We have not printed year tags here because we only tag a year after checking the real paper. Practise the template with all seventeen definitions and any of them is manageable."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you teach special number programs in live classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. In the mini batch on Tuesday and Wednesday evenings in India, students write a new number from the template each week, have it marked against the scheme on screen and then run it in BlueJ with edge cases. Families abroad, or who need another time, can take personalised one to one classes."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-ic04 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">ICSE CA &middot; Number programs</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#definitions">Definitions</a>
+      <a href="#template">The template</a>
+      <a href="#menu">Spy, Niven, neon</a>
+      <a href="#more-programs">More programs</a>
+      <a href="#fees">Batch or 1-on-1</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> <span>/</span> <span>Special number programs</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">ICSE Class 10 &middot; Computer Applications (Java) &middot; Special number programs 2027</p>
+        <h1>Special number programs in Java for ICSE, built on one template.</h1>
+        <p class="bx-lede">Special number programs in Java for ICSE ask you to test whether a number such as 1124 or 156 has a named property: spy, Niven, neon, Armstrong and a dozen more. They look like seventeen different programs. They are really one loop that peels off the last digit, used seventeen ways. This page gives the definitions in one table, the template once, and full programs with Scanner input, comments, variable tables and sample runs from Java 21. In our live mini batch each new number is written from the template, not memorised.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20help%20with%20ICSE%20special%20number%20programs%20in%20Java." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'ic04'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; 17 definitions in one table &middot; one digit template &middot; every program run in Java 21 &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When number programs are drilled">
+        <p class="bx-tt-title"><span>Number drills</span><b>ICSE CA</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Tuesday, one new number from the template</span><span class="bx-tt-time">5:30<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, menu and range programs</span><span class="bx-tt-time">8:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Special numbers defined</span><span class="bx-tt-time">17<small>in the table</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Digit loops traced by hand</span><span class="bx-tt-time">Each<small>week</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/icse-computer-applications-java-bluej-course">ICSE Class 10 Computer Applications, Java with BlueJ, Live</a></p>
+          <a class="bx-offer-opt" href="#fees" data-india-only="true"><span class="bx-offer-k">Mini batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.miniBatch">₹2,999</span><small>/month</small></span><span class="bx-offer-v">Tue 5:30 PM and Wed 8:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>In India:</b> the mini batch at these two times. <b>Outside India:</b> the same number programs one to one, at an evening hour that suits ICSE families in the UAE, Qatar, Singapore and beyond.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Section B &middot; 15 marks each</span>
+          <span class="bx-stamp">One loop, many numbers</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Courses where number programs are taught</h2>
+      <p class="bx-lede">The ICSE Java course where the mini batch builds these programs, the Class 11 and 12 Computer Science course where ISC asks for the same numbers inside classes, and the data structures course for a student curious about how fast these loops really are.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/icse-computer-applications-java-bluej-course">
+        <div class="bx-pick-shot"><img src="/images/java-teens.webp" alt="ICSE Computer Applications Java with BlueJ course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / ICSE CA</p>
+          <h3>ICSE Computer Applications, Java with BlueJ</h3>
+          <p>Class 9 and 10 Computer Applications in a mini batch, where every special number is written from one digit template and run in BlueJ.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+        <div class="bx-pick-shot"><img src="/images/ip-cs-class-11-12.webp" alt="Computer Science Class 11 and 12 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Next step / ISC</p>
+          <h3>Computer Science Class 11 and 12</h3>
+          <p>For students moving to ISC Computer Science, where these numbers come back as class methods and with recursion.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="bx-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures and Algorithms course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Beyond the syllabus / DSA</p>
+          <h3>Data Structures and Algorithms</h3>
+          <p>For the student who asks why a range scan is slow and wants to count the steps properly.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>Special number programs in Java for ICSE test a number for a named property using its digits. A spy number has equal digit sum and digit product (1124); a Niven number is divisible by its digit sum (156); a neon number equals the digit sum of its square (9); an Armstrong number equals the sum of its digits each raised to the number of digits (153); a duck number has a zero after its first non-zero digit (4070). All of them use one loop: d = n % 10, use d, n = n / 10. Modern Age Coders teaches these live in a Tuesday and Wednesday mini batch in India, or personalised one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="definitions">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. What does each special number mean?</p>
+      <h2>Special numbers in Java ICSE: seventeen definitions in one table</h2>
+      <p class="bx-lede">Each special number is defined by one rule about its digits, factors or square. The example in every row was recomputed in Java. The last column names the change you make to the digit template for that number.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Number</th><th scope="col">Rule in one sentence</th><th scope="col">Example, checked</th><th scope="col">What changes in the template</th></tr></thead>
+        <tbody>
+          <tr><td>Spy</td><td>Sum of digits equals product of digits</td><td class="bx-num">1124: 1+1+2+4 = 8 = 1x1x2x4</td><td>Keep a sum and a product</td></tr>
+          <tr><td>Niven (Harshad)</td><td>Divisible by the sum of its digits</td><td class="bx-num">156: sum 12, 156 / 12 = 13</td><td>Sum, then n % sum == 0</td></tr>
+          <tr><td>Neon</td><td>Sum of the digits of its square equals the number</td><td class="bx-num">9: 81, 8+1 = 9</td><td>Run the loop on n * n</td></tr>
+          <tr><td>Armstrong</td><td>Sum of each digit raised to the number of digits equals the number</td><td class="bx-num">153 = 1+125+27; 1634</td><td>Count digits first, add Math.pow(d, k)</td></tr>
+          <tr><td>Duck</td><td>Has a zero somewhere after its first non-zero digit</td><td class="bx-num">4070 yes; 0045 no</td><td>Read as a String, test charAt</td></tr>
+          <tr><td>Magic</td><td>Adding the digits again and again ends at 1</td><td class="bx-num">199, 19, 10, 1</td><td>Repeat the sum while the result is above 9</td></tr>
+          <tr><td>Perfect</td><td>Sum of its factors below itself equals the number</td><td class="bx-num">28 = 1+2+4+7+14</td><td>No digits: loop over factors</td></tr>
+          <tr><td>Automorphic</td><td>Its square ends in the number itself</td><td class="bx-num">76: 5776</td><td>Compare n * n % 10<sup>k</sup> with n</td></tr>
+          <tr><td>Disarium</td><td>Sum of each digit raised to its position from the left equals the number</td><td class="bx-num">135 = 1+9+125</td><td>Power k, then k-- each pass</td></tr>
+          <tr><td>Special (Krishnamurthy)</td><td>Sum of the factorials of its digits equals the number</td><td class="bx-num">145 = 1!+4!+5!</td><td>Add fact(d)</td></tr>
+          <tr><td>Buzz</td><td>Divisible by 7 or ends in 7</td><td class="bx-num">49 and 107</td><td>No loop: n % 7 and n % 10</td></tr>
+          <tr><td>Pronic</td><td>Product of two consecutive integers</td><td class="bx-num">56 = 7x8</td><td>Loop i while i * (i + 1) &lt;= n</td></tr>
+          <tr><td>Sunny</td><td>The next number, n + 1, is a perfect square</td><td class="bx-num">80: 81 = 9x9</td><td>Math.sqrt(n + 1) has no fraction</td></tr>
+          <tr><td>Tech</td><td>Even digit count; square of the sum of its two halves equals the number</td><td class="bx-num">2025: (20+25)<sup>2</sup></td><td>Split with / and % by 10<sup>k/2</sup></td></tr>
+          <tr><td>Happy</td><td>Replacing it by the sum of the squares of its digits, again and again, ends at 1</td><td class="bx-num">19, 82, 68, 100, 1</td><td>Add d * d, repeat</td></tr>
+          <tr><td>Palindrome number</td><td>Reads the same reversed</td><td class="bx-num">12321</td><td>Build rev = rev * 10 + d</td></tr>
+          <tr><td>Twisted prime</td><td>Prime, and still prime with its digits reversed</td><td class="bx-num">13 and 31</td><td>Reverse, then two prime checks</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      We do not attach board years to these numbers. A year tag is only worth printing once it has been checked against the actual paper, and the programs here are written to teach the method, not to copy a question. Schools sometimes define a number slightly differently (Magic and Duck vary most), so when a question gives its own definition, that definition wins.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="template">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. Is there one method that works for all of them?</p>
+      <h2>The digit-extraction template every number program uses</h2>
+      <p class="bx-lede">Yes. Take the last digit with <code>n % 10</code>, use it, and drop it with <code>n / 10</code>, until n is 0. Work on a copy so the original number is still there for the final comparison.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>The template</b><span>three lines in a loop</span></figcaption>
+  <pre>int t = n;            <i>// copy: keep n for the answer</i>
+while (t &gt; 0) {
+    int d = t % 10;   <i>// 1. take the last digit</i>
+    <b>... use d ...</b>       <i>// 2. sum, product, power, factorial</i>
+    t = t / 10;       <i>// 3. drop the last digit</i>
+}
+<i>// now compare the result with n</i></pre>
+  <p class="bx-code-note">Only step 2 changes from number to number. Steps 1 and 3 never change.</p>
+</figure>
+      <div class="bx-table-wrap">
+        <table class="bx-table">
+          <thead><tr><th scope="col">Pass</th><th scope="col">d = t % 10</th><th scope="col">sum</th><th scope="col">product</th><th scope="col">t after</th></tr></thead>
+          <tbody>
+            <tr><td>start</td><td>none</td><td class="bx-num">0</td><td class="bx-num">1</td><td class="bx-num">1124</td></tr>
+            <tr><td>1</td><td class="bx-num">4</td><td class="bx-num">4</td><td class="bx-num">4</td><td class="bx-num">112</td></tr>
+            <tr><td>2</td><td class="bx-num">2</td><td class="bx-num">6</td><td class="bx-num">8</td><td class="bx-num">11</td></tr>
+            <tr><td>3</td><td class="bx-num">1</td><td class="bx-num">7</td><td class="bx-num">8</td><td class="bx-num">1</td></tr>
+            <tr><td>4</td><td class="bx-num">1</td><td class="bx-num">8</td><td class="bx-num">8</td><td class="bx-num">0, loop ends</td></tr>
+          </tbody>
+        </table>
+        <p class="bx-mt-40">The dry run for 1124: sum 8 equals product 8, so 1124 is a spy number. Notice the product starts at 1 and the sum at 0; starting the product at 0 is the most common reason a spy program says no to every number.</p>
+      </div>
+    </div>
+    <div class="bx-grid-3 bx-mt-40">
+      <div class="bx-card"><h3>Copy before the loop</h3><p>The loop destroys t. If you loop on n itself, the final <code>sum == n</code> compares against 0 and every answer is wrong.</p></div>
+      <div class="bx-card"><h3>Right digit first</h3><p>The template meets the digits from the right. That is fine for sums and products; for position-based rules such as Disarium, count the digits first and count down.</p></div>
+      <div class="bx-card"><h3>Guard the zero</h3><p>For Niven, a 0 input would mean dividing by a digit sum of 0. One <code>n &gt; 0</code> test in the condition avoids the crash.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="menu">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. How do you write the spy, Niven and neon programs?</p>
+      <h2>Spy number program, Niven number in Java and neon, as one menu program</h2>
+      <p class="bx-lede">Put the template into small methods, <code>sumDigits</code>, <code>productDigits</code> and <code>countDigits</code>, and each check becomes one line. A switch menu over three numbers is exactly the shape of many Section B questions, and it shows user-defined methods at the same time.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Digits.java</b><span>methods plus a menu</span></figcaption>
+  <pre>import java.util.Scanner;
+class Digits {
+    <i>// The one template: take the last digit, use it, drop it.</i>
+    static int sumDigits(int n) {
+        int s = 0;
+        while (n &gt; 0) {
+            int d = n % 10;     <i>// last digit</i>
+            s = s + d;          <i>// use it</i>
+            n = n / 10;         <i>// drop it</i>
+        }
+        return s;
+    }
+    static int productDigits(int n) {
+        int p = 1;
+        while (n &gt; 0) {
+            p = p * (n % 10);
+            n = n / 10;
+        }
+        return p;
+    }
+    static int countDigits(int n) {
+        int c = 0;
+        do {
+            c++;
+            n = n / 10;
+        } while (n &gt; 0);
+        return c;
+    }
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("1. Spy  2. Niven  3. Neon");
+        System.out.print("Enter choice and number: ");
+        int ch = sc.nextInt();
+        int n = sc.nextInt();
+        switch (ch) {
+            case 1:
+                if (sumDigits(n) == productDigits(n))
+                    System.out.println(n + " is a Spy number");
+                else
+                    System.out.println(n + " is not a Spy number");
+                break;
+            case 2:
+                if (n &gt; 0 &amp;&amp; n % sumDigits(n) == 0)
+                    System.out.println(n + " is a Niven number");
+                else
+                    System.out.println(n + " is not a Niven number");
+                break;
+            case 3:
+                if (sumDigits(n * n) == n)
+                    System.out.println(n + " is a Neon number");
+                else
+                    System.out.println(n + " is not a Neon number");
+                break;
+            default:
+                System.out.println("Wrong choice");
+        }
+    }
+}</pre>
+  <p class="bx-code-note">countDigits uses do-while so that 0 is counted as one digit; it is ready for Armstrong and Disarium.</p>
+</figure>
+      <div>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>n</td><td>int</td><td>the number to test (a copy inside each method)</td></tr>
+              <tr><td>ch</td><td>int</td><td>menu choice, 1 to 3</td></tr>
+              <tr><td>d</td><td>int</td><td>the last digit</td></tr>
+              <tr><td>s, p, c</td><td>int</td><td>digit sum, digit product, digit count</td></tr>
+            </tbody>
+          </table>
+        </div>
+<figure class="bx-code bx-mt-40">
+  <figcaption class="bx-code-head"><b>Sample runs</b><span>Java 21</span></figcaption>
+  <pre>1. Spy  2. Niven  3. Neon
+Enter choice and number: <b>1 1124</b>
+1124 is a Spy number
+
+1. Spy  2. Niven  3. Neon
+Enter choice and number: <b>1 1236</b>
+1236 is not a Spy number
+
+1. Spy  2. Niven  3. Neon
+Enter choice and number: <b>2 156</b>
+156 is a Niven number
+
+1. Spy  2. Niven  3. Neon
+Enter choice and number: <b>3 9</b>
+9 is a Neon number</pre>
+  <p class="bx-code-note">1236 fails: the sum is 12 but the product is 36.</p>
+</figure>
+      </div>
+    </div>
+    <h3 class="bx-mt-40">Spy numbers in a range, and why neon numbers are rare</h3>
+    <p>A favourite variation asks for every number of a kind between two limits. Wrap the check in a for loop. The same methods do the work.</p>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>RangeScan.java</b><span>check every number in a range</span></figcaption>
+  <pre>class RangeScan {
+    static int sumDigits(int n) {
+        int s = 0;
+        while (n &gt; 0) { s += n % 10; n /= 10; }
+        return s;
+    }
+    static int productDigits(int n) {
+        int p = 1;
+        while (n &gt; 0) { p *= n % 10; n /= 10; }
+        return p;
+    }
+    public static void main(String args[]) {
+        System.out.print("Spy numbers from 100 to 1500: ");
+        int c = 0;
+        for (int n = 100; n &lt;= 1500; n++)
+            if (sumDigits(n) == productDigits(n)) { System.out.print(n + " "); c++; }
+        System.out.println("(" + c + ")");
+        System.out.print("Neon numbers below 10000: ");
+        for (int n = 1; n &lt; 10000; n++)
+            if (sumDigits(n * n) == n) System.out.print(n + " ");
+        System.out.println();
+    }
+}</pre>
+  <p class="bx-code-note">Short methods on one line save space here; in an exam answer, spread them out and comment them as in Digits.java.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Output</b><span>Java 21</span></figcaption>
+  <pre>Spy numbers from 100 to 1500: 123 132 213 231 312 321 1124 1142 1214 1241 1412 1421 (12)
+Neon numbers below 10000: 1 9</pre>
+  <p class="bx-code-note">The spy numbers in this range are just two digit families rearranged: 1, 2, 3 and 1, 1, 2, 4. Between 1 and 9999 only 1 and 9 are neon numbers, which is why neon questions nearly always give you the number to test.</p>
+</figure>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="more-programs">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. What about Armstrong, duck, magic and perfect numbers?</p>
+      <h2>Armstrong number program ICSE, duck number, magic and perfect numbers</h2>
+      <p class="bx-lede">Armstrong needs the digit count before the loop. Duck needs the number as text, because an int cannot remember leading zeros. Magic repeats the template inside another loop. Perfect does not use digits at all; it loops over possible factors.</p>
+    </div>
+    <h3>Armstrong number for any number of digits</h3>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>ArmstrongN.java</b><span>power = number of digits</span></figcaption>
+  <pre>import java.util.Scanner;
+class ArmstrongN {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+        int k = String.valueOf(n).length();     <i>// number of digits</i>
+        int t = n, sum = 0;
+        while (t &gt; 0) {
+            int d = t % 10;
+            sum = sum + (int) Math.pow(d, k);   <i>// digit raised to k</i>
+            t = t / 10;
+        }
+        if (sum == n)
+            System.out.println(n + " is an Armstrong number");
+        else
+            System.out.println(n + " is not an Armstrong number (sum = " + sum + ")");
+    }
+}</pre>
+  <p class="bx-code-note">Math.pow returns a double, so the (int) cast is needed before adding to an int sum.</p>
+</figure>
+      <div>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>n</td><td>int</td><td>the number entered</td></tr>
+              <tr><td>k</td><td>int</td><td>number of digits</td></tr>
+              <tr><td>t</td><td>int</td><td>working copy of n</td></tr>
+              <tr><td>d</td><td>int</td><td>the last digit</td></tr>
+              <tr><td>sum</td><td>int</td><td>sum of d to the power k</td></tr>
+            </tbody>
+          </table>
+        </div>
+<figure class="bx-code bx-mt-40">
+  <figcaption class="bx-code-head"><b>Sample runs</b><span>Java 21</span></figcaption>
+  <pre>Enter a number: <b>1634</b>
+1634 is an Armstrong number
+Enter a number: <b>371</b>
+371 is an Armstrong number
+Enter a number: <b>1220</b>
+1220 is not an Armstrong number (sum = 33)</pre>
+  <p class="bx-code-note">Many textbook versions cube every digit, which only works for three-digit numbers. Using k makes 1634 work too.</p>
+</figure>
+      </div>
+    </div>
+    <h3 class="bx-mt-40">Duck number, read as a String</h3>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Duck.java</b><span>leading zeros do not count</span></figcaption>
+  <pre>import java.util.Scanner;
+class Duck {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        String s = sc.next();                   <i>// read as text so leading zeros survive</i>
+        int i = 0;
+        while (i &lt; s.length() &amp;&amp; s.charAt(i) == '0')
+            i++;                                <i>// skip the leading zeros</i>
+        boolean duck = false;
+        for (int j = i + 1; j &lt; s.length(); j++) {
+            if (s.charAt(j) == '0') {
+                duck = true;                    <i>// a zero after the first real digit</i>
+                break;
+            }
+        }
+        System.out.println(s + (duck ? " is a Duck number" : " is not a Duck number"));
+    }
+}</pre>
+  <p class="bx-code-note">If you read the number with nextInt, 0703 arrives as 703 and the leading zero is lost before you can test it.</p>
+</figure>
+      <div>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>s</td><td>String</td><td>the number as typed</td></tr>
+              <tr><td>i</td><td>int</td><td>index of the first non-zero digit</td></tr>
+              <tr><td>j</td><td>int</td><td>loop counter after that digit</td></tr>
+              <tr><td>duck</td><td>boolean</td><td>true once a later zero is found</td></tr>
+            </tbody>
+          </table>
+        </div>
+<figure class="bx-code bx-mt-40">
+  <figcaption class="bx-code-head"><b>Sample runs</b><span>Java 21</span></figcaption>
+  <pre>Enter the number: <b>4070</b>
+4070 is a Duck number
+Enter the number: <b>0703</b>
+0703 is a Duck number
+Enter the number: <b>0045</b>
+0045 is not a Duck number
+Enter the number: <b>5678</b>
+5678 is not a Duck number</pre>
+  <p class="bx-code-note">0703 qualifies through the zero between 7 and 3; 0045 has only leading zeros.</p>
+</figure>
+      </div>
+    </div>
+    <h3 class="bx-mt-40">Magic and perfect numbers in one program</h3>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>MagicPerfect.java</b><span>repeated sum, factor sum</span></figcaption>
+  <pre>import java.util.Scanner;
+class MagicPerfect {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+        <i>// Magic: keep adding the digits until one digit is left</i>
+        int m = n;
+        while (m &gt; 9) {
+            int s = 0;
+            while (m &gt; 0) {
+                s = s + m % 10;
+                m = m / 10;
+            }
+            m = s;
+        }
+        System.out.println(n + (m == 1 ? " is" : " is not") + " a Magic number (ends at " + m + ")");
+        <i>// Perfect: the factors below n add up to n</i>
+        int f = 0;
+        for (int i = 1; i &lt; n; i++)
+            if (n % i == 0)
+                f = f + i;
+        System.out.println(n + (f == n ? " is" : " is not") + " a Perfect number (factor sum = " + f + ")");
+    }
+}</pre>
+  <p class="bx-code-note">The outer while keeps going until one digit is left; the inner while is the template.</p>
+</figure>
+      <div>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>n</td><td>int</td><td>the number entered</td></tr>
+              <tr><td>m</td><td>int</td><td>repeated digit sum</td></tr>
+              <tr><td>s</td><td>int</td><td>digit sum of one round</td></tr>
+              <tr><td>f</td><td>int</td><td>sum of factors below n</td></tr>
+              <tr><td>i</td><td>int</td><td>possible factor</td></tr>
+            </tbody>
+          </table>
+        </div>
+<figure class="bx-code bx-mt-40">
+  <figcaption class="bx-code-head"><b>Sample runs</b><span>Java 21</span></figcaption>
+  <pre>Enter a number: <b>199</b>
+199 is a Magic number (ends at 1)
+199 is not a Perfect number (factor sum = 1)
+Enter a number: <b>28</b>
+28 is a Magic number (ends at 1)
+28 is a Perfect number (factor sum = 28)
+Enter a number: <b>50</b>
+50 is not a Magic number (ends at 5)
+50 is not a Perfect number (factor sum = 43)</pre>
+  <p class="bx-code-note">199 is prime, so its only factor below itself is 1.</p>
+</figure>
+      </div>
+    </div>
+    <h3 class="bx-mt-40">Special and Disarium numbers: two sums in one pass</h3>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>SpecialDisarium.java</b><span>factorials and positions</span></figcaption>
+  <pre>import java.util.Scanner;
+class SpecialDisarium {
+    static int fact(int d) {                    <i>// d! for one digit</i>
+        int f = 1;
+        for (int i = 2; i &lt;= d; i++)
+            f = f * i;
+        return f;
+    }
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+        int k = String.valueOf(n).length();     <i>// position of the last digit</i>
+        int t = n, sf = 0, sp = 0;
+        while (t &gt; 0) {
+            int d = t % 10;
+            sf = sf + fact(d);                  <i>// Special: add d!</i>
+            sp = sp + (int) Math.pow(d, k);     <i>// Disarium: d to the power of its position</i>
+            k--;                                <i>// the next digit sits one place to the left</i>
+            t = t / 10;
+        }
+        System.out.println("Sum of digit factorials = " + sf + (sf == n ? ", Special number" : ", not Special"));
+        System.out.println("Sum of positional powers = " + sp + (sp == n ? ", Disarium number" : ", not Disarium"));
+    }
+}</pre>
+  <p class="bx-code-note">The loop meets the rightmost digit first, so its position is k, the digit count, and k falls by one each pass.</p>
+</figure>
+      <div>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>n</td><td>int</td><td>the number entered</td></tr>
+              <tr><td>k</td><td>int</td><td>position of the current digit</td></tr>
+              <tr><td>t, d</td><td>int</td><td>working copy, last digit</td></tr>
+              <tr><td>sf</td><td>int</td><td>sum of digit factorials</td></tr>
+              <tr><td>sp</td><td>int</td><td>sum of positional powers</td></tr>
+              <tr><td>f, i</td><td>int</td><td>factorial and its counter, in fact()</td></tr>
+            </tbody>
+          </table>
+        </div>
+<figure class="bx-code bx-mt-40">
+  <figcaption class="bx-code-head"><b>Sample runs</b><span>Java 21</span></figcaption>
+  <pre>Enter a number: <b>145</b>
+Sum of digit factorials = 145, Special number
+Sum of positional powers = 142, not Disarium
+Enter a number: <b>135</b>
+Sum of digit factorials = 127, not Special
+Sum of positional powers = 135, Disarium number
+Enter a number: <b>89</b>
+Sum of digit factorials = 403200, not Special
+Sum of positional powers = 89, Disarium number</pre>
+</figure>
+      </div>
+    </div>
+    <p class="bx-mt-40">
+      Number palindromes and digit reversal also appear with the other loop programs on
+      <a class="bx-link" href="/icse-class-10-loop-programs-java">loop programs in Java for ICSE Class 10</a>, and the method-writing rules used above are on
+      <a class="bx-link" href="/icse-class-10-user-defined-methods-overloading">user-defined methods and overloading for ICSE Class 10</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" style="font-variant-ligatures:none" id="live">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. How are special number programs taught live?</p>
+      <h2>Template first, then a new number every week</h2>
+      <p class="bx-lede">Students who memorise seventeen programs forget them by March. Students who own the template can write an eighteenth number they have never seen. The live classes are built round that second habit.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>The template, traced by hand</h4><p>In the first class the digit loop is dry run on paper for two or three numbers until each student can fill a pass table without help.</p></li>
+      <li class="bx-step"><h4>A new number every Tuesday</h4><p>At 5:30 PM IST the mentor gives a definition, sometimes one from the table above and sometimes an unfamiliar one, and the group writes the program from the template against a timer.</p></li>
+      <li class="bx-step"><h4>Marked against the scheme on screen</h4><p>Answers are marked in front of everyone: the copy before the loop, the right starting values, the comparison, the comments and the variable table each earn their share.</p></li>
+      <li class="bx-step"><h4>Run with edge cases on Wednesday</h4><p>At 8:00 PM IST the programs are run in BlueJ with 0, a single digit, a number with a zero inside and a number with leading zeros, so the weak spots show before the exam.</p></li>
+      <li class="bx-step"><h4>Worksheets, doubt time and mock papers</h4><p>Each fortnight ends with a worksheet of unseen numbers; from December the same questions arrive inside full timed papers.</p></li>
+    </ol>
+    <p class="bx-mt-40">
+      Number programs often sit inside a menu with two choices; that shape is covered on
+      <a class="bx-link" href="/icse-class-10-menu-driven-programs">ICSE Class 10 menu driven programs</a>. The full list of program families is on
+      <a class="bx-link" href="/icse-class-10-java-programs-practice">ICSE Class 10 Java programs for practice</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Learn number programs in the mini batch, or one to one</h2>
+      <p class="bx-lede">The definitions table, the template and the BlueJ test runs are identical in both formats. In India, families choose the fixed evening mini batch or a private slot; ICSE students abroad learn one to one. Billing is monthly with no admission fee.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card" data-india-only="true">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Mini batch, Tuesday 5:30 PM and Wednesday 8 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Tuesday 5:30 PM and Wednesday 8:00 PM IST, live</li><li>No more than six ICSE Class 10 students</li><li>A new special number written from the template weekly</li><li>Answers marked against the scheme on screen</li><li>Edge cases run in BlueJ before the exam finds them</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>A slot the family chooses, in India or abroad</li><li>Time spent on the numbers your child mixes up</li><li>Pass tables traced together until they are automatic</li><li>Unseen definitions once the template is secure</li><li>The same mentors and the same 2027 syllabus</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
+    <p class="bx-mt-40">A student who confuses Niven with neon, or Armstrong with Disarium, often needs only a few one to one sessions with the definitions table and the template side by side. A student who wants steady weekly practice across every Section B family is better served by the two batch classes. Fees are shown in your own currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>Number program practice for ICSE students abroad</h2>
+      <p class="bx-lede">ICSE schools outside India sit the same Computer Applications paper, so the same digit loop decides the same Section B marks. Abroad, the practice runs one to one, after school in the student's own time zone.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Time difference</th><th scope="col">Usual class window, local time</th><th scope="col">Format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td>IST</td><td class="bx-num">Tue 5:30 PM, Wed 8:00 PM</td><td><span class="bx-fit">Mini batch or 1-on-1</span></td></tr>
+          <tr><td>United Arab Emirates<br><span class="bx-src">Dubai, Sharjah</span></td><td>1 h 30 min behind India</td><td class="bx-num">3:00 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Indonesia and Thailand<br><span class="bx-src">West Java, Bangkok area</span></td><td>1 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Singapore<br><span class="bx-src">Singapore</span></td><td>2 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The slot is agreed after the free demo and moved around school tests. More on overseas classes is on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the ICSE Class 10 Computer Applications series, grouped by what you need: classes, each chapter, Section B programs, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a></li>
+          <li><a href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Java classes in the Gulf and abroad</a></li>
+          <li><a href="/icse-class-10-bluej-java-coaching">ICSE BlueJ Java coaching</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Chapter by chapter</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a></li>
+          <li><a href="/icse-class-10-user-defined-methods-overloading">User-defined methods and overloading</a></li>
+          <li><a href="/icse-class-10-constructors-questions">Constructors</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Programs for Section B</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a></li>
+          <li><a href="/icse-class-10-string-programs">String programs</a></li>
+          <li><a href="/icse-class-10-sorting-and-searching-programs">Sorting and searching programs</a></li>
+          <li><a href="/icse-class-10-2d-array-programs">2D array programs</a></li>
+          <li><a href="/icse-class-10-pattern-programs-java">Pattern programs</a></li>
+          <li><a href="/icse-class-10-menu-driven-programs">Menu driven and switch case</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></li>
+          <li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mock tests</a></li>
+          <li><a href="/icse-computer-applications-previous-year-papers-solved">Previous year papers, solved</a></li>
+          <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
+          <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
+          <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and internal assessment</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-board-exam-preparation">ICSE board exam preparation</a></li>
+          <li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+          <li><a href="/icse-class-10-computer-applications-project-and-internal-assessment">Project and internal assessment</a></li>
+          <li><a href="/how-to-score-100-in-icse-computer-applications">How to score 100</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>CBSE Class 10 AI (417):</b> <a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about special numbers</p>
+      <h2>What students ask about special number programs in Java</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>What is a spy number in Java?</h3><p>A spy number is one whose digit sum equals its digit product. For 1124, the sum 1 + 1 + 2 + 4 is 8 and the product 1 x 1 x 2 x 4 is also 8, so it is a spy number. In Java, keep a sum starting at 0 and a product starting at 1, and fill both with the same digit loop.</p></div>
+      <div class="bx-faq-item"><h3>What is a Niven number in Java?</h3><p>A Niven number, also called a Harshad number, is divisible by the sum of its digits. 156 has digit sum 12, and 156 divided by 12 is exactly 13, so it is a Niven number. Find the digit sum with the template, then test n % sum == 0, making sure the number is above 0 first.</p></div>
+      <div class="bx-faq-item"><h3>What is a duck number in ICSE?</h3><p>A duck number has at least one zero after its first non-zero digit, such as 4070 or 0703. Leading zeros alone do not count, so 0045 is not a duck number. Read the input as a String with next(), skip the leading zeros, then look for a zero in the rest with charAt.</p></div>
+      <div class="bx-faq-item"><h3>How do you write an Armstrong number program for ICSE?</h3><p>Count the digits first and call the count k. Then use the digit loop to add each digit raised to the power k with (int) Math.pow(d, k). If the total equals the original number, it is an Armstrong number. 153 works with k = 3 and 1634 with k = 4.</p></div>
+      <div class="bx-faq-item"><h3>What is a neon number?</h3><p>A neon number equals the sum of the digits of its square. 9 squared is 81, and 8 + 1 is 9, so 9 is a neon number. Run the digit-sum loop on n * n and compare with n. Between 1 and 9999 the only neon numbers are 1 and 9.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between a magic number and a happy number?</h3><p>Both repeat a step until a single value is reached. A magic number adds its digits again and again until one digit is left, and that digit must be 1, as in 199, 19, 10, 1. A happy number adds the squares of its digits each time, as in 19, 82, 68, 100, 1.</p></div>
+      <div class="bx-faq-item"><h3>What is a perfect number in Java?</h3><p>A perfect number equals the sum of its factors other than itself. 28 is perfect because 1 + 2 + 4 + 7 + 14 is 28; 6 and 496 are the other common examples. In Java, loop i from 1 to n minus 1, add i whenever n % i == 0, then compare the total with n.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between Armstrong and Disarium numbers?</h3><p>Both raise digits to powers. An Armstrong number raises every digit to the same power, the number of digits, as in 153. A Disarium number raises each digit to its own position from the left, as in 135, which is 1 + 3 squared + 5 cubed.</p></div>
+      <div class="bx-faq-item"><h3>Do I have to memorise every special number program?</h3><p>No. Memorise the definitions and one template: take d = n % 10, use d, then n = n / 10, all on a copy of n. Every program on this page is that loop with one line changed. If the exam gives an unfamiliar number with its definition, the same template still works.</p></div>
+      <div class="bx-faq-item"><h3>Which special number programs come in the ICSE board exam?</h3><p>Number-property programs are a regular Section B shape, and the question normally states the definition it wants. We have not printed year tags here because we only tag a year after checking the real paper. Practise the template with all seventeen definitions and any of them is manageable.</p></div>
+      <div class="bx-faq-item"><h3>Do you teach special number programs in live classes?</h3><p>Yes. In the mini batch on Tuesday and Wednesday evenings in India, students write a new number from the template each week, have it marked against the scheme on screen and then run it in BlueJ with edge cases. Families abroad, or who need another time, can take personalised one to one classes.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Try a free live number programs class</h2>
+        </div>
+        <p>In the free demo your child dry runs the digit template on one number, writes a full program for a second number from its definition, and then tests it in BlueJ with the mentor using awkward inputs. You hear honestly afterwards how secure the template is, and whether the mini batch or one to one fits better.</p>
+        <p>Want the broader picture first? See <a class="bx-link" href="/icse-class-10-computer-applications-important-questions">ICSE Computer Applications important questions</a> or <a class="bx-link" href="/icse-class-10-java-classes-online">the ICSE Class 10 Java classes</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20help%20with%20ICSE%20special%20number%20programs%20in%20Java." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic04-parent">Parent's name</label><input id="bx-ic04-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-ic04-phone">Phone or WhatsApp</label><input id="bx-ic04-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic04-email">Email</label><input id="bx-ic04-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-ic04-format">Preferred format</label>
+              <select id="bx-ic04-format" name="format" required>
+                <option value="mini">Tue 5:30 PM and Wed 8 PM mini batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-ic04-child">Student's name and school (optional)</label><input id="bx-ic04-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>ICSE Class 10 Computer Applications</h4><ul><li><a href="/icse-class-10-java-classes-online">The Tue and Wed batch</a></li><li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mocks</a></li><li><a href="/icse-class-10-computer-applications-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>ICSE Computer Applications &middot; Special number programs 2027</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'icse-special-number-programs-java', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'icse-special-number-programs-java', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

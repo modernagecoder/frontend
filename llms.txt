@@ -2425,6 +2425,30 @@ Live online Class 10 board preparation, taught in small batches: CBSE Artificial
 - ICSE Class 10 Computer Applications (Java) classes for students abroad: https://learn.modernagecoders.com/icse-class-10-computer-applications-classes-gulf-and-abroad
 - CBSE Class 10 AI (417): Class 10 AI MCQ, unit wise: https://learn.modernagecoders.com/cbse-class-10-ai-mcq-questions
 - ICSE Class 10 Computer Applications: Predict the output questions: https://learn.modernagecoders.com/icse-class-10-java-output-questions
+- CBSE Class 10 AI (417): Previous year papers, solved: https://learn.modernagecoders.com/cbse-class-10-ai-previous-year-question-papers
+- CBSE Class 10 AI (417): Class 10 AI notes, unit wise: https://learn.modernagecoders.com/cbse-class-10-ai-notes
+- CBSE Class 10 AI (417): Case based questions: https://learn.modernagecoders.com/cbse-class-10-ai-case-based-questions
+- CBSE Class 10 AI (417): Unit 3: Evaluating Models: https://learn.modernagecoders.com/cbse-class-10-ai-evaluating-models-questions
+- CBSE Class 10 AI (417): Confusion matrix numericals: https://learn.modernagecoders.com/confusion-matrix-class-10-ai-numericals
+- CBSE Class 10 AI (417): Unit 2: Advanced modeling: https://learn.modernagecoders.com/cbse-class-10-ai-advanced-modeling-questions
+- CBSE Class 10 AI (417): Unit 6: Natural Language Processing: https://learn.modernagecoders.com/cbse-class-10-ai-nlp-questions
+- CBSE Class 10 AI (417): Bag of Words and TFIDF, worked: https://learn.modernagecoders.com/bag-of-words-tfidf-class-10-ai
+- CBSE Class 10 AI (417): Unit 5: Computer Vision: https://learn.modernagecoders.com/cbse-class-10-ai-computer-vision-questions
+- ICSE Class 10 Computer Applications: Previous year papers, solved: https://learn.modernagecoders.com/icse-computer-applications-previous-year-papers-solved
+- ICSE Class 10 Computer Applications: MCQ for Question 1: https://learn.modernagecoders.com/icse-computer-applications-mcq-questions
+- ICSE Class 10 Computer Applications: Competency and case study questions: https://learn.modernagecoders.com/icse-computer-applications-competency-questions
+- ICSE Class 10 Computer Applications: String programs: https://learn.modernagecoders.com/icse-class-10-string-programs
+- ICSE Class 10 Computer Applications: Special number programs: https://learn.modernagecoders.com/icse-special-number-programs-java
+- ICSE Class 10 Computer Applications: Sorting and searching programs: https://learn.modernagecoders.com/icse-class-10-sorting-and-searching-programs
+- ICSE Class 10 Computer Applications: 2D array programs: https://learn.modernagecoders.com/icse-class-10-2d-array-programs
+- ICSE Class 10 Computer Applications: User-defined methods and overloading: https://learn.modernagecoders.com/icse-class-10-user-defined-methods-overloading
+- ICSE Class 10 Computer Applications: How to score 100: https://learn.modernagecoders.com/how-to-score-100-in-icse-computer-applications
+- CBSE Class 10 AI (417): Class 10 AI one shot revision: https://learn.modernagecoders.com/cbse-class-10-ai-one-shot-revision
+- CBSE Class 10 AI (417): 30, 7 and 1 day revision plan: https://learn.modernagecoders.com/cbse-class-10-ai-revision-plan
+- CBSE Class 10 AI (417): Formula sheet: https://learn.modernagecoders.com/cbse-class-10-ai-formula-sheet
+- ICSE Class 10 Computer Applications: Pattern programs: https://learn.modernagecoders.com/icse-class-10-pattern-programs-java
+- ICSE Class 10 Computer Applications: Menu driven and switch case: https://learn.modernagecoders.com/icse-class-10-menu-driven-programs
+- ICSE Class 10 Computer Applications: Series programs: https://learn.modernagecoders.com/icse-class-10-series-programs-java
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

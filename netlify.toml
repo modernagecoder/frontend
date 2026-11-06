@@ -31559,6 +31559,252 @@
   to = "/src/pages/icse-class-10-java-output-questions.md"
   status = 200
 
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/cbse-class-10-ai-previous-year-question-papers"
+  to = "/src/pages/cbse-class-10-ai-previous-year-question-papers.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-previous-year-question-papers.md"
+  to = "/src/pages/cbse-class-10-ai-previous-year-question-papers.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-notes"
+  to = "/src/pages/cbse-class-10-ai-notes.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-notes.md"
+  to = "/src/pages/cbse-class-10-ai-notes.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-case-based-questions"
+  to = "/src/pages/cbse-class-10-ai-case-based-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-case-based-questions.md"
+  to = "/src/pages/cbse-class-10-ai-case-based-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-evaluating-models-questions"
+  to = "/src/pages/cbse-class-10-ai-evaluating-models-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-evaluating-models-questions.md"
+  to = "/src/pages/cbse-class-10-ai-evaluating-models-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/confusion-matrix-class-10-ai-numericals"
+  to = "/src/pages/confusion-matrix-class-10-ai-numericals.html"
+  status = 200
+
+[[redirects]]
+  from = "/confusion-matrix-class-10-ai-numericals.md"
+  to = "/src/pages/confusion-matrix-class-10-ai-numericals.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-advanced-modeling-questions"
+  to = "/src/pages/cbse-class-10-ai-advanced-modeling-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-advanced-modeling-questions.md"
+  to = "/src/pages/cbse-class-10-ai-advanced-modeling-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-nlp-questions"
+  to = "/src/pages/cbse-class-10-ai-nlp-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-nlp-questions.md"
+  to = "/src/pages/cbse-class-10-ai-nlp-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/bag-of-words-tfidf-class-10-ai"
+  to = "/src/pages/bag-of-words-tfidf-class-10-ai.html"
+  status = 200
+
+[[redirects]]
+  from = "/bag-of-words-tfidf-class-10-ai.md"
+  to = "/src/pages/bag-of-words-tfidf-class-10-ai.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-computer-vision-questions"
+  to = "/src/pages/cbse-class-10-ai-computer-vision-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-computer-vision-questions.md"
+  to = "/src/pages/cbse-class-10-ai-computer-vision-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-previous-year-papers-solved"
+  to = "/src/pages/icse-computer-applications-previous-year-papers-solved.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-previous-year-papers-solved.md"
+  to = "/src/pages/icse-computer-applications-previous-year-papers-solved.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-mcq-questions"
+  to = "/src/pages/icse-computer-applications-mcq-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-mcq-questions.md"
+  to = "/src/pages/icse-computer-applications-mcq-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-competency-questions"
+  to = "/src/pages/icse-computer-applications-competency-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-competency-questions.md"
+  to = "/src/pages/icse-computer-applications-competency-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-string-programs"
+  to = "/src/pages/icse-class-10-string-programs.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-string-programs.md"
+  to = "/src/pages/icse-class-10-string-programs.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-special-number-programs-java"
+  to = "/src/pages/icse-special-number-programs-java.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-special-number-programs-java.md"
+  to = "/src/pages/icse-special-number-programs-java.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-sorting-and-searching-programs"
+  to = "/src/pages/icse-class-10-sorting-and-searching-programs.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-sorting-and-searching-programs.md"
+  to = "/src/pages/icse-class-10-sorting-and-searching-programs.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-2d-array-programs"
+  to = "/src/pages/icse-class-10-2d-array-programs.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-2d-array-programs.md"
+  to = "/src/pages/icse-class-10-2d-array-programs.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-user-defined-methods-overloading"
+  to = "/src/pages/icse-class-10-user-defined-methods-overloading.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-user-defined-methods-overloading.md"
+  to = "/src/pages/icse-class-10-user-defined-methods-overloading.md"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-score-100-in-icse-computer-applications"
+  to = "/src/pages/how-to-score-100-in-icse-computer-applications.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-score-100-in-icse-computer-applications.md"
+  to = "/src/pages/how-to-score-100-in-icse-computer-applications.md"
+  status = 200
+
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/cbse-class-10-ai-one-shot-revision"
+  to = "/src/pages/cbse-class-10-ai-one-shot-revision.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-one-shot-revision.md"
+  to = "/src/pages/cbse-class-10-ai-one-shot-revision.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-revision-plan"
+  to = "/src/pages/cbse-class-10-ai-revision-plan.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-revision-plan.md"
+  to = "/src/pages/cbse-class-10-ai-revision-plan.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-formula-sheet"
+  to = "/src/pages/cbse-class-10-ai-formula-sheet.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-formula-sheet.md"
+  to = "/src/pages/cbse-class-10-ai-formula-sheet.md"
+  status = 200
+
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/icse-class-10-pattern-programs-java"
+  to = "/src/pages/icse-class-10-pattern-programs-java.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-pattern-programs-java.md"
+  to = "/src/pages/icse-class-10-pattern-programs-java.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-menu-driven-programs"
+  to = "/src/pages/icse-class-10-menu-driven-programs.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-menu-driven-programs.md"
+  to = "/src/pages/icse-class-10-menu-driven-programs.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-series-programs-java"
+  to = "/src/pages/icse-class-10-series-programs-java.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-series-programs-java.md"
+  to = "/src/pages/icse-class-10-series-programs-java.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
