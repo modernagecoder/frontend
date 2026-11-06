@@ -31989,6 +31989,48 @@
   to = "/src/pages/icse-computer-applications-vs-commercial-applications.md"
   status = 200
 
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/icse-computer-applications-crash-course"
+  to = "/src/pages/icse-computer-applications-crash-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-crash-course.md"
+  to = "/src/pages/icse-computer-applications-crash-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-private-tutor"
+  to = "/src/pages/icse-computer-applications-private-tutor.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-private-tutor.md"
+  to = "/src/pages/icse-computer-applications-private-tutor.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-small-batch-classes"
+  to = "/src/pages/icse-computer-applications-small-batch-classes.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-small-batch-classes.md"
+  to = "/src/pages/icse-computer-applications-small-batch-classes.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-tuition-near-me"
+  to = "/src/pages/icse-computer-tuition-near-me.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-tuition-near-me.md"
+  to = "/src/pages/icse-computer-tuition-near-me.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
