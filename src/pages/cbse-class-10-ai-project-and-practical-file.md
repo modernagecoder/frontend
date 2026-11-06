@@ -66,6 +66,16 @@ The practical work is part of the standard batch, not an add-on. Monthly, no adm
 
 Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 students. Related pages: /cbse-class-10-ai-classes-online, /cbse-class-10-ai-syllabus-explained, /python-for-cbse-class-10-ai, /cbse-class-10-ai-board-exam-preparation, /ai-projects-for-high-school-students, /science-fair-project-ideas-ai.
 
+## More pages in this series
+
+**Classes, tuition and batches:** [The Mon and Wed 9 PM AI batch](/cbse-class-10-ai-classes-online), [CBSE AI classes in the Gulf and abroad](/cbse-class-10-ai-online-classes-gulf-and-abroad).
+
+**Unit by unit:** [CBSE AI 417 syllabus explained](/cbse-class-10-ai-syllabus-explained), [Python for Class 10 AI](/python-for-cbse-class-10-ai), [Part A employability skills](/cbse-class-10-ai-employability-skills-part-a).
+
+**Questions and practice:** [CBSE AI important questions](/cbse-class-10-ai-important-questions), [Sample paper and mock tests](/cbse-class-10-ai-sample-paper-and-mock-tests).
+
+**Exam, marks and practicals:** [CBSE AI board exam preparation](/cbse-class-10-ai-board-exam-preparation), [Exam date 2027 and paper pattern](/cbse-class-10-ai-exam-date-and-paper-pattern).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/cbse-class-10-ai-project-and-practical-file*

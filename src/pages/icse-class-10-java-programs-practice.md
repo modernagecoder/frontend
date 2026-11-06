@@ -64,6 +64,16 @@ The programs practice is the Wednesday half of the standard batch. Monthly, no a
 
 Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 students. Related pages: /icse-class-10-java-classes-online, /icse-class-10-computer-applications-syllabus-explained, /icse-class-10-bluej-java-coaching, /icse-class-10-computer-applications-board-exam-preparation, /java-programming-for-icse-students, /java-projects-for-students.
 
+## More pages in this series
+
+**Classes, tuition and batches:** [The Tue and Wed ICSE Java batch](/icse-class-10-java-classes-online), [ICSE Java classes in the Gulf and abroad](/icse-class-10-computer-applications-classes-gulf-and-abroad), [ICSE BlueJ Java coaching](/icse-class-10-bluej-java-coaching).
+
+**Chapter by chapter:** [ICSE Computer Applications syllabus](/icse-class-10-computer-applications-syllabus-explained).
+
+**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests).
+
+**Exam, marks and internal assessment:** [ICSE board exam preparation](/icse-class-10-computer-applications-board-exam-preparation), [Exam date 2027 and paper pattern](/icse-class-10-computer-applications-exam-date-and-paper-pattern), [Project and internal assessment](/icse-class-10-computer-applications-project-and-internal-assessment).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/icse-class-10-java-programs-practice*

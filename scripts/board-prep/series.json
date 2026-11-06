@@ -1,0 +1,1527 @@
+{
+  "_about": "Registry of every Class 10 board-prep page (CBSE AI 417 and ICSE Computer Applications). Drives the grouped related-pages block, the gates' slug lists, routing and llms.txt. Wave 1 and 2 = the 20 pages live before 2026-11-06. Wave 3 = the 80 pages approved by the owner on 2026-11-06 (keyword research in docs/superpowers/specs/2026-11-06-board-prep-wave3-design.md).",
+  "groups": {
+    "cbse": [
+      [
+        "classes",
+        "Classes, tuition and batches"
+      ],
+      [
+        "units",
+        "Unit by unit"
+      ],
+      [
+        "questions",
+        "Questions and practice"
+      ],
+      [
+        "revision",
+        "Notes and revision"
+      ],
+      [
+        "exam",
+        "Exam, marks and practicals"
+      ],
+      [
+        "choose",
+        "Choosing the subject"
+      ]
+    ],
+    "icse": [
+      [
+        "classes",
+        "Classes, tuition and batches"
+      ],
+      [
+        "topics",
+        "Chapter by chapter"
+      ],
+      [
+        "programs",
+        "Programs for Section B"
+      ],
+      [
+        "questions",
+        "Questions and practice"
+      ],
+      [
+        "revision",
+        "Notes and revision"
+      ],
+      [
+        "exam",
+        "Exam, marks and internal assessment"
+      ]
+    ]
+  },
+  "pages": [
+    {
+      "slug": "cbse-class-10-ai-classes-online",
+      "board": "cbse",
+      "group": "classes",
+      "label": "The Mon and Wed 9 PM AI batch",
+      "wave": 1
+    },
+    {
+      "slug": "cbse-class-10-ai-online-classes-gulf-and-abroad",
+      "board": "cbse",
+      "group": "classes",
+      "label": "CBSE AI classes in the Gulf and abroad",
+      "wave": 2
+    },
+    {
+      "slug": "cbse-class-10-ai-syllabus-explained",
+      "board": "cbse",
+      "group": "units",
+      "label": "CBSE AI 417 syllabus explained",
+      "wave": 1
+    },
+    {
+      "slug": "python-for-cbse-class-10-ai",
+      "board": "cbse",
+      "group": "units",
+      "label": "Python for Class 10 AI",
+      "wave": 1
+    },
+    {
+      "slug": "cbse-class-10-ai-employability-skills-part-a",
+      "board": "cbse",
+      "group": "units",
+      "label": "Part A employability skills",
+      "wave": 2
+    },
+    {
+      "slug": "cbse-class-10-ai-important-questions",
+      "board": "cbse",
+      "group": "questions",
+      "label": "CBSE AI important questions",
+      "wave": 2
+    },
+    {
+      "slug": "cbse-class-10-ai-sample-paper-and-mock-tests",
+      "board": "cbse",
+      "group": "questions",
+      "label": "Sample paper and mock tests",
+      "wave": 2
+    },
+    {
+      "slug": "cbse-class-10-ai-board-exam-preparation",
+      "board": "cbse",
+      "group": "exam",
+      "label": "CBSE AI board exam preparation",
+      "wave": 1
+    },
+    {
+      "slug": "cbse-class-10-ai-project-and-practical-file",
+      "board": "cbse",
+      "group": "exam",
+      "label": "AI project and practical file",
+      "wave": 1
+    },
+    {
+      "slug": "cbse-class-10-ai-exam-date-and-paper-pattern",
+      "board": "cbse",
+      "group": "exam",
+      "label": "Exam date 2027 and paper pattern",
+      "wave": 2
+    },
+    {
+      "slug": "cbse-class-10-ai-mcq-questions",
+      "board": "cbse",
+      "group": "questions",
+      "label": "Class 10 AI MCQ, unit wise",
+      "wave": 3,
+      "code": "cb01",
+      "primary": "class 10 AI MCQ",
+      "secondary": [
+        "AI class 10 chapter wise MCQ",
+        "417 MCQ with answers",
+        "evaluating models class 10 MCQ",
+        "NLP class 10 MCQ",
+        "computer vision class 10 MCQ"
+      ],
+      "angle": "Self-marking MCQ bank grouped by the 2026-27 unit names (most sites still use the old unit names), a one-line reason for every answer.",
+      "accent": "#2E5266"
+    },
+    {
+      "slug": "cbse-class-10-ai-previous-year-question-papers",
+      "board": "cbse",
+      "group": "questions",
+      "label": "Previous year papers, solved",
+      "wave": 3,
+      "code": "cb02",
+      "primary": "class 10 AI previous year question paper",
+      "secondary": [
+        "CBSE class 10 AI question paper 2026 with solutions",
+        "417 PYQ 2025",
+        "AI class 10 board paper 2024 solution",
+        "most repeated questions class 10 AI"
+      ],
+      "angle": "Year-by-year archive described and answered (no copied PDFs), plus a repeats-across-years table tagged by unit.",
+      "accent": "#2F5D50"
+    },
+    {
+      "slug": "cbse-class-10-ai-notes",
+      "board": "cbse",
+      "group": "revision",
+      "label": "Class 10 AI notes, unit wise",
+      "wave": 3,
+      "code": "cb03",
+      "primary": "class 10 AI notes",
+      "secondary": [
+        "AI class 10 notes pdf",
+        "417 revision notes",
+        "part B notes class 10 AI",
+        "AI class 10 short notes"
+      ],
+      "angle": "One printable revision sheet per unit in the exact CBSE session order, with unit marks.",
+      "accent": "#73304A"
+    },
+    {
+      "slug": "cbse-class-10-ai-evaluating-models-questions",
+      "board": "cbse",
+      "group": "units",
+      "label": "Unit 3: Evaluating Models",
+      "wave": 3,
+      "code": "cb04",
+      "primary": "evaluating models class 10 questions and answers",
+      "secondary": [
+        "unit 3 AI class 10",
+        "train test split class 10",
+        "accuracy and error class 10 AI",
+        "ethical concerns model evaluation",
+        "evaluation class 10 notes"
+      ],
+      "angle": "Concept page for the 10-mark unit: why evaluate, train-test split, bias and transparency, choosing precision or recall.",
+      "accent": "#5A4A2E"
+    },
+    {
+      "slug": "confusion-matrix-class-10-ai-numericals",
+      "board": "cbse",
+      "group": "units",
+      "label": "Confusion matrix numericals",
+      "wave": 3,
+      "code": "cb05",
+      "primary": "confusion matrix class 10 AI",
+      "secondary": [
+        "precision recall F1 score class 10",
+        "accuracy formula class 10 AI",
+        "confusion matrix numericals with solutions",
+        "is accuracy enough"
+      ],
+      "angle": "Numericals only: ten graded TP, FP, FN, TN problems with full working.",
+      "accent": "#3E4B2C"
+    },
+    {
+      "slug": "cbse-class-10-ai-advanced-modeling-questions",
+      "board": "cbse",
+      "group": "units",
+      "label": "Unit 2: Advanced modeling",
+      "wave": 3,
+      "code": "cb06",
+      "primary": "advanced concepts of modeling in AI class 10",
+      "secondary": [
+        "supervised unsupervised reinforcement learning class 10",
+        "classification vs regression class 10",
+        "clustering vs association",
+        "neural network class 10",
+        "rule based vs learning based"
+      ],
+      "angle": "Every question shape for the 11-mark unit, including classify-this-scenario drills.",
+      "accent": "#4A3F6B"
+    },
+    {
+      "slug": "cbse-class-10-ai-nlp-questions",
+      "board": "cbse",
+      "group": "units",
+      "label": "Unit 6: Natural Language Processing",
+      "wave": 3,
+      "code": "cb07",
+      "primary": "NLP class 10 questions and answers",
+      "secondary": [
+        "natural language processing class 10 notes",
+        "script bot vs smart bot",
+        "stages of NLP class 10",
+        "applications of NLP",
+        "text normalisation class 10"
+      ],
+      "angle": "The full 8-mark unit: chatbots, the stages of NLP and text processing in exam answer format.",
+      "accent": "#1E4A8C"
+    },
+    {
+      "slug": "bag-of-words-tfidf-class-10-ai",
+      "board": "cbse",
+      "group": "units",
+      "label": "Bag of Words and TFIDF, worked",
+      "wave": 3,
+      "code": "cb08",
+      "primary": "bag of words class 10 AI",
+      "secondary": [
+        "TFIDF class 10",
+        "text normalisation steps",
+        "document vector table",
+        "term frequency inverse document frequency example"
+      ],
+      "angle": "Fully worked three-document examples from corpus to TF, IDF and TFIDF tables, a gap no ranking page fills.",
+      "accent": "#6B3A2A"
+    },
+    {
+      "slug": "cbse-class-10-ai-computer-vision-questions",
+      "board": "cbse",
+      "group": "units",
+      "label": "Unit 5: Computer Vision",
+      "wave": 3,
+      "code": "cb09",
+      "primary": "computer vision class 10 questions and answers",
+      "secondary": [
+        "CNN class 10",
+        "convolution operator class 10",
+        "pixel and resolution class 10",
+        "grayscale and RGB",
+        "kernel class 10 AI"
+      ],
+      "angle": "Says plainly CV is 4 theory marks but heavy in practicals; pixel and kernel arithmetic worked.",
+      "accent": "#2E5566"
+    },
+    {
+      "slug": "cbse-class-10-ai-viva-questions",
+      "board": "cbse",
+      "group": "questions",
+      "label": "AI practical and project viva",
+      "wave": 3,
+      "code": "cb10",
+      "primary": "class 10 AI viva questions",
+      "secondary": [
+        "AI practical viva questions",
+        "project viva questions class 10 AI",
+        "oral questions 417",
+        "viva voce AI class 10"
+      ],
+      "angle": "Viva questions split into practical viva and project viva, each with a two-sentence spoken answer.",
+      "accent": "#5B2347"
+    },
+    {
+      "slug": "cbse-class-10-ai-doubt-classes",
+      "board": "cbse",
+      "group": "classes",
+      "label": "Live doubt classes",
+      "wave": 3,
+      "code": "cb11",
+      "primary": "class 10 AI doubt classes",
+      "secondary": [
+        "AI 417 doubt solving",
+        "ask class 10 AI doubt",
+        "live doubt session AI class 10"
+      ],
+      "angle": "How live doubt time works inside the Mon and Wed batch, with sample doubts answered on the page.",
+      "accent": "#3D5A3A"
+    },
+    {
+      "slug": "cbse-class-10-ai-tuition",
+      "board": "cbse",
+      "group": "classes",
+      "label": "Class 10 AI tuition online",
+      "wave": 3,
+      "code": "cb12",
+      "primary": "class 10 AI tuition",
+      "secondary": [
+        "artificial intelligence tuition class 10",
+        "AI 417 tutor",
+        "AI tuition near me",
+        "online AI tuition CBSE"
+      ],
+      "angle": "Tuition page that compares the monthly group batch with hourly local tutor rates honestly.",
+      "accent": "#4F4A6E"
+    },
+    {
+      "slug": "cbse-class-10-ai-one-shot-revision",
+      "board": "cbse",
+      "group": "revision",
+      "label": "Class 10 AI one shot revision",
+      "wave": 3,
+      "code": "cb13",
+      "primary": "class 10 AI one shot",
+      "secondary": [
+        "AI class 10 complete one shot",
+        "417 one shot part A and part B",
+        "AI revision in one day"
+      ],
+      "angle": "A text one-shot readable in about 90 minutes, unit by unit, linking to the deeper pages.",
+      "accent": "#7A4A1E"
+    },
+    {
+      "slug": "cbse-class-10-ai-case-based-questions",
+      "board": "cbse",
+      "group": "questions",
+      "label": "Case based questions",
+      "wave": 3,
+      "code": "cb14",
+      "primary": "class 10 AI case based questions",
+      "secondary": [
+        "case study questions AI class 10",
+        "competency based questions 417",
+        "scenario questions AI class 10"
+      ],
+      "angle": "Original case passages per unit with the expected answer structure.",
+      "accent": "#24485E"
+    },
+    {
+      "slug": "cbse-class-10-ai-practical-exam-questions",
+      "board": "cbse",
+      "group": "exam",
+      "label": "AI practical exam questions",
+      "wave": 3,
+      "code": "cb15",
+      "primary": "class 10 AI practical exam questions",
+      "secondary": [
+        "AI practical exam 2027",
+        "417 practical questions",
+        "practical exam python numpy matplotlib",
+        "what is asked in AI practical"
+      ],
+      "angle": "Exam-day page for the 15-mark practical exam: likely tasks per unit, timing, what examiners check.",
+      "accent": "#5E3A55"
+    },
+    {
+      "slug": "orange-data-mining-class-10-ai",
+      "board": "cbse",
+      "group": "units",
+      "label": "Orange Data Mining for Class 10 AI",
+      "wave": 3,
+      "code": "cb16",
+      "primary": "orange data mining class 10 AI",
+      "secondary": [
+        "palmer penguins class 10 AI",
+        "coral bleaching project class 10",
+        "statistical data unit 4",
+        "no code AI class 10",
+        "teachable machine class 10"
+      ],
+      "angle": "Step-by-step walkthroughs of the CBSE no-code use cases (penguins, coral, sentiment) in Orange.",
+      "accent": "#3B5B4B"
+    },
+    {
+      "slug": "cbse-class-10-ai-crash-course",
+      "board": "cbse",
+      "group": "classes",
+      "label": "Class 10 AI crash course",
+      "wave": 3,
+      "code": "cb17",
+      "primary": "class 10 AI crash course",
+      "secondary": [
+        "AI 417 revision batch",
+        "last month AI class 10 classes",
+        "AI class 10 fast track"
+      ],
+      "angle": "Time-boxed live revision plan with the mock-test schedule printed on the page.",
+      "accent": "#334E7A"
+    },
+    {
+      "slug": "cbse-class-10-ai-revision-plan",
+      "board": "cbse",
+      "group": "revision",
+      "label": "30, 7 and 1 day revision plan",
+      "wave": 3,
+      "code": "cb18",
+      "primary": "class 10 AI revision plan",
+      "secondary": [
+        "AI class 10 last 30 days",
+        "revision timetable 417",
+        "how to revise AI in 1 week"
+      ],
+      "angle": "Day-by-day 30, 7 and 1 day plans weighted by unit marks.",
+      "accent": "#2F5D50"
+    },
+    {
+      "slug": "cbse-class-10-ai-worksheets",
+      "board": "cbse",
+      "group": "revision",
+      "label": "Worksheets with answers",
+      "wave": 3,
+      "code": "cb19",
+      "primary": "class 10 AI worksheets",
+      "secondary": [
+        "AI class 10 worksheet with answers",
+        "417 unit wise worksheet",
+        "practice sheet AI class 10"
+      ],
+      "angle": "One original worksheet per unit with an answer key shown below it.",
+      "accent": "#73304A"
+    },
+    {
+      "slug": "ai-417-vs-it-402-class-10",
+      "board": "cbse",
+      "group": "choose",
+      "label": "AI 417 or IT 402?",
+      "wave": 3,
+      "code": "cb20",
+      "primary": "AI 417 vs IT 402",
+      "secondary": [
+        "which is better AI or IT class 10",
+        "is AI tougher than IT",
+        "easier skill subject class 10"
+      ],
+      "angle": "Side-by-side syllabus, practical load and marks from both CBSE curricula, with a decision checklist.",
+      "accent": "#5A4A2E"
+    },
+    {
+      "slug": "cbse-class-10-ai-textbook-solutions",
+      "board": "cbse",
+      "group": "revision",
+      "label": "AI handbook exercise answers",
+      "wave": 3,
+      "code": "cb21",
+      "primary": "class 10 AI textbook solutions",
+      "secondary": [
+        "AI class 10 book exercise answers",
+        "facilitator handbook solutions",
+        "NCERT AI class 10 solutions"
+      ],
+      "angle": "A chapter map to the CBSE handbook with original model answers to the exercise types, no copied text.",
+      "accent": "#3E4B2C"
+    },
+    {
+      "slug": "employability-skills-class-10-mcq",
+      "board": "cbse",
+      "group": "questions",
+      "label": "Employability skills MCQ",
+      "wave": 3,
+      "code": "cb22",
+      "primary": "employability skills class 10 MCQ",
+      "secondary": [
+        "communication skills class 10 MCQ",
+        "self management skills MCQ",
+        "ICT skills class 10 MCQ",
+        "green skills class 10 MCQ",
+        "entrepreneurial skills MCQ"
+      ],
+      "angle": "MCQ-only drill across the five Part A units; the existing Part A page stays the explanation page.",
+      "accent": "#4A3F6B"
+    },
+    {
+      "slug": "cbse-class-10-ai-paper-analysis",
+      "board": "cbse",
+      "group": "exam",
+      "label": "Paper analysis and answer key",
+      "wave": 3,
+      "code": "cb23",
+      "primary": "class 10 AI paper analysis",
+      "secondary": [
+        "CBSE class 10 AI answer key",
+        "AI question paper solution",
+        "was AI paper easy",
+        "AI exam review"
+      ],
+      "angle": "Section-wise analysis of the 2026 paper, a fixed URL updated on every exam day.",
+      "accent": "#1E4A8C"
+    },
+    {
+      "slug": "cbse-class-10-ai-private-tutor",
+      "board": "cbse",
+      "group": "classes",
+      "label": "1-on-1 private AI tutor",
+      "wave": 3,
+      "code": "cb24",
+      "primary": "class 10 AI private tutor",
+      "secondary": [
+        "1 on 1 AI class 10",
+        "personal AI tutor 417",
+        "AI home tuition online"
+      ],
+      "angle": "Who should choose one to one over the batch, with a sample lesson plan.",
+      "accent": "#6B3A2A"
+    },
+    {
+      "slug": "cbse-class-10-ai-marking-scheme",
+      "board": "cbse",
+      "group": "exam",
+      "label": "Marking scheme, explained",
+      "wave": 3,
+      "code": "cb25",
+      "primary": "class 10 AI marking scheme",
+      "secondary": [
+        "how AI answers are marked",
+        "step marking 417",
+        "marking scheme 2026 AI"
+      ],
+      "angle": "Annotated model answers showing where each mark is won or lost.",
+      "accent": "#2E5566"
+    },
+    {
+      "slug": "cbse-class-10-ai-project-cycle-and-ethics",
+      "board": "cbse",
+      "group": "units",
+      "label": "Unit 1: Project cycle and ethics",
+      "wave": 3,
+      "code": "cb26",
+      "primary": "AI project cycle class 10 questions",
+      "secondary": [
+        "ethical frameworks for AI class 10",
+        "bioethics class 10 AI",
+        "sector based vs value based framework",
+        "revisiting AI project cycle"
+      ],
+      "angle": "Unit 1 (7 marks) with the bioethics case study worked in exam format.",
+      "accent": "#5B2347"
+    },
+    {
+      "slug": "cbse-class-10-ai-project-ideas",
+      "board": "cbse",
+      "group": "exam",
+      "label": "AI project ideas",
+      "wave": 3,
+      "code": "cb27",
+      "primary": "class 10 AI project ideas",
+      "secondary": [
+        "AI project for class 10 SDG",
+        "sentiment analysis project class 10",
+        "coral bleaching project",
+        "easy AI project class 10"
+      ],
+      "angle": "Fifteen SDG-linked ideas graded by difficulty, each mapped to one AI domain.",
+      "accent": "#3D5A3A"
+    },
+    {
+      "slug": "cbse-class-10-ai-difference-between-questions",
+      "board": "cbse",
+      "group": "questions",
+      "label": "Difference between questions",
+      "wave": 3,
+      "code": "cb28",
+      "primary": "difference between AI ML and DL class 10",
+      "secondary": [
+        "classification vs regression",
+        "supervised vs unsupervised",
+        "script bot vs smart bot",
+        "rule based vs learning based",
+        "grayscale vs RGB"
+      ],
+      "angle": "Every differentiate pair in 417 as a comparison table.",
+      "accent": "#4F4A6E"
+    },
+    {
+      "slug": "cbse-class-10-ai-assertion-reason-questions",
+      "board": "cbse",
+      "group": "questions",
+      "label": "Assertion and reason questions",
+      "wave": 3,
+      "code": "cb29",
+      "primary": "class 10 AI assertion reason questions",
+      "secondary": [
+        "A R questions 417",
+        "assertion reason AI class 10 with answers"
+      ],
+      "angle": "Practice set per unit plus a guide to the four answer options. Confirm the format in the 417 SQP before writing.",
+      "accent": "#7A4A1E"
+    },
+    {
+      "slug": "cbse-class-10-ai-passing-marks",
+      "board": "cbse",
+      "group": "exam",
+      "label": "Passing marks",
+      "wave": 3,
+      "code": "cb30",
+      "primary": "class 10 AI passing marks",
+      "secondary": [
+        "AI theory passing marks out of 50",
+        "417 practical passing marks",
+        "minimum marks skill subject"
+      ],
+      "angle": "Clear answer with the CBSE rule cited, and what happens if a student fails AI.",
+      "accent": "#24485E"
+    },
+    {
+      "slug": "cbse-class-10-ai-second-board-exam",
+      "board": "cbse",
+      "group": "exam",
+      "label": "The second board exam in May",
+      "wave": 3,
+      "code": "cb31",
+      "primary": "CBSE second board exam AI",
+      "secondary": [
+        "AI improvement exam class 10",
+        "May board exam AI",
+        "best of two exams AI 417"
+      ],
+      "angle": "Who should sit the second attempt in AI and what changes between the two sittings.",
+      "accent": "#5E3A55"
+    },
+    {
+      "slug": "best-book-for-cbse-class-10-ai",
+      "board": "cbse",
+      "group": "revision",
+      "label": "Best book for Class 10 AI",
+      "wave": 3,
+      "code": "cb32",
+      "primary": "best book for class 10 AI",
+      "secondary": [
+        "AI 417 book",
+        "Arihant all in one AI class 10",
+        "Kips AI class 10",
+        "CBSE AI handbook pdf"
+      ],
+      "angle": "Honest book comparison against the 2026-27 units, with a note on the free CBSE handbook.",
+      "accent": "#3B5B4B"
+    },
+    {
+      "slug": "cbse-class-10-ai-formula-sheet",
+      "board": "cbse",
+      "group": "revision",
+      "label": "Formula sheet",
+      "wave": 3,
+      "code": "cb33",
+      "primary": "class 10 AI formulas",
+      "secondary": [
+        "accuracy precision recall F1 formula",
+        "TFIDF formula class 10",
+        "AI class 10 cheat sheet"
+      ],
+      "angle": "One printable page of every formula with a worked one-liner for each.",
+      "accent": "#334E7A"
+    },
+    {
+      "slug": "ai-vs-computer-applications-class-10",
+      "board": "cbse",
+      "group": "choose",
+      "label": "AI, IT or Computer Applications?",
+      "wave": 3,
+      "code": "cb34",
+      "primary": "AI or computer applications class 10",
+      "secondary": [
+        "417 vs 165",
+        "which skill subject to choose class 10",
+        "AI vs IT vs computer applications"
+      ],
+      "angle": "Three-way decision page written for parents choosing in Class 9.",
+      "accent": "#2F5D50"
+    },
+    {
+      "slug": "class-10-ai-tuition-delhi",
+      "board": "cbse",
+      "group": "classes",
+      "label": "AI tuition in Delhi",
+      "wave": 3,
+      "code": "cb35",
+      "primary": "class 10 AI tuition Delhi",
+      "secondary": [
+        "AI 417 tutor Delhi",
+        "artificial intelligence classes Delhi CBSE",
+        "online AI tuition Delhi"
+      ],
+      "angle": "Delhi page: the online batch as the alternative to home tutors and coaching travel.",
+      "accent": "#73304A"
+    },
+    {
+      "slug": "class-10-ai-tuition-gurgaon",
+      "board": "cbse",
+      "group": "classes",
+      "label": "AI tuition in Gurgaon",
+      "wave": 3,
+      "code": "cb36",
+      "primary": "class 10 AI tuition Gurgaon",
+      "secondary": [
+        "AI classes Gurugram CBSE",
+        "417 tutor Gurgaon"
+      ],
+      "angle": "Gurugram page; the 9 PM batch for late school and activity schedules.",
+      "accent": "#5A4A2E"
+    },
+    {
+      "slug": "class-10-ai-tuition-noida",
+      "board": "cbse",
+      "group": "classes",
+      "label": "AI tuition in Noida",
+      "wave": 3,
+      "code": "cb37",
+      "primary": "class 10 AI tuition Noida",
+      "secondary": [
+        "AI classes Noida CBSE",
+        "417 tutor Greater Noida"
+      ],
+      "angle": "Noida and Greater Noida page, written fresh, not adapted from Delhi.",
+      "accent": "#3E4B2C"
+    },
+    {
+      "slug": "class-10-ai-tuition-bangalore",
+      "board": "cbse",
+      "group": "classes",
+      "label": "AI tuition in Bangalore",
+      "wave": 3,
+      "code": "cb38",
+      "primary": "class 10 AI tuition Bangalore",
+      "secondary": [
+        "AI classes Bengaluru CBSE",
+        "417 tutor Bangalore"
+      ],
+      "angle": "Bengaluru page for CBSE families in a city with many boards.",
+      "accent": "#4A3F6B"
+    },
+    {
+      "slug": "class-10-ai-tuition-pune",
+      "board": "cbse",
+      "group": "classes",
+      "label": "AI tuition in Pune",
+      "wave": 3,
+      "code": "cb39",
+      "primary": "class 10 AI tuition Pune",
+      "secondary": [
+        "AI classes Pune CBSE",
+        "417 tutor Pune"
+      ],
+      "angle": "Pune page; thinnest evidence, build last.",
+      "accent": "#1E4A8C"
+    },
+    {
+      "slug": "cbse-class-10-ai-notes-in-hindi",
+      "board": "cbse",
+      "group": "revision",
+      "label": "Class 10 AI notes in Hindi",
+      "wave": 3,
+      "code": "cb40",
+      "primary": "class 10 AI notes in Hindi",
+      "secondary": [
+        "AI class 10 Hindi medium",
+        "artificial intelligence kaksha 10",
+        "AI class 10 Hinglish"
+      ],
+      "angle": "Hinglish explanations with English technical terms; thinnest evidence, build last.",
+      "accent": "#6B3A2A"
+    },
+    {
+      "slug": "icse-class-10-java-classes-online",
+      "board": "icse",
+      "group": "classes",
+      "label": "The Tue and Wed ICSE Java batch",
+      "wave": 1
+    },
+    {
+      "slug": "icse-class-10-computer-applications-classes-gulf-and-abroad",
+      "board": "icse",
+      "group": "classes",
+      "label": "ICSE Java classes in the Gulf and abroad",
+      "wave": 2
+    },
+    {
+      "slug": "icse-class-10-bluej-java-coaching",
+      "board": "icse",
+      "group": "classes",
+      "label": "ICSE BlueJ Java coaching",
+      "wave": 1
+    },
+    {
+      "slug": "icse-class-10-computer-applications-syllabus-explained",
+      "board": "icse",
+      "group": "topics",
+      "label": "ICSE Computer Applications syllabus",
+      "wave": 1
+    },
+    {
+      "slug": "icse-class-10-java-programs-practice",
+      "board": "icse",
+      "group": "programs",
+      "label": "ICSE Java programs practice",
+      "wave": 1
+    },
+    {
+      "slug": "icse-class-10-computer-applications-important-questions",
+      "board": "icse",
+      "group": "questions",
+      "label": "ICSE CA important questions",
+      "wave": 2
+    },
+    {
+      "slug": "icse-class-10-computer-applications-specimen-paper-and-mock-tests",
+      "board": "icse",
+      "group": "questions",
+      "label": "Specimen paper and mock tests",
+      "wave": 2
+    },
+    {
+      "slug": "icse-class-10-computer-applications-board-exam-preparation",
+      "board": "icse",
+      "group": "exam",
+      "label": "ICSE board exam preparation",
+      "wave": 1
+    },
+    {
+      "slug": "icse-class-10-computer-applications-exam-date-and-paper-pattern",
+      "board": "icse",
+      "group": "exam",
+      "label": "Exam date 2027 and paper pattern",
+      "wave": 2
+    },
+    {
+      "slug": "icse-class-10-computer-applications-project-and-internal-assessment",
+      "board": "icse",
+      "group": "exam",
+      "label": "Project and internal assessment",
+      "wave": 2
+    },
+    {
+      "slug": "icse-computer-applications-previous-year-papers-solved",
+      "board": "icse",
+      "group": "questions",
+      "label": "Previous year papers, solved",
+      "wave": 3,
+      "code": "ic01",
+      "primary": "icse computer applications previous year question paper solved",
+      "secondary": [
+        "icse computer paper 2025 solved",
+        "icse computer applications question paper with answers",
+        "icse computer board paper solutions"
+      ],
+      "angle": "Year-by-year table tagging every Section B question by program family, so students see which families repeat.",
+      "accent": "#2E5566"
+    },
+    {
+      "slug": "icse-class-10-java-output-questions",
+      "board": "icse",
+      "group": "questions",
+      "label": "Predict the output questions",
+      "wave": 3,
+      "code": "ic02",
+      "primary": "icse computer applications output questions",
+      "secondary": [
+        "predict the output java icse",
+        "dry run questions icse class 10",
+        "icse java output questions with answers",
+        "loop output questions icse"
+      ],
+      "angle": "Output questions grouped by trap type (integer division, pre and post increment, char arithmetic, String immutability), each with a trace table.",
+      "accent": "#3E4B2C"
+    },
+    {
+      "slug": "icse-class-10-string-programs",
+      "board": "icse",
+      "group": "programs",
+      "label": "String programs",
+      "wave": 3,
+      "code": "ic03",
+      "primary": "icse class 10 string programs",
+      "secondary": [
+        "string handling icse",
+        "palindrome word program java icse",
+        "pig latin program icse",
+        "frequency of characters java icse",
+        "string functions icse"
+      ],
+      "angle": "The string program families the board sets, plus a String method cheat table.",
+      "accent": "#3D5A3A"
+    },
+    {
+      "slug": "icse-special-number-programs-java",
+      "board": "icse",
+      "group": "programs",
+      "label": "Special number programs",
+      "wave": 3,
+      "code": "ic04",
+      "primary": "special number programs in java icse",
+      "secondary": [
+        "spy number program",
+        "niven number java",
+        "duck number icse",
+        "armstrong number program icse",
+        "neon magic perfect number java"
+      ],
+      "angle": "A definitions table and one reusable digit-extraction template. Year tags only where checked against real papers.",
+      "accent": "#4F4A6E"
+    },
+    {
+      "slug": "icse-class-10-sorting-and-searching-programs",
+      "board": "icse",
+      "group": "programs",
+      "label": "Sorting and searching programs",
+      "wave": 3,
+      "code": "ic05",
+      "primary": "bubble sort selection sort icse class 10",
+      "secondary": [
+        "binary search program icse",
+        "linear search java icse",
+        "array programs icse class 10",
+        "sorting and searching icse"
+      ],
+      "angle": "Pass-by-pass trace tables for each algorithm, plus the four standard Section B array programs.",
+      "accent": "#7A4A1E"
+    },
+    {
+      "slug": "icse-computer-applications-competency-questions",
+      "board": "icse",
+      "group": "questions",
+      "label": "Competency and case study questions",
+      "wave": 3,
+      "code": "ic06",
+      "primary": "icse computer applications competency based questions",
+      "secondary": [
+        "case study questions icse computer",
+        "assertion reason icse computer applications",
+        "HOTS questions icse java",
+        "application based questions icse computer"
+      ],
+      "angle": "Worked case-study and assertion-reason items in Java for the newer question style.",
+      "accent": "#24485E"
+    },
+    {
+      "slug": "icse-computer-applications-mcq-questions",
+      "board": "icse",
+      "group": "questions",
+      "label": "MCQ for Question 1",
+      "wave": 3,
+      "code": "ic07",
+      "primary": "icse computer applications mcq questions",
+      "secondary": [
+        "icse computer mcq chapter wise",
+        "objective questions java icse",
+        "icse computer mcq with answers",
+        "Q1 mcq icse computer"
+      ],
+      "angle": "A self-check MCQ set mirroring the 20-MCQ Question 1, with a reason for every wrong option.",
+      "accent": "#5E3A55"
+    },
+    {
+      "slug": "icse-class-10-2d-array-programs",
+      "board": "icse",
+      "group": "programs",
+      "label": "2D array programs",
+      "wave": 3,
+      "code": "ic08",
+      "primary": "2d array programs icse class 10",
+      "secondary": [
+        "double dimensional array icse",
+        "sum of diagonal elements java",
+        "row and column sum program",
+        "matrix programs icse java"
+      ],
+      "angle": "Index diagrams for the diagonals and the standard board tasks for the newer 2D array topic.",
+      "accent": "#3B5B4B"
+    },
+    {
+      "slug": "icse-class-10-user-defined-methods-overloading",
+      "board": "icse",
+      "group": "topics",
+      "label": "User-defined methods and overloading",
+      "wave": 3,
+      "code": "ic09",
+      "primary": "function overloading icse class 10",
+      "secondary": [
+        "user defined methods icse",
+        "pure and impure methods",
+        "call by value and call by reference icse",
+        "method prototype and signature"
+      ],
+      "angle": "Overloading programs in board format with a marking checklist.",
+      "accent": "#334E7A"
+    },
+    {
+      "slug": "how-to-score-100-in-icse-computer-applications",
+      "board": "icse",
+      "group": "exam",
+      "label": "How to score 100",
+      "wave": 3,
+      "code": "ic10",
+      "primary": "how to score 100 in icse computer applications",
+      "secondary": [
+        "icse computer full marks tips",
+        "how to prepare icse computer",
+        "icse computer exam tips",
+        "mistakes that cost marks icse computer"
+      ],
+      "angle": "A marks-loss audit: variable description table, comments, exact method names.",
+      "accent": "#2F5D50"
+    },
+    {
+      "slug": "icse-class-10-constructors-questions",
+      "board": "icse",
+      "group": "topics",
+      "label": "Constructors",
+      "wave": 3,
+      "code": "ic11",
+      "primary": "constructors icse class 10 questions",
+      "secondary": [
+        "parameterized constructor icse",
+        "default constructor java icse",
+        "constructor overloading",
+        "difference between constructor and method"
+      ],
+      "angle": "Board-style constructor questions plus a constructor versus method table.",
+      "accent": "#73304A"
+    },
+    {
+      "slug": "icse-class-10-wrapper-and-library-classes",
+      "board": "icse",
+      "group": "topics",
+      "label": "Wrapper and library classes",
+      "wave": 3,
+      "code": "ic12",
+      "primary": "wrapper classes icse class 10",
+      "secondary": [
+        "library classes icse",
+        "autoboxing and unboxing",
+        "Integer.parseInt icse",
+        "Character class methods java icse"
+      ],
+      "angle": "Every in-syllabus wrapper method with output examples.",
+      "accent": "#5A4A2E"
+    },
+    {
+      "slug": "icse-class-10-pattern-programs-java",
+      "board": "icse",
+      "group": "programs",
+      "label": "Pattern programs",
+      "wave": 3,
+      "code": "ic13",
+      "primary": "pattern programs icse",
+      "secondary": [
+        "nested loop patterns java icse",
+        "star pattern program icse",
+        "number pattern java class 10",
+        "triangle pattern icse"
+      ],
+      "angle": "Patterns sorted by the loop rule behind them, so students build any pattern instead of memorising.",
+      "accent": "#3E4B2C"
+    },
+    {
+      "slug": "icse-class-10-menu-driven-programs",
+      "board": "icse",
+      "group": "programs",
+      "label": "Menu driven and switch case",
+      "wave": 3,
+      "code": "ic14",
+      "primary": "menu driven program in java icse",
+      "secondary": [
+        "switch case programs icse class 10",
+        "menu driven program section b",
+        "switch case questions icse"
+      ],
+      "angle": "A Section B answer template for menu programs, including the invalid-choice default case.",
+      "accent": "#4A3F6B"
+    },
+    {
+      "slug": "icse-computer-applications-viva-questions",
+      "board": "icse",
+      "group": "questions",
+      "label": "Viva and oral questions",
+      "wave": 3,
+      "code": "ic15",
+      "primary": "icse computer viva questions",
+      "secondary": [
+        "icse computer practical viva",
+        "java viva questions class 10",
+        "oral questions computer applications icse",
+        "bluej viva questions"
+      ],
+      "angle": "ICSE-specific viva questions tied to the student's own lab programs, with spoken-style answers.",
+      "accent": "#1E4A8C"
+    },
+    {
+      "slug": "icse-class-10-java-error-finding-questions",
+      "board": "icse",
+      "group": "questions",
+      "label": "Find the error questions",
+      "wave": 3,
+      "code": "ic16",
+      "primary": "find the error java icse class 10",
+      "secondary": [
+        "syntax logical runtime error icse",
+        "error finding questions icse computer",
+        "correct the code icse java"
+      ],
+      "angle": "Spot-the-bug drill, one error per snippet, classified by error type.",
+      "accent": "#6B3A2A"
+    },
+    {
+      "slug": "icse-computer-applications-notes",
+      "board": "icse",
+      "group": "revision",
+      "label": "Chapter-wise notes",
+      "wave": 3,
+      "code": "ic17",
+      "primary": "icse computer applications notes",
+      "secondary": [
+        "icse class 10 java notes",
+        "computer applications revision notes icse",
+        "chapter wise notes icse computer"
+      ],
+      "angle": "Original one-page notes per chapter in syllabus order.",
+      "accent": "#2E5566"
+    },
+    {
+      "slug": "icse-computer-applications-crash-course",
+      "board": "icse",
+      "group": "classes",
+      "label": "ICSE computer crash course",
+      "wave": 3,
+      "code": "ic18",
+      "primary": "icse computer applications crash course",
+      "secondary": [
+        "icse computer one shot live",
+        "last minute icse computer classes",
+        "icse computer revision batch",
+        "icse java crash course online"
+      ],
+      "angle": "A subject-specific live crash course with mock papers checked by a teacher.",
+      "accent": "#5B2347"
+    },
+    {
+      "slug": "icse-computer-tuition-kolkata",
+      "board": "icse",
+      "group": "classes",
+      "label": "ICSE computer tuition in Kolkata",
+      "wave": 3,
+      "code": "ic19",
+      "primary": "icse computer tuition kolkata",
+      "secondary": [
+        "java tuition kolkata icse",
+        "computer applications tutor kolkata",
+        "icse class 10 computer classes kolkata online"
+      ],
+      "angle": "Kolkata page: online, no commute, timings that fit Kolkata school days.",
+      "accent": "#3D5A3A"
+    },
+    {
+      "slug": "icse-computer-applications-textbook-solutions-guide",
+      "board": "icse",
+      "group": "revision",
+      "label": "Textbook solutions guide",
+      "wave": 3,
+      "code": "ic20",
+      "primary": "icse computer applications textbook solutions",
+      "secondary": [
+        "apc understanding computer applications solutions",
+        "logix kips computer applications solutions",
+        "sumita arora icse class 10 solutions",
+        "avichal computer applications solutions"
+      ],
+      "angle": "A chapter map across the textbooks and how exercises match board questions. No copied solutions.",
+      "accent": "#4F4A6E"
+    },
+    {
+      "slug": "icse-class-10-class-as-basis-of-computation",
+      "board": "icse",
+      "group": "topics",
+      "label": "Class as the basis of all computation",
+      "wave": 3,
+      "code": "ic21",
+      "primary": "class as the basis of all computation",
+      "secondary": [
+        "objects and classes icse",
+        "class as user defined data type",
+        "instance variables vs class variables icse"
+      ],
+      "angle": "Board-style definitions plus a design-a-class walkthrough.",
+      "accent": "#7A4A1E"
+    },
+    {
+      "slug": "icse-class-10-encapsulation-access-specifiers",
+      "board": "icse",
+      "group": "topics",
+      "label": "Encapsulation and access specifiers",
+      "wave": 3,
+      "code": "ic22",
+      "primary": "encapsulation icse class 10",
+      "secondary": [
+        "access specifiers java icse",
+        "private public protected icse",
+        "data hiding icse",
+        "scope of variables icse"
+      ],
+      "angle": "An access table (same class, package, subclass, other) plus scope questions.",
+      "accent": "#24485E"
+    },
+    {
+      "slug": "icse-class-10-math-library-methods",
+      "board": "icse",
+      "group": "topics",
+      "label": "Math library methods",
+      "wave": 3,
+      "code": "ic23",
+      "primary": "math library methods icse",
+      "secondary": [
+        "Math.pow Math.sqrt output icse",
+        "Math.round Math.ceil Math.floor icse",
+        "mathematical functions java class 10"
+      ],
+      "angle": "A return-type table plus the Math output traps.",
+      "accent": "#5E3A55"
+    },
+    {
+      "slug": "icse-class-10-series-programs-java",
+      "board": "icse",
+      "group": "programs",
+      "label": "Series programs",
+      "wave": 3,
+      "code": "ic24",
+      "primary": "series programs in java icse",
+      "secondary": [
+        "sum of series program icse",
+        "fibonacci series java icse",
+        "series generation bluej",
+        "factorial series icse"
+      ],
+      "angle": "Series types grouped by the loop pattern that generates them.",
+      "accent": "#3B5B4B"
+    },
+    {
+      "slug": "icse-computer-tuition-bangalore",
+      "board": "icse",
+      "group": "classes",
+      "label": "ICSE computer tuition in Bangalore",
+      "wave": 3,
+      "code": "ic25",
+      "primary": "icse computer tuition bangalore",
+      "secondary": [
+        "java tuition bangalore icse",
+        "computer applications tutor bengaluru",
+        "icse class 10 java classes bangalore"
+      ],
+      "angle": "Bengaluru page with evening IST slots.",
+      "accent": "#334E7A"
+    },
+    {
+      "slug": "icse-computer-tuition-mumbai",
+      "board": "icse",
+      "group": "classes",
+      "label": "ICSE computer tuition in Mumbai",
+      "wave": 3,
+      "code": "ic26",
+      "primary": "icse computer tuition mumbai",
+      "secondary": [
+        "java tuition mumbai icse",
+        "computer applications tutor mumbai",
+        "icse class 10 computer classes mumbai"
+      ],
+      "angle": "Mumbai page; online saves the commute.",
+      "accent": "#2F5D50"
+    },
+    {
+      "slug": "icse-computer-applications-private-tutor",
+      "board": "icse",
+      "group": "classes",
+      "label": "1-on-1 private Java tutor",
+      "wave": 3,
+      "code": "ic27",
+      "primary": "icse computer applications private tutor",
+      "secondary": [
+        "1 on 1 java tutor icse",
+        "home tutor icse computer online",
+        "personal computer tuition class 10 icse"
+      ],
+      "angle": "How a one to one session runs and when it beats a batch.",
+      "accent": "#73304A"
+    },
+    {
+      "slug": "icse-computer-applications-paper-analysis",
+      "board": "icse",
+      "group": "exam",
+      "label": "Paper analysis and answer key",
+      "wave": 3,
+      "code": "ic28",
+      "primary": "icse computer applications answer key",
+      "secondary": [
+        "icse computer paper analysis",
+        "icse computer applications paper solution",
+        "icse computer 2027 answer key"
+      ],
+      "angle": "Fixed URL with difficulty analysis, updated each exam day.",
+      "accent": "#5A4A2E"
+    },
+    {
+      "slug": "icse-computer-applications-worksheets",
+      "board": "icse",
+      "group": "revision",
+      "label": "Worksheets with answers",
+      "wave": 3,
+      "code": "ic29",
+      "primary": "icse computer applications worksheets",
+      "secondary": [
+        "java worksheets class 10 icse",
+        "practice sheets icse computer",
+        "chapter wise worksheet icse java"
+      ],
+      "angle": "Original worksheets with answers built from the class question bank.",
+      "accent": "#3E4B2C"
+    },
+    {
+      "slug": "icse-computer-difference-between-questions",
+      "board": "icse",
+      "group": "questions",
+      "label": "Difference between questions",
+      "wave": 3,
+      "code": "ic30",
+      "primary": "difference between questions icse computer",
+      "secondary": [
+        "linear vs binary search",
+        "call by value vs call by reference",
+        "pure vs impure method",
+        "= vs ==",
+        "while vs do while"
+      ],
+      "angle": "Every differentiate pair in two-point exam answer format.",
+      "accent": "#4A3F6B"
+    },
+    {
+      "slug": "icse-class-10-slab-and-bill-programs",
+      "board": "icse",
+      "group": "programs",
+      "label": "Slab and bill programs",
+      "wave": 3,
+      "code": "ic31",
+      "primary": "slab programs icse java",
+      "secondary": [
+        "if else programs icse",
+        "electricity bill program java",
+        "discount program icse",
+        "conditional statements icse class 10"
+      ],
+      "angle": "Slab and bill logic, a program family no other page targets.",
+      "accent": "#1E4A8C"
+    },
+    {
+      "slug": "icse-class-10-operators-in-java",
+      "board": "icse",
+      "group": "topics",
+      "label": "Operators and expressions",
+      "wave": 3,
+      "code": "ic32",
+      "primary": "operators in java icse class 10",
+      "secondary": [
+        "increment decrement questions icse",
+        "ternary operator icse",
+        "operator precedence java icse",
+        "a++ + ++a questions"
+      ],
+      "angle": "Step-by-step evaluation of the classic increment trap questions.",
+      "accent": "#6B3A2A"
+    },
+    {
+      "slug": "icse-class-10-loop-programs-java",
+      "board": "icse",
+      "group": "topics",
+      "label": "Loops and loop conversion",
+      "wave": 3,
+      "code": "ic33",
+      "primary": "loop programs icse class 10",
+      "secondary": [
+        "for while do while icse",
+        "convert for loop to while icse",
+        "nested loops icse",
+        "iterative constructs java"
+      ],
+      "angle": "Loop conversion and iteration-counting drills for Section A.",
+      "accent": "#2E5566"
+    },
+    {
+      "slug": "icse-computer-applications-vs-commercial-applications",
+      "board": "icse",
+      "group": "exam",
+      "label": "Computer or Commercial Applications?",
+      "wave": 3,
+      "code": "ic34",
+      "primary": "computer applications vs commercial applications icse",
+      "secondary": [
+        "which group 3 subject to choose icse",
+        "is icse computer scoring",
+        "computer or commerce class 9 icse",
+        "economic applications vs computer"
+      ],
+      "angle": "A neutral comparison of workload, scoring and the path to ISC.",
+      "accent": "#5B2347"
+    },
+    {
+      "slug": "icse-computer-tuition-lucknow",
+      "board": "icse",
+      "group": "classes",
+      "label": "ICSE computer tuition in Lucknow",
+      "wave": 3,
+      "code": "ic35",
+      "primary": "icse computer tuition lucknow",
+      "secondary": [
+        "java tuition lucknow icse",
+        "computer applications tutor lucknow",
+        "icse class 10 computer classes lucknow"
+      ],
+      "angle": "Lucknow page for a city with a high ICSE share.",
+      "accent": "#3D5A3A"
+    },
+    {
+      "slug": "icse-computer-tuition-pune",
+      "board": "icse",
+      "group": "classes",
+      "label": "ICSE computer tuition in Pune",
+      "wave": 3,
+      "code": "ic36",
+      "primary": "icse computer tuition pune",
+      "secondary": [
+        "java tuition pune icse",
+        "computer applications tutor pune",
+        "icse class 10 java classes pune"
+      ],
+      "angle": "Pune page; thinnest evidence, build late.",
+      "accent": "#4F4A6E"
+    },
+    {
+      "slug": "icse-class-10-data-types-and-input-java",
+      "board": "icse",
+      "group": "topics",
+      "label": "Data types, input and type casting",
+      "wave": 3,
+      "code": "ic37",
+      "primary": "data types in java icse class 10",
+      "secondary": [
+        "scanner class input icse",
+        "type conversion java icse",
+        "implicit explicit type casting icse",
+        "values and data types icse"
+      ],
+      "angle": "Type-casting and Scanner method tables, including the nextLine pitfall.",
+      "accent": "#7A4A1E"
+    },
+    {
+      "slug": "icse-class-9-java-revision-for-class-10",
+      "board": "icse",
+      "group": "topics",
+      "label": "Class 9 Java revision for Class 10",
+      "wave": 3,
+      "code": "ic38",
+      "primary": "class 9 java revision for class 10 icse",
+      "secondary": [
+        "icse class 9 computer topics in class 10",
+        "revision of class 9 syllabus icse computer",
+        "java basics icse"
+      ],
+      "angle": "Which Class 9 topics the Class 10 paper actually tests.",
+      "accent": "#24485E"
+    },
+    {
+      "slug": "icse-computer-tuition-near-me",
+      "board": "icse",
+      "group": "classes",
+      "label": "ICSE computer tuition near me",
+      "wave": 3,
+      "code": "ic39",
+      "primary": "icse computer tuition near me",
+      "secondary": [
+        "computer tuition for icse class 10 near me",
+        "java tutor near me icse",
+        "icse computer coaching near me"
+      ],
+      "angle": "Answers the near-me search with live online classes and timings for every city.",
+      "accent": "#5E3A55"
+    },
+    {
+      "slug": "icse-computer-applications-small-batch-classes",
+      "board": "icse",
+      "group": "classes",
+      "label": "The mini batch, explained",
+      "wave": 3,
+      "code": "ic40",
+      "primary": "icse computer applications group classes",
+      "secondary": [
+        "small batch java classes icse",
+        "icse computer batch online",
+        "icse computer mini batch"
+      ],
+      "angle": "The offer page for the batch format: schedule and small batch versus one to one versus large group.",
+      "accent": "#3B5B4B"
+    }
+  ]
+}

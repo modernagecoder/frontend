@@ -66,6 +66,18 @@ Monthly, no admission fee, stop at any month end. The Tuesday and Wednesday mini
 
 Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 students. Related pages: /icse-class-10-computer-applications-syllabus-explained, /icse-class-10-java-programs-practice, /icse-class-10-bluej-java-coaching, /icse-class-10-computer-applications-board-exam-preparation, /coding-for-icse-students, /computer-applications-icse-class-10.
 
+## More pages in this series
+
+**Classes, tuition and batches:** [ICSE Java classes in the Gulf and abroad](/icse-class-10-computer-applications-classes-gulf-and-abroad), [ICSE BlueJ Java coaching](/icse-class-10-bluej-java-coaching).
+
+**Chapter by chapter:** [ICSE Computer Applications syllabus](/icse-class-10-computer-applications-syllabus-explained).
+
+**Programs for Section B:** [ICSE Java programs practice](/icse-class-10-java-programs-practice).
+
+**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests).
+
+**Exam, marks and internal assessment:** [ICSE board exam preparation](/icse-class-10-computer-applications-board-exam-preparation), [Exam date 2027 and paper pattern](/icse-class-10-computer-applications-exam-date-and-paper-pattern), [Project and internal assessment](/icse-class-10-computer-applications-project-and-internal-assessment).
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/icse-class-10-java-classes-online*

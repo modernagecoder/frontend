@@ -31,9 +31,10 @@ const ROOT = path.resolve(__dirname, '..', '..');
 const CONTENT = path.join(ROOT, 'content', 'board-prep');
 const PAGES = path.join(ROOT, 'src', 'pages');
 const BASE = 'https://learn.modernagecoders.com';
+const SERIESMOD = require('./series.js');
 const BRAND = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts', 'brand-facts.json'), 'utf8'));
 
-const CSS_VER = '20261013';
+const CSS_VER = '20261106';
 const WA = 'https://wa.me/919123366161?text=';
 
 // ------------------------------------------------------------------ helpers
@@ -374,8 +375,7 @@ function render(p) {
         <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
       </div>`;
 
-  const sibs = SIBLINGS.filter(s => s[0] !== p.slug)
-    .map(([s, n]) => `      <a class="bx-sib" href="/${s}"><span class="bx-sib-n">${n}</span><span class="bx-sib-m">/${s}</span></a>`).join('\n');
+  const sibs = SERIESMOD.siblingsHtml(p.slug);
 
   const faqHtml = p.faqs.map(([q, a]) => `      <div class="bx-faq-item"><h3>${esc(q)}</h3><p>${esc(a)}</p></div>`).join('\n');
 
@@ -555,7 +555,7 @@ ${reviewHtml}
     <div class="bx-section-head">
       <p class="bx-qlabel">The rest of the Class 10 series</p>
       <h2>${p.sibH2 || 'More pages for Class 10 board students'}</h2>
-      <p class="bx-lede">${p.sibLede || 'Ten pages on CBSE Artificial Intelligence 417 and ten on ICSE Computer Applications (Java), from the syllabus to the exam date.'}</p>
+      <p class="bx-lede">${p.sibLede || (p.board === 'cbse' ? 'Every page in the CBSE Class 10 AI (417) series, grouped by what you need: classes, each unit, question practice, notes and revision, and the exam itself.' : 'Every page in the ICSE Class 10 Computer Applications series, grouped by what you need: classes, each chapter, Section B programs, question practice, notes and revision, and the exam itself.')}</p>
     </div>
     <div class="bx-siblings">
 ${sibs}
@@ -655,9 +655,9 @@ window.submitBxLead = function (e) {
     document.head.appendChild(s);
   });
 </script>
-<script src="/js/country-code-selector.js?v=20260927a" defer></script>
-    <script src="/js/pricing-data.generated.js?v=c1eb685613"></script>
-    <script src="/js/international-pricing.js?v=deee271610"></script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=5d83c35fbe"></script>
+    <script src="/js/international-pricing.js?v=73c0675aaf"></script>
 </body>
 </html>
 `;
@@ -678,7 +678,10 @@ function htmlToMd(h) {
     .replace(/<p class="bx-qlabel">[\s\S]*?\n\n/g, '')
     .replace(/<[^>]+>/g, '')
     .replace(/&middot;/g, '·').replace(/&rarr;/g, '→').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ')
-    .replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
+    .replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n')
+    // drop HTML indentation outside code fences, or markdown readers see code blocks
+    .split('```').map((seg, i) => i % 2 ? seg : seg.replace(/^[ \t]+/gm, '')).join('```')
+    .trim();
 }
 
 function renderMd(p) {
@@ -716,7 +719,9 @@ function renderMd(p) {
   for (const [q, a] of p.faqs) { lines.push(`**${q}** ${a}`); lines.push(''); }
   lines.push(`Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 students. Contact: connect@modernagecoders.com, +91 91233 66161 (call or WhatsApp).`);
   lines.push('');
-  lines.push('Related pages: ' + SIBLINGS.filter(s => s[0] !== p.slug).map(s => '/' + s[0]).join(', ') + '.');
+  lines.push('## More pages in this series');
+  lines.push('');
+  lines.push(SERIESMOD.siblingsMd(p.slug));
   lines.push('');
   lines.push('---');
   lines.push('');

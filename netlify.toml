@@ -31537,6 +31537,28 @@
   to = "/src/pages/coding-and-ai-classes-in-neuss-germany.md"
   status = 200
 
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/cbse-class-10-ai-mcq-questions"
+  to = "/src/pages/cbse-class-10-ai-mcq-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-mcq-questions.md"
+  to = "/src/pages/cbse-class-10-ai-mcq-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-java-output-questions"
+  to = "/src/pages/icse-class-10-java-output-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-java-output-questions.md"
+  to = "/src/pages/icse-class-10-java-output-questions.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

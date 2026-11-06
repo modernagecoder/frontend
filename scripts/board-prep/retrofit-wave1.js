@@ -42,7 +42,8 @@ const AREA = {
   cbse: ['India', 'United Arab Emirates', 'Saudi Arabia', 'Kuwait', 'Qatar', 'Oman', 'Nepal', 'Bahrain', 'Ethiopia', 'Malaysia', 'Singapore'],
   icse: ['India', 'United Arab Emirates', 'Singapore', 'Indonesia', 'Thailand']
 };
-const { SIBLINGS, offerBlock } = require('./build.js');
+const { offerBlock } = require('./build.js');
+const { siblingsHtml } = require('./series.js');
 
 const HERO_FIXES = [
   // ICSE abroad is one to one (option c); Oman, Saudi Arabia, Qatar, Kuwait and Bahrain have no ICSE schools
@@ -97,9 +98,8 @@ function retrofit(slug, board) {
 </nav>`);
   }
 
-  // sibling strip: all twenty pages
-  const sibs = SIBLINGS.filter(s => s[0] !== slug)
-    .map(([s, n]) => `      <a class="bx-sib" href="/${s}"><span class="bx-sib-n">${n}</span><span class="bx-sib-m">/${s}</span></a>`).join('\n');
+  // related pages: every live page of this board, grouped (series.json)
+  const sibs = siblingsHtml(slug);
   h = h.replace(/(<div class="bx-siblings">)[\s\S]*?(\n    <\/div>\n  <\/div>\n<\/section>)/, `$1\n${sibs}$2`);
   h = h.replace(/<h2>Nine more pages for Class 10 board students<\/h2>\s*<p class="bx-lede">[^<]*<\/p>/,
     '<h2>More pages for Class 10 board students</h2>\n      <p class="bx-lede">Ten pages on CBSE Artificial Intelligence 417 and ten on ICSE Computer Applications (Java), from the syllabus and the exam date to classes for families in the Gulf and abroad.</p>');

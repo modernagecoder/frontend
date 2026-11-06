@@ -2423,6 +2423,8 @@ Live online Class 10 board preparation, taught in small batches: CBSE Artificial
 - ICSE Class 10 Computer Applications exam date 2027 and paper pattern: https://learn.modernagecoders.com/icse-class-10-computer-applications-exam-date-and-paper-pattern
 - ICSE Class 10 Computer Applications important questions and Java programs: https://learn.modernagecoders.com/icse-class-10-computer-applications-important-questions
 - ICSE Class 10 Computer Applications (Java) classes for students abroad: https://learn.modernagecoders.com/icse-class-10-computer-applications-classes-gulf-and-abroad
+- CBSE Class 10 AI (417): Class 10 AI MCQ, unit wise: https://learn.modernagecoders.com/cbse-class-10-ai-mcq-questions
+- ICSE Class 10 Computer Applications: Predict the output questions: https://learn.modernagecoders.com/icse-class-10-java-output-questions
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

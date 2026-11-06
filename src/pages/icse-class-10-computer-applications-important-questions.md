@@ -10,108 +10,108 @@ updated: 2026-10-13
 
 ## Output questions, answered and checked by running the code
 
-      Every output below was compiled and run in Java before it went on this page. Try each one on paper first, then compare. The ones you get wrong show which rule to revise.
+Every output below was compiled and run in Java before it went on this page. Try each one on paper first, then compare. The ones you get wrong show which rule to revise.
 
-        - Code | Output | The rule it tests
+- Code | Output | The rule it tests
 
-          - String s = "COMPUTER";System.out.println(s.indexOf('U') + s.lastIndexOf('E')); | 10 | Indices start at 0; two int results are added, not joined
+- String s = "COMPUTER";System.out.println(s.indexOf('U') + s.lastIndexOf('E')); | 10 | Indices start at 0; two int results are added, not joined
 
-          - System.out.println(s.substring(3, 6).toLowerCase()); | put | The end index is excluded: characters 3, 4 and 5
+- System.out.println(s.substring(3, 6).toLowerCase()); | put | The end index is excluded: characters 3, 4 and 5
 
-          - System.out.println("APPLE".compareTo("APRIL")); | -2 | The first differing characters, P and R, are subtracted
+- System.out.println("APPLE".compareTo("APRIL")); | -2 | The first differing characters, P and R, are subtracted
 
-          - System.out.println(Integer.parseInt("12") + Double.parseDouble("2.5")); | 14.5 | Wrapper conversion, then int plus double gives double
+- System.out.println(Integer.parseInt("12") + Double.parseDouble("2.5")); | 14.5 | Wrapper conversion, then int plus double gives double
 
-          - System.out.println((int) Character.toUpperCase('b')); | 66 | The cast prints the character code of B
+- System.out.println((int) Character.toUpperCase('b')); | 66 | The cast prints the character code of B
 
-          - System.out.println(Math.round(-2.5) + " " + Math.ceil(-4.2)); | -2 -4.0 | round goes towards positive infinity at .5; ceil returns a double
+- System.out.println(Math.round(-2.5) + " " + Math.ceil(-4.2)); | -2 -4.0 | round goes towards positive infinity at .5; ceil returns a double
 
-          - int i = 1, n = 0; while (i < 50) { i *= 3; n++; }System.out.println(n + " " + i); | 4 81 | Count passes with a step table: 3, 9, 27, 81
+- int i = 1, n = 0; while (i < 50) { i *= 3; n++; }System.out.println(n + " " + i); | 4 81 | Count passes with a step table: 3, 9, 27, 81
 
-          - char c = 'A'; c += 2; System.out.println(c); | C | Compound assignment keeps the char type
+- char c = 'A'; c += 2; System.out.println(c); | C | Compound assignment keeps the char type
 
-          - System.out.println("ICSE".charAt(1) + "ICSE".charAt(2)); | 150 | char plus char is int arithmetic: 67 + 83
+- System.out.println("ICSE".charAt(1) + "ICSE".charAt(2)); | 150 | char plus char is int arithmetic: 67 + 83
 
-          - System.out.println("" + "ICSE".charAt(1) + "ICSE".charAt(2)); | CS | A String on the left turns every later + into joining
+- System.out.println("" + "ICSE".charAt(1) + "ICSE".charAt(2)); | CS | A String on the left turns every later + into joining
 
-      The last two rows show why tracing beats guessing. The code looks almost identical, but the answers are 150 and CS.
-      In the 2025 specimen, most Section A questions are labelled Understanding or Analysis rather than Recall, and
-      this is what that means in practice. On Tuesdays the mini batch works through fresh fragments like these against
-      a timer, then runs them in BlueJ on the shared screen, so every wrong answer is traced back to the rule it broke.
+The last two rows show why tracing beats guessing. The code looks almost identical, but the answers are 150 and CS.
+In the 2025 specimen, most Section A questions are labelled Understanding or Analysis rather than Recall, and
+this is what that means in practice. On Tuesdays the mini batch works through fresh fragments like these against
+a timer, then runs them in BlueJ on the shared screen, so every wrong answer is traced back to the rule it broke.
 
 ## Important questions for every unit of the 2027 syllabus
 
-      The syllabus for 2027 is the same as for 2026. Section A also draws on Class 9 topics, so the first list is revision. Recursion is not in the syllabus, and nor are StringBuffer or insertion sort.
+The syllabus for 2027 is the same as for 2026. Section A also draws on Class 9 topics, so the first list is revision. Recursion is not in the syllabus, and nor are StringBuffer or insertion sort.
 
 ### Class 9 revision and classes
 
-          - Name the OOP principle shown by a scenario: encapsulation, abstraction, inheritance or polymorphism.
+- Name the OOP principle shown by a scenario: encapsulation, abstraction, inheritance or polymorphism.
 
-          - Size in bytes of char, int, long and double; the default values of boolean and double.
+- Size in bytes of char, int, long and double; the default values of boolean and double.
 
-          - Precedence: which operator is evaluated first in an expression such as a + b % c * d - e?
+- Precedence: which operator is evaluated first in an expression such as a + b % c * d - e?
 
-          - Write the Java expression for a formula with a square root or a power.
+- Write the Java expression for a formula with a square root or a power.
 
-          - Rewrite an if-else ladder with switch, or a switch with if-else, and explain fall-through.
+- Rewrite an if-else ladder with switch, or a switch with if-else, and explain fall-through.
 
-          - Convert a for loop to a while loop and give the number of iterations.
+- Convert a for loop to a while loop and give the number of iterations.
 
-          - Nested loops: trace a pattern, or write the loops that print one.
+- Nested loops: trace a pattern, or write the loops that print one.
 
-          - Class versus object, and primitive versus composite data types, with an example of each.
+- Class versus object, and primitive versus composite data types, with an example of each.
 
 ### User-defined methods and constructors
 
-          - Pure versus impure methods; static versus non-static methods.
+- Pure versus impure methods; static versus non-static methods.
 
-          - Call by value versus call by reference, with the definition the syllabus asks for.
+- Call by value versus call by reference, with the definition the syllabus asks for.
 
-          - Actual versus formal parameters; write a method prototype from a description.
+- Actual versus formal parameters; write a method prototype from a description.
 
-          - What makes two methods overloaded? Which call goes to which version?
+- What makes two methods overloaded? Which call goes to which version?
 
-          - Constructor versus method: three differences.
+- Constructor versus method: three differences.
 
-          - Default versus parameterised constructor; name the constructor type in a code fragment.
+- Default versus parameterised constructor; name the constructor type in a code fragment.
 
-          - Constructor overloading: predict what an object holds after each constructor runs.
+- Constructor overloading: predict what an object holds after each constructor runs.
 
 ### Library classes and encapsulation
 
-          - Define autoboxing and unboxing, with a one-line example of each.
+- Define autoboxing and unboxing, with a one-line example of each.
 
-          - Outputs of parseInt, parseDouble, valueOf and the Character methods.
+- Outputs of parseInt, parseDouble, valueOf and the Character methods.
 
-          - Check a character with isLetter, isDigit, isWhitespace or isUpperCase.
+- Check a character with isLetter, isDigit, isWhitespace or isUpperCase.
 
-          - Why does Integer need no import? (It is in java.lang.)
+- Why does Integer need no import? (It is in java.lang.)
 
-          - Private, protected and public: who can see each member?
+- Private, protected and public: who can see each member?
 
-          - Label the variables in a class as class, instance, argument or local variables.
+- Label the variables in a class as class, instance, argument or local variables.
 
 ### Arrays and strings
 
-          - Declare and initialise a single and a double dimensional array; give the index of the last element.
+- Declare and initialise a single and a double dimensional array; give the index of the last element.
 
-          - Linear search versus binary search; the condition binary search needs.
+- Linear search versus binary search; the condition binary search needs.
 
-          - Trace one pass of bubble sort or selection sort on five numbers.
+- Trace one pass of bubble sort or selection sort on five numbers.
 
-          - Position of an element in a 2D array, and the value of an expression using two elements.
+- Position of an element in a 2D array, and the value of an expression using two elements.
 
-          - The length of an array versus length() of a String.
+- The length of an array versus length() of a String.
 
-          - Outputs of trim, charAt, indexOf, replace, substring, equals and compareTo.
+- Outputs of trim, charAt, indexOf, replace, substring, equals and compareTo.
 
-          - equals versus equalsIgnoreCase, and == versus equals for Strings.
+- equals versus equalsIgnoreCase, and == versus equals for Strings.
 
-          - Sort a String array alphabetically with bubble or selection sort.
+- Sort a String array alphabetically with bubble or selection sort.
 
 ## Six program families, with the programs worth practising in each
 
-      Section B offers six programs and students write four. The 2025 specimen gives one from each family below, so a student who keeps all six ready has the full choice on the day.
+Section B offers six programs and students write four. The 2025 specimen gives one from each family below, so a student who keeps all six ready has the full choice on the day.
 
 ### A class to a specification
 A named class with member variables, an accept() method using Scanner, a calculation from a rate or tariff table, a display() in a set format and a main that creates the object. Practise electricity bills, interest by time slabs, discounts by purchase amount and parking charges.
@@ -131,14 +131,14 @@ Check a defined special number from its digits: palindrome numbers, Armstrong-st
 ### Method overloading
 Three methods with the same name and different parameter lists: one prints a nested-loop pattern, one applies a condition, and one evaluates a formula. Students must decide which version each call in main reaches.
 
-      Complete practice sets for each family, with programs set at increasing difficulty, are on
-      [ICSE Java programs practice](/icse-class-10-java-programs-practice). How the families
-      appeared in the latest specimen, and the paper's full design, are on
-      [ICSE Computer Applications exam date and paper pattern](/icse-class-10-computer-applications-exam-date-and-paper-pattern).
+Complete practice sets for each family, with programs set at increasing difficulty, are on
+[ICSE Java programs practice](/icse-class-10-java-programs-practice). How the families
+appeared in the latest specimen, and the paper's full design, are on
+[ICSE Computer Applications exam date and paper pattern](/icse-class-10-computer-applications-exam-date-and-paper-pattern).
 
 ## A double dimensional array program, written the weak way and the full-marks way
 
-      Write a program to accept a 3 x 3 integer array, display it in matrix format, and print the sums of its left and right diagonals.
+Write a program to accept a 3 x 3 integer array, display it in matrix format, and print the sums of its left and right diagonals.
 
 ```
 int a[][] = new int[3][3];
@@ -183,49 +183,49 @@ class Diagonal {
 }
 ```
 
-        - Variable | Data type | Purpose
+- Variable | Data type | Purpose
 
-          - a | int[][] | Stores the 3 x 3 matrix entered by the user
+- a | int[][] | Stores the 3 x 3 matrix entered by the user
 
-          - i, j | int | Row and column counters for input, sums and display
+- i, j | int | Row and column counters for input, sums and display
 
-          - left | int | Sum of the left diagonal, elements where row equals column
+- left | int | Sum of the left diagonal, elements where row equals column
 
-          - right | int | Sum of the right diagonal, elements where column is 2 minus row
+- right | int | Sum of the right diagonal, elements where column is 2 minus row
 
-          - sc | Scanner | Reads the nine numbers from the keyboard
+- sc | Scanner | Reads the nine numbers from the keyboard
 
-      The variable description above uses the name, data type and purpose layout that the ICSE syllabus sets for the
-      internal assessment, and Section B expects the same with every program. Writing it takes two minutes and protects
-      marks in both halves of the subject. In the Wednesday class, programs like this are written in BlueJ, run with a
-      student's own test input, and marked part by part, covering input, logic, the output format the question asked for,
-      and the variable description.
+The variable description above uses the name, data type and purpose layout that the ICSE syllabus sets for the
+internal assessment, and Section B expects the same with every program. Writing it takes two minutes and protects
+marks in both halves of the subject. In the Wednesday class, programs like this are written in BlueJ, run with a
+student's own test input, and marked part by part, covering input, logic, the output format the question asked for,
+and the variable description.
 
 ## Eight habits that cost marks, and the fix for each
 
-        - Using BufferedReader. The paper rules it out for Section B, so use Scanner every time.
+- Using BufferedReader. The paper rules it out for Section B, so use Scanner every time.
 
-        - Leaving out the variable description. Write the three-column table for every program, even in practice.
+- Leaving out the variable description. Write the three-column table for every program, even in practice.
 
-        - Ignoring the output format. If the question shows labelled output or a matrix layout, match it exactly.
+- Ignoring the output format. If the question shows labelled output or a matrix layout, match it exactly.
 
-        - Answering a nearby question. Underline what is to be accepted and what is to be printed before writing code.
+- Answering a nearby question. Underline what is to be accepted and what is to be printed before writing code.
 
-        - Off-by-one indices. The last index is length minus one, in arrays and in Strings.
+- Off-by-one indices. The last index is length minus one, in arrays and in Strings.
 
-        - Using == to compare Strings. Use equals or equalsIgnoreCase.
+- Using == to compare Strings. Use equals or equalsIgnoreCase.
 
-        - Integer division surprises. 7 / 2 is 3; write 7.0 / 2 when a decimal is wanted.
+- Integer division surprises. 7 / 2 is 3; write 7.0 / 2 when a decimal is wanted.
 
-        - Going beyond the syllabus. Recursion, StringBuffer and 2D sorting earn nothing extra and add risk.
+- Going beyond the syllabus. Recursion, StringBuffer and 2D sorting earn nothing extra and add risk.
 
-      These are the slips that turn up again and again when Java answers are marked. In the mini batch each student's
-      repeated slips are pointed out in every review, so the same mistake is fixed once rather than made in every
-      paper.
+These are the slips that turn up again and again when Java answers are marked. In the mini batch each student's
+repeated slips are pointed out in every review, so the same mistake is fixed once rather than made in every
+paper.
 
 ## A question bank needs someone to mark it
 
-      A student practising alone checks whether the program ran. The examiner checks the output format, the variable description and whether the answer fits the question. Live practice teaches the second kind of checking.
+A student practising alone checks whether the program ran. The examiner checks the output format, the variable description and whether the answer fits the question. Live practice teaches the second kind of checking.
 
 ### Tuesday: shapes against a timer
 A set of Section A shapes is written in about a minute per mark, then each answer is run in BlueJ on the shared screen. The trace table that got it right is set beside the shortcut that got it wrong.
@@ -236,8 +236,8 @@ One program family is written in BlueJ, run with tricky test input such as an em
 ### Doubts settled in the moment
 Any student can stop the class, share their BlueJ window and have their code read line by line. In a group of up to six, there is time to answer every student's doubt in every class.
 
-      From December the same shapes appear in full two-hour papers. See [the specimen paper and mock tests page](/icse-class-10-computer-applications-specimen-paper-and-mock-tests),
-      and for the final revision plan, [ICSE Computer Applications board exam preparation](/icse-class-10-computer-applications-board-exam-preparation).
+From December the same shapes appear in full two-hour papers. See [the specimen paper and mock tests page](/icse-class-10-computer-applications-specimen-paper-and-mock-tests),
+and for the final revision plan, [ICSE Computer Applications board exam preparation](/icse-class-10-computer-applications-board-exam-preparation).
 
 ## The courses behind this page
 
@@ -255,13 +255,13 @@ Option 1, fixed batch (for families in India): Tuesday at 5:30 PM and Wednesday 
 
 - Where you live | Time difference | Usual class window, local time | Format
 
-          - India (IST)every Indian city | IST | Tue 5:30 PM, Wed 8:00 PM | Mini batch or 1-on-1
+- India (IST)every Indian city | IST | Tue 5:30 PM, Wed 8:00 PM | Mini batch or 1-on-1
 
-          - United Arab EmiratesDubai, Sharjah | 1 h 30 min behind India | 3:00 PM to 9:00 PM | Personalised 1-on-1
+- United Arab EmiratesDubai, Sharjah | 1 h 30 min behind India | 3:00 PM to 9:00 PM | Personalised 1-on-1
 
-          - Indonesia and ThailandWest Java, Bangkok area | 1 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
+- Indonesia and ThailandWest Java, Bangkok area | 1 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
 
-          - SingaporeSingapore | 2 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
+- SingaporeSingapore | 2 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
 
 ## Frequently asked questions
 
@@ -287,7 +287,17 @@ Option 1, fixed batch (for families in India): Tuesday at 5:30 PM and Wednesday 
 
 Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 students. Contact: connect@modernagecoders.com, +91 91233 66161 (call or WhatsApp).
 
-Related pages: /cbse-class-10-ai-classes-online, /cbse-class-10-ai-syllabus-explained, /python-for-cbse-class-10-ai, /cbse-class-10-ai-board-exam-preparation, /cbse-class-10-ai-project-and-practical-file, /cbse-class-10-ai-exam-date-and-paper-pattern, /cbse-class-10-ai-sample-paper-and-mock-tests, /cbse-class-10-ai-important-questions, /cbse-class-10-ai-employability-skills-part-a, /cbse-class-10-ai-online-classes-gulf-and-abroad, /icse-class-10-java-classes-online, /icse-class-10-computer-applications-syllabus-explained, /icse-class-10-java-programs-practice, /icse-class-10-bluej-java-coaching, /icse-class-10-computer-applications-board-exam-preparation, /icse-class-10-computer-applications-exam-date-and-paper-pattern, /icse-class-10-computer-applications-specimen-paper-and-mock-tests, /icse-class-10-computer-applications-project-and-internal-assessment, /icse-class-10-computer-applications-classes-gulf-and-abroad.
+## More pages in this series
+
+**Classes, tuition and batches:** [The Tue and Wed ICSE Java batch](/icse-class-10-java-classes-online), [ICSE Java classes in the Gulf and abroad](/icse-class-10-computer-applications-classes-gulf-and-abroad), [ICSE BlueJ Java coaching](/icse-class-10-bluej-java-coaching).
+
+**Chapter by chapter:** [ICSE Computer Applications syllabus](/icse-class-10-computer-applications-syllabus-explained).
+
+**Programs for Section B:** [ICSE Java programs practice](/icse-class-10-java-programs-practice).
+
+**Questions and practice:** [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Predict the output questions](/icse-class-10-java-output-questions).
+
+**Exam, marks and internal assessment:** [ICSE board exam preparation](/icse-class-10-computer-applications-board-exam-preparation), [Exam date 2027 and paper pattern](/icse-class-10-computer-applications-exam-date-and-paper-pattern), [Project and internal assessment](/icse-class-10-computer-applications-project-and-internal-assessment).
 
 ---
 

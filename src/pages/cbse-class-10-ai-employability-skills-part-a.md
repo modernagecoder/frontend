@@ -10,32 +10,32 @@ updated: 2026-10-13
 
 ## Five units, two marks each, and what the paper asks from every one
 
-      The CBSE curriculum for code 417 lists Part A as employability skills with fifty hours of teaching across the year and ten marks in the theory paper. These are the Class 10 versions of the same five units students met in Class 9, one level deeper.
+The CBSE curriculum for code 417 lists Part A as employability skills with fifty hours of teaching across the year and ten marks in the theory paper. These are the Class 10 versions of the same five units students met in Class 9, one level deeper.
 
-        - Unit | Marks | What it covers | What the questions usually ask
+- Unit | Marks | What it covers | What the questions usually ask
 
-          - Communication Skills | 2 | Methods of communication, the communication cycle and feedback, barriers to communication, principles of effective communication, writing skills | Name the elements of the cycle; classify a barrier; list or apply the 7Cs
+- Communication Skills | 2 | Methods of communication, the communication cycle and feedback, barriers to communication, principles of effective communication, writing skills | Name the elements of the cycle; classify a barrier; list or apply the 7Cs
 
-          - Self-Management Skills | 2 | Stress management, self-awareness of strengths and weaknesses, self-motivation, self-regulation, goal setting and time management | Ways to manage stress; SMART goals; internal versus external motivation
+- Self-Management Skills | 2 | Stress management, self-awareness of strengths and weaknesses, self-motivation, self-regulation, goal setting and time management | Ways to manage stress; SMART goals; internal versus external motivation
 
-          - ICT Skills | 2 | Basic computer operations and the operating system, files and folders, computer care and maintenance, computer security and privacy | Types of malware and how to stay safe; basic care of a computer; what an operating system does
+- ICT Skills | 2 | Basic computer operations and the operating system, files and folders, computer care and maintenance, computer security and privacy | Types of malware and how to stay safe; basic care of a computer; what an operating system does
 
-          - Entrepreneurial Skills | 2 | Entrepreneurship and society, qualities and functions of an entrepreneur, myths about entrepreneurship, entrepreneurship as a career | Qualities of an entrepreneur; a myth and the reality; role in society
+- Entrepreneurial Skills | 2 | Entrepreneurship and society, qualities and functions of an entrepreneur, myths about entrepreneurship, entrepreneurship as a career | Qualities of an entrepreneur; a myth and the reality; role in society
 
-          - Green Skills | 2 | Sustainable development, its importance and the problems it addresses, the Sustainable Development Goals, our role in sustainable development | Define sustainable development; name SDGs; actions a student can take
+- Green Skills | 2 | Sustainable development, its importance and the problems it addresses, the Sustainable Development Goals, our role in sustainable development | Define sustainable development; name SDGs; actions a student can take
 
-          - Part A total | 10 | Fifty hours across the year | In the latest sample paper: any 4 of 6 one-mark objective questions, any 3 of 5 two-mark short answers
+- Part A total | 10 | Fifty hours across the year | In the latest sample paper: any 4 of 6 one-mark objective questions, any 3 of 5 two-mark short answers
 
-      In the latest official sample paper, for 2025-26, Part A appears twice: Question 1 offers six one-mark objective questions of which any four are answered, and Section B offers five two-mark short answers of which any three are answered, four plus six for the ten marks. Self-Management Skills supplies the most questions, three of the eleven. Read the right-hand column and a pattern appears: almost every question is a definition, a short list or
-      a difference. None needs a paragraph, and none needs anything outside the textbook. That is precisely why
-      Part A rewards an evening of focused practice more than any other part of the paper, and why skipping it is
-      such an expensive mistake. Ten marks is a fifth of the theory paper; for a student aiming at a high score,
-      Part A is usually the difference between a good result and a distinction. The full unit ledger for Part B,
-      the AI units, is set out on [the 417 syllabus explained](/cbse-class-10-ai-syllabus-explained).
+In the latest official sample paper, for 2025-26, Part A appears twice: Question 1 offers six one-mark objective questions of which any four are answered, and Section B offers five two-mark short answers of which any three are answered, four plus six for the ten marks. Self-Management Skills supplies the most questions, three of the eleven. Read the right-hand column and a pattern appears: almost every question is a definition, a short list or
+a difference. None needs a paragraph, and none needs anything outside the textbook. That is precisely why
+Part A rewards an evening of focused practice more than any other part of the paper, and why skipping it is
+such an expensive mistake. Ten marks is a fifth of the theory paper; for a student aiming at a high score,
+Part A is usually the difference between a good result and a distinction. The full unit ledger for Part B,
+the AI units, is set out on [the 417 syllabus explained](/cbse-class-10-ai-syllabus-explained).
 
 ## Five model answers, one from each unit, written the way the marking scheme reads
 
-      A two-mark Part A answer is usually two value points. The model answers below give exactly that: no introduction, no conclusion, the board's own terms, and an example where the question invites one.
+A two-mark Part A answer is usually two value points. The model answers below give exactly that: no introduction, no conclusion, the board's own terms, and an example where the question invites one.
 
 ### Communication: name any two barriers to effective communication, with an example of each.
 Physical barrier: noise or distance stops the message reaching the receiver, for example a loudspeaker announcement drowned out by traffic. Linguistic barrier: sender and receiver do not share a language or vocabulary, for example technical terms used with someone who does not know them. Other accepted barriers include interpersonal, organisational and cultural ones.
@@ -55,15 +55,15 @@ Sustainable development is development that meets the needs of the present witho
 ### Green skills: name any two Sustainable Development Goals.
 The United Nations set seventeen Sustainable Development Goals for 2030. Any two, named correctly, for example Goal 4, Quality Education and Goal 13, Climate Action. Naming the number and the title together is the safest way to earn both marks.
 
-      Notice what is absent: no "In today's world", no restating the question, no third point squeezed in for
-      safety. Examiners look for the value points and move on, so an answer built from exactly those points is
-      faster to write and harder to under-mark. The Sustainable Development Goals also link Part A to Part C:
-      the 417 project must relate to an SDG, so a student who knows the goals well chooses a project faster. The
-      project side is planned on [the project and practical file page](/cbse-class-10-ai-project-and-practical-file).
+Notice what is absent: no "In today's world", no restating the question, no third point squeezed in for
+safety. Examiners look for the value points and move on, so an answer built from exactly those points is
+faster to write and harder to under-mark. The Sustainable Development Goals also link Part A to Part C:
+the 417 project must relate to an SDG, so a student who knows the goals well chooses a project faster. The
+project side is planned on [the project and practical file page](/cbse-class-10-ai-project-and-practical-file).
 
 ## The same communication question, answered for one mark and for two
 
-      Explain the communication cycle.
+Explain the communication cycle.
 
 ```
 Communication is the process of
@@ -94,32 +94,32 @@ Without feedback the sender cannot
 know the message was understood.
 ```
 
-      The habit generalises across all five units: read the key noun in the question, cycle, types, qualities,
-      difference, and give the answer the shape that noun demands. Students who practise ten such questions a week
-      for six weeks stop losing Part A marks entirely, which is why the drill below exists.
+The habit generalises across all five units: read the key noun in the question, cycle, types, qualities,
+difference, and give the answer the shape that noun demands. Students who practise ten such questions a week
+for six weeks stop losing Part A marks entirely, which is why the drill below exists.
 
 ## Compact revision blocks, then a weekly ten-question drill
 
-      Part A does not need its own class. It needs to be taught clearly once, then practised briefly and often, so the answers are automatic by February.
+Part A does not need its own class. It needs to be taught clearly once, then practised briefly and often, so the answers are automatic by February.
 
-      -
+-
 **One revision block per unit, inside the Monday class** Each unit is taught in a focused block of a Monday theory class: the terms, the lists and the differences the paper asks for, with the textbook's own vocabulary. Wednesday practical time is never spent on Part A; that belongs to Python and the practical file.
 
-      -
+-
 **A one-page answer sheet per unit** Students build their own single page per unit: definitions, lists, differences and one example each. Writing it themselves is the revision; the page is what they read the night before the paper.
 
-      -
+-
 **The weekly drill from November** The last minutes of a Monday class become a ten-question Part A drill, two per unit, answered to a timer and marked on the spot against the value points. Doubts are cleared live before the class ends.
 
-      -
+-
 **Part A inside every full mock** Every timed mock paper includes Part A in the same shape as the CBSE sample paper, so students practise answering it quickly and moving on to the AI questions with time in hand.
 
-      -
+-
 **A final sweep in the last week** In the final week before the paper, Part A is maintenance only: the five answer sheets read once a day. No new material, just the ten marks kept warm.
 
-      The full mock series, including how the official sample paper is solved live, is on
-      [the 417 sample paper and mock tests page](/cbse-class-10-ai-sample-paper-and-mock-tests),
-      and the unit-by-unit question bank for Part B is on [the important questions page](/cbse-class-10-ai-important-questions).
+The full mock series, including how the official sample paper is solved live, is on
+[the 417 sample paper and mock tests page](/cbse-class-10-ai-sample-paper-and-mock-tests),
+and the unit-by-unit question bank for Part B is on [the important questions page](/cbse-class-10-ai-important-questions).
 
 ## Six habits that quietly give away employability marks
 
@@ -157,17 +157,17 @@ Option 1, fixed batch: Monday and Wednesday at 9:00 PM IST, live online, fifteen
 
 - Where you live | Mon and Wed 9:00 PM IST | Best format
 
-          - India (IST)every Indian city | 9:00 PM | Batch fits
+- India (IST)every Indian city | 9:00 PM | Batch fits
 
-          - UAE and OmanDubai, Abu Dhabi, Sharjah, Muscat | 7:30 PM | Batch fits
+- UAE and OmanDubai, Abu Dhabi, Sharjah, Muscat | 7:30 PM | Batch fits
 
-          - Saudi Arabia, Qatar, Kuwait, BahrainRiyadh, Jeddah, Dammam, Doha, Kuwait City, Manama | 6:30 PM | Batch fits
+- Saudi Arabia, Qatar, Kuwait, BahrainRiyadh, Jeddah, Dammam, Doha, Kuwait City, Manama | 6:30 PM | Batch fits
 
-          - NepalKathmandu | 9:15 PM | Batch fits
+- NepalKathmandu | 9:15 PM | Batch fits
 
-          - Ethiopia and East AfricaAddis Ababa and East Africa Time | 6:30 PM | Batch fits
+- Ethiopia and East AfricaAddis Ababa and East Africa Time | 6:30 PM | Batch fits
 
-          - Singapore and MalaysiaSingapore, Kuala Lumpur | 11:30 PM | Choose 1-on-1
+- Singapore and MalaysiaSingapore, Kuala Lumpur | 11:30 PM | Choose 1-on-1
 
 ## Frequently asked questions
 
@@ -193,7 +193,15 @@ Option 1, fixed batch: Monday and Wednesday at 9:00 PM IST, live online, fifteen
 
 Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 students. Contact: connect@modernagecoders.com, +91 91233 66161 (call or WhatsApp).
 
-Related pages: /cbse-class-10-ai-classes-online, /cbse-class-10-ai-syllabus-explained, /python-for-cbse-class-10-ai, /cbse-class-10-ai-board-exam-preparation, /cbse-class-10-ai-project-and-practical-file, /cbse-class-10-ai-exam-date-and-paper-pattern, /cbse-class-10-ai-sample-paper-and-mock-tests, /cbse-class-10-ai-important-questions, /cbse-class-10-ai-online-classes-gulf-and-abroad, /icse-class-10-java-classes-online, /icse-class-10-computer-applications-syllabus-explained, /icse-class-10-java-programs-practice, /icse-class-10-bluej-java-coaching, /icse-class-10-computer-applications-board-exam-preparation, /icse-class-10-computer-applications-exam-date-and-paper-pattern, /icse-class-10-computer-applications-specimen-paper-and-mock-tests, /icse-class-10-computer-applications-important-questions, /icse-class-10-computer-applications-project-and-internal-assessment, /icse-class-10-computer-applications-classes-gulf-and-abroad.
+## More pages in this series
+
+**Classes, tuition and batches:** [The Mon and Wed 9 PM AI batch](/cbse-class-10-ai-classes-online), [CBSE AI classes in the Gulf and abroad](/cbse-class-10-ai-online-classes-gulf-and-abroad).
+
+**Unit by unit:** [CBSE AI 417 syllabus explained](/cbse-class-10-ai-syllabus-explained), [Python for Class 10 AI](/python-for-cbse-class-10-ai).
+
+**Questions and practice:** [CBSE AI important questions](/cbse-class-10-ai-important-questions), [Sample paper and mock tests](/cbse-class-10-ai-sample-paper-and-mock-tests), [Class 10 AI MCQ, unit wise](/cbse-class-10-ai-mcq-questions).
+
+**Exam, marks and practicals:** [CBSE AI board exam preparation](/cbse-class-10-ai-board-exam-preparation), [AI project and practical file](/cbse-class-10-ai-project-and-practical-file), [Exam date 2027 and paper pattern](/cbse-class-10-ai-exam-date-and-paper-pattern).
 
 ---
 

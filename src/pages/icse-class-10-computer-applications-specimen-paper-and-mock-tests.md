@@ -10,70 +10,70 @@ updated: 2026-10-13
 
 ## The specimen paper is the board telling you the paper's design in advance
 
-      CISCE publishes specimen question papers for ICSE subjects ahead of each examination. For Computer Applications, the specimen is the single most useful document a Class 10 student can hold.
+CISCE publishes specimen question papers for ICSE subjects ahead of each examination. For Computer Applications, the specimen is the single most useful document a Class 10 student can hold.
 
 ### What it fixes for the year
 
-        As of 13 October 2026, CISCE's specimen paper index runs up to the 2026 examination, and the latest official Computer Applications specimen is the one issued for 2025. The syllabus for 2027 is unchanged from 2026, so that paper is still an accurate guide until a newer one is published, and we solve whichever specimen is current. The specimen sets out the paper's design: the instructions on the cover, how Section A's forty compulsory marks are divided into objective and short-answer questions, how many Section B programs are offered and how many must be answered, and what the paper expects every program to carry. In the current specimen, Section A is Question 1, twenty multiple-choice questions of one mark each, and Question 2, ten short questions of two marks each, all compulsory, for 40 marks. Section B is Questions 3 to 8, six programs of 15 marks each, of which any four are answered, for 60 marks. Programs may be written in BlueJ or any Java environment.
+As of 13 October 2026, CISCE's specimen paper index runs up to the 2026 examination, and the latest official Computer Applications specimen is the one issued for 2025. The syllabus for 2027 is unchanged from 2026, so that paper is still an accurate guide until a newer one is published, and we solve whichever specimen is current. The specimen sets out the paper's design: the instructions on the cover, how Section A's forty compulsory marks are divided into objective and short-answer questions, how many Section B programs are offered and how many must be answered, and what the paper expects every program to carry. In the current specimen, Section A is Question 1, twenty multiple-choice questions of one mark each, and Question 2, ten short questions of two marks each, all compulsory, for 40 marks. Section B is Questions 3 to 8, six programs of 15 marks each, of which any four are answered, for 60 marks. Programs may be written in BlueJ or any Java environment.
 
-        What it does not include is a mark-by-mark explanation of the answers. That gap is where students lose marks without knowing why, and it is the gap a live solving class closes.
+What it does not include is a mark-by-mark explanation of the answers. That gap is where students lose marks without knowing why, and it is the gap a live solving class closes.
 
 ### The instructions students skip
 
-        Section B programs are expected in Java, with variable descriptions or mnemonic codes so that the logic of the program is clearly depicted; flowcharts and algorithms are not required. Students who write a correct program and leave out the variable description are giving away marks the paper told them how to keep.
+Section B programs are expected in Java, with variable descriptions or mnemonic codes so that the logic of the program is clearly depicted; flowcharts and algorithms are not required. Students who write a correct program and leave out the variable description are giving away marks the paper told them how to keep.
 
-        Section A rewards precision rather than length: exact Java terms, outputs traced character by character, one statement of Java written exactly. The specimen's objective questions show how fine the distinctions are, and why guessing from the shape of the code fails.
+Section A rewards precision rather than length: exact Java terms, outputs traced character by character, one statement of Java written exactly. The specimen's objective questions show how fine the distinctions are, and why guessing from the shape of the code fails.
 
-      The 2027 written paper: CISCE had not released the ICSE 2027 timetable when we last checked on 13 October 2026; last year's appeared in mid-November. The 2026 ICSE examinations ran from 17 February to 30 March, so expect Computer Applications to fall inside the February to March 2027 window. For the full CISCE timetable, the internal assessment window and every rule of the paper, read [ICSE Computer Applications exam date 2027 and pattern](/icse-class-10-computer-applications-exam-date-and-paper-pattern).
+The 2027 written paper: CISCE had not released the ICSE 2027 timetable when we last checked on 13 October 2026; last year's appeared in mid-November. The 2026 ICSE examinations ran from 17 February to 30 March, so expect Computer Applications to fall inside the February to March 2027 window. For the full CISCE timetable, the internal assessment window and every rule of the paper, read [ICSE Computer Applications exam date 2027 and pattern](/icse-class-10-computer-applications-exam-date-and-paper-pattern).
 
 ## The ICSE practice ladder: a diagnostic first, an examiner rehearsal last
 
-      Every paper below is written, marked and returned in a live review where lost marks are re-attempted on the spot. A Java mock reviewed only by its score teaches almost nothing.
+Every paper below is written, marked and returned in a live review where lost marks are re-attempted on the spot. A Java mock reviewed only by its score teaches almost nothing.
 
-        - Practice | Timing | How it is set | What your child walks away with
+- Practice | Timing | How it is set | What your child walks away with
 
-          - Starting diagnostic | Within two weeks of joining | Short Section A set plus one Section B program, timed | A map of which units leak marks, usually Section A before Section B
+- Starting diagnostic | Within two weeks of joining | Short Section A set plus one Section B program, timed | A map of which units leak marks, usually Section A before Section B
 
-          - Section A shape drills | Every Tuesday | Output prediction, loop counts, differences, one-line Java | Forty compulsory marks practised by question shape, not by chapter
+- Section A shape drills | Every Tuesday | Output prediction, loop counts, differences, one-line Java | Forty compulsory marks practised by question shape, not by chapter
 
-          - Program family sets | Every Wednesday | One program per family in BlueJ, with variable description | Arrays, strings, menus, overloading and number programs kept warm
+- Program family sets | Every Wednesday | One program per family in BlueJ, with variable description | Arrays, strings, menus, overloading and number programs kept warm
 
-          - CISCE specimen paper, solved live | Once the specimen for the year is out, from December | Untimed first, then a timed re-attempt of each section | The year's design learned straight from CISCE
+- CISCE specimen paper, solved live | Once the specimen for the year is out, from December | Untimed first, then a timed re-attempt of each section | The year's design learned straight from CISCE
 
-          - Full mock 1 | Early January | Full 100-mark paper under two-hour conditions | Reviewed in two halves, Section A on Tuesday, Section B on Wednesday
+- Full mock 1 | Early January | Full 100-mark paper under two-hour conditions | Reviewed in two halves, Section A on Tuesday, Section B on Wednesday
 
-          - Second and third full papers | From late January until the exam | Fresh papers in the specimen's design | A rising score and a time plan that no longer needs thinking about
+- Second and third full papers | From late January until the exam | Fresh papers in the specimen's design | A rising score and a time plan that no longer needs thinking about
 
-          - Internal assessment rehearsal | Before the school's practical window | Lab file review, examiner questions, one unseen program in BlueJ | The 100 internal marks rehearsed with an unfamiliar examiner
+- Internal assessment rehearsal | Before the school's practical window | Lab file review, examiner questions, one unseen program in BlueJ | The 100 internal marks rehearsed with an unfamiliar examiner
 
-      The order is deliberate. The lab file of twenty or more assignments is closed before the
-      school's internal assessment, so January belongs to the written paper and its three mocks. Mock papers
-      follow the specimen's design but use fresh questions, so a student who remembers last week's answers gains
-      nothing; only one who can trace and write Java does. The time plan for the two hours and the full
-      countdown are set out in our [ICSE board exam preparation guide](/icse-class-10-computer-applications-board-exam-preparation).
+The order is deliberate. The lab file of twenty or more assignments is closed before the
+school's internal assessment, so January belongs to the written paper and its three mocks. Mock papers
+follow the specimen's design but use fresh questions, so a student who remembers last week's answers gains
+nothing; only one who can trace and write Java does. The time plan for the two hours and the full
+countdown are set out in our [ICSE board exam preparation guide](/icse-class-10-computer-applications-board-exam-preparation).
 
 ## Up to six students, one shared BlueJ screen, every answer marked aloud
 
-      The mini batch exists for exactly this: in a class of up to six, every student's answer can be read, run and marked in front of the others in a single session.
+The mini batch exists for exactly this: in a class of up to six, every student's answer can be read, run and marked in front of the others in a single session.
 
-      -
+-
 **Name the question's shape before answering** Output prediction, loop count, difference, error correction, one statement of Java: Section A has a small number of shapes and each has a method. Naming the shape first means the method arrives before the guess does.
 
-      -
+-
 **Answer against the clock** Section A is roughly a mark a minute in a two-hour paper with sixty marks still to come, so the clock is part of every Tuesday drill, never a surprise saved for January. Each Section B program gets its own fixed allowance too.
 
-      -
+-
 **Trace on paper, then run in BlueJ** Each student's output is compared with the real output from BlueJ on the shared screen. The trace table that got it right and the shortcut that got it wrong are both shown, which teaches more than a correct answer alone.
 
-      -
+-
 **Mark the program the way an examiner would** For Section B, the class marks a program part by part: the class and method structure, input, the logic, output in the format the question asked, and the variable description. A program that runs can still lose marks; students see exactly where.
 
-      -
+-
 **Live doubts before moving on** Any student can stop the class with a doubt and it is settled on the shared screen there and then. A doubt that surfaced during home practice goes to the top of the next Tuesday or Wednesday session, and with two sessions a week it never sits for long.
 
 ## Two Section A questions, answered by guessing and by tracing
 
-      (i) Give the output: int a = 5, b = 2; int c = a++ * 2 + --b; System.out.println(c + " " + a + b); (ii) How many times does for (int i = 10; i > 0; i -= 3) execute?
+(i) Give the output: int a = 5, b = 2; int c = a++ * 2 + --b; System.out.println(c + " " + a + b); (ii) How many times does for (int i = 10; i > 0; i -= 3) execute?
 
 ```
 (i)  a++ makes a = 6, so
@@ -103,40 +103,40 @@ updated: 2026-10-13
      Executes 4 times
 ```
 
-      Nothing here is advanced Java; it is the Class 9 revision unit, which is exactly why it decides grades.
-      Once the left operand of + is a String, every later + joins text, and a post-increment
-      hands over its old value before changing. Tuesday classes drill these shapes on fresh fragments until the
-      trace table is automatic. The full question bank by unit and shape is on
-      [the Computer Applications important questions page](/icse-class-10-computer-applications-important-questions),
-      and the Section B program families are practised on [ICSE Java programs practice](/icse-class-10-java-programs-practice).
+Nothing here is advanced Java; it is the Class 9 revision unit, which is exactly why it decides grades.
+Once the left operand of + is a String, every later + joins text, and a post-increment
+hands over its old value before changing. Tuesday classes drill these shapes on fresh fragments until the
+trace table is automatic. The full question bank by unit and shape is on
+[the Computer Applications important questions page](/icse-class-10-computer-applications-important-questions),
+and the Section B program families are practised on [ICSE Java programs practice](/icse-class-10-java-programs-practice).
 
 ## A second 100 marks, rehearsed with an examiner your child has not met
 
-      The internal assessment is worth as much as the written paper on the mark sheet: at least twenty laboratory assignments across the year, half the marks from the subject teacher and half from an external examiner.
+The internal assessment is worth as much as the written paper on the mark sheet: at least twenty laboratory assignments across the year, half the marks from the subject teacher and half from an external examiner.
 
 ### The BlueJ practical mock
 
-        From October, every month, students face a program they have never seen, written in BlueJ against a timer: a menu-driven program with a switch, a search or sort on an array, a string program that counts or rebuilds words, an overloaded method set, or a special-number check. The program is run, the output checked against the question, and the student explains the logic aloud.
+From October, every month, students face a program they have never seen, written in BlueJ against a timer: a menu-driven program with a switch, a search or sort on an array, a string program that counts or rebuilds words, an overloaded method set, or a special-number check. The program is run, the output checked against the question, and the student explains the logic aloud.
 
-        The marking follows an examiner's eye: does it compile and run, does the output match the format asked, is there a variable description, can the student say why each loop and condition is there. An unexplained program is treated as half a program.
+The marking follows an examiner's eye: does it compile and run, does the output match the format asked, is there a variable description, can the student say why each loop and condition is there. An unexplained program is treated as half a program.
 
 ### The examiner rehearsal
 
-        CISCE's rules let the school nominate as external examiner a teacher who does not teach the subject to that class. So before the school's assessment, a teacher the student has not worked with reviews the lab file and questions the student on it. Typical questions:
+CISCE's rules let the school nominate as external examiner a teacher who does not teach the subject to that class. So before the school's assessment, a teacher the student has not worked with reviews the lab file and questions the student on it. Typical questions:
 
-          - Why is this variable private, and how does the class reach it?
+- Why is this variable private, and how does the class reach it?
 
-          - What is the difference between your constructor and this method?
+- What is the difference between your constructor and this method?
 
-          - Why did you use binary search here, and what must be true of the array?
+- Why did you use binary search here, and what must be true of the array?
 
-          - What does charAt return, and what happens past the last index?
+- What does charAt return, and what happens past the last index?
 
-          - Which of your programs would you write differently now, and why?
+- Which of your programs would you write differently now, and why?
 
-      The full plan for the twenty assignments, with CISCE's four marking criteria and ideas that fit the syllabus, is on
-      [the project and internal assessment page](/icse-class-10-computer-applications-project-and-internal-assessment).
-      BlueJ itself, set up and used properly from the first class, is covered on [ICSE BlueJ Java coaching](/icse-class-10-bluej-java-coaching).
+The full plan for the twenty assignments, with CISCE's four marking criteria and ideas that fit the syllabus, is on
+[the project and internal assessment page](/icse-class-10-computer-applications-project-and-internal-assessment).
+BlueJ itself, set up and used properly from the first class, is covered on [ICSE BlueJ Java coaching](/icse-class-10-bluej-java-coaching).
 
 ## Live doubts with the code on screen
 
@@ -165,13 +165,13 @@ Option 1, fixed batch (for families in India): Tuesday at 5:30 PM and Wednesday 
 
 - Where you live | Time difference | Usual class window, local time | Format
 
-          - India (IST)every Indian city | IST | Tue 5:30 PM, Wed 8:00 PM | Mini batch or 1-on-1
+- India (IST)every Indian city | IST | Tue 5:30 PM, Wed 8:00 PM | Mini batch or 1-on-1
 
-          - United Arab EmiratesDubai, Sharjah | 1 h 30 min behind India | 3:00 PM to 9:00 PM | Personalised 1-on-1
+- United Arab EmiratesDubai, Sharjah | 1 h 30 min behind India | 3:00 PM to 9:00 PM | Personalised 1-on-1
 
-          - Indonesia and ThailandWest Java, Bangkok area | 1 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
+- Indonesia and ThailandWest Java, Bangkok area | 1 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
 
-          - SingaporeSingapore | 2 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
+- SingaporeSingapore | 2 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
 
 ## Frequently asked questions
 
@@ -197,7 +197,17 @@ Option 1, fixed batch (for families in India): Tuesday at 5:30 PM and Wednesday 
 
 Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 students. Contact: connect@modernagecoders.com, +91 91233 66161 (call or WhatsApp).
 
-Related pages: /cbse-class-10-ai-classes-online, /cbse-class-10-ai-syllabus-explained, /python-for-cbse-class-10-ai, /cbse-class-10-ai-board-exam-preparation, /cbse-class-10-ai-project-and-practical-file, /cbse-class-10-ai-exam-date-and-paper-pattern, /cbse-class-10-ai-sample-paper-and-mock-tests, /cbse-class-10-ai-important-questions, /cbse-class-10-ai-employability-skills-part-a, /cbse-class-10-ai-online-classes-gulf-and-abroad, /icse-class-10-java-classes-online, /icse-class-10-computer-applications-syllabus-explained, /icse-class-10-java-programs-practice, /icse-class-10-bluej-java-coaching, /icse-class-10-computer-applications-board-exam-preparation, /icse-class-10-computer-applications-exam-date-and-paper-pattern, /icse-class-10-computer-applications-important-questions, /icse-class-10-computer-applications-project-and-internal-assessment, /icse-class-10-computer-applications-classes-gulf-and-abroad.
+## More pages in this series
+
+**Classes, tuition and batches:** [The Tue and Wed ICSE Java batch](/icse-class-10-java-classes-online), [ICSE Java classes in the Gulf and abroad](/icse-class-10-computer-applications-classes-gulf-and-abroad), [ICSE BlueJ Java coaching](/icse-class-10-bluej-java-coaching).
+
+**Chapter by chapter:** [ICSE Computer Applications syllabus](/icse-class-10-computer-applications-syllabus-explained).
+
+**Programs for Section B:** [ICSE Java programs practice](/icse-class-10-java-programs-practice).
+
+**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Predict the output questions](/icse-class-10-java-output-questions).
+
+**Exam, marks and internal assessment:** [ICSE board exam preparation](/icse-class-10-computer-applications-board-exam-preparation), [Exam date 2027 and paper pattern](/icse-class-10-computer-applications-exam-date-and-paper-pattern), [Project and internal assessment](/icse-class-10-computer-applications-project-and-internal-assessment).
 
 ---
 

@@ -75,6 +75,88 @@
 .bx-root.bx-cgl { --bx-accent: #1F4F66; --bx-accent-soft: rgba(31,79,102,.09); }
 .bx-root.bx-ixd { --bx-accent: #7E2E3E; --bx-accent-soft: rgba(126,46,62,.09); }
 .bx-root.bx-isq { --bx-accent: #8A3326; --bx-accent-soft: rgba(138,51,38,.09); }
+/* wave 3 accents (2026-11-06), generated from scripts/board-prep/series.json */
+.bx-root.bx-cb01 { --bx-accent: #2E5266; --bx-accent-soft: rgba(46,82,102,.09); }
+.bx-root.bx-cb02 { --bx-accent: #2F5D50; --bx-accent-soft: rgba(47,93,80,.09); }
+.bx-root.bx-cb03 { --bx-accent: #73304A; --bx-accent-soft: rgba(115,48,74,.09); }
+.bx-root.bx-cb04 { --bx-accent: #5A4A2E; --bx-accent-soft: rgba(90,74,46,.09); }
+.bx-root.bx-cb05 { --bx-accent: #3E4B2C; --bx-accent-soft: rgba(62,75,44,.09); }
+.bx-root.bx-cb06 { --bx-accent: #4A3F6B; --bx-accent-soft: rgba(74,63,107,.09); }
+.bx-root.bx-cb07 { --bx-accent: #1E4A8C; --bx-accent-soft: rgba(30,74,140,.09); }
+.bx-root.bx-cb08 { --bx-accent: #6B3A2A; --bx-accent-soft: rgba(107,58,42,.09); }
+.bx-root.bx-cb09 { --bx-accent: #2E5566; --bx-accent-soft: rgba(46,85,102,.09); }
+.bx-root.bx-cb10 { --bx-accent: #5B2347; --bx-accent-soft: rgba(91,35,71,.09); }
+.bx-root.bx-cb11 { --bx-accent: #3D5A3A; --bx-accent-soft: rgba(61,90,58,.09); }
+.bx-root.bx-cb12 { --bx-accent: #4F4A6E; --bx-accent-soft: rgba(79,74,110,.09); }
+.bx-root.bx-cb13 { --bx-accent: #7A4A1E; --bx-accent-soft: rgba(122,74,30,.09); }
+.bx-root.bx-cb14 { --bx-accent: #24485E; --bx-accent-soft: rgba(36,72,94,.09); }
+.bx-root.bx-cb15 { --bx-accent: #5E3A55; --bx-accent-soft: rgba(94,58,85,.09); }
+.bx-root.bx-cb16 { --bx-accent: #3B5B4B; --bx-accent-soft: rgba(59,91,75,.09); }
+.bx-root.bx-cb17 { --bx-accent: #334E7A; --bx-accent-soft: rgba(51,78,122,.09); }
+.bx-root.bx-cb18 { --bx-accent: #2F5D50; --bx-accent-soft: rgba(47,93,80,.09); }
+.bx-root.bx-cb19 { --bx-accent: #73304A; --bx-accent-soft: rgba(115,48,74,.09); }
+.bx-root.bx-cb20 { --bx-accent: #5A4A2E; --bx-accent-soft: rgba(90,74,46,.09); }
+.bx-root.bx-cb21 { --bx-accent: #3E4B2C; --bx-accent-soft: rgba(62,75,44,.09); }
+.bx-root.bx-cb22 { --bx-accent: #4A3F6B; --bx-accent-soft: rgba(74,63,107,.09); }
+.bx-root.bx-cb23 { --bx-accent: #1E4A8C; --bx-accent-soft: rgba(30,74,140,.09); }
+.bx-root.bx-cb24 { --bx-accent: #6B3A2A; --bx-accent-soft: rgba(107,58,42,.09); }
+.bx-root.bx-cb25 { --bx-accent: #2E5566; --bx-accent-soft: rgba(46,85,102,.09); }
+.bx-root.bx-cb26 { --bx-accent: #5B2347; --bx-accent-soft: rgba(91,35,71,.09); }
+.bx-root.bx-cb27 { --bx-accent: #3D5A3A; --bx-accent-soft: rgba(61,90,58,.09); }
+.bx-root.bx-cb28 { --bx-accent: #4F4A6E; --bx-accent-soft: rgba(79,74,110,.09); }
+.bx-root.bx-cb29 { --bx-accent: #7A4A1E; --bx-accent-soft: rgba(122,74,30,.09); }
+.bx-root.bx-cb30 { --bx-accent: #24485E; --bx-accent-soft: rgba(36,72,94,.09); }
+.bx-root.bx-cb31 { --bx-accent: #5E3A55; --bx-accent-soft: rgba(94,58,85,.09); }
+.bx-root.bx-cb32 { --bx-accent: #3B5B4B; --bx-accent-soft: rgba(59,91,75,.09); }
+.bx-root.bx-cb33 { --bx-accent: #334E7A; --bx-accent-soft: rgba(51,78,122,.09); }
+.bx-root.bx-cb34 { --bx-accent: #2F5D50; --bx-accent-soft: rgba(47,93,80,.09); }
+.bx-root.bx-cb35 { --bx-accent: #73304A; --bx-accent-soft: rgba(115,48,74,.09); }
+.bx-root.bx-cb36 { --bx-accent: #5A4A2E; --bx-accent-soft: rgba(90,74,46,.09); }
+.bx-root.bx-cb37 { --bx-accent: #3E4B2C; --bx-accent-soft: rgba(62,75,44,.09); }
+.bx-root.bx-cb38 { --bx-accent: #4A3F6B; --bx-accent-soft: rgba(74,63,107,.09); }
+.bx-root.bx-cb39 { --bx-accent: #1E4A8C; --bx-accent-soft: rgba(30,74,140,.09); }
+.bx-root.bx-cb40 { --bx-accent: #6B3A2A; --bx-accent-soft: rgba(107,58,42,.09); }
+.bx-root.bx-ic01 { --bx-accent: #2E5566; --bx-accent-soft: rgba(46,85,102,.09); }
+.bx-root.bx-ic02 { --bx-accent: #3E4B2C; --bx-accent-soft: rgba(62,75,44,.09); }
+.bx-root.bx-ic03 { --bx-accent: #3D5A3A; --bx-accent-soft: rgba(61,90,58,.09); }
+.bx-root.bx-ic04 { --bx-accent: #4F4A6E; --bx-accent-soft: rgba(79,74,110,.09); }
+.bx-root.bx-ic05 { --bx-accent: #7A4A1E; --bx-accent-soft: rgba(122,74,30,.09); }
+.bx-root.bx-ic06 { --bx-accent: #24485E; --bx-accent-soft: rgba(36,72,94,.09); }
+.bx-root.bx-ic07 { --bx-accent: #5E3A55; --bx-accent-soft: rgba(94,58,85,.09); }
+.bx-root.bx-ic08 { --bx-accent: #3B5B4B; --bx-accent-soft: rgba(59,91,75,.09); }
+.bx-root.bx-ic09 { --bx-accent: #334E7A; --bx-accent-soft: rgba(51,78,122,.09); }
+.bx-root.bx-ic10 { --bx-accent: #2F5D50; --bx-accent-soft: rgba(47,93,80,.09); }
+.bx-root.bx-ic11 { --bx-accent: #73304A; --bx-accent-soft: rgba(115,48,74,.09); }
+.bx-root.bx-ic12 { --bx-accent: #5A4A2E; --bx-accent-soft: rgba(90,74,46,.09); }
+.bx-root.bx-ic13 { --bx-accent: #3E4B2C; --bx-accent-soft: rgba(62,75,44,.09); }
+.bx-root.bx-ic14 { --bx-accent: #4A3F6B; --bx-accent-soft: rgba(74,63,107,.09); }
+.bx-root.bx-ic15 { --bx-accent: #1E4A8C; --bx-accent-soft: rgba(30,74,140,.09); }
+.bx-root.bx-ic16 { --bx-accent: #6B3A2A; --bx-accent-soft: rgba(107,58,42,.09); }
+.bx-root.bx-ic17 { --bx-accent: #2E5566; --bx-accent-soft: rgba(46,85,102,.09); }
+.bx-root.bx-ic18 { --bx-accent: #5B2347; --bx-accent-soft: rgba(91,35,71,.09); }
+.bx-root.bx-ic19 { --bx-accent: #3D5A3A; --bx-accent-soft: rgba(61,90,58,.09); }
+.bx-root.bx-ic20 { --bx-accent: #4F4A6E; --bx-accent-soft: rgba(79,74,110,.09); }
+.bx-root.bx-ic21 { --bx-accent: #7A4A1E; --bx-accent-soft: rgba(122,74,30,.09); }
+.bx-root.bx-ic22 { --bx-accent: #24485E; --bx-accent-soft: rgba(36,72,94,.09); }
+.bx-root.bx-ic23 { --bx-accent: #5E3A55; --bx-accent-soft: rgba(94,58,85,.09); }
+.bx-root.bx-ic24 { --bx-accent: #3B5B4B; --bx-accent-soft: rgba(59,91,75,.09); }
+.bx-root.bx-ic25 { --bx-accent: #334E7A; --bx-accent-soft: rgba(51,78,122,.09); }
+.bx-root.bx-ic26 { --bx-accent: #2F5D50; --bx-accent-soft: rgba(47,93,80,.09); }
+.bx-root.bx-ic27 { --bx-accent: #73304A; --bx-accent-soft: rgba(115,48,74,.09); }
+.bx-root.bx-ic28 { --bx-accent: #5A4A2E; --bx-accent-soft: rgba(90,74,46,.09); }
+.bx-root.bx-ic29 { --bx-accent: #3E4B2C; --bx-accent-soft: rgba(62,75,44,.09); }
+.bx-root.bx-ic30 { --bx-accent: #4A3F6B; --bx-accent-soft: rgba(74,63,107,.09); }
+.bx-root.bx-ic31 { --bx-accent: #1E4A8C; --bx-accent-soft: rgba(30,74,140,.09); }
+.bx-root.bx-ic32 { --bx-accent: #6B3A2A; --bx-accent-soft: rgba(107,58,42,.09); }
+.bx-root.bx-ic33 { --bx-accent: #2E5566; --bx-accent-soft: rgba(46,85,102,.09); }
+.bx-root.bx-ic34 { --bx-accent: #5B2347; --bx-accent-soft: rgba(91,35,71,.09); }
+.bx-root.bx-ic35 { --bx-accent: #3D5A3A; --bx-accent-soft: rgba(61,90,58,.09); }
+.bx-root.bx-ic36 { --bx-accent: #4F4A6E; --bx-accent-soft: rgba(79,74,110,.09); }
+.bx-root.bx-ic37 { --bx-accent: #7A4A1E; --bx-accent-soft: rgba(122,74,30,.09); }
+.bx-root.bx-ic38 { --bx-accent: #24485E; --bx-accent-soft: rgba(36,72,94,.09); }
+.bx-root.bx-ic39 { --bx-accent: #5E3A55; --bx-accent-soft: rgba(94,58,85,.09); }
+.bx-root.bx-ic40 { --bx-accent: #3B5B4B; --bx-accent-soft: rgba(59,91,75,.09); }
+/* end wave 3 accents */
 .bx-root.bx-iiq { --bx-accent: #73304A; --bx-accent-soft: rgba(115,48,74,.09); }
 .bx-root.bx-ipj { --bx-accent: #6A3A2A; --bx-accent-soft: rgba(106,58,42,.09); }
 .bx-root.bx-igl { --bx-accent: #5E2F4E; --bx-accent-soft: rgba(94,47,78,.09); }
@@ -342,6 +424,19 @@
 .bx-sib:hover { border-color: var(--bx-accent); }
 .bx-sib-n { font-weight: 600; color: var(--bx-ink); }
 .bx-sib-m { font-family: var(--bx-mono); font-size: 0.75rem; color: var(--bx-muted); }
+/* code samples: ligatures off so <=, != and /= read literally on output pages */
+.bx-root code, .bx-root pre { font-variant-ligatures: none; }
+/* grouped related block (2026-11-06): every page of the board, in groups */
+.bx-siblings:has(.bx-sibgroup) { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px 36px; align-items: start; }
+.bx-sibgroup h3 { font-family: var(--bx-mono); font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--bx-accent); margin: 0 0 10px; padding-bottom: 8px; border-bottom: 1px solid var(--bx-rule); }
+.bx-sibgroup ul { list-style: none; padding: 0; margin: 0; }
+.bx-sibgroup li { margin: 0; }
+.bx-root .bx-sibgroup a { display: block; padding: 7px 0; min-height: 24px; color: var(--bx-ink); text-decoration: none; font-size: .95rem; line-height: 1.35; }
+.bx-root .bx-sibgroup a:hover { color: var(--bx-accent); text-decoration: underline; }
+.bx-sib-other { grid-column: 1 / -1; margin: 6px 0 0; padding-top: 16px; border-top: 1px solid var(--bx-rule); font-size: .95rem; color: var(--bx-ink-2); }
+.bx-root .bx-sib-other a { color: var(--bx-ink); }
+@media (max-width: 900px) { .bx-siblings:has(.bx-sibgroup) { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .bx-siblings:has(.bx-sibgroup) { grid-template-columns: 1fr; gap: 22px; } }
 
 /* --------------------------------------------------------------- footer */
 .bx-footer { background: var(--bx-ink); color: var(--bx-paper); padding: 56px 0 28px; }

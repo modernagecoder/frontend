@@ -10,27 +10,27 @@ updated: 2026-10-13
 
 ## Two private live classes a week, at a time that suits your city
 
-      Outside India, ICSE Computer Applications is taught one to one. Your child has the teacher's full attention for every class, and the timetable follows your school, not ours.
+Outside India, ICSE Computer Applications is taught one to one. Your child has the teacher's full attention for every class, and the timetable follows your school, not ours.
 
 ### Setting the time
 
-        After the free demo, the mentor offers slots in your local time. Most families abroad choose two weekday evenings, between the end of school and 9 PM: from 3:00 PM in Dubai and Sharjah, and from 3:30 PM in Singapore, West Java and the Bangkok area. A weekend slot is possible if weekday evenings are crowded with other tuition.
+After the free demo, the mentor offers slots in your local time. Most families abroad choose two weekday evenings, between the end of school and 9 PM: from 3:00 PM in Dubai and Sharjah, and from 3:30 PM in Singapore, West Java and the Bangkok area. A weekend slot is possible if weekday evenings are crowded with other tuition.
 
-        The slots are not fixed for the whole year. During your school's exam weeks or holidays, classes can move, pause or increase. Schools abroad set their own holidays and exam weeks, and a one to one timetable can follow them.
+The slots are not fixed for the whole year. During your school's exam weeks or holidays, classes can move, pause or increase. Schools abroad set their own holidays and exam weeks, and a one to one timetable can follow them.
 
 ### What each week covers
 
-          - Class one: a Class 10 unit taught, then Section A shapes practised: outputs traced, loops counted, errors found.
+- Class one: a Class 10 unit taught, then Section A shapes practised: outputs traced, loops counted, errors found.
 
-          - Class two: one Section B program family written in BlueJ, marked like the board, then added to the lab file with its variable description.
+- Class two: one Section B program family written in BlueJ, marked like the board, then added to the lab file with its variable description.
 
-          - Every class: doubts from homework first, with your child's BlueJ window shared and the code read line by line.
+- Every class: doubts from homework first, with your child's BlueJ window shared and the code read line by line.
 
-          - From December: the CISCE specimen solved, then full two-hour papers timed around your school's prelims.
+- From December: the CISCE specimen solved, then full two-hour papers timed around your school's prelims.
 
 ## Seven ICSE schools abroad, in four countries
 
-      CISCE's school locator, checked on 13 October 2026, lists ICSE-affiliated schools outside India in only four countries. Their students sit the same Computer Applications syllabus and examination pattern as students in India.
+CISCE's school locator, checked on 13 October 2026, lists ICSE-affiliated schools outside India in only four countries. Their students sit the same Computer Applications syllabus and examination pattern as students in India.
 
 ### United Arab Emirates: Dubai and Sharjah
 Four schools: three in Dubai and one in Sharjah, the largest group of ICSE schools outside India. UAE time is an hour and a half behind India, so a 5:30 PM class in Dubai is 7:00 PM in India.
@@ -44,30 +44,30 @@ One ICSE school, in West Java, on Western Indonesia Time, an hour and a half ahe
 ### Thailand: Samut Prakan, near Bangkok
 One ICSE school, on Thailand's time zone, which is also an hour and a half ahead of India. CISCE's regulations let Thai schools offer a Thailand version of History, Civics and Geography; Computer Applications is the same paper as everywhere else.
 
-      School numbers are from the CISCE locator on the date shown and change as schools affiliate. Neither the UK
-      nor the US has ICSE schools, so they are not listed.
+School numbers are from the CISCE locator on the date shown and change as schools affiliate. Neither the UK
+nor the US has ICSE schools, so they are not listed.
 
 ## The same syllabus, the same internal assessment rules, the same timetable
 
 ### What does not change abroad
 
-          - The 2027 syllabus: Class 9 revision, classes and objects, user-defined methods, constructors, library classes, encapsulation, arrays and string handling. No recursion.
+- The 2027 syllabus: Class 9 revision, classes and objects, user-defined methods, constructors, library classes, encapsulation, arrays and string handling. No recursion.
 
-          - The written paper: 100 marks in two hours after 15 minutes of reading; Section A 40 compulsory marks, and four of six Section B programs at 15 each.
+- The written paper: 100 marks in two hours after 15 minutes of reading; Section A 40 compulsory marks, and four of six Section B programs at 15 each.
 
-          - The internal assessment: 100 marks on at least twenty lab assignments, half from the subject teacher and half from an external examiner.
+- The internal assessment: 100 marks on at least twenty lab assignments, half from the subject teacher and half from an external examiner.
 
-          - The ICSE timetable: one CISCE timetable for all schools. No 2027 timetable had appeared by 13 October 2026; the previous one arrived on 13 November 2025.
+- The ICSE timetable: one CISCE timetable for all schools. No 2027 timetable had appeared by 13 October 2026; the previous one arrived on 13 November 2025.
 
 ### What your school decides
 
-        Your school sets the internal assessment dates and nominates the external examiner, who can be a teacher from the same school as long as they do not teach Computer Applications to your child's class. Whoever it is, the lab file has to make sense to a reader who has not watched it being written.
+Your school sets the internal assessment dates and nominates the external examiner, who can be a teacher from the same school as long as they do not teach Computer Applications to your child's class. Whoever it is, the lab file has to make sense to a reader who has not watched it being written.
 
-        Your school also sets its prelim dates, which may not match those of schools in India. In one to one, the full mock papers are timed around them. Paper structure and the season's key dates are set out on [ICSE Computer Applications exam date and paper pattern](/icse-class-10-computer-applications-exam-date-and-paper-pattern).
+Your school also sets its prelim dates, which may not match those of schools in India. In one to one, the full mock papers are timed around them. Paper structure and the season's key dates are set out on [ICSE Computer Applications exam date and paper pattern](/icse-class-10-computer-applications-exam-date-and-paper-pattern).
 
 ## Because the ICSE batch is timed for India, and your school's calendar is not India's
 
-      Our ICSE mini batch meets on Tuesday at 5:30 PM and Wednesday at 8 PM in India. For a family in Singapore that is 8:00 PM and 10:30 PM, far too late for a Class 10 student with school the next morning. Across the four countries with ICSE schools, no single pair of slots would suit everyone.
+Our ICSE mini batch meets on Tuesday at 5:30 PM and Wednesday at 8 PM in India. For a family in Singapore that is 8:00 PM and 10:30 PM, far too late for a Class 10 student with school the next morning. Across the four countries with ICSE schools, no single pair of slots would suit everyone.
 
 ### A timetable that follows your school
 Schools abroad set their own terms, holidays and prelims. A private timetable can pause for exam week, add a class before a lab file deadline, or move with a new term, without waiting for a group.
@@ -78,25 +78,25 @@ Every minute goes on your child's own programs and doubts. The teacher can see w
 ### The same teachers and plan
 The teachers, the syllabus order, the lab file plan, the specimen and the full mock papers are the same as for the Indian mini batch. Only the format changes, from up to six students to one.
 
-      Each class is live on video with a shared BlueJ screen. In the first week the teacher helps your child set up BlueJ
-      at home, so the environment matches what the school lab uses. To see how the course runs week by week in India,
-      read about [the ICSE Class 10 Java classes](/icse-class-10-java-classes-online).
+Each class is live on video with a shared BlueJ screen. In the first week the teacher helps your child set up BlueJ
+at home, so the environment matches what the school lab uses. To see how the course runs week by week in India,
+read about [the ICSE Class 10 Java classes](/icse-class-10-java-classes-online).
 
 ## From the first class to the paper
 
-      -
+-
 **First fortnight: a diagnostic** A short Section A set and one Section B program show which units are secure and which leak marks. The plan for the year is built from that, unit by unit, with the lab file plan alongside it.
 
-      -
+-
 **Through the autumn: units and lab programs** Class 10 units are taught in syllabus order, arrays and strings with the most time, and the lab file grows by a program a week. Each one is documented with comments, a variable description and its real output, and marked against CISCE's four criteria.
 
-      -
+-
 **Before the school's assessment: an examiner rehearsal** A teacher your child has not worked with reviews the lab file and asks about it, so your child gets used to explaining their own code to a stranger before the school's examiner sees it.
 
-      -
+-
 **Winter: the specimen and full papers** The CISCE specimen is solved, then three full two-hour papers are written at home under exam conditions, each with fifteen minutes of reading first. They are reviewed in the next private class, with every lost mark rewritten. The series is described on [the specimen paper and mock tests page](/icse-class-10-computer-applications-specimen-paper-and-mock-tests).
 
-      -
+-
 **Throughout: progress reports** After the diagnostic, when the lab file passes twenty programs and after each full paper, parents get a short progress report. Parents abroad may never meet the teacher in person, so the report is their clearest view of how the year is going.
 
 ## Judge the teaching on a real lesson, then decide month by month
@@ -126,13 +126,13 @@ Option 1, fixed batch (for families in India): Tuesday at 5:30 PM and Wednesday 
 
 - Where you live | Time difference | Usual class window, local time | Format
 
-          - India (IST)every Indian city | IST | Tue 5:30 PM, Wed 8:00 PM | Mini batch or 1-on-1
+- India (IST)every Indian city | IST | Tue 5:30 PM, Wed 8:00 PM | Mini batch or 1-on-1
 
-          - United Arab EmiratesDubai, Sharjah | 1 h 30 min behind India | 3:00 PM to 9:00 PM | Personalised 1-on-1
+- United Arab EmiratesDubai, Sharjah | 1 h 30 min behind India | 3:00 PM to 9:00 PM | Personalised 1-on-1
 
-          - Indonesia and ThailandWest Java, Bangkok area | 1 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
+- Indonesia and ThailandWest Java, Bangkok area | 1 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
 
-          - SingaporeSingapore | 2 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
+- SingaporeSingapore | 2 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
 
 ## Frequently asked questions
 
@@ -158,7 +158,17 @@ Option 1, fixed batch (for families in India): Tuesday at 5:30 PM and Wednesday 
 
 Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 students. Contact: connect@modernagecoders.com, +91 91233 66161 (call or WhatsApp).
 
-Related pages: /cbse-class-10-ai-classes-online, /cbse-class-10-ai-syllabus-explained, /python-for-cbse-class-10-ai, /cbse-class-10-ai-board-exam-preparation, /cbse-class-10-ai-project-and-practical-file, /cbse-class-10-ai-exam-date-and-paper-pattern, /cbse-class-10-ai-sample-paper-and-mock-tests, /cbse-class-10-ai-important-questions, /cbse-class-10-ai-employability-skills-part-a, /cbse-class-10-ai-online-classes-gulf-and-abroad, /icse-class-10-java-classes-online, /icse-class-10-computer-applications-syllabus-explained, /icse-class-10-java-programs-practice, /icse-class-10-bluej-java-coaching, /icse-class-10-computer-applications-board-exam-preparation, /icse-class-10-computer-applications-exam-date-and-paper-pattern, /icse-class-10-computer-applications-specimen-paper-and-mock-tests, /icse-class-10-computer-applications-important-questions, /icse-class-10-computer-applications-project-and-internal-assessment.
+## More pages in this series
+
+**Classes, tuition and batches:** [The Tue and Wed ICSE Java batch](/icse-class-10-java-classes-online), [ICSE BlueJ Java coaching](/icse-class-10-bluej-java-coaching).
+
+**Chapter by chapter:** [ICSE Computer Applications syllabus](/icse-class-10-computer-applications-syllabus-explained).
+
+**Programs for Section B:** [ICSE Java programs practice](/icse-class-10-java-programs-practice).
+
+**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Predict the output questions](/icse-class-10-java-output-questions).
+
+**Exam, marks and internal assessment:** [ICSE board exam preparation](/icse-class-10-computer-applications-board-exam-preparation), [Exam date 2027 and paper pattern](/icse-class-10-computer-applications-exam-date-and-paper-pattern), [Project and internal assessment](/icse-class-10-computer-applications-project-and-internal-assessment).
 
 ---
 

@@ -84,6 +84,13 @@ const LLMS_LABELS = {
   'icse-class-10-computer-applications-classes-gulf-and-abroad': 'ICSE Class 10 Computer Applications (Java) classes for students abroad'
 };
 
+// Wave 3 (2026-11-06) and later: every page in scripts/board-prep/series.json
+// is wired here too, labelled from its registry entry.
+for (const p of require('./board-prep/series.js').PAGES) {
+  if (!SLUGS.includes(p.slug)) SLUGS.push(p.slug);
+  if (!LLMS_LABELS[p.slug]) LLMS_LABELS[p.slug] = (p.board === 'cbse' ? 'CBSE Class 10 AI (417): ' : 'ICSE Class 10 Computer Applications: ') + p.label;
+}
+
 function read(f) { return fs.readFileSync(path.join(ROOT, f), 'utf8'); }
 function write(f, s) { fs.writeFileSync(path.join(ROOT, f), s, 'utf8'); }
 function exists(f) { return fs.existsSync(path.join(ROOT, f)); }

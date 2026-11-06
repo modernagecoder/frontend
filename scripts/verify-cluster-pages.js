@@ -46,6 +46,12 @@ const GEN = path.join(ROOT, 'content/courses/generated');
 // body class may carry, and the URL shape of its own siblings. Adding a cluster
 // is a data edit, not a code edit.
 // ---------------------------------------------------------------------------
+// Class 10 board prep: every slug and page code in scripts/board-prep/series.json
+// joins the board-prep gate, so a new wave needs no edit here (2026-11-06).
+const BX_SERIES = require('./board-prep/series.js');
+const BX_ALT = BX_SERIES.slugAlternation();
+const BX_CODES = BX_SERIES.PAGES.filter(p => p.code).map(p => p.code);
+
 const CLUSTERS = {
   'build-ai': {
     label: 'Build-AI cluster',
@@ -72,11 +78,11 @@ const CLUSTERS = {
   // Computer Applications (Java) pages on board-prep.css, "The Answer Sheet".
   'board-prep': {
     label: 'Class 10 board-prep cluster',
-    fileRe: /^(cbse-class-10-ai-classes-online|cbse-class-10-ai-syllabus-explained|python-for-cbse-class-10-ai|cbse-class-10-ai-board-exam-preparation|cbse-class-10-ai-project-and-practical-file|icse-class-10-java-classes-online|icse-class-10-computer-applications-syllabus-explained|icse-class-10-java-programs-practice|icse-class-10-bluej-java-coaching|icse-class-10-computer-applications-board-exam-preparation|cbse-class-10-ai-exam-date-and-paper-pattern|cbse-class-10-ai-sample-paper-and-mock-tests|cbse-class-10-ai-important-questions|cbse-class-10-ai-employability-skills-part-a|cbse-class-10-ai-online-classes-gulf-and-abroad|icse-class-10-computer-applications-exam-date-and-paper-pattern|icse-class-10-computer-applications-specimen-paper-and-mock-tests|icse-class-10-computer-applications-important-questions|icse-class-10-computer-applications-project-and-internal-assessment|icse-class-10-computer-applications-classes-gulf-and-abroad|sof-imo-preparation|sof-icso-preparation|cemc-waterloo-contests-preparation|ioqm-rmo-inmo-preparation|indian-computing-olympiad-preparation|math-kangaroo-usa-preparation|mathcounts-preparation|australian-maths-trust-amc-aio-cat-preparation|maths-olympiad-classes-online|cbse-icse-maths-tuition-online).html$/,
+    fileRe: new RegExp('^(' + BX_ALT + '|' + 'cbse-class-10-ai-classes-online|cbse-class-10-ai-syllabus-explained|python-for-cbse-class-10-ai|cbse-class-10-ai-board-exam-preparation|cbse-class-10-ai-project-and-practical-file|icse-class-10-java-classes-online|icse-class-10-computer-applications-syllabus-explained|icse-class-10-java-programs-practice|icse-class-10-bluej-java-coaching|icse-class-10-computer-applications-board-exam-preparation|cbse-class-10-ai-exam-date-and-paper-pattern|cbse-class-10-ai-sample-paper-and-mock-tests|cbse-class-10-ai-important-questions|cbse-class-10-ai-employability-skills-part-a|cbse-class-10-ai-online-classes-gulf-and-abroad|icse-class-10-computer-applications-exam-date-and-paper-pattern|icse-class-10-computer-applications-specimen-paper-and-mock-tests|icse-class-10-computer-applications-important-questions|icse-class-10-computer-applications-project-and-internal-assessment|icse-class-10-computer-applications-classes-gulf-and-abroad|sof-imo-preparation|sof-icso-preparation|cemc-waterloo-contests-preparation|ioqm-rmo-inmo-preparation|indian-computing-olympiad-preparation|math-kangaroo-usa-preparation|mathcounts-preparation|australian-maths-trust-amc-aio-cat-preparation|maths-olympiad-classes-online|cbse-icse-maths-tuition-online' + ')\\.html$'),
     css: 'src/css/board-prep.css',
     prefix: 'bx',
-    markets: ['cai', 'csy', 'cpy', 'cbe', 'cpf', 'ijv', 'isy', 'ipr', 'ibj', 'ibe', 'sim', 'sic', 'cem', 'ioq', 'ico', 'mku', 'mtc', 'amt', 'moc', 'cim', 'cxd', 'csq', 'ciq', 'cpa', 'cgl', 'ixd', 'isq', 'iiq', 'ipj', 'igl'],
-    siblingRe: /^\/(cbse-class-10-ai-classes-online|cbse-class-10-ai-syllabus-explained|python-for-cbse-class-10-ai|cbse-class-10-ai-board-exam-preparation|cbse-class-10-ai-project-and-practical-file|icse-class-10-java-classes-online|icse-class-10-computer-applications-syllabus-explained|icse-class-10-java-programs-practice|icse-class-10-bluej-java-coaching|icse-class-10-computer-applications-board-exam-preparation|cbse-class-10-ai-exam-date-and-paper-pattern|cbse-class-10-ai-sample-paper-and-mock-tests|cbse-class-10-ai-important-questions|cbse-class-10-ai-employability-skills-part-a|cbse-class-10-ai-online-classes-gulf-and-abroad|icse-class-10-computer-applications-exam-date-and-paper-pattern|icse-class-10-computer-applications-specimen-paper-and-mock-tests|icse-class-10-computer-applications-important-questions|icse-class-10-computer-applications-project-and-internal-assessment|icse-class-10-computer-applications-classes-gulf-and-abroad|sof-imo-preparation|sof-icso-preparation|cemc-waterloo-contests-preparation|ioqm-rmo-inmo-preparation|indian-computing-olympiad-preparation|math-kangaroo-usa-preparation|mathcounts-preparation|australian-maths-trust-amc-aio-cat-preparation|maths-olympiad-classes-online|cbse-icse-maths-tuition-online)$/
+    markets: ['cai', 'csy', 'cpy', 'cbe', 'cpf', 'ijv', 'isy', 'ipr', 'ibj', 'ibe', 'sim', 'sic', 'cem', 'ioq', 'ico', 'mku', 'mtc', 'amt', 'moc', 'cim', 'cxd', 'csq', 'ciq', 'cpa', 'cgl', 'ixd', 'isq', 'iiq', 'ipj', 'igl'].concat(BX_CODES),
+    siblingRe: new RegExp('^\\/(' + BX_ALT + '|' + 'cbse-class-10-ai-classes-online|cbse-class-10-ai-syllabus-explained|python-for-cbse-class-10-ai|cbse-class-10-ai-board-exam-preparation|cbse-class-10-ai-project-and-practical-file|icse-class-10-java-classes-online|icse-class-10-computer-applications-syllabus-explained|icse-class-10-java-programs-practice|icse-class-10-bluej-java-coaching|icse-class-10-computer-applications-board-exam-preparation|cbse-class-10-ai-exam-date-and-paper-pattern|cbse-class-10-ai-sample-paper-and-mock-tests|cbse-class-10-ai-important-questions|cbse-class-10-ai-employability-skills-part-a|cbse-class-10-ai-online-classes-gulf-and-abroad|icse-class-10-computer-applications-exam-date-and-paper-pattern|icse-class-10-computer-applications-specimen-paper-and-mock-tests|icse-class-10-computer-applications-important-questions|icse-class-10-computer-applications-project-and-internal-assessment|icse-class-10-computer-applications-classes-gulf-and-abroad|sof-imo-preparation|sof-icso-preparation|cemc-waterloo-contests-preparation|ioqm-rmo-inmo-preparation|indian-computing-olympiad-preparation|math-kangaroo-usa-preparation|mathcounts-preparation|australian-maths-trust-amc-aio-cat-preparation|maths-olympiad-classes-online|cbse-icse-maths-tuition-online' + ')$')
   },
 
   // The international growth cluster. Six half-built markets plus fourteen
@@ -193,7 +199,7 @@ function loadAccents(cluster) {
   const css = fs.readFileSync(file, 'utf8');
   const p = cluster.prefix;
   const re = new RegExp(
-    '\\.' + p + '-root\\.(' + p + '-[a-z]+)\\s*\\{[^}]*--' + p + '-accent:\\s*(#[0-9A-Fa-f]{6})',
+    '\\.' + p + '-root\\.(' + p + '-[a-z0-9]+)\\s*\\{[^}]*--' + p + '-accent:\\s*(#[0-9A-Fa-f]{6})',
     'g'
   );
   for (const m of css.matchAll(re)) out[m[1]] = m[2];
@@ -231,7 +237,7 @@ for (const cluster of active) {
   const faqAnsRe = new RegExp('<div class="[^"]*\\b' + P + '-faq-item\\b[^"]*"[^>]*>[\\s\\S]*?<p>([\\s\\S]*?)<\\/p>', 'g');
   const rootRe = new RegExp('\\b' + P + '-root\\b');
   const marketRe = new RegExp('\\b' + P + '-(' + cluster.markets.join('|') + ')\\b');
-  const anyMarketRe = new RegExp('\\b' + P + '-(?!root)[a-z]+\\b');
+  const anyMarketRe = new RegExp('\\b' + P + '-(?!root\\b|has-)[a-z0-9]+\\b');
 
   if (!fs.existsSync(path.join(ROOT, cluster.css))) {
     console.log(`NOTE  stylesheet missing for ${cluster.name}: ${cluster.css}`);

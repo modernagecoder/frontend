@@ -10,28 +10,28 @@ updated: 2026-10-13
 
 ## On a school evening in the Gulf, with no clock changes to plan around
 
-      India, the UAE, Oman, Saudi Arabia, Qatar, Kuwait, Bahrain and Nepal do not use daylight saving time, so the class time does not move in spring or autumn. A time set in October still holds in February.
+India, the UAE, Oman, Saudi Arabia, Qatar, Kuwait, Bahrain and Nepal do not use daylight saving time, so the class time does not move in spring or autumn. A time set in October still holds in February.
 
-        - Where your child studies | Monday and Wednesday class | What that means
+- Where your child studies | Monday and Wednesday class | What that means
 
-          - Dubai, Abu Dhabi, Sharjah, Muscat | 7:30 PM | Home from school, homework done, class before dinner
+- Dubai, Abu Dhabi, Sharjah, Muscat | 7:30 PM | Home from school, homework done, class before dinner
 
-          - Riyadh, Jeddah, Dammam, Doha, Kuwait City, Manama | 6:30 PM | The earliest evening slot in the region, with the night free afterwards
+- Riyadh, Jeddah, Dammam, Doha, Kuwait City, Manama | 6:30 PM | The earliest evening slot in the region, with the night free afterwards
 
-          - Kathmandu | 9:15 PM | Late but workable for Class 10; many families pick one to one for an earlier hour
+- Kathmandu | 9:15 PM | Late but workable for Class 10; many families pick one to one for an earlier hour
 
-          - Addis Ababa and other cities on East Africa Time | 6:30 PM | Same evening slot as Saudi Arabia
+- Addis Ababa and other cities on East Africa Time | 6:30 PM | Same evening slot as Saudi Arabia
 
-          - Singapore, Kuala Lumpur | 11:30 PM | Too late on a school night: personalised one to one instead
+- Singapore, Kuala Lumpur | 11:30 PM | Too late on a school night: personalised one to one instead
 
-      Monday and Wednesday are ordinary school days in every Gulf country, whichever days the local weekend falls on,
-      so the class sits in a school-night routine rather than eating into the weekend.
-      In January, timed mock papers move to a weekend morning, written at home in exam conditions and reviewed live
-      in the next class.
+Monday and Wednesday are ordinary school days in every Gulf country, whichever days the local weekend falls on,
+so the class sits in a school-night routine rather than eating into the weekend.
+In January, timed mock papers move to a weekend morning, written at home in exam conditions and reviewed live
+in the next class.
 
 ## Wherever CBSE schools are, the 417 syllabus is the same
 
-      CBSE's school directory listed 268 affiliated schools in 26 countries outside India when we checked on 13 October 2026. Most are in the Gulf, which is why the batch time was chosen to suit Gulf evenings.
+CBSE's school directory listed 268 affiliated schools in 26 countries outside India when we checked on 13 October 2026. Most are in the Gulf, which is why the batch time was chosen to suit Gulf evenings.
 
 ### United Arab Emirates
 109 CBSE schools across Dubai, Abu Dhabi, Sharjah, Ajman and the northern emirates, the largest group outside India. The batch is at 7:30 PM local time, after school and most activities have finished.
@@ -51,47 +51,47 @@ updated: 2026-10-13
 ### East Africa and South East Asia
 7 CBSE schools in Ethiopia, on East Africa Time, which puts the batch at 6:30 PM. In Singapore and Malaysia it falls at 11:30 PM, so students there study one to one.
 
-      School counts are from the CBSE affiliation directory on the date shown, and they change as schools affiliate.
-      For more on how we teach students in the Gulf, see [coding classes in Dubai](/coding-classes-in-dubai)
-      and [coding classes in Saudi Arabia](/coding-classes-in-saudi-arabia).
+School counts are from the CBSE affiliation directory on the date shown, and they change as schools affiliate.
+For more on how we teach students in the Gulf, see [coding classes in Dubai](/coding-classes-in-dubai)
+and [coding classes in Saudi Arabia](/coding-classes-in-saudi-arabia).
 
 ## The same curriculum and the same scheme, with a few things only your school can confirm
 
 ### What is the same for a student in Dubai and in Delhi
 
-          - The 2026-27 curriculum for code 417, unchanged from 2025-26: Part A employability skills and seven Part B units.
+- The 2026-27 curriculum for code 417, unchanged from 2025-26: Part A employability skills and seven Part B units.
 
-          - The paper design: 50 theory marks in two hours, 15 of 21 questions answered, objective and written sections.
+- The paper design: 50 theory marks in two hours, 15 of 21 questions answered, objective and written sections.
 
-          - The 50 practical marks: a 15-program file, a practical exam, a project and two vivas, conducted by your school.
+- The 50 practical marks: a 15-program file, a practical exam, a project and two vivas, conducted by your school.
 
-          - The date sheet: CBSE publishes one schedule for the main examinations; the 2027 date sheet was not out when we checked on 13 October 2026.
+- The date sheet: CBSE publishes one schedule for the main examinations; the 2027 date sheet was not out when we checked on 13 October 2026.
 
-          - The rule that 417 cannot be taken with Computer Applications (165).
+- The rule that 417 cannot be taken with Computer Applications (165).
 
 ### What to check with your school
 
-        Your school registers your child with CBSE through the LOC, the list of candidates. The regular window runs from 24 September to 21 October 2026, with a correction window from 2 to 4 November. Ask the class teacher to confirm that subject code 417 is on your child's record.
+Your school registers your child with CBSE through the LOC, the list of candidates. The regular window runs from 24 September to 21 October 2026, with a correction window from 2 to 4 November. Ask the class teacher to confirm that subject code 417 is on your child's record.
 
-        Your school also sets the practical exam dates and arranges the examiner. Schools abroad often announce these at short notice around their own winter break, so our Wednesday classes aim to have the practical file and project ready well before January. The full paper pattern and calendar are on [CBSE Class 10 AI exam date and paper pattern](/cbse-class-10-ai-exam-date-and-paper-pattern).
+Your school also sets the practical exam dates and arranges the examiner. Schools abroad often announce these at short notice around their own winter break, so our Wednesday classes aim to have the practical file and project ready well before January. The full paper pattern and calendar are on [CBSE Class 10 AI exam date and paper pattern](/cbse-class-10-ai-exam-date-and-paper-pattern).
 
 ## Two evenings, one teacher, and doubts answered in every class
 
-      Students in the Gulf join from home on a laptop with a headset. They see the teacher, the shared screen and their classmates, and can speak or type at any point.
+Students in the Gulf join from home on a laptop with a headset. They see the teacher, the shared screen and their classmates, and can speak or type at any point.
 
-      -
+-
 **Monday, 7:30 PM in Dubai: theory and Part A** One Part B unit is taught and then practised in the paper's question shapes: objective questions, a two-mark answer within thirty words, a four-mark case study within eighty. From November, a short Part A drill keeps the ten employability marks warm.
 
-      -
+-
 **Wednesday, 6:30 PM in Riyadh: the practical half** A practical file program is written in Jupyter Notebook, run and explained, and the project moves forward a step. Students install Python and Jupyter in the first week with the teacher's help, so the setup matches what the school lab uses.
 
-      -
+-
 **Live doubts, raised and settled in class** Any student can stop the class with a question, share their screen and get it answered while the class is still on that topic. Doubts from homework open the next class, three days later at most.
 
-      -
+-
 **Board-season papers on a Gulf weekend** From January, full mock papers are written at home on a weekend morning, close to the time the real paper runs, and reviewed live in the next class with lost marks rewritten. The full series is on [the sample paper and mock tests page](/cbse-class-10-ai-sample-paper-and-mock-tests).
 
-      -
+-
 **Progress reports for parents** After the diagnostic, when the practical file closes and after each mock, parents get a short progress report: marks by unit and what to practise at home. For parents in a different city from the teacher, that report is the clearest picture of how the year is going.
 
 ## Three common situations, and the format that usually suits each
@@ -105,13 +105,13 @@ A student with evening coaching for maths and science, sports training, or a hom
 ### A family moving during Class 10
 A family relocating between India and the Gulf during the board year. Live online classes keep the same teacher and the same plan through the move, and the class time is adjusted to the new city, so the AI preparation is not interrupted.
 
-      Not sure which fits? The free demo ends with a plain recommendation from the mentor, based on your child's
-      level, timetable and how much of the session is left. To see the course itself first, read about
-      [the Monday and Wednesday Class 10 AI batch](/cbse-class-10-ai-classes-online).
+Not sure which fits? The free demo ends with a plain recommendation from the mentor, based on your child's
+level, timetable and how much of the session is left. To see the course itself first, read about
+[the Monday and Wednesday Class 10 AI batch](/cbse-class-10-ai-classes-online).
 
 ## See a real class first, and pay a month at a time
 
-      Choosing a tutor in another country is a reasonable worry. The way we answer it is simple: you see a real class before you pay, and nothing is locked in.
+Choosing a tutor in another country is a reasonable worry. The way we answer it is simple: you see a real class before you pay, and nothing is locked in.
 
 ### A real class, free
 The free demo is a live class with the teacher, not a sales call. Your child works on actual 417 questions and gets doubts answered, and you can sit in. If you want a fuller assessment at a time you pick, the priority demo adds a written skill report afterwards.
@@ -138,17 +138,17 @@ Option 1, fixed batch: Monday and Wednesday at 9:00 PM IST, live online, fifteen
 
 - Where you live | Mon and Wed 9:00 PM IST | Best format
 
-          - India (IST)every Indian city | 9:00 PM | Batch fits
+- India (IST)every Indian city | 9:00 PM | Batch fits
 
-          - UAE and OmanDubai, Abu Dhabi, Sharjah, Muscat | 7:30 PM | Batch fits
+- UAE and OmanDubai, Abu Dhabi, Sharjah, Muscat | 7:30 PM | Batch fits
 
-          - Saudi Arabia, Qatar, Kuwait, BahrainRiyadh, Jeddah, Dammam, Doha, Kuwait City, Manama | 6:30 PM | Batch fits
+- Saudi Arabia, Qatar, Kuwait, BahrainRiyadh, Jeddah, Dammam, Doha, Kuwait City, Manama | 6:30 PM | Batch fits
 
-          - NepalKathmandu | 9:15 PM | Batch fits
+- NepalKathmandu | 9:15 PM | Batch fits
 
-          - Ethiopia and East AfricaAddis Ababa and East Africa Time | 6:30 PM | Batch fits
+- Ethiopia and East AfricaAddis Ababa and East Africa Time | 6:30 PM | Batch fits
 
-          - Singapore and MalaysiaSingapore, Kuala Lumpur | 11:30 PM | Choose 1-on-1
+- Singapore and MalaysiaSingapore, Kuala Lumpur | 11:30 PM | Choose 1-on-1
 
 ## Frequently asked questions
 
@@ -174,7 +174,15 @@ Option 1, fixed batch: Monday and Wednesday at 9:00 PM IST, live online, fifteen
 
 Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 students. Contact: connect@modernagecoders.com, +91 91233 66161 (call or WhatsApp).
 
-Related pages: /cbse-class-10-ai-classes-online, /cbse-class-10-ai-syllabus-explained, /python-for-cbse-class-10-ai, /cbse-class-10-ai-board-exam-preparation, /cbse-class-10-ai-project-and-practical-file, /cbse-class-10-ai-exam-date-and-paper-pattern, /cbse-class-10-ai-sample-paper-and-mock-tests, /cbse-class-10-ai-important-questions, /cbse-class-10-ai-employability-skills-part-a, /icse-class-10-java-classes-online, /icse-class-10-computer-applications-syllabus-explained, /icse-class-10-java-programs-practice, /icse-class-10-bluej-java-coaching, /icse-class-10-computer-applications-board-exam-preparation, /icse-class-10-computer-applications-exam-date-and-paper-pattern, /icse-class-10-computer-applications-specimen-paper-and-mock-tests, /icse-class-10-computer-applications-important-questions, /icse-class-10-computer-applications-project-and-internal-assessment, /icse-class-10-computer-applications-classes-gulf-and-abroad.
+## More pages in this series
+
+**Classes, tuition and batches:** [The Mon and Wed 9 PM AI batch](/cbse-class-10-ai-classes-online).
+
+**Unit by unit:** [CBSE AI 417 syllabus explained](/cbse-class-10-ai-syllabus-explained), [Python for Class 10 AI](/python-for-cbse-class-10-ai), [Part A employability skills](/cbse-class-10-ai-employability-skills-part-a).
+
+**Questions and practice:** [CBSE AI important questions](/cbse-class-10-ai-important-questions), [Sample paper and mock tests](/cbse-class-10-ai-sample-paper-and-mock-tests), [Class 10 AI MCQ, unit wise](/cbse-class-10-ai-mcq-questions).
+
+**Exam, marks and practicals:** [CBSE AI board exam preparation](/cbse-class-10-ai-board-exam-preparation), [AI project and practical file](/cbse-class-10-ai-project-and-practical-file), [Exam date 2027 and paper pattern](/cbse-class-10-ai-exam-date-and-paper-pattern).
 
 ---
 
