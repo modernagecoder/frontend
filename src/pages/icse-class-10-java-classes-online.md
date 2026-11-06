@@ -34,6 +34,18 @@ A memorised number-triangle program answers last year's question and cannot be i
 
 The lab file grows one assignment a week from the first month, closer to twenty-five against a minimum of twenty. A few larger programs are scoped early and written in the second term. Every program is explained aloud, every week, because half the internal marks come from an examiner who was not there. A timed practical mock in the second term, and a dress rehearsal before the school's practical day.
 
+## Every free resource for ICSE Computer Applications
+
+- Understand the paper: [exam date and paper pattern](/icse-class-10-computer-applications-exam-date-and-paper-pattern), [syllabus explained](/icse-class-10-computer-applications-syllabus-explained), [paper analysis](/icse-computer-applications-paper-analysis).
+- Learn a chapter: [Class 9 revision](/icse-class-9-java-revision-for-class-10), [data types and input](/icse-class-10-data-types-and-input-java), [operators](/icse-class-10-operators-in-java), [loops](/icse-class-10-loop-programs-java), [Math methods](/icse-class-10-math-library-methods), [class as basis of computation](/icse-class-10-class-as-basis-of-computation), [methods and overloading](/icse-class-10-user-defined-methods-overloading), [constructors](/icse-class-10-constructors-questions), [wrapper classes](/icse-class-10-wrapper-and-library-classes), [encapsulation](/icse-class-10-encapsulation-access-specifiers).
+- Revise: [chapter-wise notes](/icse-computer-applications-notes), [textbook solutions guide](/icse-computer-applications-textbook-solutions-guide), [worksheets](/icse-computer-applications-worksheets).
+- Section A drills: [MCQs](/icse-computer-applications-mcq-questions), [outputs](/icse-class-10-java-output-questions), [find the error](/icse-class-10-java-error-finding-questions), [difference between](/icse-computer-difference-between-questions), [competency](/icse-computer-applications-competency-questions).
+- Section B programs: [programs practice index](/icse-class-10-java-programs-practice), [strings](/icse-class-10-string-programs), [sorting and searching](/icse-class-10-sorting-and-searching-programs), [2D arrays](/icse-class-10-2d-array-programs), [special numbers](/icse-special-number-programs-java), [slab and bill](/icse-class-10-slab-and-bill-programs), [menu driven](/icse-class-10-menu-driven-programs), [patterns](/icse-class-10-pattern-programs-java), [series](/icse-class-10-series-programs-java).
+- Whole papers: [specimen and mocks](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [important questions](/icse-class-10-computer-applications-important-questions).
+- Internal marks: [project and internal assessment](/icse-class-10-computer-applications-project-and-internal-assessment), [viva questions](/icse-computer-applications-viva-questions), [BlueJ coaching](/icse-class-10-bluej-java-coaching).
+- Final weeks: [board exam preparation](/icse-class-10-computer-applications-board-exam-preparation), [how to score 100](/how-to-score-100-in-icse-computer-applications), [crash course](/icse-computer-applications-crash-course).
+- Before Class 9: [Computer or Commercial Applications?](/icse-computer-applications-vs-commercial-applications)
+
 ## Why a mini batch
 
 A teacher can explain a concept to thirty students but can read only a few screens at once, and Java is learned in the seconds between typing a line and seeing what it does. Up to six is the largest group in which every one of those seconds has a teacher watching. It suits a student who wants Section B programs to come from their own head; it does not suit a family wanting recordings or a two-week pre-board blast.
@@ -52,7 +64,9 @@ Monthly, no admission fee, stop at any month end. The Tuesday and Wednesday mini
 
 ## Frequently asked questions
 
-**Which BlueJ and Java?** BlueJ 5.4 or later on JDK 11 or later, installed together in the first class on Windows or Mac; nothing paid, no online IDE accounts.
+**Which BlueJ and Java?** The current BlueJ from bluej.org (5.4 onwards is fine), installed together in the first class on Windows or Mac; nothing paid, no online IDE accounts.
+
+**Free study material?** Yes: the list above covers every chapter, question type, program family, paper and the internal assessment.
 
 **Is Class 9 revised?** Yes; the Class 10 syllabus starts with Revision of Class IX and the paper draws on it freely.
 
@@ -74,7 +88,7 @@ Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 stude
 
 **Programs for Section B:** [ICSE Java programs practice](/icse-class-10-java-programs-practice), [String programs](/icse-class-10-string-programs), [Special number programs](/icse-special-number-programs-java), [Sorting and searching programs](/icse-class-10-sorting-and-searching-programs), [2D array programs](/icse-class-10-2d-array-programs), [Pattern programs](/icse-class-10-pattern-programs-java), [Menu driven and switch case](/icse-class-10-menu-driven-programs), [Series programs](/icse-class-10-series-programs-java), [Slab and bill programs](/icse-class-10-slab-and-bill-programs).
 
-**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
+**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Viva and oral questions](/icse-computer-applications-viva-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
 
 **Notes and revision:** [Chapter-wise notes](/icse-computer-applications-notes), [Textbook solutions guide](/icse-computer-applications-textbook-solutions-guide), [Worksheets with answers](/icse-computer-applications-worksheets).
 

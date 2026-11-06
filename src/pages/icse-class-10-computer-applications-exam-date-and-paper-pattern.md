@@ -3,7 +3,7 @@ title: "ICSE Computer Applications Exam Date 2027 and Paper Pattern"
 description: "ICSE Computer Applications exam date 2027 status, last year's timetable, the 100 + 100 paper pattern, Section B program types and live Java classes."
 canonical: https://learn.modernagecoders.com/icse-class-10-computer-applications-exam-date-and-paper-pattern
 source: src/pages/icse-class-10-computer-applications-exam-date-and-paper-pattern.html
-updated: 2026-10-13
+updated: 2026-11-06
 ---
 
 > As of 13 October 2026, CISCE has not released the ICSE 2027 timetable, so there is no official date yet for the Computer Applications paper. Last year's timetable was published on 13 November 2025, and the ICSE 2026 examinations ran from 17 February to 30 March 2026. The subject has a written paper of 100 marks in two hours, with 15 minutes of reading time beforehand: Section A carries 40 compulsory marks, and in Section B students answer four of six Java programs at 15 marks each. A separate internal assessment of 100 marks is awarded on at least twenty lab assignments. Modern Age Coders prepares students live, with a Tuesday 5:30 PM and Wednesday 8 PM IST mini batch in India and personalised one to one everywhere, built around that calendar.
@@ -89,6 +89,42 @@ avoids strings and double dimensional arrays has no choice left on the day. On W
 rotates through all six families so none goes cold. Practice sets for each family are on
 [ICSE Java programs practice](/icse-class-10-java-programs-practice), and the questions most
 worth drilling are listed on [ICSE Computer Applications important questions](/icse-class-10-computer-applications-important-questions).
+
+## The ICSE Computer Applications marking scheme, Section A and Section B
+
+The question paper prints the marks for every question, but not how an examiner splits a 15-mark program into parts. What the paper does make clear is that Section A answers are judged right or wrong on exact detail, while Section B programs are read for structure, logic, output and description.
+
+- Part | How it is marked | What loses the mark
+
+- Question 1, twenty MCQs | One mark for the correct option, nothing for working | Mixing up a char and its code, such as 'B' and 66
+
+- Question 2, ten two-mark items | Outputs, corrections and statements checked to the character | A missing .0 on a double, a missing space, a wrong loop count
+
+- Section B, four programs of 15 | Read as a whole: class and method structure, input, logic, output format, variable description | A program that answers a nearby question, unlabelled output, no description
+
+- Internal assessment | Ten marks each for class design, variable description and coding with documentation, twenty for execution or output; teacher 50, external examiner 50 | Assignments that run but are undocumented or not the student's own
+
+### Is there a unit-wise weightage?
+
+No official one. Unlike some boards, CISCE does not publish marks per unit for Computer Applications. The nearest guide is the specimen: strings, arrays, classes, number logic and overloading each own a Section B program, and Section A spreads across every unit including Class 9 revision. In practice that makes String handling and arrays the heaviest units, because each can appear twice, once as a program and again as short outputs.
+
+Where the marks were lost in a real paper is the job of our [ICSE Computer Applications paper analysis](/icse-computer-applications-paper-analysis), and the way to collect every one of them is on [how to score 100 in ICSE Computer Applications](/how-to-score-100-in-icse-computer-applications).
+
+### Reading time of 15 minutes, used well
+
+-
+**Minutes 1 to 5** Read all six Section B programs and cross out the two you trust least.
+
+-
+**Minutes 6 to 12** Read Section A from the top and mark the outputs that need a step table.
+
+-
+**Minutes 13 to 15** Decide the order of your four programs, easiest first, and note what each must print.
+
+Section A rewards drill by shape: the [Question 1 MCQ set](/icse-computer-applications-mcq-questions) and
+the [two-mark difference questions](/icse-computer-difference-between-questions) are the fastest marks to secure.
+For Section B, solved past programs with a part by part commentary are on
+[previous year papers, solved](/icse-computer-applications-previous-year-papers-solved).
 
 ## The 2026-27 calendar, and what the mini batch is doing at each point
 
@@ -189,6 +225,10 @@ Option 1, fixed batch (for families in India): Tuesday at 5:30 PM and Wednesday 
 
 **What is the paper pattern for ICSE Class 10 Computer Applications?** Section A is compulsory and carries 40 marks: Question 1 has twenty one-mark multiple-choice questions and Question 2 has ten two-mark questions. In Section B students answer any four of six programs, Questions 3 to 8, worth 15 marks each, for 60 marks. A separate internal assessment carries another 100 marks.
 
+**Is there a marking scheme for ICSE Computer Applications?** The question paper prints the marks for every question: one mark per MCQ, two per short item, 15 per program. It does not print how a program's 15 marks are split. Section A answers must be exactly right, while Section B programs are judged on structure, input, logic, output format and the variable description, which is how our mocks are marked too.
+
+**What is the difference between Section A and Section B in ICSE Computer Applications?** Section A is 40 compulsory marks of short answers: twenty one-mark MCQs and ten two-mark items such as outputs and corrections. Section B is 60 marks: six programs are offered and the student writes any four, at 15 marks each, in Java with a variable description. Section A tests exact rules; Section B tests whole programs.
+
 **How are the internal assessment marks given?** On at least twenty lab assignments done during the year. Two people mark the record, the subject teacher and an external examiner, and each gives up to 50. Each 50 is made up of ten marks apiece for class design, the variable description and coding with documentation, plus twenty for whether the program runs and gives correct output. The head of school submits the combined mark out of 100 to CISCE.
 
 **Can we use BufferedReader in the ICSE Computer Applications exam?** No. The specimen paper states that BufferedReader and DataInputStream should not be used in Section B programs. Input is taken with the Scanner class, which is how our students write every program from the first class.
@@ -213,7 +253,7 @@ Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 stude
 
 **Programs for Section B:** [ICSE Java programs practice](/icse-class-10-java-programs-practice), [String programs](/icse-class-10-string-programs), [Special number programs](/icse-special-number-programs-java), [Sorting and searching programs](/icse-class-10-sorting-and-searching-programs), [2D array programs](/icse-class-10-2d-array-programs), [Pattern programs](/icse-class-10-pattern-programs-java), [Menu driven and switch case](/icse-class-10-menu-driven-programs), [Series programs](/icse-class-10-series-programs-java), [Slab and bill programs](/icse-class-10-slab-and-bill-programs).
 
-**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
+**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Viva and oral questions](/icse-computer-applications-viva-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
 
 **Notes and revision:** [Chapter-wise notes](/icse-computer-applications-notes), [Textbook solutions guide](/icse-computer-applications-textbook-solutions-guide), [Worksheets with answers](/icse-computer-applications-worksheets).
 

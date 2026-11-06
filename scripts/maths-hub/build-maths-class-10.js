@@ -351,6 +351,7 @@ ${FAQS.map(([q, a], i) => `      <details class="omt-faq-item"${i === 0 ? ' open
     <p>The fix is rarely more worksheets. It is finding the earliest gap, rebuilding the idea underneath, and then practising the board's own question forms until they feel routine.</p>
     <h2>Board exam preparation that works</h2>
     <p>Scoring well needs exam skills as well as maths: time management, step-by-step presentation for method marks, and knowing which questions to attempt first. Those skills are practised in timed mocks, not explained once. See <a class="omt-link" href="/online-maths-tuition">online maths tuition for every class</a> and the <a class="omt-link" href="/courses/cbse-class-10-maths-board-exam-prep-course">CBSE Class 10 Maths Board Prep course</a>.</p>
+    <p>Maths is not the only Class 10 board paper we teach. Students taking CBSE Artificial Intelligence (417) can join the <a class="omt-link" href="/cbse-class-10-ai-classes-online">CBSE Class 10 AI classes</a> and practise with the <a class="omt-link" href="/cbse-class-10-ai-important-questions">Class 10 AI important questions</a>. ICSE students sitting Computer Applications can join the <a class="omt-link" href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> and work through the <a class="omt-link" href="/icse-computer-applications-previous-year-papers-solved">solved previous year papers</a>.</p>
   </div>
 </section>
 

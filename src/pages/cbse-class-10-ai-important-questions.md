@@ -1,9 +1,9 @@
 ---
 title: "CBSE Class 10 AI Important Questions 2027 (417), Unit-Wise"
-description: "CBSE Class 10 AI (417) important questions 2027, unit-wise: MCQs, confusion matrix numericals, Bag of Words, Part A and viva questions, practised live."
+description: "CBSE Class 10 AI (417) important questions 2027: most expected questions, a chapter wise question bank, numericals and a link to every practice page."
 canonical: https://learn.modernagecoders.com/cbse-class-10-ai-important-questions
 source: src/pages/cbse-class-10-ai-important-questions.html
-updated: 2026-10-13
+updated: 2026-11-06
 ---
 
 > The most important questions for CBSE Class 10 AI (417) in 2027 follow the blueprint: about half the 50 theory marks are one-mark objective questions, and the rest are two-mark answers of 20 to 30 words and four-mark answers of 50 to 80 words. The highest-value shapes are the confusion matrix numerical (accuracy, precision, recall, F1 score), the AI project cycle and bioethics case study, supervised versus unsupervised models, the Bag of Words vector, token counting, stemming versus lemmatisation, and pixel and image basics, plus ten marks of Part A employability skills. Modern Age Coders practises every one of these live, marked against the CBSE value points, in a Monday and Wednesday 9 PM IST batch or personalised one to one.
@@ -29,6 +29,107 @@ We do not guess what will be asked. The list below comes from three things CBSE 
 Statistical Data and Advance Python are assessed only through the practical, so questions from them sit
 in the practical and viva section at the end of this page, not among the theory questions. The marks behind each
 unit, and the full blueprint, are on [CBSE Class 10 AI exam date and paper pattern](/cbse-class-10-ai-exam-date-and-paper-pattern).
+
+## The chapter wise question bank: one practice page per unit and per question type
+
+This page is the index. Each theory unit now has its own page of original questions with answers, and each question format has one too, so a student can drill by chapter in autumn and by format in the weeks before the paper.
+
+- Chapter | Theory marks | Question bank page | Drill it with
+
+- Unit 1: Revisiting the AI Project Cycle and Ethical Frameworks | 7 | Project cycle and ethics questions | 4Ws canvases on new school problems; bioethics applied to a short case
+
+- Unit 2: Advanced Concepts of Modeling in AI | 11 | Advanced modeling questions | Scenario sorting: which learning type, which task, which network
+
+- Unit 3: Evaluating Models | 10 | Evaluating Models questions | Matrices built from words, then the confusion matrix numericals set
+
+- Unit 4: Statistical Data (practical only) | 0 | Orange Data Mining walkthroughs | Workflows rebuilt from a blank canvas, as the practical exam asks
+
+- Unit 5: Computer Vision | 4 | Computer Vision questions | Pixel arithmetic, resolution and task identification
+
+- Unit 6: Natural Language Processing | 8 | NLP questions | Token counts and the worked Bag of Words and TFIDF tables
+
+- Part A: employability skills | 10 | Part A model answers | Two questions per unit, every week from November
+
+### Question banks by format
+
+- [MCQs, unit wise](/cbse-class-10-ai-mcq-questions): one-mark items with the reason each wrong option fails.
+
+- [Assertion and reason items](/cbse-class-10-ai-assertion-reason-questions): a shape that appeared in Section A of both the 2025 and the 2026 papers.
+
+- [Case based questions](/cbse-class-10-ai-case-based-questions): four-mark scenarios split into their value points.
+
+- [Difference between questions](/cbse-class-10-ai-difference-between-questions): paired terms set out as two-column answers.
+
+- [Worksheets with answers](/cbse-class-10-ai-worksheets): printable mixed sets for home practice.
+
+### Papers, answers and the practical side
+
+- [Previous year papers](/cbse-class-10-ai-previous-year-question-papers): what the 2025 and 2026 papers asked, described and solved in our own words.
+
+- [Handbook exercise answers](/cbse-class-10-ai-textbook-solutions): end-of-unit exercises answered to the marking scheme's length.
+
+- [Formula sheet](/cbse-class-10-ai-formula-sheet): every metric and pixel calculation on one page.
+
+- [Practical exam questions](/cbse-class-10-ai-practical-exam-questions) and [viva questions](/cbse-class-10-ai-viva-questions): the Units 4 and 7 half of the subject.
+
+## Most expected questions for the 2027 AI paper, and the reason for each
+
+Nobody outside CBSE knows the 2027 paper. What can be said is which shapes the blueprint guarantees space for and which recurred in the 2025 and 2026 papers. These ten are the ones we would bet a revision hour on.
+
+- Expected question shape | Unit | Why we expect it
+
+- Build a confusion matrix from a paragraph, then find two or more metrics | 3 | Six objective slots plus a long answer in the unit; the calculation is the cheapest way to fill them
+
+- Pick the metric that matters for a stated risk, with a reason | 3 | The curriculum lists choosing a metric as an activity, so it is examinable
+
+- Name the learning type or task behind a described product | 2 | Unit 2 has two long answers and two short ones; scenarios fill most of them
+
+- Scope a problem with the 4Ws and write the problem statement | 1 | The unit's only long answer suits a canvas better than any other topic
+
+- Apply bioethics principles to a short case | 1 | The ethics sub-unit is new material with a ready-made case structure
+
+- Dictionary and document vectors for two or three short texts | 6 | The one NLP technique that turns into a four-mark calculation
+
+- Count tokens, or stem and lemmatise a word list | 6 | Five objective slots in the unit, and these items are quick to mark
+
+- Resolution to pixel count, or what a pixel value means | 5 | Four objective slots and one short answer, no long answer
+
+- An assertion and reason item on any unit | Any | Confirmed in Section A of the 2025 and 2026 main papers
+
+- Two Part A short answers: a definition with an example | Part A | Five written Part A questions are printed every time
+
+```
+A bank's fraud alert model checked
+200 card payments. Fraud is positive.
+
+It flagged 40 fraudulent payments
+correctly and 10 honest ones wrongly.
+It let 20 fraudulent payments through.
+The other 130 honest payments passed.
+
+(a) Draw the confusion matrix.
+(b) Find accuracy, precision, recall.
+(c) Find F1 score.
+(d) Which metric should the bank
+    raise first? Give a reason.
+```
+
+```
+(a) TP = 40   FP = 10
+    FN = 20   TN = 130
+
+(b) Accuracy  = 170 / 200 = 0.85
+    Precision = 40 / 50   = 0.80
+    Recall    = 40 / 60   = 0.67
+
+(c) F1 = 2 x 0.80 x 0.67 / 1.47
+       = 0.73
+
+(d) Recall. Each missed fraud is
+    money lost; an honest payment
+    flagged by mistake costs only
+    a phone call to the customer.
+```
 
 ## Project cycle, ethics and the families of AI models
 
@@ -272,6 +373,10 @@ Option 1, fixed batch: Monday and Wednesday at 9:00 PM IST, live online, fifteen
 ## Frequently asked questions
 
 **What are the most important questions for CBSE Class 10 AI?** Those that are frequent, heavily weighted or easy to lose marks on: the confusion matrix numerical with accuracy, precision, recall and F1 score; the AI project cycle and bioethics case study; supervised, unsupervised and reinforcement learning; classification versus regression; the Bag of Words vector and token counting; stemming versus lemmatisation; pixels and resolution; and the ten marks of Part A employability skills.
+
+**What are the most expected questions in CBSE Class 10 AI for 2027?** No one can name the 2027 questions in advance, but some shapes have guaranteed space in the blueprint: a confusion matrix built from a paragraph with accuracy, precision and recall, choosing a metric for a stated risk, naming the learning type behind a product, a 4Ws problem statement, Bag of Words vectors, token counts, a pixel or resolution item, an assertion and reason item, and Part A definitions with an example.
+
+**Is there a chapter wise question bank for CBSE Class 10 AI?** Yes. Each theory unit has its own page of original questions with answers: project cycle and ethics, advanced modeling, evaluating models, computer vision and NLP, plus Part A and the Orange practical. There are also banks by format, covering MCQs, assertion and reason, case based questions, difference between questions and worksheets. The table on this page links all of them.
 
 **Which unit is most important in CBSE Class 10 AI?** Advanced Concepts of Modeling carries the most theory marks, 11, and is the only unit with two long-answer questions in the latest blueprint. Evaluating Models follows with 10 marks and its confusion matrix numerical. Natural Language Processing carries 8, the AI project cycle and ethics unit 7, and Computer Vision 4.
 

@@ -32343,6 +32343,18 @@
   to = "/src/pages/orange-data-mining-class-10-ai.md"
   status = 200
 
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/icse-computer-applications-viva-questions"
+  to = "/src/pages/icse-computer-applications-viva-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-viva-questions.md"
+  to = "/src/pages/icse-computer-applications-viva-questions.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

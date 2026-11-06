@@ -71,7 +71,7 @@ and [coding classes in Saudi Arabia](/coding-classes-in-saudi-arabia).
 
 ### What to check with your school
 
-Your school registers your child with CBSE through the LOC, the list of candidates. The regular window runs from 24 September to 21 October 2026, with a correction window from 2 to 4 November. Ask the class teacher to confirm that subject code 417 is on your child's record.
+Your school registers your child with CBSE through the LOC, the list of candidates. The regular window ran from 24 September to 21 October 2026 and the correction window closed on 4 November, so if you have not seen code 417 confirmed on your child's record, ask the class teacher now.
 
 Your school also sets the practical exam dates and arranges the examiner. Schools abroad often announce these at short notice around their own winter break, so our Wednesday classes aim to have the practical file and project ready well before January. The full paper pattern and calendar are on [CBSE Class 10 AI exam date and paper pattern](/cbse-class-10-ai-exam-date-and-paper-pattern).
 
@@ -108,6 +108,15 @@ A family relocating between India and the Gulf during the board year. Live onlin
 Not sure which fits? The free demo ends with a plain recommendation from the mentor, based on your child's
 level, timetable and how much of the session is left. To see the course itself first, read about
 [the Monday and Wednesday Class 10 AI batch](/cbse-class-10-ai-classes-online).
+
+On paper day the clock matters too. The paper runs from 10:30 AM to 12:30 PM IST; at a centre that keeps India's
+timing, that is 9:00 AM in Dubai and Muscat, 8:00 AM in Riyadh, Doha, Kuwait City and Manama, and 10:45 AM in
+Kathmandu, so take the local start from the admit card rather than from this conversion. Families who need a
+teacher on their own hours from the start can read about [a one to one private AI tutor](/cbse-class-10-ai-private-tutor);
+those who only want help with stuck topics can look at [the live doubt classes](/cbse-class-10-ai-doubt-classes).
+Students joining after the Gulf winter break usually fit [the Class 10 AI crash course](/cbse-class-10-ai-crash-course)
+better than the full year, and anyone revising alone can start with [the unit wise notes](/cbse-class-10-ai-notes)
+and [a 30, 7 and 1 day revision plan](/cbse-class-10-ai-revision-plan).
 
 ## See a real class first, and pay a month at a time
 

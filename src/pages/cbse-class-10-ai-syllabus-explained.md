@@ -41,6 +41,19 @@ Unit 7: Jupyter Notebook, virtual environments, installing packages; Python fund
 
 Two documents, "Aman likes to play cricket" and "Riya likes to play football", are lowercased, stripped of punctuation, tokenised and cleared of the stop word "to". The vocabulary is aman, likes, play, cricket, riya, football. The table counts each word per document: Document 1 has aman 1, likes 1, play 1, cricket 1; Document 2 has likes 1, play 1, riya 1, football 1. Words in both documents say little about which is which; cricket and football carry the meaning, which is what TF-IDF formalises next. Marks are lost in normalisation, not in the table.
 
+## Chapter wise weightage and the blueprint (unit wise marks 2026-27)
+
+- Part A: 10 marks, asked as six one-mark items and five two-mark answers. [Part A answers](/cbse-class-10-ai-employability-skills-part-a)
+- Unit 1: 7 marks; five objective, one short, one long. [Unit 1 questions](/cbse-class-10-ai-project-cycle-and-ethics)
+- Unit 2: 11 marks; four objective, two short, two long; perceptron only as an objective item. [Unit 2 questions](/cbse-class-10-ai-advanced-modeling-questions)
+- Unit 3: 10 marks; six objective, one short, one long. [Unit 3 questions](/cbse-class-10-ai-evaluating-models-questions)
+- Unit 4: practical only. [Orange walkthroughs](/orange-data-mining-class-10-ai)
+- Unit 5: 4 marks; four objective, one short, no long. [Unit 5 questions](/cbse-class-10-ai-computer-vision-questions)
+- Unit 6: 8 marks; five objective, one short, one long. [Unit 6 questions](/cbse-class-10-ai-nlp-questions)
+- Unit 7: practical only.
+
+Deleted syllabus: nothing was deleted for 2026-27; the curriculum keeps the 2025-26 units, hours and marks. Units 4 and 7 are examined in the practical, not removed. The full blueprint is on [the exam date and paper pattern page](/cbse-class-10-ai-exam-date-and-paper-pattern); marking is explained on [the marking scheme guide](/cbse-class-10-ai-marking-scheme).
+
 ## Part C, line by line
 
 Practical file with a minimum of 15 programs (15). Practical examination on Units 4, 5, 6 and 7 (15). Viva voce (5). Project work, field visit or student portfolio, any one, related to the Sustainable Development Goals (10). Viva voce related to the project (5). CBSE's suggested programs: add the elements of two lists; mean, median and mode using NumPy; a line chart from (2,5) to (9,10); a scatter chart for (2,5), (9,10), (8,3), (5,7), (6,18); read a CSV and display 10 rows; read a CSV and display its information; read and display an image; read an image and identify its shape. Sample project: predicting Palmer penguin species from statistical data.
@@ -68,6 +81,10 @@ Monthly, no admission fee, stop at any month end. The Monday and Wednesday group
 ## Frequently asked questions
 
 **Is 417 the same as the new Computational Thinking and AI?** No. 417 is the existing Class 10 skill subject, published for 2026-27 on the earlier scheme; CT and AI is the new curriculum for Classes 3 to 8, compulsory in Class 9 from 2027-28.
+
+**What is the chapter wise weightage?** Part A 10, Unit 1 7, Unit 2 11, Unit 3 10, Unit 5 4, Unit 6 8; Units 4 and 7 practical only.
+
+**Has any syllabus been deleted for 2026-27?** No; the 2025-26 units, hours and marks carry over unchanged.
 
 **Which units carry theory marks?** Part A (10) and Units 1, 2, 3, 5 and 6 (7, 11, 10, 4, 8). Units 4 and 7 are practical-only.
 

@@ -27,6 +27,28 @@ Three full papers under two-hour conditions in the final two months, each review
 
 Weeks 8 and 7: lab file closed, practical rehearsed. Week 6: a diagnostic paper before any revision, then a Section A audit, which almost always finds Section A leaking more than Section B. Weeks 5 and 4: Section A by shape on Tuesdays, the six program families kept warm with one program a day at home. Week 3: the second paper, reviewed in two halves. Weeks 2 and 1: the third paper, then maintenance only, no new material. CBSE's two-phase 2026 examination is a CBSE arrangement; for ICSE plan on the single written paper in the February to March window CISCE schedules.
 
+## How to prepare for ICSE Computer: a year study plan and a 30-day plan
+
+Prepare by question shape: trace outputs on paper for Section A, write whole programs from blank pages for Section B, and sit timed papers early.
+
+Year plan: April to June, Class 9 revision, classes and methods; July to September, constructors, library classes, encapsulation, arrays; October and November, strings and twenty documented lab programs; December, the specimen and the practical rehearsal; January to the paper, three full mocks.
+
+30-day plan (lab file done, about 90 minutes a day):
+
+1. Days 1 and 2: a timed past paper, marked, losses listed by shape ([previous year papers, solved](/icse-computer-applications-previous-year-papers-solved)).
+2. Days 3 to 6: Class 9 ground and twenty output traces ([Class 9 Java revision](/icse-class-9-java-revision-for-class-10)).
+3. Days 7 to 9: methods, overloading, constructors ([constructors](/icse-class-10-constructors-questions)).
+4. Days 10 and 11: wrapper and Character methods, access, scope ([wrapper and library classes](/icse-class-10-wrapper-and-library-classes)).
+5. Days 12 to 15: four string programs from blank pages ([string programs](/icse-class-10-string-programs)).
+6. Days 16 to 18: search, sort and matrix sums ([sorting and searching](/icse-class-10-sorting-and-searching-programs), [2D arrays](/icse-class-10-2d-array-programs)).
+7. Days 19 and 20: special numbers and a slab bill ([special number programs](/icse-special-number-programs-java)).
+8. Days 21 and 22: full mock and review.
+9. Days 23 to 25: weakest two families, twenty MCQs a day ([MCQ for Question 1](/icse-computer-applications-mcq-questions)).
+10. Days 26 and 27: final mock and review.
+11. Days 28 to 30: maintenance only, then rest.
+
+Less time: [the crash course](/icse-computer-applications-crash-course). Aiming for a perfect score: [how to score 100 in ICSE Computer Applications](/how-to-score-100-in-icse-computer-applications).
+
 ## Six errors that cost a grade
 
 Answering Section A from the look of the code; a difference with one point; precedence and casting guessed; five programs attempted badly; the variable description skipped under time; the practical left until the paper's revision weeks.
@@ -46,6 +68,10 @@ No separate board-prep fee. Monthly, no admission fee, stop at any month end; th
 ## Frequently asked questions
 
 **How should the two hours be divided?** About forty minutes for Section A, seventy for the four programs, ten for checking; practised until it is habit.
+
+**How to prepare in 30 days?** A timed past paper first, the units in order with programs from blank pages, mocks around days 21 and 26, light maintenance at the end.
+
+**Topper strategy?** Habits, not secrets: trace every output, describe every variable, match the output format, finish four programs, sit timed papers early.
 
 **Which order?** Section A first, then the four programs starting with the strongest family, chosen once and not revisited.
 
@@ -67,7 +93,7 @@ Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 stude
 
 **Programs for Section B:** [ICSE Java programs practice](/icse-class-10-java-programs-practice), [String programs](/icse-class-10-string-programs), [Special number programs](/icse-special-number-programs-java), [Sorting and searching programs](/icse-class-10-sorting-and-searching-programs), [2D array programs](/icse-class-10-2d-array-programs), [Pattern programs](/icse-class-10-pattern-programs-java), [Menu driven and switch case](/icse-class-10-menu-driven-programs), [Series programs](/icse-class-10-series-programs-java), [Slab and bill programs](/icse-class-10-slab-and-bill-programs).
 
-**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
+**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Viva and oral questions](/icse-computer-applications-viva-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
 
 **Notes and revision:** [Chapter-wise notes](/icse-computer-applications-notes), [Textbook solutions guide](/icse-computer-applications-textbook-solutions-guide), [Worksheets with answers](/icse-computer-applications-worksheets).
 

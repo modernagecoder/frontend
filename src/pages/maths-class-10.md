@@ -250,6 +250,8 @@ The fix is rarely more worksheets. It is finding the earliest gap, rebuilding th
 
 Scoring well needs exam skills as well as maths: time management, step-by-step presentation for method marks, and knowing which questions to attempt first. Those skills are practised in timed mocks, not explained once. See [online maths tuition for every class](/online-maths-tuition) and the [CBSE Class 10 Maths Board Prep course](/courses/cbse-class-10-maths-board-exam-prep-course).
 
+Maths is not the only Class 10 board paper we teach. Students taking CBSE Artificial Intelligence (417) can join the [CBSE Class 10 AI classes](/cbse-class-10-ai-classes-online) and practise with the [Class 10 AI important questions](/cbse-class-10-ai-important-questions). ICSE students sitting Computer Applications can join the [ICSE Class 10 Java classes](/icse-class-10-java-classes-online) and work through the [solved previous year papers](/icse-computer-applications-previous-year-papers-solved).
+
 ## Ready to prepare properly for Class 10 maths?
 
 Book a Priority Demo: a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for you. You get a written skill report afterwards, and the fee is adjusted against your first month if you enrol.

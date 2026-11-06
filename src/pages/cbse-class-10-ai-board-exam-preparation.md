@@ -19,6 +19,12 @@ Advanced Concepts of Modeling, 11 marks, about a quarter of revision: redraw the
 
 A spam filter tested on 100 emails: 40 spam correctly flagged, 10 genuine wrongly flagged, 5 spam missed, 45 genuine correctly passed. The one-mark answer computes accuracy, 85 percent, and calls the model good. The four-mark answer draws the matrix (TP 40, FP 10, FN 5, TN 45), then accuracy 0.85, precision 40 over 50 = 0.80, recall 40 over 45 = 0.889, F1 = 2 x 0.80 x 0.889 over 1.689 = 0.842, and answers the question's last sentence: a false positive hides a genuine email, so precision is the metric to improve. Matrix first, formula before substitution, always answer the last sentence.
 
+## How to score full marks in Class 10 AI
+
+Practical (50, banked before February): file 15, practical exam 15, viva 5, project and project viva 15. Theory (50, on 24 February 2027): Section A objective 24, Section B written 26.
+
+Topper strategy without the myths (we publish no topper names): practical closed in December; labelled matrix before every metric; value points counted before writing; three checks on assertion and reason items (they appeared in the 2025 and 2026 papers); choices made in the reading time; last mock written at 10:30 AM. Drills: [assertion and reason](/cbse-class-10-ai-assertion-reason-questions), [case based](/cbse-class-10-ai-case-based-questions), [marking scheme](/cbse-class-10-ai-marking-scheme), [formula sheet](/cbse-class-10-ai-formula-sheet), [previous year papers](/cbse-class-10-ai-previous-year-question-papers), [revision plan](/cbse-class-10-ai-revision-plan), [crash course](/cbse-class-10-ai-crash-course), [one shot revision](/cbse-class-10-ai-one-shot-revision).
+
 ## The two-phase board system
 
 From 2026, a compulsory phase one in February to March (17 February to 11 March in 2026; 16 February to 9 March in 2027, with AI 417 on Wednesday 24 February, per the CBSE date sheet released 6 November 2026) and an optional phase two in May (15 to 21 May in 2026) for improving marks in a limited number of subjects, with the better score recorded. CBSE framed the improvement exam around the main subjects, so whether a skill subject like AI can be re-attempted is a question for your school. Plan on one attempt for 417, with the school practical, which precedes the theory paper, banked early.
@@ -44,6 +50,10 @@ Families also look at [Python for Teens](/courses/python-complete-masterclass-te
 No board-prep premium: monthly, no admission fee, stop at any month end, with the group batch, mini batch and one to one shown on the page in the visitor's own currency. The free demo includes a short diagnostic.
 
 ## Frequently asked questions
+
+**How to score full marks in Class 10 AI?** Bank the 50 practical marks before February, then write every value point inside the word limits, draw the matrix before any metric and end four-mark answers with a judgement.
+
+**What is the topper strategy?** No secret method and no topper names: habits the marking scheme rewards, practised in three timed papers.
 
 **Structure of the theory paper?** Fifty marks: Part A ten, Part B forty weighted 7, 11, 10, 4 and 8; CBSE's sample paper for the session is the authority on exact question shapes.
 

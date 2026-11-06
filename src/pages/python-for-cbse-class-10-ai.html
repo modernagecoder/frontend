@@ -101,7 +101,9 @@
           {"@type": "Question", "name": "Do you teach only CBSE's eight programs or more?", "acceptedAnswer": {"@type": "Answer", "text": "More, because the file needs at least fifteen and because variation is the skill. Beyond the eight, students write a bar chart, a marks dictionary with a lookup, a bag-of-words counter that connects to the NLP unit, a grayscale conversion of an image, a CSV filter and a small statistics report, all in the same four libraries. That makes eighteen or so programs the student wrote and can defend, which is the file examiners reward."}},
           {"@type": "Question", "name": "What laptop does the practical work need?", "acceptedAnswer": {"@type": "Answer", "text": "Any Windows or Mac laptop from roughly the last eight years that can run a browser and Jupyter, which is nearly all of them. Nothing here is heavy: NumPy, Pandas and Matplotlib run comfortably on modest machines. A tablet or phone is not enough for the labs, because the file has to be written, run and shown from a real keyboard."}},
           {"@type": "Question", "name": "Does this Python carry forward to Class 11 and 12?", "acceptedAnswer": {"@type": "Answer", "text": "Directly. The Class 11 and 12 AI subject, code 843, and the Computer Science and Informatics Practices subjects all build on exactly these libraries, especially Pandas and Matplotlib. A Class 10 student who genuinely understands the eight programs on this page rather than storing them arrives in Class 11 ahead, and the companion Python for Teens course exists for the ones who want to keep going."}},
-          {"@type": "Question", "name": "How do we start?", "acceptedAnswer": {"@type": "Answer", "text": "Send the form and a mentor books a free demo class for the Monday and Wednesday batch. Ask for a Wednesday if Python is the worry: the demo then is a real lab, one suggested program written from scratch in Jupyter with the teacher, broken on purpose and fixed. No card, no enrolment fee, and an honest read on where your child's Python stands."}}
+          {"@type": "Question", "name": "How do we start?", "acceptedAnswer": {"@type": "Answer", "text": "Send the form and a mentor books a free demo class for the Monday and Wednesday batch. Ask for a Wednesday if Python is the worry: the demo then is a real lab, one suggested program written from scratch in Jupyter with the teacher, broken on purpose and fixed. No card, no enrolment fee, and an honest read on where your child's Python stands."}},
+          {"@type": "Question", "name": "What is Advance Python in Class 10 AI?", "acceptedAnswer": {"@type": "Answer", "text": "Advance Python is Unit 7 of the CBSE Class 10 AI (417) curriculum: working in Jupyter Notebook, creating a virtual environment, installing packages, Python fundamentals and the use of libraries such as NumPy, pandas and Matplotlib. It carries no theory marks. It is assessed through the practical file, the practical examination and the viva, which together are worth 35 marks."}},
+          {"@type": "Question", "name": "How do you write the mean, median and mode program using NumPy?", "acceptedAnswer": {"@type": "Answer", "text": "Use np.mean and np.median for the first two. NumPy has no mode function, so take the mode from statistics.mode, from SciPy with stats.mode, or from NumPy alone with np.unique and return_counts, then pick the value with the highest count. Print each result with a label, and be ready to explain why np.mode fails if the examiner asks."}}
         ]
       }
     ]
@@ -414,7 +416,7 @@ print("Shape:", img.shape)
   <div class="bx-wrap">
     <div class="bx-section-head">
       <p class="bx-qlabel">Q3. How is the environment set up?</p>
-      <h2>The recap the curriculum asks for: Jupyter, a virtual environment, packages</h2>
+      <h2>The recap the curriculum asks for: Jupyter Notebook, a virtual environment, packages</h2>
       <p class="bx-lede">Unit 7 opens with exactly these three skills. Done once in the first lab, they never need doing again.</p>
     </div>
     <ol class="bx-steps">
@@ -427,10 +429,74 @@ print("Shape:", img.shape)
   </div>
 </section>
 
+<section class="bx-section bx-section--tint" id="advance">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. How is the NumPy mean median mode program written for full marks?</p>
+      <h2>Advance Python Class 10: the NumPy mean, median and mode program, three correct ways</h2>
+      <p class="bx-lede">Advance Python is Unit 7 of the Class 10 AI curriculum, and the mean, median and mode program is its most examined piece. NumPy gives mean and median directly; mode needs one of three routes, and the viva often asks which one the student used and why.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>The program, as a Jupyter cell</b><span>run in NumPy 2.5 and SciPy 1.18</span></figcaption>
+  <pre>import numpy as np
+import statistics
+from scipy import stats
+
+scores = np.array([56, 78, 64, 91, 78, 64, 85, 78, 70])
+
+print("Mean:", round(np.mean(scores), 2))
+print("Median:", np.median(scores))
+
+<i># Route 1: the statistics module</i>
+print("Mode:", statistics.mode(scores.tolist()))
+<i># Route 2: SciPy</i>
+print("Mode:", stats.mode(scores, keepdims=False).mode)
+<i># Route 3: NumPy alone</i>
+values, counts = np.unique(scores, return_counts=True)
+print("Mode:", values[np.argmax(counts)])</pre>
+  <p class="bx-code-note">Mean 73.78, median 78.0, and all three routes print 78, which appears three times. Nine values, so the median is the fifth after sorting.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>The viva follow-up: two modes</b><span>where the routes disagree</span></figcaption>
+  <pre>ages = [9, 4, 9, 4, 6]
+
+statistics.mode(ages)       <i># 9</i>
+statistics.multimode(ages)  <i># [9, 4]</i>
+
+values, counts = np.unique(ages,
+                   return_counts=True)
+values[np.argmax(counts)]   <i># 4</i>
+
+<b># 9 and 4 both appear twice.</b>
+<b># statistics.mode returns the one met</b>
+<b># first; NumPy and SciPy return the</b>
+<b># smallest. multimode returns both.</b></pre>
+  <p class="bx-code-note">A student who can explain why two correct programs print different modes for the same list has shown more Python than the program itself asks for.</p>
+</figure>
+    </div>
+    <div class="bx-grid-2 bx-mt-40" style="align-items:start">
+      <div>
+        <h3>Jupyter Notebook habits that protect practical marks</h3>
+        <ul class="bx-check">
+          <li><b>One program per cell</b>, run with Shift and Enter, so the output sits directly under the code it came from.</li>
+          <li><b>A Markdown cell above each program</b> with the program number and its aim, which turns the notebook into the file's index.</li>
+          <li><b>Restart the kernel and run all</b> before printing or submitting, so no output depends on a cell that was later deleted.</li>
+          <li><b>Name the notebook after the student</b>, for example ai417_file_riya.ipynb, so the school's copy is never confused with a friend's.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>What else Unit 7 asks for</h3>
+        <p>The curriculum's Advance Python list is short: working in Jupyter Notebook, creating a virtual environment, installing packages, then Python basics and the use of libraries. The eight suggested programs above cover the libraries. What the practical exam adds is a twist on one of them, and what the viva adds is the question "why". Practice for both lives on <a class="bx-link" href="/cbse-class-10-ai-practical-exam-questions">the practical exam questions page</a> and <a class="bx-link" href="/cbse-class-10-ai-viva-questions">the viva questions page</a>. Statistical Data, the other practical-only unit, is done in <a class="bx-link" href="/orange-data-mining-class-10-ai">Orange Data Mining</a>, not Python, and the full set of formulas the programs compute is on <a class="bx-link" href="/cbse-class-10-ai-formula-sheet">the formula sheet</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="bx-section" id="twists">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q4. What does the practical exam change?</p>
+      <p class="bx-qlabel">Q5. What does the practical exam change?</p>
       <h2>Each suggested program, and the twist it usually arrives with</h2>
       <p class="bx-lede">The practical examination is set on Units 4 to 7 and is not the file re-typed. This is how the eight programs tend to reappear, and what a prepared student does with each.</p>
     </div>
@@ -462,7 +528,7 @@ print("Shape:", img.shape)
 <section class="bx-section bx-section--tint" id="beyond">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q5. What fills the file past eight?</p>
+      <p class="bx-qlabel">Q6. What fills the file past eight?</p>
       <h2>Ten more programs, in the same four libraries, that connect to the other units</h2>
     </div>
     <div class="bx-grid-2" style="align-items:start">
@@ -493,7 +559,7 @@ print("Shape:", img.shape)
 <section class="bx-section bx-section--deep" id="fees">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q6. What does the batch cost?</p>
+      <p class="bx-qlabel">Q7. What does the batch cost?</p>
       <h2>Monthly fees, the same for every course we teach</h2>
       <p class="bx-lede">Billed monthly, no admission fee, stop at any month end. The free demo class comes first, and for this page it can be a Wednesday lab.</p>
     </div>
@@ -650,6 +716,8 @@ print("Shape:", img.shape)
       <div class="bx-faq-item"><h3>What laptop does the practical work need?</h3><p>Any Windows or Mac laptop from roughly the last eight years that can run a browser and Jupyter, which is nearly all of them. Nothing here is heavy: NumPy, Pandas and Matplotlib run comfortably on modest machines. A tablet or phone is not enough for the labs, because the file has to be written, run and shown from a real keyboard.</p></div>
       <div class="bx-faq-item"><h3>Does this Python carry forward to Class 11 and 12?</h3><p>Directly. The Class 11 and 12 AI subject, code 843, and the Computer Science and Informatics Practices subjects all build on exactly these libraries, especially Pandas and Matplotlib. A Class 10 student who genuinely understands the eight programs on this page rather than storing them arrives in Class 11 ahead, and the companion Python for Teens course exists for the ones who want to keep going.</p></div>
       <div class="bx-faq-item"><h3>How do we start?</h3><p>Send the form and a mentor books a free demo class for the Monday and Wednesday batch. Ask for a Wednesday if Python is the worry: the demo then is a real lab, one suggested program written from scratch in Jupyter with the teacher, broken on purpose and fixed. No card, no enrolment fee, and an honest read on where your child's Python stands.</p></div>
+      <div class="bx-faq-item"><h3>What is Advance Python in Class 10 AI?</h3><p>Advance Python is Unit 7 of the CBSE Class 10 AI (417) curriculum: working in Jupyter Notebook, creating a virtual environment, installing packages, Python fundamentals and the use of libraries such as NumPy, pandas and Matplotlib. It carries no theory marks. It is assessed through the practical file, the practical examination and the viva, which together are worth 35 marks.</p></div>
+      <div class="bx-faq-item"><h3>How do you write the mean, median and mode program using NumPy?</h3><p>Use np.mean and np.median for the first two. NumPy has no mode function, so take the mode from statistics.mode, from SciPy with stats.mode, or from NumPy alone with np.unique and return_counts, then pick the value with the highest count. Print each result with a label, and be ready to explain why np.mode fails if the examiner asks.</p></div>
     </div>
   </div>
 </section>

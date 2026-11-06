@@ -93,7 +93,9 @@
         "@type": "FAQPage",
         "mainEntity": [
           {"@type": "Question", "name": "Is BlueJ free, and does it run on a Mac?", "acceptedAnswer": {"@type": "Answer", "text": "BlueJ is free and open source, and it runs on Windows, Mac and Linux. The Windows and Mac installers bundle a suitable Java runtime, so on most machines there is nothing else to install. We set it up together in the first class regardless, because the one family in five that hits an installation problem, usually an old operating system or a blocked download, deserves not to spend their first evening fighting it alone."}},
-          {"@type": "Question", "name": "Which version of BlueJ should a Class 10 student use?", "acceptedAnswer": {"@type": "Answer", "text": "A current BlueJ 5 release, version 5.4 or later, on Java 11 or later, which is what our course materials assume and what matches school labs that have updated. If the school runs an older version, the difference is cosmetic for Class 10 work: the class diagram, object bench, editor and terminal behave the same way, and a program written in one compiles in the other. What matters is that the student practises in the same kind of environment they will be examined in."}},
+          {"@type": "Question", "name": "Where should I download BlueJ for ICSE?", "acceptedAnswer": {"@type": "Answer", "text": "From bluej.org, the official BlueJ site. There is no separate ICSE version; schools use the same free BlueJ as everyone else. Pick the file for your computer: the Windows installer, the standalone zip for a machine without install rights, the macOS build or the Intel Mac build, or the Debian package for Linux. Avoid download portals, which often carry old copies."}},
+          {"@type": "Question", "name": "How do I install BlueJ on a laptop?", "acceptedAnswer": {"@type": "Answer", "text": "On Windows, run the installer and accept the defaults. On a Mac, check whether it has Apple silicon or an Intel processor, download the matching build and move BlueJ into Applications. Then open BlueJ, choose Project and New Project, add a class with a main method and compile it. If it compiles and runs, the install is complete, since the Windows and Mac installers bring their own Java."}},
+          {"@type": "Question", "name": "Which version of BlueJ should a Class 10 student use?", "acceptedAnswer": {"@type": "Answer", "text": "The current release from bluej.org, which was 6.0.1 when we checked in October 2026; any version from 5.4 onwards is fine for Class 10 Java, and it is what our course materials assume. If the school runs an older version, the difference is cosmetic for Class 10 work: the class diagram, object bench, editor and terminal behave the same way, and a program written in one compiles in the other. What matters is that the student practises in the same kind of environment they will be examined in."}},
           {"@type": "Question", "name": "Why does the paper mention BlueJ, and can another editor be used?", "acceptedAnswer": {"@type": "Answer", "text": "CISCE's syllabus and papers refer to programs in the BlueJ environment or any program environment with Java as the base, so the board is not strict about the tool. Schools are, in practice, because their labs run BlueJ and the internal assessment happens there. We teach in BlueJ for that reason and because its object bench and class diagram are genuinely good for learning what a class and an object are, which the syllabus's first two Class 10 units are about."}},
           {"@type": "Question", "name": "My child's program will not compile and the error means nothing to them. What do you do?", "acceptedAnswer": {"@type": "Answer", "text": "We teach the error messages as vocabulary, because there are only about eight that a Class 10 student meets regularly, and each one names its cause once you know how to read it. The table on this page is the one we drill: cannot find symbol, missing semicolon, incompatible types, missing return statement, unreachable statement, the array index exception, the null pointer exception and the input mismatch. A student who can read those eight fixes most of their own programs without asking, which is the whole point."}},
           {"@type": "Question", "name": "What is the object bench, and does it matter for the exam?", "acceptedAnswer": {"@type": "Answer", "text": "The object bench is the area at the bottom of the BlueJ window where objects live once you create them from a class: right-click a class, create an object, and it appears there so you can call its methods one at a time and inspect its fields. It is not examined directly, but it is the best tool there is for understanding the difference between a class and an object, what a constructor does, and what a method returns, all of which are examined. We use it heavily in the classes, methods and constructors units."}},
@@ -226,7 +228,7 @@
       <div>
         <h3>Set-up, done once</h3>
         <ol class="bx-steps">
-          <li class="bx-step"><h4>Download the current BlueJ 5 installer for your operating system</h4><p>The Windows and Mac installers include a Java runtime, so for most families nothing else is needed. A machine from the last eight years is plenty; BlueJ is light.</p></li>
+          <li class="bx-step"><h4>Download the current BlueJ installer for your operating system</h4><p>The Windows and Mac installers include a Java runtime, so for most families nothing else is needed. A machine from the last eight years is plenty; BlueJ is light.</p></li>
           <li class="bx-step"><h4>Create a project folder that lives in one place</h4><p>A folder named for the subject, inside it one BlueJ project per topic or assignment. The folder is what travels between home and the school lab on a pen drive, so it is created deliberately rather than wherever the first save landed.</p></li>
           <li class="bx-step"><h4>Write, compile and run one class</h4><p>New class, a main method that prints one line, the Compile button, then right-click and run main. The first successful run is the moment BlueJ stops being a mystery, and it happens in the first fifteen minutes of our first class.</p></li>
         </ol>
@@ -245,10 +247,48 @@
   </div>
 </section>
 
+<section class="bx-section bx-section--deep" id="install">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. How do you download and install BlueJ for ICSE?</p>
+      <h2>BlueJ download for ICSE, and how to install BlueJ on each computer</h2>
+      <p class="bx-lede">There is no special ICSE edition: download the ordinary free BlueJ from its official site, bluej.org, and nowhere else. Copies on download portals are often old or bundled with other software. The installers for Windows and Mac include the Java they need.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Computer</th><th scope="col">Which download</th><th scope="col">How to install</th></tr></thead>
+        <tbody>
+          <tr><td>Windows laptop or desktop</td><td>The Windows installer (64-bit Windows only)</td><td>Run the downloaded file, accept the defaults, then open BlueJ from the Start menu</td></tr>
+          <tr><td>School or shared Windows machine without install rights</td><td>The standalone zip</td><td>Unzip into a folder or onto a USB drive and run BlueJ from there</td></tr>
+          <tr><td>Mac with Apple silicon (M-series)</td><td>The standard macOS build</td><td>Open the download and move BlueJ into Applications</td></tr>
+          <tr><td>Older Mac with an Intel processor</td><td>The separate Intel build</td><td>Same as above; the wrong build is the most common Mac mistake</td></tr>
+          <tr><td>Ubuntu or Debian Linux</td><td>The Debian package</td><td>Install the package, then start BlueJ from the applications menu</td></tr>
+          <tr><td>Chromebook, iPad or Android tablet</td><td>None listed</td><td>Use a Windows, Mac or Linux computer for BlueJ work</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-2 bx-mt-40" style="align-items:start">
+      <div>
+        <h3>Check it works in two minutes</h3>
+        <ol class="bx-steps">
+          <li class="bx-step"><h4>Project, then New Project</h4><p>Name it after the subject. Until a project is open, the class buttons stay greyed out, which many students mistake for a broken install.</p></li>
+          <li class="bx-step"><h4>New Class, then Compile</h4><p>Add a main method that prints your name. No red bar means Java is found and the install is complete.</p></li>
+          <li class="bx-step"><h4>Right-click the class and run main</h4><p>The terminal window opens with your line in it. If it does not appear, check behind the editor before assuming anything is wrong.</p></li>
+        </ol>
+      </div>
+      <div>
+        <h3>If something fails</h3>
+        <p>Most failures are a download meant for another processor, an old copy that predates the bundled Java, or a machine that blocks installs. Our <a class="bx-link" href="/bluej-not-working-fix">BlueJ not working fixes</a> page goes symptom by symptom through what bluej.org itself advises, including the no-JDK message and a terminal that stays blank.</p>
+        <p>Once BlueJ runs, the first lessons on the screen are reading input with Scanner, covered on <a class="bx-link" href="/icse-class-10-data-types-and-input-java">data types and input in Java</a>, and making objects on the bench, which is the subject of <a class="bx-link" href="/icse-class-10-class-as-basis-of-computation">class as the basis of all computation</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="bx-section" id="errors">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q2. What do the error messages mean?</p>
+      <p class="bx-qlabel">Q3. What do the error messages mean?</p>
       <h2>The eight errors a Class 10 student meets, decoded</h2>
       <p class="bx-lede">There are only about eight, and each names its cause once you can read it. Students who learn these as vocabulary fix most of their own programs; students who do not, stop and wait.</p>
     </div>
@@ -272,7 +312,8 @@
       testing with an awkward input matters: a program that compiles is not yet a program that
       works. In the Wednesday lab we plant one of these eight in a program on purpose most weeks and
       have the student find it using only the message, so that by the practical day a red bar is a
-      clue rather than a crisis.
+      clue rather than a crisis. The paper version of the same skill, where the error is spotted
+      without a compiler, is drilled on <a class="bx-link" href="/icse-class-10-java-error-finding-questions">find the error questions</a>.
     </p>
   </div>
 </section>
@@ -280,7 +321,7 @@
 <section class="bx-section bx-section--deep" id="read">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q3. What does reading an error actually look like?</p>
+      <p class="bx-qlabel">Q4. What does reading an error actually look like?</p>
       <h2>The same red bar, met by two students</h2>
       <p class="bx-lede">A method that should return a student's grade will not compile. One student stops; the other reads.</p>
     </div>
@@ -328,7 +369,7 @@
 <section class="bx-section" id="labfile">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q4. How should the lab assignments be organised?</p>
+      <p class="bx-qlabel">Q5. How should the lab assignments be organised?</p>
       <h2>Twenty-plus assignments as clean BlueJ projects an examiner can open in seconds</h2>
     </div>
     <div class="bx-grid-2" style="align-items:start">
@@ -354,7 +395,7 @@
 <section class="bx-section bx-section--tint" id="practical">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q5. What wins on the practical day?</p>
+      <p class="bx-qlabel">Q6. What wins on the practical day?</p>
       <h2>A problem, a lab machine, a clock, an examiner: the five habits that hold up</h2>
       <p class="bx-lede">The school sets the day's format within CISCE's framework. What does not change is the behaviour that earns marks under time, and every one of these is rehearsed in the Wednesday lab.</p>
     </div>
@@ -369,7 +410,8 @@
       The dress rehearsal in the second term runs the whole day once: an unseen problem, the clock,
       and a teacher the student has not met asking questions. The theory paper's countdown, which
       follows the practical, is on
-      <a class="bx-link" href="/icse-class-10-computer-applications-board-exam-preparation">board exam preparation</a>.
+      <a class="bx-link" href="/icse-class-10-computer-applications-board-exam-preparation">board exam preparation</a>, and the questions
+      an examiner tends to ask about a lab program are collected on <a class="bx-link" href="/icse-computer-applications-viva-questions">viva questions</a>.
     </p>
   </div>
 </section>
@@ -377,7 +419,7 @@
 <section class="bx-section" id="mistakes">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q6. What goes wrong in BlueJ specifically?</p>
+      <p class="bx-qlabel">Q7. What goes wrong in BlueJ specifically?</p>
       <h2>Six environment mistakes that cost marks the syllabus never mentions</h2>
     </div>
     <div class="bx-grid-3">
@@ -394,7 +436,7 @@
 <section class="bx-section bx-section--deep" id="fees">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q7. What does it cost?</p>
+      <p class="bx-qlabel">Q8. What does it cost?</p>
       <h2>Monthly fees, with the Tuesday and Wednesday mini batch featured</h2>
       <p class="bx-lede">BlueJ coaching is part of the standard batch, not a separate course. Billed monthly, no admission fee, stop at any month end, and the software itself is free.</p>
     </div>
@@ -506,6 +548,7 @@
           <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
           <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
           <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+          <li><a href="/icse-computer-applications-viva-questions">Viva and oral questions</a></li>
           <li><a href="/icse-class-10-java-error-finding-questions">Find the error questions</a></li>
           <li><a href="/icse-computer-difference-between-questions">Difference between questions</a></li>
         </ul>
@@ -542,7 +585,9 @@
     </div>
     <div class="bx-faq">
       <div class="bx-faq-item"><h3>Is BlueJ free, and does it run on a Mac?</h3><p>BlueJ is free and open source, and it runs on Windows, Mac and Linux. The Windows and Mac installers bundle a suitable Java runtime, so on most machines there is nothing else to install. We set it up together in the first class regardless, because the one family in five that hits an installation problem, usually an old operating system or a blocked download, deserves not to spend their first evening fighting it alone.</p></div>
-      <div class="bx-faq-item"><h3>Which version of BlueJ should a Class 10 student use?</h3><p>A current BlueJ 5 release, version 5.4 or later, on Java 11 or later, which is what our course materials assume and what matches school labs that have updated. If the school runs an older version, the difference is cosmetic for Class 10 work: the class diagram, object bench, editor and terminal behave the same way, and a program written in one compiles in the other. What matters is that the student practises in the same kind of environment they will be examined in.</p></div>
+      <div class="bx-faq-item"><h3>Where should I download BlueJ for ICSE?</h3><p>From bluej.org, the official BlueJ site. There is no separate ICSE version; schools use the same free BlueJ as everyone else. Pick the file for your computer: the Windows installer, the standalone zip for a machine without install rights, the macOS build or the Intel Mac build, or the Debian package for Linux. Avoid download portals, which often carry old copies.</p></div>
+      <div class="bx-faq-item"><h3>How do I install BlueJ on a laptop?</h3><p>On Windows, run the installer and accept the defaults. On a Mac, check whether it has Apple silicon or an Intel processor, download the matching build and move BlueJ into Applications. Then open BlueJ, choose Project and New Project, add a class with a main method and compile it. If it compiles and runs, the install is complete, since the Windows and Mac installers bring their own Java.</p></div>
+      <div class="bx-faq-item"><h3>Which version of BlueJ should a Class 10 student use?</h3><p>The current release from bluej.org, which was 6.0.1 when we checked in October 2026; any version from 5.4 onwards is fine for Class 10 Java, and it is what our course materials assume. If the school runs an older version, the difference is cosmetic for Class 10 work: the class diagram, object bench, editor and terminal behave the same way, and a program written in one compiles in the other. What matters is that the student practises in the same kind of environment they will be examined in.</p></div>
       <div class="bx-faq-item"><h3>Why does the paper mention BlueJ, and can another editor be used?</h3><p>CISCE's syllabus and papers refer to programs in the BlueJ environment or any program environment with Java as the base, so the board is not strict about the tool. Schools are, in practice, because their labs run BlueJ and the internal assessment happens there. We teach in BlueJ for that reason and because its object bench and class diagram are genuinely good for learning what a class and an object are, which the syllabus's first two Class 10 units are about.</p></div>
       <div class="bx-faq-item"><h3>My child's program will not compile and the error means nothing to them. What do you do?</h3><p>We teach the error messages as vocabulary, because there are only about eight that a Class 10 student meets regularly, and each one names its cause once you know how to read it. The table on this page is the one we drill: cannot find symbol, missing semicolon, incompatible types, missing return statement, unreachable statement, the array index exception, the null pointer exception and the input mismatch. A student who can read those eight fixes most of their own programs without asking, which is the whole point.</p></div>
       <div class="bx-faq-item"><h3>What is the object bench, and does it matter for the exam?</h3><p>The object bench is the area at the bottom of the BlueJ window where objects live once you create them from a class: right-click a class, create an object, and it appears there so you can call its methods one at a time and inspect its fields. It is not examined directly, but it is the best tool there is for understanding the difference between a class and an object, what a constructor does, and what a method returns, all of which are examined. We use it heavily in the classes, methods and constructors units.</p></div>

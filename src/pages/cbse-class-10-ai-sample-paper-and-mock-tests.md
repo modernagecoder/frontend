@@ -1,6 +1,6 @@
 ---
-title: "CBSE Class 10 AI Sample Paper 2026-27 and Mock Tests, Solved Live"
-description: "CBSE Class 10 AI (417) sample paper 2026-27 solved live, timed mock tests marked to the CBSE scheme, practical and viva mocks, and live doubt solving every week."
+title: "CBSE Class 10 AI Sample Paper 2026-27 Solutions and Mocks"
+description: "CBSE Class 10 AI (417) sample paper 2026-27 solutions, an online mock test series marked to the CBSE scheme, practical and viva mocks, live every week."
 canonical: https://learn.modernagecoders.com/cbse-class-10-ai-sample-paper-and-mock-tests
 source: src/pages/cbse-class-10-ai-sample-paper-and-mock-tests.html
 updated: 2026-11-06
@@ -14,9 +14,9 @@ CBSE releases a sample question paper and a separate marking scheme for every sk
 
 ### Where it comes from, and what it fixes
 
-The sample question paper (SQP) and its marking scheme are published on CBSE's academic website, cbseacademic.nic.in, under sample question papers for the session, with Artificial Intelligence listed among the Class X skill subjects as code 417. For 2026-27, CBSE posted the main-subject sample papers in the third week of September 2026. As of 13 October 2026, the 417 link on its skill-education sample paper page still opens the 2025-26 paper, and because the 2026-27 curriculum keeps the same units and marks, that paper remains the right one to practise until the new one is posted. We solve the 2026-27 paper in the first Monday class after it appears.
+The sample question paper (SQP) and its marking scheme are published on CBSE's academic website, cbseacademic.nic.in, under sample question papers for the session, with Artificial Intelligence listed among the Class X skill subjects as code 417. For 2026-27, CBSE posted the main-subject sample papers in the third week of September 2026. The file listed against 417 for 2026-27 is the 2025-26 sample paper re-listed, not a new paper. The 2026-27 curriculum keeps the same units and marks, so that paper and its marking scheme are the right ones to practise, and they are what our Monday classes solve.
 
-The SQP is the board's own statement of the year's question design: how many questions, which are objective and which are written, where the internal choices sit and how the 50 theory marks are spread. In the latest official paper, for 2025-26, the design is 21 questions of which a student answers 15 in two hours. Section A carries 24 marks of objective questions: any four of six on employability skills, then twenty from the AI units. Section B carries 26 marks of written answers: any three of five two-mark employability answers, any four of six two-mark AI answers of about 20 to 30 words, and any three of five four-mark long answers of about 50 to 80 words. The marking scheme is the other half: it lists the value points an examiner looks for in every written answer, and it is the closest thing a student will ever see to the answer key on the day.
+The SQP is the board's own statement of the year's question design: how many questions, which are objective and which are written, where the internal choices sit and how the 50 theory marks are spread. In the latest official paper, for 2025-26, the design is 21 questions of which a student answers 15 in two hours. Section A carries 24 marks of objective questions: any four of six on employability skills, then twenty from the AI units, and the mix includes assertion and reason and two-statement items, which also appeared in the 2025 and 2026 main papers. Section B carries 26 marks of written answers: any three of five two-mark employability answers, any four of six two-mark AI answers of about 20 to 30 words, and any three of five four-mark long answers of about 50 to 80 words. The marking scheme is the other half: it lists the value points an examiner looks for in every written answer, and it is the closest thing a student will ever see to the answer key on the day.
 
 ### Why the marking scheme is the real study material
 
@@ -26,7 +26,64 @@ That is why our first pass through the sample paper is untimed and open: the tea
 
 When is the 2027 paper? On Wednesday 24 February 2027, from 10:30 AM to 12:30 PM IST, in the same slot as Computer Applications (165) and Information Technology (402), according to the CBSE date sheet released 6 November 2026. Class 10 main exams run from 16 February to 9 March 2027, and full mocks 2 and 3 run from late January up to that paper. In 2026 the AI paper sat on Friday 27 February. The 2027 schedule, the practical window and the two-exam rules are kept current on [the 417 exam date and paper pattern page](/cbse-class-10-ai-exam-date-and-paper-pattern).
 
-## Seven kinds of practice paper, timed to the school year
+## CBSE Class 10 AI sample paper solutions: what a solved answer has to show
+
+The official solution is the CBSE marking scheme itself, published beside the paper. A useful solution, from a book or a teacher, does more than give the answer: it shows where each mark sits, so a student can check their own attempt line by line.
+
+- Question type in the paper | A solution is complete when it shows | What a weak solution leaves out
+
+- Multiple choice, one mark | The option and a one-line reason the nearest wrong option fails | The reason, so the same trap catches the student again
+
+- Assertion and reason, one mark | A verdict on each statement, then whether the reason explains the assertion | The third check, which is where most errors happen
+
+- Two-mark short answer | Two separate value points, each in the subject's own term | The split between the points, so a student cannot see which one they missed
+
+- Four-mark case or numerical | The concept named, the working shown, the judgement in the final line | The judgement line, usually worth a full mark on its own
+
+```
+1. Assertion (A): A model that scores
+   95% accuracy can still be a poor model.
+   Reason (R): Accuracy pools all correct
+   predictions and hides which class
+   the errors fall in.
+
+2. Assertion (A): Stemming always gives
+   a meaningful dictionary word.
+   Reason (R): Stemming cuts affixes by
+   rule without checking a dictionary.
+
+(a) Both true, R explains A
+(b) Both true, R does not explain A
+(c) A true, R false
+(d) A false, R true
+```
+
+```
+1. Is A true?  Yes: on a rare class,
+               always saying "no" scores
+               high and finds nothing.
+   Is R true?  Yes.
+   Does R explain A?  Yes, it is the
+               cause.          Answer (a)
+
+2. Is A true?  No: "studies" stems to
+               "studi", not a word.
+   Is R true?  Yes, that is what a
+               stemmer does.   Answer (d)
+
+# Three checks, in the same order,
+# every time.
+```
+
+We do not reproduce CBSE's paper or its scheme on this page; families should download both from
+cbseacademic.nic.in. In class the teacher solves the paper with the official scheme on screen. For
+papers set in earlier years, the questions are described and solved in our own words on
+[the previous year papers page](/cbse-class-10-ai-previous-year-question-papers),
+and how examiners read the scheme is explained on
+[the 417 marking scheme guide](/cbse-class-10-ai-marking-scheme). More items in the format
+above are on [our assertion and reason set](/cbse-class-10-ai-assertion-reason-questions).
+
+## The 417 mock test series: seven kinds of practice paper, timed to the school year
 
 Every row below is a paper your child writes, has marked, and gets back in a live review. A mock that is only marked teaches little; a mock in which every lost mark is re-attempted on the spot teaches a great deal.
 
@@ -53,6 +110,30 @@ full mocks, each one followed by a review class. Mock papers are set in the samp
 copied from it, so a student cannot score well by remembering answers, only by understanding them. The
 full revision strategy behind the series, unit weights and the countdown, sits on
 [the board exam preparation page](/cbse-class-10-ai-board-exam-preparation).
+
+## Online test or marked mock: what each one can and cannot tell you
+
+Free online tests for Class 10 AI are almost always one-mark quizzes that score themselves. They are useful for Section A, which is 24 of the 50 theory marks. The other 26 are written answers, and only a person reading against the scheme can mark those.
+
+- What you want to know | Self-scoring online quiz | Marked mock in our series
+
+- Does my child know the one-mark facts? | Yes, quickly | Yes
+
+- Can they handle assertion and reason items? | Partly: the score shows the answer, not the faulty check | Yes, with the check that failed named
+
+- Do the two-mark answers hit both value points? | No | Yes, point by point
+
+- Is the four-mark judgement line there? | No | Yes
+
+- Will they finish in two hours? | No, a quiz has no written section to slow them | Yes, the full paper is timed
+
+### How our online mock test series runs
+
+Every paper in the series is written online, in the live class or at home under the same timer. Objective items go into the shared document; written answers go on paper and are photographed for marking. The review happens live on video, with the marked answers on screen, so a student in Pune and a student in Doha get the same review on the same evening.
+
+### Using quizzes well between mocks
+
+Short one-mark quizzes are a good habit on days without a class. Our [unit wise MCQ set](/cbse-class-10-ai-mcq-questions) works as one, with a reason under every answer. For written practice, use the [case based questions](/cbse-class-10-ai-case-based-questions) and the printable [worksheets](/cbse-class-10-ai-worksheets), then bring the attempts to class for marking. After the board paper, our [paper analysis and answer key](/cbse-class-10-ai-paper-analysis) shows how the real paper compared.
 
 ## One Monday, one paper section, every answer marked in front of the class
 
@@ -190,7 +271,11 @@ Option 1, fixed batch: Monday and Wednesday at 9:00 PM IST, live online, fifteen
 
 **Where can I download the CBSE Class 10 AI sample paper for 2026-27?** From CBSE's academic website, cbseacademic.nic.in, in the sample question papers section for the 2026-27 session, where Artificial Intelligence appears among the Class X skill subjects as code 417 with its marking scheme alongside. Download both files. The marking scheme shows the value points examiners award marks for, and it is the more useful of the two for revision.
 
-**Do you solve the official CBSE sample paper in class?** Yes. Once CBSE publishes the 417 sample paper for the session, it is solved live in the Monday class: first untimed with the marking scheme on screen so students see which phrases earn marks, then re-attempted under time as a full mock. Doubts on any question are answered live before moving on.
+**Do you solve the official CBSE sample paper in class?** Yes. The 417 sample paper CBSE lists for the session, which for 2026-27 is the 2025-26 paper re-listed, is solved live in the Monday class: first untimed with the marking scheme on screen so students see which phrases earn marks, then re-attempted under time as a full mock. Doubts on any question are answered live before moving on.
+
+**Where can I find CBSE Class 10 AI sample paper solutions?** The official solution is the marking scheme CBSE publishes beside the sample paper on cbseacademic.nic.in, listing the value points for every written answer. Download it with the paper. In our classes the paper is solved live with that scheme on screen, and each student checks their own attempt point by point before re-writing the answers that lost marks.
+
+**Is there an online test series for CBSE Class 10 AI?** Yes. Our mock test series runs online: a diagnostic paper, unit tests, Part A drills, the sample paper and three full timed mocks, written in the live class or at home under the same timer and reviewed live on video. Free self-scoring quizzes help with one-mark items, but the 26 marks of written answers need a teacher marking against the scheme.
 
 **How many mock tests are there?** Three full 50-mark theory mocks under exam time from January to the board paper, plus a diagnostic paper on joining, short unit check tests after each theory unit, weekly Part A drill sheets from November, the official sample paper solved live, and monthly practical and viva mocks from October. Every paper is reviewed in class with lost marks re-written.
 

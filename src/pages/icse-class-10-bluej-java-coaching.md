@@ -9,7 +9,18 @@ source: src/pages/icse-class-10-bluej-java-coaching.html
 
 ## Set-up in one evening, and the four parts of the window
 
-Download the current BlueJ 5 installer; the Windows and Mac installers bundle a Java runtime. Create one subject folder with one BlueJ project per assignment or topic, the folder that travels between home and the school lab. Write, compile and run one class in the first fifteen minutes. The window has four parts worth knowing: the class diagram, where each class is a box; the editor, with the Compile button; the object bench, where objects appear when created from a class and can have their methods called and fields inspected; and the terminal window, where output appears and input is typed. Two objects of one Student class on the bench turn the class-versus-object definition into two boxes with different names in them.
+Download the current BlueJ installer; the Windows and Mac installers bundle a Java runtime. Create one subject folder with one BlueJ project per assignment or topic, the folder that travels between home and the school lab. Write, compile and run one class in the first fifteen minutes. The window has four parts worth knowing: the class diagram, where each class is a box; the editor, with the Compile button; the object bench, where objects appear when created from a class and can have their methods called and fields inspected; and the terminal window, where output appears and input is typed. Two objects of one Student class on the bench turn the class-versus-object definition into two boxes with different names in them.
+
+## BlueJ download for ICSE, and how to install it
+
+There is no ICSE edition: download the free BlueJ from bluej.org only. The Windows and Mac installers include Java.
+
+- Windows (64-bit): run the installer, accept the defaults. No install rights: use the standalone zip from a folder or USB drive.
+- Mac with Apple silicon: the standard macOS build. Intel Mac: the separate Intel build. Move BlueJ into Applications.
+- Ubuntu or Debian: the Debian package.
+- Chromebook, iPad, Android tablet: no download is listed; use a Windows, Mac or Linux computer.
+
+Check it works: Project, New Project; New Class with a main that prints one line; Compile; right-click and run main. Problems: [BlueJ not working fixes](/bluej-not-working-fix). Next steps: [data types and input](/icse-class-10-data-types-and-input-java), [class as the basis of computation](/icse-class-10-class-as-basis-of-computation), [find the error questions](/icse-class-10-java-error-finding-questions), [viva questions](/icse-computer-applications-viva-questions).
 
 ## The eight errors decoded
 
@@ -47,7 +58,11 @@ BlueJ coaching is part of the standard Computer Applications batch. Monthly, no 
 
 **Is BlueJ free, and on a Mac?** Free and open source, on Windows, Mac and Linux, with a Java runtime bundled in the installers.
 
-**Which version?** A current BlueJ 5 release, 5.4 or later, on Java 11 or later; older school versions behave the same for Class 10 work.
+**Where to download BlueJ for ICSE?** bluej.org, the official site; there is no separate ICSE version.
+
+**How to install BlueJ?** Windows: run the installer. Mac: pick the Apple silicon or Intel build and move it into Applications. Then make a project, a class and compile once.
+
+**Which version?** The current bluej.org release (6.0.1 in October 2026); anything from 5.4 onwards is fine, and older school versions behave the same for Class 10 work.
 
 **Can another editor be used?** CISCE refers to BlueJ or any environment with Java as the base; schools use BlueJ, and its object bench is a genuine teaching tool.
 
@@ -67,7 +82,7 @@ Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 stude
 
 **Programs for Section B:** [ICSE Java programs practice](/icse-class-10-java-programs-practice), [String programs](/icse-class-10-string-programs), [Special number programs](/icse-special-number-programs-java), [Sorting and searching programs](/icse-class-10-sorting-and-searching-programs), [2D array programs](/icse-class-10-2d-array-programs), [Pattern programs](/icse-class-10-pattern-programs-java), [Menu driven and switch case](/icse-class-10-menu-driven-programs), [Series programs](/icse-class-10-series-programs-java), [Slab and bill programs](/icse-class-10-slab-and-bill-programs).
 
-**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
+**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Viva and oral questions](/icse-computer-applications-viva-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
 
 **Notes and revision:** [Chapter-wise notes](/icse-computer-applications-notes), [Textbook solutions guide](/icse-computer-applications-textbook-solutions-guide), [Worksheets with answers](/icse-computer-applications-worksheets).
 

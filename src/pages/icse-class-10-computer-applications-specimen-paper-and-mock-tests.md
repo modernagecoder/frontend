@@ -3,7 +3,7 @@ title: "ICSE Computer Applications Specimen Paper 2027 and Mock Tests"
 description: "ICSE Class 10 Computer Applications (Java) specimen paper 2027 solved live, two-hour mock tests marked like the board, BlueJ practical mocks and live doubts."
 canonical: https://learn.modernagecoders.com/icse-class-10-computer-applications-specimen-paper-and-mock-tests
 source: src/pages/icse-class-10-computer-applications-specimen-paper-and-mock-tests.html
-updated: 2026-10-13
+updated: 2026-11-06
 ---
 
 > The best way to use the ICSE Class 10 Computer Applications specimen paper for 2027 is to solve it twice: once untimed, to learn the question shapes of Section A and the program families of Section B, then as a full two-hour mock. The theory paper is 100 marks, Section A forty compulsory short-answer marks and Section B sixty marks of Java programs written with variable descriptions, plus a separate 100-mark internal assessment. Modern Age Coders solves the CISCE specimen paper live in BlueJ, then runs three full two-hour mocks marked section by section, monthly BlueJ practical mocks, an internal assessment rehearsal and live doubt solving, in a Tuesday 5:30 PM and Wednesday 8 PM IST mini batch or personalised one to one.
@@ -26,7 +26,7 @@ Section A rewards precision rather than length: exact Java terms, outputs traced
 
 The 2027 written paper: CISCE had not released the ICSE 2027 timetable when we last checked on 13 October 2026; last year's appeared in mid-November. The 2026 ICSE examinations ran from 17 February to 30 March, so expect Computer Applications to fall inside the February to March 2027 window. For the full CISCE timetable, the internal assessment window and every rule of the paper, read [ICSE Computer Applications exam date 2027 and pattern](/icse-class-10-computer-applications-exam-date-and-paper-pattern).
 
-## The ICSE practice ladder: a diagnostic first, an examiner rehearsal last
+## The ICSE computer mock test series: a diagnostic first, an examiner rehearsal last
 
 Every paper below is written, marked and returned in a live review where lost marks are re-attempted on the spot. A Java mock reviewed only by its score teaches almost nothing.
 
@@ -51,6 +51,55 @@ school's internal assessment, so January belongs to the written paper and its th
 follow the specimen's design but use fresh questions, so a student who remembers last week's answers gains
 nothing; only one who can trace and write Java does. The time plan for the two hours and the full
 countdown are set out in our [ICSE board exam preparation guide](/icse-class-10-computer-applications-board-exam-preparation).
+
+## Sample paper 2027 for Computer Applications, and a ten-minute online test
+
+A specimen paper comes from CISCE itself; a sample paper is anyone else's paper written in the specimen's design. Both are useful, but only the specimen tells you what the board intends, so use it as the reference and the sample papers as extra practice.
+
+- Paper | Who writes it | Good for | Watch out for
+
+- Specimen paper | CISCE | Learn the year's design and marks, solve it twice | Only one exists per year, so do not waste it in week one
+
+- Sample paper 2027 (publisher or school) | Publishers, schools, tutors | Volume of timed practice in the specimen's design | Some include topics outside the 2027 syllabus, such as recursion; skip those
+
+- Previous year papers | CISCE, from past board exams | Seeing which shapes repeat across years | Older papers predate the current specimen design
+
+- Our full mocks | Our teachers, fresh each time | Two-hour rehearsal, marked part by part and reviewed live | Worth most after the lab file is closed
+
+- Online test or quiz | Many websites and apps | Quick Section A drills on a phone | Auto-marking cannot read a program, so Section B still needs a teacher
+
+### A ten-question online test in the Section A style
+
+Set a timer for ten minutes, write your answers on paper, then check them against the key. Every code answer below was compiled and run in Java.
+
+- # | Question | Answer | Why
+
+- 1 | Which is not a primitive type: int, char, String, boolean? | String | String is a class, so it is a reference type
+
+- 2 | System.out.println(10 % 4 * 3 + 2); | 8 | % and * share a level and go left to right: 2 * 3 + 2
+
+- 3 | System.out.println("Board".length() + "Exam".indexOf('a')); | 7 | 5 plus 2, both int, so they add
+
+- 4 | System.out.println(Math.max(-3.5, -3)); | -3.0 | A double argument makes the result a double
+
+- 5 | int x = 7; System.out.println(x++ * 2 + x); | 22 | x++ gives 7 then x becomes 8: 14 + 8
+
+- 6 | Which keyword makes one copy of a variable shared by every object? | static | A class variable belongs to the class, not each object
+
+- 7 | System.out.println(Character.toLowerCase('Q') + 1); | 114 | 'q' is 113, and char plus int is int
+
+- 8 | How many times does for (int i = 1; i <= 20; i += 4) run? | 5 | i takes 1, 5, 9, 13 and 17
+
+- 9 | System.out.println("TEST".replace('T', 'B')); | BESB | replace changes every match, not just the first
+
+- 10 | Which search needs the array sorted before it starts? | Binary search | It discards half the array by comparing with the middle
+
+Eight or more correct in ten minutes is a good Section A pace. Fewer than six usually means the rules are known but
+not yet traced carefully. For longer drills by shape, use the [MCQ set for Question 1](/icse-computer-applications-mcq-questions),
+the [predict the output questions](/icse-class-10-java-output-questions) and the
+[find the error questions](/icse-class-10-java-error-finding-questions). Whole papers with worked answers are on
+[ICSE Computer Applications previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), and once the
+2027 paper is sat, the [paper analysis and answer key](/icse-computer-applications-paper-analysis) page reviews it question by question.
 
 ## Up to six students, one shared BlueJ screen, every answer marked aloud
 
@@ -177,6 +226,10 @@ Option 1, fixed batch (for families in India): Tuesday at 5:30 PM and Wednesday 
 
 **Where can I get the ICSE Computer Applications specimen paper for 2027?** CISCE publishes specimen question papers for ICSE subjects on its website, cisce.org, ahead of the examination, and schools pass them on to students. Download the Computer Applications specimen for the 2027 examination and keep it beside your child's practice: nothing else shows as reliably how CISCE intends to set the paper.
 
+**Is a sample paper 2027 for Computer Applications the same as the specimen paper?** No. The specimen paper is published by CISCE and shows the design the board intends for the year. A sample paper is written by a publisher, school or tutor in that design. Sample papers give extra timed practice, but check each one against the 2027 syllabus, because some still carry recursion or other topics the board no longer examines.
+
+**Is there an ICSE computer mock test series online?** Yes. Our series runs live online: a diagnostic on joining, weekly Section A and Section B drills, the specimen solved together, three full two-hour mocks marked part by part, and a BlueJ practical rehearsal. Short online tests are useful for Section A speed, but a program answer needs a teacher reading it, which is why every mock is reviewed live.
+
 **Do you solve the specimen paper in class?** Yes. Once the specimen for the year is available, it is solved live: Section A in the Tuesday class and Section B in the Wednesday class, first untimed so each question's method is clear, then re-attempted under time. Every output is traced on paper and then checked by running the code in BlueJ.
 
 **How many mock tests do students write?** Three full 100-mark papers under two-hour conditions from January to the board paper, plus a diagnostic paper on joining, weekly Section A shape drills, weekly program family sets, the specimen paper solved live, monthly BlueJ practical mocks and an internal assessment rehearsal. Each paper is reviewed with lost marks re-attempted.
@@ -205,7 +258,7 @@ Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 stude
 
 **Programs for Section B:** [ICSE Java programs practice](/icse-class-10-java-programs-practice), [String programs](/icse-class-10-string-programs), [Special number programs](/icse-special-number-programs-java), [Sorting and searching programs](/icse-class-10-sorting-and-searching-programs), [2D array programs](/icse-class-10-2d-array-programs), [Pattern programs](/icse-class-10-pattern-programs-java), [Menu driven and switch case](/icse-class-10-menu-driven-programs), [Series programs](/icse-class-10-series-programs-java), [Slab and bill programs](/icse-class-10-slab-and-bill-programs).
 
-**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
+**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Viva and oral questions](/icse-computer-applications-viva-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
 
 **Notes and revision:** [Chapter-wise notes](/icse-computer-applications-notes), [Textbook solutions guide](/icse-computer-applications-textbook-solutions-guide), [Worksheets with answers](/icse-computer-applications-worksheets).
 

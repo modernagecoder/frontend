@@ -94,10 +94,11 @@
         "mainEntity": [
           {"@type": "Question", "name": "How many programs must a student write in the ICSE Computer Applications paper?", "acceptedAnswer": {"@type": "Answer", "text": "Four. Section B is worth 60 marks and offers a choice of programming questions, of which any four must be attempted at 15 marks each. That choice is the most useful fact on this page: a student who is genuinely fluent in four of the six families below can score full marks in Section B without ever touching the families they find hardest, which is why practice is organised by family rather than by chapter."}},
           {"@type": "Question", "name": "Which program families come up most often?", "acceptedAnswer": {"@type": "Answer", "text": "Arrays and strings appear in almost every paper, usually as one program each, and a class-based program with a constructor and methods is nearly as regular. Menu-driven programs using switch, number and pattern programs, and two-dimensional array programs fill the remaining choices. Past papers are the honest guide, and the pattern across them is stable enough that our Wednesday labs cover all six families twice before the mocks."}},
+          {"@type": "Question", "name": "Where can I find ICSE Class 10 Java programs sorted by type?", "acceptedAnswer": {"@type": "Answer", "text": "This page is the index. It links a separate practice page for each family: string programs, special number programs, sorting and searching, 2D arrays, pattern programs, menu driven programs, series programs, slab and bill programs, and methods with overloading. Each family page carries original programs with outputs we ran in Java, a variable description and the mistakes that family invites."}},
           {"@type": "Question", "name": "What are the 15 marks per program given for?", "acceptedAnswer": {"@type": "Answer", "text": "CISCE does not publish a line-by-line rubric, but its stated expectations point at what is rewarded: a program in Java that solves the stated problem, written using variable descriptions or mnemonic codes so the logic is clearly depicted, in a proper class structure, producing the required output in the required format. In practice that means marks for the logic, the correct use of the syllabus construct the question targets, the class and method structure, the variable description, and the output. A program that is logically right but has no variable description leaves marks on the table."}},
           {"@type": "Question", "name": "Is the variable description compulsory?", "acceptedAnswer": {"@type": "Answer", "text": "The syllabus says Section B programs should be written using variable descriptions or mnemonic codes so the logic is clearly depicted, and papers routinely instruct students to include them. Treat it as compulsory: a short table beside each program listing every variable, its data type and its purpose. It costs a minute, earns marks, and, in our experience, catches the student's own undeclared or misused variables while they write it."}},
           {"@type": "Question", "name": "Can programs be written without a main method, as a class with methods?", "acceptedAnswer": {"@type": "Answer", "text": "When the question gives a class skeleton with data members and method signatures, the student writes exactly that class and its methods; a main method is only needed if the question asks for one or asks the student to create an object and call the methods. When the question simply says write a program, a complete class with a main method is the safest form. Reading the question's class structure carefully before writing is itself a mark-earning habit."}},
-          {"@type": "Question", "name": "Should my child use Scanner or BufferedReader for input?", "acceptedAnswer": {"@type": "Answer", "text": "Either is accepted; what matters is that the program declares its input correctly and reads the right type. Scanner is shorter and is what most ICSE schools and textbooks now use, so it is what we teach by default, with the import line written every time. A student who knows one input method well will never lose marks for not knowing the other."}},
+          {"@type": "Question", "name": "Should my child use Scanner or BufferedReader for input?", "acceptedAnswer": {"@type": "Answer", "text": "Scanner. The CISCE specimen paper states that BufferedReader and DataInputStream should not be used in Section B programs, and its own questions ask for Scanner. We teach Scanner from the first week, with the import line written every time and the right method for each type: nextInt for whole numbers, nextDouble for decimals, next for one word and nextLine for a full line."}},
           {"@type": "Question", "name": "How is practising programs different from practising the theory?", "acceptedAnswer": {"@type": "Answer", "text": "Theory is recognition; programs are production. A student can recognise a correct bubble sort in Section A and still be unable to write one from a blank class under time, and only writing fixes that. Our Wednesday labs are entirely production: the program is written from nothing, compiled, corrected and explained, and the variation exercise afterwards changes the question so that the student proves they understood rather than remembered."}},
           {"@type": "Question", "name": "How many programs should a student have written before the board exam?", "acceptedAnswer": {"@type": "Answer", "text": "Around sixty, in our batch: one Wednesday program and one variation each week across the year, plus the lab assignments and the mock papers. That is roughly ten per family, which is where a program stops being a memory and becomes a shape the student can produce on demand. Fewer than twenty and the student is still reproducing; more than sixty adds little beyond confidence."}},
           {"@type": "Question", "name": "What does the programs practice cost?", "acceptedAnswer": {"@type": "Answer", "text": "It is the Wednesday half of the standard batch, not a separate course: the Tuesday and Wednesday mini batch of up to six, one to one, and the larger group batch on other timings are all shown on this page in your own currency, billed monthly with no admission fee. The free demo class is a Wednesday-style lab, so you see the practice format before deciding anything."}},
@@ -232,7 +233,7 @@
           <tr><td>Single-dimensional arrays</td><td>Accept n values, then search, sort, sum, count or find the largest</td><td>Indexing from zero, linear and binary search, bubble and selection sort</td></tr>
           <tr><td>String handling</td><td>Reverse, test a palindrome, count vowels or words, change case by a rule, rearrange a sentence</td><td>charAt and length, building a new string, String methods used correctly</td></tr>
           <tr><td>Classes with constructors and methods</td><td>Given a class with named data members and method signatures, write the class</td><td>Constructors, parameters, methods that return values, calling methods from main</td></tr>
-          <tr><td>Double-dimensional arrays</td><td>Accept a matrix, then row or column sums, diagonals, transpose or the largest element</td><td>Nested loops over rows and columns, two indices kept apart</td></tr>
+          <tr><td>Double-dimensional arrays</td><td>Accept a matrix, print it in rows, then row, column or diagonal sums</td><td>Nested loops over rows and columns, two indices kept apart</td></tr>
         </tbody>
       </table>
     </div>
@@ -246,10 +247,35 @@
   </div>
 </section>
 
+<section class="bx-section bx-section--deep" id="hub">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. Where is each family practised in full?</p>
+      <h2>Every ICSE Java program family, each with its own practice page</h2>
+      <p class="bx-lede">This page is the index. Each family below has a page of its own with original programs, outputs we ran in Java, variable descriptions and the traps that family sets. Work through them in the order of the ladder further down, or start with whichever family your last test exposed.</p>
+    </div>
+    <div class="bx-grid-3">
+      <div class="bx-card"><h3><a class="bx-link" href="/icse-class-10-string-programs">String programs</a></h3><p>Palindrome words, Pig Latin, character frequency and word counts, all built a character at a time, with a table of the String methods the syllabus permits.</p></div>
+      <div class="bx-card"><h3><a class="bx-link" href="/icse-special-number-programs-java">Special number programs</a></h3><p>Niven, spy, Armstrong, perfect and palindrome numbers. Each is the same digit loop with a different test at the end, and the page lines the tests up side by side.</p></div>
+      <div class="bx-card"><h3><a class="bx-link" href="/icse-class-10-sorting-and-searching-programs">Sorting and searching programs</a></h3><p>Linear and binary search, bubble and selection sort on one-dimensional arrays, each traced pass by pass the way a Section A question asks for it.</p></div>
+      <div class="bx-card"><h3><a class="bx-link" href="/icse-class-10-2d-array-programs">2D array programs</a></h3><p>Accepting a matrix, printing it in rows, and the row, column and diagonal sums that make up the whole of the 2027 matrix syllabus.</p></div>
+      <div class="bx-card"><h3><a class="bx-link" href="/icse-class-10-pattern-programs-java">Pattern programs</a></h3><p>Number, star and letter triangles, where the real work is choosing what the inner loop runs up to. Each shape comes with that rule written out.</p></div>
+      <div class="bx-card"><h3><a class="bx-link" href="/icse-class-10-menu-driven-programs">Menu driven programs</a></h3><p>switch menus with a break in every case and a default that catches a bad choice, often wrapped round a number test or a series.</p></div>
+      <div class="bx-card"><h3><a class="bx-link" href="/icse-class-10-series-programs-java">Series programs</a></h3><p>Sums built from powers, factorials and alternating signs, and the one declaration that silently turns a decimal sum into a whole number.</p></div>
+      <div class="bx-card"><h3><a class="bx-link" href="/icse-class-10-slab-and-bill-programs">Slab and bill programs</a></h3><p>Electricity, courier and discount bills written as a class to a specification, the shape the specimen puts first in Section B.</p></div>
+      <div class="bx-card"><h3><a class="bx-link" href="/icse-class-10-user-defined-methods-overloading">Methods and overloading</a></h3><p>Three methods sharing one name, and the skill of deciding which version each call in main reaches, the specimen's last program.</p></div>
+    </div>
+    <p class="bx-mt-40">
+      Before any family, a student needs loops that do exactly what they intend. If loop counts still go wrong by one, spend a week on
+      <a class="bx-link" href="/icse-class-10-loop-programs-java">loops and loop conversion</a> first; every family above is built on them.
+    </p>
+  </div>
+</section>
+
 <section class="bx-section" id="worked">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q2. What does a fifteen-mark program look like?</p>
+      <p class="bx-qlabel">Q3. What does a fifteen-mark program look like?</p>
       <h2>Eight worked programs, one or two per family, each with its variable description</h2>
       <p class="bx-lede">Each of these compiles and runs in BlueJ as written. The variable descriptions are the part most students skip and the part the board explicitly asks for.</p>
     </div>
@@ -470,7 +496,7 @@ class Shapes {
 <section class="bx-section bx-section--deep" id="marks">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q3. Where do the fifteen marks come from?</p>
+      <p class="bx-qlabel">Q4. Where do the fifteen marks come from?</p>
       <h2>What a Section B answer is rewarded for, and the habit that secures each part</h2>
     </div>
     <div class="bx-grid-3">
@@ -487,7 +513,7 @@ class Shapes {
 <section class="bx-section" id="ladder">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q4. How does a student get to sixty programs?</p>
+      <p class="bx-qlabel">Q5. How does a student get to sixty programs?</p>
       <h2>The twenty-one-week ladder the Wednesday lab climbs</h2>
       <p class="bx-lede">One program and one variation a week, family by family, twice around, then mixed papers. Sixty programs later, Section B is a shape the student produces on demand.</p>
     </div>
@@ -496,7 +522,7 @@ class Shapes {
       <li class="bx-step"><h4>Weeks 4 to 6: menus with switch, and input done properly</h4><p>Scanner, the import line, nextInt against nextDouble, switch with every break and a default. The variation each week changes the menu's options so that the structure, not the arithmetic, is what gets learned.</p></li>
       <li class="bx-step"><h4>Weeks 7 to 10: arrays, the biggest family</h4><p>Accepting n values, the largest and the sum, linear search with a sentinel, binary search on sorted data, bubble and selection sort. Four weeks because this family appears in nearly every paper and because indexing from zero needs time to become instinct.</p></li>
       <li class="bx-step"><h4>Weeks 11 to 14: strings, character by character</h4><p>Reversal, palindromes, vowel and word counts, case changes by rule, rearranging sentences, and the String methods that shorten each. The last-word bug from the worked program above is met, fixed and never forgotten.</p></li>
-      <li class="bx-step"><h4>Weeks 15 to 17: classes with constructors and methods, and matrices</h4><p>The class-skeleton question written from the shell inward, then two-dimensional arrays with row and column sums, diagonals and a transpose. The two families that turn a good Section B into a full one.</p></li>
+      <li class="bx-step"><h4>Weeks 15 to 17: classes with constructors and methods, and matrices</h4><p>The class-skeleton question written from the shell inward, then two-dimensional arrays printed in rows, with row, column and diagonal sums, which is all the 2027 syllabus asks of a matrix. The two families that turn a good Section B into a full one.</p></li>
       <li class="bx-step"><h4>Weeks 18 to 21: the second pass, then mixed papers under time</h4><p>Every family again with harder variations, then full Section B papers: five questions, choose four, seventy minutes, variable descriptions included. Reviewed program by program the following Tuesday, with the lost marks re-attempted on the spot.</p></li>
     </ol>
     <p class="bx-mt-40">
@@ -511,7 +537,7 @@ class Shapes {
 <section class="bx-section bx-section--tint" id="errors">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q5. Where are Section B marks lost?</p>
+      <p class="bx-qlabel">Q6. Where are Section B marks lost?</p>
       <h2>Six errors that turn a fifteen into a nine</h2>
     </div>
     <div class="bx-grid-3">
@@ -528,7 +554,7 @@ class Shapes {
 <section class="bx-section bx-section--deep" id="fees">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q6. What does it cost?</p>
+      <p class="bx-qlabel">Q7. What does it cost?</p>
       <h2>Monthly fees, with the Tuesday and Wednesday mini batch featured</h2>
       <p class="bx-lede">The programs practice is the Wednesday half of the standard batch, not a separate course. Billed monthly, no admission fee, stop at any month end.</p>
     </div>
@@ -640,6 +666,7 @@ class Shapes {
           <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
           <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
           <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+          <li><a href="/icse-computer-applications-viva-questions">Viva and oral questions</a></li>
           <li><a href="/icse-class-10-java-error-finding-questions">Find the error questions</a></li>
           <li><a href="/icse-computer-difference-between-questions">Difference between questions</a></li>
         </ul>
@@ -677,10 +704,11 @@ class Shapes {
     <div class="bx-faq">
       <div class="bx-faq-item"><h3>How many programs must a student write in the ICSE Computer Applications paper?</h3><p>Four. Section B is worth 60 marks and offers a choice of programming questions, of which any four must be attempted at 15 marks each. That choice is the most useful fact on this page: a student who is genuinely fluent in four of the six families below can score full marks in Section B without ever touching the families they find hardest, which is why practice is organised by family rather than by chapter.</p></div>
       <div class="bx-faq-item"><h3>Which program families come up most often?</h3><p>Arrays and strings appear in almost every paper, usually as one program each, and a class-based program with a constructor and methods is nearly as regular. Menu-driven programs using switch, number and pattern programs, and two-dimensional array programs fill the remaining choices. Past papers are the honest guide, and the pattern across them is stable enough that our Wednesday labs cover all six families twice before the mocks.</p></div>
+      <div class="bx-faq-item"><h3>Where can I find ICSE Class 10 Java programs sorted by type?</h3><p>This page is the index. It links a separate practice page for each family: string programs, special number programs, sorting and searching, 2D arrays, pattern programs, menu driven programs, series programs, slab and bill programs, and methods with overloading. Each family page carries original programs with outputs we ran in Java, a variable description and the mistakes that family invites.</p></div>
       <div class="bx-faq-item"><h3>What are the 15 marks per program given for?</h3><p>CISCE does not publish a line-by-line rubric, but its stated expectations point at what is rewarded: a program in Java that solves the stated problem, written using variable descriptions or mnemonic codes so the logic is clearly depicted, in a proper class structure, producing the required output in the required format. In practice that means marks for the logic, the correct use of the syllabus construct the question targets, the class and method structure, the variable description, and the output. A program that is logically right but has no variable description leaves marks on the table.</p></div>
       <div class="bx-faq-item"><h3>Is the variable description compulsory?</h3><p>The syllabus says Section B programs should be written using variable descriptions or mnemonic codes so the logic is clearly depicted, and papers routinely instruct students to include them. Treat it as compulsory: a short table beside each program listing every variable, its data type and its purpose. It costs a minute, earns marks, and, in our experience, catches the student's own undeclared or misused variables while they write it.</p></div>
       <div class="bx-faq-item"><h3>Can programs be written without a main method, as a class with methods?</h3><p>When the question gives a class skeleton with data members and method signatures, the student writes exactly that class and its methods; a main method is only needed if the question asks for one or asks the student to create an object and call the methods. When the question simply says write a program, a complete class with a main method is the safest form. Reading the question's class structure carefully before writing is itself a mark-earning habit.</p></div>
-      <div class="bx-faq-item"><h3>Should my child use Scanner or BufferedReader for input?</h3><p>Either is accepted; what matters is that the program declares its input correctly and reads the right type. Scanner is shorter and is what most ICSE schools and textbooks now use, so it is what we teach by default, with the import line written every time. A student who knows one input method well will never lose marks for not knowing the other.</p></div>
+      <div class="bx-faq-item"><h3>Should my child use Scanner or BufferedReader for input?</h3><p>Scanner. The CISCE specimen paper states that BufferedReader and DataInputStream should not be used in Section B programs, and its own questions ask for Scanner. We teach Scanner from the first week, with the import line written every time and the right method for each type: nextInt for whole numbers, nextDouble for decimals, next for one word and nextLine for a full line.</p></div>
       <div class="bx-faq-item"><h3>How is practising programs different from practising the theory?</h3><p>Theory is recognition; programs are production. A student can recognise a correct bubble sort in Section A and still be unable to write one from a blank class under time, and only writing fixes that. Our Wednesday labs are entirely production: the program is written from nothing, compiled, corrected and explained, and the variation exercise afterwards changes the question so that the student proves they understood rather than remembered.</p></div>
       <div class="bx-faq-item"><h3>How many programs should a student have written before the board exam?</h3><p>Around sixty, in our batch: one Wednesday program and one variation each week across the year, plus the lab assignments and the mock papers. That is roughly ten per family, which is where a program stops being a memory and becomes a shape the student can produce on demand. Fewer than twenty and the student is still reproducing; more than sixty adds little beyond confidence.</p></div>
       <div class="bx-faq-item"><h3>What does the programs practice cost?</h3><p>It is the Wednesday half of the standard batch, not a separate course: the Tuesday and Wednesday mini batch of up to six, one to one, and the larger group batch on other timings are all shown on this page in your own currency, billed monthly with no admission fee. The free demo class is a Wednesday-style lab, so you see the practice format before deciding anything.</p></div>

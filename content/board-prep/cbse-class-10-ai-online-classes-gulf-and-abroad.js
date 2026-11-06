@@ -123,7 +123,7 @@ module.exports = {
       </div>
       <div>
         <h3>What to check with your school</h3>
-        <p>Your school registers your child with CBSE through the LOC, the list of candidates. The regular window runs from 24 September to 21 October 2026, with a correction window from 2 to 4 November. Ask the class teacher to confirm that subject code 417 is on your child's record.</p>
+        <p>Your school registers your child with CBSE through the LOC, the list of candidates. The regular window ran from 24 September to 21 October 2026 and the correction window closed on 4 November, so if you have not seen code 417 confirmed on your child's record, ask the class teacher now.</p>
         <p>Your school also sets the practical exam dates and arranges the examiner. Schools abroad often announce these at short notice around their own winter break, so our Wednesday classes aim to have the practical file and project ready well before January. The full paper pattern and calendar are on <a class="bx-link" href="/cbse-class-10-ai-exam-date-and-paper-pattern">CBSE Class 10 AI exam date and paper pattern</a>.</p>
       </div>
     </div>
@@ -162,6 +162,16 @@ module.exports = {
       Not sure which fits? The free demo ends with a plain recommendation from the mentor, based on your child's
       level, timetable and how much of the session is left. To see the course itself first, read about
       <a class="bx-link" href="/cbse-class-10-ai-classes-online">the Monday and Wednesday Class 10 AI batch</a>.
+    </p>
+    <p>
+      On paper day the clock matters too. The paper runs from 10:30 AM to 12:30 PM IST; at a centre that keeps India's
+      timing, that is 9:00 AM in Dubai and Muscat, 8:00 AM in Riyadh, Doha, Kuwait City and Manama, and 10:45 AM in
+      Kathmandu, so take the local start from the admit card rather than from this conversion. Families who need a
+      teacher on their own hours from the start can read about <a class="bx-link" href="/cbse-class-10-ai-private-tutor">a one to one private AI tutor</a>;
+      those who only want help with stuck topics can look at <a class="bx-link" href="/cbse-class-10-ai-doubt-classes">the live doubt classes</a>.
+      Students joining after the Gulf winter break usually fit <a class="bx-link" href="/cbse-class-10-ai-crash-course">the Class 10 AI crash course</a>
+      better than the full year, and anyone revising alone can start with <a class="bx-link" href="/cbse-class-10-ai-notes">the unit wise notes</a>
+      and <a class="bx-link" href="/cbse-class-10-ai-revision-plan">a 30, 7 and 1 day revision plan</a>.
     </p>
   </div>
 </section>`,

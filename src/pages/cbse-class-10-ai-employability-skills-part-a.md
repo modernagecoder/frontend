@@ -3,7 +3,7 @@ title: "CBSE Class 10 AI Part A: Employability Skills (10 Marks)"
 description: "CBSE Class 10 AI (417) Part A employability skills: all five units, what each 2-mark question asks, model answers and how live classes secure the ten marks."
 canonical: https://learn.modernagecoders.com/cbse-class-10-ai-employability-skills-part-a
 source: src/pages/cbse-class-10-ai-employability-skills-part-a.html
-updated: 2026-10-13
+updated: 2026-11-06
 ---
 
 > Part A of the CBSE Class 10 Artificial Intelligence (417) theory paper is employability skills: five units, Communication Skills, Self-Management Skills, ICT Skills, Entrepreneurial Skills and Green Skills, carrying two marks each for ten of the fifty theory marks. In the latest sample paper that means any four of six one-mark objective questions and any three of five two-mark short answers. Questions are short and predictable: a definition with an example, a list of types or features, a difference between two terms. Students lose these marks by not revising them, not because they are hard. Modern Age Coders teaches Part A in compact revision blocks inside the Monday 9 PM IST theory class, with a weekly ten-question drill from November, and in personalised one to one at the family's own timing.
@@ -116,6 +116,14 @@ Part A does not need its own class. It needs to be taught clearly once, then pra
 
 -
 **A final sweep in the last week** In the final week before the paper, Part A is maintenance only: the five answer sheets read once a day. No new material, just the ten marks kept warm.
+
+More Part A practice outside class: the printable [417 worksheets](/cbse-class-10-ai-worksheets)
+include a Part A sheet with mixed question types and its key printed below. For the one-mark side alone, [the unit wise MCQ set](/cbse-class-10-ai-mcq-questions)
+opens with Part A items, each with the reason behind the answer. Students who revise in Hindi can use
+[the Hinglish notes](/cbse-class-10-ai-notes-in-hindi), which keep each English exam term in bold
+so it still lands in the answer. In the final month, [the 30, 7 and 1 day revision plan](/cbse-class-10-ai-revision-plan)
+gives Part A short daily recall blocks, and [the one shot revision](/cbse-class-10-ai-one-shot-revision)
+spends its first ten minutes on all five units.
 
 The full mock series, including how the official sample paper is solved live, is on
 [the 417 sample paper and mock tests page](/cbse-class-10-ai-sample-paper-and-mock-tests),

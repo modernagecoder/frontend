@@ -3,7 +3,7 @@ title: "ICSE Computer Applications Project and Internal Assessment 2027"
 description: "ICSE Class 10 Computer Applications internal assessment 2027: 20+ Java lab assignments, the four CISCE marking criteria, file ideas and the external examiner."
 canonical: https://learn.modernagecoders.com/icse-class-10-computer-applications-project-and-internal-assessment
 source: src/pages/icse-class-10-computer-applications-project-and-internal-assessment.html
-updated: 2026-10-13
+updated: 2026-11-06
 ---
 
 > The ICSE Class 10 Computer Applications internal assessment for 2027 is worth 100 marks, the same as the written paper. CISCE's syllabus asks for a minimum of twenty laboratory assignments in Java across the year, marked 50 by the subject teacher and 50 by an external examiner, each out of 50 on four criteria: class design (10), variable description (10), coding and documentation (10) and execution or output (20). The syllabus does not prescribe a separate project; many schools simply call the lab file the computer project. Modern Age Coders builds that file one documented program a week in a live BlueJ lab and rehearses the examiner session, in a Tuesday 5:30 PM and Wednesday 8 PM IST mini batch or personalised one to one.
@@ -71,6 +71,84 @@ In our Wednesday lab, the program is written by the student in BlueJ with the te
 ### One a week, not twenty in January
 At one program a week from the start of the session, the file passes twenty before winter. Students who start in December write the file instead of revising for the paper, and usually do both badly.
 
+## A lab assignment list of 24 BlueJ practical programs, in teaching order
+
+CISCE fixes the minimum at twenty and leaves the choice of programs to the school, so treat this as a model list, not an official one. If your teacher sets different assignments, theirs come first; use these to fill any unit the school's list leaves thin.
+
+- # | Assignment | What it shows the examiner
+
+- 1 | Electricity bill from a table of unit slabs | if-else-if ladder, Scanner input
+
+- 2 | Roots of a quadratic, with a message when they are not real | Math.sqrt, conditions on the discriminant
+
+- 3 | Temperature converter in both directions through a switch menu | switch with break, a default case
+
+- 4 | Niven number check | Digit extraction with % and /
+
+- 5 | Spy number check (digit sum equals digit product) | Two accumulators in one loop
+
+- 6 | First n Fibonacci terms and their sum | Swapping three variables in a loop
+
+- 7 | Sum of x/1 + x&sup2;/2 + ... + x&#8319;/n | A series term built from a power and a counter
+
+- 8 | Floyd's triangle and an inverted star triangle | Nested loops with a changing inner limit
+
+- 9 | Student class with private marks, a parameterised constructor and a grade | Encapsulation, constructors, accessor methods
+
+- 10 | Courier charges class written to a weight-slab specification | accept, calculate and display in one class
+
+- 11 | Overloaded area() for circle, rectangle and triangle | Same name, different parameter lists
+
+- 12 | Overloaded show(): a pattern, a number test and a series | The specimen's overloading shape
+
+- 13 | Count letters, digits, spaces and other characters in a line | Character class methods
+
+- 14 | Linear search for a name in a String array | equalsIgnoreCase inside a loop, found flag
+
+- 15 | Binary search on a sorted int array | low, high and mid, with the not-found case
+
+- 16 | Bubble sort in descending order | Adjacent swaps, passes reducing by one
+
+- 17 | Selection sort of names in alphabetical order | compareTo on Strings
+
+- 18 | Row and column sums of a 4 x 4 matrix | Double dimensional array traversal
+
+- 19 | A 3 x 3 matrix printed in matrix form with both diagonal sums | a[i][i] and a[i][n - 1 - i]
+
+- 20 | Pig Latin form of a word | indexOf of the first vowel, substring
+
+- 21 | Palindrome words counted in a sentence | Word splitting by spaces, reversing
+
+- 22 | First letter of every word changed to capital | charAt, Character.toUpperCase
+
+- 23 | Frequency of each vowel in a sentence | Counters chosen by switch or if
+
+- 24 | Menu offering a palindrome, a perfect and a prime number test | One method per test, called from a menu
+
+### The practical file format: what each entry holds, in order
+
+-
+**Front pages** A cover with name, class, section and session, then an index listing each assignment's number, title, date and page. Add an acknowledgement page only if the school asks for one.
+
+-
+**The question** Copied exactly as the teacher set it, so the examiner can check the program answers that question and not an easier one.
+
+-
+**The program** Typed or neatly written, with a comment above each method saying what it does. This is where the coding and documentation marks are earned.
+
+-
+**The variable description** A table of every variable with its data type and purpose. It is a ten-mark criterion of its own, so it is never skipped.
+
+-
+**The output** Real runs from BlueJ with the input that produced them, including one awkward case such as a zero or a single letter.
+
+Each family in the list has a worked page of its own: [slab and bill programs](/icse-class-10-slab-and-bill-programs),
+[menu driven programs](/icse-class-10-menu-driven-programs), [special number programs](/icse-special-number-programs-java),
+[series programs](/icse-class-10-series-programs-java), [pattern programs](/icse-class-10-pattern-programs-java),
+[constructors](/icse-class-10-constructors-questions), [sorting and searching](/icse-class-10-sorting-and-searching-programs),
+[2D arrays](/icse-class-10-2d-array-programs) and [string programs](/icse-class-10-string-programs).
+The questions an examiner asks about a file like this are rehearsed on [ICSE Computer Applications viva questions](/icse-computer-applications-viva-questions).
+
 ## One lab program, entered carelessly and entered well
 
 Write a program to input a word and check whether it is a palindrome (reads the same backwards), ignoring case.
@@ -121,7 +199,7 @@ tested on an awkward input, comments added, variable description written, real o
 Wednesday lab ends each program with that checklist until it is automatic. More program families are
 worked on [ICSE Java programs practice](/icse-class-10-java-programs-practice).
 
-## Eight bigger programs that sit squarely on the ICSE syllabus
+## ICSE computer project ideas: eight bigger programs that sit squarely on the syllabus
 
 Some schools ask for one larger program on top of the twenty assignments, and strong students often add one anyway. A good one uses classes, constructors, methods, arrays and strings in a single program that solves a small real problem: ambitious enough to show skill, small enough to explain fully.
 
@@ -206,6 +284,10 @@ Option 1, fixed batch (for families in India): Tuesday at 5:30 PM and Wednesday 
 
 **Is a project compulsory in ICSE Class 10 Computer Applications?** Not in CISCE's 2027 syllabus, which asks for a minimum of twenty laboratory assignments and does not prescribe a separate project. Many schools call the finished lab file the computer project, and some set one larger program of their own, so follow your school's instructions. Good larger programs include a library manager, a report card with a 2D array, a billing system or a text analyser.
 
+**Which programs should go in the ICSE Class 10 computer practical file?** Programs spread across every unit: slab bills, a switch menu, special numbers, a series, a pattern, two or three classes with constructors, overloading, Character methods, linear and binary search, bubble and selection sort, matrix sums and four or five string programs. The school sets the actual list; the model list of 24 on this page shows a balanced spread.
+
+**What is the format of the ICSE computer project file?** CISCE does not prescribe a layout, so follow your school first. A clear file has a cover and an index, then for each assignment the question, the program with comments, a variable description table of name, type and purpose, and real output from BlueJ with the input used. Those parts match the four criteria the examiners mark.
+
 **How many programs should the lab file have?** At least twenty, and a strong file usually has a few more so it can cover every syllabus unit: input and computation, loops and special numbers, menus, classes and constructors, methods and overloading, library classes, arrays and strings. Each program should have comments, a variable description and its real output.
 
 **Who is the external examiner?** Under CISCE's rules, the external examiner is nominated by the head of the school and may be a teacher from the same school who does not teach the subject to that class. The four CISCE criteria do not include a viva, but many examiners run programs from the file and ask the student to explain choices such as access specifiers, loop types or search methods, so students should be ready to.
@@ -230,7 +312,7 @@ Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 stude
 
 **Programs for Section B:** [ICSE Java programs practice](/icse-class-10-java-programs-practice), [String programs](/icse-class-10-string-programs), [Special number programs](/icse-special-number-programs-java), [Sorting and searching programs](/icse-class-10-sorting-and-searching-programs), [2D array programs](/icse-class-10-2d-array-programs), [Pattern programs](/icse-class-10-pattern-programs-java), [Menu driven and switch case](/icse-class-10-menu-driven-programs), [Series programs](/icse-class-10-series-programs-java), [Slab and bill programs](/icse-class-10-slab-and-bill-programs).
 
-**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
+**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Viva and oral questions](/icse-computer-applications-viva-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
 
 **Notes and revision:** [Chapter-wise notes](/icse-computer-applications-notes), [Textbook solutions guide](/icse-computer-applications-textbook-solutions-guide), [Worksheets with answers](/icse-computer-applications-worksheets).
 

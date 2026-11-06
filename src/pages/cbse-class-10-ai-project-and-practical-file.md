@@ -15,6 +15,14 @@ The practical file (15): correct programs with their real outputs, indexed, in t
 
 Each entry: serial number and date matching the index; the aim in one sentence; the program as it ran with a comment per block; the real output, which for charts and images means the picture; and a one-line remark. Built by month: April to May, set-up, add two lists, mean, median and mode with NumPy; June to July, line chart, scatter chart, bar chart, marks dictionary, CSV first ten rows; August to September, CSV information, CSV filter, statistics report, display an image, image shape; October to November, grayscale image, bag-of-words counter, train-test split by hand, accuracy calculator, menu program; December, index, formatting, every output re-checked, file closed. A file built in Jupyter, where output sits under code, cannot ship a mismatched output by accident.
 
+## Practical file programs list: 15 programs, and the project file format
+
+CBSE requires at least 15 programs and suggests eight; the other seven are the teacher's choice. Ours: 1 add two lists, 2 mean median mode (NumPy), 3 line chart, 4 scatter chart, 5 CSV first 10 rows, 6 CSV information, 7 display an image, 8 image shape (all CBSE suggested); 9 bar chart, 10 dictionary lookup, 11 CSV filter, 12 grayscale image, 13 Bag of Words counter, 14 train-test split, 15 accuracy calculator (ours).
+
+Project file format (school format first): cover, certificate and acknowledgement, index, problem scoping with 4Ws and the SDG, data source, exploration charts, model, evaluation, reflection, bibliography. Some schools call file entries a lab assignment list; the examiner counts programs either way.
+
+Practice: [practical exam questions](/cbse-class-10-ai-practical-exam-questions), [viva questions](/cbse-class-10-ai-viva-questions), [project ideas](/cbse-class-10-ai-project-ideas), [Orange Data Mining](/orange-data-mining-class-10-ai), [Python programs](/python-for-cbse-class-10-ai).
+
 ## The project: six stages, one goal
 
 1. Problem scoping with the 4Ws canvas, who, what, where, why, and the Sustainable Development Goal named here, not on the last page. Waste-photo sorting serves responsible consumption; rainfall and crop data serve zero hunger; sentiment on park reviews serves sustainable cities.
@@ -49,6 +57,10 @@ Students also look at [Python for Teens](/courses/python-complete-masterclass-te
 The practical work is part of the standard batch, not an add-on. Monthly, no admission fee, stop at any month end, with the group batch, mini batch and one to one shown on the page in the visitor's own currency. The free demo writes the first file entry and scopes the project idea.
 
 ## Frequently asked questions
+
+**Practical file programs list?** CBSE's eight suggested programs plus seven chosen by the teacher; ours are listed above.
+
+**Project file format?** School format first; otherwise the project cycle order, from 4Ws and SDG to evaluation and bibliography.
 
 **Who conducts the practical?** The school, before the theory paper, on the Part C scheme; finish everything by December.
 

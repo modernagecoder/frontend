@@ -3,7 +3,7 @@ title: "ICSE Computer Applications Important Questions 2027, Unit-Wise"
 description: "ICSE Class 10 Computer Applications (Java) important questions 2027: outputs, string, array and class programs, unit by unit, practised in live classes."
 canonical: https://learn.modernagecoders.com/icse-class-10-computer-applications-important-questions
 source: src/pages/icse-class-10-computer-applications-important-questions.html
-updated: 2026-10-13
+updated: 2026-11-06
 ---
 
 > The most important questions for ICSE Class 10 Computer Applications in 2027 fall into two groups. Section A, worth 40 compulsory marks, asks mainly for output tracing, loop counts, String and Character method results, wrapper class conversions, errors to find and single Java statements. Section B, worth 60 marks, gives six programs from six families, of which students write four: a class written to a specification, searching or sorting on an array, a string program, a double dimensional array, a number-property program and method overloading. Modern Age Coders practises each shape live, checked in BlueJ and marked like the board, in a Tuesday and Wednesday evening mini batch in India or personalised one to one.
@@ -131,10 +131,71 @@ Check a defined special number from its digits: palindrome numbers, Armstrong-st
 ### Method overloading
 Three methods with the same name and different parameter lists: one prints a nested-loop pattern, one applies a condition, and one evaluates a formula. Students must decide which version each call in main reaches.
 
-Complete practice sets for each family, with programs set at increasing difficulty, are on
+Each family now has its own worked page: [slab and bill programs](/icse-class-10-slab-and-bill-programs)
+for the class to a specification, [sorting and searching programs](/icse-class-10-sorting-and-searching-programs),
+[string programs](/icse-class-10-string-programs), [2D array programs](/icse-class-10-2d-array-programs),
+[special number programs](/icse-special-number-programs-java) and
+[methods and overloading](/icse-class-10-user-defined-methods-overloading). Two shapes that sit beside them,
+[pattern programs](/icse-class-10-pattern-programs-java) and [menu driven programs](/icse-class-10-menu-driven-programs),
+often arrive inside the overloading or switch question, and [series programs](/icse-class-10-series-programs-java) fill the same slot as a formula method.
+The index of every set, ordered by difficulty, is
 [ICSE Java programs practice](/icse-class-10-java-programs-practice). How the families
 appeared in the latest specimen, and the paper's full design, are on
 [ICSE Computer Applications exam date and paper pattern](/icse-class-10-computer-applications-exam-date-and-paper-pattern).
+
+## A chapter-wise question bank: one expected question from every chapter
+
+The most expected questions are not guesses about 2027. They are the shapes CISCE has set year after year, so a student who can answer one honest example per chapter is ready for most variations. Cover the answer column, attempt each row, then open the chapter page for its full set.
+
+- Chapter | A question in the board's shape | Answer
+
+- Class 9 revision | Output of System.out.println(5 / 2 * 2.0); | 4.0
+
+- Data types and input | Which Scanner method reads one word, and which reads the rest of the line? | next() and nextLine()
+
+- Operators | int a = 5; a += a++ + ++a; What is a? | 17
+
+- Loops | How many times does for (int k = 10; k > 0; k -= 3) run? | 4
+
+- Math methods | Output of Math.sqrt(Math.abs(-16)) + Math.pow(2, 3) | 12.0
+
+- Class as basis of computation | Why is a class called a user-defined data type? | Its name declares new variables (objects) that bundle data with the methods acting on it.
+
+- Encapsulation | Can a method in another class read a private member directly? | No, only through a public method of the owning class.
+
+- Methods and overloading | Write the prototype of check, taking a String and a char and returning an int. | int check(String s, char ch)
+
+- Constructors | Which constructor does Java supply when a class defines none? | The default constructor, giving members their default values.
+
+- Wrapper classes | Output of Character.isLetterOrDigit('$') | false
+
+- Arrays | After one ascending bubble sort pass, where is the largest value? | In the last position.
+
+- Strings | Output of "MISSISSIPPI".lastIndexOf("SS") | 5
+
+- 2D arrays | int m[][] = {{1,2,3},{4,5,6}}; Value of m.length + m[0].length? | 5
+
+### Question types, and the page that drills each one
+
+- Question type | Where it sits in the paper | Practice page
+
+- Twenty one-mark choices | Section A, Question 1 | MCQ for Question 1
+
+- Predict the output | Section A, mostly Question 2 | Output questions
+
+- Spot and correct the error | Section A | Find the error questions
+
+- Scenario and case study items | Section A, labelled Application or Analysis | Competency questions
+
+- State two differences | Section A, two marks | Difference between questions
+
+- Oral questions on your lab programs | Internal assessment, not the paper | Viva questions
+
+- Whole past papers, timed | Both sections together | Previous year papers, solved
+
+Read the table as a checklist. A row you could not answer in under a minute marks the chapter to open first, and a
+question type you have never timed is the one to practise this week. For printable sets with answer keys, use the
+[ICSE Computer Applications worksheets](/icse-computer-applications-worksheets).
 
 ## A double dimensional array program, written the weak way and the full-marks way
 
@@ -267,6 +328,8 @@ Option 1, fixed batch (for families in India): Tuesday at 5:30 PM and Wednesday 
 
 **What are the most important questions for ICSE Computer Applications 2027?** In Section A: output tracing, loop counts, String and Character method results, wrapper class conversions, finding errors and writing single Java statements. In Section B: a class written to a specification, searching and sorting on arrays, string programs, double dimensional array sums, number-property programs and method overloading. Together they cover nearly every mark on the paper.
 
+**Is there a chapter-wise question bank for ICSE Computer Applications?** Yes. This page gives one question per chapter in the shape the board uses, with its answer, and links each chapter to a page holding its full set: data types, operators, loops, Math methods, classes, encapsulation, methods, constructors, wrapper classes, arrays, strings and 2D arrays. Question types such as MCQs, outputs and error finding have their own practice pages too.
+
 **Which chapter is most important in ICSE Class 10 Computer Applications?** String handling and arrays are the most important for Section B, because they supply at least two of the six programs and many Section A outputs. User-defined methods and constructors come next, through the class and overloading programs. Class 9 topics such as operators and loops still appear throughout Section A.
 
 **Are output questions important in ICSE Computer Applications?** Yes. Section A is 40 compulsory marks, and much of it asks students to predict outputs, count loop iterations or find what a String method returns. These questions punish guessing, so we teach a step-table method and check every answer by running the code in BlueJ.
@@ -295,7 +358,7 @@ Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 stude
 
 **Programs for Section B:** [ICSE Java programs practice](/icse-class-10-java-programs-practice), [String programs](/icse-class-10-string-programs), [Special number programs](/icse-special-number-programs-java), [Sorting and searching programs](/icse-class-10-sorting-and-searching-programs), [2D array programs](/icse-class-10-2d-array-programs), [Pattern programs](/icse-class-10-pattern-programs-java), [Menu driven and switch case](/icse-class-10-menu-driven-programs), [Series programs](/icse-class-10-series-programs-java), [Slab and bill programs](/icse-class-10-slab-and-bill-programs).
 
-**Questions and practice:** [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
+**Questions and practice:** [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Viva and oral questions](/icse-computer-applications-viva-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
 
 **Notes and revision:** [Chapter-wise notes](/icse-computer-applications-notes), [Textbook solutions guide](/icse-computer-applications-textbook-solutions-guide), [Worksheets with answers](/icse-computer-applications-worksheets).
 

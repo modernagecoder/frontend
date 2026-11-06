@@ -6,7 +6,10 @@
 // against cbse.gov.in circulars and cbseacademic.nic.in: 2026 paper on 27 Feb, LOC
 // windows, 2025-26 SQP blueprint (2026-27 417 SQP not out). Updated 2026-11-06 from the
 // CBSE 2027 main date sheet released 6 Nov 2026: Class X 16 Feb to 9 Mar 2027, AI 417 on
-// Wed 24 Feb 2027, 10:30 AM to 12:30 PM IST, same slot as 165 and 402.
+// Wed 24 Feb 2027, 10:30 AM to 12:30 PM IST, same slot as 165 and 402. Also 2026-11-06:
+// SQP status corrected (2026-27 listing for 417 = 2025-26 paper re-listed), reading time
+// (paper handed out at 10:15 AM, CBSE's usual practice), unit-wise weightage table, marking
+// scheme pointer, assertion-reason confirmed in the 2025 and 2026 papers, LOC tense fixed.
 'use strict';
 
 module.exports = {
@@ -128,8 +131,8 @@ module.exports = {
   <div class="bx-wrap">
     <div class="bx-section-head">
       <p class="bx-qlabel">Q3. How are the questions spread across units?</p>
-      <h2>The blueprint: 72 marks of questions on the paper, 50 of them counted</h2>
-      <p class="bx-lede">CBSE publishes a blueprint with each sample paper. The latest official one, for 2025-26, counts every question by unit and type. The 2026-27 sample paper for 417 had not been posted when we checked on 13 October 2026, and the curriculum is unchanged, so this is the design to prepare for.</p>
+      <h2>The blueprint and unit-wise weightage: 72 marks printed, 50 counted</h2>
+      <p class="bx-lede">CBSE publishes a blueprint with each sample paper. The latest official one, for 2025-26, counts every question by unit and type. The paper CBSE lists for 417 under 2026-27 is that same 2025-26 paper re-listed, and the curriculum is unchanged, so this is the design to prepare for.</p>
     </div>
     <div class="bx-table-wrap">
       <table class="bx-table">
@@ -164,16 +167,65 @@ module.exports = {
           <li><b>No negative marking</b> in the objective section, so no question there should be left blank.</li>
           <li><b>Word limits:</b> 20 to 30 words for two-mark answers and 50 to 80 for four-mark answers. Longer answers earn nothing extra and eat the clock.</li>
           <li><b>Two hours.</b> About 50 minutes for Section A leaves 70 for the written answers, the split our mocks train.</li>
+          <li><b>Assertion and reason items</b> sit among the objective questions; they appeared in Section A of both the 2025 and the 2026 main papers.</li>
         </ul>
       </div>
     </div>
   </div>
 </section>`,
 
-`<section class="bx-section" id="calendar">
+`<section class="bx-section" id="weightage">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q4. Which dates matter between now and the paper?</p>
+      <p class="bx-qlabel">Q4. What happens in the first fifteen minutes, and who marks the answers?</p>
+      <h2>Reading time, the marking scheme, and how each unit's weightage is earned</h2>
+      <p class="bx-lede">CBSE's usual practice is to hand the question paper out at 10:15 AM, fifteen minutes before writing begins at 10:30 AM. For the AI paper that quarter hour is worth planning, because the choices inside each section are made best before the clock starts.</p>
+    </div>
+    <div class="bx-grid-2" style="align-items:start">
+      <div>
+        <h3>A plan for the fifteen reading minutes</h3>
+        <ol class="bx-qlist">
+          <li>Minutes 1 to 3: Section A, ticking the four Part A objective items you will attempt.</li>
+          <li>Minutes 4 to 8: the five long answers. Choose your three and note the unit of each.</li>
+          <li>Minutes 9 to 12: the six AI short answers and the five Part A short answers; choose four and three.</li>
+          <li>Minutes 13 to 15: read the numerical slowly and decide which class is positive before you write.</li>
+        </ol>
+        <p>Admit card instructions and your school set the reporting time, so check both. Our January mocks start with the same fifteen silent minutes, so the habit is in place by February.</p>
+      </div>
+      <div>
+        <h3>Where the marking scheme fits in</h3>
+        <p>CBSE publishes a marking scheme beside every sample paper, and board examiners mark to a scheme of the same kind: value points per written answer, each earning part of the marks. It is the closest thing to an answer key any student can study. How to read it, and how a two-mark answer is split, is set out on <a class="bx-link" href="/cbse-class-10-ai-marking-scheme">our 417 marking scheme guide</a>. Once the 2027 paper has been sat, a question-by-question review goes up on <a class="bx-link" href="/cbse-class-10-ai-paper-analysis">the paper analysis page</a>, and the 2025 and 2026 papers are already described there and on <a class="bx-link" href="/cbse-class-10-ai-previous-year-question-papers">previous year papers, solved</a>.</p>
+      </div>
+    </div>
+    <div class="bx-table-wrap bx-mt-40">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Unit</th><th scope="col">Marks printed</th><th scope="col">Marks counted</th><th scope="col">Share of the 50</th></tr></thead>
+        <tbody>
+          <tr><td>Part A, all five employability units</td><td class="bx-num">16</td><td class="bx-num">10</td><td class="bx-num">20%</td></tr>
+          <tr><td>Unit 1, project cycle and ethical frameworks</td><td class="bx-num">11</td><td class="bx-num">7</td><td class="bx-num">14%</td></tr>
+          <tr><td>Unit 2, advanced modeling</td><td class="bx-num">16</td><td class="bx-num">11</td><td class="bx-num">22%</td></tr>
+          <tr><td>Unit 3, evaluating models</td><td class="bx-num">12</td><td class="bx-num">10</td><td class="bx-num">20%</td></tr>
+          <tr><td>Unit 5, computer vision</td><td class="bx-num">6</td><td class="bx-num">4</td><td class="bx-num">8%</td></tr>
+          <tr><td>Unit 6, natural language processing</td><td class="bx-num">11</td><td class="bx-num">8</td><td class="bx-num">16%</td></tr>
+          <tr class="bx-total"><td>Theory paper</td><td class="bx-num">72</td><td class="bx-num">50</td><td class="bx-num">100%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      Printed marks are the questions on the page for that unit in the 2025-26 blueprint; counted marks are what the
+      curriculum assigns it. The gap is the choice: Unit 2 prints sixteen marks of questions for eleven that count, so
+      a student who is shaky on neural networks can still reach full marks in the unit by answering the classification
+      items instead. Two practical-side links finish the picture. The pass requirement is explained on
+      <a class="bx-link" href="/cbse-class-10-ai-passing-marks">AI 417 passing marks</a>, and the May sitting on
+      <a class="bx-link" href="/cbse-class-10-ai-second-board-exam">the second board exam page</a>.
+    </p>
+  </div>
+</section>`,
+
+`<section class="bx-section bx-section--tint" id="calendar">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. Which dates matter between now and the paper?</p>
       <h2>The 2026-27 calendar, and what our batch is doing at each point</h2>
       <p class="bx-lede">Some dates below are official and already set. Others have not been announced, and we mark them as estimates. Each row shows what the live batch is working on at that point.</p>
     </div>
@@ -184,7 +236,7 @@ module.exports = {
           <tr><td>LOC submission by schools, regular fee</td><td>24 September to 21 October 2026</td><td>Official</td><td>Evaluating Models: confusion matrix, accuracy, precision, recall</td></tr>
           <tr><td>LOC with late fee</td><td>22 to 30 October 2026</td><td>Official</td><td>Practical file programs 8 to 11 on Wednesdays</td></tr>
           <tr><td>LOC correction window</td><td>2 to 4 November 2026</td><td>Official</td><td>Computer Vision and the image programs of the file</td></tr>
-          <tr><td>417 sample paper for 2026-27</td><td>Not yet posted</td><td>Awaited</td><td>Solved live in class within days of release</td></tr>
+          <tr><td>417 sample paper listed for 2026-27</td><td>Listed in September 2026; it is the 2025-26 paper re-listed</td><td>Official</td><td>Solved live in class with its marking scheme</td></tr>
           <tr><td>2027 date sheet</td><td>Released 6 November 2026</td><td>Official</td><td>Natural Language Processing; Part A drills begin</td></tr>
           <tr><td>School practical assessment</td><td>Set by your school within the window CBSE notifies</td><td>Varies by school</td><td>Practical and viva mocks; project viva rehearsal</td></tr>
           <tr><td>Main examinations</td><td>16 February to 9 March 2027</td><td>Official</td><td>Three full theory mocks, each reviewed live</td></tr>
@@ -195,17 +247,17 @@ module.exports = {
     </div>
     <p class="bx-mt-40">
       The LOC, the list of candidates, is how your school registers your child's subjects with CBSE. Families rarely
-      see it, but it fixes the subject codes your child will be examined in. If your child studies AI, ask the class
-      teacher before the correction window closes on 4 November 2026 to confirm that subject code 417 appears against
-      their name. Fixing a wrong code after that is much harder.
+      see it, but it fixes the subject codes your child will be examined in. The correction window closed on 4 November 2026.
+      If your child studies AI and you have not yet seen code 417 confirmed against their name, ask the class teacher
+      this week; the school is the only route to CBSE for any fix.
     </p>
   </div>
 </section>`,
 
-`<section class="bx-section bx-section--tint" id="rules">
+`<section class="bx-section" id="rules">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q5. Which exam rules catch families out?</p>
+      <p class="bx-qlabel">Q6. Which exam rules catch families out?</p>
       <h2>Four rules worth knowing before February</h2>
     </div>
     <div class="bx-grid-2" style="align-items:start">
@@ -229,10 +281,10 @@ module.exports = {
   </div>
 </section>`,
 
-`<section class="bx-section" id="live">
+`<section class="bx-section bx-section--tint" id="live">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q6. How does the live batch prepare for that date?</p>
+      <p class="bx-qlabel">Q7. How does the live batch prepare for that date?</p>
       <h2>Two live classes a week, with doubts cleared in every class</h2>
       <p class="bx-lede">A calendar only helps if someone keeps to it. In our Class 10 AI batch the teacher does, every week, live on video, with the same students and the same teacher from October to the paper.</p>
     </div>
@@ -240,7 +292,7 @@ module.exports = {
       <li class="bx-step"><h4>Monday at 9 PM: theory in the paper's own shapes</h4><p>A Part B unit is taught for understanding, then practised as the blueprint asks it: objective questions first, then a two-mark answer inside thirty words, then a four-mark case study inside eighty. From November, ten minutes of every Monday go to Part A, so those ten marks are never left until the end.</p></li>
       <li class="bx-step"><h4>Wednesday at 9 PM: the practical half</h4><p>One program for the practical file is written in Jupyter Notebook, run, explained and documented. The project moves forward in fixed steps across the term, with a short viva rehearsal on each finished piece, so neither the file nor the project is left to a December rush.</p></li>
       <li class="bx-step"><h4>Live doubts, raised before the class moves on</h4><p>Any student can stop the class, share a screen and ask. Doubts from homework open the next class. With two classes a week a doubt never waits longer than a few days, and the teacher sees the same confusion surface in several students and fixes it for the room.</p></li>
-      <li class="bx-step"><h4>From December: the sample paper, then full mocks</h4><p>Once CBSE posts the 417 sample paper for the session it is solved live, and then three full fifty-mark mocks follow in January and February, each written under time and reviewed in class. How the series runs is described on <a class="bx-link" href="/cbse-class-10-ai-sample-paper-and-mock-tests">the sample paper and mock tests page</a>.</p></li>
+      <li class="bx-step"><h4>From December: the sample paper, then full mocks</h4><p>The 417 sample paper listed for the session is solved live with its marking scheme, and then three full fifty-mark mocks follow in January and February, each written under time and reviewed in class. How the series runs is described on <a class="bx-link" href="/cbse-class-10-ai-sample-paper-and-mock-tests">the sample paper and mock tests page</a>.</p></li>
       <li class="bx-step"><h4>Report to parents at each milestone</h4><p>After the diagnostic, after the practical file closes and after each mock, parents get a short progress report: marks by unit, what is improving and what needs home practice. In the board year, nobody should be guessing how their child is doing.</p></li>
     </ol>
     <p class="bx-mt-40">
@@ -277,8 +329,10 @@ module.exports = {
     ['What time does the CBSE AI paper start?', 'In 2026 the Artificial Intelligence paper ran from 10:30 AM to 12:30 PM IST, two hours, in the same morning slot as other skill subjects. The CBSE date sheet released 6 November 2026 keeps the same timing for 2027, on Wednesday 24 February, in one slot with Computer Applications (165) and Information Technology (402). Because our live classes run at 9 PM, January mock papers are written on weekend mornings so students get used to working at that hour.'],
     ['What is the paper pattern for CBSE Class 10 AI 417?', 'The subject is 100 marks: a 50-mark theory paper of two hours and 50 marks of school practical. In the latest official sample paper, students answer 15 of 21 questions: Section A has 24 marks of objective questions, and Section B has 26 marks of short answers of 20 to 30 words and long answers of 50 to 80 words. Part A employability skills carries 10 of the theory marks and five AI units carry 40.'],
     ['Which AI units carry the most marks?', 'Advanced Concepts of Modeling carries 11 theory marks and Evaluating Models 10, followed by Natural Language Processing 8, Revisiting the AI Project Cycle and Ethical Frameworks 7 and Computer Vision 4. Statistical Data and Advance Python carry no theory marks and are assessed in the practical.'],
-    ['Has the 417 sample paper for 2026-27 been released?', 'Not when we checked on 13 October 2026. CBSE posted the main-subject sample papers in late September 2026, but the 417 link still opened the 2025-26 paper. The curriculum for 2026-27 is unchanged, so the 2025-26 design is the right one to prepare for, and the new paper is solved live in our classes as soon as it is posted.'],
-    ['Can a student take both AI 417 and Computer Applications 165?', 'No. CBSE does not allow Artificial Intelligence (417) to be offered with Computer Applications (165). If your child studies AI, check with the class teacher that code 417 is on their LOC, the list of candidates the school submits, before the correction window closes on 4 November 2026.'],
+    ['Has the 417 sample paper for 2026-27 been released?', 'CBSE posted the main-subject sample papers in late September 2026. The file listed against Artificial Intelligence (417) for 2026-27 is the 2025-26 sample paper re-listed, with its marking scheme. The 2026-27 curriculum is unchanged, so that design is the right one to prepare for, and it is the paper our classes solve live.'],
+    ['Is there reading time in the CBSE Class 10 AI exam?', 'Yes. CBSE usually hands out the question paper at 10:15 AM, fifteen minutes before writing starts at 10:30 AM, and the AI paper on 24 February 2027 sits in that morning slot. Use the time to choose which questions to attempt in each section. Check the admit card and your school for the exact reporting time.'],
+    ['Where can I see the marking scheme for CBSE Class 10 AI?', 'CBSE publishes a marking scheme beside each sample paper on cbseacademic.nic.in, listing the value points examiners look for in every written answer. For 417 the current one goes with the 2025-26 paper, which is also the paper listed for 2026-27. Our marking scheme guide explains how to read it, and every mock in our batch is marked against it.'],
+    ['Can a student take both AI 417 and Computer Applications 165?', 'No. CBSE does not allow Artificial Intelligence (417) to be offered with Computer Applications (165). If your child studies AI, check with the class teacher that code 417 is on their LOC, the list of candidates the school submits. The correction window closed on 4 November 2026, so any fix now goes through the school.'],
     ['Can my child improve the AI marks in the May second exam?', 'The May examination is for improving performance in up to three of Science, Mathematics, Social Science and the languages. Artificial Intelligence did appear on the May 2026 schedule, but CBSE has not set out the rules for skill subjects clearly, so confirm with your school before relying on it. The safest plan is to prepare for February as the only attempt.'],
     ['When are the CBSE Class 10 AI practical exams?', 'Your school conducts the practical assessment and sets its own dates within the window CBSE notifies in its circulars, so the exact dates come from your school. The practical is worth 50 marks: a 15-program file, a practical exam, a project and two vivas. Our Wednesday classes keep the file and project on schedule so they are ready whenever the school tests them.'],
     ['How do your live classes follow the exam calendar?', 'Theory units run on Mondays and the practical file and project on Wednesdays, both at 9 PM IST. The target is every theory unit finished before the winter break. The sample paper is solved live once CBSE posts it, and three full timed mocks follow in January and February. Doubts are answered live in every class, and parents get a short progress report at each milestone.'],

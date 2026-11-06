@@ -5,16 +5,20 @@
 // SQP) and the exam-date page (calendar + blueprint). Every question sits inside
 // the 2026-27 curriculum; theory questions come only from Part A and Units 1, 2, 3,
 // 5, 6 (Units 4 and 7 are practical only and are labelled so). Worked numbers are
-// fresh and recomputed: TP 90, FN 10, FP 30, TN 70.
+// fresh and recomputed: TP 90, FN 10, FP 30, TN 70. 2026-11-06: became the hub of the
+// wave 3 question pages (chapter wise question bank table links every unit page and
+// question-type page); expected-questions table added; fraud-alert numerical
+// TP 40, FP 10, FN 20, TN 130 recomputed with python3 (0.85, 0.80, 0.67, 0.73).
 'use strict';
 
 module.exports = {
   slug: 'cbse-class-10-ai-important-questions',
   code: 'ciq',
   board: 'cbse',
+  dateModified: '2026-11-06',
   themeColor: '#334E7A',
   title: 'CBSE Class 10 AI Important Questions 2027 (417), Unit-Wise',
-  description: 'CBSE Class 10 AI (417) important questions 2027, unit-wise: MCQs, confusion matrix numericals, Bag of Words, Part A and viva questions, practised live.',
+  description: 'CBSE Class 10 AI (417) important questions 2027: most expected questions, a chapter wise question bank, numericals and a link to every practice page.',
   ogTitle: 'CBSE Class 10 AI Important Questions 2027, Unit by Unit',
   ogDesc: 'The question shapes the 417 paper keeps asking, unit by unit: project cycle and ethics, modeling, confusion matrix numericals, computer vision, Bag of Words, Part A, plus practical and viva questions, practised live with doubts answered.',
   twDesc: 'Unit-wise 417 important questions: MCQs, confusion matrix numericals, Bag of Words, Part A and viva questions, practised live.',
@@ -22,7 +26,7 @@ module.exports = {
   courseName: 'CBSE Class 10 AI (417) Important Questions Practice, Live Online',
   courseDesc: 'Live online practice of the important questions for CBSE Class 10 Artificial Intelligence (417), session 2026-27: objective questions, two-mark and four-mark answers and numericals for every theory unit, Part A employability skills drills, and practical and viva questions, marked against the CBSE value points with live doubt solving, every Monday and Wednesday at 9 PM IST or one to one at a time the family chooses.',
   brandTag: '417 &middot; Questions',
-  navLinks: [['#units12', 'Units 1 and 2'], ['#numericals', 'Numericals'], ['#cvnlp', 'CV and NLP'], ['#fees', 'Batch or 1-on-1']],
+  navLinks: [['#bank', 'Question bank'], ['#expected', 'Most expected'], ['#numericals', 'Numericals'], ['#fees', 'Batch or 1-on-1']],
   crumbs: [['/', 'Home'], ['/cbse-class-10-ai-classes-online', 'Class 10 AI classes'], [null, 'Important questions']],
   eyebrow: 'CBSE Class 10 &middot; Artificial Intelligence, code 417 &middot; Important questions 2027',
   h1: 'CBSE Class 10 AI important questions for 2027, unit by unit.',
@@ -79,10 +83,120 @@ module.exports = {
   </div>
 </section>`,
 
+`<section class="bx-section" id="bank">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. Where is the chapter wise question bank?</p>
+      <h2>The chapter wise question bank: one practice page per unit and per question type</h2>
+      <p class="bx-lede">This page is the index. Each theory unit now has its own page of original questions with answers, and each question format has one too, so a student can drill by chapter in autumn and by format in the weeks before the paper.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Chapter</th><th scope="col">Theory marks</th><th scope="col">Question bank page</th><th scope="col">Drill it with</th></tr></thead>
+        <tbody>
+          <tr><td>Unit 1: Revisiting the AI Project Cycle and Ethical Frameworks</td><td class="bx-num">7</td><td><a class="bx-link" href="/cbse-class-10-ai-project-cycle-and-ethics">Project cycle and ethics questions</a></td><td>4Ws canvases on new school problems; bioethics applied to a short case</td></tr>
+          <tr><td>Unit 2: Advanced Concepts of Modeling in AI</td><td class="bx-num">11</td><td><a class="bx-link" href="/cbse-class-10-ai-advanced-modeling-questions">Advanced modeling questions</a></td><td>Scenario sorting: which learning type, which task, which network</td></tr>
+          <tr><td>Unit 3: Evaluating Models</td><td class="bx-num">10</td><td><a class="bx-link" href="/cbse-class-10-ai-evaluating-models-questions">Evaluating Models questions</a></td><td>Matrices built from words, then the <a class="bx-link" href="/confusion-matrix-class-10-ai-numericals">confusion matrix numericals</a> set</td></tr>
+          <tr><td>Unit 4: Statistical Data (practical only)</td><td class="bx-num">0</td><td><a class="bx-link" href="/orange-data-mining-class-10-ai">Orange Data Mining walkthroughs</a></td><td>Workflows rebuilt from a blank canvas, as the practical exam asks</td></tr>
+          <tr><td>Unit 5: Computer Vision</td><td class="bx-num">4</td><td><a class="bx-link" href="/cbse-class-10-ai-computer-vision-questions">Computer Vision questions</a></td><td>Pixel arithmetic, resolution and task identification</td></tr>
+          <tr><td>Unit 6: Natural Language Processing</td><td class="bx-num">8</td><td><a class="bx-link" href="/cbse-class-10-ai-nlp-questions">NLP questions</a></td><td>Token counts and the worked <a class="bx-link" href="/bag-of-words-tfidf-class-10-ai">Bag of Words and TFIDF</a> tables</td></tr>
+          <tr><td>Part A: employability skills</td><td class="bx-num">10</td><td><a class="bx-link" href="/cbse-class-10-ai-employability-skills-part-a">Part A model answers</a></td><td>Two questions per unit, every week from November</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-2 bx-mt-40" style="align-items:start">
+      <div>
+        <h3>Question banks by format</h3>
+        <ul class="bx-check">
+          <li><a class="bx-link" href="/cbse-class-10-ai-mcq-questions">MCQs, unit wise</a>: one-mark items with the reason each wrong option fails.</li>
+          <li><a class="bx-link" href="/cbse-class-10-ai-assertion-reason-questions">Assertion and reason items</a>: a shape that appeared in Section A of both the 2025 and the 2026 papers.</li>
+          <li><a class="bx-link" href="/cbse-class-10-ai-case-based-questions">Case based questions</a>: four-mark scenarios split into their value points.</li>
+          <li><a class="bx-link" href="/cbse-class-10-ai-difference-between-questions">Difference between questions</a>: paired terms set out as two-column answers.</li>
+          <li><a class="bx-link" href="/cbse-class-10-ai-worksheets">Worksheets with answers</a>: printable mixed sets for home practice.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Papers, answers and the practical side</h3>
+        <ul class="bx-check">
+          <li><a class="bx-link" href="/cbse-class-10-ai-previous-year-question-papers">Previous year papers</a>: what the 2025 and 2026 papers asked, described and solved in our own words.</li>
+          <li><a class="bx-link" href="/cbse-class-10-ai-textbook-solutions">Handbook exercise answers</a>: end-of-unit exercises answered to the marking scheme's length.</li>
+          <li><a class="bx-link" href="/cbse-class-10-ai-formula-sheet">Formula sheet</a>: every metric and pixel calculation on one page.</li>
+          <li><a class="bx-link" href="/cbse-class-10-ai-practical-exam-questions">Practical exam questions</a> and <a class="bx-link" href="/cbse-class-10-ai-viva-questions">viva questions</a>: the Units 4 and 7 half of the subject.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>`,
+
+`<section class="bx-section bx-section--tint" id="expected">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. Which are the most expected questions for 2027?</p>
+      <h2>Most expected questions for the 2027 AI paper, and the reason for each</h2>
+      <p class="bx-lede">Nobody outside CBSE knows the 2027 paper. What can be said is which shapes the blueprint guarantees space for and which recurred in the 2025 and 2026 papers. These ten are the ones we would bet a revision hour on.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Expected question shape</th><th scope="col">Unit</th><th scope="col">Why we expect it</th></tr></thead>
+        <tbody>
+          <tr><td>Build a confusion matrix from a paragraph, then find two or more metrics</td><td>3</td><td>Six objective slots plus a long answer in the unit; the calculation is the cheapest way to fill them</td></tr>
+          <tr><td>Pick the metric that matters for a stated risk, with a reason</td><td>3</td><td>The curriculum lists choosing a metric as an activity, so it is examinable</td></tr>
+          <tr><td>Name the learning type or task behind a described product</td><td>2</td><td>Unit 2 has two long answers and two short ones; scenarios fill most of them</td></tr>
+          <tr><td>Scope a problem with the 4Ws and write the problem statement</td><td>1</td><td>The unit's only long answer suits a canvas better than any other topic</td></tr>
+          <tr><td>Apply bioethics principles to a short case</td><td>1</td><td>The ethics sub-unit is new material with a ready-made case structure</td></tr>
+          <tr><td>Dictionary and document vectors for two or three short texts</td><td>6</td><td>The one NLP technique that turns into a four-mark calculation</td></tr>
+          <tr><td>Count tokens, or stem and lemmatise a word list</td><td>6</td><td>Five objective slots in the unit, and these items are quick to mark</td></tr>
+          <tr><td>Resolution to pixel count, or what a pixel value means</td><td>5</td><td>Four objective slots and one short answer, no long answer</td></tr>
+          <tr><td>An assertion and reason item on any unit</td><td>Any</td><td>Confirmed in Section A of the 2025 and 2026 main papers</td></tr>
+          <tr><td>Two Part A short answers: a definition with an example</td><td>Part A</td><td>Five written Part A questions are printed every time</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>An expected item, freshly set</b><span>Unit 3, four marks</span></figcaption>
+  <pre>A bank's fraud alert model checked
+200 card payments. Fraud is positive.
+
+It flagged 40 fraudulent payments
+correctly and 10 honest ones wrongly.
+It let 20 fraudulent payments through.
+The other 130 honest payments passed.
+
+(a) Draw the confusion matrix.
+(b) Find accuracy, precision, recall.
+(c) Find F1 score.
+(d) Which metric should the bank
+    raise first? Give a reason.</pre>
+  <p class="bx-code-note">Written for this page, not taken from any paper. The numbers were checked in Python before publishing.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>The key</b><span>one value point per line</span></figcaption>
+  <pre><b>(a)</b> TP = 40   FP = 10
+    FN = 20   TN = 130
+
+<b>(b)</b> Accuracy  = 170 / 200 = <b>0.85</b>
+    Precision = 40 / 50   = <b>0.80</b>
+    Recall    = 40 / 60   = <b>0.67</b>
+
+<b>(c)</b> F1 = 2 x 0.80 x 0.67 / 1.47
+       = <b>0.73</b>
+
+<b>(d)</b> Recall. Each missed fraud is
+    money lost; an honest payment
+    flagged by mistake costs only
+    a phone call to the customer.</pre>
+  <p class="bx-code-note">Accuracy looks healthy at 0.85 while one fraud in three slips through. Spotting that gap is what part (d) is really testing.</p>
+</figure>
+    </div>
+  </div>
+</section>`,
+
+
 `<section class="bx-section" id="units12">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q2. Which questions matter in Units 1 and 2?</p>
+      <p class="bx-qlabel">Q4. Which questions matter in Units 1 and 2?</p>
       <h2>Project cycle, ethics and the families of AI models</h2>
       <p class="bx-lede">Unit 1 carries seven theory marks and Unit 2 eleven, with two long answers in Unit 2 alone. Together they make up more than a third of the theory paper.</p>
     </div>
@@ -125,7 +239,7 @@ module.exports = {
 `<section class="bx-section bx-section--deep" id="numericals">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q3. How should the Unit 3 numerical be answered?</p>
+      <p class="bx-qlabel">Q5. How should the Unit 3 numerical be answered?</p>
       <h2>The confusion matrix numerical, solved the weak way and the full-marks way</h2>
       <p class="bx-lede">An AI model checks whether mangoes are ripe; ripe is the positive class. Of 200 mangoes, it correctly calls 90 ripe ones ripe and 70 unripe ones unripe. It calls 30 unripe mangoes ripe and misses 10 ripe ones. Draw the confusion matrix and find accuracy, precision, recall and F1 score.</p>
     </div>
@@ -188,7 +302,7 @@ Predicted No    FN = 10      TN = 70
 `<section class="bx-section" id="cvnlp">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q4. Which questions matter in Computer Vision and NLP?</p>
+      <p class="bx-qlabel">Q6. Which questions matter in Computer Vision and NLP?</p>
       <h2>Pixels and images for four marks, text processing for eight</h2>
       <p class="bx-lede">Computer Vision has no long answer in the latest blueprint, so its four marks come from objective and short questions. Natural Language Processing carries eight, including a four-mark text processing question.</p>
     </div>
@@ -250,7 +364,7 @@ Doc 2: [crops, need, rain, and, sun]
 `<section class="bx-section bx-section--tint" id="parta">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q5. What about Part A and the practical?</p>
+      <p class="bx-qlabel">Q7. What about Part A and the practical?</p>
       <h2>Ten theory marks in Part A, and the questions examiners ask in the lab</h2>
     </div>
     <div class="bx-grid-2" style="align-items:start">
@@ -286,7 +400,7 @@ Doc 2: [crops, need, rain, and, sun]
 `<section class="bx-section" id="live">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q6. How are these questions practised live?</p>
+      <p class="bx-qlabel">Q8. How are these questions practised live?</p>
       <h2>A question bank is a starting point; marking is what makes it work</h2>
       <p class="bx-lede">Students who work through a list of questions alone usually check only whether they got the idea right. The CBSE marking scheme checks whether they wrote the value points. Live practice closes that gap.</p>
     </div>
@@ -327,6 +441,8 @@ Doc 2: [crops, need, rain, and, sun]
   faqH2: 'What families ask about CBSE Class 10 AI important questions',
   faqs: [
     ['What are the most important questions for CBSE Class 10 AI?', 'Those that are frequent, heavily weighted or easy to lose marks on: the confusion matrix numerical with accuracy, precision, recall and F1 score; the AI project cycle and bioethics case study; supervised, unsupervised and reinforcement learning; classification versus regression; the Bag of Words vector and token counting; stemming versus lemmatisation; pixels and resolution; and the ten marks of Part A employability skills.'],
+    ['What are the most expected questions in CBSE Class 10 AI for 2027?', 'No one can name the 2027 questions in advance, but some shapes have guaranteed space in the blueprint: a confusion matrix built from a paragraph with accuracy, precision and recall, choosing a metric for a stated risk, naming the learning type behind a product, a 4Ws problem statement, Bag of Words vectors, token counts, a pixel or resolution item, an assertion and reason item, and Part A definitions with an example.'],
+    ['Is there a chapter wise question bank for CBSE Class 10 AI?', 'Yes. Each theory unit has its own page of original questions with answers: project cycle and ethics, advanced modeling, evaluating models, computer vision and NLP, plus Part A and the Orange practical. There are also banks by format, covering MCQs, assertion and reason, case based questions, difference between questions and worksheets. The table on this page links all of them.'],
     ['Which unit is most important in CBSE Class 10 AI?', 'Advanced Concepts of Modeling carries the most theory marks, 11, and is the only unit with two long-answer questions in the latest blueprint. Evaluating Models follows with 10 marks and its confusion matrix numerical. Natural Language Processing carries 8, the AI project cycle and ethics unit 7, and Computer Vision 4.'],
     ['Are numericals asked in CBSE Class 10 AI?', 'Yes. Evaluating Models brings confusion matrix questions: building the matrix from a paragraph, then finding accuracy, precision, recall or F1 score, and sometimes the error of a single prediction. The perceptron weighted sum also appears, as a one-mark objective question. Token counts and Bag of Words vectors in NLP are calculation-style questions too.'],
     ['Are questions asked from Statistical Data and Python in the theory paper?', 'Not in the current scheme. Statistical Data (Unit 4) and Advance Python (Unit 7) are assessed through the practical: the practical file, the practical exam and the viva. Their questions appear when your child writes programs and explains them to the examiner, which is why our Wednesday classes rehearse them.'],

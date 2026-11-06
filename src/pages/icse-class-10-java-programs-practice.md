@@ -11,6 +11,20 @@ source: src/pages/icse-class-10-java-programs-practice.html
 
 Number and pattern programs test nested loops, counters and exact output format. Menu-driven programs test Scanner input, switch with break and default, and formatted output. Single-dimensional arrays test indexing from zero, linear and binary search, bubble and selection sort. String handling tests charAt and length, building a new string, and String methods used correctly. Classes with constructors and methods test constructors, parameters, methods that return values, and calling them from main. Double-dimensional arrays test nested loops over rows and columns with two indices kept apart. The choice of any four is the strategic fact of the section.
 
+## Every program family, page by page
+
+- [String programs](/icse-class-10-string-programs): palindrome words, Pig Latin, character frequency and word counts, with the permitted String methods in one table.
+- [Special number programs](/icse-special-number-programs-java): Niven, spy, Armstrong, perfect and palindrome numbers, one digit loop with a different test at the end.
+- [Sorting and searching programs](/icse-class-10-sorting-and-searching-programs): linear and binary search, bubble and selection sort, traced pass by pass.
+- [2D array programs](/icse-class-10-2d-array-programs): accept, print in rows, and row, column and diagonal sums, the whole 2027 matrix syllabus.
+- [Pattern programs](/icse-class-10-pattern-programs-java): number, star and letter triangles, with the inner-loop limit rule for each.
+- [Menu driven programs](/icse-class-10-menu-driven-programs): switch menus with break and a default for a bad choice.
+- [Series programs](/icse-class-10-series-programs-java): sums of powers, factorials and alternating signs, kept as doubles.
+- [Slab and bill programs](/icse-class-10-slab-and-bill-programs): electricity, courier and discount bills written as a class to a specification.
+- [Methods and overloading](/icse-class-10-user-defined-methods-overloading): one name, three parameter lists, and which call reaches which.
+
+Shaky loop counts come first: [loops and loop conversion](/icse-class-10-loop-programs-java).
+
 ## Eight worked programs
 
 1. Floyd's triangle: a counter n printed across rows i of length i, three variables with three roles.
@@ -52,13 +66,15 @@ The programs practice is the Wednesday half of the standard batch. Monthly, no a
 
 **How many programs in the paper?** Any four of those offered in Section B, 15 marks each, 60 marks in total.
 
+**Where are the programs sorted by type?** Here: this page links a practice page for every family listed above.
+
 **Most common families?** Arrays and strings in almost every paper, a class with constructor and methods nearly as often, then menus, patterns and matrices.
 
 **What are the 15 marks for?** Logic, the targeted construct, class and method structure, the variable description, and the output format; CISCE publishes expectations rather than a line-by-line rubric.
 
 **Is the variable description compulsory?** Treat it as such: the syllabus asks for variable descriptions or mnemonic codes and papers instruct students to include them.
 
-**Scanner or BufferedReader?** Either; Scanner by default, with the import line written every time.
+**Scanner or BufferedReader?** Scanner. The CISCE specimen says BufferedReader and DataInputStream should not be used in Section B.
 
 **How many programs before the exam?** Around sixty, roughly ten per family, one program and one variation a week.
 
@@ -72,7 +88,7 @@ Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 stude
 
 **Programs for Section B:** [String programs](/icse-class-10-string-programs), [Special number programs](/icse-special-number-programs-java), [Sorting and searching programs](/icse-class-10-sorting-and-searching-programs), [2D array programs](/icse-class-10-2d-array-programs), [Pattern programs](/icse-class-10-pattern-programs-java), [Menu driven and switch case](/icse-class-10-menu-driven-programs), [Series programs](/icse-class-10-series-programs-java), [Slab and bill programs](/icse-class-10-slab-and-bill-programs).
 
-**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
+**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Viva and oral questions](/icse-computer-applications-viva-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
 
 **Notes and revision:** [Chapter-wise notes](/icse-computer-applications-notes), [Textbook solutions guide](/icse-computer-applications-textbook-solutions-guide), [Worksheets with answers](/icse-computer-applications-worksheets).
 

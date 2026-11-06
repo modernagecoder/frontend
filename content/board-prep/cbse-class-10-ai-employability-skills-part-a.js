@@ -8,6 +8,7 @@ module.exports = {
   slug: 'cbse-class-10-ai-employability-skills-part-a',
   code: 'cpa',
   board: 'cbse',
+  dateModified: '2026-11-06',
   themeColor: '#2F5A47',
   title: 'CBSE Class 10 AI Part A: Employability Skills (10 Marks)',
   description: 'CBSE Class 10 AI (417) Part A employability skills: all five units, what each 2-mark question asks, model answers and how live classes secure the ten marks.',
@@ -166,6 +167,15 @@ know the message was understood.</pre>
       <li class="bx-step"><h4>Part A inside every full mock</h4><p>Every timed mock paper includes Part A in the same shape as the CBSE sample paper, so students practise answering it quickly and moving on to the AI questions with time in hand.</p></li>
       <li class="bx-step"><h4>A final sweep in the last week</h4><p>In the final week before the paper, Part A is maintenance only: the five answer sheets read once a day. No new material, just the ten marks kept warm.</p></li>
     </ol>
+    <p class="bx-mt-40">
+      More Part A practice outside class: the printable <a class="bx-link" href="/cbse-class-10-ai-worksheets">417 worksheets</a>
+      include a Part A sheet with mixed question types and its key printed below. For the one-mark side alone, <a class="bx-link" href="/cbse-class-10-ai-mcq-questions">the unit wise MCQ set</a>
+      opens with Part A items, each with the reason behind the answer. Students who revise in Hindi can use
+      <a class="bx-link" href="/cbse-class-10-ai-notes-in-hindi">the Hinglish notes</a>, which keep each English exam term in bold
+      so it still lands in the answer. In the final month, <a class="bx-link" href="/cbse-class-10-ai-revision-plan">the 30, 7 and 1 day revision plan</a>
+      gives Part A short daily recall blocks, and <a class="bx-link" href="/cbse-class-10-ai-one-shot-revision">the one shot revision</a>
+      spends its first ten minutes on all five units.
+    </p>
     <p class="bx-mt-40">
       The full mock series, including how the official sample paper is solved live, is on
       <a class="bx-link" href="/cbse-class-10-ai-sample-paper-and-mock-tests">the 417 sample paper and mock tests page</a>,

@@ -3,7 +3,7 @@ title: "ICSE Computer Applications Classes in Dubai, UAE and Abroad"
 description: "One to one ICSE Class 10 Computer Applications (Java) classes for Dubai, Sharjah, Singapore, Indonesia and Thailand: board prep, lab file, mocks, live doubts."
 canonical: https://learn.modernagecoders.com/icse-class-10-computer-applications-classes-gulf-and-abroad
 source: src/pages/icse-class-10-computer-applications-classes-gulf-and-abroad.html
-updated: 2026-10-13
+updated: 2026-11-06
 ---
 
 > Students at ICSE schools outside India can study ICSE Class 10 Computer Applications with Modern Age Coders in live, personalised one to one classes. CISCE lists ICSE schools abroad in the UAE (three in Dubai and one in Sharjah), Singapore, Indonesia and Thailand, all teaching the same Computer Applications syllabus and setting the same pattern of examination. Classes run twice a week at a local time the family chooses, usually between the end of school and 9 PM, and cover the full Java syllabus in BlueJ, the twenty-plus lab assignments for the internal assessment, the specimen paper and full two-hour mocks, with live doubt solving in every class. Outside India, fees are shown and charged in US dollars.
@@ -99,6 +99,27 @@ read about [the ICSE Class 10 Java classes](/icse-class-10-java-classes-online).
 -
 **Throughout: progress reports** After the diagnostic, when the lab file passes twenty programs and after each full paper, parents get a short progress report. Parents abroad may never meet the teacher in person, so the report is their clearest view of how the year is going.
 
+## Five days without a class: the free pages that keep the week moving
+
+Two private classes a week leave five days for short practice at home. Abroad there is rarely an ICSE classmate to compare answers with, so each piece of home practice below comes with its answers, and anything that still does not make sense goes to the top of the next private class.
+
+- When | About 20 minutes on | Free page
+
+- The day after a theory class | Re-reading the unit in short notes | Chapter-wise notes
+
+- Midweek | Five outputs traced with a step table, then checked in BlueJ | Output questions
+
+- The day after a program class | Rewriting that week's program from memory | String programs or 2D array programs
+
+- The weekend | One printable set, marked with its key | Worksheets with answers
+
+- Before the school's prelims | Whole past papers under the clock | Previous year papers, solved
+
+A student who joins from another board, or whose Class 9 Java is shaky, starts with
+[Class 9 Java revision for Class 10](/icse-class-9-java-revision-for-class-10) before the Class 10 units.
+How the one to one format itself works, from the first lesson to the final paper, is set out on
+[the one to one private Java tutor page](/icse-computer-applications-private-tutor).
+
 ## Judge the teaching on a real lesson, then decide month by month
 
 ### Watch a lesson before deciding
@@ -166,7 +187,7 @@ Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 stude
 
 **Programs for Section B:** [ICSE Java programs practice](/icse-class-10-java-programs-practice), [String programs](/icse-class-10-string-programs), [Special number programs](/icse-special-number-programs-java), [Sorting and searching programs](/icse-class-10-sorting-and-searching-programs), [2D array programs](/icse-class-10-2d-array-programs), [Pattern programs](/icse-class-10-pattern-programs-java), [Menu driven and switch case](/icse-class-10-menu-driven-programs), [Series programs](/icse-class-10-series-programs-java), [Slab and bill programs](/icse-class-10-slab-and-bill-programs).
 
-**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
+**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Viva and oral questions](/icse-computer-applications-viva-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
 
 **Notes and revision:** [Chapter-wise notes](/icse-computer-applications-notes), [Textbook solutions guide](/icse-computer-applications-textbook-solutions-guide), [Worksheets with answers](/icse-computer-applications-worksheets).
 

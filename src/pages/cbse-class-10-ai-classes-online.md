@@ -42,6 +42,16 @@ Asked for the CBSE suggested program, mean, median and mode using NumPy, the mem
 4. Both vivas are practised out loud every Wednesday, so a viva is just Wednesday with a stranger.
 5. A full dress rehearsal before the school's board practical day.
 
+## Every free resource for CBSE Class 10 AI
+
+Free pages written by our teachers for the 2026-27 syllabus and the paper on Wednesday 24 February 2027.
+
+- Unit by unit: [Unit 1 project cycle and ethics](/cbse-class-10-ai-project-cycle-and-ethics), [Unit 2 advanced modeling](/cbse-class-10-ai-advanced-modeling-questions), [Unit 3 evaluating models](/cbse-class-10-ai-evaluating-models-questions) and [confusion matrix numericals](/confusion-matrix-class-10-ai-numericals), [Unit 4 Orange Data Mining](/orange-data-mining-class-10-ai), [Unit 5 computer vision](/cbse-class-10-ai-computer-vision-questions), [Unit 6 NLP](/cbse-class-10-ai-nlp-questions) and [Bag of Words and TFIDF](/bag-of-words-tfidf-class-10-ai), [Unit 7 Advance Python](/python-for-cbse-class-10-ai).
+- Questions and papers: [important questions index](/cbse-class-10-ai-important-questions), [MCQs](/cbse-class-10-ai-mcq-questions), [assertion and reason](/cbse-class-10-ai-assertion-reason-questions), [case based](/cbse-class-10-ai-case-based-questions), [previous year papers](/cbse-class-10-ai-previous-year-question-papers), [sample paper and mocks](/cbse-class-10-ai-sample-paper-and-mock-tests), [worksheets](/cbse-class-10-ai-worksheets).
+- Notes and revision: [unit wise notes](/cbse-class-10-ai-notes), [notes in Hinglish](/cbse-class-10-ai-notes-in-hindi), [formula sheet](/cbse-class-10-ai-formula-sheet), [one shot revision](/cbse-class-10-ai-one-shot-revision), [revision plan](/cbse-class-10-ai-revision-plan), [practical exam questions](/cbse-class-10-ai-practical-exam-questions), [viva questions](/cbse-class-10-ai-viva-questions), [project ideas](/cbse-class-10-ai-project-ideas).
+
+Suggested order: one unit's notes, that unit's questions, its MCQs, then a full paper. The [marking scheme guide](/cbse-class-10-ai-marking-scheme) shows the standard answers are held to.
+
 ## Courses behind the batch
 
 - [CBSE Computational Thinking and AI for Teens, Classes 9 to 12 (417 and 843)](/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843): the course behind the Monday and Wednesday batch, with a separate Class 10 batch.

@@ -86,7 +86,7 @@
         "description": "The Java question shapes the ICSE paper keeps asking, unit by unit: output tracing, String and Character methods, constructors, overloading, arrays and the six Section B program families, with a program marked the weak way and the full-marks way.",
         "inLanguage": "en",
         "isAccessibleForFree": true,
-        "dateModified": "2026-10-13",
+        "dateModified": "2026-11-06",
         "author": {
           "@id": "https://learn.modernagecoders.com/#org"
         },
@@ -186,6 +186,14 @@
           },
           {
             "@type": "Question",
+            "name": "Is there a chapter-wise question bank for ICSE Computer Applications?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. This page gives one question per chapter in the shape the board uses, with its answer, and links each chapter to a page holding its full set: data types, operators, loops, Math methods, classes, encapsulation, methods, constructors, wrapper classes, arrays, strings and 2D arrays. Question types such as MCQs, outputs and error finding have their own practice pages too."
+            }
+          },
+          {
+            "@type": "Question",
             "name": "Which chapter is most important in ICSE Class 10 Computer Applications?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -275,6 +283,7 @@
     <div class="bx-nav-links">
       <a href="#outputs">Output questions</a>
       <a href="#units">By unit</a>
+      <a href="#bank">Question bank</a>
       <a href="#program">Program marked</a>
       <a href="#fees">Batch or 1-on-1</a>
       <a href="#start" class="bx-btn">Free demo class</a>
@@ -476,7 +485,14 @@
       <div class="bx-card"><h3>Method overloading</h3><p>Three methods with the same name and different parameter lists: one prints a nested-loop pattern, one applies a condition, and one evaluates a formula. Students must decide which version each call in <code>main</code> reaches.</p></div>
     </div>
     <p class="bx-mt-40">
-      Complete practice sets for each family, with programs set at increasing difficulty, are on
+      Each family now has its own worked page: <a class="bx-link" href="/icse-class-10-slab-and-bill-programs">slab and bill programs</a>
+      for the class to a specification, <a class="bx-link" href="/icse-class-10-sorting-and-searching-programs">sorting and searching programs</a>,
+      <a class="bx-link" href="/icse-class-10-string-programs">string programs</a>, <a class="bx-link" href="/icse-class-10-2d-array-programs">2D array programs</a>,
+      <a class="bx-link" href="/icse-special-number-programs-java">special number programs</a> and
+      <a class="bx-link" href="/icse-class-10-user-defined-methods-overloading">methods and overloading</a>. Two shapes that sit beside them,
+      <a class="bx-link" href="/icse-class-10-pattern-programs-java">pattern programs</a> and <a class="bx-link" href="/icse-class-10-menu-driven-programs">menu driven programs</a>,
+      often arrive inside the overloading or switch question, and <a class="bx-link" href="/icse-class-10-series-programs-java">series programs</a> fill the same slot as a formula method.
+      The index of every set, ordered by difficulty, is
       <a class="bx-link" href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a>. How the families
       appeared in the latest specimen, and the paper's full design, are on
       <a class="bx-link" href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">ICSE Computer Applications exam date and paper pattern</a>.
@@ -484,10 +500,60 @@
   </div>
 </section>
 
+<section class="bx-section" id="bank">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. Is there a chapter-wise question bank?</p>
+      <h2>A chapter-wise question bank: one expected question from every chapter</h2>
+      <p class="bx-lede">The most expected questions are not guesses about 2027. They are the shapes CISCE has set year after year, so a student who can answer one honest example per chapter is ready for most variations. Cover the answer column, attempt each row, then open the chapter page for its full set.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Chapter</th><th scope="col">A question in the board's shape</th><th scope="col">Answer</th></tr></thead>
+        <tbody>
+          <tr><td><a class="bx-link" href="/icse-class-9-java-revision-for-class-10">Class 9 revision</a></td><td>Output of <code>System.out.println(5 / 2 * 2.0);</code></td><td class="bx-num">4.0</td></tr>
+          <tr><td><a class="bx-link" href="/icse-class-10-data-types-and-input-java">Data types and input</a></td><td>Which Scanner method reads one word, and which reads the rest of the line?</td><td><code>next()</code> and <code>nextLine()</code></td></tr>
+          <tr><td><a class="bx-link" href="/icse-class-10-operators-in-java">Operators</a></td><td><code>int a = 5; a += a++ + ++a;</code> What is a?</td><td class="bx-num">17</td></tr>
+          <tr><td><a class="bx-link" href="/icse-class-10-loop-programs-java">Loops</a></td><td>How many times does <code>for (int k = 10; k &gt; 0; k -= 3)</code> run?</td><td class="bx-num">4</td></tr>
+          <tr><td><a class="bx-link" href="/icse-class-10-math-library-methods">Math methods</a></td><td>Output of <code>Math.sqrt(Math.abs(-16)) + Math.pow(2, 3)</code></td><td class="bx-num">12.0</td></tr>
+          <tr><td><a class="bx-link" href="/icse-class-10-class-as-basis-of-computation">Class as basis of computation</a></td><td>Why is a class called a user-defined data type?</td><td>Its name declares new variables (objects) that bundle data with the methods acting on it.</td></tr>
+          <tr><td><a class="bx-link" href="/icse-class-10-encapsulation-access-specifiers">Encapsulation</a></td><td>Can a method in another class read a <code>private</code> member directly?</td><td>No, only through a public method of the owning class.</td></tr>
+          <tr><td><a class="bx-link" href="/icse-class-10-user-defined-methods-overloading">Methods and overloading</a></td><td>Write the prototype of <code>check</code>, taking a String and a char and returning an int.</td><td><code>int check(String s, char ch)</code></td></tr>
+          <tr><td><a class="bx-link" href="/icse-class-10-constructors-questions">Constructors</a></td><td>Which constructor does Java supply when a class defines none?</td><td>The default constructor, giving members their default values.</td></tr>
+          <tr><td><a class="bx-link" href="/icse-class-10-wrapper-and-library-classes">Wrapper classes</a></td><td>Output of <code>Character.isLetterOrDigit('$')</code></td><td class="bx-num">false</td></tr>
+          <tr><td><a class="bx-link" href="/icse-class-10-sorting-and-searching-programs">Arrays</a></td><td>After one ascending bubble sort pass, where is the largest value?</td><td>In the last position.</td></tr>
+          <tr><td><a class="bx-link" href="/icse-class-10-string-programs">Strings</a></td><td>Output of <code>"MISSISSIPPI".lastIndexOf("SS")</code></td><td class="bx-num">5</td></tr>
+          <tr><td><a class="bx-link" href="/icse-class-10-2d-array-programs">2D arrays</a></td><td><code>int m[][] = {{1,2,3},{4,5,6}};</code> Value of <code>m.length + m[0].length</code>?</td><td class="bx-num">5</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="bx-mt-40">Question types, and the page that drills each one</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Question type</th><th scope="col">Where it sits in the paper</th><th scope="col">Practice page</th></tr></thead>
+        <tbody>
+          <tr><td>Twenty one-mark choices</td><td>Section A, Question 1</td><td><a class="bx-link" href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></td></tr>
+          <tr><td>Predict the output</td><td>Section A, mostly Question 2</td><td><a class="bx-link" href="/icse-class-10-java-output-questions">Output questions</a></td></tr>
+          <tr><td>Spot and correct the error</td><td>Section A</td><td><a class="bx-link" href="/icse-class-10-java-error-finding-questions">Find the error questions</a></td></tr>
+          <tr><td>Scenario and case study items</td><td>Section A, labelled Application or Analysis</td><td><a class="bx-link" href="/icse-computer-applications-competency-questions">Competency questions</a></td></tr>
+          <tr><td>State two differences</td><td>Section A, two marks</td><td><a class="bx-link" href="/icse-computer-difference-between-questions">Difference between questions</a></td></tr>
+          <tr><td>Oral questions on your lab programs</td><td>Internal assessment, not the paper</td><td><a class="bx-link" href="/icse-computer-applications-viva-questions">Viva questions</a></td></tr>
+          <tr><td>Whole past papers, timed</td><td>Both sections together</td><td><a class="bx-link" href="/icse-computer-applications-previous-year-papers-solved">Previous year papers, solved</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      Read the table as a checklist. A row you could not answer in under a minute marks the chapter to open first, and a
+      question type you have never timed is the one to practise this week. For printable sets with answer keys, use the
+      <a class="bx-link" href="/icse-computer-applications-worksheets">ICSE Computer Applications worksheets</a>.
+    </p>
+  </div>
+</section>
+
 <section class="bx-section bx-section--deep" id="program">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q4. What does a full-marks Section B answer look like?</p>
+      <p class="bx-qlabel">Q5. What does a full-marks Section B answer look like?</p>
       <h2>A double dimensional array program, written the weak way and the full-marks way</h2>
       <p class="bx-lede">Write a program to accept a 3 x 3 integer array, display it in matrix format, and print the sums of its left and right diagonals.</p>
     </div>
@@ -563,7 +629,7 @@ class Diagonal {
 <section class="bx-section" id="mistakes">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q5. Where do students lose marks they should keep?</p>
+      <p class="bx-qlabel">Q6. Where do students lose marks they should keep?</p>
       <h2>Eight habits that cost marks, and the fix for each</h2>
     </div>
     <div class="bx-grid-2" style="align-items:start">
@@ -591,7 +657,7 @@ class Diagonal {
 <section class="bx-section bx-section--tint" id="live">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q6. How are these questions practised live?</p>
+      <p class="bx-qlabel">Q7. How are these questions practised live?</p>
       <h2>A question bank needs someone to mark it</h2>
       <p class="bx-lede">A student practising alone checks whether the program ran. The examiner checks the output format, the variable description and whether the answer fits the question. Live practice teaches the second kind of checking.</p>
     </div>
@@ -740,6 +806,7 @@ class Diagonal {
           <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
           <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
           <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+          <li><a href="/icse-computer-applications-viva-questions">Viva and oral questions</a></li>
           <li><a href="/icse-class-10-java-error-finding-questions">Find the error questions</a></li>
           <li><a href="/icse-computer-difference-between-questions">Difference between questions</a></li>
         </ul>
@@ -776,6 +843,7 @@ class Diagonal {
     </div>
     <div class="bx-faq">
       <div class="bx-faq-item"><h3>What are the most important questions for ICSE Computer Applications 2027?</h3><p>In Section A: output tracing, loop counts, String and Character method results, wrapper class conversions, finding errors and writing single Java statements. In Section B: a class written to a specification, searching and sorting on arrays, string programs, double dimensional array sums, number-property programs and method overloading. Together they cover nearly every mark on the paper.</p></div>
+      <div class="bx-faq-item"><h3>Is there a chapter-wise question bank for ICSE Computer Applications?</h3><p>Yes. This page gives one question per chapter in the shape the board uses, with its answer, and links each chapter to a page holding its full set: data types, operators, loops, Math methods, classes, encapsulation, methods, constructors, wrapper classes, arrays, strings and 2D arrays. Question types such as MCQs, outputs and error finding have their own practice pages too.</p></div>
       <div class="bx-faq-item"><h3>Which chapter is most important in ICSE Class 10 Computer Applications?</h3><p>String handling and arrays are the most important for Section B, because they supply at least two of the six programs and many Section A outputs. User-defined methods and constructors come next, through the class and overloading programs. Class 9 topics such as operators and loops still appear throughout Section A.</p></div>
       <div class="bx-faq-item"><h3>Are output questions important in ICSE Computer Applications?</h3><p>Yes. Section A is 40 compulsory marks, and much of it asks students to predict outputs, count loop iterations or find what a String method returns. These questions punish guessing, so we teach a step-table method and check every answer by running the code in BlueJ.</p></div>
       <div class="bx-faq-item"><h3>Which programs are important for ICSE Class 10 Section B?</h3><p>Electricity bill or interest classes written to a specification, binary and linear search, bubble and selection sort, palindrome and Pig Latin string programs, word and character counts, 2D array row, column and diagonal sums, special number checks such as palindrome, perfect and Niven numbers, and method overloading with a pattern.</p></div>

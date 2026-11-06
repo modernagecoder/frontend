@@ -3,12 +3,17 @@
 // "icse class 10 computer specimen paper solution", "icse computer applications mock
 // test", "icse class 10 java sample paper". Distinct from the board-exam-preparation
 // page (time plan and countdown) and the important-questions page (question bank).
+// 2026-11-06: absorbed "icse computer mock test series", "sample paper 2027
+// computer applications" and "online test": a specimen vs sample paper vs online
+// test table and a ten-question online test. All seven code answers in the test
+// were compiled and run with javac/java 21.
 'use strict';
 
 module.exports = {
   slug: 'icse-class-10-computer-applications-specimen-paper-and-mock-tests',
   code: 'isq',
   board: 'icse',
+  dateModified: '2026-11-06',
   themeColor: '#8A3326',
   title: 'ICSE Computer Applications Specimen Paper 2027 and Mock Tests',
   description: 'ICSE Class 10 Computer Applications (Java) specimen paper 2027 solved live, two-hour mock tests marked like the board, BlueJ practical mocks and live doubts.',
@@ -19,7 +24,7 @@ module.exports = {
   courseName: 'ICSE Class 10 Computer Applications (Java) Specimen Paper and Mock Test Series, Live',
   courseDesc: 'Live online specimen-paper solving and timed mock tests for ICSE Class 10 Computer Applications (Java with BlueJ) for the 2027 examination: the CISCE specimen paper solved with a teacher, full two-hour mock papers marked section by section, BlueJ practical mocks, an internal assessment rehearsal and live doubt solving, every Tuesday at 5:30 PM and Wednesday at 8 PM IST in a mini batch, or one to one at a time the family chooses.',
   brandTag: 'ICSE CA &middot; Mocks',
-  navLinks: [['#specimen', 'Specimen paper'], ['#series', 'Mock series'], ['#worked', 'Worked answer'], ['#fees', 'Batch or 1-on-1']],
+  navLinks: [['#specimen', 'Specimen paper'], ['#series', 'Mock series'], ['#online-test', 'Online test'], ['#worked', 'Worked answer'], ['#fees', 'Batch or 1-on-1']],
   crumbs: [['/', 'Home'], ['/icse-class-10-java-classes-online', 'ICSE Class 10 Java classes'], [null, 'Specimen paper and mock tests']],
   eyebrow: 'ICSE Class 10 &middot; Computer Applications (Java) &middot; Specimen paper and mock tests 2027',
   h1: 'ICSE Computer Applications specimen paper and mock tests, solved live.',
@@ -77,7 +82,7 @@ module.exports = {
   <div class="bx-wrap">
     <div class="bx-section-head">
       <p class="bx-qlabel">Q2. How does the mock test series run?</p>
-      <h2>The ICSE practice ladder: a diagnostic first, an examiner rehearsal last</h2>
+      <h2>The ICSE computer mock test series: a diagnostic first, an examiner rehearsal last</h2>
       <p class="bx-lede">Every paper below is written, marked and returned in a live review where lost marks are re-attempted on the spot. A Java mock reviewed only by its score teaches almost nothing.</p>
     </div>
     <div class="bx-table-wrap">
@@ -104,10 +109,59 @@ module.exports = {
   </div>
 </section>`,
 
-`<section class="bx-section bx-section--tint" id="live">
+`<section class="bx-section bx-section--tint" id="online-test">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q3. What happens in a live paper-solving class?</p>
+      <p class="bx-qlabel">Q3. Specimen paper, sample paper or online test?</p>
+      <h2>Sample paper 2027 for Computer Applications, and a ten-minute online test</h2>
+      <p class="bx-lede">A specimen paper comes from CISCE itself; a sample paper is anyone else's paper written in the specimen's design. Both are useful, but only the specimen tells you what the board intends, so use it as the reference and the sample papers as extra practice.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Paper</th><th scope="col">Who writes it</th><th scope="col">Good for</th><th scope="col">Watch out for</th></tr></thead>
+        <tbody>
+          <tr><td>Specimen paper</td><td>CISCE</td><td>Learn the year's design and marks, solve it twice</td><td>Only one exists per year, so do not waste it in week one</td></tr>
+          <tr><td>Sample paper 2027 (publisher or school)</td><td>Publishers, schools, tutors</td><td>Volume of timed practice in the specimen's design</td><td>Some include topics outside the 2027 syllabus, such as recursion; skip those</td></tr>
+          <tr><td>Previous year papers</td><td>CISCE, from past board exams</td><td>Seeing which shapes repeat across years</td><td>Older papers predate the current specimen design</td></tr>
+          <tr><td>Our full mocks</td><td>Our teachers, fresh each time</td><td>Two-hour rehearsal, marked part by part and reviewed live</td><td>Worth most after the lab file is closed</td></tr>
+          <tr><td>Online test or quiz</td><td>Many websites and apps</td><td>Quick Section A drills on a phone</td><td>Auto-marking cannot read a program, so Section B still needs a teacher</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="bx-mt-40">A ten-question online test in the Section A style</h3>
+    <p>Set a timer for ten minutes, write your answers on paper, then check them against the key. Every code answer below was compiled and run in Java.</p>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Question</th><th scope="col">Answer</th><th scope="col">Why</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Which is not a primitive type: int, char, String, boolean?</td><td>String</td><td>String is a class, so it is a reference type</td></tr>
+          <tr><td>2</td><td><code>System.out.println(10 % 4 * 3 + 2);</code></td><td class="bx-num">8</td><td>% and * share a level and go left to right: 2 * 3 + 2</td></tr>
+          <tr><td>3</td><td><code>System.out.println("Board".length() + "Exam".indexOf('a'));</code></td><td class="bx-num">7</td><td>5 plus 2, both int, so they add</td></tr>
+          <tr><td>4</td><td><code>System.out.println(Math.max(-3.5, -3));</code></td><td class="bx-num">-3.0</td><td>A double argument makes the result a double</td></tr>
+          <tr><td>5</td><td><code>int x = 7; System.out.println(x++ * 2 + x);</code></td><td class="bx-num">22</td><td>x++ gives 7 then x becomes 8: 14 + 8</td></tr>
+          <tr><td>6</td><td>Which keyword makes one copy of a variable shared by every object?</td><td><code>static</code></td><td>A class variable belongs to the class, not each object</td></tr>
+          <tr><td>7</td><td><code>System.out.println(Character.toLowerCase('Q') + 1);</code></td><td class="bx-num">114</td><td>'q' is 113, and char plus int is int</td></tr>
+          <tr><td>8</td><td>How many times does <code>for (int i = 1; i &lt;= 20; i += 4)</code> run?</td><td class="bx-num">5</td><td>i takes 1, 5, 9, 13 and 17</td></tr>
+          <tr><td>9</td><td><code>System.out.println("TEST".replace('T', 'B'));</code></td><td class="bx-num">BESB</td><td>replace changes every match, not just the first</td></tr>
+          <tr><td>10</td><td>Which search needs the array sorted before it starts?</td><td>Binary search</td><td>It discards half the array by comparing with the middle</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      Eight or more correct in ten minutes is a good Section A pace. Fewer than six usually means the rules are known but
+      not yet traced carefully. For longer drills by shape, use the <a class="bx-link" href="/icse-computer-applications-mcq-questions">MCQ set for Question 1</a>,
+      the <a class="bx-link" href="/icse-class-10-java-output-questions">predict the output questions</a> and the
+      <a class="bx-link" href="/icse-class-10-java-error-finding-questions">find the error questions</a>. Whole papers with worked answers are on
+      <a class="bx-link" href="/icse-computer-applications-previous-year-papers-solved">ICSE Computer Applications previous year papers, solved</a>, and once the
+      2027 paper is sat, the <a class="bx-link" href="/icse-computer-applications-paper-analysis">paper analysis and answer key</a> page reviews it question by question.
+    </p>
+  </div>
+</section>`,
+
+`<section class="bx-section" id="live">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. What happens in a live paper-solving class?</p>
       <h2>Up to six students, one shared BlueJ screen, every answer marked aloud</h2>
       <p class="bx-lede">The mini batch exists for exactly this: in a class of up to six, every student's answer can be read, run and marked in front of the others in a single session.</p>
     </div>
@@ -124,7 +178,7 @@ module.exports = {
 `<section class="bx-section bx-section--deep" id="worked">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q4. What does a full-marks answer look like?</p>
+      <p class="bx-qlabel">Q5. What does a full-marks answer look like?</p>
       <h2>Two Section A questions, answered by guessing and by tracing</h2>
       <p class="bx-lede">(i) Give the output: <code>int a = 5, b = 2; int c = a++ * 2 + --b; System.out.println(c + " " + a + b);</code> (ii) How many times does <code>for (int i = 10; i &gt; 0; i -= 3)</code> execute?</p>
     </div>
@@ -174,7 +228,7 @@ module.exports = {
 `<section class="bx-section" id="practical">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q5. How is the internal assessment rehearsed?</p>
+      <p class="bx-qlabel">Q6. How is the internal assessment rehearsed?</p>
       <h2>A second 100 marks, rehearsed with an examiner your child has not met</h2>
       <p class="bx-lede">The internal assessment is worth as much as the written paper on the mark sheet: at least twenty laboratory assignments across the year, half the marks from the subject teacher and half from an external examiner.</p>
     </div>
@@ -207,7 +261,7 @@ module.exports = {
 `<section class="bx-section bx-section--tint" id="doubts">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q6. How are doubts handled?</p>
+      <p class="bx-qlabel">Q7. How are doubts handled?</p>
       <h2>Live doubts with the code on screen</h2>
     </div>
     <div class="bx-grid-3">
@@ -242,6 +296,8 @@ module.exports = {
   faqH2: 'What families ask about the specimen paper and mock tests',
   faqs: [
     ['Where can I get the ICSE Computer Applications specimen paper for 2027?', 'CISCE publishes specimen question papers for ICSE subjects on its website, cisce.org, ahead of the examination, and schools pass them on to students. Download the Computer Applications specimen for the 2027 examination and keep it beside your child\'s practice: nothing else shows as reliably how CISCE intends to set the paper.'],
+    ['Is a sample paper 2027 for Computer Applications the same as the specimen paper?', 'No. The specimen paper is published by CISCE and shows the design the board intends for the year. A sample paper is written by a publisher, school or tutor in that design. Sample papers give extra timed practice, but check each one against the 2027 syllabus, because some still carry recursion or other topics the board no longer examines.'],
+    ['Is there an ICSE computer mock test series online?', 'Yes. Our series runs live online: a diagnostic on joining, weekly Section A and Section B drills, the specimen solved together, three full two-hour mocks marked part by part, and a BlueJ practical rehearsal. Short online tests are useful for Section A speed, but a program answer needs a teacher reading it, which is why every mock is reviewed live.'],
     ['Do you solve the specimen paper in class?', 'Yes. Once the specimen for the year is available, it is solved live: Section A in the Tuesday class and Section B in the Wednesday class, first untimed so each question\'s method is clear, then re-attempted under time. Every output is traced on paper and then checked by running the code in BlueJ.'],
     ['How many mock tests do students write?', 'Three full 100-mark papers under two-hour conditions from January to the board paper, plus a diagnostic paper on joining, weekly Section A shape drills, weekly program family sets, the specimen paper solved live, monthly BlueJ practical mocks and an internal assessment rehearsal. Each paper is reviewed with lost marks re-attempted.'],
     ['Are the mock papers previous year papers?', 'No. Previous papers and the specimen are used for practice in class, but the three full mocks are fresh papers in the current specimen\'s design, so a student cannot pass them on memory. The board paper will be new too, and the mocks are built to prepare for that.'],

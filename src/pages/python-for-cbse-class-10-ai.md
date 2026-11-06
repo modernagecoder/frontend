@@ -26,6 +26,14 @@ Practical file, minimum 15 programs, mostly Python: 15 marks. Practical examinat
 
 Install Python and check python --version. Create a virtual environment, python -m venv ai417, and activate it. Install the four libraries in one line: pip install numpy pandas matplotlib opencv-python scipy jupyter. Launch jupyter notebook and write the first cell. Keep students.csv and photo.jpg beside the notebook, because half of practical-day panic is a file in the wrong folder.
 
+## Advance Python Class 10: the NumPy mean, median and mode program
+
+For scores [56, 78, 64, 91, 78, 64, 85, 78, 70]: np.mean gives 73.78 (rounded), np.median gives 78.0, and the mode is 78 by all three routes: statistics.mode, SciPy stats.mode, or NumPy alone with np.unique(return_counts=True) and argmax. Run in NumPy 2.5 and SciPy 1.18.
+
+When two values tie, the routes differ: for [9, 4, 9, 4, 6], statistics.mode returns 9 (met first), NumPy and SciPy return 4 (smallest), and statistics.multimode returns [9, 4].
+
+Jupyter Notebook habits: one program per cell, a Markdown cell with the aim above each, restart the kernel and run all before printing, name the notebook after the student. Practice: [practical exam questions](/cbse-class-10-ai-practical-exam-questions), [viva questions](/cbse-class-10-ai-viva-questions), [Orange Data Mining](/orange-data-mining-class-10-ai), [formula sheet](/cbse-class-10-ai-formula-sheet).
+
 ## The twist each program gets in the practical exam
 
 Add two lists becomes multiply them or add three. Mean, median and mode becomes only marks above a cutoff. The line chart gets a third point and a title. The scatter chart gets a sixth point or a colour. The CSV rows become the last five or one column. CSV information becomes a row count or one column's mean. The image gets displayed in grayscale. The shape becomes only the width or the pixel count. Every twist is a one-line change for a student who understands the program.
@@ -47,6 +55,10 @@ Students also look at [AI and ML for Teens](/courses/ai-ml-masterclass-teens), [
 Monthly, no admission fee, stop at any month end. The Monday and Wednesday group batch is the standard monthly group fee; a mini batch of up to six and one to one run on other timings. Fees are shown on the page in the visitor's own currency. The free demo can be a Wednesday lab.
 
 ## Frequently asked questions
+
+**What is Advance Python in Class 10 AI?** Unit 7: Jupyter Notebook, virtual environments, packages, Python basics and libraries. No theory marks; assessed through the file, the practical exam and the viva (35 marks).
+
+**How do you write the mean, median and mode program using NumPy?** np.mean and np.median, then the mode from statistics.mode, SciPy stats.mode, or np.unique with return_counts; NumPy has no np.mode.
 
 **How much Python does 417 need?** A loop, list indexing and library calls: the unit's outcomes are Jupyter, virtual environments, packages, basic programs and built-in functions.
 

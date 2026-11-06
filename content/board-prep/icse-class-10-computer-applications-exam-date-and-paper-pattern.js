@@ -8,12 +8,17 @@
 // specimen cover (paper 861, 2 h + 15 min reading, Scanner only, BufferedReader and
 // DataInputStream barred); 2027 regulations (Group III 50/50, pass 33%, improvement
 // max two subjects, theory compulsory, IA carried forward); CA 2027 syllabus IA rules.
+// 2026-11-06: added the marking scheme section (what is and is not published,
+// how Section A and Section B are marked, no official unit-wise weightage, the
+// 15 minutes reading time in the hall). cisce.org was behind a bot check on
+// 2026-11-06, so the timetable status was NOT re-verified and stays as dated.
 'use strict';
 
 module.exports = {
   slug: 'icse-class-10-computer-applications-exam-date-and-paper-pattern',
   code: 'ixd',
   board: 'icse',
+  dateModified: '2026-11-06',
   themeColor: '#7E2E3E',
   title: 'ICSE Computer Applications Exam Date 2027 and Paper Pattern',
   description: 'ICSE Computer Applications exam date 2027 status, last year\'s timetable, the 100 + 100 paper pattern, Section B program types and live Java classes.',
@@ -24,7 +29,7 @@ module.exports = {
   courseName: 'ICSE Class 10 Computer Applications (Java) Board Exam Preparation, Live Online',
   courseDesc: 'Live online board exam preparation for ICSE Class 10 Computer Applications (Java with BlueJ) for the 2027 examination, planned against the CISCE calendar: Class 10 units finished before the winter, at least twenty documented lab assignments for the internal assessment, the specimen paper solved and full two-hour papers marked section by section, with live doubt solving, in a Tuesday and Wednesday evening mini batch in India or one to one at a time the family chooses.',
   brandTag: 'ICSE CA &middot; Exam date',
-  navLinks: [['#date', 'Exam date'], ['#pattern', 'Pattern'], ['#programs', 'Section B'], ['#fees', 'Batch or 1-on-1']],
+  navLinks: [['#date', 'Exam date'], ['#pattern', 'Pattern'], ['#programs', 'Section B'], ['#marking', 'Marking scheme'], ['#fees', 'Batch or 1-on-1']],
   crumbs: [['/', 'Home'], ['/icse-class-10-java-classes-online', 'ICSE Class 10 Java classes'], [null, 'Exam date 2027 and paper pattern']],
   eyebrow: 'ICSE Class 10 &middot; Computer Applications (Java) &middot; Exam date 2027 and paper pattern',
   h1: 'ICSE Computer Applications exam date 2027 and paper pattern.',
@@ -156,10 +161,52 @@ module.exports = {
   </div>
 </section>`,
 
+`<section class="bx-section bx-section--deep" id="marking">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. How is the paper marked?</p>
+      <h2>The ICSE Computer Applications marking scheme, Section A and Section B</h2>
+      <p class="bx-lede">The question paper prints the marks for every question, but not how an examiner splits a 15-mark program into parts. What the paper does make clear is that Section A answers are judged right or wrong on exact detail, while Section B programs are read for structure, logic, output and description.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Part</th><th scope="col">How it is marked</th><th scope="col">What loses the mark</th></tr></thead>
+        <tbody>
+          <tr><td>Question 1, twenty MCQs</td><td>One mark for the correct option, nothing for working</td><td>Mixing up a char and its code, such as 'B' and 66</td></tr>
+          <tr><td>Question 2, ten two-mark items</td><td>Outputs, corrections and statements checked to the character</td><td>A missing <code>.0</code> on a double, a missing space, a wrong loop count</td></tr>
+          <tr><td>Section B, four programs of 15</td><td>Read as a whole: class and method structure, input, logic, output format, variable description</td><td>A program that answers a nearby question, unlabelled output, no description</td></tr>
+          <tr><td>Internal assessment</td><td>Ten marks each for class design, variable description and coding with documentation, twenty for execution or output; teacher 50, external examiner 50</td><td>Assignments that run but are undocumented or not the student's own</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-2 bx-mt-40" style="align-items:start">
+      <div>
+        <h3>Is there a unit-wise weightage?</h3>
+        <p>No official one. Unlike some boards, CISCE does not publish marks per unit for Computer Applications. The nearest guide is the specimen: strings, arrays, classes, number logic and overloading each own a Section B program, and Section A spreads across every unit including Class 9 revision. In practice that makes String handling and arrays the heaviest units, because each can appear twice, once as a program and again as short outputs.</p>
+        <p>Where the marks were lost in a real paper is the job of our <a class="bx-link" href="/icse-computer-applications-paper-analysis">ICSE Computer Applications paper analysis</a>, and the way to collect every one of them is on <a class="bx-link" href="/how-to-score-100-in-icse-computer-applications">how to score 100 in ICSE Computer Applications</a>.</p>
+      </div>
+      <div>
+        <h3>Reading time of 15 minutes, used well</h3>
+        <ol class="bx-steps">
+          <li class="bx-step"><h4>Minutes 1 to 5</h4><p>Read all six Section B programs and cross out the two you trust least.</p></li>
+          <li class="bx-step"><h4>Minutes 6 to 12</h4><p>Read Section A from the top and mark the outputs that need a step table.</p></li>
+          <li class="bx-step"><h4>Minutes 13 to 15</h4><p>Decide the order of your four programs, easiest first, and note what each must print.</p></li>
+        </ol>
+      </div>
+    </div>
+    <p class="bx-mt-40">
+      Section A rewards drill by shape: the <a class="bx-link" href="/icse-computer-applications-mcq-questions">Question 1 MCQ set</a> and
+      the <a class="bx-link" href="/icse-computer-difference-between-questions">two-mark difference questions</a> are the fastest marks to secure.
+      For Section B, solved past programs with a part by part commentary are on
+      <a class="bx-link" href="/icse-computer-applications-previous-year-papers-solved">previous year papers, solved</a>.
+    </p>
+  </div>
+</section>`,
+
 `<section class="bx-section" id="calendar">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q4. Which dates matter between now and the paper?</p>
+      <p class="bx-qlabel">Q5. Which dates matter between now and the paper?</p>
       <h2>The 2026-27 calendar, and what the mini batch is doing at each point</h2>
       <p class="bx-lede">Some of these dates are fixed, some come from your school, and some have not been announced yet. Each row is labelled, and shows what the live classes are working on then.</p>
     </div>
@@ -189,7 +236,7 @@ module.exports = {
 `<section class="bx-section bx-section--tint" id="rules">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q5. Which CISCE rules should families know?</p>
+      <p class="bx-qlabel">Q6. Which CISCE rules should families know?</p>
       <h2>Five rules from the 2027 regulations and syllabus</h2>
     </div>
     <div class="bx-grid-2" style="align-items:start">
@@ -222,7 +269,7 @@ module.exports = {
 `<section class="bx-section" id="live">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q6. How do the live classes prepare for that date?</p>
+      <p class="bx-qlabel">Q7. How do the live classes prepare for that date?</p>
       <h2>Two live classes a week in a mini batch, with doubts settled in BlueJ</h2>
       <p class="bx-lede">The mini batch has up to six ICSE Class 10 students and one teacher from the start of the session to the paper. In a group that small, every student's program can be read, run and marked in class.</p>
     </div>
@@ -262,6 +309,8 @@ module.exports = {
     ['When is the ICSE Computer Applications exam in 2027?', 'CISCE had not released the ICSE 2027 timetable when we checked on 13 October 2026, so there is no official date yet. Last year\'s timetable came out on 13 November 2025, and the 2026 examinations ran from 17 February to 30 March 2026. Expect the Computer Applications paper in the February to March 2027 window, and check cisce.org for the timetable.'],
     ['How long is the ICSE Computer Applications paper?', 'Two hours of writing, after 15 minutes in which candidates may read but not write. The paper is 100 marks. Students should use the reading time to choose their four Section B programs out of six, which our full mocks rehearse.'],
     ['What is the paper pattern for ICSE Class 10 Computer Applications?', 'Section A is compulsory and carries 40 marks: Question 1 has twenty one-mark multiple-choice questions and Question 2 has ten two-mark questions. In Section B students answer any four of six programs, Questions 3 to 8, worth 15 marks each, for 60 marks. A separate internal assessment carries another 100 marks.'],
+    ['Is there a marking scheme for ICSE Computer Applications?', 'The question paper prints the marks for every question: one mark per MCQ, two per short item, 15 per program. It does not print how a program\'s 15 marks are split. Section A answers must be exactly right, while Section B programs are judged on structure, input, logic, output format and the variable description, which is how our mocks are marked too.'],
+    ['What is the difference between Section A and Section B in ICSE Computer Applications?', 'Section A is 40 compulsory marks of short answers: twenty one-mark MCQs and ten two-mark items such as outputs and corrections. Section B is 60 marks: six programs are offered and the student writes any four, at 15 marks each, in Java with a variable description. Section A tests exact rules; Section B tests whole programs.'],
     ['How are the internal assessment marks given?', 'On at least twenty lab assignments done during the year. Two people mark the record, the subject teacher and an external examiner, and each gives up to 50. Each 50 is made up of ten marks apiece for class design, the variable description and coding with documentation, plus twenty for whether the program runs and gives correct output. The head of school submits the combined mark out of 100 to CISCE.'],
     ['Can we use BufferedReader in the ICSE Computer Applications exam?', 'No. The specimen paper states that BufferedReader and DataInputStream should not be used in Section B programs. Input is taken with the Scanner class, which is how our students write every program from the first class.'],
     ['Is the ICSE 2027 Computer Applications syllabus changed?', 'No. The 2027 syllabus is the same as 2026: a revision of Class 9, then classes and objects, user-defined methods, constructors, library classes including wrapper classes, encapsulation, single and double dimensional arrays, and string handling. Recursion is not in the syllabus.'],

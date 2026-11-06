@@ -22,6 +22,22 @@ Theory paper: one written paper of two hours, 100 marks. Section A: 40 marks of 
 7. Arrays: single and double dimensional, declaration, initialisation, input, linear and binary search and the sort techniques. A Section B program in almost every paper.
 8. String handling: the String class and its methods, extracting and modifying characters, implementing string methods by hand. The other guaranteed Section B program.
 
+## Deleted syllabus and recursion: what 2027 does not examine
+
+Recursion is not in the ICSE Class 10 Computer Applications syllabus for 2027. CISCE has issued no separate deleted-topics list; the 2027 syllabus PDF simply leaves out topics that older books and the ISC course still teach.
+
+- Recursion: not examined; use loops. It is taught in ISC Computer Science, Classes 11 and 12.
+- StringBuffer: not examined; use the listed String methods.
+- Insertion sort: not examined; know bubble and selection sort.
+- Sorting or searching a 2D array: not examined; matrices stop at input, display and row, column and diagonal sums.
+- BufferedReader or DataInputStream: not allowed in Section B; use Scanner.
+- Flowcharts and algorithms: not required.
+- Wrapper classes and 2D arrays: in, so do not skip them.
+
+## Chapter-wise weightage, from the specimen
+
+CISCE publishes no marks per chapter. In the 2025 specimen, Section B took one program each from Class IX revision (number property), class as the basis of computation (class to a specification), user-defined methods (overloading), string handling (with Character methods), and two from arrays (binary search and a 2D row sum). Constructors and encapsulation appear in Section A. Chapter pages: [Class 9 Java revision](/icse-class-9-java-revision-for-class-10), [class as the basis of computation](/icse-class-10-class-as-basis-of-computation), [methods and overloading](/icse-class-10-user-defined-methods-overloading), [constructors](/icse-class-10-constructors-questions), [wrapper and library classes](/icse-class-10-wrapper-and-library-classes), [encapsulation](/icse-class-10-encapsulation-access-specifiers), [sorting and searching](/icse-class-10-sorting-and-searching-programs), [2D arrays](/icse-class-10-2d-array-programs), [string programs](/icse-class-10-string-programs), [chapter-wise notes](/icse-computer-applications-notes).
+
 ## A Section A trace, two ways
 
 For s = "Computer", the guessed answer to s.substring(3).toUpperCase() + s.indexOf('t') is "Puter6", from one-based counting and an ignored method. The traced answer writes the index table (C0 o1 m2 p3 u4 t5 e6 r7), reads substring(3) as "puter", uppercases to "PUTER", finds indexOf('t') = 5, and joins string and int as text: "PUTER5". The index table answers half of Section A.
@@ -52,6 +68,10 @@ Monthly, no admission fee, stop at any month end. The Tuesday and Wednesday mini
 
 **Changed for 2027?** CISCE's published syllabus keeps Computer Applications consistent with recent years; confirm against the school's copy.
 
+**Is recursion in the syllabus?** No. The 2027 CISCE syllabus does not include recursion; it is an ISC Computer Science topic.
+
+**Any deleted syllabus for 2027?** No deleted-topics list was issued. Recursion, StringBuffer, insertion sort and 2D sorting are not in the syllabus; wrapper classes and 2D arrays are.
+
 **Which units produce Section B programs?** Arrays, strings, methods and constructors, usually combined, on top of the Class 9 constructs.
 
 **Is Class 9 examined?** Yes, directly in Section A and implicitly in every program.
@@ -70,7 +90,7 @@ Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 stude
 
 **Programs for Section B:** [ICSE Java programs practice](/icse-class-10-java-programs-practice), [String programs](/icse-class-10-string-programs), [Special number programs](/icse-special-number-programs-java), [Sorting and searching programs](/icse-class-10-sorting-and-searching-programs), [2D array programs](/icse-class-10-2d-array-programs), [Pattern programs](/icse-class-10-pattern-programs-java), [Menu driven and switch case](/icse-class-10-menu-driven-programs), [Series programs](/icse-class-10-series-programs-java), [Slab and bill programs](/icse-class-10-slab-and-bill-programs).
 
-**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
+**Questions and practice:** [ICSE CA important questions](/icse-class-10-computer-applications-important-questions), [Specimen paper and mock tests](/icse-class-10-computer-applications-specimen-paper-and-mock-tests), [Previous year papers, solved](/icse-computer-applications-previous-year-papers-solved), [Predict the output questions](/icse-class-10-java-output-questions), [Competency and case study questions](/icse-computer-applications-competency-questions), [MCQ for Question 1](/icse-computer-applications-mcq-questions), [Viva and oral questions](/icse-computer-applications-viva-questions), [Find the error questions](/icse-class-10-java-error-finding-questions), [Difference between questions](/icse-computer-difference-between-questions).
 
 **Notes and revision:** [Chapter-wise notes](/icse-computer-applications-notes), [Textbook solutions guide](/icse-computer-applications-textbook-solutions-guide), [Worksheets with answers](/icse-computer-applications-worksheets).
 

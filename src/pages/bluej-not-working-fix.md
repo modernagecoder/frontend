@@ -171,7 +171,7 @@ The exam itself is fully digital and taken in College Board&rsquo;s Bluebook app
 
 When a BlueJ project is homework, our teachers do not write or fix it, and we never give answer keys. The teacher helps the student find which symptom row matches, and the student makes the change.
 
-For a general method of finding bugs that works in any editor, see [how to debug code](/how-to-debug-code). Students preparing for India&rsquo;s ICSE board use BlueJ differently, and our [ICSE BlueJ coaching](/icse-class-10-bluej-java-coaching) page covers that course.
+For a general method of finding bugs that works in any editor, see [how to debug code](/how-to-debug-code). Students preparing for India&rsquo;s ICSE board use BlueJ differently, and our [ICSE BlueJ coaching](/icse-class-10-bluej-java-coaching) page covers that course. Once BlueJ runs, the Class 10 board paper tests reading Java as much as writing it, so practise with our [find the error questions](/icse-class-10-java-error-finding-questions), [predict the output questions](/icse-class-10-java-output-questions) and [ICSE Java programs practice](/icse-class-10-java-programs-practice).
 
 Sources: [AP Computer Science A Course](https://apcentral.collegeboard.org/courses/ap-computer-science-a) and [Exam](https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam), AP Central, read 17 October 2026. AP is a trademark of College Board, which is not connected with us.
 

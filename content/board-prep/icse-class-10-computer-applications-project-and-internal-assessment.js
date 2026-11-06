@@ -9,12 +9,17 @@
 // external examiner 50; criteria class design 10, variable description 10, coding and
 // documentation 10, execution or output 20; external examiner nominated by the head
 // of school, may be a teacher not teaching the subject in that section.
+// 2026-11-06: absorbed "practical file", "lab assignment list", "BlueJ practical
+// programs", "project file format" and "project ideas": a numbered 24-program
+// lab assignment list linked to the program-family pages, and the file's order of
+// entries. No new Java code was added (task descriptions only).
 'use strict';
 
 module.exports = {
   slug: 'icse-class-10-computer-applications-project-and-internal-assessment',
   code: 'ipj',
   board: 'icse',
+  dateModified: '2026-11-06',
   themeColor: '#6A3A2A',
   title: 'ICSE Computer Applications Project and Internal Assessment 2027',
   description: 'ICSE Class 10 Computer Applications internal assessment 2027: 20+ Java lab assignments, the four CISCE marking criteria, file ideas and the external examiner.',
@@ -26,7 +31,7 @@ module.exports = {
   courseDesc: 'Live online ICSE Class 10 Computer Applications (Java with BlueJ) for the 2027 examination, including the 100-mark internal assessment: a lab file of at least twenty programs built across the year against CISCE\'s four marking criteria, and an examiner rehearsal, every Tuesday at 5:30 PM and Wednesday at 8 PM IST in a mini batch, or one to one at a time the family chooses.',
   knowsAbout: ['ICSE Computer Applications Internal Assessment', 'Java Lab Assignments', 'BlueJ', 'Object-Oriented Programming', 'CISCE ICSE Class 10 Examination'],
   brandTag: 'ICSE CA &middot; Project',
-  navLinks: [['#marks', 'The 100 marks'], ['#file', 'Lab file'], ['#ideas', 'Bigger programs'], ['#fees', 'Batch or 1-on-1']],
+  navLinks: [['#marks', 'The 100 marks'], ['#file', 'Lab file'], ['#list', 'Assignment list'], ['#ideas', 'Bigger programs'], ['#fees', 'Batch or 1-on-1']],
   crumbs: [['/', 'Home'], ['/icse-class-10-java-classes-online', 'ICSE Class 10 Java classes'], [null, 'Project and internal assessment']],
   eyebrow: 'ICSE Class 10 &middot; Computer Applications (Java) &middot; Internal assessment and project file 2027',
   h1: 'ICSE Class 10 Computer Applications project and internal assessment, done properly.',
@@ -121,10 +126,67 @@ module.exports = {
   </div>
 </section>`,
 
+`<section class="bx-section bx-section--tint" id="list">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. Which programs go in the practical file?</p>
+      <h2>A lab assignment list of 24 BlueJ practical programs, in teaching order</h2>
+      <p class="bx-lede">CISCE fixes the minimum at twenty and leaves the choice of programs to the school, so treat this as a model list, not an official one. If your teacher sets different assignments, theirs come first; use these to fill any unit the school's list leaves thin.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Assignment</th><th scope="col">What it shows the examiner</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Electricity bill from a table of unit slabs</td><td>if-else-if ladder, Scanner input</td></tr>
+          <tr><td>2</td><td>Roots of a quadratic, with a message when they are not real</td><td><code>Math.sqrt</code>, conditions on the discriminant</td></tr>
+          <tr><td>3</td><td>Temperature converter in both directions through a switch menu</td><td>switch with break, a default case</td></tr>
+          <tr><td>4</td><td>Niven number check</td><td>Digit extraction with % and /</td></tr>
+          <tr><td>5</td><td>Spy number check (digit sum equals digit product)</td><td>Two accumulators in one loop</td></tr>
+          <tr><td>6</td><td>First n Fibonacci terms and their sum</td><td>Swapping three variables in a loop</td></tr>
+          <tr><td>7</td><td>Sum of x/1 + x&sup2;/2 + ... + x&#8319;/n</td><td>A series term built from a power and a counter</td></tr>
+          <tr><td>8</td><td>Floyd's triangle and an inverted star triangle</td><td>Nested loops with a changing inner limit</td></tr>
+          <tr><td>9</td><td>Student class with private marks, a parameterised constructor and a grade</td><td>Encapsulation, constructors, accessor methods</td></tr>
+          <tr><td>10</td><td>Courier charges class written to a weight-slab specification</td><td>accept, calculate and display in one class</td></tr>
+          <tr><td>11</td><td>Overloaded <code>area()</code> for circle, rectangle and triangle</td><td>Same name, different parameter lists</td></tr>
+          <tr><td>12</td><td>Overloaded <code>show()</code>: a pattern, a number test and a series</td><td>The specimen's overloading shape</td></tr>
+          <tr><td>13</td><td>Count letters, digits, spaces and other characters in a line</td><td>Character class methods</td></tr>
+          <tr><td>14</td><td>Linear search for a name in a String array</td><td><code>equalsIgnoreCase</code> inside a loop, found flag</td></tr>
+          <tr><td>15</td><td>Binary search on a sorted int array</td><td>low, high and mid, with the not-found case</td></tr>
+          <tr><td>16</td><td>Bubble sort in descending order</td><td>Adjacent swaps, passes reducing by one</td></tr>
+          <tr><td>17</td><td>Selection sort of names in alphabetical order</td><td><code>compareTo</code> on Strings</td></tr>
+          <tr><td>18</td><td>Row and column sums of a 4 x 4 matrix</td><td>Double dimensional array traversal</td></tr>
+          <tr><td>19</td><td>A 3 x 3 matrix printed in matrix form with both diagonal sums</td><td>a[i][i] and a[i][n - 1 - i]</td></tr>
+          <tr><td>20</td><td>Pig Latin form of a word</td><td>indexOf of the first vowel, substring</td></tr>
+          <tr><td>21</td><td>Palindrome words counted in a sentence</td><td>Word splitting by spaces, reversing</td></tr>
+          <tr><td>22</td><td>First letter of every word changed to capital</td><td><code>charAt</code>, <code>Character.toUpperCase</code></td></tr>
+          <tr><td>23</td><td>Frequency of each vowel in a sentence</td><td>Counters chosen by switch or if</td></tr>
+          <tr><td>24</td><td>Menu offering a palindrome, a perfect and a prime number test</td><td>One method per test, called from a menu</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="bx-mt-40">The practical file format: what each entry holds, in order</h3>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>Front pages</h4><p>A cover with name, class, section and session, then an index listing each assignment's number, title, date and page. Add an acknowledgement page only if the school asks for one.</p></li>
+      <li class="bx-step"><h4>The question</h4><p>Copied exactly as the teacher set it, so the examiner can check the program answers that question and not an easier one.</p></li>
+      <li class="bx-step"><h4>The program</h4><p>Typed or neatly written, with a comment above each method saying what it does. This is where the coding and documentation marks are earned.</p></li>
+      <li class="bx-step"><h4>The variable description</h4><p>A table of every variable with its data type and purpose. It is a ten-mark criterion of its own, so it is never skipped.</p></li>
+      <li class="bx-step"><h4>The output</h4><p>Real runs from BlueJ with the input that produced them, including one awkward case such as a zero or a single letter.</p></li>
+    </ol>
+    <p class="bx-mt-40">
+      Each family in the list has a worked page of its own: <a class="bx-link" href="/icse-class-10-slab-and-bill-programs">slab and bill programs</a>,
+      <a class="bx-link" href="/icse-class-10-menu-driven-programs">menu driven programs</a>, <a class="bx-link" href="/icse-special-number-programs-java">special number programs</a>,
+      <a class="bx-link" href="/icse-class-10-series-programs-java">series programs</a>, <a class="bx-link" href="/icse-class-10-pattern-programs-java">pattern programs</a>,
+      <a class="bx-link" href="/icse-class-10-constructors-questions">constructors</a>, <a class="bx-link" href="/icse-class-10-sorting-and-searching-programs">sorting and searching</a>,
+      <a class="bx-link" href="/icse-class-10-2d-array-programs">2D arrays</a> and <a class="bx-link" href="/icse-class-10-string-programs">string programs</a>.
+      The questions an examiner asks about a file like this are rehearsed on <a class="bx-link" href="/icse-computer-applications-viva-questions">ICSE Computer Applications viva questions</a>.
+    </p>
+  </div>
+</section>`,
+
 `<section class="bx-section bx-section--deep" id="worked">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q3. What does a lab entry look like?</p>
+      <p class="bx-qlabel">Q4. What does a lab entry look like?</p>
       <h2>One lab program, entered carelessly and entered well</h2>
       <p class="bx-lede">Write a program to input a word and check whether it is a palindrome (reads the same backwards), ignoring case.</p>
     </div>
@@ -185,8 +247,8 @@ i     int     loop index, last char to first
 `<section class="bx-section" id="ideas">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q4. What if the school asks for a project?</p>
-      <h2>Eight bigger programs that sit squarely on the ICSE syllabus</h2>
+      <p class="bx-qlabel">Q5. What if the school asks for a project?</p>
+      <h2>ICSE computer project ideas: eight bigger programs that sit squarely on the syllabus</h2>
       <p class="bx-lede">Some schools ask for one larger program on top of the twenty assignments, and strong students often add one anyway. A good one uses classes, constructors, methods, arrays and strings in a single program that solves a small real problem: ambitious enough to show skill, small enough to explain fully.</p>
     </div>
     <div class="bx-grid-2">
@@ -212,7 +274,7 @@ i     int     loop index, last char to first
 `<section class="bx-section bx-section--tint" id="examiner">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q5. How do you prepare for the external examiner?</p>
+      <p class="bx-qlabel">Q6. How do you prepare for the external examiner?</p>
       <h2>A rehearsal with a teacher your child has not met</h2>
       <p class="bx-lede">Since the external examiner may be a teacher who has never taught your child, the rehearsal uses one too. Answering questions about your own code is a skill, and it can be practised.</p>
     </div>
@@ -252,6 +314,8 @@ i     int     loop index, last char to first
     ['How many marks is the ICSE Computer Applications internal assessment?', 'One hundred marks, the same weight as the two-hour written paper. CISCE\'s 2027 syllabus asks for at least twenty laboratory assignments during the year, with fifty marks from the subject teacher and fifty from an external examiner, each marking out of fifty on class design, variable description, coding and documentation, and execution or output.'],
     ['How are the lab assignments marked?', 'On four criteria, each graded excellent, good, fair or poor: class design out of 10, variable description out of 10, coding and documentation out of 10, and execution or output out of 20, making 50. The subject teacher and the external examiner each award marks out of 50 this way, for 100 in all.'],
     ['Is a project compulsory in ICSE Class 10 Computer Applications?', 'Not in CISCE\'s 2027 syllabus, which asks for a minimum of twenty laboratory assignments and does not prescribe a separate project. Many schools call the finished lab file the computer project, and some set one larger program of their own, so follow your school\'s instructions. Good larger programs include a library manager, a report card with a 2D array, a billing system or a text analyser.'],
+    ['Which programs should go in the ICSE Class 10 computer practical file?', 'Programs spread across every unit: slab bills, a switch menu, special numbers, a series, a pattern, two or three classes with constructors, overloading, Character methods, linear and binary search, bubble and selection sort, matrix sums and four or five string programs. The school sets the actual list; the model list of 24 on this page shows a balanced spread.'],
+    ['What is the format of the ICSE computer project file?', 'CISCE does not prescribe a layout, so follow your school first. A clear file has a cover and an index, then for each assignment the question, the program with comments, a variable description table of name, type and purpose, and real output from BlueJ with the input used. Those parts match the four criteria the examiners mark.'],
     ['How many programs should the lab file have?', 'At least twenty, and a strong file usually has a few more so it can cover every syllabus unit: input and computation, loops and special numbers, menus, classes and constructors, methods and overloading, library classes, arrays and strings. Each program should have comments, a variable description and its real output.'],
     ['Who is the external examiner?', 'Under CISCE\'s rules, the external examiner is nominated by the head of the school and may be a teacher from the same school who does not teach the subject to that class. The four CISCE criteria do not include a viva, but many examiners run programs from the file and ask the student to explain choices such as access specifiers, loop types or search methods, so students should be ready to.'],
     ['Can you write the lab file for my child?', 'No, and it would not help: the external examiner\'s questions are designed to find out whether the student understands the work. Your child writes every program in class with guidance, documents it and rehearses explaining it, so the work and the marks are genuinely theirs.'],

@@ -6,12 +6,15 @@
 // international price; its card is data-india-only). CISCE locator, checked
 // 2026-10-13: Dubai 3 + Sharjah 1 (UAE), Singapore 1, Indonesia 1 (West Java),
 // Thailand 1 (Samut Prakan, Bangkok area). No UK/US: no CISCE schools there.
+// 2026-11-06: added the "between private classes" section linking the wave 3
+// free practice pages a student abroad uses on the days without a class.
 'use strict';
 
 module.exports = {
   slug: 'icse-class-10-computer-applications-classes-gulf-and-abroad',
   code: 'igl',
   board: 'icse',
+  dateModified: '2026-11-06',
   themeColor: '#5E2F4E',
   title: 'ICSE Computer Applications Classes in Dubai, UAE and Abroad',
   description: 'One to one ICSE Class 10 Computer Applications (Java) classes for Dubai, Sharjah, Singapore, Indonesia and Thailand: board prep, lab file, mocks, live doubts.',
@@ -161,10 +164,38 @@ module.exports = {
   </div>
 </section>`,
 
+`<section class="bx-section bx-section--deep" id="between">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. What does a student abroad do between classes?</p>
+      <h2>Five days without a class: the free pages that keep the week moving</h2>
+      <p class="bx-lede">Two private classes a week leave five days for short practice at home. Abroad there is rarely an ICSE classmate to compare answers with, so each piece of home practice below comes with its answers, and anything that still does not make sense goes to the top of the next private class.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">When</th><th scope="col">About 20 minutes on</th><th scope="col">Free page</th></tr></thead>
+        <tbody>
+          <tr><td>The day after a theory class</td><td>Re-reading the unit in short notes</td><td><a class="bx-link" href="/icse-computer-applications-notes">Chapter-wise notes</a></td></tr>
+          <tr><td>Midweek</td><td>Five outputs traced with a step table, then checked in BlueJ</td><td><a class="bx-link" href="/icse-class-10-java-output-questions">Output questions</a></td></tr>
+          <tr><td>The day after a program class</td><td>Rewriting that week's program from memory</td><td><a class="bx-link" href="/icse-class-10-string-programs">String programs</a> or <a class="bx-link" href="/icse-class-10-2d-array-programs">2D array programs</a></td></tr>
+          <tr><td>The weekend</td><td>One printable set, marked with its key</td><td><a class="bx-link" href="/icse-computer-applications-worksheets">Worksheets with answers</a></td></tr>
+          <tr><td>Before the school's prelims</td><td>Whole past papers under the clock</td><td><a class="bx-link" href="/icse-computer-applications-previous-year-papers-solved">Previous year papers, solved</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      A student who joins from another board, or whose Class 9 Java is shaky, starts with
+      <a class="bx-link" href="/icse-class-9-java-revision-for-class-10">Class 9 Java revision for Class 10</a> before the Class 10 units.
+      How the one to one format itself works, from the first lesson to the final paper, is set out on
+      <a class="bx-link" href="/icse-computer-applications-private-tutor">the one to one private Java tutor page</a>.
+    </p>
+  </div>
+</section>`,
+
 `<section class="bx-section" id="trust">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q6. How can we be sure before we pay?</p>
+      <p class="bx-qlabel">Q7. How can we be sure before we pay?</p>
       <h2>Judge the teaching on a real lesson, then decide month by month</h2>
     </div>
     <div class="bx-grid-3">

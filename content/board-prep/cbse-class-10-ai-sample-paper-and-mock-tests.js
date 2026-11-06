@@ -2,7 +2,10 @@
 // Intent: "cbse class 10 ai sample paper 2026-27", "ai 417 sample paper solution",
 // "cbse class 10 ai mock test", "ai class 10 practice paper". Distinct from
 // /cbse-class-10-ai-board-exam-preparation (revision strategy) and
-// /cbse-class-10-ai-important-questions (question bank by unit).
+// /cbse-class-10-ai-important-questions (question bank by unit). 2026-11-06: absorbs
+// "mock test series", "online test", "sample paper solutions"; SQP status corrected
+// (the 2026-27 listing for 417 is the 2025-26 paper re-listed); assertion-reason
+// items confirmed in Section A of the 2025 and 2026 papers.
 'use strict';
 
 module.exports = {
@@ -11,8 +14,8 @@ module.exports = {
   board: 'cbse',
   dateModified: '2026-11-06',
   themeColor: '#1D5A6E',
-  title: 'CBSE Class 10 AI Sample Paper 2026-27 and Mock Tests, Solved Live',
-  description: 'CBSE Class 10 AI (417) sample paper 2026-27 solved live, timed mock tests marked to the CBSE scheme, practical and viva mocks, and live doubt solving every week.',
+  title: 'CBSE Class 10 AI Sample Paper 2026-27 Solutions and Mocks',
+  description: 'CBSE Class 10 AI (417) sample paper 2026-27 solutions, an online mock test series marked to the CBSE scheme, practical and viva mocks, live every week.',
   ogTitle: 'CBSE Class 10 AI Sample Paper 2026-27 and Mock Tests',
   ogDesc: 'The official 417 sample paper solved live with a teacher, a timed mock series marked against the CBSE marking scheme, practical and viva mocks, and live doubts in every class.',
   twDesc: 'The 417 sample paper solved live, timed mocks marked to the CBSE scheme, practical and viva mocks, live doubts.',
@@ -20,7 +23,7 @@ module.exports = {
   courseName: 'CBSE Class 10 AI (417) Sample Paper and Mock Test Series, Live',
   courseDesc: 'Live online sample-paper solving and timed mock tests for CBSE Class 10 Artificial Intelligence (417), session 2026-27: the official CBSE sample question paper solved with a teacher, three full theory mocks marked against the marking scheme, monthly practical and viva mocks, and live doubt solving, every Monday and Wednesday at 9 PM IST or one to one at a time the family chooses.',
   brandTag: '417 &middot; Mocks',
-  navLinks: [['#sqp', 'Sample paper'], ['#series', 'Mock series'], ['#worked', 'Worked answer'], ['#fees', 'Batch or 1-on-1']],
+  navLinks: [['#sqp', 'Sample paper'], ['#solutions', 'Solutions'], ['#series', 'Mock series'], ['#online', 'Online test'], ['#fees', 'Batch or 1-on-1']],
   crumbs: [['/', 'Home'], ['/cbse-class-10-ai-classes-online', 'Class 10 AI classes'], [null, 'Sample paper and mock tests']],
   eyebrow: 'CBSE Class 10 &middot; Artificial Intelligence, code 417 &middot; Sample paper and mock tests 2026-27',
   h1: 'CBSE Class 10 AI sample paper and mock tests, solved live with a teacher.',
@@ -59,8 +62,8 @@ module.exports = {
     <div class="bx-grid-2" style="align-items:start">
       <div>
         <h3>Where it comes from, and what it fixes</h3>
-        <p>The sample question paper (SQP) and its marking scheme are published on CBSE's academic website, cbseacademic.nic.in, under sample question papers for the session, with Artificial Intelligence listed among the Class X skill subjects as code 417. For 2026-27, CBSE posted the main-subject sample papers in the third week of September 2026. As of 13 October 2026, the 417 link on its skill-education sample paper page still opens the 2025-26 paper, and because the 2026-27 curriculum keeps the same units and marks, that paper remains the right one to practise until the new one is posted. We solve the 2026-27 paper in the first Monday class after it appears.</p>
-        <p>The SQP is the board's own statement of the year's question design: how many questions, which are objective and which are written, where the internal choices sit and how the 50 theory marks are spread. In the latest official paper, for 2025-26, the design is 21 questions of which a student answers 15 in two hours. Section A carries 24 marks of objective questions: any four of six on employability skills, then twenty from the AI units. Section B carries 26 marks of written answers: any three of five two-mark employability answers, any four of six two-mark AI answers of about 20 to 30 words, and any three of five four-mark long answers of about 50 to 80 words. The marking scheme is the other half: it lists the value points an examiner looks for in every written answer, and it is the closest thing a student will ever see to the answer key on the day.</p>
+        <p>The sample question paper (SQP) and its marking scheme are published on CBSE's academic website, cbseacademic.nic.in, under sample question papers for the session, with Artificial Intelligence listed among the Class X skill subjects as code 417. For 2026-27, CBSE posted the main-subject sample papers in the third week of September 2026. The file listed against 417 for 2026-27 is the 2025-26 sample paper re-listed, not a new paper. The 2026-27 curriculum keeps the same units and marks, so that paper and its marking scheme are the right ones to practise, and they are what our Monday classes solve.</p>
+        <p>The SQP is the board's own statement of the year's question design: how many questions, which are objective and which are written, where the internal choices sit and how the 50 theory marks are spread. In the latest official paper, for 2025-26, the design is 21 questions of which a student answers 15 in two hours. Section A carries 24 marks of objective questions: any four of six on employability skills, then twenty from the AI units, and the mix includes assertion and reason and two-statement items, which also appeared in the 2025 and 2026 main papers. Section B carries 26 marks of written answers: any three of five two-mark employability answers, any four of six two-mark AI answers of about 20 to 30 words, and any three of five four-mark long answers of about 50 to 80 words. The marking scheme is the other half: it lists the value points an examiner looks for in every written answer, and it is the closest thing a student will ever see to the answer key on the day.</p>
       </div>
       <div>
         <h3>Why the marking scheme is the real study material</h3>
@@ -74,11 +77,80 @@ module.exports = {
   </div>
 </section>`,
 
-`<section class="bx-section" id="series">
+`<section class="bx-section" id="solutions">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q2. How does the mock test series run?</p>
-      <h2>Seven kinds of practice paper, timed to the school year</h2>
+      <p class="bx-qlabel">Q2. What should sample paper solutions look like?</p>
+      <h2>CBSE Class 10 AI sample paper solutions: what a solved answer has to show</h2>
+      <p class="bx-lede">The official solution is the CBSE marking scheme itself, published beside the paper. A useful solution, from a book or a teacher, does more than give the answer: it shows where each mark sits, so a student can check their own attempt line by line.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Question type in the paper</th><th scope="col">A solution is complete when it shows</th><th scope="col">What a weak solution leaves out</th></tr></thead>
+        <tbody>
+          <tr><td>Multiple choice, one mark</td><td>The option and a one-line reason the nearest wrong option fails</td><td>The reason, so the same trap catches the student again</td></tr>
+          <tr><td>Assertion and reason, one mark</td><td>A verdict on each statement, then whether the reason explains the assertion</td><td>The third check, which is where most errors happen</td></tr>
+          <tr><td>Two-mark short answer</td><td>Two separate value points, each in the subject's own term</td><td>The split between the points, so a student cannot see which one they missed</td></tr>
+          <tr><td>Four-mark case or numerical</td><td>The concept named, the working shown, the judgement in the final line</td><td>The judgement line, usually worth a full mark on its own</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Two items in the sample paper's style</b><span>written for this page</span></figcaption>
+  <pre><b>1.</b> Assertion (A): A model that scores
+   95% accuracy can still be a poor model.
+   Reason (R): Accuracy pools all correct
+   predictions and hides which class
+   the errors fall in.
+
+<b>2.</b> Assertion (A): Stemming always gives
+   a meaningful dictionary word.
+   Reason (R): Stemming cuts affixes by
+   rule without checking a dictionary.
+
+(a) Both true, R explains A
+(b) Both true, R does not explain A
+(c) A true, R false
+(d) A false, R true</pre>
+  <p class="bx-code-note">Fresh items in the format, not copied from any CBSE paper. Practise the three checks before looking at the key.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>The solution, check by check</b><span>how we mark it in class</span></figcaption>
+  <pre><b>1.</b> Is A true?  Yes: on a rare class,
+               always saying "no" scores
+               high and finds nothing.
+   Is R true?  Yes.
+   Does R explain A?  Yes, it is the
+               cause.          <b>Answer (a)</b>
+
+<b>2.</b> Is A true?  No: "studies" stems to
+               "studi", not a word.
+   Is R true?  Yes, that is what a
+               stemmer does.   <b>Answer (d)</b>
+
+<i># Three checks, in the same order,</i>
+<i># every time.</i></pre>
+  <p class="bx-code-note">Writing the three checks on the rough side of the page takes ten seconds and removes most assertion and reason errors.</p>
+</figure>
+    </div>
+    <p class="bx-mt-40">
+      We do not reproduce CBSE's paper or its scheme on this page; families should download both from
+      cbseacademic.nic.in. In class the teacher solves the paper with the official scheme on screen. For
+      papers set in earlier years, the questions are described and solved in our own words on
+      <a class="bx-link" href="/cbse-class-10-ai-previous-year-question-papers">the previous year papers page</a>,
+      and how examiners read the scheme is explained on
+      <a class="bx-link" href="/cbse-class-10-ai-marking-scheme">the 417 marking scheme guide</a>. More items in the format
+      above are on <a class="bx-link" href="/cbse-class-10-ai-assertion-reason-questions">our assertion and reason set</a>.
+    </p>
+  </div>
+</section>`,
+
+`<section class="bx-section bx-section--tint" id="series">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. How does the mock test series run?</p>
+      <h2>The 417 mock test series: seven kinds of practice paper, timed to the school year</h2>
       <p class="bx-lede">Every row below is a paper your child writes, has marked, and gets back in a live review. A mock that is only marked teaches little; a mock in which every lost mark is re-attempted on the spot teaches a great deal.</p>
     </div>
     <div class="bx-table-wrap">
@@ -107,10 +179,42 @@ module.exports = {
   </div>
 </section>`,
 
+`<section class="bx-section" id="online">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. Is there an online test for CBSE Class 10 AI?</p>
+      <h2>Online test or marked mock: what each one can and cannot tell you</h2>
+      <p class="bx-lede">Free online tests for Class 10 AI are almost always one-mark quizzes that score themselves. They are useful for Section A, which is 24 of the 50 theory marks. The other 26 are written answers, and only a person reading against the scheme can mark those.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">What you want to know</th><th scope="col">Self-scoring online quiz</th><th scope="col">Marked mock in our series</th></tr></thead>
+        <tbody>
+          <tr><td>Does my child know the one-mark facts?</td><td>Yes, quickly</td><td>Yes</td></tr>
+          <tr><td>Can they handle assertion and reason items?</td><td>Partly: the score shows the answer, not the faulty check</td><td>Yes, with the check that failed named</td></tr>
+          <tr><td>Do the two-mark answers hit both value points?</td><td>No</td><td>Yes, point by point</td></tr>
+          <tr><td>Is the four-mark judgement line there?</td><td>No</td><td>Yes</td></tr>
+          <tr><td>Will they finish in two hours?</td><td>No, a quiz has no written section to slow them</td><td>Yes, the full paper is timed</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-2 bx-mt-40" style="align-items:start">
+      <div>
+        <h3>How our online mock test series runs</h3>
+        <p>Every paper in the series is written online, in the live class or at home under the same timer. Objective items go into the shared document; written answers go on paper and are photographed for marking. The review happens live on video, with the marked answers on screen, so a student in Pune and a student in Doha get the same review on the same evening.</p>
+      </div>
+      <div>
+        <h3>Using quizzes well between mocks</h3>
+        <p>Short one-mark quizzes are a good habit on days without a class. Our <a class="bx-link" href="/cbse-class-10-ai-mcq-questions">unit wise MCQ set</a> works as one, with a reason under every answer. For written practice, use the <a class="bx-link" href="/cbse-class-10-ai-case-based-questions">case based questions</a> and the printable <a class="bx-link" href="/cbse-class-10-ai-worksheets">worksheets</a>, then bring the attempts to class for marking. After the board paper, our <a class="bx-link" href="/cbse-class-10-ai-paper-analysis">paper analysis and answer key</a> shows how the real paper compared.</p>
+      </div>
+    </div>
+  </div>
+</section>`,
+
 `<section class="bx-section bx-section--tint" id="live">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q3. What happens in a live paper-solving class?</p>
+      <p class="bx-qlabel">Q5. What happens in a live paper-solving class?</p>
       <h2>One Monday, one paper section, every answer marked in front of the class</h2>
       <p class="bx-lede">Paper-solving classes are not lectures with a question paper on screen. Students write; the teacher marks live; the class watches marks being won and lost.</p>
     </div>
@@ -127,7 +231,7 @@ module.exports = {
 `<section class="bx-section bx-section--deep" id="worked">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q4. What does a full-marks answer look like?</p>
+      <p class="bx-qlabel">Q6. What does a full-marks answer look like?</p>
       <h2>A competency question from Unit 1, answered two ways</h2>
       <p class="bx-lede">Your school canteen throws away a large amount of cooked food every day. Using the 4Ws problem canvas, scope this problem and write a problem statement for an AI project that could help.</p>
     </div>
@@ -181,7 +285,7 @@ food is wasted.</pre>
 `<section class="bx-section" id="practical">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q5. How are the practical and viva mocked?</p>
+      <p class="bx-qlabel">Q7. How are the practical and viva mocked?</p>
       <h2>An unseen program, a file review and the questions an examiner actually asks</h2>
       <p class="bx-lede">Half of the 417 marks are practical: a 15-program file worth 15, a practical exam worth 15, a viva worth 5, a project worth 10 and a project viva worth 5. Each part gets its own mock.</p>
     </div>
@@ -216,7 +320,7 @@ food is wasted.</pre>
 `<section class="bx-section bx-section--tint" id="doubts">
   <div class="bx-wrap">
     <div class="bx-section-head">
-      <p class="bx-qlabel">Q6. How are doubts handled?</p>
+      <p class="bx-qlabel">Q8. How are doubts handled?</p>
       <h2>Live doubts in every class, not a ticket queue</h2>
     </div>
     <div class="bx-grid-3">
@@ -251,7 +355,9 @@ food is wasted.</pre>
   faqH2: 'What families ask about the 417 sample paper and mock tests',
   faqs: [
     ['Where can I download the CBSE Class 10 AI sample paper for 2026-27?', 'From CBSE\'s academic website, cbseacademic.nic.in, in the sample question papers section for the 2026-27 session, where Artificial Intelligence appears among the Class X skill subjects as code 417 with its marking scheme alongside. Download both files. The marking scheme shows the value points examiners award marks for, and it is the more useful of the two for revision.'],
-    ['Do you solve the official CBSE sample paper in class?', 'Yes. Once CBSE publishes the 417 sample paper for the session, it is solved live in the Monday class: first untimed with the marking scheme on screen so students see which phrases earn marks, then re-attempted under time as a full mock. Doubts on any question are answered live before moving on.'],
+    ['Do you solve the official CBSE sample paper in class?', 'Yes. The 417 sample paper CBSE lists for the session, which for 2026-27 is the 2025-26 paper re-listed, is solved live in the Monday class: first untimed with the marking scheme on screen so students see which phrases earn marks, then re-attempted under time as a full mock. Doubts on any question are answered live before moving on.'],
+    ['Where can I find CBSE Class 10 AI sample paper solutions?', 'The official solution is the marking scheme CBSE publishes beside the sample paper on cbseacademic.nic.in, listing the value points for every written answer. Download it with the paper. In our classes the paper is solved live with that scheme on screen, and each student checks their own attempt point by point before re-writing the answers that lost marks.'],
+    ['Is there an online test series for CBSE Class 10 AI?', 'Yes. Our mock test series runs online: a diagnostic paper, unit tests, Part A drills, the sample paper and three full timed mocks, written in the live class or at home under the same timer and reviewed live on video. Free self-scoring quizzes help with one-mark items, but the 26 marks of written answers need a teacher marking against the scheme.'],
     ['How many mock tests are there?', 'Three full 50-mark theory mocks under exam time from January to the board paper, plus a diagnostic paper on joining, short unit check tests after each theory unit, weekly Part A drill sheets from November, the official sample paper solved live, and monthly practical and viva mocks from October. Every paper is reviewed in class with lost marks re-written.'],
     ['Are your mock papers copied from the sample paper or previous years?', 'No. Mock papers follow the design of the current sample paper, the same sections, question types and mark split, but use fresh questions. A student cannot pass them by remembering answers, which is the point: the board paper will also be fresh.'],
     ['Is the theory paper all multiple choice?', 'No. In the latest official sample paper, 24 of the 50 marks are objective questions and 26 are written answers: two-mark short answers and four-mark long answers of about 50 to 80 words, many of them built around a scenario. Students answer 15 of 21 questions in two hours, and our mocks follow the same design.'],

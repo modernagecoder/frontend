@@ -68,9 +68,9 @@ Processing are left thin. The unit-by-unit content is set out on
 employability half of the theory paper has its own page,
 [Part A employability skills](/cbse-class-10-ai-employability-skills-part-a).
 
-## The blueprint: 72 marks of questions on the paper, 50 of them counted
+## The blueprint and unit-wise weightage: 72 marks printed, 50 counted
 
-CBSE publishes a blueprint with each sample paper. The latest official one, for 2025-26, counts every question by unit and type. The 2026-27 sample paper for 417 had not been posted when we checked on 13 October 2026, and the curriculum is unchanged, so this is the design to prepare for.
+CBSE publishes a blueprint with each sample paper. The latest official one, for 2025-26, counts every question by unit and type. The paper CBSE lists for 417 under 2026-27 is that same 2025-26 paper re-listed, and the curriculum is unchanged, so this is the design to prepare for.
 
 - Unit | 1-mark objective | 2-mark short | 4-mark long
 
@@ -116,6 +116,51 @@ Unit 2, Advanced Concepts of Modeling, is the only unit with two long answers an
 
 - Two hours. About 50 minutes for Section A leaves 70 for the written answers, the split our mocks train.
 
+- Assertion and reason items sit among the objective questions; they appeared in Section A of both the 2025 and the 2026 main papers.
+
+## Reading time, the marking scheme, and how each unit's weightage is earned
+
+CBSE's usual practice is to hand the question paper out at 10:15 AM, fifteen minutes before writing begins at 10:30 AM. For the AI paper that quarter hour is worth planning, because the choices inside each section are made best before the clock starts.
+
+### A plan for the fifteen reading minutes
+
+- Minutes 1 to 3: Section A, ticking the four Part A objective items you will attempt.
+
+- Minutes 4 to 8: the five long answers. Choose your three and note the unit of each.
+
+- Minutes 9 to 12: the six AI short answers and the five Part A short answers; choose four and three.
+
+- Minutes 13 to 15: read the numerical slowly and decide which class is positive before you write.
+
+Admit card instructions and your school set the reporting time, so check both. Our January mocks start with the same fifteen silent minutes, so the habit is in place by February.
+
+### Where the marking scheme fits in
+
+CBSE publishes a marking scheme beside every sample paper, and board examiners mark to a scheme of the same kind: value points per written answer, each earning part of the marks. It is the closest thing to an answer key any student can study. How to read it, and how a two-mark answer is split, is set out on [our 417 marking scheme guide](/cbse-class-10-ai-marking-scheme). Once the 2027 paper has been sat, a question-by-question review goes up on [the paper analysis page](/cbse-class-10-ai-paper-analysis), and the 2025 and 2026 papers are already described there and on [previous year papers, solved](/cbse-class-10-ai-previous-year-question-papers).
+
+- Unit | Marks printed | Marks counted | Share of the 50
+
+- Part A, all five employability units | 16 | 10 | 20%
+
+- Unit 1, project cycle and ethical frameworks | 11 | 7 | 14%
+
+- Unit 2, advanced modeling | 16 | 11 | 22%
+
+- Unit 3, evaluating models | 12 | 10 | 20%
+
+- Unit 5, computer vision | 6 | 4 | 8%
+
+- Unit 6, natural language processing | 11 | 8 | 16%
+
+- Theory paper | 72 | 50 | 100%
+
+Printed marks are the questions on the page for that unit in the 2025-26 blueprint; counted marks are what the
+curriculum assigns it. The gap is the choice: Unit 2 prints sixteen marks of questions for eleven that count, so
+a student who is shaky on neural networks can still reach full marks in the unit by answering the classification
+items instead. Two practical-side links finish the picture. The pass requirement is explained on
+[AI 417 passing marks](/cbse-class-10-ai-passing-marks), and the May sitting on
+[the second board exam page](/cbse-class-10-ai-second-board-exam).
+
 ## The 2026-27 calendar, and what our batch is doing at each point
 
 Some dates below are official and already set. Others have not been announced, and we mark them as estimates. Each row shows what the live batch is working on at that point.
@@ -128,7 +173,7 @@ Some dates below are official and already set. Others have not been announced, a
 
 - LOC correction window | 2 to 4 November 2026 | Official | Computer Vision and the image programs of the file
 
-- 417 sample paper for 2026-27 | Not yet posted | Awaited | Solved live in class within days of release
+- 417 sample paper listed for 2026-27 | Listed in September 2026; it is the 2025-26 paper re-listed | Official | Solved live in class with its marking scheme
 
 - 2027 date sheet | Released 6 November 2026 | Official | Natural Language Processing; Part A drills begin
 
@@ -141,9 +186,9 @@ Some dates below are official and already set. Others have not been announced, a
 - Second examination | May 2027 | Expected, as in 2026 | Not needed by students who finish the plan
 
 The LOC, the list of candidates, is how your school registers your child's subjects with CBSE. Families rarely
-see it, but it fixes the subject codes your child will be examined in. If your child studies AI, ask the class
-teacher before the correction window closes on 4 November 2026 to confirm that subject code 417 appears against
-their name. Fixing a wrong code after that is much harder.
+see it, but it fixes the subject codes your child will be examined in. The correction window closed on 4 November 2026.
+If your child studies AI and you have not yet seen code 417 confirmed against their name, ask the class teacher
+this week; the school is the only route to CBSE for any fix.
 
 ## Four rules worth knowing before February
 
@@ -177,7 +222,7 @@ A calendar only helps if someone keeps to it. In our Class 10 AI batch the teach
 **Live doubts, raised before the class moves on** Any student can stop the class, share a screen and ask. Doubts from homework open the next class. With two classes a week a doubt never waits longer than a few days, and the teacher sees the same confusion surface in several students and fixes it for the room.
 
 -
-**From December: the sample paper, then full mocks** Once CBSE posts the 417 sample paper for the session it is solved live, and then three full fifty-mark mocks follow in January and February, each written under time and reviewed in class. How the series runs is described on [the sample paper and mock tests page](/cbse-class-10-ai-sample-paper-and-mock-tests).
+**From December: the sample paper, then full mocks** The 417 sample paper listed for the session is solved live with its marking scheme, and then three full fifty-mark mocks follow in January and February, each written under time and reviewed in class. How the series runs is described on [the sample paper and mock tests page](/cbse-class-10-ai-sample-paper-and-mock-tests).
 
 -
 **Report to parents at each milestone** After the diagnostic, after the practical file closes and after each mock, parents get a short progress report: marks by unit, what is improving and what needs home practice. In the board year, nobody should be guessing how their child is doing.
@@ -223,9 +268,13 @@ Option 1, fixed batch: Monday and Wednesday at 9:00 PM IST, live online, fifteen
 
 **Which AI units carry the most marks?** Advanced Concepts of Modeling carries 11 theory marks and Evaluating Models 10, followed by Natural Language Processing 8, Revisiting the AI Project Cycle and Ethical Frameworks 7 and Computer Vision 4. Statistical Data and Advance Python carry no theory marks and are assessed in the practical.
 
-**Has the 417 sample paper for 2026-27 been released?** Not when we checked on 13 October 2026. CBSE posted the main-subject sample papers in late September 2026, but the 417 link still opened the 2025-26 paper. The curriculum for 2026-27 is unchanged, so the 2025-26 design is the right one to prepare for, and the new paper is solved live in our classes as soon as it is posted.
+**Has the 417 sample paper for 2026-27 been released?** CBSE posted the main-subject sample papers in late September 2026. The file listed against Artificial Intelligence (417) for 2026-27 is the 2025-26 sample paper re-listed, with its marking scheme. The 2026-27 curriculum is unchanged, so that design is the right one to prepare for, and it is the paper our classes solve live.
 
-**Can a student take both AI 417 and Computer Applications 165?** No. CBSE does not allow Artificial Intelligence (417) to be offered with Computer Applications (165). If your child studies AI, check with the class teacher that code 417 is on their LOC, the list of candidates the school submits, before the correction window closes on 4 November 2026.
+**Is there reading time in the CBSE Class 10 AI exam?** Yes. CBSE usually hands out the question paper at 10:15 AM, fifteen minutes before writing starts at 10:30 AM, and the AI paper on 24 February 2027 sits in that morning slot. Use the time to choose which questions to attempt in each section. Check the admit card and your school for the exact reporting time.
+
+**Where can I see the marking scheme for CBSE Class 10 AI?** CBSE publishes a marking scheme beside each sample paper on cbseacademic.nic.in, listing the value points examiners look for in every written answer. For 417 the current one goes with the 2025-26 paper, which is also the paper listed for 2026-27. Our marking scheme guide explains how to read it, and every mock in our batch is marked against it.
+
+**Can a student take both AI 417 and Computer Applications 165?** No. CBSE does not allow Artificial Intelligence (417) to be offered with Computer Applications (165). If your child studies AI, check with the class teacher that code 417 is on their LOC, the list of candidates the school submits. The correction window closed on 4 November 2026, so any fix now goes through the school.
 
 **Can my child improve the AI marks in the May second exam?** The May examination is for improving performance in up to three of Science, Mathematics, Social Science and the languages. Artificial Intelligence did appear on the May 2026 schedule, but CBSE has not set out the rules for skill subjects clearly, so confirm with your school before relying on it. The safest plan is to prepare for February as the only attempt.
 
