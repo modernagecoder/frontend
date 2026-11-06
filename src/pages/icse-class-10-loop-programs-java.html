@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Loop Programs ICSE Class 10: for, while, do-while 2027</title>
+  <meta name="description" content="Loop programs ICSE Class 10: for, while and do-while compared, loop conversion worked both ways, iteration-count drills, nested loops, break and continue.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/icse-class-10-loop-programs-java">
+  <link rel="alternate" type="text/markdown" href="/src/pages/icse-class-10-loop-programs-java.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#2E5566">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/icse-class-10-loop-programs-java">
+  <meta property="og:title" content="Loop Programs for ICSE Class 10: Conversion and Counting Drills">
+  <meta property="og:description" content="The three Java loops for ICSE Class 10 compared, the same loop converted from for to while to do-while, ten iteration-count drills with final values, nested loops, break and continue, and two full loop programs. Every count was run in Java 21.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Loop Programs for ICSE Class 10: Conversion and Counting Drills">
+  <meta name="twitter:description" content="for, while and do-while for ICSE Class 10: loop conversion, iteration counts, nested loops, break and continue, all run in Java.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          },
+          {
+            "@type": "Country",
+            "name": "Thailand"
+          }
+        ],
+        "knowsAbout": [
+          "ICSE Computer Applications",
+          "Java",
+          "BlueJ",
+          "CISCE ICSE Class 10 Examination",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-loop-programs-java#article",
+        "headline": "Loop Programs for ICSE Class 10: for, while and do-while, Loop Conversion and Iteration Counts for 2027",
+        "description": "The three Java loops for ICSE Class 10 compared, the same loop converted from for to while to do-while, ten iteration-count drills with final values, nested loops, break and continue, and two full loop programs. Every count was run in Java 21.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-11-06",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/icse-class-10-loop-programs-java"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-loop-programs-java#course",
+        "name": "ICSE Class 10 Computer Applications (Java) Loops and Iterative Constructs Practice, Live Online",
+        "description": "Live online practice of iterative constructs for ICSE Class 10 Computer Applications in the 2027 examination: for, while and do-while loops, converting one loop into another, counting iterations and final values, nested loops, break and continue, and loop-based Section B programs, each written on paper and then run in BlueJ, in a Tuesday and Wednesday evening mini batch in India or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/icse-class-10-loop-programs-java",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "2999",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, mini batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": [
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Tuesday"
+              ],
+              "startTime": "17:30",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-loop-programs-java"
+            }
+          },
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Wednesday"
+              ],
+              "startTime": "20:00",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-loop-programs-java"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ICSE Class 10 Java classes",
+            "item": "https://learn.modernagecoders.com/icse-class-10-java-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Loop programs",
+            "item": "https://learn.modernagecoders.com/icse-class-10-loop-programs-java"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are iterative constructs in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Iterative constructs are statements that repeat a block of code while a condition holds. Java has three: the for loop, the while loop and the do-while loop. ICSE calls them iterative constructs, and they also cover nested loops and the jump statements break and continue that change how a loop runs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between while and do-while?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "while checks its condition before each pass, so it is entry controlled and may not run at all. do-while checks after each pass, so it is exit controlled and always runs at least once. A do-while also needs a semicolon after its closing while (condition)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you convert a for loop into a while loop?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Take the three parts of the for header apart. Write the initialisation as a statement before the loop, put the condition inside while ( ), and make the update the last statement inside the loop body, adding braces if the body now has more than one statement. The output stays the same."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you find how many times a loop will execute?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Write down every value the loop variable takes, starting from the first, and stop at the first value that makes the condition false. Count the values before it. For a loop that adds a fixed step, (last value reached minus first value) divided by the step, plus 1, gives the same answer quickly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is an entry controlled and an exit controlled loop?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An entry controlled loop tests its condition before running the body, so it can run zero times; for and while are entry controlled. An exit controlled loop runs the body first and tests afterwards, so it runs at least once; do-while is the only exit controlled loop in Java."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between break and continue?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "break ends the loop immediately and control moves to the first statement after it. continue ends only the current pass: the rest of the body is skipped and the loop goes on to its next pass, running the update first in a for loop. In nested loops both affect only the innermost loop they sit in."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a nested loop in Java with an example?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A nested loop is a loop placed inside the body of another loop. The inner loop completes all its passes for each single pass of the outer loop. If the outer loop runs 5 times and the inner loop 4 times, the inner body runs 20 times. Nested loops are used for patterns, tables and 2D arrays."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is an infinite loop? Give an example.",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An infinite loop is one whose condition never becomes false, so it never ends on its own. A for loop with all three header parts left empty, and while (true), are deliberate examples. A common accidental one starts i at 1, adds 2 each pass and tests i != 10; i is always odd, so it never equals 10."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which loop is best for ICSE Section B programs?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use for when the number of passes is known, such as running through the digits of a fixed range or the elements of an array. Use while when the count depends on the data, such as reducing a number digit by digit. Use do-while for menus and input that must be read before it can be checked."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you teach loops in the live ICSE classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The mini batch practises conversion and counting every Tuesday at 5:30 PM IST and builds a full loop program every Wednesday at 8:00 PM IST, with every answer run in BlueJ on a shared screen. Families who want a different time, or students outside India, take personalised one to one classes."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-ic33 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">ICSE CA &middot; Loops</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#kinds">Three loops</a>
+      <a href="#convert">Conversion</a>
+      <a href="#count">Counting</a>
+      <a href="#nested">Nested loops</a>
+      <a href="#fees">Batch or 1-on-1</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> <span>/</span> <span>Loop programs</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">ICSE Class 10 &middot; Computer Applications (Java) &middot; Iterative constructs 2027</p>
+        <h1>Loop programs for ICSE Class 10: convert them, count them, nest them.</h1>
+        <p class="bx-lede">Loop programs in ICSE Class 10 are tested in two ways: short Section A questions that ask you to convert a loop or count its passes, and Section B programs that are built on a loop. This page covers both. It compares for, while and do-while, converts the same loop all three ways, gives ten counting drills with final values, then nested loops, break and continue, and two full programs. Every loop was run in Java 21. In our live mini batch these drills are timed and then run in BlueJ.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20practice%20of%20ICSE%20Class%2010%20loop%20programs%20in%20Java." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'ic33'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; loop conversion both ways &middot; 10 counting drills &middot; nested loops &middot; break and continue &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When loops are practised">
+        <p class="bx-tt-title"><span>Loop drills</span><b>ICSE CA</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Tuesday, conversion and counting</span><span class="bx-tt-time">5:30<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, a loop program built</span><span class="bx-tt-time">8:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Loop types converted between</span><span class="bx-tt-time">3<small>ways</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Every count proved in</span><span class="bx-tt-time">BlueJ<small>live</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/icse-computer-applications-java-bluej-course">ICSE Class 10 Computer Applications, Java with BlueJ, Live</a></p>
+          <a class="bx-offer-opt" href="#fees" data-india-only="true"><span class="bx-offer-k">Mini batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.miniBatch">₹2,999</span><small>/month</small></span><span class="bx-offer-v">Tue 5:30 PM and Wed 8:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>Inside India:</b> join the group on both evenings shown. <b>Elsewhere:</b> one to one loop practice, booked for a local after-school hour in the UAE, Oman, Singapore or anywhere an ICSE school runs.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Entry and exit controlled</span>
+          <span class="bx-stamp">Every pass counted</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Courses where loops are built properly</h2>
+      <p class="bx-lede">The ICSE Java course where the mini batch converts, counts and builds loops every week, the Class 11 and 12 Computer Science course where nested loops grow into matrix and search work, and the data structures course for students who want to count loop steps the way algorithms are analysed.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/icse-computer-applications-java-bluej-course">
+        <div class="bx-pick-shot"><img src="/images/java-teens.webp" alt="ICSE Computer Applications Java with BlueJ course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / ICSE CA</p>
+          <h3>ICSE Computer Applications, Java with BlueJ</h3>
+          <p>Class 9 and 10 Computer Applications in a mini batch, where every loop is converted, counted on paper and then run in BlueJ.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+        <div class="bx-pick-shot"><img src="/images/ip-cs-class-11-12.webp" alt="Computer Science Class 11 and 12 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Next step / ISC</p>
+          <h3>Computer Science Class 11 and 12</h3>
+          <p>For students going on to ISC Computer Science, where nested loops drive matrices, searching and number problems.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="bx-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures and Algorithms course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Beyond the syllabus / DSA</p>
+          <h3>Data Structures and Algorithms</h3>
+          <p>For the student who likes counting passes and wants to learn how programmers measure the cost of a loop.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>Loop programs in ICSE Class 10 use Java's three iterative constructs. for suits a known number of passes; while is entry controlled and may run zero times; do-while is exit controlled and always runs at least once. Any loop converts into the others by moving the initialisation before the loop and the update to the end of the body, but a do-while differs when its condition starts false. Section A asks for conversions and counts; Section B programs are built on loops. Loops are taught live in our ICSE evening mini batch in India, and one to one everywhere.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="kinds">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. What is the difference between for, while and do-while?</p>
+      <h2>for, while and do-while in ICSE Java, compared</h2>
+      <p class="bx-lede">for and while test the condition before each pass, so they are entry controlled and can run zero times. do-while tests after each pass, so it is exit controlled and always runs at least once. Choose for when the count is known, while when it is not, do-while when the body must run first.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Feature</th><th scope="col">for</th><th scope="col">while</th><th scope="col">do-while</th></tr></thead>
+        <tbody>
+          <tr><td>Where the test is</td><td>Before each pass</td><td>Before each pass</td><td>After each pass</td></tr>
+          <tr><td>Control type</td><td>Entry controlled</td><td>Entry controlled</td><td>Exit controlled</td></tr>
+          <tr><td>Least number of passes</td><td class="bx-num">0</td><td class="bx-num">0</td><td class="bx-num">1</td></tr>
+          <tr><td>Best used when</td><td>The number of passes is known</td><td>It depends on data, such as digits left</td><td>The body must run once, such as a menu or input check</td></tr>
+          <tr><td>Initialisation and update</td><td>Both inside the header</td><td>Before the loop and inside the body</td><td>Before the loop and inside the body</td></tr>
+          <tr><td>Semicolon</td><td>None after the header</td><td>None after the condition</td><td>Required after <code>while (...)</code></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-3 bx-mt-40">
+      <div class="bx-card"><h3>Infinite loop</h3><p>A loop whose condition never becomes false: <code>for ( ; ; )</code>, <code>while (true)</code>, or a test the variable can jump past. <code>i != 10</code> with <code>i += 2</code> from 1 skips 10 for ever; our run stopped it after 1,000 passes with i at 2001.</p></div>
+      <div class="bx-card"><h3>Empty loop</h3><p>A loop with no statement in its body, such as <code>for (int i = 0; i &lt; 1000; i++);</code>. It only uses up time, so older textbooks call it a delay loop.</p></div>
+      <div class="bx-card"><h3>Finite loop</h3><p>A loop with a condition that is certain to fail after a fixed number of passes. Every loop in a Section B answer should be finite, and your trace should prove it.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="convert">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. How do you convert a for loop to a while loop in ICSE?</p>
+      <h2>Convert for loop to while in ICSE, and on to do-while</h2>
+      <p class="bx-lede">Move the initialisation above the loop, keep the condition in the while brackets, and put the update as the last statement of the body. For do-while, keep the same three pieces but move the test to the end, after a semicolon-terminated while.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>for</b><span>multiples of 5 up to 25</span></figcaption>
+  <pre>for (int i = 5; i &lt;= 25; i += 5)
+    System.out.print(i + " ");
+
+<i>// Output: 5 10 15 20 25</i></pre>
+  <p class="bx-code-note">Initialisation i = 5, condition i &lt;= 25, update i += 5, all in one header.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>while</b><span>the same loop</span></figcaption>
+  <pre>int i = 5;
+while (i &lt;= 25) {
+    System.out.print(i + " ");
+    i += 5;
+}
+<i>// Output: 5 10 15 20 25</i></pre>
+  <p class="bx-code-note">Braces are now needed, because the body holds two statements: the print and the update.</p>
+</figure>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>do-while</b><span>the same loop again</span></figcaption>
+  <pre>int i = 5;
+do {
+    System.out.print(i + " ");
+    i += 5;
+} while (i &lt;= 25);
+<i>// Output: 5 10 15 20 25</i></pre>
+  <p class="bx-code-note">Same output, because the condition is true at the start. Note the semicolon after while (i &lt;= 25).</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>while to for</b><span>digit sum the other way round</span></figcaption>
+  <pre>// while version
+int n = 1234, s = 0;
+while (n != 0) {
+    s += n % 10;
+    n /= 10;
+}
+// for version
+int n, s = 0;
+for (n = 1234; n != 0; n /= 10)
+    s += n % 10;
+<i>// Both give s = 10, n = 0</i></pre>
+  <p class="bx-code-note">Going from while to for, lift the update n /= 10 out of the body into the third part of the header.</p>
+</figure>
+    </div>
+    <h3 class="bx-mt-40">When conversion changes the answer</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Code</th><th scope="col">Passes (run)</th><th scope="col">k after</th></tr></thead>
+        <tbody>
+          <tr><td><code>int k = 20, c = 0;</code><br><code>while (k &lt; 10) { c++; k++; }</code></td><td class="bx-num">0</td><td class="bx-num">20</td></tr>
+          <tr><td><code>int k = 20, c = 0;</code><br><code>do { c++; k++; } while (k &lt; 10);</code></td><td class="bx-num">1</td><td class="bx-num">21</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      If a question asks you to convert into do-while, check the starting values: when the condition is false at the start, the two are not equivalent, and saying so earns credit. Loops that print shapes have their own conversion habits on
+      <a class="bx-link" href="/icse-class-10-pattern-programs-java">pattern programs for ICSE Class 10</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="count">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. How many times will the loop execute?</p>
+      <h2>Iterative constructs in Java: ten iteration-count drills</h2>
+      <p class="bx-lede">List every value the loop variable takes, including the one that fails the test, then count the values that passed. For a counting loop that adds a fixed step, the shortcut is (last value reached minus first) divided by step, plus 1. Cover the right two columns and try each.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Loop</th><th scope="col">Values that pass</th><th scope="col">Passes</th><th scope="col">Variable after</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><code>for (i = 3; i &lt;= 30; i += 3)</code></td><td>3, 6, ... 30</td><td class="bx-num">10</td><td class="bx-num">i = 33</td></tr>
+          <tr><td>2</td><td><code>for (i = 100; i &gt;= 1; i /= 2)</code></td><td>100, 50, 25, 12, 6, 3, 1</td><td class="bx-num">7</td><td class="bx-num">i = 0</td></tr>
+          <tr><td>3</td><td><code>for (i = 1; i &lt; 50; i *= 3)</code></td><td>1, 3, 9, 27</td><td class="bx-num">4</td><td class="bx-num">i = 81</td></tr>
+          <tr><td>4</td><td><code>int x = 15;</code><br><code>while (x &gt; 0) x -= 4;</code></td><td>15, 11, 7, 3</td><td class="bx-num">4</td><td class="bx-num">x = -1</td></tr>
+          <tr><td>5</td><td><code>int i = 0;</code><br><code>do { i += 7; } while (i &lt; 30);</code></td><td>Body runs, then i is 7, 14, 21, 28, 35</td><td class="bx-num">5</td><td class="bx-num">i = 35</td></tr>
+          <tr><td>6</td><td><code>for (int i = 10; i &lt; 10; i++)</code></td><td>None: 10 &lt; 10 is false</td><td class="bx-num">0</td><td>Not in scope</td></tr>
+          <tr><td>7</td><td><code>for (ch = 'a'; ch &lt;= 'z'; ch += 5)</code></td><td>a, f, k, p, u, z</td><td class="bx-num">6</td><td>Code 127, past z</td></tr>
+          <tr><td>8</td><td><code>int n = 64, k = 0;</code><br><code>while (n &gt; 1) { n /= 2; k++; }</code></td><td>n = 64, 32, 16, 8, 4, 2</td><td class="bx-num">6</td><td class="bx-num">n = 1, k = 6</td></tr>
+          <tr><td>9</td><td><code>for (i = 1, j = 10; i &lt; j; i++, j--)</code></td><td>(1,10) (2,9) (3,8) (4,7) (5,6)</td><td class="bx-num">5</td><td class="bx-num">i = 6, j = 5</td></tr>
+          <tr><td>10</td><td><code>int i = 1;</code><br><code>while (i != 10) i += 2;</code></td><td>1, 3, 5, 7, 9, 11 ...</td><td>Never stops</td><td>Odd values skip 10</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      Drill 1 matches the shortcut: (30 minus 3) divided by 3, plus 1, is 10. The shortcut fails for loops that multiply or divide (drills 2, 3 and 8), so list those values. In drills 2 and 3 the variable is declared outside the loop, which is why its final value can be asked. More loops traced to their printed output are on
+      <a class="bx-link" href="/icse-class-10-java-output-questions">ICSE Java output questions</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="nested">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. How do nested loops, break and continue work?</p>
+      <h2>Nested loops ICSE: counting inner passes, with break and continue</h2>
+      <p class="bx-lede">In a nested loop the inner loop runs completely for every single pass of the outer loop. break leaves only the loop it sits in; continue skips the rest of the current pass and goes to the next one.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Nested loop</th><th scope="col">Inner passes per outer i</th><th scope="col">Total inner passes (run)</th></tr></thead>
+        <tbody>
+          <tr><td><code>for (i = 1; i &lt;= 5; i++)</code><br><code>&nbsp;&nbsp;for (j = 1; j &lt;= 4; j++)</code></td><td>4 every time</td><td class="bx-num">5 x 4 = 20</td></tr>
+          <tr><td><code>for (i = 1; i &lt;= 5; i++)</code><br><code>&nbsp;&nbsp;for (j = i; j &lt;= 5; j++)</code></td><td>5, 4, 3, 2, 1</td><td class="bx-num">15</td></tr>
+          <tr><td><code>for (i = 1; i &lt;= 4; i++)</code><br><code>&nbsp;&nbsp;for (j = 1; j &lt;= i * 2; j++)</code></td><td>2, 4, 6, 8</td><td class="bx-num">20</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Nested loop with break</b><span>primes from 10 to 30</span></figcaption>
+  <pre>for (int n = 10; n &lt;= 30; n++) {
+    boolean prime = true;
+    for (int d = 2; d * d &lt;= n; d++) {
+        if (n % d == 0) {
+            prime = false;
+            break;
+        }
+    }
+    if (prime)
+        System.out.print(n + " ");
+}
+<i>// Output: 11 13 17 19 23 29</i></pre>
+  <p class="bx-code-note">break ends the divisor search as soon as one divisor is found; the outer loop simply moves to the next n.</p>
+</figure>
+      <div class="bx-table-wrap">
+        <table class="bx-table">
+          <thead><tr><th scope="col">n</th><th scope="col">Divisors tried</th><th scope="col">Result</th></tr></thead>
+          <tbody>
+            <tr><td class="bx-num">10</td><td>2 divides, break</td><td>not prime</td></tr>
+            <tr><td class="bx-num">11</td><td>2, 3 (4 x 4 &gt; 11 ends it)</td><td>prime</td></tr>
+            <tr><td class="bx-num">15</td><td>2, then 3 divides, break</td><td>not prime</td></tr>
+            <tr><td class="bx-num">25</td><td>2, 3, 4, then 5 divides, break</td><td>not prime</td></tr>
+            <tr><td class="bx-num">29</td><td>2, 3, 4, 5 (6 x 6 &gt; 29)</td><td>prime</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="bx-table-wrap bx-mt-40">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Jump statement</th><th scope="col">Code</th><th scope="col">Result (run)</th><th scope="col">What happened</th></tr></thead>
+        <tbody>
+          <tr><td>continue</td><td><code>for (int i = 1; i &lt;= 10; i++) {</code><br><code>&nbsp;&nbsp;if (i % 3 == 0) continue;</code><br><code>&nbsp;&nbsp;s += i;</code><br><code>}</code></td><td class="bx-num">s = 37</td><td>3, 6 and 9 skipped: 55 minus 18</td></tr>
+          <tr><td>break</td><td><code>for (n = 51; ; n++)</code><br><code>&nbsp;&nbsp;if (n % 7 == 0) break;</code></td><td class="bx-num">n = 56</td><td>A for with no condition stops only at the break</td></tr>
+          <tr><td>break on a total</td><td><code>for (i = 1; i &lt;= 20; i++) {</code><br><code>&nbsp;&nbsp;if (s &gt; 30) break;</code><br><code>&nbsp;&nbsp;s += i;</code><br><code>}</code></td><td class="bx-num">s = 36, i = 9</td><td>s passes 30 after adding 8; the test at i = 9 breaks</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      Nested loops are the engine of two whole program families:
+      <a class="bx-link" href="/icse-class-10-2d-array-programs">2D array programs</a> and
+      <a class="bx-link" href="/icse-class-10-series-programs-java">series programs in Java</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" style="font-variant-ligatures:none" id="programs">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. What do loop programs look like in Section B?</p>
+      <h2>Two loop programs for ICSE Class 10, written and run</h2>
+      <p class="bx-lede">Section B is any four of six programs at 15 marks each, and nearly every one has a loop at its heart. These two show the loops this page has not yet used for real work: a do-while that reads until a stop value, and a while loop whose number of passes nobody knows in advance.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>do-while with a sentinel</b><span>read until 0 is entered</span></figcaption>
+  <pre>import java.util.Scanner;
+
+public class Sentinel {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int pos = 0, neg = 0, total = 0, num;
+        do {
+            System.out.print("Enter a number (0 to stop): ");
+            num = in.nextInt();
+            if (num &gt; 0) pos++;
+            else if (num &lt; 0) neg++;
+            total += num;
+        } while (num != 0);
+        System.out.println();
+        System.out.println("Positive: " + pos);
+        System.out.println("Negative: " + neg);
+        System.out.println("Total: " + total);
+    }
+}
+<i>// Input: 8 -3 15 -6 4 0</i>
+<i>// Positive: 3</i>
+<i>// Negative: 2</i>
+<i>// Total: 18</i></pre>
+  <p class="bx-code-note">do-while fits because a number must be read before the stop test can mean anything. The 0 adds nothing to the total and counts as neither sign.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>while with an unknown count</b><span>GCD and LCM by Euclid</span></figcaption>
+  <pre>import java.util.Scanner;
+
+public class Gcd {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter two numbers: ");
+        int a = in.nextInt(), b = in.nextInt();
+        int x = a, y = b;
+        while (y != 0) {
+            int r = x % y;
+            x = y;
+            y = r;
+        }
+        System.out.println("GCD = " + x);
+        System.out.println("LCM = " + (a * b / x));
+    }
+}
+<i>// Input: 84 36</i>
+<i>// GCD = 12</i>
+<i>// LCM = 252</i></pre>
+  <p class="bx-code-note">Pass 1: 84 % 36 is 12, so x, y become 36, 12. Pass 2: 36 % 12 is 0, so x, y become 12, 0 and the loop ends. Copies x and y keep a and b safe for the LCM.</p>
+</figure>
+    </div>
+    <div class="bx-grid-3 bx-mt-40">
+      <div class="bx-card"><h3>Name the loop type in a comment</h3><p>A one-line comment such as "exit controlled: input must be read first" shows the examiner you chose the loop on purpose.</p></div>
+      <div class="bx-card"><h3>Keep the original input</h3><p>When a loop destroys a number by dividing it, work on a copy, as the GCD program does. Many lost marks come from printing a variable that the loop has already reduced to 0.</p></div>
+      <div class="bx-card"><h3>Describe the variables</h3><p>The ICSE paper asks for programs written with variable descriptions or meaningful names. List each loop counter with its purpose, not just its type.</p></div>
+    </div>
+    <p class="bx-mt-40">
+      The full list of program families with loops at their core, from special numbers to menus, is on
+      <a class="bx-link" href="/icse-class-10-java-programs-practice">ICSE Class 10 Java programs for practice</a> and
+      <a class="bx-link" href="/icse-special-number-programs-java">special number programs in Java</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="live">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. How are loops taught in the live classes?</p>
+      <h2>How the mini batch practises loops every week</h2>
+      <p class="bx-lede">Loops are learnt by counting passes on paper until the count is always right, then writing programs where the loop does real work. Each week covers both.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>Tuesday: convert and count</h4><p>At the 5:30 PM IST class students get a set of loops to convert between for, while and do-while, and a set to count, with the final value of the variable asked as well.</p></li>
+      <li class="bx-step"><h4>BlueJ settles every count</h4><p>The teacher adds a counter to each loop and runs it on a shared screen, so the right count is shown, not argued.</p></li>
+      <li class="bx-step"><h4>The missed value found</h4><p>A wrong count is nearly always one missing or extra value in the list. The student reads their list aloud until the gap shows up.</p></li>
+      <li class="bx-step"><h4>Wednesday: a loop program</h4><p>At the 8:00 PM IST class the batch writes a full Section B program around a loop: digits, factors, sentinel input or nested search, with a variable list.</p></li>
+      <li class="bx-step"><h4>Loops under exam conditions</h4><p>From December the batch sits complete mock papers, where conversions sit in Section A and loop programs in Section B, each scored to the ICSE marking pattern.</p></li>
+    </ol>
+    <p class="bx-mt-40">
+      Loop mistakes that compile but give wrong answers, such as stopping one pass short, are collected on
+      <a class="bx-link" href="/icse-class-10-java-error-finding-questions">ICSE Java error finding questions</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Practise loops in the mini batch, or one to one</h2>
+      <p class="bx-lede">The conversion sets, counting drills and BlueJ checks are the same in both formats. Families in India pick the evening mini batch or a private slot; ICSE students abroad learn one to one. Monthly billing, no admission fee.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card" data-india-only="true">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Mini batch, Tuesday 5:30 PM and Wednesday 8 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Tuesday 5:30 PM IST and Wednesday 8:00 PM IST</li><li>Six students at most, so every count gets checked</li><li>Conversion and counting sets every Tuesday</li><li>A full loop program built every Wednesday</li><li>Every count proved by running it in BlueJ</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>A slot the family picks, in India or abroad</li><li>Extra work on nested loops if those are the weak spot</li><li>Your child's own programs checked loop by loop</li><li>Harder counting drills as accuracy grows</li><li>Same teachers, same 2027 syllabus, same BlueJ checks</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
+    <p class="bx-mt-40">A student who can write simple loops but loses track inside nested ones often needs a handful of one to one sessions to fix the counting habit. A student who wants loops practised alongside the rest of the syllabus every week is better placed in the batch. Fees are shown in your own currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>Loop practice for ICSE students outside India</h2>
+      <p class="bx-lede">ICSE schools in the Gulf and South East Asia sit the same Computer Applications paper, with the same conversion and counting questions. Outside India these drills run one to one, after school in the student's own time zone.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Time difference</th><th scope="col">Usual class window, local time</th><th scope="col">Format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td>IST</td><td class="bx-num">Tue 5:30 PM, Wed 8:00 PM</td><td><span class="bx-fit">Mini batch or 1-on-1</span></td></tr>
+          <tr><td>United Arab Emirates<br><span class="bx-src">Dubai, Sharjah</span></td><td>1 h 30 min behind India</td><td class="bx-num">3:00 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Indonesia and Thailand<br><span class="bx-src">West Java, Bangkok area</span></td><td>1 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Singapore<br><span class="bx-src">Singapore</span></td><td>2 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The slot is agreed after the free demo and can move around school exams. The overseas arrangement is described on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the ICSE Class 10 Computer Applications series, grouped by what you need: classes, each chapter, Section B programs, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a></li>
+          <li><a href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Java classes in the Gulf and abroad</a></li>
+          <li><a href="/icse-class-10-bluej-java-coaching">ICSE BlueJ Java coaching</a></li>
+          <li><a href="/icse-computer-applications-crash-course">ICSE computer crash course</a></li>
+          <li><a href="/icse-computer-tuition-kolkata">ICSE computer tuition in Kolkata</a></li>
+          <li><a href="/icse-computer-tuition-bangalore">ICSE computer tuition in Bangalore</a></li>
+          <li><a href="/icse-computer-tuition-mumbai">ICSE computer tuition in Mumbai</a></li>
+          <li><a href="/icse-computer-applications-private-tutor">1-on-1 private Java tutor</a></li>
+          <li><a href="/icse-computer-tuition-lucknow">ICSE computer tuition in Lucknow</a></li>
+          <li><a href="/icse-computer-tuition-pune">ICSE computer tuition in Pune</a></li>
+          <li><a href="/icse-computer-tuition-near-me">ICSE computer tuition near me</a></li>
+          <li><a href="/icse-computer-applications-small-batch-classes">The mini batch, explained</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Chapter by chapter</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a></li>
+          <li><a href="/icse-class-10-user-defined-methods-overloading">User-defined methods and overloading</a></li>
+          <li><a href="/icse-class-10-constructors-questions">Constructors</a></li>
+          <li><a href="/icse-class-10-wrapper-and-library-classes">Wrapper and library classes</a></li>
+          <li><a href="/icse-class-10-class-as-basis-of-computation">Class as the basis of all computation</a></li>
+          <li><a href="/icse-class-10-encapsulation-access-specifiers">Encapsulation and access specifiers</a></li>
+          <li><a href="/icse-class-10-math-library-methods">Math library methods</a></li>
+          <li><a href="/icse-class-10-operators-in-java">Operators and expressions</a></li>
+          <li><a href="/icse-class-10-data-types-and-input-java">Data types, input and type casting</a></li>
+          <li><a href="/icse-class-9-java-revision-for-class-10">Class 9 Java revision for Class 10</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Programs for Section B</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a></li>
+          <li><a href="/icse-class-10-string-programs">String programs</a></li>
+          <li><a href="/icse-special-number-programs-java">Special number programs</a></li>
+          <li><a href="/icse-class-10-sorting-and-searching-programs">Sorting and searching programs</a></li>
+          <li><a href="/icse-class-10-2d-array-programs">2D array programs</a></li>
+          <li><a href="/icse-class-10-pattern-programs-java">Pattern programs</a></li>
+          <li><a href="/icse-class-10-menu-driven-programs">Menu driven and switch case</a></li>
+          <li><a href="/icse-class-10-series-programs-java">Series programs</a></li>
+          <li><a href="/icse-class-10-slab-and-bill-programs">Slab and bill programs</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></li>
+          <li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mock tests</a></li>
+          <li><a href="/icse-computer-applications-previous-year-papers-solved">Previous year papers, solved</a></li>
+          <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
+          <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
+          <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+          <li><a href="/icse-class-10-java-error-finding-questions">Find the error questions</a></li>
+          <li><a href="/icse-computer-difference-between-questions">Difference between questions</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Notes and revision</h3>
+        <ul>
+          <li><a href="/icse-computer-applications-notes">Chapter-wise notes</a></li>
+          <li><a href="/icse-computer-applications-textbook-solutions-guide">Textbook solutions guide</a></li>
+          <li><a href="/icse-computer-applications-worksheets">Worksheets with answers</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and internal assessment</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-board-exam-preparation">ICSE board exam preparation</a></li>
+          <li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+          <li><a href="/icse-class-10-computer-applications-project-and-internal-assessment">Project and internal assessment</a></li>
+          <li><a href="/how-to-score-100-in-icse-computer-applications">How to score 100</a></li>
+          <li><a href="/icse-computer-applications-paper-analysis">Paper analysis and answer key</a></li>
+          <li><a href="/icse-computer-applications-vs-commercial-applications">Computer or Commercial Applications?</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>CBSE Class 10 AI (417):</b> <a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about loops</p>
+      <h2>What students ask about loop programs in ICSE Class 10</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>What are iterative constructs in Java?</h3><p>Iterative constructs are statements that repeat a block of code while a condition holds. Java has three: the for loop, the while loop and the do-while loop. ICSE calls them iterative constructs, and they also cover nested loops and the jump statements break and continue that change how a loop runs.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between while and do-while?</h3><p>while checks its condition before each pass, so it is entry controlled and may not run at all. do-while checks after each pass, so it is exit controlled and always runs at least once. A do-while also needs a semicolon after its closing while (condition).</p></div>
+      <div class="bx-faq-item"><h3>How do you convert a for loop into a while loop?</h3><p>Take the three parts of the for header apart. Write the initialisation as a statement before the loop, put the condition inside while ( ), and make the update the last statement inside the loop body, adding braces if the body now has more than one statement. The output stays the same.</p></div>
+      <div class="bx-faq-item"><h3>How do you find how many times a loop will execute?</h3><p>Write down every value the loop variable takes, starting from the first, and stop at the first value that makes the condition false. Count the values before it. For a loop that adds a fixed step, (last value reached minus first value) divided by the step, plus 1, gives the same answer quickly.</p></div>
+      <div class="bx-faq-item"><h3>What is an entry controlled and an exit controlled loop?</h3><p>An entry controlled loop tests its condition before running the body, so it can run zero times; for and while are entry controlled. An exit controlled loop runs the body first and tests afterwards, so it runs at least once; do-while is the only exit controlled loop in Java.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between break and continue?</h3><p>break ends the loop immediately and control moves to the first statement after it. continue ends only the current pass: the rest of the body is skipped and the loop goes on to its next pass, running the update first in a for loop. In nested loops both affect only the innermost loop they sit in.</p></div>
+      <div class="bx-faq-item"><h3>What is a nested loop in Java with an example?</h3><p>A nested loop is a loop placed inside the body of another loop. The inner loop completes all its passes for each single pass of the outer loop. If the outer loop runs 5 times and the inner loop 4 times, the inner body runs 20 times. Nested loops are used for patterns, tables and 2D arrays.</p></div>
+      <div class="bx-faq-item"><h3>What is an infinite loop? Give an example.</h3><p>An infinite loop is one whose condition never becomes false, so it never ends on its own. A for loop with all three header parts left empty, and while (true), are deliberate examples. A common accidental one starts i at 1, adds 2 each pass and tests i != 10; i is always odd, so it never equals 10.</p></div>
+      <div class="bx-faq-item"><h3>Which loop is best for ICSE Section B programs?</h3><p>Use for when the number of passes is known, such as running through the digits of a fixed range or the elements of an array. Use while when the count depends on the data, such as reducing a number digit by digit. Use do-while for menus and input that must be read before it can be checked.</p></div>
+      <div class="bx-faq-item"><h3>Do you teach loops in the live ICSE classes?</h3><p>Yes. The mini batch practises conversion and counting every Tuesday at 5:30 PM IST and builds a full loop program every Wednesday at 8:00 PM IST, with every answer run in BlueJ on a shared screen. Families who want a different time, or students outside India, take personalised one to one classes.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Book a free live class on loops</h2>
+        </div>
+        <p>In the free demo your child converts a loop between for, while and do-while, counts the passes of a few tricky ones, and then watches each loop run in BlueJ with the mentor. Afterwards you get a plain account of where the counting goes wrong and whether the mini batch or one to one suits your child better.</p>
+        <p>Want to see more first? Try <a class="bx-link" href="/icse-class-10-operators-in-java">operators in Java for ICSE Class 10</a> or see <a class="bx-link" href="/icse-class-10-java-classes-online">the ICSE Class 10 Java classes</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20practice%20of%20ICSE%20Class%2010%20loop%20programs%20in%20Java." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic33-parent">Parent's name</label><input id="bx-ic33-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-ic33-phone">Phone or WhatsApp</label><input id="bx-ic33-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic33-email">Email</label><input id="bx-ic33-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-ic33-format">Preferred format</label>
+              <select id="bx-ic33-format" name="format" required>
+                <option value="mini">Tue 5:30 PM and Wed 8 PM mini batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-ic33-child">Student's name and school (optional)</label><input id="bx-ic33-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>ICSE Class 10 Computer Applications</h4><ul><li><a href="/icse-class-10-java-classes-online">The Tue and Wed batch</a></li><li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mocks</a></li><li><a href="/icse-class-10-computer-applications-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>ICSE Computer Applications &middot; Loop programs 2027</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'icse-class-10-loop-programs-java', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'icse-class-10-loop-programs-java', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=5d83c35fbe"></script>
+    <script src="/js/international-pricing.js?v=73c0675aaf"></script>
+</body>
+</html>

@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Find the Error Java ICSE Class 10: 40 Questions, Solved</title>
+  <meta name="description" content="Find the error Java ICSE Class 10: 40 one-bug snippets sorted into syntax, runtime and logical errors, with the real javac messages and the corrected code.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/icse-class-10-java-error-finding-questions">
+  <link rel="alternate" type="text/markdown" href="/src/pages/icse-class-10-java-error-finding-questions.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#6B3A2A">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/icse-class-10-java-error-finding-questions">
+  <meta property="og:title" content="Find the Error in Java: ICSE Class 10 Questions, Classified">
+  <meta property="og:description" content="Forty original one-bug Java snippets for ICSE Class 10, each classified as a syntax, runtime or logical error, with the exact message javac or Java prints and the corrected line. Every snippet was compiled and run in Java 21.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Find the Error in Java: ICSE Class 10 Questions, Classified">
+  <meta name="twitter:description" content="One-bug Java snippets for ICSE Class 10, classified as syntax, runtime or logical errors, with real compiler messages and corrections.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          },
+          {
+            "@type": "Country",
+            "name": "Thailand"
+          }
+        ],
+        "knowsAbout": [
+          "ICSE Computer Applications",
+          "Java",
+          "BlueJ",
+          "CISCE ICSE Class 10 Examination",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-java-error-finding-questions#article",
+        "headline": "Find the Error in Java for ICSE Class 10: Syntax, Runtime and Logical Error Questions for 2027",
+        "description": "Forty original one-bug Java snippets for ICSE Class 10, each classified as a syntax, runtime or logical error, with the exact message javac or Java prints and the corrected line. Every snippet was compiled and run in Java 21.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-11-06",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/icse-class-10-java-error-finding-questions"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-java-error-finding-questions#course",
+        "name": "ICSE Class 10 Computer Applications (Java) Error Finding and Debugging Practice, Live Online",
+        "description": "Live online practice in finding, naming and correcting errors in ICSE Class 10 Computer Applications Java code for the 2027 examination: syntax errors and the messages BlueJ shows, runtime exceptions such as division by zero and index out of bounds, and logical errors that compile and run but print the wrong answer, drilled in a Tuesday and Wednesday evening mini batch in India or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/icse-class-10-java-error-finding-questions",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "2999",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, mini batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": [
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Tuesday"
+              ],
+              "startTime": "17:30",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-java-error-finding-questions"
+            }
+          },
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Wednesday"
+              ],
+              "startTime": "20:00",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-java-error-finding-questions"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ICSE Class 10 Java classes",
+            "item": "https://learn.modernagecoders.com/icse-class-10-java-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Find the error questions",
+            "item": "https://learn.modernagecoders.com/icse-class-10-java-error-finding-questions"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the three types of errors in Java for ICSE Class 10?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Syntax errors, runtime errors and logical errors. A syntax error breaks the grammar of Java, so the program does not compile. A runtime error compiles but stops the program while it runs, for example dividing an int by zero. A logical error compiles and runs to the end but produces a wrong result because the idea in the code is wrong."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between a syntax error and a logical error?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A syntax error is found by the compiler before the program runs, and it comes with a message and a line number. A logical error is invisible to the compiler and to Java: the program runs normally and prints an answer, just the wrong one. You find a logical error only by checking the output against an answer you already know."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is division by zero a syntax, runtime or logical error?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For int values it is a runtime error. The code compiles, then Java stops with ArithmeticException: / by zero when the line runs. The same happens with the % operator. With double values there is no crash: Java prints Infinity or NaN, so if the program should have refused that input, the mistake is logical."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is a missing semicolon a syntax error?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. javac reports \"';' expected\" and points to the end of the line where the semicolon belongs. The program cannot run until it is fixed. Note the opposite case too: an extra semicolon straight after if (...) or for (...) compiles happily and becomes a logical error."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is an infinite loop a runtime error or a logical error?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An infinite loop is a logical error. The code is legal and Java does not throw any exception; the loop simply never reaches its exit because the update moves the variable the wrong way or never changes it. You notice it only because the program never finishes, so you trace the loop variable to find the fault."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is ArrayIndexOutOfBoundsException a runtime error?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Using an index below 0 or equal to or above the array length compiles without complaint, but Java throws ArrayIndexOutOfBoundsException when that line runs, with a message such as \"Index 5 out of bounds for length 5\". The usual cause is a loop test that says \"less than or equal to length\" where it should say \"less than length\"."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I write the answer to a correct the code question in ICSE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Quote the faulty line, write the corrected line next to it, and name the error type if asked. Add one short reason, such as \"a char literal needs single quotes\". Rewrite the full program only when the question says so. Make one change per error, since examiners look for the specific line that was wrong."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is using == to compare Strings an error in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It compiles and runs, so it is not a syntax or runtime error, but it usually gives the wrong answer, which makes it a logical error. == checks whether two variables point to the same String object, not whether they hold the same characters. Use equals, or equalsIgnoreCase when case should not matter."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are find the error questions asked in the ICSE Computer Applications paper?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Questions asking students to name the type of an error, or to correct a faulty statement, have appeared in Section A of past ICSE Computer Applications papers, as one-mark or two-mark parts. Section B rewards the same skill indirectly, because a program with a bug in it loses marks for the wrong output."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you teach error finding in live classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The ICSE mini batch runs a timed set of planted bugs every Tuesday at 5:30 PM IST, checks every answer by compiling in BlueJ on a shared screen, and plants a bug inside Wednesday's full program. Students who need closer help take personalised one to one classes at a time the family chooses."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-ic16 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">ICSE CA &middot; Find the error</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#kinds">Error types</a>
+      <a href="#syntax">Syntax</a>
+      <a href="#runtime">Runtime</a>
+      <a href="#logical">Logical</a>
+      <a href="#fees">Batch or 1-on-1</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> <span>/</span> <span>Find the error questions</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">ICSE Class 10 &middot; Computer Applications (Java) &middot; Find the error 2027</p>
+        <h1>Find the error in Java, ICSE Class 10: one bug per snippet, named and fixed.</h1>
+        <p class="bx-lede">Find the error Java questions in ICSE Class 10 show a few lines of code with one thing wrong and ask you to name the error, say what kind it is, and write the line correctly. This page gives 40 original snippets, each with exactly one bug, sorted into syntax, runtime and logical errors. Next to each one is what javac or Java actually reported when we ran it, and the fix. In our live mini batch students hunt these bugs against a timer and then watch BlueJ prove them right or wrong.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20practice%20of%20ICSE%20Class%2010%20Java%20error%20finding%20questions." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'ic16'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; 40 one-bug snippets &middot; real compiler messages &middot; syntax, runtime, logical &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When bug hunts are run">
+        <p class="bx-tt-title"><span>Debugging drills</span><b>ICSE CA</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Tuesday, one-bug snippet sets</span><span class="bx-tt-time">5:30<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, bugs planted in programs</span><span class="bx-tt-time">8:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Error families named every time</span><span class="bx-tt-time">3<small>kinds</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Every fix proved in</span><span class="bx-tt-time">BlueJ<small>live</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/icse-computer-applications-java-bluej-course">ICSE Class 10 Computer Applications, Java with BlueJ, Live</a></p>
+          <a class="bx-offer-opt" href="#fees" data-india-only="true"><span class="bx-offer-k">Mini batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.miniBatch">₹2,999</span><small>/month</small></span><span class="bx-offer-v">Tue 5:30 PM and Wed 8:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>In India:</b> the mini batch at these two times. <b>Outside India:</b> the same debugging drills one to one, after school in your own time zone, for ICSE students in the Gulf, Singapore and further afield.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">One bug per snippet</span>
+          <span class="bx-stamp">Named, typed, fixed</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Courses where debugging is practised</h2>
+      <p class="bx-lede">The ICSE Java course in which the mini batch runs these bug hunts, the Class 11 and 12 Computer Science course where longer programs make debugging a daily skill, and the data structures course for students who like finding the one line that breaks everything.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/icse-computer-applications-java-bluej-course">
+        <div class="bx-pick-shot"><img src="/images/java-teens.webp" alt="ICSE Computer Applications Java with BlueJ course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / ICSE CA</p>
+          <h3>ICSE Computer Applications, Java with BlueJ</h3>
+          <p>Class 9 and 10 Computer Applications in a mini batch, where planted bugs are found, named and fixed every week before BlueJ settles the answer.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+        <div class="bx-pick-shot"><img src="/images/ip-cs-class-11-12.webp" alt="Computer Science Class 11 and 12 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Next step / ISC</p>
+          <h3>Computer Science Class 11 and 12</h3>
+          <p>For students going on to ISC Computer Science, where programs grow longer and reading compiler messages calmly saves real time.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="bx-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures and Algorithms course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Beyond the syllabus / DSA</p>
+          <h3>Data Structures and Algorithms</h3>
+          <p>For the student who enjoys tracking down a wrong answer and wants to test code against edge cases the way working programmers do.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>Find the error questions in ICSE Class 10 Computer Applications give a short Java fragment with one mistake and ask you to identify it, classify it and correct it. There are three kinds. A syntax error breaks the rules of Java, so the compiler refuses the program. A runtime error compiles but stops the program while it runs, such as division by zero or an index out of bounds. A logical error compiles and runs but gives the wrong answer. Modern Age Coders drills all three live in a Tuesday and Wednesday mini batch in India, or personalised one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="kinds">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. What are syntax, logical and runtime errors in Java?</p>
+      <h2>Syntax, logical and runtime errors in ICSE Java, side by side</h2>
+      <p class="bx-lede">A syntax error is caught by the compiler, a runtime error is caught by Java while the program runs, and a logical error is caught by nobody except the person who checks the answer. That one sentence classifies every snippet on this page.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Question</th><th scope="col">Syntax error</th><th scope="col">Runtime error</th><th scope="col">Logical error</th></tr></thead>
+        <tbody>
+          <tr><td>Does it compile?</td><td>No</td><td>Yes</td><td>Yes</td></tr>
+          <tr><td>Does it run to the end?</td><td>It never starts</td><td>No, it stops at the bad line</td><td>Yes</td></tr>
+          <tr><td>Who reports it?</td><td>The compiler (javac, or BlueJ's Compile button)</td><td>The Java runtime, as an exception</td><td>Nobody; the output is simply wrong</td></tr>
+          <tr><td>Typical cause</td><td>Missing semicolon, wrong type, undeclared variable, misspelt keyword</td><td>Division of an int by zero, bad array or String index, text that is not a number</td><td>Wrong formula, wrong condition, loop one pass short, wrong starting value</td></tr>
+          <tr><td>How you find it</td><td>Read the message and the line number</td><td>Read the exception name and the line in the stack trace</td><td>Dry run with known input and compare with the expected answer</td></tr>
+          <tr><td>Also called</td><td>Compile-time error</td><td>Exception</td><td>Semantic or logic error</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="bx-mt-40">How to classify an error in three questions</h3>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>Would javac accept every line?</h4><p>Check semicolons, brackets, the types on both sides of each =, the spelling and case of names, and that every variable is declared and set before use. If a line fails, it is a syntax error.</p></li>
+      <li class="bx-step"><h4>Could any line crash with legal code?</h4><p>Look for an int divided by something that can be 0, an index that can reach the length, a parse method or nextInt fed text, or a null String. If so, it is a runtime error.</p></li>
+      <li class="bx-step"><h4>Does it give the answer the question wanted?</h4><p>Dry run it with small input whose answer you know. If the output differs, it is a logical error; name the line and the wrong idea.</p></li>
+    </ol>
+    <p class="bx-mt-40">
+      A fragment that compiles and runs correctly belongs to a different question shape, tracing, covered on
+      <a class="bx-link" href="/icse-class-10-java-output-questions">ICSE Java output questions</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="syntax">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. Which syntax errors do ICSE questions use?</p>
+      <h2>Syntax error questions ICSE: the code, what javac says, the fix</h2>
+      <p class="bx-lede">Cover the last two columns, find the bug, then check. The middle column is the first line javac 21 printed for that fragment; BlueJ shows the same text under the editor.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Code with one error</th><th scope="col">javac says</th><th scope="col">Correct it</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><code>int total = 0</code><br><code>total = total + 45;</code></td><td><code>';' expected</code></td><td><code>int total = 0;</code> Every statement ends with a semicolon</td></tr>
+          <tr><td>2</td><td><code>int runs = 64;</code><br><code>system.out.println(runs);</code></td><td><code>package system does not exist</code></td><td><code>System.out.println(runs);</code> Java is case sensitive; System is a class with a capital S</td></tr>
+          <tr><td>3</td><td><code>String city = 'Pune';</code></td><td><code>unclosed character literal</code></td><td><code>String city = "Pune";</code> Single quotes hold exactly one char; Strings need double quotes</td></tr>
+          <tr><td>4</td><td><code>int weight = 52.5;</code></td><td><code>incompatible types: possible lossy conversion from double to int</code></td><td><code>double weight = 52.5;</code> A decimal literal is a double and cannot be squeezed into an int without a cast</td></tr>
+          <tr><td>5</td><td><code>int points;</code><br><code>points = points + 10;</code></td><td><code>variable points might not have been initialized</code></td><td><code>int points = 0;</code> Local variables get no default value</td></tr>
+          <tr><td>6</td><td><code>int age = 15;</code><br><code>if (age = 15)</code><br><code>&nbsp;&nbsp;System.out.println("Class 10");</code></td><td><code>incompatible types: int cannot be converted to boolean</code></td><td><code>if (age == 15)</code> One = assigns; == compares</td></tr>
+          <tr><td>7</td><td><code>static int cube(int n) {</code><br><code>&nbsp;&nbsp;int c = n * n * n;</code><br><code>}</code></td><td><code>missing return statement</code></td><td>Add <code>return c;</code> before the closing brace; a method declared int must return an int</td></tr>
+          <tr><td>8</td><td><code>char grade = "A";</code></td><td><code>incompatible types: String cannot be converted to char</code></td><td><code>char grade = 'A';</code> Double quotes make a String even for one letter</td></tr>
+          <tr><td>9</td><td><code>void greet() { ... }</code><br><code>// inside static main:</code><br><code>greet();</code></td><td><code>non-static method greet() cannot be referenced from a static context</code></td><td>Declare it <code>static void greet()</code>, or call it through an object of the class</td></tr>
+          <tr><td>10</td><td><code>for (int k = 1; k &lt;= 5; k++) {</code><br><code>&nbsp;&nbsp;System.out.print(k);</code><br><code>}</code><br><code>System.out.println(k);</code></td><td><code>cannot find symbol</code> (symbol: variable k)</td><td>Declare <code>int k;</code> before the loop and write <code>for (k = 1; k &lt;= 5; k++)</code>. A variable declared in the for header dies when the loop ends</td></tr>
+          <tr><td>11</td><td><code>int score = 70;</code><br><code>int score = 85;</code></td><td><code>variable score is already defined in method main(String[])</code></td><td><code>score = 85;</code> Declare once, assign as often as you like</td></tr>
+          <tr><td>12</td><td><code>if (x &gt; 5)</code><br><code>&nbsp;&nbsp;System.out.println("big");</code><br><code>&nbsp;&nbsp;System.out.println("checked");</code><br><code>else</code><br><code>&nbsp;&nbsp;System.out.println("small");</code></td><td><code>'else' without 'if'</code></td><td>Put the two println lines inside <code>{ }</code>. Without braces the if owns only one statement</td></tr>
+          <tr><td>13</td><td><code>String word = "BlueJ";</code><br><code>System.out.println(word.length);</code></td><td><code>cannot find symbol</code> (symbol: variable length)</td><td><code>word.length()</code> For a String, length is a method</td></tr>
+          <tr><td>14</td><td><code>int[] marks = {80, 75, 91};</code><br><code>System.out.println(marks.length());</code></td><td><code>cannot find symbol</code> (symbol: method length())</td><td><code>marks.length</code> For an array, length is a field, no brackets</td></tr>
+          <tr><td>15</td><td><code>int r = Math.round(4.6);</code></td><td><code>incompatible types: possible lossy conversion from long to int</code></td><td><code>long r = Math.round(4.6);</code> or <code>int r = (int) Math.round(4.6);</code> round of a double returns long</td></tr>
+          <tr><td>16</td><td><code>switch (day) {</code><br><code>&nbsp;&nbsp;case 1: ... break;</code><br><code>&nbsp;&nbsp;case 2: ... break;</code><br><code>&nbsp;&nbsp;case 2: ... break;</code><br><code>}</code></td><td><code>duplicate case label</code></td><td>Change the third label to <code>case 3:</code> Each case value may appear once</td></tr>
+          <tr><td>17</td><td><code>static void area(int s) {</code><br><code>&nbsp;&nbsp;return s * s;</code><br><code>}</code></td><td><code>incompatible types: unexpected return value</code></td><td><code>static int area(int s)</code> A void method cannot hand back a value</td></tr>
+          <tr><td>18</td><td><code>while (n &gt; 0) {</code><br><code>&nbsp;&nbsp;n--;</code><br><code>&nbsp;&nbsp;break;</code><br><code>&nbsp;&nbsp;System.out.println(n);</code><br><code>}</code></td><td><code>unreachable statement</code></td><td>Move the println above the break, or delete it. Java refuses code that can never run</td></tr>
+          <tr><td>19</td><td><code>boolean pass = 1;</code></td><td><code>incompatible types: int cannot be converted to boolean</code></td><td><code>boolean pass = true;</code> Java booleans are only true and false, never 0 or 1</td></tr>
+          <tr><td>20</td><td><code>float rate = 7.5;</code></td><td><code>incompatible types: possible lossy conversion from double to float</code></td><td><code>float rate = 7.5f;</code> A literal with a decimal point is double unless it carries f</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      Snippet 3 is a useful warning: javac reported three errors for that single line, because one bad quote confuses everything after it. Always fix the first message first and compile again. Snippets 4, 15, 19 and 20 are all about types, which have their own page:
+      <a class="bx-link" href="/icse-class-10-data-types-and-input-java">data types, input and type casting in Java for ICSE Class 10</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="runtime">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. What is a runtime error in Java, with an example?</p>
+      <h2>Runtime error questions: the exception Java throws and why</h2>
+      <p class="bx-lede">A runtime error is code that compiles but stops while it runs, because a value at that moment makes the operation impossible. Java names the problem in an exception. Each message below is copied from a java 21 run of the snippet.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Code with one error</th><th scope="col">Java stops with</th><th scope="col">Correct it</th></tr></thead>
+        <tbody>
+          <tr><td>21</td><td><code>int boxes = 48, children = 0;</code><br><code>System.out.println(boxes / children);</code></td><td><code>ArithmeticException: / by zero</code></td><td>Test first: <code>if (children != 0)</code> before dividing</td></tr>
+          <tr><td>22</td><td><code>int n = 17;</code><br><code>System.out.println(n % 0);</code></td><td><code>ArithmeticException: / by zero</code></td><td>The remainder operator divides too, so a zero divisor crashes it in the same way</td></tr>
+          <tr><td>23</td><td><code>int[] runs = {12, 40, 7, 33, 9};</code><br><code>for (int i = 0; i &lt;= runs.length; i++)</code><br><code>&nbsp;&nbsp;sum += runs[i];</code></td><td><code>ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5</code></td><td><code>i &lt; runs.length</code> The last index is length minus 1</td></tr>
+          <tr><td>24</td><td><code>String code = "ICSE";</code><br><code>System.out.println(code.charAt(code.length()));</code></td><td><code>StringIndexOutOfBoundsException: Index 4 out of bounds for length 4</code></td><td><code>code.charAt(code.length() - 1)</code> prints E</td></tr>
+          <tr><td>25</td><td><code>String s = "Kolkata";</code><br><code>System.out.println(s.substring(3, 9));</code></td><td><code>StringIndexOutOfBoundsException: Range [3, 9) out of bounds for length 7</code></td><td><code>s.substring(3)</code> prints kata. The end index may be at most the length</td></tr>
+          <tr><td>26</td><td><code>int fee = Integer.parseInt("12.5");</code></td><td><code>NumberFormatException: For input string: "12.5"</code></td><td><code>double fee = Double.parseDouble("12.5");</code> parseInt accepts whole numbers only</td></tr>
+          <tr><td>27</td><td><code>Scanner sc = new Scanner(System.in);</code><br><code>int qty = sc.nextInt();</code><br><code>// the user types: ten</code></td><td><code>java.util.InputMismatchException</code></td><td>The code is legal; the input is not. Tell the user to enter digits, or read with <code>next()</code> and check before converting</td></tr>
+          <tr><td>28</td><td><code>String pet = null;</code><br><code>System.out.println(pet.length());</code></td><td><code>NullPointerException: Cannot invoke "String.length()" because "pet" is null</code></td><td>Give the String a value first, for example <code>String pet = "cat";</code></td></tr>
+          <tr><td>29</td><td><code>int size = -3;</code><br><code>int[] list = new int[size];</code></td><td><code>NegativeArraySizeException: -3</code></td><td>Check that the size read from the user is positive before creating the array</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Not an error: snippet 30</b><span>the same division with double</span></figcaption>
+  <pre>double boxes = 48, children = 0;
+System.out.println(boxes / children);
+System.out.println(0.0 / 0);
+
+<i>// Output:</i>
+<i>// Infinity</i>
+<i>// NaN</i></pre>
+  <p class="bx-code-note">Division by zero crashes only integer arithmetic. With a double on either side Java prints Infinity or NaN and carries on, which makes this a logical error if the program was supposed to refuse.</p>
+</figure>
+      <div class="bx-table-wrap">
+        <table class="bx-table">
+          <thead><tr><th scope="col">Expression</th><th scope="col">Result</th><th scope="col">Error type</th></tr></thead>
+          <tbody>
+            <tr><td><code>48 / 0</code> (int)</td><td>ArithmeticException</td><td>Runtime</td></tr>
+            <tr><td><code>48 % 0</code> (int)</td><td>ArithmeticException</td><td>Runtime</td></tr>
+            <tr><td><code>48.0 / 0</code></td><td class="bx-num">Infinity</td><td>None, or logical</td></tr>
+            <tr><td><code>0.0 / 0</code></td><td class="bx-num">NaN, not a number</td><td>None, or logical</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p class="bx-mt-40">
+      Index errors are the commonest runtime bug inside Section B answers. Programs that walk through Strings and arrays safely are worked through on
+      <a class="bx-link" href="/icse-class-10-string-programs">ICSE Class 10 String programs</a> and
+      <a class="bx-link" href="/icse-class-10-2d-array-programs">2D array programs</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="logical">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. How do you find a logical error when nothing complains?</p>
+      <h2>Logical error examples in Java: compiles, runs, prints the wrong answer</h2>
+      <p class="bx-lede">A logical error shows up only when the output is compared with the expected answer. "Printed" is what the faulty code gave when run; the last column is what the fix gave.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Code with one error</th><th scope="col">Printed</th><th scope="col">Correct it</th><th scope="col">Now prints</th></tr></thead>
+        <tbody>
+          <tr><td>31</td><td><code>int a = 7, b = 8, c = 8;</code><br><code>double avg = (a + b + c) / 3;</code></td><td class="bx-num">7.0</td><td><code>(a + b + c) / 3.0</code> so the division is done in double</td><td class="bx-num">7.666666666666667</td></tr>
+          <tr><td>32</td><td><code>int f = 0;</code><br><code>for (int i = 1; i &lt;= 5; i++) f *= i;</code></td><td class="bx-num">0</td><td><code>int f = 1;</code> A product must start at 1</td><td class="bx-num">120</td></tr>
+          <tr><td>33</td><td><code>int s = 0;</code><br><code>for (int i = 1; i &lt; 10; i++) s += i;</code><br><code>// meant: sum of 1 to 10</code></td><td class="bx-num">45</td><td><code>i &lt;= 10</code> The loop stopped one pass short</td><td class="bx-num">55</td></tr>
+          <tr><td>34</td><td><code>int marks = 25;</code><br><code>if (marks &gt;= 40);</code><br><code>&nbsp;&nbsp;System.out.println("Pass");</code></td><td class="bx-num">Pass</td><td>Delete the semicolon after the condition; it is an empty statement that the if controls</td><td>(nothing)</td></tr>
+          <tr><td>35</td><td><code>String ans = "YES".toLowerCase();</code><br><code>System.out.println(ans == "yes");</code></td><td class="bx-num">false</td><td><code>ans.equals("yes")</code> == compares references, not the characters</td><td class="bx-num">true</td></tr>
+          <tr><td>36</td><td><code>int p = 3, q = 9;</code><br><code>p = q;</code><br><code>q = p;</code><br><code>System.out.println(p + " " + q);</code></td><td class="bx-num">9 9</td><td>Use a third variable: <code>int t = p; p = q; q = t;</code></td><td class="bx-num">9 3</td></tr>
+          <tr><td>37</td><td><code>int got = 430;</code><br><code>double pct = got / 500 * 100;</code></td><td class="bx-num">0.0</td><td><code>got * 100.0 / 500</code> 430 / 500 is 0 in int arithmetic</td><td class="bx-num">86.0</td></tr>
+          <tr><td>38</td><td><code>int[] temps = {-4, -9, -2, -7};</code><br><code>int max = 0;</code><br><code>for (int v : temps) if (v &gt; max) max = v;</code></td><td class="bx-num">0</td><td><code>int max = temps[0];</code> Start from a real element, not from 0</td><td class="bx-num">-2</td></tr>
+          <tr><td>39</td><td><code>int n = -7;</code><br><code>String t = n % 2 == 1 ? "odd" : "even";</code></td><td class="bx-num">even</td><td><code>n % 2 != 0</code> -7 % 2 is -1, not 1</td><td class="bx-num">odd</td></tr>
+          <tr><td>40</td><td><code>int sc = 92;</code><br><code>if (sc &gt;= 60) gr = "C";</code><br><code>else if (sc &gt;= 75) gr = "B";</code><br><code>else if (sc &gt;= 90) gr = "A";</code></td><td class="bx-num">C</td><td>Test the highest band first: 90, then 75, then 60</td><td class="bx-num">A</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>A logical error that never ends</b><span>the infinite loop</span></figcaption>
+  <pre>int i = 1;
+while (i &lt;= 10) {
+    System.out.println(i);
+    i--;
+}
+
+<i>// Fix: i++ instead of i--</i></pre>
+  <p class="bx-code-note">This compiles and never crashes, so it is not a syntax or runtime error. It is a logical error: the update moves i away from the exit. In our test, a counter added to the loop showed i at -999999 after a million passes, still running.</p>
+</figure>
+      <div class="bx-table-wrap">
+        <table class="bx-table">
+          <thead><tr><th scope="col">Pass</th><th scope="col">i printed</th><th scope="col">i after i--</th><th scope="col">i &lt;= 10?</th></tr></thead>
+          <tbody>
+            <tr><td class="bx-num">1</td><td class="bx-num">1</td><td class="bx-num">0</td><td>true</td></tr>
+            <tr><td class="bx-num">2</td><td class="bx-num">0</td><td class="bx-num">-1</td><td>true</td></tr>
+            <tr><td class="bx-num">3</td><td class="bx-num">-1</td><td class="bx-num">-2</td><td>true</td></tr>
+            <tr><td>and so on</td><td>falls forever</td><td>never above 10</td><td>always true</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p class="bx-mt-40">
+      Loops that stop a pass early or never stop are drilled with iteration counts on
+      <a class="bx-link" href="/icse-class-10-loop-programs-java">loop programs for ICSE Class 10</a>, and integer division, the cause of snippets 31 and 37, is traced step by step on
+      <a class="bx-link" href="/icse-class-10-operators-in-java">operators in Java for ICSE Class 10</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" style="font-variant-ligatures:none" id="correct">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. How do you answer "correct the code" in the exam?</p>
+      <h2>Correct the code ICSE Java: rewriting a program that has one bug</h2>
+      <p class="bx-lede">Write the corrected line in full, name the error type in one word, and give a one-line reason. Rewriting the whole program wastes time unless the question asks for it. Here are two Section B style methods, each with one bug, the way they come up in class.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Faulty</b><span>sum of the even digits</span></figcaption>
+  <pre>static int evenDigitSum(int n) {
+    int sum = 0;
+    while (n &gt; 0) {
+        int d = n % 10;
+        if (d % 2 == 0)
+            sum = d;
+        n /= 10;
+    }
+    return sum;
+}
+<i>// evenDigitSum(58246) returns 8</i></pre>
+  <p class="bx-code-note">Logical error. The line sum = d replaces the total instead of adding to it, so only the last even digit reached (8, the leftmost) survives.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Corrected</b><span>one line changed</span></figcaption>
+  <pre>static int evenDigitSum(int n) {
+    int sum = 0;
+    while (n &gt; 0) {
+        int d = n % 10;
+        if (d % 2 == 0)
+            sum += d;
+        n /= 10;
+    }
+    return sum;
+}
+<i>// evenDigitSum(58246) returns 20</i></pre>
+  <p class="bx-code-note">6 + 4 + 2 + 8 is 20. The answer in the exam: "sum = d; should be sum += d; logical error, the total is overwritten."</p>
+</figure>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Faulty</b><span>count the capital letters</span></figcaption>
+  <pre>static int capitals(String s) {
+    int c = 0;
+    for (int i = 1; i &lt; s.length(); i++)
+        if (Character.isUpperCase(s.charAt(i)))
+            c++;
+    return c;
+}
+<i>// capitals("Delhi Public School") returns 2</i></pre>
+  <p class="bx-code-note">Logical error. The loop starts at index 1, so the D at index 0 is never checked.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Corrected</b><span>start at index 0</span></figcaption>
+  <pre>static int capitals(String s) {
+    int c = 0;
+    for (int i = 0; i &lt; s.length(); i++)
+        if (Character.isUpperCase(s.charAt(i)))
+            c++;
+    return c;
+}
+<i>// capitals("Delhi Public School") returns 3</i></pre>
+  <p class="bx-code-note">Test with a word whose first letter matters. A test string such as "india Gate" would have hidden this bug completely.</p>
+</figure>
+    </div>
+    <div class="bx-grid-3 bx-mt-40">
+      <div class="bx-card"><h3>Quote the line, then rewrite it</h3><p>Copy the faulty line exactly, write "should be", then the corrected line. The examiner sees at once that you found the right line and fixed it the right way.</p></div>
+      <div class="bx-card"><h3>Name the type in one word</h3><p>Syntax, runtime or logical. If the question asks which type, a correct fix with no label can still lose the mark.</p></div>
+      <div class="bx-card"><h3>Fix the cause, not the symptom</h3><p>For snippet 23 the cause is the &lt;= in the loop test. Wrapping the addition in a check on i hides the crash but leaves the wrong loop in place.</p></div>
+      <div class="bx-card"><h3>Test with input that can expose the bug</h3><p>Try zero, a negative number, the first and last positions, and an input whose answer you know. Bugs live at the edges.</p></div>
+    </div>
+    <p class="bx-mt-40">
+      Errors also appear as one-mark items in Question 1; see
+      <a class="bx-link" href="/icse-computer-applications-mcq-questions">ICSE Computer Applications MCQ questions</a>, and for a full spread of Section A shapes,
+      <a class="bx-link" href="/icse-class-10-computer-applications-important-questions">ICSE Computer Applications important questions</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="live">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. How are error finding questions taught live?</p>
+      <h2>Error finding questions ICSE computer: how the mini batch hunts bugs</h2>
+      <p class="bx-lede">Debugging improves when a student commits to an answer, sees the real compiler message, and explains the gap aloud. That is the loop each class repeats.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>Tuesday: a timed set of planted bugs</h4><p>At the 5:30 PM IST class each student gets eight to ten fragments, each hiding one error. They write the faulty line, the type and the fix on paper before anything is compiled.</p></li>
+      <li class="bx-step"><h4>BlueJ decides, on a shared screen</h4><p>The teacher compiles or runs each fragment while the group watches. The real message or exception appears, so a guess of "runtime" for a missing semicolon is corrected on the spot.</p></li>
+      <li class="bx-step"><h4>The student who got it wrong explains why</h4><p>Saying "I thought the if owned both lines" fixes the idea behind the bug, and the whole batch hears it.</p></li>
+      <li class="bx-step"><h4>Wednesday: bugs inside whole programs</h4><p>At the 8:00 PM IST class a complete Section B program arrives with one fault planted in it. Students find it by testing with chosen inputs, the habit that catches their own mistakes in the board paper.</p></li>
+      <li class="bx-step"><h4>Mock tests and an error log</h4><p>From December, full two-hour papers are marked the way the board marks them, and every lost mark goes into the student's error log with its type, so revision targets real weak spots.</p></li>
+    </ol>
+    <p class="bx-mt-40">
+      With at most six students, every wrong answer is discussed. The weekly program list that these bugs are planted in is on
+      <a class="bx-link" href="/icse-class-10-java-programs-practice">ICSE Class 10 Java programs for practice</a>, and the mock paper ladder is on
+      <a class="bx-link" href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">the ICSE specimen paper and mock tests page</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Hunt bugs in the mini batch, or debug one to one</h2>
+      <p class="bx-lede">Both formats use the same one-bug fragments, the same BlueJ checks and the same error log. Families in India choose the evening mini batch or a private slot; ICSE students abroad learn one to one. Billing is monthly, and there is no admission fee.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card" data-india-only="true">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Mini batch, Tuesday 5:30 PM and Wednesday 8 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Tuesday 5:30 PM and Wednesday 8:00 PM IST, live</li><li>Up to six ICSE Class 10 students per batch</li><li>A timed set of planted bugs every Tuesday</li><li>Every guess checked by compiling in BlueJ</li><li>Wrong answers explained aloud and logged</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>A slot the family picks, in India or abroad</li><li>Your child's own Section B code debugged line by line</li><li>Extra time on the error type they miss most</li><li>Testing with edge-case inputs built into every program</li><li>Same teachers, same 2027 syllabus, same compiler checks</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
+    <p class="bx-mt-40">A student whose programs often fail to compile, or who freezes at a screen of red messages, gains a lot from a few one to one sessions spent reading errors together. A student who wants weekly practice across both sections of the paper usually does better in the batch. Fees appear in your own currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>Debugging practice for ICSE students outside India</h2>
+      <p class="bx-lede">ICSE schools abroad sit the same Computer Applications paper, and javac prints the same messages in every country. Outside India the bug hunts run one to one, at an after-school hour in the student's own time zone.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Time difference</th><th scope="col">Usual class window, local time</th><th scope="col">Format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td>IST</td><td class="bx-num">Tue 5:30 PM, Wed 8:00 PM</td><td><span class="bx-fit">Mini batch or 1-on-1</span></td></tr>
+          <tr><td>United Arab Emirates<br><span class="bx-src">Dubai, Sharjah</span></td><td>1 h 30 min behind India</td><td class="bx-num">3:00 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Indonesia and Thailand<br><span class="bx-src">West Java, Bangkok area</span></td><td>1 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Singapore<br><span class="bx-src">Singapore</span></td><td>2 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The slot is fixed after the free demo and can shift around school tests. How classes work for overseas families is explained on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the ICSE Class 10 Computer Applications series, grouped by what you need: classes, each chapter, Section B programs, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a></li>
+          <li><a href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Java classes in the Gulf and abroad</a></li>
+          <li><a href="/icse-class-10-bluej-java-coaching">ICSE BlueJ Java coaching</a></li>
+          <li><a href="/icse-computer-applications-crash-course">ICSE computer crash course</a></li>
+          <li><a href="/icse-computer-tuition-kolkata">ICSE computer tuition in Kolkata</a></li>
+          <li><a href="/icse-computer-tuition-bangalore">ICSE computer tuition in Bangalore</a></li>
+          <li><a href="/icse-computer-tuition-mumbai">ICSE computer tuition in Mumbai</a></li>
+          <li><a href="/icse-computer-applications-private-tutor">1-on-1 private Java tutor</a></li>
+          <li><a href="/icse-computer-tuition-lucknow">ICSE computer tuition in Lucknow</a></li>
+          <li><a href="/icse-computer-tuition-pune">ICSE computer tuition in Pune</a></li>
+          <li><a href="/icse-computer-tuition-near-me">ICSE computer tuition near me</a></li>
+          <li><a href="/icse-computer-applications-small-batch-classes">The mini batch, explained</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Chapter by chapter</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a></li>
+          <li><a href="/icse-class-10-user-defined-methods-overloading">User-defined methods and overloading</a></li>
+          <li><a href="/icse-class-10-constructors-questions">Constructors</a></li>
+          <li><a href="/icse-class-10-wrapper-and-library-classes">Wrapper and library classes</a></li>
+          <li><a href="/icse-class-10-class-as-basis-of-computation">Class as the basis of all computation</a></li>
+          <li><a href="/icse-class-10-encapsulation-access-specifiers">Encapsulation and access specifiers</a></li>
+          <li><a href="/icse-class-10-math-library-methods">Math library methods</a></li>
+          <li><a href="/icse-class-10-operators-in-java">Operators and expressions</a></li>
+          <li><a href="/icse-class-10-loop-programs-java">Loops and loop conversion</a></li>
+          <li><a href="/icse-class-10-data-types-and-input-java">Data types, input and type casting</a></li>
+          <li><a href="/icse-class-9-java-revision-for-class-10">Class 9 Java revision for Class 10</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Programs for Section B</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a></li>
+          <li><a href="/icse-class-10-string-programs">String programs</a></li>
+          <li><a href="/icse-special-number-programs-java">Special number programs</a></li>
+          <li><a href="/icse-class-10-sorting-and-searching-programs">Sorting and searching programs</a></li>
+          <li><a href="/icse-class-10-2d-array-programs">2D array programs</a></li>
+          <li><a href="/icse-class-10-pattern-programs-java">Pattern programs</a></li>
+          <li><a href="/icse-class-10-menu-driven-programs">Menu driven and switch case</a></li>
+          <li><a href="/icse-class-10-series-programs-java">Series programs</a></li>
+          <li><a href="/icse-class-10-slab-and-bill-programs">Slab and bill programs</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></li>
+          <li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mock tests</a></li>
+          <li><a href="/icse-computer-applications-previous-year-papers-solved">Previous year papers, solved</a></li>
+          <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
+          <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
+          <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+          <li><a href="/icse-computer-difference-between-questions">Difference between questions</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Notes and revision</h3>
+        <ul>
+          <li><a href="/icse-computer-applications-notes">Chapter-wise notes</a></li>
+          <li><a href="/icse-computer-applications-textbook-solutions-guide">Textbook solutions guide</a></li>
+          <li><a href="/icse-computer-applications-worksheets">Worksheets with answers</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and internal assessment</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-board-exam-preparation">ICSE board exam preparation</a></li>
+          <li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+          <li><a href="/icse-class-10-computer-applications-project-and-internal-assessment">Project and internal assessment</a></li>
+          <li><a href="/how-to-score-100-in-icse-computer-applications">How to score 100</a></li>
+          <li><a href="/icse-computer-applications-paper-analysis">Paper analysis and answer key</a></li>
+          <li><a href="/icse-computer-applications-vs-commercial-applications">Computer or Commercial Applications?</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>CBSE Class 10 AI (417):</b> <a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about error finding</p>
+      <h2>What students ask about find the error questions in ICSE Java</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>What are the three types of errors in Java for ICSE Class 10?</h3><p>Syntax errors, runtime errors and logical errors. A syntax error breaks the grammar of Java, so the program does not compile. A runtime error compiles but stops the program while it runs, for example dividing an int by zero. A logical error compiles and runs to the end but produces a wrong result because the idea in the code is wrong.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between a syntax error and a logical error?</h3><p>A syntax error is found by the compiler before the program runs, and it comes with a message and a line number. A logical error is invisible to the compiler and to Java: the program runs normally and prints an answer, just the wrong one. You find a logical error only by checking the output against an answer you already know.</p></div>
+      <div class="bx-faq-item"><h3>Is division by zero a syntax, runtime or logical error?</h3><p>For int values it is a runtime error. The code compiles, then Java stops with ArithmeticException: / by zero when the line runs. The same happens with the % operator. With double values there is no crash: Java prints Infinity or NaN, so if the program should have refused that input, the mistake is logical.</p></div>
+      <div class="bx-faq-item"><h3>Is a missing semicolon a syntax error?</h3><p>Yes. javac reports &quot;';' expected&quot; and points to the end of the line where the semicolon belongs. The program cannot run until it is fixed. Note the opposite case too: an extra semicolon straight after if (...) or for (...) compiles happily and becomes a logical error.</p></div>
+      <div class="bx-faq-item"><h3>Is an infinite loop a runtime error or a logical error?</h3><p>An infinite loop is a logical error. The code is legal and Java does not throw any exception; the loop simply never reaches its exit because the update moves the variable the wrong way or never changes it. You notice it only because the program never finishes, so you trace the loop variable to find the fault.</p></div>
+      <div class="bx-faq-item"><h3>Is ArrayIndexOutOfBoundsException a runtime error?</h3><p>Yes. Using an index below 0 or equal to or above the array length compiles without complaint, but Java throws ArrayIndexOutOfBoundsException when that line runs, with a message such as &quot;Index 5 out of bounds for length 5&quot;. The usual cause is a loop test that says &quot;less than or equal to length&quot; where it should say &quot;less than length&quot;.</p></div>
+      <div class="bx-faq-item"><h3>How do I write the answer to a correct the code question in ICSE?</h3><p>Quote the faulty line, write the corrected line next to it, and name the error type if asked. Add one short reason, such as &quot;a char literal needs single quotes&quot;. Rewrite the full program only when the question says so. Make one change per error, since examiners look for the specific line that was wrong.</p></div>
+      <div class="bx-faq-item"><h3>Is using == to compare Strings an error in Java?</h3><p>It compiles and runs, so it is not a syntax or runtime error, but it usually gives the wrong answer, which makes it a logical error. == checks whether two variables point to the same String object, not whether they hold the same characters. Use equals, or equalsIgnoreCase when case should not matter.</p></div>
+      <div class="bx-faq-item"><h3>Are find the error questions asked in the ICSE Computer Applications paper?</h3><p>Questions asking students to name the type of an error, or to correct a faulty statement, have appeared in Section A of past ICSE Computer Applications papers, as one-mark or two-mark parts. Section B rewards the same skill indirectly, because a program with a bug in it loses marks for the wrong output.</p></div>
+      <div class="bx-faq-item"><h3>Do you teach error finding in live classes?</h3><p>Yes. The ICSE mini batch runs a timed set of planted bugs every Tuesday at 5:30 PM IST, checks every answer by compiling in BlueJ on a shared screen, and plants a bug inside Wednesday's full program. Students who need closer help take personalised one to one classes at a time the family chooses.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Book a free live debugging class</h2>
+        </div>
+        <p>In the free demo your child gets a short set of Java fragments, each hiding one bug, names the line and the error type, then watches BlueJ compile and run them with the mentor. Afterwards you hear plainly which kinds of error your child misses and whether the mini batch or one to one is the better fit.</p>
+        <p>Prefer to look around first? See <a class="bx-link" href="/icse-class-10-java-output-questions">ICSE Java output questions</a> or <a class="bx-link" href="/icse-class-10-java-classes-online">the ICSE Class 10 Java classes</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20practice%20of%20ICSE%20Class%2010%20Java%20error%20finding%20questions." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic16-parent">Parent's name</label><input id="bx-ic16-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-ic16-phone">Phone or WhatsApp</label><input id="bx-ic16-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic16-email">Email</label><input id="bx-ic16-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-ic16-format">Preferred format</label>
+              <select id="bx-ic16-format" name="format" required>
+                <option value="mini">Tue 5:30 PM and Wed 8 PM mini batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-ic16-child">Student's name and school (optional)</label><input id="bx-ic16-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>ICSE Class 10 Computer Applications</h4><ul><li><a href="/icse-class-10-java-classes-online">The Tue and Wed batch</a></li><li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mocks</a></li><li><a href="/icse-class-10-computer-applications-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>ICSE Computer Applications &middot; Find the error 2027</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'icse-class-10-java-error-finding-questions', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'icse-class-10-java-error-finding-questions', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=5d83c35fbe"></script>
+    <script src="/js/international-pricing.js?v=73c0675aaf"></script>
+</body>
+</html>

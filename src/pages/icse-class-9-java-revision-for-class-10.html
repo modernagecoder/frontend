@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Class 9 Java Revision for Class 10 ICSE, with Drills</title>
+  <meta name="description" content="Class 9 Java revision for Class 10 ICSE (2027): which Class 9 topics the Class 10 paper re-tests, quick drills on each, all run in Java 21, and a plan.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/icse-class-9-java-revision-for-class-10">
+  <link rel="alternate" type="text/markdown" href="/src/pages/icse-class-9-java-revision-for-class-10.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#24485E">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/icse-class-9-java-revision-for-class-10">
+  <meta property="og:title" content="Class 9 Java Revision for the ICSE Class 10 Paper">
+  <meta property="og:description" content="The Class 10 ICSE Computer Applications syllabus opens with a revision of Class 9. This page maps each Class 9 unit to where the 2027 paper tests it, gives a short drill on data types, operators, input, conditionals, loops and nested loops, and sets out a three-week revision plan. Every answer was run in Java 21.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Class 9 Java Revision for the ICSE Class 10 Paper">
+  <meta name="twitter:description" content="Which Class 9 Java topics the ICSE Class 10 paper re-tests, with quick drills run in Java 21 and a three-week plan.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          },
+          {
+            "@type": "Country",
+            "name": "Thailand"
+          }
+        ],
+        "knowsAbout": [
+          "ICSE Computer Applications",
+          "Java",
+          "BlueJ",
+          "CISCE ICSE Class 10 Examination",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/icse-class-9-java-revision-for-class-10#article",
+        "headline": "Class 9 Java Revision for ICSE Class 10: What Comes Back in the 2027 Paper, with Quick Drills",
+        "description": "The Class 10 ICSE Computer Applications syllabus opens with a revision of Class 9. This page maps each Class 9 unit to where the 2027 paper tests it, gives a short drill on data types, operators, input, conditionals, loops and nested loops, and sets out a three-week revision plan. Every answer was run in Java 21.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-10-13",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/icse-class-9-java-revision-for-class-10"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/icse-class-9-java-revision-for-class-10#course",
+        "name": "ICSE Class 9 Java Revision for Class 10 Computer Applications, Live Online",
+        "description": "Live online revision of the ICSE Class 9 Computer Applications syllabus as the Class 10 paper re-tests it for the 2027 examination: OOP concepts, values and data types, operators, Scanner input and errors, Math methods, conditional constructs, loops and nested for loops, with short timed drills and a three-week plan, in a Tuesday and Wednesday evening mini batch in India or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/icse-class-9-java-revision-for-class-10",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "2999",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, mini batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": [
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Tuesday"
+              ],
+              "startTime": "17:30",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-9-java-revision-for-class-10"
+            }
+          },
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Wednesday"
+              ],
+              "startTime": "20:00",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-9-java-revision-for-class-10"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ICSE Class 10 Java classes",
+            "item": "https://learn.modernagecoders.com/icse-class-10-java-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Class 9 Java revision for Class 10",
+            "item": "https://learn.modernagecoders.com/icse-class-9-java-revision-for-class-10"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is the Class 9 syllabus included in the ICSE Class 10 Computer Applications exam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The 2026-27 Class 10 syllabus begins with a unit called Revision of Class IX syllabus, covering OOP concepts, objects and classes, data types, operators, input, Math methods, conditional constructs, loops and nested for loops. Questions on these can appear in both sections of the 2027 paper."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which Class 9 topics are most important for the Class 10 board exam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Operators, data types and type conversion, Math method return types, conditional constructs and loops matter most, because they appear directly in Section A and are used in every Section B program. OOP definitions and Scanner input are smaller topics but come up regularly as short questions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Computing and Ethics from Class 9 asked in the Class 10 paper?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Computing and Ethics is a Class 9 unit, but it is not in the Class 10 revision list we checked in the 2026-27 syllabus. Focus your Class 10 revision on the programming units, and revise ethics only if your school includes it in its own tests."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I revise Class 9 Java quickly for Class 10?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Spend about three weeks on short daily sessions: week one on concepts, data types and operators; week two on input, errors, Math methods and conditions; week three on loops and nested loops. Trace every output on paper before running it, and keep a page of the mistakes you made."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the Java basics for ICSE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The basics are the Class 9 units: what objects and classes are, the eight primitive data types, operators and their precedence, input with the Scanner class, the Math library methods, if-else and switch, the for, while and do-while loops, and nested for loops. Class 10 adds methods, constructors, arrays, Strings, library classes and encapsulation on top of them."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between a syntax error, a runtime error and a logical error?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A syntax error breaks Java's grammar, such as a missing semicolon, and is caught when compiling. A runtime error stops a running program, such as dividing an int by zero. A logical error produces wrong output with no message at all, such as a wrong formula. Only the logical error must be found by testing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does nextLine() skip input after nextInt()?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "nextInt() reads the number but leaves the Enter key in the input. The next nextLine() reads that leftover empty line immediately, so it seems to be skipped. Add an extra sc.nextLine() after nextInt() to clear it, or read the String before the number."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to know data type sizes for ICSE Class 10?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, they are a standard one-mark question. byte is 1 byte, short 2, int 4, long 8, float 4, double 8 and char 2. boolean holds only true or false. Knowing the ranges also explains why a byte variable can wrap round to a negative value."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you teach Class 9 topics in the Class 10 live classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Our ICSE group meets twice a week, at 5:30 PM IST on Tuesday and 8:00 PM IST on Wednesday; a diagnostic drill finds each student's Class 9 gaps, and short weekly drills close them while Class 10 continues. A child who needs more attention can switch to private lessons scheduled around the family."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-ic38 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">ICSE CA &middot; Class 9 revision</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#map">What comes back</a>
+      <a href="#types">Data types</a>
+      <a href="#input">Operators and input</a>
+      <a href="#loops">Conditions and loops</a>
+      <a href="#fees">Batch or 1-on-1</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> <span>/</span> <span>Class 9 Java revision for Class 10</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">ICSE Class 10 &middot; Computer Applications (Java) &middot; Class 9 revision for 2027</p>
+        <h1>Class 9 Java revision for Class 10 ICSE: the topics that come back, and a drill for each.</h1>
+        <p class="bx-lede">Class 9 Java revision for Class 10 ICSE is not optional: the 2026-27 Class 10 syllabus opens with a unit called "Revision of Class IX syllabus", and the 2027 paper draws on it in both sections. Data types, operators, Scanner input, Math methods, if and switch, loops and nested loops all return. This page maps each Class 9 unit to where it is re-tested, gives a short drill on each with answers run in Java 21, and lays out a three-week plan. Our live mini batch works through the same drills.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20revision%20of%20Class%209%20Java%20for%20the%20ICSE%20Class%2010%20paper." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'ic38'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; every Class 9 unit mapped to the 2027 paper &middot; drills run in Java 21 &middot; three-week plan &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When Class 9 topics are revised">
+        <p class="bx-tt-title"><span>Class 9 revision</span><b>ICSE CA</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Tuesday, timed basics drills</span><span class="bx-tt-time">5:30<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, programs built on the basics</span><span class="bx-tt-time">8:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Class 9 units revised</span><span class="bx-tt-time">9<small>mapped</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Revision plan</span><span class="bx-tt-time">3<small>weeks</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/icse-computer-applications-java-bluej-course">ICSE Class 10 Computer Applications, Java with BlueJ, Live</a></p>
+          <a class="bx-offer-opt" href="#fees" data-india-only="true"><span class="bx-offer-k">Mini batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.miniBatch">₹2,999</span><small>/month</small></span><span class="bx-offer-v">Tue 5:30 PM and Wed 8:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>In India:</b> both weekly evenings in a group of six or fewer. <b>Outside India:</b> the same revision one to one, in an after-school slot in your own time zone.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Unit 1 &middot; Revision of Class IX</span>
+          <span class="bx-stamp">Every answer run</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Courses where the Java basics are rebuilt</h2>
+      <p class="bx-lede">The ICSE Java course that covers Class 9 and Class 10 together in a mini batch, the Class 11 and 12 Computer Science course for students heading to ISC, and the data structures course for those who want strong basics to grow into algorithms.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/icse-computer-applications-java-bluej-course">
+        <div class="bx-pick-shot"><img src="/images/java-teens.webp" alt="ICSE Computer Applications Java with BlueJ course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / ICSE CA</p>
+          <h3>ICSE Computer Applications, Java with BlueJ</h3>
+          <p>Two-year ICSE Computer Applications course; Class 10 students in it revise the Class 9 basics through short timed drills.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+        <div class="bx-pick-shot"><img src="/images/ip-cs-class-11-12.webp" alt="Computer Science Class 11 and 12 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Next step / ISC</p>
+          <h3>Computer Science Class 11 and 12</h3>
+          <p>For students going on to ISC, where these same basics carry every longer program.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="bx-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures and Algorithms course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Beyond the syllabus / DSA</p>
+          <h3>Data Structures and Algorithms</h3>
+          <p>For the student who wants loops and conditions to grow into real problem solving.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>Class 9 Java comes back in full in the ICSE Class 10 paper. The 2026-27 Class 10 syllabus begins with a revision of Class 9: OOP concepts, objects and classes, values and data types, operators, Scanner input, Math library methods, if and switch, loops and nested for loops. In the 2027 paper these return as Section A MCQs, outputs and definitions, and as the building blocks of every Section B program. Revise them with short drills: predict, run, correct. Modern Age Coders runs this revision live: an evening mini batch on Tuesdays and Wednesdays inside India, or personalised one to one lessons at a time you pick.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="map">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. Which Class 9 topics does the Class 10 paper test?</p>
+      <h2>ICSE Class 9 computer topics in Class 10: where each one comes back</h2>
+      <p class="bx-lede">All of the programming units of Class 9 are listed in the Class 10 revision unit, so all of them can be examined in 2027. The table shows how each one usually shows up in the paper's two sections.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Class 9 unit</th><th scope="col">Section A (40 marks, compulsory)</th><th scope="col">Section B (any 4 of 6)</th></tr></thead>
+        <tbody>
+          <tr><td>Introduction to OOP concepts</td><td>Definitions: abstraction, encapsulation, inheritance, polymorphism</td><td>Not asked on its own</td></tr>
+          <tr><td>Objects and classes</td><td>Object, class, state and behaviour</td><td>Every program is a class</td></tr>
+          <tr><td>Values and data types</td><td>Sizes, literals, escape sequences, type conversion</td><td>Choosing int, long, double, char</td></tr>
+          <tr><td>Operators in Java</td><td>Outputs with increments, %, ternary, precedence</td><td>Every calculation</td></tr>
+          <tr><td>Input in Java</td><td>Scanner methods, types of error</td><td>Every accept or input method</td></tr>
+          <tr><td>Mathematical library methods</td><td>Return types and outputs, writing expressions</td><td>Roots, powers, rounding inside programs</td></tr>
+          <tr><td>Conditional constructs</td><td>Outputs of if, switch and fall-through</td><td>Slab, menu and number-check programs</td></tr>
+          <tr><td>Iterative constructs</td><td>Loop counts, loop conversion, break and continue</td><td>Digit, series and number programs</td></tr>
+          <tr><td>Nested for loops</td><td>Iteration counts and short outputs</td><td>Patterns and series</td></tr>
+          <tr><td>Computing and Ethics</td><td colspan="2">Not in the Class 10 revision list we checked; revise it only if your school asks</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-3 bx-mt-40">
+      <div class="bx-card"><h3>Section A leans on Class 9</h3><p>Much of Question 1 and Question 2 can be answered with Class 9 knowledge alone: types, operators, Math return types and loop counts.</p></div>
+      <div class="bx-card"><h3>Section B is built on it</h3><p>Arrays, Strings and classes are Class 10 topics, but every one of those programs runs on Class 9 loops, conditions and input.</p></div>
+      <div class="bx-card"><h3>Gaps show up late</h3><p>A shaky Class 9 basic usually appears as a "silly mistake" in a Class 10 program. Fixing the basic fixes the mistake.</p></div>
+    </div>
+    <p class="bx-mt-40">How the whole 2027 syllabus is laid out, Class 10 units included, is on <a class="bx-link" href="/icse-class-10-computer-applications-syllabus-explained">the ICSE Computer Applications syllabus explained</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="types">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. What should you remember about data types?</p>
+      <h2>Java basics ICSE: values, data types and type conversion drill</h2>
+      <p class="bx-lede">Java has eight primitive types, and Class 10 questions mostly test their sizes, their defaults and what happens when one type is converted to another. Learn the table, then try the drill.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Type</th><th scope="col">Size</th><th scope="col">Default value as a member</th><th scope="col">Example literal</th></tr></thead>
+        <tbody>
+          <tr><td><code>byte</code></td><td>1 byte</td><td class="bx-num">0</td><td><code>100</code></td></tr>
+          <tr><td><code>short</code></td><td>2 bytes</td><td class="bx-num">0</td><td><code>30000</code></td></tr>
+          <tr><td><code>int</code></td><td>4 bytes</td><td class="bx-num">0</td><td><code>-45</code></td></tr>
+          <tr><td><code>long</code></td><td>8 bytes</td><td class="bx-num">0</td><td><code>3000000000L</code></td></tr>
+          <tr><td><code>float</code></td><td>4 bytes</td><td class="bx-num">0.0</td><td><code>2.5f</code></td></tr>
+          <tr><td><code>double</code></td><td>8 bytes</td><td class="bx-num">0.0</td><td><code>2.5</code></td></tr>
+          <tr><td><code>char</code></td><td>2 bytes</td><td>the character with code 0</td><td><code>'Q'</code></td></tr>
+          <tr><td><code>boolean</code></td><td>true or false only</td><td>false</td><td><code>true</code></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="bx-mt-40">Drill: predict, then check</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Code</th><th scope="col">Output</th><th scope="col">Class 9 rule</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><code>float f = 7 / 4;</code><br><code>System.out.println(f);</code></td><td class="bx-num">1.0</td><td>7 / 4 is int division (1); widening to float only adds .0</td></tr>
+          <tr><td>2</td><td><code>char c = 66;</code><br><code>System.out.println(c + "" + (c + 1));</code></td><td class="bx-num">B67</td><td>An int can be stored in a char as a code; c + 1 is int arithmetic</td></tr>
+          <tr><td>3</td><td><code>System.out.println((char) ('a' - 32) + " " + (int) 'z');</code></td><td class="bx-num">A 122</td><td>Upper and lower case letters are 32 codes apart</td></tr>
+          <tr><td>4</td><td><code>System.out.println(10 / 4 * 4.0 + " " + 10 / 4.0 * 4);</code></td><td class="bx-num">8.0 10.0</td><td>Where the double enters the expression decides what is lost</td></tr>
+          <tr><td>5</td><td><code>byte b = 10;</code><br><code>b += 120;</code><br><code>System.out.println(b);</code></td><td class="bx-num">-126</td><td>A byte holds at most 127; the shorthand casts silently and the value wraps round</td></tr>
+          <tr><td>6</td><td><code>System.out.println(0.1 + 0.2);</code></td><td class="bx-num">0.30000000000000004</td><td>Most decimals are stored approximately in a double</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ol class="bx-qlist bx-mt-40">
+      <li>Implicit conversion (widening) happens automatically from a smaller type to a larger one: int to long, int to double.</li>
+      <li>Explicit conversion (casting) is written by the programmer, as in <code>(int) 9.8</code>, which gives 9: the fraction is cut, not rounded.</li>
+      <li>In a mixed expression every value is promoted to the widest type present before the operator works.</li>
+      <li>Escape sequences such as <code>\n</code>, <code>\t</code> and <code>\"</code> put a new line, a tab and a double quote inside a String.</li>
+    </ol>
+    <p class="bx-mt-40">This unit and Scanner input have their own deep page: <a class="bx-link" href="/icse-class-10-data-types-and-input-java">data types and input in Java for ICSE</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="input">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. Which operator, input and error questions come back?</p>
+      <h2>Revision of Class 9 syllabus ICSE computer: operators, Scanner input and errors</h2>
+      <p class="bx-lede">Operators return as output questions, Scanner returns in every Section B program, and the three types of error return as definitions. One drill covers all three.</p>
+    </div>
+    <h3>Operator drill</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Code (with <code>int p = 9, q = 4;</code>)</th><th scope="col">Output</th><th scope="col">Rule</th></tr></thead>
+        <tbody>
+          <tr><td>7</td><td><code>System.out.println(p % q + p / q * q);</code></td><td class="bx-num">9</td><td>1 + 8: remainder plus the part divided out gives back p</td></tr>
+          <tr><td>8</td><td><code>System.out.println((p &gt; q ? p - q : q - p) + " " + (p != q &amp;&amp; q &gt; 5));</code></td><td class="bx-num">5 false</td><td>Ternary picks a branch; &amp;&amp; needs both sides true</td></tr>
+          <tr><td>9</td><td><code>int z = 2;</code><br><code>z *= z + 3;</code><br><code>System.out.println(z);</code></td><td class="bx-num">10</td><td>The whole right side is worked first: 2 &times; 5</td></tr>
+          <tr><td>10</td><td><code>int w = 5;</code><br><code>int v = w-- * 2 + --w;</code><br><code>System.out.println(v + " " + w);</code></td><td class="bx-num">13 3</td><td>5 &times; 2, then w goes 4 and 3; 10 + 3</td></tr>
+          <tr><td>11</td><td><code>System.out.println(-17 % 5 + " " + 17 % -5 + " " + 5.5 % 2);</code></td><td class="bx-num">-2 2 1.5</td><td>The remainder takes the sign of the left operand; % works on doubles too</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="bx-mt-40">The Scanner trap every Class 10 student meets</h3>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Skip.java</b><span>nextInt then nextLine</span></figcaption>
+  <pre>Scanner sc = new Scanner(System.in);
+System.out.print("Roll number: ");
+int roll = sc.nextInt();
+System.out.print("Full name: ");
+String name = sc.nextLine();
+System.out.println("[" + roll + "][" + name + "]");
+
+<i>// Typed: 14, Enter, Anya Bose, Enter</i>
+<i>// Output:</i>
+Roll number: Full name: [14][]</pre>
+  <p class="bx-code-note">nextInt reads 14 but leaves the Enter behind. nextLine then reads that empty line at once, so the name is never asked for.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Fixed.java</b><span>one extra line</span></figcaption>
+  <pre>Scanner sc = new Scanner(System.in);
+System.out.print("Roll number: ");
+int roll = sc.nextInt();
+sc.nextLine();                 <i>// throw away the Enter</i>
+System.out.print("Full name: ");
+String name = sc.nextLine();
+System.out.println("[" + roll + "][" + name + "]");
+
+<i>// Same input. Output:</i>
+Roll number: Full name: [14][Anya Bose]</pre>
+  <p class="bx-code-note">Alternatively, read the name first. next() reads one word only, so it cannot read "Anya Bose" either.</p>
+</figure>
+    </div>
+    <h3 class="bx-mt-40">Syntax, runtime and logical errors</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Error</th><th scope="col">When it is found</th><th scope="col">Example we ran</th><th scope="col">What Java said</th></tr></thead>
+        <tbody>
+          <tr><td>Syntax error</td><td>At compile time; the program never runs</td><td><code>int a = 5</code> with no semicolon</td><td><code>Semi.java:3: error: ';' expected</code></td></tr>
+          <tr><td>Runtime error</td><td>While running; the program stops</td><td><code>total / count</code> with count 0</td><td><code>java.lang.ArithmeticException: / by zero</code></td></tr>
+          <tr><td>Runtime error</td><td>While running, on bad input</td><td>"fourteen" typed for <code>nextInt()</code></td><td><code>java.util.InputMismatchException</code></td></tr>
+          <tr><td>Logical error</td><td>Never reported; the output is simply wrong</td><td><code>avg = a + b / 2</code> for a = 8, b = 6</td><td>Prints 11 instead of 7, with no message</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">Operators have a full page of their own: <a class="bx-link" href="/icse-class-10-operators-in-java">operators in Java for ICSE Class 10</a>. The ten Math methods, also Class 9 content, are on <a class="bx-link" href="/icse-class-10-math-library-methods">Math library methods for ICSE</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="loops">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. What about conditions, loops and nested loops?</p>
+      <h2>Conditional and iterative constructs: the Class 9 drill for Class 10</h2>
+      <p class="bx-lede">Conditions and loops are where Class 9 matters most, because every Class 10 program uses them. Revise them as three skills: choosing the right construct, counting passes exactly, and converting one loop into another.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Code</th><th scope="col">Output</th><th scope="col">Rule</th></tr></thead>
+        <tbody>
+          <tr><td>12</td><td><code>int s = 0;</code><br><code>for (int i = 2; i &lt;= 20; i += 6) s += i;</code><br><code>System.out.println(s);</code></td><td class="bx-num">44</td><td>i is 2, 8, 14 and 20; 26 fails the test</td></tr>
+          <tr><td>13</td><td><code>int n = 1;</code><br><code>while (n &lt; 100) n *= 3;</code><br><code>System.out.println(n);</code></td><td class="bx-num">243</td><td>81 is still below 100, so one more pass runs</td></tr>
+          <tr><td>14</td><td><code>int k = 0;</code><br><code>do { k += 2; } while (k &gt; 50);</code><br><code>System.out.println(k);</code></td><td class="bx-num">2</td><td>An exit-controlled loop runs once even when the test is false</td></tr>
+          <tr><td>15</td><td><code>for (int i = 1; i &lt;= 10; i++) {</code><br><code>&nbsp;&nbsp;if (i % 3 == 0) continue;</code><br><code>&nbsp;&nbsp;if (i &gt; 7) break;</code><br><code>&nbsp;&nbsp;System.out.print(i + " ");</code><br><code>}</code></td><td class="bx-num">1 2 4 5 7</td><td>continue skips 3 and 6; break ends the loop at 8</td></tr>
+          <tr><td>16</td><td><code>int cnt = 0;</code><br><code>for (int i = 1; i &lt;= 3; i++)</code><br><code>&nbsp;&nbsp;for (int j = 1; j &lt;= i * 2; j++) cnt++;</code><br><code>System.out.println(cnt);</code></td><td class="bx-num">12</td><td>The inner loop runs 2, 4 and 6 times</td></tr>
+          <tr><td>17</td><td><code>int m = 3; String sz;</code><br><code>switch (m) {</code><br><code>&nbsp;&nbsp;case 1: case 2: sz = "low"; break;</code><br><code>&nbsp;&nbsp;case 3: case 4: sz = "mid"; break;</code><br><code>&nbsp;&nbsp;default: sz = "high";</code><br><code>}</code><br><code>System.out.println(sz);</code></td><td class="bx-num">mid</td><td>Stacked case labels share one block</td></tr>
+          <tr><td>18</td><td><code>int g = 75;</code><br><code>System.out.println(g &gt;= 90 ? "A" : g &gt;= 60 ? "B" : "C");</code></td><td class="bx-num">B</td><td>A nested ternary is read left to right like an if-else ladder</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>One task, three loops</b><span>run in Java 21</span></figcaption>
+  <pre>int s1 = 0;
+for (int i = 1; i &lt;= 15; i += 2)
+    s1 += i;
+
+int s2 = 0, j = 1;
+while (j &lt;= 15) {
+    s2 += j;
+    j += 2;
+}
+
+int s3 = 0, k = 1;
+do {
+    s3 += k;
+    k += 2;
+} while (k &lt;= 15);
+
+System.out.println(s1 + " " + s2 + " " + s3);
+
+<i>// Output:</i>
+64 64 64</pre>
+  <p class="bx-code-note">To convert a for loop, move the start value above the loop and the update to the last line of the body. The three agree here because the do-while condition is true on its first check.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>A nested loop grid</b><span>run in Java 21</span></figcaption>
+  <pre>for (int i = 0; i &lt; 4; i++) {
+    for (int j = 0; j &lt; 4; j++)
+        System.out.print((char) ('A' + i + j) + " ");
+    System.out.println();
+}
+
+<i>// Output:</i>
+A B C D
+B C D E
+C D E F
+D E F G</pre>
+  <p class="bx-code-note">The outer loop picks the row, the inner loop the column, and println ends each row. Without the cast, the codes 65, 66 and so on would print instead of letters.</p>
+</figure>
+    </div>
+    <p class="bx-mt-40">Patterns built from nested loops are on <a class="bx-link" href="/icse-class-10-pattern-programs-java">ICSE pattern programs in Java</a>, longer loop programs on <a class="bx-link" href="/icse-class-10-loop-programs-java">loop programs in Java for ICSE</a>, and switch-based menus on <a class="bx-link" href="/icse-class-10-menu-driven-programs">ICSE menu-driven programs</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="plan">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. How long should Class 9 revision take?</p>
+      <h2>A three-week Class 9 Java revision plan for Class 10</h2>
+      <p class="bx-lede">Three weeks of short daily sessions, about 40 minutes each, is enough for most students who studied Class 9 properly. Do it early in Class 10, before arrays and Strings, so the new chapters sit on firm ground.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Week</th><th scope="col">Units</th><th scope="col">Daily work</th><th scope="col">Done when</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>OOP concepts, objects and classes, data types, operators</td><td>Say the definitions aloud; ten output questions a day, traced on paper</td><td>You can give every type's size and predict mixed-type outputs without a slip</td></tr>
+          <tr><td>2</td><td>Input, errors, Math methods, conditional constructs</td><td>Write one short program a day with Scanner and an if-else ladder or switch</td><td>You know each Math return type and never lose a line to the nextLine trap</td></tr>
+          <tr><td>3</td><td>Loops, loop conversion, nested loops</td><td>Count passes for five loops a day; write one pattern and one digit program</td><td>You can convert any for loop to while and do-while and count passes exactly</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ol class="bx-qlist bx-mt-40">
+      <li>Start each session with five minutes on yesterday's mistakes, not new work.</li>
+      <li>Trace on paper first, then run in BlueJ. Running first teaches nothing.</li>
+      <li>Keep a single page of your own traps; read it before every Class 10 test.</li>
+      <li>If one unit keeps going wrong in week 3, give it a fourth week rather than moving on.</li>
+    </ol>
+    <p class="bx-mt-40">The full Class 10 picture, with month-by-month timing, is on <a class="bx-link" href="/icse-class-10-computer-applications-board-exam-preparation">ICSE Computer Applications board exam preparation</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" style="font-variant-ligatures:none" id="live">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. How does the mini batch revise Class 9?</p>
+      <h2>Rebuilding the basics without slowing Class 10 down</h2>
+      <p class="bx-lede">Students joining in Class 10 rarely need Class 9 retaught from the start. They need their gaps found quickly and closed, while Class 10 work carries on.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>A diagnostic drill first</h4><p>For a new student, the first few Tuesday 5:30 PM IST classes begin with a brief mixed drill across the Class 9 units. Each student's wrong answers show which units need attention.</p></li>
+      <li class="bx-step"><h4>Gaps closed in small doses</h4><p>Ten minutes of each Tuesday class goes to the weakest Class 9 unit in the group, with fresh questions traced on paper and run in BlueJ on a shared screen.</p></li>
+      <li class="bx-step"><h4>Basics inside Class 10 programs</h4><p>On Wednesday at 8:00 PM IST, students hand-write a Class 10 program and the mentor marks it line by line using board-style criteria. Slips in types, operators or loops are named as Class 9 slips so students see the link.</p></li>
+      <li class="bx-step"><h4>Doubt time</h4><p>Every class keeps time for questions, including ones from school homework on Class 9 topics.</p></li>
+      <li class="bx-step"><h4>Mocks from December</h4><p>Full two-hour mock papers test Class 9 and Class 10 content together, the way the 2027 paper will.</p></li>
+    </ol>
+    <p class="bx-mt-40">With six students at most, every student's Class 9 gaps get looked at individually.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Revise Class 9 Java in the mini batch, or one to one</h2>
+      <p class="bx-lede">The diagnostic drill, the traced questions and the three-week plan are the same in either format. Inside India a family can join the two-evening group, capped at six, or book private lessons; students overseas are always taught one to one. Fees are charged month by month and nobody pays an admission fee.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card" data-india-only="true">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Mini batch, Tuesday 5:30 PM and Wednesday 8 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Tuesday 5:30 PM and Wednesday 8:00 PM IST, live</li><li>Six ICSE Class 10 students at most</li><li>A diagnostic Class 9 drill in the first weeks</li><li>The weakest basic revisited each Tuesday</li><li>Class 10 programs marked against the board scheme</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>A slot the family chooses, in India or overseas</li><li>Revision aimed only at your child's Class 9 gaps</li><li>A faster plan for a student who joins late</li><li>School homework doubts taken in the same session</li><li>The same mentors who teach the batch</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
+    <p class="bx-mt-40">A student who joins Class 10 with large Class 9 gaps, or who changed schools or boards, often moves fastest with a few weeks of one to one revision before joining the batch. A student with small gaps can revise inside the batch while Class 10 continues. The fee panel above converts to your local currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>Class 9 Java revision for ICSE students abroad</h2>
+      <p class="bx-lede">ICSE schools outside India follow the same syllabus, so their Class 10 students meet the same revision unit and the same 2027 paper. Abroad, the revision is one to one, at an after-school time in the student's own time zone.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Time difference</th><th scope="col">Usual class window, local time</th><th scope="col">Format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td>IST</td><td class="bx-num">Tue 5:30 PM, Wed 8:00 PM</td><td><span class="bx-fit">Mini batch or 1-on-1</span></td></tr>
+          <tr><td>United Arab Emirates<br><span class="bx-src">Dubai, Sharjah</span></td><td>1 h 30 min behind India</td><td class="bx-num">3:00 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Indonesia and Thailand<br><span class="bx-src">West Java, Bangkok area</span></td><td>1 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Singapore<br><span class="bx-src">Singapore</span></td><td>2 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The slot is agreed after the free demo and can shift during school exams. Details for overseas families are on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the ICSE Class 10 Computer Applications series, grouped by what you need: classes, each chapter, Section B programs, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a></li>
+          <li><a href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Java classes in the Gulf and abroad</a></li>
+          <li><a href="/icse-class-10-bluej-java-coaching">ICSE BlueJ Java coaching</a></li>
+          <li><a href="/icse-computer-applications-crash-course">ICSE computer crash course</a></li>
+          <li><a href="/icse-computer-tuition-kolkata">ICSE computer tuition in Kolkata</a></li>
+          <li><a href="/icse-computer-tuition-bangalore">ICSE computer tuition in Bangalore</a></li>
+          <li><a href="/icse-computer-tuition-mumbai">ICSE computer tuition in Mumbai</a></li>
+          <li><a href="/icse-computer-applications-private-tutor">1-on-1 private Java tutor</a></li>
+          <li><a href="/icse-computer-tuition-lucknow">ICSE computer tuition in Lucknow</a></li>
+          <li><a href="/icse-computer-tuition-pune">ICSE computer tuition in Pune</a></li>
+          <li><a href="/icse-computer-tuition-near-me">ICSE computer tuition near me</a></li>
+          <li><a href="/icse-computer-applications-small-batch-classes">The mini batch, explained</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Chapter by chapter</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a></li>
+          <li><a href="/icse-class-10-user-defined-methods-overloading">User-defined methods and overloading</a></li>
+          <li><a href="/icse-class-10-constructors-questions">Constructors</a></li>
+          <li><a href="/icse-class-10-wrapper-and-library-classes">Wrapper and library classes</a></li>
+          <li><a href="/icse-class-10-class-as-basis-of-computation">Class as the basis of all computation</a></li>
+          <li><a href="/icse-class-10-encapsulation-access-specifiers">Encapsulation and access specifiers</a></li>
+          <li><a href="/icse-class-10-math-library-methods">Math library methods</a></li>
+          <li><a href="/icse-class-10-operators-in-java">Operators and expressions</a></li>
+          <li><a href="/icse-class-10-loop-programs-java">Loops and loop conversion</a></li>
+          <li><a href="/icse-class-10-data-types-and-input-java">Data types, input and type casting</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Programs for Section B</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a></li>
+          <li><a href="/icse-class-10-string-programs">String programs</a></li>
+          <li><a href="/icse-special-number-programs-java">Special number programs</a></li>
+          <li><a href="/icse-class-10-sorting-and-searching-programs">Sorting and searching programs</a></li>
+          <li><a href="/icse-class-10-2d-array-programs">2D array programs</a></li>
+          <li><a href="/icse-class-10-pattern-programs-java">Pattern programs</a></li>
+          <li><a href="/icse-class-10-menu-driven-programs">Menu driven and switch case</a></li>
+          <li><a href="/icse-class-10-series-programs-java">Series programs</a></li>
+          <li><a href="/icse-class-10-slab-and-bill-programs">Slab and bill programs</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></li>
+          <li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mock tests</a></li>
+          <li><a href="/icse-computer-applications-previous-year-papers-solved">Previous year papers, solved</a></li>
+          <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
+          <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
+          <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+          <li><a href="/icse-class-10-java-error-finding-questions">Find the error questions</a></li>
+          <li><a href="/icse-computer-difference-between-questions">Difference between questions</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Notes and revision</h3>
+        <ul>
+          <li><a href="/icse-computer-applications-notes">Chapter-wise notes</a></li>
+          <li><a href="/icse-computer-applications-textbook-solutions-guide">Textbook solutions guide</a></li>
+          <li><a href="/icse-computer-applications-worksheets">Worksheets with answers</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and internal assessment</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-board-exam-preparation">ICSE board exam preparation</a></li>
+          <li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+          <li><a href="/icse-class-10-computer-applications-project-and-internal-assessment">Project and internal assessment</a></li>
+          <li><a href="/how-to-score-100-in-icse-computer-applications">How to score 100</a></li>
+          <li><a href="/icse-computer-applications-paper-analysis">Paper analysis and answer key</a></li>
+          <li><a href="/icse-computer-applications-vs-commercial-applications">Computer or Commercial Applications?</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>CBSE Class 10 AI (417):</b> <a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about Class 9 revision</p>
+      <h2>What students ask about Class 9 Java in the Class 10 paper</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>Is the Class 9 syllabus included in the ICSE Class 10 Computer Applications exam?</h3><p>Yes. The 2026-27 Class 10 syllabus begins with a unit called Revision of Class IX syllabus, covering OOP concepts, objects and classes, data types, operators, input, Math methods, conditional constructs, loops and nested for loops. Questions on these can appear in both sections of the 2027 paper.</p></div>
+      <div class="bx-faq-item"><h3>Which Class 9 topics are most important for the Class 10 board exam?</h3><p>Operators, data types and type conversion, Math method return types, conditional constructs and loops matter most, because they appear directly in Section A and are used in every Section B program. OOP definitions and Scanner input are smaller topics but come up regularly as short questions.</p></div>
+      <div class="bx-faq-item"><h3>Is Computing and Ethics from Class 9 asked in the Class 10 paper?</h3><p>Computing and Ethics is a Class 9 unit, but it is not in the Class 10 revision list we checked in the 2026-27 syllabus. Focus your Class 10 revision on the programming units, and revise ethics only if your school includes it in its own tests.</p></div>
+      <div class="bx-faq-item"><h3>How do I revise Class 9 Java quickly for Class 10?</h3><p>Spend about three weeks on short daily sessions: week one on concepts, data types and operators; week two on input, errors, Math methods and conditions; week three on loops and nested loops. Trace every output on paper before running it, and keep a page of the mistakes you made.</p></div>
+      <div class="bx-faq-item"><h3>What are the Java basics for ICSE?</h3><p>The basics are the Class 9 units: what objects and classes are, the eight primitive data types, operators and their precedence, input with the Scanner class, the Math library methods, if-else and switch, the for, while and do-while loops, and nested for loops. Class 10 adds methods, constructors, arrays, Strings, library classes and encapsulation on top of them.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between a syntax error, a runtime error and a logical error?</h3><p>A syntax error breaks Java's grammar, such as a missing semicolon, and is caught when compiling. A runtime error stops a running program, such as dividing an int by zero. A logical error produces wrong output with no message at all, such as a wrong formula. Only the logical error must be found by testing.</p></div>
+      <div class="bx-faq-item"><h3>Why does nextLine() skip input after nextInt()?</h3><p>nextInt() reads the number but leaves the Enter key in the input. The next nextLine() reads that leftover empty line immediately, so it seems to be skipped. Add an extra sc.nextLine() after nextInt() to clear it, or read the String before the number.</p></div>
+      <div class="bx-faq-item"><h3>Do I need to know data type sizes for ICSE Class 10?</h3><p>Yes, they are a standard one-mark question. byte is 1 byte, short 2, int 4, long 8, float 4, double 8 and char 2. boolean holds only true or false. Knowing the ranges also explains why a byte variable can wrap round to a negative value.</p></div>
+      <div class="bx-faq-item"><h3>Do you teach Class 9 topics in the Class 10 live classes?</h3><p>Yes. Our ICSE group meets twice a week, at 5:30 PM IST on Tuesday and 8:00 PM IST on Wednesday; a diagnostic drill finds each student's Class 9 gaps, and short weekly drills close them while Class 10 continues. A child who needs more attention can switch to private lessons scheduled around the family.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Try a free live Class 9 revision class</h2>
+        </div>
+        <p>In the free demo your child takes a short mixed drill across the Class 9 units, then traces the wrong answers with the mentor and runs them in BlueJ. You come away knowing exactly which basics need work before Class 10 gets harder, and whether the mini batch or one to one fits better.</p>
+        <p>Before booking, you may like to browse the <a class="bx-link" href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> overview, or test yourself with <a class="bx-link" href="/icse-class-10-computer-applications-important-questions">important questions for ICSE Computer Applications</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20revision%20of%20Class%209%20Java%20for%20the%20ICSE%20Class%2010%20paper." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic38-parent">Parent's name</label><input id="bx-ic38-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-ic38-phone">Phone or WhatsApp</label><input id="bx-ic38-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic38-email">Email</label><input id="bx-ic38-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-ic38-format">Preferred format</label>
+              <select id="bx-ic38-format" name="format" required>
+                <option value="mini">Tue 5:30 PM and Wed 8 PM mini batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-ic38-child">Student's name and school (optional)</label><input id="bx-ic38-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>ICSE Class 10 Computer Applications</h4><ul><li><a href="/icse-class-10-java-classes-online">The Tue and Wed batch</a></li><li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mocks</a></li><li><a href="/icse-class-10-computer-applications-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>ICSE Computer Applications &middot; Class 9 revision for 2027</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'icse-class-9-java-revision-for-class-10', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'icse-class-9-java-revision-for-class-10', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=5d83c35fbe"></script>
+    <script src="/js/international-pricing.js?v=73c0675aaf"></script>
+</body>
+</html>

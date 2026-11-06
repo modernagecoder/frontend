@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Encapsulation ICSE Class 10: Access Specifiers and Scope</title>
+  <meta name="description" content="Encapsulation for ICSE Class 10 (2027): private, default, protected and public in one access table, data hiding, scope of variables, all run in Java.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/icse-class-10-encapsulation-access-specifiers">
+  <link rel="alternate" type="text/markdown" href="/src/pages/icse-class-10-encapsulation-access-specifiers.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#24485E">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/icse-class-10-encapsulation-access-specifiers">
+  <meta property="og:title" content="Encapsulation for ICSE Class 10, with the Access Table and Scope Rules">
+  <meta property="og:description" content="The ICSE Class 10 Encapsulation chapter in one place: board definitions, an access table checked with javac across two packages, data hiding with getters and setters, class, instance, argument and local variables, scope errors, and a Section B class with private data.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Encapsulation for ICSE Class 10, with the Access Table and Scope Rules">
+  <meta name="twitter:description" content="Encapsulation for ICSE Class 10: the access table, data hiding, scope of variables and a Section B class, every line run in Java.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          },
+          {
+            "@type": "Country",
+            "name": "Thailand"
+          }
+        ],
+        "knowsAbout": [
+          "ICSE Computer Applications",
+          "Java",
+          "BlueJ",
+          "CISCE ICSE Class 10 Examination",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-encapsulation-access-specifiers#article",
+        "headline": "Encapsulation for ICSE Class 10: Access Specifiers, Data Hiding and the Scope of Variables",
+        "description": "The ICSE Class 10 Encapsulation chapter in one place: board definitions, an access table checked with javac across two packages, data hiding with getters and setters, class, instance, argument and local variables, scope errors, and a Section B class with private data.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-10-13",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/icse-class-10-encapsulation-access-specifiers"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-encapsulation-access-specifiers#course",
+        "name": "ICSE Class 10 Computer Applications (Java) Encapsulation and Scope, Live Online",
+        "description": "Live online teaching of the ICSE Class 10 Computer Applications Encapsulation chapter for the 2027 examination: access specifiers private, protected and public and the default level, data hiding with accessor and mutator methods, the scope of class, instance, argument and local variables, shadowing and the this keyword, and Section B classes written with private data members, in a Tuesday and Wednesday evening mini batch in India or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/icse-class-10-encapsulation-access-specifiers",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "2999",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, mini batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": [
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Tuesday"
+              ],
+              "startTime": "17:30",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-encapsulation-access-specifiers"
+            }
+          },
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Wednesday"
+              ],
+              "startTime": "20:00",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-encapsulation-access-specifiers"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ICSE Class 10 Java classes",
+            "item": "https://learn.modernagecoders.com/icse-class-10-java-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Encapsulation and access specifiers",
+            "item": "https://learn.modernagecoders.com/icse-class-10-encapsulation-access-specifiers"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is encapsulation in Java ICSE Class 10?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Encapsulation is the wrapping of data and the methods that act on that data into a single unit called a class. In practice it means keeping the data members private and letting other classes use them only through the class's public methods, so the class decides what changes are allowed. It is Unit 6 of the 2026-27 ICSE Computer Applications syllabus."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the access specifiers in Java for ICSE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The syllabus names private, protected and public. private allows access from the same class only; protected from the same package and from subclasses; public from everywhere. A member with no specifier has default, or package, access: any class in the same package can use it, but nothing outside the package can."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between private, public and protected?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They differ in how far a member can be seen. private stops at the class itself. protected reaches the whole package and any subclass, even one in another package. public reaches every class in every package. Data members are usually private and methods that other classes call are public."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is data hiding in ICSE Computer Applications?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Data hiding means keeping a class's data members private so that code outside the class cannot read or change them directly. Other classes must go through public methods, which can check every value first. For example, a private balance changed only by a method that refuses negative amounts can never become negative."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between encapsulation and data hiding?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Encapsulation is the bundling of data and methods into one class. Data hiding is one result of it: restricting direct access to that data with the private specifier. A class could bundle data and methods yet leave everything public; that is encapsulated but not hidden, and it is weak design."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the scope of variables in Java ICSE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scope is the region of a program where a variable can be used. Class variables (static) and instance variables can be used throughout the class. An argument variable can be used only inside its own method. A local variable can be used only from its declaration to the end of the block in which it is declared."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the four types of variables in ICSE Class 10?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Class variables, declared static with one shared copy; instance variables, declared in the class without static, one copy per object; argument variables, declared in a method header to receive values; and local variables, declared inside a method or block. The syllabus groups all four under the scope of variables in the Encapsulation unit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can a private variable be accessed outside the class?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not directly. The compiler rejects the line with a message such as \"temp has private access in Thermostat\". The only way in is through a non-private method of the same class, such as a getter that returns the value or a setter that checks and stores a new one."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is protected access asked in ICSE Class 10 even though inheritance is not in the syllabus?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The syllabus lists protected among the access specifiers, so a one-mark question on its visibility is fair. You need the rule, not inheritance programs: protected allows access within the same package and from subclasses in other packages. Writing subclasses is an ISC topic."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you teach encapsulation and access specifiers in live classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The ICSE mini batch meets on Tuesday at 5:30 PM IST and Wednesday at 8:00 PM IST with six students at most. Students predict which lines compile, trace scope fragments and write a class with private data each week. Personalised one to one classes are available at a time the family chooses, in India or abroad."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-ic22 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">ICSE CA &middot; Encapsulation</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#access">Access table</a>
+      <a href="#hiding">Data hiding</a>
+      <a href="#scope">Scope</a>
+      <a href="#program">Section B class</a>
+      <a href="#fees">Batch or 1-on-1</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> <span>/</span> <span>Encapsulation and access specifiers</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">ICSE Class 10 &middot; Computer Applications (Java) &middot; Encapsulation 2027</p>
+        <h1>Encapsulation for ICSE Class 10: who can see what, and for how long.</h1>
+        <p class="bx-lede">Encapsulation in ICSE Class 10 comes down to two questions: which classes can reach a member, and how long a variable lives. The first is answered by the access specifiers, the second by the scope of variables. This page gives the one-line definitions, an access table we checked with the Java compiler across two packages, data hiding with getters and setters, the four kinds of variable, and a Section B class built on private data. In our live mini batch these rules are traced, compiled and written by hand every week.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20classes%20on%20encapsulation%20and%20access%20specifiers%20for%20ICSE%20Class%2010." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'ic22'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; access table checked with javac &middot; four kinds of variable &middot; one Section B class with private data &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When encapsulation is taught">
+        <p class="bx-tt-title"><span>Encapsulation week</span><b>ICSE CA</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Tuesday, access and scope traces</span><span class="bx-tt-time">5:30<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, a class with private data</span><span class="bx-tt-time">8:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Access levels on the table</span><span class="bx-tt-time">4<small>rows</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Kinds of variable by scope</span><span class="bx-tt-time">4<small>drilled</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/icse-computer-applications-java-bluej-course">ICSE Class 10 Computer Applications, Java with BlueJ, Live</a></p>
+          <a class="bx-offer-opt" href="#fees" data-india-only="true"><span class="bx-offer-k">Mini batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.miniBatch">₹2,999</span><small>/month</small></span><span class="bx-offer-v">Tue 5:30 PM and Wed 8:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>In India:</b> both evening classes of the week, in a group of six or fewer. <b>Outside India:</b> the same chapter one to one, in a slot after school in your own time zone.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Unit 6 &middot; Encapsulation</span>
+          <span class="bx-stamp">Compiled, not guessed</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Courses where encapsulation is practised</h2>
+      <p class="bx-lede">The ICSE Java course where the mini batch writes classes with private data every week, the Class 11 and 12 Computer Science course where encapsulation grows into inheritance, and the data structures course for students who want to see why real libraries hide their fields.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/icse-computer-applications-java-bluej-course">
+        <div class="bx-pick-shot"><img src="/images/java-teens.webp" alt="ICSE Computer Applications Java with BlueJ course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / ICSE CA</p>
+          <h3>ICSE Computer Applications, Java with BlueJ</h3>
+          <p>Class 9 and 10 Computer Applications in a mini batch, where every Section B class is written with private members and public methods.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+        <div class="bx-pick-shot"><img src="/images/ip-cs-class-11-12.webp" alt="Computer Science Class 11 and 12 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Next step / ISC</p>
+          <h3>Computer Science Class 11 and 12</h3>
+          <p>For students going on to ISC, where protected members and inheritance are taught in full.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="bx-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures and Algorithms course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Beyond the syllabus / DSA</p>
+          <h3>Data Structures and Algorithms</h3>
+          <p>For the student who wants to build a stack or a queue whose insides nobody else can break.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>Encapsulation in ICSE Class 10 means wrapping a class's data and the methods that use it into one unit, and controlling access to that data. Java does it with access specifiers: private (same class only), default with no keyword (same package), protected (same package and subclasses) and public (everywhere). Making data private and reaching it only through public methods is called data hiding. The same 2027 syllabus unit covers the scope of variables: class, instance, argument and local. Modern Age Coders teaches this chapter live in a Tuesday and Wednesday mini batch in India, or one to one at the family's time.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="access">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. What are access specifiers in Java?</p>
+      <h2>Access specifiers Java ICSE: private, public, protected and default in one table</h2>
+      <p class="bx-lede">An access specifier is a keyword placed before a member that decides which other classes may use it. The ICSE syllabus names three, private, protected and public; a member written with no keyword gets a fourth level, called default or package access.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Specifier</th><th scope="col">Same class</th><th scope="col">Another class, same package</th><th scope="col">Subclass, other package</th><th scope="col">Any other class, other package</th></tr></thead>
+        <tbody>
+          <tr><td><code>private</code></td><td>Yes</td><td>No</td><td>No</td><td>No</td></tr>
+          <tr><td>none (default)</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td></tr>
+          <tr><td><code>protected</code></td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td></tr>
+          <tr><td><code>public</code></td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">Read the table as a ladder: each row opens one more door than the row above it. We did not copy it from a book. We wrote a class <code>Locker</code> in a package <code>school</code> with one member at each level, then tried to read all four from three places. Here is what javac 21 reported.</p>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>school/Locker.java</b><span>one member per level</span></figcaption>
+  <pre>package school;
+public class Locker {
+    private int code = 4821;
+    int row = 3;                  <i>// no keyword: default</i>
+    protected String owner = "Tara";
+    public int number = 17;
+}</pre>
+  <p class="bx-code-note">Each member is then printed from Office (package school), SportsLocker (package other, extends Locker) and Visitor (package other, unrelated).</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>What javac said</b><span>6 errors</span></figcaption>
+  <pre>school/Office.java:5: error: code has private access in Locker
+other/SportsLocker.java:5: error: code has private access in Locker
+other/SportsLocker.java:6: error: row is not public in Locker; cannot be accessed from outside package
+other/Visitor.java:6: error: code has private access in Locker
+other/Visitor.java:7: error: row is not public in Locker; cannot be accessed from outside package
+other/Visitor.java:8: error: owner has protected access in Locker</pre>
+  <p class="bx-code-note">Every line that is not listed compiled. public number was readable from all three places; private code from none of them.</p>
+</figure>
+    </div>
+    <div class="bx-grid-3 bx-mt-40">
+      <div class="bx-card"><h3>Encapsulation, in one line</h3><p>Binding data and the methods that work on it into a single unit, the class, so that the data is used only in the ways the class allows.</p></div>
+      <div class="bx-card"><h3>Data hiding, in one line</h3><p>Keeping data members private so that no code outside the class can read or change them directly.</p></div>
+      <div class="bx-card"><h3>Access specifier, in one line</h3><p>A keyword that sets the visibility of a class member: private, protected, public, or none for default access.</p></div>
+    </div>
+    <p class="bx-mt-40">Inheritance is not part of the ICSE Class 10 syllabus, so for the 2027 paper it is enough to know that protected opens a member to subclasses as well as to its own package. Where a class sits among objects and classes generally is covered on <a class="bx-link" href="/icse-class-10-class-as-basis-of-computation">class as the basis of all computation</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="hiding">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. How does a class hide its data?</p>
+      <h2>Data hiding ICSE: private members with getter and setter methods</h2>
+      <p class="bx-lede">A class hides its data by declaring the members private and offering public methods to read them (accessors, or getters) and to change them (mutators, or setters). The mutator can check a value before accepting it, which is the whole point.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Thermostat.java and Room.java</b><span>run in Java 21</span></figcaption>
+  <pre>class Thermostat {
+    private double temp = 24.0;
+
+    public double getTemp() {       <i>// accessor</i>
+        return temp;
+    }
+
+    public void setTemp(double t) { <i>// mutator</i>
+        if (t &gt;= 16 &amp;&amp; t &lt;= 30)
+            temp = t;
+        else
+            System.out.println("Rejected: " + t);
+    }
+}
+
+class Room {
+    public static void main(String[] args) {
+        Thermostat ac = new Thermostat();
+        ac.setTemp(45);
+        ac.setTemp(19.5);
+        System.out.println(ac.getTemp());
+    }
+}
+
+<i>// Output:</i>
+Rejected: 45.0
+19.5</pre>
+  <p class="bx-code-note">45 is an int argument, widened to the double 45.0, which is why the message prints 45.0.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Trying to skip the setter</b><span>javac 21</span></figcaption>
+  <pre>class Hack {
+    public static void main(String[] args) {
+        Thermostat ac = new Thermostat();
+        ac.temp = 45;                <i>// line 4</i>
+        System.out.println(ac.getTemp());
+    }
+}
+
+<i>// javac says:</i>
+Hack.java:4: error: temp has private access in Thermostat
+        ac.temp = 45;
+          ^</pre>
+  <p class="bx-code-note">The program never runs. Because temp is private, the only way to change it is setTemp, and setTemp refuses 45. That refusal is data hiding doing its job.</p>
+</figure>
+    </div>
+    <h3 class="bx-mt-40">Encapsulation, data hiding and abstraction: the difference</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Term</th><th scope="col">What it means</th><th scope="col">In the Thermostat class</th></tr></thead>
+        <tbody>
+          <tr><td>Encapsulation</td><td>Data and methods bundled in one class</td><td>temp, getTemp and setTemp live together in Thermostat</td></tr>
+          <tr><td>Data hiding</td><td>Data kept out of reach of other classes</td><td>temp is private, so Room cannot touch it</td></tr>
+          <tr><td>Abstraction</td><td>Showing what an object does, not how</td><td>Room calls setTemp without knowing the 16 to 30 rule inside it</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ol class="bx-qlist bx-mt-40">
+      <li>Data members are usually private; methods that other classes need are public.</li>
+      <li>A getter returns the member's type and takes no parameter: <code>double getTemp()</code>.</li>
+      <li>A setter is usually <code>void</code> and takes one parameter of the member's type.</li>
+      <li>A private method is allowed: it is a helper used only inside its own class.</li>
+      <li>A private member is still fully usable inside its own class, including in <code>main</code> if <code>main</code> belongs to that class.</li>
+    </ol>
+    <p class="bx-mt-40">The last rule surprises students in output questions: a <code>main</code> written inside the same class can read a private member directly. Constructors that fill private members are on <a class="bx-link" href="/icse-class-10-constructors-questions">ICSE Class 10 constructors questions</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="scope">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. What is the scope of a variable?</p>
+      <h2>Scope of variables ICSE: class, instance, argument and local variables</h2>
+      <p class="bx-lede">The scope of a variable is the part of the program in which it can be used, and its lifetime is how long it keeps its value. The syllabus names four kinds, and each is decided purely by where the variable is declared.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Kind</th><th scope="col">Declared</th><th scope="col">Usable in</th><th scope="col">Lives</th><th scope="col">Default value?</th></tr></thead>
+        <tbody>
+          <tr><td>Class variable</td><td>In the class, with <code>static</code></td><td>The whole class; outside it as <code>ClassName.var</code> if access allows</td><td>As long as the program runs; one copy</td><td>Yes (0, 0.0, false, null)</td></tr>
+          <tr><td>Instance variable</td><td>In the class, without <code>static</code></td><td>All non-static methods; through an object elsewhere</td><td>As long as its object; one copy per object</td><td>Yes</td></tr>
+          <tr><td>Argument variable</td><td>In a method or constructor header</td><td>That method body only</td><td>One call of the method</td><td>No, it receives the passed value</td></tr>
+          <tr><td>Local variable</td><td>Inside a method or a block <code>{ }</code></td><td>From its declaration to the end of that block</td><td>Until the block ends</td><td>No, must be assigned before use</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Ticket.java</b><span>all four kinds</span></figcaption>
+  <pre>class Ticket {
+    static int sold = 0;   <i>// class variable</i>
+    int seat;              <i>// instance variable</i>
+
+    Ticket(int s) {        <i>// s: argument variable</i>
+        seat = s;
+        sold++;
+    }
+
+    int price(int rows) {  <i>// rows: argument variable</i>
+        int base = 150;    <i>// local variable</i>
+        return base + rows * 20;
+    }
+
+    public static void main(String[] args) {
+        Ticket a = new Ticket(12);
+        Ticket b = new Ticket(30);
+        System.out.println(a.seat + " " + b.seat + " " + Ticket.sold);
+        System.out.println(a.price(3));
+    }
+}
+
+<i>// Output:</i>
+12 30 2
+210</pre>
+  <p class="bx-code-note">Two objects, so two seats but one sold counter. base and rows vanish when price returns.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Shadow.java</b><span>a parameter hides a member</span></figcaption>
+  <pre>class Shadow {
+    int marks = 40;
+
+    void update(int marks) {
+        marks = marks + 5;
+        System.out.println(marks + " " + this.marks);
+    }
+
+    void fix(int marks) {
+        this.marks = marks;
+    }
+
+    public static void main(String[] args) {
+        Shadow s = new Shadow();
+        s.update(70);
+        s.fix(62);
+        System.out.println(s.marks);
+    }
+}
+
+<i>// Output:</i>
+75 40
+62</pre>
+  <p class="bx-code-note">Inside update, plain marks means the parameter, so the member stays 40. this.marks always means the member, which is how fix reaches it.</p>
+</figure>
+    </div>
+    <h3 class="bx-mt-40">Scope of variables ICSE: five output questions</h3>
+    <p>All five use one class Q with <code>static int count = 10;</code>, <code>int n = 1;</code>, <code>static void bump(int count) { count += 5; }</code> and <code>void twice() { int n = 7; n *= 2; this.n += n; }</code>.</p>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Code in main</th><th scope="col">Output</th><th scope="col">The scope rule</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><code>bump(count);</code><br><code>System.out.println(count);</code></td><td class="bx-num">10</td><td>The parameter count is a separate local copy; the class variable is untouched</td></tr>
+          <tr><td>2</td><td><code>Q x = new Q();</code><br><code>x.twice();</code><br><code>System.out.println(x.n);</code></td><td class="bx-num">15</td><td>The local n becomes 14; this.n is the member, 1 + 14</td></tr>
+          <tr><td>3</td><td><code>Q p = new Q(), r = new Q();</code><br><code>p.count++; r.count++;</code><br><code>System.out.println(Q.count + " " + p.n);</code></td><td class="bx-num">12 1</td><td>Both objects share the one static count; each has its own n</td></tr>
+          <tr><td>4</td><td><code>int total = 0;</code><br><code>for (int i = 1; i &lt;= 4; i++) { int sq = i * i; total += sq; }</code><br><code>System.out.println(total);</code></td><td class="bx-num">30</td><td>sq is created afresh each pass; total lives outside the loop and keeps adding</td></tr>
+          <tr><td>5</td><td><code>int k = 3;</code><br><code>{ int m = k * 2; k = m + 1; }</code><br><code>System.out.println(k);</code></td><td class="bx-num">7</td><td>m dies at the closing brace, but the change it made to k survives</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Out of scope</b><span>javac 21</span></figcaption>
+  <pre>int sum = 0;
+for (int i = 1; i &lt;= 5; i++)
+    sum += i;
+System.out.println(sum + " " + i);   <i>// line 6</i>
+
+<i>// javac says:</i>
+Loop.java:6: error: cannot find symbol
+  symbol:   variable i</pre>
+  <p class="bx-code-note">i was declared in the for header, so it ends with the loop. Declare it before the loop if it is needed afterwards.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Declared twice</b><span>javac 21</span></figcaption>
+  <pre>void show(int x) {
+    int x = 5;                       <i>// line 3</i>
+    System.out.println(x);
+}
+
+<i>// javac says:</i>
+Dup.java:3: error: variable x is already defined in method show(int)</pre>
+  <p class="bx-code-note">A local variable may hide a data member, but it may not reuse the name of a parameter or another local in the same method.</p>
+</figure>
+    </div>
+    <p class="bx-mt-40">More traces of this kind, mixed with every other trap, sit among the <a class="bx-link" href="/icse-class-10-java-output-questions">ICSE Java output questions</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="program">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. How does encapsulation look in a Section B answer?</p>
+      <h2>A Section B class with private data members, solved and run</h2>
+      <p class="bx-lede">Section B questions rarely say "encapsulation", but a full-marks class answer uses it: private data members, a constructor, public methods that check values before changing them, and a variable description table. Here is an original question in board shape.</p>
+    </div>
+    <div class="bx-dated">
+      <p><b>Question.</b> Define a class MetroCard with private data members holder (String), cardNo (long) and balance (double). Write a parameterised constructor that stores the name and card number and sets the balance to 0. Write public methods: <code>String getHolder()</code> and <code>double getBalance()</code>; <code>void recharge(double amt)</code> which refuses amounts below 100 and adds a bonus of 5% when the amount is 1000 or more; <code>boolean travel(int stations)</code> which charges a fare of 10 for the first station and 4 for every further station, with a ceiling of 60, deducting it only if the balance is enough; and <code>void display()</code>. In main, read the name, card number, a recharge amount and the stations for two trips, and display the card.</p>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>MetroCard.java</b><span>private data, public methods</span></figcaption>
+  <pre>import java.util.Scanner;
+class MetroCard {
+    private String holder;    <i>// name on the card</i>
+    private long cardNo;      <i>// card number</i>
+    private double balance;   <i>// money left on the card</i>
+
+    public MetroCard(String h, long c) {
+        holder = h;
+        cardNo = c;
+        balance = 0.0;
+    }
+
+    public String getHolder() {
+        return holder;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void recharge(double amt) {
+        if (amt &lt; 100) {
+            System.out.println("Minimum recharge is 100");
+            return;
+        }
+        double bonus = (amt &gt;= 1000) ? amt * 0.05 : 0;
+        balance = balance + amt + bonus;
+    }
+
+    public boolean travel(int stations) {
+        int fare = 10 + 4 * (stations - 1);
+        if (fare &gt; 60)
+            fare = 60;
+        if (fare &gt; balance) {
+            System.out.println("Low balance, fare " + fare);
+            return false;
+        }
+        balance = balance - fare;
+        return true;
+    }
+
+    public void display() {
+        System.out.println("Card " + cardNo + " (" + holder + ")");
+        System.out.println("Balance: " + balance);
+    }
+
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Name and card number: ");
+        String n = sc.next();
+        long c = sc.nextLong();
+        MetroCard card = new MetroCard(n, c);
+        System.out.print("Recharge amount: ");
+        card.recharge(sc.nextDouble());
+        System.out.print("Stations on each of two trips: ");
+        int t1 = sc.nextInt();
+        int t2 = sc.nextInt();
+        card.travel(t1);
+        card.travel(t2);
+        card.display();
+    }
+}</pre>
+  <p class="bx-code-note">No method lets the balance be set to any value directly. Money comes in only through recharge and goes out only through travel, and both check first.</p>
+</figure>
+      <div>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Scope</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>holder</td><td>String</td><td>instance, private</td><td>card holder's name</td></tr>
+              <tr><td>cardNo</td><td>long</td><td>instance, private</td><td>card number</td></tr>
+              <tr><td>balance</td><td>double</td><td>instance, private</td><td>money on the card</td></tr>
+              <tr><td>h, c</td><td>String, long</td><td>argument</td><td>values passed to the constructor</td></tr>
+              <tr><td>amt</td><td>double</td><td>argument</td><td>amount offered for recharge</td></tr>
+              <tr><td>bonus</td><td>double</td><td>local</td><td>5% extra on large recharges</td></tr>
+              <tr><td>stations</td><td>int</td><td>argument</td><td>stations travelled on a trip</td></tr>
+              <tr><td>fare</td><td>int</td><td>local</td><td>fare for one trip, at most 60</td></tr>
+              <tr><td>sc, n, c, t1, t2, card</td><td>various</td><td>local to main</td><td>input reader, inputs and the object</td></tr>
+            </tbody>
+          </table>
+        </div>
+<figure class="bx-code bx-mt-40">
+  <figcaption class="bx-code-head"><b>Sample runs</b><span>Java 21</span></figcaption>
+  <pre>Name and card number: <b>Kabir 40071</b>
+Recharge amount: <b>1000</b>
+Stations on each of two trips: <b>6 18</b>
+Card 40071 (Kabir)
+Balance: 960.0
+
+Name and card number: <b>Mira 40072</b>
+Recharge amount: <b>50</b>
+Minimum recharge is 100
+Stations on each of two trips: <b>2 3</b>
+Low balance, fare 14
+Low balance, fare 18
+Card 40072 (Mira)
+Balance: 0.0</pre>
+  <p class="bx-code-note">Run 1: 1000 plus a bonus of 50 is 1050. Six stations cost 10 + 4 &times; 5 = 30; eighteen would cost 78, so the ceiling of 60 applies. 1050 &minus; 30 &minus; 60 = 960.</p>
+</figure>
+      </div>
+    </div>
+    <p class="bx-mt-40">Adding a Scope column to the variable description table, as above, is not required, but it shows the examiner you know the chapter. More classes written to a specification are on <a class="bx-link" href="/icse-class-10-slab-and-bill-programs">ICSE slab and bill programs</a> and <a class="bx-link" href="/icse-class-10-user-defined-methods-overloading">user-defined methods and overloading</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="questions">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. What does Section A ask on this chapter?</p>
+      <h2>Encapsulation ICSE Class 10 questions with answers</h2>
+      <p class="bx-lede">In Section A, the 40 compulsory marks, this chapter turns up as one-mark MCQs and two-mark definitions or differences. Try each one before opening the answer.</p>
+    </div>
+    <div class="bx-grid-2">
+      <div>
+        <h3>One-mark questions</h3>
+        <ol class="bx-qlist">
+          <li>Which access specifier makes a member visible only inside its own class? (a) public (b) protected (c) private (d) default
+            <details><summary>Answer</summary> (c) private.</details></li>
+          <li>A member declared with no access specifier can be used by:
+            <details><summary>Answer</summary> Any class in the same package, but no class outside it.</details></li>
+          <li>Which keyword lets a method reach a data member hidden by a parameter of the same name?
+            <details><summary>Answer</summary> <code>this</code>, as in <code>this.marks = marks;</code></details></li>
+          <li>Name the kind of variable declared inside a method body.
+            <details><summary>Answer</summary> A local variable.</details></li>
+          <li>Which kind of variable has exactly one copy however many objects exist?
+            <details><summary>Answer</summary> A class variable, declared with <code>static</code>.</details></li>
+          <li>Which of these is the most open: protected or default?
+            <details><summary>Answer</summary> protected. It allows everything default allows, plus subclasses in other packages.</details></li>
+        </ol>
+      </div>
+      <div>
+        <h3>Two-mark questions</h3>
+        <ol class="bx-qlist">
+          <li>Define encapsulation. How does a class implement it?
+            <details><summary>Answer</summary> Encapsulation is wrapping data and the methods that operate on it into a single unit. A class implements it by declaring the data members and methods together, and by keeping the data private and reachable only through its public methods.</details></li>
+          <li>Differentiate between private and public members.
+            <details><summary>Answer</summary> A private member can be used only inside its own class; a public member can be used by any class in any package. Data members are usually private and the methods others need are public.</details></li>
+          <li>State the difference between an instance variable and a local variable.
+            <details><summary>Answer</summary> An instance variable is declared in the class outside every method, belongs to an object and gets a default value. A local variable is declared inside a method or block, exists only until that block ends and must be assigned before use.</details></li>
+          <li>Why is data hiding useful? Give one example.
+            <details><summary>Answer</summary> It stops other classes from putting an object into an impossible state. A private balance can be changed only through a method that refuses a negative amount, so the balance is always valid.</details></li>
+          <li>What is the scope of an argument variable?
+            <details><summary>Answer</summary> The body of the method or constructor in whose header it is declared. It is created when the method is called, holds the passed value, and ends when the method returns.</details></li>
+        </ol>
+      </div>
+    </div>
+    <p class="bx-mt-40">Short difference questions from every chapter, in the same two-mark shape, are collected on <a class="bx-link" href="/icse-computer-difference-between-questions">ICSE Computer Applications difference between questions</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" style="font-variant-ligatures:none" id="live">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. How is this chapter taught in the mini batch?</p>
+      <h2>Learning access and scope by breaking code on purpose</h2>
+      <p class="bx-lede">Students remember the access table best after they have watched the compiler refuse a line they were sure would work. So the week is built around predictions that javac then confirms or rejects.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>Predict, then compile</h4><p>At the Tuesday 5:30 PM IST class the teacher shows a two-package project on a shared screen. Each student marks which lines will compile before BlueJ is asked, and the wrong guesses are discussed first.</p></li>
+      <li class="bx-step"><h4>Scope traced in a table</h4><p>Fragments with shadowed names, static counters and block-local variables are traced on paper, one column per variable, until the four kinds of variable feel different rather than merely sound different.</p></li>
+      <li class="bx-step"><h4>A class written by hand</h4><p>On Wednesday at 8:00 PM IST the group writes a Section B class with private members and checking methods, then marks it against the board scheme on screen, including the variable description table.</p></li>
+      <li class="bx-step"><h4>Definitions said aloud</h4><p>The one-line definitions of encapsulation, data hiding and each specifier are rehearsed until each student can say them without notes, which also prepares for the internal assessment viva.</p></li>
+      <li class="bx-step"><h4>Back in every mock</h4><p>From December, full two-hour mock papers bring the chapter back inside Section A and inside Section B classes, under the real clock.</p></li>
+    </ol>
+    <p class="bx-mt-40">The wider chapter-by-chapter plan is on <a class="bx-link" href="/icse-computer-applications-notes">ICSE Computer Applications notes</a>, and the oral side is on <a class="bx-link" href="/icse-computer-applications-viva-questions">ICSE Computer Applications viva questions</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Learn encapsulation in the mini batch, or one to one</h2>
+      <p class="bx-lede">The access experiments, the scope traces and the Section B class are the same in either format. Families in India choose between the fixed evening group of six and a private slot; ICSE students abroad are taught one to one. Billing is monthly and there is no admission fee.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card" data-india-only="true">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Mini batch, Tuesday 5:30 PM and Wednesday 8 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Tuesday 5:30 PM and Wednesday 8:00 PM IST, live</li><li>Six ICSE Class 10 students at most</li><li>Predict-then-compile access drills on a shared screen</li><li>A class with private data written and marked each week</li><li>Definitions rehearsed aloud for the viva</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>A slot the family picks, in India or overseas</li><li>Extra time on whichever of access or scope is shaky</li><li>Your child's own school classes refactored to private data</li><li>Harder shadowing traces once the basics are steady</li><li>Same teachers and the same 2027 syllabus</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
+    <p class="bx-mt-40">A student who already writes working classes but loses marks on definitions or scope traces usually needs only a handful of one to one sessions on this chapter. A student who is still unsure how a class should be laid out gains more from the steady weekly rhythm of the batch. Fees appear in your own currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>Encapsulation lessons for ICSE students abroad</h2>
+      <p class="bx-lede">The 2027 Computer Applications paper is the same in Dubai or Singapore as it is in Kolkata, and so is this chapter. Outside India we teach it one to one, at an early evening hour in the student's own time zone.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Time difference</th><th scope="col">Usual class window, local time</th><th scope="col">Format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td>IST</td><td class="bx-num">Tue 5:30 PM, Wed 8:00 PM</td><td><span class="bx-fit">Mini batch or 1-on-1</span></td></tr>
+          <tr><td>United Arab Emirates<br><span class="bx-src">Dubai, Sharjah</span></td><td>1 h 30 min behind India</td><td class="bx-num">3:00 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Indonesia and Thailand<br><span class="bx-src">West Java, Bangkok area</span></td><td>1 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Singapore<br><span class="bx-src">Singapore</span></td><td>2 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The time is fixed after the free demo and can move around school tests. How classes run for overseas families is set out on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the ICSE Class 10 Computer Applications series, grouped by what you need: classes, each chapter, Section B programs, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a></li>
+          <li><a href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Java classes in the Gulf and abroad</a></li>
+          <li><a href="/icse-class-10-bluej-java-coaching">ICSE BlueJ Java coaching</a></li>
+          <li><a href="/icse-computer-applications-crash-course">ICSE computer crash course</a></li>
+          <li><a href="/icse-computer-tuition-kolkata">ICSE computer tuition in Kolkata</a></li>
+          <li><a href="/icse-computer-tuition-bangalore">ICSE computer tuition in Bangalore</a></li>
+          <li><a href="/icse-computer-tuition-mumbai">ICSE computer tuition in Mumbai</a></li>
+          <li><a href="/icse-computer-applications-private-tutor">1-on-1 private Java tutor</a></li>
+          <li><a href="/icse-computer-tuition-lucknow">ICSE computer tuition in Lucknow</a></li>
+          <li><a href="/icse-computer-tuition-pune">ICSE computer tuition in Pune</a></li>
+          <li><a href="/icse-computer-tuition-near-me">ICSE computer tuition near me</a></li>
+          <li><a href="/icse-computer-applications-small-batch-classes">The mini batch, explained</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Chapter by chapter</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a></li>
+          <li><a href="/icse-class-10-user-defined-methods-overloading">User-defined methods and overloading</a></li>
+          <li><a href="/icse-class-10-constructors-questions">Constructors</a></li>
+          <li><a href="/icse-class-10-wrapper-and-library-classes">Wrapper and library classes</a></li>
+          <li><a href="/icse-class-10-class-as-basis-of-computation">Class as the basis of all computation</a></li>
+          <li><a href="/icse-class-10-math-library-methods">Math library methods</a></li>
+          <li><a href="/icse-class-10-operators-in-java">Operators and expressions</a></li>
+          <li><a href="/icse-class-10-loop-programs-java">Loops and loop conversion</a></li>
+          <li><a href="/icse-class-10-data-types-and-input-java">Data types, input and type casting</a></li>
+          <li><a href="/icse-class-9-java-revision-for-class-10">Class 9 Java revision for Class 10</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Programs for Section B</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a></li>
+          <li><a href="/icse-class-10-string-programs">String programs</a></li>
+          <li><a href="/icse-special-number-programs-java">Special number programs</a></li>
+          <li><a href="/icse-class-10-sorting-and-searching-programs">Sorting and searching programs</a></li>
+          <li><a href="/icse-class-10-2d-array-programs">2D array programs</a></li>
+          <li><a href="/icse-class-10-pattern-programs-java">Pattern programs</a></li>
+          <li><a href="/icse-class-10-menu-driven-programs">Menu driven and switch case</a></li>
+          <li><a href="/icse-class-10-series-programs-java">Series programs</a></li>
+          <li><a href="/icse-class-10-slab-and-bill-programs">Slab and bill programs</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></li>
+          <li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mock tests</a></li>
+          <li><a href="/icse-computer-applications-previous-year-papers-solved">Previous year papers, solved</a></li>
+          <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
+          <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
+          <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+          <li><a href="/icse-class-10-java-error-finding-questions">Find the error questions</a></li>
+          <li><a href="/icse-computer-difference-between-questions">Difference between questions</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Notes and revision</h3>
+        <ul>
+          <li><a href="/icse-computer-applications-notes">Chapter-wise notes</a></li>
+          <li><a href="/icse-computer-applications-textbook-solutions-guide">Textbook solutions guide</a></li>
+          <li><a href="/icse-computer-applications-worksheets">Worksheets with answers</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and internal assessment</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-board-exam-preparation">ICSE board exam preparation</a></li>
+          <li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+          <li><a href="/icse-class-10-computer-applications-project-and-internal-assessment">Project and internal assessment</a></li>
+          <li><a href="/how-to-score-100-in-icse-computer-applications">How to score 100</a></li>
+          <li><a href="/icse-computer-applications-paper-analysis">Paper analysis and answer key</a></li>
+          <li><a href="/icse-computer-applications-vs-commercial-applications">Computer or Commercial Applications?</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>CBSE Class 10 AI (417):</b> <a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about encapsulation</p>
+      <h2>What students ask about encapsulation and access specifiers</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>What is encapsulation in Java ICSE Class 10?</h3><p>Encapsulation is the wrapping of data and the methods that act on that data into a single unit called a class. In practice it means keeping the data members private and letting other classes use them only through the class's public methods, so the class decides what changes are allowed. It is Unit 6 of the 2026-27 ICSE Computer Applications syllabus.</p></div>
+      <div class="bx-faq-item"><h3>What are the access specifiers in Java for ICSE?</h3><p>The syllabus names private, protected and public. private allows access from the same class only; protected from the same package and from subclasses; public from everywhere. A member with no specifier has default, or package, access: any class in the same package can use it, but nothing outside the package can.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between private, public and protected?</h3><p>They differ in how far a member can be seen. private stops at the class itself. protected reaches the whole package and any subclass, even one in another package. public reaches every class in every package. Data members are usually private and methods that other classes call are public.</p></div>
+      <div class="bx-faq-item"><h3>What is data hiding in ICSE Computer Applications?</h3><p>Data hiding means keeping a class's data members private so that code outside the class cannot read or change them directly. Other classes must go through public methods, which can check every value first. For example, a private balance changed only by a method that refuses negative amounts can never become negative.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between encapsulation and data hiding?</h3><p>Encapsulation is the bundling of data and methods into one class. Data hiding is one result of it: restricting direct access to that data with the private specifier. A class could bundle data and methods yet leave everything public; that is encapsulated but not hidden, and it is weak design.</p></div>
+      <div class="bx-faq-item"><h3>What is the scope of variables in Java ICSE?</h3><p>Scope is the region of a program where a variable can be used. Class variables (static) and instance variables can be used throughout the class. An argument variable can be used only inside its own method. A local variable can be used only from its declaration to the end of the block in which it is declared.</p></div>
+      <div class="bx-faq-item"><h3>What are the four types of variables in ICSE Class 10?</h3><p>Class variables, declared static with one shared copy; instance variables, declared in the class without static, one copy per object; argument variables, declared in a method header to receive values; and local variables, declared inside a method or block. The syllabus groups all four under the scope of variables in the Encapsulation unit.</p></div>
+      <div class="bx-faq-item"><h3>Can a private variable be accessed outside the class?</h3><p>Not directly. The compiler rejects the line with a message such as &quot;temp has private access in Thermostat&quot;. The only way in is through a non-private method of the same class, such as a getter that returns the value or a setter that checks and stores a new one.</p></div>
+      <div class="bx-faq-item"><h3>Is protected access asked in ICSE Class 10 even though inheritance is not in the syllabus?</h3><p>The syllabus lists protected among the access specifiers, so a one-mark question on its visibility is fair. You need the rule, not inheritance programs: protected allows access within the same package and from subclasses in other packages. Writing subclasses is an ISC topic.</p></div>
+      <div class="bx-faq-item"><h3>Do you teach encapsulation and access specifiers in live classes?</h3><p>Yes. The ICSE mini batch meets on Tuesday at 5:30 PM IST and Wednesday at 8:00 PM IST with six students at most. Students predict which lines compile, trace scope fragments and write a class with private data each week. Personalised one to one classes are available at a time the family chooses, in India or abroad.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Try a free live class on encapsulation</h2>
+        </div>
+        <p>In the free demo your child predicts which lines of a small two-package program will compile, sees BlueJ confirm or reject each guess, and then rewrites one class so its data is private. You then hear honestly which parts of the chapter are secure and whether the mini batch or one to one fits better.</p>
+        <p>Prefer to look around first? Read <a class="bx-link" href="/icse-class-10-computer-applications-important-questions">ICSE Computer Applications important questions</a> or see <a class="bx-link" href="/icse-class-10-java-classes-online">the ICSE Class 10 Java classes</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20classes%20on%20encapsulation%20and%20access%20specifiers%20for%20ICSE%20Class%2010." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic22-parent">Parent's name</label><input id="bx-ic22-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-ic22-phone">Phone or WhatsApp</label><input id="bx-ic22-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic22-email">Email</label><input id="bx-ic22-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-ic22-format">Preferred format</label>
+              <select id="bx-ic22-format" name="format" required>
+                <option value="mini">Tue 5:30 PM and Wed 8 PM mini batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-ic22-child">Student's name and school (optional)</label><input id="bx-ic22-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>ICSE Class 10 Computer Applications</h4><ul><li><a href="/icse-class-10-java-classes-online">The Tue and Wed batch</a></li><li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mocks</a></li><li><a href="/icse-class-10-computer-applications-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>ICSE Computer Applications &middot; Encapsulation 2027</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'icse-class-10-encapsulation-access-specifiers', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'icse-class-10-encapsulation-access-specifiers', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=5d83c35fbe"></script>
+    <script src="/js/international-pricing.js?v=73c0675aaf"></script>
+</body>
+</html>

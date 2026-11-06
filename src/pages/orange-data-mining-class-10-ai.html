@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Orange Data Mining Class 10 AI: Penguins, Coral, Sentiment</title>
+  <meta name="description" content="Orange data mining for class 10 AI (CBSE 417, 2026-27): the Palmer penguins, coral bleaching and sentiment use cases, built widget by widget in tables.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/orange-data-mining-class-10-ai">
+  <link rel="alternate" type="text/markdown" href="/src/pages/orange-data-mining-class-10-ai.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#3B5B4B">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/orange-data-mining-class-10-ai">
+  <meta property="og:title" content="Orange Data Mining for Class 10 AI, Every CBSE Use Case Step by Step">
+  <meta property="og:description" content="The no-code use cases the CBSE 417 curriculum names for 2026-27, Palmer penguins, coral bleaching and sentiment analysis, built widget by widget with every connection, setting and readout explained.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Orange Data Mining for Class 10 AI, Every CBSE Use Case Step by Step">
+  <meta name="twitter:description" content="Palmer penguins, coral bleaching and sentiment analysis in Orange, each widget chain laid out step by step for CBSE 417.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Saudi Arabia"
+          },
+          {
+            "@type": "Country",
+            "name": "Kuwait"
+          },
+          {
+            "@type": "Country",
+            "name": "Qatar"
+          },
+          {
+            "@type": "Country",
+            "name": "Oman"
+          },
+          {
+            "@type": "Country",
+            "name": "Nepal"
+          },
+          {
+            "@type": "Country",
+            "name": "Bahrain"
+          },
+          {
+            "@type": "Country",
+            "name": "Ethiopia"
+          },
+          {
+            "@type": "Country",
+            "name": "Malaysia"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "knowsAbout": [
+          "CBSE Artificial Intelligence 417",
+          "CBSE Class 10 Board Examination",
+          "Python",
+          "AI Project Cycle",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/orange-data-mining-class-10-ai#article",
+        "headline": "Orange Data Mining for Class 10 AI: the Palmer Penguins, Coral Bleaching and Sentiment Analysis Use Cases, Widget by Widget",
+        "description": "The no-code use cases the CBSE 417 curriculum names for 2026-27, Palmer penguins, coral bleaching and sentiment analysis, built widget by widget with every connection, setting and readout explained.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-11-06",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/orange-data-mining-class-10-ai"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/orange-data-mining-class-10-ai#course",
+        "name": "CBSE Class 10 AI (417) Orange and No-Code AI Practice, Live Online",
+        "description": "Live online practice with Orange Data Mining for CBSE Class 10 Artificial Intelligence (417), session 2026-27: the Palmer penguins, coral bleaching and sentiment analysis use cases built widget by widget on a shared screen, every readout explained in the words examiners use, and unseen no-code tasks rehearsed before the practical, every Monday and Wednesday at 9:00 PM IST or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/orange-data-mining-class-10-ai",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "1499",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, group batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseSchedule": {
+            "@type": "Schedule",
+            "repeatFrequency": "P1W",
+            "byDay": [
+              "Monday",
+              "Wednesday"
+            ],
+            "startTime": "21:00",
+            "scheduleTimezone": "Asia/Kolkata"
+          },
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "https://learn.modernagecoders.com/orange-data-mining-class-10-ai"
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Class 10 AI classes",
+            "item": "https://learn.modernagecoders.com/cbse-class-10-ai-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Orange Data Mining",
+            "item": "https://learn.modernagecoders.com/orange-data-mining-class-10-ai"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Orange Data Mining in class 10 AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Orange is a free, open-source tool for data analysis and machine learning in which you build a model by dragging widgets onto a canvas and connecting them, without writing code. CBSE 417 uses it in 2026-27 for three practical walkthroughs: Palmer penguins (Statistical Data), coral bleaching (Computer Vision) and sentiment analysis (NLP)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Orange Data Mining in the class 10 AI theory exam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The walkthroughs belong to Units 4, 5 and 6 practical work, which is assessed through the practical file, practical exam and viva. Units 4 and 7 are practical only. Objective items about no-code tools can still appear, so know what Orange is and what its main widgets do."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the Palmer penguins case study in class 10 AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It is the Unit 4 use case in which an Orange model predicts a penguin's species, Adelie, Chinstrap or Gentoo, from its island, culmen length and depth, flipper length and body mass. CBSE's training file has 344 penguins. The workflow runs File, Impute, Select Columns, Data Sampler, Tree and Random Forest, Test and Score, then Predictions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which widgets are used for the coral bleaching project?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Import Images to load photos from Bleached and Unbleached sub-folders, Image Viewer to check them, Image Embedding to turn each photo into numbers, then Logistic Regression, Random Forest and SVM compared in Test and Score with a Confusion Matrix. A second Import Images chain feeds the test photos into Predictions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does Image Embedding need the internet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Only some embedders do. SqueezeNet, the default in current versions, runs on your own computer. Inception v3, VGG-16, VGG-19 and the others send images to a server to be embedded, so they need a connection. If the lab has no internet, choose SqueezeNet."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I do sentiment analysis in Orange?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Install the Text add-on, load your texts with Corpus, clean them with Preprocess Text, then connect Sentiment Analysis and choose a method such as Vader. It adds positive, negative, neutral and compound scores. View them in a Data Table sorted by compound, and use Word Cloud to compare frequent words."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is no code AI in class 10?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No-code AI means building and testing a model through a visual interface, dragging and connecting blocks, instead of programming. Examples in the curriculum are Orange, Teachable Machine and Lobe. Low-code tools combine blocks with some code. The trade-off is speed and ease against flexibility and control."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Teachable Machine in the class 10 AI syllabus?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The 2026-27 CBSE 417 curriculum lists Teachable Machine with supervised learning in Unit 2 and, with Lobe, for a smart sorter activity in the Unit 5 practical, where a model learns to tell bottles, cans and paper apart from photos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why are my Predictions almost 100 percent correct?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Usually because you are predicting rows the model was trained on. CBSE's penguins test file repeats the training penguins, so it will look near perfect. The honest measure is Test and Score on the data held back by Data Sampler."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Orange practice part of your regular classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Each use case is built live and then rebuilt on fresh data in the batch or one to one, all covered by the monthly fee shown on this page in your own currency. There is no admission fee and the first class is a free demo."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-cb16 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">417 &middot; Orange</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#usecases">Use cases</a>
+      <a href="#penguins">Penguins</a>
+      <a href="#coral">Coral</a>
+      <a href="#sentiment">Sentiment</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/cbse-class-10-ai-classes-online">Class 10 AI classes</a> <span>/</span> <span>Orange Data Mining</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">CBSE Class 10 &middot; Artificial Intelligence, code 417 &middot; No-code AI with Orange, 2026-27</p>
+        <h1>Orange Data Mining for Class 10 AI: every CBSE use case, built widget by widget.</h1>
+        <p class="bx-lede">Orange data mining is the no-code tool the CBSE Class 10 AI curriculum uses for three practical walkthroughs in 2026-27: predicting Palmer penguin species from measurements, spotting coral bleaching in photographs, and judging the sentiment of written reviews. Below, each one is laid out as a table of widgets, with what to connect, what to set and what to read off the screen. In our live batch, students build these on a shared screen and then explain every widget aloud, the way the practical examiner will ask them to.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20help%20with%20Orange%20Data%20Mining%20for%20CBSE%20Class%2010%20AI%20417." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'cb16'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; penguins, coral and sentiment, step by step &middot; every readout explained &middot; unseen no-code tasks &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When Orange is built in class">
+        <p class="bx-tt-title"><span>No-code AI with Orange</span><b>CBSE 417</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Monday, one use case built live</span><span class="bx-tt-time">9:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, unseen data, same widgets</span><span class="bx-tt-time">9:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">CBSE walkthroughs on this page</span><span class="bx-tt-time">3<small>use cases</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Practical exam inside Part C</span><span class="bx-tt-time">15<small>marks</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843">CBSE Class 10 AI (417) Board Preparation, Live</a></p>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Group batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.group">₹1,499</span><small>/month</small></span><span class="bx-offer-v">Mon and Wed, 9:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>UAE and Oman:</b> 7:30 PM. <b>Saudi Arabia, Qatar, Kuwait and Bahrain:</b> 6:30 PM. <b>Kenya:</b> 6:30 PM. <b>Singapore and Malaysia:</b> one to one at a local hour you choose.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Units 4, 5 and 6</span>
+          <span class="bx-stamp">No code needed</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Courses behind these walkthroughs</h2>
+      <p class="bx-lede">The Orange course where every widget below is built and explained, the 417 course whose batch runs these use cases inside the full syllabus, and the Python course for students who want to see the same models in code.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">
+        <div class="bx-pick-shot"><img src="/images/orange-data-mining-teens.webp" alt="Visual Machine Learning with Orange for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The tool / Orange</p>
+          <h3>Visual ML with Orange</h3>
+          <p>File to Predictions on tables, images and text, with time to try other learners and settings until the readouts make sense.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843">
+        <div class="bx-pick-shot"><img src="/images/ct-ai-teens.webp" alt="CBSE Computational Thinking and AI for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / 417 Class 10</p>
+          <h3>CBSE AI for Class 9 to 12</h3>
+          <p>The full 417 course, where each Orange walkthrough sits in the unit it belongs to and is rehearsed before the practical.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="bx-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Same models in code / Python</p>
+          <h3>Python for Teens</h3>
+          <p>Pandas, NumPy and Matplotlib for Unit 7, and the code version of the steps Orange hides behind its widgets.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>Orange data mining in Class 10 AI is the no-code tool CBSE 417 uses for three use case walkthroughs in 2026-27: predicting Palmer penguin species from body measurements (Unit 4, Statistical Data), classifying coral photos as bleached or unbleached (Unit 5, Computer Vision) and scoring the sentiment of text (Unit 6, NLP). Each follows the AI project cycle with widgets such as File, Impute, Data Sampler, Test and Score, Confusion Matrix and Predictions. These units are assessed in the practical. Modern Age Coders builds them live in a Monday and Wednesday 9:00 PM IST batch, or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="usecases">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. Which Orange use cases are in the syllabus?</p>
+      <h2>Which no-code AI use cases does CBSE name for Class 10 in 2026-27?</h2>
+      <p class="bx-lede">The 2026-27 CBSE 417 curriculum names three Orange walkthroughs, one per practical domain, and the handbook adds a short price-prediction example. All of them are assessed through the practical, not the theory paper.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Use case</th><th scope="col">Unit and domain</th><th scope="col">Model type</th><th scope="col">Orange add-on needed</th></tr></thead>
+        <tbody>
+          <tr><td>Palmer penguins: predict the species</td><td>Unit 4, Statistical Data</td><td>Classification, three classes</td><td>None, core Orange</td></tr>
+          <tr><td>Food price index: predict the price (handbook example)</td><td>Unit 4, Statistical Data</td><td>Regression</td><td>None, core Orange</td></tr>
+          <tr><td>Coral bleaching: bleached or unbleached?</td><td>Unit 5, Computer Vision</td><td>Image classification, two classes</td><td>Image Analytics</td></tr>
+          <tr><td>Sentiment analysis of reviews or posts</td><td>Unit 6, NLP</td><td>Positive, negative or neutral scoring</td><td>Text</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-2 bx-mt-40" style="align-items:start">
+      <div>
+        <h3>Before the first class: install and add-ons</h3>
+        <ol class="bx-steps">
+          <li class="bx-step"><h4>Install Orange</h4><p>Download it from orangedatamining.com and install it like any desktop program.</p></li>
+          <li class="bx-step"><h4>Add the two add-ons</h4><p>Open Options, then Add-ons, tick <b>Image Analytics</b> and <b>Text</b>, and restart Orange.</p></li>
+          <li class="bx-step"><h4>Check the toolbox</h4><p>The left panel should now show Image Analytics and Text sections beside Data, Visualize, Model and Evaluate.</p></li>
+        </ol>
+        <p>A missing add-on is the commonest reason a student cannot find Import Images or Sentiment Analysis on the day.</p>
+      </div>
+      <div>
+        <h3>Teachable Machine and Lobe</h3>
+        <p>The same curriculum names two more no-code tools for Unit 5: Teachable Machine and Lobe, for a "smart sorter" that tells bottles, cans and paper apart. They train an image model in the browser or an app from photos you take. Orange differs because every step of the project cycle is a visible widget you can open and explain, which is why the walkthroughs below use it.</p>
+        <p>Where these units sit in the 50 practical marks is on <a class="bx-link" href="/cbse-class-10-ai-practical-exam-questions">CBSE Class 10 AI practical exam questions</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="penguins">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. How do I build the Palmer penguins model?</p>
+      <h2>Palmer penguins class 10 AI: the Orange workflow, step by step</h2>
+      <p class="bx-lede">The penguins model predicts a penguin's species, Adelie, Chinstrap or Gentoo, from its island and four body measurements. CBSE's own workflow file uses eleven widgets, and each one maps to a stage of the AI project cycle.</p>
+    </div>
+    <p><b>The data.</b> CBSE's training file has 344 penguins: 152 Adelie, 124 Gentoo and 68 Chinstrap. Columns are species, island, culmen length and culmen depth (the culmen is the upper ridge of the bill), flipper length and body mass. Two penguins have all four measurements missing, which is why the workflow needs Impute.</p>
+    <div class="bx-table-wrap bx-mt-40">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Step</th><th scope="col">Widget</th><th scope="col">Connect</th><th scope="col">What to set or read</th><th scope="col">Project cycle stage</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>File (renamed TrainData)</td><td>Starts the chain</td><td>Load penguins_train.csv; check species shows as categorical</td><td>Data acquisition</td></tr>
+          <tr><td>2</td><td>Impute</td><td>TrainData to Impute</td><td>Fill the missing measurements, for example with the average</td><td>Data exploration</td></tr>
+          <tr><td>3</td><td>Feature Statistics</td><td>Impute to Feature Statistics</td><td>Read mean, spread and missing count per column; mean culmen length is about 43.9 mm</td><td>Data exploration</td></tr>
+          <tr><td>4</td><td>Select Columns</td><td>Impute to Select Columns</td><td>Move species to <b>Target</b>; keep island and the four measurements as features</td><td>Modelling (set up)</td></tr>
+          <tr><td>5</td><td>Data Sampler</td><td>Select Columns to Data Sampler</td><td>Fixed proportion 80 percent, stratified; about 275 penguins train, 69 are held back</td><td>Modelling (split)</td></tr>
+          <tr><td>6</td><td>Data Info, twice</td><td>Data Sample to one, Remaining Data to the other</td><td>Confirm the two row counts add up to 344</td><td>Checking the split</td></tr>
+          <tr><td>7</td><td>Tree and Random Forest</td><td>Data Sample to each learner</td><td>Defaults are fine to start</td><td>Modelling</td></tr>
+          <tr><td>8</td><td>Test and Score</td><td>Data Sample to Data, Remaining Data to Test Data, both learners to Learner</td><td>Choose "Test on test data"; compare CA, Precision, Recall and F1 for the two models</td><td>Evaluation</td></tr>
+          <tr><td>9</td><td>File (renamed TestData)</td><td>Starts a second chain</td><td>Load penguins_test.csv</td><td>New data</td></tr>
+          <tr><td>10</td><td>Predictions</td><td>TestData to Data; Tree and Random Forest Model outputs to Predictors</td><td>Each row shows the true species beside each model's guess</td><td>Deployment, in miniature</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-2 bx-mt-40" style="align-items:start">
+      <div>
+        <h3>What the exploration should show</h3>
+        <ul class="bx-check">
+          <li><b>Island gives a lot away.</b> Gentoo appear only on Biscoe and Chinstrap only on Dream; Adelie live on all three islands.</li>
+          <li><b>Flippers separate Gentoo.</b> Their average flipper is about 217 mm against about 190 mm for Adelie.</li>
+          <li><b>Culmen length separates Adelie from Chinstrap.</b> About 38.8 mm against about 48.8 mm on average.</li>
+        </ul>
+        <p>Drop a Scatter Plot on the Impute output with culmen length against flipper length, coloured by species, and the three groups are visible before any model is trained.</p>
+      </div>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Reading the Confusion Matrix</b><span>illustrative, 69 test penguins</span></figcaption>
+  <pre>                 Predicted
+Actual      Adelie Chinstrap Gentoo
+Adelie        29       1        0
+Chinstrap      2      12        0
+Gentoo         0       0       25
+
+Correct: 29 + 12 + 25 = 66 of 69
+Accuracy: 66 / 69 = 0.957
+Chinstrap recall: 12 / 14 = 0.857
+Adelie precision: 29 / 31 = 0.935</pre>
+  <p class="bx-code-note">Your numbers will differ with each random split. The pattern is typical: Gentoo is never confused, while Adelie and Chinstrap swap a few, because their bodies are similar and Chinstrap has the fewest examples.</p>
+</figure>
+    </div>
+    <h3 class="bx-mt-40">One honest caution about the CBSE test file</h3>
+    <p>CBSE's penguins_test.csv holds the same 344 penguins as the training file, with the species column renamed "actual species". So the Predictions table will look almost perfect: the models have already seen those birds. The fair score is the one Test and Score reports on the 69 held-back penguins. If an examiner asks why Predictions looks better than Test and Score, that is the answer, and it is the same idea as never testing on training data in Unit 3. The full evaluation reasoning is on <a class="bx-link" href="/cbse-class-10-ai-evaluating-models-questions">CBSE Class 10 AI evaluating models questions</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="coral">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. How does Orange classify coral photos?</p>
+      <h2>Coral bleaching project class 10: the image classification chain in Orange</h2>
+      <p class="bx-lede">Orange cannot learn from raw pixels directly. The Image Embedding widget turns every photo into a long row of numbers that describe its features, and from then on an ordinary classifier treats the photos like rows in a table.</p>
+    </div>
+    <p><b>The data.</b> Two folders, Train and Test. Inside each, one sub-folder per class: Bleached and Unbleached. Import Images reads the sub-folder name as the label, so the folder layout is the labelling.</p>
+    <div class="bx-table-wrap bx-mt-40">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Step</th><th scope="col">Widget</th><th scope="col">Connect</th><th scope="col">What to set or read</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Import Images (renamed Train Data)</td><td>Starts the chain</td><td>Choose the training folder; it should report two categories</td></tr>
+          <tr><td>2</td><td>Image Viewer</td><td>Train Data to Image Viewer</td><td>Scroll the photos; check for blurred, duplicate or wrongly filed images</td></tr>
+          <tr><td>3</td><td>Image Embedding</td><td>Train Data to Image Embedding</td><td>SqueezeNet runs offline and is the default; Inception v3 and the others need internet</td></tr>
+          <tr><td>4</td><td>Data Table</td><td>Image Embedding to Data Table</td><td>See each image now as a row of numeric columns plus its category</td></tr>
+          <tr><td>5</td><td>Logistic Regression, Random Forest, SVM</td><td>Each learner to Test and Score</td><td>Three models, so their scores can be compared</td></tr>
+          <tr><td>6</td><td>Test and Score</td><td>Image Embedding to Data</td><td>Cross-validation is a sound choice here; compare CA, F1, Precision and Recall</td></tr>
+          <tr><td>7</td><td>Confusion Matrix</td><td>Test and Score to Confusion Matrix</td><td>Switch between learners on its left to see which one misses bleached coral</td></tr>
+          <tr><td>8</td><td>Import Images (Test Data), Image Viewer, Image Embedding</td><td>A second chain for the test folder</td><td>Point it at the test folder, not the training one</td></tr>
+          <tr><td>9</td><td>Logistic Regression (second copy)</td><td>Train embeddings to its Data</td><td>Trains the chosen model on all training photos</td></tr>
+          <tr><td>10</td><td>Predictions</td><td>Test embeddings to Data; the model to Predictors</td><td>Each test photo with its predicted class and probability</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-3 bx-mt-40">
+      <div class="bx-card"><h3>Which model won</h3><p>In the CBSE walkthrough, Logistic Regression gave the best accuracy of the three, which is why the final chain uses it. On your own photos another learner may win; the method of choosing is what earns marks.</p></div>
+      <div class="bx-card"><h3>Which error matters</h3><p>A bleached reef predicted as unbleached is a false negative, and it is the costly one, because the reef gets no attention. So read recall for the Bleached class, not only overall accuracy.</p></div>
+      <div class="bx-card"><h3>A slip in the steps PDF</h3><p>CBSE's step sheet tells you, at the prediction stage, to select the training folder. Choose the test folder: predicting photos the model trained on proves nothing.</p></div>
+    </div>
+    <p class="bx-mt-40">Pixels, RGB channels and convolution, the theory behind what Image Embedding does, are on <a class="bx-link" href="/cbse-class-10-ai-computer-vision-questions">CBSE Class 10 AI computer vision questions</a>. Coral as a full project with its 4Ws is on <a class="bx-link" href="/cbse-class-10-ai-project-ideas">CBSE Class 10 AI project ideas</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="sentiment">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. How is sentiment analysis done in Orange?</p>
+      <h2>Sentiment analysis in Orange for the NLP unit</h2>
+      <p class="bx-lede">Sentiment analysis decides whether a piece of text is positive, negative or neutral. In Orange, the Text add-on loads the texts as a corpus, cleans them, and the Sentiment Analysis widget adds a score to every document.</p>
+    </div>
+    <p>The curriculum names a sentiment walkthrough for Unit 6, but the shared CBSE folder for it does not hold a workflow file we could open, so the chain below is the standard route the Text add-on documents. Schools may use their own review or tweet dataset.</p>
+    <div class="bx-table-wrap bx-mt-40">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Step</th><th scope="col">Widget</th><th scope="col">What it does</th><th scope="col">What to set or read</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Corpus (or Import Documents)</td><td>Loads the texts as documents</td><td>Pick the column that holds the text as the text feature</td></tr>
+          <tr><td>2</td><td>Preprocess Text</td><td>Text normalisation</td><td>Lowercase, tokenise, remove punctuation and stopwords: the Unit 6 theory, as tick boxes</td></tr>
+          <tr><td>3</td><td>Sentiment Analysis</td><td>Scores each document</td><td>Choose <b>Vader</b>: it adds positive, negative, neutral and compound columns; compound runs from -1 to +1</td></tr>
+          <tr><td>4</td><td>Data Table</td><td>Shows the scores</td><td>Sort by compound to see the most negative and most positive texts</td></tr>
+          <tr><td>5</td><td>Word Cloud</td><td>Shows frequent words</td><td>Compare clouds for the positive and the negative texts</td></tr>
+          <tr><td>6</td><td>Box Plot or Distributions</td><td>Summarises the scores</td><td>How many texts fall on each side of zero</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-2 bx-mt-40" style="align-items:start">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Five sentences, VADER compound score</b><span>run in Python</span></figcaption>
+  <pre>"The new library is bright,
+ quiet and wonderful."           0.765
+"The bus was late again and
+ the driver was rude."          -0.459
+"The canteen opens at noon."     0.000
+"The food was not bad at all."   0.431
+"Great, another power cut during
+ my online exam."                0.459</pre>
+  <p class="bx-code-note">Scored with the VADER lexicon, the method behind Orange's Vader option; Orange may differ in the last decimal. The last line is sarcasm, and the tool calls it positive.</p>
+</figure>
+      <div>
+        <h3>What the five scores teach</h3>
+        <ul class="bx-check">
+          <li><b>Neutral is real.</b> A plain fact scores 0, neither positive nor negative.</li>
+          <li><b>Negation is handled.</b> "Not bad" comes out mildly positive, because VADER reads "not" before "bad".</li>
+          <li><b>Sarcasm is not.</b> "Great" pulls the power-cut complaint positive. A lexicon counts words; it does not understand intent.</li>
+        </ul>
+        <p>That last point answers a favourite viva question on the limits of NLP. Bag of Words and TFIDF, the counting ideas underneath, are worked by hand on <a class="bx-link" href="/bag-of-words-tfidf-class-10-ai">Bag of Words and TFIDF for Class 10 AI</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="nocode">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. What is no-code AI, and what will I be asked?</p>
+      <h2>No code AI class 10: price prediction, code versus no-code, and viva questions</h2>
+      <p class="bx-lede">No-code AI means building, training and testing a model by dragging and connecting ready-made blocks instead of writing a program. Low-code tools mix blocks with a little code.</p>
+    </div>
+    <div class="bx-grid-2" style="align-items:start">
+      <div>
+        <h3>The handbook's regression example</h3>
+        <p>In Unit 4 the handbook tells of Kayla, who budgets animal food at a zoo and needs to predict rising food prices without knowing how to code. The chain is short:</p>
+        <ol class="bx-steps">
+          <li class="bx-step"><h4>File</h4><p>Load the food price index data and set the price index as the target.</p></li>
+          <li class="bx-step"><h4>Data Table</h4><p>Look at the rows before modelling.</p></li>
+          <li class="bx-step"><h4>Linear Regression</h4><p>File to Linear Regression; the output is a number, so this is regression.</p></li>
+          <li class="bx-step"><h4>Test and Score</h4><p>File to Data, Linear Regression to Learner; read RMSE, MAE and R2 instead of accuracy.</p></li>
+          <li class="bx-step"><h4>Predictions</h4><p>Data to Data, and the Linear Regression model to Predictors.</p></li>
+        </ol>
+        <p>The handbook's last step joins Test and Score to Predictions and mentions a logistic model. In Orange, Predictions takes data plus a trained model, as in the last step above, and a price is predicted with linear, not logistic, regression.</p>
+      </div>
+      <div>
+        <h3>Code versus no-code for statistical data</h3>
+        <div class="bx-table-wrap"><table class="bx-table">
+          <thead><tr><th scope="col">Point</th><th scope="col">Code (Python)</th><th scope="col">No-code (Orange)</th></tr></thead>
+          <tbody>
+            <tr><td>Skill needed</td><td>Programming</td><td>Understanding the steps</td></tr>
+            <tr><td>Flexibility</td><td>Anything you can write</td><td>Only the widgets that exist</td></tr>
+            <tr><td>Speed to a first model</td><td>Slower</td><td>Minutes</td></tr>
+            <tr><td>Risk</td><td>Bugs in your code</td><td>Trusting outputs without checking them, called automation bias</td></tr>
+          </tbody>
+        </table></div>
+        <p>The handbook also warns that no-code platforms give less control over security, so they suit data that is not sensitive.</p>
+      </div>
+    </div>
+    <h3 class="bx-mt-40">Questions examiners ask at the Orange screen</h3>
+    <ol class="bx-qlist">
+      <li>Why did you use Select Columns?
+        <details><summary>Answer</summary> To mark species as the target, the label the model must predict. Without a target, Test and Score has nothing to check against.</details></li>
+      <li>What does Data Sampler do, and why stratified?
+        <details><summary>Answer</summary> It splits the data into a training part and a held-back test part. Stratified keeps the same share of each species in both parts.</details></li>
+      <li>What does Image Embedding output?
+        <details><summary>Answer</summary> A row of numbers per image that describes its features, so a normal classifier can learn from photos.</details></li>
+      <li>Which stage of the AI project cycle is Test and Score?
+        <details><summary>Answer</summary> Evaluation. Impute and the plots belong to data exploration; the learners to modelling.</details></li>
+      <li>Is your sentiment tool always right?
+        <details><summary>Answer</summary> No. It scores word lists, so sarcasm and mixed reviews fool it. Checking a sample by hand shows how often it agrees with a person.</details></li>
+    </ol>
+    <p>More of these, for every practical unit, are on <a class="bx-link" href="/cbse-class-10-ai-viva-questions">CBSE Class 10 AI viva questions</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="live">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. How is Orange taught live?</p>
+      <h2>How the live batch teaches Orange for the 417 practical</h2>
+      <p class="bx-lede">Following a step sheet builds a workflow once. Explaining every widget, and rebuilding it on data you have not seen, is what the practical and its viva reward, so that is what class time goes on.</p>
+    </div>
+    <div class="bx-grid-3">
+      <div class="bx-card"><h3>Built on a shared screen</h3><p>The teacher builds one use case live while students build alongside on their own machines. Each widget is opened, its settings changed and the effect on the readout talked through.</p></div>
+      <div class="bx-card"><h3>Same widgets, new data</h3><p>The following class swaps the dataset, fruit photos for coral, shop reviews for tweets, and students rebuild the chain without the step sheet. The gaps show quickly and are fixed in the same session.</p></div>
+      <div class="bx-card"><h3>Explain it aloud</h3><p>Every student explains one widget per class in the words an examiner expects: target, held-back data, false negative, embedding. That rehearsal is what turns a working canvas into viva marks.</p></div>
+    </div>
+    <p class="bx-mt-40">
+      Students who are stuck on an add-on install or a broken connection share their screen and it is fixed live. How these walkthroughs feed the project and file is on <a class="bx-link" href="/cbse-class-10-ai-project-and-practical-file">the project and practical file page</a>, and the project cycle they all follow is on <a class="bx-link" href="/cbse-class-10-ai-project-cycle-and-ethics">AI project cycle and ethics</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Build these Orange workflows in the Monday and Wednesday batch, or one to one</h2>
+      <p class="bx-lede">In the batch, students build each use case alongside classmates and hear each other explain the widgets. One to one goes at your child's speed on their own laptop, with every install problem and broken link fixed on the spot. Same syllabus, same teachers, monthly billing, no admission fee, stop at the end of any month.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Group batch, Monday and Wednesday 9 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.group">₹1,499</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Monday and Wednesday, 9:00 PM IST, live on video</li><li>Fifteen to twenty Class 10 AI students, one teacher</li><li>One use case built live each week</li><li>The same chain rebuilt on unseen data</li><li>Widget explanations rehearsed for the viva</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>Days and time chosen by you, in your own time zone</li><li>Orange set up and checked on your own computer</li><li>Extra datasets for the use case your child finds hardest</li><li>The school's own practical tasks practised if you share them</li><li>Same CBSE 417 syllabus and teachers</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40">A student whose school lab time is short, or who has never installed Orange, often moves fastest one to one, where setup and each workflow are done on their own machine. A student who also needs the theory units gains more from the batch, where Orange sits inside the full 417 course. Fees are shown in your own currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>Orange and no-code AI practice for CBSE students in the Gulf and abroad</h2>
+      <p class="bx-lede">CBSE schools abroad set the same practical units, and Orange runs the same on any laptop. Here is the evening batch in your local time this winter.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Mon and Wed 9:00 PM IST</th><th scope="col">Best format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td class="bx-num">9:00 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>UAE and Oman<br><span class="bx-src">Dubai, Abu Dhabi, Sharjah, Muscat</span></td><td class="bx-num">7:30 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>Saudi Arabia, Qatar, Kuwait, Bahrain<br><span class="bx-src">Riyadh, Jeddah, Dammam, Doha, Kuwait City, Manama</span></td><td class="bx-num">6:30 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>Nepal<br><span class="bx-src">Kathmandu</span></td><td class="bx-num">9:15 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>Ethiopia and East Africa<br><span class="bx-src">Addis Ababa and East Africa Time</span></td><td class="bx-num">6:30 PM</td><td><span class="bx-fit">Batch fits</span></td></tr>
+          <tr><td>Singapore and Malaysia<br><span class="bx-src">Singapore, Kuala Lumpur</span></td><td class="bx-num">11:30 PM</td><td><span class="bx-fit bx-fit--no">Choose 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">If the batch hour clashes with school or travel, personalised one to one runs at a time you choose. More for families outside India is on <a class="bx-link" href="/cbse-class-10-ai-online-classes-gulf-and-abroad">CBSE Class 10 AI online classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the CBSE Class 10 AI (417) series, grouped by what you need: classes, each unit, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a></li>
+          <li><a href="/cbse-class-10-ai-online-classes-gulf-and-abroad">CBSE AI classes in the Gulf and abroad</a></li>
+          <li><a href="/cbse-class-10-ai-doubt-classes">Live doubt classes</a></li>
+          <li><a href="/cbse-class-10-ai-tuition">Class 10 AI tuition online</a></li>
+          <li><a href="/cbse-class-10-ai-crash-course">Class 10 AI crash course</a></li>
+          <li><a href="/cbse-class-10-ai-private-tutor">1-on-1 private AI tutor</a></li>
+          <li><a href="/class-10-ai-tuition-delhi">AI tuition in Delhi</a></li>
+          <li><a href="/class-10-ai-tuition-gurgaon">AI tuition in Gurgaon</a></li>
+          <li><a href="/class-10-ai-tuition-noida">AI tuition in Noida</a></li>
+          <li><a href="/class-10-ai-tuition-bangalore">AI tuition in Bangalore</a></li>
+          <li><a href="/class-10-ai-tuition-pune">AI tuition in Pune</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Unit by unit</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a></li>
+          <li><a href="/python-for-cbse-class-10-ai">Python for Class 10 AI</a></li>
+          <li><a href="/cbse-class-10-ai-employability-skills-part-a">Part A employability skills</a></li>
+          <li><a href="/cbse-class-10-ai-evaluating-models-questions">Unit 3: Evaluating Models</a></li>
+          <li><a href="/confusion-matrix-class-10-ai-numericals">Confusion matrix numericals</a></li>
+          <li><a href="/cbse-class-10-ai-advanced-modeling-questions">Unit 2: Advanced modeling</a></li>
+          <li><a href="/cbse-class-10-ai-nlp-questions">Unit 6: Natural Language Processing</a></li>
+          <li><a href="/bag-of-words-tfidf-class-10-ai">Bag of Words and TFIDF, worked</a></li>
+          <li><a href="/cbse-class-10-ai-computer-vision-questions">Unit 5: Computer Vision</a></li>
+          <li><a href="/cbse-class-10-ai-project-cycle-and-ethics">Unit 1: Project cycle and ethics</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a></li>
+          <li><a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></li>
+          <li><a href="/cbse-class-10-ai-mcq-questions">Class 10 AI MCQ, unit wise</a></li>
+          <li><a href="/cbse-class-10-ai-previous-year-question-papers">Previous year papers, solved</a></li>
+          <li><a href="/cbse-class-10-ai-viva-questions">AI practical and project viva</a></li>
+          <li><a href="/cbse-class-10-ai-case-based-questions">Case based questions</a></li>
+          <li><a href="/employability-skills-class-10-mcq">Employability skills MCQ</a></li>
+          <li><a href="/cbse-class-10-ai-difference-between-questions">Difference between questions</a></li>
+          <li><a href="/cbse-class-10-ai-assertion-reason-questions">Assertion and reason questions</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Notes and revision</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-notes">Class 10 AI notes, unit wise</a></li>
+          <li><a href="/cbse-class-10-ai-one-shot-revision">Class 10 AI one shot revision</a></li>
+          <li><a href="/cbse-class-10-ai-revision-plan">30, 7 and 1 day revision plan</a></li>
+          <li><a href="/cbse-class-10-ai-worksheets">Worksheets with answers</a></li>
+          <li><a href="/cbse-class-10-ai-textbook-solutions">AI handbook exercise answers</a></li>
+          <li><a href="/best-book-for-cbse-class-10-ai">Best book for Class 10 AI</a></li>
+          <li><a href="/cbse-class-10-ai-formula-sheet">Formula sheet</a></li>
+          <li><a href="/cbse-class-10-ai-notes-in-hindi">Class 10 AI notes in Hindi</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and practicals</h3>
+        <ul>
+          <li><a href="/cbse-class-10-ai-board-exam-preparation">CBSE AI board exam preparation</a></li>
+          <li><a href="/cbse-class-10-ai-project-and-practical-file">AI project and practical file</a></li>
+          <li><a href="/cbse-class-10-ai-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+          <li><a href="/cbse-class-10-ai-practical-exam-questions">AI practical exam questions</a></li>
+          <li><a href="/cbse-class-10-ai-paper-analysis">Paper analysis and answer key</a></li>
+          <li><a href="/cbse-class-10-ai-marking-scheme">Marking scheme, explained</a></li>
+          <li><a href="/cbse-class-10-ai-project-ideas">AI project ideas</a></li>
+          <li><a href="/cbse-class-10-ai-passing-marks">Passing marks</a></li>
+          <li><a href="/cbse-class-10-ai-second-board-exam">The second board exam in May</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Choosing the subject</h3>
+        <ul>
+          <li><a href="/ai-417-vs-it-402-class-10">AI 417 or IT 402?</a></li>
+          <li><a href="/ai-vs-computer-applications-class-10">AI, IT or Computer Applications?</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>ICSE Class 10 Computer Applications (Java):</b> <a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a> <span aria-hidden="true">&middot;</span> <a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a> <span aria-hidden="true">&middot;</span> <a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a> <span aria-hidden="true">&middot;</span> <a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about Orange in Class 10 AI</p>
+      <h2>What students ask about Orange Data Mining in class 10 AI</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>What is Orange Data Mining in class 10 AI?</h3><p>Orange is a free, open-source tool for data analysis and machine learning in which you build a model by dragging widgets onto a canvas and connecting them, without writing code. CBSE 417 uses it in 2026-27 for three practical walkthroughs: Palmer penguins (Statistical Data), coral bleaching (Computer Vision) and sentiment analysis (NLP).</p></div>
+      <div class="bx-faq-item"><h3>Is Orange Data Mining in the class 10 AI theory exam?</h3><p>The walkthroughs belong to Units 4, 5 and 6 practical work, which is assessed through the practical file, practical exam and viva. Units 4 and 7 are practical only. Objective items about no-code tools can still appear, so know what Orange is and what its main widgets do.</p></div>
+      <div class="bx-faq-item"><h3>What is the Palmer penguins case study in class 10 AI?</h3><p>It is the Unit 4 use case in which an Orange model predicts a penguin's species, Adelie, Chinstrap or Gentoo, from its island, culmen length and depth, flipper length and body mass. CBSE's training file has 344 penguins. The workflow runs File, Impute, Select Columns, Data Sampler, Tree and Random Forest, Test and Score, then Predictions.</p></div>
+      <div class="bx-faq-item"><h3>Which widgets are used for the coral bleaching project?</h3><p>Import Images to load photos from Bleached and Unbleached sub-folders, Image Viewer to check them, Image Embedding to turn each photo into numbers, then Logistic Regression, Random Forest and SVM compared in Test and Score with a Confusion Matrix. A second Import Images chain feeds the test photos into Predictions.</p></div>
+      <div class="bx-faq-item"><h3>Why does Image Embedding need the internet?</h3><p>Only some embedders do. SqueezeNet, the default in current versions, runs on your own computer. Inception v3, VGG-16, VGG-19 and the others send images to a server to be embedded, so they need a connection. If the lab has no internet, choose SqueezeNet.</p></div>
+      <div class="bx-faq-item"><h3>How do I do sentiment analysis in Orange?</h3><p>Install the Text add-on, load your texts with Corpus, clean them with Preprocess Text, then connect Sentiment Analysis and choose a method such as Vader. It adds positive, negative, neutral and compound scores. View them in a Data Table sorted by compound, and use Word Cloud to compare frequent words.</p></div>
+      <div class="bx-faq-item"><h3>What is no code AI in class 10?</h3><p>No-code AI means building and testing a model through a visual interface, dragging and connecting blocks, instead of programming. Examples in the curriculum are Orange, Teachable Machine and Lobe. Low-code tools combine blocks with some code. The trade-off is speed and ease against flexibility and control.</p></div>
+      <div class="bx-faq-item"><h3>Is Teachable Machine in the class 10 AI syllabus?</h3><p>Yes. The 2026-27 CBSE 417 curriculum lists Teachable Machine with supervised learning in Unit 2 and, with Lobe, for a smart sorter activity in the Unit 5 practical, where a model learns to tell bottles, cans and paper apart from photos.</p></div>
+      <div class="bx-faq-item"><h3>Why are my Predictions almost 100 percent correct?</h3><p>Usually because you are predicting rows the model was trained on. CBSE's penguins test file repeats the training penguins, so it will look near perfect. The honest measure is Test and Score on the data held back by Data Sampler.</p></div>
+      <div class="bx-faq-item"><h3>Is Orange practice part of your regular classes?</h3><p>Yes. Each use case is built live and then rebuilt on fresh data in the batch or one to one, all covered by the monthly fee shown on this page in your own currency. There is no admission fee and the first class is a free demo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Build a free Orange workflow with a teacher</h2>
+        </div>
+        <p>In the free first class your child builds the penguins workflow with the teacher, from File to Predictions, and explains what three of the widgets do. You will see how the practical is prepared, and the mentor will tell you plainly which parts of the practical need work and whether the batch or one to one suits your child.</p>
+        <p>Want to see how the practical units fit the full subject first? Read <a class="bx-link" href="/cbse-class-10-ai-syllabus-explained">the 417 syllabus explained</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20help%20with%20Orange%20Data%20Mining%20for%20CBSE%20Class%2010%20AI%20417." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-cb16-parent">Parent's name</label><input id="bx-cb16-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-cb16-phone">Phone or WhatsApp</label><input id="bx-cb16-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-cb16-email">Email</label><input id="bx-cb16-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-cb16-format">Preferred format</label>
+              <select id="bx-cb16-format" name="format" required>
+                <option value="group">Mon and Wed 9 PM group batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-cb16-child">Student's name and school (optional)</label><input id="bx-cb16-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>CBSE Class 10 AI</h4><ul><li><a href="/cbse-class-10-ai-classes-online">The Mon and Wed batch</a></li><li><a href="/cbse-class-10-ai-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mocks</a></li><li><a href="/cbse-class-10-ai-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>CBSE 417 &middot; Orange Data Mining for Class 10 AI</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'orange-data-mining-class-10-ai', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'orange-data-mining-class-10-ai', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=5d83c35fbe"></script>
+    <script src="/js/international-pricing.js?v=73c0675aaf"></script>
+</body>
+</html>

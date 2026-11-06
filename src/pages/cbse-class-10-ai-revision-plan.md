@@ -38,7 +38,7 @@ A plan row is done when something is on paper: a set of answers, a worked numeri
 
 ## AI class 10 last 30 days: the day-by-day plan
 
-Each day has a main block of about 60 minutes and a short block of about 20, so AI takes 80 minutes alongside your other subjects, about 40 hours in all. Days 1 to 17 are the first round, days 18 to 26 are papers and the second round, and the last four days are for consolidation.
+Each day has a main block of about 60 minutes and a short block of about 20, so AI takes 80 minutes alongside your other subjects, about 40 hours in all. Days 1 to 17 are the first round, days 18 to 26 are papers and the second round, and the last four days are for consolidation. For the AI paper on Wednesday 24 February 2027 (CBSE date sheet released 6 November 2026), day 1 is Monday 25 January and day 30 is Tuesday 23 February.
 
 - Day | Main block, about 60 minutes | Short block, about 20 minutes | On paper by bedtime
 
@@ -106,7 +106,7 @@ If your school practical exam is already over, swap the lab programs on days 1 t
 
 ## How to revise AI in 1 week: the 7-day plan
 
-With a week left, revise in mark order and write two full papers. The table assumes about four to five hours a day for AI, the kind of gap a date sheet sometimes leaves before a paper; with less, keep the morning blocks and the two papers, and shorten the rest.
+With a week left, revise in mark order and write two full papers. The table assumes about four to five hours a day for AI, the kind of gap a date sheet sometimes leaves before a paper. In 2027 it does not: counting back from 24 February, 7 days left is Wednesday 17 February, the Mathematics paper, and Science falls on 22 February. So keep the morning blocks and the two papers on the free days, and shorten the rest.
 
 - Day | Morning, 2 hours | Afternoon, 1.5 to 2 hours | Evening, 1 hour
 
@@ -137,7 +137,7 @@ Fresh numericals for day 4 are on [confusion matrix numericals](/confusion-matri
 
 ## The 1-day revision plan for the day before the AI paper
 
-The day before is for recall and confidence, not new topics. Last year the AI paper ran from 10:30 AM; the 2027 timing will be in the CBSE date sheet, so set your sleep to the published hour.
+The day before is for recall and confidence, not new topics. The CBSE date sheet released 6 November 2026 puts the AI paper on Wednesday 24 February 2027 at 10:30 AM IST, so the day before is Tuesday 23 February; set your sleep to that hour.
 
 - Time | Do this
 
@@ -253,15 +253,15 @@ Rated 4.9 across 547 Google reviews. Teaching since 2020, more than 10,000 stude
 
 ## More pages in this series
 
-**Classes, tuition and batches:** [The Mon and Wed 9 PM AI batch](/cbse-class-10-ai-classes-online), [CBSE AI classes in the Gulf and abroad](/cbse-class-10-ai-online-classes-gulf-and-abroad), [Live doubt classes](/cbse-class-10-ai-doubt-classes), [Class 10 AI tuition online](/cbse-class-10-ai-tuition), [Class 10 AI crash course](/cbse-class-10-ai-crash-course), [1-on-1 private AI tutor](/cbse-class-10-ai-private-tutor), [AI tuition in Delhi](/class-10-ai-tuition-delhi), [AI tuition in Gurgaon](/class-10-ai-tuition-gurgaon), [AI tuition in Noida](/class-10-ai-tuition-noida), [AI tuition in Bangalore](/class-10-ai-tuition-bangalore).
+**Classes, tuition and batches:** [The Mon and Wed 9 PM AI batch](/cbse-class-10-ai-classes-online), [CBSE AI classes in the Gulf and abroad](/cbse-class-10-ai-online-classes-gulf-and-abroad), [Live doubt classes](/cbse-class-10-ai-doubt-classes), [Class 10 AI tuition online](/cbse-class-10-ai-tuition), [Class 10 AI crash course](/cbse-class-10-ai-crash-course), [1-on-1 private AI tutor](/cbse-class-10-ai-private-tutor), [AI tuition in Delhi](/class-10-ai-tuition-delhi), [AI tuition in Gurgaon](/class-10-ai-tuition-gurgaon), [AI tuition in Noida](/class-10-ai-tuition-noida), [AI tuition in Bangalore](/class-10-ai-tuition-bangalore), [AI tuition in Pune](/class-10-ai-tuition-pune).
 
 **Unit by unit:** [CBSE AI 417 syllabus explained](/cbse-class-10-ai-syllabus-explained), [Python for Class 10 AI](/python-for-cbse-class-10-ai), [Part A employability skills](/cbse-class-10-ai-employability-skills-part-a), [Unit 3: Evaluating Models](/cbse-class-10-ai-evaluating-models-questions), [Confusion matrix numericals](/confusion-matrix-class-10-ai-numericals), [Unit 2: Advanced modeling](/cbse-class-10-ai-advanced-modeling-questions), [Unit 6: Natural Language Processing](/cbse-class-10-ai-nlp-questions), [Bag of Words and TFIDF, worked](/bag-of-words-tfidf-class-10-ai), [Unit 5: Computer Vision](/cbse-class-10-ai-computer-vision-questions), [Orange Data Mining for Class 10 AI](/orange-data-mining-class-10-ai), [Unit 1: Project cycle and ethics](/cbse-class-10-ai-project-cycle-and-ethics).
 
 **Questions and practice:** [CBSE AI important questions](/cbse-class-10-ai-important-questions), [Sample paper and mock tests](/cbse-class-10-ai-sample-paper-and-mock-tests), [Class 10 AI MCQ, unit wise](/cbse-class-10-ai-mcq-questions), [Previous year papers, solved](/cbse-class-10-ai-previous-year-question-papers), [AI practical and project viva](/cbse-class-10-ai-viva-questions), [Case based questions](/cbse-class-10-ai-case-based-questions), [Employability skills MCQ](/employability-skills-class-10-mcq), [Difference between questions](/cbse-class-10-ai-difference-between-questions), [Assertion and reason questions](/cbse-class-10-ai-assertion-reason-questions).
 
-**Notes and revision:** [Class 10 AI notes, unit wise](/cbse-class-10-ai-notes), [Class 10 AI one shot revision](/cbse-class-10-ai-one-shot-revision), [Worksheets with answers](/cbse-class-10-ai-worksheets), [AI handbook exercise answers](/cbse-class-10-ai-textbook-solutions), [Best book for Class 10 AI](/best-book-for-cbse-class-10-ai), [Formula sheet](/cbse-class-10-ai-formula-sheet).
+**Notes and revision:** [Class 10 AI notes, unit wise](/cbse-class-10-ai-notes), [Class 10 AI one shot revision](/cbse-class-10-ai-one-shot-revision), [Worksheets with answers](/cbse-class-10-ai-worksheets), [AI handbook exercise answers](/cbse-class-10-ai-textbook-solutions), [Best book for Class 10 AI](/best-book-for-cbse-class-10-ai), [Formula sheet](/cbse-class-10-ai-formula-sheet), [Class 10 AI notes in Hindi](/cbse-class-10-ai-notes-in-hindi).
 
-**Exam, marks and practicals:** [CBSE AI board exam preparation](/cbse-class-10-ai-board-exam-preparation), [AI project and practical file](/cbse-class-10-ai-project-and-practical-file), [Exam date 2027 and paper pattern](/cbse-class-10-ai-exam-date-and-paper-pattern), [AI practical exam questions](/cbse-class-10-ai-practical-exam-questions), [Paper analysis and answer key](/cbse-class-10-ai-paper-analysis), [AI project ideas](/cbse-class-10-ai-project-ideas), [Passing marks](/cbse-class-10-ai-passing-marks), [The second board exam in May](/cbse-class-10-ai-second-board-exam).
+**Exam, marks and practicals:** [CBSE AI board exam preparation](/cbse-class-10-ai-board-exam-preparation), [AI project and practical file](/cbse-class-10-ai-project-and-practical-file), [Exam date 2027 and paper pattern](/cbse-class-10-ai-exam-date-and-paper-pattern), [AI practical exam questions](/cbse-class-10-ai-practical-exam-questions), [Paper analysis and answer key](/cbse-class-10-ai-paper-analysis), [Marking scheme, explained](/cbse-class-10-ai-marking-scheme), [AI project ideas](/cbse-class-10-ai-project-ideas), [Passing marks](/cbse-class-10-ai-passing-marks), [The second board exam in May](/cbse-class-10-ai-second-board-exam).
 
 **Choosing the subject:** [AI 417 or IT 402?](/ai-417-vs-it-402-class-10), [AI, IT or Computer Applications?](/ai-vs-computer-applications-class-10).
 

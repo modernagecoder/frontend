@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Data Types in Java ICSE Class 10: Casting and Scanner 2027</title>
+  <meta name="description" content="Data types in Java for ICSE Class 10: the primitive type table, implicit and explicit type casting with results, Scanner methods and the nextLine pitfall.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/icse-class-10-data-types-and-input-java">
+  <link rel="alternate" type="text/markdown" href="/src/pages/icse-class-10-data-types-and-input-java.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#7A4A1E">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/icse-class-10-data-types-and-input-java">
+  <meta property="og:title" content="Data Types in Java for ICSE Class 10, Casting and Scanner Input">
+  <meta property="og:description" content="All eight primitive types with size, range and default value, literals and escape sequences, implicit and explicit type conversion with sixteen worked results, every Scanner method in the syllabus, and the nextInt then nextLine pitfall with its fix. All run in Java 21.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Data Types in Java for ICSE Class 10, Casting and Scanner Input">
+  <meta name="twitter:description" content="Primitive types, implicit and explicit casting, Scanner methods and the nextLine pitfall for ICSE Class 10 Java, all run in Java.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          },
+          {
+            "@type": "Country",
+            "name": "Thailand"
+          }
+        ],
+        "knowsAbout": [
+          "ICSE Computer Applications",
+          "Java",
+          "BlueJ",
+          "CISCE ICSE Class 10 Examination",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-data-types-and-input-java#article",
+        "headline": "Data Types in Java for ICSE Class 10: Primitive Types, Type Casting and Scanner Input for 2027",
+        "description": "All eight primitive types with size, range and default value, literals and escape sequences, implicit and explicit type conversion with sixteen worked results, every Scanner method in the syllabus, and the nextInt then nextLine pitfall with its fix. All run in Java 21.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-11-06",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/icse-class-10-data-types-and-input-java"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-data-types-and-input-java#course",
+        "name": "ICSE Class 10 Computer Applications (Java) Data Types, Type Conversion and Input Practice, Live Online",
+        "description": "Live online practice of values and data types and input in Java for ICSE Class 10 Computer Applications in the 2027 examination: the eight primitive types, literals and escape sequences, implicit and explicit type conversion, overflow, and reading input with the Scanner class including the nextLine pitfall, each worked on paper and then run in BlueJ, in a Tuesday and Wednesday evening mini batch in India or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/icse-class-10-data-types-and-input-java",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "2999",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, mini batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": [
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Tuesday"
+              ],
+              "startTime": "17:30",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-data-types-and-input-java"
+            }
+          },
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Wednesday"
+              ],
+              "startTime": "20:00",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-data-types-and-input-java"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ICSE Class 10 Java classes",
+            "item": "https://learn.modernagecoders.com/icse-class-10-java-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Data types and input",
+            "item": "https://learn.modernagecoders.com/icse-class-10-data-types-and-input-java"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How many data types are there in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Java has eight primitive data types: byte, short, int, long, float, double, char and boolean. Besides these there are non-primitive, or reference, types such as String, arrays and classes, which hold a reference to an object rather than the value itself. ICSE expects the eight primitive types with their sizes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between primitive and non-primitive data types?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Primitive types are built into Java, store the value directly and have a fixed size, such as int at 32 bits. Non-primitive types, such as String, arrays and class types, are created from classes, store a reference to an object, can be null, and can have methods called on them."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is implicit type conversion in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Implicit conversion, also called coercion or widening, is the automatic change of a smaller type into a larger one when they meet in an expression or assignment. For example, an int added to a double is converted to double first, so 7 + 2.5 gives 9.5. No data is lost, so Java does it without being asked."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is explicit type casting in Java with an example?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Explicit casting is a conversion the programmer writes by putting the target type in brackets before a value. (int) 9.99 gives 9, because the fraction is cut off, and (char) 66 gives B. It is needed whenever a value moves to a smaller type, such as double to int, since data may be lost."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the size of char in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "char is 16 bits, which is 2 bytes, because Java stores characters in Unicode. It holds codes from 0 to 65535. This differs from languages that use 1 byte for a character, and ICSE questions sometimes test exactly that difference."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which Scanner method is used to input a character in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scanner has no nextChar method. The usual way is sc.next().charAt(0), which reads the next word as a String and keeps its first character. If the user types more than one character, only the first is kept, so B+ would give B."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between next() and nextLine()?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "next() reads one word: it skips leading spaces and stops at the next space or line end. nextLine() reads the whole rest of the current line, spaces included, and then moves past the line end. Use next() for one word such as a city and nextLine() for a full name or a sentence."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is nextLine() skipped after nextInt()?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "nextInt() reads the number but leaves the line end from the Enter key in the input. The next nextLine() reads up to that line end at once and returns an empty String, so it looks as if the input was skipped. Call sc.nextLine() once more after nextInt() to use up the leftover line end."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the default value of a variable in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Instance variables and array elements get defaults: 0 for whole-number types, 0.0 for float and double, the character with code 0 for char, false for boolean and null for String and other references. Local variables inside a method get no default and must be assigned before use, or the program will not compile."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you teach data types and Scanner input in the live ICSE classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The mini batch drills result types and casts in timed sets every Tuesday at 5:30 PM IST and writes a Scanner input program every Wednesday at 8:00 PM IST, with every answer run in BlueJ on a shared screen. Students who need gaps filled from Class 9 can take personalised one to one classes."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-ic37 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">ICSE CA &middot; Data types</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#primitive">Data types</a>
+      <a href="#casting">Type casting</a>
+      <a href="#scanner">Scanner</a>
+      <a href="#nextline">nextLine pitfall</a>
+      <a href="#fees">Batch or 1-on-1</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> <span>/</span> <span>Data types and input</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">ICSE Class 10 &middot; Computer Applications (Java) &middot; Values, data types and input 2027</p>
+        <h1>Data types in Java for ICSE Class 10, with casting and Scanner input.</h1>
+        <p class="bx-lede">Data types in Java for ICSE Class 10 decide what a variable can hold, how much memory it takes and what an expression gives back. Questions on them run through the whole paper: name the type of a literal, state the result type of a mixed expression, cast a value, or read input with Scanner. This page has the primitive table with ranges, sixteen conversions worked to their result, the Scanner method table and the one input bug that catches nearly every student. Everything was run in Java 21, and our live mini batch drills it in BlueJ.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20practice%20of%20data%20types%2C%20type%20casting%20and%20Scanner%20input%20for%20ICSE%20Class%2010." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'ic37'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; 8 primitive types &middot; 16 casts worked &middot; Scanner methods &middot; the nextLine pitfall fixed &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When types and input are drilled">
+        <p class="bx-tt-title"><span>Type drills</span><b>ICSE CA</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Tuesday, result-type and casting sets</span><span class="bx-tt-time">5:30<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, programs with Scanner input</span><span class="bx-tt-time">8:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Primitive types in the table</span><span class="bx-tt-time">8<small>types</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Every cast checked in</span><span class="bx-tt-time">BlueJ<small>live</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/icse-computer-applications-java-bluej-course">ICSE Class 10 Computer Applications, Java with BlueJ, Live</a></p>
+          <a class="bx-offer-opt" href="#fees" data-india-only="true"><span class="bx-offer-k">Mini batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.miniBatch">₹2,999</span><small>/month</small></span><span class="bx-offer-v">Tue 5:30 PM and Wed 8:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>India:</b> both evenings above, in a group of up to six. <b>Abroad:</b> private classes only, timed for when school ends where your child lives, from Muscat to Jakarta.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Widening is automatic</span>
+          <span class="bx-stamp">Narrowing needs a cast</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Courses that teach types and input properly</h2>
+      <p class="bx-lede">Three routes: our ICSE Computer Applications batch, which drills types, casts and Scanner input every week; ISC-level Computer Science for the years after the board; and data structures for a student who wonders how values sit in memory.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/icse-computer-applications-java-bluej-course">
+        <div class="bx-pick-shot"><img src="/images/java-teens.webp" alt="ICSE Computer Applications Java with BlueJ course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / ICSE CA</p>
+          <h3>ICSE Computer Applications, Java with BlueJ</h3>
+          <p>Our small-group ICSE course, in which every result type is guessed on paper first and every input program is typed into BlueJ and run.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+        <div class="bx-pick-shot"><img src="/images/ip-cs-class-11-12.webp" alt="Computer Science Class 11 and 12 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Next step / ISC</p>
+          <h3>Computer Science Class 11 and 12</h3>
+          <p>Two more years of Java after Class 10, where a wrong type in a long program costs far more time to trace.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="bx-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures and Algorithms course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Beyond the syllabus / DSA</p>
+          <h3>Data Structures and Algorithms</h3>
+          <p>Memory, arrays and how a choice between int and long changes what a program can handle.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>Java has eight primitive data types: byte, short, int and long for whole numbers, float and double for decimals, char for one character and boolean for true or false. String, arrays and objects are non-primitive types. In a mixed expression Java widens the smaller type itself (implicit conversion, or coercion); moving to a smaller type needs an explicit cast, so (int) 9.99 gives 9. ICSE input uses the Scanner class, where nextLine straight after nextInt returns an empty String. Our ICSE mini batch practises all of it on Tuesday and Wednesday evenings in India, with one to one classes for any other time.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="primitive">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. What are the data types in Java?</p>
+      <h2>Values and data types ICSE: the eight primitive types</h2>
+      <p class="bx-lede">A data type tells Java what kind of value a variable holds, how much memory it uses and which operations are allowed. The ranges and default values below were printed by Java itself from each type's MIN_VALUE and MAX_VALUE constants and from unassigned fields.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Type</th><th scope="col">Holds</th><th scope="col">Size</th><th scope="col">Range</th><th scope="col">Default</th><th scope="col">Literal</th></tr></thead>
+        <tbody>
+          <tr><td><code>byte</code></td><td>Small whole number</td><td>8 bits</td><td>-128 to 127</td><td class="bx-num">0</td><td>None; <code>byte b = 12;</code> works</td></tr>
+          <tr><td><code>short</code></td><td>Whole number</td><td>16 bits</td><td>-32768 to 32767</td><td class="bx-num">0</td><td>None; <code>short s = 900;</code> works</td></tr>
+          <tr><td><code>int</code></td><td>Whole number</td><td>32 bits</td><td>-2147483648 to 2147483647</td><td class="bx-num">0</td><td><code>425</code></td></tr>
+          <tr><td><code>long</code></td><td>Large whole number</td><td>64 bits</td><td>About &plusmn;9.22 x 10<sup>18</sup></td><td class="bx-num">0</td><td><code>3000000000L</code></td></tr>
+          <tr><td><code>float</code></td><td>Decimal, about 7 digits</td><td>32 bits</td><td>Up to about 3.4 x 10<sup>38</sup></td><td class="bx-num">0.0</td><td><code>2.75f</code></td></tr>
+          <tr><td><code>double</code></td><td>Decimal, about 15 digits</td><td>64 bits</td><td>Up to about 1.8 x 10<sup>308</sup></td><td class="bx-num">0.0</td><td><code>2.75</code></td></tr>
+          <tr><td><code>char</code></td><td>One Unicode character</td><td>16 bits</td><td>Codes 0 to 65535</td><td>Code 0</td><td><code>'k'</code></td></tr>
+          <tr><td><code>boolean</code></td><td>true or false</td><td>Not fixed in bits by Java</td><td>true, false</td><td class="bx-num">false</td><td><code>true</code></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">Default values apply to instance variables and array elements only. A local variable inside a method has no default, which is why using one before giving it a value does not compile. String, arrays and class objects are non-primitive (reference) types: their default is null.</p>
+    <h3 class="bx-mt-40">Literals and escape sequences</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Literal</th><th scope="col">Type</th><th scope="col">Escape sequence</th><th scope="col">Meaning</th></tr></thead>
+        <tbody>
+          <tr><td><code>64</code>, <code>-3</code></td><td>int (integer literal)</td><td><code>\n</code></td><td>New line</td></tr>
+          <tr><td><code>64L</code></td><td>long</td><td><code>\t</code></td><td>Horizontal tab</td></tr>
+          <tr><td><code>6.4</code>, <code>6.4e2</code></td><td>double (real literal)</td><td><code>\\</code></td><td>One backslash</td></tr>
+          <tr><td><code>6.4f</code></td><td>float</td><td><code>\"</code></td><td>Double quote inside a String</td></tr>
+          <tr><td><code>'6'</code></td><td>char (character literal)</td><td><code>\'</code></td><td>Single quote</td></tr>
+          <tr><td><code>"6"</code></td><td>String (string literal)</td><td colspan="2">Run: <code>System.out.println("A\tB\\C\"D\'E");</code> printed A, a tab, then B\C"D'E</td></tr>
+          <tr><td><code>true</code>, <code>false</code></td><td>boolean literals (the word null is the null literal)</td><td colspan="2">An escape sequence counts as one character: <code>'\n'</code> is a single char</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="casting">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. What is implicit and explicit type casting in Java?</p>
+      <h2>Implicit and explicit type casting ICSE, worked to the result</h2>
+      <p class="bx-lede">Implicit conversion (coercion, or widening) is done by Java on its own when a smaller type meets a larger one. Explicit conversion (type casting, or narrowing) is written by the programmer as (type) value and may lose data. The widening order is byte, short, int, long, float, double, with char widening to int.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Code</th><th scope="col">Result (run)</th><th scope="col">Kind and reason</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><code>int a = 7; double x = 2.5;</code><br><code>a + x</code></td><td class="bx-num">9.5</td><td>Implicit: int widened to double</td></tr>
+          <tr><td>2</td><td><code>char ch = 'A';</code><br><code>ch + 3</code></td><td class="bx-num">68</td><td>Implicit: char widened to int, code 65 plus 3</td></tr>
+          <tr><td>3</td><td><code>short s1 = 10, s2 = 20;</code><br><code>int sum = s1 + s2;</code></td><td class="bx-num">30</td><td>Implicit: short arithmetic is done in int</td></tr>
+          <tr><td>4</td><td><code>byte p = 10, q = 20;</code><br><code>byte r = p + q;</code></td><td>Does not compile</td><td>javac: <code>possible lossy conversion from int to byte</code>; write <code>(byte) (p + q)</code></td></tr>
+          <tr><td>5</td><td><code>10 / 4 * 4.0</code></td><td class="bx-num">8.0</td><td>10 / 4 is int 2 first; only then widened for * 4.0</td></tr>
+          <tr><td>6</td><td><code>5 / 2.0f</code></td><td class="bx-num">2.5</td><td>Implicit: int widened to float</td></tr>
+          <tr><td>7</td><td><code>float ff = 1.1f;</code><br><code>double dd = ff;</code></td><td class="bx-num">1.100000023841858</td><td>Implicit widening keeps float's slightly inexact value</td></tr>
+          <tr><td>8</td><td><code>(int) 9.99</code> and <code>(int) -9.99</code></td><td class="bx-num">9 and -9</td><td>Explicit: the fraction is cut off, never rounded</td></tr>
+          <tr><td>9</td><td><code>(int) 7.5</code> and <code>Math.round(7.5)</code></td><td class="bx-num">7 and 8</td><td>A cast truncates; round rounds</td></tr>
+          <tr><td>10</td><td><code>(char) 66</code> and <code>(int) 'z'</code></td><td class="bx-num">B and 122</td><td>Explicit: between a code and its character</td></tr>
+          <tr><td>11</td><td><code>(byte) 200</code></td><td class="bx-num">-56</td><td>Explicit narrowing out of range wraps round: 200 minus 256</td></tr>
+          <tr><td>12</td><td><code>double avg = (double) (17 + 18) / 2;</code></td><td class="bx-num">17.5</td><td>Explicit: the cast makes 35 a double before the division</td></tr>
+          <tr><td>13</td><td><code>char cc = 'A' + 2;</code></td><td class="bx-num">C</td><td>Allowed: a constant that fits in char needs no cast</td></tr>
+          <tr><td>14</td><td><code>'a' + 'b'</code> and <code>"" + 'a' + 'b'</code></td><td class="bx-num">195 and ab</td><td>Two chars add as ints (97 + 98); a String first makes them join</td></tr>
+          <tr><td>15</td><td><code>int big = 2147483647;</code><br><code>big = big + 1;</code></td><td class="bx-num">-2147483648</td><td>Overflow: past the int maximum the value wraps to the minimum, with no error</td></tr>
+          <tr><td>16</td><td><code>86400 * 1000 * 365</code> and <code>86400L * 1000 * 365</code></td><td class="bx-num">1471228928 and 31536000000</td><td>Milliseconds in a year overflow int; one L makes the whole product long</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      Writing <code>long n = 3000000000;</code> without the L does not even compile: javac says <code>integer number too large</code>, because a plain whole-number literal is an int. The return type of each Math method, which decides many of these results, is on
+      <a class="bx-link" href="/icse-class-10-math-library-methods">Math library methods for ICSE Class 10</a>, and how the operators combine types is on
+      <a class="bx-link" href="/icse-class-10-operators-in-java">operators in Java for ICSE Class 10</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="scanner">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. How do you take input in Java using the Scanner class?</p>
+      <h2>Scanner class input ICSE: every method and what it reads</h2>
+      <p class="bx-lede">Import java.util.Scanner (or java.util.*), create one object with new Scanner(System.in), print a prompt, then call the method that matches the type you want. Each next method skips leading spaces and reads one token; nextLine reads everything up to the end of the line.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Method</th><th scope="col">Returns</th><th scope="col">Reads</th><th scope="col">If the input does not fit</th></tr></thead>
+        <tbody>
+          <tr><td><code>nextInt()</code></td><td>int</td><td>One whole-number token</td><td>InputMismatchException</td></tr>
+          <tr><td><code>nextLong()</code>, <code>nextShort()</code>, <code>nextByte()</code></td><td>long, short, byte</td><td>One whole-number token in that type's range</td><td>InputMismatchException</td></tr>
+          <tr><td><code>nextDouble()</code>, <code>nextFloat()</code></td><td>double, float</td><td>One number token; 12 is read as 12.0</td><td>InputMismatchException</td></tr>
+          <tr><td><code>nextBoolean()</code></td><td>boolean</td><td>The token true or false, in any case</td><td>InputMismatchException</td></tr>
+          <tr><td><code>next()</code></td><td>String</td><td>One word: stops at a space</td><td>Always works on text</td></tr>
+          <tr><td><code>nextLine()</code></td><td>String</td><td>The rest of the current line, spaces included</td><td>Returns "" if only the line end is left</td></tr>
+          <tr><td><code>next().charAt(0)</code></td><td>char</td><td>The first character of the next word</td><td>There is no nextChar() method</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Six methods, one input</b><span>next against nextLine</span></figcaption>
+  <pre>Scanner sc = new Scanner(System.in);
+String first = sc.next();
+String rest = sc.nextLine();
+char grade = sc.next().charAt(0);
+double fee = sc.nextDouble();
+boolean paid = sc.nextBoolean();
+long phone = sc.nextLong();
+
+<i>// Input line 1: Ananya Rao Kumar</i>
+<i>// Input line 2: B+ 1250.75 true 9876543210</i>
+<i>// first = [Ananya]  rest = [ Rao Kumar]</i>
+<i>// grade = [B]  fee = [1250.75]</i>
+<i>// paid = [true]  phone = [9876543210]</i></pre>
+  <p class="bx-code-note">next stopped at the first space; nextLine took the rest, including its leading space. charAt(0) kept only B from the token B+. A ten-digit phone number needs nextLong, since it is beyond the int range.</p>
+</figure>
+      <div class="bx-table-wrap">
+        <table class="bx-table">
+          <thead><tr><th scope="col">To read</th><th scope="col">Use</th></tr></thead>
+          <tbody>
+            <tr><td>Marks, age, count</td><td><code>nextInt()</code></td></tr>
+            <tr><td>Price, percentage, radius</td><td><code>nextDouble()</code></td></tr>
+            <tr><td>Phone or account number</td><td><code>nextLong()</code></td></tr>
+            <tr><td>One word, such as a city</td><td><code>next()</code></td></tr>
+            <tr><td>A full name or sentence</td><td><code>nextLine()</code></td></tr>
+            <tr><td>A grade or menu letter</td><td><code>next().charAt(0)</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p class="bx-mt-40">
+      Values can also reach a program through initialisation in the code or as method parameters, which BlueJ asks for in a dialog box when the method is called. Converting a String that was read into a number uses the parse methods covered on
+      <a class="bx-link" href="/icse-class-10-wrapper-and-library-classes">wrapper and library classes for ICSE Class 10</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="nextline">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. Why does nextLine() skip input after nextInt()?</p>
+      <h2>The nextLine pitfall: why the text comes back empty, and the fix</h2>
+      <p class="bx-lede">nextInt reads the digits but leaves the Enter key, the line end, waiting in the input. The nextLine that follows finds that line end straight away and returns an empty String, so the program never waits for the text. Add one extra nextLine() call after nextInt to use up the leftover line end.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Faulty</b><span>the name is skipped</span></figcaption>
+  <pre>import java.util.Scanner;
+
+public class Pitfall2 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Flat number: ");
+        int flat = in.nextInt();
+        System.out.print("Society: ");
+        String society = in.nextLine();
+        System.out.println(flat + ", " + society + ".");
+    }
+}
+<i>// Typed: 402, Enter, Green Meadows, Enter</i>
+<i>// Printed: 402, .</i></pre>
+  <p class="bx-code-note">The program printed the second prompt and finished at once: society is the empty String left over from the first line.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Fixed</b><span>one extra line</span></figcaption>
+  <pre>import java.util.Scanner;
+
+public class Fixed2 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Flat number: ");
+        int flat = in.nextInt();
+        in.nextLine();
+        System.out.print("Society: ");
+        String society = in.nextLine();
+        System.out.println(flat + ", " + society + ".");
+    }
+}
+<i>// Typed: 402, Enter, Green Meadows, Enter</i>
+<i>// Printed: 402, Green Meadows.</i></pre>
+  <p class="bx-code-note">The lone in.nextLine() reads and throws away the line end after 402, so the next call waits for the society name.</p>
+</figure>
+    </div>
+    <h3 class="bx-mt-40">A Section B input program that avoids the pitfall</h3>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Name first, numbers after</b><span>marks, percentage and band</span></figcaption>
+  <pre>import java.util.Scanner;
+
+public class Report {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Name: ");
+        String name = sc.nextLine();
+        System.out.print("Marks in 5 subjects: ");
+        int total = 0;
+        for (int k = 1; k &lt;= 5; k++)
+            total += sc.nextInt();
+        double percent = total / 5.0;
+        int rounded = (int) Math.round(percent);
+        char band = percent &gt;= 90 ? 'A' : percent &gt;= 75 ? 'B' : 'C';
+        System.out.println(name + ": total " + total + ", "
+            + percent + "%, rounded " + rounded + ", band " + band);
+    }
+}
+<i>// Input: Ishaan Mehta / 88 92 79 95 82</i>
+<i>// Ishaan Mehta: total 436, 87.2%, rounded 87, band B</i></pre>
+  <p class="bx-code-note">Reading the full name before any number sidesteps the pitfall entirely. Two casts appear: 5.0 makes the percentage a double, and (int) turns the long from Math.round into an int.</p>
+</figure>
+      <div class="bx-table-wrap">
+        <table class="bx-table">
+          <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Purpose</th></tr></thead>
+          <tbody>
+            <tr><td><code>name</code></td><td>String</td><td>Full name, read with nextLine</td></tr>
+            <tr><td><code>total</code></td><td>int</td><td>Sum of the five marks</td></tr>
+            <tr><td><code>k</code></td><td>int</td><td>Loop counter, 1 to 5</td></tr>
+            <tr><td><code>percent</code></td><td>double</td><td>Average, with decimals kept</td></tr>
+            <tr><td><code>rounded</code></td><td>int</td><td>Percentage to the nearest whole number</td></tr>
+            <tr><td><code>band</code></td><td>char</td><td>A, B or C from the percentage</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p class="bx-mt-40">
+      A wrong token typed into nextInt stops the program with InputMismatchException; that and other crashes are classified on
+      <a class="bx-link" href="/icse-class-10-java-error-finding-questions">ICSE Java error finding questions</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" style="font-variant-ligatures:none" id="sectiona">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. How are data types asked in Section A?</p>
+      <h2>Type conversion Java ICSE: the question shapes and how to answer</h2>
+      <p class="bx-lede">Section A is 40 compulsory marks of one-mark MCQs and two-mark parts, and this chapter supplies a steady share of both. The shapes repeat, so a fixed answer habit for each one is worth building.</p>
+    </div>
+    <div class="bx-grid-3">
+      <div class="bx-card"><h3>"Name the data type of"</h3><p>Look at the literal itself: a decimal point means double unless it ends in f; single quotes mean char; double quotes mean String, even for one letter or a digit.</p></div>
+      <div class="bx-card"><h3>"State the result type"</h3><p>Find the largest type in the expression after char, byte and short have become int. That type is the answer, and the value must be written in it: 8.0, not 8.</p></div>
+      <div class="bx-card"><h3>"Implicit or explicit?"</h3><p>If you can see a (type) in brackets, it is explicit. If Java converts on its own because a smaller type met a bigger one, it is implicit, also called coercion or widening.</p></div>
+      <div class="bx-card"><h3>"Primitive or non-primitive?"</h3><p>The eight keywords in the table are primitive. String, arrays and classes are non-primitive, also called reference or composite types.</p></div>
+      <div class="bx-card"><h3>"Write the statement to input"</h3><p>Match the method to the type: a ten-digit number needs nextLong, a character needs next().charAt(0). Declare the variable in the same line.</p></div>
+      <div class="bx-card"><h3>"Size in bytes"</h3><p>Convert the bits: byte 1, short 2, int 4, long 8, float 4, double 8, char 2. Writing bits when bytes are asked is a common lost mark.</p></div>
+    </div>
+    <p class="bx-mt-40">
+      Mixed one-mark questions from every chapter are on
+      <a class="bx-link" href="/icse-computer-applications-mcq-questions">ICSE Computer Applications MCQ questions</a>, and the Class 9 chapters that this page revises are mapped on
+      <a class="bx-link" href="/icse-class-9-java-revision-for-class-10">Class 9 Java revision for Class 10</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="live">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. How are data types and input taught live?</p>
+      <h2>How the mini batch practises types, casts and input</h2>
+      <p class="bx-lede">Types are learnt by predicting a result type before running the code, and input is learnt by typing real values into real programs. The week is split that way.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>Tuesday: predict the type, then the value</h4><p>At 5:30 PM IST the batch gets a timed set of mixed expressions and casts. Each answer is written as a type and a value, such as "double, 8.0".</p></li>
+      <li class="bx-step"><h4>BlueJ checks each one live</h4><p>Every expression is run on a shared screen. A missing .0 or a wrongly rounded cast is spotted by the whole group, not just the student who wrote it.</p></li>
+      <li class="bx-step"><h4>Wednesday: input programs</h4><p>At 8:00 PM IST students write a Section B program that reads mixed input with Scanner. The nextLine pitfall is triggered on purpose once, so nobody meets it for the first time in an exam.</p></li>
+      <li class="bx-step"><h4>Variable lists every time</h4><p>Each program ends with a variable list of name, type and purpose, the habit the ICSE paper asks for in its instructions.</p></li>
+      <li class="bx-step"><h4>Full papers from December</h4><p>Timed two-hour mock papers then mix type and input questions into both sections, and each script is marked the way an ICSE examiner would mark it.</p></li>
+    </ol>
+    <p class="bx-mt-40">
+      Data types and input are the base for every program on
+      <a class="bx-link" href="/icse-class-10-java-programs-practice">ICSE Class 10 Java programs for practice</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Practise types and input in the mini batch, or one to one</h2>
+      <p class="bx-lede">What changes between the two formats is only the timing and the group. The type drills and input programs are identical. Families abroad are taught privately; families in India may choose. You pay month by month and there is no joining fee.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card" data-india-only="true">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Mini batch, Tuesday 5:30 PM and Wednesday 8 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Two fixed evenings: Tuesday 5:30 PM and Wednesday 8:00 PM IST</li><li>Never more than six students in the group</li><li>Timed result-type and casting sets each Tuesday</li><li>A Scanner input program written each Wednesday</li><li>Every cast and input run in BlueJ on screen</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>Days and hours you choose, wherever you live</li><li>Extra time on the conversions your child gets wrong</li><li>Their own input programs debugged with them</li><li>Class 9 gaps in this chapter filled first</li><li>The teachers and 2027 syllabus of the batch, at your pace</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
+    <p class="bx-mt-40">A student who joined ICSE Computer Applications late, or whose Class 9 basics are shaky, often needs a few one to one sessions on types and input before the rest of Class 10 makes sense. A student who is already comfortable and wants steady weekly practice across the paper is better served by the batch. Fees are shown in your own currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>Data types and input practice for ICSE students abroad</h2>
+      <p class="bx-lede">An ICSE school in the UAE or Singapore follows the same Computer Applications syllabus and paper, so the same type and input questions decide the same marks. Outside India the drills run one to one, after school in the student's own time zone.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Time difference</th><th scope="col">Usual class window, local time</th><th scope="col">Format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td>IST</td><td class="bx-num">Tue 5:30 PM, Wed 8:00 PM</td><td><span class="bx-fit">Mini batch or 1-on-1</span></td></tr>
+          <tr><td>United Arab Emirates<br><span class="bx-src">Dubai, Sharjah</span></td><td>1 h 30 min behind India</td><td class="bx-num">3:00 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Indonesia and Thailand<br><span class="bx-src">West Java, Bangkok area</span></td><td>1 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Singapore<br><span class="bx-src">Singapore</span></td><td>2 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The slot is agreed after the free demo and can move around school tests. How overseas classes run is described on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the ICSE Class 10 Computer Applications series, grouped by what you need: classes, each chapter, Section B programs, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a></li>
+          <li><a href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Java classes in the Gulf and abroad</a></li>
+          <li><a href="/icse-class-10-bluej-java-coaching">ICSE BlueJ Java coaching</a></li>
+          <li><a href="/icse-computer-applications-crash-course">ICSE computer crash course</a></li>
+          <li><a href="/icse-computer-tuition-kolkata">ICSE computer tuition in Kolkata</a></li>
+          <li><a href="/icse-computer-tuition-bangalore">ICSE computer tuition in Bangalore</a></li>
+          <li><a href="/icse-computer-tuition-mumbai">ICSE computer tuition in Mumbai</a></li>
+          <li><a href="/icse-computer-applications-private-tutor">1-on-1 private Java tutor</a></li>
+          <li><a href="/icse-computer-tuition-lucknow">ICSE computer tuition in Lucknow</a></li>
+          <li><a href="/icse-computer-tuition-pune">ICSE computer tuition in Pune</a></li>
+          <li><a href="/icse-computer-tuition-near-me">ICSE computer tuition near me</a></li>
+          <li><a href="/icse-computer-applications-small-batch-classes">The mini batch, explained</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Chapter by chapter</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a></li>
+          <li><a href="/icse-class-10-user-defined-methods-overloading">User-defined methods and overloading</a></li>
+          <li><a href="/icse-class-10-constructors-questions">Constructors</a></li>
+          <li><a href="/icse-class-10-wrapper-and-library-classes">Wrapper and library classes</a></li>
+          <li><a href="/icse-class-10-class-as-basis-of-computation">Class as the basis of all computation</a></li>
+          <li><a href="/icse-class-10-encapsulation-access-specifiers">Encapsulation and access specifiers</a></li>
+          <li><a href="/icse-class-10-math-library-methods">Math library methods</a></li>
+          <li><a href="/icse-class-10-operators-in-java">Operators and expressions</a></li>
+          <li><a href="/icse-class-10-loop-programs-java">Loops and loop conversion</a></li>
+          <li><a href="/icse-class-9-java-revision-for-class-10">Class 9 Java revision for Class 10</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Programs for Section B</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a></li>
+          <li><a href="/icse-class-10-string-programs">String programs</a></li>
+          <li><a href="/icse-special-number-programs-java">Special number programs</a></li>
+          <li><a href="/icse-class-10-sorting-and-searching-programs">Sorting and searching programs</a></li>
+          <li><a href="/icse-class-10-2d-array-programs">2D array programs</a></li>
+          <li><a href="/icse-class-10-pattern-programs-java">Pattern programs</a></li>
+          <li><a href="/icse-class-10-menu-driven-programs">Menu driven and switch case</a></li>
+          <li><a href="/icse-class-10-series-programs-java">Series programs</a></li>
+          <li><a href="/icse-class-10-slab-and-bill-programs">Slab and bill programs</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></li>
+          <li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mock tests</a></li>
+          <li><a href="/icse-computer-applications-previous-year-papers-solved">Previous year papers, solved</a></li>
+          <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
+          <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
+          <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+          <li><a href="/icse-class-10-java-error-finding-questions">Find the error questions</a></li>
+          <li><a href="/icse-computer-difference-between-questions">Difference between questions</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Notes and revision</h3>
+        <ul>
+          <li><a href="/icse-computer-applications-notes">Chapter-wise notes</a></li>
+          <li><a href="/icse-computer-applications-textbook-solutions-guide">Textbook solutions guide</a></li>
+          <li><a href="/icse-computer-applications-worksheets">Worksheets with answers</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and internal assessment</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-board-exam-preparation">ICSE board exam preparation</a></li>
+          <li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+          <li><a href="/icse-class-10-computer-applications-project-and-internal-assessment">Project and internal assessment</a></li>
+          <li><a href="/how-to-score-100-in-icse-computer-applications">How to score 100</a></li>
+          <li><a href="/icse-computer-applications-paper-analysis">Paper analysis and answer key</a></li>
+          <li><a href="/icse-computer-applications-vs-commercial-applications">Computer or Commercial Applications?</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>CBSE Class 10 AI (417):</b> <a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about data types and input</p>
+      <h2>What students ask about data types and Scanner input in ICSE Java</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>How many data types are there in Java?</h3><p>Java has eight primitive data types: byte, short, int, long, float, double, char and boolean. Besides these there are non-primitive, or reference, types such as String, arrays and classes, which hold a reference to an object rather than the value itself. ICSE expects the eight primitive types with their sizes.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between primitive and non-primitive data types?</h3><p>Primitive types are built into Java, store the value directly and have a fixed size, such as int at 32 bits. Non-primitive types, such as String, arrays and class types, are created from classes, store a reference to an object, can be null, and can have methods called on them.</p></div>
+      <div class="bx-faq-item"><h3>What is implicit type conversion in Java?</h3><p>Implicit conversion, also called coercion or widening, is the automatic change of a smaller type into a larger one when they meet in an expression or assignment. For example, an int added to a double is converted to double first, so 7 + 2.5 gives 9.5. No data is lost, so Java does it without being asked.</p></div>
+      <div class="bx-faq-item"><h3>What is explicit type casting in Java with an example?</h3><p>Explicit casting is a conversion the programmer writes by putting the target type in brackets before a value. (int) 9.99 gives 9, because the fraction is cut off, and (char) 66 gives B. It is needed whenever a value moves to a smaller type, such as double to int, since data may be lost.</p></div>
+      <div class="bx-faq-item"><h3>What is the size of char in Java?</h3><p>char is 16 bits, which is 2 bytes, because Java stores characters in Unicode. It holds codes from 0 to 65535. This differs from languages that use 1 byte for a character, and ICSE questions sometimes test exactly that difference.</p></div>
+      <div class="bx-faq-item"><h3>Which Scanner method is used to input a character in Java?</h3><p>Scanner has no nextChar method. The usual way is sc.next().charAt(0), which reads the next word as a String and keeps its first character. If the user types more than one character, only the first is kept, so B+ would give B.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between next() and nextLine()?</h3><p>next() reads one word: it skips leading spaces and stops at the next space or line end. nextLine() reads the whole rest of the current line, spaces included, and then moves past the line end. Use next() for one word such as a city and nextLine() for a full name or a sentence.</p></div>
+      <div class="bx-faq-item"><h3>Why is nextLine() skipped after nextInt()?</h3><p>nextInt() reads the number but leaves the line end from the Enter key in the input. The next nextLine() reads up to that line end at once and returns an empty String, so it looks as if the input was skipped. Call sc.nextLine() once more after nextInt() to use up the leftover line end.</p></div>
+      <div class="bx-faq-item"><h3>What is the default value of a variable in Java?</h3><p>Instance variables and array elements get defaults: 0 for whole-number types, 0.0 for float and double, the character with code 0 for char, false for boolean and null for String and other references. Local variables inside a method get no default and must be assigned before use, or the program will not compile.</p></div>
+      <div class="bx-faq-item"><h3>Do you teach data types and Scanner input in the live ICSE classes?</h3><p>Yes. The mini batch drills result types and casts in timed sets every Tuesday at 5:30 PM IST and writes a Scanner input program every Wednesday at 8:00 PM IST, with every answer run in BlueJ on a shared screen. Students who need gaps filled from Class 9 can take personalised one to one classes.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Book a free live class on data types and input</h2>
+        </div>
+        <p>In the free demo your child predicts the type and value of a few mixed expressions and casts, writes a short Scanner program with the mentor, and watches both run in BlueJ, including the nextLine pitfall and its fix. Afterwards you hear plainly which basics need work and whether the mini batch or one to one suits your child better.</p>
+        <p>Want more first? See <a class="bx-link" href="/icse-class-10-operators-in-java">operators in Java for ICSE Class 10</a> or <a class="bx-link" href="/icse-class-10-java-classes-online">the ICSE Class 10 Java classes</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20practice%20of%20data%20types%2C%20type%20casting%20and%20Scanner%20input%20for%20ICSE%20Class%2010." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic37-parent">Parent's name</label><input id="bx-ic37-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-ic37-phone">Phone or WhatsApp</label><input id="bx-ic37-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic37-email">Email</label><input id="bx-ic37-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-ic37-format">Preferred format</label>
+              <select id="bx-ic37-format" name="format" required>
+                <option value="mini">Tue 5:30 PM and Wed 8 PM mini batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-ic37-child">Student's name and school (optional)</label><input id="bx-ic37-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>ICSE Class 10 Computer Applications</h4><ul><li><a href="/icse-class-10-java-classes-online">The Tue and Wed batch</a></li><li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mocks</a></li><li><a href="/icse-class-10-computer-applications-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>ICSE Computer Applications &middot; Data types and input 2027</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'icse-class-10-data-types-and-input-java', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'icse-class-10-data-types-and-input-java', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=5d83c35fbe"></script>
+    <script src="/js/international-pricing.js?v=73c0675aaf"></script>
+</body>
+</html>

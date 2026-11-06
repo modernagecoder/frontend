@@ -12,9 +12,10 @@
 // calc.py and plan.py): Part A 20%, U1 14%, U2 22%, U3 20%, U5 8%, U6 16%; U2 + U3 =
 // 21 of 40 Part B marks (52.5%); first-round days 4, 4, 3, 2, 1, 2 = 16 and days per
 // mark 0.36, 0.40, 0.375, 0.29, 0.25, 0.20; daily minutes 60 + 20 = 80, x 30 = 40
-// hours; 7-day plan days 7 to 2 at 4.5 to 5 hours = 27 to 30 hours. The 10:30 AM paper start is the 2026
-// timing (exam-date page, verified 2026-10-13); 2027 timing is not published and the
-// page says so. No claim about practical dates beyond "set by your school".
+// hours; 7-day plan days 7 to 2 at 4.5 to 5 hours = 27 to 30 hours. 2027 timing from the
+// CBSE date sheet released 6 Nov 2026: AI 417 Wed 24 Feb 2027, 10:30 AM to 12:30 PM IST;
+// Maths 17 Feb, Science 22 Feb. python3: day 1 = Mon 25 Jan, day 30 = Tue 23 Feb,
+// "7 days left" = Wed 17 Feb. No claim about practical dates beyond "set by your school".
 'use strict';
 
 module.exports = {
@@ -100,7 +101,7 @@ module.exports = {
     <div class="bx-section-head">
       <p class="bx-qlabel">Plan 1. Thirty days out</p>
       <h2>AI class 10 last 30 days: the day-by-day plan</h2>
-      <p class="bx-lede">Each day has a main block of about 60 minutes and a short block of about 20, so AI takes 80 minutes alongside your other subjects, about 40 hours in all. Days 1 to 17 are the first round, days 18 to 26 are papers and the second round, and the last four days are for consolidation.</p>
+      <p class="bx-lede">Each day has a main block of about 60 minutes and a short block of about 20, so AI takes 80 minutes alongside your other subjects, about 40 hours in all. Days 1 to 17 are the first round, days 18 to 26 are papers and the second round, and the last four days are for consolidation. For the AI paper on Wednesday 24 February 2027 (CBSE date sheet released 6 November 2026), day 1 is Monday 25 January and day 30 is Tuesday 23 February.</p>
     </div>
     <div class="bx-table-wrap">
       <table class="bx-table">
@@ -148,7 +149,7 @@ module.exports = {
     <div class="bx-section-head">
       <p class="bx-qlabel">Plan 2. One week out</p>
       <h2>How to revise AI in 1 week: the 7-day plan</h2>
-      <p class="bx-lede">With a week left, revise in mark order and write two full papers. The table assumes about four to five hours a day for AI, the kind of gap a date sheet sometimes leaves before a paper; with less, keep the morning blocks and the two papers, and shorten the rest.</p>
+      <p class="bx-lede">With a week left, revise in mark order and write two full papers. The table assumes about four to five hours a day for AI, the kind of gap a date sheet sometimes leaves before a paper. In 2027 it does not: counting back from 24 February, 7 days left is Wednesday 17 February, the Mathematics paper, and Science falls on 22 February. So keep the morning blocks and the two papers on the free days, and shorten the rest.</p>
     </div>
     <div class="bx-table-wrap">
       <table class="bx-table">
@@ -178,7 +179,7 @@ module.exports = {
     <div class="bx-section-head">
       <p class="bx-qlabel">Plan 3. The day before</p>
       <h2>The 1-day revision plan for the day before the AI paper</h2>
-      <p class="bx-lede">The day before is for recall and confidence, not new topics. Last year the AI paper ran from 10:30 AM; the 2027 timing will be in the CBSE date sheet, so set your sleep to the published hour.</p>
+      <p class="bx-lede">The day before is for recall and confidence, not new topics. The CBSE date sheet released 6 November 2026 puts the AI paper on Wednesday 24 February 2027 at 10:30 AM IST, so the day before is Tuesday 23 February; set your sleep to that hour.</p>
     </div>
     <div class="bx-grid-2" style="align-items:start">
       <div class="bx-table-wrap">

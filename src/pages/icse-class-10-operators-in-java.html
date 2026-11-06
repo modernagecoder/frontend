@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Operators in Java ICSE Class 10: Increment Traps Solved</title>
+  <meta name="description" content="Operators in Java for ICSE Class 10: a++ + ++a questions evaluated step by step, the precedence table, the ternary operator and compound assignment.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/icse-class-10-operators-in-java">
+  <link rel="alternate" type="text/markdown" href="/src/pages/icse-class-10-operators-in-java.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#6B3A2A">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/icse-class-10-operators-in-java">
+  <meta property="og:title" content="Operators in Java for ICSE Class 10, Evaluated Step by Step">
+  <meta property="og:description" content="Every operator family in the ICSE Class 10 Java syllabus, with twelve increment and decrement questions worked one step at a time, a precedence and associativity table, ternary conversions, compound assignment and formulas written as Java expressions. All run in Java 21.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Operators in Java for ICSE Class 10, Evaluated Step by Step">
+  <meta name="twitter:description" content="Increment and decrement traps worked step by step, the precedence table and the ternary operator for ICSE Class 10 Java.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          },
+          {
+            "@type": "Country",
+            "name": "Thailand"
+          }
+        ],
+        "knowsAbout": [
+          "ICSE Computer Applications",
+          "Java",
+          "BlueJ",
+          "CISCE ICSE Class 10 Examination",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-operators-in-java#article",
+        "headline": "Operators in Java for ICSE Class 10: Increment and Decrement Questions, Precedence and the Ternary Operator for 2027",
+        "description": "Every operator family in the ICSE Class 10 Java syllabus, with twelve increment and decrement questions worked one step at a time, a precedence and associativity table, ternary conversions, compound assignment and formulas written as Java expressions. All run in Java 21.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-11-06",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/icse-class-10-operators-in-java"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-operators-in-java#course",
+        "name": "ICSE Class 10 Computer Applications (Java) Operators and Expressions Practice, Live Online",
+        "description": "Live online practice of operators and expressions for ICSE Class 10 Computer Applications in the 2027 examination: arithmetic, relational, logical, assignment, increment and decrement and ternary operators, precedence and associativity, compound assignment and turning formulas into Java expressions, each worked on paper and then run in BlueJ, in a Tuesday and Wednesday evening mini batch in India or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/icse-class-10-operators-in-java",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "2999",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, mini batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": [
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Tuesday"
+              ],
+              "startTime": "17:30",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-operators-in-java"
+            }
+          },
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Wednesday"
+              ],
+              "startTime": "20:00",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-operators-in-java"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ICSE Class 10 Java classes",
+            "item": "https://learn.modernagecoders.com/icse-class-10-java-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Operators in Java",
+            "item": "https://learn.modernagecoders.com/icse-class-10-operators-in-java"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the difference between a++ and ++a in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both increase a by 1. a++ is postfix: it hands the current value to the expression and then increases a. ++a is prefix: it increases a first and hands over the new value. With a = 5, b = a++ makes b 5, while b = ++a makes b 6. In both cases a ends as 6."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you solve a++ + ++a in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Go left to right. With a = 5, a++ hands over 5 and a becomes 6; then ++a makes a 7 and hands over 7. The sum is 5 + 7 = 12 and a ends at 7. Write the value used and the new value of a for each operand before adding anything."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the precedence of operators in Java for ICSE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "From high to low: brackets, postfix ++ and --, prefix ++ and --, unary minus and !, then * / %, then + -, then the comparisons less than and greater than, then == and !=, then &&, then ||, then the ternary operator, and finally the assignment operators. Brackets always override the order."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the ternary operator in Java with an example?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It is the conditional operator: a condition, a question mark, a value for true, a colon and a value for false. Java returns the first value when the condition is true and the second otherwise. For example, a one-line statement can store \"even\" or \"odd\" in a String depending on whether n % 2 == 0. It is the only Java operator with three operands."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you convert if-else to the ternary operator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Check that both branches assign a value to the same variable. Then write that variable and =, followed by the condition, a question mark, the value from the if branch, a colon, and the value from the else branch, ending with one semicolon. The two assignments and the if-else keywords disappear, and the line does exactly the same job."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between = and == in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "= is the assignment operator: it stores the value on its right in the variable on its left. == is a relational operator: it compares two values and gives true or false. Writing if (x = 5) with an int x does not compile, because the condition of an if must be boolean."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between / and % in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "/ gives the quotient and % gives the remainder. With two ints, 17 / 5 is 3, because the fraction is dropped, and 17 % 5 is 2. With a negative left operand the remainder is negative: -17 % 5 is -2. The pair is used in every digit-extraction program."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are unary, binary and ternary operators?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They are grouped by how many operands they take. Unary operators take one, such as ++, --, unary minus and !. Binary operators take two, such as + - * / %, == and !=, && and ||. The ternary conditional operator takes three: a condition and two values."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does x += 1 do the same as x = x + 1?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For an int x, yes. The difference shows with smaller types: for a short or char variable, x += 1 compiles because compound operators cast the result back automatically, while x = x + 1 does not compile, because x + 1 is an int and needs an explicit cast."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you teach operators in the live ICSE classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Operators are revised early in the year and then practised every week through timed Tuesday sets at 5:30 PM IST, with every expression run in BlueJ on a shared screen. They also appear inside the Wednesday programs and the board-style mock tests. Personalised one to one classes are available at a time the family chooses."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-ic32 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">ICSE CA &middot; Operators</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#kinds">Operator types</a>
+      <a href="#increment">a++ and ++a</a>
+      <a href="#precedence">Precedence</a>
+      <a href="#ternary">Ternary</a>
+      <a href="#fees">Batch or 1-on-1</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> <span>/</span> <span>Operators in Java</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">ICSE Class 10 &middot; Computer Applications (Java) &middot; Operators 2027</p>
+        <h1>Operators in Java for ICSE Class 10, evaluated one step at a time.</h1>
+        <p class="bx-lede">Operators in Java for ICSE Class 10 are a Class 9 chapter that keeps returning in the board paper, mostly as one question: what is the value after a line full of ++ and --? This page answers that with a fixed method and twelve worked examples, then covers operator precedence, the ternary operator, compound assignment and writing formulas as Java expressions. Every value was checked by running the code in Java 21. In our live mini batch these are timed, traced aloud and run in BlueJ.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20practice%20of%20operators%20in%20Java%20for%20ICSE%20Class%2010." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'ic32'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; 12 increment traps worked &middot; precedence table &middot; ternary conversions &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When expressions are drilled">
+        <p class="bx-tt-title"><span>Operator drills</span><b>ICSE CA</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Tuesday, increment and precedence sets</span><span class="bx-tt-time">5:30<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, expressions inside programs</span><span class="bx-tt-time">8:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Values written down per step</span><span class="bx-tt-time">every<small>operand</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Answers confirmed in</span><span class="bx-tt-time">BlueJ<small>live</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/icse-computer-applications-java-bluej-course">ICSE Class 10 Computer Applications, Java with BlueJ, Live</a></p>
+          <a class="bx-offer-opt" href="#fees" data-india-only="true"><span class="bx-offer-k">Mini batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.miniBatch">₹2,999</span><small>/month</small></span><span class="bx-offer-v">Tue 5:30 PM and Wed 8:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>Families in India</b> can join these two evenings with at most five classmates. <b>Families overseas</b> book private sessions, set for the late afternoon wherever the student lives.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Left to right, then precedence</span>
+          <span class="bx-stamp">Checked in Java 21</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Courses that teach expressions properly</h2>
+      <p class="bx-lede">The ICSE Java course where the mini batch works these expressions every week, the Class 11 and 12 Computer Science course where the same operators carry into ISC programs, and the data structures course for students who like exact, step-by-step reasoning.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/icse-computer-applications-java-bluej-course">
+        <div class="bx-pick-shot"><img src="/images/java-teens.webp" alt="ICSE Computer Applications Java with BlueJ course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / ICSE CA</p>
+          <h3>ICSE Computer Applications, Java with BlueJ</h3>
+          <p>Class 9 and 10 Computer Applications in a mini batch, where increment and precedence questions are worked on paper before BlueJ confirms them.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+        <div class="bx-pick-shot"><img src="/images/ip-cs-class-11-12.webp" alt="Computer Science Class 11 and 12 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Next step / ISC</p>
+          <h3>Computer Science Class 11 and 12</h3>
+          <p>For students heading to ISC Computer Science, where bitwise and shift operators join the ones on this page.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="bx-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures and Algorithms course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Beyond the syllabus / DSA</p>
+          <h3>Data Structures and Algorithms</h3>
+          <p>For the student who enjoys exact evaluation and wants to apply it to algorithms and their running time.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>Operators in Java for ICSE Class 10 come in six families: arithmetic, relational, logical, assignment (with compound forms such as +=), increment and decrement, and the ternary operator. The most asked question is a++ + ++a style evaluation. The rule: Java reads operands left to right; a postfix operator hands over the old value and then changes the variable, a prefix operator changes it first; only then do precedence rules combine the values. We drill these expressions live twice a week in an Indian evening mini batch, and privately one to one at a time that suits the family.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="kinds">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. What are the types of operators in Java?</p>
+      <h2>Types of operators in Java for ICSE Class 10</h2>
+      <p class="bx-lede">An operator is a symbol that performs an operation on one, two or three operands. ICSE classifies them two ways: by job (arithmetic, relational, logical and so on) and by the number of operands (unary, binary, ternary). Both appear in Section A.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Family</th><th scope="col">Operators</th><th scope="col">Operands</th><th scope="col">Example</th><th scope="col">Result type</th></tr></thead>
+        <tbody>
+          <tr><td>Arithmetic</td><td><code>+ - * / %</code></td><td>Binary</td><td><code>17 % 5</code> gives 2</td><td>Number</td></tr>
+          <tr><td>Unary minus and plus</td><td><code>- +</code></td><td>Unary</td><td><code>-x</code></td><td>Number</td></tr>
+          <tr><td>Increment, decrement</td><td><code>++ --</code></td><td>Unary</td><td><code>n++</code>, <code>--n</code></td><td>Number (also char)</td></tr>
+          <tr><td>Relational</td><td><code>== != &lt; &gt; &lt;= &gt;=</code></td><td>Binary</td><td><code>8 &gt;= 8</code> gives true</td><td>boolean</td></tr>
+          <tr><td>Logical</td><td><code>&amp;&amp; || !</code></td><td>Binary, ! is unary</td><td><code>!(3 &gt; 1)</code> gives false</td><td>boolean</td></tr>
+          <tr><td>Assignment</td><td><code>=</code></td><td>Binary</td><td><code>total = 0</code></td><td>Type of the left side</td></tr>
+          <tr><td>Compound assignment</td><td><code>+= -= *= /= %=</code></td><td>Binary</td><td><code>q *= 3</code> means <code>q = q * 3</code></td><td>Type of the left side</td></tr>
+          <tr><td>Ternary (conditional)</td><td><code>? :</code></td><td>Ternary, the only one</td><td><code>a &gt; b ? a : b</code></td><td>The common type of the two branches</td></tr>
+          <tr><td>String join</td><td><code>+</code> with a String</td><td>Binary</td><td><code>"Class " + 10</code></td><td>String</td></tr>
+          <tr><td>Object creation</td><td><code>new</code></td><td>Unary</td><td><code>new int[5]</code></td><td>A reference</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      Two facts students drop marks on: / between two ints throws away the fraction, and % keeps the sign of the left operand. The full set of division traps sits on
+      <a class="bx-link" href="/icse-class-10-java-output-questions">ICSE Java output questions</a>, and the types that decide every result are on
+      <a class="bx-link" href="/icse-class-10-data-types-and-input-java">data types and type casting for ICSE Class 10</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="increment">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. How do you solve a++ + ++a questions?</p>
+      <h2>Increment and decrement questions ICSE: the four-step method</h2>
+      <p class="bx-lede">Evaluate operands strictly left to right, write down the value each one hands over and what the variable becomes, and only after that apply * / % before + -. Postfix (a++) hands over the old value; prefix (++a) changes the variable first and hands over the new one.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>Write the starting values</h4><p>Put every variable in a row at the top of your working, with its value before the statement runs.</p></li>
+      <li class="bx-step"><h4>Go operand by operand, left to right</h4><p>For each operand write two things: the value used in the expression, and the variable's value after it. A plain variable just hands over its current value.</p></li>
+      <li class="bx-step"><h4>Now apply precedence to the values</h4><p>Replace each operand with its value and work the arithmetic: * / % first, then + -, left to right within a level.</p></li>
+      <li class="bx-step"><h4>Assignment happens last</h4><p>The = (or +=) writes its result after everything on the right is done, overwriting any change an increment made to the same variable.</p></li>
+    </ol>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Worked example 1</b><span>prefix, postfix, then plain</span></figcaption>
+  <pre>int a = 4;
+int b = ++a + a++ + a;
+System.out.println("a=" + a + " b=" + b);
+
+<i>// Output: a=6 b=16</i></pre>
+  <p class="bx-code-note">The third operand is a plain a, but by then two increments have already run, so it is 6, not 4.</p>
+</figure>
+      <div class="bx-table-wrap">
+        <table class="bx-table">
+          <thead><tr><th scope="col">Operand</th><th scope="col">Value used</th><th scope="col">a after</th></tr></thead>
+          <tbody>
+            <tr><td><code>++a</code></td><td class="bx-num">5</td><td class="bx-num">5</td></tr>
+            <tr><td><code>a++</code></td><td class="bx-num">5</td><td class="bx-num">6</td></tr>
+            <tr><td><code>a</code></td><td class="bx-num">6</td><td class="bx-num">6</td></tr>
+            <tr><td>5 + 5 + 6</td><td class="bx-num">b = 16</td><td class="bx-num">6</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Worked example 2</b><span>increments meet precedence</span></figcaption>
+  <pre>int p = 3;
+p = p++ + p++ * ++p;
+System.out.println("p=" + p);
+
+<i>// Output: p=27</i></pre>
+  <p class="bx-code-note">Precedence does not change the order the operands are read. Java collects 3, 4 and 6 left to right, and only then does * bind before +: 3 + 4 * 6.</p>
+</figure>
+      <div class="bx-table-wrap">
+        <table class="bx-table">
+          <thead><tr><th scope="col">Operand</th><th scope="col">Value used</th><th scope="col">p after</th></tr></thead>
+          <tbody>
+            <tr><td><code>p++</code></td><td class="bx-num">3</td><td class="bx-num">4</td></tr>
+            <tr><td><code>p++</code></td><td class="bx-num">4</td><td class="bx-num">5</td></tr>
+            <tr><td><code>++p</code></td><td class="bx-num">6</td><td class="bx-num">6</td></tr>
+            <tr><td>3 + 4 * 6</td><td class="bx-num">27</td><td class="bx-num">6</td></tr>
+            <tr><td>assigned to p</td><td class="bx-num">27</td><td class="bx-num">27</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <h3 class="bx-mt-40">Ten more increment and decrement questions, with answers</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Code</th><th scope="col">Result</th><th scope="col">Values in order</th></tr></thead>
+        <tbody>
+          <tr><td>3</td><td><code>int x = 10;</code><br><code>int y = x-- - --x + x++;</code></td><td class="bx-num">x = 9, y = 10</td><td>10 (x 9), 8 (x 8), 8 (x 9): 10 - 8 + 8</td></tr>
+          <tr><td>4</td><td><code>int m = 7, n = 2;</code><br><code>m += m++ % n + --n;</code></td><td class="bx-num">m = 9, n = 1</td><td>Left m saved as 7; m++ gives 7, 7 % 2 is 1; --n gives 1; 7 + (1 + 1)</td></tr>
+          <tr><td>5</td><td><code>int a = 5;</code><br><code>a = a++ + a--;</code></td><td class="bx-num">a = 11</td><td>5 (a 6), 6 (a 5), then 11 overwrites the 5</td></tr>
+          <tr><td>6</td><td><code>int i = 2;</code><br><code>i = i++ * i--;</code></td><td class="bx-num">i = 6</td><td>2 (i 3), 3 (i 2): 2 * 3</td></tr>
+          <tr><td>7</td><td><code>int k = 9;</code><br><code>int r = k-- / 2 + --k % 3;</code></td><td class="bx-num">r = 5, k = 7</td><td>9 (k 8), 9 / 2 is 4; 7 (k 7), 7 % 3 is 1</td></tr>
+          <tr><td>8</td><td><code>int s = 1;</code><br><code>s = s + s++ + ++s;</code></td><td class="bx-num">s = 5</td><td>1, 1 (s 2), 3 (s 3): 1 + 1 + 3</td></tr>
+          <tr><td>9</td><td><code>int a = 2, b = 3;</code><br><code>a = a++ * --b + b++ * a;</code></td><td class="bx-num">a = 10, b = 3</td><td>2 (a 3), 2 (b 2), 2 (b 3), 3: 2 * 2 + 2 * 3</td></tr>
+          <tr><td>10</td><td><code>int a = 3;</code><br><code>a += a++ + a;</code></td><td class="bx-num">a = 10</td><td>Left a saved as 3; 3 (a 4), 4: 3 + (3 + 4)</td></tr>
+          <tr><td>11</td><td><code>int z = 6;</code><br><code>z--;</code><br><code>--z;</code></td><td class="bx-num">z = 4</td><td>On their own line, prefix and postfix do the same thing</td></tr>
+          <tr><td>12</td><td><code>char c = 'A';</code><br><code>c++;</code><br><code>c += 2;</code></td><td class="bx-num">c = D</td><td>++ and += keep the char type, so c moves A, B, D</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      Question 11 is the free mark: when ++ or -- stands alone as a statement, prefix and postfix are identical. The difference shows only when the value is used inside a bigger expression. More fragments of this kind, mixed with other traps, are on
+      <a class="bx-link" href="/icse-computer-applications-mcq-questions">ICSE Computer Applications MCQ questions</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="precedence">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. What is the order of precedence of operators in Java?</p>
+      <h2>Operator precedence in Java for ICSE, with associativity</h2>
+      <p class="bx-lede">Precedence decides which operator binds first when several share an expression; associativity decides the order between operators of the same level. Brackets override both. The table runs from highest to lowest for the operators in the syllabus.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Level</th><th scope="col">Operators</th><th scope="col">Associativity</th></tr></thead>
+        <tbody>
+          <tr><td class="bx-num">1</td><td><code>( )</code> brackets, <code>[ ]</code> array index, <code>.</code> member access</td><td>Left to right</td></tr>
+          <tr><td class="bx-num">2</td><td>Postfix <code>a++ a--</code></td><td>Left to right</td></tr>
+          <tr><td class="bx-num">3</td><td>Prefix <code>++a --a</code>, unary <code>+ -</code>, <code>!</code>, cast <code>(type)</code></td><td>Right to left</td></tr>
+          <tr><td class="bx-num">4</td><td><code>* / %</code></td><td>Left to right</td></tr>
+          <tr><td class="bx-num">5</td><td><code>+ -</code> (and String +)</td><td>Left to right</td></tr>
+          <tr><td class="bx-num">6</td><td><code>&lt; &lt;= &gt; &gt;=</code></td><td>Left to right</td></tr>
+          <tr><td class="bx-num">7</td><td><code>== !=</code></td><td>Left to right</td></tr>
+          <tr><td class="bx-num">8</td><td><code>&amp;&amp;</code></td><td>Left to right</td></tr>
+          <tr><td class="bx-num">9</td><td><code>||</code></td><td>Left to right</td></tr>
+          <tr><td class="bx-num">10</td><td><code>? :</code></td><td>Right to left</td></tr>
+          <tr><td class="bx-num">11</td><td><code>= += -= *= /= %=</code></td><td>Right to left</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="bx-mt-40">Precedence worked on real expressions</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Expression</th><th scope="col">Steps</th><th scope="col">Value</th></tr></thead>
+        <tbody>
+          <tr><td><code>8 + 12 / 4 * 2 - 3 % 2</code></td><td>12 / 4 = 3, 3 * 2 = 6, 3 % 2 = 1, then 8 + 6 - 1</td><td class="bx-num">13</td></tr>
+          <tr><td><code>-3 * -2 + 7 % -4</code></td><td>Unary minus first; 6 + 3 (the remainder takes the sign of 7)</td><td class="bx-num">9</td></tr>
+          <tr><td><code>20 - 6 - 4</code> and <code>64 / 8 / 2</code></td><td>Left to right: (20 - 6) - 4, (64 / 8) / 2</td><td class="bx-num">10 and 4</td></tr>
+          <tr><td><code>2 + 3 * 4 &gt; 10 &amp;&amp; 15 % 4 == 3</code></td><td>Arithmetic, then &gt; and ==, then &amp;&amp;: true &amp;&amp; true</td><td class="bx-num">true</td></tr>
+          <tr><td><code>5 &gt; 3 &amp;&amp; 2 &gt; 4 || !(7 == 7)</code></td><td>&amp;&amp; before ||: (true &amp;&amp; false) || false</td><td class="bx-num">false</td></tr>
+          <tr><td><code>10 + 5 + "Java" + 10 * 2</code></td><td>* first gives 20; then left to right: 15, "15Java", "15Java20"</td><td class="bx-num">15Java20</td></tr>
+          <tr><td><code>int a = 4, b;</code><br><code>b = a = a * 2 + 1;</code></td><td>= is right to left: a gets 9, then b gets a</td><td class="bx-num">a = 9, b = 9</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      A common slip: high precedence for postfix ++ does not mean it runs "first" across the whole line. It binds tightly to its own variable; the operands are still read left to right, as worked example 2 showed.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="ternary">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. What is the ternary operator in Java?</p>
+      <h2>Ternary operator ICSE: syntax, if-else conversion and nesting</h2>
+      <p class="bx-lede">The ternary operator, condition ? value1 : value2, gives value1 when the condition is true and value2 when it is false. It is the only Java operator with three operands, and ICSE often asks students to rewrite an if-else with it, or the reverse.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>if-else</b><span>as a student writes it first</span></figcaption>
+  <pre>int age = 16;
+String msg;
+if (age &gt;= 18)
+    msg = "Adult";
+else
+    msg = "Minor";
+System.out.println(msg);
+
+<i>// Output: Minor</i></pre>
+  <p class="bx-code-note">Both branches assign to the same variable. That is the sign an if-else can become one ternary line.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Ternary</b><span>the same logic in one line</span></figcaption>
+  <pre>int age = 16;
+String msg = age &gt;= 18 ? "Adult" : "Minor";
+System.out.println(msg);
+
+<i>// Output: Minor</i></pre>
+  <p class="bx-code-note">The condition, then ?, the true value, then :, the false value. No semicolons inside and no braces.</p>
+</figure>
+    </div>
+    <div class="bx-table-wrap bx-mt-40">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Task</th><th scope="col">Ternary code</th><th scope="col">Result (run)</th></tr></thead>
+        <tbody>
+          <tr><td>Largest of three: a = 14, b = 29, c = 21</td><td><code>int big = a &gt; b ? (a &gt; c ? a : c) : (b &gt; c ? b : c);</code></td><td class="bx-num">29</td></tr>
+          <tr><td>Sign of n = -8</td><td><code>String s = n &gt; 0 ? "positive" : n &lt; 0 ? "negative" : "zero";</code></td><td class="bx-num">negative</td></tr>
+          <tr><td>Free delivery above 500 for amount = 650</td><td><code>double fee = amount &gt;= 500 ? 0 : 40;</code></td><td class="bx-num">0.0</td></tr>
+          <tr><td>Leap year for y = 2024</td><td><code>boolean leap = (y % 4 == 0 &amp;&amp; y % 100 != 0) || y % 400 == 0;</code><br><code>System.out.println(leap ? "leap" : "not leap");</code></td><td class="bx-num">leap</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      Two notes. The nested ternary for the sign reads right to left: everything after the first : is itself a ternary. And the fee prints 0.0, not 0, because the result is stored in a double; the type of a ternary result is part of the answer. When a decision has more than two or three branches, an if-else-if ladder or a switch is clearer, as on
+      <a class="bx-link" href="/icse-class-10-menu-driven-programs">menu driven programs in Java for ICSE</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" style="font-variant-ligatures:none" id="compound">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. How do compound assignment and Java expressions work?</p>
+      <h2>Compound assignment and writing Java expressions for formulas</h2>
+      <p class="bx-lede">A compound operator such as q *= 3 + 2 means q = q * (3 + 2): the whole right side is worked first. It also casts the result back to the type of the variable silently, which a plain = will not do.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Code</th><th scope="col">Result (run)</th><th scope="col">Why</th></tr></thead>
+        <tbody>
+          <tr><td><code>int q = 20;</code><br><code>q %= 6;</code><br><code>q *= 3 + 2;</code></td><td class="bx-num">10</td><td>20 % 6 is 2; then 2 * (3 + 2), not 2 * 3 + 2</td></tr>
+          <tr><td><code>int t = 17;</code><br><code>t /= 4;</code><br><code>t -= 2 * 3;</code></td><td class="bx-num">-2</td><td>17 / 4 is 4 in int; 4 - 6</td></tr>
+          <tr><td><code>short s = 10;</code><br><code>s += 5.7;</code></td><td class="bx-num">15</td><td>+= works out 15.7 and casts it back to short</td></tr>
+          <tr><td><code>short s = 10;</code><br><code>s = s + 5.7;</code></td><td>Does not compile</td><td>javac: <code>incompatible types: possible lossy conversion from double to short</code></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="bx-mt-40">Write the Java expression: a Section A favourite</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Maths</th><th scope="col">Java expression</th><th scope="col">Checked with</th></tr></thead>
+        <tbody>
+          <tr><td>ut + &frac12;at&sup2;</td><td><code>u * t + 0.5 * a * t * t</code></td><td>u = 10, t = 4, a = 3 gives 64.0. Writing 1 / 2 gives 40.0, because 1 / 2 is 0 in int</td></tr>
+          <tr><td>(a + b) / 2ab</td><td><code>(a + b) / (2 * a * b)</code></td><td>a = 2, b = 3 gives 0.4166666666666667. Without the second bracket it is 15.0</td></tr>
+          <tr><td>&radic;(b&sup2; &minus; 4ac)</td><td><code>Math.sqrt(b * b - 4 * a * c)</code></td><td>a = 1, b = -5, c = 6 gives 1.0</td></tr>
+          <tr><td>|x &minus; y|&sup3;</td><td><code>Math.pow(Math.abs(x - y), 3)</code></td><td>x = 2, y = 5 gives 27.0</td></tr>
+          <tr><td>P(1 + r/100)<sup>n</sup></td><td><code>p * Math.pow(1 + r / 100.0, n)</code></td><td>int p = 1000, r = 10, n = 2 printed 1210.0000000000002, a normal floating point tail. With r / 100 it printed 1000.0, since 10 / 100 is 0</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">
+      Two rules cover most of these marks: put brackets round every denominator and every numerator with more than one term, and never let an int / int stand where a fraction is meant. The return type of each Math method is listed on
+      <a class="bx-link" href="/icse-class-10-math-library-methods">Math library methods for ICSE Class 10</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="live">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. How are operator questions practised in class?</p>
+      <h2>How the mini batch drills operators and expressions</h2>
+      <p class="bx-lede">Students learn this chapter by writing the value of each operand before writing any answer. The class is built so they cannot skip that step.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>Tuesday: a timed expression set</h4><p>At 5:30 PM IST each student gets a sheet of increment, precedence and ternary items and five minutes per block. Answers go on paper with the operand-by-operand working.</p></li>
+      <li class="bx-step"><h4>Each line run in BlueJ</h4><p>The teacher runs every expression while the batch watches, so a wrong value is settled by Java, not by argument.</p></li>
+      <li class="bx-step"><h4>The wrong step found aloud</h4><p>A student whose answer differed reads out their working until the operand where it went wrong. In this chapter it is nearly always a postfix value or an assignment overwriting an increment.</p></li>
+      <li class="bx-step"><h4>Wednesday: expressions inside programs</h4><p>At the 8:00 PM IST class the week's program uses the same operators for real work, such as compound interest with Math.pow or a ternary grade, so the rules stick in context.</p></li>
+      <li class="bx-step"><h4>Expressions inside mock papers</h4><p>Once December arrives, the two-hour practice papers carry increment, precedence and formula items in Section A, graded as strictly as the board grades them.</p></li>
+    </ol>
+    <p class="bx-mt-40">
+      Operators feed straight into loop conditions and counters; those are drilled on
+      <a class="bx-link" href="/icse-class-10-loop-programs-java">loop programs for ICSE Class 10</a>, and expressions written with one wrong operator turn up on
+      <a class="bx-link" href="/icse-class-10-java-error-finding-questions">ICSE Java error finding questions</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Practise operators in the mini batch, or one to one</h2>
+      <p class="bx-lede">The worked method, the timed sets and the BlueJ checks are the same in either format. In India, choose the evening mini batch or a private slot; ICSE students outside India learn one to one. Billing is monthly, with no admission fee.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card" data-india-only="true">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Mini batch, Tuesday 5:30 PM and Wednesday 8 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Live at 5:30 PM IST Tuesday and 8:00 PM IST Wednesday</li><li>A batch capped at six ICSE students</li><li>Timed increment and precedence sets each Tuesday</li><li>Every expression run in BlueJ on a shared screen</li><li>Wrong working traced back to the exact operand</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>A slot the family picks, in India or abroad</li><li>Extra sets on the operator family your child keeps missing</li><li>Formula-to-expression practice from their maths and physics</li><li>Pace set by the student, not the group</li><li>Same teachers, same 2027 syllabus, same BlueJ checks</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
+    <p class="bx-mt-40">A student who understands Java but keeps losing a mark or two to increments and integer division can often fix it in a few focused one to one sessions. A student who wants the whole syllabus practised steadily, Section A and Section B, gains more from two batch classes a week. Fees appear in your own currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>Operator practice for ICSE students abroad</h2>
+      <p class="bx-lede">An ICSE school in Dubai or Singapore sits the same Computer Applications paper, and Java evaluates a++ + ++a the same way everywhere. Outside India the drills run one to one, after school in the student's own time zone.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Time difference</th><th scope="col">Usual class window, local time</th><th scope="col">Format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td>IST</td><td class="bx-num">Tue 5:30 PM, Wed 8:00 PM</td><td><span class="bx-fit">Mini batch or 1-on-1</span></td></tr>
+          <tr><td>United Arab Emirates<br><span class="bx-src">Dubai, Sharjah</span></td><td>1 h 30 min behind India</td><td class="bx-num">3:00 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Indonesia and Thailand<br><span class="bx-src">West Java, Bangkok area</span></td><td>1 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Singapore<br><span class="bx-src">Singapore</span></td><td>2 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The slot is agreed after the free demo and can move around school tests. The overseas arrangement is described on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the ICSE Class 10 Computer Applications series, grouped by what you need: classes, each chapter, Section B programs, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a></li>
+          <li><a href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Java classes in the Gulf and abroad</a></li>
+          <li><a href="/icse-class-10-bluej-java-coaching">ICSE BlueJ Java coaching</a></li>
+          <li><a href="/icse-computer-applications-crash-course">ICSE computer crash course</a></li>
+          <li><a href="/icse-computer-tuition-kolkata">ICSE computer tuition in Kolkata</a></li>
+          <li><a href="/icse-computer-tuition-bangalore">ICSE computer tuition in Bangalore</a></li>
+          <li><a href="/icse-computer-tuition-mumbai">ICSE computer tuition in Mumbai</a></li>
+          <li><a href="/icse-computer-applications-private-tutor">1-on-1 private Java tutor</a></li>
+          <li><a href="/icse-computer-tuition-lucknow">ICSE computer tuition in Lucknow</a></li>
+          <li><a href="/icse-computer-tuition-pune">ICSE computer tuition in Pune</a></li>
+          <li><a href="/icse-computer-tuition-near-me">ICSE computer tuition near me</a></li>
+          <li><a href="/icse-computer-applications-small-batch-classes">The mini batch, explained</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Chapter by chapter</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a></li>
+          <li><a href="/icse-class-10-user-defined-methods-overloading">User-defined methods and overloading</a></li>
+          <li><a href="/icse-class-10-constructors-questions">Constructors</a></li>
+          <li><a href="/icse-class-10-wrapper-and-library-classes">Wrapper and library classes</a></li>
+          <li><a href="/icse-class-10-class-as-basis-of-computation">Class as the basis of all computation</a></li>
+          <li><a href="/icse-class-10-encapsulation-access-specifiers">Encapsulation and access specifiers</a></li>
+          <li><a href="/icse-class-10-math-library-methods">Math library methods</a></li>
+          <li><a href="/icse-class-10-loop-programs-java">Loops and loop conversion</a></li>
+          <li><a href="/icse-class-10-data-types-and-input-java">Data types, input and type casting</a></li>
+          <li><a href="/icse-class-9-java-revision-for-class-10">Class 9 Java revision for Class 10</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Programs for Section B</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a></li>
+          <li><a href="/icse-class-10-string-programs">String programs</a></li>
+          <li><a href="/icse-special-number-programs-java">Special number programs</a></li>
+          <li><a href="/icse-class-10-sorting-and-searching-programs">Sorting and searching programs</a></li>
+          <li><a href="/icse-class-10-2d-array-programs">2D array programs</a></li>
+          <li><a href="/icse-class-10-pattern-programs-java">Pattern programs</a></li>
+          <li><a href="/icse-class-10-menu-driven-programs">Menu driven and switch case</a></li>
+          <li><a href="/icse-class-10-series-programs-java">Series programs</a></li>
+          <li><a href="/icse-class-10-slab-and-bill-programs">Slab and bill programs</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></li>
+          <li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mock tests</a></li>
+          <li><a href="/icse-computer-applications-previous-year-papers-solved">Previous year papers, solved</a></li>
+          <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
+          <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
+          <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+          <li><a href="/icse-class-10-java-error-finding-questions">Find the error questions</a></li>
+          <li><a href="/icse-computer-difference-between-questions">Difference between questions</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Notes and revision</h3>
+        <ul>
+          <li><a href="/icse-computer-applications-notes">Chapter-wise notes</a></li>
+          <li><a href="/icse-computer-applications-textbook-solutions-guide">Textbook solutions guide</a></li>
+          <li><a href="/icse-computer-applications-worksheets">Worksheets with answers</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and internal assessment</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-board-exam-preparation">ICSE board exam preparation</a></li>
+          <li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+          <li><a href="/icse-class-10-computer-applications-project-and-internal-assessment">Project and internal assessment</a></li>
+          <li><a href="/how-to-score-100-in-icse-computer-applications">How to score 100</a></li>
+          <li><a href="/icse-computer-applications-paper-analysis">Paper analysis and answer key</a></li>
+          <li><a href="/icse-computer-applications-vs-commercial-applications">Computer or Commercial Applications?</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>CBSE Class 10 AI (417):</b> <a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about operators</p>
+      <h2>What students ask about operators in Java for ICSE</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>What is the difference between a++ and ++a in Java?</h3><p>Both increase a by 1. a++ is postfix: it hands the current value to the expression and then increases a. ++a is prefix: it increases a first and hands over the new value. With a = 5, b = a++ makes b 5, while b = ++a makes b 6. In both cases a ends as 6.</p></div>
+      <div class="bx-faq-item"><h3>How do you solve a++ + ++a in Java?</h3><p>Go left to right. With a = 5, a++ hands over 5 and a becomes 6; then ++a makes a 7 and hands over 7. The sum is 5 + 7 = 12 and a ends at 7. Write the value used and the new value of a for each operand before adding anything.</p></div>
+      <div class="bx-faq-item"><h3>What is the precedence of operators in Java for ICSE?</h3><p>From high to low: brackets, postfix ++ and --, prefix ++ and --, unary minus and !, then * / %, then + -, then the comparisons less than and greater than, then == and !=, then &amp;&amp;, then ||, then the ternary operator, and finally the assignment operators. Brackets always override the order.</p></div>
+      <div class="bx-faq-item"><h3>What is the ternary operator in Java with an example?</h3><p>It is the conditional operator: a condition, a question mark, a value for true, a colon and a value for false. Java returns the first value when the condition is true and the second otherwise. For example, a one-line statement can store &quot;even&quot; or &quot;odd&quot; in a String depending on whether n % 2 == 0. It is the only Java operator with three operands.</p></div>
+      <div class="bx-faq-item"><h3>How do you convert if-else to the ternary operator?</h3><p>Check that both branches assign a value to the same variable. Then write that variable and =, followed by the condition, a question mark, the value from the if branch, a colon, and the value from the else branch, ending with one semicolon. The two assignments and the if-else keywords disappear, and the line does exactly the same job.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between = and == in Java?</h3><p>= is the assignment operator: it stores the value on its right in the variable on its left. == is a relational operator: it compares two values and gives true or false. Writing if (x = 5) with an int x does not compile, because the condition of an if must be boolean.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between / and % in Java?</h3><p>/ gives the quotient and % gives the remainder. With two ints, 17 / 5 is 3, because the fraction is dropped, and 17 % 5 is 2. With a negative left operand the remainder is negative: -17 % 5 is -2. The pair is used in every digit-extraction program.</p></div>
+      <div class="bx-faq-item"><h3>What are unary, binary and ternary operators?</h3><p>They are grouped by how many operands they take. Unary operators take one, such as ++, --, unary minus and !. Binary operators take two, such as + - * / %, == and !=, &amp;&amp; and ||. The ternary conditional operator takes three: a condition and two values.</p></div>
+      <div class="bx-faq-item"><h3>Does x += 1 do the same as x = x + 1?</h3><p>For an int x, yes. The difference shows with smaller types: for a short or char variable, x += 1 compiles because compound operators cast the result back automatically, while x = x + 1 does not compile, because x + 1 is an int and needs an explicit cast.</p></div>
+      <div class="bx-faq-item"><h3>Do you teach operators in the live ICSE classes?</h3><p>Yes. Operators are revised early in the year and then practised every week through timed Tuesday sets at 5:30 PM IST, with every expression run in BlueJ on a shared screen. They also appear inside the Wednesday programs and the board-style mock tests. Personalised one to one classes are available at a time the family chooses.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Book a free live class on operators</h2>
+        </div>
+        <p>In the free demo your child works a short set of increment, precedence and ternary questions with the mentor, writing the value of each operand, and then sees each line run in BlueJ. You then hear honestly where the marks are slipping and whether the mini batch or one to one would suit your child better.</p>
+        <p>Want more practice first? Try <a class="bx-link" href="/icse-class-10-java-output-questions">ICSE Java output questions</a> or see <a class="bx-link" href="/icse-class-10-java-classes-online">the ICSE Class 10 Java classes</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20practice%20of%20operators%20in%20Java%20for%20ICSE%20Class%2010." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic32-parent">Parent's name</label><input id="bx-ic32-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-ic32-phone">Phone or WhatsApp</label><input id="bx-ic32-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic32-email">Email</label><input id="bx-ic32-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-ic32-format">Preferred format</label>
+              <select id="bx-ic32-format" name="format" required>
+                <option value="mini">Tue 5:30 PM and Wed 8 PM mini batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-ic32-child">Student's name and school (optional)</label><input id="bx-ic32-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>ICSE Class 10 Computer Applications</h4><ul><li><a href="/icse-class-10-java-classes-online">The Tue and Wed batch</a></li><li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mocks</a></li><li><a href="/icse-class-10-computer-applications-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>ICSE Computer Applications &middot; Operators in Java 2027</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'icse-class-10-operators-in-java', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'icse-class-10-operators-in-java', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=5d83c35fbe"></script>
+    <script src="/js/international-pricing.js?v=73c0675aaf"></script>
+</body>
+</html>

@@ -3,29 +3,32 @@
 // "417 paper pattern 2026-27", "cbse ai class 10 blueprint", "ai marks distribution
 // class 10". Distinct from the sample-paper page (solving the SQP, mock ladder) and
 // the board-exam-preparation page (revision strategy). Facts verified 2026-10-13
-// against cbse.gov.in circulars and cbseacademic.nic.in: no 2027 date sheet yet,
-// 2026 paper on 27 Feb, LOC windows, 2025-26 SQP blueprint (2026-27 417 SQP not out).
+// against cbse.gov.in circulars and cbseacademic.nic.in: 2026 paper on 27 Feb, LOC
+// windows, 2025-26 SQP blueprint (2026-27 417 SQP not out). Updated 2026-11-06 from the
+// CBSE 2027 main date sheet released 6 Nov 2026: Class X 16 Feb to 9 Mar 2027, AI 417 on
+// Wed 24 Feb 2027, 10:30 AM to 12:30 PM IST, same slot as 165 and 402.
 'use strict';
 
 module.exports = {
   slug: 'cbse-class-10-ai-exam-date-and-paper-pattern',
   code: 'cxd',
+  dateModified: '2026-11-06',
   board: 'cbse',
   themeColor: '#2B4A80',
-  title: 'CBSE Class 10 AI Exam Date 2027 and Paper Pattern (417)',
-  description: 'CBSE Class 10 AI (417) exam date 2027 status, last year\'s date, the 50-mark paper pattern and unit blueprint, key 2026-27 dates and live board prep classes.',
-  ogTitle: 'CBSE Class 10 AI Exam Date 2027 and the 417 Paper Pattern',
-  ogDesc: 'Where the CBSE 2027 date sheet stands, when the AI paper fell last year, the full 417 blueprint unit by unit, the session\'s key dates, and a live Monday and Wednesday batch that works to that calendar.',
-  twDesc: 'The 2027 date sheet status, last year\'s AI paper date, the 417 blueprint unit by unit and a live batch built around the calendar.',
-  headline: 'CBSE Class 10 AI Exam Date 2027 and Paper Pattern for Code 417',
+  title: 'CBSE Class 10 AI Exam Date 2027: 24 February, Paper Pattern',
+  description: 'CBSE Class 10 AI (417) exam date 2027: Wednesday 24 February, 10:30 AM IST, per the date sheet of 6 November 2026. Paper pattern, blueprint and live classes.',
+  ogTitle: 'CBSE Class 10 AI Exam Date 2027: 24 February, and the 417 Paper Pattern',
+  ogDesc: 'The AI paper is on Wednesday 24 February 2027 under the CBSE date sheet released 6 November 2026. How it compares with last year, the full 417 blueprint unit by unit, the session\'s key dates, and a live Monday and Wednesday batch that works to that calendar.',
+  twDesc: 'AI 417 on 24 February 2027 (CBSE date sheet, 6 November 2026), last year\'s AI paper date, the 417 blueprint unit by unit and a live batch built around the calendar.',
+  headline: 'CBSE Class 10 AI Exam Date 2027: 24 February, and the Paper Pattern for Code 417',
   courseName: 'CBSE Class 10 AI (417) Board Exam Preparation, Live Online',
   courseDesc: 'Live online board exam preparation for CBSE Class 10 Artificial Intelligence (417), session 2026-27, planned against the CBSE calendar: theory units finished before the winter, the practical file and project completed for the school assessment, the sample paper solved and full mock papers marked to the blueprint, with live doubt solving in every Monday and Wednesday 9 PM IST class, or one to one at a time the family chooses.',
   brandTag: '417 &middot; Exam date',
   navLinks: [['#date', 'Exam date'], ['#pattern', 'Pattern'], ['#blueprint', 'Blueprint'], ['#fees', 'Batch or 1-on-1']],
   crumbs: [['/', 'Home'], ['/cbse-class-10-ai-classes-online', 'Class 10 AI classes'], [null, 'Exam date 2027 and paper pattern']],
   eyebrow: 'CBSE Class 10 &middot; Artificial Intelligence, code 417 &middot; Exam date 2027 and paper pattern',
-  h1: 'CBSE Class 10 AI exam date 2027 and the 417 paper pattern.',
-  lede: 'Every year families search for the AI exam date long before CBSE prints it. The date matters less than what is finished by then. Our live Class 10 AI batch is planned backwards from the board calendar: theory units complete before the winter break, the practical file and project closed for the school assessment, then the sample paper and full mock papers marked against the blueprint below, with doubts settled live in every Monday and Wednesday class.',
+  h1: 'CBSE Class 10 AI exam date 2027: 24 February, and the 417 paper pattern.',
+  lede: 'CBSE released the 2027 date sheet on 6 November 2026, and the AI (417) paper is on Wednesday 24 February 2027. The date matters less than what is finished by then. Our live Class 10 AI batch is planned backwards from the board calendar: theory units complete before the winter break, the practical file and project closed for the school assessment, then the sample paper and full mock papers marked against the blueprint below, with doubts settled live in every Monday and Wednesday class.',
   heroNote: 'Live online &middot; planned to the CBSE calendar &middot; every unit of the blueprint &middot; mocks marked to the scheme &middot; live doubts every class &middot; first class free',
   waText: 'Hello Modern Age Coders. I want live CBSE Class 10 AI 417 board exam classes for 2027.',
   timetable: {
@@ -36,7 +39,7 @@ module.exports = {
       ['Monday, theory and Part A', '9:00', 'PM IST'],
       ['Wednesday, practical and doubts', '9:00', 'PM IST'],
       ['Theory units finished', 'Dec', 'target'],
-      ['Main exam window', 'Feb', 'to March']
+      ['AI 417 paper', '24 Feb', '2027']
     ],
     zones: '<b>UAE and Oman:</b> 7:30 PM. <b>Saudi Arabia, Qatar, Kuwait, Bahrain:</b> 6:30 PM. <b>Nepal:</b> 9:15 PM. <b>Singapore:</b> personalised one to one at your time.',
     stamps: ['Theory 50 &middot; Practical 50', 'Live doubts']
@@ -48,36 +51,37 @@ module.exports = {
     { slug: 'python-complete-masterclass-teens', code: 'Practical half / Python', h3: 'Python for Teens', p: 'The Python that carries the 15-program practical file and the practical exam: lists, NumPy, pandas, Matplotlib, CSV files and images.' },
     { slug: 'cbse-class-10-maths-board-exam-prep-course', code: 'Same February / maths', h3: 'CBSE Class 10 Maths board prep', p: 'The maths board course on the same principles: timed papers, every lost mark re-attempted, small live batches.' }
   ],
-  capsule: 'As of 13 October 2026, CBSE has not published the 2027 Class 10 date sheet, so no official date exists yet for the Artificial Intelligence (417) paper. Last year the AI paper was held on Friday 27 February 2026, from 10:30 AM to 12:30 PM IST, inside main examinations that ran from 17 February to 11 March. The paper is 50 marks of theory in two hours, 10 from Part A employability skills and 40 from five AI units, with another 50 marks for the practical file, practical exam, project and vivas. Modern Age Coders prepares students for it in a live Monday and Wednesday 9 PM IST batch, or personalised one to one, with mocks and live doubt solving built around that calendar.',
+  capsule: 'The CBSE Class 10 Artificial Intelligence (417) exam is on Wednesday 24 February 2027, from 10:30 AM to 12:30 PM IST, according to the CBSE date sheet released 6 November 2026. Class 10 main examinations run from 16 February to 9 March 2027. Last year the AI paper was held on Friday 27 February 2026. The paper is 50 marks of theory in two hours, 10 from Part A employability skills and 40 from five AI units, with another 50 marks for the practical file, practical exam, project and vivas. Modern Age Coders prepares students for it in a live Monday and Wednesday 9 PM IST batch, or personalised one to one, with mocks and live doubt solving built around that calendar.',
   sections: [
 `<section class="bx-section bx-section--tint" id="date">
   <div class="bx-wrap">
     <div class="bx-section-head">
       <p class="bx-qlabel">Q1. When is the CBSE Class 10 AI exam in 2027?</p>
-      <h2>The 2027 date sheet is not out yet. Here is what last year tells you</h2>
-      <p class="bx-lede">CBSE announces Class 10 dates on cbse.gov.in in a date sheet circular. Until it appears, any page quoting a 2027 AI date is guessing. We will update this page the day the circular is published.</p>
+      <h2>Wednesday 24 February 2027, 10:30 AM to 12:30 PM IST</h2>
+      <p class="bx-lede">CBSE released the 2027 Class 10 date sheet on cbse.gov.in on 6 November 2026. Artificial Intelligence (417) sits in the morning slot on Wednesday 24 February, together with Computer Applications (165) and Information Technology (402).</p>
     </div>
     <div class="bx-dated">
-      <p><b>Checked 13 October 2026:</b> no 2027 Class 10 date sheet on cbse.gov.in. The latest published schedule is for the 2026 examinations.</p>
+      <p><b>CBSE date sheet released 6 November 2026:</b> Class 10 main examinations run from Tuesday 16 February to Tuesday 9 March 2027, and the AI paper is on Wednesday 24 February 2027.</p>
     </div>
     <div class="bx-table-wrap bx-mt-40">
       <table class="bx-table">
-        <thead><tr><th scope="col">2026 examination</th><th scope="col">Dates</th><th scope="col">What it means for 2027</th></tr></thead>
+        <thead><tr><th scope="col">Examination</th><th scope="col">2027, official</th><th scope="col">2026, for comparison</th></tr></thead>
         <tbody>
-          <tr><td>Main Class 10 examinations</td><td>17 February to 11 March 2026</td><td>Plan for a mid-February start; the AI paper is one paper inside this window</td></tr>
-          <tr><td>Artificial Intelligence (417)</td><td>Friday 27 February 2026, 10:30 AM to 12:30 PM IST</td><td>The skill subjects sat together in one morning slot, with Computer Applications (165) and Information Technology (402)</td></tr>
-          <tr><td>Second examination</td><td>15 to 21 May 2026</td><td>An optional second sitting for improvement, covered under Q5 below</td></tr>
+          <tr><td>Main Class 10 examinations</td><td>16 February to 9 March 2027</td><td>17 February to 11 March 2026</td></tr>
+          <tr><td>Artificial Intelligence (417)</td><td>Wednesday 24 February 2027, 10:30 AM to 12:30 PM IST</td><td>Friday 27 February 2026, 10:30 AM to 12:30 PM IST</td></tr>
+          <tr><td>Same slot as AI</td><td>Computer Applications (165) and Information Technology (402)</td><td>Computer Applications (165) and Information Technology (402)</td></tr>
+          <tr><td>Second examination</td><td>Not part of the main date sheet</td><td>15 to 21 May 2026, an optional sitting for improvement covered under Q5 below</td></tr>
         </tbody>
       </table>
     </div>
     <div class="bx-grid-2 bx-mt-40" style="align-items:start">
       <div>
         <h3>Why the date is less useful than it looks</h3>
-        <p>When the date sheet arrives, there are usually only two or three months left before the AI paper. By then a student should have finished every theory unit, closed the practical file and the project, and started full papers. The date fixes the day, but your preparation has to be planned well before it. That is why our batch works to a calendar set by the shape of the session rather than waiting for the circular.</p>
+        <p>The date sheet arrived on 6 November 2026, 110 days before the AI paper. In that time a student should finish every theory unit, close the practical file and the project, and start full papers. The date fixes the day, but your preparation has to be planned well before it. That is why our batch was already working to a calendar set by the shape of the session rather than waiting for the circular.</p>
       </div>
       <div>
         <h3>The morning slot, and what it asks of students</h3>
-        <p>Last year the AI paper started at 10:30 AM IST and ran for two hours. Our Monday and Wednesday classes are at 9 PM, so in January the timed mock papers move to weekend mornings, written at home at 10:30 AM and reviewed live in the next class. A student who has only practised at night writes a slower first paper in the morning, and the mocks remove that surprise early.</p>
+        <p>The 2027 AI paper starts at 10:30 AM IST and runs for two hours, the same timing as last year. Our Monday and Wednesday classes are at 9 PM, so in January the timed mock papers move to weekend mornings, written at home at 10:30 AM and reviewed live in the next class. A student who has only practised at night writes a slower first paper in the morning, and the mocks remove that surprise early.</p>
       </div>
     </div>
   </div>
@@ -181,9 +185,10 @@ module.exports = {
           <tr><td>LOC with late fee</td><td>22 to 30 October 2026</td><td>Official</td><td>Practical file programs 8 to 11 on Wednesdays</td></tr>
           <tr><td>LOC correction window</td><td>2 to 4 November 2026</td><td>Official</td><td>Computer Vision and the image programs of the file</td></tr>
           <tr><td>417 sample paper for 2026-27</td><td>Not yet posted</td><td>Awaited</td><td>Solved live in class within days of release</td></tr>
-          <tr><td>2027 date sheet</td><td>Not yet published</td><td>Awaited</td><td>Natural Language Processing; Part A drills begin</td></tr>
+          <tr><td>2027 date sheet</td><td>Released 6 November 2026</td><td>Official</td><td>Natural Language Processing; Part A drills begin</td></tr>
           <tr><td>School practical assessment</td><td>Set by your school within the window CBSE notifies</td><td>Varies by school</td><td>Practical and viva mocks; project viva rehearsal</td></tr>
-          <tr><td>Main examinations</td><td>February to March 2027</td><td>Expected, as in 2026</td><td>Three full theory mocks, each reviewed live</td></tr>
+          <tr><td>Main examinations</td><td>16 February to 9 March 2027</td><td>Official</td><td>Three full theory mocks, each reviewed live</td></tr>
+          <tr><td>Artificial Intelligence (417) paper</td><td>Wednesday 24 February 2027, 10:30 AM IST</td><td>Official</td><td>Final mock marked; last doubts cleared</td></tr>
           <tr><td>Second examination</td><td>May 2027</td><td>Expected, as in 2026</td><td>Not needed by students who finish the plan</td></tr>
         </tbody>
       </table>
@@ -268,8 +273,8 @@ module.exports = {
   faqLabel: 'Questions about the AI exam date and pattern',
   faqH2: 'What families ask about the CBSE Class 10 AI exam date and paper pattern',
   faqs: [
-    ['When is the CBSE Class 10 AI exam in 2027?', 'CBSE had not published the 2027 Class 10 date sheet when we checked on 13 October 2026, so there is no official date for the Artificial Intelligence (417) paper yet. Last year the paper was held on Friday 27 February 2026, inside main examinations that ran from 17 February to 11 March. Expect the 2027 paper in the February to March window, and check cbse.gov.in for the circular.'],
-    ['What time does the CBSE AI paper start?', 'In 2026 the Artificial Intelligence paper ran from 10:30 AM to 12:30 PM IST, two hours, in the same morning slot as other skill subjects. The 2027 timing will be confirmed in the date sheet. Because our live classes run at 9 PM, January mock papers are written on weekend mornings so students get used to working at that hour.'],
+    ['When is the CBSE Class 10 AI exam in 2027?', 'The Artificial Intelligence (417) paper is on Wednesday 24 February 2027, from 10:30 AM to 12:30 PM IST, according to the CBSE date sheet released 6 November 2026. Class 10 main examinations run from 16 February to 9 March 2027. Last year the paper was held on Friday 27 February 2026.'],
+    ['What time does the CBSE AI paper start?', 'In 2026 the Artificial Intelligence paper ran from 10:30 AM to 12:30 PM IST, two hours, in the same morning slot as other skill subjects. The CBSE date sheet released 6 November 2026 keeps the same timing for 2027, on Wednesday 24 February, in one slot with Computer Applications (165) and Information Technology (402). Because our live classes run at 9 PM, January mock papers are written on weekend mornings so students get used to working at that hour.'],
     ['What is the paper pattern for CBSE Class 10 AI 417?', 'The subject is 100 marks: a 50-mark theory paper of two hours and 50 marks of school practical. In the latest official sample paper, students answer 15 of 21 questions: Section A has 24 marks of objective questions, and Section B has 26 marks of short answers of 20 to 30 words and long answers of 50 to 80 words. Part A employability skills carries 10 of the theory marks and five AI units carry 40.'],
     ['Which AI units carry the most marks?', 'Advanced Concepts of Modeling carries 11 theory marks and Evaluating Models 10, followed by Natural Language Processing 8, Revisiting the AI Project Cycle and Ethical Frameworks 7 and Computer Vision 4. Statistical Data and Advance Python carry no theory marks and are assessed in the practical.'],
     ['Has the 417 sample paper for 2026-27 been released?', 'Not when we checked on 13 October 2026. CBSE posted the main-subject sample papers in late September 2026, but the 417 link still opened the 2025-26 paper. The curriculum for 2026-27 is unchanged, so the 2025-26 design is the right one to prepare for, and the new paper is solved live in our classes as soon as it is posted.'],

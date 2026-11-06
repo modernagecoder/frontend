@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Math Library Methods ICSE: Return Types and Output Traps</title>
+  <meta name="description" content="Math library methods for ICSE Class 10 (2027): all ten syllabus methods with return types, Math.round, ceil and floor traps, and outputs run in Java.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/icse-class-10-math-library-methods">
+  <link rel="alternate" type="text/markdown" href="/src/pages/icse-class-10-math-library-methods.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#5E3A55">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/icse-class-10-math-library-methods">
+  <meta property="og:title" content="Math Library Methods for ICSE Class 10, with Return Types and Traps">
+  <meta property="og:description" content="The ten Math methods in the ICSE Computer Applications syllabus in one return-type table, twenty output traps on round, ceil, floor, pow and sqrt, the compile errors students make, formulas as Java expressions, Math.random ranges and two programs, every line run in Java 21.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Math Library Methods for ICSE Class 10, with Return Types and Traps">
+  <meta name="twitter:description" content="Every syllabus Math method with its return type, the output traps, and two programs, all run in Java 21.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          },
+          {
+            "@type": "Country",
+            "name": "Thailand"
+          }
+        ],
+        "knowsAbout": [
+          "ICSE Computer Applications",
+          "Java",
+          "BlueJ",
+          "CISCE ICSE Class 10 Examination",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-math-library-methods#article",
+        "headline": "Math Library Methods for ICSE Class 10: Return Types, Output Traps and Java Expressions",
+        "description": "The ten Math methods in the ICSE Computer Applications syllabus in one return-type table, twenty output traps on round, ceil, floor, pow and sqrt, the compile errors students make, formulas as Java expressions, Math.random ranges and two programs, every line run in Java 21.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-10-13",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/icse-class-10-math-library-methods"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-math-library-methods#course",
+        "name": "ICSE Class 10 Computer Applications (Java) Math Library Methods, Live Online",
+        "description": "Live online teaching of the ICSE Computer Applications mathematical library methods for the 2027 examination: Math.pow, sqrt, cbrt, ceil, floor, round, abs, max, min and random, their return types and output traps, writing formulas as Java expressions, random numbers in a range, and short programs, in a Tuesday and Wednesday evening mini batch in India or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/icse-class-10-math-library-methods",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "2999",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, mini batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": [
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Tuesday"
+              ],
+              "startTime": "17:30",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-math-library-methods"
+            }
+          },
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Wednesday"
+              ],
+              "startTime": "20:00",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-math-library-methods"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ICSE Class 10 Java classes",
+            "item": "https://learn.modernagecoders.com/icse-class-10-java-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Math library methods",
+            "item": "https://learn.modernagecoders.com/icse-class-10-math-library-methods"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which Math methods are in the ICSE Computer Applications syllabus?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The 2026-27 syllabus lists ten methods of the Math class: pow(x, y), sqrt(x), cbrt(x), ceil(x), floor(x), round(x), abs(a), max(a, b), min(a, b) and random(). They are taught in Class 9 and revised in Class 10, and the 2027 paper can ask about any of them in Section A or use them inside a Section B program."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the return type of Math.pow and Math.sqrt?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both return double, whatever type of argument you pass. So Math.pow(5, 2) prints 25.0 and Math.sqrt(81) prints 9.0. To store the result in an int you must cast it, as in (int) Math.pow(5, 2), and the cast removes any fractional part."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between Math.round, Math.ceil and Math.floor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Math.ceil moves up to the next whole number and Math.floor moves down; both return double, so 6.1 gives 7.0 and 6.0. Math.round goes to the nearest whole number, with halves moving up, and returns a long for a double argument, so 6.5 gives 7 with no decimal point."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does Math.round(-2.5) return in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It returns -2. Java rounds a half towards positive infinity, and the next whole number up from -2.5 is -2. A value just past the half, such as -2.51, rounds to -3. This is one of the most common Math traps in ICSE output questions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does Math.sqrt of a negative number print NaN?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A negative number has no real square root, so Java returns the special double value NaN, meaning \"not a number\", instead of stopping with an error. Use Math.cbrt for cube roots of negative numbers, which works, or take Math.abs first if the question allows it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the return type of Math.abs, Math.max and Math.min?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They return the same type as their arguments: int for int arguments and double for double arguments. If one argument is int and the other is double, the int is promoted first, so Math.max(8, 11.0) returns the double 11.0."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you generate a random number between 1 and 100 in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use 1 + (int) (Math.random() * 100). Math.random() gives a double from 0.0 up to but not including 1.0; multiplying by 100 stretches it, the cast removes the fraction to give 0 to 99, and adding 1 shifts it to 1 to 100. Keep the brackets around the multiplication."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to import anything to use Math methods in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The Math class is in the java.lang package, which Java imports into every program automatically. You call its methods through the class name, as in Math.sqrt(x), because they are static; you never create a Math object."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are trigonometric methods like Math.sin in the ICSE 2027 syllabus?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The 2026-27 syllabus list we checked names only pow, sqrt, cbrt, ceil, floor, round, abs, max, min and random. Some textbooks mention sin, cos, log or exp, but questions should be set from the syllabus list, so learn those ten thoroughly first."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you teach Math library methods in live classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. In the ICSE mini batch on Tuesday at 5:30 PM IST and Wednesday at 8:00 PM IST, each Tuesday opens with a return-type drill and the methods are then used inside full programs. Personalised one to one classes are available at a time the family picks, in India or abroad."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-ic23 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">ICSE CA &middot; Math methods</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#returns">Return types</a>
+      <a href="#traps">Output traps</a>
+      <a href="#expressions">Expressions</a>
+      <a href="#random">Math.random</a>
+      <a href="#fees">Batch or 1-on-1</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> <span>/</span> <span>Math library methods</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">ICSE Class 10 &middot; Computer Applications (Java) &middot; Math library methods 2027</p>
+        <h1>Math library methods for ICSE: what each one returns, and where the marks slip.</h1>
+        <p class="bx-lede">The Math library methods in ICSE Computer Applications are only ten, and every one of them is easy to call. Marks are lost on what they return: 25.0 instead of 25, -6 instead of -7, -0.0 instead of 0. This page puts all ten syllabus methods in one return-type table, then works through the output traps, the compile errors, formulas written as Java expressions and Math.random ranges. Every result was run in Java 21, and the same traps are drilled every week in our live mini batch.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20classes%20on%20Math%20library%20methods%20for%20ICSE%20Class%2010." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'ic23'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; all ten syllabus Math methods &middot; 20 output traps run in Java &middot; formulas as expressions &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When Math methods are drilled">
+        <p class="bx-tt-title"><span>Math methods</span><b>ICSE CA</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Tuesday, return-type and output drills</span><span class="bx-tt-time">5:30<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, formulas inside programs</span><span class="bx-tt-time">8:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Syllabus Math methods</span><span class="bx-tt-time">10<small>covered</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Output traps in rotation</span><span class="bx-tt-time">20<small>run</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/icse-computer-applications-java-bluej-course">ICSE Class 10 Computer Applications, Java with BlueJ, Live</a></p>
+          <a class="bx-offer-opt" href="#fees" data-india-only="true"><span class="bx-offer-k">Mini batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.miniBatch">₹2,999</span><small>/month</small></span><span class="bx-offer-v">Tue 5:30 PM and Wed 8:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>In India:</b> the mini batch on both evenings, six students at most. <b>Outside India:</b> the same drills one to one, after school in your own time zone.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Return type is the answer</span>
+          <span class="bx-stamp">Every output run</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Courses where Math methods are practised</h2>
+      <p class="bx-lede">The ICSE Java course where the mini batch drills these return types weekly, the Class 11 and 12 Computer Science course where the same methods return in longer ISC programs, and the data structures course for students curious about how numeric code is reasoned about.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/icse-computer-applications-java-bluej-course">
+        <div class="bx-pick-shot"><img src="/images/java-teens.webp" alt="ICSE Computer Applications Java with BlueJ course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / ICSE CA</p>
+          <h3>ICSE Computer Applications, Java with BlueJ</h3>
+          <p>Class 9 and 10 Computer Applications in a mini batch, with a short Math return-type drill at the start of the Tuesday class.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+        <div class="bx-pick-shot"><img src="/images/ip-cs-class-11-12.webp" alt="Computer Science Class 11 and 12 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Next step / ISC</p>
+          <h3>Computer Science Class 11 and 12</h3>
+          <p>For students moving to ISC, where the same Math calls sit inside bigger number programs.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="bx-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures and Algorithms course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Beyond the syllabus / DSA</p>
+          <h3>Data Structures and Algorithms</h3>
+          <p>For the student who likes floors, ceilings and square roots enough to meet them in binary search and complexity.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>The Math library methods in ICSE Computer Applications are the static methods of Java's Math class in java.lang: pow, sqrt, cbrt, ceil, floor, round, abs, max, min and random. Most marks depend on return types. pow, sqrt, cbrt, ceil, floor and random always return double, so whole answers print with .0; round of a double returns a long with no decimal; abs, max and min return the type of their arguments after promotion. They are part of the Class 9 syllabus that the 2027 Class 10 paper revises. Modern Age Coders drills them live in a Tuesday and Wednesday mini batch in India, or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="returns">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. Which Math methods are in the ICSE syllabus, and what does each return?</p>
+      <h2>Mathematical functions in Java Class 10: the return-type table</h2>
+      <p class="bx-lede">The syllabus lists ten methods of the Math class, all static and all in the package java.lang, which every program imports automatically. The return type column is the one to learn by heart, because it decides how the answer prints.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Method</th><th scope="col">What it gives</th><th scope="col">Returns</th><th scope="col">Example</th><th scope="col">Output</th></tr></thead>
+        <tbody>
+          <tr><td><code>Math.pow(x, y)</code></td><td>x raised to the power y</td><td>double</td><td><code>Math.pow(5, 2)</code></td><td class="bx-num">25.0</td></tr>
+          <tr><td><code>Math.sqrt(x)</code></td><td>square root of x</td><td>double</td><td><code>Math.sqrt(81)</code></td><td class="bx-num">9.0</td></tr>
+          <tr><td><code>Math.cbrt(x)</code></td><td>cube root of x</td><td>double</td><td><code>Math.cbrt(64)</code></td><td class="bx-num">4.0</td></tr>
+          <tr><td><code>Math.ceil(x)</code></td><td>smallest whole number not less than x</td><td>double</td><td><code>Math.ceil(6.1)</code></td><td class="bx-num">7.0</td></tr>
+          <tr><td><code>Math.floor(x)</code></td><td>largest whole number not more than x</td><td>double</td><td><code>Math.floor(6.9)</code></td><td class="bx-num">6.0</td></tr>
+          <tr><td><code>Math.round(x)</code></td><td>nearest whole number, halves go up</td><td>long for a double, int for a float</td><td><code>Math.round(6.5)</code></td><td class="bx-num">7</td></tr>
+          <tr><td><code>Math.abs(a)</code></td><td>value without its sign</td><td>same type as a</td><td><code>Math.abs(-12)</code>, <code>Math.abs(-12.5)</code></td><td class="bx-num">12 12.5</td></tr>
+          <tr><td><code>Math.max(a, b)</code></td><td>the larger of two</td><td>the wider of the two types</td><td><code>Math.max(8, 11)</code>, <code>Math.max(8, 11.0)</code></td><td class="bx-num">11 11.0</td></tr>
+          <tr><td><code>Math.min(a, b)</code></td><td>the smaller of two</td><td>the wider of the two types</td><td><code>Math.min(-4, 9)</code>, <code>Math.min(-4.0, 9)</code></td><td class="bx-num">-4 -4.0</td></tr>
+          <tr><td><code>Math.random()</code></td><td>a random value from 0.0 up to, but not including, 1.0</td><td>double</td><td><code>Math.random()</code></td><td>varies, for example 0.6182...</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-grid-3 bx-mt-40">
+      <div class="bx-card"><h3>Six always give double</h3><p>pow, sqrt, cbrt, ceil, floor and random return double whatever you pass in. Even Math.sqrt of a perfect square prints a decimal point.</p></div>
+      <div class="bx-card"><h3>round is the odd one out</h3><p>Math.round of a double returns long, of a float returns int. Either way, the answer has no .0. Halves round upwards, towards positive infinity.</p></div>
+      <div class="bx-card"><h3>Three follow their arguments</h3><p>abs, max and min return int for ints and double for doubles. If one argument is int and the other double, the int is promoted first, so the result is double.</p></div>
+    </div>
+    <p class="bx-mt-40">Your textbook may mention other Math methods such as sin, log or exp. The 2026-27 syllabus list we checked names only the ten above, so this page stays with those. How these methods sit beside the wrapper classes and Character methods is covered on <a class="bx-link" href="/icse-class-10-wrapper-and-library-classes">wrapper and library classes for ICSE</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="traps">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. Where do Math output questions catch students?</p>
+      <h2>Math.round, Math.ceil and Math.floor ICSE: output traps with answers</h2>
+      <p class="bx-lede">Nearly every wrong answer on Math comes from one of three slips: a missing or extra .0, rounding a negative half the wrong way, or doing integer division before the method sees the value. Cover the Output column and try each one.</p>
+    </div>
+    <h3>Rounding, ceiling and floor</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Code</th><th scope="col">Output</th><th scope="col">The trap</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><code>System.out.println(Math.round(-6.5) + " " + Math.round(-6.51));</code></td><td class="bx-num">-6 -7</td><td>A half rounds up, and up from -6.5 is -6; only past the half does it go to -7</td></tr>
+          <tr><td>2</td><td><code>System.out.println(Math.round(4.5) + " " + Math.round(-0.5));</code></td><td class="bx-num">5 0</td><td>Both halves move towards positive infinity</td></tr>
+          <tr><td>3</td><td><code>System.out.println(Math.round(-1.5) + " " + Math.floor(-0.5));</code></td><td class="bx-num">-1 -1.0</td><td>round gives a long; floor goes down to the next whole number and gives a double</td></tr>
+          <tr><td>4</td><td><code>System.out.println(Math.ceil(-0.4));</code></td><td class="bx-num">-0.0</td><td>Java keeps the minus sign on a zero that came from a negative number</td></tr>
+          <tr><td>5</td><td><code>System.out.println(Math.floor(7.0) + " " + Math.ceil(7.0));</code></td><td class="bx-num">7.0 7.0</td><td>A whole number is its own floor and ceiling</td></tr>
+          <tr><td>6</td><td><code>System.out.println(Math.floor(-2.2) + Math.ceil(-2.2));</code></td><td class="bx-num">-5.0</td><td>floor of -2.2 is -3.0 (further from zero), ceil is -2.0; two doubles are added</td></tr>
+          <tr><td>7</td><td><code>System.out.println(Math.ceil(7 / 2) + " " + Math.ceil(7 / 2.0));</code></td><td class="bx-num">3.0 4.0</td><td>7 / 2 is already 3 before ceil sees it; only 7 / 2.0 keeps the half</td></tr>
+          <tr><td>8</td><td><code>System.out.println(Math.round(2.0 / 3 * 100) / 100.0);</code></td><td class="bx-num">0.67</td><td>The standard way to keep two decimal places: scale, round, divide by a double</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="bx-mt-40">Math.pow, Math.sqrt and Math.cbrt output ICSE</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Code</th><th scope="col">Output</th><th scope="col">The trap</th></tr></thead>
+        <tbody>
+          <tr><td>9</td><td><code>System.out.println(Math.sqrt(-9));</code></td><td class="bx-num">NaN (no error)</td><td>No real square root exists, so Java prints NaN, "not a number"; there is no error</td></tr>
+          <tr><td>10</td><td><code>System.out.println(Math.pow(-8, 1.0 / 3) + " " + Math.cbrt(-8));</code></td><td class="bx-num">NaN -2.0</td><td>pow cannot take a fractional power of a negative base; cbrt handles negatives</td></tr>
+          <tr><td>11</td><td><code>System.out.println(Math.pow(4, 0.5) + " " + Math.pow(10, -2));</code></td><td class="bx-num">2.0 0.01</td><td>Power 0.5 is a square root; a negative power is a reciprocal</td></tr>
+          <tr><td>12</td><td><code>System.out.println(Math.pow(0, 0) + " " + Math.sqrt(0));</code></td><td class="bx-num">1.0 0.0</td><td>Anything to the power 0 is 1.0 in Java, including 0</td></tr>
+          <tr><td>13</td><td><code>System.out.println((int) Math.sqrt(30));</code></td><td class="bx-num">5</td><td>The cast cuts 5.477... down to 5; it does not round</td></tr>
+          <tr><td>14</td><td><code>System.out.println(Math.sqrt(Math.pow(3, 2) + Math.pow(4, 2)));</code></td><td class="bx-num">5.0</td><td>Nested calls work inside out: 9.0 + 16.0, then the root</td></tr>
+          <tr><td>15</td><td><code>System.out.println(Math.round(Math.sqrt(50)) + Math.round(Math.cbrt(30)));</code></td><td class="bx-num">10</td><td>7 + 3 are two longs added as numbers, because no String comes first</td></tr>
+          <tr><td>16</td><td><code>System.out.println("" + Math.round(Math.sqrt(50)) + Math.round(Math.cbrt(30)));</code></td><td class="bx-num">73</td><td>The empty String first turns every + into joining</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="bx-mt-40">abs, max and min</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">#</th><th scope="col">Code</th><th scope="col">Output</th><th scope="col">The trap</th></tr></thead>
+        <tbody>
+          <tr><td>17</td><td><code>System.out.println(Math.max('a', 'b'));</code></td><td class="bx-num">98</td><td>chars are promoted to int, so the code of 'b' is printed, not the letter</td></tr>
+          <tr><td>18</td><td><code>System.out.println(Math.abs(-7 / 2) + " " + Math.abs(-7.0 / 2));</code></td><td class="bx-num">3 3.5</td><td>-7 / 2 is -3 in int arithmetic before abs ever runs</td></tr>
+          <tr><td>19</td><td><code>System.out.println(Math.max(Math.min(15, 10), 12));</code></td><td class="bx-num">12</td><td>Inner call first: min gives 10, then max of 10 and 12</td></tr>
+          <tr><td>20</td><td><code>System.out.println(Math.min(Math.abs(-3), -Math.abs(3)));</code></td><td class="bx-num">-3</td><td>The unary minus outside abs makes the second value -3</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Storing a Math result in an int</b><span>javac 21</span></figcaption>
+  <pre>int a = Math.round(3.7);      <i>// line 3</i>
+int b = Math.pow(2, 5);       <i>// line 4</i>
+int c = Math.sqrt(36);        <i>// line 5</i>
+
+<i>// javac says:</i>
+E.java:3: error: incompatible types: possible lossy conversion from long to int
+E.java:4: error: incompatible types: possible lossy conversion from double to int
+E.java:5: error: incompatible types: possible lossy conversion from double to int</pre>
+  <p class="bx-code-note">Java will not quietly shrink a long or a double into an int. This is a favourite error-finding question.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Three ways that compile</b><span>run in Java 21</span></figcaption>
+  <pre>int d = Math.round(3.7f);     <i>// float in, int out</i>
+long e = Math.round(3.7);     <i>// double in, long out</i>
+int f = (int) Math.pow(2, 5); <i>// explicit cast</i>
+System.out.println(d + " " + e + " " + f);
+
+<i>// Output:</i>
+4 4 32</pre>
+  <p class="bx-code-note">Pick the variable type that matches the return type, or cast on purpose. A cast truncates: (int) 4.99 is 4.</p>
+</figure>
+    </div>
+    <p class="bx-mt-40">Math rows sit among every other kind of trap on <a class="bx-link" href="/icse-class-10-java-output-questions">ICSE Java output questions</a>, and the error side is on <a class="bx-link" href="/icse-class-10-java-error-finding-questions">ICSE Class 10 Java error finding questions</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="expressions">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. How do you write a formula as a Java expression?</p>
+      <h2>Writing mathematical expressions in Java with Math methods</h2>
+      <p class="bx-lede">A two-mark Section A part often gives a formula and asks for the Java expression. Replace each root and power with its Math method, write every multiplication sign, and add brackets wherever a fraction bar or a root covers more than one term.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Formula</th><th scope="col">Java expression</th><th scope="col">Checked with</th><th scope="col">Result</th></tr></thead>
+        <tbody>
+          <tr><td>distance = &radic;((x2 &minus; x1)&sup2; + (y2 &minus; y1)&sup2;)</td><td><code>Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2))</code></td><td>(1, 2) and (4, 6)</td><td class="bx-num">5.0</td></tr>
+          <tr><td>roots of ax&sup2; + bx + c = 0</td><td><code>(-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a)</code> and the same with &minus;</td><td>a = 1, b = &minus;5, c = 6</td><td class="bx-num">3.0 2.0</td></tr>
+          <tr><td>amount = P(1 + r/100)<sup>n</sup></td><td><code>p * Math.pow(1 + r / 100, n)</code></td><td>P = 10000, r = 8, n = 2</td><td class="bx-num">11664.000000000002</td></tr>
+          <tr><td>|a &minus; 5b| &divide; larger of a, b</td><td><code>Math.abs(a - b * 5) / Math.max(a, b)</code></td><td>a = 7.5, b = 2</td><td class="bx-num">0.3333333333333333</td></tr>
+          <tr><td>&#8731;(2.4ab)</td><td><code>Math.cbrt(a * b * 2.4)</code></td><td>a = 7.5, b = 2</td><td class="bx-num">3.3019272488946267</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The compound interest row is worth a second look. The true answer is 11664, but doubles store most decimals approximately, so Java prints a tiny tail. In a program, round the result to two decimal places before printing it.</p>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>The fraction that vanished</b><span>run in Java 21</span></figcaption>
+  <pre>int r = 3;
+<i>// volume of a sphere, 4/3 x 22/7 x r cubed</i>
+System.out.println(4 / 3 * 22 / 7 * Math.pow(r, 3));
+System.out.println(4.0 / 3 * 22 / 7 * Math.pow(r, 3));
+
+<i>// Output:</i>
+81.0
+113.14285714285715</pre>
+  <p class="bx-code-note">In the first line 4 / 3 is 1 and 22 / 7 then becomes 3, all in int arithmetic, before pow brings in a double. Writing 4.0 fixes the whole chain.</p>
+</figure>
+      <div>
+        <ol class="bx-qlist">
+          <li>Every power needs <code>Math.pow</code>; <code>x^2</code> is not a power in Java.</li>
+          <li>Every product needs <code>*</code>: <code>2ab</code> is <code>2 * a * b</code>.</li>
+          <li>A fraction bar over several terms needs brackets on both top and bottom.</li>
+          <li>A root over a sum needs the whole sum inside the brackets of <code>Math.sqrt</code>.</li>
+          <li>If the formula has a fraction such as 4/3, write one of the numbers as a double.</li>
+        </ol>
+      </div>
+    </div>
+    <p class="bx-mt-40">Operator precedence, the other half of every expression question, is covered on <a class="bx-link" href="/icse-class-10-operators-in-java">operators in Java for ICSE Class 10</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="random">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. How do you get a random whole number in a range?</p>
+      <h2>Math.random in ICSE Java: whole numbers in a range, and two programs</h2>
+      <p class="bx-lede">Math.random() gives a double from 0.0 up to but not including 1.0. To get a whole number from low to high, use <code>low + (int) (Math.random() * (high - low + 1))</code>: multiply to stretch the range, cast to cut off the fraction, then shift it.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Goal</th><th scope="col">Expression</th><th scope="col">Smallest and largest seen</th></tr></thead>
+        <tbody>
+          <tr><td>A dice roll, 1 to 6</td><td><code>(int) (Math.random() * 6) + 1</code></td><td class="bx-num">1 and 6 (a million runs)</td></tr>
+          <tr><td>A four-digit code, 1000 to 9999</td><td><code>1000 + (int) (Math.random() * 9000)</code></td><td class="bx-num">1000 and 9999 (two million runs)</td></tr>
+          <tr><td>The bracket slip</td><td><code>(int) Math.random() * 6 + 1</code></td><td class="bx-num">1 and 1 (a million runs)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The last row is the trap. The cast applies to Math.random() alone, which is always below 1.0, so it becomes 0 every time and the "dice" always shows 1. Brackets around the multiplication are what make the expression work.</p>
+    <div class="bx-dated bx-mt-40">
+      <p><b>Program 1.</b> Write a program to input a decimal number and print its absolute value, the square root of its absolute value and its cube root (each to two decimal places), and its rounded value, ceiling, floor and square, using Math methods.</p>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>NumberReport.java</b><span>seven Math calls</span></figcaption>
+  <pre>import java.util.Scanner;
+class NumberReport {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        double x = sc.nextDouble();
+        double ab = Math.abs(x);
+        System.out.println("Absolute value: " + ab);
+        System.out.println("Square root of |x|: "
+            + Math.round(Math.sqrt(ab) * 100) / 100.0);
+        System.out.println("Cube root of x: "
+            + Math.round(Math.cbrt(x) * 100) / 100.0);
+        System.out.println("Rounded: " + Math.round(x));
+        System.out.println("Ceiling: " + Math.ceil(x));
+        System.out.println("Floor: " + Math.floor(x));
+        System.out.println("Square: " + Math.pow(x, 2));
+    }
+}</pre>
+  <p class="bx-code-note">sqrt gets the absolute value, because a negative input would give NaN. cbrt can take x itself.</p>
+</figure>
+      <div>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>sc</td><td>Scanner</td><td>reads the input</td></tr>
+              <tr><td>x</td><td>double</td><td>the number entered</td></tr>
+              <tr><td>ab</td><td>double</td><td>absolute value of x</td></tr>
+            </tbody>
+          </table>
+        </div>
+<figure class="bx-code bx-mt-40">
+  <figcaption class="bx-code-head"><b>Sample run</b><span>Java 21</span></figcaption>
+  <pre>Enter a number: <b>-18.75</b>
+Absolute value: 18.75
+Square root of |x|: 4.33
+Cube root of x: -2.66
+Rounded: -19
+Ceiling: -18.0
+Floor: -19.0
+Square: 351.5625</pre>
+  <p class="bx-code-note">For a negative number the ceiling is the one nearer zero. -18.75 is past the half, so it rounds to -19.</p>
+</figure>
+      </div>
+    </div>
+    <div class="bx-dated bx-mt-40">
+      <p><b>Program 2.</b> Write a program to input a positive integer. If it is a perfect square, print the number whose square it is; otherwise print the perfect squares just below and just above it and the one that is nearer.</p>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>NearSquare.java</b><span>sqrt, floor, ceil, pow, abs</span></figcaption>
+  <pre>import java.util.Scanner;
+class NearSquare {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a positive integer: ");
+        int n = sc.nextInt();
+        double root = Math.sqrt(n);
+        if (root == Math.floor(root)) {
+            System.out.println(n + " is a perfect square of " + (int) root);
+        } else {
+            int below = (int) Math.pow(Math.floor(root), 2);
+            int above = (int) Math.pow(Math.ceil(root), 2);
+            System.out.println("Squares either side: " + below + " and " + above);
+            if (Math.abs(n - below) &lt; Math.abs(above - n))
+                System.out.println("Nearest: " + below);
+            else
+                System.out.println("Nearest: " + above);
+        }
+    }
+}</pre>
+  <p class="bx-code-note">No "equally near" branch is needed: neighbouring squares are always an odd distance apart, so a whole number can never sit exactly halfway.</p>
+</figure>
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Sample runs</b><span>Java 21</span></figcaption>
+  <pre>Enter a positive integer: <b>196</b>
+196 is a perfect square of 14
+
+Enter a positive integer: <b>90</b>
+Squares either side: 81 and 100
+Nearest: 81
+
+Enter a positive integer: <b>115</b>
+Squares either side: 100 and 121
+Nearest: 121</pre>
+  <p class="bx-code-note">root == Math.floor(root) is the perfect square test: the root has no fractional part. The casts to int are needed because pow returns double.</p>
+</figure>
+    </div>
+    <p class="bx-mt-40">Perfect squares, digit powers and other number tests built on these methods are on <a class="bx-link" href="/icse-special-number-programs-java">ICSE special number programs</a>, and series sums that lean on Math.pow are on <a class="bx-link" href="/icse-class-10-series-programs-java">series programs in Java for ICSE</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="questions">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. What does Section A ask about Math methods?</p>
+      <h2>Math library methods ICSE questions with answers</h2>
+      <p class="bx-lede">These questions come in Question 1 as one-mark MCQs and in Question 2 as two-mark parts: give the output, name the return type, or write the expression. Answer each before opening it.</p>
+    </div>
+    <div class="bx-grid-2">
+      <div>
+        <h3>One-mark questions</h3>
+        <ol class="bx-qlist">
+          <li>Which package contains the Math class?
+            <details><summary>Answer</summary> java.lang, which is imported into every program automatically.</details></li>
+          <li>What is the return type of <code>Math.ceil(5)</code>?
+            <details><summary>Answer</summary> double. It returns 5.0.</details></li>
+          <li>Give the output of <code>Math.round(8.49) + Math.round(8.5)</code>.
+            <details><summary>Answer</summary> 17. 8 + 9, added as long values.</details></li>
+          <li>Which Math method returns a value from 0.0 up to but not including 1.0?
+            <details><summary>Answer</summary> <code>Math.random()</code>.</details></li>
+          <li>Give the output of <code>Math.abs(Math.floor(-3.2))</code>.
+            <details><summary>Answer</summary> 4.0. floor of -3.2 is -4.0, and abs of a double is a double.</details></li>
+          <li>Which method finds the cube root: <code>Math.sqrt</code>, <code>Math.cbrt</code> or <code>Math.pow</code>?
+            <details><summary>Answer</summary> <code>Math.cbrt</code>, which also works for negative numbers.</details></li>
+        </ol>
+      </div>
+      <div>
+        <h3>Two-mark questions</h3>
+        <ol class="bx-qlist">
+          <li>Write the Java expression for &radic;(3x + y&sup2;).
+            <details><summary>Answer</summary> <code>Math.sqrt(3 * x + Math.pow(y, 2))</code>, or <code>Math.sqrt(3 * x + y * y)</code>.</details></li>
+          <li>Differentiate between <code>Math.ceil()</code> and <code>Math.floor()</code>.
+            <details><summary>Answer</summary> ceil returns the smallest whole number greater than or equal to its argument; floor returns the largest whole number less than or equal to it. Both return double: <code>Math.ceil(4.2)</code> is 5.0 and <code>Math.floor(4.2)</code> is 4.0.</details></li>
+          <li>Give the output: <code>double d = Math.pow(2, 10) / Math.sqrt(64); System.out.println(d);</code>
+            <details><summary>Answer</summary> 128.0. 1024.0 divided by 8.0.</details></li>
+          <li>Why does <code>int k = Math.round(9.6);</code> not compile? Correct it.
+            <details><summary>Answer</summary> Math.round of a double returns long, which cannot be stored in an int without a cast. Write <code>long k = Math.round(9.6);</code> or <code>int k = (int) Math.round(9.6);</code>.</details></li>
+          <li>Write an expression for a random whole number from 10 to 20, both included.
+            <details><summary>Answer</summary> <code>10 + (int) (Math.random() * 11)</code>. There are eleven values, so the multiplier is 11.</details></li>
+        </ol>
+      </div>
+    </div>
+    <p class="bx-mt-40">One-mark questions from every chapter in the same style are on <a class="bx-link" href="/icse-computer-applications-mcq-questions">ICSE Computer Applications MCQ questions</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" style="font-variant-ligatures:none" id="live">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. How are Math methods taught in the mini batch?</p>
+      <h2>Ten methods, learned until the return type is automatic</h2>
+      <p class="bx-lede">Students rarely forget what sqrt does. They forget that it returns a double. So practice is built around saying the type before the value, every time.</p>
+    </div>
+    <ol class="bx-steps">
+      <li class="bx-step"><h4>Type first, value second</h4><p>The Tuesday 5:30 PM IST class opens with a rapid round of Math calls. For each one the student names the return type, then the printed value, and a missing .0 counts as wrong.</p></li>
+      <li class="bx-step"><h4>Negative numbers on purpose</h4><p>Rounding, ceiling and floor are drilled with negative arguments and halves, because that is where the board's options are built to mislead.</p></li>
+      <li class="bx-step"><h4>Formulas to expressions</h4><p>Physics and maths formulas from the student's own school books are turned into Java expressions and run in BlueJ to check the brackets.</p></li>
+      <li class="bx-step"><h4>Math inside programs</h4><p>On Wednesday at 8:00 PM IST the methods appear inside full programs, such as number tests and series, written by hand and marked against the board scheme on screen.</p></li>
+      <li class="bx-step"><h4>Mock papers from December</h4><p>Complete two-hour papers bring Math questions back in both sections, timed and marked like the real thing.</p></li>
+    </ol>
+    <p class="bx-mt-40">Math methods are Class 9 content that Class 10 revises; the rest of that revision is on <a class="bx-link" href="/icse-class-9-java-revision-for-class-10">Class 9 Java revision for Class 10</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Drill Math methods in the mini batch, or one to one</h2>
+      <p class="bx-lede">The return-type drills, the negative-number traps and the formula practice are the same in either format. In India, families choose the fixed evening group of up to six or a private slot; ICSE students abroad learn one to one. Billing is monthly, with no admission fee.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card" data-india-only="true">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Mini batch, Tuesday 5:30 PM and Wednesday 8 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Tuesday 5:30 PM and Wednesday 8:00 PM IST, live</li><li>Six ICSE Class 10 students at most</li><li>A return-type round at the start of every Tuesday class</li><li>Formulas checked in BlueJ on a shared screen</li><li>Math questions inside full mock papers from December</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>A slot the family picks, in India or overseas</li><li>Practice aimed at the exact Math slips your child makes</li><li>School physics and maths formulas used as practice</li><li>Harder nested calls once the basics are secure</li><li>Same teachers and the same 2027 syllabus</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
+    <p class="bx-mt-40">Math methods are a small topic, so a student who mostly needs to fix return types and negative rounding can do it in a few one to one sessions. A student who also wants steady practice on loops, Strings, arrays and classes will get more from the two batch classes each week. Fees are shown in your own currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>Math methods practice for ICSE students abroad</h2>
+      <p class="bx-lede">ICSE students in the Gulf, Singapore and elsewhere sit the same Computer Applications paper, with the same Math questions. Outside India we teach one to one, at an evening hour that suits the student's time zone.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Time difference</th><th scope="col">Usual class window, local time</th><th scope="col">Format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td>IST</td><td class="bx-num">Tue 5:30 PM, Wed 8:00 PM</td><td><span class="bx-fit">Mini batch or 1-on-1</span></td></tr>
+          <tr><td>United Arab Emirates<br><span class="bx-src">Dubai, Sharjah</span></td><td>1 h 30 min behind India</td><td class="bx-num">3:00 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Indonesia and Thailand<br><span class="bx-src">West Java, Bangkok area</span></td><td>1 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Singapore<br><span class="bx-src">Singapore</span></td><td>2 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The slot is agreed after the free demo and can shift during school exams. How overseas classes work is explained on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the ICSE Class 10 Computer Applications series, grouped by what you need: classes, each chapter, Section B programs, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a></li>
+          <li><a href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Java classes in the Gulf and abroad</a></li>
+          <li><a href="/icse-class-10-bluej-java-coaching">ICSE BlueJ Java coaching</a></li>
+          <li><a href="/icse-computer-applications-crash-course">ICSE computer crash course</a></li>
+          <li><a href="/icse-computer-tuition-kolkata">ICSE computer tuition in Kolkata</a></li>
+          <li><a href="/icse-computer-tuition-bangalore">ICSE computer tuition in Bangalore</a></li>
+          <li><a href="/icse-computer-tuition-mumbai">ICSE computer tuition in Mumbai</a></li>
+          <li><a href="/icse-computer-applications-private-tutor">1-on-1 private Java tutor</a></li>
+          <li><a href="/icse-computer-tuition-lucknow">ICSE computer tuition in Lucknow</a></li>
+          <li><a href="/icse-computer-tuition-pune">ICSE computer tuition in Pune</a></li>
+          <li><a href="/icse-computer-tuition-near-me">ICSE computer tuition near me</a></li>
+          <li><a href="/icse-computer-applications-small-batch-classes">The mini batch, explained</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Chapter by chapter</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a></li>
+          <li><a href="/icse-class-10-user-defined-methods-overloading">User-defined methods and overloading</a></li>
+          <li><a href="/icse-class-10-constructors-questions">Constructors</a></li>
+          <li><a href="/icse-class-10-wrapper-and-library-classes">Wrapper and library classes</a></li>
+          <li><a href="/icse-class-10-class-as-basis-of-computation">Class as the basis of all computation</a></li>
+          <li><a href="/icse-class-10-encapsulation-access-specifiers">Encapsulation and access specifiers</a></li>
+          <li><a href="/icse-class-10-operators-in-java">Operators and expressions</a></li>
+          <li><a href="/icse-class-10-loop-programs-java">Loops and loop conversion</a></li>
+          <li><a href="/icse-class-10-data-types-and-input-java">Data types, input and type casting</a></li>
+          <li><a href="/icse-class-9-java-revision-for-class-10">Class 9 Java revision for Class 10</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Programs for Section B</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a></li>
+          <li><a href="/icse-class-10-string-programs">String programs</a></li>
+          <li><a href="/icse-special-number-programs-java">Special number programs</a></li>
+          <li><a href="/icse-class-10-sorting-and-searching-programs">Sorting and searching programs</a></li>
+          <li><a href="/icse-class-10-2d-array-programs">2D array programs</a></li>
+          <li><a href="/icse-class-10-pattern-programs-java">Pattern programs</a></li>
+          <li><a href="/icse-class-10-menu-driven-programs">Menu driven and switch case</a></li>
+          <li><a href="/icse-class-10-series-programs-java">Series programs</a></li>
+          <li><a href="/icse-class-10-slab-and-bill-programs">Slab and bill programs</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></li>
+          <li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mock tests</a></li>
+          <li><a href="/icse-computer-applications-previous-year-papers-solved">Previous year papers, solved</a></li>
+          <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
+          <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
+          <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+          <li><a href="/icse-class-10-java-error-finding-questions">Find the error questions</a></li>
+          <li><a href="/icse-computer-difference-between-questions">Difference between questions</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Notes and revision</h3>
+        <ul>
+          <li><a href="/icse-computer-applications-notes">Chapter-wise notes</a></li>
+          <li><a href="/icse-computer-applications-textbook-solutions-guide">Textbook solutions guide</a></li>
+          <li><a href="/icse-computer-applications-worksheets">Worksheets with answers</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and internal assessment</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-board-exam-preparation">ICSE board exam preparation</a></li>
+          <li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+          <li><a href="/icse-class-10-computer-applications-project-and-internal-assessment">Project and internal assessment</a></li>
+          <li><a href="/how-to-score-100-in-icse-computer-applications">How to score 100</a></li>
+          <li><a href="/icse-computer-applications-paper-analysis">Paper analysis and answer key</a></li>
+          <li><a href="/icse-computer-applications-vs-commercial-applications">Computer or Commercial Applications?</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>CBSE Class 10 AI (417):</b> <a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about Math methods</p>
+      <h2>What students ask about Math library methods in ICSE</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>Which Math methods are in the ICSE Computer Applications syllabus?</h3><p>The 2026-27 syllabus lists ten methods of the Math class: pow(x, y), sqrt(x), cbrt(x), ceil(x), floor(x), round(x), abs(a), max(a, b), min(a, b) and random(). They are taught in Class 9 and revised in Class 10, and the 2027 paper can ask about any of them in Section A or use them inside a Section B program.</p></div>
+      <div class="bx-faq-item"><h3>What is the return type of Math.pow and Math.sqrt?</h3><p>Both return double, whatever type of argument you pass. So Math.pow(5, 2) prints 25.0 and Math.sqrt(81) prints 9.0. To store the result in an int you must cast it, as in (int) Math.pow(5, 2), and the cast removes any fractional part.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between Math.round, Math.ceil and Math.floor?</h3><p>Math.ceil moves up to the next whole number and Math.floor moves down; both return double, so 6.1 gives 7.0 and 6.0. Math.round goes to the nearest whole number, with halves moving up, and returns a long for a double argument, so 6.5 gives 7 with no decimal point.</p></div>
+      <div class="bx-faq-item"><h3>What does Math.round(-2.5) return in Java?</h3><p>It returns -2. Java rounds a half towards positive infinity, and the next whole number up from -2.5 is -2. A value just past the half, such as -2.51, rounds to -3. This is one of the most common Math traps in ICSE output questions.</p></div>
+      <div class="bx-faq-item"><h3>Why does Math.sqrt of a negative number print NaN?</h3><p>A negative number has no real square root, so Java returns the special double value NaN, meaning &quot;not a number&quot;, instead of stopping with an error. Use Math.cbrt for cube roots of negative numbers, which works, or take Math.abs first if the question allows it.</p></div>
+      <div class="bx-faq-item"><h3>What is the return type of Math.abs, Math.max and Math.min?</h3><p>They return the same type as their arguments: int for int arguments and double for double arguments. If one argument is int and the other is double, the int is promoted first, so Math.max(8, 11.0) returns the double 11.0.</p></div>
+      <div class="bx-faq-item"><h3>How do you generate a random number between 1 and 100 in Java?</h3><p>Use 1 + (int) (Math.random() * 100). Math.random() gives a double from 0.0 up to but not including 1.0; multiplying by 100 stretches it, the cast removes the fraction to give 0 to 99, and adding 1 shifts it to 1 to 100. Keep the brackets around the multiplication.</p></div>
+      <div class="bx-faq-item"><h3>Do I need to import anything to use Math methods in Java?</h3><p>No. The Math class is in the java.lang package, which Java imports into every program automatically. You call its methods through the class name, as in Math.sqrt(x), because they are static; you never create a Math object.</p></div>
+      <div class="bx-faq-item"><h3>Are trigonometric methods like Math.sin in the ICSE 2027 syllabus?</h3><p>The 2026-27 syllabus list we checked names only pow, sqrt, cbrt, ceil, floor, round, abs, max, min and random. Some textbooks mention sin, cos, log or exp, but questions should be set from the syllabus list, so learn those ten thoroughly first.</p></div>
+      <div class="bx-faq-item"><h3>Do you teach Math library methods in live classes?</h3><p>Yes. In the ICSE mini batch on Tuesday at 5:30 PM IST and Wednesday at 8:00 PM IST, each Tuesday opens with a return-type drill and the methods are then used inside full programs. Personalised one to one classes are available at a time the family picks, in India or abroad.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Try a free live class on Math methods</h2>
+        </div>
+        <p>In the free demo your child names the return type and output of a quick run of Math calls, including the negative halves and the NaN cases, then turns a formula from their own maths book into a Java expression and runs it in BlueJ. You hear plainly afterwards which slips are costing marks.</p>
+        <p>Want to look around first? See <a class="bx-link" href="/icse-class-10-computer-applications-important-questions">ICSE Computer Applications important questions</a> or <a class="bx-link" href="/icse-class-10-java-classes-online">the ICSE Class 10 Java classes</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20classes%20on%20Math%20library%20methods%20for%20ICSE%20Class%2010." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic23-parent">Parent's name</label><input id="bx-ic23-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-ic23-phone">Phone or WhatsApp</label><input id="bx-ic23-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic23-email">Email</label><input id="bx-ic23-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-ic23-format">Preferred format</label>
+              <select id="bx-ic23-format" name="format" required>
+                <option value="mini">Tue 5:30 PM and Wed 8 PM mini batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-ic23-child">Student's name and school (optional)</label><input id="bx-ic23-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>ICSE Class 10 Computer Applications</h4><ul><li><a href="/icse-class-10-java-classes-online">The Tue and Wed batch</a></li><li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mocks</a></li><li><a href="/icse-class-10-computer-applications-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>ICSE Computer Applications &middot; Math library methods 2027</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'icse-class-10-math-library-methods', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'icse-class-10-math-library-methods', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=5d83c35fbe"></script>
+    <script src="/js/international-pricing.js?v=73c0675aaf"></script>
+</body>
+</html>

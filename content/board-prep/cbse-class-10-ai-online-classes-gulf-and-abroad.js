@@ -13,6 +13,7 @@ module.exports = {
   slug: 'cbse-class-10-ai-online-classes-gulf-and-abroad',
   code: 'cgl',
   board: 'cbse',
+  dateModified: '2026-11-06',
   themeColor: '#1F4F66',
   title: 'CBSE Class 10 AI Online Classes in the UAE, Gulf and Abroad',
   description: 'Live CBSE Class 10 AI (417) classes for Dubai, Abu Dhabi, Riyadh, Doha, Kuwait, Muscat, Bahrain and Nepal: Mon and Wed evenings, mocks and live doubts.',
@@ -116,7 +117,7 @@ module.exports = {
           <li><b>The 2026-27 curriculum for code 417</b>, unchanged from 2025-26: Part A employability skills and seven Part B units.</li>
           <li><b>The paper design:</b> 50 theory marks in two hours, 15 of 21 questions answered, objective and written sections.</li>
           <li><b>The 50 practical marks:</b> a 15-program file, a practical exam, a project and two vivas, conducted by your school.</li>
-          <li><b>The date sheet:</b> CBSE publishes one schedule for the main examinations; the 2027 date sheet was not out when we checked on 13 October 2026.</li>
+          <li><b>The date sheet:</b> CBSE publishes one schedule for the main examinations; the CBSE date sheet released 6 November 2026 puts the 2027 Artificial Intelligence (417) paper on Wednesday 24 February 2027, 10:30 AM to 12:30 PM IST.</li>
           <li><b>The rule that 417 cannot be taken with Computer Applications (165).</b></li>
         </ul>
       </div>

@@ -4,8 +4,9 @@
 // revision plan with the mock-test schedule printed on the page. The page is
 // honest that there is no separate crash batch: a late joiner enters the Monday
 // and Wednesday batch in its revision and mock phase, or takes one to one, and the
-// six-week plan below is what those sessions cover. It counts back from exam day
-// because the 2027 date sheet is not out (in 2026 the AI paper was on 27 February).
+// six-week plan below is what those sessions cover. It counts back from exam day:
+// CBSE date sheet released 6 Nov 2026 puts AI 417 on Wed 24 Feb 2027 (2026: 27 Feb).
+// python3: Mon 11 Jan 2027 is 44 days before; week 1 = week of Mon 15 Feb (9 days).
 // Distinct from cb18 (self-study 30, 7 and 1 day plans), cb13 (a 90-minute one shot
 // read), cb12 (tuition routes), cb24 (one to one plan) and cb11 (doubts).
 // Mock marks follow the 2025-26 sample paper: Section A objective 24 (Part A any 4
@@ -84,7 +85,7 @@ module.exports = {
       </table>
     </div>
     <div class="bx-dated bx-mt-40">
-      <p><b>Dates first.</b> The 2027 CBSE date sheet is not out yet; in 2026 the AI 417 paper was on 27 February. Your school sets the practical examination date, which can come weeks before the theory paper. Count your six weeks back from whichever comes first, and if the practical is very close, the plan swaps its order so the file and viva come first.</p>
+      <p><b>Dates first.</b> The CBSE date sheet released 6 November 2026 puts the AI 417 paper on Wednesday 24 February 2027, 10:30 AM to 12:30 PM IST (in 2026 it was on 27 February). Your school sets the practical examination date, which can come weeks before the theory paper. Count your six weeks back from whichever comes first, and if the practical is very close, the plan swaps its order so the file and viva come first.</p>
     </div>
   </div>
 </section>`,
@@ -94,7 +95,7 @@ module.exports = {
     <div class="bx-section-head">
       <p class="bx-qlabel">Q2. What does each session cover?</p>
       <h2>The six-week AI 417 revision batch plan, session by session</h2>
-      <p class="bx-lede">Twelve live sessions, two a week, ordered by marks and difficulty: the heavy units first, Part A in short blocks, mocks from week 3. Week 6 is six weeks before the paper; week 1 is the final week.</p>
+      <p class="bx-lede">Twelve live sessions, two a week, ordered by marks and difficulty: the heavy units first, Part A in short blocks, mocks from week 3. Counted back from Wednesday 24 February 2027, week 6 is the week of Monday 11 January and week 1 the week of Monday 15 February, leaving 18 to 23 February for the error list and light revision.</p>
     </div>
     <div class="bx-table-wrap">
       <table class="bx-table">
@@ -260,7 +261,7 @@ ai 0.176, helps 0.176, doctors 0.477</pre>
     ['What if my practical exam is before the crash course ends?', 'The plan is reordered: file programs, the practical mock and both viva rehearsals come first, and theory revision follows. Your school sets the practical date, so tell the mentor at the free demo.'],
     ['Is the AI class 10 fast track only for weak students?', 'No. Many students taking it have done well in school tests but have never sat a full two-hour 417 paper or rehearsed a viva. The mocks and reviews are what they need most.'],
     ['Do I get the mock papers and marking?', 'Yes. Every mock is set in the paper\'s format, marked against the scheme and reviewed in class, and each lost written answer is rewritten. All of it is part of the monthly fee shown on this page.'],
-    ['When is the CBSE Class 10 AI exam in 2027?', 'The 2027 date sheet has not been published yet. In 2026, the AI 417 paper was held on 27 February. Plan your six weeks back from the date once CBSE releases it, and from your school\'s practical date if that comes earlier.']
+    ['When is the CBSE Class 10 AI exam in 2027?', 'On Wednesday 24 February 2027, from 10:30 AM to 12:30 PM IST, according to the CBSE date sheet released 6 November 2026. In 2026, the AI 417 paper was held on 27 February. Counted back from 24 February, the six-week plan starts in the week of 11 January 2027, or earlier if your school\'s practical date comes first.']
   ],
   startH2: 'Start with a free diagnostic class',
   startHtml: `        <p>The free first class works as week 6, session 1 in small: a short timed objective set, one written answer marked point by point, and a look at how many file programs exist. The mentor then tells you plainly whether the batch's revision phase or a one to one crash plan fits the weeks you have left.</p>

@@ -32031,6 +32031,318 @@
   to = "/src/pages/icse-computer-tuition-near-me.md"
   status = 200
 
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-417-vs-it-402-class-10"
+  to = "/src/pages/ai-417-vs-it-402-class-10.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-417-vs-it-402-class-10.md"
+  to = "/src/pages/ai-417-vs-it-402-class-10.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-vs-computer-applications-class-10"
+  to = "/src/pages/ai-vs-computer-applications-class-10.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-vs-computer-applications-class-10.md"
+  to = "/src/pages/ai-vs-computer-applications-class-10.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-marking-scheme"
+  to = "/src/pages/cbse-class-10-ai-marking-scheme.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-marking-scheme.md"
+  to = "/src/pages/cbse-class-10-ai-marking-scheme.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-notes-in-hindi"
+  to = "/src/pages/cbse-class-10-ai-notes-in-hindi.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-notes-in-hindi.md"
+  to = "/src/pages/cbse-class-10-ai-notes-in-hindi.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-paper-analysis"
+  to = "/src/pages/cbse-class-10-ai-paper-analysis.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-paper-analysis.md"
+  to = "/src/pages/cbse-class-10-ai-paper-analysis.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-passing-marks"
+  to = "/src/pages/cbse-class-10-ai-passing-marks.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-passing-marks.md"
+  to = "/src/pages/cbse-class-10-ai-passing-marks.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-project-cycle-and-ethics"
+  to = "/src/pages/cbse-class-10-ai-project-cycle-and-ethics.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-project-cycle-and-ethics.md"
+  to = "/src/pages/cbse-class-10-ai-project-cycle-and-ethics.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-second-board-exam"
+  to = "/src/pages/cbse-class-10-ai-second-board-exam.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-second-board-exam.md"
+  to = "/src/pages/cbse-class-10-ai-second-board-exam.md"
+  status = 200
+
+[[redirects]]
+  from = "/class-10-ai-tuition-bangalore"
+  to = "/src/pages/class-10-ai-tuition-bangalore.html"
+  status = 200
+
+[[redirects]]
+  from = "/class-10-ai-tuition-bangalore.md"
+  to = "/src/pages/class-10-ai-tuition-bangalore.md"
+  status = 200
+
+[[redirects]]
+  from = "/class-10-ai-tuition-delhi"
+  to = "/src/pages/class-10-ai-tuition-delhi.html"
+  status = 200
+
+[[redirects]]
+  from = "/class-10-ai-tuition-delhi.md"
+  to = "/src/pages/class-10-ai-tuition-delhi.md"
+  status = 200
+
+[[redirects]]
+  from = "/class-10-ai-tuition-gurgaon"
+  to = "/src/pages/class-10-ai-tuition-gurgaon.html"
+  status = 200
+
+[[redirects]]
+  from = "/class-10-ai-tuition-gurgaon.md"
+  to = "/src/pages/class-10-ai-tuition-gurgaon.md"
+  status = 200
+
+[[redirects]]
+  from = "/class-10-ai-tuition-noida"
+  to = "/src/pages/class-10-ai-tuition-noida.html"
+  status = 200
+
+[[redirects]]
+  from = "/class-10-ai-tuition-noida.md"
+  to = "/src/pages/class-10-ai-tuition-noida.md"
+  status = 200
+
+[[redirects]]
+  from = "/class-10-ai-tuition-pune"
+  to = "/src/pages/class-10-ai-tuition-pune.html"
+  status = 200
+
+[[redirects]]
+  from = "/class-10-ai-tuition-pune.md"
+  to = "/src/pages/class-10-ai-tuition-pune.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-data-types-and-input-java"
+  to = "/src/pages/icse-class-10-data-types-and-input-java.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-data-types-and-input-java.md"
+  to = "/src/pages/icse-class-10-data-types-and-input-java.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-encapsulation-access-specifiers"
+  to = "/src/pages/icse-class-10-encapsulation-access-specifiers.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-encapsulation-access-specifiers.md"
+  to = "/src/pages/icse-class-10-encapsulation-access-specifiers.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-java-error-finding-questions"
+  to = "/src/pages/icse-class-10-java-error-finding-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-java-error-finding-questions.md"
+  to = "/src/pages/icse-class-10-java-error-finding-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-loop-programs-java"
+  to = "/src/pages/icse-class-10-loop-programs-java.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-loop-programs-java.md"
+  to = "/src/pages/icse-class-10-loop-programs-java.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-math-library-methods"
+  to = "/src/pages/icse-class-10-math-library-methods.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-math-library-methods.md"
+  to = "/src/pages/icse-class-10-math-library-methods.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-operators-in-java"
+  to = "/src/pages/icse-class-10-operators-in-java.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-operators-in-java.md"
+  to = "/src/pages/icse-class-10-operators-in-java.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-slab-and-bill-programs"
+  to = "/src/pages/icse-class-10-slab-and-bill-programs.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-slab-and-bill-programs.md"
+  to = "/src/pages/icse-class-10-slab-and-bill-programs.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-9-java-revision-for-class-10"
+  to = "/src/pages/icse-class-9-java-revision-for-class-10.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-9-java-revision-for-class-10.md"
+  to = "/src/pages/icse-class-9-java-revision-for-class-10.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-notes"
+  to = "/src/pages/icse-computer-applications-notes.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-notes.md"
+  to = "/src/pages/icse-computer-applications-notes.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-textbook-solutions-guide"
+  to = "/src/pages/icse-computer-applications-textbook-solutions-guide.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-textbook-solutions-guide.md"
+  to = "/src/pages/icse-computer-applications-textbook-solutions-guide.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-worksheets"
+  to = "/src/pages/icse-computer-applications-worksheets.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-worksheets.md"
+  to = "/src/pages/icse-computer-applications-worksheets.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-difference-between-questions"
+  to = "/src/pages/icse-computer-difference-between-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-difference-between-questions.md"
+  to = "/src/pages/icse-computer-difference-between-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-tuition-bangalore"
+  to = "/src/pages/icse-computer-tuition-bangalore.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-tuition-bangalore.md"
+  to = "/src/pages/icse-computer-tuition-bangalore.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-tuition-kolkata"
+  to = "/src/pages/icse-computer-tuition-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-tuition-kolkata.md"
+  to = "/src/pages/icse-computer-tuition-kolkata.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-tuition-lucknow"
+  to = "/src/pages/icse-computer-tuition-lucknow.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-tuition-lucknow.md"
+  to = "/src/pages/icse-computer-tuition-lucknow.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-tuition-mumbai"
+  to = "/src/pages/icse-computer-tuition-mumbai.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-tuition-mumbai.md"
+  to = "/src/pages/icse-computer-tuition-mumbai.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-tuition-pune"
+  to = "/src/pages/icse-computer-tuition-pune.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-tuition-pune.md"
+  to = "/src/pages/icse-computer-tuition-pune.md"
+  status = 200
+
+[[redirects]]
+  from = "/orange-data-mining-class-10-ai"
+  to = "/src/pages/orange-data-mining-class-10-ai.html"
+  status = 200
+
+[[redirects]]
+  from = "/orange-data-mining-class-10-ai.md"
+  to = "/src/pages/orange-data-mining-class-10-ai.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -9,6 +9,7 @@ module.exports = {
   slug: 'cbse-class-10-ai-sample-paper-and-mock-tests',
   code: 'csq',
   board: 'cbse',
+  dateModified: '2026-11-06',
   themeColor: '#1D5A6E',
   title: 'CBSE Class 10 AI Sample Paper 2026-27 and Mock Tests, Solved Live',
   description: 'CBSE Class 10 AI (417) sample paper 2026-27 solved live, timed mock tests marked to the CBSE scheme, practical and viva mocks, and live doubt solving every week.',
@@ -68,7 +69,7 @@ module.exports = {
       </div>
     </div>
     <div class="bx-dated bx-mt-40">
-      <p><b>When is the 2027 paper?</b> CBSE had not published the 2027 Class 10 date sheet when we last checked on 13 October 2026. In 2026 the main exams ran from 17 February to 11 March, and the AI paper sat on Friday 27 February from 10:30 AM to 12:30 PM, in the same slot as Computer Applications (165) and Information Technology (402). Plan on the first board exam starting in the second half of February 2027. The exact date, the practical window and the two-exam rules are kept current on <a class="bx-link" href="/cbse-class-10-ai-exam-date-and-paper-pattern">the 417 exam date and paper pattern page</a>.</p>
+      <p><b>When is the 2027 paper?</b> On Wednesday 24 February 2027, from 10:30 AM to 12:30 PM IST, in the same slot as Computer Applications (165) and Information Technology (402), according to the CBSE date sheet released 6 November 2026. Class 10 main exams run from 16 February to 9 March 2027, and full mocks 2 and 3 run from late January up to that paper. In 2026 the AI paper sat on Friday 27 February. The 2027 schedule, the practical window and the two-exam rules are kept current on <a class="bx-link" href="/cbse-class-10-ai-exam-date-and-paper-pattern">the 417 exam date and paper pattern page</a>.</p>
     </div>
   </div>
 </section>`,
