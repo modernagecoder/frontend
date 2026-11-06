@@ -2461,6 +2461,12 @@ Live online Class 10 board preparation, taught in small batches: CBSE Artificial
 - ICSE Class 10 Computer Applications: Constructors: https://learn.modernagecoders.com/icse-class-10-constructors-questions
 - ICSE Class 10 Computer Applications: Wrapper and library classes: https://learn.modernagecoders.com/icse-class-10-wrapper-and-library-classes
 - ICSE Class 10 Computer Applications: Class as the basis of all computation: https://learn.modernagecoders.com/icse-class-10-class-as-basis-of-computation
+- CBSE Class 10 AI (417): Class 10 AI tuition online: https://learn.modernagecoders.com/cbse-class-10-ai-tuition
+- CBSE Class 10 AI (417): 1-on-1 private AI tutor: https://learn.modernagecoders.com/cbse-class-10-ai-private-tutor
+- CBSE Class 10 AI (417): Live doubt classes: https://learn.modernagecoders.com/cbse-class-10-ai-doubt-classes
+- CBSE Class 10 AI (417): Class 10 AI crash course: https://learn.modernagecoders.com/cbse-class-10-ai-crash-course
+- ICSE Class 10 Computer Applications: Paper analysis and answer key: https://learn.modernagecoders.com/icse-computer-applications-paper-analysis
+- ICSE Class 10 Computer Applications: Computer or Commercial Applications?: https://learn.modernagecoders.com/icse-computer-applications-vs-commercial-applications
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

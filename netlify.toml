@@ -31927,6 +31927,68 @@
   to = "/src/pages/icse-class-10-class-as-basis-of-computation.md"
   status = 200
 
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/cbse-class-10-ai-tuition"
+  to = "/src/pages/cbse-class-10-ai-tuition.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-tuition.md"
+  to = "/src/pages/cbse-class-10-ai-tuition.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-private-tutor"
+  to = "/src/pages/cbse-class-10-ai-private-tutor.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-private-tutor.md"
+  to = "/src/pages/cbse-class-10-ai-private-tutor.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-doubt-classes"
+  to = "/src/pages/cbse-class-10-ai-doubt-classes.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-doubt-classes.md"
+  to = "/src/pages/cbse-class-10-ai-doubt-classes.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-crash-course"
+  to = "/src/pages/cbse-class-10-ai-crash-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-crash-course.md"
+  to = "/src/pages/cbse-class-10-ai-crash-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-paper-analysis"
+  to = "/src/pages/icse-computer-applications-paper-analysis.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-paper-analysis.md"
+  to = "/src/pages/icse-computer-applications-paper-analysis.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-vs-commercial-applications"
+  to = "/src/pages/icse-computer-applications-vs-commercial-applications.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-computer-applications-vs-commercial-applications.md"
+  to = "/src/pages/icse-computer-applications-vs-commercial-applications.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
