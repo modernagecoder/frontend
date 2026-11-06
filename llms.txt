@@ -2449,6 +2449,18 @@ Live online Class 10 board preparation, taught in small batches: CBSE Artificial
 - ICSE Class 10 Computer Applications: Pattern programs: https://learn.modernagecoders.com/icse-class-10-pattern-programs-java
 - ICSE Class 10 Computer Applications: Menu driven and switch case: https://learn.modernagecoders.com/icse-class-10-menu-driven-programs
 - ICSE Class 10 Computer Applications: Series programs: https://learn.modernagecoders.com/icse-class-10-series-programs-java
+- CBSE Class 10 AI (417): AI practical and project viva: https://learn.modernagecoders.com/cbse-class-10-ai-viva-questions
+- CBSE Class 10 AI (417): AI practical exam questions: https://learn.modernagecoders.com/cbse-class-10-ai-practical-exam-questions
+- CBSE Class 10 AI (417): AI project ideas: https://learn.modernagecoders.com/cbse-class-10-ai-project-ideas
+- CBSE Class 10 AI (417): Worksheets with answers: https://learn.modernagecoders.com/cbse-class-10-ai-worksheets
+- CBSE Class 10 AI (417): AI handbook exercise answers: https://learn.modernagecoders.com/cbse-class-10-ai-textbook-solutions
+- CBSE Class 10 AI (417): Best book for Class 10 AI: https://learn.modernagecoders.com/best-book-for-cbse-class-10-ai
+- CBSE Class 10 AI (417): Employability skills MCQ: https://learn.modernagecoders.com/employability-skills-class-10-mcq
+- CBSE Class 10 AI (417): Difference between questions: https://learn.modernagecoders.com/cbse-class-10-ai-difference-between-questions
+- CBSE Class 10 AI (417): Assertion and reason questions: https://learn.modernagecoders.com/cbse-class-10-ai-assertion-reason-questions
+- ICSE Class 10 Computer Applications: Constructors: https://learn.modernagecoders.com/icse-class-10-constructors-questions
+- ICSE Class 10 Computer Applications: Wrapper and library classes: https://learn.modernagecoders.com/icse-class-10-wrapper-and-library-classes
+- ICSE Class 10 Computer Applications: Class as the basis of all computation: https://learn.modernagecoders.com/icse-class-10-class-as-basis-of-computation
 ## International Country Pages
 
 - United States: https://learn.modernagecoders.com/coding-classes-in-united-states

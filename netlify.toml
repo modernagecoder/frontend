@@ -31805,6 +31805,128 @@
   to = "/src/pages/icse-class-10-series-programs-java.md"
   status = 200
 
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/cbse-class-10-ai-viva-questions"
+  to = "/src/pages/cbse-class-10-ai-viva-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-viva-questions.md"
+  to = "/src/pages/cbse-class-10-ai-viva-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-practical-exam-questions"
+  to = "/src/pages/cbse-class-10-ai-practical-exam-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-practical-exam-questions.md"
+  to = "/src/pages/cbse-class-10-ai-practical-exam-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-project-ideas"
+  to = "/src/pages/cbse-class-10-ai-project-ideas.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-project-ideas.md"
+  to = "/src/pages/cbse-class-10-ai-project-ideas.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-worksheets"
+  to = "/src/pages/cbse-class-10-ai-worksheets.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-worksheets.md"
+  to = "/src/pages/cbse-class-10-ai-worksheets.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-textbook-solutions"
+  to = "/src/pages/cbse-class-10-ai-textbook-solutions.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-textbook-solutions.md"
+  to = "/src/pages/cbse-class-10-ai-textbook-solutions.md"
+  status = 200
+
+[[redirects]]
+  from = "/best-book-for-cbse-class-10-ai"
+  to = "/src/pages/best-book-for-cbse-class-10-ai.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-book-for-cbse-class-10-ai.md"
+  to = "/src/pages/best-book-for-cbse-class-10-ai.md"
+  status = 200
+
+[[redirects]]
+  from = "/employability-skills-class-10-mcq"
+  to = "/src/pages/employability-skills-class-10-mcq.html"
+  status = 200
+
+[[redirects]]
+  from = "/employability-skills-class-10-mcq.md"
+  to = "/src/pages/employability-skills-class-10-mcq.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-difference-between-questions"
+  to = "/src/pages/cbse-class-10-ai-difference-between-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-difference-between-questions.md"
+  to = "/src/pages/cbse-class-10-ai-difference-between-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-assertion-reason-questions"
+  to = "/src/pages/cbse-class-10-ai-assertion-reason-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-assertion-reason-questions.md"
+  to = "/src/pages/cbse-class-10-ai-assertion-reason-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-constructors-questions"
+  to = "/src/pages/icse-class-10-constructors-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-constructors-questions.md"
+  to = "/src/pages/icse-class-10-constructors-questions.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-wrapper-and-library-classes"
+  to = "/src/pages/icse-class-10-wrapper-and-library-classes.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-wrapper-and-library-classes.md"
+  to = "/src/pages/icse-class-10-wrapper-and-library-classes.md"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-class-as-basis-of-computation"
+  to = "/src/pages/icse-class-10-class-as-basis-of-computation.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-class-as-basis-of-computation.md"
+  to = "/src/pages/icse-class-10-class-as-basis-of-computation.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Wrapper Classes ICSE Class 10: Every Method, Run in Java</title>
+  <meta name="description" content="Wrapper classes for ICSE Class 10, 2027: autoboxing and unboxing, Integer.parseInt and all twelve listed methods with exact outputs, plus two programs.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/icse-class-10-wrapper-and-library-classes">
+  <link rel="alternate" type="text/markdown" href="/src/pages/icse-class-10-wrapper-and-library-classes.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#5A4A2E">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learn.modernagecoders.com/icse-class-10-wrapper-and-library-classes">
+  <meta property="og:title" content="Wrapper and Library Classes for ICSE Class 10, With Outputs">
+  <meta property="og:description" content="The ICSE Class 10 Library classes chapter for 2027: the eight wrapper classes, autoboxing and unboxing, and every parse and Character method the syllabus lists, each with the exact output from Java 21, two Section B programs and Section A questions with answers.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_IN">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Wrapper and Library Classes for ICSE Class 10, With Outputs">
+  <meta name="twitter:description" content="ICSE Class 10 wrapper classes: autoboxing, parseInt and every listed Character method with exact outputs from Java 21.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/board-prep.css?v=20261106">
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.india">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://learn.modernagecoders.com/#org",
+        "name": "Modern Age Coders",
+        "url": "https://learn.modernagecoders.com/",
+        "email": "connect@modernagecoders.com",
+        "telephone": "+91-91233-66161",
+        "foundingDate": "2020",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          },
+          {
+            "@type": "Country",
+            "name": "Indonesia"
+          },
+          {
+            "@type": "Country",
+            "name": "Thailand"
+          }
+        ],
+        "knowsAbout": [
+          "ICSE Computer Applications",
+          "Java",
+          "BlueJ",
+          "CISCE ICSE Class 10 Examination",
+          "Board Exam Revision"
+        ]
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-wrapper-and-library-classes#article",
+        "headline": "Wrapper Classes in ICSE Class 10: Autoboxing, parseInt and Every Character Method With Its Output",
+        "description": "The ICSE Class 10 Library classes chapter for 2027: the eight wrapper classes, autoboxing and unboxing, and every parse and Character method the syllabus lists, each with the exact output from Java 21, two Section B programs and Section A questions with answers.",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "dateModified": "2026-11-06",
+        "author": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "publisher": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "mainEntityOfPage": "https://learn.modernagecoders.com/icse-class-10-wrapper-and-library-classes"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://learn.modernagecoders.com/icse-class-10-wrapper-and-library-classes#course",
+        "name": "ICSE Class 10 Computer Applications (Java) Library Classes and Wrapper Classes, Live Online",
+        "description": "Live online teaching of the ICSE Class 10 Computer Applications Library classes chapter for the 2027 examination: the eight wrapper classes, autoboxing and unboxing, the parseInt, parseLong, parseFloat and parseDouble methods, and the Character methods isDigit, isLetter, isLetterOrDigit, isLowerCase, isUpperCase, isWhitespace, toLowerCase and toUpperCase, with output questions traced on paper and Section B programs run in BlueJ, in a Tuesday and Wednesday evening mini batch in India or one to one at a time the family chooses.",
+        "url": "https://learn.modernagecoders.com/icse-class-10-wrapper-and-library-classes",
+        "inLanguage": "en",
+        "provider": {
+          "@id": "https://learn.modernagecoders.com/#org"
+        },
+        "isAccessibleForFree": false,
+        "offers": {
+          "@type": "Offer",
+          "price": "2999",
+          "priceCurrency": "INR",
+          "category": "Monthly fee, mini batch",
+          "availability": "https://schema.org/InStock"
+        },
+        "hasCourseInstance": [
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Tuesday"
+              ],
+              "startTime": "17:30",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-wrapper-and-library-classes"
+            }
+          },
+          {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": [
+                "Wednesday"
+              ],
+              "startTime": "20:00",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "location": {
+              "@type": "VirtualLocation",
+              "url": "https://learn.modernagecoders.com/icse-class-10-wrapper-and-library-classes"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://learn.modernagecoders.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ICSE Class 10 Java classes",
+            "item": "https://learn.modernagecoders.com/icse-class-10-java-classes-online"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Wrapper and library classes",
+            "item": "https://learn.modernagecoders.com/icse-class-10-wrapper-and-library-classes"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are wrapper classes in Java ICSE Class 10?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Wrapper classes are library classes that hold a primitive value inside an object and provide methods for it. There is one for each primitive type: Byte, Short, Integer, Long, Float, Double, Character and Boolean. They are in java.lang, so no import is needed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are library classes in ICSE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Library classes are ready-made classes supplied with Java, grouped into packages, which a program can use without writing them. For ICSE Class 10 the ones that matter are the wrapper classes, Math, String and Scanner. The Library classes chapter itself covers the wrapper classes and autoboxing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is autoboxing and unboxing in Java?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Autoboxing is Java automatically converting a primitive value into an object of its wrapper class, as in Integer n = 45. Unboxing is the reverse, an Integer object automatically giving back its int, as in int k = n + 1. No method call is written for either."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does Integer.parseInt do in ICSE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Integer.parseInt(String s) converts a String containing a whole number into an int, so it can be used in arithmetic. Integer.parseInt(\"472\") + 8 gives 480, while \"472\" + 8 gives 4728. If the String is not a valid whole number, such as \"12.5\", the program stops with a NumberFormatException."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which Character class methods are in the ICSE syllabus?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Eight: isDigit, isLetter, isLetterOrDigit, isLowerCase, isUpperCase and isWhitespace, which return boolean, and toLowerCase and toUpperCase, which return char. Each takes one char and is called on the class, as in Character.isDigit(ch)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which wrapper class methods must I learn for ICSE 2027?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The syllabus lists twelve: parseInt, parseLong, parseFloat and parseDouble, and the eight Character methods isDigit, isLetter, isLetterOrDigit, isLowerCase, isUpperCase, isWhitespace, toLowerCase and toUpperCase. Learn each one's return type as well as what it does."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does Character.toUpperCase('a') + 1 print 66?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "toUpperCase returns the char A, whose code is 65. Adding the int 1 to a char gives an int, so 66 is printed. To print the letter B, cast the result back: (char) (Character.toUpperCase('a') + 1)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is String a wrapper class?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. String is a library class in java.lang, but it is not a wrapper class, because there is no primitive type called string for it to wrap. The eight wrapper classes match the eight primitive types exactly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between Integer and int?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "int is a primitive type that stores a whole number directly. Integer is a wrapper class whose object holds an int and offers methods such as parseInt. Java converts between them automatically through autoboxing and unboxing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you teach wrapper classes in live classes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The small group meets twice a week, 5:30 PM IST on Tuesday and 8:00 PM IST on Wednesday; the twelve methods are recalled, their outputs predicted, and Character and parseInt programs written and checked in BlueJ. If those evenings clash with school, personalised one to one lessons go at a time you pick."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body class="bx-root bx-ic12 bx-has-sticky">
+
+<nav class="bx-nav">
+  <div class="bx-wrap bx-nav-inner">
+    <a class="bx-nav-brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      <span>Modern Age Coders</span>
+      <span class="bx-brand-tag">ICSE CA &middot; Wrapper classes</span>
+    </a>
+    <div class="bx-nav-links">
+      <a href="#what">Wrapper classes</a>
+      <a href="#boxing">Autoboxing</a>
+      <a href="#parse">parse methods</a>
+      <a href="#character">Character</a>
+      <a href="#programs">Programs</a>
+      <a href="#fees">Batch or 1-on-1</a>
+      <a href="#start" class="bx-btn">Free demo class</a>
+    </div>
+  </div>
+</nav>
+
+<header class="bx-hero">
+  <div class="bx-wrap">
+    <nav class="bx-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/icse-class-10-java-classes-online">ICSE Class 10 Java classes</a> <span>/</span> <span>Wrapper and library classes</span>
+    </nav>
+    <div class="bx-hero-grid">
+      <div>
+        <p class="bx-eyebrow">ICSE Class 10 &middot; Computer Applications (Java) &middot; Library classes 2027</p>
+        <h1>Wrapper classes for ICSE Class 10, with every method run in Java.</h1>
+        <p class="bx-lede">Wrapper classes in ICSE Class 10 are a short chapter with a long reach: the same twelve methods turn up in one-mark MCQs, in output questions and inside almost every string program in Section B. This page lists all twelve as the 2027 syllabus names them, shows the exact value each returns (every one was run in Java 21, including the inputs that crash), explains autoboxing and unboxing with code, and works two class-design programs that depend on them. In our live mini batch these outputs are traced first and then checked in BlueJ.</p>
+        <div class="bx-btn-row">
+          <a href="#start" class="bx-btn">Book a free demo class</a>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-hero">Book a priority demo</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20help%20with%20ICSE%20Class%2010%20wrapper%20classes%20and%20library%20classes." class="bx-btn bx-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_topic:'ic12'});">Ask on WhatsApp</a>
+        </div>
+        <p class="bx-hero-note">Live online &middot; all twelve listed methods &middot; outputs from real Java &middot; autoboxing in code &middot; two Section B programs &middot; first class free</p>
+      </div>
+
+      <aside class="bx-timetable" aria-label="When library classes are practised">
+        <p class="bx-tt-title"><span>Wrapper practice</span><b>ICSE CA</b></p>
+        <div class="bx-tt-row"><span class="bx-tt-day">Tuesday, method results traced</span><span class="bx-tt-time">5:30<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wednesday, a Character program</span><span class="bx-tt-time">8:00<small>PM IST</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Methods named in the syllabus</span><span class="bx-tt-time">12<small>run</small></span></div>
+        <div class="bx-tt-row"><span class="bx-tt-day">Wrapper classes to recall</span><span class="bx-tt-time">8<small>by name</small></span></div>
+        <div class="bx-offer">
+          <p class="bx-offer-course"><span>The course</span><a href="/courses/icse-computer-applications-java-bluej-course">ICSE Class 10 Computer Applications, Java with BlueJ, Live</a></p>
+          <a class="bx-offer-opt" href="#fees" data-india-only="true"><span class="bx-offer-k">Mini batch, fixed timings</span><span class="bx-offer-p"><span data-price="coding.india.miniBatch">₹2,999</span><small>/month</small></span><span class="bx-offer-v">Tue 5:30 PM and Wed 8:00 PM IST</span></a>
+          <a class="bx-offer-opt" href="#fees"><span class="bx-offer-k">Personalised one to one</span><span class="bx-offer-p"><span data-price="coding.india.personal">₹4,999</span><small>/month</small></span><span class="bx-offer-v">Your days, your timing</span></a>
+        </div>
+        <p class="bx-tt-zones"><b>In India:</b> the twelve methods come up in both weekly group classes, Tuesday and Wednesday evening. <b>Outside India:</b> a teacher works through the same twelve methods and programs one to one, at an hour that fits school in Muscat, Kuwait or Jakarta.</p>
+        <div class="bx-tt-foot">
+          <span class="bx-stamp">Section A and B</span>
+          <span class="bx-stamp">Traced, then run</span>
+        </div>
+        <p class="bx-trust" style="margin-top:14px"><span class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>Rated 4.9 across 547 Google reviews</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="bx-section" id="picks">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Start here</p>
+      <h2>Courses where wrapper classes are used every week</h2>
+      <p class="bx-lede">Our BlueJ course for Classes 9 and 10 is where the twelve methods get used week after week. ISC Computer Science leans on Character and parse methods for its string and number questions, and Java for Teens suits a student who wants Java practice outside the board pattern.</p>
+    </div>
+    <div class="bx-picks">
+      <a class="bx-pick" href="/courses/icse-computer-applications-java-bluej-course">
+        <div class="bx-pick-shot"><img src="/images/java-teens.webp" alt="ICSE Computer Applications Java with BlueJ course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">The batch / ICSE CA</p>
+          <h3>ICSE Computer Applications, Java with BlueJ</h3>
+          <p>A small Class 9 and 10 group where every string program leans on Character tests and every record program on parseInt.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+        <div class="bx-pick-shot"><img src="/images/ip-cs-class-11-12.webp" alt="Computer Science Class 11 and 12 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Next step / ISC</p>
+          <h3>Computer Science Class 11 and 12</h3>
+          <p>ISC Computer Science keeps these methods and puts them inside longer text and number problems, so the habit pays off twice.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+      <a class="bx-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="bx-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="bx-pick-body">
+          <p class="bx-pick-code">Second language / Python</p>
+          <h3>Python for Teens</h3>
+          <p>Python calls the same ideas int() and isdigit(); a good second language once the board paper is behind you.</p>
+          <span class="bx-pick-go">Open the course &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section">
+  <div class="bx-wrap">
+    <div class="bx-capsule">
+      <p class="bx-capsule-q">Ans. The short version</p>
+      <p>Wrapper classes in ICSE Class 10 are the library classes that wrap each primitive type in an object: Byte, Short, Integer, Long, Float, Double, Character and Boolean, all in java.lang. The 2027 syllabus lists twelve methods: parseInt, parseLong, parseFloat and parseDouble, which turn a String into a number, and the Character methods isDigit, isLetter, isLetterOrDigit, isLowerCase, isUpperCase, isWhitespace, toLowerCase and toUpperCase. Autoboxing converts a primitive to its wrapper automatically; unboxing does the reverse. Our live classes drill all of it in a small Tuesday and Wednesday evening group in India, with personalised one to one lessons for any family that needs another hour.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="what">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q1. What are wrapper classes and library classes?</p>
+      <h2>What are wrapper classes in Java? Library classes ICSE definitions</h2>
+      <p class="bx-lede">A wrapper class is a library class that stores one value of a primitive type inside an object and gives methods to work with it. A library class is a ready-made class that comes with Java, so a program can use it without writing it.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Primitive type</th><th scope="col">Wrapper class</th><th scope="col">Spelling trap</th></tr></thead>
+        <tbody>
+          <tr><td><code>byte</code></td><td><code>Byte</code></td><td>Capital B</td></tr>
+          <tr><td><code>short</code></td><td><code>Short</code></td><td>Capital S</td></tr>
+          <tr><td><code>int</code></td><td><code>Integer</code></td><td>Not "Int": the full word</td></tr>
+          <tr><td><code>long</code></td><td><code>Long</code></td><td>Capital L</td></tr>
+          <tr><td><code>float</code></td><td><code>Float</code></td><td>Capital F</td></tr>
+          <tr><td><code>double</code></td><td><code>Double</code></td><td>Capital D</td></tr>
+          <tr><td><code>char</code></td><td><code>Character</code></td><td>Not "Char": the full word</td></tr>
+          <tr><td><code>boolean</code></td><td><code>Boolean</code></td><td>Capital B</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="bx-mt-40">Four facts that answer most one-mark questions</h3>
+    <ol class="bx-qlist">
+      <li>All eight wrapper classes are in the package <code>java.lang</code>, which every program imports automatically, so no import line is needed.</li>
+      <li>Two names differ from their primitive: <code>int</code> becomes <code>Integer</code> and <code>char</code> becomes <code>Character</code>. The other six only gain a capital letter.</li>
+      <li>Wrapper classes are needed because some parts of Java work only with objects, and because the conversion and testing methods live in these classes.</li>
+      <li><code>String</code> is a library class too, but it is not a wrapper class: there is no primitive type called string.</li>
+    </ol>
+    <p class="bx-mt-40">
+      Primitive and composite types, which this chapter leans on, are defined on
+      <a class="bx-link" href="/icse-class-10-class-as-basis-of-computation">class as the basis of all computation</a>,
+      and the other big library class in the syllabus, Math, has its own page:
+      <a class="bx-link" href="/icse-class-10-math-library-methods">Math library methods for ICSE Class 10</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="boxing">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q2. What is autoboxing and unboxing?</p>
+      <h2>Autoboxing and unboxing in Java, with output</h2>
+      <p class="bx-lede">Autoboxing is the automatic conversion of a primitive value into an object of its wrapper class; unboxing is the automatic conversion of a wrapper object back into its primitive value. Java does both by itself whenever one type is used where the other is expected.</p>
+    </div>
+    <div class="bx-code-pair">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Boxing and unboxing</b><span>run in Java 21</span></figcaption>
+  <pre>Integer a = 25;          <i>// autoboxing: int 25 into an Integer</i>
+int b = a + 5;           <i>// unboxing: a gives back 25</i>
+System.out.println(b);
+
+Double d = 4.5;          <i>// autoboxing</i>
+double e = d * 2;        <i>// unboxing, then multiply</i>
+System.out.println(e);
+
+Character c = 'k';       <i>// autoboxing a char</i>
+char ch = c;             <i>// unboxing</i>
+System.out.println(Character.toUpperCase(ch));
+
+Boolean flag = true;
+System.out.println(!flag);
+
+<i>// Output</i>
+30
+9.0
+K
+false</pre>
+  <p class="bx-code-note">No method is called for the conversion; the assignment alone does it. That is what "auto" means in an answer.</p>
+</figure>
+      <div class="bx-table-wrap">
+        <table class="bx-table">
+          <thead><tr><th scope="col">Point</th><th scope="col">Autoboxing</th><th scope="col">Unboxing</th></tr></thead>
+          <tbody>
+            <tr><td>Direction</td><td>Primitive to wrapper object</td><td>Wrapper object to primitive</td></tr>
+            <tr><td>Example</td><td><code>Integer a = 25;</code></td><td><code>int b = a;</code></td></tr>
+            <tr><td>Happens when</td><td>A primitive is stored where an object is expected</td><td>An object is used in arithmetic or stored in a primitive</td></tr>
+            <tr><td>Who does it</td><td>The Java compiler, automatically</td><td>The Java compiler, automatically</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p class="bx-mt-40">Two methods outside the twelve on the syllabus list appear in some textbooks: <code>Integer.valueOf("40")</code> returns an Integer object (so <code>Integer.valueOf("40") / 3</code> prints 13 after unboxing), and <code>Integer.toString(70)</code> returns the String "70". They are useful to recognise, but parseInt is the one to learn for the paper.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="parse">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q3. What does Integer.parseInt do, and what are the other parse methods?</p>
+      <h2>Integer.parseInt ICSE: the four parse methods with exact outputs</h2>
+      <p class="bx-lede"><code>Integer.parseInt(s)</code> converts a String of digits into an int, so the value can be used in arithmetic. <code>parseLong</code>, <code>parseFloat</code> and <code>parseDouble</code> do the same for long, float and double. Every result below was printed by Java 21.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Syllabus method</th><th scope="col">Code</th><th scope="col">Output</th><th scope="col">Note</th></tr></thead>
+        <tbody>
+          <tr><td><code>int parseInt(String s)</code></td><td><code>Integer.parseInt("472") + 8</code></td><td class="bx-num">480</td><td>Converted, then added. Compare <code>"472" + 8</code>, which joins to 4728</td></tr>
+          <tr><td></td><td><code>Integer.parseInt("-35") * 2</code></td><td class="bx-num">-70</td><td>A leading minus sign is allowed</td></tr>
+          <tr><td></td><td><code>Integer.parseInt("007")</code></td><td class="bx-num">7</td><td>Leading zeros are dropped; the result is a number, not text</td></tr>
+          <tr><td></td><td><code>Integer.parseInt("12.5")</code></td><td class="bx-num">NumberFormatException</td><td>A decimal point is not allowed in an int</td></tr>
+          <tr><td></td><td><code>Integer.parseInt(" 42")</code></td><td class="bx-num">NumberFormatException</td><td>A space is not a digit: <code>trim()</code> first</td></tr>
+          <tr><td><code>long parseLong(String s)</code></td><td><code>Long.parseLong("9876543210") + 1</code></td><td class="bx-num">9876543211</td><td>Too big for int, fine for long</td></tr>
+          <tr><td><code>float parseFloat(String s)</code></td><td><code>Float.parseFloat("2.5") * 2</code></td><td class="bx-num">5.0</td><td>A float result prints with a decimal point</td></tr>
+          <tr><td><code>double parseDouble(String s)</code></td><td><code>Double.parseDouble("3") / 2</code></td><td class="bx-num">1.5</td><td>"3" becomes 3.0, so the division is real</td></tr>
+          <tr><td></td><td><code>Double.parseDouble("-7.25")</code></td><td class="bx-num">-7.25</td><td>Sign and decimal point both accepted</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The exact message Java 21 printed for the bad input was <code>java.lang.NumberFormatException: For input string: "12.5"</code>. An exam answer only needs the name: the program stops with a NumberFormatException because the String is not a valid int.</p>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>A digit character to its value</b><span>two ways</span></figcaption>
+  <pre>char dg = '8';
+System.out.println(dg - '0' + 1);
+System.out.println(Integer.parseInt("" + dg) + 1);
+
+<i>// Output</i>
+9
+9</pre>
+  <p class="bx-code-note">parseInt needs a String, so <code>"" + dg</code> turns the char into one first. Subtracting '0' gives the same value with char arithmetic.</p>
+</figure>
+      <div>
+        <h3>When a program needs parseInt</h3>
+        <ol class="bx-qlist">
+          <li>A number arrives inside a String, for example a record such as <code>Riya,78,91</code> read with <code>nextLine()</code>.</li>
+          <li>Digits are pulled out of a longer String with <code>substring</code> and must then be added or compared.</li>
+          <li>A digit character has been collected into a String and needs its numeric value.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" style="font-variant-ligatures:none" id="character">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q4. Which Character class methods are in the ICSE syllabus?</p>
+      <h2>Character class methods in Java for ICSE, each with its output</h2>
+      <p class="bx-lede">Eight Character methods are listed: six tests that return boolean and two converters that return char. All are called on the class, as <code>Character.isDigit(ch)</code>, never on a variable.</p>
+    </div>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Syllabus method</th><th scope="col">Code</th><th scope="col">Output</th><th scope="col">Note</th></tr></thead>
+        <tbody>
+          <tr><td><code>boolean isDigit(char ch)</code></td><td><code>Character.isDigit('7') + " " + Character.isDigit('x')</code></td><td class="bx-num">true false</td><td>Only 0 to 9 count</td></tr>
+          <tr><td><code>boolean isLetter(char ch)</code></td><td><code>Character.isLetter('g') + " " + Character.isLetter('9')</code></td><td class="bx-num">true false</td><td>Either case counts as a letter</td></tr>
+          <tr><td><code>boolean isLetterOrDigit(char ch)</code></td><td><code>Character.isLetterOrDigit('@') + " " + Character.isLetterOrDigit('Q')</code></td><td class="bx-num">false true</td><td>Symbols and spaces give false</td></tr>
+          <tr><td><code>boolean isLowerCase(char ch)</code></td><td><code>Character.isLowerCase('b') + " " + Character.isLowerCase('B') + " " + Character.isLowerCase('5')</code></td><td class="bx-num">true false false</td><td>A digit is neither lower nor upper case</td></tr>
+          <tr><td><code>boolean isUpperCase(char ch)</code></td><td><code>Character.isUpperCase('Z') + " " + Character.isUpperCase('#')</code></td><td class="bx-num">true false</td><td>Symbols are not upper case</td></tr>
+          <tr><td><code>boolean isWhitespace(char ch)</code></td><td><code>Character.isWhitespace(' ') + " " + Character.isWhitespace('\n') + " " + Character.isWhitespace('_')</code></td><td class="bx-num">true true false</td><td>Space, tab and new line count; underscore does not</td></tr>
+          <tr><td><code>char toLowerCase(char ch)</code></td><td><code>Character.toLowerCase('M') + " " + Character.toLowerCase('m')</code></td><td class="bx-num">m m</td><td>A lowercase letter comes back unchanged</td></tr>
+          <tr><td><code>char toUpperCase(char ch)</code></td><td><code>Character.toUpperCase('#')</code></td><td class="bx-num">#</td><td>Anything that is not a letter comes back unchanged</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="bx-mt-40">The return-type trap: char plus int</h3>
+    <div class="bx-table-wrap">
+      <table class="bx-table">
+        <thead><tr><th scope="col">Code</th><th scope="col">Output</th><th scope="col">Why</th></tr></thead>
+        <tbody>
+          <tr><td><code>System.out.println(Character.toUpperCase('a') + 1);</code></td><td class="bx-num">66</td><td>'A' is code 65; a char plus an int is an int</td></tr>
+          <tr><td><code>System.out.println((char) (Character.toUpperCase('a') + 1));</code></td><td class="bx-num">B</td><td>The cast turns 66 back into a character</td></tr>
+          <tr><td><code>System.out.println("" + Character.toUpperCase('a') + 1);</code></td><td class="bx-num">A1</td><td>The empty String arrives first, so both values are joined</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>Toggle the case of a sentence</b><span>run in Java 21</span></figcaption>
+  <pre>String s = "Board 2027 Prep";
+String t = "";
+for (int i = 0; i &lt; s.length(); i++) {
+    char x = s.charAt(i);
+    if (Character.isUpperCase(x))
+        t = t + Character.toLowerCase(x);
+    else if (Character.isLowerCase(x))
+        t = t + Character.toUpperCase(x);
+    else
+        t = t + x;            <i>// digits and spaces kept</i>
+}
+System.out.println(t);
+
+<i>// Output: bOARD 2027 pREP</i></pre>
+  <p class="bx-code-note">The final else matters: without it, the digits and spaces would be lost from the result.</p>
+</figure>
+      <div>
+        <h3>How to remember the eight</h3>
+        <ol class="bx-qlist">
+          <li>Six start with <code>is</code> and answer a yes or no question, so they return boolean.</li>
+          <li>Two start with <code>to</code> and hand back a changed character, so they return char.</li>
+          <li><code>isWhitespace</code> has a lower-case s in "space"; <code>isLetterOrDigit</code> has capital O and D.</li>
+          <li>None of them changes the variable passed in; store the result if you need it.</li>
+        </ol>
+      </div>
+    </div>
+    <p class="bx-mt-40">These eight methods do most of the work in sentence programs, which are collected on <a class="bx-link" href="/icse-class-10-string-programs">ICSE Class 10 string programs</a>, and longer fragments to trace, sorted by trap, sit on <a class="bx-link" href="/icse-class-10-java-output-questions">the output questions page</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" style="font-variant-ligatures:none" id="programs">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q5. How do wrapper methods appear in Section B?</p>
+      <h2>Library classes ICSE programs: two Section B questions, solved and run</h2>
+      <p class="bx-lede">Section B rarely says "use wrapper classes". It asks you to classify characters or to pull numbers out of text, and the Character tests and parseInt are the tools that make the answer short. Both questions below are original and set in the class-design format.</p>
+    </div>
+    <div class="bx-dated">
+      <p><b>Question 1.</b> Define a class CharCensus with data members text (String) and upper, lower, digits, spaces, others (int). Write a default constructor to initialise them, <code>void accept()</code> to read a sentence, <code>void count()</code> to count the uppercase letters, lowercase letters, digits, whitespace characters and other characters using Character class methods, and <code>void display()</code>. In main, make one object and invoke the three methods in order.</p>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>CharCensus.java</b><span>Character methods</span></figcaption>
+  <pre>import java.util.Scanner;
+class CharCensus {
+    String text;   <i>// the sentence entered</i>
+    int upper;     <i>// uppercase letters</i>
+    int lower;     <i>// lowercase letters</i>
+    int digits;    <i>// digit characters</i>
+    int spaces;    <i>// whitespace characters</i>
+    int others;    <i>// everything else</i>
+
+    CharCensus() {                 <i>// default constructor</i>
+        text = "";
+        upper = 0;
+        lower = 0;
+        digits = 0;
+        spaces = 0;
+        others = 0;
+    }
+
+    void accept() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a sentence:");
+        text = sc.nextLine();
+    }
+
+    void count() {
+        for (int i = 0; i &lt; text.length(); i++) {
+            char ch = text.charAt(i);
+            if (Character.isUpperCase(ch))
+                upper++;
+            else if (Character.isLowerCase(ch))
+                lower++;
+            else if (Character.isDigit(ch))
+                digits++;
+            else if (Character.isWhitespace(ch))
+                spaces++;
+            else
+                others++;
+        }
+    }
+
+    void display() {
+        System.out.println("Uppercase letters : " + upper);
+        System.out.println("Lowercase letters : " + lower);
+        System.out.println("Digits            : " + digits);
+        System.out.println("Spaces            : " + spaces);
+        System.out.println("Other characters  : " + others);
+    }
+
+    public static void main(String args[]) {
+        CharCensus ob = new CharCensus();
+        ob.accept();
+        ob.count();
+        ob.display();
+    }
+}</pre>
+  <p class="bx-code-note">One if-else-if chain means each character is counted exactly once. The final else catches commas, colons and every other symbol.</p>
+</figure>
+      <div>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>text</td><td>String</td><td>the sentence entered</td></tr>
+              <tr><td>upper, lower</td><td>int</td><td>counts of uppercase and lowercase letters</td></tr>
+              <tr><td>digits</td><td>int</td><td>count of digit characters</td></tr>
+              <tr><td>spaces</td><td>int</td><td>count of whitespace characters</td></tr>
+              <tr><td>others</td><td>int</td><td>count of all remaining characters</td></tr>
+              <tr><td>ch</td><td>char</td><td>the character being tested</td></tr>
+              <tr><td>i</td><td>int</td><td>loop counter over the sentence</td></tr>
+              <tr><td>ob</td><td>CharCensus</td><td>the object created in main</td></tr>
+            </tbody>
+          </table>
+        </div>
+<figure class="bx-code bx-mt-40">
+  <figcaption class="bx-code-head"><b>Sample run</b><span>Java 21</span></figcaption>
+  <pre>Enter a sentence:
+<b>ICSE Exam on 17 March, 2027: Room B-12!</b>
+Uppercase letters : 8
+Lowercase letters : 12
+Digits            : 8
+Spaces            : 7
+Other characters  : 4</pre>
+  <p class="bx-code-note">The four others are the comma, the colon, the hyphen and the exclamation mark. 8 + 12 + 8 + 7 + 4 is 39, the length of the sentence.</p>
+</figure>
+      </div>
+    </div>
+    <div class="bx-dated bx-mt-40">
+      <p><b>Question 2.</b> A record is typed as a name followed by marks, separated by commas, for example <code>Riya,78,91,66,84</code>. Define a class MarksLine with data members line, name (String) and total, count, high (int). Write a parameterized constructor <code>MarksLine(String l)</code> to store the record and initialise the other members, <code>void extract()</code> to separate the name and convert each mark with <code>Integer.parseInt()</code>, and <code>void display()</code> to print the name, the number of marks, the total, the highest mark and the average to one decimal place.</p>
+    </div>
+    <div class="bx-code-pair bx-mt-40">
+<figure class="bx-code">
+  <figcaption class="bx-code-head"><b>MarksLine.java</b><span>parseInt in a program</span></figcaption>
+  <pre>import java.util.Scanner;
+class MarksLine {
+    String line;    <i>// the record, for example Riya,78,91,66</i>
+    String name;    <i>// the part before the first comma</i>
+    int total;      <i>// sum of the marks</i>
+    int count;      <i>// number of marks found</i>
+    int high;       <i>// highest mark</i>
+
+    MarksLine(String l) {          <i>// parameterized constructor</i>
+        line = l.trim() + ",";      <i>// a comma at the end closes the last part</i>
+        name = "";
+        total = 0;
+        count = 0;
+        high = 0;
+    }
+
+    void extract() {
+        String part = "";
+        for (int i = 0; i &lt; line.length(); i++) {
+            char ch = line.charAt(i);
+            if (ch != ',') {
+                part = part + ch;
+            } else {
+                if (name.equals(""))
+                    name = part;                       <i>// first part is the name</i>
+                else {
+                    int m = Integer.parseInt(part.trim()); <i>// text to int</i>
+                    total = total + m;
+                    count++;
+                    if (m &gt; high)
+                        high = m;
+                }
+                part = "";
+            }
+        }
+    }
+
+    void display() {
+        double avg = (double) total / count;
+        System.out.println("Name    : " + name);
+        System.out.println("Marks   : " + count);
+        System.out.println("Total   : " + total);
+        System.out.println("Highest : " + high);
+        System.out.println("Average : " + Math.round(avg * 10) / 10.0);
+    }
+
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter name and marks separated by commas:");
+        String s = sc.nextLine();
+        MarksLine ob = new MarksLine(s);
+        ob.extract();
+        ob.display();
+    }
+}</pre>
+  <p class="bx-code-note"><code>part.trim()</code> before parseInt is what lets the record contain a space after a comma; without it the program stops with a NumberFormatException.</p>
+</figure>
+      <div>
+        <div class="bx-table-wrap">
+          <table class="bx-table">
+            <thead><tr><th scope="col">Variable</th><th scope="col">Type</th><th scope="col">Purpose</th></tr></thead>
+            <tbody>
+              <tr><td>line</td><td>String</td><td>the record with a closing comma added</td></tr>
+              <tr><td>name</td><td>String</td><td>the student's name</td></tr>
+              <tr><td>total, count, high</td><td>int</td><td>sum, number and highest of the marks</td></tr>
+              <tr><td>l</td><td>String</td><td>constructor parameter: the record</td></tr>
+              <tr><td>part</td><td>String</td><td>the piece being built between commas</td></tr>
+              <tr><td>m</td><td>int</td><td>one mark, converted by parseInt</td></tr>
+              <tr><td>avg</td><td>double</td><td>average of the marks</td></tr>
+              <tr><td>s, sc, ob</td><td>String, Scanner, MarksLine</td><td>input line, keyboard reader, the object</td></tr>
+            </tbody>
+          </table>
+        </div>
+<figure class="bx-code bx-mt-40">
+  <figcaption class="bx-code-head"><b>Sample runs</b><span>Java 21</span></figcaption>
+  <pre>Enter name and marks separated by commas:
+<b>Riya,78, 91,66,84</b>
+Name    : Riya
+Marks   : 4
+Total   : 319
+Highest : 91
+Average : 79.8
+
+Enter name and marks separated by commas:
+<b>Kabir,55,60</b>
+Name    : Kabir
+Marks   : 2
+Total   : 115
+Highest : 60
+Average : 57.5</pre>
+  <p class="bx-code-note">319 / 4 is 79.75; <code>Math.round(797.5)</code> is 798, so one decimal place gives 79.8. The space before 91 in the first run is handled by trim.</p>
+</figure>
+      </div>
+    </div>
+    <p class="bx-mt-40">The constructor rules both programs rely on are on <a class="bx-link" href="/icse-class-10-constructors-questions">constructors ICSE Class 10 questions</a>, and every other kind of Section B program is gathered in <a class="bx-link" href="/icse-class-10-java-programs-practice">the Java programs practice hub</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" style="font-variant-ligatures:none" id="sectiona">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Q6. What do Section A wrapper class questions look like, and how are they taught?</p>
+      <h2>Wrapper class questions with answers, and how the batch drills them</h2>
+      <p class="bx-lede">Original questions in the shapes of Question 1 and Question 2. Answer each on paper, then open it.</p>
+    </div>
+    <div class="bx-grid-2" style="align-items:start">
+      <div>
+        <ol class="bx-qlist">
+          <li>Name the wrapper class of <code>char</code>.
+            <details><summary>Answer</summary> Character.</details></li>
+          <li>Which package contains the wrapper classes?
+            <details><summary>Answer</summary> java.lang, imported automatically.</details></li>
+          <li>Give the output: <code>Character.isLetterOrDigit('$')</code>
+            <details><summary>Answer</summary> false. The symbol is neither a letter nor a digit.</details></li>
+          <li>What is the return type of <code>Character.toUpperCase(ch)</code>?
+            <details><summary>Answer</summary> char.</details></li>
+          <li>Define autoboxing with one example.
+            <details><summary>Answer</summary> The automatic conversion of a primitive value into an object of its wrapper class, as in <code>Integer n = 45;</code>.</details></li>
+          <li>Give the output: <code>System.out.println(Integer.parseInt("15") + Integer.parseInt("5") + "0");</code>
+            <details><summary>Answer</summary> 200. The two ints add to 20 first, then "0" is joined on.</details></li>
+          <li>Write a statement to convert the String <code>s = "62.5"</code> into a double.
+            <details><summary>Answer</summary> <code>double d = Double.parseDouble(s);</code></details></li>
+          <li>State one situation in which <code>Integer.parseInt</code> throws an exception.
+            <details><summary>Answer</summary> When the String is not a valid whole number, for example "12.5", "4a" or a String with a space in it.</details></li>
+        </ol>
+      </div>
+      <div>
+        <ol class="bx-steps">
+          <li class="bx-step"><h4>Twelve methods recalled on Tuesday</h4><p>Tuesday evening (5:30 PM IST) opens with every student writing all twelve signatures from memory, return type first, and the group checks spelling and case together.</p></li>
+          <li class="bx-step"><h4>Outputs traced, then run</h4><p>Fragments like the tables above get a written answer first; then the mentor types each into BlueJ, and 66 against B settles itself in front of everyone.</p></li>
+          <li class="bx-step"><h4>A Character program on Wednesday</h4><p>Wednesday evening (8:00 PM IST) is for one sentence or record program, written by hand with its variable description table, marked against the scheme on screen, then typed and tested with awkward input.</p></li>
+          <li class="bx-step"><h4>Mock papers from December</h4><p>Wrapper questions return inside full two-hour papers, marked like the board, with every lost mark discussed in doubt time.</p></li>
+        </ol>
+      </div>
+    </div>
+    <p class="bx-mt-40">
+      More one-mark questions across every chapter are on <a class="bx-link" href="/icse-computer-applications-mcq-questions">ICSE Computer Applications MCQ questions</a>.
+    </p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--deep" id="fees">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Batch or personalised: you choose</p>
+      <h2>Practise wrapper classes in the mini batch, or one to one</h2>
+      <p class="bx-lede">The method tables, the traced outputs and the two programs are taught the same way in both formats. Families in India choose between the small evening group and private lessons; for ICSE students living abroad the classes are always private. Billing is monthly, with no admission fee.</p>
+    </div>
+    <div class="bx-choose">
+      <div class="bx-choose-card bx-price-card" data-india-only="true">
+        <p class="bx-choose-tag">Option 1 &middot; Fixed batch timings</p>
+        <h3>Mini batch, Tuesday 5:30 PM and Wednesday 8 PM</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.miniBatch">₹2,999</span></p>
+        <p class="bx-price-alt">per month, two live classes a week</p>
+        <ul><li>Tuesday 5:30 PM and Wednesday 8:00 PM IST, live</li><li>No more than six ICSE Class 10 students</li><li>All twelve methods recalled and spelt correctly</li><li>Outputs traced, then run in BlueJ</li><li>A character or parse program written each fortnight</li></ul>
+        <a href="#start" class="bx-btn">Book a free demo in this batch</a>
+      </div>
+      <div class="bx-choose-card bx-choose-card--alt bx-price-card">
+        <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
+        <h3>Personalised one to one</h3>
+        <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
+        <ul><li>A slot the family chooses, in India or abroad</li><li>Time spent on the methods your child mixes up</li><li>Sentence programs built together, then solo</li><li>Tougher record and text programs as confidence grows</li><li>Same mentors, same 2027 syllabus, same BlueJ checks</li></ul>
+        <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
+      </div>
+    </div>
+    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
+    <p class="bx-mt-40">A student who mostly confuses return types, or writes Int and Char for the class names, often needs only a few one to one sessions. A student who also needs steady practice on whole Section B programs gets more from the two batch evenings each week. Fees appear in your own currency.</p>
+  </div>
+</section>
+
+<section class="bx-section" id="zones">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Studying outside India?</p>
+      <h2>Wrapper class practice for ICSE students abroad</h2>
+      <p class="bx-lede">An ICSE school in the Gulf or South East Asia sits the very paper a school in Kolkata sits, twelve methods included. Abroad, every lesson is private and lands at an early evening hour by the local clock.</p>
+    </div>
+    <div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Time difference</th><th scope="col">Usual class window, local time</th><th scope="col">Format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td>IST</td><td class="bx-num">Tue 5:30 PM, Wed 8:00 PM</td><td><span class="bx-fit">Mini batch or 1-on-1</span></td></tr>
+          <tr><td>United Arab Emirates<br><span class="bx-src">Dubai, Sharjah</span></td><td>1 h 30 min behind India</td><td class="bx-num">3:00 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Indonesia and Thailand<br><span class="bx-src">West Java, Bangkok area</span></td><td>1 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+          <tr><td>Singapore<br><span class="bx-src">Singapore</span></td><td>2 h 30 min ahead of India</td><td class="bx-num">3:30 PM to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="bx-mt-40">The time is agreed after the free demo and can shift around school tests. For how the classes run for families abroad, see <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.</p>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="reviews">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="bx-lede">Real reviews from real families. We neither write nor commission them.</p>
+    </div>
+    <div class="bx-grid-3">
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="bx-review-name">Ria Mukherjee</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="bx-review-name">Samriddha Mondal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="bx-review-name">Vansh Agarwal</p><p class="bx-review-role">Student</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="bx-review-name">Sonam Oswal</p><p class="bx-review-role">Parent of Dhairya</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="bx-review-name">Sonu Goyal</p><p class="bx-review-role">Parent</p></article>
+      <article class="bx-review"><p class="bx-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="bx-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="bx-review-name">Ritu Kedia</p><p class="bx-review-role">Parent</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="more">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">The rest of the Class 10 series</p>
+      <h2>More pages for Class 10 board students</h2>
+      <p class="bx-lede">Every page in the ICSE Class 10 Computer Applications series, grouped by what you need: classes, each chapter, Section B programs, question practice, notes and revision, and the exam itself.</p>
+    </div>
+    <div class="bx-siblings">
+      <div class="bx-sibgroup">
+        <h3>Classes, tuition and batches</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-classes-online">The Tue and Wed ICSE Java batch</a></li>
+          <li><a href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Java classes in the Gulf and abroad</a></li>
+          <li><a href="/icse-class-10-bluej-java-coaching">ICSE BlueJ Java coaching</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Chapter by chapter</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-syllabus-explained">ICSE Computer Applications syllabus</a></li>
+          <li><a href="/icse-class-10-user-defined-methods-overloading">User-defined methods and overloading</a></li>
+          <li><a href="/icse-class-10-constructors-questions">Constructors</a></li>
+          <li><a href="/icse-class-10-class-as-basis-of-computation">Class as the basis of all computation</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Programs for Section B</h3>
+        <ul>
+          <li><a href="/icse-class-10-java-programs-practice">ICSE Java programs practice</a></li>
+          <li><a href="/icse-class-10-string-programs">String programs</a></li>
+          <li><a href="/icse-special-number-programs-java">Special number programs</a></li>
+          <li><a href="/icse-class-10-sorting-and-searching-programs">Sorting and searching programs</a></li>
+          <li><a href="/icse-class-10-2d-array-programs">2D array programs</a></li>
+          <li><a href="/icse-class-10-pattern-programs-java">Pattern programs</a></li>
+          <li><a href="/icse-class-10-menu-driven-programs">Menu driven and switch case</a></li>
+          <li><a href="/icse-class-10-series-programs-java">Series programs</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Questions and practice</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-important-questions">ICSE CA important questions</a></li>
+          <li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mock tests</a></li>
+          <li><a href="/icse-computer-applications-previous-year-papers-solved">Previous year papers, solved</a></li>
+          <li><a href="/icse-class-10-java-output-questions">Predict the output questions</a></li>
+          <li><a href="/icse-computer-applications-competency-questions">Competency and case study questions</a></li>
+          <li><a href="/icse-computer-applications-mcq-questions">MCQ for Question 1</a></li>
+        </ul>
+      </div>
+      <div class="bx-sibgroup">
+        <h3>Exam, marks and internal assessment</h3>
+        <ul>
+          <li><a href="/icse-class-10-computer-applications-board-exam-preparation">ICSE board exam preparation</a></li>
+          <li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date 2027 and paper pattern</a></li>
+          <li><a href="/icse-class-10-computer-applications-project-and-internal-assessment">Project and internal assessment</a></li>
+          <li><a href="/how-to-score-100-in-icse-computer-applications">How to score 100</a></li>
+        </ul>
+      </div>
+      <p class="bx-sib-other"><b>CBSE Class 10 AI (417):</b> <a href="/cbse-class-10-ai-classes-online">The Mon and Wed 9 PM AI batch</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-syllabus-explained">CBSE AI 417 syllabus explained</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-important-questions">CBSE AI important questions</a> <span aria-hidden="true">&middot;</span> <a href="/cbse-class-10-ai-sample-paper-and-mock-tests">Sample paper and mock tests</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section bx-section--tint" id="faq">
+  <div class="bx-wrap">
+    <div class="bx-section-head">
+      <p class="bx-qlabel">Questions about wrapper classes</p>
+      <h2>What students ask about wrapper classes in ICSE Class 10</h2>
+    </div>
+    <div class="bx-faq">
+      <div class="bx-faq-item"><h3>What are wrapper classes in Java ICSE Class 10?</h3><p>Wrapper classes are library classes that hold a primitive value inside an object and provide methods for it. There is one for each primitive type: Byte, Short, Integer, Long, Float, Double, Character and Boolean. They are in java.lang, so no import is needed.</p></div>
+      <div class="bx-faq-item"><h3>What are library classes in ICSE?</h3><p>Library classes are ready-made classes supplied with Java, grouped into packages, which a program can use without writing them. For ICSE Class 10 the ones that matter are the wrapper classes, Math, String and Scanner. The Library classes chapter itself covers the wrapper classes and autoboxing.</p></div>
+      <div class="bx-faq-item"><h3>What is autoboxing and unboxing in Java?</h3><p>Autoboxing is Java automatically converting a primitive value into an object of its wrapper class, as in Integer n = 45. Unboxing is the reverse, an Integer object automatically giving back its int, as in int k = n + 1. No method call is written for either.</p></div>
+      <div class="bx-faq-item"><h3>What does Integer.parseInt do in ICSE?</h3><p>Integer.parseInt(String s) converts a String containing a whole number into an int, so it can be used in arithmetic. Integer.parseInt(&quot;472&quot;) + 8 gives 480, while &quot;472&quot; + 8 gives 4728. If the String is not a valid whole number, such as &quot;12.5&quot;, the program stops with a NumberFormatException.</p></div>
+      <div class="bx-faq-item"><h3>Which Character class methods are in the ICSE syllabus?</h3><p>Eight: isDigit, isLetter, isLetterOrDigit, isLowerCase, isUpperCase and isWhitespace, which return boolean, and toLowerCase and toUpperCase, which return char. Each takes one char and is called on the class, as in Character.isDigit(ch).</p></div>
+      <div class="bx-faq-item"><h3>Which wrapper class methods must I learn for ICSE 2027?</h3><p>The syllabus lists twelve: parseInt, parseLong, parseFloat and parseDouble, and the eight Character methods isDigit, isLetter, isLetterOrDigit, isLowerCase, isUpperCase, isWhitespace, toLowerCase and toUpperCase. Learn each one's return type as well as what it does.</p></div>
+      <div class="bx-faq-item"><h3>Why does Character.toUpperCase('a') + 1 print 66?</h3><p>toUpperCase returns the char A, whose code is 65. Adding the int 1 to a char gives an int, so 66 is printed. To print the letter B, cast the result back: (char) (Character.toUpperCase('a') + 1).</p></div>
+      <div class="bx-faq-item"><h3>Is String a wrapper class?</h3><p>No. String is a library class in java.lang, but it is not a wrapper class, because there is no primitive type called string for it to wrap. The eight wrapper classes match the eight primitive types exactly.</p></div>
+      <div class="bx-faq-item"><h3>What is the difference between Integer and int?</h3><p>int is a primitive type that stores a whole number directly. Integer is a wrapper class whose object holds an int and offers methods such as parseInt. Java converts between them automatically through autoboxing and unboxing.</p></div>
+      <div class="bx-faq-item"><h3>Do you teach wrapper classes in live classes?</h3><p>Yes. The small group meets twice a week, 5:30 PM IST on Tuesday and 8:00 PM IST on Wednesday; the twelve methods are recalled, their outputs predicted, and Character and parseInt programs written and checked in BlueJ. If those evenings clash with school, personalised one to one lessons go at a time you pick.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="bx-section" id="start">
+  <div class="bx-wrap">
+    <div class="bx-hero-grid">
+      <div>
+        <div class="bx-section-head">
+          <p class="bx-qlabel">Start</p>
+          <h2>Book a free wrapper classes demo</h2>
+        </div>
+        <p>In the free demo your child predicts the output of a handful of parse and Character method calls, sees each run in BlueJ, then starts a short sentence program with the mentor. Afterwards the mentor tells you plainly which methods your child already owns, which need work, and which format fits.</p>
+        <p>Want the wider view first? See <a class="bx-link" href="/icse-class-10-computer-applications-important-questions">ICSE Computer Applications important questions</a> or <a class="bx-link" href="/icse-class-10-java-classes-online">the ICSE Class 10 Java classes</a>.</p>
+        <p style="margin-top:22px"><a class="bx-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20want%20live%20help%20with%20ICSE%20Class%2010%20wrapper%20classes%20and%20library%20classes." target="_blank" rel="noopener">WhatsApp us</a> &middot; <a class="bx-link" href="tel:+919123366161">+91 91233 66161</a> &middot; <a class="bx-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a></p>
+        <p class="bx-muted" style="font-size:.92rem;margin-top:14px">Every class is live video. The form requests a callback and reserves nothing.</p>
+      </div>
+      <div class="bx-form-panel">
+        <form id="bxLeadForm" onsubmit="return submitBxLead(event)" novalidate>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic12-parent">Parent's name</label><input id="bx-ic12-parent" type="text" name="parent_name" placeholder="Your name" required></div>
+            <div class="bx-field"><label for="bx-ic12-phone">Phone or WhatsApp</label><input id="bx-ic12-phone" type="tel" name="phone" placeholder="98765 43210" maxlength="18" required></div>
+          </div>
+          <div class="bx-field-row">
+            <div class="bx-field"><label for="bx-ic12-email">Email</label><input id="bx-ic12-email" type="email" name="email" placeholder="you@example.com" required></div>
+            <div class="bx-field"><label for="bx-ic12-format">Preferred format</label>
+              <select id="bx-ic12-format" name="format" required>
+                <option value="mini">Tue 5:30 PM and Wed 8 PM mini batch</option>
+                <option value="1on1">Personalised one to one, my own timing</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="bx-field"><label for="bx-ic12-child">Student's name and school (optional)</label><input id="bx-ic12-child" type="text" name="child_name" placeholder="Student's name, school, city"></div>
+          <button type="submit" class="bx-btn" style="width:100%">Request the free demo class</button>
+          <p class="bx-form-note">We call within a few hours. No card, no enrolment fee.</p>
+        </form>
+        <div class="bx-pd-card">
+          <h3>Want it sooner? Book a priority demo</h3>
+          <p>A full live class of about 45 to 60 minutes at a slot you pick, with a written skill report and learning roadmap on WhatsApp afterwards. The fee is adjusted against your first month if you enrol.</p>
+          <a href="/book-demo" class="bx-btn bx-btn--pd" data-pd-book="bx-book">Book a priority demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bx-footer">
+  <div class="bx-wrap">
+    <div class="bx-grid-4">
+      <div><h4>Modern Age Coders</h4><p style="font-size:.9rem;opacity:.86">Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div>
+      <div><h4>ICSE Class 10 Computer Applications</h4><ul><li><a href="/icse-class-10-java-classes-online">The Tue and Wed batch</a></li><li><a href="/icse-class-10-computer-applications-exam-date-and-paper-pattern">Exam date and pattern</a></li><li><a href="/icse-class-10-computer-applications-specimen-paper-and-mock-tests">Specimen paper and mocks</a></li><li><a href="/icse-class-10-computer-applications-important-questions">Important questions</a></li></ul></div>
+      <div><h4>Class 10 boards</h4><ul><li><a href="/maths-class-10">Maths for Class 10</a></li><li><a href="/coding-for-class-10">Coding for Class 10</a></li><li><a href="/cbse-ai-curriculum-classes">CBSE AI curriculum guide</a></li><li><a href="/computer-applications-icse-class-10">ICSE Computer Applications</a></li></ul></div>
+      <div><h4>Start</h4><ul><li><a href="/courses">The full catalogue</a></li><li><a href="/pricing">Fees</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/success-stories">Success stories</a></li></ul></div>
+    </div>
+    <div class="bx-footer-bottom"><span>&copy; 2026 Modern Age Coders. Live online, taught from India to families worldwide.</span><span>ICSE Computer Applications &middot; Wrapper classes 2027</span></div>
+  </div>
+</footer>
+
+<nav class="bx-sticky" aria-label="Quick actions">
+  <a href="#start">Free class</a>
+  <a href="/book-demo" class="bx-sticky-pd" data-pd-book="bx-sticky">Priority demo</a>
+  <a href="tel:+919123366161">Call us</a>
+</nav>
+
+<script>
+window.submitBxLead = function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var phone = (f.phone.value || '').replace(/\D/g, '');
+  if (phone.length < 7) { alert('Please enter a valid phone number.'); return false; }
+  var data = { name: f.parent_name.value, phone: f.phone.value, email: f.email.value, format: f.format.value, child_name: f.child_name.value, source: 'icse-class-10-wrapper-and-library-classes', page: window.location.pathname };
+  var api = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(api + '/api/leads', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
+  if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'board_prep_page', event_label: 'icse-class-10-wrapper-and-library-classes', value: 1 }); }
+  f.innerHTML = '<p class="bx-form-ok">Request received. A mentor will call you within a few hours to book the free demo class.</p>';
+  return false;
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+<script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=5d83c35fbe"></script>
+    <script src="/js/international-pricing.js?v=73c0675aaf"></script>
+</body>
+</html>
