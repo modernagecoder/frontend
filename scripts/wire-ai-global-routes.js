@@ -944,6 +944,7 @@ const SLUGS = [
   'vacaciones-utiles-virtuales-en-ingles',
   'talleres-de-verano-programacion-ninos-online',
   'peru-summer-holiday-coding-classes-online',
+  'vacaciones-utiles-de-programacion-surco-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1967,6 +1968,7 @@ const LLMS_LABELS = {
   'vacaciones-utiles-virtuales-en-ingles': 'Vacaciones útiles virtuales en inglés',
   'talleres-de-verano-programacion-ninos-online': 'Talleres de verano de programación online',
   'peru-summer-holiday-coding-classes-online': 'Summer holiday coding classes for Peru',
+  'vacaciones-utiles-de-programacion-surco-lima': 'Vacaciones útiles de programación en Surco',
 };
 
 function wireLlms(slugs) {

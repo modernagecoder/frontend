@@ -276,6 +276,8 @@ Each page below takes one age, subject, exam, region, city or Lima district and 
 
 **Cities:** [Arequipa: coding for every age](/coding-classes-in-arequipa-peru)
 
+**Lima, district by district:** [Vacaciones útiles en Surco](/vacaciones-utiles-de-programacion-surco-lima)
+
 ## What a learner in Peru can do at each stage with us
 
 These milestones are ours. We use them to decide which group a learner joins and to tell parents how things are going. They run beside the Peruvian grades and never stand in for school marks.

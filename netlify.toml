@@ -32463,6 +32463,18 @@
   to = "/src/pages/peru-summer-holiday-coding-classes-online.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vacaciones-utiles-de-programacion-surco-lima"
+  to = "/src/pages/vacaciones-utiles-de-programacion-surco-lima.html"
+  status = 200
+
+[[redirects]]
+  from = "/vacaciones-utiles-de-programacion-surco-lima.md"
+  to = "/src/pages/vacaciones-utiles-de-programacion-surco-lima.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
