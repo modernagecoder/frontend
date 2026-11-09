@@ -1000,6 +1000,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Programación para niños de 6 años: https://learn.modernagecoders.com/programacion-para-ninos-de-6-anos
 - Programación para niños de 8 años: https://learn.modernagecoders.com/programacion-para-ninos-de-8-anos
 - Programación para niños de 10 años: https://learn.modernagecoders.com/programacion-para-ninos-de-10-anos
+- Programación para niños de 12 años: https://learn.modernagecoders.com/programacion-para-ninos-de-12-anos
 ## Germany (live online classes in English, mentors matched to the learner's pace and accent)
 
 Hub: https://learn.modernagecoders.com/coding-classes-in-germany. Every class is live and taught in English only; German-language pages explain the same English-taught classes. Fees show in euro on the page and checkout charges USD.
