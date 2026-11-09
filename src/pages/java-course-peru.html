@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Java Course for Peru from Zero: Live Online in English</title>
+  <meta name="description" content="A Java course from zero for teenagers and adults in Peru, taught live online in English: what you learn and in what order, how long it takes, and class hours.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/java-course-peru">
+  <link rel="alternate" type="text/markdown" href="/src/pages/java-course-peru.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#0D4833">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/java-course-peru">
+  <meta property="og:title" content="Java Course for Peru from Zero: Live Online in English">
+  <meta property="og:description" content="Live Java classes in English for learners in Peru: what the Java Language Specification promises about numbers, the order a Java course from zero follows, where Java does and does not count in Peru, and a real lesson on integer overflow.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Java Course for Peru from Zero: Live Online in English">
+  <meta name="twitter:description" content="A Java course from zero, taught live in English for learners in Peru, at any hour.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-jaj .ag-hero h1 { max-width: 20ch; }
+.ag-root.ag-jaj .ag-capsule { border-left-width: 6px; }
+.ag-root.ag-jaj .ag-section-head h2 { max-width: 30ch; letter-spacing: -0.01em; }
+.ag-root.ag-jaj .ag-table td:first-child { font-weight: 700; }
+.ag-root.ag-jaj .ag-code-note code { font-weight: 600; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/java-course-peru#page","url":"https://learn.modernagecoders.com/java-course-peru","name":"Java Course for Peru","description":"A guide to learning Java from zero in Peru with live classes taught in English, built from the Java Language Specification and Java SE 21 API, the OpenJDK project pages, the OPI 2025 rules and INEI household data, with an original lesson on integer overflow.","inLanguage":"en-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding and AI classes in Peru","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Java course","item":"https://learn.modernagecoders.com/java-course-peru"}]},{"@type":"Course","name":"Java Course for Peru","description":"Live online Java courses taught in English for learners in Peru from age 13: from first programs to objects, collections, data structures and back-end projects, in a group of fifteen to twenty or one to one, at a time the learner chooses.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/java-course-peru"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/java-course-peru"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/java-course-peru"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in Spanish?","acceptedAnswer":{"@type":"Answer","text":"No. Every Java lesson is live, online and taught in English; we do not teach in Spanish. Mentors keep their speech clear, follow your pace and accent, and put every step on the shared screen. Java's keywords, error messages and documentation are all in English, so the class and the language use the same words."}},{"@type":"Question","name":"Can I learn Java with no programming experience?","acceptedAnswer":{"@type":"Answer","text":"Yes. Java for Teens, for ages 13 to 18, and our adult Java course both begin with your very first line. Java asks for a little more care at the start than some languages, and that care pays off later."}},{"@type":"Question","name":"How many months does Java from zero take?","acceptedAnswer":{"@type":"Answer","text":"Our full Java courses take ten to twelve months at two live classes a week, plus practice. Short courses often stop before objects and collections, which is where Java becomes useful for real projects. One-to-one learners can move faster."}},{"@type":"Question","name":"Which version of Java will I use?","acceptedAnswer":{"@type":"Answer","text":"A current long-term-support JDK, installed from an official source in your first class. The lesson on this page was compiled and run with JDK 21, which reached General Availability on 19 September 2023."}},{"@type":"Question","name":"Can I use Java in the OPI informatics olympiad?","acceptedAnswer":{"@type":"Answer","text":"No. The OPI 2025 rules allow C++ or Python in the first phase and only C++ in the final. If the OPI is your main goal, learn C++. We have no tie to UTEC or the OPI, and we promise no medals."}},{"@type":"Question","name":"What time are classes for someone in Peru?","acceptedAnswer":{"@type":"Answer","text":"Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. With India ten and a half hours ahead, a 10:30 class in Peru is 21:00 for the mentor."}},{"@type":"Question","name":"Do I get a certificate?","acceptedAnswer":{"@type":"Answer","text":"You receive a completion certificate from Modern Age Coders once you pass the final exam. It is ours alone: no Peruvian ministry or university issues it, and it is not a Peruvian qualification."}},{"@type":"Question","name":"Is Java harder than Python?","acceptedAnswer":{"@type":"Answer","text":"It asks for more detail at the start: you declare types and write a little more code. Many learners find that this makes errors easier to understand. Both are good first languages; the quality of the teaching matters more than the choice."}},{"@type":"Question","name":"Can I use ChatGPT or Claude to learn Java?","acceptedAnswer":{"@type":"Answer","text":"Adult learners can ask an AI tool to critique code they wrote. Claude's maker sets its minimum age at 18, and OpenAI wants a parent's consent for ChatGPT users under 18, so our teen batches work without adult AI accounts. Whatever the tool, you must be able to explain every line you hand in."}},{"@type":"Question","name":"What do I need to take the course?","acceptedAnswer":{"@type":"Answer","text":"You need a laptop or desktop, a dependable connection and, if possible, a headset with its own mic. The JDK costs nothing; you install it with your mentor during the first lesson. Writing Java on a phone is not realistic."}},{"@type":"Question","name":"How are Java fees paid?","acceptedAnswer":{"@type":"Answer","text":"Monthly card payments in US dollars. The soles amount is worked out by your bank, so expect small differences between statements. No card is needed for the free first class."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/java-course-peru","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-jaj">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Peru</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Peru</a></li>
+      <li><a href="#start">From zero</a></li>
+      <li><a href="#types">Java's types</a></li>
+      <li><a href="#order">Course order</a></li>
+      <li><a href="#lesson">Overflow lesson</a></li>
+      <li><a href="#times">Peru times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a> / Java course
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Peru &middot; Java from zero &middot; Ages 13 to adult</p>
+        <h1>Java course for Peru, from zero and in English</h1>
+        <p class="ag-lede">Java is strict, and that is its gift to a beginner. It makes you say what kind of value every variable holds, it refuses to compile code that mixes them carelessly, and it follows a published specification down to the last bit. This page is for teenagers and adults in Peru starting Java from nothing: who it suits, what the language promises about numbers, the order a full course follows, where Java does and does not help in Peru, and a lesson on the one place where Java's strictness quietly lets you down.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#lesson" class="ag-btn ag-btn--ghost">See the overflow lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Peru%20and%20want%20to%20learn%20Java%20from%20zero%20in%20live%20classes%20in%20English.%20Can%20I%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jaj'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students worldwide &middot; every Java class live, online and in English</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Who</dt><dd>Teenagers from 13, students, adults</dd>
+          <dt>Starting point</dt><dd>No coding needed</dd>
+          <dt>Java version</dt><dd>A current long-term release</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Times in Peru</dt><dd>Chosen by you</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">What this is</p>
+      <p>Java from zero, for learners in Peru: Modern Age Coders teaches it in live online classes in English, with an India-based mentor leading each session as it happens, never a recording. The course starts at the first line of code and climbs through objects, collections, data structures and back-end projects. Teenagers from 13 learn in a teen batch; adults join the university-level course. Pick a batch of fifteen to twenty or private lessons, at whatever hour suits you in Peru; your first class costs nothing.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Choose your course</p>
+      <h2>Three Java courses, by age and goal</h2>
+      <p class="ag-lede">Two start from nothing, one for teenagers and one for adults. The third is where Java learners go once the language feels comfortable.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Java for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JAJ / 01</p>
+          <h3>Java for Teens</h3>
+          <p>For complete beginners of 13 to 18, over ten to twelve months. Variables and types first, then objects, collections, files and a finished project, at two live classes a week in a teen batch.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-java-programming-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/java-college.webp" alt="Java Course for College course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JAJ / 02</p>
+          <h3>Java, core to Spring Boot</h3>
+          <p>For adults of 18 and over, from zero. Ten to twelve months from core Java through object-oriented design and testing to back-end services with Spring Boot.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures &amp; Algorithms Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JAJ / 03</p>
+          <h3>Data structures and algorithms</h3>
+          <p>Once the basics are solid: lists, trees, graphs, sorting and complexity over ten to twelve months, the foundation of every technical interview.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="start">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">From zero</p><h2>Can you learn Java from zero, with no programming before?</h2><p class="ag-lede">Yes. Java is a reasonable first language for a patient learner, because it is explicit about everything. The price is a little more typing at the start; the reward is fewer mysteries later.</p></div>
+    <div class="ag-grid-3"><div><h3>Teenagers</h3><p>A pupil in secundaria who wants a serious language, perhaps with university computer science in mind. Java's rules feel fussy for a week or two and then start to feel like a safety net.</p></div><div><h3>University students</h3><p>Students whose first programming course uses Java, or who want it before their degree asks for it. Learning it properly, in English, makes every later course in the plan easier.</p></div><div><h3>Adults changing direction</h3><p>People moving towards software, back-end development or Android. Java has been used for large business systems for decades, so the ideas it teaches transfer widely.</p></div></div>
+    <p class="ag-mt-40">If you are deciding between Java and Python as a first language, either is a good choice; what matters more is a course that makes you think. Our Spanish page <a class="ag-inline-link" href="/curso-de-java-en-ingles-peru">curso de Java en inglés</a> compares the two for Peruvian learners, and the <a class="ag-inline-link" href="/curso-de-python-en-ingles-peru">curso de Python en inglés</a> covers the other path. Whichever you choose, the classes are taught in English.</p>
+    <p>Learners join a batch of people at a similar stage, or learn one to one. Each class is live: the mentor explains, the learner types, and when something does not compile, they read the error message together, in English, and fix it. Those error messages are some of the best English reading practice a programmer gets.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="types">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Java's types</p><h2>What does Java promise about numbers and types?</h2><p class="ag-lede">Exactly what its specification says. The Java Language Specification fixes the size and range of every primitive type, so a Java <code>int</code> holds the same values on a laptop in Lima, a server in India and a phone anywhere else.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Java's primitive types and their exact values, from the Java Language Specification (Java SE 21)</caption><thead><tr><th scope="col">Type</th><th scope="col">What it is</th><th scope="col">Values it can hold</th></tr></thead><tbody><tr><td>byte</td><td>8-bit signed integer</td><td>-128 to 127</td></tr><tr><td>short</td><td>16-bit signed integer</td><td>-32,768 to 32,767</td></tr><tr><td>int</td><td>32-bit signed integer</td><td>-2,147,483,648 to 2,147,483,647</td></tr><tr><td>long</td><td>64-bit signed integer</td><td>-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807</td></tr><tr><td>char</td><td>16-bit unsigned integer for text units</td><td>0 to 65,535</td></tr><tr><td>float</td><td>32-bit IEEE 754 floating point</td><td>binary32 values</td></tr><tr><td>double</td><td>64-bit IEEE 754 floating point</td><td>binary64 values</td></tr><tr><td>boolean</td><td>Truth value</td><td>true or false, nothing else</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Oracle, The Java Language Specification, Java SE 21 Edition, chapter 4 "Types, Values, and Variables", sections 4.2 to 4.2.3, read on 9 November 2026. Thousands separators are added for reading; the specification prints the numbers without them.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why a beginner should care</h3><p>In Java you declare a type, and the compiler holds you to it. Try to put a decimal into an <code>int</code> without saying so and the program will not compile. Many beginners find this annoying for a fortnight and grateful for years.</p>
+<p>The table also shows the limits. An <code>int</code> stops at 2,147,483,647, a little over two billion. That sounds huge until you count milliseconds, money in cents or the population of a country over time.</p></div><div><h3>The sentence that surprises people</h3><p>The same chapter of the specification says: "The integer operators do not indicate overflow or underflow in any way." In plain English, if an <code>int</code> calculation goes past its limit, Java does not stop or warn you. It wraps round and carries on with a wrong number.</p>
+<p>That one sentence is the reason for the lesson further down. Java is strict about types, but silent about overflow, and a good programmer has to know both facts.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="order">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Course order</p><h2>What do you learn in a Java course, and in what order?</h2><p class="ag-lede">A Java course from zero follows a fixed ladder, because each step depends on the one before it. These are the stages of our Java courses for teenagers and adults; the projects differ by age, the order does not.</p></div>
+    <ol class="ag-steps"><li><strong>Setting up and a first program.</strong> Installing a current JDK, writing <code>main</code>, compiling and running. Learners meet the compiler's error messages on day one and learn to read them calmly.</li><li><strong>Types, variables and operators.</strong> The table above, in practice: choosing <code>int</code>, <code>long</code>, <code>double</code> or <code>boolean</code>, and the overflow lesson on this page.</li><li><strong>Decisions and loops.</strong> <code>if</code>, <code>switch</code>, <code>for</code> and <code>while</code>, with problems checked by hand first.</li><li><strong>Methods.</strong> Splitting a program into named pieces with clear inputs and outputs, and testing each one.</li><li><strong>Classes and objects.</strong> The heart of Java: designing classes, constructors, encapsulation, then inheritance and interfaces once the basics are steady.</li><li><strong>Collections and generics.</strong> Lists, sets and maps from the standard library, and choosing between them.</li><li><strong>Exceptions, files and testing.</strong> Handling failure on purpose, reading and writing data, and writing tests that catch bugs before users do.</li><li><strong>A real project.</strong> For teenagers, often a game or a school tool; for adults, a back-end service with a database. Every learner explains their project, in English, to their mentor.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How long from zero</h3><p>Our Java courses for teenagers and for adults each last ten to twelve months, with two live lessons weekly and practice in between. A complete beginner who searches for a quick course usually finds one that stops at step 4; the stages after that are where Java becomes useful.</p>
+<p>Learners racing a date, for example a programming course that begins next semester, can speed up with private lessons.</p></div><div><h3>Which Java version</h3><p>We teach on a current long-term-support JDK. JDK 21, used to compile and run the lesson on this page, reached General Availability on 19 September 2023, according to the OpenJDK project.</p>
+<p>Beginners hardly notice version differences. What matters is installing from an official source and knowing which version you have, which is the first thing we check together.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="peru">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Java in Peru</p><h2>Is Java useful for students in Peru, and is it allowed in the OPI?</h2><p class="ag-lede">Useful at university and at work, but not in the national informatics olympiad. It is worth knowing both before you choose a first language.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>School and the olympiad</h3><p>Peruvian school has no computing subject: the national curriculum, the CNEB, treats digital skills as a competency shared across subjects. So most teenagers who learn Java learn it outside school.</p>
+<p>The Peruvian Informatics Olympiad, OPI, is run by UTEC and free for secundaria pupils. Under its 2025 rules, contestants may write C++ or Python in phase one, and C++ alone in the final. Java is not on the list. A teenager whose main goal is the OPI should learn C++, and we say so plainly; Java remains an excellent language for everything else.</p></div><div><h3>University and work</h3><p>Java is widely taught in university programming and software engineering courses, and it powers many business back ends and Android apps. A learner who understands Java's types, objects and collections will recognise the same ideas in C#, Kotlin and TypeScript.</p>
+<p>All of Java's official documentation, the specification included, is in English. Learning Java in English means the words in class, in the compiler's messages and in the documentation are the same words.</p></div></div>
+    <p class="ag-mt-40">One practical point: Java needs a real computer to compile and run comfortably. INEI's survey of the second quarter of 2026 found 36.4% of Peruvian households with at least one computer. If yours is shared, tell us when you book and we will choose class hours around it. We are not connected with UTEC, the OPI or any Peruvian university.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="lesson">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real lesson</p><h2>Why does Java say 30 days is a negative number of milliseconds?</h2><p class="ag-lede">Because the answer is too big for an int, and Java wraps round without a word. We teach this early in every Java course, to learners aged 13 upwards.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The problem</h3><p>Picture a reminder app that needs the number of milliseconds in 30 days. The arithmetic is easy: 30 days times 24 hours times 60 minutes times 60 seconds times 1,000. The result goes into an <code>int</code> and gets printed.</p>
+<p>The answer is negative. Then they try the obvious fix, storing it in a <code>long</code> instead, and the answer is still the same negative number.</p></div><div><h3>What is happening</h3><p>The true answer is 2,592,000,000, which is more than the 2,147,483,647 an <code>int</code> can hold. Java wraps past the top of the range, and the result is 2,592,000,000 minus 2<sup>32</sup>, which is -1,702,967,296.</p>
+<p>The <code>long</code> fix fails because Java works out the right-hand side first, entirely in <code>int</code>, and only then widens the already wrong result. <strong>The type of the calculation is decided before the assignment</strong>, not by the variable on the left.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Milliseconds.java: one wrong answer, one still wrong, one right, one loud</b><span>Java</span></figcaption><pre>public class Milliseconds {
+    public static void main(String[] args) {
+        int days = 30;
+        int ms = days * 24 * 60 * 60 * 1000;
+        long stillWrong = days * 24 * 60 * 60 * 1000;
+        long right = days * 24L * 60 * 60 * 1000;
+        System.out.println("int:         " + ms);
+        System.out.println("long, late:  " + stillWrong);
+        System.out.println("long, early: " + right);
+        System.out.println("int maximum: " + Integer.MAX_VALUE);
+        try {
+            System.out.println(Math.multiplyExact(days * 24 * 60 * 60, 1000));
+        } catch (ArithmeticException e) {
+            System.out.println("multiplyExact: " + e.getMessage());
+        }
+    }
+}</pre><p class="ag-code-note">Compiled and run with JDK 21, it prints <code>int:         -1702967296</code>, <code>long, late:  -1702967296</code>, <code>long, early: 2592000000</code>, <code>int maximum: 2147483647</code> and <code>multiplyExact: integer overflow</code>.</p></figure>
+    <p class="ag-mt-40">The right answer comes from making the calculation a <code>long</code> from the start: writing <code>24L</code> turns the second number into a <code>long</code>, so every multiplication after it happens in 64 bits. The last line shows the other professional tool. <code>Math.multiplyExact</code>, part of Java's standard library, throws an exception if the result overflows an int, so a silent wrong number becomes a loud error you can see and fix.</p>
+    <p>Bugs like this are not exotic. They appear when programs count time, money in cents, views on a video or rows in a database, and they often hide for months because the small test cases work. The habit we teach is to ask, for every calculation, "how big can this get?", and to choose the type before writing the code. The lesson is ours, written for our classes.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Forecast.</strong> Before you press run, note your forecast for every printed line. Then run it and mark which forecasts held.</li><li><strong>Find the edge.</strong> Change <code>days</code> to 24, then 25. At which number of days does the <code>int</code> version first go wrong? Work it out with a calculator before you test it.</li><li><strong>Move the L.</strong> Put the <code>L</code> on <code>1000</code> instead of <code>24</code>. Does the answer change? Explain why in two English sentences.</li><li><strong>Go loud.</strong> Rewrite the whole calculation with <code>Math.multiplyExact</code> on <code>long</code> values, and test it with 30 days and with 300 million days.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="think">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Thinking, not copying</p><h2>Will I learn to think in Java, or just copy code?</h2><p class="ag-lede">To think. The overflow lesson is a good example: the code compiles, runs and prints a number, and only a learner who asks how big the number can get will catch the mistake.</p></div>
+    <div class="ag-grid-3"><div><h3>Ask how big</h3><p>Before every calculation, learners estimate the largest value it can reach and choose the type to fit. It takes seconds and prevents a whole class of bugs.</p></div><div><h3>Read the compiler</h3><p>Java's error messages are precise. We teach learners to read them line by line in English, instead of pasting them into a chatbot and pasting back whatever comes out.</p></div><div><h3>AI within age rules</h3><p>Anthropic sets 18 as the minimum age for Claude, and OpenAI asks under-18s using ChatGPT for a parent's permission. Teenagers learn without adult AI accounts; adults may use AI to question their code, never to replace understanding it.</p></div></div>
+    <p class="ag-mt-40">Every learner gets the same standard of teaching, whether they log in from Lima, Chiclayo or Tacna: the same patient explanation, the same insistence on understanding each line, and the same honesty when something is harder than it looks.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Peru times</p><h2>What hour would Java classes be in Peru, and in what language?</h2><p class="ag-lede">English only, at an hour of your choosing. Lima's clock sits five hours behind UTC throughout the year and India's five and a half ahead, which puts India a steady ten and a half hours in front of Peru. These rows convert a few hours; they are not set class times.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Peru hours with the matching India hour (conversion examples)</caption><thead><tr><th scope="col">Peru time</th><th scope="col">India time</th><th scope="col">Often chosen by</th></tr></thead><tbody><tr><td>06:00</td><td>16:30</td><td>Adults who study before work</td></tr><tr><td>10:30</td><td>21:00</td><td>Students with afternoon classes</td></tr><tr><td>15:30</td><td>02:00, next day</td><td>Teenagers after a morning school shift</td></tr><tr><td>19:30</td><td>06:00, next day</td><td>Adults in the evening</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Based on the IANA tz database entries America/Lima and Asia/Kolkata, neither of which moves its clocks during the year. We did the conversions.</p>
+    <p class="ag-mt-40">Mentors teach only in English and match each learner's pace: short sentences, technical words typed into the chat, and each new idea shown on screen before it is used. Learners in the capital who want more about learning in English can read our page on <a class="ag-inline-link" href="/english-medium-coding-classes-lima">English-medium coding classes in Lima</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Stages</p>
+      <h2>Five stages from your first Java program to a real project</h2>
+      <p class="ag-lede">Our own stages, used to place learners and to show progress in plain terms.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Java stages for learners in Peru (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">The learner can</th><th scope="col">Proof of the stage</th></tr></thead><tbody><tr><td>1. Compile</td><td>Write, compile and run small programs</td><td>Fixes a compile error by reading it</td></tr><tr><td>2. Type</td><td>Choose types and predict overflow</td><td>Explains the milliseconds lesson</td></tr><tr><td>3. Structure</td><td>Write methods and classes with tests</td><td>A small program split into classes</td></tr><tr><td>4. Collect</td><td>Use lists, sets and maps well</td><td>A tool that groups and sorts real data</td></tr><tr><td>5. Build</td><td>Design and finish a project</td><td>A game, app or service explained in English</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents of teenagers</h3><p>Stage 2 is where careful habits start. A teenager who asks "how big can this get?" is learning to think like an engineer.</p>
+<p>Updates describe what was built and understood each month.</p></div><div><h3>For adult learners</h3><p>If the compiler complains, read the whole message before changing anything.</p>
+<p>A program that compiles is not finished. A program you can explain is.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses around Java</h2>
+      <p class="ag-lede">Each runs live and in English, either with a batch or privately, under a mentor who follows the learner's progress.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Teenagers alongside Java</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JAJ / TEEN / 01</p>
+          <h4>Python for teens</h4>
+          <p>The other popular first language, from zero.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAJ / TEEN / 02</p>
+          <h4>C++ for teens</h4>
+          <p>The OPI final's only language, with STL and algorithms.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAJ / TEEN / 03</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>Version control from the first commit.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Building with Java ideas</h3>
+        <span class="ag-band-sub">Teenagers and adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JAJ / BUILD / 01</p>
+          <h4>Back-end development for teens</h4>
+          <p>APIs and databases, ages 13 to 18.</p>
+          <a class="ag-course-link" href="/courses/backend-coding-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAJ / BUILD / 02</p>
+          <h4>Kotlin and Android</h4>
+          <p>Java's close relative, for Android apps.</p>
+          <a class="ag-course-link" href="/courses/complete-kotlin-programming-masterclass-professional">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAJ / BUILD / 03</p>
+          <h4>MySQL and databases</h4>
+          <p>SQL and design for the data behind Java services.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Further and deeper</h3>
+        <span class="ag-band-sub">Ages 18 and over</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JAJ / DEEP / 01</p>
+          <h4>Competitive programming</h4>
+          <p>Algorithms under time pressure, up to contest level.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAJ / DEEP / 02</p>
+          <h4>Full-stack web development</h4>
+          <p>Front end, back end and deployment.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAJ / DEEP / 03</p>
+          <h4>AP Computer Science A</h4>
+          <p>Java for students on a US-style school programme.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>What a live Java lesson looks like from Peru</h2>
+      <p class="ag-lede">Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Mornings</p><p class="ag-slot-l">Morning in Peru is evening in India, an easy hour on both sides.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evenings</p><p class="ag-slot-l">Peruvian evenings land in the Indian early morning; ask for the hour you need.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">A private mentor and hours that move with your week.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Compile every class</h3><p>Learners write and run Java themselves, every lesson.</p></div>
+      <div><h3>The same mentor</h3><p>One teacher who knows where you get stuck.</p></div>
+      <div><h3>Unhurried English</h3><p>Clear explanations, key terms written in the chat.</p></div>
+      <div><h3>Batches by age</h3><p>Teenagers with teenagers, adults with adults.</p></div>
+      <div><h3>Short practice tasks</h3><p>Set in one class and discussed in the next.</p></div>
+      <div><h3>Batch or solo</h3><p>A batch of fifteen to twenty, or a mentor all to yourself.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our longer-term learners have built</h2>
+      <p class="ag-lede">Learners who stay with programming for a year or two build real software. A few projects by our older students are below; the <a class="ag-inline-link" href="/student-labs">student labs</a> page shows more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Java course fees for learners in Peru</h2>
+      <p class="ag-lede">Fees are charged in US dollars on a card. Your bank turns each charge into soles at that day's rate, so the figure on your statement may move slightly from one month to another.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first Java class</li><li>Install a JDK and compile a first program</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty learners at a similar stage</li><li>One mentor throughout</li><li>Two live classes a week</li><li>Pay monthly; stop at any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A mentor just for you</li><li>Projects shaped by your goal</li><li>Hours you choose</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews from Google, quoted exactly as families and students wrote them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Peru</p>
+      <h2>Java from zero in Peru: what learners ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in Spanish?</h3>
+        <p>No. Every Java lesson is live, online and taught in English; we do not teach in Spanish. Mentors keep their speech clear, follow your pace and accent, and put every step on the shared screen. Java's keywords, error messages and documentation are all in English, so the class and the language use the same words.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I learn Java with no programming experience?</h3>
+        <p>Yes. Java for Teens, for ages 13 to 18, and our adult Java course both begin with your very first line. Java asks for a little more care at the start than some languages, and that care pays off later.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many months does Java from zero take?</h3>
+        <p>Our full Java courses take ten to twelve months at two live classes a week, plus practice. Short courses often stop before objects and collections, which is where Java becomes useful for real projects. One-to-one learners can move faster.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which version of Java will I use?</h3>
+        <p>A current long-term-support JDK, installed from an official source in your first class. The lesson on this page was compiled and run with JDK 21, which reached General Availability on 19 September 2023.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use Java in the OPI informatics olympiad?</h3>
+        <p>No. The OPI 2025 rules allow C++ or Python in the first phase and only C++ in the final. If the OPI is your main goal, learn C++. We have no tie to UTEC or the OPI, and we promise no medals.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time are classes for someone in Peru?</h3>
+        <p>Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. With India ten and a half hours ahead, a 10:30 class in Peru is 21:00 for the mentor.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I get a certificate?</h3>
+        <p>You receive a completion certificate from Modern Age Coders once you pass the final exam. It is ours alone: no Peruvian ministry or university issues it, and it is not a Peruvian qualification.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Java harder than Python?</h3>
+        <p>It asks for more detail at the start: you declare types and write a little more code. Many learners find that this makes errors easier to understand. Both are good first languages; the quality of the teaching matters more than the choice.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use ChatGPT or Claude to learn Java?</h3>
+        <p>Adult learners can ask an AI tool to critique code they wrote. Claude's maker sets its minimum age at 18, and OpenAI wants a parent's consent for ChatGPT users under 18, so our teen batches work without adult AI accounts. Whatever the tool, you must be able to explain every line you hand in.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do I need to take the course?</h3>
+        <p>You need a laptop or desktop, a dependable connection and, if possible, a headset with its own mic. The JDK costs nothing; you install it with your mentor during the first lesson. Writing Java on a phone is not realistic.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How are Java fees paid?</h3>
+        <p>Monthly card payments in US dollars. The soles amount is worked out by your bank, so expect small differences between statements. No card is needed for the free first class.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Read next</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for learners starting Java.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/curso-de-java-en-ingles-peru">Curso de Java en inglés</a></h3><p>Our Spanish-language page on these Java classes.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-for-beginners">Java for beginners</a></h3><p>How we start Java from nothing.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-oops-concepts-course">Java object-oriented concepts</a></h3><p>Classes, objects and design.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-cannot-find-symbol-error">The &quot;cannot find symbol&quot; error</a></h3><p>Reading a common compiler message.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-classes-for-teens">Java for teenagers</a></h3><p>What teens build in their first year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>All our pages for Peru, by age and subject.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free Java class from Peru</h2>
+        <p class="ag-lede">During the free class you set up a JDK, compile your first program and tell the mentor what you hope to do with Java. We then recommend a course, group or private lessons, and a Peru hour that fits your week.</p>
+        <p class="ag-mt-40">Prefer to read more first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> shows a live class step by step, and the <a class="ag-inline-link" href="/courses">course list</a> has every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Peru%20and%20want%20to%20learn%20Java%20from%20zero%20in%20live%20classes%20in%20English.%20Can%20I%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jaj',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Lessons are live over video, taught from India, in English only. Send us a WhatsApp message in English if you want a quick answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_jaj(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Your name</label>
+            <input id="pe-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Phone or WhatsApp, Peru +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Learner age group</label>
+            <select id="pe-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card required, no commitment.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Java</h4><ul><li><a href="/java-for-beginners">Java for beginners</a></li><li><a href="/java-dsa-course">Java and DSA</a></li><li><a href="/java-projects-for-students">Java projects</a></li><li><a href="/java-certification-course">Java certification</a></li></ul></div>
+      <div><h4>Peru</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Classes in Peru</a></li><li><a href="/curso-de-java-en-ingles-peru">Curso de Java en inglés</a></li><li><a href="/english-medium-coding-classes-lima">Coding in English, Lima</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Ask how big it can get</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_jaj = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'java-course-peru-inline', meta: { name: name, age: age, page: 'java-course-peru' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

@@ -1002,6 +1002,7 @@ const SLUGS = [
   'python-course-peru',
   'python-for-kids-peru',
   'python-for-engineering-students-peru',
+  'java-course-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2083,6 +2084,7 @@ const LLMS_LABELS = {
   'python-course-peru': 'Python course for Peru',
   'python-for-kids-peru': 'Python for kids in Peru',
   'python-for-engineering-students-peru': 'Python for engineering students in Peru',
+  'java-course-peru': 'Java course for Peru',
 };
 
 function wireLlms(slugs) {
