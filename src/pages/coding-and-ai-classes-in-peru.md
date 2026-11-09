@@ -264,6 +264,12 @@ Peru uses UTC-5 all year; the last Peruvian summer time ended on 1 April 1994, a
 
 Because the gap is fixed, a time agreed in March still works in October. Any afternoon or evening in Peru is already the next calendar day in India, which only matters when you read a date on a calendar invite. The booking form for the free class shows times in your own Peru clock; the mentor receives the matching moment in India time.
 
+## Which pages have we written for learners in Peru?
+
+Each page below takes one age, subject, exam, region, city or Lima district and answers it with its own sources and its own small project.
+
+**Start here:** [English-medium coding in Lima](/english-medium-coding-classes-lima)
+
 ## What a learner in Peru can do at each stage with us
 
 These milestones are ours. We use them to decide which group a learner joins and to tell parents how things are going. They run beside the Peruvian grades and never stand in for school marks.

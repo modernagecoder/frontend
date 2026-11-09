@@ -32367,6 +32367,18 @@
   to = "/src/pages/coding-and-ai-classes-in-peru.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/english-medium-coding-classes-lima"
+  to = "/src/pages/english-medium-coding-classes-lima.html"
+  status = 200
+
+[[redirects]]
+  from = "/english-medium-coding-classes-lima.md"
+  to = "/src/pages/english-medium-coding-classes-lima.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
