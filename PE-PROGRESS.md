@@ -20,7 +20,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE216 | vacaciones-utiles-de-programacion-la-molina-lima (vupm, #4E582A) | market | 5,210 | 2.3% vs clases-de-programacion-para-ninos-en-ingles | La Molina summer: computación (Word, Excel) or programación, a teen-heavy district | types: text that looks like a number sorts as text (str vs int) | a0b6ced0 |
 | PE220 | vacaciones-utiles-de-programacion-miraflores-lima (vami, #384213) | market | 5,035 | 2% vs vacaciones-utiles-2027-programacion-online | Miraflores summer by age: council workshops stop at 12, a gap for teens | logic: a range check needs and, not or (chained comparison) | fff735df |
 | PE227 | vacaciones-utiles-de-programacion-san-isidro-lima (vais, #384213) | market (es district, vacaciones útiles) | 5,459 | 1.7% vs vacaciones-utiles-2027-programacion-online | secundaria summer before OPI, OPEIA and admission dates | prefix sums: precompute once, count operations | 4153f8a5 |
-| PE219 | vacaciones-utiles-de-programacion-san-borja-lima (vut, #04693D) | market (es district, vacaciones útiles) | 4,817 | 1.9% vs vacaciones-utiles-de-programacion-la-molina-lima | primaria summer: sport talleres in the morning, code at home | one bad lap: average against median | (this commit) |
+| PE219 | vacaciones-utiles-de-programacion-san-borja-lima (vut, #04693D) | market (es district, vacaciones útiles) | 4,817 | 1.9% vs vacaciones-utiles-de-programacion-la-molina-lima | primaria summer: sport talleres in the morning, code at home | one bad lap: average against median | c6564a92 |
+| PE215 | vacaciones-utiles-de-programacion-san-miguel-lima (vac, #11594E) | market (es district, vacaciones útiles) | 4,845 | 2.1% vs clases-de-programacion-para-ninos-en-ingles | summer reforzamiento: maths reasoning and Python together, 10 to 15 | conjecture, test, find the counterexample | (this commit) |
 
 ## Notes
 
