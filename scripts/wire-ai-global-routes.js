@@ -1024,6 +1024,7 @@ const SLUGS = [
   'programar-con-ia-sin-copiar',
   'alternativa-a-crack-the-code-en-ingles',
   'kodland-opiniones-alternativa',
+  'colegio-bilingue-refuerzo-programacion',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2127,6 +2128,7 @@ const LLMS_LABELS = {
   'programar-con-ia-sin-copiar': 'Programar con IA sin copiar',
   'alternativa-a-crack-the-code-en-ingles': 'Alternativa en inglés a Crack The Code',
   'kodland-opiniones-alternativa': 'Kodland: opiniones y una alternativa en inglés',
+  'colegio-bilingue-refuerzo-programacion': 'Colegio bilingüe: refuerzo de programación en inglés',
 };
 
 function wireLlms(slugs) {

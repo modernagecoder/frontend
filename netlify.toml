@@ -33423,6 +33423,18 @@
   to = "/src/pages/kodland-opiniones-alternativa.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/colegio-bilingue-refuerzo-programacion"
+  to = "/src/pages/colegio-bilingue-refuerzo-programacion.html"
+  status = 200
+
+[[redirects]]
+  from = "/colegio-bilingue-refuerzo-programacion.md"
+  to = "/src/pages/colegio-bilingue-refuerzo-programacion.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
