@@ -10160,4 +10160,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /python-for-kids-peru /src/pages/python-for-kids-peru.html 200
 /python-for-kids-peru.md /src/pages/python-for-kids-peru.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/python-for-engineering-students-peru /src/pages/python-for-engineering-students-peru.html 200
+/python-for-engineering-students-peru.md /src/pages/python-for-engineering-students-peru.md 200
 /* /src/pages/404.html 404

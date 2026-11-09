@@ -1001,6 +1001,7 @@ const SLUGS = [
   'precio-profesor-particular-matematicas-peru',
   'python-course-peru',
   'python-for-kids-peru',
+  'python-for-engineering-students-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2081,6 +2082,7 @@ const LLMS_LABELS = {
   'precio-profesor-particular-matematicas-peru': 'Precio de un profesor particular de matemáticas',
   'python-course-peru': 'Python course for Peru',
   'python-for-kids-peru': 'Python for kids in Peru',
+  'python-for-engineering-students-peru': 'Python for engineering students in Peru',
 };
 
 function wireLlms(slugs) {

@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Python for Engineering Students in Peru: Live in English</title>
+  <meta name="description" content="Python for engineering and science students in Peru, taught live online in English: which versions and libraries to install, numerical methods, and hours.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/python-for-engineering-students-peru">
+  <link rel="alternate" type="text/markdown" href="/src/pages/python-for-engineering-students-peru.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#0C665A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/python-for-engineering-students-peru">
+  <meta property="og:title" content="Python for Engineering Students in Peru: Live in English">
+  <meta property="og:description" content="Live Python classes in English for engineering students in Peru: which Python and which scientific libraries will last your degree (SPEC 0), what engineers use Python for, and a root-finding lesson comparing bisection with Newton's method.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Python for Engineering Students in Peru: Live in English">
+  <meta name="twitter:description" content="Python for engineering students in Peru, live online in English, at hours that fit your semester.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-pes .ag-hero h1 { max-width: 21ch; letter-spacing: -0.01em; }
+.ag-root.ag-pes .ag-capsule { border-left-width: 4px; }
+.ag-root.ag-pes .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-pes .ag-table td:last-child { font-weight: 600; }
+.ag-root.ag-pes .ag-code-note code { font-weight: 600; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/python-for-engineering-students-peru#page","url":"https://learn.modernagecoders.com/python-for-engineering-students-peru","name":"Python for Engineering Students in Peru","description":"A guide for engineering and science students in Peru learning Python, built from the Scientific Python SPEC 0 drop schedule, the SciPy and CPython documentation, PUCP's published plan of studies and UNI's admission page, with an original numerical-methods lesson.","inLanguage":"en-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding and AI classes in Peru","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Python for engineering","item":"https://learn.modernagecoders.com/python-for-engineering-students-peru"}]},{"@type":"Course","name":"Python for Engineering Students in Peru","description":"Live online Python and mathematics courses taught in English for university engineering and science students in Peru: Python from zero, numerical methods, data analysis and machine learning, in a group of fifteen to twenty or one to one, at hours the student chooses.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/python-for-engineering-students-peru"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/python-for-engineering-students-peru"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/python-for-engineering-students-peru"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in Spanish?","acceptedAnswer":{"@type":"Answer","text":"No. Every class is live, online and taught in English only. Mentors speak clearly, adjust to your pace and accent, and write key terms in the chat. Python, its libraries and their documentation are all in English, so learning in English removes a translation step you would meet anyway."}},{"@type":"Question","name":"I have never programmed. Is that a problem?","acceptedAnswer":{"@type":"Answer","text":"No. The zero-to-advanced Python course starts from the first line of code. Engineering students usually move quickly once the basics are clear, because the mathematics is already familiar."}},{"@type":"Question","name":"Which Python version should I install for my degree?","acceptedAnswer":{"@type":"Answer","text":"A current one. Python 3.15 was released on 9 October 2026, and the scientific Python projects' SPEC 0 schedule recommends dropping support for Python 3.12 in the last quarter of 2026. If your university lab uses an older version, we work with it."}},{"@type":"Question","name":"Will this help with my university programming course?","acceptedAnswer":{"@type":"Answer","text":"It should make it much easier to understand, because we explain the reasoning behind each method and practise it with you. Your university sets the syllabus and the marks; we do not do assignments for students or promise grades."}},{"@type":"Question","name":"Do you teach numerical methods?","acceptedAnswer":{"@type":"Answer","text":"Yes, as part of our Python and mathematics courses: root finding, interpolation, numerical integration, linear systems and simple differential equations, each explained on paper and then in code."}},{"@type":"Question","name":"When are the classes in Peru time?","acceptedAnswer":{"@type":"Answer","text":"Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. India is 10 hours 30 minutes ahead of Peru all year, so 07:30 in Peru is 18:00 in India."}},{"@type":"Question","name":"I am in 5th of secundaria. Can I start before university?","acceptedAnswer":{"@type":"Answer","text":"Yes. Students under 18 join our teenage Python course; from 18 the university courses. We do not prepare for Spanish-language admission exams or promise admission, but Python and mathematical reasoning in English make the first semesters easier."}},{"@type":"Question","name":"Are you connected with UNI, PUCP or another university?","acceptedAnswer":{"@type":"Answer","text":"No. We are an independent online school with mentors based in India, and we are not connected with any Peruvian university. Students who finish a course receive our own certificate of completion, not a university credit."}},{"@type":"Question","name":"Can I use AI tools in class?","acceptedAnswer":{"@type":"Answer","text":"Adult students may use them to question their own work, within their university's rules. Claude is for users of 18 and over. We expect every student to explain each line of code they submit, whoever or whatever suggested it."}},{"@type":"Question","name":"How are fees paid from Peru?","acceptedAnswer":{"@type":"Answer","text":"Monthly, by card, in US dollars. Your bank converts each charge into soles, so the amount you see can change slightly between months. The first class is free and asks for no card."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/python-for-engineering-students-peru","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-pes">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Peru</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Peru</a></li>
+      <li><a href="#why">Why Python</a></li>
+      <li><a href="#install">What to install</a></li>
+      <li><a href="#degree">Your degree</a></li>
+      <li><a href="#lesson">Root finding</a></li>
+      <li><a href="#times">Class hours</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a> / Python for engineering
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Peru &middot; Python for engineers &middot; University and pre-university</p>
+        <h1>Python for engineering students in Peru</h1>
+        <p class="ag-lede">Many engineering students in Peru meet programming early in their degree, often in a course that moves faster than anyone expected. Python is the language engineers reach for when the maths stops fitting on paper: solving equations, fitting data, simulating a system. This page explains which Python and which libraries to install so they last your whole degree, what engineers actually do with Python, how it fits a Peruvian engineering plan, and a root-finding lesson that shows why numerical methods need judgement, not only code.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#lesson" class="ag-btn ag-btn--ghost">See the root-finding lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20study%20engineering%20in%20Peru%20and%20would%20like%20live%20Python%20classes%20in%20English.%20Could%20I%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pes'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students worldwide &middot; every class live, online and in English</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Who</dt><dd>Engineering and science students</dd>
+          <dt>Also for</dt><dd>5th of secundaria, before university</dd>
+          <dt>Covers</dt><dd>Python, numerical methods, data</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Hours in Peru</dt><dd>Fitted around your timetable</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The direct answer</p>
+      <p>Modern Age Coders teaches Python to engineering and science students in Peru in live online classes in English. A mentor based in India teaches each class in real time, from the basics to numerical methods, data analysis and machine learning, in a group of fifteen to twenty or one to one. Students choose hours around their university timetable in Peru time. Classes run alongside your degree: we explain and practise, and your university sets and marks every assessment.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where engineers start</p>
+      <h2>Three courses for engineering students</h2>
+      <p class="ag-lede">One for Python itself, one for the mathematics engineering leans on, and one for students heading towards data and AI.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PES / 01</p>
+          <h3>Python, zero to advanced</h3>
+          <p>For students of 18 and over, starting from nothing, over nine to eleven months. Functions, data structures, files, objects and testing, with engineering-style problems from the first month.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/college-mathematics-complete-masterclass">
+        <div class="ag-pick-shot"><img src="/images/college-level-maths.webp" alt="College Maths Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PES / 02</p>
+          <h3>University mathematics</h3>
+          <p>Calculus, linear algebra and related tracks, each ten to twelve months and joinable any month. Students are placed by the course and semester they are taking now.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-complete-college">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-college.webp" alt="AI and ML Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PES / 03</p>
+          <h3>AI and machine learning</h3>
+          <p>Twelve to fourteen months from Python to deep learning, with the school maths refreshed first. For students who want models they can explain, not only run.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="why">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Why Python</p><h2>Why do engineering students learn Python?</h2><p class="ag-lede">Because engineering is full of problems that have no tidy formula. Python, with a few free scientific libraries, lets a student solve an equation numerically, fit a curve to lab data, or simulate a system step by step, and then check the result.</p></div>
+    <div class="ag-grid-3"><div><h3>Solve</h3><p>Roots of equations, systems of linear equations, integrals and differential equations that cannot be done by hand. The lesson further down this page is one of the first methods every engineer meets.</p></div><div><h3>Measure</h3><p>Laboratory readings, sensor logs and survey data, cleaned, plotted and summarised. A student who can turn a messy spreadsheet into a clear graph saves hours in every lab report.</p></div><div><h3>Model</h3><p>Simulations of circuits, structures, flows or populations, where the student changes one parameter and watches the system respond. This is where programming stops being a separate subject and becomes part of engineering.</p></div></div>
+    <p class="ag-mt-40">Numerical work also teaches a hard lesson that pure algebra hides: a method can run without error and still give a poor answer. The scientific libraries are honest about this. SciPy's own documentation describes its bisection routine as "slow but sure", which is a fair summary of a trade-off every engineer faces, and the subject of our lesson.</p>
+    <p>For students who prefer reading in Spanish, our page on <a class="ag-inline-link" href="/python-para-estudiantes-de-ingenieria-peru">Python para estudiantes de ingeniería</a> covers the same classes from another angle, and university students in any faculty can see <a class="ag-inline-link" href="/cursos-de-programacion-para-universitarios-peru">cursos de programación para universitarios</a>. Every class itself is taught in English.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="install">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What to install</p><h2>Which Python and which libraries should an engineering student install?</h2><p class="ag-lede">Install a recent Python and recent versions of NumPy, SciPy, pandas and Matplotlib, because the scientific Python projects agree to drop old versions on a schedule. Their shared policy, SPEC 0, recommends dropping support for a Python version three years after it first appeared, and for a core library version after two.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>When the scientific Python projects recommend dropping support, from the SPEC 0 drop schedule</caption><thead><tr><th scope="col">Version</th><th scope="col">First released</th><th scope="col">SPEC 0 recommends dropping support in</th></tr></thead><tbody><tr><td>Python 3.12</td><td>October 2023</td><td>Fourth quarter of 2026</td></tr><tr><td>NumPy 2.2.0</td><td>December 2024</td><td>Fourth quarter of 2026</td></tr><tr><td>Matplotlib 3.10.0</td><td>December 2024</td><td>Fourth quarter of 2026</td></tr><tr><td>SciPy 1.15.0</td><td>January 2025</td><td>First quarter of 2027</td></tr><tr><td>NumPy 2.3.0, pandas 2.3.0, SciPy 1.16.0</td><td>June 2025</td><td>Second quarter of 2027</td></tr><tr><td>Python 3.13</td><td>October 2024</td><td>Fourth quarter of 2027</td></tr><tr><td>Python 3.14</td><td>October 2025</td><td>Fourth quarter of 2028</td></tr><tr><td>Python 3.15</td><td>October 2026</td><td>Fourth quarter of 2029</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Scientific Python, SPEC 0 "Minimum Supported Dependencies", policy text and auto-generated Drop Schedule, read on 9 November 2026. SPEC 0 builds on NumPy's earlier NEP 29. It is a recommendation that projects endorse; a given library may keep or drop support at a slightly different time.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What this means over a degree</h3><p>A degree like PUCP's lasts five years. If you install Python 3.12 today, the scientific libraries are already being encouraged to leave it behind; Python 3.15, released on 9 October 2026, sits inside the SPEC 0 window until late 2029.</p>
+<p>This is not a reason to upgrade in the middle of a lab assignment. It is a reason to start each academic year by checking your versions, and to know how to set up a clean environment when a library refuses to install.</p></div><div><h3>What we teach on day one</h3><p>Students install a current Python, create a virtual environment for each project, and record the exact versions they used, so a result can be reproduced next semester. These habits save more lab time than any clever trick.</p>
+<p>If your university lab runs an older setup, we work in that version and show you what to watch for. The method and the reasoning carry across; only the occasional function name changes.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="degree">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Your degree</p><h2>How does Python fit into an engineering degree in Peru?</h2><p class="ag-lede">Alongside it, from the first general-science semesters to the final project. Peruvian engineering degrees put heavy mathematics at the front, and Python is most useful when it is learnt together with that mathematics, not after it.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>A five-year plan, front-loaded with science</h3><p>Universities publish their own plans. PUCP's plan for Ingeniería Informática, for example, runs for ten semesters (five years): four semesters in Estudios Generales Ciencias, the general science cycle, and six in the faculty itself.</p>
+<p>Those first two years are mostly mathematics, physics and chemistry. That is where numerical Python pays off soonest: checking a calculus result, plotting a function to see why a limit behaves strangely, or solving a physics equation that has no neat answer.</p></div><div><h3>Before university, the exam</h3><p>Admission is decided by each university, in Spanish. UNI's ordinary admission exam, for instance, is three papers on three days, and two of the three are mathematics and physics with chemistry, according to UNI's own admission page for 2026-2.</p>
+<p>We do not prepare for that exam or promise any admission result. What we offer a student in 5th of secundaria is mathematical reasoning and Python in English, which makes the first university semesters less of a shock.</p></div></div>
+    <p class="ag-mt-40">Our classes never replace the university's own courses. Your professors set the syllabus, the assignments and the marks. A mentor's job is to make sure you understand why a method works, so that the assignment becomes practice rather than a puzzle you copy from a classmate. We are not connected with PUCP, UNI or any other university.</p>
+    <p>A practical note on equipment: INEI found that 36.4% of Peruvian households had at least one computer in the April to June 2026 quarter. Numerical work is painful on a phone. If you rely on university labs, tell us your lab hours and we will plan classes for times when you have a laptop or desktop in front of you.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="lesson">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real lesson</p><h2>How do you find the root of an equation in Python?</h2><p class="ag-lede">Two ways, and an engineer should know when to use each. This is a lesson we teach to university students in their first months of numerical Python, on the cubic x³ minus 2x minus 5, which has one real root between 2 and 3.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Bisection: slow but sure</h3><p>Start with an interval where the function changes sign, here from 2 to 3. Cut it in half, keep the half where the sign still changes, and repeat until the interval is narrower than the accuracy you need.</p>
+<p>Because each step halves the interval, you can predict the number of steps before running anything: to shrink a width of 1 below 10<sup>-10</sup> takes the logarithm base 2 of 10<sup>10</sup>, about 33.2, so 34 steps. Version 1 confirms it.</p></div><div><h3>Newton: fast, if you start well</h3><p>Newton's method uses the slope of the curve to jump towards the root. From a good starting point the number of correct digits roughly doubles each step, so it needs far fewer steps than bisection.</p>
+<p>But it divides by the derivative, 3x² minus 2, which is zero near x = 0.8165. Start close to that flat point and the first jump sends you a long way off. Version 2 shows both cases.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: bisection, with a step count</b><span>Python</span></figcaption><pre>def f(x):
+    return x**3 - 2*x - 5
+
+def bisect(a, b, tol=1e-10):
+    steps = 0
+    while b - a &gt; tol:
+        m = (a + b) / 2
+        if f(a) * f(m) &lt;= 0:
+            b = m
+        else:
+            a = m
+        steps += 1
+    return (a + b) / 2, steps
+
+root, steps = bisect(2, 3)
+print(f"bisection: {root:.10f} after {steps} steps")</pre><p class="ag-code-note">It prints <code>bisection: 2.0945514816 after 34 steps</code>.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: Newton's method from a good start and from a poor one</b><span>Python</span></figcaption><pre>import math
+
+def df(x):
+    return 3*x**2 - 2
+
+def newton(x, tol=1e-10, limit=50):
+    for step in range(1, limit + 1):
+        new = x - f(x) / df(x)
+        if abs(new - x) &lt; tol:
+            return new, step
+        x = new
+    return x, None
+
+print("predicted bisection steps:", math.ceil(math.log2(1 / 1e-10)))
+for start in (2, 0.82):
+    first = start - f(start) / df(start)
+    r, n = newton(start)
+    print(f"newton from {start}: first jump to {first:.2f}, {r:.10f} after {n} steps")</pre><p class="ag-code-note">Run after Version 1, it prints <code>predicted bisection steps: 34</code>, then <code>newton from 2: first jump to 2.10, 2.0945514815 after 5 steps</code>, then <code>newton from 0.82: first jump to 354.81, 2.0945514815 after 19 steps</code>.</p></figure>
+    <p class="ag-mt-40">The numbers tell the story. Bisection took exactly the 34 steps we predicted on paper. Newton, from a sensible start of 2, needed only 5. From 0.82, almost on the flat point, its <strong>first jump landed at 354.81</strong>, and it took 19 steps to crawl back. On this cubic it recovered; on other functions the same jump can land somewhere the method never returns from, or bounce between two points for ever.</p>
+    <p>That is why engineering software often combines the two: bracket the root safely, then let a fast method finish the job. Before any of that, a student learns to plot the function and look at it, which is the cheapest check there is. The exercise is ours, written for our classes; the cubic is a standard textbook example, chosen because its one real root is easy to bracket.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Predict.</strong> How many bisection steps would a tolerance of 10<sup>-6</sup> need? Work it out with a logarithm, then change <code>tol</code> and check.</li><li><strong>Break it.</strong> Call <code>bisect(3, 4)</code>, where the function does not change sign. Explain in English what the code returns and why it is meaningless.</li><li><strong>Protect it.</strong> Add a check at the start of <code>bisect</code> that raises an error when f(a) and f(b) have the same sign, as SciPy's documentation requires.</li><li><strong>Combine.</strong> Write a function that does five bisection steps, then switches to Newton. Compare its step count with both methods alone.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="think">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Thinking, not copying</p><h2>Can I use AI to do my programming assignments?</h2><p class="ag-lede">You can ask AI to write code, and it may even run. Whether the answer is right, and whether you could defend it in front of your professor, depends on the thinking you did yourself.</p></div>
+    <div class="ag-grid-3"><div><h3>Predict on paper</h3><p>Like the 34 bisection steps above: before running a method, estimate what it should do. When the computer disagrees, you have found either a bug or a misunderstanding, and both are worth finding.</p></div><div><h3>Check the method</h3><p>A chatbot will happily run Newton from a bad start. Knowing when a method fails is engineering judgement, and no tool supplies it for you.</p></div><div><h3>Follow the rules</h3><p>Universities set their own rules on AI in coursework, and you should follow them. Claude is for users aged 18 and over; adult students may use such tools to question their work, never to hand in code they cannot explain.</p></div></div>
+    <p class="ag-mt-40">We hold every student to the same standard, whether they study in Lima, Arequipa or Huancayo: understand first, then automate. A student who can explain why bisection is slow and why Newton can fail will use any tool, AI included, far better than one who only knows which button to press.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class hours</p><h2>When can a university student in Peru take live classes?</h2><p class="ag-lede">Whenever your timetable leaves a gap. Peru is on UTC minus 5 all year with no daylight saving, and India is on UTC plus 5:30, so India is ten and a half hours ahead every day of the year. The rows convert a few hours and do not promise a timetable.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Peru hours and India hours for a university week (conversions only)</caption><thead><tr><th scope="col">Peru time</th><th scope="col">India time</th><th scope="col">When a student might use it</th></tr></thead><tbody><tr><td>07:30</td><td>18:00</td><td>Before a morning of lectures</td></tr><tr><td>12:30</td><td>23:00</td><td>In a free block at midday</td></tr><tr><td>16:00</td><td>02:30, next day</td><td>Between afternoon labs and the evening</td></tr><tr><td>21:30</td><td>08:00, next day</td><td>Late, after the university day</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: IANA time zone database, America/Lima and Asia/Kolkata. Neither zone observes daylight saving, so these conversions, which are ours, hold in every semester and every holiday.</p>
+    <p class="ag-mt-40">University timetables change each semester, so we expect changes. One-to-one students can move their class hour between semesters, or around exam weeks, by telling their mentor in advance. Group students can switch to a batch at a different hour when one is available.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Levels</p>
+      <h2>Five levels of Python for engineers</h2>
+      <p class="ag-lede">These levels are ours. They place a student in the right group and show what comes next, from first scripts to models that inform real decisions.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Python for engineering students, our levels</caption><thead><tr><th scope="col">Level</th><th scope="col">The student can</th><th scope="col">Engineering example</th></tr></thead><tbody><tr><td>1. Compute</td><td>Write functions, loops and tests</td><td>A unit converter that checks itself</td></tr><tr><td>2. Iterate</td><td>Implement bisection and Newton, and count steps</td><td>The root-finding lesson on this page</td></tr><tr><td>3. Vectorise</td><td>Use arrays instead of loops for speed</td><td>Process a thousand lab readings at once</td></tr><tr><td>4. Fit and plot</td><td>Fit curves to data and judge the fit</td><td>A calibration curve for a sensor</td></tr><tr><td>5. Simulate</td><td>Step a model through time and test it</td><td>A cooling tank, a circuit or a population</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For students</h3><p>At level 2 you stop trusting a number because the computer printed it. That habit is worth more than any library.</p>
+<p>Keep a short log of each method: what it assumes, when it fails, how fast it converges.</p></div><div><h3>For parents of first-year students</h3><p>The first semesters of engineering are demanding. Regular practice with a mentor turns a weekly struggle into steady progress.</p>
+<p>You can ask for short progress notes; we describe what was understood, not hours logged.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for engineering and science students</h2>
+      <p class="ag-lede">Each is taught live in English by a mentor who stays with the student, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Programming foundations</h3>
+        <span class="ag-band-sub">First and second year</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PES / BASE / 01</p>
+          <h4>C programming</h4>
+          <p>Pointers, memory and structs, often the first language in an engineering plan.</p>
+          <a class="ag-course-link" href="/courses/c-programming-course-for-college-beginners">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PES / BASE / 02</p>
+          <h4>C++, complete</h4>
+          <p>From fundamentals to modern C++ and systems work.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PES / BASE / 03</p>
+          <h4>Git and GitHub</h4>
+          <p>Version control for lab code and team projects.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Data and numbers</h3>
+        <span class="ag-band-sub">Any year</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PES / DATA / 01</p>
+          <h4>Data science</h4>
+          <p>Python, statistics, machine learning and deep learning.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PES / DATA / 02</p>
+          <h4>Mathematics for data analytics</h4>
+          <p>The maths underneath data work, built for university students.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PES / DATA / 03</p>
+          <h4>MySQL and databases</h4>
+          <p>SQL and database design for data that outgrows a spreadsheet.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Going further</h3>
+        <span class="ag-band-sub">Later years</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PES / NEXT / 01</p>
+          <h4>Data structures and algorithms</h4>
+          <p>The theory behind efficient programs, practised in code.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PES / NEXT / 02</p>
+          <h4>Python automation and AI</h4>
+          <p>Scripts and applied AI that remove repetitive work.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PES / NEXT / 03</p>
+          <h4>PCEP and PCAP preparation</h4>
+          <p>For students who also want the Python Institute exams.</p>
+          <a class="ag-course-link" href="/courses/pcep-pcap-python-certification-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>How live classes fit a university semester in Peru</h2>
+      <p class="ag-lede">Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Early</p><p class="ag-slot-l">A Peruvian morning is evening in India, a comfortable hour for a class.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Late</p><p class="ag-slot-l">After labs, Peru evenings fall in the Indian early morning; tell us what you need.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Your own hours, which can change when your semester timetable does.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Problems, not slides</h3><p>Each class centres on code the student writes and tests.</p></div>
+      <div><h3>Maths with the code</h3><p>Every method is explained on paper as well as in Python.</p></div>
+      <div><h3>Clear English</h3><p>Technical terms said slowly and typed in the chat.</p></div>
+      <div><h3>One mentor</h3><p>The same teacher through the course, who knows your gaps.</p></div>
+      <div><h3>Exam weeks respected</h3><p>Plan lighter weeks around your university assessments.</p></div>
+      <div><h3>Group or private</h3><p>Fifteen to twenty students, or one student and a mentor.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects from our older students</h2>
+      <p class="ag-lede">Students who carry on past the first course build real software and models. A few are shown here; the <a class="ag-inline-link" href="/student-labs">student labs</a> page has the rest.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for engineering students in Peru</h2>
+      <p class="ag-lede">Fees are in US dollars and paid by card each month. The conversion into soles is made by your bank on the day of each charge, which is why your statement may show a slightly different amount from month to month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Set up Python and run a first method</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty students at a similar stage</li><li>A mentor who stays with your group</li><li>Two live classes a week</li><li>Monthly; pause or stop when you need</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>One student and one mentor</li><li>Methods chosen around your courses</li><li>Hours that move with your semester</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from our students and their families, copied without edits.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Students in Peru ask</p>
+      <h2>Python for engineering students in Peru: questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in Spanish?</h3>
+        <p>No. Every class is live, online and taught in English only. Mentors speak clearly, adjust to your pace and accent, and write key terms in the chat. Python, its libraries and their documentation are all in English, so learning in English removes a translation step you would meet anyway.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>I have never programmed. Is that a problem?</h3>
+        <p>No. The zero-to-advanced Python course starts from the first line of code. Engineering students usually move quickly once the basics are clear, because the mathematics is already familiar.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which Python version should I install for my degree?</h3>
+        <p>A current one. Python 3.15 was released on 9 October 2026, and the scientific Python projects' SPEC 0 schedule recommends dropping support for Python 3.12 in the last quarter of 2026. If your university lab uses an older version, we work with it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will this help with my university programming course?</h3>
+        <p>It should make it much easier to understand, because we explain the reasoning behind each method and practise it with you. Your university sets the syllabus and the marks; we do not do assignments for students or promise grades.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you teach numerical methods?</h3>
+        <p>Yes, as part of our Python and mathematics courses: root finding, interpolation, numerical integration, linear systems and simple differential equations, each explained on paper and then in code.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the classes in Peru time?</h3>
+        <p>Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. India is 10 hours 30 minutes ahead of Peru all year, so 07:30 in Peru is 18:00 in India.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>I am in 5th of secundaria. Can I start before university?</h3>
+        <p>Yes. Students under 18 join our teenage Python course; from 18 the university courses. We do not prepare for Spanish-language admission exams or promise admission, but Python and mathematical reasoning in English make the first semesters easier.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you connected with UNI, PUCP or another university?</h3>
+        <p>No. We are an independent online school with mentors based in India, and we are not connected with any Peruvian university. Students who finish a course receive our own certificate of completion, not a university credit.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use AI tools in class?</h3>
+        <p>Adult students may use them to question their own work, within their university's rules. Claude is for users of 18 and over. We expect every student to explain each line of code they submit, whoever or whatever suggested it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How are fees paid from Peru?</h3>
+        <p>Monthly, by card, in US dollars. Your bank converts each charge into soles, so the amount you see can change slightly between months. The first class is free and asks for no card.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Read next</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for engineering and science students.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/python-para-estudiantes-de-ingenieria-peru">Python para estudiantes de ingeniería</a></h3><p>The same classes, described in Spanish.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-data-science">Python for data science</a></h3><p>From arrays to analysis.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-machine-learning">Python for machine learning</a></h3><p>The road from numerics to models.</p></div>
+      <div><h3><a class="ag-inline-link" href="/data-structures-and-algorithms-course">Data structures and algorithms</a></h3><p>Efficiency, explained and practised.</p></div>
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-classes-for-college-students">C++ for university students</a></h3><p>When speed matters more than ease.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>Every Peru page in one place.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free class as an engineering student</h2>
+        <p class="ag-lede">In the free class you set up Python, run a first numerical method and tell the mentor which courses you are taking. Afterwards we suggest a course, a group or one-to-one classes, and hours that fit your semester in Peru.</p>
+        <p class="ag-mt-40">Want to read first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> walks through a live class, and the <a class="ag-inline-link" href="/courses">course list</a> holds every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20study%20engineering%20in%20Peru%20and%20would%20like%20live%20Python%20classes%20in%20English.%20Could%20I%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pes',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">All classes are live video lessons in English, taught from India. For a quick reply, message us on WhatsApp in English.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_pes(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Your name</label>
+            <input id="pe-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Phone or WhatsApp, Peru +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Learner age group</label>
+            <select id="pe-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no commitment.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Python and numbers</h4><ul><li><a href="/python-from-the-ground-up">Python from the ground up</a></li><li><a href="/python-for-data-science">Python for data science</a></li><li><a href="/python-for-machine-learning">Machine learning</a></li><li><a href="/c-plus-plus-dsa-course">C++ and DSA</a></li></ul></div>
+      <div><h4>Peru</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Classes in Peru</a></li><li><a href="/python-para-estudiantes-de-ingenieria-peru">Python para ingeniería</a></li><li><a href="/cursos-de-programacion-para-universitarios-peru">Para universitarios</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Bracket first, then be fast</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_pes = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'python-for-engineering-students-peru-inline', meta: { name: name, age: age, page: 'python-for-engineering-students-peru' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
