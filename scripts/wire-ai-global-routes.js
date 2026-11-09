@@ -1017,6 +1017,7 @@ const SLUGS = [
   'inteligencia-artificial-para-ninos-de-primaria',
   'learn-to-think-not-copy-coding-peru',
   'build-with-ai-without-copying-peru',
+  'coding-classes-in-english-for-peruvian-kids',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2113,6 +2114,7 @@ const LLMS_LABELS = {
   'inteligencia-artificial-para-ninos-de-primaria': 'Inteligencia artificial para niños de primaria',
   'learn-to-think-not-copy-coding-peru': 'Learn to think, not copy: coding for Peru',
   'build-with-ai-without-copying-peru': 'Build with AI without copying, for Peru',
+  'coding-classes-in-english-for-peruvian-kids': 'Coding classes in English for Peruvian kids',
 };
 
 function wireLlms(slugs) {
