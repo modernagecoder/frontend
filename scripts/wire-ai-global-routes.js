@@ -981,6 +981,7 @@ const SLUGS = [
   'bachillerato-internacional-ciencias-de-la-computacion-tutor',
   'curso-de-python-en-ingles-peru',
   'curso-de-python-para-ninos-peru',
+  'python-para-estudiantes-de-ingenieria-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2041,6 +2042,7 @@ const LLMS_LABELS = {
   'bachillerato-internacional-ciencias-de-la-computacion-tutor': 'Tutor de IB Ciencias de la Computación',
   'curso-de-python-en-ingles-peru': 'Curso de Python en inglés',
   'curso-de-python-para-ninos-peru': 'Curso de Python para niños',
+  'python-para-estudiantes-de-ingenieria-peru': 'Python para estudiantes de ingeniería',
 };
 
 function wireLlms(slugs) {

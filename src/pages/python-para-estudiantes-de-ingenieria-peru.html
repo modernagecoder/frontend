@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Python para estudiantes de ingeniería en Perú, en inglés</title>
+  <meta name="description" content="Python para estudiantes de ingeniería en Perú, en vivo, en línea y en inglés: Programación I, métodos numéricos y datos, en grupo o individual, a la hora que elija.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/python-para-estudiantes-de-ingenieria-peru">
+  <link rel="alternate" type="text/markdown" href="/src/pages/python-para-estudiantes-de-ingenieria-peru.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#0B764D">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/python-para-estudiantes-de-ingenieria-peru">
+  <meta property="og:title" content="Python para estudiantes de ingeniería en Perú, en inglés">
+  <meta property="og:description" content="Python para ingeniería en Perú: dónde aparece en la malla, qué es la UNI y su examen, cómo se usa en métodos numéricos y una lección propia con trapecios.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="es_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Python para estudiantes de ingeniería en Perú, en inglés">
+  <meta name="twitter:description" content="Python en vivo y en inglés para estudiantes de ingeniería en Perú: de Programación I a métodos numéricos y datos.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-pei .ag-hero h1 { letter-spacing: -0.014em; max-width: 23ch; }
+.ag-root.ag-pei .ag-capsule { border-left-width: 3px; border-radius: 0; }
+.ag-root.ag-pei .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-pei .ag-table caption { text-align: left; text-transform: none; font-weight: 600; }
+.ag-root.ag-pei .ag-table td { font-variant-numeric: tabular-nums; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/python-para-estudiantes-de-ingenieria-peru#page","url":"https://learn.modernagecoders.com/python-para-estudiantes-de-ingenieria-peru","name":"Python para estudiantes de ingeniería","description":"Guía para estudiantes de ingeniería en Perú que buscan un curso de Python en vivo y en inglés: dónde aparece la programación en las mallas publicadas por las universidades, qué significa \"curso de Python UNI\" y cómo es el examen de admisión de la UNI según su propia página, cómo se usa Python en métodos numéricos con una lección propia sobre la regla del trapecio, y qué certificación tiene sentido.","inLanguage":"es-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Cursos","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Perú","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Python para ingeniería","item":"https://learn.modernagecoders.com/python-para-estudiantes-de-ingenieria-peru"}]},{"@type":"Course","name":"Python para estudiantes de ingeniería","description":"Clases en vivo y en línea de Python para estudiantes de ingeniería y ciencias en todo el Perú, dictadas solo en inglés: fundamentos para Programación I, métodos numéricos, análisis de datos y automatización, con preparación opcional para PCEP y PCAP, en clase grupal o individual y a cualquier hora.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/python-para-estudiantes-de-ingenieria-peru"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/python-para-estudiantes-de-ingenieria-peru"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/python-para-estudiantes-de-ingenieria-peru"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Las clases son en español?","acceptedAnswer":{"@type":"Answer","text":"No: todo el curso va en inglés, en vivo y por internet, y para un estudiante de ingeniería eso es parte del valor: aprende Python y el inglés técnico con el que trabajará. El mentor habla claro y repite cuando hace falta. Lima figura con inglés de nivel alto en el EF EPI 2025, y la conversación en clase es lo que más ayuda a hablarlo."}},{"@type":"Question","name":"¿Ustedes dictan el curso de Python de la UNI?","acceptedAnswer":{"@type":"Answer","text":"No. No somos la Universidad Nacional de Ingeniería ni tenemos convenio con ella o con otra universidad. Somos una escuela en línea que enseña Python en vivo y en inglés a estudiantes de cualquier universidad del Perú."}},{"@type":"Question","name":"¿En qué ciclo se lleva programación en ingeniería?","acceptedAnswer":{"@type":"Answer","text":"Normalmente en el primero. En las mallas publicadas por la UTEC, todas sus ingenierías tienen Programación I en el ciclo 1, con 4 créditos, y Civil, Mecánica, Química y Energía tienen Métodos Numéricos en el ciclo 5."}},{"@type":"Question","name":"¿Me ayudan con las tareas de mi universidad?","acceptedAnswer":{"@type":"Answer","text":"No resolvemos tareas ni evaluaciones de la universidad. Enseñamos los mismos temas con problemas escritos por nosotros, para que usted pueda resolver los suyos solo y explicarlos."}},{"@type":"Question","name":"¿Python o MATLAB para métodos numéricos?","acceptedAnswer":{"@type":"Answer","text":"Use el que pida su curso. Python es gratuito y lo puede instalar en cualquier computadora, y sus bibliotecas científicas cubren lo que se ve en métodos numéricos. Lo que aprenda de un método en Python se traslada a cualquier otra herramienta."}},{"@type":"Question","name":"¿El examen de admisión de la UNI incluye programación?","acceptedAnswer":{"@type":"Answer","text":"No. Según la página de admisión de la UNI, el examen ordinario son tres pruebas presenciales: Aptitud Académica y Humanidades, Matemática, y Física y Química. Se rinden en castellano. No preparamos ese examen ni prometemos ingresos."}},{"@type":"Question","name":"¿Necesito saber programar para empezar?","acceptedAnswer":{"@type":"Answer","text":"No. El curso de Python de cero a avanzado empieza desde la primera variable. Si ya aprobó Programación I, el mentor lo ubica en el punto que le corresponda."}},{"@type":"Question","name":"¿El curso tiene certificado?","acceptedAnswer":{"@type":"Answer","text":"Sí, nuestro certificado de finalización al aprobar el examen final, sin carácter oficial. Si busca un respaldo externo, lo preparamos para el PCEP y el PCAP; la inscripción y el examen se hacen con el Python Institute."}},{"@type":"Question","name":"¿Puedo cambiar el horario cuando empiece otro ciclo?","acceptedAnswer":{"@type":"Answer","text":"Sí. Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, una clase a las 7:00 a. m. en Lima es a las 5:30 p. m. para su mentor en la India."}},{"@type":"Question","name":"¿En qué moneda se paga?","acceptedAnswer":{"@type":"Answer","text":"En dólares de Estados Unidos, con tarjeta; el banco hace la conversión. La clase de prueba es gratis y no requiere tarjeta."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/python-para-estudiantes-de-ingenieria-peru","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-pei">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Perú</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Perú</a></li>
+      <li><a href="#malla">La malla</a></li>
+      <li><a href="#uni">Python y la UNI</a></li>
+      <li><a href="#trapecio">Métodos numéricos</a></li>
+      <li><a href="#ingles">Inglés técnico</a></li>
+      <li><a href="#reloj">Horarios</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Clase gratis</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a> / <a href="/courses">Cursos</a> / <a href="/coding-and-ai-classes-in-peru">Perú</a> / Python para ingeniería
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Perú &middot; Python para ingeniería &middot; Universitarios</p>
+        <h1>Python para estudiantes de ingeniería, en vivo y en inglés</h1>
+        <p class="ag-lede">En casi todas las ingenierías el primer ciclo trae un curso de programación, y unos semestres después llegan los métodos numéricos, donde el código deja de ser un ejercicio y se convierte en la calculadora del ingeniero. Esta página es para quien estudia o va a estudiar ingeniería en Perú y quiere dominar Python a fondo, en inglés, con alguien que le explique cada paso.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Reservar la primera clase gratis</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Reservar una demo prioritaria</a>
+          <a href="#trapecio" class="ag-btn ag-btn--ghost">Ver la lección de métodos numéricos</a>
+          <a href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20estudio%20ingenier%C3%ADa%20en%20Per%C3%BA%20y%20quiero%20reforzar%20Python%20en%20ingl%C3%A9s.%20%C2%BFPuedo%20reservar%20una%20clase%20gratis%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pei'});">Consultar por WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Clases en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; Python para ciencias e ingeniería, explicado en inglés</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">En resumen</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 de 5 en 547 reseñas de Google
+        </p>
+        <dl>
+          <dt>Idioma de las clases</dt><dd>Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante</dd>
+          <dt>Para quién</dt><dd>Universitarios de ingeniería y ciencias, y 5° de secundaria</dd>
+          <dt>Temas</dt><dd>Fundamentos, métodos numéricos, datos y automatización</dd>
+          <dt>Idioma</dt><dd>Inglés, con un mentor que ajusta el ritmo</dd>
+          <dt>Formato</dt><dd>Grupo de quince a veinte, o individual</dd>
+          <dt>Horario</dt><dd>Cualquier día y a cualquier hora</dd>
+          <dt>Vínculos</dt><dd>Ninguno con la UNI ni con otra universidad</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">La respuesta corta</p>
+      <p>Modern Age Coders enseña Python a estudiantes de ingeniería y ciencias de todo el Perú, en vivo, en línea y en inglés: los fundamentos que pide el curso de Programación I del primer ciclo, y luego el uso de Python en métodos numéricos, análisis de datos y automatización. Un mentor desde la India trabaja con usted por videollamada, con su código en pantalla. No tenemos relación con la UNI ni con ninguna universidad: acompañamos sus cursos, no los reemplazamos. Puede elegir clase grupal o individual, cualquier día y a cualquier hora, y la primera clase es gratis.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cursos recomendados</p>
+      <h2>Tres cursos de Python para un estudiante de ingeniería</h2>
+      <p class="ag-lede">Uno para dominar el lenguaje, uno para la matemática que hay detrás de los datos y uno para aplicar las dos cosas a problemas reales.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Imagen del curso de Python de cero a avanzado para universitarios" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PEI / 01</p>
+          <h3>Python de cero a avanzado</h3>
+          <p>Para mayores de 18. Python a profundidad, pruebas, Git y APIs, en nueve a once meses. Sirve tanto para quien llega a Programación I sin experiencia como para quien aprobó el curso pero no se siente seguro.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-analytics-mathematics-masterclass">
+        <div class="ag-pick-shot"><img src="/images/data-analytics-maths.webp" alt="Imagen del curso de matemática para ciencia de datos" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PEI / 02</p>
+          <h3>Matemática para ciencia de datos</h3>
+          <p>Para universitarios y profesionales. Estadística, álgebra lineal y la matemática del machine learning, programadas en Python en lugar de solo escritas en la pizarra.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-science-complete-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/data-science-college.webp" alt="Imagen del curso de ciencia de datos para universitarios" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PEI / 03</p>
+          <h3>Ciencia de datos</h3>
+          <p>Desde los 18 años, de diez a doce meses. Del archivo de datos crudo al modelo, con Python, machine learning y aprendizaje profundo.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="malla">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">La malla curricular</p><h2>¿En qué ciclo se lleva programación en ingeniería?</h2><p class="ag-lede">En el primero. En las mallas que publica la Universidad de Ingeniería y Tecnología (UTEC), todas las carreras de ingeniería abren con Programación I en el ciclo 1, y cuatro de ellas vuelven a la programación en el ciclo 5 con Métodos Numéricos.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cursos de programación en las mallas de ingeniería de la UTEC</caption><thead><tr><th scope="col">Carrera</th><th scope="col">Ciclo 1</th><th scope="col">Ciclo 2</th><th scope="col">Ciclo 5</th></tr></thead><tbody><tr><td>Ingeniería Civil</td><td>Programación I (4 créditos)</td><td>Programación Orientada a Objetos (4)</td><td>Métodos Numéricos (3)</td></tr><tr><td>Ingeniería Industrial</td><td>Programación I (4 créditos)</td><td>Programación Orientada a Objetos (4)</td><td>No figura</td></tr><tr><td>Ingeniería Mecánica</td><td>Programación I (4 créditos)</td><td>Programación II (4)</td><td>Métodos Numéricos (3)</td></tr><tr><td>Ingeniería Química</td><td>Programación I (4 créditos)</td><td>Programación II (4)</td><td>Métodos Numéricos (3)</td></tr><tr><td>Ingeniería de la Energía</td><td>Programación I (4 créditos)</td><td>Programación II (4)</td><td>Métodos Numéricos (3)</td></tr><tr><td>Ingeniería Electrónica</td><td>Programación I (4 créditos)</td><td>Programación II (4)</td><td>No figura</td></tr><tr><td>Ingeniería Mecatrónica</td><td>Programación I (4 créditos)</td><td>Programación II (4)</td><td>No figura</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: páginas de cada carrera en utec.edu.pe/carreras, leídas el 9 de noviembre de 2026. Cada página indica una duración de 10 semestres (200 créditos) y modalidad presencial. "No figura" significa que la malla publicada no tiene un curso de Métodos Numéricos en el ciclo 5. Las páginas no dicen en qué lenguaje se dicta cada curso. Usamos la UTEC porque publica sus mallas completas en texto; las de otras universidades que intentamos leer no estaban disponibles en ese formato.</p>
+    <p class="ag-mt-40">La tabla dice algo que cualquier cachimbo descubre en la primera semana: la programación llega antes que casi todo lo demás. Programación I comparte el ciclo 1 con Fundamentos del Cálculo, y los cuatro créditos que vale pesan igual que los de un curso de química. Quien llega sin haber escrito nunca un programa tiene que aprender a la vez la lógica, el lenguaje y la forma de trabajar, mientras se adapta a la universidad.</p>
+    <p>En el ciclo 5 la programación vuelve con otra cara. Métodos Numéricos tiene como prerrequisitos Ecuaciones Diferenciales y Álgebra Lineal en las mallas de Mecánica y Civil: ya no se trata de aprender a programar, sino de usar el programa para resolver lo que a mano no se puede, como una integral sin fórmula cerrada o un sistema de ecuaciones grande. Mecánica suma en el mismo ciclo un curso de introducción a machine learning. Llegar a ese punto con Python bien aprendido cambia mucho la experiencia.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="uni">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Python y la UNI</p><h2>¿Qué significa "curso de Python UNI"?</h2><p class="ag-lede">Quien busca "curso de Python UNI" casi siempre se refiere a la Universidad Nacional de Ingeniería, en Lima, o a los cursos que se dictan en ella. Nosotros no somos la UNI ni tenemos ningún convenio con ella; lo que ofrecemos es otra cosa: clases en vivo, en inglés, que sirven a estudiantes de cualquier universidad.</p></div>
+    <p>La UNI aparece en otro programa de Python que conviene conocer. La Fábrica de Programadores del MINEDU, presentada por el MINEDU el 24 de julio de 2025 y dirigida en su primera etapa a mil estudiantes de los dos últimos grados de secundaria de Lima Norte, contempla una etapa presencial de iniciación dictada en la propia UNI, seguida de otra virtual a cargo de la UPN; al terminar ambas, los escolares pueden presentarse al examen PCEP. Es un programa del Estado con su propia selección; no participamos en él.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Examen de Admisión Ordinario UNI 2026-2, según la página de admisión de la UNI</caption><thead><tr><th scope="col">Prueba</th><th scope="col">Día de 2026</th><th scope="col">Contenido</th></tr></thead><tbody><tr><td>Primera prueba</td><td>Lunes 10 de agosto</td><td>Aptitud Académica y Humanidades</td></tr><tr><td>Segunda prueba</td><td>Miércoles 12 de agosto</td><td>Matemática</td></tr><tr><td>Tercera prueba</td><td>Viernes 14 de agosto</td><td>Física y Química</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: Universidad Nacional de Ingeniería, página de Admisión 2026-2 (admision.uni.edu.pe), leída el 9 de noviembre de 2026: "El examen es de manera presencial y consiste en tres pruebas tomadas en tres días (lunes, miércoles y viernes)". Según sus preguntas frecuentes, el requisito principal para postular es haber terminado la secundaria. La UNI tiene además una modalidad de Ingreso Directo a través de su centro preuniversitario, el CEPRE-UNI. Para fechas de próximos procesos, consulte siempre la página oficial de la UNI.</p>
+    <p class="ag-mt-40">Ninguna de las tres pruebas es de programación, y todas se rinden en castellano. Si usted está en 5° de secundaria y apunta a una ingeniería, nuestro aporte no es prepararlo para ese examen: eso lo hacen la academia o el centro preuniversitario, y la decisión de admisión es solo de la universidad. Lo que sí podemos darle es razonamiento matemático practicado en inglés y una base de Python que le quitará presión el primer ciclo. No prometemos ingresos ni puntajes.</p>
+    <p>Para ponerlo en escala: según una nota de la SUNEDU del 15 de septiembre de 2021, el país contaba entonces con 94 universidades licenciadas, 46 públicas y 48 privadas, con 1 millón 100 mil estudiantes. Es la cifra oficial más reciente que encontramos publicada; la citamos con su año. Atendemos a estudiantes de cualquiera de ellas, de Lima o de regiones, porque las clases son por internet.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="trapecio">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Una lección de métodos numéricos</p><h2>¿Cómo se usa Python en métodos numéricos?</h2><p class="ag-lede">Como una calculadora que usted mismo programa y en la que puede confiar porque sabe cómo funciona. Esta lección es nuestra: aproximamos el área bajo una curva con la regla del trapecio y medimos cómo baja el error cuando usamos más trapecios.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Regla del trapecio en Python</b><span>Python</span></figcaption><pre>def f(x):
+    return x * x
+
+def trapecio(f, a, b, n):
+    h = (b - a) / n
+    total = (f(a) + f(b)) / 2
+    for i in range(1, n):
+        total = total + f(a + i * h)
+    return total * h
+
+exacto = 9.0
+anterior = None
+for n in [1, 2, 4, 8, 16]:
+    aprox = trapecio(f, 0, 3, n)
+    error = aprox - exacto
+    if anterior is None:
+        print(f'n={n:2d}  area={aprox:.6f}  error={error:.6f}')
+    else:
+        print(f'n={n:2d}  area={aprox:.6f}  error={error:.6f}  ratio={anterior / error:.2f}')
+    anterior = error</pre><p class="ag-code-note">El mentor pregunta antes de ejecutar: "If we double n, how much smaller will the error be?" La mayoría responde "half". Lo comprobamos.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Lo que imprime</b><span>Salida</span></figcaption><pre>n= 1  area=13.500000  error=4.500000
+n= 2  area=10.125000  error=1.125000  ratio=4.00
+n= 4  area=9.281250  error=0.281250  ratio=4.00
+n= 8  area=9.070312  error=0.070312  ratio=4.00
+n=16  area=9.017578  error=0.017578  ratio=4.00</pre><p class="ag-code-note">Esto mostró la terminal al ejecutarlo nosotros con Python 3.14.8. El área exacta de x al cuadrado entre 0 y 3 es 9.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><strong>Una función como argumento.</strong> <code>trapecio</code> recibe la función <code>f</code> igual que recibe un número. Cambiando una línea, la misma herramienta integra cualquier otra función: es la idea que hace reutilizable a un programa.</li><li><strong>Los extremos valen la mitad.</strong> <code>(f(a) + f(b)) / 2</code> refleja la fórmula: los puntos interiores se cuentan completos y los dos extremos a medias. El bucle <code>range(1, n)</code> recorre solo los interiores; con <code>range(0, n)</code> el resultado sale mal, y es un error típico del primer intento.</li><li><strong>El error no se divide entre dos.</strong> La columna <code>ratio</code> muestra 4.00 en todas las filas: cada vez que duplicamos los trapecios, el error baja cuatro veces. Eso es lo que significa que la regla del trapecio sea un método de segundo orden, y se ve en pantalla en lugar de memorizarse.</li><li><strong>Comprobar con otra función.</strong> Cambiamos <code>x * x</code> por <code>x ** 3</code>, el intervalo por 0 a 2 y el valor exacto por 4. Con <code>n=16</code> el programa imprime <code>area=4.015625</code> y <code>ratio=4.00</code> otra vez: la regla se mantiene.</li><li><strong>Su turno.</strong> Escriba la regla de Simpson junto a esta y compare la columna <code>ratio</code>. Antes de ejecutar, escriba su predicción. El mentor no le dará el número; le preguntará por qué cree que cambiará.</li></ol>
+    <p class="ag-mt-40">Así enseñamos todo: el estudiante predice, ejecuta, compara y explica. Una herramienta de IA puede escribir la función <code>trapecio</code> en segundos, pero no le dirá por qué el error se divide entre cuatro ni le avisará si usó mal los extremos. En un examen de métodos numéricos, y en un cálculo de ingeniería real, lo que se evalúa es justamente ese criterio.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ingles">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Inglés técnico</p><h2>¿Por qué aprender Python en inglés si estudio ingeniería en Perú?</h2><p class="ag-lede">Porque la bibliografía técnica, la documentación de las bibliotecas de Python y la mayor parte de las respuestas a los errores están en inglés. Y porque la edad universitaria es justo cuando más cuesta ese idioma, según el EF EPI 2025.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Inglés en Perú por edad y ocupación, EF EPI 2025</caption><thead><tr><th scope="col">Grupo</th><th scope="col">Puntaje</th><th scope="col">Nivel según EF</th></tr></thead><tbody><tr><td>De 18 a 20 años</td><td class="ag-num">469</td><td>Bajo</td></tr><tr><td>De 21 a 25 años</td><td class="ag-num">540</td><td>Moderado</td></tr><tr><td>De 26 a 30 años</td><td class="ag-num">559</td><td>Alto</td></tr><tr><td>Estudiantes</td><td class="ag-num">482</td><td>Bajo el 519 del Perú</td></tr><tr><td>Tecnologías de la información</td><td class="ag-num">522</td><td>Cerca del promedio del país (519)</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: EF EPI 2025, ficha de país de Perú publicada por EF Education First, revisada en noviembre de 2026. EF considera nivel alto desde 550 puntos y moderado desde 500. Los datos provienen de personas mayores de 18 años que rindieron el examen de EF, no de una muestra de toda la población.</p>
+    <p class="ag-mt-40">Entre los 18 y los 20 años, la edad de los primeros ciclos, el grupo peruano del EF EPI 2025 está en nivel bajo, con 469 puntos; a los 26 a 30 años, cuando muchos ya trabajan, sube a 559. El salto ocurre, en buena parte, por necesidad. Aprender Python en inglés durante la carrera adelanta ese salto: usted lee la documentación de NumPy o de SciPy sin traductor, entiende el mensaje de error y puede explicar su código en una entrevista con una empresa internacional.</p>
+    <p>No le pedimos un inglés perfecto para empezar. El mentor escribe en pantalla los términos técnicos, repite con otras palabras y le pide que explique su código en voz alta, en frases sencillas. Lo que se practica cada semana es exactamente el inglés que usará después. Para ver cómo trabajamos con escolares de colegios bilingües, revise nuestra guía sobre <a class="ag-inline-link" href="/english-medium-coding-classes-lima">programación en inglés para familias de Lima</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="certificacion">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Certificación</p><h2>¿Le sirve a un estudiante de ingeniería una certificación de Python?</h2><p class="ag-lede">Puede servir como prueba ordenada de sus conocimientos, pero no reemplaza un proyecto. Para un estudiante de ingeniería, el PCEP y el PCAP del Python Institute son útiles si quiere un respaldo externo de lo que sabe.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Lo que dice el Python Institute</h3><p>El PCEP-30-03, nivel inicial, tiene 35 preguntas en 50 minutos y pide 70% para aprobar. El PCAP-31-04, nivel asociado, tiene 42 preguntas en 65 minutos y pide 72%. Ambas credenciales tienen una validez de 5 años, según las páginas del Python Institute leídas en noviembre de 2026.</p>
+<p>El PCAP incluye programación orientada a objetos, el tema del curso de Programación Orientada a Objetos que aparece en el ciclo 2 de Civil e Industrial en la UTEC.</p></div><div><h3>Lo que hacemos y lo que no</h3><p>Preparamos los dos exámenes en nuestro curso de PCEP y PCAP. No los otorgamos, no vendemos vouchers y no garantizamos el resultado: el examen se compra y se rinde directamente con el Python Institute.</p>
+<p>Al aprobar nuestros cursos usted recibe nuestro certificado de finalización, que no tiene carácter oficial ni validez ante la universidad o la SUNEDU. Su valor está en los proyectos que lo acompañan.</p></div></div>
+    <p class="ag-mt-40">Nuestra sugerencia a un estudiante de ingeniería: primero un repositorio con dos o tres proyectos que conecten Python con su especialidad (un análisis de datos de laboratorio, una simulación, una herramienta de cálculo), y después, si quiere, la certificación. El orden inverso suele dar un certificado sin nada que mostrar detrás. Las versiones de Python cambian poco a poco: la 3.14 se publicó el 7 de octubre de 2025 según el calendario oficial PEP 745, y es la que usamos en clase.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="reloj">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Horarios</p><h2>¿Cómo encaja una clase en vivo con el horario de la universidad?</h2><p class="ag-lede">Usted elige el día y la hora, y puede cambiarlos cuando cambie su horario de ciclo. Estas filas convierten horas típicas de un universitario en Perú a la hora de la India; no son un horario de clases.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>De la hora peruana a la hora de la India: ejemplos para un día de universidad</caption><thead><tr><th scope="col">En Lima</th><th scope="col">En la India</th><th scope="col">Allá es</th></tr></thead><tbody><tr><td>6:30 a. m.</td><td>5:00 p. m.</td><td>El mismo día</td></tr><tr><td>7:00 a. m.</td><td>5:30 p. m.</td><td>El mismo día</td></tr><tr><td>12:30 p. m.</td><td>11:00 p. m.</td><td>El mismo día</td></tr><tr><td>5:00 p. m.</td><td>3:30 a. m.</td><td>El día siguiente</td></tr><tr><td>9:00 p. m.</td><td>7:30 a. m.</td><td>El día siguiente</td></tr><tr><td>11:00 p. m.</td><td>9:30 a. m.</td><td>El día siguiente</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Cálculo propio a partir de tzdata: America/Lima es UTC-5 durante todo el año, sin horario de verano, en línea con la hora oficial del INACAL; Asia/Kolkata es UTC+5:30. La diferencia de 10 horas y 30 minutos es constante.</p>
+    <p class="ag-mt-40">Los universitarios suelen elegir la primera hora de la mañana, antes de las clases presenciales, o la noche, después de los laboratorios. Las semanas de parciales y finales se pueden mover sin perder el curso, porque el horario lo fija usted con su mentor. Según el INEI, en el segundo trimestre de 2026 el 97,3% de la población de 19 a 24 años usó internet, así que la conexión rara vez es el problema; lo es el tiempo, y por eso la flexibilidad importa. Si prefiere aprovechar el verano para adelantar, vea el plan de <a class="ag-inline-link" href="/vacaciones-utiles-2027-programacion-online">vacaciones útiles 2027 de programación online</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Avance</p>
+      <h2>¿Cómo medir el avance en Python durante la carrera?</h2>
+      <p class="ag-lede">Cinco niveles nuestros, pensados para un estudiante de ingeniería. No son créditos ni notas; son la forma en que su mentor le dice dónde está.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cinco niveles de Python para ingeniería (nuestros)</caption><thead><tr><th scope="col">Nivel</th><th scope="col">Corresponde a</th><th scope="col">Usted puede</th></tr></thead><tbody><tr><td>1. Programar sin miedo</td><td class="ag-num">Antes o durante Programación I</td><td class="ag-num">escribir y depurar programas cortos con condicionales, bucles y funciones</td></tr><tr><td>2. Organizar datos</td><td class="ag-num">Programación II u Orientada a Objetos</td><td class="ag-num">usar listas, diccionarios y clases propias, y leer datos de un archivo</td></tr><tr><td>3. Calcular</td><td class="ag-num">Métodos Numéricos</td><td class="ag-num">implementar un método como el trapecio y medir su error</td></tr><tr><td>4. Analizar</td><td class="ag-num">Laboratorios y proyectos</td><td class="ag-num">limpiar datos reales, graficarlos y sacar conclusiones defendibles</td></tr><tr><td>5. Construir</td><td class="ag-num">Prácticas y tesis</td><td class="ag-num">escribir una herramienta que otra persona pueda usar y entender</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Durante el ciclo</h3><p>Use Python en los cursos que no son de programación: verifique sus resultados de física o de estadística con un programa corto. Así practica sin sumar horas a la semana.</p>
+<p>Guarde cada programa útil en un repositorio con un nombre que diga qué hace. En dos años será su portafolio.</p></div><div><h3>Antes de un examen</h3><p>Escriba el método a mano en papel antes de programarlo. Si no puede escribir los pasos, el código tampoco saldrá.</p>
+<p>Pruebe su programa con un caso cuyo resultado conoce, como el área de x al cuadrado entre 0 y 3, antes de confiar en él.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más cursos</p>
+      <h2>Nueve cursos más para un futuro ingeniero</h2>
+      <p class="ag-lede">Para ampliar lo que da la malla, según su especialidad y sus planes. Todos en vivo y en inglés, desde los 18 años.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Bases de computación</h3>
+        <span class="ag-band-sub">Algoritmos y sistemas</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PEI / BASES / 01</p>
+          <h4>Estructuras de datos y algoritmos</h4>
+          <p>Lo que piden las entrevistas técnicas y los cursos de algoritmos de la carrera.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PEI / BASES / 02</p>
+          <h4>C++ de fundamentos a moderno</h4>
+          <p>El lenguaje de los sistemas embebidos y de la programación competitiva.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-complete-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PEI / BASES / 03</p>
+          <h4>Bases de datos con MySQL</h4>
+          <p>SQL y diseño de bases de datos para guardar lo que sus programas calculan.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Datos e IA</h3>
+        <span class="ag-band-sub">Para todas las especialidades</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PEI / DATOS / 01</p>
+          <h4>IA y machine learning</h4>
+          <p>De la matemática de los modelos al aprendizaje profundo y la IA generativa.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PEI / DATOS / 02</p>
+          <h4>Análisis de datos</h4>
+          <p>Hojas de cálculo, consultas SQL y gráficos en Python para informes de laboratorio.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PEI / DATOS / 03</p>
+          <h4>Automatización con Python</h4>
+          <p>Scripts que ahorran horas de trabajo repetitivo en cualquier ingeniería.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Mostrar lo que sabe</h3>
+        <span class="ag-band-sub">Certificación y proyectos</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PEI / MOSTRAR / 01</p>
+          <h4>PCEP y PCAP</h4>
+          <p>Los dos exámenes de Python más pedidos, PCEP primero y PCAP después.</p>
+          <a class="ag-course-link" href="/courses/pcep-pcap-python-certification-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PEI / MOSTRAR / 02</p>
+          <h4>Solo PCAP</h4>
+          <p>Para quien ya domina lo básico y quiere el nivel asociado.</p>
+          <a class="ag-course-link" href="/courses/pcap-python-certification-prep-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PEI / MOSTRAR / 03</p>
+          <h4>Desarrollo web completo</h4>
+          <p>Para publicar sus herramientas en una web que cualquiera pueda usar.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cómo funciona</p>
+      <h2>¿Cómo trabajamos con un estudiante de ingeniería?</h2>
+      <p class="ag-lede">Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Muy temprano</p><p class="ag-slot-l">Antes de la primera clase presencial del día.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">De noche</p><p class="ag-slot-l">Después de laboratorios y prácticas.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Individual</p><p class="ag-slot-l">Ajustada a su ciclo y a sus semanas de exámenes.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Su código, en pantalla</h3><p>Trabajamos sobre lo que usted escribe, no sobre diapositivas.</p></div>
+      <div><h3>Inglés técnico</h3><p>Términos escritos, frases cortas y tiempo para preguntar.</p></div>
+      <div><h3>Problemas propios</h3><p>Ejercicios escritos por nosotros, nunca las tareas de su universidad.</p></div>
+      <div><h3>Predecir primero</h3><p>Antes de ejecutar, usted dice qué saldrá y por qué.</p></div>
+      <div><h3>Mentor estable</h3><p>La misma persona sigue su avance de ciclo en ciclo.</p></div>
+      <div><h3>Grupo o individual</h3><p>Un grupo de quince a veinte con su mismo nivel, o clases solo para usted.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Proyectos de nuestros estudiantes</p>
+      <h2>Proyectos de nuestros estudiantes</h2>
+      <p class="ag-lede">Algunos trabajos de estudiantes mayores, con Python y otros lenguajes. Hay más en <a class="ag-inline-link" href="/student-labs">Student labs</a> (en inglés).</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Captura del proyecto NutriLife, un coach de nutrición con IA" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>NutriLife</h4>
+          <p>Un coach de nutrición con IA que analiza las comidas y avanza paso a paso hacia una meta.</p>
+          <p class="ag-proj-meta">de Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Captura de Misti, un chatbot con IA para matemáticas y programación" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>Misti</h4>
+          <p>Un chatbot que responde preguntas de matemáticas y programación, creado y publicado por un estudiante.</p>
+          <p class="ag-proj-meta">de Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Captura de GuardianX, un asistente con IA para la seguridad en internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>GuardianX</h4>
+          <p>Un asistente que ayuda a los jóvenes a reconocer situaciones de riesgo en internet.</p>
+          <p class="ag-proj-meta">de Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Captura de la aplicación del clima SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Aplicación web</p>
+          <h4>SkyCast</h4>
+          <p>Un sitio de pronóstico del clima con condiciones en vivo para cualquier lugar.</p>
+          <p class="ag-proj-meta">de Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Precios</p>
+      <h2>Precio del curso de Python para estudiantes de ingeniería</h2>
+      <p class="ag-lede">La cuota mensual aparece en dólares estadounidenses y se paga con tarjeta. Su banco la convierte a su moneda al tipo de cambio del día, de modo que el cargo puede diferir un poco del monto mostrado.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Primera clase gratis</p>
+        <p class="ag-price-amt">Gratis</p>
+        <p class="ag-price-alt">sin tarjeta</p>
+        <ul><li>Una clase de prueba sin pago</li><li>Un diagnóstico de su nivel en Python</li><li>Sin tarjeta y sin compromiso</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Reservar</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Clase grupal</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Quince a veinte estudiantes de nivel parecido</li><li>Un mentor fijo</li><li>Dos clases en vivo por semana</li><li>Pago mensual, sin contrato</li></ul>
+        <a href="#start" class="ag-btn">Empezar aquí</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Clases individuales</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Solo usted y el mentor</li><li>Temas al ritmo de su ciclo</li><li>Horario que usted define</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Consultar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lo que dicen las familias</p>
+      <h2>4.9 de 5 en 547 reseñas de Google</h2>
+      <p class="ag-lede">Reseñas que estudiantes y familias dejaron en Google, en inglés y sin editar.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preguntas frecuentes</p>
+      <h2>Python para estudiantes de ingeniería: preguntas frecuentes</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>¿Las clases son en español?</h3>
+        <p>No: todo el curso va en inglés, en vivo y por internet, y para un estudiante de ingeniería eso es parte del valor: aprende Python y el inglés técnico con el que trabajará. El mentor habla claro y repite cuando hace falta. Lima figura con inglés de nivel alto en el EF EPI 2025, y la conversación en clase es lo que más ayuda a hablarlo.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Ustedes dictan el curso de Python de la UNI?</h3>
+        <p>No. No somos la Universidad Nacional de Ingeniería ni tenemos convenio con ella o con otra universidad. Somos una escuela en línea que enseña Python en vivo y en inglés a estudiantes de cualquier universidad del Perú.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿En qué ciclo se lleva programación en ingeniería?</h3>
+        <p>Normalmente en el primero. En las mallas publicadas por la UTEC, todas sus ingenierías tienen Programación I en el ciclo 1, con 4 créditos, y Civil, Mecánica, Química y Energía tienen Métodos Numéricos en el ciclo 5.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Me ayudan con las tareas de mi universidad?</h3>
+        <p>No resolvemos tareas ni evaluaciones de la universidad. Enseñamos los mismos temas con problemas escritos por nosotros, para que usted pueda resolver los suyos solo y explicarlos.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Python o MATLAB para métodos numéricos?</h3>
+        <p>Use el que pida su curso. Python es gratuito y lo puede instalar en cualquier computadora, y sus bibliotecas científicas cubren lo que se ve en métodos numéricos. Lo que aprenda de un método en Python se traslada a cualquier otra herramienta.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿El examen de admisión de la UNI incluye programación?</h3>
+        <p>No. Según la página de admisión de la UNI, el examen ordinario son tres pruebas presenciales: Aptitud Académica y Humanidades, Matemática, y Física y Química. Se rinden en castellano. No preparamos ese examen ni prometemos ingresos.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Necesito saber programar para empezar?</h3>
+        <p>No. El curso de Python de cero a avanzado empieza desde la primera variable. Si ya aprobó Programación I, el mentor lo ubica en el punto que le corresponda.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿El curso tiene certificado?</h3>
+        <p>Sí, nuestro certificado de finalización al aprobar el examen final, sin carácter oficial. Si busca un respaldo externo, lo preparamos para el PCEP y el PCAP; la inscripción y el examen se hacen con el Python Institute.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Puedo cambiar el horario cuando empiece otro ciclo?</h3>
+        <p>Sí. Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, una clase a las 7:00 a. m. en Lima es a las 5:30 p. m. para su mentor en la India.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿En qué moneda se paga?</h3>
+        <p>En dólares de Estados Unidos, con tarjeta; el banco hace la conversión. La clase de prueba es gratis y no requiere tarjeta.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más páginas</p>
+      <h2>Lecturas útiles para estudiantes de ingeniería</h2>
+      <p class="ag-lede">Páginas de nuestro sitio, en inglés salvo la primera, que complementan esta guía.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>Nuestra oferta completa para estudiantes en Perú, por edad y tema.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-data-science">Python for data science</a></h3><p>Lo que hay que dominar de Python antes de trabajar con datos.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-machine-learning">Python for machine learning</a></h3><p>El camino de Python a los primeros modelos de aprendizaje automático.</p></div>
+      <div><h3><a class="ag-inline-link" href="/data-structures-and-algorithms-course">Data structures and algorithms course</a></h3><p>Algoritmos y estructuras de datos para la carrera y las entrevistas.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-certification-pcep-pcap-course">PCEP and PCAP course</a></h3><p>Detalles de la preparación para las certificaciones del Python Institute.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Qué hace el mentor en cada tramo de la sesión.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Empiece aquí</p>
+        <h2>Reserve una clase de Python gratis</h2>
+        <p class="ag-lede">En la clase de prueba el mentor le pregunta en qué ciclo está, qué cursos lleva y dónde se traba; luego le propone un problema numérico corto para ver cómo lo encara. Al final le sugiere un curso y un ritmo, y usted decide si sigue.</p>
+        <p class="ag-mt-40">Antes de reservar puede mirar <a class="ag-inline-link" href="/python-for-data-science">Python for data science</a> o <a class="ag-inline-link" href="/how-we-teach">How we teach</a>, ambas en inglés.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20estudio%20ingenier%C3%ADa%20en%20Per%C3%BA%20y%20quiero%20reforzar%20Python%20en%20ingl%C3%A9s.%20%C2%BFPuedo%20reservar%20una%20clase%20gratis%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pei',pos:'end'});">Escríbanos por WhatsApp</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Clases en vivo y en línea con mentores en la India, dictadas solo en inglés. Si nos escribe por WhatsApp, puede hacerlo en castellano.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_pei(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Su nombre</label>
+            <input id="pe-name" type="text" name="name" placeholder="Nombre del padre, madre o estudiante" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Teléfono o WhatsApp, Perú +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Grupo de edad</label>
+            <select id="pe-age" name="age"><option value="6-12">Niño o niña, 6 a 12</option><option value="13-18">Adolescente, 13 a 18</option><option value="college">Universitario</option><option value="adult">Profesional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Solicitar la clase gratis</button>
+          <p class="ag-form-note">Sin costo, sin tarjeta y sin compromiso.</p>
+        </form>
+        <div class="ag-pd-card"><h3>¿Quiere una clase antes? Reserve una demo prioritaria</h3><p>Una demo prioritaria es una clase completa de unos 45 a 60 minutos. Después, el mentor envía por WhatsApp un informe escrito de habilidades y un plan de aprendizaje personal. Si se inscribe, el pago de la demo se descuenta de la primera mensualidad: envíenos por WhatsApp el número de pedido de la demo.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Reservar una demo prioritaria</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Clases en vivo y en línea de programación, IA y matemáticas para personas de 6 a 67 años, siempre en inglés. Enseñamos desde 2020, a más de
+          10,000 estudiantes en 25 países.
+        </p>
+      </div>
+      <div><h4>Python y ciencias</h4><ul><li><a href="/courses/python-programming-masterclass-zero-to-advanced-college">Python de cero a avanzado</a></li><li><a href="/courses/data-analytics-mathematics-masterclass">Matemática para datos</a></li><li><a href="/courses/data-science-complete-masterclass-college">Ciencia de datos</a></li><li><a href="/courses">Todos los cursos</a></li></ul></div>
+      <div><h4>Para leer</h4><ul><li><a href="/python-for-machine-learning">Python y machine learning</a></li><li><a href="/data-structures-and-algorithms-course">Algoritmos</a></li><li><a href="/how-we-teach">Cómo enseñamos</a></li><li><a href="/student-labs">Proyectos</a></li></ul></div>
+      <div>
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="/about">Quiénes somos</a></li>
+          <li><a href="/how-we-teach">Cómo enseñamos</a></li>
+          <li><a href="/love">Reseñas</a></li>
+          <li><a href="/contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Clases en vivo y en línea, en inglés, para todo el mundo.</span>
+      <span>Duplique n y el error cae a la cuarta parte</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Clase gratis</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Demo prioritaria</a><a href="tel:+919123366161" aria-label="Llamar al +91 91233 66161">Llamar</a></div>
+
+<script>
+window.submitLead_pei = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Enviando...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'python-para-estudiantes-de-ingenieria-peru-inline', meta: { name: name, age: age, page: 'python-para-estudiantes-de-ingenieria-peru' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Muchas gracias' + (name ? ', ' + name.split(' ')[0] : '') + '. Un mentor le llamará en breve.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Algo salió mal. Por favor, inténtelo de nuevo.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Error de conexión. Por favor, inténtelo de nuevo.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
