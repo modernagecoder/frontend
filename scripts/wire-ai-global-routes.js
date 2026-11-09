@@ -1011,6 +1011,7 @@ const SLUGS = [
   'ai-and-coding-for-professionals-peru',
   'coding-for-adults-over-50-peru',
   'clases-de-programacion-en-ingles-peru',
+  'olimpiada-de-matematica-onem-preparacion',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2101,6 +2102,7 @@ const LLMS_LABELS = {
   'ai-and-coding-for-professionals-peru': 'AI and coding for professionals in Peru',
   'coding-for-adults-over-50-peru': 'Coding for adults over 50 in Peru',
   'clases-de-programacion-en-ingles-peru': 'Clases de programación en inglés en Perú',
+  'olimpiada-de-matematica-onem-preparacion': 'Preparación para la Olimpiada Nacional Escolar de Matemática (ONEM)',
 };
 
 function wireLlms(slugs) {

@@ -1044,6 +1044,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - AI and coding for professionals in Peru: https://learn.modernagecoders.com/ai-and-coding-for-professionals-peru
 - Coding for adults over 50 in Peru: https://learn.modernagecoders.com/coding-for-adults-over-50-peru
 - Clases de programación en inglés en Perú: https://learn.modernagecoders.com/clases-de-programacion-en-ingles-peru
+- Preparación para la Olimpiada Nacional Escolar de Matemática (ONEM): https://learn.modernagecoders.com/olimpiada-de-matematica-onem-preparacion
 ## Germany (live online classes in English, mentors matched to the learner's pace and accent)
 
 Hub: https://learn.modernagecoders.com/coding-classes-in-germany. Every class is live and taught in English only; German-language pages explain the same English-taught classes. Fees show in euro on the page and checkout charges USD.

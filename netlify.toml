@@ -33267,6 +33267,18 @@
   to = "/src/pages/clases-de-programacion-en-ingles-peru.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/olimpiada-de-matematica-onem-preparacion"
+  to = "/src/pages/olimpiada-de-matematica-onem-preparacion.html"
+  status = 200
+
+[[redirects]]
+  from = "/olimpiada-de-matematica-onem-preparacion.md"
+  to = "/src/pages/olimpiada-de-matematica-onem-preparacion.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
