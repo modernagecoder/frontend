@@ -961,6 +961,7 @@ const SLUGS = [
   'vacaciones-utiles-de-programacion-lince-lima',
   'curso-de-inteligencia-artificial-para-ninos-peru',
   'curso-de-inteligencia-artificial-en-ingles-peru',
+  'curso-de-ia-para-adolescentes-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2001,6 +2002,7 @@ const LLMS_LABELS = {
   'vacaciones-utiles-de-programacion-lince-lima': 'Vacaciones útiles de programación en Lince',
   'curso-de-inteligencia-artificial-para-ninos-peru': 'Curso de inteligencia artificial para niños',
   'curso-de-inteligencia-artificial-en-ingles-peru': 'Curso de inteligencia artificial en inglés',
+  'curso-de-ia-para-adolescentes-peru': 'Curso de IA para adolescentes',
 };
 
 function wireLlms(slugs) {
