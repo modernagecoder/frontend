@@ -272,7 +272,7 @@ Each page below takes one age, subject, exam, region, city or Lima district and 
 
 **By age:** [Programación para niños en inglés](/clases-de-programacion-para-ninos-en-ingles)
 
-**School, exams and competitions:** [Vacaciones útiles 2027: programación online](/vacaciones-utiles-2027-programacion-online)
+**School, exams and competitions:** [Vacaciones útiles 2027: inteligencia artificial](/vacaciones-utiles-2027-inteligencia-artificial) · [Vacaciones útiles 2027: programación online](/vacaciones-utiles-2027-programacion-online)
 
 **Cities:** [Arequipa: coding for every age](/coding-classes-in-arequipa-peru)
 

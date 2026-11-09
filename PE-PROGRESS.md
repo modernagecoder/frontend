@@ -11,7 +11,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE038 | english-medium-coding-classes-lima (emc, #9E4C4E) | best-fit door (EN) | 5,257 | 0.9% vs coding-and-ai-classes-in-peru | EF EPI 2025 city scores, CNEB English periods, IB in Peru | order your checks and test the edges | 2c6a2c34 |
 | PE086 | clases-de-programacion-para-ninos-en-ingles (pni, #2E6720) | Spanish door (ES) | 5,354 | 0.3% vs coding-and-ai-classes-in-peru | CNEB primaria timetable, robotics or coding | a dictionary as a bilingual word list | 7909f434 |
 | PE045 | coding-classes-in-arequipa-peru (coar, #AD3A52) | city (EN) | 5,956 | 1.5% vs coding-classes-for-kids-berlin | INEI 2025, ONEM and OPI, tourist-site inventory | text that looks like a number is not a number yet | dd914e73 |
-| PE107 | vacaciones-utiles-2027-programacion-online (vup, #8E3A23) | market | 5,429 | 1.4% vs clases-de-programacion-para-ninos-en-ingles | Vacaciones útiles 2027 de programación online: un plan de verano propio | lists, sum and a text bar chart: a summer practice tracker | (this commit) |
+| PE107 | vacaciones-utiles-2027-programacion-online (vup, #8E3A23) | market | 5,429 | 1.4% vs clases-de-programacion-para-ninos-en-ingles | Vacaciones útiles 2027 de programación online: un plan de verano propio | lists, sum and a text bar chart: a summer practice tracker | d2893868 |
+| PE108 | vacaciones-utiles-2027-inteligencia-artificial (vui, #583400) | market | 5,119 | 1.8% vs clases-de-programacion-para-ninos-en-ingles | Vacaciones útiles 2027 de IA: entender la IA por edades, dentro de las reglas | nearest-neighbour classifier by hand: training data, distance, a wrong guess | (this commit) |
 
 ## Notes
 
