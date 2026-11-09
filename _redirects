@@ -10304,4 +10304,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /igcse-maths-tutor-peru /src/pages/igcse-maths-tutor-peru.html 200
 /igcse-maths-tutor-peru.md /src/pages/igcse-maths-tutor-peru.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/math-olympiad-coaching-peru /src/pages/math-olympiad-coaching-peru.html 200
+/math-olympiad-coaching-peru.md /src/pages/math-olympiad-coaching-peru.md 200
 /* /src/pages/404.html 404
