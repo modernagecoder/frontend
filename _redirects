@@ -10168,4 +10168,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /java-course-peru /src/pages/java-course-peru.html 200
 /java-course-peru.md /src/pages/java-course-peru.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/java-for-computer-science-students-peru /src/pages/java-for-computer-science-students-peru.html 200
+/java-for-computer-science-students-peru.md /src/pages/java-for-computer-science-students-peru.md 200
 /* /src/pages/404.html 404

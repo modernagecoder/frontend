@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Java for Computer Science Students in Peru, Live in English</title>
+  <meta name="description" content="Java for computer science and systems students in Peru, taught live online in English: what a CS degree expects, data structures, contests, and class hours.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/java-for-computer-science-students-peru">
+  <link rel="alternate" type="text/markdown" href="/src/pages/java-for-computer-science-students-peru.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#007047">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/java-for-computer-science-students-peru">
+  <meta property="og:title" content="Java for Computer Science Students in Peru, Live in English">
+  <meta property="og:description" content="Live Java classes in English for computer science students in Peru: what the ACM and IEEE CS2023 curriculum asks of every graduate, where Java sits in a Peruvian systems-engineering plan, ICPC-style contests, and a scoreboard lesson on stable sorting.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Java for Computer Science Students in Peru, Live in English">
+  <meta name="twitter:description" content="Java for university computer science students in Peru, taught live in English, around your timetable.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-jcs .ag-hero h1 { max-width: 22ch; letter-spacing: -0.012em; }
+.ag-root.ag-jcs .ag-capsule { border-left-width: 5px; border-radius: 0; }
+.ag-root.ag-jcs .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-jcs .ag-table caption { text-align: left; }
+.ag-root.ag-jcs .ag-code-note code { font-weight: 600; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/java-for-computer-science-students-peru#page","url":"https://learn.modernagecoders.com/java-for-computer-science-students-peru","name":"Java for Computer Science Students in Peru","description":"A guide for computer science, systems and software engineering students in Peru learning Java, built from the ACM/IEEE-CS/AAAI CS2023 curriculum report, the Universidad de Lima 2026 systems-engineering plan, the Java SE 21 API and the OPI 2025 rules, with an original lesson on comparators and stable sorting.","inLanguage":"en-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding and AI classes in Peru","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Java for CS students","item":"https://learn.modernagecoders.com/java-for-computer-science-students-peru"}]},{"@type":"Course","name":"Java for Computer Science Students in Peru","description":"Live online Java, data structures and competitive programming courses taught in English for university computer science and systems students in Peru, in a group of fifteen to twenty or one to one, at hours the student chooses.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/java-for-computer-science-students-peru"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/java-for-computer-science-students-peru"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/java-for-computer-science-students-peru"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in Spanish?","acceptedAnswer":{"@type":"Answer","text":"No. We teach only in English, live and online. Mentors speak at a measured pace, adapt to your accent, and type key terms in the chat. The Java documentation, contest problems and most computer science books are in English, so the class prepares you for all of them."}},{"@type":"Question","name":"Will this help with my university Java course?","acceptedAnswer":{"@type":"Answer","text":"It should, because we explain the ideas behind each topic and practise them with you. Your university sets the syllabus, assignments and marks, and we do not complete coursework for students or promise grades."}},{"@type":"Question","name":"Do I need to know Java already?","acceptedAnswer":{"@type":"Answer","text":"No. The Java course starts from zero for students of 18 and over. Students who already know the basics usually join the data structures course or move faster in one-to-one classes."}},{"@type":"Question","name":"What is CS2023 and why does it matter?","acceptedAnswer":{"@type":"Answer","text":"It is the computer science curriculum report of the ACM, the IEEE Computer Society and AAAI, endorsed in early 2024. It sets out a CS Core of about 270 hours that every graduate should cover. We use it to check that our courses build the skills a degree expects."}},{"@type":"Question","name":"Is Java good for competitive programming?","acceptedAnswer":{"@type":"Answer","text":"Yes, it is a capable contest language, with strong collections and comparators. C++ runs faster and is more common at the top level, so many students learn both. We teach both and practise with problems we write ourselves."}},{"@type":"Question","name":"When can I take classes in Peru time?","acceptedAnswer":{"@type":"Answer","text":"Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. Because India is ten and a half hours ahead, 09:00 in Peru is 19:30 in India."}},{"@type":"Question","name":"Are you linked to a Peruvian university?","acceptedAnswer":{"@type":"Answer","text":"No. We are an independent online school with mentors in India, not connected with any Peruvian university, SUNEDU or contest organiser. Finishing a course earns our own certificate of completion, never university credit."}},{"@type":"Question","name":"Can I use AI tools for my assignments?","acceptedAnswer":{"@type":"Answer","text":"Follow your university's rules first. Claude is for users aged 18 and over. In our classes, AI may be used to criticise a design, but a student must be able to explain every line of code they submit."}},{"@type":"Question","name":"What equipment do I need?","acceptedAnswer":{"@type":"Answer","text":"A laptop or desktop computer with a current JDK, a reliable connection and preferably a headset. The mentor helps with installation in the free class. Phones are not suitable for programming practice."}},{"@type":"Question","name":"How do payments work from Peru?","acceptedAnswer":{"@type":"Answer","text":"By card, monthly, in US dollars. Your bank decides the conversion into soles on each charge date, so small differences between months are normal. The free class needs no card at all."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/java-for-computer-science-students-peru","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-jcs">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Peru</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Peru</a></li>
+      <li><a href="#expects">CS2023</a></li>
+      <li><a href="#plan">Your plan</a></li>
+      <li><a href="#contests">Contests</a></li>
+      <li><a href="#lesson">Sorting lesson</a></li>
+      <li><a href="#times">Hours</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a> / Java for CS students
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Peru &middot; Java at university &middot; Computer science and systems</p>
+        <h1>Java for computer science students in Peru</h1>
+        <p class="ag-lede">For a computer science or systems student, Java is rarely the goal in itself. It is the language many courses use to teach objects, data structures, algorithms and software design, which are the real goals. This page is for university students in Peru who want those ideas taught slowly and properly, in English: what the international CS curriculum expects of every graduate, where Java fits in a Peruvian plan of studies, how contest programming works, and a sorting lesson that looks trivial until you meet a tie.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#lesson" class="ag-btn ag-btn--ghost">See the sorting lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20study%20computer%20science%20in%20Peru%20and%20would%20like%20live%20Java%20and%20data%20structures%20classes%20in%20English.%20May%20I%20book%20a%20free%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jcs'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students worldwide &middot; every class live, online and in English</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Who</dt><dd>CS, systems and software students</dd>
+          <dt>Covers</dt><dd>Java, OOP, data structures, algorithms</dd>
+          <dt>Also</dt><dd>Contest practice in the ICPC style</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Hours</dt><dd>Around your university timetable</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">At a glance</p>
+      <p>For computer science and systems students in Peru, Modern Age Coders teaches Java, object-oriented design, data structures and algorithms as live online classes in English. Each session is taught as it happens by a mentor based in India, in a group of fifteen to twenty or one to one, at hours planned around your university timetable in Peru time. We teach alongside your degree: your university sets the coursework and the marks, and we make sure you understand the ideas well enough to do it yourself.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">For your degree</p>
+      <h2>Three courses for computer science students</h2>
+      <p class="ag-lede">The language, the structures built with it, and the contest skills that test both under pressure.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/complete-java-programming-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/java-college.webp" alt="Java Course for College course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JCS / 01</p>
+          <h3>Java, core to Spring Boot</h3>
+          <p>Ten to twelve months for students of 18 and over, from zero if needed. Core Java, object-oriented design, collections, testing and back-end services, at whatever speed your degree demands.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures &amp; Algorithms Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JCS / 02</p>
+          <h3>Data structures and algorithms</h3>
+          <p>Lists, stacks, trees, heaps, graphs, sorting and complexity over ten to twelve months, each structure built by hand before the library version is used.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/competitive-programming-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/placement-prep-college.webp" alt="Competitive Programming Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JCS / 03</p>
+          <h3>Competitive programming</h3>
+          <p>From first contest problems to ICPC-level practice over ten to twelve months, with timed virtual contests and a review of every solution afterwards.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="expects">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What a CS degree expects</p><h2>What should every computer science graduate know?</h2><p class="ag-lede">A widely cited international answer is CS2023, the computer science curriculum report of the ACM, the IEEE Computer Society and AAAI. It names a "CS Core" that every graduate should cover and estimates it at 270 hours of class time, spread across seventeen knowledge areas.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>CS2023 core hours by knowledge area (selected areas, with the total)</caption><thead><tr><th scope="col">Knowledge area</th><th scope="col">CS Core hours</th><th scope="col">KA Core hours</th></tr></thead><tbody><tr><td>Software Development Fundamentals (SDF)</td><td class="ag-num">43</td><td class="ag-num">none listed</td></tr><tr><td>Algorithmic Foundations (AL)</td><td class="ag-num">32</td><td class="ag-num">32</td></tr><tr><td>Foundations of Programming Languages (FPL)</td><td class="ag-num">21</td><td class="ag-num">19</td></tr><tr><td>Mathematical and Statistical Foundations (MSF)</td><td class="ag-num">55</td><td class="ag-num">145</td></tr><tr><td>Society, Ethics, and the Profession (SEP)</td><td class="ag-num">18</td><td class="ag-num">14</td></tr><tr><td>Systems Fundamentals (SF)</td><td class="ag-num">18</td><td class="ag-num">8</td></tr><tr><td>Artificial Intelligence (AI)</td><td class="ag-num">12</td><td class="ag-num">18</td></tr><tr><td>Data Management (DM)</td><td class="ag-num">10</td><td class="ag-num">26</td></tr><tr><td>Software Engineering (SE)</td><td class="ag-num">6</td><td class="ag-num">21</td></tr><tr><td>All seventeen areas</td><td class="ag-num">270</td><td class="ag-num">not totalled</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: ACM/IEEE-CS/AAAI, Computer Science Curricula 2023 (CS2023), "Introduction to the Knowledge Model", Table 2, read on 9 November 2026 and checked against the rendered PDF page. The report was endorsed by ACM on 18 January 2024, IEEE-CS on 22 January 2024 and AAAI on 22 February 2024, and a Spanish version is available on the CS2023 site. Eight smaller areas are left out of this table; their hours are included in the 270.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How to read it</h3><p>CS Core topics are the ones every graduate should meet. KA Core topics are the deeper material a programme may choose to cover in some areas and not others. CS2023 assumes a typical course meets for about 40 instructional hours, so by our arithmetic the CS Core alone is close to seven full courses.</p>
+<p>Three areas carry most of the programming: Software Development Fundamentals, Algorithmic Foundations and Foundations of Programming Languages. Together they make up 96 of the 270 CS Core hours, about 36% by our calculation.</p></div><div><h3>Where Java comes in</h3><p>CS2023 does not prescribe a language. Java is simply one of the common vehicles for those three areas: it has classes and interfaces for design, a large collections library for data structures, and a strict type system that makes many errors visible early.</p>
+<p>So a student who learns Java well is not learning "a Java course". They are covering a large share of what the international curriculum treats as non-negotiable, and the ideas transfer to C++, Python, Kotlin or C# afterwards.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Your plan of studies</p><h2>Where does Java fit in a Peruvian systems or computer science plan?</h2><p class="ag-lede">In the programming chain that runs through the first half of most plans. Each university designs its own plan; the Universidad de Lima's 2026 plan for Ingeniería de Sistemas is a clear public example.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>One published plan</h3><p>The Universidad de Lima publishes its 2026 malla curricular for Ingeniería de Sistemas as a PDF: ten levels, from NIVEL 1 to NIVEL 10, and 205 credits in total, marked as subject to curricular change.</p>
+<p>Its programming chain includes Introducción a la Programación, Paradigmas de Programación, Programación Orientada a Objetos, Estructuras de Datos I and II, and Análisis y Diseño de Algoritmos, alongside Estructuras Discretas de Computación and two courses of Ingeniería de Software.</p></div><div><h3>How we map it</h3><p>By our own reading, those courses line up with the three programming-heavy CS2023 areas: object-oriented programming and paradigms with Foundations of Programming Languages, the data structures courses and algorithm design with Algorithmic Foundations, and the introductory course with Software Development Fundamentals.</p>
+<p>That mapping is ours, not the university's. Other Peruvian universities use different names and orders, and the official plan is always the one your faculty publishes. For a Spanish-language view of a different plan, see our page <a class="ag-inline-link" href="/curso-de-java-para-universitarios-peru">curso de Java para universitarios</a>.</p></div></div>
+    <p class="ag-mt-40">Peru has many universities to choose from: SUNEDU, the national university regulator, reported 94 licensed universities in its press note of 15 September 2021. We are not connected with SUNEDU, the Universidad de Lima or any other university, and we do not award credits. Our classes run alongside the degree, explaining the ideas your courses assess. Students weighing up Python and Java together can also read <a class="ag-inline-link" href="/cursos-de-programacion-para-universitarios-peru">cursos de programación para universitarios</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="contests">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Contests</p><h2>Is competitive programming worth it for a CS student in Peru?</h2><p class="ag-lede">For many students, yes, because it turns algorithms from a chapter into a reflex. Peruvian universities take it seriously: the Universidad de Lima's algorithm circle lists among its aims preparing teams for the ICPC and IEEExtreme contests, and running internal contests in the ICPC format.</p></div>
+    <div class="ag-grid-3"><div><h3>What contests test</h3><p>Reading a precise problem in English, choosing an algorithm whose running time fits the limits, writing it correctly under time pressure, and testing the edge cases before the judge does.</p></div><div><h3>Where Java fits</h3><p>Java's collections, comparators and big-number support make it a capable contest language. C++ is faster to run and more common at the top; many students compete in both, and we teach both.</p></div><div><h3>How rankings work</h3><p>Contest scoreboards rank by problems solved and break ties by time. Peru's school olympiad, the OPI, states the same idea in its 2025 rules: score first, then time penalty, used only to separate ties.</p></div></div>
+    <p class="ag-mt-40">That last point is the starting idea for our lesson. A ranking is just a sort, and a sort is only as good as its rule for ties. Contest organisers write tie rules down for exactly that reason, and a programmer who forgets them produces a scoreboard that looks right and is not. We are not connected with the ICPC, IEEE or UTEC's OPI; the problems we use in class are our own.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="lesson">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real lesson</p><h2>How do you sort a contest scoreboard correctly in Java?</h2><p class="ag-lede">With a comparator that breaks every tie. This lesson, which we teach to university students in their first data structures months, uses an invented five-person scoreboard and Java 21's records and comparators.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The setup</h3><p>Five contestants, each with problems solved and penalty minutes. The rule: more problems solved ranks higher; on a tie, fewer minutes ranks higher; if that ties too, order by name so the result never depends on luck.</p>
+<p>Most students write the first sort quickly: problems solved, highest first. It compiles, runs and looks plausible.</p></div><div><h3>The trap</h3><p>Look at the first output. Diego and Bruno both solved 5 in 260 minutes, and Diego comes first only because he was entered first. Valeria, with 210 minutes, ranks above Ana with 180, which breaks the rule.</p>
+<p>Java did nothing wrong. Its documentation says <code>Collections.sort</code> is <strong>guaranteed to be stable</strong>: equal elements are not reordered. Elements the comparator calls equal simply stay in their input order, so the comparator must say everything the rule says.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Ranking.java: one comparator that misses ties, one that settles them</b><span>Java</span></figcaption><pre>import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+public class Ranking {
+    record Entry(String name, int solved, int minutes) {}
+
+    public static void main(String[] args) {
+        List&lt;Entry&gt; board = new ArrayList&lt;&gt;(List.of(
+            new Entry("Valeria", 4, 210),
+            new Entry("Diego", 5, 260),
+            new Entry("Ana", 4, 180),
+            new Entry("Bruno", 5, 260),
+            new Entry("Camila", 3, 95)
+        ));
+
+        board.sort(Comparator.comparingInt(Entry::solved).reversed());
+        System.out.println("By solved only:");
+        board.forEach(e -&gt; System.out.println("  " + e));
+
+        board.sort(Comparator.comparingInt(Entry::solved).reversed()
+                .thenComparingInt(Entry::minutes)
+                .thenComparing(Entry::name));
+        System.out.println("Solved, then minutes, then name:");
+        board.forEach(e -&gt; System.out.println("  " + e));
+    }
+}</pre><p class="ag-code-note">Compiled and run with JDK 21, the first block prints Diego, Bruno, Valeria, Ana, Camila (for example <code>Entry[name=Diego, solved=5, minutes=260]</code> first). The second prints <code>Entry[name=Bruno, solved=5, minutes=260]</code>, then Diego, Ana, Valeria and Camila.</p></figure>
+    <p class="ag-mt-40">The fix is a chain: <code>thenComparingInt(Entry::minutes)</code> settles ties on solved problems, and <code>thenComparing(Entry::name)</code> settles the rare full tie. Now Ana correctly passes Valeria, and Bruno and Diego appear in alphabetical order whatever order they were entered in. <strong>A stable sort keeps your input order for ties; only your comparator can replace it with a rule.</strong></p>
+    <p>The <code>Comparator</code> documentation adds the contract behind all of this: comparing x with y must give the opposite sign to comparing y with x, and the relation must be transitive. Comparators that break the contract can make sorting behave unpredictably, which is why we teach students to build them from <code>comparingInt</code> and <code>thenComparing</code> rather than hand-written subtraction. The scoreboard and names are ours, invented for the exercise.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Predict.</strong> Swap Diego and Bruno in the input list and run the first sort again. What changes, and why does the second sort not change at all?</li><li><strong>Reverse one key.</strong> Change the rule so that more minutes ranks higher. Which single call do you edit, and what happens if you put <code>reversed()</code> at the very end of the chain instead?</li><li><strong>Prove stability.</strong> Sort first by name, then by solved problems only. Explain, in English, why the names inside each group are now alphabetical.</li><li><strong>Scale it.</strong> Generate 100,000 random entries and time both sorts. Then read the complexity of <code>List.sort</code> in the documentation and say whether your timings agree.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="think">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Thinking, not copying</p><h2>Should a CS student use AI to write Java assignments?</h2><p class="ag-lede">Your university decides what is allowed in its coursework, and you should follow its rules. Our view is simpler: if you cannot explain why a comparator is correct, you have not finished the exercise, whoever wrote the code.</p></div>
+    <div class="ag-grid-3"><div><h3>Rules before tools</h3><p>Write the rule in a sentence first, as in the scoreboard lesson: solved, then minutes, then name. The code is a translation of that sentence, and most bugs are a sentence that was never written.</p></div><div><h3>Read the documentation</h3><p>The stable-sort guarantee and the comparator contract are both in the official Java documentation, in English. A student who reads it can answer questions that a pasted answer never raises.</p></div><div><h3>AI as a critic</h3><p>Claude is for users aged 18 and over. University students may use such tools to criticise their own designs, within the rules of their course, never to hand in code they cannot defend line by line.</p></div></div>
+    <p class="ag-mt-40">Whether you study in Lima, Arequipa, Trujillo or Cusco, the teaching standard is the same: reasoning first, code second, and an honest answer when a topic is harder than your course made it look.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Hours</p><h2>Are classes taught in English, and at what time in Peru?</h2><p class="ag-lede">They are taught only in English, at the hour you pick. Peru stays five hours behind UTC all year without daylight saving; India stays five and a half hours ahead; so the gap is ten and a half hours on every date. The rows are worked examples, not a schedule.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Peru time against India time for a university student (examples only)</caption><thead><tr><th scope="col">Peru time</th><th scope="col">India time</th><th scope="col">Typical reason</th></tr></thead><tbody><tr><td>05:30</td><td>16:00</td><td>Before an early commute to campus</td></tr><tr><td>09:00</td><td>19:30</td><td>A morning without lectures</td></tr><tr><td>14:00</td><td>00:30, next day</td><td>Between afternoon sessions</td></tr><tr><td>22:00</td><td>08:30, next day</td><td>After evening classes or work</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: tz database (IANA), America/Lima and Asia/Kolkata. Conversions are ours and do not change during the year.</p>
+    <p class="ag-mt-40">Mentors explain in clear, measured English and type the key terms into the chat, so a student can review them later. Contest problems, API documentation and most of the CS literature are in English too, so practising technical English in class pays off well beyond the course.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Levels</p>
+      <h2>Five levels from Java syntax to contest-ready algorithms</h2>
+      <p class="ag-lede">Our levels, used to place students and to show what the next semester of work looks like.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Java and algorithms for CS students (our levels)</caption><thead><tr><th scope="col">Level</th><th scope="col">The student can</th><th scope="col">Evidence</th></tr></thead><tbody><tr><td>1. Syntax</td><td>Write and debug small Java programs</td><td>Fixes compiler errors by reading them</td></tr><tr><td>2. Objects</td><td>Design classes, interfaces and records</td><td>A small model with tests</td></tr><tr><td>3. Structures</td><td>Build lists, trees and maps by hand</td><td>Explains the cost of each operation</td></tr><tr><td>4. Algorithms</td><td>Sort, search and traverse graphs with proofs of cost</td><td>The scoreboard lesson and its extensions</td></tr><tr><td>5. Contest</td><td>Solve timed problems and test edge cases</td><td>Virtual contests with a written review</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For students</h3><p>Level 4 is where sorting stops being a library call and becomes a design decision.</p>
+<p>Keep a notebook of every bug that came from a missing rule. It becomes your best revision guide.</p></div><div><h3>For families</h3><p>Computer science degrees are demanding in the first years. Steady practice with a mentor keeps a student from falling behind.</p>
+<p>Short progress notes describe what was understood, not hours logged.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for computer science students</h2>
+      <p class="ag-lede">All live and in English, with a mentor who stays with the student, in a group or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Theory and other languages</h3>
+        <span class="ag-band-sub">Early semesters</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JCS / CORE / 01</p>
+          <h4>University mathematics</h4>
+          <p>Calculus, linear algebra and discrete topics by track.</p>
+          <a class="ag-course-link" href="/courses/college-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JCS / CORE / 02</p>
+          <h4>C programming</h4>
+          <p>Memory and pointers, the layer under Java.</p>
+          <a class="ag-course-link" href="/courses/c-programming-course-for-college-beginners">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JCS / CORE / 03</p>
+          <h4>C++, complete</h4>
+          <p>The other main contest language, with the STL.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Systems and data</h3>
+        <span class="ag-band-sub">Middle semesters</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JCS / SYS / 01</p>
+          <h4>MySQL and databases</h4>
+          <p>SQL and design for the Data Management area.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JCS / SYS / 02</p>
+          <h4>Git and GitHub</h4>
+          <p>Team workflows for group projects.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JCS / SYS / 03</p>
+          <h4>Full-stack web development</h4>
+          <p>A Java or JavaScript back end with a real front end.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Beyond Java</h3>
+        <span class="ag-band-sub">Later semesters</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JCS / NEXT / 01</p>
+          <h4>Kotlin and Android</h4>
+          <p>A modern language on the same platform.</p>
+          <a class="ag-course-link" href="/courses/complete-kotlin-programming-masterclass-professional">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JCS / NEXT / 02</p>
+          <h4>AI and machine learning</h4>
+          <p>From Python to deep learning, with the maths explained.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JCS / NEXT / 03</p>
+          <h4>Python, zero to advanced</h4>
+          <p>The second language most CS students need.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>How live classes fit a computer science semester</h2>
+      <p class="ag-lede">Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Mornings</p><p class="ag-slot-l">Early hours in Peru meet the Indian evening comfortably.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Nights</p><p class="ag-slot-l">Late Peruvian hours reach India in the morning; ask for what you need.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Private classes that can shift each semester as your timetable changes.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Code on screen</h3><p>Students write, run and debug Java in every class.</p></div>
+      <div><h3>Structures by hand</h3><p>Build it yourself before using the library.</p></div>
+      <div><h3>English, clearly</h3><p>Measured explanations with terms typed out.</p></div>
+      <div><h3>A steady mentor</h3><p>The same person across the course.</p></div>
+      <div><h3>Exam-aware</h3><p>Lighter weeks planned around midterms and finals.</p></div>
+      <div><h3>Batch or one to one</h3><p>Fifteen to twenty students, or a mentor alone with you.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Work by our more advanced students</h2>
+      <p class="ag-lede">Students who keep going build substantial software. Here are a few projects; the <a class="ag-inline-link" href="/student-labs">student labs</a> page collects the rest.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for computer science students in Peru</h2>
+      <p class="ag-lede">We price in US dollars and take payment by card monthly. The soles figure is your bank's conversion on the charge date, so it can drift a little between statements.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short problem and a first comparator</li><li>No card asked for</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty students at your stage</li><li>The same mentor all course</li><li>Two live classes per week</li><li>Month to month; stop when you like</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A mentor for you alone</li><li>Topics matched to your current courses</li><li>Hours that follow your semester</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from students and parents, as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Students ask</p>
+      <h2>Java for CS students in Peru: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in Spanish?</h3>
+        <p>No. We teach only in English, live and online. Mentors speak at a measured pace, adapt to your accent, and type key terms in the chat. The Java documentation, contest problems and most computer science books are in English, so the class prepares you for all of them.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will this help with my university Java course?</h3>
+        <p>It should, because we explain the ideas behind each topic and practise them with you. Your university sets the syllabus, assignments and marks, and we do not complete coursework for students or promise grades.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to know Java already?</h3>
+        <p>No. The Java course starts from zero for students of 18 and over. Students who already know the basics usually join the data structures course or move faster in one-to-one classes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is CS2023 and why does it matter?</h3>
+        <p>It is the computer science curriculum report of the ACM, the IEEE Computer Society and AAAI, endorsed in early 2024. It sets out a CS Core of about 270 hours that every graduate should cover. We use it to check that our courses build the skills a degree expects.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Java good for competitive programming?</h3>
+        <p>Yes, it is a capable contest language, with strong collections and comparators. C++ runs faster and is more common at the top level, so many students learn both. We teach both and practise with problems we write ourselves.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When can I take classes in Peru time?</h3>
+        <p>Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. Because India is ten and a half hours ahead, 09:00 in Peru is 19:30 in India.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you linked to a Peruvian university?</h3>
+        <p>No. We are an independent online school with mentors in India, not connected with any Peruvian university, SUNEDU or contest organiser. Finishing a course earns our own certificate of completion, never university credit.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use AI tools for my assignments?</h3>
+        <p>Follow your university's rules first. Claude is for users aged 18 and over. In our classes, AI may be used to criticise a design, but a student must be able to explain every line of code they submit.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What equipment do I need?</h3>
+        <p>A laptop or desktop computer with a current JDK, a reliable connection and preferably a headset. The mentor helps with installation in the free class. Phones are not suitable for programming practice.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do payments work from Peru?</h3>
+        <p>By card, monthly, in US dollars. Your bank decides the conversion into soles on each charge date, so small differences between months are normal. The free class needs no card at all.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Read next</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for computer science students.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/curso-de-java-para-universitarios-peru">Curso de Java para universitarios</a></h3><p>Our Spanish page for university students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-dsa-course">Java and DSA</a></h3><p>Data structures taught in Java.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-oops-concepts-course">Object-oriented Java</a></h3><p>Classes, interfaces and design.</p></div>
+      <div><h3><a class="ag-inline-link" href="/data-structures-and-algorithms-course">Data structures and algorithms</a></h3><p>The theory, with practice.</p></div>
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-for-competitive-programming">C++ for competitive programming</a></h3><p>The other contest language.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>Our index of Peru pages.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free class as a computer science student</h2>
+        <p class="ag-lede">The free class starts with a short problem and a first comparator, then a conversation about your courses this semester. The mentor then recommends a course, group or private classes, and Peru hours that work around your timetable.</p>
+        <p class="ag-mt-40">Read more first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> explains a class in detail, and the <a class="ag-inline-link" href="/courses">course list</a> holds the syllabi.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20study%20computer%20science%20in%20Peru%20and%20would%20like%20live%20Java%20and%20data%20structures%20classes%20in%20English.%20May%20I%20book%20a%20free%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jcs',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are live video sessions in English, led from India. For a quick reply, write to us on WhatsApp in English.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_jcs(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Your name</label>
+            <input id="pe-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Phone or WhatsApp, Peru +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Learner age group</label>
+            <select id="pe-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, with no card or commitment.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Java and algorithms</h4><ul><li><a href="/java-dsa-course">Java and DSA</a></li><li><a href="/java-oops-concepts-course">Object-oriented Java</a></li><li><a href="/java-projects-for-students">Java projects</a></li><li><a href="/data-structures-and-algorithms-course">DSA course</a></li></ul></div>
+      <div><h4>Peru</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Classes in Peru</a></li><li><a href="/curso-de-java-para-universitarios-peru">Java para universitarios</a></li><li><a href="/cursos-de-programacion-para-universitarios-peru">Programación universitaria</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Every tie needs a rule</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_jcs = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'java-for-computer-science-students-peru-inline', meta: { name: name, age: age, page: 'java-for-computer-science-students-peru' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
