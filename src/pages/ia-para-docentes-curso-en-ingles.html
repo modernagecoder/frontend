@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>IA para docentes en Perú: curso en vivo y en inglés</title>
+  <meta name="description" content="IA para docentes en Perú: un curso en vivo y en inglés para entender cómo funciona la inteligencia artificial por dentro, más allá de las herramientas. A su hora.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ia-para-docentes-curso-en-ingles">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ia-para-docentes-curso-en-ingles.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#004A32">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ia-para-docentes-curso-en-ingles">
+  <meta property="og:title" content="IA para docentes en Perú: curso en vivo y en inglés">
+  <meta property="og:description" content="Qué ofrece ya el MINEDU a los docentes en IA, qué pide el reglamento de 2025, qué añade un curso técnico y un modelo de lenguaje diminuto escrito en Python.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="es_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="IA para docentes en Perú: curso en vivo y en inglés">
+  <meta name="twitter:description" content="Inteligencia artificial para profesores peruanos, en vivo y en inglés, con mentor, en grupo o individual y en el horario que deje libre el colegio.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-idi .ag-hero h1 { letter-spacing: -0.008em; max-width: 20ch; }
+.ag-root.ag-idi .ag-capsule { border-left-width: 5px; border-radius: 3px; }
+.ag-root.ag-idi .ag-table caption { text-align: left; font-weight: 600; letter-spacing: 0.005em; }
+.ag-root.ag-idi .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-idi .ag-steps li { line-height: 1.64; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ia-para-docentes-curso-en-ingles#page","url":"https://learn.modernagecoders.com/ia-para-docentes-curso-en-ingles","name":"IA para docentes: curso en inglés para profesores del Perú","description":"Guía para docentes peruanos que buscan formarse en inteligencia artificial: la capacitación del MINEDU en 2025 en cifras, lo que el reglamento de IA de 2025 dice sobre la formación docente, el lugar de la IA en el CNEB, lo que agrega un curso técnico, el inglés de los docentes según el EF EPI 2025 y un modelo de siguiente palabra escrito en Python.","inLanguage":"es-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Cursos","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Perú","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"IA para docentes","item":"https://learn.modernagecoders.com/ia-para-docentes-curso-en-ingles"}]},{"@type":"Course","name":"IA para docentes: curso en inglés para profesores del Perú","description":"Curso en vivo y en línea de inteligencia artificial para docentes de inicial, primaria, secundaria y educación superior en todo el Perú, dictado solo en inglés por mentores desde la India: cómo aprende un modelo, cómo genera texto un modelo de lenguaje, cómo verificar sus respuestas y Python desde cero, en grupo o en clases individuales, a cualquier hora.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ia-para-docentes-curso-en-ingles"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ia-para-docentes-curso-en-ingles"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ia-para-docentes-curso-en-ingles"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Las clases son en español?","acceptedAnswer":{"@type":"Answer","text":"No, se dictan en inglés, en vivo y por internet. Para un docente es una ventaja: la documentación y la investigación sobre IA están en inglés, y el curso trabaja la expresión oral, que en el EF EPI 2025 es la habilidad más baja del Perú, con 480 puntos. Los docentes peruanos obtienen 532 en ese índice, de modo que muchos ya tienen la base para seguir una clase. El mentor habla pausado."}},{"@type":"Question","name":"¿Este curso cuenta para el escalafón magisterial?","acceptedAnswer":{"@type":"Answer","text":"No. Según el MINEDU, la constancia que sirve para el escalafón de la Carrera Pública Magisterial la da su propio curso de IA en el SIFODS. El nuestro no tiene relación con el Ministerio ni otorga puntos."}},{"@type":"Question","name":"¿Ya tomé el curso del MINEDU, me sirve este?","acceptedAnswer":{"@type":"Answer","text":"Probablemente sí, porque cubre otra parte. El curso estatal trabaja conceptos y recomendaciones para el aula. El nuestro le enseña a programar modelos pequeños para entender por qué la IA acierta y por qué falla."}},{"@type":"Question","name":"¿Necesito saber programar?","acceptedAnswer":{"@type":"Answer","text":"No. Empezamos con Python desde cero, con programas cortos que leen y cuentan texto. Muchos docentes de letras terminan programando sin dificultad."}},{"@type":"Question","name":"¿Me enseñarán a usar la IA con mis estudiantes?","acceptedAnswer":{"@type":"Answer","text":"Le enseñamos cómo funciona la IA y cómo verificarla. El uso con estudiantes lo decide usted con su colegio, respetando la edad mínima que fija cada empresa: ChatGPT pide 13 años y permiso de los padres hasta los 18, y Claude exige 18."}},{"@type":"Question","name":"¿Recibo certificado?","acceptedAnswer":{"@type":"Answer","text":"Sí, un certificado de finalización de Modern Age Coders. No es oficial ni lo reconocen el MINEDU ni SUNEDU, y no sirve para el escalafón."}},{"@type":"Question","name":"¿En qué horario son las clases?","acceptedAnswer":{"@type":"Answer","text":"Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, a las 7:00 p. m. en Lima, en la India son las 5:30 a. m. del día siguiente."}},{"@type":"Question","name":"¿Puedo pausar en semanas de evaluación?","acceptedAnswer":{"@type":"Answer","text":"Sí. En el formato individual se reprograma sin problema, y en grupo puede pausar la mensualidad y volver al mes siguiente."}},{"@type":"Question","name":"¿Sirve para docentes de inicial y primaria?","acceptedAnswer":{"@type":"Answer","text":"Sí. Muchas ideas del curso se llevan al aula sin pantallas. El mentor adapta los ejemplos a su nivel educativo."}},{"@type":"Question","name":"¿Cómo se paga?","acceptedAnswer":{"@type":"Answer","text":"Con tarjeta, una vez al mes, en dólares estadounidenses; el tipo de cambio lo aplica su banco. No hay matrícula."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ia-para-docentes-curso-en-ingles","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-idi">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Perú</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Perú</a></li>
+      <li><a href="#minedu">Lo que ya existe</a></li>
+      <li><a href="#por-dentro">IA por dentro</a></li>
+      <li><a href="#ejemplo">Ejemplo</a></li>
+      <li><a href="#aula">Aula y edades</a></li>
+      <li><a href="#cuando">Cuándo estudiar</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Clase gratis</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a> / <a href="/courses">Cursos</a> / <a href="/coding-and-ai-classes-in-peru">Perú</a> / IA para docentes
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Perú &middot; Inteligencia artificial &middot; Para docentes</p>
+        <h1>IA para docentes en Perú: un curso en vivo y en inglés</h1>
+        <p class="ag-lede">Muchos profesores ya saben pedirle a un chatbot una sesión de aprendizaje o una rúbrica. Pocos saben por qué el chatbot a veces inventa, repite o se equivoca con seguridad. Este curso es para el docente que quiere entender esa parte, con las manos en el código, y poder explicarla a colegas, padres y estudiantes con propiedad.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Reservar la primera clase gratis</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Reservar una demo prioritaria</a>
+          <a href="#por-dentro" class="ag-btn ag-btn--ghost">Ver qué se aprende</a>
+          <a href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20soy%20docente%20en%20Per%C3%BA%20y%20me%20interesa%20el%20curso%20de%20inteligencia%20artificial%20en%20ingl%C3%A9s.%20%C2%BFPuedo%20tomar%20una%20clase%20de%20prueba%20gratuita%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'idi'});">Consultar por WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Clases en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; 4.9 de puntuación en Google</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">En resumen</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 de 5 en 547 reseñas de Google
+        </p>
+        <dl>
+          <dt>Idioma de las clases</dt><dd>Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante</dd>
+          <dt>Para quién</dt><dd>Docentes de inicial, primaria, secundaria y superior</dd>
+          <dt>Base</dt><dd>Ninguna; Python se aprende desde cero</dd>
+          <dt>Contenido</dt><dd>Cómo aprende y cómo escribe una IA, y cómo verificarla</dd>
+          <dt>Modalidad</dt><dd>Grupo de quince a veinte personas, o individual</dd>
+          <dt>Idioma</dt><dd>Inglés, con mentor en vivo desde la India</dd>
+          <dt>Inicio</dt><dd>Clase de prueba sin costo</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Respuesta breve</p>
+      <p>Modern Age Coders ofrece a docentes de todo el Perú un curso de inteligencia artificial en vivo, en línea y en inglés, para aprender cómo funciona la IA por dentro y no solo cómo usarla. Se parte de Python desde cero y se llega a construir modelos pequeños que aprenden de datos y que generan texto, para entender sus aciertos y sus errores. Un mentor desde la India dicta cada clase, en grupo o de forma individual, en el horario que le deje libre el colegio. Es formación para usted como profesional; no reemplaza la capacitación del MINEDU ni tiene relación con ella.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cursos para docentes</p>
+      <h2>Tres cursos de IA que suelen elegir los profesores</h2>
+      <p class="ag-lede">Uno para usar herramientas con criterio, uno para aprender a programar y uno para entender la IA generativa desde adentro. Los tres son para mayores de 18.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-tools-mastery-complete-college">
+        <div class="ag-pick-shot"><img src="/images/ai-tools-college.webp" alt="Imagen del curso de dominio de herramientas de inteligencia artificial para adultos" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IDI / 01</p>
+          <h3>Herramientas de IA con criterio</h3>
+          <p>Para el docente que ya usa chatbots y quiere hacerlo con método: instrucciones claras, verificación de cada respuesta y límites de privacidad.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Imagen del curso de Python desde cero hasta nivel avanzado para adultos" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IDI / 02</p>
+          <h3>Python desde cero</h3>
+          <p>El lenguaje en que se escribe casi toda la IA. Ideal si enseña matemática, ciencia o computación y quiere programar ejemplos propios.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-generative-ai-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/generative-ai-college.webp" alt="Imagen del curso de inteligencia artificial generativa para adultos" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IDI / 03</p>
+          <h3>IA generativa por dentro</h3>
+          <p>Tokens, probabilidades y modelos de lenguaje: por qué un chatbot redacta con fluidez y por qué eso no garantiza que tenga razón.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="minedu">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Lo que ya existe</p><h2>¿Qué capacitación en IA ofrece el MINEDU a los docentes?</h2><p class="ag-lede">Una oferta amplia y gratuita. Antes de buscar un curso privado conviene conocerla, porque muchos docentes ya la tomaron y otros pueden tomarla sin costo.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>La formación docente en inteligencia artificial del MINEDU, según su nota de prensa de mayo de 2025</caption><thead><tr><th scope="col">Dato publicado</th><th scope="col">Cifra</th><th scope="col">Detalle</th></tr></thead><tbody><tr><td>Docentes inscritos en el curso virtual "Inteligencia artificial (IA) en la práctica docente"</td><td class="ag-num">Más de 87 000</td><td>Dictado en la plataforma del SIFODS, gratuito</td></tr><tr><td>Convocatorias realizadas hasta mayo de 2025</td><td class="ag-num">5</td><td>Una sexta abierta hasta el 1 de junio de 2025</td></tr><tr><td>Unidades del curso</td><td class="ag-num">2</td><td>La segunda se llama "Enseñar y aprender con IA"</td></tr><tr><td>Docentes inscritos en el primer grupo de talleres de integración responsable de la IA</td><td class="ag-num">37 314</td><td>Talleres iniciados en 2024 por la DITE</td></tr><tr><td>Regiones alcanzadas por esos talleres</td><td class="ag-num">26</td><td>Dirigidos también a especialistas y profesores de innovación pedagógica</td></tr><tr><td>Meta de profesores de innovación pedagógica</td><td class="ag-num">3550</td><td>Talleres virtuales con las direcciones regionales</td></tr><tr><td>Meta de docentes en talleres presenciales</td><td class="ag-num">1600</td><td>En Lima Metropolitana, Callao e Ica</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: Ministerio de Educación, nota de prensa "Minedu capacita a más de 87 000 docentes en inteligencia artificial en el ámbito nacional", gob.pe, 9 de mayo de 2025. Las cifras son las de esa fecha; el propio MINEDU anunció que seguirían creciendo.</p>
+    <p class="ag-mt-40">Según la misma nota, quienes aprueban el curso del SIFODS reciben una constancia que sirve para el escalafón de la Carrera Pública Magisterial. Ese beneficio es del MINEDU y solo del MINEDU. Nuestro curso no da puntos para el escalafón, no forma parte de PerúEduca ni del SIFODS y no tiene ningún vínculo con el Ministerio. Si a usted le interesa el escalafón, empiece por la oferta oficial.</p>
+    <p>La pregunta útil, entonces, no es "estatal o privado", sino qué le falta después. La primera unidad del curso estatal define la IA y sus conceptos; la segunda da recomendaciones para el aula. Lo que un curso de ese formato no suele hacer es abrir la máquina: programar un modelo, ver cómo aprende, medir cuánto se equivoca. Eso es lo que hacemos nosotros, y por eso los dos caminos se complementan.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="norma">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Marco</p><h2>¿Qué dice el reglamento peruano de IA sobre la formación docente?</h2><p class="ag-lede">Le dedica una oración clara. El Decreto Supremo N.° 115-2025-PCM, que reglamenta la Ley 31814 y se publicó en El Peruano el 9 de setiembre de 2025, promueve en su artículo 13.2 la formación del personal docente en IA.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>El texto</h3><p>El artículo 13.2 dice que la Secretaría de Gobierno y Transformación Digital articula con el MINEDU la promoción del uso "responsable, ético, transparente e inclusivo" de la IA en el marco del Currículo Nacional de la Educación Básica.</p>
+<p>Y añade: "se promueve la formación del personal docente en IA y tecnologías digitales para su aprovechamiento pedagógico en las instituciones educativas públicas y privadas". La frase incluye expresamente a los colegios privados.</p></div><div><h3>Lo que significa para usted</h3><p>El Estado considera la formación docente en IA una prioridad, tanto en la escuela pública como en la privada. No obliga a nadie a tomar un curso en particular ni reconoce cursos privados por ese artículo.</p>
+<p>Lo citamos como contexto, no como asesoría legal. Nuestro curso no está acreditado bajo ese reglamento ni bajo ninguna otra norma peruana.</p></div></div>
+    <p class="ag-mt-40">En el currículo, la IA no aparece como un área aparte. El Currículo Nacional de la Educación Básica trata lo digital como una competencia transversal, "Se desenvuelve en los entornos virtuales generados por las TIC", que todas las áreas comparten. El CNEB la describe como la capacidad del estudiante de interpretar, modificar y optimizar entornos virtuales. En la práctica, eso significa que el docente de Comunicación, el de Matemática y el de Ciencia y Tecnología comparten la tarea, y que a cualquiera de ellos le sirve entender cómo funciona lo que usa.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="por-dentro">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">IA por dentro</p><h2>¿Qué aprende un docente en un curso técnico de inteligencia artificial?</h2><p class="ag-lede">Cuatro ideas que cambian la forma de mirar cualquier herramienta. Ninguna exige ser ingeniero; todas exigen escribir y ejecutar código pequeño, acompañado por el mentor.</p></div>
+    <div class="ag-grid-3"><div><h3>Un modelo es una tabla de números</h3><p>Se ajusta a partir de ejemplos. Si los ejemplos están sesgados, el modelo también. Lo verá con datos que usted mismo arma, como una lista de notas inventadas o de oraciones escritas por usted.</p></div><div><h3>Un chatbot predice palabras</h3><p>Elige la siguiente palabra según lo que vio antes. Por eso escribe con fluidez y por eso puede repetir, inventar una cita o afirmar algo falso con aplomo. El ejemplo de abajo lo muestra en veinte líneas.</p></div><div><h3>Verificar es un método</h3><p>Pedir la fuente, contrastar con un documento oficial, reformular la pregunta y comparar respuestas. Lo practicamos con materiales reales del docente, sin datos personales de estudiantes.</p></div></div>
+    <p class="ag-mt-40">La cuarta idea es la que más nos importa: enseñar a pensar, no a copiar. Un docente que entiende por qué una herramienta falla puede diseñar actividades donde el estudiante tenga que razonar, comparar y justificar, en lugar de pegar una respuesta. Ese criterio no depende de qué herramienta esté de moda el próximo año.</p>
+    <p>No le daremos recetas de cien instrucciones para generar sesiones de aprendizaje. Hay muchas gratuitas en internet y caducan rápido. Le daremos la comprensión que le permite escribir las suyas y saber cuándo el resultado no sirve. Si después quiere profundizar en el aprendizaje automático, el siguiente paso es nuestro <a class="ag-inline-link" href="/curso-de-inteligencia-artificial-en-ingles-peru">curso de inteligencia artificial en inglés</a>, pensado para adultos.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="ejemplo">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Una clase de muestra</p><h2>¿Cómo escribe un chatbot? Un modelo de lenguaje en miniatura, en Python</h2><p class="ag-lede">Esta es una clase nuestra del primer mes. Con cuatro oraciones escritas por nosotros, el programa cuenta qué palabra suele seguir a cada palabra y luego escribe solo, eligiendo siempre la más frecuente. Los modelos reales son enormemente más grandes, pero la idea de fondo es parecida.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Un modelo que escribe eligiendo la palabra siguiente</b><span>Python</span></figcaption><pre>from collections import Counter, defaultdict
+
+texto = ('la clase empieza con una pregunta . '
+         'la pregunta abre la discusion . '
+         'la discusion termina con una respuesta . '
+         'la respuesta abre otra pregunta .')
+
+palabras = texto.split()
+siguientes = defaultdict(Counter)
+for actual, despues in zip(palabras, palabras[1:]):
+    siguientes[actual][despues] += 1
+
+print('despues de "la":', dict(siguientes['la']))
+print('despues de "abre":', dict(siguientes['abre']))
+
+def escribir(inicio, largo):
+    frase = [inicio]
+    for _ in range(largo):
+        opciones = siguientes[frase[-1]]
+        if not opciones:
+            break
+        frase.append(opciones.most_common(1)[0][0])
+    return ' '.join(frase)
+
+print(escribir('la', 12))
+print(escribir('una', 6))
+print('profesor' in siguientes)</pre><p class="ag-code-note">El diccionario <code>siguientes</code> guarda, para cada palabra, cuántas veces apareció cada palabra a continuación. <code>most_common(1)</code> elige la más frecuente. Las tildes se omiten en el texto para simplificar el ejercicio.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Resultado</b><span>Salida</span></figcaption><pre>despues de "la": {'clase': 1, 'pregunta': 1, 'discusion': 2, 'respuesta': 1}
+despues de "abre": {'la': 1, 'otra': 1}
+la discusion . la discusion . la discusion . la discusion . la
+una pregunta . la discusion . la
+False</pre><p class="ag-code-note">Salida exacta de Python 3, tal como apareció en nuestra pantalla. El modelo queda atrapado en un bucle y no reconoce una palabra que nunca vio.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><strong>Contar.</strong> Después de "la" aparecieron cuatro palabras distintas, y "discusion" dos veces: una en "abre la discusion" y otra al comienzo de la tercera oración. Eso es todo lo que el modelo sabe: frecuencias.</li><li><strong>Elegir lo más probable.</strong> Al escribir desde "la", el modelo elige "discusion" porque es la más frecuente. Después de "discusion" hay un empate entre el punto y "termina", y Python se queda con el primero que vio, el punto.</li><li><strong>El bucle.</strong> Tras el punto siempre viene "la", y tras "la" otra vez "discusion". El resultado, <code>la discusion . la discusion . la discusion</code>, es gramaticalmente correcto y no dice nada. Los chatbots reales usan azar y contexto largo para evitar esto, pero el riesgo de fondo, sonar bien sin decir algo cierto, sigue ahí.</li><li><strong>Lo que no vio.</strong> La última línea imprime <code>False</code>: la palabra "profesor" no está en el texto, así que el modelo jamás podrá escribirla. Un modelo de lenguaje solo combina lo que aprendió de sus datos.</li><li><strong>El reto para el docente.</strong> Agregue una quinta oración que rompa el bucle y vuelva a ejecutar. Luego explique, en inglés y en dos frases, por qué cambió la salida. Es exactamente la explicación que podría dar a un colega.</li></ol>
+    <p class="ag-mt-40">Con este ejercicio, la frase "la IA alucina" deja de ser misteriosa. El modelo no busca la verdad, busca la continuación más probable según sus datos. Un docente que lo entiende revisa con otros ojos cada respuesta que una herramienta le propone para su clase.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="aula">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Aula y edades</p><h2>¿Puedo usar lo que aprenda con mis estudiantes?</h2><p class="ag-lede">Lo que aprende es suyo y lo aplica con su criterio profesional y las normas de su colegio. Sobre herramientas concretas con menores de edad, la regla que seguimos es simple: la edad mínima la fija cada empresa en sus términos.</p></div>
+    <p>Este curso no le enseña a abrir cuentas de IA para sus estudiantes ni a usarlas con ellos. Sí le explicamos qué dicen los términos de las herramientas más conocidas. ChatGPT pide al menos 13 años y, a quien tiene menos de 18, el permiso de sus padres o tutores. Claude exige 18 años en sus términos para consumidores. Las citas textuales de más de cien herramientas están en nuestra <a class="ag-inline-link" href="/ai-tools-age-guide">AI tool age guide</a>, que actualizamos con la fuente de cada empresa.</p>
+    <p>La comprensión, en cambio, no tiene edad mínima. Lo que vio en el ejemplo de arriba se puede explicar a un estudiante de secundaria con papel y lápiz, contando palabras de una oración en la pizarra, sin abrir ninguna cuenta. Muchas de las ideas del curso se llevan al aula así, como actividades desconectadas o con programas que el propio docente ejecuta.</p>
+    <p>Si después quiere recomendar algo a las familias, tenemos páginas pensadas para cada edad: <a class="ag-inline-link" href="/curso-de-inteligencia-artificial-para-ninos-peru">inteligencia artificial para niños de primaria</a>, que no usa chatbots, y <a class="ag-inline-link" href="/curso-de-ia-para-adolescentes-peru">IA para adolescentes de secundaria</a>, que se limita a herramientas permitidas para su edad. No le pedimos que nos recomiende; solo le contamos que existen.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="rumbo">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Hacia dónde va</p><h2>¿Hacia dónde va la inteligencia artificial en la escuela peruana?</h2><p class="ag-lede">Hacia más uso, también fuera de Lima. Dos anuncios del MINEDU de 2025 muestran la dirección; los citamos como contexto y no tenemos relación con ninguno.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Secundaria rural, desde 2026</h3><p>El 4 de diciembre de 2025, el MINEDU anunció que usaría la IA para la planificación de los aprendizajes en 205 instituciones educativas rurales con los modelos de Secundaria en Alternancia, Secundaria con Residencia Estudiantil y Secundaria Tutorial, que atienden a cerca de 27 000 estudiantes.</p>
+<p>La misma nota cuenta 627 508 estudiantes de secundaria matriculados en el ámbito rural. Para los docentes de esas zonas, entender cómo funciona una herramienta de planificación pesa tanto como saber usarla.</p></div><div><h3>Hackathon 2025</h3><p>En agosto de 2025, el MINEDU premió la cuarta edición de su Hackathon, con una categoría para docentes de Educación Básica y proyectos de IA y robótica.</p>
+<p>Según la nota del 4 de agosto de 2025, la participación de estudiantes mujeres creció 28% entre 2023 y 2025. Docentes que entienden la IA por dentro son también quienes acompañan esos proyectos.</p></div></div>
+    <p class="ag-mt-40">Nada de esto lo decide un curso privado, y no pretendemos lo contrario. Lo que sí puede hacer un curso como el nuestro es que, cuando la herramienta llegue a su colegio, usted ya sepa qué preguntas hacerle.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ingles">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">En inglés</p><h2>¿Por qué un curso de IA para docentes en inglés?</h2><p class="ag-lede">Porque la documentación de la IA, los cursos abiertos de las universidades y casi toda la investigación se publican primero en inglés, y porque practicarlo en voz alta es justo lo que más le falta al país.</p></div>
+    <p>Todas nuestras clases son en vivo, por internet y únicamente en inglés. En el EF EPI 2025, quienes declaran ser docentes en el Perú obtienen 532 puntos, por encima del promedio nacional de 519, y Lima llega a 555, el nivel alto. En cambio, la habilidad más débil del país es la expresión oral, con 480. Un docente que ya lee en inglés suele estar listo para seguir una clase; lo que gana aquí es soltura al hablar de un tema técnico.</p>
+    <p>Los mentores enseñan desde la India y están habituados a profesionales cuyo primer idioma es otro. Si en la clase de prueba usted siente que necesita ir más despacio, el formato individual le permite fijar el ritmo y repetir lo que haga falta. Si enseña inglés, además, el curso le deja vocabulario técnico real para sus propias clases.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="cuando">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Cuándo estudiar</p><h2>¿Cuándo puede estudiar un docente sin descuidar el año escolar?</h2><p class="ag-lede">En el horario que el colegio le deje libre. El año escolar 2026 tiene 36 semanas lectivas, de acuerdo con la norma técnica aprobada por la RM 501-2025-MINEDU, y las clases con estudiantes corren del 16 de marzo al 18 de diciembre de 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Horas posibles para un docente en el Perú y su equivalente en la India (ejemplos de conversión, no un horario)</caption><thead><tr><th scope="col">Hora de Perú</th><th scope="col">Hora de la India</th><th scope="col">Momento del docente</th></tr></thead><tbody><tr><td>5:30 a. m.</td><td>4:00 p. m.</td><td>Antes del turno mañana</td></tr><tr><td>3:00 p. m.</td><td>1:30 a. m. del día siguiente</td><td>Después del turno mañana; solo en individual</td></tr><tr><td>7:00 p. m.</td><td>5:30 a. m. del día siguiente</td><td>Después del turno tarde</td></tr><tr><td>8:30 p. m.</td><td>7:00 a. m. del día siguiente</td><td>Con la casa ya en calma</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Cálculo nuestro con tzdata: Perú UTC-5 y la India UTC+5:30 todo el año, sin horario de verano. Fechas del año escolar: RM 501-2025-MINEDU, cuadro de calendarización 2026.</p>
+    <p class="ag-mt-40">Muchos profesores prefieren empezar en enero o febrero, cuando no hay clases con estudiantes, y luego mantener una sola clase por semana durante el año. Otros toman las semanas de descanso entre bloques. Con clases individuales puede pausar en semanas de evaluación y retomar después, sin perder su lugar.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progreso</p>
+      <h2>¿Cómo avanza un docente en el curso de IA?</h2>
+      <p class="ag-lede">Cinco etapas que usamos para describir el progreso de un profesor. Son una escala nuestra, pensada para conversar con el mentor, no un certificado ni un puntaje.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>De usuario a explicador: cinco etapas de un docente que aprende IA (escala nuestra)</caption><thead><tr><th scope="col">Etapa</th><th scope="col">Tiempo habitual</th><th scope="col">Qué puede hacer el docente</th></tr></thead><tbody><tr><td>1. Programa</td><td class="ag-num">Primer mes</td><td class="ag-num">Escribe y ejecuta programas cortos en Python que leen y cuentan texto</td></tr><tr><td>2. Cuenta</td><td class="ag-num">Segundo mes</td><td class="ag-num">Construye un modelo de palabra siguiente como el del ejemplo y explica su bucle</td></tr><tr><td>3. Entrena</td><td class="ag-num">Tercer mes</td><td class="ag-num">Ajusta un modelo simple con datos inventados y mide cuánto se equivoca</td></tr><tr><td>4. Verifica</td><td class="ag-num">Cuarto mes</td><td class="ag-num">Diseña un procedimiento para contrastar respuestas de una herramienta generativa</td></tr><tr><td>5. Explica</td><td class="ag-num">Al cierre</td><td class="ag-num">Presenta en inglés, ante el mentor, cómo funciona una IA y dónde falla</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Si enseña en primaria o inicial</h3><p>Quédese con las etapas 1 y 2 si su meta es explicar la IA con actividades sin pantalla.</p>
+<p>Traiga al curso las preguntas que le hacen sus estudiantes; suelen ser las más difíciles.</p></div><div><h3>Si enseña en secundaria o superior</h3><p>Llegue a la etapa 4: es la que convierte el uso de herramientas en un método que puede enseñar.</p>
+<p>Use sus propios materiales de clase como datos de práctica, siempre sin datos personales.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más cursos</p>
+      <h2>Nueve cursos más para seguir aprendiendo</h2>
+      <p class="ag-lede">Para docentes que quieren ir más lejos con los datos, con la IA o con la matemática que la sostiene. Todos en vivo y en inglés.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Datos para el docente</h3>
+        <span class="ag-band-sub">Sin programar o con poco código</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IDI / DATOS / 01</p>
+          <h4>Datos e IA sin programar</h4>
+          <p>Hojas de cálculo y tableros para leer resultados de evaluaciones con más rigor.</p>
+          <a class="ag-course-link" href="/courses/data-and-ai-analytics-for-non-programmers-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IDI / DATOS / 02</p>
+          <h4>Estadística y probabilidad</h4>
+          <p>La matemática detrás de cualquier promedio, encuesta o modelo.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IDI / DATOS / 03</p>
+          <h4>Análisis de datos completo</h4>
+          <p>Excel, SQL y Python aplicados a tablas reales.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>IA a fondo</h3>
+        <span class="ag-band-sub">Desde los 18 años</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IDI / FONDO / 01</p>
+          <h4>IA y aprendizaje automático</h4>
+          <p>Modelos que aprenden, redes neuronales y proyectos con datos abiertos.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IDI / FONDO / 02</p>
+          <h4>Inteligencia artificial clásica</h4>
+          <p>Búsqueda, lógica y agentes: la IA que existía antes de los chatbots.</p>
+          <a class="ag-course-link" href="/courses/artificial-intelligence-complete-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IDI / FONDO / 03</p>
+          <h4>Automatizar tareas con Python</h4>
+          <p>Ordenar listas, generar reportes y ahorrar horas de trabajo administrativo.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Para quien enseña matemática</h3>
+        <span class="ag-band-sub">Profundidad matemática</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IDI / MATE / 01</p>
+          <h4>Matemática de la ciencia de datos</h4>
+          <p>Álgebra lineal y probabilidad con el nivel que pide el aprendizaje automático.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IDI / MATE / 02</p>
+          <h4>Matemática universitaria</h4>
+          <p>Cálculo y álgebra lineal para refrescar la base de la carrera.</p>
+          <a class="ag-course-link" href="/courses/college-mathematics-complete-masterclass">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IDI / MATE / 03</p>
+          <h4>Matemática de secundaria a fondo</h4>
+          <p>Del álgebra al cálculo, con problemas que hacen pensar.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Formato</p>
+      <h2>¿Cómo son las clases de IA para docentes?</h2>
+      <p class="ag-lede">Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Antes del turno</p><p class="ag-slot-l">Muy temprano, con la mente fresca.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Fin de la jornada</p><p class="ag-slot-l">Después de corregir y planificar.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Semanas de evaluación</p><p class="ag-slot-l">En individual, se pausa y se retoma.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Código en pantalla compartida</h3><p>Usted escribe y el mentor le guía, línea por línea.</p></div>
+      <div><h3>Primero la predicción</h3><p>Antes de ejecutar, usted dice qué cree que pasará y por qué.</p></div>
+      <div><h3>Material propio</h3><p>Practicamos con textos y tablas que usted elige, sin datos personales.</p></div>
+      <div><h3>Herramientas con límites</h3><p>La IA generativa se usa para contrastar, nunca para firmar trabajo ajeno.</p></div>
+      <div><h3>Un mismo mentor</h3><p>Conoce su asignatura, su nivel y lo que busca.</p></div>
+      <div><h3>Grupo o a solas</h3><p>Grupos de quince a veinte docentes y adultos, o clases individuales.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Proyectos de nuestros estudiantes</p>
+      <h2>Proyectos de nuestros estudiantes</h2>
+      <p class="ag-lede">Una muestra del trabajo que hacen estudiantes de distintas edades en nuestras clases, útil para imaginar actividades. Hay más en <a class="ag-inline-link" href="/student-labs">Student labs</a>, en inglés.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Captura del proyecto NutriLife, un coach de nutrición con IA" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>NutriLife</h4>
+          <p>Un coach de nutrición con IA que analiza las comidas y avanza paso a paso hacia una meta.</p>
+          <p class="ag-proj-meta">de Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Captura de Misti, un chatbot con IA para matemáticas y programación" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>Misti</h4>
+          <p>Un chatbot que responde preguntas de matemáticas y programación, creado y publicado por un estudiante.</p>
+          <p class="ag-proj-meta">de Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Captura de GuardianX, un asistente con IA para la seguridad en internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>GuardianX</h4>
+          <p>Un asistente que ayuda a los jóvenes a reconocer situaciones de riesgo en internet.</p>
+          <p class="ag-proj-meta">de Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Captura de la aplicación del clima SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Aplicación web</p>
+          <h4>SkyCast</h4>
+          <p>Un sitio de pronóstico del clima con condiciones en vivo para cualquier lugar.</p>
+          <p class="ag-proj-meta">de Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Precios</p>
+      <h2>Precio del curso de IA para docentes</h2>
+      <p class="ag-lede">La mensualidad figura abajo en dólares estadounidenses. Se paga con tarjeta y su banco aplica el tipo de cambio al procesar el cargo, por lo que el monto en su estado de cuenta puede variar ligeramente. No hay matrícula ni pagos por materiales.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Primera clase gratis</p>
+        <p class="ag-price-amt">Gratis</p>
+        <p class="ag-price-alt">sin tarjeta</p>
+        <ul><li>Clase de prueba gratuita</li><li>Conversación sobre su asignatura y su meta</li><li>Sin tarjeta para reservar</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Reservar</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Clase grupal</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Grupo de quince a veinte personas</li><li>Dos clases en vivo por semana</li><li>Mentor fijo</li><li>Pago mensual, se puede pausar</li></ul>
+        <a href="#start" class="ag-btn">Empezar aquí</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Clases individuales</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Solo usted y su mentor</li><li>Ejemplos de su propia asignatura</li><li>Horario que se adapta a su colegio</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Consultar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lo que dicen las familias</p>
+      <h2>4.9 de 5 en 547 reseñas de Google</h2>
+      <p class="ag-lede">Comentarios de familias y estudiantes tal como los dejaron en Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preguntas frecuentes</p>
+      <h2>IA para docentes: preguntas frecuentes</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>¿Las clases son en español?</h3>
+        <p>No, se dictan en inglés, en vivo y por internet. Para un docente es una ventaja: la documentación y la investigación sobre IA están en inglés, y el curso trabaja la expresión oral, que en el EF EPI 2025 es la habilidad más baja del Perú, con 480 puntos. Los docentes peruanos obtienen 532 en ese índice, de modo que muchos ya tienen la base para seguir una clase. El mentor habla pausado.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Este curso cuenta para el escalafón magisterial?</h3>
+        <p>No. Según el MINEDU, la constancia que sirve para el escalafón de la Carrera Pública Magisterial la da su propio curso de IA en el SIFODS. El nuestro no tiene relación con el Ministerio ni otorga puntos.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Ya tomé el curso del MINEDU, me sirve este?</h3>
+        <p>Probablemente sí, porque cubre otra parte. El curso estatal trabaja conceptos y recomendaciones para el aula. El nuestro le enseña a programar modelos pequeños para entender por qué la IA acierta y por qué falla.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Necesito saber programar?</h3>
+        <p>No. Empezamos con Python desde cero, con programas cortos que leen y cuentan texto. Muchos docentes de letras terminan programando sin dificultad.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Me enseñarán a usar la IA con mis estudiantes?</h3>
+        <p>Le enseñamos cómo funciona la IA y cómo verificarla. El uso con estudiantes lo decide usted con su colegio, respetando la edad mínima que fija cada empresa: ChatGPT pide 13 años y permiso de los padres hasta los 18, y Claude exige 18.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Recibo certificado?</h3>
+        <p>Sí, un certificado de finalización de Modern Age Coders. No es oficial ni lo reconocen el MINEDU ni SUNEDU, y no sirve para el escalafón.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿En qué horario son las clases?</h3>
+        <p>Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, a las 7:00 p. m. en Lima, en la India son las 5:30 a. m. del día siguiente.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Puedo pausar en semanas de evaluación?</h3>
+        <p>Sí. En el formato individual se reprograma sin problema, y en grupo puede pausar la mensualidad y volver al mes siguiente.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Sirve para docentes de inicial y primaria?</h3>
+        <p>Sí. Muchas ideas del curso se llevan al aula sin pantallas. El mentor adapta los ejemplos a su nivel educativo.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Cómo se paga?</h3>
+        <p>Con tarjeta, una vez al mes, en dólares estadounidenses; el tipo de cambio lo aplica su banco. No hay matrícula.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Para seguir</p>
+      <h2>Otras páginas que pueden servirle</h2>
+      <p class="ag-lede">Guías nuestras sobre IA y sobre cómo enseñamos, varias en inglés.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tool age guide</a></h3><p>La edad mínima de cada herramienta, con la cita de su empresa.</p></div>
+      <div><h3><a class="ag-inline-link" href="/we-teach-you-how-to-think">We teach you how to think</a></h3><p>Por qué enseñamos a razonar antes que a usar herramientas.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-agents-explained">AI agents explained</a></h3><p>La diferencia entre un chatbot y un agente que actúa.</p></div>
+      <div><h3><a class="ag-inline-link" href="/curso-de-inteligencia-artificial-en-ingles-peru">Curso de inteligencia artificial en inglés</a></h3><p>El paso siguiente si quiere entrar al aprendizaje automático.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>Toda nuestra oferta para el país en una sola página.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Así trabaja un mentor durante una clase en directo.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Empiece aquí</p>
+        <h2>Pruebe una clase de IA pensada para docentes</h2>
+        <p class="ag-lede">En la clase de prueba conversamos sobre lo que enseña y lo que quiere entender, y usted ejecuta su primer programa corto. Al terminar le proponemos un curso y un ritmo. No necesita experiencia.</p>
+        <p class="ag-mt-40">Si prefiere leer algo antes, revise <a class="ag-inline-link" href="/ai-tools-age-guide">AI tool age guide</a> o <a class="ag-inline-link" href="/we-teach-you-how-to-think">We teach you how to think</a>, ambas en inglés.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20soy%20docente%20en%20Per%C3%BA%20y%20me%20interesa%20el%20curso%20de%20inteligencia%20artificial%20en%20ingl%C3%A9s.%20%C2%BFPuedo%20tomar%20una%20clase%20de%20prueba%20gratuita%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'idi',pos:'end'});">Escríbanos por WhatsApp</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Cada clase se dicta en vivo, por internet y en inglés, desde la India. Para coordinar puede escribirnos en castellano por WhatsApp.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_idi(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Su nombre</label>
+            <input id="pe-name" type="text" name="name" placeholder="Nombre del padre, madre o estudiante" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Teléfono o WhatsApp, Perú +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Grupo de edad</label>
+            <select id="pe-age" name="age"><option value="6-12">Niño o niña, 6 a 12</option><option value="13-18">Adolescente, 13 a 18</option><option value="college">Universitario</option><option value="adult">Profesional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Solicitar la clase gratis</button>
+          <p class="ag-form-note">Reserva gratuita, sin tarjeta.</p>
+        </form>
+        <div class="ag-pd-card"><h3>¿Quiere una clase antes? Reserve una demo prioritaria</h3><p>Una demo prioritaria es una clase completa de unos 45 a 60 minutos. Después, el mentor envía por WhatsApp un informe escrito de habilidades y un plan de aprendizaje personal. Si se inscribe, el pago de la demo se descuenta de la primera mensualidad: envíenos por WhatsApp el número de pedido de la demo.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Reservar una demo prioritaria</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Clases en vivo y en línea de programación, IA y matemáticas para personas de 6 a 67 años, siempre en inglés. Enseñamos desde 2020, a más de
+          10,000 estudiantes en 25 países.
+        </p>
+      </div>
+      <div><h4>Cursos para docentes</h4><ul><li><a href="/courses/ai-tools-mastery-complete-college">Herramientas de IA</a></li><li><a href="/courses/python-programming-masterclass-zero-to-advanced-college">Python desde cero</a></li><li><a href="/courses/complete-generative-ai-masterclass-college">IA generativa</a></li><li><a href="/courses">Todos los cursos</a></li></ul></div>
+      <div><h4>Perú</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Clases en Perú</a></li><li><a href="/curso-de-inteligencia-artificial-para-ninos-peru">IA para niños</a></li><li><a href="/curso-de-ia-para-adolescentes-peru">IA para adolescentes</a></li><li><a href="/ai-tools-age-guide">Edades de las herramientas</a></li></ul></div>
+      <div>
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="/about">Quiénes somos</a></li>
+          <li><a href="/how-we-teach">Cómo enseñamos</a></li>
+          <li><a href="/love">Reseñas</a></li>
+          <li><a href="/contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Clases en vivo y en línea, en inglés, para todo el mundo.</span>
+      <span>Un chatbot elige la palabra más probable, no la más cierta</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Clase gratis</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Demo prioritaria</a><a href="tel:+919123366161" aria-label="Llamar al +91 91233 66161">Llamar</a></div>
+
+<script>
+window.submitLead_idi = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Enviando...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'ia-para-docentes-curso-en-ingles-inline', meta: { name: name, age: age, page: 'ia-para-docentes-curso-en-ingles' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Muchas gracias' + (name ? ', ' + name.split(' ')[0] : '') + '. Un mentor le llamará en breve.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Algo salió mal. Por favor, inténtelo de nuevo.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Error de conexión. Por favor, inténtelo de nuevo.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

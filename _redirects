@@ -10120,4 +10120,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /cursos-online-con-certificado-programacion-en-ingles /src/pages/cursos-online-con-certificado-programacion-en-ingles.html 200
 /cursos-online-con-certificado-programacion-en-ingles.md /src/pages/cursos-online-con-certificado-programacion-en-ingles.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ia-para-docentes-curso-en-ingles /src/pages/ia-para-docentes-curso-en-ingles.html 200
+/ia-para-docentes-curso-en-ingles.md /src/pages/ia-para-docentes-curso-en-ingles.md 200
 /* /src/pages/404.html 404
