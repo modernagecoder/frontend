@@ -1055,6 +1055,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Coding for international-school families in Lima: https://learn.modernagecoders.com/international-school-families-lima-coding
 - Aprender a programar desde cero, pensando: https://learn.modernagecoders.com/aprender-a-pensar-no-copiar-programacion
 - Programar con IA sin copiar: https://learn.modernagecoders.com/programar-con-ia-sin-copiar
+- Alternativa en inglés a Crack The Code: https://learn.modernagecoders.com/alternativa-a-crack-the-code-en-ingles
 ## Germany (live online classes in English, mentors matched to the learner's pace and accent)
 
 Hub: https://learn.modernagecoders.com/coding-classes-in-germany. Every class is live and taught in English only; German-language pages explain the same English-taught classes. Fees show in euro on the page and checkout charges USD.

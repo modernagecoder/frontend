@@ -1022,6 +1022,7 @@ const SLUGS = [
   'international-school-families-lima-coding',
   'aprender-a-pensar-no-copiar-programacion',
   'programar-con-ia-sin-copiar',
+  'alternativa-a-crack-the-code-en-ingles',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2123,6 +2124,7 @@ const LLMS_LABELS = {
   'international-school-families-lima-coding': 'Coding for international-school families in Lima',
   'aprender-a-pensar-no-copiar-programacion': 'Aprender a programar desde cero, pensando',
   'programar-con-ia-sin-copiar': 'Programar con IA sin copiar',
+  'alternativa-a-crack-the-code-en-ingles': 'Alternativa en inglés a Crack The Code',
 };
 
 function wireLlms(slugs) {
