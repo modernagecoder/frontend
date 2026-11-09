@@ -1037,6 +1037,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Python for engineering students in Peru: https://learn.modernagecoders.com/python-for-engineering-students-peru
 - Java course for Peru: https://learn.modernagecoders.com/java-course-peru
 - Java for computer science students in Peru: https://learn.modernagecoders.com/java-for-computer-science-students-peru
+- C++ course for Peru: https://learn.modernagecoders.com/c-plus-plus-course-peru
 ## Germany (live online classes in English, mentors matched to the learner's pace and accent)
 
 Hub: https://learn.modernagecoders.com/coding-classes-in-germany. Every class is live and taught in English only; German-language pages explain the same English-taught classes. Fees show in euro on the page and checkout charges USD.

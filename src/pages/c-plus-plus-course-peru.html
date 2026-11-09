@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>C++ Course for Peru: Live Online Classes in English</title>
+  <meta name="description" content="A C++ course for teenagers, university students and adults in Peru, live online in English: why the OPI final uses C++, what you learn, and flexible hours.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/c-plus-plus-course-peru">
+  <link rel="alternate" type="text/markdown" href="/src/pages/c-plus-plus-course-peru.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#147175">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/c-plus-plus-course-peru">
+  <meta property="og:title" content="C++ Course for Peru: Live Online Classes in English">
+  <meta property="og:description" content="Live C++ classes in English for learners in Peru: the OPI 2025 phases from UTEC's own rules, why the final is C++ only, Peru's IOI record, which C++ standard to learn, and a prefix-sum lesson that compiles and runs.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="C++ Course for Peru: Live Online Classes in English">
+  <meta name="twitter:description" content="A C++ course taught live in English for Peru: olympiad-minded teenagers, students and adults, at any hour.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cpl .ag-hero h1 { max-width: 20ch; letter-spacing: -0.012em; }
+.ag-root.ag-cpl .ag-capsule { border-left-width: 6px; border-radius: 0; }
+.ag-root.ag-cpl .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-cpl .ag-table td:first-child { font-weight: 600; }
+.ag-root.ag-cpl .ag-code-note code { font-weight: 600; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/c-plus-plus-course-peru#page","url":"https://learn.modernagecoders.com/c-plus-plus-course-peru","name":"C++ Course for Peru","description":"A guide to learning C++ from Peru with live classes taught in English, built from the Reglamento OPI 2025 and the OPI home page, IOI statistics and the IOI 2025 syllabus, the ISO C++ standard page and INEI household data, with an original prefix-sum lesson.","inLanguage":"en-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding and AI classes in Peru","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"C++ course","item":"https://learn.modernagecoders.com/c-plus-plus-course-peru"}]},{"@type":"Course","name":"C++ Course for Peru","description":"Live online C++ courses taught in English for learners in Peru from age 9: modern C++, the standard library, data structures, algorithms and olympiad-style problem solving, in a group of fifteen to twenty or one to one, at hours the learner chooses.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/c-plus-plus-course-peru"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/c-plus-plus-course-peru"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/c-plus-plus-course-peru"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in Spanish?","acceptedAnswer":{"@type":"Answer","text":"No. Our C++ classes are live online and taught only in English. Mentors speak clearly, match the learner's pace and accent, and show every step on screen. C++ error messages and documentation are in English, so learning in English helps from the very first compile."}},{"@type":"Question","name":"Is C++ too hard as a first language?","acceptedAnswer":{"@type":"Answer","text":"It is harder than Python at first, but very learnable with a patient mentor. Teenagers and adults can start directly with C++. Children of 9 to 12 have a gentler C++ for Kids course, and some learners start with Python and switch later."}},{"@type":"Question","name":"Why is the OPI final only in C++?","acceptedAnswer":{"@type":"Answer","text":"The OPI 2025 rules allow C++ or Python in the online first phase but only C++ in the in-person final. The rules do not explain why; in our view, C++ is fast and predictable, which suits timed problems with strict limits."}},{"@type":"Question","name":"Can you prepare my child for the OPI?","acceptedAnswer":{"@type":"Answer","text":"We teach C++ and olympiad-style reasoning with original problems, and our competitive programming course practises under time limits. We are not connected with UTEC or the OPI, never reproduce their problems, and never promise a place or a medal."}},{"@type":"Question","name":"Who can take part in the OPI?","acceptedAnswer":{"@type":"Answer","text":"Under the 2025 rules, pupils enrolled in a Peruvian school in 2025 or who finished school in 2024, aged at most 20 on 1 July 2025. UTEC says the competition is free for all secundaria pupils. Check UTEC's current rules before each edition."}},{"@type":"Question","name":"When are classes in Peru time?","acceptedAnswer":{"@type":"Answer","text":"Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. India is ten and a half hours ahead of Peru all year, so 15:00 in Peru is 01:30 the next day in India."}},{"@type":"Question","name":"Which C++ standard do you teach?","acceptedAnswer":{"@type":"Answer","text":"Modern C++. The current ISO standard is C++23 (ISO/IEC 14882:2024). Beginners learn the modern style, with vectors, strings and the standard library from the start, and our examples compile under C++17 and later."}},{"@type":"Question","name":"Do learners get a certificate?","acceptedAnswer":{"@type":"Answer","text":"Learners who pass a course's final assessment receive our own Modern Age Coders certificate of completion. It is not a Peruvian qualification and is not issued by any school, university or olympiad."}},{"@type":"Question","name":"Can I use AI tools while learning?","acceptedAnswer":{"@type":"Answer","text":"Adult learners may ask an AI to review code they wrote. Claude has a minimum age of 18 and ChatGPT requires parental consent below 18, so our teen groups use no adult AI accounts. Generative AI is banned during the OPI, which is why solo reasoning is the skill we train."}},{"@type":"Question","name":"What equipment is needed?","acceptedAnswer":{"@type":"Answer","text":"A laptop or desktop computer, a stable connection and ideally a headset with a microphone. Compilers are free, and the mentor helps with installation in the first class. Phones are not suitable for writing C++."}},{"@type":"Question","name":"How are fees paid?","acceptedAnswer":{"@type":"Answer","text":"Monthly, by card, in US dollars. Your bank converts each payment into soles, so the amount may vary slightly from month to month. The first class is free and needs no card."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/c-plus-plus-course-peru","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-cpl">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Peru</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Peru</a></li>
+      <li><a href="#why">Why C++</a></li>
+      <li><a href="#opi">The OPI</a></li>
+      <li><a href="#learn">What you learn</a></li>
+      <li><a href="#lesson">Prefix sums</a></li>
+      <li><a href="#times">Peru hours</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a> / C++ course
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Peru &middot; C++ in English &middot; Ages 9 to adult</p>
+        <h1>C++ course for Peru, taught live in English</h1>
+        <p class="ag-lede">In Peru, C++ has a very concrete reason to exist on a teenager's timetable: it is the only language allowed in the final of the national informatics olympiad, the OPI, which picks the team Peru sends to the IOI. It is also the language behind game engines, browsers, trading systems and much of the software that has to be fast. This page covers why C++ is worth learning from Peru, how the OPI works according to UTEC's own rules, what a full C++ course teaches, and a classic olympiad technique you can compile tonight.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#lesson" class="ag-btn ag-btn--ghost">See the prefix-sum lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Peru%20and%20would%20like%20to%20learn%20C%2B%2B%20in%20live%20classes%20in%20English.%20Could%20I%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cpl'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students worldwide &middot; every class live, online and in English</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Who</dt><dd>Children from 9, teenagers, adults</dd>
+          <dt>Olympiad</dt><dd>OPI-style problem solving</dd>
+          <dt>Standard</dt><dd>Modern C++, compiled in class</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Hours in Peru</dt><dd>Picked by the learner</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Short answer</p>
+      <p>Modern Age Coders teaches C++ live, online and in English to learners across Peru, with mentors based in India leading every session in real time. Teenagers learn C++ from zero and can move on to olympiad problem solving of the kind the OPI rewards; university students and adults take a full modern C++ course; children of 9 to 12 have their own beginner course. Choose a batch of fifteen to twenty or private lessons, at the hour that suits you in Peru, and begin with a free class.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Pick a starting point</p>
+      <h2>Three C++ courses for learners in Peru</h2>
+      <p class="ag-lede">Two start from nothing, one for teenagers and one for adults. The third is for teenagers who can already code and want contest problems.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/cpp-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/cpp-teens.webp" alt="C++ for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CPL / 01</p>
+          <h3>C++ for Teens</h3>
+          <p>Ages 13 to 18, complete beginners, over ten to twelve months. Fundamentals first, then the standard library, data structures, algorithms and small games, at two live classes a week.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/cpp-programming-complete-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/cpp-college.webp" alt="C++ Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CPL / 02</p>
+          <h3>C++, fundamentals to systems</h3>
+          <p>For learners of 18 and over, from zero, over ten to twelve months. Modern C++, memory, the STL, object-oriented and generic design, and performance-minded projects.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/competitive-programming-for-teens-course">
+        <div class="ag-pick-shot"><img src="/images/competitive-programming-teens.webp" alt="Competitive Programming for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CPL / 03</p>
+          <h3>Competitive programming for teens</h3>
+          <p>Six months, joinable any month, for 13 to 18 year olds who already write basic programs. Weekly problem sets and virtual contests in the style of school olympiads.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="why">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Why C++</p><h2>Why learn C++ in Peru rather than another language?</h2><p class="ag-lede">Because it is fast, because it teaches you how a computer really handles memory, and because in Peru it is the language of the olympiad final. Few languages give a teenager that combination.</p></div>
+    <div class="ag-grid-3"><div><h3>The olympiad route</h3><p>The OPI final is C++ only. A secundaria pupil who wants to compete seriously needs C++ sooner or later, and the earlier the language feels natural, the more energy is left for the actual problems.</p></div><div><h3>Speed and control</h3><p>C++ compiles to fast machine code and lets the programmer decide how memory is used. That is why it runs game engines and other software where every millisecond counts.</p></div><div><h3>Understanding, not magic</h3><p>Learning C++ means learning what a vector, a reference or a copy really costs. Those ideas make every other language easier to understand, including Python and Java.</p></div></div>
+    <p class="ag-mt-40">C++ is harder than Python at the start, and we are honest about that. For a ten year old or a teenager who has never coded, Python or Scratch can be a gentler first step; our <a class="ag-inline-link" href="/clases-de-programacion-para-adolescentes-peru">clases de programación para adolescentes</a> page explains the options for secundaria. For a determined teenager, a university student or an adult, starting directly with C++ works well with a patient mentor.</p>
+    <p>All the teaching is in English, live. That matters more for C++ than for most languages: compiler messages are long and dense, and the standard library is documented in English. Learners practise reading those messages aloud with their mentor until they stop being frightening.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="opi">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The OPI</p><h2>How does the Peruvian Informatics Olympiad work, and why is it C++?</h2><p class="ag-lede">The OPI is organised by UTEC and is free for every secundaria pupil in Peru. Its 2025 rules set two phases: an online round in C++ or Python, then an in-person final in C++ alone, from which Peru's teams for the Ibero-American and International Olympiads are chosen.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The two phases of the OPI 2025, as set out in UTEC's rules</caption><thead><tr><th scope="col"></th><th scope="col">Phase 1</th><th scope="col">Phase 2 (final)</th></tr></thead><tbody><tr><td>Date</td><td>18 May 2025</td><td>Saturday 31 May 2025</td></tr><tr><td>Format</td><td>Online</td><td>In person at UTEC, Lima</td></tr><tr><td>Length</td><td>4 to 5 hours</td><td>5 hours</td></tr><tr><td>Languages allowed</td><td>C++ or Python</td><td>C++ only</td></tr><tr><td>Problems</td><td>3 to 6, partial scores possible</td><td>4 to 6, partial scores possible</td></tr><tr><td>What it leads to</td><td>The top 30 with a score above zero reach Phase 2</td><td>Top 10 to 15 to the OII; top 4 to the IOI</td></tr><tr><td>Ranking</td><td>Score first; time penalty only to break ties</td><td>Score first; time penalty only to break ties</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Comité Organizador Olimpiada Peruana de Informática, Reglamento OPI 2025 (published on opi.utec.edu.pe), read on 9 November 2026. The same rules say both phases run on the omegaUp judge, problems come from topics in the official IOI syllabus, contestants must be at most 20 years old on 1 July 2025 and enrolled in a Peruvian school in 2025 or have finished in 2024, and generative AI is forbidden. The OII 2025 was set for 14 and 15 June 2025 and the IOI 2025 for 27 July to 3 August 2025 in Sucre, Bolivia.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the final is C++</h3><p>The rules do not give a reason. Our reading is practical: C++ is fast and predictable, its standard library has the data structures contest problems need, and a final in a single language keeps the judging simple and fair.</p>
+<p>The 2026 edition followed a similar calendar: UTEC's OPI page gave 18 March 2026 as the last day to register and 11 April 2026 for the Phase 2 final. The page did not yet list 2027 dates when we checked.</p></div><div><h3>Peru at the IOI</h3><p>The OPI rules note that Peru has taken part in the IOI since 2022. The IOI's own statistics for Peru record 5 years of participation and 13 contestants, with one bronze medal and one honourable mention so far.</p>
+<p>That is a young record with room to grow, and every place on the IOI team runs through the C++ final. We are not connected with UTEC, the OPI or the IOI, and we never promise a qualification or a medal; our job is the language and the reasoning, practised on problems of our own.</p></div></div>
+    <p class="ag-mt-40">Teenagers interested in other computing olympiads, including UTEC's artificial intelligence contest, can read our Spanish page on the <a class="ag-inline-link" href="/curso-de-ia-para-adolescentes-peru">curso de IA para adolescentes</a>, and pupils in their final school year our page on <a class="ag-inline-link" href="/programacion-para-5to-de-secundaria">programación para 5to de secundaria</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="learn">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What you learn</p><h2>What does a C++ course cover, and which C++ should you learn?</h2><p class="ag-lede">Modern C++, in a fixed order. The current ISO standard is C++23, published as ISO/IEC 14882:2024, and a good course teaches the modern style from the start instead of the C-flavoured C++ of old textbooks.</p></div>
+    <ol class="ag-steps"><li><strong>Compiling and running.</strong> What a compiler does, how to read its errors, and the edit, compile, run, test loop that every class repeats.</li><li><strong>Types and control flow.</strong> <code>int</code>, <code>long long</code>, <code>double</code>, <code>bool</code>, conditions and loops, with a first warning about values that grow too large for their type.</li><li><strong>Functions and references.</strong> Passing values, passing references, and why copying a large object by accident makes a program slow.</li><li><strong>The standard library.</strong> <code>vector</code>, <code>string</code>, <code>map</code>, <code>set</code>, <code>sort</code> and friends, which do most of the work in real programs and in contests.</li><li><strong>Memory and objects.</strong> Classes, constructors and destructors, ownership and smart pointers, and the bugs that come from getting them wrong.</li><li><strong>Algorithms.</strong> Searching, sorting, prefix sums, recursion, graphs and dynamic programming, with the cost of each worked out before it is coded.</li><li><strong>Contest practice or a project.</strong> Teenagers aiming at the OPI move to timed problem sets; others build a game, a simulation or a tool and explain it to their mentor in English.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How long it takes</h3><p>Our full C++ courses for teenagers and for adults each take ten to twelve months, meeting live twice a week. The competitive programming course for teenagers adds six months of contest practice once the basics are secure.</p>
+<p>Children of 9 to 12 can start with C++ for Kids, a six-month course built around games and puzzles, and continue into the teenage course later.</p></div><div><h3>Compilers and setup</h3><p>Learners install a free compiler on their own computer in the first class, while the mentor watches over a shared screen, and compile every example themselves. The lesson on this page was compiled with clang in C++17 mode; the code works unchanged under later standards.</p>
+<p>C++ needs a laptop or desktop. INEI found that 36.4% of Peruvian households had at least one computer in the April to June 2026 quarter, so if yours is shared, tell us and we will choose class hours around it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="lesson">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real lesson</p><h2>What is a prefix sum, and why do olympiad problems need it?</h2><p class="ag-lede">A prefix sum is a running total kept in an array, so the sum of any stretch of the original array takes one subtraction instead of a loop. The IOI 2025 syllabus lists prefix sums among the array techniques it treats as fully included. Here is the lesson we use to introduce it, for learners of about 13 and over.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The problem</h3><p>You have eight numbers, perhaps daily scores, and you will be asked many questions of the form "what is the total from day l to day r?". Version 1 answers each question by adding the numbers in the range again.</p>
+<p>With eight numbers and three questions, that is fine: 13 additions. Contest problems use hundreds of thousands of numbers and questions, and then the same idea takes far too long.</p></div><div><h3>The idea</h3><p>Build an array <code>p</code> where <code>p[i]</code> is the total of the first <code>i</code> numbers, so <code>p[0]</code> is 0. Then the sum from <code>l</code> to <code>r</code> is <code>p[r + 1] - p[l]</code>: one subtraction, whatever the length of the range.</p>
+<p>The array <code>p</code> has <strong>one more entry than the data</strong>, and getting that wrong is the classic bug. Write <code>p[r] - p[l]</code> by mistake and the one-element range from 3 to 3 comes out as 0.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>ranges.cpp: the slow way, the prefix-sum way, and the off-by-one</b><span>C++</span></figcaption><pre>#include &lt;iostream&gt;
+#include &lt;vector&gt;
+using namespace std;
+
+int main() {
+    vector&lt;long long&gt; a = {4, 7, 1, 9, 3, 8, 2, 6};
+    int n = a.size();
+
+    // Version 1: add up every range again
+    long long adds = 0;
+    auto slow = [&amp;](int l, int r) {
+        long long s = 0;
+        for (int i = l; i &lt;= r; i++) { s += a[i]; adds++; }
+        return s;
+    };
+
+    // Version 2: prefix sums, p[i] = a[0] + ... + a[i-1]
+    vector&lt;long long&gt; p(n + 1, 0);
+    for (int i = 0; i &lt; n; i++) p[i + 1] = p[i] + a[i];
+    auto fast = [&amp;](int l, int r) { return p[r + 1] - p[l]; };
+
+    int queries[3][2] = {{0, 7}, {2, 5}, {3, 3}};
+    for (auto&amp; q : queries)
+        cout &lt;&lt; "sum " &lt;&lt; q[0] &lt;&lt; ".." &lt;&lt; q[1] &lt;&lt; ": "
+             &lt;&lt; slow(q[0], q[1]) &lt;&lt; " " &lt;&lt; fast(q[0], q[1]) &lt;&lt; "\n";
+    cout &lt;&lt; "additions, version 1: " &lt;&lt; adds &lt;&lt; "\n";
+    cout &lt;&lt; "additions to build p: " &lt;&lt; n &lt;&lt; "\n";
+    cout &lt;&lt; "wrong formula p[r] - p[l] for 3..3: " &lt;&lt; p[3] - p[3] &lt;&lt; "\n";
+}</pre><p class="ag-code-note">Compiled with <code>c++ -std=c++17 -O2 -Wall</code> and run, it prints <code>sum 0..7: 40 40</code>, <code>sum 2..5: 21 21</code>, <code>sum 3..3: 9 9</code>, then <code>additions, version 1: 13</code>, <code>additions to build p: 8</code> and <code>wrong formula p[r] - p[l] for 3..3: 0</code>.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>scale.cpp: the same comparison at contest size (sizes are ours)</b><span>C++</span></figcaption><pre>#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    long long n = 200000, q = 200000;
+    cout &lt;&lt; "worst case, version 1: " &lt;&lt; n * q &lt;&lt; " additions\n";
+    cout &lt;&lt; "version 2: " &lt;&lt; n + q &lt;&lt; " additions and subtractions\n";
+}</pre><p class="ag-code-note">It prints <code>worst case, version 1: 40000000000 additions</code> and <code>version 2: 400000 additions and subtractions</code>.</p></figure>
+    <p class="ag-mt-40">Forty billion operations against four hundred thousand: that is the difference between a program that runs out of time and one that finishes almost instantly. The sizes of 200,000 numbers and 200,000 questions are our own example, not limits from any OPI problem. Notice too that we store the totals in <code>long long</code>; with large values, a running total can outgrow an <code>int</code>, and C++ will not warn you.</p>
+    <p>The habit this lesson builds is the one that matters in every contest: <strong>work out the cost before you write the loop</strong>, and test the smallest case, a range of one element, where off-by-one bugs live. The numbers and exercises are ours, written for our classes; no problem from the OPI or any other olympiad is reproduced here.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>By hand.</strong> Write out <code>p</code> for the eight numbers on paper. Check that <code>p[8]</code> equals the sum of the whole array.</li><li><strong>Break it on purpose.</strong> Change the formula to <code>p[r] - p[l]</code> and find every query in the program that now gives a wrong answer. Explain why in English.</li><li><strong>Two dimensions.</strong> Extend the idea to a grid, so the sum of any rectangle takes a few additions and subtractions. Draw the picture first.</li><li><strong>Count, then code.</strong> For a problem with a million numbers and a million questions, estimate both versions' operation counts before writing anything.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="think">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Thinking, not copying</p><h2>Can AI tools help me learn C++ for the olympiad?</h2><p class="ag-lede">Not in the way you might hope. UTEC's 2025 rules for the OPI ban generative AI outright when solving problems and remove anyone caught using it, so the skill that counts is reasoning on your own, in C++, against the clock.</p></div>
+    <div class="ag-grid-3"><div><h3>Cost first</h3><p>Before coding, estimate how many operations a solution needs, as in the prefix-sum lesson. That single habit separates contest solutions that pass from those that time out.</p></div><div><h3>Read the error</h3><p>C++ compiler messages are long. We teach learners to find the first real error and fix it, instead of pasting the whole message into a chatbot.</p></div><div><h3>Age rules apply</h3><p>Anthropic restricts Claude to adults of 18 and over, and OpenAI asks for a parent's consent before anyone under 18 uses ChatGPT. Teenagers in our classes work without adult AI accounts; adults may use AI to question their code, not to produce it.</p></div></div>
+    <p class="ag-mt-40">The standard is the same for a teenager in Juliaca, Iquitos or Lima: understand every line, test the edge cases yourself, and be able to explain your solution in plain English. That is what an olympiad final rewards, and it is just as valuable at university and at work.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Peru hours</p><h2>Are C++ classes in English, and what hours work from Peru?</h2><p class="ag-lede">English only, at hours you choose. Peru keeps one clock all year, five hours behind UTC, and India keeps five and a half hours ahead of UTC, so a mentor in India is always ten and a half hours ahead of you. The table converts examples; it is not a class schedule.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Peru time and India time (example conversions)</caption><thead><tr><th scope="col">Peru time</th><th scope="col">India time</th><th scope="col">Who tends to choose it</th></tr></thead><tbody><tr><td>06:45</td><td>17:15</td><td>Early starters before school</td></tr><tr><td>08:30</td><td>19:00</td><td>Weekend or holiday practice</td></tr><tr><td>15:00</td><td>01:30, next day</td><td>Teenagers after a morning school shift</td></tr><tr><td>18:00</td><td>04:30, next day</td><td>Students after classes</td></tr><tr><td>20:30</td><td>07:00, next day</td><td>Adults after work</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: the IANA time zone database, America/Lima and Asia/Kolkata, neither of which uses daylight saving. Conversions are ours.</p>
+    <p class="ag-mt-40">Mentors explain slowly, repeat in simpler words when needed and type key terms into the chat. Learners in the capital who want to know more about studying in English can read about <a class="ag-inline-link" href="/english-medium-coding-classes-lima">English-medium coding classes in Lima</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Stages</p>
+      <h2>Five stages from first C++ program to olympiad problems</h2>
+      <p class="ag-lede">These stages are ours. They decide which group a learner joins and show progress clearly from month to month.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>C++ stages for learners in Peru (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">The learner can</th><th scope="col">A sign they are there</th></tr></thead><tbody><tr><td>1. Compile</td><td>Write, compile and debug small programs</td><td>Fixes the first compiler error unaided</td></tr><tr><td>2. Library</td><td>Use vector, string, map and sort well</td><td>Solves list problems without raw arrays</td></tr><tr><td>3. Cost</td><td>Estimate running time before coding</td><td>Explains the prefix-sum lesson</td></tr><tr><td>4. Algorithms</td><td>Apply recursion, graphs and dynamic programming</td><td>Solves timed problems at school-olympiad level</td></tr><tr><td>5. Contest</td><td>Plan, code and test under a time limit</td><td>Completes virtual contests and reviews them</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents of teenagers</h3><p>Stage 3 is the turning point. A teenager who estimates cost before coding is thinking like an olympiad contestant.</p>
+<p>Monthly notes describe problems solved and ideas understood.</p></div><div><h3>For learners</h3><p>Always test the smallest case. One element, one query, an empty input.</p>
+<p>If your solution is slow, count its operations before you try to speed it up.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses around C++</h2>
+      <p class="ag-lede">Every course is live and in English, with one mentor throughout, in a group or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Starting out</h3>
+        <span class="ag-band-sub">Ages 9 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CPL / START / 01</p>
+          <h4>C++ for kids</h4>
+          <p>Games and puzzles in real C++, ages 9 to 12.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPL / START / 02</p>
+          <h4>Problem solving for teens</h4>
+          <p>Logic, data structures and algorithms from zero.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPL / START / 03</p>
+          <h4>Python for teens</h4>
+          <p>The OPI's other first-round language.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Contest and theory</h3>
+        <span class="ag-band-sub">Teenagers and adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CPL / CONTEST / 01</p>
+          <h4>Competitive programming (18+)</h4>
+          <p>From first contests to ICPC-level practice.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPL / CONTEST / 02</p>
+          <h4>Data structures and algorithms</h4>
+          <p>Theory and implementation for university level.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPL / CONTEST / 03</p>
+          <h4>Olympiad mathematics</h4>
+          <p>The mathematics behind many informatics problems.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Beyond contests</h3>
+        <span class="ag-band-sub">Students and adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CPL / MORE / 01</p>
+          <h4>C programming</h4>
+          <p>Pointers and memory, the ground under C++.</p>
+          <a class="ag-course-link" href="/courses/c-programming-course-for-college-beginners">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPL / MORE / 02</p>
+          <h4>Git and GitHub</h4>
+          <p>Version control for every serious project.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPL / MORE / 03</p>
+          <h4>Java for teens</h4>
+          <p>A second typed language for teenagers.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>How live C++ classes run for learners in Peru</h2>
+      <p class="ag-lede">Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Morning</p><p class="ag-slot-l">A Peruvian morning meets the Indian evening, an easy hour for a lesson.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Late</p><p class="ag-slot-l">Evening classes in Peru reach India before dawn; ask and we will arrange it.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">A private mentor, useful for an olympiad push or a slower start.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Compile every class</h3><p>Learners build and run each program themselves.</p></div>
+      <div><h3>One mentor</h3><p>The same teacher across the whole course.</p></div>
+      <div><h3>Plain English</h3><p>Careful explanations, terms typed in the chat.</p></div>
+      <div><h3>Groups by age</h3><p>Children, teenagers and adults learn separately.</p></div>
+      <div><h3>Problem sets</h3><p>Original problems between classes, reviewed together.</p></div>
+      <div><h3>Group or one to one</h3><p>Fifteen to twenty learners, or a mentor alone with you.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our longer-term students have built</h2>
+      <p class="ag-lede">Learners who keep coding build substantial projects. Here are a few from our older students; there are more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>C++ course fees for learners in Peru</h2>
+      <p class="ag-lede">Fees are listed in US dollars and paid each month by card. Your bank sets the soles amount when it processes the payment, so statements can differ a little from month to month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first C++ class</li><li>Install a compiler and run a program</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A group of fifteen to twenty</li><li>The same mentor each week</li><li>Two live classes weekly</li><li>Monthly, cancel any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A mentor all to yourself</li><li>Olympiad or project focus, as you prefer</li><li>Hours that suit you</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from families and learners, quoted without changes.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Peru</p>
+      <h2>C++ course for Peru: your questions answered</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in Spanish?</h3>
+        <p>No. Our C++ classes are live online and taught only in English. Mentors speak clearly, match the learner's pace and accent, and show every step on screen. C++ error messages and documentation are in English, so learning in English helps from the very first compile.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is C++ too hard as a first language?</h3>
+        <p>It is harder than Python at first, but very learnable with a patient mentor. Teenagers and adults can start directly with C++. Children of 9 to 12 have a gentler C++ for Kids course, and some learners start with Python and switch later.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why is the OPI final only in C++?</h3>
+        <p>The OPI 2025 rules allow C++ or Python in the online first phase but only C++ in the in-person final. The rules do not explain why; in our view, C++ is fast and predictable, which suits timed problems with strict limits.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you prepare my child for the OPI?</h3>
+        <p>We teach C++ and olympiad-style reasoning with original problems, and our competitive programming course practises under time limits. We are not connected with UTEC or the OPI, never reproduce their problems, and never promise a place or a medal.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who can take part in the OPI?</h3>
+        <p>Under the 2025 rules, pupils enrolled in a Peruvian school in 2025 or who finished school in 2024, aged at most 20 on 1 July 2025. UTEC says the competition is free for all secundaria pupils. Check UTEC's current rules before each edition.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes in Peru time?</h3>
+        <p>Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. India is ten and a half hours ahead of Peru all year, so 15:00 in Peru is 01:30 the next day in India.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which C++ standard do you teach?</h3>
+        <p>Modern C++. The current ISO standard is C++23 (ISO/IEC 14882:2024). Beginners learn the modern style, with vectors, strings and the standard library from the start, and our examples compile under C++17 and later.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do learners get a certificate?</h3>
+        <p>Learners who pass a course's final assessment receive our own Modern Age Coders certificate of completion. It is not a Peruvian qualification and is not issued by any school, university or olympiad.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use AI tools while learning?</h3>
+        <p>Adult learners may ask an AI to review code they wrote. Claude has a minimum age of 18 and ChatGPT requires parental consent below 18, so our teen groups use no adult AI accounts. Generative AI is banned during the OPI, which is why solo reasoning is the skill we train.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What equipment is needed?</h3>
+        <p>A laptop or desktop computer, a stable connection and ideally a headset with a microphone. Compilers are free, and the mentor helps with installation in the first class. Phones are not suitable for writing C++.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How are fees paid?</h3>
+        <p>Monthly, by card, in US dollars. Your bank converts each payment into soles, so the amount may vary slightly from month to month. The first class is free and needs no card.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Read next</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for C++ learners and olympiad hopefuls.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-for-competitive-programming">C++ for competitive programming</a></h3><p>Contest techniques in detail.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ioi-olympiad-informatics-training">IOI training</a></h3><p>How informatics olympiad preparation works.</p></div>
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-for-beginners">C++ for beginners</a></h3><p>Starting C++ from nothing.</p></div>
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-classes-for-teens">C++ for teenagers</a></h3><p>What teens build in their first year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/clases-de-programacion-para-adolescentes-peru">Programación para adolescentes</a></h3><p>Our Spanish page for teenagers in Peru.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>Our pages for Peru, all in one place.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free C++ class from Peru</h2>
+        <p class="ag-lede">In the free class you install a compiler, write and run a short C++ program, and tell the mentor whether you are aiming at the OPI, university or a project. We then suggest a course, a group or one-to-one classes, and an hour that works in Peru.</p>
+        <p class="ag-mt-40">Want to read more first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> describes a full class, and the <a class="ag-inline-link" href="/courses">course list</a> shows every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Peru%20and%20would%20like%20to%20learn%20C%2B%2B%20in%20live%20classes%20in%20English.%20Could%20I%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cpl',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are live video lessons in English, taught from India. Message us on WhatsApp in English for a quick answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cpl(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Your name</label>
+            <input id="pe-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Phone or WhatsApp, Peru +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Learner age group</label>
+            <select id="pe-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, nothing to sign.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>C++</h4><ul><li><a href="/c-plus-plus-for-beginners">C++ for beginners</a></li><li><a href="/c-plus-plus-dsa-course">C++ and DSA</a></li><li><a href="/c-plus-plus-for-competitive-programming">Competitive C++</a></li><li><a href="/c-plus-plus-projects-for-students">C++ projects</a></li></ul></div>
+      <div><h4>Peru</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Classes in Peru</a></li><li><a href="/clases-de-programacion-para-adolescentes-peru">Para adolescentes</a></li><li><a href="/programacion-para-5to-de-secundaria">5to de secundaria</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Count the cost, then write the loop</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cpl = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'c-plus-plus-course-peru-inline', meta: { name: name, age: age, page: 'c-plus-plus-course-peru' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
