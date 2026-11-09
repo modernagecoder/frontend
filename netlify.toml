@@ -32871,6 +32871,18 @@
   to = "/src/pages/tutor-ib-matematicas-en-ingles-peru.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/bachillerato-internacional-ciencias-de-la-computacion-tutor"
+  to = "/src/pages/bachillerato-internacional-ciencias-de-la-computacion-tutor.html"
+  status = 200
+
+[[redirects]]
+  from = "/bachillerato-internacional-ciencias-de-la-computacion-tutor.md"
+  to = "/src/pages/bachillerato-internacional-ciencias-de-la-computacion-tutor.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

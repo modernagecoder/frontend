@@ -978,6 +978,7 @@ const SLUGS = [
   'clases-de-matematicas-en-ingles-para-ninos',
   'profesor-particular-de-matematicas-online-peru',
   'tutor-ib-matematicas-en-ingles-peru',
+  'bachillerato-internacional-ciencias-de-la-computacion-tutor',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2035,6 +2036,7 @@ const LLMS_LABELS = {
   'clases-de-matematicas-en-ingles-para-ninos': 'Clases de matemáticas en inglés para niños',
   'profesor-particular-de-matematicas-online-peru': 'Profesor particular de matemáticas online',
   'tutor-ib-matematicas-en-ingles-peru': 'Tutor de IB Matemáticas en inglés',
+  'bachillerato-internacional-ciencias-de-la-computacion-tutor': 'Tutor de IB Ciencias de la Computación',
 };
 
 function wireLlms(slugs) {
