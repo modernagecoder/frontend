@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Programación para niños de 10 años: Python en vivo y en inglés</title>
+  <meta name="description" content="Programación para niños de 10 años en Perú: el paso de Scratch a Python en 5° de primaria, IA sin cuentas de adulto y clases en vivo y en inglés, a toda hora.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/programacion-para-ninos-de-10-anos">
+  <link rel="alternate" type="text/markdown" href="/src/pages/programacion-para-ninos-de-10-anos.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#443F00">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/programacion-para-ninos-de-10-anos">
+  <meta property="og:title" content="Programación para niños de 10 años: Python en vivo y en inglés">
+  <meta property="og:description" content="Por qué los 10 años suelen ser la edad de pasar de bloques a Python, qué da 5° de primaria y una lección de palíndromos en Python escrita por nosotros.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="es_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Programación para niños de 10 años: Python en vivo y en inglés">
+  <meta name="twitter:description" content="Programación para niños de 10 años en Perú: Python, juegos e IA en clases en vivo y en inglés.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-paa .ag-hero h1 { letter-spacing: -0.014em; max-width: 23ch; }
+.ag-root.ag-paa .ag-capsule { border-left-width: 5px; border-radius: 4px; }
+.ag-root.ag-paa .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-paa .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-paa .ag-steps li { line-height: 1.62; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/programacion-para-ninos-de-10-anos#page","url":"https://learn.modernagecoders.com/programacion-para-ninos-de-10-anos","name":"Programación para niños de 10 años","description":"Guía para madres y padres en Perú con un hijo o hija de 10 años, en 5° de primaria: por qué suele ser la edad de pasar de los bloques a Python, qué incluye ese grado según el CNEB, un puente de cuatro semanas de Scratch a Python, una lección de palíndromos escrita y ejecutada por nosotros, cómo enseñamos inteligencia artificial a esta edad sin cuentas de adulto y qué cambia al llegar a secundaria.","inLanguage":"es-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Cursos","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Perú","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Programación para niños de 10 años","item":"https://learn.modernagecoders.com/programacion-para-ninos-de-10-anos"}]},{"@type":"Course","name":"Programación para niños de 10 años","description":"Clases en vivo y en línea de programación para niños de 10 años en Perú, dictadas solo en inglés: Python desde cero, juegos en Roblox con Luau y proyectos de inteligencia artificial adecuados a la edad, en clase grupal o individual, a cualquier hora.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/programacion-para-ninos-de-10-anos"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/programacion-para-ninos-de-10-anos"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/programacion-para-ninos-de-10-anos"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Las clases son en español?","acceptedAnswer":{"@type":"Answer","text":"No. Son clases en vivo y en línea dictadas en inglés, con un mentor desde la India. Lo vemos como una ventaja: Python está escrito con palabras inglesas, así que su hijo aprende el idioma del código y practica inglés hablado en la misma hora. El EF EPI 2025 sitúa a Lima en el nivel alto de inglés, y la expresión oral es lo que más gana con una clase conversada."}},{"@type":"Question","name":"¿Qué aprende un chico de 10 años en sus clases de programación?","acceptedAnswer":{"@type":"Answer","text":"Python desde cero: variables, condiciones, bucles, listas y funciones propias, aplicados a juegos, dibujos y pequeños proyectos. También puede escribir scripts en Luau para Roblox y entender por dentro cómo funciona la inteligencia artificial."}},{"@type":"Question","name":"¿Conviene empezar con Scratch o directamente con Python a los 10 años?","acceptedAnswer":{"@type":"Answer","text":"Si su hijo lee con fluidez y usa el teclado, puede empezar directamente con Python. Si viene de Scratch, usamos un puente de cuatro semanas que traduce cada bloque conocido a su forma escrita."}},{"@type":"Question","name":"¿En qué grado está un niño de 10 años en Perú?","acceptedAnswer":{"@type":"Answer","text":"En 5° de primaria, según la edad normativa que el MINEDU fija al 31 de marzo. Con 6° forma el ciclo V del CNEB."}},{"@type":"Question","name":"¿Puede un niño de 10 años usar ChatGPT en las clases?","acceptedAnswer":{"@type":"Answer","text":"No con su propia cuenta. OpenAI exige un mínimo de 13 años, y entre los 13 y los 17 la autorización de un padre o tutor, y Google pide 13 años para Gemini. A los 10 enseñamos cómo funciona la IA con programas que el niño escribe él mismo."}},{"@type":"Question","name":"¿Se enseña programación en 5° de primaria?","acceptedAnswer":{"@type":"Answer","text":"No como área. La semana de 5° tiene 30 horas pedagógicas repartidas entre Matemática, Comunicación, Inglés, Ciencia y tecnología y otras áreas, sin un curso de computación. El CNEB espera que el niño elabore material digital como presentaciones y videos, no que programe."}},{"@type":"Question","name":"¿Cuánto debe practicar en casa?","acceptedAnswer":{"@type":"Answer","text":"Poco y seguido: diez o quince minutos, dos o tres veces por semana, jugando con lo que hizo en clase. No damos tareas largas."}},{"@type":"Question","name":"¿A qué hora son las clases?","acceptedAnswer":{"@type":"Answer","text":"Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Un ejemplo: 11:00 a. m. en Lima equivale a 9:30 p. m. en la India, con la misma diferencia en enero que en julio."}},{"@type":"Question","name":"¿Qué computadora necesita?","acceptedAnswer":{"@type":"Answer","text":"Basta un equipo de escritorio o portátil que tenga teclado, cámara y micrófono, más un internet que no se corte. Python se instala gratis en la primera clase, o se usa en el navegador."}},{"@type":"Question","name":"¿Recibe algún certificado?","acceptedAnswer":{"@type":"Answer","text":"Al cerrar cada curso le damos una constancia nuestra, firmada por Modern Age Coders. No es un documento oficial del sistema educativo peruano: no tenemos relación con el MINEDU ni con ningún colegio."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/programacion-para-ninos-de-10-anos","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-paa">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Perú</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Perú</a></li>
+      <li><a href="#diez">A los 10</a></li>
+      <li><a href="#quinto">5° de primaria</a></li>
+      <li><a href="#puente">De Scratch a Python</a></li>
+      <li><a href="#palindromos">Ejemplo</a></li>
+      <li><a href="#ia">IA</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Clase gratis</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a> / <a href="/courses">Cursos</a> / <a href="/coding-and-ai-classes-in-peru">Perú</a> / Programación para niños de 10 años
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Perú &middot; Programación por edades &middot; 10 años</p>
+        <h1>Programación para niños de 10 años: el paso a Python, en inglés</h1>
+        <p class="ag-lede">Diez años es la edad que más buscan los padres peruanos cuando piensan en programación, y no es casualidad: es el momento en que la mayoría de los niños puede dejar los bloques y escribir código de verdad. Aquí contamos cómo se da ese paso, qué le da el colegio en 5° de primaria y qué puede crear su hijo en una clase en vivo, en inglés.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Reservar la primera clase gratis</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Reservar una demo prioritaria</a>
+          <a href="#palindromos" class="ag-btn ag-btn--ghost">Ver la lección de palíndromos</a>
+          <a href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20tenemos%20un%20hijo%20o%20hija%20de%2010%20a%C3%B1os%20en%205%C2%B0%20de%20primaria%20en%20Per%C3%BA%20y%20queremos%20que%20aprenda%20Python%20en%20ingl%C3%A9s.%20%C2%BFPodemos%20agendar%20una%20clase%20gratis%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'paa'});">Consultar por WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Clases en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; a los 10, primeras líneas de Python con un mentor que habla en inglés claro</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">En resumen</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 de 5 en 547 reseñas de Google
+        </p>
+        <dl>
+          <dt>Idioma de las clases</dt><dd>Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante</dd>
+          <dt>Edad</dt><dd>10 años, 5° de primaria</dd>
+          <dt>Lenguajes</dt><dd>Python, y Luau en Roblox</dd>
+          <dt>Requisito</dt><dd>Leer con soltura y usar un teclado</dd>
+          <dt>Formato</dt><dd>Grupo de quince a veinte, o uno a uno</dd>
+          <dt>Horario</dt><dd>Se acuerda con la familia, a cualquier hora</dd>
+          <dt>Primera clase</dt><dd>Sin costo y sin tarjeta</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">La respuesta en un párrafo</p>
+      <p>A los 10 años, en 5° de primaria, la mayoría de los niños ya puede dejar los bloques y escribir Python: lee con soltura, usa el teclado y entiende que un programa es texto con reglas exactas. Con Modern Age Coders su hijo aprende Python, juegos en Roblox y proyectos de inteligencia artificial adecuados a su edad, en clases en vivo, en línea y en inglés guiadas por un mentor desde la India que habla con claridad y al ritmo del niño. La familia elige entre clase grupal o clases individuales y fija el día y la hora que prefiera; la primera clase es gratis.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cursos para los 10 años</p>
+      <h2>Tres cursos para el año del salto a Python</h2>
+      <p class="ag-lede">El primero es el camino directo a Python; el segundo lleva el código a los videojuegos; el tercero usa la programación para entender a fondo la matemática del colegio.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Imagen del curso de Python e inteligencia artificial para niños" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PAA / 01</p>
+          <h3>Python e IA para niños</h3>
+          <p>Pensado para chicos de 9 a 12. Figuras trazadas con la tortuga, cuestionarios que llevan la cuenta y proyectos sencillos de IA, todo tecleado por el propio niño.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/roblox-game-coding-for-kids-lua-course">
+        <div class="ag-pick-shot"><img src="/images/roblox-coding-kids.webp" alt="Imagen del curso de juegos en Roblox con Luau" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PAA / 02</p>
+          <h3>Juegos en Roblox con Luau</h3>
+          <p>De 8 a 14 años. A los 10 el niño ya escribe sus propios scripts en Luau: monedas que suman, puertas que se abren, tiendas dentro del juego.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/maths-through-coding">
+        <div class="ag-pick-shot"><img src="/images/maths-through-coding.webp" alt="Imagen del curso de matemática con Python" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PAA / 03</p>
+          <h3>Matemática programando</h3>
+          <p>De 10 a 15 años. Fracciones, patrones y datos explorados con Python, para que la matemática se vea y se pruebe en lugar de solo memorizarse.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="diez">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A los 10 años</p><h2>¿Qué puede aprender un niño de 10 años en programación?</h2><p class="ag-lede">Un lenguaje escrito de verdad. A esta edad el niño ya no necesita que el programa sea de colores para entenderlo: puede leer una línea de Python, adivinar qué hace y cambiarla para que haga otra cosa.</p></div>
+    <div class="ag-grid-3"><div><h3>Escribir, no arrastrar</h3><p>En Python cada instrucción se escribe letra por letra, con reglas estrictas: un paréntesis de menos y el programa no corre. A los 10 años esa exigencia ya no frustra; muchos niños la viven como un desafío.</p></div><div><h3>Funciones propias</h3><p>Un niño de 10 años puede inventar una función, darle un nombre y usarla muchas veces. Es la idea que permite dividir un problema grande en piezas, y en el ejemplo de esta página la usamos para detectar palíndromos.</p></div><div><h3>Juegos y datos</h3><p>Con Python arma juegos de preguntas, adivinanzas con números, dibujos con la tortuga y pequeñas tablas de datos. Con Roblox escribe scripts que mueven cosas dentro de un mundo 3D.</p></div></div>
+    <p class="ag-mt-40">¿Por qué justo a los 10? No hay una edad mágica, y hay niños de 9 listos y niños de 11 que todavía disfrutan más con bloques. Pero alrededor de 5° de primaria coinciden tres cosas: la lectura se vuelve fluida, el niño usa el teclado sin buscar cada letra, y en matemática ya trabaja con operaciones y patrones que le permiten entender variables y bucles. Si su hijo cumple esas tres condiciones, puede empezar Python desde cero aunque nunca haya tocado Scratch.</p>
+    <p>Lo que pedimos a esta edad es otra cosa: que el niño programe él mismo. Hoy hay herramientas que escriben código solas, y un niño de 10 años puede pedirle a alguien (o a algo) que le resuelva el ejercicio. En nuestras clases el mentor no copia soluciones ni deja que se copien: pregunta, espera y le pide al niño que prediga qué hará su programa antes de ejecutarlo. Ese hábito de pensar primero es lo que queremos que se lleve.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="quinto">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">El colegio en 5°</p><h2>¿Qué aprende un niño en 5° de primaria y qué le falta?</h2><p class="ag-lede">En 5° de primaria el niño está en el ciclo V del CNEB, con 30 horas pedagógicas por semana repartidas en diez rubros. La matemática, la lectura y el inglés tienen su espacio; la programación no aparece como área.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>La semana completa de 5° de primaria según el CNEB, en horas pedagógicas y en minutos</caption><thead><tr><th scope="col">Área o rubro</th><th scope="col">Horas</th><th scope="col">Minutos (cuenta nuestra)</th></tr></thead><tbody><tr><td>Matemática</td><td class="ag-num">4</td><td class="ag-num">180</td></tr><tr><td>Comunicación</td><td class="ag-num">4</td><td class="ag-num">180</td></tr><tr><td>Inglés</td><td class="ag-num">3</td><td class="ag-num">135</td></tr><tr><td>Personal social</td><td class="ag-num">4</td><td class="ag-num">180</td></tr><tr><td>Arte y cultura</td><td class="ag-num">3</td><td class="ag-num">135</td></tr><tr><td>Ciencia y tecnología</td><td class="ag-num">4</td><td class="ag-num">180</td></tr><tr><td>Educación física</td><td class="ag-num">3</td><td class="ag-num">135</td></tr><tr><td>Educación religiosa</td><td class="ag-num">1</td><td class="ag-num">45</td></tr><tr><td>Tutoría y orientación educativa</td><td class="ag-num">2</td><td class="ag-num">90</td></tr><tr><td>Horas de libre disponibilidad</td><td class="ag-num">2</td><td class="ag-num">90</td></tr><tr><td>Total</td><td class="ag-num">30</td><td class="ag-num">1,350</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: Tabla N.° 6 del Currículo Nacional de la Educación Básica (MINEDU), columna de 5.°, que mide en "horas pedagógicas (45 minutos)". El grado y la edad salen del documento de edades normativas del MINEDU: 5° de primaria corresponde a 10 años cumplidos al 31 de marzo, y 5° y 6° forman el ciclo V. Consultado el 8 de noviembre de 2026. Los minutos los calculamos nosotros.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Tecnología: el nivel del ciclo V</h3><p>La competencia 28 del CNEB, sobre los entornos virtuales, espera que al final del ciclo V el estudiante "personaliza de manera coherente y organizada su espacio virtual" y "elabora material digital (presentaciones, videos, documentos, diseños, entre otros) comparando y seleccionando distintas actividades según sus necesidades".</p>
+<p>Es decir: presentaciones, videos y documentos. Crear un programa propio va un paso más allá de lo que pide el colegio, y es justo el paso que da un niño de 10 años en una clase de Python.</p></div><div><h3>Matemática: cuatro competencias</h3><p>El área de Matemática del CNEB se organiza en cuatro competencias. La número 23 es "Resuelve problemas de cantidad"; las otras tratan de regularidad, equivalencia y cambio; de movimiento, forma y localización; y de gestión de datos e incertidumbre.</p>
+<p>Las cuatro tienen un espejo en la programación: contar y operar, encontrar patrones, mover objetos en una pantalla con coordenadas y ordenar datos en listas. Por eso nuestro curso de matemática con Python encaja tan bien a esta edad.</p></div></div>
+    <p class="ag-mt-40">Según el MINEDU, en su nota del 14 de octubre de 2026, los materiales del año escolar 2027 alcanzarán a 2.7 millones de escolares de primaria. Su hijo es uno de ellos, y nada de lo que hagamos reemplaza lo que hace su colegio. Trabajamos aparte, en otro horario, sin relación con el MINEDU ni con ninguna institución educativa, y sin notas: cuando un curso termina, el niño recibe una constancia de finalización emitida por Modern Age Coders.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="puente">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">De Scratch a Python</p><h2>¿Cómo pasa un niño de Scratch a Python a los 10 años?</h2><p class="ag-lede">Con un puente corto, no con un salto al vacío. Este es el plan de cuatro semanas que usamos con niños de 10 años que vienen de bloques; quien empieza de cero hace lo mismo con un poco más de calma.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cuatro semanas de Scratch a Python (plan nuestro, ajustable a cada niño)</caption><thead><tr><th scope="col">Semana</th><th scope="col">Lo que ya sabía en Scratch</th><th scope="col">Cómo se escribe en Python</th></tr></thead><tbody><tr><td>1</td><td>El bloque "decir" y las variables</td><td><code>print()</code> y una variable con nombre, como <code>puntos = 0</code></td></tr><tr><td>2</td><td>El bloque "repetir 10"</td><td><code>for i in range(10):</code> y la sangría que marca qué se repite</td></tr><tr><td>3</td><td>El bloque "si... entonces... si no"</td><td><code>if</code>, <code>else</code> y las comparaciones <code>==</code>, <code>&lt;</code>, <code>&gt;</code></td></tr><tr><td>4</td><td>Los "bloques propios"</td><td><code>def</code> para crear una función y <code>return</code> para devolver un resultado</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Plan de Modern Age Coders. El mentor alarga cualquier semana si hace falta; lo importante es que el niño reconozca cada idea que ya conocía en su nueva forma escrita.</p>
+    <p class="ag-mt-40">Lo que más cuesta en ese puente no son las ideas, que el niño ya domina, sino la precisión. En Scratch un bloque no puede quedar mal encajado; en Python una comilla olvidada o una sangría torcida rompen el programa. Las primeras semanas el mentor dedica tiempo a leer los mensajes de error con el niño, en inglés, hasta que deja de verlos como un regaño y empieza a verlos como pistas: "<em>SyntaxError</em>" quiere decir que algo está mal escrito, y la flecha señala dónde.</p>
+    <p>Si su hijo todavía no hizo nada de bloques, no hace falta que retroceda. A los 10 años puede empezar directamente en Python, y el mentor usa dibujos y comparaciones con juegos que conoce para explicar cada idea. Lo que sí recomendamos es que haya hecho algo de mecanografía básica: escribir sin mirar cada tecla hace que la clase rinda el doble.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="palindromos">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Una lección de ejemplo</p><h2>¿Cómo es una clase de Python para un niño de 10 años?</h2><p class="ag-lede">Esta lección la escribimos y la corrimos nosotros, tal como se da en clase. El tema son los palíndromos, palabras y frases que se leen igual al derecho y al revés. Los niños los adoran, y esconden una lección de programación sobre texto y limpieza de datos.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Versión 1: comparar la palabra con su reverso</b><span>Python</span></figcaption><pre>def es_palindromo(texto):
+    return texto == texto[::-1]
+
+for frase in ['oso', 'reconocer', 'Ana', 'Anita lava la tina']:
+    print(frase, '-&gt;', es_palindromo(frase))</pre><p class="ag-code-note">En Python, <code>texto[::-1]</code> da el texto al revés. Si son iguales, es palíndromo. Antes de ejecutar, el mentor pregunta en inglés: "Which ones will be True?"</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Lo que imprime la versión 1</b><span>Salida</span></figcaption><pre>oso -&gt; True
+reconocer -&gt; True
+Ana -&gt; False
+Anita lava la tina -&gt; False</pre><p class="ag-code-note">Salida copiada tal cual de la consola de Python 3. Casi todos los niños predicen que "Ana" será <code>True</code>, y se sorprenden.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><strong>Investigar la sorpresa.</strong> ¿Por qué "Ana" da <code>False</code>? El niño escribe <code>print('Ana'[::-1])</code> y ve <code>anA</code>: la mayúscula quedó al final, y para Python "A" y "a" son letras distintas.</li><li><strong>Investigar la segunda.</strong> "Anita lava la tina" falla por las mayúsculas y además por los espacios: al revés, los espacios caen en otros lugares. El niño los cuenta con el dedo en la pantalla.</li><li><strong>Proponer un arreglo.</strong> El mentor pregunta: "What should we remove before comparing?" El niño propone pasar todo a minúsculas y quitar lo que no sea letra. Así nace la función <code>limpiar</code>.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Versión 2: limpiar antes de comparar</b><span>Python</span></figcaption><pre>def limpiar(texto):
+    letras = ''
+    for c in texto.lower():
+        if c.isalpha():
+            letras = letras + c
+    return letras
+
+def es_palindromo(texto):
+    t = limpiar(texto)
+    return t == t[::-1]
+
+for frase in ['Ana', 'Anita lava la tina', 'Never odd or even', '¿Acaso hubo búhos acá?']:
+    print(frase, '-&gt;', es_palindromo(frase), '|', limpiar(frase))</pre><p class="ag-code-note">Ahora el programa también imprime la versión limpia de cada frase, para ver exactamente qué se está comparando.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Lo que imprime la versión 2</b><span>Salida</span></figcaption><pre>Ana -&gt; True | ana
+Anita lava la tina -&gt; True | anitalavalatina
+Never odd or even -&gt; True | neveroddoreven
+¿Acaso hubo búhos acá? -&gt; False | acasohubobúhosacá</pre><p class="ag-code-note">Salida exacta de la consola. Tres frases pasan, una en inglés incluida. Pero "¿Acaso hubo búhos acá?" sigue fallando, y la columna de la derecha muestra por qué: <code>búhos</code> y <code>acá</code> conservan sus tildes.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><strong>El último detalle.</strong> Al revés, "acá" empieza con "á" con tilde, y el comienzo de la frase tenía "a" sin tilde. Para Python son letras diferentes.</li><li><strong>Un diccionario de tildes.</strong> El niño crea <code>SIN_TILDE = {'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u'}</code> y, dentro de <code>limpiar</code>, cambia cada letra por <code>SIN_TILDE.get(c, c)</code>. Al ejecutar otra vez, la consola responde <code>¿Acaso hubo búhos acá? -&gt; True</code>.</li><li><strong>Su propio palíndromo.</strong> El reto final es encontrar o inventar uno, en castellano o en inglés, y probarlo. Muchos niños vuelven a la clase siguiente con una lista entera.</li></ol>
+    <p class="ag-mt-40">La lección parece un juego de palabras, pero enseña algo que usan los programadores todos los días: los datos reales vienen sucios, con mayúsculas, espacios, signos y tildes, y antes de compararlos hay que limpiarlos. También enseña a no rendirse con el primer arreglo: la versión 2 resolvió tres casos y dejó uno, y fue ese caso el que llevó a la mejora final. Y para un niño peruano tiene un bonus: el castellano tiene tildes y signos de interrogación al inicio, algo que el inglés no tiene, y descubrirlo en el código es una pequeña lección de los dos idiomas.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ia">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Inteligencia artificial</p><h2>¿Inteligencia artificial para niños de 10 años: qué se puede enseñar?</h2><p class="ag-lede">Mucho, pero no pidiéndole que abra una cuenta en un chatbot. Los asistentes más conocidos piden 13 años como mínimo, y nosotros respetamos esas reglas.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Lo que dicen las condiciones de uso</h3><p>Las condiciones de OpenAI para ChatGPT dicen: "You must be at least 13 years old or the minimum age required in your country to consent to use the Services", y piden permiso de los padres hasta los 18. Google pide 13 años para usar Gemini con una cuenta personal o escolar.</p>
+<p>Las citamos de nuestra guía de edades de herramientas de IA, que copia el texto de cada empresa tal como lo publica (revisión de julio de 2026). Un niño de 10 años no cumple esa edad, así que en clase no le pedimos que use estas herramientas con su propia cuenta.</p></div><div><h3>Lo que sí hacemos a los 10</h3><p>Explicamos cómo "aprende" una máquina con ejemplos que el niño programa él mismo: un clasificador sencillo que adivina una fruta por su dulzor, un juego que aprende de los errores del jugador, una lista de reglas que decide si un mensaje es amable o no.</p>
+<p>Así el niño entiende que la IA no piensa, sino que encuentra patrones en datos, y que se equivoca cuando los datos son pocos o están mal. Para el verano tenemos una guía de <a class="ag-inline-link" href="/vacaciones-utiles-2027-inteligencia-artificial">vacaciones útiles 2027 de inteligencia artificial</a> que ordena este camino por edades.</p></div></div>
+    <p class="ag-mt-40">Los profesores peruanos también están aprendiendo sobre IA: el MINEDU informó que más de 87,000 docentes se inscribieron en su curso gratuito "Inteligencia artificial (IA) en la práctica docente" en 2025. Es probable que su hijo empiece a escuchar sobre IA en el colegio. Lo que le damos nosotros es la otra mitad: entender por dentro cómo funciona y aprender a no tomar como verdad todo lo que una máquina responde. Es la diferencia entre usar una herramienta y depender de ella.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="clase">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">La clase</p><h2>¿Cuánto tiempo y cómo practica un niño de 10 años?</h2><p class="ag-lede">A los 10 años un niño ya sostiene un problema durante un buen rato, siempre que sienta que avanza. Por eso cada clase tiene un objetivo claro y un pequeño logro visible al final.</p></div>
+    <ol class="ag-steps"><li><strong>Predecir.</strong> El mentor muestra un programa corto y pregunta qué va a imprimir. El niño responde antes de ejecutar, por escrito o en voz alta.</li><li><strong>Comprobar.</strong> Se ejecuta. Si la predicción falló, eso es lo más valioso de la clase: hay algo que el niño todavía no ve, y se busca juntos.</li><li><strong>Construir.</strong> Con la idea del día, el niño amplía su proyecto: una pregunta más en su juego, un color más en su dibujo, un caso más en su función.</li><li><strong>Romper a propósito.</strong> El mentor le pide cambiar algo para que el programa falle y leer el error en inglés. Es un modo excelente de perderle el miedo a los mensajes rojos.</li><li><strong>Contar.</strong> Al final, el niño explica en inglés qué hizo y qué aprendió. Frases cortas bastan; el mentor ayuda con las palabras que faltan.</li></ol>
+    <p class="ag-source-note ag-mt-40">Estructura de clase propia; el mentor la ajusta a cada grupo y a cada niño.</p>
+    <p class="ag-mt-40">Entre clase y clase no damos tareas largas. Sugerimos diez o quince minutos, dos o tres veces por semana, para jugar con lo que hizo en clase: cambiar números, agregar palabras, probar ideas propias. Un niño de 10 años aprende más con esos ratos cortos y frecuentes que con una tarde entera antes de la clase. El INEI encontró en el segundo trimestre de 2026 que el 87,4 % de los hogares con computadora la usa exclusivamente para actividades del hogar, como estudios y trabajos académicos: si su hogar es uno de ellos, ese rato de práctica tiene dónde hacerse.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="secundaria">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Rumbo a secundaria</p><h2>¿Qué cambia entre los 10 y los 12 años?</h2><p class="ag-lede">Dos años después su hijo estará en 1° de secundaria, con otro horario, más cursos y mucho más tiempo en internet. Programar a los 10 le da una base para ese cambio.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Uso de internet en Perú por grupo de edad, segundo trimestre de 2026 (INEI)</caption><thead><tr><th scope="col">Grupo de edad</th><th scope="col">Usó internet</th><th scope="col">Lo que significa para su hijo (nuestra lectura)</th></tr></thead><tbody><tr><td>6 a 11 años</td><td class="ag-num">68,2 %</td><td>Todavía uno de cada tres niños no se conecta</td></tr><tr><td>12 a 18 años</td><td class="ag-num">92,5 %</td><td>Llegando a secundaria, se conectan más de nueve de cada diez</td></tr><tr><td>Diferencia</td><td class="ag-num">24,3 puntos (cuenta nuestra)</td><td>El salto llega justo al pasar de primaria a secundaria</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: INEI, boletín "Estadísticas de las tecnologías de información y comunicación en los hogares", segundo trimestre de 2026, Encuesta Nacional de Hogares. Consulta del 8/11/2026; la resta y la columna de la derecha son nuestras.</p>
+    <p class="ag-mt-40">Ese salto de 24,3 puntos tiene una cara buena y una que preocupa a muchos padres. La buena: en secundaria su hijo tendrá más oportunidades de crear con tecnología. La que preocupa: pasará más tiempo frente a pantallas que no eligió. Un niño que a los 10 años ya entiende que detrás de cada app hay un programa escrito por alguien mira las pantallas de otra manera, con más curiosidad y más criterio.</p>
+    <p>El MINEDU también evaluó a los niños de 6° de primaria: la ENLA 2024 incluyó una prueba muestral a 105,534 escolares de ese grado, además del censo de 4°. No preparamos para esas pruebas, pero sí trabajamos el razonamiento que la matemática de fin de primaria exige. Si su hijo es de los que disfrutan los retos de números, cuando llegue a secundaria le esperan la ONEM y otras competencias; nuestra página para <a class="ag-inline-link" href="/vacaciones-utiles-de-programacion-san-isidro-lima">secundaria en San Isidro</a> cuenta qué fechas tienen y cómo encajar la programación con ellas.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="horario">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Horarios</p><h2>¿A qué hora puede tener clase un niño de 10 años en Perú?</h2><p class="ag-lede">A la que acomode a su familia. A los 10 años los niños suelen tener más actividades, así que la flexibilidad pesa más que nunca.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Equivalencias entre la hora de Perú y la de la India (ejemplos de conversión, no horarios fijos)</caption><thead><tr><th scope="col">Reloj en Perú</th><th scope="col">Reloj en la India</th><th scope="col">Fecha en la India</th></tr></thead><tbody><tr><td>7:30 a. m.</td><td>6:00 p. m.</td><td>Misma fecha</td></tr><tr><td>11:00 a. m.</td><td>9:30 p. m.</td><td>Misma fecha</td></tr><tr><td>3:30 p. m.</td><td>2:00 a. m.</td><td>Ya es el día siguiente</td></tr><tr><td>8:30 p. m.</td><td>7:00 a. m.</td><td>Ya es el día siguiente</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Perú usa UTC-5 en todas las estaciones, sin adelantar el reloj, según la base de husos horarios tzdata y la hora legal que difunde el INACAL. La India usa UTC+5:30. La diferencia es fija: diez horas y media. Conversiones nuestras, revisadas en noviembre de 2026.</p>
+    <p class="ag-mt-40">Al reservar, usted ve los horarios disponibles ya en hora peruana, así que no hace falta convertir nada. Si su hijo va al colegio en el turno mañana, la tarde después de las tareas suele funcionar; si va en el turno tarde, las mañanas quedan libres. En enero, febrero y marzo, con el colegio cerrado, muchas familias aprovechan para empezar; la página de <a class="ag-inline-link" href="/vacaciones-utiles-2027-programacion-online">vacaciones útiles 2027 de programación</a> propone un plan de verano en semanas.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progreso</p>
+      <h2>¿Cómo se ve el avance de un niño de 10 años en Python?</h2>
+      <p class="ag-lede">Durante el primer año de Python miramos cinco señales, propias, y con ellas informamos a la familia.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cinco señales de avance en Python a los 10 años (nuestras)</caption><thead><tr><th scope="col">Señal</th><th scope="col">Qué hace su hijo</th><th scope="col">Ejemplo</th></tr></thead><tbody><tr><td>1. Lee antes de correr</td><td class="ag-num">predice la salida de un programa de cinco líneas</td><td class="ag-num">acierta qué imprime un bucle de tres vueltas</td></tr><tr><td>2. Lee los errores</td><td class="ag-num">encuentra la línea que falla a partir del mensaje</td><td class="ag-num">arregla una comilla que falta sin ayuda</td></tr><tr><td>3. Crea funciones</td><td class="ag-num">escribe una función con un nombre claro y la usa varias veces</td><td class="ag-num"><code>es_palindromo</code></td></tr><tr><td>4. Limpia datos</td><td class="ag-num">prepara el texto o los números antes de usarlos</td><td class="ag-num">quita espacios y tildes antes de comparar</td></tr><tr><td>5. Termina un proyecto</td><td class="ag-num">planifica, construye y presenta un programa propio</td><td class="ag-num">un juego de preguntas que lleva la cuenta de los aciertos</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Para la familia</h3><p>El indicador que más cuenta no es cuántas líneas escribe su hijo, sino si puede explicarle por qué su programa hace lo que hace. Pídale que se lo cuente; si mezcla castellano e inglés, todavía más.</p>
+<p>Los atascos son normales. Lo importante es que sepa qué hacer cuando aparecen: leer el error, revisar línea por línea, preguntar.</p></div><div><h3>Para el niño</h3><p>Antes de apretar Run, diga qué espera ver. Después, compare.</p>
+<p>Un mensaje de error en rojo no es un castigo: es una pista con el número de línea.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más cursos</p>
+      <h2>Otros nueve cursos que encajan a los 10</h2>
+      <p class="ag-lede">Todos se enseñan en vivo y en inglés. Están ordenados según lo que más le guste a su hijo: crear, entender la IA o pensar con números.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Crear con código</h3>
+        <span class="ag-band-sub">De 9 a 14 años</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PAA / CREAR / 01</p>
+          <h4>Una página web propia</h4>
+          <p>HTML y CSS para publicar su primera web, de 9 a 12 años.</p>
+          <a class="ag-course-link" href="/courses/kids-ai-web-development-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PAA / CREAR / 02</p>
+          <h4>Videojuegos con Godot</h4>
+          <p>Juegos en 2D y 3D con GDScript, para chicos de 10 a 17 años.</p>
+          <a class="ag-course-link" href="/courses/godot-game-development-course-for-kids-and-teens">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PAA / CREAR / 03</p>
+          <h4>C++ para niños</h4>
+          <p>Un segundo lenguaje escrito, con acertijos y juegos de consola.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-for-kids-course">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Entender la IA</h3>
+        <span class="ag-band-sub">Sin cuentas de adulto</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PAA / IA / 01</p>
+          <h4>Cómo funciona la IA</h4>
+          <p>Datos, patrones y errores de las máquinas, explicados para niños.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PAA / IA / 02</p>
+          <h4>Crear con ayuda de la IA</h4>
+          <p>Juegos hechos con apoyo de IA, revisando y entendiendo cada paso.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PAA / IA / 03</p>
+          <h4>Preparación para un hackatón</h4>
+          <p>Idear, construir y presentar un proyecto en equipo, de 8 a 12 años.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Pensar con números</h3>
+        <span class="ag-band-sub">De 9 a 13 años</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PAA / NUM / 01</p>
+          <h4>Resolver problemas paso a paso</h4>
+          <p>Descomponer, buscar patrones y diseñar algoritmos.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PAA / NUM / 02</p>
+          <h4>Competencias de matemática</h4>
+          <p>Problemas de olimpiada originales, para quien disfruta los retos.</p>
+          <a class="ag-course-link" href="/courses/middle-school-math-competitions-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PAA / NUM / 03</p>
+          <h4>Matemática de primaria</h4>
+          <p>Refuerzo en vivo de 1° a 5°, ubicado según el nivel real del niño.</p>
+          <a class="ag-course-link" href="/courses/elementary-mathematics-complete-masterclass">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cómo funciona</p>
+      <h2>¿Cómo se organizan las clases de un niño de 10 años?</h2>
+      <p class="ag-lede">Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Mañana</p><p class="ag-slot-l">Para niños del turno tarde o en vacaciones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Tarde o noche temprana</p><p class="ag-slot-l">Después del colegio, las tareas y el deporte.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Clase individual</p><p class="ag-slot-l">El horario lo propone usted, semana a semana.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Predecir primero</h3><p>Cada programa se adivina antes de ejecutarse.</p></div>
+      <div><h3>Errores como pistas</h3><p>Se leen en inglés y se usan para avanzar.</p></div>
+      <div><h3>Sin copiar</h3><p>El niño escribe cada línea; el mentor pregunta, no dicta.</p></div>
+      <div><h3>Proyectos propios</h3><p>Juegos, dibujos y herramientas que el niño elige.</p></div>
+      <div><h3>Mismo mentor</h3><p>Conoce el ritmo de su hijo de una clase a otra.</p></div>
+      <div><h3>Reporte breve</h3><p>La familia sabe qué se trabajó y qué sigue.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Proyectos de nuestros estudiantes</p>
+      <h2>Proyectos de estudiantes que empezaron así</h2>
+      <p class="ag-lede">Muchos de nuestros estudiantes mayores escribieron su primera línea de Python a los 10. Estos son algunos de sus proyectos; hay más en <a class="ag-inline-link" href="/student-labs">Student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Captura del proyecto NutriLife, un coach de nutrición con IA" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>NutriLife</h4>
+          <p>Un coach de nutrición con IA que analiza las comidas y avanza paso a paso hacia una meta.</p>
+          <p class="ag-proj-meta">de Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Captura de Misti, un chatbot con IA para matemáticas y programación" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>Misti</h4>
+          <p>Un chatbot que responde preguntas de matemáticas y programación, creado y publicado por un estudiante.</p>
+          <p class="ag-proj-meta">de Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Captura de GuardianX, un asistente con IA para la seguridad en internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>GuardianX</h4>
+          <p>Un asistente que ayuda a los jóvenes a reconocer situaciones de riesgo en internet.</p>
+          <p class="ag-proj-meta">de Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Captura de la aplicación del clima SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Aplicación web</p>
+          <h4>SkyCast</h4>
+          <p>Un sitio de pronóstico del clima con condiciones en vivo para cualquier lugar.</p>
+          <p class="ag-proj-meta">de Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Precios</p>
+      <h2>Precio de las clases para un niño de 10 años en Perú</h2>
+      <p class="ag-lede">Mostramos la tarifa mensual en dólares estadounidenses, que se paga con tarjeta. Su banco convierte el cargo a su moneda con el cambio del momento, por eso el monto en su estado de cuenta puede variar ligeramente. La clase de prueba es gratuita.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Primera clase gratis</p>
+        <p class="ag-price-amt">Gratis</p>
+        <p class="ag-price-alt">sin tarjeta</p>
+        <ul><li>Una clase de prueba gratuita</li><li>El mentor decide si empezar con bloques o con Python</li><li>Sin datos de tarjeta</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Reservar</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Clase grupal</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>De quince a veinte niños de edad cercana</li><li>El mismo mentor de principio a fin</li><li>Dos clases en vivo por semana</li><li>Mensualidad sin contrato largo</li></ul>
+        <a href="#start" class="ag-btn">Empezar aquí</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Clases individuales</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Solo su hijo y el mentor</li><li>Un plan hecho a su medida</li><li>Día y hora a elección de la familia</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Consultar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lo que dicen las familias</p>
+      <h2>4.9 de 5 en 547 reseñas de Google</h2>
+      <p class="ag-lede">Reseñas de Google escritas por familias y estudiantes; las dejamos en el inglés en que fueron escritas.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preguntas frecuentes</p>
+      <h2>Programación para niños de 10 años: preguntas frecuentes</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>¿Las clases son en español?</h3>
+        <p>No. Son clases en vivo y en línea dictadas en inglés, con un mentor desde la India. Lo vemos como una ventaja: Python está escrito con palabras inglesas, así que su hijo aprende el idioma del código y practica inglés hablado en la misma hora. El EF EPI 2025 sitúa a Lima en el nivel alto de inglés, y la expresión oral es lo que más gana con una clase conversada.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Qué aprende un chico de 10 años en sus clases de programación?</h3>
+        <p>Python desde cero: variables, condiciones, bucles, listas y funciones propias, aplicados a juegos, dibujos y pequeños proyectos. También puede escribir scripts en Luau para Roblox y entender por dentro cómo funciona la inteligencia artificial.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Conviene empezar con Scratch o directamente con Python a los 10 años?</h3>
+        <p>Si su hijo lee con fluidez y usa el teclado, puede empezar directamente con Python. Si viene de Scratch, usamos un puente de cuatro semanas que traduce cada bloque conocido a su forma escrita.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿En qué grado está un niño de 10 años en Perú?</h3>
+        <p>En 5° de primaria, según la edad normativa que el MINEDU fija al 31 de marzo. Con 6° forma el ciclo V del CNEB.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Puede un niño de 10 años usar ChatGPT en las clases?</h3>
+        <p>No con su propia cuenta. OpenAI exige un mínimo de 13 años, y entre los 13 y los 17 la autorización de un padre o tutor, y Google pide 13 años para Gemini. A los 10 enseñamos cómo funciona la IA con programas que el niño escribe él mismo.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Se enseña programación en 5° de primaria?</h3>
+        <p>No como área. La semana de 5° tiene 30 horas pedagógicas repartidas entre Matemática, Comunicación, Inglés, Ciencia y tecnología y otras áreas, sin un curso de computación. El CNEB espera que el niño elabore material digital como presentaciones y videos, no que programe.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Cuánto debe practicar en casa?</h3>
+        <p>Poco y seguido: diez o quince minutos, dos o tres veces por semana, jugando con lo que hizo en clase. No damos tareas largas.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿A qué hora son las clases?</h3>
+        <p>Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Un ejemplo: 11:00 a. m. en Lima equivale a 9:30 p. m. en la India, con la misma diferencia en enero que en julio.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Qué computadora necesita?</h3>
+        <p>Basta un equipo de escritorio o portátil que tenga teclado, cámara y micrófono, más un internet que no se corte. Python se instala gratis en la primera clase, o se usa en el navegador.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Recibe algún certificado?</h3>
+        <p>Al cerrar cada curso le damos una constancia nuestra, firmada por Modern Age Coders. No es un documento oficial del sistema educativo peruano: no tenemos relación con el MINEDU ni con ningún colegio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más páginas</p>
+      <h2>Para seguir leyendo</h2>
+      <p class="ag-lede">Otras guías útiles para familias con niños de fin de primaria. Las de Perú están en castellano.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Clases en Perú</a></h3><p>Todo nuestro trabajo con familias peruanas en un solo lugar.</p></div>
+      <div><h3><a class="ag-inline-link" href="/clases-de-programacion-para-ninos-en-ingles">Primaria en inglés</a></h3><p>De 6 a 12 años, con una lección de Python sobre colores en inglés.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vacaciones-utiles-2027-inteligencia-artificial">Verano de IA</a></h3><p>Inteligencia artificial por edades para enero a marzo de 2027.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-10-year-olds">Coding for 10 year olds</a></h3><p>Nuestra guía general en inglés para esta misma edad.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tool age guide</a></h3><p>Más de cien herramientas de IA y la edad mínima que exige cada fabricante.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Por qué en nuestras clases el niño escribe cada línea.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Empiece aquí</p>
+        <h2>Agende una clase gratis para su hijo de 10 años</h2>
+        <p class="ag-lede">En la clase de prueba el mentor charla con su hijo en un inglés claro, le muestra un programa corto en Python y le pide adivinar qué hace. Con lo que observa le recomendamos si empezar con bloques o directamente con código, y en qué formato.</p>
+        <p class="ag-mt-40">Para saber más antes: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> explica nuestro método y <a class="ag-inline-link" href="/courses">All courses</a> muestra todos los cursos (páginas en inglés).</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20tenemos%20un%20hijo%20o%20hija%20de%2010%20a%C3%B1os%20en%205%C2%B0%20de%20primaria%20en%20Per%C3%BA%20y%20queremos%20que%20aprenda%20Python%20en%20ingl%C3%A9s.%20%C2%BFPodemos%20agendar%20una%20clase%20gratis%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'paa',pos:'end'});">Escríbanos por WhatsApp</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Las clases se dan en vivo y por internet, con mentores que están en la India, exclusivamente en inglés. Puede escribirnos por WhatsApp en castellano para cualquier consulta.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_paa(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Su nombre</label>
+            <input id="pe-name" type="text" name="name" placeholder="Nombre del padre, madre o estudiante" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Teléfono o WhatsApp, Perú +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Grupo de edad</label>
+            <select id="pe-age" name="age"><option value="6-12">Niño o niña, 6 a 12</option><option value="13-18">Adolescente, 13 a 18</option><option value="college">Universitario</option><option value="adult">Profesional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Solicitar la clase gratis</button>
+          <p class="ag-form-note">Gratis, sin tarjeta y sin compromiso alguno.</p>
+        </form>
+        <div class="ag-pd-card"><h3>¿Quiere una clase antes? Reserve una demo prioritaria</h3><p>Una demo prioritaria es una clase completa de unos 45 a 60 minutos. Después, el mentor envía por WhatsApp un informe escrito de habilidades y un plan de aprendizaje personal. Si se inscribe, el pago de la demo se descuenta de la primera mensualidad: envíenos por WhatsApp el número de pedido de la demo.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Reservar una demo prioritaria</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Clases en vivo y en línea de programación, IA y matemáticas para personas de 6 a 67 años, siempre en inglés. Enseñamos desde 2020, a más de
+          10,000 estudiantes en 25 países.
+        </p>
+      </div>
+      <div><h4>Cursos para los 10 años</h4><ul><li><a href="/courses/python-ai-kids-masterclass">Python e IA para niños</a></li><li><a href="/courses/roblox-game-coding-for-kids-lua-course">Roblox con Luau</a></li><li><a href="/courses/maths-through-coding">Matemática con Python</a></li><li><a href="/courses">Todos los cursos</a></li></ul></div>
+      <div><h4>Perú</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Clases en Perú</a></li><li><a href="/clases-de-programacion-para-ninos-en-ingles">Primaria en inglés</a></li><li><a href="/vacaciones-utiles-2027-inteligencia-artificial">Verano de IA</a></li><li><a href="/vacaciones-utiles-2027-programacion-online">Vacaciones útiles 2027</a></li></ul></div>
+      <div>
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="/about">Quiénes somos</a></li>
+          <li><a href="/how-we-teach">Cómo enseñamos</a></li>
+          <li><a href="/love">Reseñas</a></li>
+          <li><a href="/contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Clases en vivo y en línea, en inglés, para todo el mundo.</span>
+      <span>Limpiar antes de comparar</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Clase gratis</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Demo prioritaria</a><a href="tel:+919123366161" aria-label="Llamar al +91 91233 66161">Llamar</a></div>
+
+<script>
+window.submitLead_paa = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Enviando...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'programacion-para-ninos-de-10-anos-inline', meta: { name: name, age: age, page: 'programacion-para-ninos-de-10-anos' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Muchas gracias' + (name ? ', ' + name.split(' ')[0] : '') + '. Un mentor le llamará en breve.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Algo salió mal. Por favor, inténtelo de nuevo.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Error de conexión. Por favor, inténtelo de nuevo.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
