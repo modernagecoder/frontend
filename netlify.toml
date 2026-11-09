@@ -33099,6 +33099,18 @@
   to = "/src/pages/mejor-curso-de-inteligencia-artificial-peru.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/cuanto-cuestan-clases-de-programacion-para-ninos-peru"
+  to = "/src/pages/cuanto-cuestan-clases-de-programacion-para-ninos-peru.html"
+  status = 200
+
+[[redirects]]
+  from = "/cuanto-cuestan-clases-de-programacion-para-ninos-peru.md"
+  to = "/src/pages/cuanto-cuestan-clases-de-programacion-para-ninos-peru.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

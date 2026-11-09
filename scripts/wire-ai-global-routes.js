@@ -997,6 +997,7 @@ const SLUGS = [
   'mejores-clases-de-programacion-para-ninos-peru',
   'mejor-curso-de-python-peru',
   'mejor-curso-de-inteligencia-artificial-peru',
+  'cuanto-cuestan-clases-de-programacion-para-ninos-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2073,6 +2074,7 @@ const LLMS_LABELS = {
   'mejores-clases-de-programacion-para-ninos-peru': 'Cómo elegir clases de programación para niños',
   'mejor-curso-de-python-peru': 'Cómo elegir un curso de Python',
   'mejor-curso-de-inteligencia-artificial-peru': 'Cómo elegir un curso de inteligencia artificial',
+  'cuanto-cuestan-clases-de-programacion-para-ninos-peru': 'Cuánto cuestan las clases de programación para niños',
 };
 
 function wireLlms(slugs) {
