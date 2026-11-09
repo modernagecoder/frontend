@@ -971,6 +971,7 @@ const SLUGS = [
   'programacion-para-5to-de-secundaria',
   'clases-de-programacion-para-ninos-online-peru',
   'clases-de-programacion-para-adolescentes-peru',
+  'cursos-de-programacion-para-universitarios-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2021,6 +2022,7 @@ const LLMS_LABELS = {
   'programacion-para-5to-de-secundaria': 'Programación para 5to de secundaria',
   'clases-de-programacion-para-ninos-online-peru': 'Clases de programación para niños online en Perú',
   'clases-de-programacion-para-adolescentes-peru': 'Clases de programación para adolescentes en Perú',
+  'cursos-de-programacion-para-universitarios-peru': 'Cursos de programación para universitarios en Perú',
 };
 
 function wireLlms(slugs) {
