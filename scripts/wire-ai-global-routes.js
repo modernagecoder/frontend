@@ -990,6 +990,7 @@ const SLUGS = [
   'curso-de-desarrollo-de-software-en-ingles-peru',
   'curso-de-desarrollo-web-en-ingles-peru',
   'curso-de-data-science-en-ingles-peru',
+  'cursos-online-con-certificado-programacion-en-ingles',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2059,6 +2060,7 @@ const LLMS_LABELS = {
   'curso-de-desarrollo-de-software-en-ingles-peru': 'Curso de desarrollo de software en inglés',
   'curso-de-desarrollo-web-en-ingles-peru': 'Curso de desarrollo web en inglés',
   'curso-de-data-science-en-ingles-peru': 'Curso de data science en inglés',
+  'cursos-online-con-certificado-programacion-en-ingles': 'Cursos de programación online con certificado',
 };
 
 function wireLlms(slugs) {

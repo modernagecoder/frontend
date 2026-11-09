@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Curso de programación online con certificado, en inglés</title>
+  <meta name="description" content="Curso de programación online con certificado, en vivo y en inglés desde Perú: qué prueba cada papel, el examen PCEP de Python y qué esperar en lo laboral.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/cursos-online-con-certificado-programacion-en-ingles">
+  <link rel="alternate" type="text/markdown" href="/src/pages/cursos-online-con-certificado-programacion-en-ingles.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#006567">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/cursos-online-con-certificado-programacion-en-ingles">
+  <meta property="og:title" content="Curso de programación online con certificado, en inglés">
+  <meta property="og:description" content="Certificado de finalización, examen PCEP o título: qué prueba cada uno, cómo se verifica y qué puede esperar en lo laboral, con un ejemplo en Python de cómo se valida un código.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="es_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Curso de programación online con certificado, en inglés">
+  <meta name="twitter:description" content="Programación en vivo y en inglés con certificado de finalización y preparación para el PCEP de Python, desde cualquier ciudad del Perú.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ccpi .ag-hero h1 { letter-spacing: -0.012em; max-width: 22ch; }
+.ag-root.ag-ccpi .ag-capsule { border-left-width: 4px; border-radius: 2px; }
+.ag-root.ag-ccpi .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-ccpi .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-ccpi .ag-steps li { line-height: 1.6; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/cursos-online-con-certificado-programacion-en-ingles#page","url":"https://learn.modernagecoders.com/cursos-online-con-certificado-programacion-en-ingles","name":"Cursos online de programación con certificado, en inglés, para el Perú","description":"Guía para quien busca en el Perú un curso de programación online con certificado: la diferencia entre un certificado de finalización, una certificación por examen y un título, el examen PCEP según el Python Institute, cómo lo usa la Fábrica de Programadores del MINEDU, qué significa en la práctica la salida laboral y un ejemplo en Python sobre dígitos de control.","inLanguage":"es-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Cursos","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Perú","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Cursos con certificado","item":"https://learn.modernagecoders.com/cursos-online-con-certificado-programacion-en-ingles"}]},{"@type":"Course","name":"Cursos online de programación con certificado, en inglés, para el Perú","description":"Cursos en vivo y en línea de programación para adultos, universitarios y escolares en todo el Perú, dictados solo en inglés por mentores desde la India, con certificado de finalización de Modern Age Coders y, en Python, preparación para el examen PCEP del Python Institute; en grupo o en clases individuales, a cualquier hora.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/cursos-online-con-certificado-programacion-en-ingles"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/cursos-online-con-certificado-programacion-en-ingles"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/cursos-online-con-certificado-programacion-en-ingles"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Las clases son en español?","acceptedAnswer":{"@type":"Answer","text":"No. Todos nuestros cursos se dictan en vivo, por internet y en inglés, y así se lo decimos antes de empezar. Es una ventaja doble: aprende a programar en el idioma de la documentación y de los mensajes de error, y practica la expresión oral, que en el EF EPI 2025 es la habilidad más baja del Perú con 480 puntos. Lima, con 555 puntos, figura en el nivel alto. Si el ritmo le cuesta, el mentor lo baja."}},{"@type":"Question","name":"¿El certificado es oficial?","acceptedAnswer":{"@type":"Answer","text":"No. Lo emitimos nosotros, Modern Age Coders, para dejar constancia de que usted terminó el curso. Tampoco equivale a un título: no lo otorga una universidad y no tiene reconocimiento del MINEDU ni de SUNEDU. Sus proyectos revisados pesan más que el papel."}},{"@type":"Question","name":"¿Qué es el PCEP?","acceptedAnswer":{"@type":"Answer","text":"Es la certificación de nivel inicial en Python del Python Institute. Su página publica las condiciones del PCEP-30-03: 35 preguntas en 50 minutos, aprobación desde el 70% y una credencial que vence a los 5 años. Nosotros le preparamos; el examen lo rinde usted con el Python Institute."}},{"@type":"Question","name":"¿El precio incluye el examen PCEP?","acceptedAnswer":{"@type":"Answer","text":"No. Nuestras mensualidades cubren las clases y el certificado de finalización. La inscripción al examen se compra aparte al Python Institute, cuando usted decida rendirlo."}},{"@type":"Question","name":"¿Un curso con certificado me asegura trabajo?","acceptedAnswer":{"@type":"Answer","text":"No, y no lo prometemos. Le ayudamos a construir proyectos propios en GitHub y a explicarlos en inglés, que es lo que se revisa en una entrevista técnica. El empleo depende de muchos factores que ningún curso controla."}},{"@type":"Question","name":"¿Necesito experiencia previa?","acceptedAnswer":{"@type":"Answer","text":"No. Los cursos de Python y Java empiezan desde cero. El PCEP tampoco pide requisitos previos, según la página del Python Institute."}},{"@type":"Question","name":"¿Desde qué edad se puede estudiar?","acceptedAnswer":{"@type":"Answer","text":"Desde los 13 años en los cursos para adolescentes. Los cursos de nivel universitario y profesional son para mayores de 18."}},{"@type":"Question","name":"¿Puedo elegir el día y la hora de estudio?","acceptedAnswer":{"@type":"Answer","text":"Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, las 9:00 p. m. en Lima son las 7:30 a. m. del día siguiente en la India."}},{"@type":"Question","name":"¿Cuánto dura el curso?","acceptedAnswer":{"@type":"Answer","text":"Depende de su punto de partida y del ritmo. Con dos clases por semana, muchos adultos llegan a los simulacros del PCEP en unos cuatro meses. En la clase de prueba el mentor le da una estimación según su nivel."}},{"@type":"Question","name":"¿Hay cursos gratis con certificado?","acceptedAnswer":{"@type":"Answer","text":"La clase de prueba es gratuita, pero no emite certificado. El certificado de finalización se entrega al completar un curso pagado, sin cargo extra por emitirlo."}},{"@type":"Question","name":"¿Cómo se paga?","acceptedAnswer":{"@type":"Answer","text":"Cada mes, con tarjeta y en dólares estadounidenses. La conversión a su moneda la aplica su banco. No cobramos matrícula ni emisión de certificado."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/cursos-online-con-certificado-programacion-en-ingles","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-ccpi">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Perú</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Perú</a></li>
+      <li><a href="#tipos">Tipos de certificado</a></li>
+      <li><a href="#pcep">Examen PCEP</a></li>
+      <li><a href="#laboral">Salida laboral</a></li>
+      <li><a href="#ejemplo">Ejemplo</a></li>
+      <li><a href="#verificar">Verificar</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Clase gratis</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a> / <a href="/courses">Cursos</a> / <a href="/coding-and-ai-classes-in-peru">Perú</a> / Cursos con certificado
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Perú &middot; Programación con certificado &middot; Adultos, universitarios y escolares</p>
+        <h1>Curso de programación online con certificado, en vivo y en inglés</h1>
+        <p class="ag-lede">Antes de pagar un curso por su certificado conviene preguntar quién firma ese papel y qué demuestra. Un certificado de finalización dice que usted terminó. Una certificación por examen dice que aprobó una prueba ajena al curso. Un título lo da una universidad. Aquí le explicamos los tres y le contamos con franqueza cuál le damos nosotros.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Reservar la primera clase gratis</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Reservar una demo prioritaria</a>
+          <a href="#tipos" class="ag-btn ag-btn--ghost">Comparar los tipos de certificado</a>
+          <a href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20escribo%20desde%20Per%C3%BA.%20Me%20interesa%20un%20curso%20de%20programaci%C3%B3n%20online%20con%20certificado.%20%C2%BFPuedo%20agendar%20una%20clase%20de%20prueba%20gratuita%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ccpi'});">Consultar por WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Enseñamos en directo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; 4.9 en reseñas de Google</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">En resumen</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 de 5 en 547 reseñas de Google
+        </p>
+        <dl>
+          <dt>Idioma de las clases</dt><dd>Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante</dd>
+          <dt>Para quién</dt><dd>Adultos, universitarios y escolares desde los 13 años</dd>
+          <dt>Lenguajes</dt><dd>Python, Java, desarrollo web y bases de datos</dd>
+          <dt>Certificado</dt><dd>De finalización, emitido por Modern Age Coders</dd>
+          <dt>Examen externo</dt><dd>Preparación para el PCEP del Python Institute</dd>
+          <dt>Idioma</dt><dd>Inglés, con mentor en vivo desde la India</dd>
+          <dt>Inicio</dt><dd>Clase de prueba sin costo</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Respuesta breve</p>
+      <p>Modern Age Coders dicta cursos de programación en vivo, en línea y en inglés a personas de todo el Perú, sean adultos, universitarios o escolares desde los 13 años, con un mentor desde la India, en grupo o de forma individual y a la hora que usted elija. Quien completa el curso obtiene nuestro certificado de finalización, que no es un título ni un documento oficial. Si quiere una prueba independiente, en Python le preparamos para el examen PCEP del Python Institute, que se rinde y se aprueba aparte. No prometemos empleo: le ayudamos a construir un portafolio que un empleador pueda revisar.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cursos con certificado</p>
+      <h2>Tres cursos para salir con algo que mostrar</h2>
+      <p class="ag-lede">Uno que apunta al examen PCEP, uno de Python completo para mayores de 18 y uno de Java para quienes estudian una carrera.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/pcep-pcap-python-certification-course">
+        <div class="ag-pick-shot"><img src="/images/pcep-python-certification.webp" alt="Imagen del curso de Python con preparación para las certificaciones PCEP y PCAP" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCPI / 01</p>
+          <h3>Python con preparación para PCEP y PCAP</h3>
+          <p>Recorre las cinco secciones del examen PCEP y continúa hacia el PCAP. El examen lo rinde usted con el Python Institute; nosotros le preparamos.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Imagen del curso de Python desde cero hasta nivel avanzado para adultos" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCPI / 02</p>
+          <h3>Python de cero a avanzado</h3>
+          <p>Desde los 18 años y sin experiencia. Termina con proyectos propios publicados en GitHub y nuestro certificado de finalización.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-java-programming-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/java-college.webp" alt="Imagen del curso completo de Java para estudiantes universitarios" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCPI / 03</p>
+          <h3>Java completo para universitarios</h3>
+          <p>Programación orientada a objetos, colecciones y Spring Boot, con un proyecto de punta a punta que puede llevar a una entrevista.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="tipos">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Tipos de certificado</p><h2>¿Qué certificado da un curso de programación online?</h2><p class="ag-lede">Depende de quién lo emita. En las búsquedas peruanas "con certificado" aparece junto a casi cualquier curso, pero detrás de esa frase hay tres documentos muy distintos, y conviene saber cuál le ofrecen.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Tres documentos que se llaman certificado y lo que demuestra cada uno (clasificación nuestra)</caption><thead><tr><th scope="col">Documento</th><th scope="col">Quién lo emite</th><th scope="col">Qué demuestra</th><th scope="col">Qué no demuestra</th></tr></thead><tbody><tr><td>Certificado o constancia de finalización</td><td>La institución que dictó el curso</td><td>Que usted asistió y completó las tareas o proyectos</td><td>Un nivel medido por alguien ajeno al curso</td></tr><tr><td>Certificación por examen (por ejemplo, PCEP)</td><td>Una organización independiente que diseña y califica la prueba</td><td>Que aprobó un examen con un temario publicado y un puntaje mínimo</td><td>Que usted sepa construir un proyecto completo</td></tr><tr><td>Grado o título</td><td>Una universidad o un instituto de educación superior</td><td>Una formación académica completa, según las normas de educación superior</td><td>Habilidades concretas de un lenguaje en particular</td></tr><tr><td>Portafolio de proyectos</td><td>Usted mismo, con su código público</td><td>Lo que es capaz de construir y explicar</td><td>Nada, si el código no es suyo o no lo entiende</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Clasificación de Modern Age Coders para orientar la decisión, no una norma. El portafolio no es un certificado, pero lo incluimos porque es lo que más se revisa en una entrevista técnica.</p>
+    <p class="ag-mt-40">Nuestro documento es el primero de la tabla, un certificado de finalización con la firma de Modern Age Coders. Acredita que usted completó un curso en vivo, con sus proyectos revisados por un mentor. No es un título, no lo otorga una universidad peruana y no tiene carácter oficial ante el MINEDU ni ante SUNEDU. Preferimos decirlo en la primera pantalla, porque un certificado que promete más de lo que es termina perjudicando a quien lo presenta.</p>
+    <p>Lo que sí podemos sumar es la segunda fila. En Python preparamos para el PCEP, una certificación de nivel inicial que se rinde ante el Python Institute. Es una prueba que no depende de nosotros: si usted la aprueba, el mérito y el documento son suyos, y cualquier empleador puede comprobarlos en el sitio de quien la emite.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="pcep">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Examen PCEP</p><h2>¿Qué es el examen PCEP de Python y cómo es?</h2><p class="ag-lede">El PCEP, "Certified Entry-Level Python Programmer", es la certificación de entrada del Python Institute. Su página oficial dice que no tiene requisitos previos y que está pensada para estudiantes, principiantes y profesionales que dan sus primeros pasos en programación.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>El examen PCEP-30-03 según la página del Python Institute</caption><thead><tr><th scope="col">Preguntas</th><th scope="col">Peso</th><th scope="col">Qué se evalúa en ese bloque</th></tr></thead><tbody><tr><td>9</td><td class="ag-num">26%</td><td class="ag-num">Colecciones: listas, tuplas, sets, diccionarios y strings, con cortes e índices</td></tr><tr><td>8</td><td class="ag-num">23%</td><td class="ag-num">Decisiones con if y repeticiones con while, for y range()</td></tr><tr><td>7</td><td class="ag-num">20%</td><td class="ag-num">Definir funciones, pasar argumentos y atrapar excepciones</td></tr><tr><td>6</td><td class="ag-num">17%</td><td class="ag-num">Cómo se ejecuta un programa: sintaxis, literales, operadores y tipos</td></tr><tr><td>5</td><td class="ag-num">14%</td><td class="ag-num">Leer y escribir archivos de texto y CSV, e importar math y random</td></tr><tr><td>35 en total</td><td class="ag-num">100%</td><td class="ag-num">Cinco bloques ponderados, ordenados aquí de mayor a menor peso</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: Python Institute, página del PCEP (pythoninstitute.org/pcep), consultada en noviembre de 2026. La misma página indica 50 minutos de duración, un puntaje mínimo aprobatorio de 70% y una vigencia de la credencial de 5 años. El orden por peso y las descripciones en castellano son nuestros.</p>
+    <p class="ag-mt-40">La tabla dice algo que muchos cursos callan: la sección más pesada no es la de sintaxis básica, sino la de colecciones, con 9 de las 35 preguntas. Quien solo memorizó cómo se escribe un <code>for</code> pierde puntos en listas anidadas, cortes de cadenas y diccionarios. Por eso, en el curso, cada tema se practica leyendo programas ajenos y prediciendo su salida antes de ejecutarlos, que es justamente lo que pide el examen.</p>
+    <p>El Python Institute presenta el PCEP como el primer paso hacia el PCAP, su certificación de nivel asociado. Nuestro curso sigue ese orden. Primero se consolida el nivel de entrada y, si usted quiere seguir, se avanza hacia la programación orientada a objetos y los módulos que pide el PCAP. Usted decide cuándo inscribirse en cada examen y lo rinde directamente con el Python Institute.</p>
+    <p>Si busca una explicación en inglés y más detallada del examen, la tiene en nuestra página <a class="ag-inline-link" href="/pcep-python-certification-prep">PCEP Python certification prep</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="fabrica">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Contexto peruano</p><h2>¿El PCEP se usa en el Perú?</h2><p class="ag-lede">Sí. El Ministerio de Educación lo eligió como meta de su estrategia Fábrica de Programadores, presentada el 24 de julio de 2025. Lo contamos como contexto: Modern Age Coders no forma parte de esa estrategia ni tiene relación con el MINEDU.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Qué anunció el MINEDU en 2025</h3><p>Según la nota de prensa del 24 de julio de 2025, la primera etapa beneficiaría a 1000 escolares de 4.º y 5.º de secundaria de Lima Norte, con formación en Python y certificación internacional, en alianza con Cisco Networking Academy.</p>
+<p>Los estudiantes fueron seleccionados mediante una prueba de lógica y venían de colegios de Los Olivos, Rímac, San Martín de Porres, Comas, Carabayllo, Puente Piedra, Santa Rosa y Ancón.</p></div><div><h3>Cómo se organizó la formación</h3><p>El programa incluía un curso presencial de iniciación en la Universidad Nacional de Ingeniería y una formación especializada en línea dictada por la Universidad Privada del Norte.</p>
+<p>Quienes concluyeran ambas etapas, dice el MINEDU, "podrán rendir el examen PCEP, con validez global". El Estado peruano, en otras palabras, eligió una certificación por examen y no un certificado de asistencia.</p></div></div>
+    <p class="ag-mt-40">Para una familia o un adulto que compara cursos, la lección es sencilla. Si el propio Ministerio apostó por un examen que mide a todos con la misma vara, vale la pena preguntar a cualquier curso con certificado si prepara para una prueba así o si solo entrega una constancia propia. Nosotros hacemos las dos cosas y no confundimos una con la otra.</p>
+    <p>Si su hijo o hija está en 4.º o 5.º de secundaria y no entró a esa estrategia, puede preparar el mismo examen por su cuenta. Para adolescentes, el punto de partida suele ser el curso de IA y Python que describimos en <a class="ag-inline-link" href="/curso-de-ia-para-adolescentes-peru">curso de IA para adolescentes</a>, que usa solo herramientas permitidas para su edad.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="laboral">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Salida laboral</p><h2>¿Un curso con certificado da salida laboral?</h2><p class="ag-lede">Ningún certificado consigue un empleo por sí solo, y desconfíe de quien le asegure lo contrario. Lo que abre una conversación con un empleador es poder mostrar trabajo propio y explicarlo.</p></div>
+    <p>La frase "cursos online con certificado y salida laboral" se repite mucho en el Perú, y entendemos por qué: quien paga un curso quiere que le sirva para trabajar. Nuestra respuesta honesta tiene tres partes. No prometemos empleo, sueldo ni prácticas. No tenemos convenios con empresas peruanas para colocar estudiantes. Y sí trabajamos con usted, clase a clase, para que termine con evidencia de lo que sabe hacer.</p>
+    <ol class="ag-steps"><li><strong>Un repositorio público.</strong> Cada proyecto del curso termina en GitHub, con un archivo que explica en inglés qué hace el programa, cómo se ejecuta y qué decisiones tomó usted.</li><li><strong>Una explicación en voz alta.</strong> En la última clase de cada módulo usted presenta su proyecto al mentor como si fuera una entrevista. El mentor pregunta por qué eligió una estructura de datos y no otra.</li><li><strong>Una prueba externa, si la quiere.</strong> En Python, el PCEP es una forma de que alguien ajeno a nosotros mida su nivel con un temario público.</li><li><strong>Nuestro certificado de finalización.</strong> Sirve para dejar constancia de que completó un curso en vivo. Es el cierre, no el argumento principal.</li></ol>
+    <p class="ag-mt-40">El orden de la lista no es casual. En una entrevista técnica lo primero que se mira es el código y la forma en que usted lo explica. Un certificado puede ayudarle a pasar un filtro inicial, pero rara vez decide nada después de eso.</p>
+    <p>Un dato del INEI ayuda a planificar. En el segundo trimestre de 2026, apenas un 36,4% de los hogares peruanos disponía de una computadora o más: el 53,3% en Lima Metropolitana, el 41,3% en el resto urbano y el 8,9% en el área rural. Un portafolio se construye programando, y para eso hace falta una computadora con regularidad. Si usted la comparte con su familia, conviene acordar las horas antes de empezar, y por eso nuestras clases se ajustan a su calendario.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ingles">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">En inglés</p><h2>¿Por qué estudiar programación con certificado en inglés?</h2><p class="ag-lede">Porque el idioma de trabajo de la programación es el inglés: los nombres de las funciones, los mensajes de error, la documentación y la mayoría de las preguntas resueltas en internet. Un curso en inglés le entrena en las dos cosas a la vez.</p></div>
+    <p>Todas nuestras clases son en vivo, en línea y en inglés. No dictamos en castellano. Para muchos peruanos eso es una ventaja más que un obstáculo. Según el EF EPI 2025, el puntaje de lectura en inglés del Perú es 540 y el de expresión oral es 480. Es decir, mucha gente entiende un texto técnico pero se traba al hablar. En una clase en vivo, explicar en voz alta qué hace su programa es parte del trabajo diario.</p>
+    <p>El mismo índice da 482 puntos a quienes declaran ser estudiantes y 555 a Lima, la única ciudad peruana en el nivel alto. Los mentores dictan desde la India con un inglés pausado y nítido, y están acostumbrados a que el inglés no sea la primera lengua de quien aprende. Si en la clase de prueba el ritmo le resulta exigente, el mentor le recomendará empezar con clases individuales, donde la velocidad la fija usted.</p>
+    <p>Para un hijo o una hija que todavía cursa primaria, la lógica se mantiene pero el formato cambia, como explicamos en <a class="ag-inline-link" href="/clases-de-programacion-para-ninos-en-ingles">clases de programación para niños en inglés</a>. Para los adultos que quieren pasar de la programación a la inteligencia artificial, la continuación natural es el <a class="ag-inline-link" href="/curso-de-inteligencia-artificial-en-ingles-peru">curso de inteligencia artificial en inglés</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="ejemplo">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Una clase de muestra</p><h2>¿Cómo sabe un sistema que un código de certificado no tiene errores? Un ejemplo en Python</h2><p class="ag-lede">Muchos documentos llevan un número con un dígito de control al final. Esta clase, nuestra, muestra cómo funciona con un formato inventado para el ejercicio: ocho cifras, un guion y una cifra de control. No es el formato de ningún certificado real, tampoco del nuestro.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Un dígito de control que detecta errores de tipeo</b><span>Python</span></figcaption><pre>PESOS = [7, 6, 5, 4, 3, 2, 7, 6]
+
+def digito_control(numero):
+    if len(numero) != 8 or not numero.isdigit():
+        raise ValueError('se esperaban 8 cifras: ' + numero)
+    suma = 0
+    for peso, cifra in zip(PESOS, numero):
+        suma += peso * int(cifra)
+    resto = 11 - suma % 11
+    return {10: 'K', 11: '0'}.get(resto, str(resto))
+
+def es_valido(codigo):
+    numero, control = codigo.split('-')
+    return digito_control(numero) == control
+
+base = '20260417'
+codigo = base + '-' + digito_control(base)
+print('codigo emitido:', codigo)
+
+pruebas = [codigo, '20260471-' + codigo[-1], '20250417-' + codigo[-1], '20260417-3']
+for p in pruebas:
+    print(p, '-&gt;', 'valido' if es_valido(p) else 'rechazado')
+
+try:
+    es_valido('2026O417-' + codigo[-1])
+except ValueError as e:
+    print('error:', e)
+
+print('dos errores:', '30270417-5', '-&gt;', es_valido('30270417-5'))</pre><p class="ag-code-note">Cada cifra se multiplica por un peso, se suman los productos y el resto de dividir entre 11 decide la cifra de control. Cuando el cálculo da 10 se escribe <code>K</code>, y cuando da 11 se escribe <code>0</code>. Ejercita cuatro secciones del PCEP: bucles, cadenas, funciones y excepciones.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Resultado</b><span>Salida</span></figcaption><pre>codigo emitido: 20260417-5
+20260417-5 -&gt; valido
+20260471-5 -&gt; rechazado
+20250417-5 -&gt; rechazado
+20260417-3 -&gt; rechazado
+error: se esperaban 8 cifras: 2026O417
+dos errores: 30270417-5</pre><p class="ag-code-note">Salida exacta de Python 3, ejecutado por nosotros. El código emitido es <code>20260417-5</code>; tres alteraciones distintas se rechazan y una letra O en lugar de un cero provoca un error controlado.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><strong>Calcular a mano.</strong> Los productos son 7 por 2, 6 por 0, 5 por 2, 4 por 6, 3 por 0, 2 por 4, 7 por 1 y 6 por 7. Suman 105. El resto de 105 entre 11 es 6, y 11 menos 6 da 5. Ese 5 es la cifra de control.</li><li><strong>Dos cifras intercambiadas.</strong> En <code>20260471-5</code> el 1 y el 7 cambiaron de lugar, un error de tipeo muy común. Como los pesos de esas posiciones son distintos, la suma cambia y el código se rechaza.</li><li><strong>Una cifra equivocada.</strong> <code>20250417-5</code> tiene un 5 donde iba un 6. La suma baja 4 puntos y la cifra de control ya no coincide.</li><li><strong>Una letra disfrazada de número.</strong> <code>2026O417</code> lleva una O mayúscula. La función no intenta adivinar: lanza <code>ValueError</code> y el programa lo atrapa con <code>try</code> y <code>except</code>.</li><li><strong>El reto: dos errores que se anulan.</strong> En <code>30270417-5</code> cambiaron dos cifras: la primera sube 1 con peso 7 y la cuarta sube 1 con peso 4. La suma crece 11, el resto no cambia y el código pasa como válido: <code>True</code>. Un dígito de control atrapa los errores de una cifra, no a quien falsifica con cuidado.</li></ol>
+    <p class="ag-mt-40">La última línea es la lección que queremos dejar. Un número bien formado no prueba que un documento sea auténtico; solo prueba que nadie se equivocó al copiarlo. Para comprobar un certificado hay que consultarlo en el sitio de quien lo emite, que es lo que explicamos en la sección siguiente. En clase, el estudiante escribe la función antes de ver la nuestra y luego busca por su cuenta otro par de errores que se anulen.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="verificar">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Verificar</p><h2>¿Cómo saber si un certificado de programación vale la pena?</h2><p class="ag-lede">Hágale cinco preguntas a cualquier curso antes de inscribirse. Si las respuestas son vagas, el certificado probablemente también lo sea.</p></div>
+    <ol class="ag-steps"><li><strong>¿Quién firma el documento?</strong> Una institución que dicta el curso, una organización que toma exámenes o una universidad. Cada una responde por cosas distintas.</li><li><strong>¿Qué demuestra exactamente?</strong> Asistencia, aprobación de un examen o un grado académico. Si nadie sabe decirlo en una frase, desconfíe.</li><li><strong>¿Se puede verificar?</strong> El Python Institute, por ejemplo, ofrece en su sitio una sección para verificar credenciales y emite insignias digitales. Pregunte si el certificado que le ofrecen tiene algo equivalente.</li><li><strong>¿Hubo un examen ajeno al curso?</strong> Una prueba calificada por otros pesa más que una constancia emitida por quien cobró las clases.</li><li><strong>¿Qué proyectos quedarán a su nombre?</strong> Sin proyectos propios, ningún certificado le servirá en una entrevista técnica.</li></ol>
+    <p class="ag-mt-40">Aplicadas a nosotros, las respuestas son estas. Firma Modern Age Coders. Demuestra que completó un curso en vivo con proyectos revisados. No es un documento oficial ni un título. El examen externo, en Python, es el PCEP, que usted rinde con el Python Institute. Y los proyectos quedan en su propio GitHub, a su nombre, para siempre.</p>
+    <p>Desconfíe también de los cursos gratis con certificado que piden datos personales o un pago a último momento "solo por el certificado". Nuestra primera clase es gratuita y no pide tarjeta. Después, las mensualidades se muestran en esta página y no hay cargos por emitir el certificado.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="horario">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Horario</p><h2>¿A qué hora puedo tomar las clases desde el Perú?</h2><p class="ag-lede">A la que usted reserve. El Perú está en UTC-5 y la India en UTC+5:30 todo el año, sin horario de verano en ninguno de los dos, así que la diferencia es siempre de diez horas y media.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Conversión de horas entre el Perú y la India (ejemplos, no un horario de clases)</caption><thead><tr><th scope="col">Hora de Perú</th><th scope="col">Hora de la India</th><th scope="col">Para quién suele servir</th></tr></thead><tbody><tr><td>6:00 a. m.</td><td>4:30 p. m.</td><td>Quien trabaja de día y estudia antes de salir</td></tr><tr><td>8:00 a. m.</td><td>6:30 p. m.</td><td>Universitarios con clases por la tarde</td></tr><tr><td>7:30 p. m.</td><td>6:00 a. m. del día siguiente</td><td>Quien llega de la oficina y cena temprano</td></tr><tr><td>9:00 p. m.</td><td>7:30 a. m. del día siguiente</td><td>Quien solo dispone de la noche</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Cálculo nuestro con la base de zonas horarias tzdata (America/Lima, UTC-5; Asia/Kolkata, UTC+5:30). La hora oficial del Perú la mantiene el INACAL.</p>
+    <p class="ag-mt-40">Las filas son conversiones, no turnos fijos. En las clases individuales la hora puede moverse de una semana a otra. En grupo, el mentor le propone los grupos abiertos que coinciden con su franja.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Avance</p>
+      <h2>¿Cuánto tiempo toma pasar de cero al examen PCEP?</h2>
+      <p class="ag-lede">Con dos clases por semana y algo de práctica propia, muchos adultos llegan en unos meses. Esta es la escala que usamos para conversar sobre el avance; es nuestra y no reemplaza al examen.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Del primer programa al portafolio: cinco etapas de un curso con certificado (escala nuestra)</caption><thead><tr><th scope="col">Etapa</th><th scope="col">Tiempo habitual</th><th scope="col">Qué hace el estudiante</th></tr></thead><tbody><tr><td>1. Escribe</td><td class="ag-num">Primer mes</td><td class="ag-num">Variables, condicionales y bucles en programas cortos</td></tr><tr><td>2. Organiza</td><td class="ag-num">Segundo mes</td><td class="ag-num">Listas, diccionarios y cadenas; predice la salida antes de ejecutar</td></tr><tr><td>3. Divide</td><td class="ag-num">Tercer mes</td><td class="ag-num">Funciones, excepciones y archivos, como el ejemplo del dígito de control</td></tr><tr><td>4. Rinde</td><td class="ag-num">Cuarto mes en adelante</td><td class="ag-num">Simulacros cronometrados de 35 preguntas en 50 minutos</td></tr><tr><td>5. Muestra</td><td class="ag-num">Al cerrar el curso</td><td class="ag-num">Un proyecto propio en GitHub, explicado en inglés, y el certificado de finalización</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Si trabaja a tiempo completo</h3><p>Dos clases por semana y media hora diaria de práctica bastan para avanzar sin abandonar.</p>
+<p>Reserve la etapa 4 para un período con menos carga laboral, porque los simulacros piden concentración.</p></div><div><h3>Si está en la universidad</h3><p>Use los cursos de la carrera como material: reescriba en Python un ejercicio de su facultad.</p>
+<p>Rinda el PCEP cuando sus simulacros superen con holgura el 70% que pide el examen.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más cursos</p>
+      <h2>Nueve cursos más con certificado de finalización</h2>
+      <p class="ag-lede">Organizados por lo que quiere demostrar al terminar, todos en vivo y en inglés.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Exámenes de programación</h3>
+        <span class="ag-band-sub">Pruebas externas</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCPI / EXAMEN / 01</p>
+          <h4>Preparación para el PCAP</h4>
+          <p>El escalón siguiente al PCEP: clases, módulos y programación orientada a objetos en Python.</p>
+          <a class="ag-course-link" href="/courses/pcap-python-certification-prep-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCPI / EXAMEN / 02</p>
+          <h4>AP Computer Science A</h4>
+          <p>Para escolares que apuntan a universidades de Estados Unidos: Java y el examen AP completo.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCPI / EXAMEN / 03</p>
+          <h4>Estructuras de datos y algoritmos</h4>
+          <p>Lo que se evalúa en entrevistas técnicas, practicado problema por problema.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Portafolio profesional</h3>
+        <span class="ag-band-sub">Desde los 18 años</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCPI / PORTAFOLIO / 01</p>
+          <h4>Desarrollo web full stack</h4>
+          <p>Una aplicación web completa, del diseño de la página a la base de datos, publicada en línea.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCPI / PORTAFOLIO / 02</p>
+          <h4>Bases de datos con MySQL</h4>
+          <p>Consultas, diseño de tablas y administración, con ejercicios sobre datos realistas.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCPI / PORTAFOLIO / 03</p>
+          <h4>Git y GitHub</h4>
+          <p>Control de versiones y trabajo en equipo: la vitrina donde vive su portafolio.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Para escolares</h3>
+        <span class="ag-band-sub">De 13 a 18 años</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCPI / ESCOLAR / 01</p>
+          <h4>Python para adolescentes</h4>
+          <p>La base que luego permite intentar el PCEP con calma.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCPI / ESCOLAR / 02</p>
+          <h4>Java para adolescentes</h4>
+          <p>Objetos y clases desde la secundaria, con proyectos que se pueden mostrar.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCPI / ESCOLAR / 03</p>
+          <h4>Resolución de problemas</h4>
+          <p>Algoritmos y lógica para escolares que disfrutan los retos.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cómo se estudia</p>
+      <h2>¿Cómo funcionan las clases en vivo con certificado?</h2>
+      <p class="ag-lede">Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Al amanecer</p><p class="ag-slot-l">Una clase antes de entrar al trabajo.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Entre clases</p><p class="ag-slot-l">Para universitarios con huecos en el horario.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Semana cambiante</p><p class="ag-slot-l">En individual, cada sesión se agenda aparte.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Programa compartido</h3><p>El mentor ve su pantalla y corrige su código mientras usted lo escribe.</p></div>
+      <div><h3>Predecir antes de ejecutar</h3><p>Cada ejercicio empieza con una pregunta: qué imprimirá este programa.</p></div>
+      <div><h3>Simulacros cronometrados</h3><p>En la etapa final, pruebas con el formato y el tiempo del PCEP.</p></div>
+      <div><h3>Proyecto revisado</h3><p>Ningún módulo se cierra sin un programa propio en su GitHub.</p></div>
+      <div><h3>Mentor estable</h3><p>Una sola persona acompaña su avance hasta el certificado.</p></div>
+      <div><h3>Dos formatos</h3><p>Clase grupal de quince a veinte estudiantes, o sesiones individuales.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Proyectos de nuestros estudiantes</p>
+      <h2>Trabajos de estudiantes</h2>
+      <p class="ag-lede">Proyectos reales de nuestros estudiantes, como los que forman un portafolio. Hay más en <a class="ag-inline-link" href="/student-labs">Student labs</a>, en inglés.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Captura del proyecto NutriLife, un coach de nutrición con IA" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>NutriLife</h4>
+          <p>Un coach de nutrición con IA que analiza las comidas y avanza paso a paso hacia una meta.</p>
+          <p class="ag-proj-meta">de Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Captura de Misti, un chatbot con IA para matemáticas y programación" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>Misti</h4>
+          <p>Un chatbot que responde preguntas de matemáticas y programación, creado y publicado por un estudiante.</p>
+          <p class="ag-proj-meta">de Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Captura de GuardianX, un asistente con IA para la seguridad en internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>GuardianX</h4>
+          <p>Un asistente que ayuda a los jóvenes a reconocer situaciones de riesgo en internet.</p>
+          <p class="ag-proj-meta">de Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Captura de la aplicación del clima SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Aplicación web</p>
+          <h4>SkyCast</h4>
+          <p>Un sitio de pronóstico del clima con condiciones en vivo para cualquier lugar.</p>
+          <p class="ag-proj-meta">de Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Precios</p>
+      <h2>Precio de los cursos con certificado</h2>
+      <p class="ag-lede">Abajo verá cada mensualidad expresada en dólares estadounidenses; el cobro es con tarjeta y la conversión a su moneda corre por cuenta de su banco el día del cargo. El certificado de finalización está incluido y no tiene costo adicional; la inscripción al examen PCEP se paga aparte, directamente al Python Institute.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Primera clase gratis</p>
+        <p class="ag-price-amt">Gratis</p>
+        <p class="ag-price-alt">sin tarjeta</p>
+        <ul><li>Clase de prueba gratuita</li><li>Diagnóstico de su nivel en Python o Java</li><li>Reserva sin tarjeta</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Reservar</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Clase grupal</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Grupo de quince a veinte estudiantes</li><li>Dos clases en vivo por semana</li><li>Certificado de finalización incluido</li><li>Pago mes a mes, sin permanencia</li></ul>
+        <a href="#start" class="ag-btn">Empezar aquí</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Clases individuales</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Clases solo para usted</li><li>Ritmo pensado para su fecha de examen</li><li>Horario que cambia con su semana</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Consultar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lo que dicen las familias</p>
+      <h2>4.9 de 5 en 547 reseñas de Google</h2>
+      <p class="ag-lede">Lo que escribieron en Google estudiantes y familias de distintos países, sin retoques ni traducción.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preguntas frecuentes</p>
+      <h2>Cursos de programación con certificado: preguntas frecuentes</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>¿Las clases son en español?</h3>
+        <p>No. Todos nuestros cursos se dictan en vivo, por internet y en inglés, y así se lo decimos antes de empezar. Es una ventaja doble: aprende a programar en el idioma de la documentación y de los mensajes de error, y practica la expresión oral, que en el EF EPI 2025 es la habilidad más baja del Perú con 480 puntos. Lima, con 555 puntos, figura en el nivel alto. Si el ritmo le cuesta, el mentor lo baja.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿El certificado es oficial?</h3>
+        <p>No. Lo emitimos nosotros, Modern Age Coders, para dejar constancia de que usted terminó el curso. Tampoco equivale a un título: no lo otorga una universidad y no tiene reconocimiento del MINEDU ni de SUNEDU. Sus proyectos revisados pesan más que el papel.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Qué es el PCEP?</h3>
+        <p>Es la certificación de nivel inicial en Python del Python Institute. Su página publica las condiciones del PCEP-30-03: 35 preguntas en 50 minutos, aprobación desde el 70% y una credencial que vence a los 5 años. Nosotros le preparamos; el examen lo rinde usted con el Python Institute.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿El precio incluye el examen PCEP?</h3>
+        <p>No. Nuestras mensualidades cubren las clases y el certificado de finalización. La inscripción al examen se compra aparte al Python Institute, cuando usted decida rendirlo.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Un curso con certificado me asegura trabajo?</h3>
+        <p>No, y no lo prometemos. Le ayudamos a construir proyectos propios en GitHub y a explicarlos en inglés, que es lo que se revisa en una entrevista técnica. El empleo depende de muchos factores que ningún curso controla.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Necesito experiencia previa?</h3>
+        <p>No. Los cursos de Python y Java empiezan desde cero. El PCEP tampoco pide requisitos previos, según la página del Python Institute.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Desde qué edad se puede estudiar?</h3>
+        <p>Desde los 13 años en los cursos para adolescentes. Los cursos de nivel universitario y profesional son para mayores de 18.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Puedo elegir el día y la hora de estudio?</h3>
+        <p>Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, las 9:00 p. m. en Lima son las 7:30 a. m. del día siguiente en la India.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Cuánto dura el curso?</h3>
+        <p>Depende de su punto de partida y del ritmo. Con dos clases por semana, muchos adultos llegan a los simulacros del PCEP en unos cuatro meses. En la clase de prueba el mentor le da una estimación según su nivel.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Hay cursos gratis con certificado?</h3>
+        <p>La clase de prueba es gratuita, pero no emite certificado. El certificado de finalización se entrega al completar un curso pagado, sin cargo extra por emitirlo.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Cómo se paga?</h3>
+        <p>Cada mes, con tarjeta y en dólares estadounidenses. La conversión a su moneda la aplica su banco. No cobramos matrícula ni emisión de certificado.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Para seguir leyendo</p>
+      <h2>Páginas relacionadas</h2>
+      <p class="ag-lede">Otras páginas nuestras sobre exámenes, método y cursos en el Perú.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/pcep-python-certification-prep">PCEP Python certification prep</a></h3><p>El examen PCEP explicado en detalle, en inglés.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-certification-pcep-pcap-course">Python certification: PCEP and PCAP</a></h3><p>Cómo se encadenan las dos certificaciones del Python Institute.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-think-like-a-programmer">How to think like a programmer</a></h3><p>Lo que hay detrás de un buen portafolio: método, no memoria.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>Todas nuestras clases para el Perú, por edad y por tema.</p></div>
+      <div><h3><a class="ag-inline-link" href="/english-medium-coding-classes-lima">English-medium coding classes in Lima</a></h3><p>Si en casa ya se habla inglés por el colegio de los hijos.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>El método de nuestras clases, explicado paso a paso.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Empiece aquí</p>
+        <h2>Reserve una clase de prueba antes de decidir</h2>
+        <p class="ag-lede">Durante la clase de prueba se le pide resolver un ejercicio corto, le hace preguntas sobre su objetivo, sea un examen, un cambio de trabajo o un proyecto, y le sugiere el curso que le conviene. No hace falta experiencia.</p>
+        <p class="ag-mt-40">Si quiere conocer el nivel antes, lea <a class="ag-inline-link" href="/pcep-python-certification-prep">PCEP Python certification prep</a> o <a class="ag-inline-link" href="/how-we-teach">How we teach</a>, ambas en inglés.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20escribo%20desde%20Per%C3%BA.%20Me%20interesa%20un%20curso%20de%20programaci%C3%B3n%20online%20con%20certificado.%20%C2%BFPuedo%20agendar%20una%20clase%20de%20prueba%20gratuita%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ccpi',pos:'end'});">Escríbanos por WhatsApp</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Recuerde: toda clase es en vivo, por internet y en inglés, dictada desde la India. Por WhatsApp le atendemos también en castellano.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ccpi(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Su nombre</label>
+            <input id="pe-name" type="text" name="name" placeholder="Nombre del padre, madre o estudiante" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Teléfono o WhatsApp, Perú +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Grupo de edad</label>
+            <select id="pe-age" name="age"><option value="6-12">Niño o niña, 6 a 12</option><option value="13-18">Adolescente, 13 a 18</option><option value="college">Universitario</option><option value="adult">Profesional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Solicitar la clase gratis</button>
+          <p class="ag-form-note">Sin pago ni tarjeta para reservar.</p>
+        </form>
+        <div class="ag-pd-card"><h3>¿Quiere una clase antes? Reserve una demo prioritaria</h3><p>Una demo prioritaria es una clase completa de unos 45 a 60 minutos. Después, el mentor envía por WhatsApp un informe escrito de habilidades y un plan de aprendizaje personal. Si se inscribe, el pago de la demo se descuenta de la primera mensualidad: envíenos por WhatsApp el número de pedido de la demo.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Reservar una demo prioritaria</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Clases en vivo y en línea de programación, IA y matemáticas para personas de 6 a 67 años, siempre en inglés. Enseñamos desde 2020, a más de
+          10,000 estudiantes en 25 países.
+        </p>
+      </div>
+      <div><h4>Cursos con certificado</h4><ul><li><a href="/courses/pcep-pcap-python-certification-course">Python con PCEP</a></li><li><a href="/courses/python-programming-masterclass-zero-to-advanced-college">Python desde cero</a></li><li><a href="/courses/complete-java-programming-masterclass-college">Java para universitarios</a></li><li><a href="/courses">Todos los cursos</a></li></ul></div>
+      <div><h4>Perú</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Clases en Perú</a></li><li><a href="/curso-de-inteligencia-artificial-en-ingles-peru">Curso de IA en inglés</a></li><li><a href="/curso-de-ia-para-adolescentes-peru">IA para adolescentes</a></li><li><a href="/coding-classes-in-arequipa-peru">Arequipa</a></li></ul></div>
+      <div>
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="/about">Quiénes somos</a></li>
+          <li><a href="/how-we-teach">Cómo enseñamos</a></li>
+          <li><a href="/love">Reseñas</a></li>
+          <li><a href="/contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Clases en vivo y en línea, en inglés, para todo el mundo.</span>
+      <span>Un certificado dice que usted terminó; su código dice lo que sabe hacer</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Clase gratis</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Demo prioritaria</a><a href="tel:+919123366161" aria-label="Llamar al +91 91233 66161">Llamar</a></div>
+
+<script>
+window.submitLead_ccpi = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Enviando...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'cursos-online-con-certificado-programacion-en-ingles-inline', meta: { name: name, age: age, page: 'cursos-online-con-certificado-programacion-en-ingles' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Muchas gracias' + (name ? ', ' + name.split(' ')[0] : '') + '. Un mentor le llamará en breve.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Algo salió mal. Por favor, inténtelo de nuevo.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Error de conexión. Por favor, inténtelo de nuevo.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
