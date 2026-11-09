@@ -939,6 +939,7 @@ const SLUGS = [
   'english-medium-coding-classes-lima',
   'clases-de-programacion-para-ninos-en-ingles',
   'coding-classes-in-arequipa-peru',
+  'vacaciones-utiles-2027-programacion-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1957,6 +1958,7 @@ const LLMS_LABELS = {
   'english-medium-coding-classes-lima': 'English-medium coding classes in Lima',
   'clases-de-programacion-para-ninos-en-ingles': 'Clases de programación para niños en inglés',
   'coding-classes-in-arequipa-peru': 'Coding classes in Arequipa, Peru',
+  'vacaciones-utiles-2027-programacion-online': 'Vacaciones útiles 2027: programación online',
 };
 
 function wireLlms(slugs) {
