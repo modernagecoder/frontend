@@ -984,6 +984,7 @@ const SLUGS = [
   'python-para-estudiantes-de-ingenieria-peru',
   'curso-de-java-en-ingles-peru',
   'curso-de-java-para-universitarios-peru',
+  'vibe-coding-curso-en-ingles',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2047,6 +2048,7 @@ const LLMS_LABELS = {
   'python-para-estudiantes-de-ingenieria-peru': 'Python para estudiantes de ingeniería',
   'curso-de-java-en-ingles-peru': 'Curso de Java en inglés',
   'curso-de-java-para-universitarios-peru': 'Curso de Java para universitarios',
+  'vibe-coding-curso-en-ingles': 'Vibe coding: curso en inglés',
 };
 
 function wireLlms(slugs) {
