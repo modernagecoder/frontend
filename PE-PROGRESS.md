@@ -17,7 +17,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE110 | talleres-de-verano-programacion-ninos-online (tvp, #7C4B02) | market | 4,923 | 1.9% vs vacaciones-utiles-2027-programacion-online | Talleres de verano de programación online por edades: cinco talleres, de 1° de primaria a 5° de secundaria | a while loop that halves a range (binary search) to find a secret number | 65a90075 |
 | PE066 | peru-summer-holiday-coding-classes-online (shc, #7C4B02) | market | 5,634 | 1.7% vs coding-classes-in-arequipa-peru | see module header | date arithmetic: fencepost days versus counted school weeks | 911ef18d |
 | PE205 | vacaciones-utiles-de-programacion-surco-lima (vau, #00493C) | market | 5,112 | 2.4% vs vacaciones-utiles-2027-programacion-online | Surco summer for families with two or more children: one plan per child | lists: alias versus copy (two names, one list) | 4ae00718 |
-| PE216 | vacaciones-utiles-de-programacion-la-molina-lima (vupm, #4E582A) | market | 5,210 | 2.3% vs clases-de-programacion-para-ninos-en-ingles | La Molina summer: computación (Word, Excel) or programación, a teen-heavy district | types: text that looks like a number sorts as text (str vs int) | (this commit) |
+| PE216 | vacaciones-utiles-de-programacion-la-molina-lima (vupm, #4E582A) | market | 5,210 | 2.3% vs clases-de-programacion-para-ninos-en-ingles | La Molina summer: computación (Word, Excel) or programación, a teen-heavy district | types: text that looks like a number sorts as text (str vs int) | a0b6ced0 |
+| PE220 | vacaciones-utiles-de-programacion-miraflores-lima (vami, #384213) | market | 5,035 | 2% vs vacaciones-utiles-2027-programacion-online | Miraflores summer by age: council workshops stop at 12, a gap for teens | logic: a range check needs and, not or (chained comparison) | (this commit) |
 
 ## Notes
 
