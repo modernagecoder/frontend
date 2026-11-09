@@ -953,6 +953,7 @@ const SLUGS = [
   'vacaciones-utiles-de-programacion-barranco-lima',
   'vacaciones-utiles-de-programacion-los-olivos-lima',
   'vacaciones-utiles-de-programacion-jesus-maria-lima',
+  'vacaciones-utiles-de-programacion-pueblo-libre-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1985,6 +1986,7 @@ const LLMS_LABELS = {
   'vacaciones-utiles-de-programacion-barranco-lima': 'Vacaciones útiles de programación en Barranco',
   'vacaciones-utiles-de-programacion-los-olivos-lima': 'Vacaciones útiles de programación en Los Olivos',
   'vacaciones-utiles-de-programacion-jesus-maria-lima': 'Vacaciones útiles de programación en Jesús María',
+  'vacaciones-utiles-de-programacion-pueblo-libre-lima': 'Vacaciones útiles de programación en Pueblo Libre',
 };
 
 function wireLlms(slugs) {
