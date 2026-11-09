@@ -10124,4 +10124,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ia-para-docentes-curso-en-ingles /src/pages/ia-para-docentes-curso-en-ingles.html 200
 /ia-para-docentes-curso-en-ingles.md /src/pages/ia-para-docentes-curso-en-ingles.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/curso-de-ia-para-empresas-peru /src/pages/curso-de-ia-para-empresas-peru.html 200
+/curso-de-ia-para-empresas-peru.md /src/pages/curso-de-ia-para-empresas-peru.md 200
 /* /src/pages/404.html 404

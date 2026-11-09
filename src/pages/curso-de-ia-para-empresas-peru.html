@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Curso de IA para empresas en Perú, en vivo y en inglés</title>
+  <meta name="description" content="Curso de IA para empresas en Perú, en vivo y en inglés: forme a su equipo, mida un piloto antes de escalarlo y conozca lo que pide el DS 115-2025-PCM. Por persona.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/curso-de-ia-para-empresas-peru">
+  <link rel="alternate" type="text/markdown" href="/src/pages/curso-de-ia-para-empresas-peru.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#007047">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/curso-de-ia-para-empresas-peru">
+  <meta property="og:title" content="Curso de IA para empresas en Perú, en vivo y en inglés">
+  <meta property="og:description" content="Qué llama el reglamento peruano implementador, qué pide a toda empresa que usa IA, los plazos para MYPE y cómo medir un piloto de IA con precisión y cobertura, en Python.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="es_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Curso de IA para empresas en Perú, en vivo y en inglés">
+  <meta name="twitter:description" content="Inteligencia artificial para dueños, gerentes y equipos en Perú, en vivo y en inglés, en grupo o individual, con agentes de Copilot Studio y Gemini.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-iae .ag-hero h1 { letter-spacing: -0.01em; max-width: 21ch; }
+.ag-root.ag-iae .ag-capsule { border-left-width: 3px; border-radius: 0; }
+.ag-root.ag-iae .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-iae .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-iae .ag-steps li { line-height: 1.6; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/curso-de-ia-para-empresas-peru#page","url":"https://learn.modernagecoders.com/curso-de-ia-para-empresas-peru","name":"Curso de inteligencia artificial para empresas en el Perú","description":"Guía para empresas peruanas que quieren formar a su gente en inteligencia artificial: qué es un implementador según el DS 115-2025-PCM, qué obligaciones alcanzan a toda empresa y cuáles solo al riesgo alto, los plazos graduales para micro y pequeñas empresas, el sandbox y el apoyo a las MIPYME, cómo medir un piloto con precisión y cobertura, y qué cursos tomar por rol.","inLanguage":"es-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Cursos","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Perú","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"IA para empresas","item":"https://learn.modernagecoders.com/curso-de-ia-para-empresas-peru"}]},{"@type":"Course","name":"Curso de inteligencia artificial para empresas en el Perú","description":"Cursos en vivo y en línea de inteligencia artificial para dueños de empresa, gerentes y equipos de trabajo en todo el Perú, dictados solo en inglés por mentores desde la India: uso responsable de herramientas generativas, datos, evaluación de pilotos, automatización con Python y agentes en Microsoft Copilot Studio y Google Gemini Enterprise, en grupo o en clases individuales, a cualquier hora. Solo para mayores de 18 años.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/curso-de-ia-para-empresas-peru"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/curso-de-ia-para-empresas-peru"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/curso-de-ia-para-empresas-peru"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Las clases son en español?","acceptedAnswer":{"@type":"Answer","text":"No, el idioma de todas las clases es el inglés, siempre en vivo y en línea. Para una empresa eso suma: las plataformas de IA y su documentación están en inglés. Además, hablar es lo que menos domina el país según el EF EPI 2025 (480 puntos en expresión oral), y el curso obliga a explicar en voz alta. Lima obtiene 555, nivel alto. El mentor adapta el ritmo a cada participante."}},{"@type":"Question","name":"¿El curso cumple con el DS 115-2025-PCM?","acceptedAnswer":{"@type":"Answer","text":"El reglamento no aprueba ni reconoce cursos privados. Su artículo 31.3 pide fomentar la educación interna de los colaboradores sobre los riesgos de la IA, y nuestro curso puede formar parte de esa formación. El cumplimiento de su empresa depende de su política interna y conviene revisarlo con un abogado."}},{"@type":"Question","name":"¿Ustedes dan asesoría legal sobre la ley de IA?","acceptedAnswer":{"@type":"Answer","text":"No. Citamos la Ley 31814 y su reglamento como contexto, tal como se publicaron en El Peruano. Para obligaciones concretas de su empresa, consulte a un abogado."}},{"@type":"Question","name":"¿Pueden capacitar a todo mi equipo a la vez?","acceptedAnswer":{"@type":"Answer","text":"Cada persona se inscribe en su curso y elige su hora. Si quiere formar a varias personas, escríbanos y le proponemos una combinación de clases grupales e individuales según los roles."}},{"@type":"Question","name":"¿Necesitan saber programar?","acceptedAnswer":{"@type":"Answer","text":"No para los cursos de gerencia y de datos sin programar. Los cursos de automatización con Python y de agentes de código empiezan desde lo básico, aunque avanzan más rápido con alguien que ya programa."}},{"@type":"Question","name":"¿Incluye licencias de Copilot Studio o Gemini Enterprise?","acceptedAnswer":{"@type":"Answer","text":"No. Enseñamos a construir agentes en esas plataformas; las licencias las contrata su empresa directamente con Microsoft o Google. Los dos cursos de agentes se dictan solo en formato individual."}},{"@type":"Question","name":"¿Desde qué edad son los cursos?","acceptedAnswer":{"@type":"Answer","text":"Desde los 18 años. Algunas herramientas que usamos, como Claude, exigen esa edad en sus términos."}},{"@type":"Question","name":"¿En qué horario son las clases?","acceptedAnswer":{"@type":"Answer","text":"Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, las 7:00 a. m. en Lima equivalen a las 5:30 p. m. en la India."}},{"@type":"Question","name":"¿Recibimos certificado?","acceptedAnswer":{"@type":"Answer","text":"Cada participante recibe nuestro certificado de finalización. No es un documento oficial ni lo reconoce ninguna entidad del Estado peruano."}},{"@type":"Question","name":"¿Prometen un retorno de la inversión?","acceptedAnswer":{"@type":"Answer","text":"No. Enseñamos a medir: si un piloto de IA no mejora la métrica que su empresa definió, el curso le habrá enseñado a detectarlo a tiempo, y eso también tiene valor."}},{"@type":"Question","name":"¿Cómo se paga?","acceptedAnswer":{"@type":"Answer","text":"Por persona, cada mes, con tarjeta y en dólares estadounidenses; el banco convierte el monto. No cobramos matrícula."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/curso-de-ia-para-empresas-peru","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-iae">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Perú</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Perú</a></li>
+      <li><a href="#roles">Por rol</a></li>
+      <li><a href="#reglamento">Reglamento</a></li>
+      <li><a href="#mype">MYPE</a></li>
+      <li><a href="#piloto">Medir un piloto</a></li>
+      <li><a href="#equipo">Formar al equipo</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Clase gratis</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a> / <a href="/courses">Cursos</a> / <a href="/coding-and-ai-classes-in-peru">Perú</a> / IA para empresas
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Perú &middot; Inteligencia artificial &middot; Empresas y profesionales</p>
+        <h1>Curso de IA para empresas en Perú, en vivo y en inglés</h1>
+        <p class="ag-lede">La mayoría de las empresas no fracasa con la IA por falta de herramientas, sino por falta de criterio: se compra una licencia, nadie mide si funciona y a los tres meses se abandona. Este curso forma a las personas que deciden y a las que operan, para que su empresa pruebe la IA con método, la mida con números y cumpla lo que pide la norma peruana.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Reservar la primera clase gratis</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Reservar una demo prioritaria</a>
+          <a href="#roles" class="ag-btn ag-btn--ghost">Ver el curso según su rol</a>
+          <a href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20escribo%20desde%20una%20empresa%20en%20Per%C3%BA%20y%20me%20interesa%20el%20curso%20de%20inteligencia%20artificial%20para%20empresas.%20%C2%BFPodemos%20agendar%20una%20clase%20de%20prueba%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'iae'});">Consultar por WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Clases en directo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; nota de 4.9 en Google</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">En resumen</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 de 5 en 547 reseñas de Google
+        </p>
+        <dl>
+          <dt>Idioma de las clases</dt><dd>Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante</dd>
+          <dt>Para quién</dt><dd>Dueños, gerentes y equipos; mayores de 18 años</dd>
+          <dt>Base</dt><dd>Ninguna para empezar; Python opcional</dd>
+          <dt>Contenido</dt><dd>IA generativa, datos, pilotos, automatización y agentes</dd>
+          <dt>Modalidad</dt><dd>Grupo de quince a veinte personas, o individual</dd>
+          <dt>Idioma</dt><dd>Inglés, con mentor en vivo desde la India</dd>
+          <dt>Inicio</dt><dd>Clase de prueba sin costo</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Respuesta breve</p>
+      <p>Modern Age Coders ofrece a empresas de todo el Perú formación en IA en vivo, en línea y en inglés, pensada para dueños, gerentes y equipos mayores de 18 años. Cada persona aprende según su rol: usar herramientas generativas con criterio, medir un piloto antes de escalarlo, automatizar tareas con Python o construir agentes en Microsoft Copilot Studio y Google Gemini Enterprise. Las clases son en grupo o individuales, a la hora que le convenga a cada participante, con un mentor desde la India. Explicamos el reglamento peruano de IA como contexto, nunca como asesoría legal.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cursos para empresas</p>
+      <h2>Tres cursos con los que suelen empezar las empresas</h2>
+      <p class="ag-lede">Dos para construir agentes dentro de las plataformas que su empresa quizás ya paga, y uno para equipos técnicos que programan con agentes de código. Los tres son para mayores de 18.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals">
+        <div class="ag-pick-shot"><img src="/images/copilot-studio-professionals.webp" alt="Imagen del curso de agentes de inteligencia artificial con Microsoft Copilot Studio para profesionales" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IAE / 01</p>
+          <h3>Agentes con Microsoft Copilot Studio</h3>
+          <p>Solo en clases individuales. Para empresas que trabajan con Microsoft 365 y quieren un agente que responda con sus documentos internos, con permisos bien puestos.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/build-ai-agents-with-google-gemini-enterprise-course">
+        <div class="ag-pick-shot"><img src="/images/gemini-enterprise-agents.webp" alt="Imagen del curso para construir agentes de inteligencia artificial con Google Gemini Enterprise" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IAE / 02</p>
+          <h3>Agentes con Google Gemini Enterprise</h3>
+          <p>Solo en clases individuales. Para equipos que viven en Google Workspace: agentes conectados a sus datos, probados antes de abrirlos al resto de la empresa.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">
+        <div class="ag-pick-shot"><img src="/images/codex-claude-code-adults.webp" alt="Imagen del curso de agentes de programación Codex y Claude Code para profesionales" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IAE / 03</p>
+          <h3>Codex y Claude Code para equipos técnicos</h3>
+          <p>Pensado para desarrolladores y analistas que quieren encargar trabajo de código a un agente sin aceptar ningún cambio a ciegas. Por los términos de Claude, solo adultos.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="roles">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Por rol</p><h2>¿Qué debe aprender de IA cada persona de una empresa?</h2><p class="ag-lede">No lo mismo. Un gerente necesita saber decidir y medir; un analista, trabajar con datos; un desarrollador, delegar código a un agente sin perder el control. Esta es la ruta que proponemos por rol.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Qué aprende cada rol en un curso de IA para empresas (propuesta nuestra)</caption><thead><tr><th scope="col">Rol</th><th scope="col">Qué necesita poder hacer</th><th scope="col">Curso que sugerimos</th><th scope="col">Primer resultado visible</th></tr></thead><tbody><tr><td>Dueño o gerente general</td><td>Decidir qué probar, cómo medirlo y cuándo detenerlo</td><td>Herramientas de IA con criterio</td><td>Un piloto con una métrica definida antes de empezar</td></tr><tr><td>Jefe de área (ventas, atención, operaciones)</td><td>Redactar el caso de uso y leer los resultados del piloto</td><td>Datos e IA sin programar</td><td>Un tablero con precisión y cobertura del piloto</td></tr><tr><td>Analista o contador</td><td>Limpiar datos y automatizar reportes repetitivos</td><td>Automatización con Python e IA</td><td>Un script que ahorra horas al mes</td></tr><tr><td>Equipo de Microsoft 365 o Google Workspace</td><td>Construir un agente interno con permisos y pruebas</td><td>Copilot Studio o Gemini Enterprise, uno a uno</td><td>Un agente probado con preguntas reales</td></tr><tr><td>Desarrollador</td><td>Usar agentes de código y revisar cada cambio</td><td>Codex y Claude Code</td><td>Una tarea real resuelta y revisada con pruebas</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Recomendación de Modern Age Coders. Todos estos cursos son para mayores de 18 años. Para revisar qué edad pide cada herramienta, consulte la <a class="ag-inline-link" href="/ai-tools-age-guide">AI tool age guide</a>.</p>
+    <p class="ag-mt-40">Cada persona se inscribe en su propio curso y sigue su propio ritmo. Si quiere formar a varias personas de la misma empresa, escríbanos y le diremos qué combinación de clases grupales e individuales tiene sentido para su equipo. No vendemos paquetes cerrados ni prometemos resultados de negocio; enseñamos a las personas a trabajar con la IA con método.</p>
+    <p>Si lo que necesita no es aprender sino que alguien construya la herramienta, ese es otro servicio, que describimos en <a class="ag-inline-link" href="/for-business">Modern Age Coders for Business</a>. Esta página trata solo de formación.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="reglamento">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Reglamento</p><h2>¿Qué pide la ley peruana a una empresa que usa inteligencia artificial?</h2><p class="ag-lede">La norma que reglamenta la Ley 31814, el DS 115-2025-PCM, vigente tras su publicación del 9 de setiembre de 2025, distingue entre quien crea un sistema de IA y quien lo usa dentro de su negocio. La mayoría de empresas está en el segundo grupo.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Implementador o desarrollador</h3><p>El artículo 6 llama desarrollador a quien "diseñe, programe o entrene un sistema basado en IA", e implementador a quien "integra o despliega un sistema basado en IA dentro de un proceso productivo u operativo".</p>
+<p>Una empresa que conecta un agente de Copilot Studio a su mesa de ayuda es, con esas palabras, una implementadora. Una empresa que entrena su propio modelo con sus datos es, además, desarrolladora.</p></div><div><h3>Sesgo algorítmico</h3><p>El mismo artículo define el sesgo algorítmico como un "error sistemático" por el que un sistema de IA toma decisiones injustas, parciales o discriminatorias, debido a los datos de entrenamiento, al diseño del algoritmo o a interacciones humanas sesgadas.</p>
+<p>Es un concepto técnico antes que jurídico, y se detecta midiendo. Por eso dedicamos una sección entera a cómo medir un piloto.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Qué artículos del DS 115-2025-PCM alcanzan a una empresa privada y cuáles solo al riesgo alto</caption><thead><tr><th scope="col">Artículo</th><th scope="col">Qué dice, en resumen</th><th scope="col">A quién alcanza</th></tr></thead><tbody><tr><td>26.1</td><td>Cumplir la normativa vigente de privacidad y protección de datos personales</td><td>Todo desarrollo, implementación y uso de IA</td></tr><tr><td>27.1</td><td>Comportamiento probo y ético; entre otras acciones, equipos diversos y multidisciplinarios</td><td>Desarrolladores, implementadores y usuarios</td></tr><tr><td>31.2</td><td>Políticas, protocolos y procedimientos claros de seguridad, privacidad, transparencia y rendición de cuentas</td><td>Desarrolladores e implementadores</td></tr><tr><td>31.3</td><td>Fomentar la educación y concientización interna de los colaboradores sobre los riesgos de la IA</td><td>Desarrolladores e implementadores</td></tr><tr><td>31.1</td><td>Un registro actualizado del funcionamiento, las fuentes de datos y la lógica del sistema</td><td>Solo sistemas de riesgo alto</td></tr><tr><td>31.4</td><td>Supervisión humana: personal capacitado que pueda detener, corregir o invalidar decisiones</td><td>Solo sistemas de riesgo alto, en ciertos sectores</td></tr><tr><td>32.1 y 32.3</td><td>Evaluación de impacto voluntaria y documentación conservada al menos tres años</td><td>Riesgo alto, de forma voluntaria en el sector privado</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Texto consultado: artículos 6, 26, 27, 31 y 32 del reglamento aprobado por DS 115-2025-PCM (El Peruano, edición del 9 de setiembre de 2025). Resumen nuestro; no es asesoría legal. Para su caso concreto consulte a un abogado.</p>
+    <p class="ag-mt-40">Una fila nos toca de cerca. El artículo 31.3 pide a desarrolladores e implementadores "fomentar la educación y concientización interna de sus colaboradores sobre los riesgos asociados con el uso de la IA". El reglamento no dice con quién ni cómo, y no reconoce cursos privados. Pero sí deja claro que formar al equipo forma parte de usar la IA de manera responsable. Nuestro curso puede ser una parte de esa formación; la política interna, en cambio, la define su empresa.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="mype">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">MYPE</p><h2>¿Qué plazos tienen las micro y pequeñas empresas?</h2><p class="ag-lede">Más largos que los de las demás. La primera disposición complementaria final del reglamento da a las MYPE y a los emprendimientos innovadores plazos graduales para el artículo 25 y el capítulo II del título VI, que es donde están las obligaciones del sector privado.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Plazos graduales para MYPE en el DS 115-2025-PCM, con un cálculo nuestro de la fecha</caption><thead><tr><th scope="col">Tipo de empresa</th><th scope="col">Ventas anuales según el reglamento</th><th scope="col">Plazo</th><th scope="col">Hasta aproximadamente (cálculo nuestro)</th></tr></thead><tbody><tr><td>Pequeña empresa</td><td>Más de 150 UIT y hasta 1700 UIT</td><td>Dos (2) años</td><td>Setiembre de 2027</td></tr><tr><td>Microempresa</td><td>Hasta 150 UIT y otros equivalentes</td><td>Tres (3) años</td><td>Setiembre de 2028</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Base normativa: la primera disposición complementaria final del DS 115-2025-PCM, cuyos plazos se cuentan "a partir del día siguiente de la publicación" del decreto, el 9 de setiembre de 2025. La última columna es nuestro cálculo aproximado, no una interpretación legal.</p>
+    <p class="ag-mt-40">Un plazo largo no significa que convenga esperar. Lo que la tabla aplaza son deberes de transparencia y de buenas prácticas, y el mismo reglamento recuerda en su artículo 26 que la normativa de protección de datos personales debe cumplirse. Para una MYPE, el tiempo de gracia es la oportunidad de formar a dos o tres personas clave con calma y probar la IA en un proceso pequeño antes de que las obligaciones sean exigibles.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>El sandbox</h3><p>El artículo 17 crea un entorno de experimentación y prueba controlada, para probar sistemas de IA de forma segura y evaluar sus efectos "antes de su implementación a gran escala".</p>
+<p>El artículo 18.2 promueve que las MIPYME, los emprendimientos innovadores y las entidades de investigación participen en él. Quien lo gestiona es la SGTD de la PCM; nosotros no participamos.</p></div><div><h3>Apoyo y formación del Estado</h3><p>El artículo 18.3 encarga articular con PRODUCE y el CONCYTEC mecanismos de financiamiento y apoyo a las MIPYME para usar y adoptar sistemas de IA.</p>
+<p>Y el artículo 13.1 prevé cursos, talleres y otras modalidades formativas a través de la Plataforma Nacional de Talento Digital. Vale la pena revisarla; nuestro curso no forma parte de ella.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="piloto">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Una clase de muestra</p><h2>¿Cómo saber si un piloto de IA funciona? Un ejemplo en Python</h2><p class="ag-lede">Imagine que su empresa prueba un modelo que marca los reclamos urgentes. El modelo da a cada reclamo un puntaje entre 0 y 1, y usted decide desde qué puntaje se trata como urgente. Los doce reclamos y sus puntajes son inventados por nosotros para la clase.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Medir un piloto de IA con precisión, cobertura y umbral</b><span>Python</span></figcaption><pre># 12 reclamos inventados: puntaje que dio el modelo y si de verdad eran urgentes
+casos = [(0.95, True), (0.88, True), (0.81, False), (0.74, True),
+         (0.66, False), (0.58, False), (0.47, True), (0.41, False),
+         (0.33, False), (0.29, True), (0.18, False), (0.07, False)]
+
+def evaluar(umbral):
+    vp = sum(1 for p, real in casos if p &gt;= umbral and real)
+    fp = sum(1 for p, real in casos if p &gt;= umbral and not real)
+    fn = sum(1 for p, real in casos if p &lt; umbral and real)
+    precision = vp / (vp + fp)
+    cobertura = vp / (vp + fn)
+    print(f'umbral {umbral}: marcados {vp + fp}, aciertos {vp}, '
+          f'falsas alarmas {fp}, urgentes perdidos {fn}, '
+          f'precision {precision:.2f}, cobertura {cobertura:.2f}')
+
+for u in (0.7, 0.5, 0.25):
+    evaluar(u)
+
+exactitud = sum(1 for p, real in casos if (p &gt;= 0.5) == real) / len(casos)
+print('exactitud con umbral 0.5:', round(exactitud, 2))
+print('exactitud si nunca marca nada:', round(sum(1 for _, r in casos if not r) / len(casos), 2))</pre><p class="ag-code-note">Precisión: de lo que el modelo marcó como urgente, cuánto lo era. Cobertura: de lo que era urgente, cuánto marcó el modelo. El umbral es la decisión de negocio que conecta las dos.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Resultado</b><span>Salida</span></figcaption><pre>umbral 0.7: marcados 4, aciertos 3, falsas alarmas 1, urgentes perdidos 2, precision 0.75, cobertura 0.60
+umbral 0.5: marcados 6, aciertos 3, falsas alarmas 3, urgentes perdidos 2, precision 0.50, cobertura 0.60
+umbral 0.25: marcados 10, aciertos 5, falsas alarmas 5, urgentes perdidos 0, precision 0.50, cobertura 1.00
+exactitud con umbral 0.5: 0.58
+exactitud si nunca marca nada: 0.58</pre><p class="ag-code-note">Salida literal de Python 3 en nuestra computadora. Con umbral 0.25 no se pierde ningún urgente, a cambio de cinco falsas alarmas.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><strong>Umbral alto, 0.7.</strong> El modelo marca cuatro reclamos y acierta en tres: precisión 0.75. Pero de los cinco urgentes reales se le escapan dos: cobertura 0.60. Un cliente con un problema serio espera sin que nadie lo sepa.</li><li><strong>Umbral medio, 0.5.</strong> Marca seis y acierta en los mismos tres. Bajar el umbral sumó falsas alarmas sin rescatar ningún urgente, porque los dos perdidos tienen puntajes de 0.47 y 0.29.</li><li><strong>Umbral bajo, 0.25.</strong> Marca diez, acierta en los cinco urgentes y no pierde ninguno: cobertura 1.00. El costo es revisar cinco reclamos que no lo eran. Si revisar uno toma dos minutos y perder un urgente cuesta un cliente, quizás le convenga.</li><li><strong>La trampa de la exactitud.</strong> Con umbral 0.5 el modelo clasifica bien el 58% de los reclamos. Un "modelo" que nunca marca nada también acierta el 58%, porque siete de doce reclamos no eran urgentes. Un proveedor que solo le reporta exactitud le está ocultando lo importante.</li><li><strong>El reto.</strong> Cambie el umbral a 0.45 y prediga, antes de ejecutar, cuántos urgentes se pierden. Luego escriba en una frase, en inglés, qué umbral recomendaría a la gerencia y por qué.</li></ol>
+    <p class="ag-mt-40">Este ejercicio es la clase que más cambia la conversación en una empresa. Antes de comprar o ampliar una herramienta de IA, la pregunta deja de ser "¿es buena?" y pasa a ser "¿qué error nos sale más caro y cuánto estamos dispuestos a pagar por evitarlo?". También es la manera práctica de vigilar el sesgo algorítmico que define el reglamento: medir los errores por grupo, no solo en promedio.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="generativa">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">IA generativa</p><h2>¿Qué IA conviene usar primero en una empresa?</h2><p class="ag-lede">La que resuelve un proceso concreto, medible y de bajo riesgo. Redactar borradores, resumir documentos largos y clasificar correos suelen ser buenos primeros pasos; decidir sobre personas, créditos o contrataciones no lo son.</p></div>
+    <p>Proponemos a cada empresa una regla de tres preguntas antes de cualquier piloto. Primero, si el proceso usa datos personales, y si es así, cómo se cumple la ley de protección de datos que el propio reglamento de IA recuerda en su artículo 26. Segundo, quién revisa el resultado antes de que llegue a un cliente. Tercero, qué número dirá, en un mes, si el piloto funcionó. Si alguna respuesta queda en blanco, el piloto todavía no está listo.</p>
+    <p>Con esas respuestas, las herramientas se eligen solas. Una empresa en Microsoft 365 empieza con Copilot Studio; una en Google Workspace, con Gemini Enterprise. Un equipo que solo necesita redactar y resumir puede quedarse en herramientas generativas generales, siempre con revisión humana. Lo que no cambia, sea cual sea la herramienta, es el método: un caso de uso escrito, una métrica y una persona responsable.</p>
+    <p>Si quiere entender primero cómo aprende un modelo, sin enfoque empresarial, la página de nuestro <a class="ag-inline-link" href="/curso-de-inteligencia-artificial-en-ingles-peru">curso de inteligencia artificial en inglés</a> lo explica con un ejemplo en Python. Y si su duda es en qué se distingue un chatbot de un agente que ejecuta acciones, lea <a class="ag-inline-link" href="/ai-agents-explained">AI agents explained</a>, en inglés.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="equipo">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Formar al equipo</p><h2>¿Por qué formar al equipo de su empresa en IA en inglés?</h2><p class="ag-lede">Porque las plataformas de IA, su documentación y sus foros de soporte funcionan en inglés, y porque un equipo que lee y habla de IA en inglés depende menos de traducciones e intermediarios.</p></div>
+    <p>Sin excepción, cada clase que dictamos ocurre en vivo, por internet y en inglés. Según el EF EPI 2025, Lima tiene 555 puntos, el nivel alto, mientras que la expresión oral es la habilidad más débil del Perú, con 480. Muchos profesionales peruanos leen bien un manual técnico, pero les cuesta defender una propuesta en una reunión en inglés. Las clases trabajan las dos cosas: el contenido y la explicación en voz alta.</p>
+    <p>Los mentores enseñan desde la India y trabajan a diario con profesionales de otros países. Si un participante de su equipo necesita ir más despacio, puede pasar al formato individual sin cambiar de curso. Y como cada persona elige su hora, nadie tiene que dejar su puesto en el horario de mayor carga.</p>
+    <p>Los cursos de esta página son para adultos. Si en su empresa hay padres o madres que preguntan por opciones para sus hijos adolescentes, les puede compartir <a class="ag-inline-link" href="/curso-de-ia-para-adolescentes-peru">IA para adolescentes de secundaria</a>, que usa solo herramientas permitidas para su edad.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="horario">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Horario</p><h2>¿A qué hora puede estudiar un equipo en el Perú con mentores en la India?</h2><p class="ag-lede">A la que cada persona reserve. Lima está en UTC-5 y la India en UTC+5:30, sin horario de verano en ninguno de los dos países, de modo que la India va diez horas y media adelante todo el año.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Horas de oficina en el Perú y su equivalente en la India (conversiones de ejemplo, no turnos)</caption><thead><tr><th scope="col">Hora de Perú</th><th scope="col">Hora de la India</th><th scope="col">Momento laboral</th></tr></thead><tbody><tr><td>7:00 a. m.</td><td>5:30 p. m.</td><td>Antes de abrir la oficina</td></tr><tr><td>1:00 p. m.</td><td>11:30 p. m.</td><td>A la hora del refrigerio, en formato individual</td></tr><tr><td>6:30 p. m.</td><td>5:00 a. m. del día siguiente</td><td>Al cerrar la jornada</td></tr><tr><td>8:00 p. m.</td><td>6:30 a. m. del día siguiente</td><td>Desde casa, por la noche</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Cálculo nuestro con tzdata (America/Lima UTC-5; Asia/Kolkata UTC+5:30). La hora oficial del Perú la mantiene el INACAL.</p>
+    <p class="ag-mt-40">En una misma empresa, el gerente puede tomar sus clases a primera hora y el analista por la noche. No hace falta coordinar un horario común para todo el equipo.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Madurez</p>
+      <h2>¿Cómo saber en qué punto está su empresa con la IA?</h2>
+      <p class="ag-lede">Cinco niveles que usamos para conversar con las empresas sobre su avance. Son nuestros, no una certificación ni una exigencia legal.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cinco niveles de uso de IA en una empresa (escala nuestra)</caption><thead><tr><th scope="col">Nivel</th><th scope="col">Cómo se reconoce</th><th scope="col">Siguiente paso</th></tr></thead><tbody><tr><td>1. Uso suelto</td><td class="ag-num">Cada quien usa la herramienta que quiere, sin reglas</td><td class="ag-num">Escribir una política interna corta</td></tr><tr><td>2. Uso con reglas</td><td class="ag-num">Hay una política y nadie sube datos personales</td><td class="ag-num">Elegir un proceso para un piloto</td></tr><tr><td>3. Piloto medido</td><td class="ag-num">Un caso de uso con una métrica definida antes de empezar</td><td class="ag-num">Medir precisión y cobertura, como en el ejemplo</td></tr><tr><td>4. Proceso integrado</td><td class="ag-num">La IA forma parte de un flujo con revisión humana</td><td class="ag-num">Documentar el sistema y sus datos</td></tr><tr><td>5. Mejora continua</td><td class="ag-num">Se revisan los errores por grupo y se ajusta el umbral</td><td class="ag-num">Formar a nuevas personas del equipo</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Si su empresa es una MYPE</h3><p>Llegue al nivel 3 con un solo proceso. Es más útil que cinco herramientas sin medir.</p>
+<p>Forme primero a una persona que pueda enseñar a las demás.</p></div><div><h3>Si su empresa es mediana o grande</h3><p>Pase del nivel 2 al 3 por área, empezando por la que tenga datos más ordenados.</p>
+<p>Asigne un responsable por cada piloto, con nombre y fecha de revisión.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más cursos</p>
+      <h2>Nueve cursos más para equipos de empresa</h2>
+      <p class="ag-lede">Para los distintos perfiles de una organización, todos en vivo, en inglés y para mayores de 18.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Sin programar</h3>
+        <span class="ag-band-sub">Gerencia y áreas de negocio</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IAE / NEGOCIO / 01</p>
+          <h4>Herramientas de IA con criterio</h4>
+          <p>Para la gerencia: pedir bien, comprobar lo recibido y proteger la información.</p>
+          <a class="ag-course-link" href="/courses/ai-tools-mastery-complete-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IAE / NEGOCIO / 02</p>
+          <h4>Datos e IA sin programar</h4>
+          <p>Excel, Sheets y Power BI para leer los números de un piloto.</p>
+          <a class="ag-course-link" href="/courses/data-and-ai-analytics-for-non-programmers-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IAE / NEGOCIO / 03</p>
+          <h4>Matemática financiera y de negocios</h4>
+          <p>Inversión, riesgo y decisiones con números, la base de cualquier caso de negocio.</p>
+          <a class="ag-course-link" href="/courses/complete-business-finance-mathematics-mastery">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Con datos</h3>
+        <span class="ag-band-sub">Analistas y contadores</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IAE / DATOS / 01</p>
+          <h4>Automatización con Python e IA</h4>
+          <p>Tareas de oficina repetitivas convertidas en programas que corren sin ayuda.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IAE / DATOS / 02</p>
+          <h4>Análisis de datos completo</h4>
+          <p>De la hoja de cálculo a SQL y Python, con tableros que la gerencia entiende.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IAE / DATOS / 03</p>
+          <h4>Bases de datos con MySQL</h4>
+          <p>Donde viven los datos que cualquier IA de la empresa va a usar.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Equipos técnicos</h3>
+        <span class="ag-band-sub">Desarrollo e IA a fondo</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IAE / TECNICO / 01</p>
+          <h4>IA generativa por dentro</h4>
+          <p>RAG, agentes y modelos de lenguaje, armados pieza por pieza y puestos a prueba.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IAE / TECNICO / 02</p>
+          <h4>Aprendizaje automático completo</h4>
+          <p>Clasificadores, métricas y redes neuronales para casos propios.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IAE / TECNICO / 03</p>
+          <h4>Git y GitHub avanzado</h4>
+          <p>Control de versiones para equipos que trabajan con agentes de código.</p>
+          <a class="ag-course-link" href="/courses/git-github-advanced-version-control-masterclass-for-professionals">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Funcionamiento</p>
+      <h2>¿Qué pasa en una clase de IA para una empresa?</h2>
+      <p class="ag-lede">Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Antes de la oficina</p><p class="ag-slot-l">La primera hora del día, sin interrupciones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Fin de jornada</p><p class="ag-slot-l">Al cerrar pendientes, desde casa.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Cierre de mes</p><p class="ag-slot-l">En individual, se reprograma en semanas de carga.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Casos de su sector</h3><p>Los ejemplos se adaptan a ventas, atención, finanzas u operaciones.</p></div>
+      <div><h3>Datos inventados primero</h3><p>Se practica con datos ficticios antes de tocar información real.</p></div>
+      <div><h3>Una métrica por ejercicio</h3><p>Nada se da por bueno sin un número que lo respalde.</p></div>
+      <div><h3>Revisión humana siempre</h3><p>Cada resultado de una IA lo valida una persona antes de usarse.</p></div>
+      <div><h3>Mentor asignado</h3><p>Alguien que conoce su rol y el proceso que quiere mejorar.</p></div>
+      <div><h3>Formatos</h3><p>Grupos de quince a veinte adultos, o clases individuales.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Proyectos de nuestros estudiantes</p>
+      <h2>Proyectos de nuestros estudiantes</h2>
+      <p class="ag-lede">Una muestra de lo que construyen nuestros estudiantes, de varias edades y países; la colección completa está en <a class="ag-inline-link" href="/student-labs">Student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Captura del proyecto NutriLife, un coach de nutrición con IA" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>NutriLife</h4>
+          <p>Un coach de nutrición con IA que analiza las comidas y avanza paso a paso hacia una meta.</p>
+          <p class="ag-proj-meta">de Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Captura de Misti, un chatbot con IA para matemáticas y programación" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>Misti</h4>
+          <p>Un chatbot que responde preguntas de matemáticas y programación, creado y publicado por un estudiante.</p>
+          <p class="ag-proj-meta">de Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Captura de GuardianX, un asistente con IA para la seguridad en internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>GuardianX</h4>
+          <p>Un asistente que ayuda a los jóvenes a reconocer situaciones de riesgo en internet.</p>
+          <p class="ag-proj-meta">de Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Captura de la aplicación del clima SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Aplicación web</p>
+          <h4>SkyCast</h4>
+          <p>Un sitio de pronóstico del clima con condiciones en vivo para cualquier lugar.</p>
+          <p class="ag-proj-meta">de Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Precios</p>
+      <h2>Cuánto cuesta formar a una persona en IA</h2>
+      <p class="ag-lede">Cada mensualidad se muestra en dólares estadounidenses y se cobra por persona, con tarjeta. La conversión la realiza el banco emisor de la tarjeta al momento del cobro. No hay matrícula ni licencias de software incluidas: las plataformas como Copilot Studio o Gemini Enterprise las contrata su empresa con cada proveedor.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Primera clase gratis</p>
+        <p class="ag-price-amt">Gratis</p>
+        <p class="ag-price-alt">sin tarjeta</p>
+        <ul><li>Clase de prueba gratuita</li><li>Conversación sobre el rol y el proceso a mejorar</li><li>Sin tarjeta para reservar</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Reservar</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Clase grupal</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Grupo de quince a veinte adultos</li><li>Dos clases en vivo por semana</li><li>Mentor fijo</li><li>Mensual, sin contrato de permanencia</li></ul>
+        <a href="#start" class="ag-btn">Empezar aquí</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Clases individuales</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Una persona y su mentor</li><li>Ejemplos con procesos de su empresa</li><li>Horario que se mueve con su agenda</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Consultar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lo que dicen las familias</p>
+      <h2>4.9 de 5 en 547 reseñas de Google</h2>
+      <p class="ag-lede">Reseñas que estudiantes y familias publicaron en Google, sin editar.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preguntas frecuentes</p>
+      <h2>Curso de IA para empresas: preguntas frecuentes</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>¿Las clases son en español?</h3>
+        <p>No, el idioma de todas las clases es el inglés, siempre en vivo y en línea. Para una empresa eso suma: las plataformas de IA y su documentación están en inglés. Además, hablar es lo que menos domina el país según el EF EPI 2025 (480 puntos en expresión oral), y el curso obliga a explicar en voz alta. Lima obtiene 555, nivel alto. El mentor adapta el ritmo a cada participante.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿El curso cumple con el DS 115-2025-PCM?</h3>
+        <p>El reglamento no aprueba ni reconoce cursos privados. Su artículo 31.3 pide fomentar la educación interna de los colaboradores sobre los riesgos de la IA, y nuestro curso puede formar parte de esa formación. El cumplimiento de su empresa depende de su política interna y conviene revisarlo con un abogado.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Ustedes dan asesoría legal sobre la ley de IA?</h3>
+        <p>No. Citamos la Ley 31814 y su reglamento como contexto, tal como se publicaron en El Peruano. Para obligaciones concretas de su empresa, consulte a un abogado.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Pueden capacitar a todo mi equipo a la vez?</h3>
+        <p>Cada persona se inscribe en su curso y elige su hora. Si quiere formar a varias personas, escríbanos y le proponemos una combinación de clases grupales e individuales según los roles.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Necesitan saber programar?</h3>
+        <p>No para los cursos de gerencia y de datos sin programar. Los cursos de automatización con Python y de agentes de código empiezan desde lo básico, aunque avanzan más rápido con alguien que ya programa.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Incluye licencias de Copilot Studio o Gemini Enterprise?</h3>
+        <p>No. Enseñamos a construir agentes en esas plataformas; las licencias las contrata su empresa directamente con Microsoft o Google. Los dos cursos de agentes se dictan solo en formato individual.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Desde qué edad son los cursos?</h3>
+        <p>Desde los 18 años. Algunas herramientas que usamos, como Claude, exigen esa edad en sus términos.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿En qué horario son las clases?</h3>
+        <p>Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, las 7:00 a. m. en Lima equivalen a las 5:30 p. m. en la India.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Recibimos certificado?</h3>
+        <p>Cada participante recibe nuestro certificado de finalización. No es un documento oficial ni lo reconoce ninguna entidad del Estado peruano.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Prometen un retorno de la inversión?</h3>
+        <p>No. Enseñamos a medir: si un piloto de IA no mejora la métrica que su empresa definió, el curso le habrá enseñado a detectarlo a tiempo, y eso también tiene valor.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Cómo se paga?</h3>
+        <p>Por persona, cada mes, con tarjeta y en dólares estadounidenses; el banco convierte el monto. No cobramos matrícula.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Para seguir</p>
+      <h2>Lecturas para gerentes y equipos</h2>
+      <p class="ag-lede">Material propio sobre IA en el trabajo; la mayoría está en inglés.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-for-working-professionals">AI and machine learning for working professionals</a></h3><p>Aprendizaje automático para quien ya tiene una carrera en marcha.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-agents-explained">AI agents explained</a></h3><p>Qué hace un agente que no hace un chatbot.</p></div>
+      <div><h3><a class="ag-inline-link" href="/one-on-one-ai-classes">One-on-one AI classes</a></h3><p>El formato individual, para gerentes con agenda cambiante.</p></div>
+      <div><h3><a class="ag-inline-link" href="/for-business">Modern Age Coders for Business</a></h3><p>Si necesita que construyamos la herramienta en lugar de aprender a hacerla.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>El mapa de nuestras clases en el país, de niños a profesionales.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tool age guide</a></h3><p>Edades mínimas de cada herramienta, citadas de sus términos.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Empiece aquí</p>
+        <h2>Agende una clase de prueba para su empresa</h2>
+        <p class="ag-lede">En la clase de prueba hablamos del proceso que quiere mejorar, revisamos juntos un ejemplo como el del piloto y le sugerimos qué curso corresponde a cada rol. Puede venir una persona o dos de la misma empresa.</p>
+        <p class="ag-mt-40">Antes de reservar puede revisar <a class="ag-inline-link" href="/ai-agents-explained">AI agents explained</a> o <a class="ag-inline-link" href="/one-on-one-ai-classes">One-on-one AI classes</a>, ambas en inglés.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20escribo%20desde%20una%20empresa%20en%20Per%C3%BA%20y%20me%20interesa%20el%20curso%20de%20inteligencia%20artificial%20para%20empresas.%20%C2%BFPodemos%20agendar%20una%20clase%20de%20prueba%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'iae',pos:'end'});">Escríbanos por WhatsApp</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Recuerde que el mentor enseña desde la India, en vivo y en inglés. Las consultas por WhatsApp sí las respondemos en castellano.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_iae(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Su nombre</label>
+            <input id="pe-name" type="text" name="name" placeholder="Nombre del padre, madre o estudiante" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Teléfono o WhatsApp, Perú +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Grupo de edad</label>
+            <select id="pe-age" name="age"><option value="6-12">Niño o niña, 6 a 12</option><option value="13-18">Adolescente, 13 a 18</option><option value="college">Universitario</option><option value="adult">Profesional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Solicitar la clase gratis</button>
+          <p class="ag-form-note">Sin costo y sin tarjeta.</p>
+        </form>
+        <div class="ag-pd-card"><h3>¿Quiere una clase antes? Reserve una demo prioritaria</h3><p>Una demo prioritaria es una clase completa de unos 45 a 60 minutos. Después, el mentor envía por WhatsApp un informe escrito de habilidades y un plan de aprendizaje personal. Si se inscribe, el pago de la demo se descuenta de la primera mensualidad: envíenos por WhatsApp el número de pedido de la demo.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Reservar una demo prioritaria</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Clases en vivo y en línea de programación, IA y matemáticas para personas de 6 a 67 años, siempre en inglés. Enseñamos desde 2020, a más de
+          10,000 estudiantes en 25 países.
+        </p>
+      </div>
+      <div><h4>Cursos para empresas</h4><ul><li><a href="/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals">Copilot Studio</a></li><li><a href="/courses/build-ai-agents-with-google-gemini-enterprise-course">Gemini Enterprise</a></li><li><a href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">Codex y Claude Code</a></li><li><a href="/courses">Todos los cursos</a></li></ul></div>
+      <div><h4>Perú</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Clases en Perú</a></li><li><a href="/curso-de-inteligencia-artificial-en-ingles-peru">Curso de IA en inglés</a></li><li><a href="/for-business">Servicios para empresas</a></li><li><a href="/ai-tools-age-guide">Edades de las herramientas</a></li></ul></div>
+      <div>
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="/about">Quiénes somos</a></li>
+          <li><a href="/how-we-teach">Cómo enseñamos</a></li>
+          <li><a href="/love">Reseñas</a></li>
+          <li><a href="/contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Clases en vivo y en línea, en inglés, para todo el mundo.</span>
+      <span>Antes de escalar una IA, decida qué error le sale más caro</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Clase gratis</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Demo prioritaria</a><a href="tel:+919123366161" aria-label="Llamar al +91 91233 66161">Llamar</a></div>
+
+<script>
+window.submitLead_iae = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Enviando...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'curso-de-ia-para-empresas-peru-inline', meta: { name: name, age: age, page: 'curso-de-ia-para-empresas-peru' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Muchas gracias' + (name ? ', ' + name.split(' ')[0] : '') + '. Un mentor le llamará en breve.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Algo salió mal. Por favor, inténtelo de nuevo.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Error de conexión. Por favor, inténtelo de nuevo.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

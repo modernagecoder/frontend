@@ -33039,6 +33039,18 @@
   to = "/src/pages/ia-para-docentes-curso-en-ingles.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/curso-de-ia-para-empresas-peru"
+  to = "/src/pages/curso-de-ia-para-empresas-peru.html"
+  status = 200
+
+[[redirects]]
+  from = "/curso-de-ia-para-empresas-peru.md"
+  to = "/src/pages/curso-de-ia-para-empresas-peru.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

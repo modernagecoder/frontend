@@ -992,6 +992,7 @@ const SLUGS = [
   'curso-de-data-science-en-ingles-peru',
   'cursos-online-con-certificado-programacion-en-ingles',
   'ia-para-docentes-curso-en-ingles',
+  'curso-de-ia-para-empresas-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2063,6 +2064,7 @@ const LLMS_LABELS = {
   'curso-de-data-science-en-ingles-peru': 'Curso de data science en inglés',
   'cursos-online-con-certificado-programacion-en-ingles': 'Cursos de programación online con certificado',
   'ia-para-docentes-curso-en-ingles': 'IA para docentes, curso en inglés',
+  'curso-de-ia-para-empresas-peru': 'Curso de IA para empresas',
 };
 
 function wireLlms(slugs) {
