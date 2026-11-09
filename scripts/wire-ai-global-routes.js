@@ -999,6 +999,7 @@ const SLUGS = [
   'mejor-curso-de-inteligencia-artificial-peru',
   'cuanto-cuestan-clases-de-programacion-para-ninos-peru',
   'precio-profesor-particular-matematicas-peru',
+  'python-course-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2077,6 +2078,7 @@ const LLMS_LABELS = {
   'mejor-curso-de-inteligencia-artificial-peru': 'Cómo elegir un curso de inteligencia artificial',
   'cuanto-cuestan-clases-de-programacion-para-ninos-peru': 'Cuánto cuestan las clases de programación para niños',
   'precio-profesor-particular-matematicas-peru': 'Precio de un profesor particular de matemáticas',
+  'python-course-peru': 'Python course for Peru',
 };
 
 function wireLlms(slugs) {
