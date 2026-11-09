@@ -21,7 +21,7 @@ At a glance: Teaching language: Live classes in English only, at the learner&rsq
 One long course for primary-age children, one for teenagers who want typed code from day one, and one for Diploma students whose IB school offers computer science.
 
 - [Coding for Kids](/courses/kids-coding-blocks-masterclass): For 6 to 12 year olds, each placed in a batch of children their own age, over 10 to 12 months. Scratch stories come first, then games, simple apps and an early taste of AI, all explained in unhurried spoken English.
-- [Python for Teens](/courses/python-complete-masterclass-teens): Teenagers of 13 to 18 who have never coded, over 4 to 5 months. Real typed Python from lesson one; Python is also what MINEDU picked for its Fábrica de Programadores pilot in secundaria.
+- [Python for Teens](/courses/python-complete-masterclass-teens): Teenagers of 13 to 18 who have never coded, over 10 to 12 months. Real typed Python from lesson one; Python is also what MINEDU picked for its Fábrica de Programadores pilot in secundaria.
 - [IB DP Computer Science](/courses/ib-diploma-computer-science-course): For Diploma students at SL or HL, joinable any month. Theory, programming and the internal assessment, taught alongside your school, which sets and marks the work.
 
 ## Who are English-medium coding classes in Lima for?

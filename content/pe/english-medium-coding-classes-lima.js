@@ -145,7 +145,7 @@ module.exports = {
     lede: 'One long course for primary-age children, one for teenagers who want typed code from day one, and one for Diploma students whose IB school offers computer science.',
     items: [
       { course: 'kids-coding-blocks-masterclass', code: 'EMC / 01', title: 'Coding for Kids', note: 'For 6 to 12 year olds, each placed in a batch of children their own age, over 10 to 12 months. Scratch stories come first, then games, simple apps and an early taste of AI, all explained in unhurried spoken English.' },
-      { course: 'python-complete-masterclass-teens', code: 'EMC / 02', title: 'Python for Teens', note: 'Teenagers of 13 to 18 who have never coded, over 4 to 5 months. Real typed Python from lesson one; Python is also what MINEDU picked for its Fábrica de Programadores pilot in secundaria.' },
+      { course: 'python-complete-masterclass-teens', code: 'EMC / 02', title: 'Python for Teens', note: 'Teenagers of 13 to 18 who have never coded, over 10 to 12 months. Real typed Python from lesson one; Python is also what MINEDU picked for its Fábrica de Programadores pilot in secundaria.' },
       { course: 'ib-diploma-computer-science-course', code: 'EMC / 03', title: 'IB DP Computer Science', note: 'For Diploma students at SL or HL, joinable any month. Theory, programming and the internal assessment, taught alongside your school, which sets and marks the work.' }
     ]
   },
