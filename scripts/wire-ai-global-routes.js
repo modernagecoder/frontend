@@ -942,6 +942,7 @@ const SLUGS = [
   'vacaciones-utiles-2027-programacion-online',
   'vacaciones-utiles-2027-inteligencia-artificial',
   'vacaciones-utiles-virtuales-en-ingles',
+  'talleres-de-verano-programacion-ninos-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1963,6 +1964,7 @@ const LLMS_LABELS = {
   'vacaciones-utiles-2027-programacion-online': 'Vacaciones útiles 2027: programación online',
   'vacaciones-utiles-2027-inteligencia-artificial': 'Vacaciones útiles 2027: inteligencia artificial',
   'vacaciones-utiles-virtuales-en-ingles': 'Vacaciones útiles virtuales en inglés',
+  'talleres-de-verano-programacion-ninos-online': 'Talleres de verano de programación online',
 };
 
 function wireLlms(slugs) {
