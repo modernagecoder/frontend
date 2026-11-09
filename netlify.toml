@@ -33111,6 +33111,18 @@
   to = "/src/pages/cuanto-cuestan-clases-de-programacion-para-ninos-peru.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/precio-profesor-particular-matematicas-peru"
+  to = "/src/pages/precio-profesor-particular-matematicas-peru.html"
+  status = 200
+
+[[redirects]]
+  from = "/precio-profesor-particular-matematicas-peru.md"
+  to = "/src/pages/precio-profesor-particular-matematicas-peru.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
