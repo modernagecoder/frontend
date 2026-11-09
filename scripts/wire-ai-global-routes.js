@@ -993,6 +993,7 @@ const SLUGS = [
   'cursos-online-con-certificado-programacion-en-ingles',
   'ia-para-docentes-curso-en-ingles',
   'curso-de-ia-para-empresas-peru',
+  'clases-particulares-de-programacion-online-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2065,6 +2066,7 @@ const LLMS_LABELS = {
   'cursos-online-con-certificado-programacion-en-ingles': 'Cursos de programación online con certificado',
   'ia-para-docentes-curso-en-ingles': 'IA para docentes, curso en inglés',
   'curso-de-ia-para-empresas-peru': 'Curso de IA para empresas',
+  'clases-particulares-de-programacion-online-peru': 'Clases particulares de programación online',
 };
 
 function wireLlms(slugs) {
