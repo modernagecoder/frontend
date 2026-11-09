@@ -964,6 +964,7 @@ const SLUGS = [
   'curso-de-ia-para-adolescentes-peru',
   'curso-de-agentes-de-ia-peru',
   'curso-de-agentes-de-ia-para-profesionales',
+  'programacion-para-ninos-de-6-anos',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2007,6 +2008,7 @@ const LLMS_LABELS = {
   'curso-de-ia-para-adolescentes-peru': 'Curso de IA para adolescentes',
   'curso-de-agentes-de-ia-peru': 'Curso de agentes de IA',
   'curso-de-agentes-de-ia-para-profesionales': 'Curso de agentes de IA para profesionales',
+  'programacion-para-ninos-de-6-anos': 'Programación para niños de 6 años',
 };
 
 function wireLlms(slugs) {

@@ -270,7 +270,7 @@ Each page below takes one age, subject, exam, region, city or Lima district and 
 
 **Start here:** [English-medium coding in Lima](/english-medium-coding-classes-lima)
 
-**By age:** [Programación para niños en inglés](/clases-de-programacion-para-ninos-en-ingles)
+**By age:** [Programación para niños de 6 años](/programacion-para-ninos-de-6-anos) · [Programación para niños en inglés](/clases-de-programacion-para-ninos-en-ingles)
 
 **Subjects and courses:** [Agentes de IA para profesionales](/curso-de-agentes-de-ia-para-profesionales) · [Curso de agentes de IA](/curso-de-agentes-de-ia-peru) · [Curso de IA para adolescentes](/curso-de-ia-para-adolescentes-peru) · [Curso de inteligencia artificial en inglés](/curso-de-inteligencia-artificial-en-ingles-peru) · [Curso de inteligencia artificial para niños](/curso-de-inteligencia-artificial-para-ninos-peru)
 
