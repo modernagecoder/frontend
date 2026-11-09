@@ -1047,6 +1047,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Preparación para la Olimpiada Nacional Escolar de Matemática (ONEM): https://learn.modernagecoders.com/olimpiada-de-matematica-onem-preparacion
 - Preparación para el Canguro Matemático en Perú: https://learn.modernagecoders.com/canguro-matematico-preparacion-peru
 - Clases online de razonamiento matemático: https://learn.modernagecoders.com/razonamiento-matematico-clases-online-peru
+- Inteligencia artificial para niños de primaria: https://learn.modernagecoders.com/inteligencia-artificial-para-ninos-de-primaria
 ## Germany (live online classes in English, mentors matched to the learner's pace and accent)
 
 Hub: https://learn.modernagecoders.com/coding-classes-in-germany. Every class is live and taught in English only; German-language pages explain the same English-taught classes. Fees show in euro on the page and checkout charges USD.

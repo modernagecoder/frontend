@@ -1014,6 +1014,7 @@ const SLUGS = [
   'olimpiada-de-matematica-onem-preparacion',
   'canguro-matematico-preparacion-peru',
   'razonamiento-matematico-clases-online-peru',
+  'inteligencia-artificial-para-ninos-de-primaria',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2107,6 +2108,7 @@ const LLMS_LABELS = {
   'olimpiada-de-matematica-onem-preparacion': 'Preparación para la Olimpiada Nacional Escolar de Matemática (ONEM)',
   'canguro-matematico-preparacion-peru': 'Preparación para el Canguro Matemático en Perú',
   'razonamiento-matematico-clases-online-peru': 'Clases online de razonamiento matemático',
+  'inteligencia-artificial-para-ninos-de-primaria': 'Inteligencia artificial para niños de primaria',
 };
 
 function wireLlms(slugs) {

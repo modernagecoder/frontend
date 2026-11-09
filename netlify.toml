@@ -33303,6 +33303,18 @@
   to = "/src/pages/razonamiento-matematico-clases-online-peru.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/inteligencia-artificial-para-ninos-de-primaria"
+  to = "/src/pages/inteligencia-artificial-para-ninos-de-primaria.html"
+  status = 200
+
+[[redirects]]
+  from = "/inteligencia-artificial-para-ninos-de-primaria.md"
+  to = "/src/pages/inteligencia-artificial-para-ninos-de-primaria.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
