@@ -958,6 +958,7 @@ const SLUGS = [
   'vacaciones-utiles-de-programacion-san-juan-de-lurigancho-lima',
   'vacaciones-utiles-de-programacion-chorrillos-lima',
   'vacaciones-utiles-de-programacion-surquillo-lima',
+  'vacaciones-utiles-de-programacion-lince-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1995,6 +1996,7 @@ const LLMS_LABELS = {
   'vacaciones-utiles-de-programacion-san-juan-de-lurigancho-lima': 'Vacaciones útiles de programación en San Juan de Lurigancho',
   'vacaciones-utiles-de-programacion-chorrillos-lima': 'Vacaciones útiles de programación en Chorrillos',
   'vacaciones-utiles-de-programacion-surquillo-lima': 'Vacaciones útiles de programación en Surquillo',
+  'vacaciones-utiles-de-programacion-lince-lima': 'Vacaciones útiles de programación en Lince',
 };
 
 function wireLlms(slugs) {
