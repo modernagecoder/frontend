@@ -970,6 +970,7 @@ const SLUGS = [
   'programacion-para-ninos-de-12-anos',
   'programacion-para-5to-de-secundaria',
   'clases-de-programacion-para-ninos-online-peru',
+  'clases-de-programacion-para-adolescentes-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2019,6 +2020,7 @@ const LLMS_LABELS = {
   'programacion-para-ninos-de-12-anos': 'Programación para niños de 12 años',
   'programacion-para-5to-de-secundaria': 'Programación para 5to de secundaria',
   'clases-de-programacion-para-ninos-online-peru': 'Clases de programación para niños online en Perú',
+  'clases-de-programacion-para-adolescentes-peru': 'Clases de programación para adolescentes en Perú',
 };
 
 function wireLlms(slugs) {
