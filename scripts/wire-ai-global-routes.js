@@ -1007,6 +1007,7 @@ const SLUGS = [
   'c-plus-plus-course-peru',
   'online-coding-classes-for-kids-peru',
   'coding-classes-for-teens-peru',
+  'coding-courses-for-university-students-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2093,6 +2094,7 @@ const LLMS_LABELS = {
   'c-plus-plus-course-peru': 'C++ course for Peru',
   'online-coding-classes-for-kids-peru': 'Online coding classes for kids in Peru',
   'coding-classes-for-teens-peru': 'Coding classes for teens in Peru',
+  'coding-courses-for-university-students-peru': 'Coding courses for university students in Peru',
 };
 
 function wireLlms(slugs) {

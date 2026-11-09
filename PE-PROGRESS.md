@@ -78,7 +78,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE011 | java-for-computer-science-students-peru (jcs, #007047) | market | 4,002 | 1.8% vs python-for-engineering-students-peru | Java for computer science students in Peru: CS2023 core hours, the plan, contests, in English | sorting with comparators: stable sort keeps ties in input order, chain thenComparing for a full ranking | 38ca11f2 |
 | PE016 | c-plus-plus-course-peru (cpl, #147175) | market | 4,535 | 2% vs java-course-peru | C++ course for Peru in English: the OPI final is C++ only, the road to the IOI, modern C++ | prefix sums: rebuild every range sum or precompute once; p has n+1 entries and the off-by-one | 4f19e6f5 |
 | PE002 | online-coding-classes-for-kids-peru (coki, #516000) | market | 5,119 | 2.1% vs python-for-engineering-students-peru | Online coding for children 6 to 12 in Peru, in English: choosing a live class well | string repetition builds a centred pyramid; odd numbers add up to a square | d1b2a1eb |
-| PE003 | coding-classes-for-teens-peru (cote, #004A28) | market | 4,861 | 2.1% vs c-plus-plus-course-peru | Teens in Peru: build, compete or certify, in English; Peru at the IOI 2022 to 2026 | sorting with a tuple key: reverse=True also flips the tie-break; negate one field | (this commit) |
+| PE003 | coding-classes-for-teens-peru (cote, #004A28) | market | 4,861 | 2.1% vs c-plus-plus-course-peru | Teens in Peru: build, compete or certify, in English; Peru at the IOI 2022 to 2026 | sorting with a tuple key: reverse=True also flips the tie-break; negate one field | 30d1d705 |
+| PE004 | coding-courses-for-university-students-peru (ccu, #04693D) | market | 4,532 | 1.6% vs online-coding-classes-for-kids-peru | University students in Peru: degree in Spanish, tools in English; Ley 30220 language rules | hash-map lookup (two-sum): the same element used twice, and checks counted | (this commit) |
 
 ## Notes
 
