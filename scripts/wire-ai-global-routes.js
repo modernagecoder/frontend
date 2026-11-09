@@ -979,6 +979,7 @@ const SLUGS = [
   'profesor-particular-de-matematicas-online-peru',
   'tutor-ib-matematicas-en-ingles-peru',
   'bachillerato-internacional-ciencias-de-la-computacion-tutor',
+  'curso-de-python-en-ingles-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2037,6 +2038,7 @@ const LLMS_LABELS = {
   'profesor-particular-de-matematicas-online-peru': 'Profesor particular de matemáticas online',
   'tutor-ib-matematicas-en-ingles-peru': 'Tutor de IB Matemáticas en inglés',
   'bachillerato-internacional-ciencias-de-la-computacion-tutor': 'Tutor de IB Ciencias de la Computación',
+  'curso-de-python-en-ingles-peru': 'Curso de Python en inglés',
 };
 
 function wireLlms(slugs) {
