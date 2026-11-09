@@ -272,7 +272,7 @@ Each page below takes one age, subject, exam, region, city or Lima district and 
 
 **By age:** [Programación para niños en inglés](/clases-de-programacion-para-ninos-en-ingles)
 
-**Subjects and courses:** [Curso de inteligencia artificial para niños](/curso-de-inteligencia-artificial-para-ninos-peru)
+**Subjects and courses:** [Curso de inteligencia artificial en inglés](/curso-de-inteligencia-artificial-en-ingles-peru) · [Curso de inteligencia artificial para niños](/curso-de-inteligencia-artificial-para-ninos-peru)
 
 **School, exams and competitions:** [Summer holiday coding (vacaciones útiles)](/peru-summer-holiday-coding-classes-online) · [Talleres de verano de programación online](/talleres-de-verano-programacion-ninos-online) · [Vacaciones útiles 2027: inteligencia artificial](/vacaciones-utiles-2027-inteligencia-artificial) · [Vacaciones útiles 2027: programación online](/vacaciones-utiles-2027-programacion-online) · [Vacaciones útiles virtuales en inglés](/vacaciones-utiles-virtuales-en-ingles)
 
