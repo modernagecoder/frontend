@@ -10332,4 +10332,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /software-development-course-peru /src/pages/software-development-course-peru.html 200
 /software-development-course-peru.md /src/pages/software-development-course-peru.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/web-development-course-peru /src/pages/web-development-course-peru.html 200
+/web-development-course-peru.md /src/pages/web-development-course-peru.md 200
 /* /src/pages/404.html 404
