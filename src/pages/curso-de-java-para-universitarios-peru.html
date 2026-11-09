@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Curso de Java para universitarios en Perú, en inglés</title>
+  <meta name="description" content="Curso de Java para universitarios en Perú, en vivo, en línea y en inglés: objetos, estructuras de datos, entrevistas y Spring Boot, en grupo o individual.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/curso-de-java-para-universitarios-peru">
+  <link rel="alternate" type="text/markdown" href="/src/pages/curso-de-java-para-universitarios-peru.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#006949">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/curso-de-java-para-universitarios-peru">
+  <meta property="og:title" content="Curso de Java para universitarios en Perú, en inglés">
+  <meta property="og:description" content="Java para universitarios en Perú, en inglés: qué pide la malla ciclo a ciclo, qué preguntan las entrevistas, qué Java usar y una lección sobre == y equals().">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="es_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Curso de Java para universitarios en Perú, en inglés">
+  <meta name="twitter:description" content="Java en vivo y en inglés para universitarios en Perú: de Programación I a algoritmos, entrevistas y Spring Boot.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-jau .ag-hero h1 { letter-spacing: -0.01em; max-width: 22ch; }
+.ag-root.ag-jau .ag-capsule { border-left-width: 4px; border-radius: 3px; }
+.ag-root.ag-jau .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-jau .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-jau .ag-steps li { line-height: 1.62; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/curso-de-java-para-universitarios-peru#page","url":"https://learn.modernagecoders.com/curso-de-java-para-universitarios-peru","name":"Curso de Java para universitarios","description":"Guía para universitarios en Perú que buscan un curso de Java en vivo y en inglés: dónde aparece la programación en una malla de computación publicada por la propia universidad, qué temas de Java se evalúan en las entrevistas técnicas, qué versión usar según la hoja de ruta de Oracle y los requisitos de Spring Boot, y una lección propia sobre igualdad de objetos, compilada y ejecutada.","inLanguage":"es-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Cursos","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Perú","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Java para universitarios","item":"https://learn.modernagecoders.com/curso-de-java-para-universitarios-peru"}]},{"@type":"Course","name":"Curso de Java para universitarios","description":"Clases en vivo y en línea de Java para universitarios y egresados en todo el Perú, dictadas solo en inglés: Java a fondo, programación orientada a objetos, colecciones, estructuras de datos y algoritmos, y aplicaciones con Spring Boot, en clase grupal o individual y a cualquier hora.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/curso-de-java-para-universitarios-peru"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/curso-de-java-para-universitarios-peru"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/curso-de-java-para-universitarios-peru"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Las clases son en español?","acceptedAnswer":{"@type":"Answer","text":"No. Las clases son en vivo, en línea y en inglés, y para un universitario eso suma: aprende Java en el idioma de su documentación, de sus errores y de muchas entrevistas técnicas. El mentor habla claro y adapta el ritmo. Lima aparece en el nivel alto de inglés en el EF EPI 2025, y hablarlo con soltura se gana practicando en cada sesión."}},{"@type":"Question","name":"¿Su curso es el curso de Java de la UNI?","acceptedAnswer":{"@type":"Answer","text":"No. Modern Age Coders es una escuela en línea independiente, sin relación con la Universidad Nacional de Ingeniería ni con otras casas de estudio. Recibimos a universitarios de todo el país, sea cual sea su universidad."}},{"@type":"Question","name":"¿Sirve si ya llevé Programación I?","acceptedAnswer":{"@type":"Answer","text":"Sí. En la clase gratis el mentor revisa qué domina y lo ubica en el punto que corresponda: objetos, colecciones o algoritmos. No tiene que repetir lo que ya sabe."}},{"@type":"Question","name":"¿Me ayudan con mis tareas o exámenes de la universidad?","acceptedAnswer":{"@type":"Answer","text":"No resolvemos tareas, laboratorios ni exámenes. Trabajamos esos mismos contenidos con ejercicios nuevos de nuestra autoría; así, cuando llegue su evaluación, la resuelve por su cuenta."}},{"@type":"Question","name":"¿Incluye Spring Boot?","acceptedAnswer":{"@type":"Answer","text":"Sí, en la parte final del curso Java de cero a Spring Boot: APIs, seguridad y pruebas. Su documentación pide como mínimo Java 17 para la versión 4.1.2."}},{"@type":"Question","name":"¿Qué versión de Java usan?","acceptedAnswer":{"@type":"Answer","text":"Una LTS reciente, Java 21 o 25. Según la hoja de ruta de Oracle, el soporte Premier de Java 17 llega hasta septiembre de 2026 y el de Java 21 hasta septiembre de 2028."}},{"@type":"Question","name":"¿Me preparan para entrevistas de prácticas?","acceptedAnswer":{"@type":"Answer","text":"Sí, en el contenido: objetos, igualdad, colecciones, complejidad y problemas en vivo, explicados en inglés. No prometemos prácticas, empleos ni sueldos."}},{"@type":"Question","name":"¿Cuánto dura el curso?","acceptedAnswer":{"@type":"Answer","text":"Según su ficha, Java de cero a Spring Boot ocupa entre 44 y 52 semanas, a razón de dos sesiones en directo semanales. Si ya tiene base, empieza más adelante y termina antes."}},{"@type":"Question","name":"¿Recibo un certificado?","acceptedAnswer":{"@type":"Answer","text":"Sí, si aprueba el examen final le entregamos un certificado de finalización. Es un documento nuestro, sin valor oficial ante la universidad o la SUNEDU, y no es una certificación de Oracle."}},{"@type":"Question","name":"¿Puedo mover el horario en semana de exámenes?","acceptedAnswer":{"@type":"Answer","text":"Sí. Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Si su sesión queda a las 7:15 a. m. de Lima, su mentor la toma a las 5:45 p. m., hora india."}},{"@type":"Question","name":"¿En qué moneda pago?","acceptedAnswer":{"@type":"Answer","text":"El precio figura en dólares estadounidenses y se carga a su tarjeta, que lo convierte a su moneda. Para la sesión de prueba no hace falta pagar nada."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/curso-de-java-para-universitarios-peru","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-jau">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Perú</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Perú</a></li>
+      <li><a href="#ciclos">Ciclo a ciclo</a></li>
+      <li><a href="#uni">Java en la uni</a></li>
+      <li><a href="#entrevistas">Entrevistas</a></li>
+      <li><a href="#igualdad">Lección</a></li>
+      <li><a href="#hora">Horario</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Clase gratis</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a> / <a href="/courses">Cursos</a> / <a href="/coding-and-ai-classes-in-peru">Perú</a> / Java para universitarios
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Perú &middot; Java para universitarios &middot; Desde los 18 años</p>
+        <h1>Curso de Java para universitarios, en vivo y en inglés</h1>
+        <p class="ag-lede">Para muchos estudiantes de computación, sistemas o software en Perú, Java es el lenguaje con el que se aprende de verdad la programación orientada a objetos, y el que vuelve una y otra vez en los cursos de algoritmos, en los proyectos de ingeniería de software y en las entrevistas de prácticas. Esta página explica cómo acompañamos ese recorrido con clases en inglés, sin reemplazar a su universidad.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Reservar la primera clase gratis</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Reservar una demo prioritaria</a>
+          <a href="#igualdad" class="ag-btn ag-btn--ghost">Ver una lección de Java</a>
+          <a href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20soy%20universitario%20en%20Per%C3%BA%20y%20quiero%20un%20curso%20de%20Java%20en%20ingl%C3%A9s.%20%C2%BFPuedo%20reservar%20una%20clase%20gratis%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jau'});">Consultar por WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Clases en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; Java para la carrera y para las entrevistas, en inglés</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">En resumen</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 de 5 en 547 reseñas de Google
+        </p>
+        <dl>
+          <dt>Idioma de las clases</dt><dd>Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante</dd>
+          <dt>Para quién</dt><dd>Universitarios, egresados y quien cambia de carrera</dd>
+          <dt>Temas</dt><dd>Objetos, colecciones, algoritmos, Spring Boot</dd>
+          <dt>Idioma</dt><dd>Inglés, al ritmo del estudiante</dd>
+          <dt>Formato</dt><dd>Grupo de quince a veinte, o individual</dd>
+          <dt>Horario</dt><dd>Cualquier día, a cualquier hora, ajustable por ciclo</dd>
+          <dt>Universidades</dt><dd>Ningún convenio: acompañamos, no reemplazamos</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">La respuesta corta</p>
+      <p>Modern Age Coders ofrece a universitarios de todo el Perú un curso de Java en vivo, en línea y en inglés: programación orientada a objetos, colecciones, estructuras de datos y algoritmos, preparación para entrevistas técnicas y aplicaciones con Spring Boot. Las clases las dicta por videollamada un mentor en la India, que revisa su código en pantalla y se adapta a lo que pide su ciclo. No tenemos convenio con ninguna universidad. Puede tomar clase grupal o individual, en el día y la hora que le acomoden, y probar primero con una clase gratis.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cursos recomendados</p>
+      <h2>Tres cursos para un universitario que estudia Java</h2>
+      <p class="ag-lede">El lenguaje a fondo, los algoritmos que se evalúan en la carrera y en las entrevistas, y la base de datos que toda aplicación real necesita.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/complete-java-programming-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/java-college.webp" alt="Imagen del curso de Java para universitarios" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JAU / 01</p>
+          <h3>Java de cero a Spring Boot</h3>
+          <p>Para mayores de 18, de diez a doce meses. Java a fondo, colecciones, concurrencia y, al final, APIs con Spring Boot, seguridad y pruebas.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/dsa-college.webp" alt="Imagen del curso de estructuras de datos y algoritmos" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JAU / 02</p>
+          <h3>Estructuras de datos y algoritmos</h3>
+          <p>De diez a doce meses, desde cero. Listas, árboles, grafos, ordenamiento y complejidad, practicados como en una entrevista técnica.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/mysql-database-complete-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/database-college.webp" alt="Imagen del curso de MySQL para universitarios" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JAU / 03</p>
+          <h3>Bases de datos con MySQL</h3>
+          <p>De siete a ocho meses. Consultas SQL, diseño de tablas y administración, para conectar sus programas en Java con datos reales.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="ciclos">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Ciclo a ciclo</p><h2>¿En qué ciclos de la carrera se usa Java o programación orientada a objetos?</h2><p class="ag-lede">Desde el primero y hasta casi el final. Una malla de computación publicada por una universidad peruana muestra cómo la programación crece por capas: primero el lenguaje, luego las estructuras de datos, después los algoritmos y, al final, el software en equipo.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cursos de programación en la malla de Ciencia de la Computación de la UTEC</caption><thead><tr><th scope="col">Ciclo</th><th scope="col">Curso</th><th scope="col">Créditos</th><th scope="col">Prerrequisito publicado</th></tr></thead><tbody><tr><td>1</td><td>Programación I</td><td class="ag-num">4</td><td>Ninguno</td></tr><tr><td>2</td><td>Programación II</td><td class="ag-num">2</td><td>Programación I</td></tr><tr><td>3</td><td>Bases de Datos I</td><td class="ag-num">4</td><td>Programación II y Matemáticas Discretas I</td></tr><tr><td>4</td><td>Algoritmos y Estructuras de Datos</td><td class="ag-num">4</td><td>Programación II</td></tr><tr><td>4</td><td>Programación Funcional</td><td class="ag-num">4</td><td>No figura</td></tr><tr><td>5</td><td>Análisis y Diseño de Algoritmos</td><td class="ag-num">4</td><td>Fundamentos Matemáticos de Computación y Algoritmos y Estructuras de Datos</td></tr><tr><td>6</td><td>Ingeniería de Software</td><td class="ag-num">4</td><td>Cloud Computing y Programación Funcional</td></tr><tr><td>7</td><td>Programación Competitiva</td><td class="ag-num">3</td><td>Análisis y Diseño de Algoritmos</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: Universidad de Ingeniería y Tecnología (UTEC), página de la carrera de Ciencia de la Computación en utec.edu.pe, leída el 9 de noviembre de 2026; la carrera dura 10 semestres (200 créditos). La malla no indica en qué lenguaje se dicta cada curso. Elegimos esta malla porque está publicada completa en texto; no estamos vinculados a la UTEC.</p>
+    <p class="ag-mt-40">La tabla muestra una cadena: sin Programación II no se entra a Algoritmos y Estructuras de Datos, y sin ese curso no se llega a Análisis y Diseño de Algoritmos ni a Programación Competitiva. Quien aprueba Programación I con lo justo arrastra ese vacío durante tres o cuatro ciclos. Por eso muchos universitarios buscan un curso de Java aparte: no para adelantar créditos, sino para que la base deje de tambalear.</p>
+    <p>En las ingenierías pasa algo parecido. En las mallas de Ingeniería Industrial e Ingeniería Civil de la misma universidad, el ciclo 2 trae "Programación Orientada a Objetos", de 4 créditos, con Programación I como prerrequisito. Clases, herencia, interfaces y encapsulamiento llegan en el segundo semestre de la carrera, cuando el estudiante todavía se está acostumbrando a programar. Es justo el tema en el que Java es más exigente y más claro a la vez.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="uni">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Java en la uni</p><h2>¿Qué significa buscar un "curso de Java en la uni"?</h2><p class="ag-lede">Depende de quién lo escriba. Para unos, "la uni" es la universidad en general; para otros, la Universidad Nacional de Ingeniería. En los dos casos, nosotros no somos un curso de la universidad: somos clases en vivo, en inglés, que acompañan lo que usted ve allí.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Lo que no hacemos</h3><p>No dictamos cursos de ninguna universidad, no tenemos convenio con la UNI, la UTEC ni otra casa de estudios, y nuestras clases no dan créditos, notas ni convalidaciones.</p>
+<p>Tampoco resolvemos tareas, laboratorios ni exámenes de su universidad. Si un problema de su curso le preocupa, practicamos uno parecido escrito por nosotros, para que el suyo lo resuelva usted.</p></div><div><h3>Lo que sí hacemos</h3><p>Le enseñamos Java desde sus fundamentos hasta Spring Boot, con un mentor fijo que conoce sus puntos débiles. Quien aprueba nuestro examen final se lleva un certificado de finalización emitido por nosotros, sin valor oficial.</p>
+<p>Ajustamos el orden de los temas a su ciclo: si en su universidad toca objetos, reforzamos objetos; si vienen los parciales de algoritmos, practicamos algoritmos.</p></div></div>
+    <p class="ag-mt-40">La escala del sistema ayuda a entender por qué hay tanta demanda de refuerzo. En septiembre de 2021, una nota de la SUNEDU contaba en el Perú 94 universidades con licencia (46 de ellas públicas), con 1 millón 100 mil estudiantes en 5500 programas. Es el dato oficial más reciente que encontramos y lo damos con su fecha. Como las clases son por internet, da igual en cuál de esas universidades estudie o en qué región viva.</p>
+    <p>Si todavía está en secundaria y piensa estudiar computación, el camino empieza antes: vea la <a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">guía de nuestras clases para Perú</a>, con opciones por edad.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="entrevistas">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Prácticas y entrevistas</p><h2>¿Qué temas de Java preguntan en una entrevista de prácticas?</h2><p class="ag-lede">Casi siempre los mismos: programación orientada a objetos, colecciones, igualdad de objetos, excepciones y algún problema de estructuras de datos resuelto en vivo. Rara vez preguntan por un marco de trabajo antes de comprobar que el candidato domina el lenguaje.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Temas de Java frecuentes en entrevistas técnicas de prácticas (nuestra lista)</caption><thead><tr><th scope="col">Tema</th><th scope="col">Pregunta típica</th><th scope="col">Dónde lo trabajamos</th></tr></thead><tbody><tr><td>Objetos</td><td>¿Cuál es la diferencia entre una clase abstracta y una interfaz?</td><td>Java de cero a Spring Boot, tramo de objetos</td></tr><tr><td>Igualdad</td><td>¿Por qué no se comparan cadenas con ==?</td><td>La lección de esta página</td></tr><tr><td>Colecciones</td><td>¿Cuándo usar ArrayList, LinkedList o HashMap?</td><td>Java, tramo de colecciones</td></tr><tr><td>Complejidad</td><td>¿Cuánto tarda buscar en una lista frente a un HashSet?</td><td>Estructuras de datos y algoritmos</td></tr><tr><td>Excepciones</td><td>¿Qué diferencia hay entre una excepción verificada y una no verificada?</td><td>Java, tramo de errores</td></tr><tr><td>Spring Boot</td><td>¿Qué hace la inyección de dependencias?</td><td>Tramo final del curso para mayores de 18</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Lista nuestra, basada en lo que nuestros mentores preparan con estudiantes universitarios. No es la lista de ninguna empresa en particular.</p>
+    <p class="ag-mt-40">Las entrevistas para empresas internacionales suelen hacerse en inglés, aunque el puesto esté en Lima. La Embajada de la India en Lima informa, en su resumen de relaciones India Perú, que Tata Consultancy Services tiene una operación considerable en la capital, con más de 1300 empleos locales. Es un ejemplo de cómo el inglés técnico entra en el día a día de muchos programadores del país. No prometemos empleos ni sueldos: lo que preparamos es que usted pueda explicar su código en inglés con seguridad.</p>
+    <p>En el EF EPI 2025, los peruanos de 21 a 25 años obtienen 540 puntos, nivel moderado, y quienes declaran ser estudiantes 482, por debajo del promedio nacional de 519. Practicar Java en inglés cada semana durante la carrera ataca esa brecha justo antes de las entrevistas. Para ver cómo trabajamos con estudiantes que ya estudian en inglés en Lima, revise la página de <a class="ag-inline-link" href="/english-medium-coding-classes-lima">clases de programación en inglés en Lima</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="version">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Qué Java usar</p><h2>¿Java 17, 21 o 25: cuál debe usar un universitario?</h2><p class="ag-lede">Java 21 o Java 25. Si su curso usa Java 17 no hay problema para aprender, pero conviene saber que su soporte Premier de Oracle termina en septiembre de 2026, según la hoja de ruta de la propia Oracle.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Lo que dice Oracle</h3><p>En su hoja de ruta de soporte, Oracle marca como LTS a Java 8, 11, 17, 21 y 25. Para Java 17 indica soporte Premier hasta septiembre de 2026; para Java 21, hasta septiembre de 2028; para Java 25, hasta septiembre de 2030.</p>
+<p>Las versiones intermedias, como Java 26, reciben soporte solo hasta la siguiente. Por eso las empresas y los cursos suelen trabajar sobre una LTS.</p></div><div><h3>Lo que pide Spring Boot</h3><p>Según la documentación de requisitos de Spring Boot, su versión 4.1.2 exige Java 17 como mínimo y funciona hasta Java 27. Con Java 21 o 25 usted cumple con margen.</p>
+<p>Compilamos la lección de abajo con OpenJDK 21; su comportamiento es idéntico en Java 25.</p></div></div>
+    <p class="ag-mt-40">Lo importante no es la versión exacta sino no aprender con materiales de hace diez años. Los <code>record</code> que usamos en la lección, por ejemplo, no existen en Java 8, y muchas guías antiguas que circulan en internet enseñan a escribir a mano métodos que hoy el lenguaje genera solo. En clase le mostramos la forma moderna y la clásica, porque en las prácticas encontrará las dos.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="igualdad">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Una lección de ejemplo</p><h2>¿Por qué en Java no se comparan textos con ==?</h2><p class="ag-lede">Porque el operador == compara si dos variables apuntan al mismo objeto, no si su contenido es igual. Esta lección es nuestra y la usamos con universitarios antes de entrar a colecciones; la compilamos y ejecutamos con OpenJDK 21 antes de publicarla.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Igualdad.java</b><span>Java</span></figcaption><pre>import java.util.HashSet;
+import java.util.Set;
+
+public class Igualdad {
+    public static void main(String[] args) {
+        String a = "spring";
+        String b = "spr" + "ing";
+        String parte = "spr";
+        String c = parte + "ing";
+        String d = new String("spring");
+
+        System.out.println("a == b      : " + (a == b));
+        System.out.println("a == c      : " + (a == c));
+        System.out.println("a == d      : " + (a == d));
+        System.out.println("a.equals(c) : " + a.equals(c));
+        System.out.println("a.equals(d) : " + a.equals(d));
+
+        Set&lt;String&gt; cursos = new HashSet&lt;&gt;();
+        cursos.add(a);
+        cursos.add(c);
+        cursos.add(d);
+        System.out.println("Set size    : " + cursos.size());
+    }
+}</pre><p class="ag-code-note">El mentor pide predecir las seis líneas antes de ejecutar: "true or false, and why?"</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Lo que imprime</b><span>Salida</span></figcaption><pre>a == b      : true
+a == c      : false
+a == d      : false
+a.equals(c) : true
+a.equals(d) : true
+Set size    : 1</pre><p class="ag-code-note">Copiado de la terminal tras <code>javac Igualdad.java</code> y <code>java Igualdad</code> con OpenJDK 21.0.12.1.</p></figure>
+    <p class="ag-mt-40">Las cuatro variables contienen la palabra "spring", pero <code>==</code> responde distinto en cada caso. <code>a == b</code> da <code>true</code> porque <code>"spr" + "ing"</code> son dos literales y el compilador los une al compilar, así que <code>b</code> termina apuntando al mismo objeto que <code>a</code>. En <code>c</code> la unión ocurre al ejecutar, con una variable de por medio, y nace un objeto nuevo: <code>false</code>. Con <code>new String</code> el objeto es nuevo a propósito: <code>false</code>. En cambio <code>equals</code> compara el contenido y responde <code>true</code> las dos veces, y el <code>HashSet</code>, que usa <code>equals</code> y <code>hashCode</code>, guarda una sola "spring": <code>Set size    : 1</code>.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Registro.java</b><span>Java</span></figcaption><pre>import java.util.HashSet;
+import java.util.Set;
+
+public class Registro {
+    static class AlumnoClase {
+        String codigo;
+        AlumnoClase(String codigo) { this.codigo = codigo; }
+    }
+
+    record AlumnoRecord(String codigo) { }
+
+    public static void main(String[] args) {
+        Set&lt;AlumnoClase&gt; v1 = new HashSet&lt;&gt;();
+        v1.add(new AlumnoClase("20271234"));
+        v1.add(new AlumnoClase("20271234"));
+        System.out.println("class  set size: " + v1.size());
+
+        Set&lt;AlumnoRecord&gt; v2 = new HashSet&lt;&gt;();
+        v2.add(new AlumnoRecord("20271234"));
+        v2.add(new AlumnoRecord("20271234"));
+        System.out.println("record set size: " + v2.size());
+    }
+}</pre><p class="ag-code-note">La segunda parte: el mismo código de alumno (inventado), guardado dos veces en un conjunto.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Lo que imprime</b><span>Salida</span></figcaption><pre>class  set size: 2
+record set size: 1</pre><p class="ag-code-note">Salida exacta con OpenJDK 21.0.12.1.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><strong>La clase común falla.</strong> <code>AlumnoClase</code> no define <code>equals</code> ni <code>hashCode</code>, así que hereda los de <code>Object</code>, que comparan identidad. Dos alumnos con el mismo código son, para el conjunto, dos objetos distintos: tamaño 2.</li><li><strong>El record acierta.</strong> <code>AlumnoRecord</code> es un <code>record</code>: Java genera <code>equals</code> y <code>hashCode</code> a partir de sus campos. Mismo código, mismo alumno: tamaño 1.</li><li><strong>El error real.</strong> En una aplicación de matrícula, la versión con la clase común dejaría inscrito dos veces al mismo estudiante sin dar ningún error. Es el tipo de fallo que no detecta el compilador y sí detecta una entrevista.</li><li><strong>Explicar en inglés.</strong> El estudiante cierra la lección con una frase: "== compares references, equals compares values, and a HashSet needs both equals and hashCode". Si la puede decir y defender, la entendió.</li><li><strong>Reto para la casa.</strong> Añada a <code>AlumnoClase</code> un <code>equals</code> sin <code>hashCode</code>. ¿Qué tamaño imprime el conjunto ahora? Prediga, ejecute y explique.</li></ol>
+    <p class="ag-mt-40">Un asistente de IA le diría "use equals" y tendría razón. Lo que no le daría es el criterio para reconocer el mismo error dentro de un conjunto, un mapa o una base de datos, cuando no hay ningún <code>==</code> a la vista. Por eso en clase el mentor no corrige su código: le pregunta qué espera que ocurra, y deja que el resultado le muestre lo demás.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="hora">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Horario</p><h2>¿Cómo encaja el curso con los horarios de la universidad?</h2><p class="ag-lede">Usted fija el día y la hora y puede cambiarlos de un ciclo a otro. Abajo, unas cuantas horas peruanas pasadas al reloj indio, que es el de su mentor; sirven de referencia, no son un calendario de clases.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Hora de Perú y hora de la India: algunos ejemplos</caption><thead><tr><th scope="col">Perú</th><th scope="col">India</th><th scope="col">Fecha en la India</th></tr></thead><tbody><tr><td>5:00 a. m.</td><td>3:30 p. m.</td><td>Misma fecha</td></tr><tr><td>7:15 a. m.</td><td>5:45 p. m.</td><td>Misma fecha</td></tr><tr><td>11:00 a. m.</td><td>9:30 p. m.</td><td>Misma fecha</td></tr><tr><td>3:30 p. m.</td><td>2:00 a. m.</td><td>Fecha siguiente</td></tr><tr><td>6:00 p. m.</td><td>4:30 a. m.</td><td>Fecha siguiente</td></tr><tr><td>10:30 p. m.</td><td>9:00 a. m.</td><td>Fecha siguiente</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Conversión hecha por nosotros con tzdata. America/Lima: UTC-5 en cualquier mes, sin adelantar relojes, en línea con la hora oficial que difunde el INACAL. Asia/Kolkata: UTC+5:30. La India está siempre 10 horas y 30 minutos adelante.</p>
+    <p class="ag-mt-40">Los universitarios tienden a elegir muy temprano o de noche, y a pausar o mover clases en semana de parciales; el mentor lo planifica con usted. La conexión rara vez es el obstáculo: casi todo joven de 19 a 24 años está en línea (97,3% entre abril y junio de 2026, de acuerdo con el INEI). Si quiere aprovechar las vacaciones entre ciclos, el plan de <a class="ag-inline-link" href="/vacaciones-utiles-2027-programacion-online">vacaciones útiles 2027</a> muestra cómo ordenar un verano de práctica.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Avance</p>
+      <h2>¿Cómo saber si su Java está al nivel de la carrera?</h2>
+      <p class="ag-lede">Cinco niveles propios, alineados con lo que la malla va pidiendo. No son créditos ni notas, y no sustituyen la evaluación de su universidad.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cinco niveles de Java para universitarios (nuestros)</caption><thead><tr><th scope="col">Nivel</th><th scope="col">Equivale más o menos a</th><th scope="col">Usted puede</th></tr></thead><tbody><tr><td>1. Programa sin ayuda</td><td class="ag-num">Programación I</td><td class="ag-num">resolver ejercicios con métodos, arreglos y bucles, y leer los errores de javac</td></tr><tr><td>2. Diseña con objetos</td><td class="ag-num">Programación II u Orientada a Objetos</td><td class="ag-num">repartir un problema en clases con interfaces y herencia, y justificar el diseño</td></tr><tr><td>3. Elige la estructura</td><td class="ag-num">Algoritmos y Estructuras de Datos</td><td class="ag-num">elegir entre lista, conjunto y mapa, y explicar el costo de cada operación</td></tr><tr><td>4. Analiza y compite</td><td class="ag-num">Análisis de Algoritmos y Programación Competitiva</td><td class="ag-num">resolver problemas con límite de tiempo y demostrar por qué su solución es correcta</td></tr><tr><td>5. Construye en equipo</td><td class="ag-num">Ingeniería de Software</td><td class="ag-num">entregar una API con Spring Boot, pruebas y control de versiones</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Durante el semestre</h3><p>Repase lo de la semana con un problema propio, distinto al de la clase de su universidad. Si puede resolver uno nuevo, entendió.</p>
+<p>Lleve sus programas a un repositorio desde el primer ciclo. Al buscar prácticas, eso cuenta más que cualquier lista de cursos.</p></div><div><h3>Antes de una entrevista</h3><p>Practique explicar en inglés, en voz alta, la diferencia entre == y equals, entre ArrayList y LinkedList, y entre una interfaz y una clase abstracta.</p>
+<p>Resuelva problemas con un cronómetro y en una hoja en blanco, sin autocompletar. Así suelen ser las pruebas técnicas.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más cursos</p>
+      <h2>Nueve cursos más alrededor de Java</h2>
+      <p class="ag-lede">Para ampliar la carrera hacia otras áreas o reforzar la base. Todos en vivo y en inglés, con el mismo mentor durante el curso.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Lenguajes vecinos</h3>
+        <span class="ag-band-sub">Desde los 18 años</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JAU / VECINOS / 01</p>
+          <h4>Kotlin y Android</h4>
+          <p>El idioma actual de Android, compatible con todo el código Java que usted ya escribió.</p>
+          <a class="ag-course-link" href="/courses/complete-kotlin-programming-masterclass-professional">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAU / VECINOS / 02</p>
+          <h4>C++ moderno</h4>
+          <p>Memoria, punteros y rendimiento, útil también para programación competitiva.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-complete-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAU / VECINOS / 03</p>
+          <h4>Python de cero a avanzado</h4>
+          <p>El segundo lenguaje de casi todo universitario de computación.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Proyectos de fin de carrera</h3>
+        <span class="ag-band-sub">Aplicaciones completas</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JAU / PROYECTO / 01</p>
+          <h4>Desarrollo web completo</h4>
+          <p>Interfaz, servidor y despliegue, para mostrar un proyecto entero.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAU / PROYECTO / 02</p>
+          <h4>IA y machine learning</h4>
+          <p>Modelos, aprendizaje profundo e IA generativa, desde la matemática.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAU / PROYECTO / 03</p>
+          <h4>Programar con asistentes de IA</h4>
+          <p>Tres meses de trabajo con IA revisando y entendiendo cada cambio.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Si está terminando secundaria</h3>
+        <span class="ag-band-sub">De 13 a 18 años</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JAU / ESCOLAR / 01</p>
+          <h4>Java para adolescentes</h4>
+          <p>La misma base de Java, con juegos y proyectos para escolares.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAU / ESCOLAR / 02</p>
+          <h4>Algoritmos para escolares</h4>
+          <p>Lógica y estructuras de datos antes de llegar a la universidad.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAU / ESCOLAR / 03</p>
+          <h4>C++ para escolares</h4>
+          <p>STL, algoritmos y juegos, con miras a las olimpiadas de informática.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cómo funciona</p>
+      <h2>¿Cómo se organiza el curso para un universitario?</h2>
+      <p class="ag-lede">Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Antes del campus</p><p class="ag-slot-l">Una sesión muy temprano, con la cabeza fresca.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Después del laboratorio</p><p class="ag-slot-l">Por la noche, cuando termina la jornada.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Individual</p><p class="ag-slot-l">Movible en semanas de parciales y finales.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Su editor, en pantalla</h3><p>Usted escribe y compila; el mentor sigue cada cambio en vivo.</p></div>
+      <div><h3>Inglés de trabajo</h3><p>El vocabulario de una revisión de código y de una entrevista.</p></div>
+      <div><h3>Problemas inéditos</h3><p>Ejercicios nuestros, nunca las evaluaciones de su universidad.</p></div>
+      <div><h3>Ritmo de ciclo</h3><p>El orden de los temas se adapta a lo que toca en su malla.</p></div>
+      <div><h3>Un mentor para todo el curso</h3><p>Quien conoce sus errores frecuentes y su forma de razonar.</p></div>
+      <div><h3>Grupo o individual</h3><p>Quince a veinte universitarios de nivel parecido, o solo usted.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Proyectos de nuestros estudiantes</p>
+      <h2>Proyectos de nuestros estudiantes</h2>
+      <p class="ag-lede">Una muestra de lo que construyen nuestros estudiantes mayores, en distintos lenguajes; la galería completa está en <a class="ag-inline-link" href="/student-labs">Student labs</a> (en inglés).</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Captura del proyecto NutriLife, un coach de nutrición con IA" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>NutriLife</h4>
+          <p>Un coach de nutrición con IA que analiza las comidas y avanza paso a paso hacia una meta.</p>
+          <p class="ag-proj-meta">de Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Captura de Misti, un chatbot con IA para matemáticas y programación" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>Misti</h4>
+          <p>Un chatbot que responde preguntas de matemáticas y programación, creado y publicado por un estudiante.</p>
+          <p class="ag-proj-meta">de Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Captura de GuardianX, un asistente con IA para la seguridad en internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>GuardianX</h4>
+          <p>Un asistente que ayuda a los jóvenes a reconocer situaciones de riesgo en internet.</p>
+          <p class="ag-proj-meta">de Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Captura de la aplicación del clima SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Aplicación web</p>
+          <h4>SkyCast</h4>
+          <p>Un sitio de pronóstico del clima con condiciones en vivo para cualquier lugar.</p>
+          <p class="ag-proj-meta">de Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Precios</p>
+      <h2>Precio del curso de Java para universitarios</h2>
+      <p class="ag-lede">La cuota se publica en dólares estadounidenses y se cobra con tarjeta. La conversión la hace el banco emisor según el tipo de cambio de ese día, por lo que el monto cargado puede variar ligeramente.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Primera clase gratis</p>
+        <p class="ag-price-amt">Gratis</p>
+        <p class="ag-price-alt">sin tarjeta</p>
+        <ul><li>Una clase de prueba, gratis</li><li>Un diagnóstico de su Java actual</li><li>Sin tarjeta y sin compromiso</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Reservar</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Clase grupal</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Quince a veinte universitarios de nivel parecido</li><li>Mentor fijo</li><li>Dos clases en vivo por semana</li><li>Pago mensual, sin permanencia</li></ul>
+        <a href="#start" class="ag-btn">Empezar aquí</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Clases individuales</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Solo usted y su mentor</li><li>Temas al compás de su ciclo</li><li>Horario a su medida</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Consultar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lo que dicen las familias</p>
+      <h2>4.9 de 5 en 547 reseñas de Google</h2>
+      <p class="ag-lede">Reseñas en Google de estudiantes y familias, tal cual se publicaron, en inglés.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preguntas frecuentes</p>
+      <h2>Curso de Java para universitarios: preguntas frecuentes</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>¿Las clases son en español?</h3>
+        <p>No. Las clases son en vivo, en línea y en inglés, y para un universitario eso suma: aprende Java en el idioma de su documentación, de sus errores y de muchas entrevistas técnicas. El mentor habla claro y adapta el ritmo. Lima aparece en el nivel alto de inglés en el EF EPI 2025, y hablarlo con soltura se gana practicando en cada sesión.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Su curso es el curso de Java de la UNI?</h3>
+        <p>No. Modern Age Coders es una escuela en línea independiente, sin relación con la Universidad Nacional de Ingeniería ni con otras casas de estudio. Recibimos a universitarios de todo el país, sea cual sea su universidad.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Sirve si ya llevé Programación I?</h3>
+        <p>Sí. En la clase gratis el mentor revisa qué domina y lo ubica en el punto que corresponda: objetos, colecciones o algoritmos. No tiene que repetir lo que ya sabe.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Me ayudan con mis tareas o exámenes de la universidad?</h3>
+        <p>No resolvemos tareas, laboratorios ni exámenes. Trabajamos esos mismos contenidos con ejercicios nuevos de nuestra autoría; así, cuando llegue su evaluación, la resuelve por su cuenta.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Incluye Spring Boot?</h3>
+        <p>Sí, en la parte final del curso Java de cero a Spring Boot: APIs, seguridad y pruebas. Su documentación pide como mínimo Java 17 para la versión 4.1.2.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Qué versión de Java usan?</h3>
+        <p>Una LTS reciente, Java 21 o 25. Según la hoja de ruta de Oracle, el soporte Premier de Java 17 llega hasta septiembre de 2026 y el de Java 21 hasta septiembre de 2028.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Me preparan para entrevistas de prácticas?</h3>
+        <p>Sí, en el contenido: objetos, igualdad, colecciones, complejidad y problemas en vivo, explicados en inglés. No prometemos prácticas, empleos ni sueldos.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Cuánto dura el curso?</h3>
+        <p>Según su ficha, Java de cero a Spring Boot ocupa entre 44 y 52 semanas, a razón de dos sesiones en directo semanales. Si ya tiene base, empieza más adelante y termina antes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Recibo un certificado?</h3>
+        <p>Sí, si aprueba el examen final le entregamos un certificado de finalización. Es un documento nuestro, sin valor oficial ante la universidad o la SUNEDU, y no es una certificación de Oracle.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Puedo mover el horario en semana de exámenes?</h3>
+        <p>Sí. Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Si su sesión queda a las 7:15 a. m. de Lima, su mentor la toma a las 5:45 p. m., hora india.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿En qué moneda pago?</h3>
+        <p>El precio figura en dólares estadounidenses y se carga a su tarjeta, que lo convierte a su moneda. Para la sesión de prueba no hace falta pagar nada.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más páginas</p>
+      <h2>Lecturas para universitarios que estudian Java</h2>
+      <p class="ag-lede">Material de lectura en nuestro sitio; todo en inglés, excepto la guía de Perú.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>Todas nuestras clases para estudiantes en Perú, por edad y tema.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-dsa-course">Java DSA course</a></h3><p>Estructuras de datos y algoritmos resueltos en Java.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-oops-concepts-course">Java OOP concepts</a></h3><p>Los conceptos de objetos que más se preguntan, con ejemplos.</p></div>
+      <div><h3><a class="ag-inline-link" href="/data-structures-and-algorithms-course">Data structures and algorithms</a></h3><p>El curso de algoritmos pensado para la carrera y las entrevistas.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-classes-for-adults">Java classes for adults</a></h3><p>Java para quien estudia o trabaja y cambia de rumbo.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Cómo transcurre una sesión con un mentor.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Empiece aquí</p>
+        <h2>Reserve una clase de Java gratis</h2>
+        <p class="ag-lede">Durante la sesión gratuita su mentor quiere saber en qué ciclo va y qué se le complica; le plantea un problema corto de objetos o de colecciones y escucha cómo lo razona en inglés. Luego le propone por dónde empezar y en qué formato, y usted decide.</p>
+        <p class="ag-mt-40">Para leer antes: <a class="ag-inline-link" href="/java-oops-concepts-course">Java OOP concepts</a> y <a class="ag-inline-link" href="/java-dsa-course">Java DSA course</a>, ambas en inglés.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20soy%20universitario%20en%20Per%C3%BA%20y%20quiero%20un%20curso%20de%20Java%20en%20ingl%C3%A9s.%20%C2%BFPuedo%20reservar%20una%20clase%20gratis%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jau',pos:'end'});">Escríbanos por WhatsApp</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Sesiones en directo por videollamada, dictadas desde la India y siempre en inglés; para consultas por WhatsApp, el castellano está bien.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_jau(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Su nombre</label>
+            <input id="pe-name" type="text" name="name" placeholder="Nombre del padre, madre o estudiante" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Teléfono o WhatsApp, Perú +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Grupo de edad</label>
+            <select id="pe-age" name="age"><option value="6-12">Niño o niña, 6 a 12</option><option value="13-18">Adolescente, 13 a 18</option><option value="college">Universitario</option><option value="adult">Profesional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Solicitar la clase gratis</button>
+          <p class="ag-form-note">Gratis, sin tarjeta y sin obligación.</p>
+        </form>
+        <div class="ag-pd-card"><h3>¿Quiere una clase antes? Reserve una demo prioritaria</h3><p>Una demo prioritaria es una clase completa de unos 45 a 60 minutos. Después, el mentor envía por WhatsApp un informe escrito de habilidades y un plan de aprendizaje personal. Si se inscribe, el pago de la demo se descuenta de la primera mensualidad: envíenos por WhatsApp el número de pedido de la demo.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Reservar una demo prioritaria</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Clases en vivo y en línea de programación, IA y matemáticas para personas de 6 a 67 años, siempre en inglés. Enseñamos desde 2020, a más de
+          10,000 estudiantes en 25 países.
+        </p>
+      </div>
+      <div><h4>Java y la carrera</h4><ul><li><a href="/courses/complete-java-programming-masterclass-college">Java de cero a Spring Boot</a></li><li><a href="/courses/data-structures-algorithms-masterclass-college">Estructuras de datos y algoritmos</a></li><li><a href="/courses/mysql-database-complete-masterclass-college">Bases de datos con MySQL</a></li><li><a href="/courses">Todos los cursos</a></li></ul></div>
+      <div><h4>Para leer</h4><ul><li><a href="/java-dsa-course">Algoritmos en Java</a></li><li><a href="/java-oops-concepts-course">Objetos en Java</a></li><li><a href="/how-we-teach">Cómo enseñamos</a></li><li><a href="/student-labs">Proyectos</a></li></ul></div>
+      <div>
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="/about">Quiénes somos</a></li>
+          <li><a href="/how-we-teach">Cómo enseñamos</a></li>
+          <li><a href="/love">Reseñas</a></li>
+          <li><a href="/contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Clases en vivo y en línea, en inglés, para todo el mundo.</span>
+      <span>== compara referencias; equals compara valores</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Clase gratis</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Demo prioritaria</a><a href="tel:+919123366161" aria-label="Llamar al +91 91233 66161">Llamar</a></div>
+
+<script>
+window.submitLead_jau = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Enviando...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'curso-de-java-para-universitarios-peru-inline', meta: { name: name, age: age, page: 'curso-de-java-para-universitarios-peru' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Muchas gracias' + (name ? ', ' + name.split(' ')[0] : '') + '. Un mentor le llamará en breve.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Algo salió mal. Por favor, inténtelo de nuevo.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Error de conexión. Por favor, inténtelo de nuevo.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
