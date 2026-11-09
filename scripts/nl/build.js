@@ -26,7 +26,7 @@ const slug = process.argv[2];
 const DRY = process.argv.includes('--dry-run');
 if (!slug) { console.error('usage: node scripts/nl/build.js <slug> [--dry-run]'); process.exit(2); }
 
-const MARKET_DIRS = ['nl', 'ie', 'uk', 'au', 'us', 'ca', 'de'];
+const MARKET_DIRS = ['nl', 'ie', 'uk', 'au', 'us', 'ca', 'de', 'pe'];
 const modPath = MARKET_DIRS.map(d => path.join(ROOT, 'content', d, slug + '.js')).find(p => fs.existsSync(p));
 if (!modPath) { console.error('no content module for ' + slug + ' in content/' + MARKET_DIRS.join(', content/')); process.exit(2); }
 delete require.cache[require.resolve(modPath)];
@@ -172,6 +172,30 @@ if (LEAD_ISO === 'DE') {
   if (de && !/auf Englisch/.test(cap)) fail('German page capsule must say the classes are "auf Englisch"');
   if (!de && !/\bin English\b/.test(cap)) fail('Germany page capsule must say the classes are "in English"');
   if (de && /\b(du|dein|deine|deinen|deinem|deiner|dich|dir)\b/.test(text.replace(/\bDu\b/g, ''))) fail('German page uses "du": address parents and learners formally (Sie)');
+}
+// Peru (spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md, section 3; owner 2026-11-09: "make sure all our
+// classes are live online in english"). USD only through data-price anchors (no typed dollar or soles figure); every
+// page says the classes are live, online and in English; Spanish pages address parents formally (usted, never tú);
+// no accreditation and no robot-kit claims; no fixed timetable (owner: flexible, any time).
+if (LEAD_ISO === 'PE') {
+  const vis = html.replace(/<script[\s\S]*?<\/script>/g, ' ');
+  const copy = vis.replace(/<pre[\s\S]*?<\/pre>/g, ' ').replace(/<[^>]*data-price=[^>]*>[^<]*</g, '<');
+  const text = copy.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ');
+  if (/\bIST\b/.test(text)) fail('bare IST on a Peru page: write India time (hora de la India) and Peru time (hora de Perú)');
+  if (/weekend batch|fixed timetable|grupo de fin de semana|horario fijo/i.test(text)) fail('fixed batch or timetable promise on a Peru page: use the flexible timing line');
+  if (/\$\s?\d|\bUSD\s?\d|\d\s?USD\b|\bS\/\.?\s?\d|\d\s?soles\b|\bPEN\s?\d/i.test(text)) fail('typed price on a Peru page: fees go through data-price anchors only, and never in soles');
+  if (/\bpremium\b/i.test(text)) fail("'Premium' on a Peru page");
+  if (/–|&ndash;/.test(vis)) fail('en dash on a Peru page');
+  if (!/<html lang="(en|es)-PE"/.test(html)) fail('html lang must be en-PE or es-PE on a Peru page');
+  if (/certificado oficial|avalad[oa] por (el )?MINEDU|reconocid[oa] por (el )?(MINEDU|SUNEDU)|accredited by|officially recognised|MINEDU[- ]approved/i.test(text)) fail('accreditation claim on a Peru page: we hold none (spec section 3.4)');
+  if (/kit de rob[oó]tica (incluido|gratis)|robot(ics)? kit (included|free)|incluye (un )?kit/i.test(text)) fail('robot kit claim on a Peru page: we teach coding, no hardware (spec section 3.7)');
+  const es = /^es-/.test(page.market.lang);
+  const cap = (page.capsule || '').replace(/<[^>]+>/g, ' ');
+  if (es && !/en inglés/.test(cap)) fail('Spanish page capsule must say the classes are "en inglés"');
+  if (es && !/en vivo/.test(cap)) fail('Spanish page capsule must say the classes are live ("en vivo")');
+  if (!es && !/\bin English\b/.test(cap)) fail('Peru page capsule must say the classes are "in English"');
+  if (!es && !/\blive\b/i.test(cap)) fail('Peru page capsule must say the classes are live');
+  if (es && /\b(tú|tienes|puedes|quieres|necesitas|sabes|estás|eres)\b/i.test(text)) fail('Spanish page uses "tú": address parents and learners formally (usted)');
 }
 if (DRY) {
   const vw = html.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<head[\s\S]*?<\/head>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;|&#\d+;/gi, ' ').replace(/\s+/g, ' ').trim().split(' ').filter(Boolean).length;

@@ -67,6 +67,14 @@ const PROJECTS_DE = {
   GuardianX: ['Screenshot von GuardianX, ein KI-Assistent für Sicherheit im Internet', 'KI und ML', 'Ein Assistent, der jungen Menschen hilft, unsichere Situationen im Internet zu erkennen.'],
   SkyCast: ['Screenshot der Wetter-App SkyCast', 'Web-App', 'Eine Wetter-Website mit aktuellen Bedingungen für jeden Ort.']
 };
+// Peru cluster (spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md): Spanish-language doors (market.lang
+// 'es-PE') get the template's own words in Peruvian Spanish, formal "usted". Classes stay live, online and in English.
+const PROJECTS_ES = {
+  NutriLife: ['Captura del proyecto NutriLife, un coach de nutrición con IA', 'IA y ML', 'Un coach de nutrición con IA que analiza las comidas y avanza paso a paso hacia una meta.'],
+  Misti: ['Captura de Misti, un chatbot con IA para matemáticas y programación', 'IA y ML', 'Un chatbot que responde preguntas de matemáticas y programación, creado y publicado por un estudiante.'],
+  GuardianX: ['Captura de GuardianX, un asistente con IA para la seguridad en internet', 'IA y ML', 'Un asistente que ayuda a los jóvenes a reconocer situaciones de riesgo en internet.'],
+  SkyCast: ['Captura de la aplicación del clima SkyCast', 'Aplicación web', 'Un sitio de pronóstico del clima con condiciones en vivo para cualquier lugar.']
+};
 const deNum = v => String(v).replace('.', ',');
 const STR = {
   en: {
@@ -114,13 +122,37 @@ const STR = {
     mdContactP: url => `Kostenlose Probestunde buchen unter [${url}](${url}#start), per WhatsApp oder telefonisch unter +91 91233 66161 (eine indische Nummer, der tatsächliche Kontakt von Modern Age Coders) oder per E-Mail an connect@modernagecoders.com.`,
     langRow: ['Unterrichtssprache', 'Live-Unterricht ausschließlich auf Englisch, im eigenen Tempo; die Mentoren sprechen deutlich und stellen sich auf Tempo und Akzent der Lernenden ein'],
     billedDe: 'pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span>'
+  },
+  es: {
+    home: 'Inicio', navCta: 'Clase gratis', heroCta: 'Reservar la primera clase gratis', pdCta: 'Reservar una demo prioritaria', wa: 'Consultar por WhatsApp',
+    glance: 'En resumen', trust: () => `${BRAND.rating} de 5 en ${BRAND.reviews} reseñas de Google`, syllabus: 'Ver el temario',
+    projEyebrow: 'Proyectos de nuestros estudiantes', by: 'de', openIt: 'Abrir', feesEyebrow: 'Precios', freeName: 'Primera clase gratis', free: 'Gratis', usd0: 'Gratis',
+    noCard: 'sin tarjeta', bookIt: 'Reservar', groupName: 'Clase grupal', perMonth8: 'al mes, ocho clases en vivo', billedUsd: 'al mes, cobrado en dólares estadounidenses',
+    startHere: 'Empezar aquí', oneName: 'Clases individuales', enquire: 'Consultar', revEyebrow: 'Lo que dicen las familias', revH2: () => `${BRAND.rating} de 5 en ${BRAND.reviews} reseñas de Google`,
+    partOf: 'Parte de la guía:', more: 'Más guías:', startEyebrow: 'Empiece aquí', waUs: 'Escríbanos por WhatsApp', yourName: 'Su nombre', namePh: 'Nombre del padre, madre o estudiante',
+    phoneIn: (name, dial) => 'Teléfono o WhatsApp, ' + (name === 'Peru' ? 'Perú' : name) + ' ' + dial, phoneAny: 'Teléfono o WhatsApp, con el código de país', ageLabel: 'Grupo de edad',
+    ages: ['Niño o niña, 6 a 12', 'Adolescente, 13 a 18', 'Universitario', 'Profesional'], submit: 'Solicitar la clase gratis',
+    pdH3: '¿Quiere una clase antes? Reserve una demo prioritaria',
+    pdP: () => 'Una demo prioritaria es una clase completa de unos 45 a 60 minutos. Después, el mentor envía por WhatsApp un informe escrito de habilidades y un plan de aprendizaje personal. Si se inscribe, el pago de la demo se descuenta de la primera mensualidad: envíenos por WhatsApp el número de pedido de la demo.',
+    footAbout: () => `Clases en vivo y en línea de programación, IA y matemáticas para personas de ${BRAND.ages.replace(' to ', ' a ')} años, siempre en inglés. Enseñamos desde ${BRAND.founded}, a más de
+          ${BRAND.students.replace('+', '')} estudiantes en ${BRAND.countries.replace('+', '')} países.`,
+    company: 'Empresa', about: 'Quiénes somos', howTeach: 'Cómo enseñamos', reviewsL: 'Reseñas', contact: 'Contacto', copy: '&copy; 2026 Modern Age Coders. Clases en vivo y en línea, en inglés, para todo el mundo.',
+    stickyFree: 'Clase gratis', stickyPd: 'Demo prioritaria', call: 'Llamar',
+    badPhoneIn: () => 'Por favor, ingrese un número de teléfono válido de Perú.', badPhoneAny: 'Por favor, ingrese un número de teléfono válido con el código de país.',
+    sending: 'Enviando...', thanks: 'Muchas gracias', willCall: '. Un mentor le llamará en breve.', wrong: 'Algo salió mal. Por favor, inténtelo de nuevo.', network: 'Error de conexión. Por favor, inténtelo de nuevo.',
+    mdGlance: 'En resumen', mdRated: () => `${BRAND.rating} de 5 en ${BRAND.reviews} reseñas de Google.`, mdFree: 'Primera clase gratis', mdGroup: 'Clase grupal', mdOne: 'Clases individuales', mdMonth: 'al mes',
+    mdPartOf: 'Parte de la guía', mdMore: 'Más guías', mdContact: 'Contacto',
+    mdContactP: url => `Reserve la primera clase gratis en [${url}](${url}#start), por WhatsApp o llamando al +91 91233 66161 (un número de la India, el contacto real de Modern Age Coders) o por correo a connect@modernagecoders.com.`,
+    langRow: ['Idioma de las clases', 'Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante'],
+    billedDe: 'al mes, ocho clases en vivo<span data-intl-only="true" hidden>, cobrado en dólares estadounidenses</span>'
   }
 };
 const isDe = page => /^de\b/i.test((page.market && page.market.lang) || '');
-const T = page => isDe(page) ? STR.de : STR.en;
+const isEs = page => /^es\b/i.test((page.market && page.market.lang) || '');
+const T = page => isDe(page) ? STR.de : isEs(page) ? STR.es : STR.en;
 // Every Germany page (English or German) states the teaching language in its at-a-glance panel
 // (owner 2026-11-02: classes are live, in English only, matching the learner's pace and accent).
-const specRows = page => (page.market && page.market.iso === 'DE') ? [T(page).langRow].concat(page.spec) : page.spec;
+const specRows = page => (page.market && (page.market.iso === 'DE' || page.market.iso === 'PE')) ? [T(page).langRow].concat(page.spec) : page.spec;
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const plain = s => String(s).replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
@@ -458,7 +490,7 @@ ${b.courses.map(x => courseCard(x, L)).join('\n')}
       <p class="ag-lede">${page.projectsLede}</p>
     </div>
     <div class="ag-grid-4">
-${PROJECTS.map(p0 => { const t = isDe(page) ? PROJECTS_DE[p0[3]] : null; const p = t ? [p0[0], t[0], t[1], p0[3], t[2], p0[5], p0[6]] : p0; return `      <article class="ag-proj">
+${PROJECTS.map(p0 => { const t = isDe(page) ? PROJECTS_DE[p0[3]] : isEs(page) ? PROJECTS_ES[p0[3]] : null; const p = t ? [p0[0], t[0], t[1], p0[3], t[2], p0[5], p0[6]] : p0; return `      <article class="ag-proj">
         <div class="ag-proj-shot"><img src="/images/projects/${p[0]}" alt="${p[1]}" loading="lazy" width="400" height="250"></div>
         <div class="ag-proj-body">
           <p class="ag-proj-cat">${p[2]}</p>
@@ -631,7 +663,7 @@ ${page.faq.items.map(f => `      <div class="ag-faq-item">
   </div>
 </footer>`;
 
-  return [head, '', hero, '', capsule, '', picks, '', sections, '', ladder, '', catalogue, '', how, '', projects, '', fees, '', reviews, '', faq, '', elsewhere, '', related, '', start, '', footer, '', `<div class="ag-sticky"><a href="#start">${L.stickyFree}</a>${pdLink('ag-sticky', 'ag-sticky-pd', L.stickyPd)}<a href="tel:+919123366161" aria-label="${isDe(page) ? 'Anrufen' : 'Call'} +91 91233 66161">${L.call}</a></div>`, '', leadScript(page), '', '</body>', '</html>', ''].join('\n');
+  return [head, '', hero, '', capsule, '', picks, '', sections, '', ladder, '', catalogue, '', how, '', projects, '', fees, '', reviews, '', faq, '', elsewhere, '', related, '', start, '', footer, '', `<div class="ag-sticky"><a href="#start">${L.stickyFree}</a>${pdLink('ag-sticky', 'ag-sticky-pd', L.stickyPd)}<a href="tel:+919123366161" aria-label="${isDe(page) ? 'Anrufen' : isEs(page) ? 'Llamar al' : 'Call'} +91 91233 66161">${L.call}</a></div>`, '', leadScript(page), '', '</body>', '</html>', ''].join('\n');
 }
 
 // ---------------------------------------------------------------- md twin

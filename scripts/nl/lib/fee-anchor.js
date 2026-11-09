@@ -9,12 +9,15 @@ const cfgLib = require('../../pricing/lib/config');
 // same anchors, carrying the euro display row (the USD list at the ECB rate in config.germany). Crawlers,
 // AI engines and the .md twin read euro; the visitor's own currency still replaces it in the browser, and
 // checkout charges USD. German-language pages write "90 €", English ones "€90".
-const NEUTRAL = new Set(['CA', 'DE']);
+// Peru (spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md section 6): USD shown and charged, through the
+// same data-price anchors (international row), so an Indian visitor still sees rupees and nothing is typed.
+const NEUTRAL = new Set(['CA', 'DE', 'PE']);
 const neutralFee = page => NEUTRAL.has((page.market || {}).iso);
 const REGION_OF = { CA: 'canada', DE: 'germany' };
 // The pricing.config.jsonc region whose figures the page's crawler copy and structured data carry.
 const feeRegion = page => REGION_OF[(page.market || {}).iso] || 'international';
 const germanText = page => /^de\b/i.test((page.market || {}).lang || '');
+const spanishText = page => /^es\b/i.test((page.market || {}).lang || '');
 let config;
 const resolve = (subject, region, tier) => {
   config = config || cfgLib.load();
@@ -43,7 +46,8 @@ const ldPrice = (page, tier) => {
 // the page). Other markets keep the USD figures their pages print.
 const feeText = (page, tier) => {
   if (!neutralFee(page)) return { free: 'USD 0', group: 'USD 100', personal: 'USD 150' }[tier];
-  if (tier === 'free') return germanText(page) ? 'kostenlos' : 'Free';
+  if (tier === 'free') return germanText(page) ? 'kostenlos' : spanishText(page) ? 'Gratis' : 'Free';
+  if (feeRegion(page) === 'international') { const r = resolve(page.priceSubject || 'coding', 'international', tier); return 'USD ' + cfgLib.format(r.amount, r.currency, { style: 'plain' }); }
   if (feeRegion(page) === 'germany') {
     const r = resolve(page.priceSubject || 'coding', 'germany', tier);
     return germanText(page) ? cfgLib.format(r.amount, 'EUR', { style: 'suffix' }) + ' (abgerechnet in US-Dollar)' : cfgLib.format(r.amount, 'EUR') + ' (charged in US dollars)';
