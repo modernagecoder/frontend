@@ -1016,6 +1016,7 @@ const SLUGS = [
   'razonamiento-matematico-clases-online-peru',
   'inteligencia-artificial-para-ninos-de-primaria',
   'learn-to-think-not-copy-coding-peru',
+  'build-with-ai-without-copying-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2111,6 +2112,7 @@ const LLMS_LABELS = {
   'razonamiento-matematico-clases-online-peru': 'Clases online de razonamiento matemático',
   'inteligencia-artificial-para-ninos-de-primaria': 'Inteligencia artificial para niños de primaria',
   'learn-to-think-not-copy-coding-peru': 'Learn to think, not copy: coding for Peru',
+  'build-with-ai-without-copying-peru': 'Build with AI without copying, for Peru',
 };
 
 function wireLlms(slugs) {
