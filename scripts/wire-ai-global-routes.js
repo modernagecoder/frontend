@@ -988,6 +988,7 @@ const SLUGS = [
   'crear-apps-curso-para-adolescentes-peru',
   'curso-de-desarrollo-de-aplicaciones-en-ingles',
   'curso-de-desarrollo-de-software-en-ingles-peru',
+  'curso-de-desarrollo-web-en-ingles-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2055,6 +2056,7 @@ const LLMS_LABELS = {
   'crear-apps-curso-para-adolescentes-peru': 'Crear apps: curso para adolescentes',
   'curso-de-desarrollo-de-aplicaciones-en-ingles': 'Curso de desarrollo de aplicaciones en inglés',
   'curso-de-desarrollo-de-software-en-ingles-peru': 'Curso de desarrollo de software en inglés',
+  'curso-de-desarrollo-web-en-ingles-peru': 'Curso de desarrollo web en inglés',
 };
 
 function wireLlms(slugs) {
