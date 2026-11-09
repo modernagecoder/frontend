@@ -959,6 +959,7 @@ const SLUGS = [
   'vacaciones-utiles-de-programacion-chorrillos-lima',
   'vacaciones-utiles-de-programacion-surquillo-lima',
   'vacaciones-utiles-de-programacion-lince-lima',
+  'curso-de-inteligencia-artificial-para-ninos-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1997,6 +1998,7 @@ const LLMS_LABELS = {
   'vacaciones-utiles-de-programacion-chorrillos-lima': 'Vacaciones útiles de programación en Chorrillos',
   'vacaciones-utiles-de-programacion-surquillo-lima': 'Vacaciones útiles de programación en Surquillo',
   'vacaciones-utiles-de-programacion-lince-lima': 'Vacaciones útiles de programación en Lince',
+  'curso-de-inteligencia-artificial-para-ninos-peru': 'Curso de inteligencia artificial para niños',
 };
 
 function wireLlms(slugs) {
