@@ -1041,6 +1041,7 @@ const SLUGS = [
   'onem-preparation-in-english',
   'peru-university-admission-exams-explained',
   'peru-july-holiday-coding-classes',
+  'app-development-course-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2161,6 +2162,7 @@ const LLMS_LABELS = {
   'onem-preparation-in-english': 'ONEM preparation in English',
   'peru-university-admission-exams-explained': 'Peru university admission exams explained',
   'peru-july-holiday-coding-classes': 'July holiday coding classes in Peru',
+  'app-development-course-peru': 'App development course, Peru',
 };
 
 function wireLlms(slugs) {
