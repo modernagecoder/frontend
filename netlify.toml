@@ -32847,6 +32847,18 @@
   to = "/src/pages/clases-de-matematicas-en-ingles-para-ninos.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/profesor-particular-de-matematicas-online-peru"
+  to = "/src/pages/profesor-particular-de-matematicas-online-peru.html"
+  status = 200
+
+[[redirects]]
+  from = "/profesor-particular-de-matematicas-online-peru.md"
+  to = "/src/pages/profesor-particular-de-matematicas-online-peru.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

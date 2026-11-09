@@ -976,6 +976,7 @@ const SLUGS = [
   'cursos-de-tecnologia-para-adultos-mayores-peru',
   'profesor-de-matematicas-en-ingles-peru',
   'clases-de-matematicas-en-ingles-para-ninos',
+  'profesor-particular-de-matematicas-online-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2031,6 +2032,7 @@ const LLMS_LABELS = {
   'cursos-de-tecnologia-para-adultos-mayores-peru': 'Cursos de tecnología para adultos mayores en Perú',
   'profesor-de-matematicas-en-ingles-peru': 'Profesor de matemáticas en inglés',
   'clases-de-matematicas-en-ingles-para-ninos': 'Clases de matemáticas en inglés para niños',
+  'profesor-particular-de-matematicas-online-peru': 'Profesor particular de matemáticas online',
 };
 
 function wireLlms(slugs) {
