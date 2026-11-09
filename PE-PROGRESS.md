@@ -27,7 +27,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE222 | vacaciones-utiles-de-programacion-jesus-maria-lima (vupj, #075449) | vacaciones útiles district (ES) | 4,953 | 1.8% vs vacaciones-utiles-2027-programacion-online | Jesús María: talleres municipales de verano más código en casa | a Caesar cipher: a function with parameters, return and % 26 wraparound | 538c94a8 |
 | PE224 | vacaciones-utiles-de-programacion-pueblo-libre-lima (vupp, #3D650E) | vacaciones útiles district (ES) | 4,692 | 2.4% vs vacaciones-utiles-de-programacion-los-olivos-lima | Pueblo Libre: el calendario escolar MINEDU y cómo repartir el verano | halving search: guess a number from 1 to 100 in at most 7 tries | 24e930ad |
 | PE225 | vacaciones-utiles-de-programacion-magdalena-del-mar-lima (vama, #0C665A) | vacaciones útiles district (ES) | 4,606 | 2% vs vacaciones-utiles-de-programacion-surco-lima | Magdalena del Mar: ¿está lista su casa para un verano en línea? INEI TIC y edades | nested loops drawing waves, and the off-by-one in range() | f08aca39 |
-| PE197 | vacaciones-utiles-de-programacion-san-juan-de-lurigancho-lima (vups, #516000) | district (vacaciones útiles) | 5,279 | 2.3% vs vacaciones-utiles-de-programacion-magdalena-del-mar-lima | see module header | sets: duplicates vanish; intersection, difference and union of two lists | (this commit) |
+| PE197 | vacaciones-utiles-de-programacion-san-juan-de-lurigancho-lima (vups, #516000) | district (vacaciones útiles) | 5,279 | 2.3% vs vacaciones-utiles-de-programacion-magdalena-del-mar-lima | see module header | sets: duplicates vanish; intersection, difference and union of two lists | a24ebede |
+| PE207 | vacaciones-utiles-de-programacion-chorrillos-lima (vupc, #225C13) | district (vacaciones útiles) | 4,889 | 2.4% vs clases-de-programacion-para-ninos-en-ingles | see module header | a stack (append and pop) that checks whether brackets are balanced | (this commit) |
 
 ## Notes
 

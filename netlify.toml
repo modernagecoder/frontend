@@ -32607,6 +32607,18 @@
   to = "/src/pages/vacaciones-utiles-de-programacion-san-juan-de-lurigancho-lima.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vacaciones-utiles-de-programacion-chorrillos-lima"
+  to = "/src/pages/vacaciones-utiles-de-programacion-chorrillos-lima.html"
+  status = 200
+
+[[redirects]]
+  from = "/vacaciones-utiles-de-programacion-chorrillos-lima.md"
+  to = "/src/pages/vacaciones-utiles-de-programacion-chorrillos-lima.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

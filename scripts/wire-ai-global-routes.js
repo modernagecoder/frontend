@@ -956,6 +956,7 @@ const SLUGS = [
   'vacaciones-utiles-de-programacion-pueblo-libre-lima',
   'vacaciones-utiles-de-programacion-magdalena-del-mar-lima',
   'vacaciones-utiles-de-programacion-san-juan-de-lurigancho-lima',
+  'vacaciones-utiles-de-programacion-chorrillos-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1991,6 +1992,7 @@ const LLMS_LABELS = {
   'vacaciones-utiles-de-programacion-pueblo-libre-lima': 'Vacaciones útiles de programación en Pueblo Libre',
   'vacaciones-utiles-de-programacion-magdalena-del-mar-lima': 'Vacaciones útiles de programación en Magdalena del Mar',
   'vacaciones-utiles-de-programacion-san-juan-de-lurigancho-lima': 'Vacaciones útiles de programación en San Juan de Lurigancho',
+  'vacaciones-utiles-de-programacion-chorrillos-lima': 'Vacaciones útiles de programación en Chorrillos',
 };
 
 function wireLlms(slugs) {
