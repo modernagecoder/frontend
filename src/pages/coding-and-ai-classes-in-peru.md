@@ -268,7 +268,7 @@ Because the gap is fixed, a time agreed in March still works in October. Any aft
 
 Each page below takes one age, subject, exam, region, city or Lima district and answers it with its own sources and its own small project.
 
-**Start here:** [English-medium coding in Lima](/english-medium-coding-classes-lima)
+**Start here:** [English-medium coding in Lima](/english-medium-coding-classes-lima) · [Programación en inglés](/clases-de-programacion-en-ingles-peru)
 
 **By age:** [AI and coding for professionals](/ai-and-coding-for-professionals-peru) · [Coding for adults over 50](/coding-for-adults-over-50-peru) · [Coding for teens, 12 to 17](/coding-classes-for-teens-peru) · [Coding for university students](/coding-courses-for-university-students-peru) · [Online coding for kids, 6 to 12](/online-coding-classes-for-kids-peru) · [Programación para adolescentes](/clases-de-programacion-para-adolescentes-peru) · [Programación para adultos](/cursos-de-programacion-para-adultos-peru) · [Programación para niños de 10 años](/programacion-para-ninos-de-10-anos) · [Programación para niños de 12 años](/programacion-para-ninos-de-12-anos) · [Programación para niños de 6 años](/programacion-para-ninos-de-6-anos) · [Programación para niños de 8 años](/programacion-para-ninos-de-8-anos) · [Programación para niños en inglés](/clases-de-programacion-para-ninos-en-ingles) · [Programación para niños online](/clases-de-programacion-para-ninos-online-peru) · [Programación para universitarios](/cursos-de-programacion-para-universitarios-peru) · [Tecnología para adultos mayores](/cursos-de-tecnologia-para-adultos-mayores-peru)
 
