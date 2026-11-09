@@ -33603,6 +33603,18 @@
   to = "/src/pages/onem-preparation-in-english.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/peru-university-admission-exams-explained"
+  to = "/src/pages/peru-university-admission-exams-explained.html"
+  status = 200
+
+[[redirects]]
+  from = "/peru-university-admission-exams-explained.md"
+  to = "/src/pages/peru-university-admission-exams-explained.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

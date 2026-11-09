@@ -1039,6 +1039,7 @@ const SLUGS = [
   'igcse-maths-tutor-peru',
   'math-olympiad-coaching-peru',
   'onem-preparation-in-english',
+  'peru-university-admission-exams-explained',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2157,6 +2158,7 @@ const LLMS_LABELS = {
   'igcse-maths-tutor-peru': 'IGCSE maths tutor in Peru',
   'math-olympiad-coaching-peru': 'Maths olympiad coaching in Peru',
   'onem-preparation-in-english': 'ONEM preparation in English',
+  'peru-university-admission-exams-explained': 'Peru university admission exams explained',
 };
 
 function wireLlms(slugs) {
