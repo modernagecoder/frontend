@@ -7,3 +7,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 
 | row | slug | type | words | overlap | spine | trap | commit |
 |---|---|---|---|---|---|---|---|
+| PE001 | coding-and-ai-classes-in-peru (coai, #8F3736) | country hub (EN) | 5,660 | 0.5% vs coding-and-ai-classes-in-recklinghausen-germany | MINEDU ages and timetable, EF EPI 2025, time conversions | age is not year minus year | (this commit) |
+
+## Notes
+
+- P1 pilots need the owner's preview before any sweep.

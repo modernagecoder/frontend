@@ -1485,3 +1485,6 @@
 .ag-root.ag-cgu { --ag-accent: #593523; --ag-accent-soft: rgba(89,53,35,.09); }   /* Coding and AI in Gütersloh: a deep walnut brown #593523 for the timber-framed old town, distinct from the Recklinghausen umber and the NRW teal; contrast 8.70 on the paper #FBF8F2 and above 4.5 on every paper tint */
 .ag-root.ag-pka { --ag-accent: #751A00; --ag-accent-soft: rgba(117,26,0,.09); }   /* Online Python in Kaiserslautern: a deep Palatinate red sandstone #751A00, the stone of the Pfälzerwald around the city, kept clear of the Trier brick and the Rhineland-Palatinate purple; contrast 8.95 on the paper #FBF8F2 and above 4.5 on every paper tint */
 .ag-root.ag-cne { --ag-accent: #1B5435; --ag-accent-soft: rgba(27,84,53,.09); }   /* Coding and AI classes, Neuss: a deep leaf green #1B5435 for the city tree register the project learns from; contrast 7.20 on the paper #FBF8F2 and above 4.5 on all three paper tints */
+
+/* Peru cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints. */
+.ag-root.ag-coai { --ag-accent: #8F3736; --ag-accent-soft: rgba(143,55,54,.09); }   /* Peru hub: a deep clay red #8F3736, a darkened cousin of the red on the Peruvian flag and the colour of fired adobe, dark enough for 6.16:1 or better on every paper tint, and clear of the greens and blues the Peru subject pages use */

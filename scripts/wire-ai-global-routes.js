@@ -935,6 +935,7 @@ const SLUGS = [
   'coding-and-ai-classes-in-guetersloh-germany',
   'online-python-classes-kaiserslautern-germany',
   'coding-and-ai-classes-in-neuss-germany',
+  'coding-and-ai-classes-in-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1949,6 +1950,7 @@ const LLMS_LABELS = {
   'coding-and-ai-classes-in-guetersloh-germany': 'Coding and AI classes in Gütersloh',
   'online-python-classes-kaiserslautern-germany': 'Online Python classes in Kaiserslautern',
   'coding-and-ai-classes-in-neuss-germany': 'Coding and AI classes in Neuss',
+  'coding-and-ai-classes-in-peru': 'Coding and AI classes in Peru',
 };
 
 function wireLlms(slugs) {
