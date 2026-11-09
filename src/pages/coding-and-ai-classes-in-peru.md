@@ -272,6 +272,8 @@ Each page below takes one age, subject, exam, region, city or Lima district and 
 
 **By age:** [Programación para niños en inglés](/clases-de-programacion-para-ninos-en-ingles)
 
+**Cities:** [Arequipa: coding for every age](/coding-classes-in-arequipa-peru)
+
 ## What a learner in Peru can do at each stage with us
 
 These milestones are ours. We use them to decide which group a learner joins and to tell parents how things are going. They run beside the Peruvian grades and never stand in for school marks.

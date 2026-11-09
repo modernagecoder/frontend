@@ -938,6 +938,7 @@ const SLUGS = [
   'coding-and-ai-classes-in-peru',
   'english-medium-coding-classes-lima',
   'clases-de-programacion-para-ninos-en-ingles',
+  'coding-classes-in-arequipa-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1955,6 +1956,7 @@ const LLMS_LABELS = {
   'coding-and-ai-classes-in-peru': 'Coding and AI classes in Peru',
   'english-medium-coding-classes-lima': 'English-medium coding classes in Lima',
   'clases-de-programacion-para-ninos-en-ingles': 'Clases de programación para niños en inglés',
+  'coding-classes-in-arequipa-peru': 'Coding classes in Arequipa, Peru',
 };
 
 function wireLlms(slugs) {
