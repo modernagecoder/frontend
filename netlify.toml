@@ -33279,6 +33279,18 @@
   to = "/src/pages/olimpiada-de-matematica-onem-preparacion.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/canguro-matematico-preparacion-peru"
+  to = "/src/pages/canguro-matematico-preparacion-peru.html"
+  status = 200
+
+[[redirects]]
+  from = "/canguro-matematico-preparacion-peru.md"
+  to = "/src/pages/canguro-matematico-preparacion-peru.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
