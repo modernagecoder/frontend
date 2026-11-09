@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SQL and Data Analysis Course in Peru: Live Online, in English</title>
+  <meta name="description" content="SQL and data analysis course for Peru, live online in English: queries, joins and checks on real Peruvian open data, for analysts and students, at any hour.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/sql-and-data-analysis-course-peru">
+  <link rel="alternate" type="text/markdown" href="/src/pages/sql-and-data-analysis-course-peru.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#0C665A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/sql-and-data-analysis-course-peru">
+  <meta property="og:title" content="SQL and Data Analysis Course in Peru: Live Online, in English">
+  <meta property="og:description" content="Learn SQL and data analysis from Peru with a live mentor, in English, at hours that suit you: what SQL adds to a spreadsheet, which course fits an analyst or a developer, and a worked SQL investigation of Chiclayo's waste-collection data in which one month carries another month's dates.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SQL and Data Analysis Course in Peru: Live Online, in English">
+  <meta name="twitter:description" content="SQL and data analysis from Peru, live online in English, with a real SQL investigation of Chiclayo open data.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-sda .ag-hero h1 { letter-spacing: -0.013em; max-width: 19ch; }
+.ag-root.ag-sda .ag-capsule { border-left-width: 4px; border-radius: 3px; }
+.ag-root.ag-sda .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-sda .ag-table td.ag-num { font-variant-numeric: tabular-nums; }
+.ag-root.ag-sda .ag-code-note code { font-weight: 600; letter-spacing: 0.01em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/sql-and-data-analysis-course-peru#page","url":"https://learn.modernagecoders.com/sql-and-data-analysis-course-peru","name":"SQL and Data Analysis Course in Peru","description":"A guide for adults, university students and analysts in Peru who want to learn SQL and data analysis live online in English, with an original SQL analysis, run through Python's sqlite3, of the Municipalidad Provincial de Chiclayo's waste-collection register (ODC-By), plus INEI and EF EPI context.","inLanguage":"en-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding and AI classes in Peru","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"SQL and data analysis","item":"https://learn.modernagecoders.com/sql-and-data-analysis-course-peru"}]},{"@type":"Course","name":"SQL and Data Analysis Course in Peru","description":"Live online SQL and data analysis courses in English for learners in Peru: SQL from the first query to joins and window functions, spreadsheets, Python and dashboards, for adults from 18 and for teenagers from 13, in a group of fifteen to twenty or one to one, at flexible hours.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/sql-and-data-analysis-course-peru"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/sql-and-data-analysis-course-peru"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/sql-and-data-analysis-course-peru"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in Spanish?","acceptedAnswer":{"@type":"Answer","text":"No. Classes are live, online and in English only. Mentors in India use short sentences, explain each keyword plainly and adapt to your pace and accent; SQL itself is written in English words."}},{"@type":"Question","name":"Can I learn SQL from zero?","acceptedAnswer":{"@type":"Answer","text":"Yes. Both adult courses and the teen course start with a first SELECT. If you already use spreadsheets, you will recognise many ideas."}},{"@type":"Question","name":"SQL or Python first for data analysis?","acceptedAnswer":{"@type":"Answer","text":"SQL first for most analysts, because it is how data is fetched from company systems; Python follows for cleaning, charts and automation. Our analysis course teaches both in that order."}},{"@type":"Question","name":"Which database do you use?","acceptedAnswer":{"@type":"Answer","text":"MySQL in the database course, and SQLite in lessons like the one on this page because it comes with Python. The SQL you learn carries over to PostgreSQL, SQL Server and others with small differences."}},{"@type":"Question","name":"Is the practice data Peruvian?","acceptedAnswer":{"@type":"Answer","text":"Partly. Lessons mix international datasets with Peruvian registers such as Chiclayo's waste-collection table, which the Municipalidad Provincial de Chiclayo publishes openly with attribution required (ODC-By)."}},{"@type":"Question","name":"What time are classes?","acceptedAnswer":{"@type":"Answer","text":"Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. Our mentors are ten and a half hours ahead, so a 19:30 class in Peru starts at 06:00 the next morning in India."}},{"@type":"Question","name":"How many months until I am good at SQL?","acceptedAnswer":{"@type":"Answer","text":"Basic queries take a few weeks. Being trusted with real reporting, joins and data checks takes months; our analysis course runs 8 to 10 months and the MySQL course 7 to 8."}},{"@type":"Question","name":"Is there an SQL course for teenagers?","acceptedAnswer":{"@type":"Answer","text":"Yes, MySQL for teens, ages 13 to 18, over 5 to 6 months, taught in teen-only groups."}},{"@type":"Question","name":"How much does it cost?","acceptedAnswer":{"@type":"Answer","text":"The monthly fee is listed in the fees section in US dollars, which is how your card is charged; your bank converts to soles. From India the page shows rupees. The first class is free, with no card."}},{"@type":"Question","name":"Is there a certificate at the end?","acceptedAnswer":{"@type":"Answer","text":"Pass the final exam and we issue our own certificate of completion. No Peruvian university or state body is involved in it, so the queries and reports you can show matter more."}},{"@type":"Question","name":"Are you connected with the Municipalidad de Chiclayo?","acceptedAnswer":{"@type":"Answer","text":"No. The register is open data that anyone may use with credit, which we give; the findings here are our own analysis, and we have no link with the municipality."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/sql-and-data-analysis-course-peru","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-sda">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Peru</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Peru</a></li>
+      <li><a href="#why">Why SQL</a></li>
+      <li><a href="#chiclayo">Chiclayo data</a></li>
+      <li><a href="#query">SQL lesson</a></li>
+      <li><a href="#which">Which course</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a> / SQL and data analysis
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Peru &middot; SQL and data analysis &middot; Live online, in English</p>
+        <h1>SQL and data analysis course in Peru</h1>
+        <p class="ag-lede">SQL is the language in which most organisations ask questions of their data, and the one analysts are expected to know before Python. This page explains what a course should teach, which of ours suits an analyst or a developer, and works through a real investigation of Chiclayo's open waste-collection data, where a simple monthly total hides a month that never happened twice.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#query" class="ag-btn ag-btn--ghost">See the SQL lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Peru%20and%20would%20like%20to%20learn%20SQL%20and%20data%20analysis%2C%20live%20online%20in%20English.%20Could%20I%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'sda'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live classes since 2020 &middot; 10,000+ learners worldwide &middot; real tables from the first week</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>For</dt><dd>Analysts, students and adults from 18; teens from 13</dd>
+          <dt>You learn</dt><dd>SQL, spreadsheets, Python and dashboards</dd>
+          <dt>Data</dt><dd>Real open data, including Peruvian registers</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Peru time</dt><dd>Any day, the hour you choose</dd>
+          <dt>First class</dt><dd>Free, no card</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>At Modern Age Coders, SQL and data analysis for learners in Peru is taught live, online and in English. Adults and university students go from a first SELECT to joins, grouping, window functions and checks on data quality, then add spreadsheets, Python and dashboards; teenagers from 13 have their own SQL course. We practise on real open data, including Peruvian municipal registers, and teach people to question a total before reporting it. A mentor leads every class on video, in a class of fifteen to twenty or one to one, at the day and hour you choose.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three SQL and data analysis courses</h2>
+      <p class="ag-lede">One for analysts, one for people who build databases, and one for teenagers. Each starts from zero.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/data-analysis-mastery-course-college">
+        <div class="ag-pick-shot"><img src="/images/data-analysis-college.webp" alt="Data Analysis Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PE / SQL / 01</p>
+          <h3>Data analysis: Excel, SQL, Python and BI</h3>
+          <p>The analyst's route, over 8 to 10 months for anyone 18 or older starting from nothing: spreadsheets, SQL, Python and dashboards, always on real data.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/mysql-database-complete-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/database-college.webp" alt="MySQL Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PE / SQL / 02</p>
+          <h3>MySQL: SQL and database design</h3>
+          <p>For beginners from 18, 7 to 8 months. Queries, then design and administration: the course for people who will build and run databases.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/mysql-mastery-for-teens">
+        <div class="ag-pick-shot"><img src="/images/mysql-teens.webp" alt="MySQL for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PE / SQL / 03</p>
+          <h3>MySQL for teens</h3>
+          <p>Ages 13 to 18, 5 to 6 months, from a first query to the data behind real apps.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="why">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Why SQL</p><h2>Why learn SQL if you already use Excel?</h2><p class="ag-lede">Because a spreadsheet shows you the data and SQL asks it questions. Once a table is too large to scroll, shared by several people or stored in a company system, SQL is how you reach it.</p></div>
+    <div class="ag-grid-3"><div><h3>Questions you can repeat</h3><p>A query is a written question. Run it again next month on new data and you get the new answer, with no hand-copied formulas to drift out of step.</p></div><div><h3>Data where it lives</h3><p>Sales systems, school registers, hospital stock, municipal records: most are databases. SQL reads them directly instead of waiting for someone to export a file.</p></div><div><h3>Checks you can show</h3><p>A query that finds duplicates or contradictions is evidence another analyst can rerun. That is the heart of the lesson further down this page.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the course teaches</h3><p>SELECT, WHERE and ORDER BY; aggregates with GROUP BY and HAVING; joins between tables; subqueries and common table expressions; window functions for running totals and rankings; and the design of tables, keys and indexes.</p>
+<p>Alongside the syntax, a set of habits: count rows before and after every join, check that keys are unique, compare two columns that should agree, and never report a total that has not been checked another way.</p></div><div><h3>Where Python and dashboards come in</h3><p>Our analysis course pairs SQL with Python for cleaning and charts, and with a business intelligence tool for dashboards. The lesson below runs SQL from Python on purpose: it is how many analysts work, and it needs nothing but Python, which already includes SQLite.</p>
+<p>Developers take the MySQL course instead, which goes deeper into database design, transactions and administration.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="chiclayo">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Peruvian open data</p><h2>What does Chiclayo publish about its rubbish collection?</h2><p class="ag-lede">The Municipalidad Provincial de Chiclayo publishes the tonnes of solid waste collected in the district of Chiclayo, shift by shift and day by day, on Peru's Plataforma Nacional de Datos Abiertos. It is a small, honest-looking table, and an ideal first SQL dataset.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The Chiclayo waste-collection register in its publisher's own description</caption><thead><tr><th scope="col">Item</th><th scope="col">Description on datosabiertos.gob.pe</th></tr></thead><tbody><tr><td>Publisher</td><td>Municipalidad Provincial de Chiclayo, through its Sub-Gerencia de Residuos Sólidos</td></tr><tr><td>Content</td><td>Weight of solid waste collected, in tonnes, by collection shift and day</td></tr><tr><td>Period</td><td>2023 to April 2026</td></tr><tr><td>Person who recorded the weight</td><td>Anonymised</td></tr><tr><td>Update frequency</td><td>Monthly</td></tr><tr><td>Released and modified</td><td>Released 8 March 2026; last modified 9 May 2026</td></tr><tr><td>Licence</td><td>ODC-By, the Open Data Commons Attribution License</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Taken from the "Registro de recolección de residuos sólidos en el distrito de Chiclayo" page of the Municipalidad Provincial de Chiclayo on datosabiertos.gob.pe; page and file retrieved 9 November 2026. In the file we downloaded: 3,648 rows, three shifts, dates from 1 January 2023 to 30 April 2026; these counts are ours.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Chiclayo in figures</h3><p>Chiclayo city counted 552,508 people at the 2017 census, which made it one of the largest cities in Peru; INEI has not yet published city figures from the 2025 census. The department of Lambayeque, of which Chiclayo is the capital, counted 1,404,633 people in the 2025 census.</p>
+<p>The dataset covers only the district of Chiclayo, not the whole city or province, which is the kind of detail an analyst writes down before comparing it with anything else.</p></div><div><h3>First look, before any SQL</h3><p>The file is in Latin-1, not UTF-8, so opening it the default way fails on the first accented letter. One column header, "PROVINCIA ", ends with a space. The weekday column spells Wednesday both MIERCOLES and MIÉRCOLES, and some unit values carry a trailing space.</p>
+<p>None of that is unusual. It is simply what real registers look like, and every one of those details would break a careless query. Learners write them into a short data note before going further.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="query">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">An SQL lesson</p><h2>Why did Chiclayo seem to collect twice as much rubbish in October 2024?</h2><p class="ag-lede">It did not. But the first query any analyst would write says it did, and says nothing at all about November. Here is how SQL finds out why, in four short queries.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Load the file into SQLite (Python standard library only)</b><span>Python</span></figcaption><pre>import csv, sqlite3
+
+FILE = "residuos_chiclayo_abril2026.csv"
+
+db = sqlite3.connect(":memory:")
+db.execute("CREATE TABLE r (fecha TEXT, mes TEXT, dia TEXT, turno TEXT, peso REAL)")
+with open(FILE, encoding="latin-1") as f:
+    for row in csv.DictReader(f):
+        db.execute("INSERT INTO r VALUES (?, ?, ?, ?, ?)",
+                   (row["FECHA_REGISTRO"], row["MES"], row["DIA"].strip(),
+                    row["TURNO"], float(row["PESO"])))
+
+def show(sql):
+    for row in db.execute(sql):
+        print(*row, sep=" | ")
+    print()</pre><p class="ag-code-note">This keeps five columns: the date of the record, the month column, the weekday name, the shift and the weight in tonnes. <code>show()</code> prints each result row with <code>|</code> between the values.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The obvious first question</h3><p>A manager asks for tonnes collected per month at the end of 2024. The natural query takes the month from the date, groups by it and adds up the weight.</p>
+<p>Before reading the result, the mentor asks what each month should look like: about 90 or 93 shifts, three a day, and a total in the same range as its neighbours.</p></div><div><h3>What comes back</h3><p>September has 90 shifts and December 93, as expected. October has 183 shifts and almost double the tonnes. November is not there at all.</p>
+<p>Many reports would print this table. A good analyst sees two alarms: a month with twice the expected rows, and a month with none.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Query 1: monthly totals by the month in the date</b><span>Python</span></figcaption><pre>show("""
+SELECT substr(fecha, 1, 6) AS month, COUNT(*) AS shifts, ROUND(SUM(peso), 1) AS tonnes
+FROM r
+WHERE fecha BETWEEN '20240901' AND '20241231'
+GROUP BY month
+""")</pre><p class="ag-code-note">It prints <code>202409 | 90 | 6368.6</code>, <code>202410 | 183 | 13921.5</code> and <code>202412 | 93 | 6924.9</code>. November 2024 is missing.</p></figure>
+    <p class="ag-mt-40">Every day should have exactly three rows, one per shift, so the date is a key that ought to be unique per shift. <code>GROUP BY</code> with <code>HAVING</code> finds the days that break the rule. Then two columns that must agree are compared: the file's own month column against the month inside the date, and the weekday name against the weekday SQLite computes from the date.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Queries 2 to 5: find the clash, explain it, fix the total</b><span>Python</span></figcaption><pre>show("""
+SELECT fecha, COUNT(*) AS rows_that_day
+FROM r
+GROUP BY fecha
+HAVING COUNT(*) &lt;&gt; 3
+ORDER BY rows_that_day DESC
+LIMIT 3
+""")
+
+show("""
+SELECT mes, substr(fecha, 1, 6) AS month_in_date, COUNT(*)
+FROM r
+WHERE mes &lt;&gt; substr(fecha, 1, 6)
+GROUP BY mes, month_in_date
+""")
+
+show("""
+SELECT fecha, dia,
+       strftime('%w', substr(fecha,1,4) || '-' || substr(fecha,5,2) || '-' || substr(fecha,7,2)) AS weekday_of_date
+FROM r
+WHERE mes = '202411'
+LIMIT 1
+""")
+
+show("""
+SELECT mes, COUNT(*) AS shifts, ROUND(SUM(peso), 1) AS tonnes
+FROM r
+WHERE mes BETWEEN '202409' AND '202412'
+GROUP BY mes
+""")</pre><p class="ag-code-note">It prints <code>20250630 | 90</code>, <code>20241030 | 6</code> and <code>20241029 | 6</code>; then <code>202411 | 202410 | 90</code>; then <code>20241001 | VIERNES | 2</code>; and finally <code>202409 | 90 | 6368.6</code>, <code>202410 | 93 | 7342.9</code>, <code>202411 | 90 | 6578.6</code> and <code>202412 | 93 | 6924.9</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Chiclayo, end of 2024: tonnes by the month in the date against tonnes by the month column (our queries)</caption><thead><tr><th scope="col">Month</th><th scope="col">Shifts, grouped by date</th><th scope="col">Tonnes, grouped by date</th><th scope="col">Tonnes, grouped by month column</th></tr></thead><tbody><tr><td>September 2024</td><td class="ag-num">90</td><td class="ag-num">6,368.6</td><td class="ag-num">6,368.6</td></tr><tr><td>October 2024</td><td class="ag-num">183</td><td class="ag-num">13,921.5</td><td class="ag-num">7,342.9</td></tr><tr><td>November 2024</td><td class="ag-num">0</td><td class="ag-num">none</td><td class="ag-num">6,578.6</td></tr><tr><td>December 2024</td><td class="ag-num">93</td><td class="ag-num">6,924.9</td><td class="ag-num">6,924.9</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Credit: waste-collection register of the Municipalidad Provincial de Chiclayo, published on datosabiertos.gob.pe under ODC-By. We wrote and ran the queries, and computed the totals, on 9 November 2026 (Python 3, SQLite 3.50.4).</p>
+    <p class="ag-mt-40">The story is now clear. The 90 rows whose month column says November 2024 carry October dates, 1 to 30 October. The weekday settles which column to trust: the first of those rows is dated 1 October 2024 but its weekday says VIERNES, Friday, while SQLite's <code>strftime('%w')</code> returns 2, a Tuesday. 1 November 2024 was a Friday. So the month column and the weekday are right, and the date was typed with the wrong month. Grouped by the month column, every month has 90 or 93 shifts and a believable total.</p>
+    <p>The first clash query found a second, stranger problem: 90 rows all dated 30 June 2025. Their weekday names run Sunday, Monday, Tuesday and so on in order, and 1 June 2025 was a Sunday, so the rows almost certainly cover the whole of June with one date pasted down the column. That one is left for the learner, below. Neither problem was visible in the dataset page, and neither needed anything more advanced than <code>GROUP BY</code>, <code>HAVING</code> and a comparison of two columns.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Rebuild June 2025.</strong> Assuming the rows are in date order, three per day, write a query or a short Python step that gives each one its real date. How would you check that your fix is right?</li><li><strong>Count the gaps.</strong> Use a table of every calendar date from 1 January 2023 to 30 April 2026 and a LEFT JOIN to list the days with no rows. Which months are they in?</li><li><strong>Clean the weekday.</strong> Make MIERCOLES and MIÉRCOLES the same value, then compare the average tonnes per shift on each weekday.</li><li><strong>Write the note.</strong> In five sentences, tell the municipality what you found, with the query that proves each point.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="which">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Choosing a course</p><h2>Which SQL course should I take?</h2><p class="ag-lede">Pick by what you will do with SQL most days. The table is our own advice.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Which of our SQL-related courses fits which goal (our advice)</caption><thead><tr><th scope="col">If you mostly want to</th><th scope="col">Take</th><th scope="col">Length</th></tr></thead><tbody><tr><td>Analyse data and build reports</td><td>Data analysis: Excel, SQL, Python and BI</td><td>8 to 10 months</td></tr><tr><td>Design and run databases for applications</td><td>MySQL: SQL and database design</td><td>7 to 8 months</td></tr><tr><td>Start from spreadsheets, without programming</td><td>Data and AI analytics for non-programmers</td><td>4 months</td></tr><tr><td>Go on to statistics and machine learning</td><td>Data science course, after SQL</td><td>10 to 12 months</td></tr><tr><td>Learn SQL as a teenager</td><td>MySQL for teens, ages 13 to 18</td><td>5 to 6 months</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Course lengths are from our own syllabuses. Our advice, not a ranking; the mentor confirms the choice at the free class.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Analysts in Peruvian organisations</h3><p>Many of our adult learners already prepare monthly reports by hand in spreadsheets. The analysis course moves the same work into SQL and Python so it runs again next month in seconds, with checks like the ones above built in.</p>
+<p>Our Spanish page for <a class="ag-inline-link" href="/cursos-de-programacion-para-adultos-peru">adults learning to code in Peru</a> describes how classes fit around a job.</p></div><div><h3>Students and future data scientists</h3><p>University students in Peru meet SQL in database courses, often only as syntax. We add the analysis habits and the English vocabulary used in documentation and interviews.</p>
+<p>If statistics and models are the goal, SQL comes first and data science second. Our Spanish page, <a class="ag-inline-link" href="/curso-de-data-science-en-ingles-peru">data science en inglés</a>, explains that next step.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Language of the classes</p><h2>Are the classes in Spanish?</h2><p class="ag-lede">No. We teach only in English, live and online, with mentors based in India who adapt to each learner's level.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>SQL is already half English</h3><p>SELECT, FROM, WHERE, GROUP BY, HAVING, JOIN: the language itself is made of English words, and so are the error messages and the documentation of every database. Learners who know a little English find that SQL reinforces it.</p>
+<p>Mentors keep their sentences short, explain each new keyword in plain words and repeat when asked. You may answer however you can; the query on the screen is what matters.</p></div><div><h3>English across Peru</h3><p>Measured by EF's English Proficiency Index 2025, adults in Chiclayo average 474, which EF labels low; Lima averages 555, which it labels high.</p>
+<p>If your English is closer to the first figure, the free class will tell you honestly whether to start now or to take a gentler course first. Many learners find that working with SQL in English is the practice that moves them up.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>At what time are classes, from Peru?</h2><p class="ag-lede">At the time you choose. Peru keeps one time zone across the country and does not change its clocks.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Peru time and India time, examples only (no fixed slots)</caption><thead><tr><th scope="col">Peru time</th><th scope="col">India time</th><th scope="col">Good for</th></tr></thead><tbody><tr><td>06:45</td><td>17:15</td><td>Before the office</td></tr><tr><td>12:00</td><td>22:30</td><td>A lunch break</td></tr><tr><td>19:30</td><td>06:00, next day</td><td>After work</td></tr><tr><td>20:30</td><td>07:00, next day</td><td>Late learners</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">The whole of Peru uses zone America/Lima, five hours behind UTC and without daylight saving since 1994; India uses UTC plus 5:30. That leaves a constant gap of ten and a half hours.</p>
+    <p class="ag-mt-40">Chiclayo, Lima, Arequipa and Iquitos all share Peru time, so the slot you book works anywhere in the country. You choose in your own clock and the mentor sees the India time.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>How do you know your SQL is good enough?</h2>
+      <p class="ag-lede">Our milestones, each checked with a query you write and explain.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Six SQL milestones we use to place and track learners</caption><thead><tr><th scope="col">Step</th><th scope="col">What you can do</th><th scope="col">How it is shown</th></tr></thead><tbody><tr><td>1. Select</td><td class="ag-num">Filter, sort and limit rows from one table</td><td class="ag-num">A query written from a spoken question</td></tr><tr><td>2. Aggregate</td><td class="ag-num">Group, count and sum, and filter groups with HAVING</td><td class="ag-num">The duplicate-day query from the lesson</td></tr><tr><td>3. Join</td><td class="ag-num">Combine tables without losing or doubling rows</td><td class="ag-num">Row counts before and after every join</td></tr><tr><td>4. Check</td><td class="ag-num">Prove a key is unique and two columns agree</td><td class="ag-num">A short data-quality report</td></tr><tr><td>5. Analyse</td><td class="ag-num">Use window functions and subqueries for real questions</td><td class="ag-num">Running totals and rankings, explained</td></tr><tr><td>6. Report</td><td class="ag-num">Turn queries into a dashboard or report others trust</td><td class="ag-num">A report with sources, licence and checks</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For learners</h3><p>Milestone 4 is the lesson on this page. It is the one that makes colleagues trust your numbers.</p>
+<p>If a month has twice as many rows as its neighbours, the data is telling you something before the total is.</p></div><div><h3>For employers</h3><p>Each milestone leaves a query file and a short write-up the learner can show.</p>
+<p>Our certificate of completion is our own and is not a Peruvian university qualification.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses around data</h2>
+      <p class="ag-lede">For analysts adding skills, for developers, and for teenagers. All live, all in English.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Analysts</h3>
+        <span class="ag-band-sub">18 and over</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PE / AN / 01</p>
+          <h4>Analytics without programming</h4>
+          <p>Four months of spreadsheets and Power BI dashboards.</p>
+          <a class="ag-course-link" href="/courses/data-and-ai-analytics-for-non-programmers-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PE / AN / 02</p>
+          <h4>Statistics and probability</h4>
+          <p>The maths behind every report, without code.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PE / AN / 03</p>
+          <h4>Data science</h4>
+          <p>Python, machine learning and deep learning after SQL.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Developers</h3>
+        <span class="ag-band-sub">18 and over</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PE / DEV / 01</p>
+          <h4>Python masterclass</h4>
+          <p>Python from zero, the partner of SQL in analysis.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PE / DEV / 02</p>
+          <h4>Full stack development</h4>
+          <p>Applications that read and write a database.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PE / DEV / 03</p>
+          <h4>Automation with Python</h4>
+          <p>Make the monthly report build itself, query to file.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Teenagers</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PE / TEEN / 01</p>
+          <h4>Python for teens</h4>
+          <p>Programming from zero for secundaria students.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PE / TEEN / 02</p>
+          <h4>Teen data science</h4>
+          <p>For 14 to 18 year olds who know some Python.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PE / TEEN / 03</p>
+          <h4>Backend for teens</h4>
+          <p>Node, APIs and databases, from zero.</p>
+          <a class="ag-course-link" href="/courses/backend-coding-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How it works</p>
+      <h2>How live SQL classes run</h2>
+      <p class="ag-lede">Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Daytime</p><p class="ag-slot-l">Peru mornings and lunchtimes fall in the Indian evening, an easy fit.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">After work</p><p class="ag-slot-l">A Peru evening is an Indian early morning, and mentors teach then too.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Your data, your questions, your hour.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Write the query</h3><p>You type it; the mentor asks what it will return first.</p></div>
+      <div><h3>Real tables</h3><p>Open registers with real flaws, not perfect samples.</p></div>
+      <div><h3>One mentor</h3><p>Who knows your work and your weak spots.</p></div>
+      <div><h3>Clear English</h3><p>Short sentences, keywords explained, no rush.</p></div>
+      <div><h3>Check, then report</h3><p>Every total is checked a second way.</p></div>
+      <div><h3>Class size</h3><p>A group of fifteen to twenty, or a private class.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our learners have built with data</h2>
+      <p class="ag-lede">A sample is below; the <a class="ag-inline-link" href="/student-labs">student labs</a> show more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for the SQL and data analysis course</h2>
+      <p class="ag-lede">One month at a time. We charge in US dollars, card only; soles appear only once your bank has converted the charge at its own rate, so allow for a small difference on the statement.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A first query on a real table</li><li>No card asked</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty learners at a similar level</li><li>One mentor the whole way</li><li>Two live classes a week</li><li>Monthly, cancel any time</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>You and one mentor</li><li>Your own data and questions</li><li>Days and times you choose</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Learners and parents on Google, quoted exactly.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Peru</p>
+      <h2>SQL and data analysis in Peru: questions and answers</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in Spanish?</h3>
+        <p>No. Classes are live, online and in English only. Mentors in India use short sentences, explain each keyword plainly and adapt to your pace and accent; SQL itself is written in English words.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I learn SQL from zero?</h3>
+        <p>Yes. Both adult courses and the teen course start with a first SELECT. If you already use spreadsheets, you will recognise many ideas.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>SQL or Python first for data analysis?</h3>
+        <p>SQL first for most analysts, because it is how data is fetched from company systems; Python follows for cleaning, charts and automation. Our analysis course teaches both in that order.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which database do you use?</h3>
+        <p>MySQL in the database course, and SQLite in lessons like the one on this page because it comes with Python. The SQL you learn carries over to PostgreSQL, SQL Server and others with small differences.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the practice data Peruvian?</h3>
+        <p>Partly. Lessons mix international datasets with Peruvian registers such as Chiclayo's waste-collection table, which the Municipalidad Provincial de Chiclayo publishes openly with attribution required (ODC-By).</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time are classes?</h3>
+        <p>Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. Our mentors are ten and a half hours ahead, so a 19:30 class in Peru starts at 06:00 the next morning in India.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many months until I am good at SQL?</h3>
+        <p>Basic queries take a few weeks. Being trusted with real reporting, joins and data checks takes months; our analysis course runs 8 to 10 months and the MySQL course 7 to 8.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is there an SQL course for teenagers?</h3>
+        <p>Yes, MySQL for teens, ages 13 to 18, over 5 to 6 months, taught in teen-only groups.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much does it cost?</h3>
+        <p>The monthly fee is listed in the fees section in US dollars, which is how your card is charged; your bank converts to soles. From India the page shows rupees. The first class is free, with no card.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is there a certificate at the end?</h3>
+        <p>Pass the final exam and we issue our own certificate of completion. No Peruvian university or state body is involved in it, so the queries and reports you can show matter more.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you connected with the Municipalidad de Chiclayo?</h3>
+        <p>No. The register is open data that anyone may use with credit, which we give; the findings here are our own analysis, and we have no link with the municipality.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Read next</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Further reading on data, for Peru.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/curso-de-data-science-en-ingles-peru">Data science en inglés</a></h3><p>The next step after SQL, explained in Spanish.</p></div>
+      <div><h3><a class="ag-inline-link" href="/cursos-de-programacion-para-adultos-peru">Programación para adultos</a></h3><p>Learning to code beside a job in Peru.</p></div>
+      <div><h3><a class="ag-inline-link" href="/cursos-de-programacion-para-universitarios-peru">Programación para universitarios</a></h3><p>Courses alongside a Peruvian degree.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>Every Peru page in one index.</p></div>
+      <div><h3><a class="ag-inline-link" href="/data-analytics-course">Data analytics course</a></h3><p>Our analytics course, described in full.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>One live class, from start to end.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free SQL class</h2>
+        <p class="ag-lede">In the free class you write a first query on a real table with the mentor and talk about the data you work with. The mentor sees how you think about tables and how the English feels, then suggests a course.</p>
+        <p class="ag-mt-40">Reading first is fine: see <a class="ag-inline-link" href="/how-we-teach">what happens in a class</a>, or open <a class="ag-inline-link" href="/courses">any course syllabus</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Peru%20and%20would%20like%20to%20learn%20SQL%20and%20data%20analysis%2C%20live%20online%20in%20English.%20Could%20I%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'sda',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are live and online, in English only, with mentors in India. For a quick answer, message us on WhatsApp in English.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_sda(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Your name</label>
+            <input id="pe-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Phone or WhatsApp, Peru +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Learner age group</label>
+            <select id="pe-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, with nothing to cancel.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Peru</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Peru hub</a></li><li><a href="/curso-de-data-science-en-ingles-peru">Data science, in Spanish</a></li><li><a href="/cursos-de-programacion-para-adultos-peru">Adults</a></li><li><a href="/cursos-de-programacion-para-universitarios-peru">University students</a></li></ul></div>
+      <div><h4>Learn more</h4><ul><li><a href="/data-analytics-course">Data analytics course</a></li><li><a href="/student-labs">Student projects</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/courses">All courses</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Check the key before the total</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_sda = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'sql-and-data-analysis-course-peru-inline', meta: { name: name, age: age, page: 'sql-and-data-analysis-course-peru' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

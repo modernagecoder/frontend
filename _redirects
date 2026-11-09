@@ -10340,4 +10340,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /data-science-course-peru /src/pages/data-science-course-peru.html 200
 /data-science-course-peru.md /src/pages/data-science-course-peru.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/sql-and-data-analysis-course-peru /src/pages/sql-and-data-analysis-course-peru.html 200
+/sql-and-data-analysis-course-peru.md /src/pages/sql-and-data-analysis-course-peru.md 200
 /* /src/pages/404.html 404

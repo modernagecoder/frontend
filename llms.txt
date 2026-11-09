@@ -1079,6 +1079,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Software development course, Peru: https://learn.modernagecoders.com/software-development-course-peru
 - Web development course, Peru: https://learn.modernagecoders.com/web-development-course-peru
 - Data science course, Peru: https://learn.modernagecoders.com/data-science-course-peru
+- SQL and data analysis course, Peru: https://learn.modernagecoders.com/sql-and-data-analysis-course-peru
 ## Germany (live online classes in English, mentors matched to the learner's pace and accent)
 
 Hub: https://learn.modernagecoders.com/coding-classes-in-germany. Every class is live and taught in English only; German-language pages explain the same English-taught classes. Fees show in euro on the page and checkout charges USD.

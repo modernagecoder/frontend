@@ -1046,6 +1046,7 @@ const SLUGS = [
   'software-development-course-peru',
   'web-development-course-peru',
   'data-science-course-peru',
+  'sql-and-data-analysis-course-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2171,6 +2172,7 @@ const LLMS_LABELS = {
   'software-development-course-peru': 'Software development course, Peru',
   'web-development-course-peru': 'Web development course, Peru',
   'data-science-course-peru': 'Data science course, Peru',
+  'sql-and-data-analysis-course-peru': 'SQL and data analysis course, Peru',
 };
 
 function wireLlms(slugs) {
