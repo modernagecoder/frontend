@@ -1000,6 +1000,7 @@ const SLUGS = [
   'cuanto-cuestan-clases-de-programacion-para-ninos-peru',
   'precio-profesor-particular-matematicas-peru',
   'python-course-peru',
+  'python-for-kids-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2079,6 +2080,7 @@ const LLMS_LABELS = {
   'cuanto-cuestan-clases-de-programacion-para-ninos-peru': 'Cuánto cuestan las clases de programación para niños',
   'precio-profesor-particular-matematicas-peru': 'Precio de un profesor particular de matemáticas',
   'python-course-peru': 'Python course for Peru',
+  'python-for-kids-peru': 'Python for kids in Peru',
 };
 
 function wireLlms(slugs) {
