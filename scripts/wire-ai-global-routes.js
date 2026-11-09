@@ -1028,6 +1028,7 @@ const SLUGS = [
   'ai-course-for-kids-peru',
   'maths-tutor-in-english-peru',
   'programacion-roblox-para-ninos-en-ingles',
+  'programacion-minecraft-para-ninos-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2135,6 +2136,7 @@ const LLMS_LABELS = {
   'ai-course-for-kids-peru': 'AI course for kids in Peru',
   'maths-tutor-in-english-peru': 'Maths tutor in English, Peru',
   'programacion-roblox-para-ninos-en-ingles': 'Programación en Roblox para niños',
+  'programacion-minecraft-para-ninos-peru': 'Programación en Minecraft para niños',
 };
 
 function wireLlms(slugs) {
