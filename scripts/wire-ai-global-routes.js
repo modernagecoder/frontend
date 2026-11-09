@@ -974,6 +974,7 @@ const SLUGS = [
   'cursos-de-programacion-para-universitarios-peru',
   'cursos-de-programacion-para-adultos-peru',
   'cursos-de-tecnologia-para-adultos-mayores-peru',
+  'profesor-de-matematicas-en-ingles-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2027,6 +2028,7 @@ const LLMS_LABELS = {
   'cursos-de-programacion-para-universitarios-peru': 'Cursos de programación para universitarios en Perú',
   'cursos-de-programacion-para-adultos-peru': 'Cursos de programación para adultos en Perú',
   'cursos-de-tecnologia-para-adultos-mayores-peru': 'Cursos de tecnología para adultos mayores en Perú',
+  'profesor-de-matematicas-en-ingles-peru': 'Profesor de matemáticas en inglés',
 };
 
 function wireLlms(slugs) {
