@@ -1013,6 +1013,7 @@ const SLUGS = [
   'clases-de-programacion-en-ingles-peru',
   'olimpiada-de-matematica-onem-preparacion',
   'canguro-matematico-preparacion-peru',
+  'razonamiento-matematico-clases-online-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2105,6 +2106,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-en-ingles-peru': 'Clases de programación en inglés en Perú',
   'olimpiada-de-matematica-onem-preparacion': 'Preparación para la Olimpiada Nacional Escolar de Matemática (ONEM)',
   'canguro-matematico-preparacion-peru': 'Preparación para el Canguro Matemático en Perú',
+  'razonamiento-matematico-clases-online-peru': 'Clases online de razonamiento matemático',
 };
 
 function wireLlms(slugs) {
