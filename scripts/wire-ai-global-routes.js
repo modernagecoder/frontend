@@ -994,6 +994,7 @@ const SLUGS = [
   'ia-para-docentes-curso-en-ingles',
   'curso-de-ia-para-empresas-peru',
   'clases-particulares-de-programacion-online-peru',
+  'mejores-clases-de-programacion-para-ninos-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2067,6 +2068,7 @@ const LLMS_LABELS = {
   'ia-para-docentes-curso-en-ingles': 'IA para docentes, curso en inglés',
   'curso-de-ia-para-empresas-peru': 'Curso de IA para empresas',
   'clases-particulares-de-programacion-online-peru': 'Clases particulares de programación online',
+  'mejores-clases-de-programacion-para-ninos-peru': 'Cómo elegir clases de programación para niños',
 };
 
 function wireLlms(slugs) {
