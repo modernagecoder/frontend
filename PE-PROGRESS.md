@@ -56,7 +56,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE093 | python-para-estudiantes-de-ingenieria-peru (pei, #0B764D) | market | 4,644 | 2% vs cursos-de-programacion-para-universitarios-peru | Python para estudiantes de ingeniería en Perú: Programación I y métodos numéricos | numerical integration: trapezoid rule, the error falls about four times when n doubles | 71d87140 |
 | PE094 | curso-de-java-en-ingles-peru (jai, #0D4833) | market | 4,753 | 2.3% vs curso-de-python-en-ingles-peru | Curso de Java desde cero en inglés para Perú: versiones LTS, Spring Boot, Python o Java | integer division truncates in Java, cast to double, and javac rejects a type mismatch | ebdaf136 |
 | PE095 | curso-de-java-para-universitarios-peru (jau, #006949) | market | 4,530 | 1.9% vs python-para-estudiantes-de-ingenieria-peru | Java para universitarios en Perú: la malla, algoritmos, entrevistas y Spring Boot | reference identity vs value equality: == against equals(), HashSet, records | 30957edd |
-| PE101 | vibe-coding-curso-en-ingles (vci, #00493C) | market (es subject door) | 5,479 | 2.1% vs curso-de-python-en-ingles-peru | vibe coding en inglés: programar con IA sin copiar, por edades y reglas | tests first: assert expected outputs before trusting AI-generated code | (this commit) |
+| PE101 | vibe-coding-curso-en-ingles (vci, #00493C) | market (es subject door) | 5,479 | 2.1% vs curso-de-python-en-ingles-peru | vibe coding en inglés: programar con IA sin copiar, por edades y reglas | tests first: assert expected outputs before trusting AI-generated code | 4f27446c |
+| PE102 | crear-apps-curso-para-adolescentes-peru (cra, #007047) | market (es subject door) | 5,029 | 2.4% vs curso-de-python-para-ninos-peru | crear apps para adolescentes: del celular que usan a la app que construyen | input validation: collect every error in a list instead of stopping at the first | (this commit) |
 
 ## Notes
 

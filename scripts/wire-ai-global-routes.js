@@ -985,6 +985,7 @@ const SLUGS = [
   'curso-de-java-en-ingles-peru',
   'curso-de-java-para-universitarios-peru',
   'vibe-coding-curso-en-ingles',
+  'crear-apps-curso-para-adolescentes-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2049,6 +2050,7 @@ const LLMS_LABELS = {
   'curso-de-java-en-ingles-peru': 'Curso de Java en inglés',
   'curso-de-java-para-universitarios-peru': 'Curso de Java para universitarios',
   'vibe-coding-curso-en-ingles': 'Vibe coding: curso en inglés',
+  'crear-apps-curso-para-adolescentes-peru': 'Crear apps: curso para adolescentes',
 };
 
 function wireLlms(slugs) {
