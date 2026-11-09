@@ -32427,6 +32427,18 @@
   to = "/src/pages/vacaciones-utiles-2027-inteligencia-artificial.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vacaciones-utiles-virtuales-en-ingles"
+  to = "/src/pages/vacaciones-utiles-virtuales-en-ingles.html"
+  status = 200
+
+[[redirects]]
+  from = "/vacaciones-utiles-virtuales-en-ingles.md"
+  to = "/src/pages/vacaciones-utiles-virtuales-en-ingles.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

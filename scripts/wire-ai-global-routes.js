@@ -941,6 +941,7 @@ const SLUGS = [
   'coding-classes-in-arequipa-peru',
   'vacaciones-utiles-2027-programacion-online',
   'vacaciones-utiles-2027-inteligencia-artificial',
+  'vacaciones-utiles-virtuales-en-ingles',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1961,6 +1962,7 @@ const LLMS_LABELS = {
   'coding-classes-in-arequipa-peru': 'Coding classes in Arequipa, Peru',
   'vacaciones-utiles-2027-programacion-online': 'Vacaciones útiles 2027: programación online',
   'vacaciones-utiles-2027-inteligencia-artificial': 'Vacaciones útiles 2027: inteligencia artificial',
+  'vacaciones-utiles-virtuales-en-ingles': 'Vacaciones útiles virtuales en inglés',
 };
 
 function wireLlms(slugs) {
