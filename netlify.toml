@@ -33411,6 +33411,18 @@
   to = "/src/pages/alternativa-a-crack-the-code-en-ingles.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/kodland-opiniones-alternativa"
+  to = "/src/pages/kodland-opiniones-alternativa.html"
+  status = 200
+
+[[redirects]]
+  from = "/kodland-opiniones-alternativa.md"
+  to = "/src/pages/kodland-opiniones-alternativa.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
