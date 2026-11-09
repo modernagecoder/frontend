@@ -1019,6 +1019,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Curso de Java para universitarios: https://learn.modernagecoders.com/curso-de-java-para-universitarios-peru
 - Vibe coding: curso en inglés: https://learn.modernagecoders.com/vibe-coding-curso-en-ingles
 - Crear apps: curso para adolescentes: https://learn.modernagecoders.com/crear-apps-curso-para-adolescentes-peru
+- Curso de desarrollo de aplicaciones en inglés: https://learn.modernagecoders.com/curso-de-desarrollo-de-aplicaciones-en-ingles
 ## Germany (live online classes in English, mentors matched to the learner's pace and accent)
 
 Hub: https://learn.modernagecoders.com/coding-classes-in-germany. Every class is live and taught in English only; German-language pages explain the same English-taught classes. Fees show in euro on the page and checkout charges USD.

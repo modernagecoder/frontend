@@ -10100,4 +10100,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /crear-apps-curso-para-adolescentes-peru /src/pages/crear-apps-curso-para-adolescentes-peru.html 200
 /crear-apps-curso-para-adolescentes-peru.md /src/pages/crear-apps-curso-para-adolescentes-peru.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/curso-de-desarrollo-de-aplicaciones-en-ingles /src/pages/curso-de-desarrollo-de-aplicaciones-en-ingles.html 200
+/curso-de-desarrollo-de-aplicaciones-en-ingles.md /src/pages/curso-de-desarrollo-de-aplicaciones-en-ingles.md 200
 /* /src/pages/404.html 404

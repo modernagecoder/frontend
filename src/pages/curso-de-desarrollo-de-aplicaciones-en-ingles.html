@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Curso de desarrollo de aplicaciones móviles en inglés</title>
+  <meta name="description" content="Curso de desarrollo de aplicaciones móviles en vivo y en inglés para universitarios y adultos en Perú: Flutter, React Native, Kotlin y Swift, a cualquier hora.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/curso-de-desarrollo-de-aplicaciones-en-ingles">
+  <link rel="alternate" type="text/markdown" href="/src/pages/curso-de-desarrollo-de-aplicaciones-en-ingles.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#00633F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/curso-de-desarrollo-de-aplicaciones-en-ingles">
+  <meta property="og:title" content="Curso de desarrollo de aplicaciones móviles en inglés">
+  <meta property="og:description" content="Apps para un país que entra a internet por el celular: nativo o multiplataforma, qué dicen el INEI y el Banco Mundial, una lección sobre señal débil y una ruta de seis meses.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="es_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Curso de desarrollo de aplicaciones móviles en inglés">
+  <meta name="twitter:description" content="Desarrollo de aplicaciones móviles en clases en vivo y en inglés desde Perú, para universitarios y profesionales.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-dai .ag-hero h1 { letter-spacing: -0.012em; max-width: 22ch; }
+.ag-root.ag-dai .ag-capsule { border-left-width: 5px; border-radius: 0; }
+.ag-root.ag-dai .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-dai .ag-table td:first-child { font-weight: 600; }
+.ag-root.ag-dai .ag-code-note code { font-weight: 600; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/curso-de-desarrollo-de-aplicaciones-en-ingles#page","url":"https://learn.modernagecoders.com/curso-de-desarrollo-de-aplicaciones-en-ingles","name":"Curso de desarrollo de aplicaciones en inglés","description":"Guía para universitarios y adultos en Perú que quieren aprender desarrollo de aplicaciones móviles en clases en vivo y en inglés: el acceso a celular, computadora e internet por área según el INEI 2026, nativo o multiplataforma, las señales del mercado que pudimos verificar, por qué estudiarlo en inglés, una lección de ejemplo sobre reintentos con señal débil y una ruta de seis meses propuesta por nosotros.","inLanguage":"es-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Cursos","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Perú","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Desarrollo de aplicaciones en inglés","item":"https://learn.modernagecoders.com/curso-de-desarrollo-de-aplicaciones-en-ingles"}]},{"@type":"Course","name":"Curso de desarrollo de aplicaciones en inglés","description":"Curso en vivo y en línea de desarrollo de aplicaciones móviles para personas de 18 años a más en todo el Perú, dictado solo en inglés: Flutter y Dart, React Native, Kotlin para Android y Swift para iPhone, con datos, pagos de prueba, trabajo sin conexión y publicación, en clase grupal o individual y a cualquier hora.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/curso-de-desarrollo-de-aplicaciones-en-ingles"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/curso-de-desarrollo-de-aplicaciones-en-ingles"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/curso-de-desarrollo-de-aplicaciones-en-ingles"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Las clases son en español?","acceptedAnswer":{"@type":"Answer","text":"No. Cada sesión se dicta en inglés, en vivo y por videollamada. Para quien quiere trabajar en tecnología eso suma: aprende a desarrollar apps y, al mismo tiempo, a hablar de código en el idioma de la documentación y de muchos equipos. Lima figura en el nivel alto del EF EPI 2025, y una clase conversada es práctica oral diaria."}},{"@type":"Question","name":"¿Con cuál conviene empezar, Flutter o React Native?","acceptedAnswer":{"@type":"Answer","text":"Los dos permiten publicar en Android y en iPhone con un solo código. Flutter conviene si parte de cero; React Native, si ya conoce JavaScript o React. En la clase gratis el mentor le recomienda uno según lo que quiera construir."}},{"@type":"Question","name":"¿Necesito una Mac para desarrollar apps?","acceptedAnswer":{"@type":"Answer","text":"Para Android y para aprender Flutter o React Native, no. Para programar en Swift y publicar en la App Store, sí se necesita una Mac."}},{"@type":"Question","name":"¿Cuánto tiempo toma el curso?","acceptedAnswer":{"@type":"Answer","text":"Nuestra ruta de ejemplo es de unos seis meses con dos clases por semana para llegar a una primera app publicable desde cero. Es una estimación: quien ya programa avanza más rápido."}},{"@type":"Question","name":"¿Puedo usar inteligencia artificial en el curso?","acceptedAnswer":{"@type":"Answer","text":"Sí. Como es para personas de 18 años a más, se usan asistentes como Claude, GitHub Copilot o ChatGPT, siempre con pruebas escritas por el estudiante y revisión de cada cambio."}},{"@type":"Question","name":"¿Por qué la app debe funcionar sin señal?","acceptedAnswer":{"@type":"Answer","text":"Porque muchos usuarios peruanos se conectan solo con datos móviles. El INEI registró en 2026 que el 27,1 % de los hogares rurales tiene internet en casa, aunque el 89,2 % tiene celular. Una app que pierde lo escrito cuando se corta la señal pierde usuarios."}},{"@type":"Question","name":"¿Garantizan trabajo al terminar?","acceptedAnswer":{"@type":"Answer","text":"No. No ofrecemos bolsa de trabajo ni prometemos sueldos. El curso deja un portafolio de apps propias en GitHub y práctica en explicar decisiones técnicas en inglés."}},{"@type":"Question","name":"¿Cuál es el horario de las clases?","acceptedAnswer":{"@type":"Answer","text":"Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Si reserva a las 7:00 p. m. de Perú, para el mentor serán las 5:30 a. m. del día siguiente, porque la India va 10 horas y 30 minutos por delante en cualquier mes."}},{"@type":"Question","name":"¿Cómo se paga?","acceptedAnswer":{"@type":"Answer","text":"Con tarjeta, en dólares estadounidenses, y su banco hace la conversión. La sesión de prueba no tiene costo ni pide tarjeta."}},{"@type":"Question","name":"¿El curso cuenta como créditos universitarios?","acceptedAnswer":{"@type":"Answer","text":"No. No estamos vinculados a la SUNEDU ni a ninguna universidad peruana, y no otorgamos créditos ni grados. Lo único que entregamos al final es una constancia de finalización con el nombre de Modern Age Coders."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/curso-de-desarrollo-de-aplicaciones-en-ingles","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-dai">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Perú</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Perú</a></li>
+      <li><a href="#pais-movil">Un país móvil</a></li>
+      <li><a href="#tecnologias">Tecnologías</a></li>
+      <li><a href="#senal">Lección</a></li>
+      <li><a href="#mercado">Mercado</a></li>
+      <li><a href="#ruta">Ruta</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Clase gratis</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a> / <a href="/courses">Cursos</a> / <a href="/coding-and-ai-classes-in-peru">Perú</a> / Desarrollo de aplicaciones en inglés
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Perú &middot; Desarrollo de aplicaciones &middot; Desde los 18 años</p>
+        <h1>Curso de desarrollo de aplicaciones móviles, en inglés</h1>
+        <p class="ag-lede">En Perú, la aplicación es muchas veces la única forma en que un cliente conoce a una empresa: el banco, la tienda, el delivery, la municipalidad. Este curso forma a quien quiere construir esas aplicaciones con oficio, en clases en vivo con un mentor y en el idioma en que se escribe la documentación de todas las herramientas.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Reservar la primera clase gratis</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Reservar una demo prioritaria</a>
+          <a href="#senal" class="ag-btn ag-btn--ghost">Ver la lección de ejemplo</a>
+          <a href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20quiero%20llevar%20el%20curso%20de%20desarrollo%20de%20aplicaciones%20m%C3%B3viles%20en%20ingl%C3%A9s%20desde%20Per%C3%BA.%20%C2%BFPuedo%20reservar%20una%20clase%20gratis%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'dai'});">Consultar por WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Clases en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; Flutter, React Native, Kotlin y Swift, en inglés</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">En resumen</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 de 5 en 547 reseñas de Google
+        </p>
+        <dl>
+          <dt>Idioma de las clases</dt><dd>Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante</dd>
+          <dt>Para quién</dt><dd>Universitarios, egresados y profesionales de 18 años a más</dd>
+          <dt>Tecnologías</dt><dd>Flutter y Dart, React Native, Kotlin, Swift</dd>
+          <dt>Formato</dt><dd>Clase grupal de quince a veinte personas, o clases individuales</dd>
+          <dt>Horario</dt><dd>Cualquier día y a cualquier hora, con flexibilidad</dd>
+          <dt>Mentores</dt><dd>Desde la India, por videollamada</dd>
+          <dt>Sesión inicial</dt><dd>Sin costo, sin tarjeta</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">En pocas palabras</p>
+      <p>Modern Age Coders ofrece un curso de desarrollo de aplicaciones móviles para universitarios y adultos de cualquier región del Perú: sesiones en vivo por internet, dictadas en inglés por mentores que viven en la India. Se aprende a construir apps para Android y iPhone con Flutter o React Native, y nativas con Kotlin o Swift, incluidos datos, trabajo sin conexión y publicación en las tiendas. Se cursa en grupo o con un mentor a solas, en el horario que usted fije, y la primera sesión es gratuita.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cursos recomendados</p>
+      <h2>Tres caminos para desarrollar aplicaciones</h2>
+      <p class="ag-lede">Uno para cubrir Android y iPhone con un mismo código, uno centrado en Flutter y uno para quien apunta a Android nativo.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/complete-app-development-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/app-dev-college.webp" alt="Imagen del curso de desarrollo de aplicaciones para universitarios" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">DAI / 01</p>
+          <h3>Desarrollo de aplicaciones completo</h3>
+          <p>Desde los 18 años. Flutter, iOS y Android en una ruta: interfaz, datos, autenticación y publicación.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-flutter-app-development-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/flutter-college.webp" alt="Imagen del curso de Flutter" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">DAI / 02</p>
+          <h3>Flutter de Dart a producción</h3>
+          <p>Un solo código para dos tiendas. Widgets, estado, consumo de APIs y pruebas automáticas.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-kotlin-programming-masterclass-professional">
+        <div class="ag-pick-shot"><img src="/images/kotlin-college.webp" alt="Imagen del curso de Kotlin" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">DAI / 03</p>
+          <h3>Kotlin para profesionales</h3>
+          <p>El lenguaje oficial de Android, con corrutinas y buenas prácticas para equipos.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="pais-movil">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Un país que vive en el celular</p><h2>¿Por qué desarrollar aplicaciones móviles en Perú?</h2><p class="ag-lede">Porque el teléfono llega a casi todos los hogares y la computadora a poco más de un tercio. Quien desarrolla apps trabaja sobre el único dispositivo que comparten la capital, las ciudades del interior y el campo.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Hogares con telefonía móvil, internet y computadora en Perú por área de residencia, II trimestre de 2026 (porcentaje)</caption><thead><tr><th scope="col">Área</th><th scope="col">Telefonía móvil</th><th scope="col">Internet</th><th scope="col">Computadora</th></tr></thead><tbody><tr><td>Total del país</td><td class="ag-num">95,9</td><td class="ag-num">64,5</td><td class="ag-num">36,4</td></tr><tr><td>Lima Metropolitana (con Callao)</td><td class="ag-num">98,1</td><td class="ag-num">84,7</td><td class="ag-num">53,3</td></tr><tr><td>Resto urbano</td><td class="ag-num">97,1</td><td class="ag-num">66,2</td><td class="ag-num">41,3</td></tr><tr><td>Área rural</td><td class="ag-num">89,2</td><td class="ag-num">27,1</td><td class="ag-num">8,9</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Tomado del Cuadro N° 1.5 y del Gráfico N° 1.6 del boletín técnico de TIC del INEI publicado en setiembre de 2026 (ENAHO, segundo trimestre; cifras preliminares). Lima Metropolitana incluye la Provincia Constitucional del Callao; el resto urbano no incluye Lima Metropolitana.</p>
+    <p class="ag-mt-40">Leída por filas, la tabla del INEI cuenta la historia del desarrollador móvil peruano. En el área rural, 89,2 % de los hogares tiene celular pero apenas 8,9 % tiene computadora y 27,1 % tiene internet en casa. Para esas familias, una app no compite con una página web abierta en una laptop: es la única puerta. Y la conexión que usa esa app es la del plan de datos, que se corta al entrar a un mercado techado o al subir a la combi.</p>
+    <p>El mismo boletín añade dos datos útiles para diseñar. Primero, el 90,3 % de los hogares del país solo tiene teléfono celular, sin línea fija. Segundo, entre quienes usan internet, se conectan por el celular el 91,6 % en Lima Metropolitana, el 89,5 % en el resto urbano y el 89,0 % en el área rural. Es decir, las diferencias entre regiones están en el acceso, no en el dispositivo: casi todo el que entra, entra por el teléfono.</p>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Pantalla chica primero</h3><p>Botones al alcance del pulgar, textos que se leen sin hacer zoom y formularios cortos. Se diseña para un celular de gama media, no para el último modelo.</p></div><div><h3>Datos que cuestan</h3><p>Imágenes livianas, descargas solo cuando hace falta y nada de videos que se reproducen solos. Muchos usuarios pagan cada megabyte.</p></div><div><h3>Señal que va y viene</h3><p>Una app seria guarda lo que el usuario hizo y lo envía cuando vuelve la conexión. Es justo el tema de la lección de ejemplo.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="tecnologias">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Tecnologías</p><h2>¿Nativo o multiplataforma: qué conviene aprender?</h2><p class="ag-lede">Depende de dónde quiera trabajar. Las tecnologías multiplataforma permiten llegar a Android y a iPhone con un solo código; las nativas dan más control y siguen siendo lo que piden muchos equipos grandes.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cuatro tecnologías para desarrollar aplicaciones móviles (comparación nuestra)</caption><thead><tr><th scope="col">Tecnología</th><th scope="col">Lenguaje</th><th scope="col">Llega a</th><th scope="col">Cuándo la recomendamos</th></tr></thead><tbody><tr><td>Flutter</td><td>Dart</td><td>Android, iPhone y web</td><td>Para emprender o trabajar en equipos pequeños que necesitan las dos tiendas</td></tr><tr><td>React Native</td><td>JavaScript o TypeScript</td><td>Android y iPhone</td><td>Para quien ya conoce desarrollo web y React</td></tr><tr><td>Kotlin</td><td>Kotlin</td><td>Android</td><td>Para apuntar a equipos que mantienen apps Android grandes</td></tr><tr><td>Swift</td><td>Swift</td><td>iPhone y iPad</td><td>Para trabajar en el ecosistema de Apple</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Nuestra sugerencia para quien empieza desde cero en Perú es Flutter o React Native, porque con un solo proyecto se cubren las dos tiendas y se aprende lo que tienen en común todas las apps: pantallas, estado, llamadas a un servidor y almacenamiento local. Quien ya trabaja en una empresa con app Android propia suele sacar más provecho de Kotlin. Swift tiene sentido cuando el objetivo es claramente el mundo de Apple. En la clase gratis el mentor le pregunta qué quiere construir y le recomienda el camino; no hay una respuesta única.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Lo que comparten todas</h3><p>Un ciclo de vida: la app se abre, pasa a segundo plano, se cierra. Un desarrollador que no lo entiende pierde datos del usuario sin saber por qué.</p>
+<p>Permisos: cámara, ubicación, notificaciones. En clase se discute cuáles pedir y cuándo, porque una app que pide todo al abrirse genera desconfianza.</p></div><div><h3>Lo que cambia entre ellas</h3><p>El lenguaje y la forma de dibujar la interfaz. Flutter dibuja sus propios componentes; React Native usa los del sistema; Kotlin y Swift trabajan directamente con cada plataforma.</p>
+<p>Las herramientas de trabajo: Android Studio, Xcode o el editor que el equipo prefiera. Para Swift y la publicación en la App Store se necesita, además, una Mac.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="senal">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Una lección de ejemplo</p><h2>¿Qué hace una app cuando se cae la señal?</h2><p class="ag-lede">Reintenta, pero con cabeza. Esta lección, escrita por nosotros, simula una app de pedidos que intenta enviar una orden con señal débil. La escribimos en Python para que la idea se lea sin ruido; en Flutter o Kotlin la estructura es la misma.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Reintentos con espera creciente</b><span>Python</span></figcaption><pre>def send_order(replies, max_tries=5):
+    wait = 1
+    waited = 0
+    for attempt, ok in enumerate(replies[:max_tries], start=1):
+        if ok:
+            print(f'attempt {attempt}: sent after waiting {waited} s')
+            break
+        print(f'attempt {attempt}: no signal, wait {wait} s')
+        waited += wait
+        wait *= 2
+    else:
+        print(f'gave up after {waited} s: save the order offline')
+
+send_order([False, False, True])
+send_order([False] * 8)</pre><p class="ag-code-note"><code>replies</code> simula la red: <code>False</code> es un intento sin señal y <code>True</code> uno que llega. Antes de ejecutar, el mentor pide adivinar cuántos segundos espera la app en el segundo caso.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Lo que imprime</b><span>Salida</span></figcaption><pre>attempt 1: no signal, wait 1 s
+attempt 2: no signal, wait 2 s
+attempt 3: sent after waiting 3 s
+attempt 1: no signal, wait 1 s
+attempt 2: no signal, wait 2 s
+attempt 3: no signal, wait 4 s
+attempt 4: no signal, wait 8 s
+attempt 5: no signal, wait 16 s
+gave up after 31 s: save the order offline</pre><p class="ag-code-note">Copiamos esta salida tal cual después de ejecutar el archivo con Python 3. La espera total del segundo caso es 1 + 2 + 4 + 8 + 16 = 31 segundos (cuenta nuestra).</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><strong>Por qué no reintentar al instante.</strong> Si la app repite el envío cien veces por segundo, gasta batería y datos del usuario y, cuando muchos teléfonos hacen lo mismo a la vez, satura el servidor justo cuando más falla.</li><li><strong>Por qué duplicar la espera.</strong> <code>wait *= 2</code> hace que la app espere 1, 2, 4, 8 y 16 segundos. Al principio insiste rápido, por si fue un corte breve; después se calma.</li><li><strong>Por qué poner un tope.</strong> <code>replies[:max_tries]</code> limita los intentos a cinco. Sin tope, una app en un lugar sin cobertura se quedaría intentando para siempre.</li><li><strong>El detalle de Python.</strong> El <code>else</code> de un bucle <code>for</code> solo se ejecuta si el bucle terminó sin <code>break</code>. Por eso el mensaje de rendirse aparece en el segundo caso y no en el primero.</li><li><strong>Qué hacer al rendirse.</strong> Guardar el pedido en el teléfono y avisar al usuario con honestidad: "Your order is saved and will be sent when you are back online." Nunca perder lo que la persona escribió.</li></ol>
+    <p class="ag-mt-40">En la versión real de la app el estudiante añade un detalle que la simulación omite: un pequeño componente aleatorio en la espera, para que miles de teléfonos que perdieron la señal al mismo tiempo no vuelvan a intentar todos en el mismo segundo. Lo importante, sin embargo, ya está aquí. Una app pensada para Perú no puede suponer que la red siempre responde; tiene que decidir qué hacer cuando no lo hace.</p>
+    <p>Como reto, el mentor propone cambiar <code>max_tries</code> a 3 y predecir la última línea antes de ejecutar. La respuesta correcta es que la app se rinde tras esperar 1 + 2 + 4 = 7 segundos (cuenta nuestra). Quien la acierta sin correr el código ya entendió el bucle.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="mercado">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Mercado</p><h2>¿Hay trabajo en desarrollo de aplicaciones en Perú?</h2><p class="ag-lede">Hay señales claras de demanda, aunque no prometemos empleo ni sueldos. Estas son las que pudimos verificar en fuentes primarias.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Señales que pudimos leer</h3><p>La guía comercial de Perú del Servicio Comercial de Estados Unidos, actualizada el 22 de junio de 2026, cuenta "193 Peru-based fintechs operating as of 2024" y describe el comercio electrónico peruano con "a significant mobile commerce component". Las fintech y las tiendas en línea viven, sobre todo, en aplicaciones.</p>
+<p>Según el resumen bilateral que publica la embajada india, Tata Consultancy Services opera en Lima y genera más de 1,300 puestos locales. Es una de las señales de que las empresas de tecnología con clientes en el extranjero contratan en Perú.</p></div><div><h3>Señales sobre los usuarios</h3><p>Según la base Global Findex del Banco Mundial, en 2024 el 59,3 % de los peruanos de 15 años a más tenía una cuenta financiera, el 36,7 % una tarjeta de débito y el 12,6 % una tarjeta de crédito. Cada uno de esos usuarios es alguien que espera resolver trámites desde una app.</p>
+<p>Y en el grupo de 19 a 24 años, el uso de internet llegó al 97,3 % en el segundo trimestre de 2026, según el INEI: la generación que hoy estudia es la que más espera apps bien hechas.</p></div></div>
+    <p class="ag-mt-40">Lo que no encontramos fue una cifra oficial y reciente de cuántos desarrolladores móviles trabaja hoy en Perú ni de cuánto ganan, así que no la damos. Tampoco ofrecemos bolsa de trabajo ni garantizamos un puesto. Lo que sí hace el curso es dejarle un portafolio con apps propias, código ordenado en GitHub y la costumbre de explicar decisiones técnicas en inglés, que es lo que se evalúa en una entrevista técnica.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ingles">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">En inglés</p><h2>¿Por qué estudiar desarrollo de aplicaciones en inglés?</h2><p class="ag-lede">Porque el día a día de un desarrollador móvil ocurre en inglés: la documentación de Android y de Apple, los foros, las reseñas de las tiendas y, en muchos equipos, las reuniones.</p></div>
+    <p>El EF EPI 2025 muestra en Perú una brecha por edad que importa a quien está en la universidad. Las personas de 18 a 20 años que rindieron el examen de EF obtuvieron 469 puntos, en la banda baja; las de 26 a 30 años, 559 puntos, en la banda alta. Lima en conjunto llega a 555. Quien practica inglés técnico durante la carrera llega a sus primeras entrevistas con varios años de ventaja.</p>
+    <p>El sistema universitario peruano es enorme: en una nota de septiembre de 2021, la SUNEDU habló de 1 millón 100 mil estudiantes repartidos en 94 universidades con licencia (46 de gestión pública y 48 privadas). Es la cifra nacional más reciente que encontramos en una página oficial, y por eso la citamos con su fecha. Nuestro curso no compite con la carrera ni la reemplaza: se lleva en paralelo, en el horario que deja libre el ciclo, y no otorga créditos ni grados.</p>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Leer la documentación</h3><p>En clase se resuelve cada duda abriendo la documentación oficial en inglés, no un tutorial traducido. Es la habilidad que más tiempo ahorra después.</p></div><div><h3>Escribir commits y reportes</h3><p>Mensajes de commit, descripciones de cambios y reportes de errores en inglés claro, como los de cualquier equipo distribuido.</p></div><div><h3>Explicar decisiones</h3><p>Por qué Flutter y no Kotlin, por qué guardar en el teléfono y no en el servidor. Defenderlo en voz alta frente al mentor es ensayo de entrevista.</p></div></div>
+    <p class="ag-mt-40">Para quien se formó en un colegio bilingüe limeño, la página <a class="ag-inline-link" href="/english-medium-coding-classes-lima">English-medium coding classes in Lima</a> (en inglés) describe cómo trabajamos con estudiantes que ya están cómodos en ese idioma. Si vive en el sur, la página de <a class="ag-inline-link" href="/coding-classes-in-arequipa-peru">clases de programación en Arequipa</a> (en inglés) cuenta cómo se adapta el curso a esa ciudad.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="con-ia">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Con inteligencia artificial</p><h2>¿Se puede hacer un curso de desarrollo de aplicaciones con IA?</h2><p class="ag-lede">Sí, y en este curso la IA está presente desde el principio, pero como herramienta de un desarrollador que entiende su código, no como sustituto.</p></div>
+    <p>Como el curso es para personas de 18 años a más, se pueden usar asistentes de código que exigen esa edad, como Claude, además de GitHub Copilot y ChatGPT. Lo que cambia respecto de un uso casual es el orden: primero se decide la arquitectura de la app y se escriben las pruebas, después se pide ayuda para escribir una pantalla o una función, y al final el estudiante revisa cada cambio antes de aceptarlo.</p>
+    <ol class="ag-steps"><li><strong>Para aprender una API nueva:</strong> pedir un ejemplo mínimo y comentado, y luego reescribirlo sin mirar.</li><li><strong>Para depurar:</strong> pegar el mensaje de error completo y el fragmento de código, y pedir hipótesis, no soluciones.</li><li><strong>Para pruebas:</strong> pedir casos de prueba para una función y añadir, de su cosecha, el caso raro que la IA no pensó, como la señal que se cae.</li><li><strong>Para revisar:</strong> pedir una revisión de un cambio propio, buscando errores de manejo de estado o de permisos.</li></ol>
+    <p class="ag-mt-40">Lo que la IA no hace en este curso es entregar una app terminada que el estudiante no sabría mantener. Una aplicación publicada recibe actualizaciones del sistema operativo cada año; quien no entiende su código no podrá adaptarla. Para ver el panorama completo de nuestros cursos en el país, la página de <a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">clases de programación e IA en Perú</a> los ordena por edad.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ruta">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Ruta</p><h2>¿Cuánto tiempo toma aprender a desarrollar aplicaciones?</h2><p class="ag-lede">Para tener una primera app publicable partiendo de cero, calculamos alrededor de medio año, a razón de dos sesiones semanales y práctica por su cuenta. Es una estimación nuestra, no una promesa: cada persona avanza a su ritmo.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Ruta de seis meses en desarrollo de aplicaciones (plan nuestro, se ajusta a cada estudiante)</caption><thead><tr><th scope="col">Mes</th><th scope="col">Tema</th><th scope="col">Entregable</th></tr></thead><tbody><tr><td>1</td><td>Fundamentos de Dart o JavaScript, estructuras de datos básicas</td><td>Ejercicios y una calculadora de propinas</td></tr><tr><td>2</td><td>Interfaz: componentes, diseño adaptable, navegación</td><td>Una app de tres pantallas sin servidor</td></tr><tr><td>3</td><td>Estado y almacenamiento local, trabajo sin conexión</td><td>Una lista que sobrevive a cerrar la app</td></tr><tr><td>4</td><td>APIs, autenticación y manejo de errores de red</td><td>La app conectada a un servidor de prueba</td></tr><tr><td>5</td><td>Pruebas automáticas, rendimiento y accesibilidad</td><td>Un conjunto de pruebas que corre solo</td></tr><tr><td>6</td><td>Publicación, analítica básica y mantenimiento</td><td>La app lista para la tienda y su repositorio en GitHub</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Quien ya programa en otro lenguaje suele comprimir los dos primeros meses en unas semanas. Quien trabaja a tiempo completo puede preferir clases individuales y estirar la ruta. En cualquier caso, el criterio para avanzar no es el calendario sino el entregable: si la app del mes tres pierde datos al cerrarse, no se pasa al mes cuatro.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progreso</p>
+      <h2>¿Cómo se mide el avance en el curso?</h2>
+      <p class="ag-lede">Con cinco hitos propios, cada uno verificable en un teléfono real.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cinco hitos en desarrollo de aplicaciones (nuestros)</caption><thead><tr><th scope="col">Hito</th><th scope="col">Qué se comprueba</th><th scope="col">Cómo lo comprueba el mentor</th></tr></thead><tbody><tr><td>1. Corre</td><td class="ag-num">la app abre en un Android y en un iPhone o emulador</td><td class="ag-num">la instala en un dispositivo distinto al del estudiante</td></tr><tr><td>2. Navega</td><td class="ag-num">las pantallas se conectan y el botón atrás funciona</td><td class="ag-num">recorre la app sin instrucciones</td></tr><tr><td>3. Recuerda</td><td class="ag-num">los datos sobreviven a cerrar y abrir la app</td><td class="ag-num">cierra la app a la fuerza y la vuelve a abrir</td></tr><tr><td>4. Aguanta</td><td class="ag-num">la app responde bien sin señal y al volver la conexión</td><td class="ag-num">activa el modo avión a mitad de un envío</td></tr><tr><td>5. Se publica</td><td class="ag-num">la app está lista para una tienda, con pruebas y documentación</td><td class="ag-num">lee el repositorio y corre las pruebas</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Para universitarios</h3><p>El hito 4 es el que separa un proyecto de clase de una app que alguien usaría en la calle. Vale la pena dedicarle tiempo.</p>
+<p>Su repositorio en GitHub es su carta de presentación: mensajes de commit claros en inglés, un README que explique cómo correr la app.</p></div><div><h3>Para profesionales</h3><p>Si ya trabaja con apps, puede empezar en el hito 3 o 4 después de la clase gratis.</p>
+<p>Las clases individuales permiten trabajar sobre un problema real de su equipo, sin compartir código confidencial.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más cursos</p>
+      <h2>Nueve cursos más para desarrolladores de apps</h2>
+      <p class="ag-lede">Se dictan en vivo y en inglés, para personas de 18 años a más, en grupo o con un mentor a solas.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Lenguajes</h3>
+        <span class="ag-band-sub">Para cada plataforma</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">DAI / LENG / 01</p>
+          <h4>Swift</h4>
+          <p>El lenguaje de iPhone y iPad, de la sintaxis a SwiftUI.</p>
+          <a class="ag-course-link" href="/courses/complete-swift-programming-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DAI / LENG / 02</p>
+          <h4>TypeScript</h4>
+          <p>JavaScript con tipos, la base de muchos proyectos con React Native.</p>
+          <a class="ag-course-link" href="/courses/complete-typescript-programming-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DAI / LENG / 03</p>
+          <h4>Java</h4>
+          <p>Orientación a objetos y el ecosistema que sostiene a Android.</p>
+          <a class="ag-course-link" href="/courses/complete-java-programming-masterclass-college">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Servidor y datos</h3>
+        <span class="ag-band-sub">Lo que la app consulta</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">DAI / BACK / 01</p>
+          <h4>MERN stack</h4>
+          <p>MongoDB, Express, React y Node.js para construir la API de su app.</p>
+          <a class="ag-course-link" href="/courses/mern-stack-development-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DAI / BACK / 02</p>
+          <h4>MySQL</h4>
+          <p>Diseño de bases de datos y consultas SQL eficientes.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DAI / BACK / 03</p>
+          <h4>Django y Flask</h4>
+          <p>Servidores en Python para apps que necesitan un back end propio.</p>
+          <a class="ag-course-link" href="/courses/python-web-development-django-flask-course">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Oficio</h3>
+        <span class="ag-band-sub">Para trabajar en equipo</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">DAI / OFI / 01</p>
+          <h4>Git y GitHub</h4>
+          <p>Ramas, revisiones y un historial que se entiende.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DAI / OFI / 02</p>
+          <h4>Estructuras de datos y algoritmos</h4>
+          <p>Lo que más se pregunta en una entrevista técnica en inglés.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">DAI / OFI / 03</p>
+          <h4>React</h4>
+          <p>El paso previo natural a React Native, aplicado en la web.</p>
+          <a class="ag-course-link" href="/courses/react-js-complete-masterclass-college">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cómo funciona</p>
+      <h2>¿Cómo se trabaja en las sesiones en vivo?</h2>
+      <p class="ag-lede">Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Temprano</p><p class="ag-slot-l">Antes de ir a la universidad o a la oficina.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">De noche</p><p class="ag-slot-l">Al volver del trabajo, con el día ya resuelto.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Individual</p><p class="ag-slot-l">Horario fijado con su mentor, semana a semana.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Dispositivo real</h3><p>Cada avance se prueba en un teléfono, no solo en el emulador.</p></div>
+      <div><h3>Código en GitHub</h3><p>Todo el curso queda en un repositorio propio desde la primera semana.</p></div>
+      <div><h3>Revisión del mentor</h3><p>El mentor lee los cambios y pregunta por cada decisión.</p></div>
+      <div><h3>IA con método</h3><p>Asistentes de código para adultos, siempre con pruebas y revisión.</p></div>
+      <div><h3>Una app por etapa</h3><p>Cada tramo cierra con algo instalable.</p></div>
+      <div><h3>Grupo o individual</h3><p>De quince a veinte personas con un nivel parecido, o usted y el mentor.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Proyectos de nuestros estudiantes</p>
+      <h2>Lo que han construido nuestros estudiantes</h2>
+      <p class="ag-lede">Trabajos hechos por estudiantes de otros países que siguieron el mismo método; encontrará más en <a class="ag-inline-link" href="/student-labs">Student labs</a> (en inglés).</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Captura del proyecto NutriLife, un coach de nutrición con IA" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>NutriLife</h4>
+          <p>Un coach de nutrición con IA que analiza las comidas y avanza paso a paso hacia una meta.</p>
+          <p class="ag-proj-meta">de Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Captura de Misti, un chatbot con IA para matemáticas y programación" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>Misti</h4>
+          <p>Un chatbot que responde preguntas de matemáticas y programación, creado y publicado por un estudiante.</p>
+          <p class="ag-proj-meta">de Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Captura de GuardianX, un asistente con IA para la seguridad en internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>GuardianX</h4>
+          <p>Un asistente que ayuda a los jóvenes a reconocer situaciones de riesgo en internet.</p>
+          <p class="ag-proj-meta">de Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Captura de la aplicación del clima SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Aplicación web</p>
+          <h4>SkyCast</h4>
+          <p>Un sitio de pronóstico del clima con condiciones en vivo para cualquier lugar.</p>
+          <p class="ag-proj-meta">de Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Precios</p>
+      <h2>Precio del curso de desarrollo de aplicaciones</h2>
+      <p class="ag-lede">Cobramos una cuota mensual expresada en dólares estadounidenses, por tarjeta de débito o crédito. Es el banco emisor el que la pasa a la moneda de su cuenta, con su propio tipo de cambio, así que el monto final puede variar ligeramente de un mes a otro.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Primera clase gratis</p>
+        <p class="ag-price-amt">Gratis</p>
+        <p class="ag-price-alt">sin tarjeta</p>
+        <ul><li>Una sesión gratis con un mentor</li><li>Una recomendación de tecnología según su objetivo</li><li>Sin tarjeta y sin compromiso</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Reservar</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Clase grupal</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>De quince a veinte personas de nivel parecido</li><li>Mentor asignado de inicio a fin</li><li>Dos sesiones semanales en vivo</li><li>Pago mensual, sin contrato de permanencia</li></ul>
+        <a href="#start" class="ag-btn">Empezar aquí</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Clases individuales</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Usted y un mentor, nadie más</li><li>Su propia app o el problema de su equipo</li><li>El horario que usted fije</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Consultar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lo que dicen las familias</p>
+      <h2>4.9 de 5 en 547 reseñas de Google</h2>
+      <p class="ag-lede">Reseñas públicas de Google, dejadas por estudiantes y familias en su inglés original.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preguntas frecuentes</p>
+      <h2>Desarrollo de aplicaciones en inglés: preguntas frecuentes</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>¿Las clases son en español?</h3>
+        <p>No. Cada sesión se dicta en inglés, en vivo y por videollamada. Para quien quiere trabajar en tecnología eso suma: aprende a desarrollar apps y, al mismo tiempo, a hablar de código en el idioma de la documentación y de muchos equipos. Lima figura en el nivel alto del EF EPI 2025, y una clase conversada es práctica oral diaria.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Con cuál conviene empezar, Flutter o React Native?</h3>
+        <p>Los dos permiten publicar en Android y en iPhone con un solo código. Flutter conviene si parte de cero; React Native, si ya conoce JavaScript o React. En la clase gratis el mentor le recomienda uno según lo que quiera construir.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Necesito una Mac para desarrollar apps?</h3>
+        <p>Para Android y para aprender Flutter o React Native, no. Para programar en Swift y publicar en la App Store, sí se necesita una Mac.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Cuánto tiempo toma el curso?</h3>
+        <p>Nuestra ruta de ejemplo es de unos seis meses con dos clases por semana para llegar a una primera app publicable desde cero. Es una estimación: quien ya programa avanza más rápido.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Puedo usar inteligencia artificial en el curso?</h3>
+        <p>Sí. Como es para personas de 18 años a más, se usan asistentes como Claude, GitHub Copilot o ChatGPT, siempre con pruebas escritas por el estudiante y revisión de cada cambio.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Por qué la app debe funcionar sin señal?</h3>
+        <p>Porque muchos usuarios peruanos se conectan solo con datos móviles. El INEI registró en 2026 que el 27,1 % de los hogares rurales tiene internet en casa, aunque el 89,2 % tiene celular. Una app que pierde lo escrito cuando se corta la señal pierde usuarios.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Garantizan trabajo al terminar?</h3>
+        <p>No. No ofrecemos bolsa de trabajo ni prometemos sueldos. El curso deja un portafolio de apps propias en GitHub y práctica en explicar decisiones técnicas en inglés.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Cuál es el horario de las clases?</h3>
+        <p>Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Si reserva a las 7:00 p. m. de Perú, para el mentor serán las 5:30 a. m. del día siguiente, porque la India va 10 horas y 30 minutos por delante en cualquier mes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Cómo se paga?</h3>
+        <p>Con tarjeta, en dólares estadounidenses, y su banco hace la conversión. La sesión de prueba no tiene costo ni pide tarjeta.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿El curso cuenta como créditos universitarios?</h3>
+        <p>No. No estamos vinculados a la SUNEDU ni a ninguna universidad peruana, y no otorgamos créditos ni grados. Lo único que entregamos al final es una constancia de finalización con el nombre de Modern Age Coders.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más páginas</p>
+      <h2>Para seguir leyendo</h2>
+      <p class="ag-lede">Lecturas cercanas a este curso; la mayoría está en inglés.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>La oferta completa para Perú, ordenada por edades.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-agents-course">AI agents course</a></h3><p>Agentes de IA, el siguiente paso para muchas apps.</p></div>
+      <div><h3><a class="ag-inline-link" href="/data-science-course">Data science course</a></h3><p>Para apps que necesitan entender sus propios datos.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-roadmap">Coding roadmap</a></h3><p>Un mapa de qué aprender y en qué orden.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Cómo es una sesión con mentor, paso a paso.</p></div>
+      <div><h3><a class="ag-inline-link" href="/courses">All courses</a></h3><p>El catálogo completo.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Empiece aquí</p>
+        <h2>Agende su sesión gratuita de desarrollo de apps</h2>
+        <p class="ag-lede">En la sesión gratis el mentor conversa con usted sobre la app que quiere construir, revisa lo que ya sabe y arma con usted una primera pantalla en vivo. Al final le recomienda tecnología, curso y formato, sin compromiso.</p>
+        <p class="ag-mt-40">Para leer antes: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> explica nuestro método y <a class="ag-inline-link" href="/coding-roadmap">Coding roadmap</a> muestra en qué orden aprender (ambas en inglés).</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20quiero%20llevar%20el%20curso%20de%20desarrollo%20de%20aplicaciones%20m%C3%B3viles%20en%20ingl%C3%A9s%20desde%20Per%C3%BA.%20%C2%BFPuedo%20reservar%20una%20clase%20gratis%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'dai',pos:'end'});">Escríbanos por WhatsApp</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Mentores en la India, sesiones por videollamada, siempre en vivo y en inglés. Para escribirnos, WhatsApp es la vía más rápida y acepta mensajes en castellano.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_dai(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Su nombre</label>
+            <input id="pe-name" type="text" name="name" placeholder="Nombre del padre, madre o estudiante" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Teléfono o WhatsApp, Perú +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Grupo de edad</label>
+            <select id="pe-age" name="age"><option value="6-12">Niño o niña, 6 a 12</option><option value="13-18">Adolescente, 13 a 18</option><option value="college">Universitario</option><option value="adult">Profesional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Solicitar la clase gratis</button>
+          <p class="ag-form-note">Gratis, sin tarjeta y sin compromiso.</p>
+        </form>
+        <div class="ag-pd-card"><h3>¿Quiere una clase antes? Reserve una demo prioritaria</h3><p>Una demo prioritaria es una clase completa de unos 45 a 60 minutos. Después, el mentor envía por WhatsApp un informe escrito de habilidades y un plan de aprendizaje personal. Si se inscribe, el pago de la demo se descuenta de la primera mensualidad: envíenos por WhatsApp el número de pedido de la demo.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Reservar una demo prioritaria</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Clases en vivo y en línea de programación, IA y matemáticas para personas de 6 a 67 años, siempre en inglés. Enseñamos desde 2020, a más de
+          10,000 estudiantes en 25 países.
+        </p>
+      </div>
+      <div><h4>Apps</h4><ul><li><a href="/courses/complete-app-development-masterclass-college">Desarrollo de aplicaciones</a></li><li><a href="/courses/complete-flutter-app-development-masterclass-college">Flutter</a></li><li><a href="/courses/complete-kotlin-programming-masterclass-professional">Kotlin</a></li><li><a href="/courses">Todos los cursos</a></li></ul></div>
+      <div><h4>Para seguir</h4><ul><li><a href="/coding-roadmap">Ruta de aprendizaje</a></li><li><a href="/ai-agents-course">Agentes de IA</a></li><li><a href="/how-we-teach">Cómo enseñamos</a></li><li><a href="/student-labs">Proyectos</a></li></ul></div>
+      <div>
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="/about">Quiénes somos</a></li>
+          <li><a href="/how-we-teach">Cómo enseñamos</a></li>
+          <li><a href="/love">Reseñas</a></li>
+          <li><a href="/contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Clases en vivo y en línea, en inglés, para todo el mundo.</span>
+      <span>Nunca perder lo que el usuario escribió</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Clase gratis</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Demo prioritaria</a><a href="tel:+919123366161" aria-label="Llamar al +91 91233 66161">Llamar</a></div>
+
+<script>
+window.submitLead_dai = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Enviando...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'curso-de-desarrollo-de-aplicaciones-en-ingles-inline', meta: { name: name, age: age, page: 'curso-de-desarrollo-de-aplicaciones-en-ingles' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Muchas gracias' + (name ? ', ' + name.split(' ')[0] : '') + '. Un mentor le llamará en breve.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Algo salió mal. Por favor, inténtelo de nuevo.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Error de conexión. Por favor, inténtelo de nuevo.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
