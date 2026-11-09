@@ -276,7 +276,7 @@ Each page below takes one age, subject, exam, region, city or Lima district and 
 
 **Cities:** [Arequipa: coding for every age](/coding-classes-in-arequipa-peru)
 
-**Lima, district by district:** [Vacaciones útiles en Surco](/vacaciones-utiles-de-programacion-surco-lima)
+**Lima, district by district:** [Vacaciones útiles en La Molina](/vacaciones-utiles-de-programacion-la-molina-lima) · [Vacaciones útiles en Surco](/vacaciones-utiles-de-programacion-surco-lima)
 
 ## What a learner in Peru can do at each stage with us
 
