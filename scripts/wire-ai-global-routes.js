@@ -1035,6 +1035,8 @@ const SLUGS = [
   'online-coding-and-ai-classes-piura-region-peru',
   'online-coding-and-ai-classes-la-libertad-region-peru',
   'online-coding-and-ai-classes-arequipa-region-peru',
+  'online-coding-and-ai-classes-cajamarca-region-peru',
+  'igcse-maths-tutor-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2149,6 +2151,8 @@ const LLMS_LABELS = {
   'online-coding-and-ai-classes-piura-region-peru': 'Online coding and AI classes, Piura region, Peru',
   'online-coding-and-ai-classes-la-libertad-region-peru': 'Online coding and AI classes, La Libertad region, Peru',
   'online-coding-and-ai-classes-arequipa-region-peru': 'Online coding and AI classes, Arequipa region, Peru',
+  'online-coding-and-ai-classes-cajamarca-region-peru': 'Online coding and AI classes, Cajamarca region, Peru',
+  'igcse-maths-tutor-peru': 'IGCSE maths tutor in Peru',
 };
 
 function wireLlms(slugs) {
