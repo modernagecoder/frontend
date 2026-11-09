@@ -963,6 +963,7 @@ const SLUGS = [
   'curso-de-inteligencia-artificial-en-ingles-peru',
   'curso-de-ia-para-adolescentes-peru',
   'curso-de-agentes-de-ia-peru',
+  'curso-de-agentes-de-ia-para-profesionales',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2005,6 +2006,7 @@ const LLMS_LABELS = {
   'curso-de-inteligencia-artificial-en-ingles-peru': 'Curso de inteligencia artificial en inglés',
   'curso-de-ia-para-adolescentes-peru': 'Curso de IA para adolescentes',
   'curso-de-agentes-de-ia-peru': 'Curso de agentes de IA',
+  'curso-de-agentes-de-ia-para-profesionales': 'Curso de agentes de IA para profesionales',
 };
 
 function wireLlms(slugs) {

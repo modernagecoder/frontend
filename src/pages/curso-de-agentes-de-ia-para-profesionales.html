@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Curso de agentes de IA para profesionales en Perú, en inglés</title>
+  <meta name="description" content="Agentes de IA para profesionales en Perú: Copilot Studio, Gemini Enterprise y agentes de código, con control humano. Clases en vivo, en inglés y a su horario.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/curso-de-agentes-de-ia-para-profesionales">
+  <link rel="alternate" type="text/markdown" href="/src/pages/curso-de-agentes-de-ia-para-profesionales.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#006567">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/curso-de-agentes-de-ia-para-profesionales">
+  <meta property="og:title" content="Curso de agentes de IA para profesionales en Perú, en inglés">
+  <meta property="og:description" content="Qué hace un agente en una empresa, qué usos considera de riesgo alto el reglamento peruano de IA, sus plazos por sector y un agente con aprobación humana y bitácora, en Python.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="es_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Curso de agentes de IA para profesionales en Perú, en inglés">
+  <meta name="twitter:description" content="Curso de agentes de IA para profesionales en Perú, en vivo y en inglés: construir agentes útiles, aprobados por personas y auditables.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-aab .ag-hero h1 { letter-spacing: -0.011em; max-width: 22ch; }
+.ag-root.ag-aab .ag-capsule { border-left-width: 4px; border-radius: 1px; }
+.ag-root.ag-aab .ag-table caption { text-align: left; font-weight: 600; text-transform: none; }
+.ag-root.ag-aab .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-aab .ag-steps li { line-height: 1.63; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/curso-de-agentes-de-ia-para-profesionales#page","url":"https://learn.modernagecoders.com/curso-de-agentes-de-ia-para-profesionales","name":"Curso de agentes de IA para profesionales en Perú","description":"Guía para profesionales y empresas en Perú que quieren usar agentes de IA: qué tareas resuelven, qué usos el Reglamento de la Ley 31814 (DS 115-2025-PCM) considera de riesgo alto o prohibidos, en qué plazos se aplica al sector privado según el sector, cómo se controla un agente con aprobaciones y límites, cómo está el inglés profesional en el Perú y un agente con bitácora escrito por nosotros.","inLanguage":"es-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Cursos","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Perú","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Agentes de IA para profesionales","item":"https://learn.modernagecoders.com/curso-de-agentes-de-ia-para-profesionales"}]},{"@type":"Course","name":"Curso de agentes de IA para profesionales en Perú","description":"Curso en vivo y en línea de agentes de inteligencia artificial para profesionales en el Perú, dictado solo en inglés por mentores desde la India: diseño de agentes con Microsoft Copilot Studio, Google Gemini Enterprise o agentes de programación como Codex y Claude Code, con herramientas, conocimiento propio, aprobación humana, límites y registro de acciones, en clases individuales o en grupo según el curso.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/curso-de-agentes-de-ia-para-profesionales"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/curso-de-agentes-de-ia-para-profesionales"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/curso-de-agentes-de-ia-para-profesionales"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Las clases son en español?","acceptedAnswer":{"@type":"Answer","text":"No, todas son en inglés, en directo y por internet, con mentores desde la India. Para un profesional suele ser una ventaja: Copilot Studio, Gemini Enterprise y los agentes de código se documentan en inglés, y practicar el idioma explicando su propio agente sirve en cualquier reunión. En el EF EPI 2025, Lima tiene nivel alto y atención al cliente llega a 585 puntos. El mentor habla claro y se adapta a su ritmo."}},{"@type":"Question","name":"¿Necesito saber programar?","acceptedAnswer":{"@type":"Answer","text":"No para Copilot Studio, que es de bajo código. Gemini Enterprise pide nivel intermedio. Los cursos de agentes de código empiezan desde cero para quien cambia de carrera."}},{"@type":"Question","name":"¿Qué plataforma me conviene?","acceptedAnswer":{"@type":"Answer","text":"La que ya usa su organización. Si trabajan con Microsoft 365, Copilot Studio; con Google Workspace, Gemini Enterprise; si su equipo es técnico, Codex y Claude Code. En la clase de prueba lo definimos juntos."}},{"@type":"Question","name":"¿El curso me asesora sobre la ley de IA?","acceptedAnswer":{"@type":"Answer","text":"No. Explicamos qué dice el DS 115-2025-PCM como contexto y enseñamos a construir agentes con supervisión humana, bitácora y etiquetado, pero no damos asesoría legal ni de cumplimiento. Para eso, consulte a un abogado."}},{"@type":"Question","name":"¿Qué usos de IA son de riesgo alto en el Perú?","acceptedAnswer":{"@type":"Answer","text":"Entre otros, según el artículo 24.1 del reglamento: decidir contrataciones o despidos, evaluar créditos de personas salvo para detectar fraude, el acceso a servicios de salud y la gestión de servicios esenciales como energía o banca."}},{"@type":"Question","name":"¿Puedo usar un caso real de mi empresa?","acceptedAnswer":{"@type":"Answer","text":"Sí, en las clases individuales. Trabajamos primero en un entorno de práctica y con datos de prueba; usted decide qué información compartir según las reglas de su organización."}},{"@type":"Question","name":"¿Las licencias están incluidas?","acceptedAnswer":{"@type":"Answer","text":"No. Copilot Studio, Gemini Enterprise y las suscripciones de Codex y Claude Code se contratan con cada empresa o las provee su organización. Le ayudamos a preparar el entorno en la primera clase."}},{"@type":"Question","name":"¿En qué horario son las clases?","acceptedAnswer":{"@type":"Answer","text":"Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, las 6:00 a. m. en Lima son las 4:30 p. m. en la India."}},{"@type":"Question","name":"¿Recibo un certificado?","acceptedAnswer":{"@type":"Answer","text":"Recibe nuestro certificado de finalización, que no tiene carácter oficial. Más útil ante un empleador es el agente que construyó, con su tabla de riesgos y su bitácora."}},{"@type":"Question","name":"¿Cómo se paga?","acceptedAnswer":{"@type":"Answer","text":"Mes a mes con tarjeta, en dólares estadounidenses; su banco hace la conversión. La clase de prueba no cuesta nada."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/curso-de-agentes-de-ia-para-profesionales","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-aab">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Perú</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Perú</a></li>
+      <li><a href="#en-la-empresa">En la empresa</a></li>
+      <li><a href="#riesgo">Riesgo alto</a></li>
+      <li><a href="#plazos">Plazos</a></li>
+      <li><a href="#control">Control</a></li>
+      <li><a href="#ejemplo">Ejemplo</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Clase gratis</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a> / <a href="/courses">Cursos</a> / <a href="/coding-and-ai-classes-in-peru">Perú</a> / Agentes de IA para profesionales
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Perú &middot; Agentes de IA &middot; Profesionales y equipos</p>
+        <h1>Curso de agentes de IA para profesionales, en vivo y en inglés</h1>
+        <p class="ag-lede">En una oficina, un agente de IA no es un experimento: responde a clientes, prepara cotizaciones, mueve datos entre sistemas. Por eso la pregunta profesional no es solo cómo construirlo, sino cómo hacer que pida permiso antes de una acción delicada, que deje rastro de lo que hizo y que cumpla las reglas que el Perú fijó para la IA en setiembre de 2025.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Reservar la primera clase gratis</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Reservar una demo prioritaria</a>
+          <a href="#riesgo" class="ag-btn ag-btn--ghost">Ver los usos de riesgo alto</a>
+          <a href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20soy%20profesional%20en%20Per%C3%BA%20y%20me%20interesa%20el%20curso%20de%20agentes%20de%20IA%20en%20ingl%C3%A9s.%20%C2%BFPuedo%20agendar%20una%20clase%20de%20prueba%20sin%20costo%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'aab'});">Consultar por WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Clases en directo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; agentes con control humano</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">En resumen</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 de 5 en 547 reseñas de Google
+        </p>
+        <dl>
+          <dt>Idioma de las clases</dt><dd>Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante</dd>
+          <dt>Para quién</dt><dd>Profesionales, líderes de equipo, fundadores y desarrolladores</dd>
+          <dt>Plataformas</dt><dd>Copilot Studio, Gemini Enterprise, Codex y Claude Code</dd>
+          <dt>Enfoque</dt><dd>Agentes útiles, aprobados por personas y auditables</dd>
+          <dt>Formato</dt><dd>Individual en Copilot Studio y Gemini; grupo o individual en agentes de código</dd>
+          <dt>Idioma</dt><dd>Inglés, con mentor en directo desde la India</dd>
+          <dt>Primera clase</dt><dd>Sin costo</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">En resumen</p>
+      <p>Este curso de agentes de IA para profesionales en el Perú enseña a diseñar, probar y poner en marcha agentes que hacen trabajo real en una organización, con Microsoft Copilot Studio, Google Gemini Enterprise o agentes de programación como Codex y Claude Code. Modern Age Coders lo dicta en vivo, en línea y en inglés, con mentores desde la India, poniendo el acento en el control: aprobación humana para las acciones delicadas, límites y bitácora. Las clases van a la hora que usted fije.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cursos para profesionales</p>
+      <h2>Tres cursos de agentes de IA para el trabajo</h2>
+      <p class="ag-lede">Elija según la plataforma de su organización: Microsoft, Google o agentes que programan junto a su equipo técnico.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals">
+        <div class="ag-pick-shot"><img src="/images/copilot-studio-professionals.webp" alt="Imagen del curso de agentes de IA con Microsoft Copilot Studio para profesionales" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AAB / 01</p>
+          <h3>Copilot Studio para profesionales</h3>
+          <p>Clases individuales. Agentes conectados a los datos y aplicaciones de su empresa, publicados en Teams o en la web, con flujos de aprobación y pruebas antes de salir a producción.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/build-ai-agents-with-google-gemini-enterprise-course">
+        <div class="ag-pick-shot"><img src="/images/gemini-enterprise-agents.webp" alt="Imagen del curso de agentes de IA con Google Gemini Enterprise" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AAB / 02</p>
+          <h3>Agentes con Gemini Enterprise</h3>
+          <p>Clases individuales, nivel intermedio a avanzado. Para organizaciones que trabajan con Google: agentes con conocimiento propio, pruebas de comportamiento y límites de política.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">
+        <div class="ag-pick-shot"><img src="/images/codex-claude-code-adults.webp" alt="Imagen del curso de agentes de programación Codex y Claude Code para profesionales" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AAB / 03</p>
+          <h3>Codex y Claude Code para equipos técnicos</h3>
+          <p>Para desarrolladores y quienes cambian de carrera. Delegar tareas de código a un agente revisando cada cambio, con pruebas y control de versiones.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="en-la-empresa">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">En la empresa</p><h2>¿Para qué sirven los agentes de IA en una empresa?</h2><p class="ag-lede">Para tareas de varios pasos que hoy hace una persona copiando información de un sistema a otro. Un agente lee una solicitud, consulta datos, prepara una respuesta o una acción y, si está bien diseñado, pide aprobación cuando la acción importa.</p></div>
+    <div class="ag-grid-3"><div><h3>Atención al cliente</h3><p>Responder preguntas frecuentes con los documentos de la empresa, tomar datos de un reclamo y derivar a una persona cuando el caso sale del guion. Microsoft describe agentes que trabajan con empleados y clientes en Teams, sitios web y aplicaciones.</p></div><div><h3>Ventas y operaciones</h3><p>Preparar el borrador de una cotización a partir de un correo, revisar stock, programar una visita o resumir el estado de un pedido. La acción final, enviar o cobrar, queda en manos de alguien con nombre y cargo.</p></div><div><h3>Equipos técnicos</h3><p>Agentes de programación que corren pruebas, encuentran la falla y proponen un cambio. El desarrollador revisa y aprueba; el agente no publica nada por su cuenta.</p></div></div>
+    <p class="ag-mt-40">Microsoft define Copilot Studio como "a graphical, low-code studio for building and managing AI-powered agents and workflows", y explica que esos agentes pueden trabajar "in multiple languages across Microsoft Teams, Microsoft Copilot, websites, mobile apps, and other channels". OpenAI, en su guía práctica, resume cualquier agente en tres piezas: un modelo, herramientas e instrucciones. El curso trabaja las tres, más una cuarta que las guías de las propias empresas insisten en no olvidar: el control.</p>
+    <p>Si usted parte de cero y quiere primero entender qué es un agente, la página general del <a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">resumen de nuestras clases en el Perú</a> le orienta por edad y nivel. Para quienes trabajan con equipos o familias en Lima, la página <a class="ag-inline-link" href="/english-medium-coding-classes-lima">English-medium coding classes in Lima</a> muestra cómo enseñamos en inglés.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="riesgo">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Riesgo alto</p><h2>¿Qué usos de agentes de IA considera de riesgo alto la ley peruana?</h2><p class="ag-lede">El reglamento de la Ley 31814, aprobado por el Decreto Supremo N.° 115-2025-PCM y publicado en El Peruano el 9 de setiembre de 2025, clasifica los usos de la IA en indebidos, que están prohibidos, y de riesgo alto, que se permiten con condiciones y controles.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Algunos usos de IA de riesgo alto según el artículo 24.1 del DS 115-2025-PCM</caption><thead><tr><th scope="col">Literal</th><th scope="col">Uso de riesgo alto</th><th scope="col">Dónde puede aparecer un agente</th></tr></thead><tbody><tr><td>a</td><td>Gestionar activos críticos que soportan servicios esenciales: energía, telecomunicaciones, salud, transporte, agua y banca, entre otros</td><td>Operaciones de empresas de servicios</td></tr><tr><td>b</td><td>Evaluar a niños, niñas y adolescentes en el sector educativo, salvo que la IA sea complementaria a la evaluación humana</td><td>Plataformas educativas</td></tr><tr><td>e</td><td>Determinar la selección, evaluación, contratación y cese de trabajadores o postulantes, o sus condiciones laborales</td><td>Recursos humanos</td></tr><tr><td>f</td><td>Determinar el acceso, la priorización o el cese de programas sociales</td><td>Entidades públicas y operadores</td></tr><tr><td>g</td><td>Determinar la evaluación crediticia de personas, salvo que la IA se use para detectar fraude financiero</td><td>Bancos, financieras y comercios con crédito</td></tr><tr><td>h</td><td>Determinar el acceso a servicios de salud que afectan la vida y el bienestar</td><td>Clínicas y aseguradoras</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: Decreto Supremo N.° 115-2025-PCM, Reglamento de la Ley N.° 31814, artículo 24.1, El Peruano, 9 de setiembre de 2025 (copia en gob.pe). Resumimos cada literal; la lista completa incluye otros usos, como algunos de salud y los que impliquen alta probabilidad de discriminación. La tercera columna es nuestra. No es asesoría legal: verifique el texto vigente y consulte a un abogado.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Lo prohibido y lo que hay que avisar</h3><p>El artículo 23 considera uso indebido, y por tanto prohibido, un sistema de IA destinado, entre otros fines, a "influir de manera engañosa o manipulativa en la toma de decisiones de las personas". Un agente de ventas que presiona con técnicas engañosas entra de lleno en esa categoría.</p>
+<p>El artículo 25 pide, cuando sea relevante para la decisión o la interacción, "el etiquetado visible del sistema basado en IA": el cliente debe saber que conversa con una IA.</p></div><div><h3>Qué cambia para quien diseña agentes</h3><p>Si un agente participa en una contratación, en un crédito o en el acceso a salud, el diseño debe prever supervisión humana, uno de los principios rectores del artículo 7: la persona debe poder "corregir, modificar o detener" el sistema.</p>
+<p>En el curso, cada agente que tocaría una decisión así se diseña como asistente de una persona, nunca como el que decide.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="plazos">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Plazos</p><h2>¿Desde cuándo se aplican estas reglas a las empresas privadas?</h2><p class="ag-lede">De forma gradual, según el sector. La primera disposición complementaria final del reglamento fija para el sector privado plazos de uno a cuatro años, contados desde el día siguiente a su publicación del 9 de setiembre de 2025.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Plazos de implementación para el sector privado según el DS 115-2025-PCM</caption><thead><tr><th scope="col">Sectores donde se usa la IA</th><th scope="col">Plazo desde la publicación</th><th scope="col">Ejemplos de agentes afectados (nuestros)</th></tr></thead><tbody><tr><td>Salud, educación, justicia, seguridad, economía y finanzas</td><td class="ag-num">1 año</td><td>Agentes de bancos, clínicas, colegios y estudios jurídicos</td></tr><tr><td>Transporte, comercio y trabajo</td><td class="ag-num">2 años</td><td>Agentes de logística, tiendas en línea y recursos humanos</td></tr><tr><td>Producción, agricultura, energía y minería</td><td class="ag-num">3 años</td><td>Agentes de planta, de campo o de mantenimiento</td></tr><tr><td>Todos los demás usos</td><td class="ag-num">4 años</td><td>Agentes internos de oficina y de servicios generales</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: DS 115-2025-PCM, Primera Disposición Complementaria Final, plazos para el desarrollador o implementador del sector privado respecto del artículo 25 y del Capítulo II del Título VI; las micro y pequeñas empresas y los emprendimientos innovadores tienen plazos propios en la misma disposición. La tercera columna es nuestra. Las normas pueden modificarse: confirme la versión vigente en gob.pe.</p>
+    <p class="ag-mt-40">Para un profesional, la lectura práctica es esta: si su organización trabaja en finanzas, salud o educación, el primer plazo ya corre desde setiembre de 2025, y cualquier agente que construya debería nacer con etiquetado, supervisión humana y registro de acciones. No damos asesoría legal ni de cumplimiento normativo; enseñamos a construir agentes que hagan fácil demostrar ese control.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="control">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Control</p><h2>¿Cómo se mantiene un agente de IA bajo control humano?</h2><p class="ag-lede">Con tres mecanismos que recomiendan las propias empresas que los construyen: una clasificación de riesgo para cada acción, una persona que aprueba lo delicado y un límite de fallos que devuelve el caso a alguien.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Lo que recomiendan OpenAI y Anthropic</h3><p>La guía práctica de OpenAI propone usar calificaciones de riesgo para "pausing for guardrail checks before executing high-risk functions or escalating to a human if needed", y señala como disparador de intervención humana "exceeding failure thresholds".</p>
+<p>Anthropic, en "Building effective agents", recomienda "extensive testing in sandboxed environments, along with the appropriate guardrails". En el curso, ningún agente toca datos reales antes de pasar por un entorno de práctica.</p></div><div><h3>Cómo lo aplicamos en clase</h3><p>Cada herramienta del agente recibe un nivel de riesgo escrito por una persona, no por el modelo. Lo bajo se ejecuta; lo alto espera aprobación.</p>
+<p>Todo queda en una bitácora: qué propuso el agente, qué se aprobó, qué se negó y cuándo se devolvió el caso a una persona. Esa bitácora es lo que un auditor o un jefe va a pedir.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="ejemplo">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Ejemplo</p><h2>¿Cómo se programa la aprobación humana en un agente? Un ejemplo en Python</h2><p class="ag-lede">Es una clase temprana del curso, sin modelo de lenguaje, para ver el control desnudo. Las acciones y las aprobaciones son inventadas por nosotros: un agente de oficina propone cinco acciones y una persona aprueba o niega las delicadas.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Aprobación humana, límite de fallos y bitácora</b><span>Python</span></figcaption><pre># Un agente de oficina propone acciones; las de riesgo alto esperan a una persona
+RIESGO = {'answer_faq': 'low', 'draft_quote': 'low', 'send_invoice': 'high', 'delete_client': 'high'}
+aprobado_por_humano = {'send_invoice': True, 'delete_client': False}
+MAX_FALLOS = 2
+
+propuestas = ['answer_faq', 'draft_quote', 'send_invoice', 'delete_client', 'refund_all']
+bitacora = []
+fallos = 0
+
+for accion in propuestas:
+    nivel = RIESGO.get(accion)
+    if nivel is None:
+        fallos += 1
+        bitacora.append((accion, 'unknown tool', 'blocked'))
+        if fallos &gt;= MAX_FALLOS:
+            bitacora.append(('agent', 'too many failures', 'handed to a human'))
+            break
+        continue
+    if nivel == 'high' and not aprobado_por_humano.get(accion, False):
+        bitacora.append((accion, nivel, 'denied by human'))
+        fallos += 1
+    elif nivel == 'high':
+        bitacora.append((accion, nivel, 'done after approval'))
+    else:
+        bitacora.append((accion, nivel, 'done'))
+    if fallos &gt;= MAX_FALLOS:
+        bitacora.append(('agent', 'too many failures', 'handed to a human'))
+        break
+
+for i, fila in enumerate(bitacora, 1):
+    print(i, *fila, sep=' | ')</pre><p class="ag-code-note">El diccionario <code>RIESGO</code> lo escribe una persona. <code>aprobado_por_humano</code> simula las respuestas del responsable. <code>MAX_FALLOS</code> decide cuándo el agente deja de insistir.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>La bitácora</b><span>Salida</span></figcaption><pre>1 | answer_faq | low | done
+2 | draft_quote | low | done
+3 | send_invoice | high | done after approval
+4 | delete_client | high | denied by human
+5 | refund_all | unknown tool | blocked
+6 | agent | too many failures | handed to a human</pre><p class="ag-code-note">Salida exacta de Python 3 en nuestro equipo. Cada fila es una decisión registrada.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><strong>Riesgo bajo, sin espera.</strong> Responder una pregunta frecuente y preparar el borrador de una cotización son acciones de riesgo bajo: el agente las ejecuta y las anota, filas 1 y 2.</li><li><strong>Riesgo alto, con permiso.</strong> Enviar una factura es de riesgo alto. La persona responsable la aprobó, así que se ejecuta y la bitácora dice <code>done after approval</code>.</li><li><strong>Un no también se registra.</strong> Borrar un cliente es de riesgo alto y la persona lo negó. El agente no lo hace, anota <code>denied by human</code> y cuenta un fallo.</li><li><strong>Herramienta desconocida.</strong> <code>refund_all</code> no está en la tabla de riesgos. El agente no improvisa: la bloquea y cuenta el segundo fallo.</li><li><strong>Devolver el caso.</strong> Con dos fallos llega a <code>MAX_FALLOS</code> y se detiene con <code>handed to a human</code>. Es el disparador por umbral de fallos que describe la guía de OpenAI, escrito en treinta líneas.</li></ol>
+    <p class="ag-mt-40">En Copilot Studio o Gemini Enterprise estas piezas existen como configuraciones de la plataforma: flujos de aprobación, conectores con permisos, registros de actividad. Quien las programó una vez a mano entiende qué está configurando y por qué, y sabe explicarlo a su jefe, a su cliente o a un auditor. Ese es el objetivo del curso: agentes que se puedan defender.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ingles">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Inglés profesional</p><h2>¿Por qué un curso de agentes en inglés para profesionales peruanos?</h2><p class="ag-lede">Porque las plataformas, su documentación y sus foros están en inglés, y porque muchos profesionales peruanos ya tienen el nivel para aprovecharlo. El EF EPI 2025 mide el inglés por área de trabajo.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Inglés en el Perú por área de trabajo, según el EF EPI 2025</caption><thead><tr><th scope="col">Área de trabajo</th><th scope="col">Puntaje EF EPI 2025</th></tr></thead><tbody><tr><td>Estrategia y gestión de proyectos</td><td class="ag-num">589</td></tr><tr><td>Atención al cliente</td><td class="ag-num">585</td></tr><tr><td>Marketing</td><td class="ag-num">565</td></tr><tr><td>Operaciones</td><td class="ag-num">554</td></tr><tr><td>Ventas</td><td class="ag-num">547</td></tr><tr><td>Recursos humanos</td><td class="ag-num">542</td></tr><tr><td>Legal</td><td class="ag-num">532</td></tr><tr><td>Tecnologías de la información</td><td class="ag-num">522</td></tr><tr><td>Contabilidad y finanzas</td><td class="ag-num">484</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: EF English Proficiency Index 2025, página de Perú, "Scores by job function", consultada en noviembre de 2026. Según las bandas de EF, desde 550 puntos el nivel es alto y desde 500, moderado. Lima obtiene 555, nivel alto.</p>
+    <p class="ag-mt-40">Las áreas donde más se habla de agentes, atención al cliente, operaciones y gestión de proyectos, son también las de mejor inglés según esta tabla. Contabilidad y finanzas queda por debajo de 500; si es su caso, le sugerimos clases individuales, donde el mentor ajusta el ritmo. Y el público existe: según el INEI, el 95,2% de los peruanos de 25 a 40 años usó internet en el segundo trimestre de 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="horario">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Horario</p><h2>¿Cómo encaja un curso con mentores en la India en la agenda de un profesional en Lima?</h2><p class="ag-lede">Con facilidad: la diferencia es fija, diez horas y media todo el año, y usted elige la hora.</p></div>
+    <p>Tres equivalencias que calculamos con la hora oficial de cada país (Perú UTC-5, India UTC+5:30): las 6:00 a. m. en Lima son las 4:30 p. m. en la India; la 1:30 p. m. limeña, en la pausa del almuerzo, es medianoche allá; y las 10:00 p. m. en Lima son las 8:30 a. m. del día siguiente en la India. Son conversiones de ejemplo, no horarios fijos.</p>
+    <p>Los cursos de Copilot Studio y Gemini Enterprise son individuales, así que la hora puede cambiar cada semana según su carga de trabajo. Si su empresa quiere formar a varias personas, cada una puede llevar su propio horario.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Madurez</p>
+      <h2>¿Cómo se ve un agente listo para el trabajo real?</h2>
+      <p class="ag-lede">Cinco niveles de madurez que usamos para revisar los agentes de nuestros estudiantes. Son nuestros, no una norma.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cinco niveles de madurez de un agente profesional (escala nuestra)</caption><thead><tr><th scope="col">Nivel</th><th scope="col">Qué tiene el agente</th><th scope="col">Pregunta que responde</th></tr></thead><tbody><tr><td>1. Funciona</td><td class="ag-num">Cumple la tarea en el caso normal</td><td class="ag-num">¿Hace lo que se le pide?</td></tr><tr><td>2. Se detiene</td><td class="ag-num">Límite de pasos y de fallos</td><td class="ag-num">¿Sabe cuándo parar?</td></tr><tr><td>3. Pide permiso</td><td class="ag-num">Aprobación humana para acciones de riesgo alto</td><td class="ag-num">¿Quién decide lo delicado?</td></tr><tr><td>4. Deja rastro</td><td class="ag-num">Bitácora de propuestas, aprobaciones y negativas</td><td class="ag-num">¿Se puede auditar?</td></tr><tr><td>5. Se presenta</td><td class="ag-num">Etiquetado visible y explicación al usuario</td><td class="ag-num">¿El usuario sabe que habla con una IA?</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Para líderes de equipo</h3><p>Antes de aprobar un agente, pida ver su bitácora de una semana de pruebas.</p>
+<p>Asigne a una persona con nombre como responsable de cada acción de riesgo alto.</p></div><div><h3>Para quien construye</h3><p>Escriba la tabla de riesgos antes de escribir la primera instrucción del agente.</p>
+<p>Si una herramienta no está en la tabla, el agente no la usa.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más cursos</p>
+      <h2>Nueve cursos más para profesionales</h2>
+      <p class="ag-lede">Para reforzar la base técnica, entender los modelos o formar a su equipo, en directo y en inglés.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Base técnica</h3>
+        <span class="ag-band-sub">Datos y automatización</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AAB / BASE / 01</p>
+          <h4>Automatización con Python e IA</h4>
+          <p>Scripts que leen, ordenan y mueven datos: a veces, la solución que evita un agente.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AAB / BASE / 02</p>
+          <h4>Datos e IA sin programar</h4>
+          <p>Para profesionales de negocio que trabajan con hojas de cálculo.</p>
+          <a class="ag-course-link" href="/courses/data-and-ai-analytics-for-non-programmers-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AAB / BASE / 03</p>
+          <h4>Bases de datos MySQL</h4>
+          <p>Las tablas que un agente consulta, diseñadas y protegidas con criterio.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Entender los modelos</h3>
+        <span class="ag-band-sub">Lo que hay detrás del agente</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AAB / MODELO / 01</p>
+          <h4>IA generativa por dentro</h4>
+          <p>Modelos de lenguaje, tokens y conexión a datos propios.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AAB / MODELO / 02</p>
+          <h4>Aprendizaje automático</h4>
+          <p>Cómo aprende y se evalúa un modelo, sin cajas negras.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AAB / MODELO / 03</p>
+          <h4>Ciencia de datos</h4>
+          <p>Del dato sucio al informe que respalda una decisión.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Equipo y carrera</h3>
+        <span class="ag-band-sub">Desde los 18 años</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AAB / EQUIPO / 01</p>
+          <h4>Herramientas de IA con criterio</h4>
+          <p>Uso diario de la IA generativa sin perder el juicio propio.</p>
+          <a class="ag-course-link" href="/courses/ai-tools-mastery-complete-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AAB / EQUIPO / 02</p>
+          <h4>Hackathons para profesionales</h4>
+          <p>Construir y presentar un prototipo con IA en poco tiempo.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AAB / EQUIPO / 03</p>
+          <h4>Copilot Studio para recién egresados</h4>
+          <p>Solo individual: agentes con datos y conectores, para quien empieza su carrera.</p>
+          <a class="ag-course-link" href="/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Formato</p>
+      <h2>¿Cómo son las clases del curso de agentes para profesionales?</h2>
+      <p class="ag-lede">Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Madrugada limeña</p><p class="ag-slot-l">Antes de que empiece la jornada.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Pausa del almuerzo</p><p class="ag-slot-l">Una sesión corta entre reuniones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Noche</p><p class="ag-slot-l">Después de la oficina, sin prisa.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Su caso real</h3><p>En individual, el agente del curso resuelve una tarea de su trabajo.</p></div>
+      <div><h3>Entorno de práctica</h3><p>Nada toca datos reales antes de pasar las pruebas.</p></div>
+      <div><h3>Tabla de riesgos</h3><p>Cada herramienta tiene un nivel y un responsable humano.</p></div>
+      <div><h3>Bitácora obligatoria</h3><p>Todo agente del curso deja registro de lo que propone y hace.</p></div>
+      <div><h3>Mentor fijo</h3><p>La misma persona revisa su avance de principio a fin.</p></div>
+      <div><h3>Individual o grupo</h3><p>Copilot Studio y Gemini, individual; agentes de código, también en grupo de quince a veinte.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Proyectos de nuestros estudiantes</p>
+      <h2>Proyectos de estudiantes</h2>
+      <p class="ag-lede">Trabajos de estudiantes adultos y jóvenes, varios con automatización e IA. Más en <a class="ag-inline-link" href="/student-labs">Student labs</a>, en inglés.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Captura del proyecto NutriLife, un coach de nutrición con IA" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>NutriLife</h4>
+          <p>Un coach de nutrición con IA que analiza las comidas y avanza paso a paso hacia una meta.</p>
+          <p class="ag-proj-meta">de Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Captura de Misti, un chatbot con IA para matemáticas y programación" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>Misti</h4>
+          <p>Un chatbot que responde preguntas de matemáticas y programación, creado y publicado por un estudiante.</p>
+          <p class="ag-proj-meta">de Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Captura de GuardianX, un asistente con IA para la seguridad en internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>GuardianX</h4>
+          <p>Un asistente que ayuda a los jóvenes a reconocer situaciones de riesgo en internet.</p>
+          <p class="ag-proj-meta">de Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Captura de la aplicación del clima SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Aplicación web</p>
+          <h4>SkyCast</h4>
+          <p>Un sitio de pronóstico del clima con condiciones en vivo para cualquier lugar.</p>
+          <p class="ag-proj-meta">de Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Precios</p>
+      <h2>Cuánto cuesta el curso de agentes para profesionales</h2>
+      <p class="ag-lede">Las tarifas figuran en dólares estadounidenses y se cobran mensualmente con tarjeta; su banco aplica el tipo de cambio. Las licencias de Copilot Studio, Gemini Enterprise o las suscripciones de agentes de código, cuando se necesitan, son aparte y se contratan con cada empresa o las provee su organización.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Primera clase gratis</p>
+        <p class="ag-price-amt">Gratis</p>
+        <p class="ag-price-alt">sin tarjeta</p>
+        <ul><li>Clase de prueba sin costo</li><li>Diagnóstico de su caso de uso</li><li>Sin tarjeta para reservar</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Reservar</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Clase grupal</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Grupo de quince a veinte personas en agentes de código</li><li>Dos clases en directo por semana</li><li>Mentor fijo</li><li>Pago mensual</li></ul>
+        <a href="#start" class="ag-btn">Empezar aquí</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Clases individuales</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Usted y su mentor</li><li>Agente para un caso de su trabajo</li><li>Formato de los cursos de Copilot Studio y Gemini</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Consultar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lo que dicen las familias</p>
+      <h2>4.9 de 5 en 547 reseñas de Google</h2>
+      <p class="ag-lede">Opiniones de estudiantes publicadas en Google, en inglés y sin editar.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preguntas frecuentes</p>
+      <h2>Agentes de IA para profesionales: preguntas frecuentes</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>¿Las clases son en español?</h3>
+        <p>No, todas son en inglés, en directo y por internet, con mentores desde la India. Para un profesional suele ser una ventaja: Copilot Studio, Gemini Enterprise y los agentes de código se documentan en inglés, y practicar el idioma explicando su propio agente sirve en cualquier reunión. En el EF EPI 2025, Lima tiene nivel alto y atención al cliente llega a 585 puntos. El mentor habla claro y se adapta a su ritmo.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Necesito saber programar?</h3>
+        <p>No para Copilot Studio, que es de bajo código. Gemini Enterprise pide nivel intermedio. Los cursos de agentes de código empiezan desde cero para quien cambia de carrera.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Qué plataforma me conviene?</h3>
+        <p>La que ya usa su organización. Si trabajan con Microsoft 365, Copilot Studio; con Google Workspace, Gemini Enterprise; si su equipo es técnico, Codex y Claude Code. En la clase de prueba lo definimos juntos.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿El curso me asesora sobre la ley de IA?</h3>
+        <p>No. Explicamos qué dice el DS 115-2025-PCM como contexto y enseñamos a construir agentes con supervisión humana, bitácora y etiquetado, pero no damos asesoría legal ni de cumplimiento. Para eso, consulte a un abogado.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Qué usos de IA son de riesgo alto en el Perú?</h3>
+        <p>Entre otros, según el artículo 24.1 del reglamento: decidir contrataciones o despidos, evaluar créditos de personas salvo para detectar fraude, el acceso a servicios de salud y la gestión de servicios esenciales como energía o banca.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Puedo usar un caso real de mi empresa?</h3>
+        <p>Sí, en las clases individuales. Trabajamos primero en un entorno de práctica y con datos de prueba; usted decide qué información compartir según las reglas de su organización.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Las licencias están incluidas?</h3>
+        <p>No. Copilot Studio, Gemini Enterprise y las suscripciones de Codex y Claude Code se contratan con cada empresa o las provee su organización. Le ayudamos a preparar el entorno en la primera clase.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿En qué horario son las clases?</h3>
+        <p>Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, las 6:00 a. m. en Lima son las 4:30 p. m. en la India.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Recibo un certificado?</h3>
+        <p>Recibe nuestro certificado de finalización, que no tiene carácter oficial. Más útil ante un empleador es el agente que construyó, con su tabla de riesgos y su bitácora.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Cómo se paga?</h3>
+        <p>Mes a mes con tarjeta, en dólares estadounidenses; su banco hace la conversión. La clase de prueba no cuesta nada.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más lecturas</p>
+      <h2>Páginas relacionadas</h2>
+      <p class="ag-lede">En inglés, el idioma del curso.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/ai-agents-and-automation">AI agents and automation</a></h3><p>Cuándo automatizar con un script y cuándo hace falta un agente.</p></div>
+      <div><h3><a class="ag-inline-link" href="/agentic-coding-classes">Agentic coding classes</a></h3><p>Programar con agentes de código, paso a paso.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-for-working-professionals">AI and machine learning for working professionals</a></h3><p>La base de aprendizaje automático para quien ya trabaja.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-agents-explained">AI agents explained</a></h3><p>Qué es un agente, explicado desde cero.</p></div>
+      <div><h3><a class="ag-inline-link" href="/english-medium-coding-classes-lima">English-medium coding classes in Lima</a></h3><p>Cómo enseñamos en inglés a estudiantes de Lima.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Nuestro método, clase por clase.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Empiece aquí</p>
+        <h2>Traiga un caso de su trabajo a la clase de prueba</h2>
+        <p class="ag-lede">En la clase sin costo el mentor le pide describir una tarea repetitiva de su trabajo, la descompone con usted en herramientas, riesgos y aprobaciones, y le recomienda la plataforma y el curso adecuados.</p>
+        <p class="ag-mt-40">Si quiere leer antes, <a class="ag-inline-link" href="/ai-agents-and-automation">AI agents and automation</a> y <a class="ag-inline-link" href="/agentic-coding-classes">Agentic coding classes</a> explican en inglés el enfoque del curso.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20soy%20profesional%20en%20Per%C3%BA%20y%20me%20interesa%20el%20curso%20de%20agentes%20de%20IA%20en%20ingl%C3%A9s.%20%C2%BFPuedo%20agendar%20una%20clase%20de%20prueba%20sin%20costo%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'aab',pos:'end'});">Escríbanos por WhatsApp</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">El curso es en directo, en línea y en inglés, con mentores en la India. Para consultas previas, WhatsApp en castellano.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_aab(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Su nombre</label>
+            <input id="pe-name" type="text" name="name" placeholder="Nombre del padre, madre o estudiante" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Teléfono o WhatsApp, Perú +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Grupo de edad</label>
+            <select id="pe-age" name="age"><option value="6-12">Niño o niña, 6 a 12</option><option value="13-18">Adolescente, 13 a 18</option><option value="college">Universitario</option><option value="adult">Profesional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Solicitar la clase gratis</button>
+          <p class="ag-form-note">Sin costo ni tarjeta.</p>
+        </form>
+        <div class="ag-pd-card"><h3>¿Quiere una clase antes? Reserve una demo prioritaria</h3><p>Una demo prioritaria es una clase completa de unos 45 a 60 minutos. Después, el mentor envía por WhatsApp un informe escrito de habilidades y un plan de aprendizaje personal. Si se inscribe, el pago de la demo se descuenta de la primera mensualidad: envíenos por WhatsApp el número de pedido de la demo.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Reservar una demo prioritaria</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Clases en vivo y en línea de programación, IA y matemáticas para personas de 6 a 67 años, siempre en inglés. Enseñamos desde 2020, a más de
+          10,000 estudiantes en 25 países.
+        </p>
+      </div>
+      <div><h4>Agentes para el trabajo</h4><ul><li><a href="/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals">Copilot Studio</a></li><li><a href="/courses/build-ai-agents-with-google-gemini-enterprise-course">Gemini Enterprise</a></li><li><a href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">Codex y Claude Code</a></li><li><a href="/courses">Todos los cursos</a></li></ul></div>
+      <div><h4>Perú</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Clases en Perú</a></li><li><a href="/english-medium-coding-classes-lima">Clases en inglés en Lima</a></li><li><a href="/ai-agents-and-automation">Agentes y automatización</a></li><li><a href="/how-we-teach">Cómo enseñamos</a></li></ul></div>
+      <div>
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="/about">Quiénes somos</a></li>
+          <li><a href="/how-we-teach">Cómo enseñamos</a></li>
+          <li><a href="/love">Reseñas</a></li>
+          <li><a href="/contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Clases en vivo y en línea, en inglés, para todo el mundo.</span>
+      <span>Si una herramienta no está en la tabla, el agente no la usa</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Clase gratis</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Demo prioritaria</a><a href="tel:+919123366161" aria-label="Llamar al +91 91233 66161">Llamar</a></div>
+
+<script>
+window.submitLead_aab = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Enviando...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'curso-de-agentes-de-ia-para-profesionales-inline', meta: { name: name, age: age, page: 'curso-de-agentes-de-ia-para-profesionales' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Muchas gracias' + (name ? ', ' + name.split(' ')[0] : '') + '. Un mentor le llamará en breve.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Algo salió mal. Por favor, inténtelo de nuevo.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Error de conexión. Por favor, inténtelo de nuevo.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

@@ -32691,6 +32691,18 @@
   to = "/src/pages/curso-de-agentes-de-ia-peru.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/curso-de-agentes-de-ia-para-profesionales"
+  to = "/src/pages/curso-de-agentes-de-ia-para-profesionales.html"
+  status = 200
+
+[[redirects]]
+  from = "/curso-de-agentes-de-ia-para-profesionales.md"
+  to = "/src/pages/curso-de-agentes-de-ia-para-profesionales.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
