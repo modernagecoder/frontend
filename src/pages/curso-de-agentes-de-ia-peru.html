@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Curso de agentes de IA en Perú, en vivo y en inglés</title>
+  <meta name="description" content="Curso de agentes de IA para principiantes en Perú: qué son, cómo funcionan y ejemplos reales. Clases en vivo y en inglés, en grupo o 1 a 1, desde los 13 años.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/curso-de-agentes-de-ia-peru">
+  <link rel="alternate" type="text/markdown" href="/src/pages/curso-de-agentes-de-ia-peru.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#015636">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/curso-de-agentes-de-ia-peru">
+  <meta property="og:title" content="Curso de agentes de IA en Perú, en vivo y en inglés">
+  <meta property="og:description" content="Qué es un agente de IA según las empresas que los construyen, en qué se diferencia de un chatbot, cuándo no hace falta uno y un agente en Python con dos herramientas, escrito por nosotros.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="es_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Curso de agentes de IA en Perú, en vivo y en inglés">
+  <meta name="twitter:description" content="Aprenda a construir agentes de IA en vivo y en inglés desde Perú: para principiantes, adultos y adolescentes desde los 13, con mentor.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-age .ag-hero h1 { letter-spacing: -0.009em; max-width: 18ch; }
+.ag-root.ag-age .ag-capsule { border-left-width: 4px; border-radius: 6px; }
+.ag-root.ag-age .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-age .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-age .ag-steps li { line-height: 1.65; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/curso-de-agentes-de-ia-peru#page","url":"https://learn.modernagecoders.com/curso-de-agentes-de-ia-peru","name":"Curso de agentes de IA en Perú","description":"Guía para principiantes en Perú sobre los agentes de inteligencia artificial: definiciones de Google Cloud, OpenAI, Anthropic y Microsoft, la diferencia entre agentes, asistentes y bots, cuándo no conviene un agente, qué dice el reglamento peruano de IA sobre autonomía y supervisión humana, qué curso corresponde a cada edad y un agente en Python escrito por nosotros.","inLanguage":"es-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Cursos","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Perú","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Agentes de IA","item":"https://learn.modernagecoders.com/curso-de-agentes-de-ia-peru"}]},{"@type":"Course","name":"Curso de agentes de IA en Perú","description":"Curso en vivo y en línea de agentes de inteligencia artificial para principiantes en todo el Perú, dictado solo en inglés por mentores desde la India: qué es un agente, cómo combina un modelo, herramientas e instrucciones, cómo se controla con límites y supervisión humana, y cómo se construye con Python, Copilot Studio o agentes de programación, según la edad, en grupo o en clases individuales.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/curso-de-agentes-de-ia-peru"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/curso-de-agentes-de-ia-peru"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/curso-de-agentes-de-ia-peru"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Las clases son en español?","acceptedAnswer":{"@type":"Answer","text":"No, son en inglés de principio a fin, en vivo y por internet, con mentores desde la India. Para quien construye agentes eso ayuda: la documentación de Copilot Studio, Gemini, Codex y Claude Code está en inglés, y los agentes se instruyen mejor cuando uno domina el idioma de la herramienta. Lima tiene un nivel de inglés alto según el EF EPI 2025. El mentor habla claro y ajusta el ritmo."}},{"@type":"Question","name":"¿Qué es un agente de IA, en una frase?","acceptedAnswer":{"@type":"Answer","text":"Un programa que recibe un objetivo y lo cumple por pasos, eligiendo herramientas, revisando el resultado y deteniéndose cuando termina o cuando alcanza un límite."}},{"@type":"Question","name":"¿Necesito saber programar?","acceptedAnswer":{"@type":"Answer","text":"No para empezar. Con Copilot Studio se construyen agentes sin código, y en los cursos con Python se empieza desde cero. Saber programar ayuda a entender qué hace el agente por dentro."}},{"@type":"Question","name":"¿Qué ejemplos de agentes de IA hay?","acceptedAnswer":{"@type":"Answer","text":"Un agente que clasifica correos y redacta borradores para aprobar, uno que cruza horarios con una agenda, uno que resume una hoja de ventas y uno que corre pruebas de un programa y propone arreglos. Todos los construimos en clase."}},{"@type":"Question","name":"¿Un adolescente puede tomar el curso?","acceptedAnswer":{"@type":"Answer","text":"Sí, desde los 13 años, con Copilot Studio en clases individuales y con un padre o tutor que acepte los términos de Microsoft, o con agentes escritos en Python sin cuentas externas. Claude y Claude Code no se usan con menores de 18."}},{"@type":"Question","name":"¿Agentes de IA o IA generativa?","acceptedAnswer":{"@type":"Answer","text":"La IA generativa produce contenido cuando se le pide. Un agente la usa como cerebro para decidir pasos y actuar con herramientas. El curso enseña ambas piezas y cómo se combinan."}},{"@type":"Question","name":"¿Necesito pagar herramientas aparte?","acceptedAnswer":{"@type":"Answer","text":"Depende del curso. Los agentes en Python no requieren pagos externos. Los cursos de Codex y Claude Code requieren suscripciones que se contratan directamente con cada empresa."}},{"@type":"Question","name":"¿En qué horario son las clases?","acceptedAnswer":{"@type":"Answer","text":"Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, las 7:00 a. m. en Lima son las 5:30 p. m. en la India."}},{"@type":"Question","name":"¿Tiene certificado?","acceptedAnswer":{"@type":"Answer","text":"Al terminar se entrega un certificado de finalización de Modern Age Coders, sin valor oficial y no universitario. Lo que de verdad cuenta es el agente funcionando que usted puede enseñar."}},{"@type":"Question","name":"¿Cómo se paga?","acceptedAnswer":{"@type":"Answer","text":"Una vez al mes, con tarjeta; el importe está en dólares estadounidenses y la conversión corre por cuenta de su banco. Reservar la prueba no requiere tarjeta."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/curso-de-agentes-de-ia-peru","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-age">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Perú</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Perú</a></li>
+      <li><a href="#que-son">Qué son</a></li>
+      <li><a href="#diferencias">Agente o chatbot</a></li>
+      <li><a href="#ejemplo">Ejemplo en Python</a></li>
+      <li><a href="#cuando-no">Cuándo no</a></li>
+      <li><a href="#edades">Por edad</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Clase gratis</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a> / <a href="/courses">Cursos</a> / <a href="/coding-and-ai-classes-in-peru">Perú</a> / Agentes de IA
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Perú &middot; Agentes de IA &middot; Principiantes desde los 13 años</p>
+        <h1>Curso de agentes de IA, en vivo y en inglés</h1>
+        <p class="ag-lede">Un chatbot responde. Un agente actúa: consulta una agenda, busca un dato, llena un formulario, revisa si lo logró y decide el siguiente paso. Esa diferencia explica por qué "agentes de IA" se volvió una de las búsquedas de tecnología más frecuentes en el Perú. Este curso enseña a construirlos entendiendo cada pieza, sin magia y con control.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Reservar la primera clase gratis</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Reservar una demo prioritaria</a>
+          <a href="#que-son" class="ag-btn ag-btn--ghost">Qué es un agente, en breve</a>
+          <a href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20me%20interesa%20el%20curso%20de%20agentes%20de%20IA%20en%20ingl%C3%A9s%20desde%20Per%C3%BA.%20%C2%BFPuedo%20tomar%20una%20clase%20de%20prueba%20gratis%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'age'});">Consultar por WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Clases en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; 4.9 en reseñas de Google</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">En resumen</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 de 5 en 547 reseñas de Google
+        </p>
+        <dl>
+          <dt>Idioma de las clases</dt><dd>Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante</dd>
+          <dt>Nivel</dt><dd>Principiante; no hace falta programar</dd>
+          <dt>Edades</dt><dd>Adolescentes desde los 13 años y adultos</dd>
+          <dt>Herramientas</dt><dd>Python, Copilot Studio y agentes de programación, según la edad</dd>
+          <dt>Formato</dt><dd>Grupo de quince a veinte o individual; Copilot Studio solo individual</dd>
+          <dt>Idioma</dt><dd>Inglés, con mentor en vivo desde la India</dd>
+          <dt>Inicio</dt><dd>Clase de prueba gratuita</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Respuesta directa</p>
+      <p>Un agente de IA es un programa que recibe un objetivo y lo cumple por pasos: decide qué herramienta usar, la usa, revisa el resultado y sigue hasta terminar o detenerse. Modern Age Coders enseña a construir agentes de IA a estudiantes del Perú, en vivo, por videollamada y en inglés, para principiantes adultos y para adolescentes desde los 13 años, con herramientas que cada edad puede usar. Elija clase grupal o individual, el día y la hora que le acomoden.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cursos de agentes</p>
+      <h2>Tres cursos para construir agentes de IA</h2>
+      <p class="ag-lede">Uno para adolescentes, uno para universitarios y uno para adultos que quieren que un agente programe con ellos.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens">
+        <div class="ag-pick-shot"><img src="/images/copilot-studio-teens.webp" alt="Imagen del curso de agentes de IA con Microsoft Copilot Studio para adolescentes" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AGE / 01</p>
+          <h3>Agentes con Copilot Studio, de 13 a 18 años</h3>
+          <p>Solo en clases individuales. El estudiante crea agentes con conocimiento propio, herramientas y flujos; si es menor de 18, un padre o tutor acepta los términos de Microsoft.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students">
+        <div class="ag-pick-shot"><img src="/images/copilot-studio-college.webp" alt="Imagen del curso de agentes de IA con Microsoft Copilot Studio para universitarios" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AGE / 02</p>
+          <h3>Agentes con Copilot Studio para universitarios</h3>
+          <p>Desde los 18 años, en clases individuales. Agentes conectados a datos y a otras aplicaciones, con pruebas antes de publicarlos y límites claros.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">
+        <div class="ag-pick-shot"><img src="/images/codex-claude-code-adults.webp" alt="Imagen del curso de agentes de programación Codex y Claude Code para adultos" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AGE / 03</p>
+          <h3>Agentes que programan: Codex y Claude Code</h3>
+          <p>Para adultos, desde cero o con experiencia. Cómo trabajar con un agente que escribe código sin perder el control de lo que hace, revisando cada cambio.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="que-son">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Qué son</p><h2>¿Qué son los agentes de IA y cómo funcionan?</h2><p class="ag-lede">Son sistemas que reciben un objetivo y avanzan hacia él por su cuenta, eligiendo pasos y herramientas. Las empresas que los construyen los definen de manera parecida, y conviene leerlas en sus propias palabras.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cómo definen un agente de IA las empresas que los construyen</caption><thead><tr><th scope="col">Empresa y documento</th><th scope="col">Definición, citada</th><th scope="col">Lo que subraya</th></tr></thead><tbody><tr><td>Google Cloud, "¿Qué son los agentes de IA?"</td><td>"Sistemas de software que usan la IA para alcanzar objetivos y completar tareas en nombre de los usuarios"</td><td>Razonamiento, planificación, memoria y cierto grado de autonomía</td></tr><tr><td>OpenAI, "A practical guide to building agents"</td><td>"Systems that independently accomplish tasks on your behalf"</td><td>Tres piezas: un modelo, herramientas e instrucciones</td></tr><tr><td>Anthropic, "Building effective agents" (19 de diciembre de 2024)</td><td>Sistemas donde el modelo "dynamically direct their own processes and tool usage"</td><td>Lo separa de un flujo fijo, escrito de antemano</td></tr><tr><td>Microsoft, documentación de Copilot Studio</td><td>"An AI assistant that handles conversations and completes tasks"</td><td>Sigue instrucciones, usa conocimiento conectado y herramientas</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuentes: páginas oficiales de Google Cloud (versión en castellano), OpenAI, Anthropic y Microsoft Learn, descargadas y leídas en noviembre de 2026. Las citas en inglés se dejan en su idioma original; la tercera columna es nuestro resumen.</p>
+    <p class="ag-mt-40">Juntando las cuatro definiciones, un agente funciona como un ciclo de cuatro tiempos. <strong>Mira</strong> el estado de su tarea; <strong>decide</strong> qué hacer, a veces con un modelo de lenguaje y a veces con reglas; <strong>actúa</strong> con una herramienta, como una búsqueda o un cálculo; y <strong>comprueba</strong> si ya cumplió el objetivo. Si no, vuelve a empezar. Todo lo demás, desde un asistente de Teams hasta un agente que programa, es una variación de ese ciclo.</p>
+    <p>Antes de los agentes conviene entender la IA que los mueve. Si usted parte de cero, nuestro <a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">resumen de clases de programación e IA en el Perú</a> le muestra por dónde empezar según su edad, y para escolares que quieren aprovechar el verano está el plan de <a class="ag-inline-link" href="/vacaciones-utiles-2027-inteligencia-artificial">vacaciones útiles 2027 de inteligencia artificial</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="diferencias">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Agente, asistente o bot</p><h2>¿En qué se diferencia un agente de IA de un chatbot o de la IA generativa?</h2><p class="ag-lede">En la autonomía. La IA generativa produce un texto o una imagen cuando se le pide. Un asistente ayuda dentro de una conversación. Un agente recibe una meta y decide por sí mismo varios pasos seguidos para alcanzarla.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Agentes, asistentes y bots según Google Cloud</caption><thead><tr><th scope="col">Tipo</th><th scope="col">Autonomía</th><th scope="col">Para qué sirve</th></tr></thead><tbody><tr><td>Agente de IA</td><td>La mayor: decide y actúa por pasos</td><td>Tareas y flujos de trabajo complejos</td></tr><tr><td>Asistente de IA</td><td>Menor: necesita la intervención del usuario</td><td>Colaborar con una persona dentro de un producto</td></tr><tr><td>Bot</td><td>La menor: sigue reglas preprogramadas</td><td>Tareas e interacciones sencillas</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: Google Cloud, "¿Qué son los agentes de IA?", sección sobre agentes, asistentes y bots. Ahí se lee que los asistentes "son menos autónomos y requieren la intervención y las entradas del usuario", y que los bots "son los que menos autonomía tienen, ya que suelen seguir reglas preprogramadas". Consultado en noviembre de 2026.</p>
+    <p class="ag-mt-40">Algunos ejemplos que usamos en clase, todos nuestros: un agente que revisa la bandeja de entrada de una academia, clasifica las consultas y redacta borradores para que una persona los apruebe; uno que compara tres horarios de clases con la agenda de una familia; uno que lee una hoja de cálculo de ventas, detecta los días anómalos y escribe un resumen; y uno de programación que corre las pruebas de un proyecto, encuentra la que falla y propone un cambio. En los cuatro casos hay un objetivo, herramientas y un momento en que el agente debe parar.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="ejemplo">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Primer agente</p><h2>¿Cómo se programa un agente de IA sencillo? Un ejemplo en Python</h2><p class="ag-lede">Así empieza el curso, sin ningún modelo de lenguaje, para ver el esqueleto limpio. La agenda es inventada por nosotros: la familia tiene ocupadas las 4, las 5 y las 7 de la tarde, y el agente debe encontrar una hora libre y traducirla a la hora de la India.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Un agente con dos herramientas y memoria</b><span>Python</span></figcaption><pre># Objetivo: encontrar la primera hora libre de la familia y decir qué hora es en la India
+ocupadas = {16, 17, 19}            # agenda inventada: fútbol, tareas, cena
+
+def agenda_libre(hora_lima):       # herramienta 1: consulta la agenda
+    return hora_lima not in ocupadas
+
+def a_india(hora_lima):            # herramienta 2: Perú UTC-5, India UTC+5:30
+    return (hora_lima + 10.5) % 24
+
+candidatas = [16, 17, 18, 19]      # horas de Lima que propone la familia
+memoria = {'probadas': [], 'elegida': None}
+MAX_PASOS = 6
+
+for paso in range(1, MAX_PASOS + 1):
+    if memoria['elegida'] is not None:
+        h = memoria['elegida']
+        print('step', paso, 'DONE: Lima', h, '= India', a_india(h))
+        break
+    pendientes = [h for h in candidatas if h not in memoria['probadas']]
+    if not pendientes:
+        print('step', paso, 'STOP: nothing free, ask the family')
+        break
+    hora = pendientes[0]
+    libre = agenda_libre(hora)
+    memoria['probadas'].append(hora)
+    print('step', paso, 'check Lima', hora, '-&gt;', 'free' if libre else 'busy')
+    if libre:
+        memoria['elegida'] = hora
+else:
+    print('STOP: step limit reached')</pre><p class="ag-code-note">Las dos funciones son las herramientas. El diccionario <code>memoria</code> guarda lo que ya probó. Cada vuelta del bucle es un paso: mirar, decidir, actuar y comprobar. <code>MAX_PASOS</code> es el freno.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Lo que hace el agente</b><span>Salida</span></figcaption><pre>step 1 check Lima 16 -&gt; busy
+step 2 check Lima 17 -&gt; busy
+step 3 check Lima 18 -&gt; free
+step 4 DONE: Lima 18 = India 4.5</pre><p class="ag-code-note">Salida real de Python 3 en nuestro equipo, sin retoques. El 4.5 significa las 4:30 de la madrugada siguiente en la India.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><strong>Mirar.</strong> Al empezar cada paso, el agente revisa su memoria: ¿ya eligió una hora? ¿Qué candidatas le quedan por probar? Sin memoria, repetiría la misma consulta para siempre.</li><li><strong>Decidir y actuar.</strong> Toma la primera candidata pendiente y llama a la herramienta <code>agenda_libre</code>. Las 16 y las 17 están ocupadas; las 18 están libres.</li><li><strong>Comprobar.</strong> En el paso 4 encuentra una hora elegida, usa la segunda herramienta, <code>a_india</code>, y termina: <code>DONE: Lima 18 = India 4.5</code>.</li><li><strong>Primer freno: no queda nada.</strong> Si las candidatas fueran 16, 17 y 19, todas ocupadas, el agente no inventa una hora: en el paso 4 imprime <code>STOP: nothing free, ask the family</code> y devuelve el problema a una persona.</li><li><strong>Segundo freno: límite de pasos.</strong> Con <code>MAX_PASOS = 2</code>, el agente prueba las 16 y las 17 y se detiene con <code>STOP: step limit reached</code>, aunque la solución estaba en el paso siguiente. Un límite protege, pero también puede cortar demasiado pronto.</li></ol>
+    <p class="ag-mt-40">En los módulos siguientes el estudiante cambia la decisión por reglas por la de un modelo de lenguaje, que elige la herramienta según el objetivo escrito en lenguaje natural. El esqueleto sigue siendo el mismo: herramientas, memoria, comprobación y frenos. Quien entendió este programa de treinta líneas entiende qué está pasando dentro de un agente comercial, y sabe dónde buscar cuando se equivoca.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="cuando-no">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Cuándo no</p><h2>¿Siempre conviene usar un agente de IA?</h2><p class="ag-lede">No. Un agente es más caro, más lento y más difícil de controlar que un programa con pasos fijos. Las propias empresas que los construyen recomiendan empezar por lo más simple.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Lo que aconseja Anthropic</h3><p>En "Building effective agents", publicado el 19 de diciembre de 2024, Anthropic recomienda "finding the simplest solution possible, and only increasing complexity when needed". Es decir, si la tarea siempre sigue los mismos pasos, basta un flujo de trabajo fijo.</p>
+<p>El mismo texto propone incluir "stopping conditions (such as a maximum number of iterations) to maintain control". Es exactamente el <code>MAX_PASOS</code> del ejemplo de arriba.</p></div><div><h3>Lo que dice el reglamento peruano</h3><p>El Reglamento de la Ley 31814, aprobado por el DS 115-2025-PCM el 9 de setiembre de 2025, reconoce en su artículo 6 que los sistemas de IA "varían en sus niveles de autonomía". Un agente es justamente un sistema con más autonomía.</p>
+<p>Entre sus principios rectores, el artículo 7 incluye la supervisión humana: la intervención de una persona es necesaria para "corregir, modificar o detener" estos sistemas. Lo citamos como contexto, sin dar asesoría legal.</p></div></div>
+    <p class="ag-mt-40">En el curso esto se traduce en una costumbre: antes de construir un agente, el estudiante escribe en una línea por qué un programa común no alcanza. Si no puede justificarlo, construye el programa común. Y cada agente que construye tiene un freno y un punto donde devuelve la decisión a una persona.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="edades">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Por edad</p><h2>¿Quién puede tomar un curso de agentes de IA y desde qué edad?</h2><p class="ag-lede">Desde los 13 años, pero no con cualquier herramienta. Varias plataformas de agentes exigen mayoría de edad o una cuenta de trabajo, así que el curso depende de la edad del estudiante.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Qué curso de agentes corresponde a cada edad (criterio nuestro, a partir de los términos de cada empresa)</caption><thead><tr><th scope="col">Edad</th><th scope="col">Herramienta del curso</th><th scope="col">Condición</th><th scope="col">Formato</th></tr></thead><tbody><tr><td>13 a 17 años</td><td>Microsoft Copilot Studio</td><td>Un padre, madre o tutor acepta los términos de Microsoft</td><td>Solo individual</td></tr><tr><td>13 a 17 años</td><td>Python, con agentes escritos por el estudiante</td><td>Sin cuentas externas</td><td>Grupo o individual</td></tr><tr><td>18 años o más, universitarios</td><td>Copilot Studio con datos y conectores</td><td>Cuenta de trabajo o de estudio, o entorno de práctica</td><td>Solo individual</td></tr><tr><td>Adultos</td><td>Codex y Claude Code, agentes de programación</td><td>Claude exige 18 años; suscripciones propias de cada empresa</td><td>Grupo o individual</td></tr><tr><td>Adultos en empresas</td><td>Gemini Enterprise o Copilot Studio</td><td>Cuenta de la organización</td><td>Solo individual</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuentes: fichas de nuestros cursos y términos de Anthropic y Microsoft citados en nuestra <a class="ag-inline-link" href="/ai-tools-age-guide">AI tool age guide</a> (auditoría del 15 de julio de 2026). Ningún estudiante menor de 18 usa Claude ni Claude Code en nuestras clases.</p>
+    <p class="ag-mt-40">Para profesionales que quieren usar agentes en su trabajo, con aprobaciones, bitácoras y los plazos del reglamento peruano por sector, preparamos una guía aparte. Mientras tanto, la página en inglés <a class="ag-inline-link" href="/ai-agents-explained">AI agents explained</a> amplía las ideas de esta sección.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="horario">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Horario</p><h2>¿Cuándo son las clases de agentes de IA, si el mentor está en la India?</h2><p class="ag-lede">Cuando usted las reserve. La diferencia con la India es de diez horas y media durante todo el año, sin horario de verano en ninguno de los dos países.</p></div>
+    <p>Tres equivalencias que calculamos con los husos oficiales (Perú UTC-5, India UTC+5:30), igual que lo hace la segunda herramienta del agente: las 7:00 a. m. en Lima son las 5:30 p. m. en la India; las 12:30 p. m. limeñas son las 11:00 p. m. allá; y las 9:00 p. m. en Lima son las 7:30 a. m. del día siguiente en la India. Son conversiones, no horarios de clase.</p>
+    <p>Los adultos que trabajan suelen elegir la mañana temprano o la noche; los adolescentes, la tarde después del colegio o el fin de semana. En el formato individual la hora puede cambiar cada semana.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Avance</p>
+      <h2>¿Cómo se mide el avance construyendo agentes de IA?</h2>
+      <p class="ag-lede">Cinco niveles nuestros para describir qué tan lejos ha llegado un estudiante. No son una certificación.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cinco niveles en la construcción de agentes (escala nuestra)</caption><thead><tr><th scope="col">Nivel</th><th scope="col">Qué construye</th><th scope="col">Qué demuestra</th></tr></thead><tbody><tr><td>1. Bucle</td><td class="ag-num">Un agente por reglas como el del ejemplo</td><td class="ag-num">Entiende herramientas, memoria y frenos</td></tr><tr><td>2. Modelo</td><td class="ag-num">El mismo agente decidiendo con un modelo de lenguaje</td><td class="ag-num">Sabe cuándo la decisión es del modelo y cuándo del código</td></tr><tr><td>3. Conocimiento</td><td class="ag-num">Un agente que responde con documentos propios</td><td class="ag-num">Detecta respuestas sin respaldo y las corrige</td></tr><tr><td>4. Control</td><td class="ag-num">Un agente con aprobaciones humanas y registro de pasos</td><td class="ag-num">Diseña dónde parar y quién decide</td></tr><tr><td>5. Proyecto</td><td class="ag-num">Un agente útil para un caso real, probado y documentado</td><td class="ag-num">Lo explica y lo defiende en inglés</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Para adultos</h3><p>Empiece por un problema propio y pequeño. Un agente que le ahorra veinte minutos al día vale más que uno espectacular que nunca usa.</p>
+<p>Pregúntese siempre qué pasa si el agente se equivoca, y quién lo nota.</p></div><div><h3>Para adolescentes</h3><p>Construya el bucle a mano antes de usar cualquier plataforma.</p>
+<p>Un agente sin freno no está terminado, por bien que funcione el primer día.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más cursos</p>
+      <h2>Nueve cursos más cerca de los agentes</h2>
+      <p class="ag-lede">La base que necesita un agente, agentes en el trabajo y el motor que hay detrás, todos en vivo y en inglés.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Antes del agente</h3>
+        <span class="ag-band-sub">Programar y usar IA con criterio</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AGE / BASE / 01</p>
+          <h4>Python para adultos</h4>
+          <p>Desde los 18 años: el lenguaje en que se escriben las herramientas de un agente.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AGE / BASE / 02</p>
+          <h4>Python para adolescentes</h4>
+          <p>De 13 a 18 años: lo necesario para escribir agentes propios sin cuentas externas.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AGE / BASE / 03</p>
+          <h4>Herramientas de IA para adultos</h4>
+          <p>Instrucciones claras y verificación de respuestas antes de delegar tareas.</p>
+          <a class="ag-course-link" href="/courses/ai-tools-mastery-complete-college">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Agentes en el trabajo</h3>
+        <span class="ag-band-sub">Desde los 18 años</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AGE / TRABAJO / 01</p>
+          <h4>Copilot Studio para profesionales</h4>
+          <p>Solo individual: agentes para procesos de una empresa, con datos y aprobaciones.</p>
+          <a class="ag-course-link" href="/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AGE / TRABAJO / 02</p>
+          <h4>Agentes con Gemini Enterprise</h4>
+          <p>Solo individual: agentes en el entorno de Google de una organización.</p>
+          <a class="ag-course-link" href="/courses/build-ai-agents-with-google-gemini-enterprise-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AGE / TRABAJO / 03</p>
+          <h4>Automatización con Python</h4>
+          <p>Scripts que hacen el trabajo repetitivo; a menudo, la solución simple que evita un agente.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>El motor por dentro</h3>
+        <span class="ag-band-sub">Modelos de IA</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AGE / MOTOR / 01</p>
+          <h4>IA generativa por dentro</h4>
+          <p>Desde los 18 años: cómo funciona el modelo de lenguaje que decide en un agente.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AGE / MOTOR / 02</p>
+          <h4>Aprendizaje automático</h4>
+          <p>Desde los 18 años: datos, modelos y evaluación, la base de toda la IA.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AGE / MOTOR / 03</p>
+          <h4>IA para adolescentes</h4>
+          <p>De 13 a 18 años: modelos entrenados por el propio estudiante.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Las clases</p>
+      <h2>¿Cómo son las clases del curso de agentes de IA?</h2>
+      <p class="ag-lede">Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Antes del trabajo</p><p class="ag-slot-l">Para profesionales que estudian temprano.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Después del colegio</p><p class="ag-slot-l">Para adolescentes, en la tarde o el fin de semana.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Semana a semana</p><p class="ag-slot-l">En individual, la hora se acomoda a su agenda.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>El bucle primero</h3><p>Todo agente empieza escrito a mano, para ver cada pieza.</p></div>
+      <div><h3>Herramientas reales</h3><p>El estudiante conecta agentes a datos y servicios permitidos a su edad.</p></div>
+      <div><h3>Frenos obligatorios</h3><p>Cada agente tiene un límite de pasos y un punto de entrega a una persona.</p></div>
+      <div><h3>Pruebas antes de publicar</h3><p>Se buscan a propósito los casos en que el agente falla.</p></div>
+      <div><h3>Mentor fijo</h3><p>La misma persona acompaña al estudiante todo el curso.</p></div>
+      <div><h3>Grupo o individual</h3><p>Grupos de quince a veinte, o uno a uno; Copilot Studio, solo individual.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Proyectos de nuestros estudiantes</p>
+      <h2>Proyectos de estudiantes</h2>
+      <p class="ag-lede">Trabajos de estudiantes de varias edades, algunos con agentes y automatización. Más en <a class="ag-inline-link" href="/student-labs">Student labs</a>, en inglés.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Captura del proyecto NutriLife, un coach de nutrición con IA" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>NutriLife</h4>
+          <p>Un coach de nutrición con IA que analiza las comidas y avanza paso a paso hacia una meta.</p>
+          <p class="ag-proj-meta">de Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Captura de Misti, un chatbot con IA para matemáticas y programación" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>Misti</h4>
+          <p>Un chatbot que responde preguntas de matemáticas y programación, creado y publicado por un estudiante.</p>
+          <p class="ag-proj-meta">de Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Captura de GuardianX, un asistente con IA para la seguridad en internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>GuardianX</h4>
+          <p>Un asistente que ayuda a los jóvenes a reconocer situaciones de riesgo en internet.</p>
+          <p class="ag-proj-meta">de Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Captura de la aplicación del clima SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Aplicación web</p>
+          <h4>SkyCast</h4>
+          <p>Un sitio de pronóstico del clima con condiciones en vivo para cualquier lugar.</p>
+          <p class="ag-proj-meta">de Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Precios</p>
+      <h2>Cuánto cuesta el curso de agentes de IA</h2>
+      <p class="ag-lede">Las mensualidades figuran en dólares estadounidenses y se pagan con tarjeta. Su banco hace la conversión cuando procesa el cargo. Las suscripciones a herramientas de terceros, cuando el curso las requiere, se contratan aparte con cada empresa.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Primera clase gratis</p>
+        <p class="ag-price-amt">Gratis</p>
+        <p class="ag-price-alt">sin tarjeta</p>
+        <ul><li>Clase de prueba sin costo</li><li>El mentor sugiere el curso según su edad y objetivo</li><li>Sin tarjeta para reservar</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Reservar</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Clase grupal</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Grupo de quince a veinte estudiantes</li><li>Dos clases en directo por semana</li><li>Un mentor de inicio a fin</li><li>Pago mes a mes</li></ul>
+        <a href="#start" class="ag-btn">Empezar aquí</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Clases individuales</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Solo usted y su mentor</li><li>Agentes para su propio caso</li><li>Obligatorio en los cursos de Copilot Studio y Gemini</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Consultar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lo que dicen las familias</p>
+      <h2>4.9 de 5 en 547 reseñas de Google</h2>
+      <p class="ag-lede">Reseñas de estudiantes y familias publicadas en Google, en su inglés original.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preguntas frecuentes</p>
+      <h2>Agentes de IA: preguntas frecuentes</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>¿Las clases son en español?</h3>
+        <p>No, son en inglés de principio a fin, en vivo y por internet, con mentores desde la India. Para quien construye agentes eso ayuda: la documentación de Copilot Studio, Gemini, Codex y Claude Code está en inglés, y los agentes se instruyen mejor cuando uno domina el idioma de la herramienta. Lima tiene un nivel de inglés alto según el EF EPI 2025. El mentor habla claro y ajusta el ritmo.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Qué es un agente de IA, en una frase?</h3>
+        <p>Un programa que recibe un objetivo y lo cumple por pasos, eligiendo herramientas, revisando el resultado y deteniéndose cuando termina o cuando alcanza un límite.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Necesito saber programar?</h3>
+        <p>No para empezar. Con Copilot Studio se construyen agentes sin código, y en los cursos con Python se empieza desde cero. Saber programar ayuda a entender qué hace el agente por dentro.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Qué ejemplos de agentes de IA hay?</h3>
+        <p>Un agente que clasifica correos y redacta borradores para aprobar, uno que cruza horarios con una agenda, uno que resume una hoja de ventas y uno que corre pruebas de un programa y propone arreglos. Todos los construimos en clase.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Un adolescente puede tomar el curso?</h3>
+        <p>Sí, desde los 13 años, con Copilot Studio en clases individuales y con un padre o tutor que acepte los términos de Microsoft, o con agentes escritos en Python sin cuentas externas. Claude y Claude Code no se usan con menores de 18.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Agentes de IA o IA generativa?</h3>
+        <p>La IA generativa produce contenido cuando se le pide. Un agente la usa como cerebro para decidir pasos y actuar con herramientas. El curso enseña ambas piezas y cómo se combinan.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Necesito pagar herramientas aparte?</h3>
+        <p>Depende del curso. Los agentes en Python no requieren pagos externos. Los cursos de Codex y Claude Code requieren suscripciones que se contratan directamente con cada empresa.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿En qué horario son las clases?</h3>
+        <p>Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, las 7:00 a. m. en Lima son las 5:30 p. m. en la India.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Tiene certificado?</h3>
+        <p>Al terminar se entrega un certificado de finalización de Modern Age Coders, sin valor oficial y no universitario. Lo que de verdad cuenta es el agente funcionando que usted puede enseñar.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Cómo se paga?</h3>
+        <p>Una vez al mes, con tarjeta; el importe está en dólares estadounidenses y la conversión corre por cuenta de su banco. Reservar la prueba no requiere tarjeta.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más lecturas</p>
+      <h2>Otras páginas sobre agentes</h2>
+      <p class="ag-lede">Varias están en inglés, como las clases.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/ai-agents-explained">AI agents explained</a></h3><p>Una explicación más larga de qué es un agente y cómo se construye.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-agents-for-teens">AI agents for teens</a></h3><p>Agentes de IA para escolares, con sus reglas de edad.</p></div>
+      <div><h3><a class="ag-inline-link" href="/agentic-coding-classes">Agentic coding classes</a></h3><p>Programar con agentes como Codex y Claude Code, para adultos.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-agents-and-automation">AI agents and automation</a></h3><p>Cuándo basta automatizar y cuándo hace falta un agente.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>Nuestras clases para el Perú, por edad y tema.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tool age guide</a></h3><p>Qué edad exige cada herramienta de IA.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Empiece aquí</p>
+        <h2>Construya su primer agente en una clase de prueba</h2>
+        <p class="ag-lede">En la clase gratuita el mentor le pregunta qué tarea le gustaría delegar, arma con usted el esqueleto de un agente por reglas y le recomienda el curso que corresponde a su edad y su objetivo.</p>
+        <p class="ag-mt-40">Si quiere leer antes, <a class="ag-inline-link" href="/ai-agents-explained">AI agents explained</a> y <a class="ag-inline-link" href="/agentic-coding-classes">Agentic coding classes</a> amplían en inglés lo que verá en la clase.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20me%20interesa%20el%20curso%20de%20agentes%20de%20IA%20en%20ingl%C3%A9s%20desde%20Per%C3%BA.%20%C2%BFPuedo%20tomar%20una%20clase%20de%20prueba%20gratis%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'age',pos:'end'});">Escríbanos por WhatsApp</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">El curso de agentes se dicta en directo por videollamada y en inglés, desde la India. Sus preguntas previas puede enviarlas por WhatsApp en castellano.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_age(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Su nombre</label>
+            <input id="pe-name" type="text" name="name" placeholder="Nombre del padre, madre o estudiante" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Teléfono o WhatsApp, Perú +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Grupo de edad</label>
+            <select id="pe-age" name="age"><option value="6-12">Niño o niña, 6 a 12</option><option value="13-18">Adolescente, 13 a 18</option><option value="college">Universitario</option><option value="adult">Profesional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Solicitar la clase gratis</button>
+          <p class="ag-form-note">Gratis, sin tarjeta y sin compromiso.</p>
+        </form>
+        <div class="ag-pd-card"><h3>¿Quiere una clase antes? Reserve una demo prioritaria</h3><p>Una demo prioritaria es una clase completa de unos 45 a 60 minutos. Después, el mentor envía por WhatsApp un informe escrito de habilidades y un plan de aprendizaje personal. Si se inscribe, el pago de la demo se descuenta de la primera mensualidad: envíenos por WhatsApp el número de pedido de la demo.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Reservar una demo prioritaria</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Clases en vivo y en línea de programación, IA y matemáticas para personas de 6 a 67 años, siempre en inglés. Enseñamos desde 2020, a más de
+          10,000 estudiantes en 25 países.
+        </p>
+      </div>
+      <div><h4>Agentes de IA</h4><ul><li><a href="/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens">Copilot Studio, 13 a 18</a></li><li><a href="/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students">Copilot Studio, universitarios</a></li><li><a href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">Codex y Claude Code</a></li><li><a href="/courses">Todos los cursos</a></li></ul></div>
+      <div><h4>Perú</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Clases en Perú</a></li><li><a href="/vacaciones-utiles-2027-inteligencia-artificial">Verano de IA 2027</a></li><li><a href="/ai-agents-explained">Qué es un agente</a></li><li><a href="/ai-tools-age-guide">Edades de las herramientas</a></li></ul></div>
+      <div>
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="/about">Quiénes somos</a></li>
+          <li><a href="/how-we-teach">Cómo enseñamos</a></li>
+          <li><a href="/love">Reseñas</a></li>
+          <li><a href="/contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Clases en vivo y en línea, en inglés, para todo el mundo.</span>
+      <span>Un agente sin freno no está terminado</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Clase gratis</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Demo prioritaria</a><a href="tel:+919123366161" aria-label="Llamar al +91 91233 66161">Llamar</a></div>
+
+<script>
+window.submitLead_age = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Enviando...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'curso-de-agentes-de-ia-peru-inline', meta: { name: name, age: age, page: 'curso-de-agentes-de-ia-peru' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Muchas gracias' + (name ? ', ' + name.split(' ')[0] : '') + '. Un mentor le llamará en breve.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Algo salió mal. Por favor, inténtelo de nuevo.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Error de conexión. Por favor, inténtelo de nuevo.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
