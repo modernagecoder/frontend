@@ -32979,6 +32979,18 @@
   to = "/src/pages/curso-de-desarrollo-de-aplicaciones-en-ingles.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/curso-de-desarrollo-de-software-en-ingles-peru"
+  to = "/src/pages/curso-de-desarrollo-de-software-en-ingles-peru.html"
+  status = 200
+
+[[redirects]]
+  from = "/curso-de-desarrollo-de-software-en-ingles-peru.md"
+  to = "/src/pages/curso-de-desarrollo-de-software-en-ingles-peru.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
