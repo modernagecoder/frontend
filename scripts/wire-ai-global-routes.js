@@ -1034,6 +1034,7 @@ const SLUGS = [
   'clases-de-ingles-y-programacion-ninos',
   'online-coding-and-ai-classes-piura-region-peru',
   'online-coding-and-ai-classes-la-libertad-region-peru',
+  'online-coding-and-ai-classes-arequipa-region-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2147,6 +2148,7 @@ const LLMS_LABELS = {
   'clases-de-ingles-y-programacion-ninos': 'Inglés y programación para niños',
   'online-coding-and-ai-classes-piura-region-peru': 'Online coding and AI classes, Piura region, Peru',
   'online-coding-and-ai-classes-la-libertad-region-peru': 'Online coding and AI classes, La Libertad region, Peru',
+  'online-coding-and-ai-classes-arequipa-region-peru': 'Online coding and AI classes, Arequipa region, Peru',
 };
 
 function wireLlms(slugs) {
