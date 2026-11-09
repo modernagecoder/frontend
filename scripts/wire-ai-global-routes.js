@@ -1021,6 +1021,7 @@ const SLUGS = [
   'learn-coding-and-english-together-peru',
   'international-school-families-lima-coding',
   'aprender-a-pensar-no-copiar-programacion',
+  'programar-con-ia-sin-copiar',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2121,6 +2122,7 @@ const LLMS_LABELS = {
   'learn-coding-and-english-together-peru': 'Learn coding and English together in Peru',
   'international-school-families-lima-coding': 'Coding for international-school families in Lima',
   'aprender-a-pensar-no-copiar-programacion': 'Aprender a programar desde cero, pensando',
+  'programar-con-ia-sin-copiar': 'Programar con IA sin copiar',
 };
 
 function wireLlms(slugs) {
