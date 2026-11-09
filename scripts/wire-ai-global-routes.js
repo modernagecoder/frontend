@@ -1032,6 +1032,7 @@ const SLUGS = [
   'scratch-para-ninos-en-ingles',
   'robotica-o-programacion-para-ninos',
   'clases-de-ingles-y-programacion-ninos',
+  'online-coding-and-ai-classes-piura-region-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2143,6 +2144,7 @@ const LLMS_LABELS = {
   'scratch-para-ninos-en-ingles': 'Scratch para niños en inglés',
   'robotica-o-programacion-para-ninos': '¿Robótica o programación para niños?',
   'clases-de-ingles-y-programacion-ninos': 'Inglés y programación para niños',
+  'online-coding-and-ai-classes-piura-region-peru': 'Online coding and AI classes, Piura region, Peru',
 };
 
 function wireLlms(slugs) {
