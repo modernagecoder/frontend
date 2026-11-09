@@ -1043,6 +1043,7 @@ const SLUGS = [
   'peru-july-holiday-coding-classes',
   'app-development-course-peru',
   'app-development-for-teens-peru',
+  'software-development-course-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2165,6 +2166,7 @@ const LLMS_LABELS = {
   'peru-july-holiday-coding-classes': 'July holiday coding classes in Peru',
   'app-development-course-peru': 'App development course, Peru',
   'app-development-for-teens-peru': 'App development for teens, Peru',
+  'software-development-course-peru': 'Software development course, Peru',
 };
 
 function wireLlms(slugs) {
