@@ -1031,6 +1031,7 @@ const SLUGS = [
   'programacion-minecraft-para-ninos-peru',
   'scratch-para-ninos-en-ingles',
   'robotica-o-programacion-para-ninos',
+  'clases-de-ingles-y-programacion-ninos',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2141,6 +2142,7 @@ const LLMS_LABELS = {
   'programacion-minecraft-para-ninos-peru': 'Programación en Minecraft para niños',
   'scratch-para-ninos-en-ingles': 'Scratch para niños en inglés',
   'robotica-o-programacion-para-ninos': '¿Robótica o programación para niños?',
+  'clases-de-ingles-y-programacion-ninos': 'Inglés y programación para niños',
 };
 
 function wireLlms(slugs) {
