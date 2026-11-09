@@ -1025,6 +1025,9 @@ const SLUGS = [
   'alternativa-a-crack-the-code-en-ingles',
   'kodland-opiniones-alternativa',
   'colegio-bilingue-refuerzo-programacion',
+  'ai-course-for-kids-peru',
+  'maths-tutor-in-english-peru',
+  'programacion-roblox-para-ninos-en-ingles',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2129,6 +2132,9 @@ const LLMS_LABELS = {
   'alternativa-a-crack-the-code-en-ingles': 'Alternativa en inglés a Crack The Code',
   'kodland-opiniones-alternativa': 'Kodland: opiniones y una alternativa en inglés',
   'colegio-bilingue-refuerzo-programacion': 'Colegio bilingüe: refuerzo de programación en inglés',
+  'ai-course-for-kids-peru': 'AI course for kids in Peru',
+  'maths-tutor-in-english-peru': 'Maths tutor in English, Peru',
+  'programacion-roblox-para-ninos-en-ingles': 'Programación en Roblox para niños',
 };
 
 function wireLlms(slugs) {
