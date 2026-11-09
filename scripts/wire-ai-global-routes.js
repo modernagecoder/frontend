@@ -1040,6 +1040,7 @@ const SLUGS = [
   'math-olympiad-coaching-peru',
   'onem-preparation-in-english',
   'peru-university-admission-exams-explained',
+  'peru-july-holiday-coding-classes',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2159,6 +2160,7 @@ const LLMS_LABELS = {
   'math-olympiad-coaching-peru': 'Maths olympiad coaching in Peru',
   'onem-preparation-in-english': 'ONEM preparation in English',
   'peru-university-admission-exams-explained': 'Peru university admission exams explained',
+  'peru-july-holiday-coding-classes': 'July holiday coding classes in Peru',
 };
 
 function wireLlms(slugs) {
