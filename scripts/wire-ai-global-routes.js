@@ -937,6 +937,7 @@ const SLUGS = [
   'coding-and-ai-classes-in-neuss-germany',
   'coding-and-ai-classes-in-peru',
   'english-medium-coding-classes-lima',
+  'clases-de-programacion-para-ninos-en-ingles',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1953,6 +1954,7 @@ const LLMS_LABELS = {
   'coding-and-ai-classes-in-neuss-germany': 'Coding and AI classes in Neuss',
   'coding-and-ai-classes-in-peru': 'Coding and AI classes in Peru',
   'english-medium-coding-classes-lima': 'English-medium coding classes in Lima',
+  'clases-de-programacion-para-ninos-en-ingles': 'Clases de programación para niños en inglés',
 };
 
 function wireLlms(slugs) {
