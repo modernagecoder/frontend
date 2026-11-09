@@ -21,7 +21,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE220 | vacaciones-utiles-de-programacion-miraflores-lima (vami, #384213) | market | 5,035 | 2% vs vacaciones-utiles-2027-programacion-online | Miraflores summer by age: council workshops stop at 12, a gap for teens | logic: a range check needs and, not or (chained comparison) | fff735df |
 | PE227 | vacaciones-utiles-de-programacion-san-isidro-lima (vais, #384213) | market (es district, vacaciones útiles) | 5,459 | 1.7% vs vacaciones-utiles-2027-programacion-online | secundaria summer before OPI, OPEIA and admission dates | prefix sums: precompute once, count operations | 4153f8a5 |
 | PE219 | vacaciones-utiles-de-programacion-san-borja-lima (vut, #04693D) | market (es district, vacaciones útiles) | 4,817 | 1.9% vs vacaciones-utiles-de-programacion-la-molina-lima | primaria summer: sport talleres in the morning, code at home | one bad lap: average against median | c6564a92 |
-| PE215 | vacaciones-utiles-de-programacion-san-miguel-lima (vac, #11594E) | market (es district, vacaciones útiles) | 4,845 | 2.1% vs clases-de-programacion-para-ninos-en-ingles | summer reforzamiento: maths reasoning and Python together, 10 to 15 | conjecture, test, find the counterexample | (this commit) |
+| PE215 | vacaciones-utiles-de-programacion-san-miguel-lima (vac, #11594E) | market (es district, vacaciones útiles) | 4,845 | 2.1% vs clases-de-programacion-para-ninos-en-ingles | summer reforzamiento: maths reasoning and Python together, 10 to 15 | conjecture, test, find the counterexample | 1b82852f |
+| PE231 | vacaciones-utiles-de-programacion-barranco-lima (vupb, #5B6C00) | market (es district, vacaciones útiles) | 4,386 | 2% vs clases-de-programacion-para-ninos-en-ingles | creative coding for an arts district: patterns, animation, first web | modulo as a repeating index: one formula, many patterns | (this commit) |
 
 ## Notes
 
