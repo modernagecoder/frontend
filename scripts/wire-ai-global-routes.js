@@ -996,6 +996,7 @@ const SLUGS = [
   'clases-particulares-de-programacion-online-peru',
   'mejores-clases-de-programacion-para-ninos-peru',
   'mejor-curso-de-python-peru',
+  'mejor-curso-de-inteligencia-artificial-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2071,6 +2072,7 @@ const LLMS_LABELS = {
   'clases-particulares-de-programacion-online-peru': 'Clases particulares de programación online',
   'mejores-clases-de-programacion-para-ninos-peru': 'Cómo elegir clases de programación para niños',
   'mejor-curso-de-python-peru': 'Cómo elegir un curso de Python',
+  'mejor-curso-de-inteligencia-artificial-peru': 'Cómo elegir un curso de inteligencia artificial',
 };
 
 function wireLlms(slugs) {

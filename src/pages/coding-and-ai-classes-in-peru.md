@@ -276,7 +276,7 @@ Each page below takes one age, subject, exam, region, city or Lima district and 
 
 **School, exams and competitions:** [IB Ciencias de la Computación](/bachillerato-internacional-ciencias-de-la-computacion-tutor) · [Programación para 5to de secundaria](/programacion-para-5to-de-secundaria) · [Summer holiday coding (vacaciones útiles)](/peru-summer-holiday-coding-classes-online) · [Talleres de verano de programación online](/talleres-de-verano-programacion-ninos-online) · [Tutor de IB Matemáticas en inglés](/tutor-ib-matematicas-en-ingles-peru) · [Vacaciones útiles 2027: inteligencia artificial](/vacaciones-utiles-2027-inteligencia-artificial) · [Vacaciones útiles 2027: programación online](/vacaciones-utiles-2027-programacion-online) · [Vacaciones útiles virtuales en inglés](/vacaciones-utiles-virtuales-en-ingles)
 
-**Guides for families:** [Cómo elegir clases de programación para niños](/mejores-clases-de-programacion-para-ninos-peru) · [Cómo elegir un curso de Python](/mejor-curso-de-python-peru)
+**Guides for families:** [Cómo elegir clases de programación para niños](/mejores-clases-de-programacion-para-ninos-peru) · [Cómo elegir un curso de inteligencia artificial](/mejor-curso-de-inteligencia-artificial-peru) · [Cómo elegir un curso de Python](/mejor-curso-de-python-peru)
 
 **Cities:** [Arequipa: coding for every age](/coding-classes-in-arequipa-peru)
 
