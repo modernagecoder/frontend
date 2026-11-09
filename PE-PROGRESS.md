@@ -80,7 +80,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE002 | online-coding-classes-for-kids-peru (coki, #516000) | market | 5,119 | 2.1% vs python-for-engineering-students-peru | Online coding for children 6 to 12 in Peru, in English: choosing a live class well | string repetition builds a centred pyramid; odd numbers add up to a square | d1b2a1eb |
 | PE003 | coding-classes-for-teens-peru (cote, #004A28) | market | 4,861 | 2.1% vs c-plus-plus-course-peru | Teens in Peru: build, compete or certify, in English; Peru at the IOI 2022 to 2026 | sorting with a tuple key: reverse=True also flips the tie-break; negate one field | 30d1d705 |
 | PE004 | coding-courses-for-university-students-peru (ccu, #04693D) | market | 4,532 | 1.6% vs online-coding-classes-for-kids-peru | University students in Peru: degree in Spanish, tools in English; Ley 30220 language rules | hash-map lookup (two-sum): the same element used twice, and checks counted | 483c91fb |
-| PE005 | ai-and-coding-for-professionals-peru (aipr, #4C4300) | market | 4,487 | 1.8% vs online-coding-classes-for-kids-peru | Professionals in Peru: AI tools, Python automation and agents, in English, around a job | never trust model output: parse JSON, catch JSONDecodeError, check keys and types | (this commit) |
+| PE005 | ai-and-coding-for-professionals-peru (aipr, #4C4300) | market | 4,487 | 1.8% vs online-coding-classes-for-kids-peru | Professionals in Peru: AI tools, Python automation and agents, in English, around a job | never trust model output: parse JSON, catch JSONDecodeError, check keys and types | 014df6ff |
+| PE006 | coding-for-adults-over-50-peru (coov, #305301) | market | 4,444 | 1.7% vs ai-and-coding-for-professionals-peru | Coding after 50 in Peru, in English: one to one, at your pace, for home and family projects | a mail merge: str.format(**dict), a KeyError that stops the batch, and checking gaps first | (this commit) |
 
 ## Notes
 

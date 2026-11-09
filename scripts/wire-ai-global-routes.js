@@ -1009,6 +1009,7 @@ const SLUGS = [
   'coding-classes-for-teens-peru',
   'coding-courses-for-university-students-peru',
   'ai-and-coding-for-professionals-peru',
+  'coding-for-adults-over-50-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2097,6 +2098,7 @@ const LLMS_LABELS = {
   'coding-classes-for-teens-peru': 'Coding classes for teens in Peru',
   'coding-courses-for-university-students-peru': 'Coding courses for university students in Peru',
   'ai-and-coding-for-professionals-peru': 'AI and coding for professionals in Peru',
+  'coding-for-adults-over-50-peru': 'Coding for adults over 50 in Peru',
 };
 
 function wireLlms(slugs) {
