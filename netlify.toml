@@ -32559,6 +32559,18 @@
   to = "/src/pages/vacaciones-utiles-de-programacion-los-olivos-lima.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vacaciones-utiles-de-programacion-jesus-maria-lima"
+  to = "/src/pages/vacaciones-utiles-de-programacion-jesus-maria-lima.html"
+  status = 200
+
+[[redirects]]
+  from = "/vacaciones-utiles-de-programacion-jesus-maria-lima.md"
+  to = "/src/pages/vacaciones-utiles-de-programacion-jesus-maria-lima.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
