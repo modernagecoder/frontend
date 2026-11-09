@@ -982,6 +982,7 @@ const SLUGS = [
   'curso-de-python-en-ingles-peru',
   'curso-de-python-para-ninos-peru',
   'python-para-estudiantes-de-ingenieria-peru',
+  'curso-de-java-en-ingles-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2043,6 +2044,7 @@ const LLMS_LABELS = {
   'curso-de-python-en-ingles-peru': 'Curso de Python en inglés',
   'curso-de-python-para-ninos-peru': 'Curso de Python para niños',
   'python-para-estudiantes-de-ingenieria-peru': 'Python para estudiantes de ingeniería',
+  'curso-de-java-en-ingles-peru': 'Curso de Java en inglés',
 };
 
 function wireLlms(slugs) {
