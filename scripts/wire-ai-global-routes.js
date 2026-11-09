@@ -1045,6 +1045,7 @@ const SLUGS = [
   'app-development-for-teens-peru',
   'software-development-course-peru',
   'web-development-course-peru',
+  'data-science-course-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2169,6 +2170,7 @@ const LLMS_LABELS = {
   'app-development-for-teens-peru': 'App development for teens, Peru',
   'software-development-course-peru': 'Software development course, Peru',
   'web-development-course-peru': 'Web development course, Peru',
+  'data-science-course-peru': 'Data science course, Peru',
 };
 
 function wireLlms(slugs) {
