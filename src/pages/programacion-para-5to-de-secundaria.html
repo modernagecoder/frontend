@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Programación para 5to de secundaria: Python y PCEP en inglés</title>
+  <meta name="description" content="Programación para 5to de secundaria en Perú: Python con el examen PCEP, como en la Fábrica de Programadores, junto a la admisión. En vivo, en inglés.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/programacion-para-5to-de-secundaria">
+  <link rel="alternate" type="text/markdown" href="/src/pages/programacion-para-5to-de-secundaria.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#8E3A23">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/programacion-para-5to-de-secundaria">
+  <meta property="og:title" content="Programación para 5to de secundaria: Python y PCEP en inglés">
+  <meta property="og:description" content="Qué es la Fábrica de Programadores, qué mide el PCEP, cómo encajar Python con el examen de admisión en 5to de secundaria y un set de práctica nuestro.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="es_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Programación para 5to de secundaria: Python y PCEP en inglés">
+  <meta name="twitter:description" content="Python y PCEP para estudiantes de 5to de secundaria en Perú, en clases en vivo y en inglés, a cualquier hora.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-prse .ag-hero h1 { letter-spacing: -0.012em; max-width: 24ch; }
+.ag-root.ag-prse .ag-capsule { border-left-width: 4px; border-radius: 2px; }
+.ag-root.ag-prse .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-prse .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-prse .ag-steps li { line-height: 1.6; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/programacion-para-5to-de-secundaria#page","url":"https://learn.modernagecoders.com/programacion-para-5to-de-secundaria","name":"Programación para 5to de secundaria","description":"Guía para estudiantes de 5to de secundaria en Perú y sus familias: qué pide el CNEB en el ciclo VII, qué es la Fábrica de Programadores del MINEDU y el examen PCEP de Python, cómo convive la programación con las admisiones de la PUCP, la Universidad de Lima y la UNI, qué concursos quedan (OPI, ONEM Nivel 3), qué reglas tienen las herramientas de IA a los 16 años y un set de práctica de Python escrito por nosotros.","inLanguage":"es-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Cursos","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Perú","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Programación para 5to de secundaria","item":"https://learn.modernagecoders.com/programacion-para-5to-de-secundaria"}]},{"@type":"Course","name":"Programación para 5to de secundaria","description":"Clases en vivo y en línea de Python para estudiantes de 5to de secundaria en Perú, dictadas solo en inglés: fundamentos de Python, preparación para el examen PCEP, resolución de problemas y razonamiento matemático, en grupo o individuales, a cualquier hora.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/programacion-para-5to-de-secundaria"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/programacion-para-5to-de-secundaria"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/programacion-para-5to-de-secundaria"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Las clases son en español?","acceptedAnswer":{"@type":"Answer","text":"No. Las clases son en vivo, en línea y en inglés, con mentores desde la India. Para un estudiante de 5to eso suma dos veces: el PCEP se rinde en inglés y Python se escribe con palabras inglesas, y además practica inglés hablado justo antes de la universidad. Lima figura en la banda alta del EF EPI 2025, y explicar código en voz alta es buen ejercicio para el habla, la destreza más floja del país."}},{"@type":"Question","name":"¿Qué edad tiene un estudiante de 5to de secundaria en Perú?","acceptedAnswer":{"@type":"Answer","text":"16 años, según la edad normativa del MINEDU, contada al 31 de marzo. 5to cierra el ciclo VII del CNEB y la educación básica regular."}},{"@type":"Question","name":"¿Qué es la Fábrica de Programadores?","acceptedAnswer":{"@type":"Answer","text":"Un piloto del MINEDU lanzado en julio de 2025 para 1,000 escolares de 4° y 5° de secundaria de colegios públicos de Lima Norte, con formación en Python junto a Cisco Networking Academy y la opción de rendir el examen PCEP. No tenemos relación con ese programa."}},{"@type":"Question","name":"¿Cómo es el examen PCEP?","acceptedAnswer":{"@type":"Answer","text":"El OpenEDG Python Institute lo presenta como su certificación de nivel de entrada en Python. En la versión PCEP-30-03 son 35 preguntas en 50 minutos, se necesita un 70 % para aprobar y la credencial dura 5 años; no exige requisitos previos."}},{"@type":"Question","name":"¿Las clases incluyen el examen PCEP?","acceptedAnswer":{"@type":"Answer","text":"No. Preparamos el temario con práctica y simulacros propios; el examen se paga y se rinde aparte ante el Instituto, si el estudiante decide hacerlo."}},{"@type":"Question","name":"¿Programar me quita tiempo para el examen de admisión?","acceptedAnswer":{"@type":"Answer","text":"Solo si no se planifica. Recomendamos pausar las clases en las dos semanas previas a cada fecha de admisión y avanzar fuerte después. El horario flexible lo permite."}},{"@type":"Question","name":"¿Preparan el examen de admisión de la UNI, la PUCP o San Marcos?","acceptedAnswer":{"@type":"Answer","text":"No. Esas pruebas son en castellano y las organiza cada universidad; para prepararlas están las academias y los centros preuniversitarios. Podemos practicar razonamiento matemático en inglés con problemas propios, sin prometer ningún resultado de admisión."}},{"@type":"Question","name":"¿Puedo usar ChatGPT o Claude en las clases?","acceptedAnswer":{"@type":"Answer","text":"ChatGPT exige permiso de los padres hasta los 18 años y Claude pide 18. En clase el estudiante escribe y explica su propio código; además, el PCEP se rinde sin ayuda y la OPI prohíbe la IA generativa."}},{"@type":"Question","name":"¿A qué hora son las clases?","acceptedAnswer":{"@type":"Answer","text":"Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, las 7:00 p. m. en Perú son las 5:30 a. m. del día siguiente en la India."}},{"@type":"Question","name":"¿Sirve para la universidad?","acceptedAnswer":{"@type":"Answer","text":"Sirve para llegar sabiendo programar, lo que ayuda en casi cualquier carrera. No da créditos universitarios ni tiene valor oficial: al terminar cada curso damos una constancia propia de Modern Age Coders, y el PCEP lo otorga el Instituto."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/programacion-para-5to-de-secundaria","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-prse">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Perú</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Perú</a></li>
+      <li><a href="#quinto">5to</a></li>
+      <li><a href="#fabrica">Fábrica de Programadores</a></li>
+      <li><a href="#pcep">PCEP</a></li>
+      <li><a href="#admision">Admisión</a></li>
+      <li><a href="#practica">Práctica</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Clase gratis</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a> / <a href="/courses">Cursos</a> / <a href="/coding-and-ai-classes-in-peru">Perú</a> / Programación para 5to de secundaria
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Perú &middot; Último año del colegio &middot; 5to de secundaria</p>
+        <h1>Programación para 5to de secundaria: Python, PCEP y la admisión</h1>
+        <p class="ag-lede">El último año del colegio llega con la libreta, la promoción, la academia preuniversitaria y una pregunta grande: qué estudiar después. Esta página es para el estudiante de 5to de secundaria que quiere aprender a programar en serio ese año, y para su familia: qué hace el MINEDU con Python y el PCEP, cómo encaja con la admisión y cómo es estudiar con nosotros, en vivo y en inglés.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Reservar la primera clase gratis</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Reservar una demo prioritaria</a>
+          <a href="#practica" class="ag-btn ag-btn--ghost">Probar el set de práctica</a>
+          <a href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20estoy%20en%205to%20de%20secundaria%20en%20Per%C3%BA%20(o%20soy%20madre%20o%20padre%20de%20un%20estudiante%20de%205to)%20y%20me%20interesa%20Python%20con%20PCEP%20en%20ingl%C3%A9s.%20%C2%BFPuedo%20tomar%20una%20clase%20gratis%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'prse'});">Consultar por WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Clases en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; para 5to, Python con rigor y práctica tipo PCEP, en inglés</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">En resumen</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 de 5 en 547 reseñas de Google
+        </p>
+        <dl>
+          <dt>Idioma de las clases</dt><dd>Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante</dd>
+          <dt>Para quién</dt><dd>Estudiantes de 5to de secundaria (16 años) y egresados</dd>
+          <dt>Qué se aprende</dt><dd>Python desde cero hasta nivel PCEP</dd>
+          <dt>Examen</dt><dd>PCEP-30-03 del OpenEDG Python Institute (opcional)</dd>
+          <dt>Formato</dt><dd>Grupo de quince a veinte o clases individuales</dd>
+          <dt>Horario</dt><dd>Flexible, alrededor del colegio y la academia</dd>
+          <dt>Primera clase</dt><dd>Gratis, sin tarjeta</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">La respuesta directa</p>
+      <p>En 5to de secundaria, el último año del colegio, un estudiante puede aprender Python desde cero y llegar al nivel del PCEP, la certificación de entrada del OpenEDG Python Institute que el MINEDU eligió como meta de su piloto Fábrica de Programadores para escolares de 4° y 5°. Modern Age Coders lo enseña en vivo, en línea y en inglés, con un mentor desde la India que explica con claridad y al ritmo del estudiante, en grupo o de forma individual y a cualquier hora, para convivir con el colegio y la academia. No preparamos el examen de admisión, que es en castellano, ni prometemos ingresos.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cursos para 5to</p>
+      <h2>Tres cursos que tienen sentido en el último año</h2>
+      <p class="ag-lede">Uno para llegar al PCEP, uno para quien quiere Python completo sin pensar en certificaciones y uno para quien va a postular a ingeniería o ciencias y quiere afinar su razonamiento.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/pcep-pcap-python-certification-course">
+        <div class="ag-pick-shot"><img src="/images/pcep-python-certification.webp" alt="Imagen del curso de certificación de Python PCEP y PCAP" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PRSE / 01</p>
+          <h3>Python con PCEP y PCAP</h3>
+          <p>Desde los 13 años, sin requisitos previos para la parte de PCEP. Recorre el temario del examen con práctica propia y simulacros escritos por nosotros.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Imagen del curso completo de Python para adolescentes" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PRSE / 02</p>
+          <h3>Python para adolescentes</h3>
+          <p>De 13 a 18 años. Python de principiante a avanzado con proyectos: automatizaciones, juegos, análisis de datos y una app propia.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="Imagen del curso de matemática de secundaria" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PRSE / 03</p>
+          <h3>Matemática de secundaria</h3>
+          <p>Álgebra, funciones, trigonometría y cálculo inicial explicados en inglés. Ayuda a ordenar el razonamiento matemático del último año.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="quinto">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">El último año</p><h2>¿Vale la pena aprender a programar en 5to de secundaria?</h2><p class="ag-lede">Sí, si se hace con un plan realista. En 5to el tiempo es escaso, pero programar no compite con la admisión tanto como parece: ejercita el mismo razonamiento ordenado que piden las pruebas de matemática, y deja algo concreto que mostrar al terminar el colegio.</p></div>
+    <div class="ag-grid-3"><div><h3>Una base para la carrera</h3><p>Ingeniería, economía, ciencias, administración, medicina, diseño: casi cualquier carrera usa hoy algo de programación. Llegar a la universidad sabiendo Python ahorra mucho estrés en el primer ciclo.</p></div><div><h3>Algo propio que mostrar</h3><p>Un proyecto terminado (una herramienta, un análisis de datos, un juego) y, si se decide, el examen PCEP aprobado. Es una prueba concreta de lo que el estudiante sabe hacer.</p></div><div><h3>Pensar con orden</h3><p>Programar obliga a separar un problema en partes, prever casos y revisar cada paso. Es el mismo hábito que piden las preguntas de razonamiento de cualquier prueba de admisión.</p></div></div>
+    <p class="ag-mt-40">Según la tabla de edades normativas del MINEDU, 5to de secundaria corresponde a los 16 años cumplidos al 31 de marzo, y cierra el ciclo VII del CNEB, que empieza en 3°. Es el final de once años de educación básica: seis de primaria y cinco de secundaria, como fija la Ley General de Educación. A esa edad un estudiante aprende Python con el mismo ritmo que un adulto principiante, y con más tiempo por delante para aprovecharlo.</p>
+    <p>Lo que el colegio exige ese año es mucho. La semana escolar es de 35 horas pedagógicas en jornada regular y de 45 en jornada completa (Tablas N.° 8 y N.° 9 del CNEB), que con horas de 45 minutos son 1,575 y 2,025 minutos semanales (cuenta nuestra). Muchos estudiantes suman además una academia o un centro preuniversitario. Por eso nuestra propuesta para 5to no es una carga más, sino un plan corto y flexible que se ajusta semana a semana.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="colegio">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Lo que pide el colegio</p><h2>¿Qué pide el CNEB en tecnología al terminar la secundaria?</h2><p class="ag-lede">El currículo nacional no incluye un curso de programación en ningún grado. En tecnología espera que, al terminar 5to, el estudiante se mueva con soltura en entornos digitales y cree materiales con otros, no que escriba código.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>El nivel del ciclo VII</h3><p>En la competencia 28 del CNEB, el nivel previsto para cuando se cierra el ciclo VII es que el estudiante "interactúa en diversos espacios (como portales educativos, foros, redes sociales, entre otros) de manera consciente y sistemática administrando información y creando materiales digitales en interacción con sus pares".</p>
+<p>Es un objetivo valioso, pero distinto de programar. Un estudiante puede cumplirlo plenamente sin haber escrito nunca una línea de código.</p></div><div><h3>Lo que se evalúa en 5to</h3><p>La ENLA 2025 del MINEDU evaluó a los estudiantes de 5° de secundaria en Lectura, Matemática, Ciencia y Tecnología, y Desarrollo Personal, Ciudadanía y Cívica. No hubo una prueba de computación o programación.</p>
+<p>Por eso, quien quiera llegar a la universidad sabiendo programar tiene que aprenderlo fuera del horario escolar, salvo que su colegio tenga un taller propio en sus horas de libre disponibilidad.</p></div></div>
+    <p class="ag-mt-40">No formamos parte del sistema escolar ni tenemos relación con el MINEDU o con colegio alguno. Lo que el estudiante aprende con nosotros no se convierte en notas ni en certificados del Estado peruano; al cerrar cada curso entregamos una constancia propia de Modern Age Coders, y el PCEP, si se decide rendirlo, lo otorga el OpenEDG Python Institute, no nosotros.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="fabrica">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Fábrica de Programadores</p><h2>¿Qué es la Fábrica de Programadores del MINEDU?</h2><p class="ag-lede">Es un piloto del Ministerio de Educación, lanzado en julio de 2025, para formar en Python a escolares de 4° y 5° de secundaria de colegios públicos de Lima Norte, con la posibilidad de rendir el examen PCEP al final.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Fábrica de Programadores en los datos del propio MINEDU (nota de prensa del 24 de julio de 2025)</caption><thead><tr><th scope="col">Aspecto</th><th scope="col">Lo que dice el MINEDU</th></tr></thead><tbody><tr><td>A quién beneficia</td><td>1,000 escolares de 4° y 5° de secundaria de Lima Norte</td></tr><tr><td>Qué aprenden</td><td>Programación en Python con certificación internacional</td></tr><tr><td>Con quién</td><td>En alianza con Cisco Networking Academy</td></tr><tr><td>Cómo se elige</td><td>Mediante una prueba de lógica</td></tr><tr><td>De dónde son los colegios</td><td>Los Olivos, Rímac, San Martín de Porres, Comas, Carabayllo, Puente Piedra, Santa Rosa y Ancón</td></tr><tr><td>Cómo se dicta</td><td>Un curso presencial de iniciación en la UNI y una formación online de la Universidad Privada del Norte</td></tr><tr><td>Al final</td><td>Quienes concluyan ambas etapas podrán rendir el examen PCEP, "con validez global"</td></tr><tr><td>Futuro</td><td>Piloto que "busca validar el modelo pedagógico y replicarlo en el ámbito nacional"</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: MINEDU, nota de prensa "Minedu impulsa iniciativa Fábrica de Programadores para formar a escolares con certificación internacional en programación", gob.pe, 24 de julio de 2025, leída el 8 de noviembre de 2026. No encontramos en gob.pe una nota posterior sobre su ampliación.</p>
+    <p class="ag-mt-40">La Fábrica de Programadores es una buena noticia por dos razones. Primero, confirma algo que repetimos a las familias: un estudiante de 4° o 5° de secundaria puede aprender Python a un nivel que se puede certificar. Segundo, muestra el camino que eligió el propio Estado: Python como primer lenguaje y el PCEP como meta medible. Pero el piloto llega a mil estudiantes de ocho distritos; la mayoría de los escolares de 5to del país no tiene acceso a él.</p>
+    <p>Nosotros no somos parte de la Fábrica de Programadores ni tenemos relación con el MINEDU, Cisco, la UNI o la UPN. Lo que ofrecemos es un camino parecido, abierto a cualquier estudiante de cualquier región, colegio público o privado: Python desde cero hasta el nivel PCEP, en clases en vivo y en inglés. Si vive en Lima Norte y le interesa el contexto local, nuestra página de vacaciones útiles en <a class="ag-inline-link" href="/vacaciones-utiles-de-programacion-los-olivos-lima">Los Olivos</a> habla del piloto desde el distrito.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="pcep">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">El examen PCEP</p><h2>¿Qué es el examen PCEP de Python y qué mide?</h2><p class="ag-lede">PCEP es la certificación de entrada del OpenEDG Python Institute: "Certified Entry-Level Python Programmer". Mide si una persona domina los fundamentos de Python. Es opcional; se puede aprender Python sin rendirla.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>El examen PCEP-30-03 según la página oficial del OpenEDG Python Institute</caption><thead><tr><th scope="col">Dato</th><th scope="col">Valor publicado</th></tr></thead><tbody><tr><td>Código del examen</td><td>PCEP-30-03</td></tr><tr><td>Requisitos previos</td><td>Ninguno</td></tr><tr><td>Número de preguntas</td><td>35</td></tr><tr><td>Duración</td><td>50 minutos</td></tr><tr><td>Puntaje para aprobar</td><td>70 %</td></tr><tr><td>Vigencia de la credencial</td><td>5 años</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: ficha del PCEP en la web del OpenEDG Python Institute (pythoninstitute.org/pcep), consultada el 9/11/2026. El precio del examen lo fija el Instituto y no lo reproducimos aquí; nuestra mensualidad aparece más abajo y no incluye el examen.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Cuentas que conviene hacer</h3><p>Si se dividen los 50 minutos entre las 35 preguntas, cada una dispone de unos 86 segundos (cuenta nuestra). No hay tiempo para probar cada cosa: hay que saber leer una línea de Python y predecir su resultado sin ejecutarla.</p>
+<p>El 70 % de 35 es 24,5. Bajo el supuesto, nuestro, de que cada pregunta valga igual, aprobar pediría 25 aciertos como mínimo; el Instituto solo publica el porcentaje, así que el 25 es una referencia y no una regla oficial.</p></div><div><h3>Cómo lo preparamos</h3><p>Seguimos el temario del PCEP con ejercicios originales: tipos de datos, operadores, condicionales, bucles, listas, tuplas, diccionarios, funciones y excepciones. No usamos preguntas del examen real.</p>
+<p>Cada semana hay práctica de "predecir la salida", como el set de más abajo, y antes del examen hacemos simulacros cronometrados escritos por nosotros. El examen, en inglés, se rinde ante el Instituto, no con nosotros.</p></div></div>
+    <p class="ag-mt-40">Sobre el idioma: el PCEP se rinde en inglés en la mayoría de los casos, y el propio Python usa palabras inglesas. Estudiar en inglés con un mentor que explica con calma no es una dificultad adicional, sino entrenamiento directo para el examen. Si busca la versión general de esta preparación, en inglés, la tenemos en <a class="ag-inline-link" href="/pcep-python-certification-prep">PCEP Python certification prep</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="admision">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Admisión a la universidad</p><h2>¿Cómo combinar Python con el examen de admisión en 5to?</h2><p class="ag-lede">Con un calendario claro. Varias universidades evalúan a estudiantes de 5to antes de que terminen el colegio, y conviene que la programación no choque con esas fechas. Las pruebas de admisión son en castellano y las organiza cada universidad: nosotros no las preparamos ni prometemos resultados.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Algunas fechas de admisión alrededor de 5to de secundaria, según las propias universidades</caption><thead><tr><th scope="col">Universidad y modalidad</th><th scope="col">Para quién</th><th scope="col">Fecha publicada</th><th scope="col">Qué evalúa</th></tr></thead><tbody><tr><td>Universidad de Lima, Examen de Escolares 2027-1(A)</td><td>Exclusivo para alumnos de 5to de secundaria</td><td>Domingo 15 de noviembre de 2026; clases desde el 29 de marzo de 2027</td><td>Prueba única de aptitud académica y conocimientos; resta por respuesta equivocada</td></tr><tr><td>PUCP, La Primera Opción (ciclo 2027-1)</td><td>Estudiantes que cursan 5to</td><td>Evaluación académica el 29 de noviembre de 2026</td><td>Énfasis en comprensión lectora y matemáticas</td></tr><tr><td>PUCP, Evaluación del Talento (ciclo 2027-1)</td><td>Quienes ya terminaron 5to</td><td>Evaluación académica el 21 de febrero de 2027</td><td>Énfasis en comprensión lectora y matemáticas</td></tr><tr><td>UNI, Examen Ordinario 2026-2</td><td>Egresados de secundaria</td><td>10, 12 y 14 de agosto de 2026 (tres pruebas en tres días)</td><td>Aptitud académica y humanidades; matemática; física y química</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuentes: guía del postulante de la Universidad de Lima para el concurso 2027-1(A); guía del postulante de la PUCP en admision.pucp.edu.pe (las fechas sin año corresponden al ciclo 2027-1); página de admisión 2026-2 de la UNI. Leídas el 8 de noviembre de 2026. Verifique siempre en la web de cada universidad antes de inscribirse: las fechas pueden cambiar. No tenemos ninguna relación con estas universidades.</p>
+    <p class="ag-mt-40">La propia PUCP cita la Ley Universitaria 30220: "La admisión a la universidad se realiza mediante concurso público, previa definición de plazas y máximo una vez por ciclo", con un examen de conocimientos como proceso principal. Cada universidad define su prueba; la UNI, por ejemplo, exige haber culminado la secundaria para el examen ordinario y lo toma en tres días, con una prueba entera de Matemática. La Universidad de Lima advierte que la nota se obtiene sumando por cada respuesta correcta y restando por cada equivocada, de modo que responder al azar puede costar puntos.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Antes de una fecha de admisión, se pausa la programación.</strong> En las dos semanas previas a un examen, recomendamos reducir o suspender las clases. Como el horario es flexible, se retoman después sin perder el lugar.</li><li><strong>Después de la prueba, se aprovecha el impulso.</strong> Entre el examen de noviembre y el inicio de clases de marzo hay meses libres; es el momento ideal para avanzar fuerte en Python y, si se quiere, rendir el PCEP.</li><li><strong>La matemática en inglés, como apoyo.</strong> Podemos practicar razonamiento matemático en inglés con problemas propios. No es preparación para la admisión, que es en castellano, pero ejercita la misma forma de pensar.</li><li><strong>La academia sigue siendo la academia.</strong> Si el estudiante va a una academia preuniversitaria o al centro preuniversitario de una universidad, ese es su espacio para la admisión. Nuestras clases van en otros días.</li></ol>
+    <p class="ag-source-note ag-mt-40">Las cuatro recomendaciones son nuestras. No damos asesoría vocacional ni sobre modalidades de admisión: para eso, la fuente es la oficina de admisión de cada universidad.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="practica">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Set de práctica</p><h2>¿Cómo son las preguntas tipo PCEP? Un set de práctica nuestro</h2><p class="ag-lede">Estas cinco líneas son un ejercicio original, escrito por nosotros, del estilo "predecir la salida". No son preguntas del examen. Intente adivinar cada línea antes de mirar la respuesta: así se entrena para el PCEP.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Cinco líneas para predecir</b><span>Python</span></figcaption><pre>print(7 // 2, -7 // 2)
+print(7 % 3, -7 % 3)
+print(2 ** 3 ** 2, (2 ** 3) ** 2)
+print(10 / 5, 1 + 2 * 3 - 4 / 2)
+print(True + True, bool('False'), bool(''))</pre><p class="ag-code-note">Escriba en un papel lo que cree que imprime cada línea. Recién entonces mire la salida.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Lo que imprime Python 3</b><span>Salida</span></figcaption><pre>3 -4
+1 2
+512 64
+2.0 5.0
+2 True False</pre><p class="ag-code-note">Esto devolvió la consola de Python 3 cuando lo ejecutamos, sin tocar nada. Cada línea esconde una regla que el PCEP pregunta.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><strong>Línea 1: <code>-7 // 2</code> da <code>-4</code>, no <code>-3</code>.</strong> La división entera de Python redondea hacia abajo (hacia menos infinito), no hacia cero. -3,5 hacia abajo es -4.</li><li><strong>Línea 2: <code>-7 % 3</code> da <code>2</code>.</strong> El resto en Python toma el signo del divisor. Es coherente con la línea 1: -7 = 3 por (-4) + 2.</li><li><strong>Línea 3: <code>2 ** 3 ** 2</code> da <code>512</code>.</strong> La potencia se agrupa de derecha a izquierda: primero 3 ** 2 = 9, luego 2 ** 9 = 512. Con paréntesis, (2 ** 3) ** 2 = 8 ** 2 = 64.</li><li><strong>Línea 4: <code>10 / 5</code> da <code>2.0</code>.</strong> El operador <code>/</code> siempre devuelve un número decimal, aunque la división sea exacta. Y en <code>1 + 2 * 3 - 4 / 2</code> se multiplica y divide primero: 1 + 6 - 2.0 = 5.0.</li><li><strong>Línea 5: <code>True + True</code> da <code>2</code>.</strong> <code>True</code> se comporta como 1 en una suma. <code>bool('False')</code> es <code>True</code> porque es un texto no vacío; solo el texto vacío <code>''</code> es falso.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Comprobación: la regla que une // y %</b><span>Python</span></figcaption><pre>a = -7
+b = 3
+print(a == b * (a // b) + a % b)</pre><p class="ag-code-note">Al ejecutarlo, la consola muestra <code>True</code>. Para cualquier entero a y cualquier b distinto de cero, Python garantiza que a == b * (a // b) + a % b. Si entiende por qué, ya no se equivoca con los negativos.</p></figure>
+    <p class="ag-mt-40">Este tipo de ejercicio entrena una habilidad que vale más que el certificado: leer código con precisión, sin ejecutarlo, y saber exactamente qué hará la máquina. Es lo contrario de copiar una respuesta de una herramienta de IA. En la Olimpiada Peruana de Informática, por ejemplo, el reglamento 2025 prohíbe usar IA generativa para resolver problemas; en el PCEP no hay a quién preguntar. En clase, el mentor le pide al estudiante que explique en inglés cada regla con sus propias palabras: si puede explicarla, la domina.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="concursos">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Concursos</p><h2>¿Qué concursos de programación y matemática quedan en 5to?</h2><p class="ag-lede">Dos grandes, con reglas distintas. La ONEM tiene un nivel solo para 5to, y la Olimpiada Peruana de Informática admite escolares y egresados recientes.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>ONEM, Nivel 3</h3><p>La Olimpiada Nacional Escolar de Matemática 2026 reservó su Nivel 3 para "5° grado de educación secundaria", separado de los niveles de 1° y 2° y de 3° y 4°. La inscripción se hace a través del colegio.</p>
+<p>No reproducimos problemas de la ONEM. Si un estudiante quiere prepararse, trabajamos con problemas originales nuestros, en inglés, del mismo tipo de razonamiento.</p></div><div><h3>OPI (UTEC)</h3><p>El reglamento 2025 de la OPI pedía tener como máximo 20 años al 1 de julio de 2025 y estar inscrito en un colegio peruano en 2025 o haber egresado en 2024. En la Fase 1 se podía programar en C++ o Python; en la Fase 2, solo en C++.</p>
+<p>El mismo reglamento prohibía la IA generativa para resolver problemas. Un estudiante de 5to que aprende Python ahora puede competir en la Fase 1 y, si quiere ir más lejos, sumar C++.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Fuentes: el oficio de la UGEL 06 que comunicó las bases de la ONEM 2026; el reglamento OPI 2025 publicado por la UTEC en opi.utec.edu.pe. Leídos el 8 de noviembre de 2026. Las reglas pueden cambiar en cada edición: revise la convocatoria vigente. No tenemos relación con el MINEDU, la UGEL ni la UTEC.</p>
+    <p class="ag-mt-40">Si el estudiante disfruta este tipo de retos, nuestra página para <a class="ag-inline-link" href="/vacaciones-utiles-de-programacion-san-isidro-lima">secundaria en San Isidro</a> propone un verano de programación pensado para llegar a la OPI con ventaja. Y si el estudiante viene de un colegio bilingüe y quiere llegar a la universidad con inglés técnico fluido, la página en inglés sobre <a class="ag-inline-link" href="/english-medium-coding-classes-lima">English-medium coding classes in Lima</a> le interesará.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ia">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Inteligencia artificial</p><h2>¿Puede un estudiante de 16 años usar herramientas de IA para programar?</h2><p class="ag-lede">Algunas sí, con permiso de sus padres; otras no hasta los 18. Y en ningún caso como sustituto de aprender.</p></div>
+    <p>Las condiciones de OpenAI permiten usar ChatGPT desde los 13 años, pero exigen permiso de un padre o tutor hasta los 18. Claude, de Anthropic, pide 18 años en todo caso. Lo tomamos de nuestra guía de edades de herramientas de IA, que copia el texto publicado por cada empresa (revisión de julio de 2026). En nuestras clases para 5to no pedimos a ningún estudiante menor de 18 que use herramientas que no le corresponden por edad.</p>
+    <p>Más importante que la regla es el uso. Un asistente de IA puede escribir en segundos el código de un ejercicio de PCEP, pero el examen se rinde sin él, y en la OPI está prohibido. Por eso en clase el estudiante escribe su código, lo explica y lo corrige. Cuando cumpla 18 y entre a la universidad, sabrá usar la IA como apoyo de alguien que entiende lo que hace, no como muleta. Es la diferencia entre aprender a pensar y aprender a copiar.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="horario">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Horarios</p><h2>¿Cuándo estudiar Python en 5to si el día ya está lleno?</h2><p class="ag-lede">En los huecos que el estudiante elija, que cambian de semana en semana. Por eso no damos horarios fijos.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Conversión de hora de Perú a hora de la India (ejemplos, no horarios de clase)</caption><thead><tr><th scope="col">Perú</th><th scope="col">India</th><th scope="col">Fecha en la India</th></tr></thead><tbody><tr><td>6:30 a. m.</td><td>5:00 p. m.</td><td>Misma</td></tr><tr><td>9:30 a. m.</td><td>8:00 p. m.</td><td>Misma</td></tr><tr><td>7:00 p. m.</td><td>5:30 a. m.</td><td>Siguiente</td></tr><tr><td>10:30 p. m.</td><td>9:00 a. m.</td><td>Siguiente</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Perú vive todo el año en UTC-5, sin horario de verano, según la base tzdata y el INACAL; la India, en UTC+5:30. Resultado: diez horas y media de ventaja india, invariable. Tabla preparada por nosotros.</p>
+    <p class="ag-mt-40">Los estudiantes de 5to suelen elegir una de tres opciones: temprano en la mañana antes del colegio (útil en jornada regular), la noche después de la academia, o los fines de semana. En vacaciones, de enero a marzo, muchos concentran el trabajo; la guía de <a class="ag-inline-link" href="/vacaciones-utiles-2027-programacion-online">vacaciones útiles 2027 de programación</a> propone un plan de verano. Al reservar, usted ve los horarios en hora de Perú.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Ruta</p>
+      <h2>¿Cómo es una ruta de Python hasta el PCEP en 5to?</h2>
+      <p class="ag-lede">Cinco tramos propios, pensados para un año escolar con admisión de por medio. Cada uno se alarga o se acorta según la agenda del estudiante.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Ruta hacia el nivel PCEP para 5to de secundaria (nuestra)</caption><thead><tr><th scope="col">Tramo</th><th scope="col">Contenido</th><th scope="col">Señal de dominio</th></tr></thead><tbody><tr><td>1. Fundamentos</td><td class="ag-num">tipos de datos, variables, entrada y salida, operadores</td><td class="ag-num">predice sin error líneas como las del set de práctica</td></tr><tr><td>2. Decisiones y bucles</td><td class="ag-num">if, elif, else, while, for, break, continue</td><td class="ag-num">traza a mano cuántas vueltas da un bucle</td></tr><tr><td>3. Colecciones</td><td class="ag-num">listas, tuplas, diccionarios, cadenas</td><td class="ag-num">elige la estructura adecuada y explica por qué</td></tr><tr><td>4. Funciones y errores</td><td class="ag-num">parámetros, valores de retorno, alcance, excepciones</td><td class="ag-num">escribe funciones que manejan entradas inválidas</td></tr><tr><td>5. Simulacros</td><td class="ag-num">pruebas cronometradas originales, revisión de errores</td><td class="ag-num">supera con margen los simulacros en el tiempo del examen</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Para la familia</h3><p>En 5to la prioridad la pone el estudiante: hay semanas de exámenes del colegio, de academia y de admisión. Un plan flexible que se pausa y se retoma rinde más que uno rígido que se abandona.</p>
+<p>Si su hijo quiere rendir el PCEP, el momento más cómodo suele ser después de las fechas de admisión, entre diciembre y marzo.</p></div><div><h3>Para el estudiante</h3><p>Practique leyendo código sin ejecutarlo. Escriba su predicción y después compruébela.</p>
+<p>Cuando se equivoque, anote la regla que no conocía. Esa lista es su material de repaso más útil.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más cursos</p>
+      <h2>Nueve cursos más para el último año y lo que sigue</h2>
+      <p class="ag-lede">Cursos para 13 a 18 años, dictados en vivo y en inglés. Sirven para profundizar en 5to o para el verano antes de la universidad.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Programar más a fondo</h3>
+        <span class="ag-band-sub">Para después del PCEP</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PRSE / FONDO / 01</p>
+          <h4>Algoritmos y estructuras de datos</h4>
+          <p>Pilas, colas, árboles y cómo medir si un algoritmo es rápido.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PRSE / FONDO / 02</p>
+          <h4>Programación competitiva</h4>
+          <p>Problemas de concurso para quien ya escribe programas básicos.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PRSE / FONDO / 03</p>
+          <h4>Java para adolescentes</h4>
+          <p>Un segundo lenguaje, muy usado en los primeros ciclos de ingeniería.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Datos e IA</h3>
+        <span class="ag-band-sub">De 13 o 14 a 18 años</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PRSE / DATOS / 01</p>
+          <h4>Ciencia de datos</h4>
+          <p>Python para analizar datos y entrenar primeros modelos, desde los 14.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PRSE / DATOS / 02</p>
+          <h4>IA y aprendizaje automático</h4>
+          <p>De Python a modelos reales, con la matemática del colegio como base.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PRSE / DATOS / 03</p>
+          <h4>Git y GitHub</h4>
+          <p>Guardar versiones y publicar proyectos como lo hacen los equipos.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Matemática</h3>
+        <span class="ag-band-sub">Razonamiento y competencias</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PRSE / MAT / 01</p>
+          <h4>Matemática de olimpiada</h4>
+          <p>Problemas originales de nivel olímpico, para quien disfruta los retos.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PRSE / MAT / 02</p>
+          <h4>Estadística y probabilidad</h4>
+          <p>La base matemática de los datos y de muchas carreras.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PRSE / MAT / 03</p>
+          <h4>Desarrollo web completo</h4>
+          <p>Del diseño de una web a su servidor, con un proyecto publicado.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Cómo funciona</p>
+      <h2>¿Cómo se organizan las clases en 5to de secundaria?</h2>
+      <p class="ag-lede">Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Muy temprano</p><p class="ag-slot-l">Antes del colegio, para estudiantes de jornada regular.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">De noche</p><p class="ag-slot-l">Después de la academia o de las tareas.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Individuales</p><p class="ag-slot-l">Para pausar antes de una admisión y retomar después.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Temario PCEP</h3><p>La ruta sigue lo que mide el examen, con práctica propia.</p></div>
+      <div><h3>Predecir la salida</h3><p>Cada clase incluye ejercicios de lectura exacta de código.</p></div>
+      <div><h3>Sin copiar</h3><p>El estudiante escribe y explica cada solución.</p></div>
+      <div><h3>Pausas pactadas</h3><p>Se respeta el calendario de admisión del estudiante.</p></div>
+      <div><h3>Mentor fijo</h3><p>Conoce el nivel y los errores frecuentes del estudiante.</p></div>
+      <div><h3>Reporte breve</h3><p>Qué se avanzó y qué falta hasta el nivel PCEP.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Proyectos de nuestros estudiantes</p>
+      <h2>Proyectos de estudiantes de secundaria</h2>
+      <p class="ag-lede">Una muestra de lo que construyen estudiantes mayores con nosotros. La colección entera está en <a class="ag-inline-link" href="/student-labs">Student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Captura del proyecto NutriLife, un coach de nutrición con IA" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>NutriLife</h4>
+          <p>Un coach de nutrición con IA que analiza las comidas y avanza paso a paso hacia una meta.</p>
+          <p class="ag-proj-meta">de Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Captura de Misti, un chatbot con IA para matemáticas y programación" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>Misti</h4>
+          <p>Un chatbot que responde preguntas de matemáticas y programación, creado y publicado por un estudiante.</p>
+          <p class="ag-proj-meta">de Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Captura de GuardianX, un asistente con IA para la seguridad en internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>GuardianX</h4>
+          <p>Un asistente que ayuda a los jóvenes a reconocer situaciones de riesgo en internet.</p>
+          <p class="ag-proj-meta">de Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Captura de la aplicación del clima SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Aplicación web</p>
+          <h4>SkyCast</h4>
+          <p>Un sitio de pronóstico del clima con condiciones en vivo para cualquier lugar.</p>
+          <p class="ag-proj-meta">de Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Precios</p>
+      <h2>Precio de las clases de Python para 5to de secundaria</h2>
+      <p class="ag-lede">La tarifa mensual figura en dólares estadounidenses y se carga a una tarjeta, cuyo banco la pasa a su moneda el día del cargo. El examen PCEP no está incluido: se paga aparte al Instituto, si se decide rendirlo. La clase de prueba es gratis.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Primera clase gratis</p>
+        <p class="ag-price-amt">Gratis</p>
+        <p class="ag-price-alt">sin tarjeta</p>
+        <ul><li>Clase de prueba sin costo</li><li>Diagnóstico rápido de su nivel en Python</li><li>Sin tarjeta</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Reservar</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Clase grupal</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Grupo de quince a veinte estudiantes de edad similar</li><li>El mismo mentor todo el curso</li><li>Dos clases en vivo por semana</li><li>Mes a mes; se puede pausar en época de admisión</li></ul>
+        <a href="#start" class="ag-btn">Empezar aquí</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Clases individuales</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Solo el estudiante y el mentor</li><li>Ritmo según el calendario de admisión</li><li>Horario a elección, semana a semana</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Consultar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lo que dicen las familias</p>
+      <h2>4.9 de 5 en 547 reseñas de Google</h2>
+      <p class="ag-lede">Reseñas de Google de estudiantes y familias, en el inglés en que las escribieron.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preguntas frecuentes</p>
+      <h2>Programación para 5to de secundaria: preguntas frecuentes</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>¿Las clases son en español?</h3>
+        <p>No. Las clases son en vivo, en línea y en inglés, con mentores desde la India. Para un estudiante de 5to eso suma dos veces: el PCEP se rinde en inglés y Python se escribe con palabras inglesas, y además practica inglés hablado justo antes de la universidad. Lima figura en la banda alta del EF EPI 2025, y explicar código en voz alta es buen ejercicio para el habla, la destreza más floja del país.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Qué edad tiene un estudiante de 5to de secundaria en Perú?</h3>
+        <p>16 años, según la edad normativa del MINEDU, contada al 31 de marzo. 5to cierra el ciclo VII del CNEB y la educación básica regular.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Qué es la Fábrica de Programadores?</h3>
+        <p>Un piloto del MINEDU lanzado en julio de 2025 para 1,000 escolares de 4° y 5° de secundaria de colegios públicos de Lima Norte, con formación en Python junto a Cisco Networking Academy y la opción de rendir el examen PCEP. No tenemos relación con ese programa.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Cómo es el examen PCEP?</h3>
+        <p>El OpenEDG Python Institute lo presenta como su certificación de nivel de entrada en Python. En la versión PCEP-30-03 son 35 preguntas en 50 minutos, se necesita un 70 % para aprobar y la credencial dura 5 años; no exige requisitos previos.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Las clases incluyen el examen PCEP?</h3>
+        <p>No. Preparamos el temario con práctica y simulacros propios; el examen se paga y se rinde aparte ante el Instituto, si el estudiante decide hacerlo.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Programar me quita tiempo para el examen de admisión?</h3>
+        <p>Solo si no se planifica. Recomendamos pausar las clases en las dos semanas previas a cada fecha de admisión y avanzar fuerte después. El horario flexible lo permite.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Preparan el examen de admisión de la UNI, la PUCP o San Marcos?</h3>
+        <p>No. Esas pruebas son en castellano y las organiza cada universidad; para prepararlas están las academias y los centros preuniversitarios. Podemos practicar razonamiento matemático en inglés con problemas propios, sin prometer ningún resultado de admisión.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Puedo usar ChatGPT o Claude en las clases?</h3>
+        <p>ChatGPT exige permiso de los padres hasta los 18 años y Claude pide 18. En clase el estudiante escribe y explica su propio código; además, el PCEP se rinde sin ayuda y la OPI prohíbe la IA generativa.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿A qué hora son las clases?</h3>
+        <p>Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, las 7:00 p. m. en Perú son las 5:30 a. m. del día siguiente en la India.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Sirve para la universidad?</h3>
+        <p>Sirve para llegar sabiendo programar, lo que ayuda en casi cualquier carrera. No da créditos universitarios ni tiene valor oficial: al terminar cada curso damos una constancia propia de Modern Age Coders, y el PCEP lo otorga el Instituto.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más páginas</p>
+      <h2>Para seguir leyendo</h2>
+      <p class="ag-lede">Páginas relacionadas para estudiantes de secundaria en Perú y sus familias.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Clases en Perú</a></h3><p>Todos nuestros caminos para estudiantes peruanos, por edad y materia.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vacaciones-utiles-de-programacion-san-isidro-lima">Secundaria en San Isidro</a></h3><p>Verano en línea pensado para secundaria, con la OPI en el horizonte.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vacaciones-utiles-de-programacion-los-olivos-lima">Los Olivos</a></h3><p>Robótica o programación, y la Fábrica de Programadores vista desde Lima Norte.</p></div>
+      <div><h3><a class="ag-inline-link" href="/pcep-python-certification-prep">PCEP Python certification prep</a></h3><p>Nuestra guía general en inglés sobre el examen PCEP.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-16-year-olds">Coding for 16 year olds</a></h3><p>Programación a los 16 años, en inglés.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tool age guide</a></h3><p>Qué edad exige cada servicio de IA, citado de sus propias condiciones.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Empiece aquí</p>
+        <h2>Reserve una clase de prueba gratis</h2>
+        <p class="ag-lede">En la clase de prueba el mentor conversa en inglés con el estudiante, le propone dos o tres líneas de Python para predecir y ve cómo razona. Con eso le recomendamos si empezar desde cero o ir directo al temario del PCEP, y un plan que respete su calendario de admisión.</p>
+        <p class="ag-mt-40">Antes puede revisar <a class="ag-inline-link" href="/python-certification-pcep-pcap-course">PCEP and PCAP course</a> y <a class="ag-inline-link" href="/how-we-teach">How we teach</a> (ambas en inglés).</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20estoy%20en%205to%20de%20secundaria%20en%20Per%C3%BA%20(o%20soy%20madre%20o%20padre%20de%20un%20estudiante%20de%205to)%20y%20me%20interesa%20Python%20con%20PCEP%20en%20ingl%C3%A9s.%20%C2%BFPuedo%20tomar%20una%20clase%20gratis%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'prse',pos:'end'});">Escríbanos por WhatsApp</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Las clases son en vivo y en línea, con mentores en la India, únicamente en inglés. Puede escribirnos por WhatsApp en castellano.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_prse(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Su nombre</label>
+            <input id="pe-name" type="text" name="name" placeholder="Nombre del padre, madre o estudiante" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Teléfono o WhatsApp, Perú +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Grupo de edad</label>
+            <select id="pe-age" name="age"><option value="6-12">Niño o niña, 6 a 12</option><option value="13-18">Adolescente, 13 a 18</option><option value="college">Universitario</option><option value="adult">Profesional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Solicitar la clase gratis</button>
+          <p class="ag-form-note">Gratis, sin tarjeta, sin compromiso.</p>
+        </form>
+        <div class="ag-pd-card"><h3>¿Quiere una clase antes? Reserve una demo prioritaria</h3><p>Una demo prioritaria es una clase completa de unos 45 a 60 minutos. Después, el mentor envía por WhatsApp un informe escrito de habilidades y un plan de aprendizaje personal. Si se inscribe, el pago de la demo se descuenta de la primera mensualidad: envíenos por WhatsApp el número de pedido de la demo.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Reservar una demo prioritaria</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Clases en vivo y en línea de programación, IA y matemáticas para personas de 6 a 67 años, siempre en inglés. Enseñamos desde 2020, a más de
+          10,000 estudiantes en 25 países.
+        </p>
+      </div>
+      <div><h4>Cursos para 5to</h4><ul><li><a href="/courses/pcep-pcap-python-certification-course">Python con PCEP y PCAP</a></li><li><a href="/courses/python-complete-masterclass-teens">Python para adolescentes</a></li><li><a href="/courses/complete-high-school-mathematics-mastery">Matemática de secundaria</a></li><li><a href="/courses">Todos los cursos</a></li></ul></div>
+      <div><h4>Perú</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Clases en Perú</a></li><li><a href="/vacaciones-utiles-de-programacion-san-isidro-lima">Secundaria en San Isidro</a></li><li><a href="/vacaciones-utiles-2027-programacion-online">Vacaciones útiles 2027</a></li><li><a href="/english-medium-coding-classes-lima">Lima en inglés</a></li></ul></div>
+      <div>
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="/about">Quiénes somos</a></li>
+          <li><a href="/how-we-teach">Cómo enseñamos</a></li>
+          <li><a href="/love">Reseñas</a></li>
+          <li><a href="/contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Clases en vivo y en línea, en inglés, para todo el mundo.</span>
+      <span>Leer el código antes de ejecutarlo</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Clase gratis</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Demo prioritaria</a><a href="tel:+919123366161" aria-label="Llamar al +91 91233 66161">Llamar</a></div>
+
+<script>
+window.submitLead_prse = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Enviando...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'programacion-para-5to-de-secundaria-inline', meta: { name: name, age: age, page: 'programacion-para-5to-de-secundaria' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Muchas gracias' + (name ? ', ' + name.split(' ')[0] : '') + '. Un mentor le llamará en breve.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Algo salió mal. Por favor, inténtelo de nuevo.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Error de conexión. Por favor, inténtelo de nuevo.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

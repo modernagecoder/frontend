@@ -968,6 +968,7 @@ const SLUGS = [
   'programacion-para-ninos-de-8-anos',
   'programacion-para-ninos-de-10-anos',
   'programacion-para-ninos-de-12-anos',
+  'programacion-para-5to-de-secundaria',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2015,6 +2016,7 @@ const LLMS_LABELS = {
   'programacion-para-ninos-de-8-anos': 'Programación para niños de 8 años',
   'programacion-para-ninos-de-10-anos': 'Programación para niños de 10 años',
   'programacion-para-ninos-de-12-anos': 'Programación para niños de 12 años',
+  'programacion-para-5to-de-secundaria': 'Programación para 5to de secundaria',
 };
 
 function wireLlms(slugs) {

@@ -39,7 +39,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE122 | programacion-para-ninos-de-6-anos (pna, #3B5700) | market | 6,181 | 1.8% vs vacaciones-utiles-de-programacion-chorrillos-lima | 6 años, 1° de primaria: programar sin leer, y qué hacer de 4 a 6 años | spotting a repeating unit in a sequence and saying it as a loop (repetir N veces) | 95b6b08c |
 | PE123 | programacion-para-ninos-de-8-anos (pran, #656902) | market | 5,634 | 1.8% vs programacion-para-ninos-de-6-anos | 8 años, 3° de primaria: Scratch de verdad, Roblox o robótica, y la ENLA de 4° | a variable must be reset at the start: the score that never goes back to zero | d2cd2013 |
 | PE124 | programacion-para-ninos-de-10-anos (paa, #443F00) | market | 5,417 | 2% vs clases-de-programacion-para-ninos-en-ingles | 10 años, 5° de primaria: el salto de bloques a Python, e IA sin cuentas de adulto | strings as sequences: compare with the reverse [::-1], clean the text first (palindromes) | 731c5af5 |
-| PE125 | programacion-para-ninos-de-12-anos (pab, #1B6A00) | market | 5,288 | 1.8% vs programacion-para-ninos-de-6-anos | 12 años, 1° de secundaria: Python y Luau en serio, ONEM, OPI y COAR a la vista | growth of a function: linear vs doubling waves, and a while loop that finds the crossing point | (this commit) |
+| PE125 | programacion-para-ninos-de-12-anos (pab, #1B6A00) | market | 5,288 | 1.8% vs programacion-para-ninos-de-6-anos | 12 años, 1° de secundaria: Python y Luau en serio, ONEM, OPI y COAR a la vista | growth of a function: linear vs doubling waves, and a while loop that finds the crossing point | 17131e5d |
+| PE126 | programacion-para-5to-de-secundaria (prse, #8E3A23) | market | 5,442 | 1.8% vs programacion-para-ninos-de-10-anos | 5to de secundaria: Python con PCEP como en la Fábrica de Programadores, junto a la admisión | evaluate expressions exactly: //, % with negatives, ** right to left, / gives float, truthiness | (this commit) |
 
 ## Notes
 
