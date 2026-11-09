@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Learn to Think, Not Copy: Live Coding Classes for Peru</title>
+  <meta name="description" content="Coding classes for Peru that teach learners to reason, trace and test their own code instead of copying answers or AI output. Live, online, in English.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/learn-to-think-not-copy-coding-peru">
+  <link rel="alternate" type="text/markdown" href="/src/pages/learn-to-think-not-copy-coding-peru.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#863764">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/learn-to-think-not-copy-coding-peru">
+  <meta property="og:title" content="Learn to Think, Not Copy: Live Coding Classes for Peru">
+  <meta property="og:description" content="Why the tests Peruvian students actually sit leave nothing to copy, the four habits that replace copying, and a Python lesson on Euclid's algorithm traced by hand.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Learn to Think, Not Copy: Live Coding Classes for Peru">
+  <meta name="twitter:description" content="Live coding classes in English for learners in Peru, from age 6 to adult, built on reasoning rather than copied answers.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ltnc .ag-hero h1 { letter-spacing: -0.02em; max-width: 19ch; }
+.ag-root.ag-ltnc .ag-capsule { border-left-width: 5px; }
+.ag-root.ag-ltnc .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-ltnc .ag-section-head h2 { max-width: 24ch; }
+.ag-root.ag-ltnc .ag-code-note code { font-weight: 600; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/learn-to-think-not-copy-coding-peru#page","url":"https://learn.modernagecoders.com/learn-to-think-not-copy-coding-peru","name":"Learn to Think, Not Copy: Coding for Peru","description":"A guide for families and learners in Peru on learning to code by reasoning instead of copying, built from the ONEM 2026 rules (UGEL 06), the OPI 2025 regulations (UTEC), IOI statistics, the admission guides of Universidad de Lima, UNI and PUCP, and the CNEB, with an original Python lesson on Euclid's algorithm.","inLanguage":"en-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Peru","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Learn to think, not copy","item":"https://learn.modernagecoders.com/learn-to-think-not-copy-coding-peru"}]},{"@type":"Course","name":"Learn to Think, Not Copy: Coding for Peru","description":"Live online coding classes taught in English for learners in Peru from age 6 to adult, in which every program is predicted, traced and explained by the learner before it counts: Scratch and Python for children, Python, algorithms and problem solving for teenagers, and Python, Java and data structures for university students and adults, in a group of fifteen to twenty or one to one, at any hour.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/learn-to-think-not-copy-coding-peru"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/learn-to-think-not-copy-coding-peru"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/learn-to-think-not-copy-coding-peru"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in Spanish?","acceptedAnswer":{"@type":"Answer","text":"No. Every class is live, online and in English only, taught by mentors in India who speak clearly and adjust to each learner's pace and accent. Explaining code aloud in English is part of the method, and parents can still write to us in Spanish on WhatsApp."}},{"@type":"Question","name":"What does \"think, not copy\" mean in practice?","acceptedAnswer":{"@type":"Answer","text":"Before code counts as the learner's own, they predict its output, trace it step by step, explain every line and test it on cases they chose themselves. If any of the four is missing, the code is treated as borrowed, even when it runs."}},{"@type":"Question","name":"Is it bad to look at example code?","acceptedAnswer":{"@type":"Answer","text":"No. Reading good code is how everyone learns. The rule is that an example is read, explained and then closed, and the learner writes their own version from memory. Typing it out line by line while looking is copying slowly."}},{"@type":"Question","name":"Can my child use ChatGPT or other AI tools?","acceptedAnswer":{"@type":"Answer","text":"Children under 13 do not use chatbots in our classes. Teenagers use them later, with a parent's permission where the tool's terms ask for it, and only after writing their own version first. Claude's terms require users to be 18, so we use it only with adults."}},{"@type":"Question","name":"Do you prepare students for ONEM or the OPI?","acceptedAnswer":{"@type":"Answer","text":"We teach the reasoning those competitions reward, with problems we write ourselves; we never reproduce an organiser's problems. ONEM entry is through the school, and the OPI is organised by UTEC. We are not connected with either and promise no results."}},{"@type":"Question","name":"Will this help with university admission exams?","acceptedAnswer":{"@type":"Answer","text":"The habits help with any exam that rewards worked answers, but the admission exams of Peruvian universities are in Spanish and the universities decide admission. We offer maths reasoning practice in English alongside school, not exam preparation or a promise of a place."}},{"@type":"Question","name":"What age can my child start?","acceptedAnswer":{"@type":"Answer","text":"From 6, with Scratch and spoken predictions. Typed Python usually starts around 9, and trace tables and algorithms from about 13. Adults of any age can start from zero."}},{"@type":"Question","name":"What time are the classes?","acceptedAnswer":{"@type":"Answer","text":"Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. India is 10 hours 30 minutes ahead of Peru all year, so 10:00 a.m. in Lima is 8:30 p.m. in India."}},{"@type":"Question","name":"Does my child need a computer?","acceptedAnswer":{"@type":"Answer","text":"Yes, a laptop or desktop with a keyboard, camera and microphone. A phone is fine for watching but too small for writing and tracing code. Paper and a pencil are useful too."}},{"@type":"Question","name":"Do you give a certificate?","acceptedAnswer":{"@type":"Answer","text":"At the end of a course we give our own certificate of completion. It is not a Peruvian school grade or a qualification, and we are not connected with MINEDU or any school."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/learn-to-think-not-copy-coding-peru","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-ltnc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Peru</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Peru</a></li>
+      <li><a href="#rooms">No copying here</a></li>
+      <li><a href="#habits">Four habits</a></li>
+      <li><a href="#lesson">Euclid lesson</a></li>
+      <li><a href="#ai">AI and copying</a></li>
+      <li><a href="#clock">Peru time</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-and-ai-classes-in-peru">Peru</a> / Learn to think, not copy
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Peru &middot; Reasoning first &middot; Ages 6 to adult</p>
+        <h1>Learn to think, not copy: coding classes for Peru</h1>
+        <p class="ag-lede">A program copied from a classmate, a video or a chatbot runs exactly as well as one the learner wrote. The difference only shows later, in a room with no internet, a pencil and a clock. This page is about getting ready for that room: which Peruvian tests work that way, what thinking looks like in code, and a lesson that shows the method from start to finish.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#lesson" class="ag-btn ag-btn--ghost">See the Euclid lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Peru%20and%20want%20coding%20classes%20in%20English%20that%20teach%20real%20reasoning%2C%20not%20copying.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ltnc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching since 2020 &middot; 10,000+ students worldwide &middot; every line explained by the learner who wrote it</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Who</dt><dd>Children from 6, teenagers, university students and adults in Peru</dd>
+          <dt>Method</dt><dd>Predict, trace, explain, test, before any code is kept</dd>
+          <dt>Subjects</dt><dd>Scratch, Python, Java, algorithms and problem solving</dd>
+          <dt>Format</dt><dd>A group of fifteen to twenty, or one to one</dd>
+          <dt>Hours</dt><dd>Any day, any hour in Peru time</dd>
+          <dt>First class</dt><dd>Free, no card asked for</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>Learning to think, not copy, means a learner can predict what a program will do, trace it line by line on paper, explain each step aloud and test it on cases they chose, before the code counts as theirs. Modern Age Coders teaches coding this way in live online classes in English for learners in Peru, from children of 6 to teenagers, university students and adults, with mentors in India who adapt to each pace. Learners join a group of fifteen to twenty people of a similar age, or study one to one, at hours the family picks.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three courses built around reasoning</h2>
+      <p class="ag-lede">One for children ready to type their first code, one for teenagers, and one for anyone over 18 starting from zero. Each is taught by asking the learner to predict and explain before running anything.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Course thumbnail for Python and AI for Kids" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">LTNC / 01</p>
+          <h3>Python and AI for kids</h3>
+          <p>For 9 to 12 year olds. Short programs a child can hold in their head, so every output is guessed first and then checked.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Course thumbnail for the complete Python masterclass for teens" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">LTNC / 02</p>
+          <h3>Python for teens</h3>
+          <p>Ages 13 to 17. From variables to functions, files and classes, with a trace table whenever a loop is new.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Course thumbnail for the Python programming masterclass from zero to advanced" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">LTNC / 03</p>
+          <h3>Python from zero for adults</h3>
+          <p>University students and adults. The same habits at a faster pace, from first script to data and automation.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="rooms">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Where copying stops working</p><h2>Why does copying code fail Peruvian students when it matters?</h2><p class="ag-lede">Because the tests that decide medals, places and scholarships in Peru are sat in person, on paper or on a locked machine, and most of them reward a worked answer rather than a lucky choice. Read their own rules and the pattern is plain.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Five Peruvian tests and the rule in each that makes copying useless, from the organisers' own documents</caption><thead><tr><th scope="col">Test</th><th scope="col">Who sets it</th><th scope="col">The rule, in the organiser's words</th><th scope="col">What it rewards</th></tr></thead><tbody><tr><td>ONEM 2026, school stage</td><td>MINEDU, via each UGEL</td><td>"Consta de diez (10) ítems de respuesta construida cerrada"; "La prueba tiene una duración de dos (02) horas."</td><td>A number you worked out yourself, ten times, with no options to pick from</td></tr><tr><td>OPI 2025, final (Fase 2)</td><td>UTEC</td><td>"Se podr´a usar solo C++." and "Queda prohibido el uso de IA generativa para la resoluci´on de problemas."</td><td>Writing an algorithm from a blank file, without an assistant</td></tr><tr><td>Universidad de Lima school exam 2027-1(A)</td><td>Universidad de Lima</td><td>A "prueba única de aptitud académica y de conocimientos", with marks taken away "por cada respuesta equivocada"</td><td>Knowing when you know; a guess costs marks</td></tr><tr><td>UNI ordinary admission 2026-2</td><td>Universidad Nacional de Ingeniería</td><td>"El examen es de manera presencial y consiste en tres pruebas tomadas en tres días"</td><td>Mathematics, physics and reasoning done by hand, under time</td></tr><tr><td>PUCP admission</td><td>Pontificia Universidad Católica del Perú</td><td>Tests set "con especial énfasis en las áreas de comprensión lectora y matemáticas."</td><td>Reading a problem closely, then reasoning through it</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: UGEL 06, Oficio Múltiple N.° 00164-2026 on the ONEM 2026 school stage; UTEC, Reglamento OPI 2025 (accents as printed in the PDF); Universidad de Lima, Guía del postulante Admisión 2027-1(A); UNI, Admisión 2026-2 page; PUCP, Guía del postulante. Each was read in its original Spanish on 9 November 2026. Modern Age Coders has no link to MINEDU, a UGEL, UTEC or any university, and promises neither medals nor places.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The olympiads</h3><p>ONEM is enormous. El Peruano reported on 11 October 2026 that the 2026 edition drew more than 1.7 million secondary students from its first stage, and that 237 finalists met for the national stage at Huampaní. Each school-stage paper in 2026 had two items per CNEB maths competency, and every answer was a value the student had to construct. Entry runs through the school.</p>
+<p>The Peruvian Computing Olympiad (OPI), run by UTEC, is free for every secondary student in the country. Its 2025 rules allow C++ or Python in the first phase and only C++ in the in-person final, and they ban generative AI for solving problems outright. Peru first sent students to the International Olympiad in Informatics in 2022; the IOI's own statistics show 13 Peruvian contestants and one bronze medal so far.</p></div><div><h3>The admission papers</h3><p>Universidad de Lima's guide for the 2027-1(A) process describes one paper of academic aptitude and knowledge, scored by adding marks for each correct answer and subtracting for each wrong one, so guessing has a cost. Its school exam fell on Sunday 15 November 2026.</p>
+<p>UNI's ordinary exam for 2026-2 ran on 10, 12 and 14 August 2026, three papers on three days, one of them entirely mathematics. PUCP says its tests stress reading comprehension and maths. None of these papers is about programming, and all of them reward the same thing a good programmer has: the ability to hold a problem in your head and work it through.</p></div></div>
+    <p class="ag-mt-40">Admission exams in Peru are in Spanish and we do not prepare candidates for their content. What we can honestly offer is the habit underneath them, practised in English through code and maths. For the school-year view of computing in secundaria, including MINEDU's Python pilot, our page on <a class="ag-inline-link" href="/programacion-para-5to-de-secundaria">programación para 5to de secundaria</a> goes further.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="habits">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What thinking looks like</p><h2>What does it mean to learn to code by thinking instead of copying?</h2><p class="ag-lede">It means four habits that a mentor can see and a parent can check. A learner who has them can sit in front of an empty file and start; a learner who only copies cannot, however many programs they have run.</p></div>
+    <ol class="ag-steps"><li><strong>Predict before running.</strong> The learner says, out loud and in English, what the program will print. Being wrong is useful: the gap between the guess and the output is exactly where the misunderstanding lives.</li><li><strong>Trace by hand.</strong> For anything with a loop, the learner writes a table with one column per variable and one row per step. It is slow on purpose. After a few weeks the table moves into their head, which is what an olympiad or an exam needs.</li><li><strong>Explain each line.</strong> "This line swaps the two numbers" is an explanation. "This line is from the example" is not. If a line cannot be explained, it is not kept, even when the program works.</li><li><strong>Test on cases you chose.</strong> Ordinary inputs, the smallest input, zero, the same value twice, the inputs in reverse order. The learner picks them before seeing whether the code passes.</li></ol>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>What a copier says</h3><p>"It works." Asked why, they point at the screen. Asked to change one requirement, they search again for a new answer.</p></div><div><h3>What a thinker says</h3><p>"It works for these five cases, and it would break if the list were empty, so I added a check." The sentence is longer, and it is theirs.</p></div><div><h3>What the mentor does</h3><p>Asks short questions: what will this print, why this line, what if the input is zero. The mentor does not type the answer, even when it would be faster.</p></div></div>
+    <p class="ag-mt-40">Peru's national curriculum names a close cousin of these habits. Among the CNEB's competencies that cut across every subject is "Gestiona su aprendizaje de manera autónoma", managing one's own learning, with three capacities: define learning goals, organise strategic actions to reach them, and monitor and adjust one's own performance along the way. Predicting and then checking a program is that third capacity in miniature.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="lesson">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real lesson</p><h2>What does a "think, don't copy" coding lesson look like?</h2><p class="ag-lede">This lesson is ours, written for this page. Our mentors use it with teenagers from about 13 and with adults in their first months, and the maths is the greatest common divisor that Peruvian pupils meet in primaria. The point is not the answer, which any chatbot gives in a second. The point is being able to show why the answer is right.</p></div>
+    <p>The problem, ours: two ribbons are 84 cm and 120 cm long, and we want to cut both into pieces of equal length, as long as possible, with nothing left over. The longest piece is the greatest common divisor of 84 and 120. The mentor first asks for a plan in plain English. Most learners say: start at the smaller number and count down until something divides both.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: the honest brute force</b><span>Python</span></figcaption><pre>def gcd_slow(a, b):
+    checks = 0
+    d = min(a, b)
+    while d &gt; 0:
+        checks = checks + 1
+        if a % d == 0 and b % d == 0:
+            return d, checks
+        d = d - 1
+
+print(gcd_slow(84, 120))
+print(gcd_slow(1071, 462))</pre><p class="ag-code-note">The function returns two things: the divisor it found and how many numbers it had to try. Before running, the mentor asks: how many checks for 1071 and 462?</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>What Version 1 prints</b><span>Output</span></figcaption><pre>(12, 73)
+(21, 442)</pre><p class="ag-code-note">Exact output from our own run with Python 3. The ribbons give 12 cm after 73 tries. The second pair gives 21, but only after 442 tries, because the search walks down one number at a time from 462.</p></figure>
+    <p class="ag-mt-40">Nothing is wrong with Version 1. It is correct and easy to explain, and that matters: a learner who wrote it understands it. But 442 checks for a three-digit pair is a warning. The mentor then shows Euclid's idea, more than two thousand years old: the greatest common divisor of two numbers is unchanged if you replace the larger one by the remainder of dividing it by the smaller one. Keep doing that until the remainder is zero.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: Euclid, with its own trace table</b><span>Python</span></figcaption><pre>def gcd_traced(a, b):
+    print(f"{'a':&gt;6} {'b':&gt;6} {'a % b':&gt;6}")
+    while b != 0:
+        print(f'{a:&gt;6} {b:&gt;6} {a % b:&gt;6}')
+        a, b = b, a % b
+    return a
+
+print('answer:', gcd_traced(1071, 462))
+print('answer:', gcd_traced(462, 1071))</pre><p class="ag-code-note">The program prints its own trace table: one row per pass of the loop, before the swap on the last line of the loop runs. The second call deliberately passes the numbers in the opposite order.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>What Version 2 prints</b><span>Output</span></figcaption><pre>     a      b  a % b
+  1071    462    147
+   462    147     21
+   147     21      0
+answer: 21
+     a      b  a % b
+   462   1071    462
+  1071    462    147
+   462    147     21
+   147     21      0
+answer: 21</pre><p class="ag-code-note">Exact output from our own run. Three passes instead of 442 checks. With the numbers reversed there is one extra row: 462 % 1071 is 462, so the first pass simply swaps them.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><strong>Trace it on paper first.</strong> Before the learner runs Version 2, they fill in the three rows by hand: 1071 divided by 462 leaves 147; 462 divided by 147 leaves 21; 147 divided by 21 leaves 0. The program's table only confirms what they already wrote.</li><li><strong>Predict the surprise.</strong> "What happens if the smaller number comes first?" Most learners expect an error or a wrong answer. Tracing one row shows the loop fixes the order by itself, and the learner can say why.</li><li><strong>Read the swap.</strong> <code>a, b = b, a % b</code> computes both values on the right before assigning either. Written as two separate lines, <code>a = b</code> then <code>b = a % b</code>, it breaks, and finding out why is a five-minute lesson in its own right.</li><li><strong>Choose hard tests.</strong> The learner lists cases before running anything: a prime and a non-prime, a pair in reverse order, and pairs that contain zero.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 3: test against the standard library</b><span>Python</span></figcaption><pre>import math
+
+def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+tests = [(84, 120), (1071, 462), (462, 1071), (17, 5), (12, 0), (0, 12)]
+for a, b in tests:
+    print(a, b, gcd(a, b), math.gcd(a, b), gcd(a, b) == math.gcd(a, b))</pre><p class="ag-code-note">Python's <code>math</code> module documents <code>gcd(*integers)</code> as the "Greatest common divisor of the integer arguments". Here it is used as an independent referee, never as a replacement for understanding.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>What Version 3 prints</b><span>Output</span></figcaption><pre>84 120 12 12 True
+1071 462 21 21 True
+462 1071 21 21 True
+17 5 1 1 True
+12 0 12 12 True
+0 12 12 12 True</pre><p class="ag-code-note">Exact output from our own run: six cases, six matches, including both orders of 1071 and 462 and the two pairs with a zero.</p></figure>
+    <p class="ag-mt-40">Then the mentor asks one last question: would Version 1 survive the same tests? A learner who traces <code>gcd_slow(0, 12)</code> by hand sees that <code>d</code> starts at 0, the loop never runs and the function returns nothing at all. Spotting that without running it is the skill we are after. A copied answer could not have told you, because the person who copied it never looked inside.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ai">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">AI and copying</p><h2>Is using AI to write code the same as copying?</h2><p class="ag-lede">Pasting AI output you cannot explain is copying, with a faster source. Using AI to check your reasoning, explain an error or suggest a test you missed is not. The line is the same one the four habits draw: if you cannot predict, trace and explain it, it is not yours yet.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>How we use AI in class</h3><p>Teenagers and adults meet AI tools in our classes after the basics are in place, never before. The order is fixed: the learner writes or traces their own version first, and only then asks an assistant, and the assistant's answer is treated as a claim to be tested, like Version 3 tests Version 2 above.</p>
+<p>The tools themselves have age rules. Claude requires users to be 18; ChatGPT asks under-18s for a parent's permission. Children under 13 in our classes do not use chatbots at all. Our <a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a> lists what each tool's own terms say.</p></div><div><h3>Why the competitions ban it</h3><p>The OPI rules ban generative AI for solving problems, and the ONEM paper is sat on paper in a school classroom. That is not hostility to technology. It is how an organiser finds out what a student can do alone, which is also what a university, an employer and, sooner or later, the student wants to know.</p>
+<p>A learner who has spent a year predicting and tracing finds these rules a relief: the room asks for exactly what they practise. A learner who has spent a year pasting finds the same room empty.</p></div></div>
+    <p class="ag-mt-40">Families who want the full method for building with AI assistants, with tests written first, can read our Spanish page on <a class="ag-inline-link" href="/vibe-coding-curso-en-ingles">vibe coding en inglés</a>. It covers which tools suit each age and how a learner judges generated code.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ages">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">By age</p><h2>At what age can a child learn to think like a programmer?</h2><p class="ag-lede">From 6, in a form that suits the age. The habit of predicting and checking does not need typing; it needs a question asked before the green flag or the run button is pressed.</p></div>
+    <div class="ag-grid-3"><div><h3>Ages 6 to 8</h3><p>Scratch blocks. "Where will the cat be after this loop?" The child points on the screen, then presses the flag. Being wrong and laughing about it is part of the lesson.</p></div><div><h3>Ages 9 to 12</h3><p>Short Python programs and turtle drawings. Children write their guess in a notebook before running, and keep a list of surprises with one English sentence each.</p></div><div><h3>Ages 13 and up</h3><p>Trace tables, test cases and algorithms such as the Euclid lesson above, then data structures. Teenagers who like competitions can aim at ONEM or OPI with problems we write ourselves.</p></div></div>
+    <p class="ag-mt-40">Adults follow the teenage track at their own speed. A professional who has used spreadsheets for years often traces faster than a teenager, and is usually more frustrated by copied code they cannot fix at work. For teenagers in secundaria choosing what to study, our Spanish page on <a class="ag-inline-link" href="/clases-de-programacion-para-adolescentes-peru">clases de programación para adolescentes</a> sets out the options by grade.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Taught in English</p><h2>Are these classes taught in Spanish?</h2><p class="ag-lede">No. Each lesson is live and online, and English is the only teaching language. Our mentors, based in India, speak clearly, slow down when asked and match each learner's pace and accent. For this method, English is a help rather than a hurdle.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Explaining is the exercise</h3><p>The habit at the centre of this page is explaining your code aloud. Doing it in English doubles the work in a useful way: the learner has to find the words, which forces them to find the idea first. "The remainder becomes the new divisor" is a sentence you cannot say without understanding it.</p>
+<p>Python's keywords and error messages are English already. A learner who explains code in English is reading the language the computer answers in.</p></div><div><h3>Starting with little English</h3><p>Nobody needs to arrive fluent. Children start with short phrases and pictures; teenagers and adults get a word list per lesson. Mentors repeat in simpler words and write key terms in the chat.</p>
+<p>Parents may message us in Spanish on WhatsApp at any time. The classes stay in English.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="clock">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Peru time</p><h2>What time are the classes in Peru?</h2><p class="ag-lede">At the hour you choose. Our mentors work from India, and since neither Peru nor India changes its clocks during the year, the difference stays fixed.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Peru time converted to India time (examples only, not a class schedule)</caption><thead><tr><th scope="col">Peru time</th><th scope="col">India time</th><th scope="col">Day in India</th></tr></thead><tbody><tr><td>7:00 a.m.</td><td>5:30 p.m.</td><td>Same day</td></tr><tr><td>10:00 a.m.</td><td>8:30 p.m.</td><td>Same day</td></tr><tr><td>12:30 p.m.</td><td>11:00 p.m.</td><td>Same day</td></tr><tr><td>3:00 p.m.</td><td>1:30 a.m.</td><td>Next day</td></tr><tr><td>5:30 p.m.</td><td>4:00 a.m.</td><td>Next day</td></tr><tr><td>7:30 p.m.</td><td>6:00 a.m.</td><td>Next day</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Peru keeps UTC minus 5 all year with no summer time (tz database zone America/Lima); India keeps UTC plus 5:30, so India runs 10 hours 30 minutes ahead of Peru on every day of the year.</p>
+    <p class="ag-mt-40">Secundaria students often pick an early evening hour after homework; university students and adults tend to choose early mornings or late evenings around lectures and work. You book on your own clock and the mentor converts.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>How can you tell a learner is thinking, not copying?</h2>
+      <p class="ag-lede">Five stages we use with learners in Peru. They are ours, not an official scale, and they describe behaviour a parent can watch for.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Five stages from copying to reasoning (our scale)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What the learner does</th><th scope="col">What to ask them</th></tr></thead><tbody><tr><td>1. Runs it</td><td class="ag-num">Runs code and reports whether it worked</td><td class="ag-num">"What did you expect it to do?"</td></tr><tr><td>2. Predicts it</td><td class="ag-num">Says the output before running, right or wrong</td><td class="ag-num">"Why did you expect that?"</td></tr><tr><td>3. Traces it</td><td class="ag-num">Fills a table of variables step by step for a short loop</td><td class="ag-num">"Show me the row where it changes."</td></tr><tr><td>4. Breaks it</td><td class="ag-num">Chooses inputs that might fail, such as zero or reversed order</td><td class="ag-num">"Which input worries you most?"</td></tr><tr><td>5. Starts blank</td><td class="ag-num">Writes a working solution from an empty file and explains it</td><td class="ag-num">"Teach it to me in two minutes."</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Pick one question from the right-hand column each week. You do not need to understand the code; listen for whether the answer is about ideas or about where the code came from.</p>
+<p>Moving from stage 2 to stage 3 usually takes the longest. Trace tables feel slow, and that slowness is the training.</p></div><div><h3>For learners</h3><p>Write your guess before you press run. Keep a list of the times you were wrong; it is the most useful page in your notebook.</p>
+<p>When something works on the first try, try to break it before celebrating.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses taught the same way</h2>
+      <p class="ag-lede">Every one is live, in English, with one mentor, and every one asks for predictions and explanations before code counts.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Reasoning foundations</h3>
+        <span class="ag-band-sub">Ages 6 to 14</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">LTNC / BASE / 01</p>
+          <h4>Problem solving for kids</h4>
+          <p>Puzzles, patterns and step-by-step plans before any syntax.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LTNC / BASE / 02</p>
+          <h4>Reasoning for young thinkers</h4>
+          <p>Logic and careful reading for the youngest learners.</p>
+          <a class="ag-course-link" href="/courses/reasoning-and-readiness-course-for-young-thinkers">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LTNC / BASE / 03</p>
+          <h4>Maths through coding</h4>
+          <p>School maths tested in Python, in the spirit of the Euclid lesson.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Contest and algorithm work</h3>
+        <span class="ag-band-sub">Ages 12 to 17</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">LTNC / CONTEST / 01</p>
+          <h4>Problem solving and DSA for teens</h4>
+          <p>Data structures and algorithms traced by hand, then coded.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LTNC / CONTEST / 02</p>
+          <h4>Competitive programming for teens</h4>
+          <p>Timed problems in C++ or Python, with original practice sets.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LTNC / CONTEST / 03</p>
+          <h4>Olympiad maths</h4>
+          <p>Constructed answers and proof-style reasoning, no multiple choice.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>University and adults</h3>
+        <span class="ag-band-sub">18 and over</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">LTNC / ADULT / 01</p>
+          <h4>Data structures and algorithms</h4>
+          <p>The course behind most technical interviews, done properly.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LTNC / ADULT / 02</p>
+          <h4>Java for university students</h4>
+          <p>Types, classes and testing, from first program to projects.</p>
+          <a class="ag-course-link" href="/courses/complete-java-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LTNC / ADULT / 03</p>
+          <h4>PCEP and PCAP preparation</h4>
+          <p>Python certification prepared by understanding, not memorised dumps.</p>
+          <a class="ag-course-link" href="/courses/pcep-pcap-python-certification-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How it works</p>
+      <h2>How are the live classes run?</h2>
+      <p class="ag-lede">Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Before school or work</p><p class="ag-slot-l">Early slots in Peru time, when minds are fresh.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">After homework</p><p class="ag-slot-l">Evenings suit many secundaria students.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Your own hour</p><p class="ag-slot-l">One-to-one classes at times you set.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Guess first</h3><p>Each new program starts with a spoken prediction.</p></div>
+      <div><h3>Paper allowed</h3><p>Trace tables on paper or a shared screen, never skipped.</p></div>
+      <div><h3>Learner types</h3><p>The mentor asks and points; the learner writes.</p></div>
+      <div><h3>Tests chosen in advance</h3><p>Edge cases picked before the code is run.</p></div>
+      <div><h3>Same mentor</h3><p>One person who learns how your child reasons.</p></div>
+      <div><h3>Group or solo</h3><p>Fifteen to twenty learners of a similar age, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What reasoning leads to</h2>
+      <p class="ag-lede">Projects by some of our older students, built from blank files. More are on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for learners in Peru</h2>
+      <p class="ag-lede">The monthly fee for each plan appears here in US dollars and is paid by card. Your bank turns it into soles at the rate it applies on the day, so the figure on your statement can move a little from month to month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class with a mentor</li><li>A short reasoning puzzle, not a sales talk</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty learners of a similar age</li><li>One mentor throughout</li><li>Two live classes a week</li><li>Paid monthly, stop at the end of any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>The learner and a mentor alone</li><li>Pace set by how fast the habits form</li><li>Days and hours you choose</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Families and students on Google, quoted exactly as they wrote.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learners in Peru ask</p>
+      <h2>Learning to think, not copy: questions and answers</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in Spanish?</h3>
+        <p>No. Every class is live, online and in English only, taught by mentors in India who speak clearly and adjust to each learner's pace and accent. Explaining code aloud in English is part of the method, and parents can still write to us in Spanish on WhatsApp.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does "think, not copy" mean in practice?</h3>
+        <p>Before code counts as the learner's own, they predict its output, trace it step by step, explain every line and test it on cases they chose themselves. If any of the four is missing, the code is treated as borrowed, even when it runs.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is it bad to look at example code?</h3>
+        <p>No. Reading good code is how everyone learns. The rule is that an example is read, explained and then closed, and the learner writes their own version from memory. Typing it out line by line while looking is copying slowly.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child use ChatGPT or other AI tools?</h3>
+        <p>Children under 13 do not use chatbots in our classes. Teenagers use them later, with a parent's permission where the tool's terms ask for it, and only after writing their own version first. Claude's terms require users to be 18, so we use it only with adults.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you prepare students for ONEM or the OPI?</h3>
+        <p>We teach the reasoning those competitions reward, with problems we write ourselves; we never reproduce an organiser's problems. ONEM entry is through the school, and the OPI is organised by UTEC. We are not connected with either and promise no results.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will this help with university admission exams?</h3>
+        <p>The habits help with any exam that rewards worked answers, but the admission exams of Peruvian universities are in Spanish and the universities decide admission. We offer maths reasoning practice in English alongside school, not exam preparation or a promise of a place.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age can my child start?</h3>
+        <p>From 6, with Scratch and spoken predictions. Typed Python usually starts around 9, and trace tables and algorithms from about 13. Adults of any age can start from zero.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time are the classes?</h3>
+        <p>Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. India is 10 hours 30 minutes ahead of Peru all year, so 10:00 a.m. in Lima is 8:30 p.m. in India.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need a computer?</h3>
+        <p>Yes, a laptop or desktop with a keyboard, camera and microphone. A phone is fine for watching but too small for writing and tracing code. Paper and a pencil are useful too.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you give a certificate?</h3>
+        <p>At the end of a course we give our own certificate of completion. It is not a Peruvian school grade or a qualification, and we are not connected with MINEDU or any school.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>More on reasoning and code</h2>
+      <p class="ag-lede">Pages in English that go deeper into the method.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/how-to-think-like-a-programmer">How to think like a programmer</a></h3><p>The mental moves behind decomposing a problem.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>Finding a bug by reasoning rather than guessing.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-actually-learn-to-code">How to actually learn to code</a></h3><p>Why tutorials alone rarely stick.</p></div>
+      <div><h3><a class="ag-inline-link" href="/we-teach-you-how-to-think">We teach you how to think</a></h3><p>Our teaching promise, in full.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-code-with-ai">Learn to code with AI</a></h3><p>Using assistants without handing over the thinking.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>Everything we teach in Peru, by age and subject.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">The first class is a conversation with a puzzle in it. The mentor gives a short problem, asks the learner to guess before running anything and watches how they reason, then suggests a course and a level. You leave with a clear idea of where to begin, whether or not you continue.</p>
+        <p class="ag-mt-40">Prefer to read more first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> walks through a live class, and the <a class="ag-inline-link" href="/courses">full course list</a> has every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Peru%20and%20want%20coding%20classes%20in%20English%20that%20teach%20real%20reasoning%2C%20not%20copying.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ltnc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Live online classes with mentors in India, in English only. WhatsApp is quickest, and Spanish messages are welcome.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ltnc(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Your name</label>
+            <input id="pe-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Phone or WhatsApp, Peru +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Learner age group</label>
+            <select id="pe-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free. No card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Courses on this page</h4><ul><li><a href="/courses/python-ai-kids-masterclass">Python and AI for kids</a></li><li><a href="/courses/python-complete-masterclass-teens">Python for teens</a></li><li><a href="/courses/python-programming-masterclass-zero-to-advanced-college">Python for adults</a></li><li><a href="/courses">All courses</a></li></ul></div>
+      <div><h4>Reasoning</h4><ul><li><a href="/how-to-think-like-a-programmer">Think like a programmer</a></li><li><a href="/how-to-debug-code">Debugging</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Guess, trace, then run</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ltnc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'learn-to-think-not-copy-coding-peru-inline', meta: { name: name, age: age, page: 'learn-to-think-not-copy-coding-peru' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
