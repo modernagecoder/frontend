@@ -1067,6 +1067,7 @@ const SLUGS = [
   'coding-bootcamp-alternative-peru',
   'remote-tech-job-skills-peru',
   'coding-for-kids-age-6-peru',
+  'coding-for-kids-age-8-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2213,6 +2214,7 @@ const LLMS_LABELS = {
   'coding-bootcamp-alternative-peru': 'A coding bootcamp alternative for Peru',
   'remote-tech-job-skills-peru': 'Remote tech job skills for people in Peru',
   'coding-for-kids-age-6-peru': 'Coding for kids age 6 in Peru',
+  'coding-for-kids-age-8-peru': 'Coding for kids age 8 in Peru',
 };
 
 function wireLlms(slugs) {
