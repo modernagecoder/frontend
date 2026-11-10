@@ -1078,6 +1078,7 @@ const SLUGS = [
   'coding-classes-for-kids-in-pucallpa-peru',
   'online-python-and-ai-classes-tacna-peru',
   'coding-and-ai-for-teens-in-ica-peru',
+  'coding-classes-for-kids-in-juliaca-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2235,6 +2236,7 @@ const LLMS_LABELS = {
   'coding-classes-for-kids-in-pucallpa-peru': 'Coding classes for kids in Pucallpa, Peru',
   'online-python-and-ai-classes-tacna-peru': 'Online Python and AI classes in Tacna, Peru',
   'coding-and-ai-for-teens-in-ica-peru': 'Coding and AI for teens in Ica, Peru',
+  'coding-classes-for-kids-in-juliaca-peru': 'Coding classes for kids in Juliaca, Peru',
 };
 
 function wireLlms(slugs) {
