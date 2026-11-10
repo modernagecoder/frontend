@@ -1085,6 +1085,7 @@ const SLUGS = [
   'coding-classes-in-lima-peru',
   'coding-classes-in-trujillo-peru',
   'coding-classes-in-cusco-peru',
+  'coding-classes-in-piura-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2249,6 +2250,7 @@ const LLMS_LABELS = {
   'coding-classes-in-lima-peru': 'Coding classes in Lima, Peru',
   'coding-classes-in-trujillo-peru': 'Coding classes in Trujillo, Peru',
   'coding-classes-in-cusco-peru': 'Coding classes in Cusco, Peru',
+  'coding-classes-in-piura-peru': 'Coding classes in Piura, Peru',
 };
 
 function wireLlms(slugs) {
