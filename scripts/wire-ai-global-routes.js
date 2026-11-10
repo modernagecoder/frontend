@@ -1169,6 +1169,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-ventanilla-callao',
   'clases-de-programacion-para-ninos-bellavista-callao',
   'clases-de-programacion-para-ninos-la-perla-callao',
+  'clases-de-programacion-para-ninos-mi-peru-callao',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2417,6 +2418,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-ventanilla-callao': 'Clases de programación para niños en Ventanilla',
   'clases-de-programacion-para-ninos-bellavista-callao': 'Clases de programación para niños en Bellavista',
   'clases-de-programacion-para-ninos-la-perla-callao': 'Clases de programación para niños en La Perla',
+  'clases-de-programacion-para-ninos-mi-peru-callao': 'Clases de programación para niños en Mi Perú',
 };
 
 function wireLlms(slugs) {
