@@ -1,10 +1,10 @@
 ---
 title: "Summer Holiday Coding Classes Online for Peru, Live in English"
-description: "Summer holiday coding classes for children and teens in Peru: live, online and in English, a start for the January to March break, in a group or one to one."
+description: "Summer holiday coding classes for Peru: Python and AI or a course you choose, 4 to 5 live classes a week in English, in a group or one to one, any hour."
 canonical: https://learn.modernagecoders.com/peru-summer-holiday-coding-classes-online
 source: src/pages/peru-summer-holiday-coding-classes-online.html
 ---
-> Yes, your child can spend Peru's summer school break learning to code from home. Modern Age Coders teaches live online coding classes in English for children of 6 to 12 and teenagers of 13 to 17 anywhere in Peru, with mentors based in India who speak clearly and adapt to each learner. There is no fixed camp: your child starts our normal classes whenever the break begins, in a group of fifteen to twenty or one to one, at any hour that suits your family, and can carry on when school returns.
+> Yes, your child can spend Peru's summer school break coding from home. Modern Age Coders teaches live online classes in English for children of 6 to 12 and teenagers of 13 to 17 anywhere in Peru, at a summer pace of 4 to 5 classes a week. Choose the Summer Python and AI route, or any course your child likes, such as DSA, web or app development. Classes run in a group of fifteen to twenty or one to one, at any hour that suits your family, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Peru](/coding-and-ai-classes-in-peru) / Summer holiday coding
 
@@ -12,17 +12,66 @@ Peru · Summer school break · Ages 6 to 17
 
 # Summer holiday coding classes online for Peru
 
-Peruvian schools close in December and reopen in March, and every January parents across Lima and the regions start hunting for vacaciones útiles. This page is for families who want those weeks to count: what the official calendar says about the break, what Lima district councils offered in summer 2026, a holiday plan of our own for each age, and a real Python lesson your child could do in the first week.
+Peruvian schools close in December and reopen in March, and every January parents across Lima and the regions start hunting for vacaciones útiles. This page is for families who want those weeks to count: our summer offer of 4 to 5 live classes a week on two routes, how far a summer at that pace really goes, what the official calendar says about the break, and a real Python lesson your child could do in the first week.
 
-At a glance: Teaching language: Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner; Who: Children of 6 to 12 and teenagers of 13 to 17; When: From the end of the school year in December; What: Scratch, Python, Roblox, web and AI projects; Format: A group of fifteen to twenty, or one to one; Hours: Any day, any hour in Peru time; First class: Free, with no card. Rated 4.9 across 547 Google reviews.
+At a glance: Teaching language: Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner; Who: Children of 6 to 12 and teenagers of 13 to 17; Routes: Summer Python and AI, or a course you choose; Summer pace: 4 to 5 live classes a week; Format: A group of fifteen to twenty, or one to one; First class: Free, with no card. Rated 4.9 across 547 Google reviews.
 
-## Three courses families start in the summer
+## Three courses that make the most of a 4 to 5 class week
 
-One for young children who have never coded, one for the age when typed code becomes possible, and one for teenagers who want to build with AI rather than just ask it questions.
+Two from the Summer Python and AI route, for primary age and for teenagers, and one short route 2 course a teenager can finish with weeks to spare.
 
-- [Coding for kids: Scratch to games and apps](/courses/kids-coding-blocks-masterclass): Ages 6 to 12, grouped by age. Blocks, animations and small games, so a summer produces something your child can show the family in February.
-- [Python and AI for kids](/courses/python-ai-kids-masterclass): Ages 9 to 12. The step from dragging blocks to typing real code, with turtle drawings, quizzes and small AI projects.
-- [Vibe coding for teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course): Ages 13 to 17. Python and web projects built with AI help, where the teenager reads, tests and explains every line before keeping it.
+- [Route 1: Python and AI for kids](/courses/python-ai-kids-masterclass): Ages 9 to 12. The step from dragging blocks to typing real code, with turtle drawings, quizzes and small AI projects. It runs 8 to 10 months at the normal pace, so a summer covers between half and three quarters.
+- [Route 1: Python for teens](/courses/python-complete-masterclass-teens): Ages 13 to 18, from zero. Its published length is 10 to 12 months at two classes a week, so a summer at 4 to 5 a week gets roughly half done, and the rest continues in March.
+- [Route 2: vibe coding for teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course): Ages 13 to 17. Twenty-four classes of Python and web projects built with AI help, where the teenager reads, tests and explains every line before keeping it.
+
+## What is in the 2027 summer coding offer for Peru?
+
+Two routes and a faster pace. During the break your child has 4 to 5 live classes a week instead of the usual two, either on our Summer Python and AI route or on any course from the catalogue they choose, in a group or one to one, at hours your family picks.
+
+### Route 1: Summer Python and AI
+
+Python first, then AI projects that suit the learner's age. Children of 9 to 12 take Python and AI for Kids; teenagers take Python for Teens and move on to data science or AI and machine learning; university students and adults take the college Python masterclass and the AI and ML masterclass.
+
+It is the route we suggest when a family is unsure, because whatever a child learns in Python carries straight into any course that follows, and every project ends with a program that guesses, sorts or draws from data the learner gathered.
+
+### Route 2: choose your own course
+
+Any course in the catalogue can run at summer pace: data structures and algorithms (DSA), web development, app development, Java, C++, game development, Roblox, Scratch, vibe coding or maths.
+
+The mentor spreads that course's syllabus across the summer weeks. Short courses can be completed before school returns; long ones get a large head start and carry on in March at the normal pace.
+
+**Summer pace against the school-year pace (our arithmetic)**
+
+| Pace | Classes a week | Classes in 4 weeks | Classes in a 10-week summer | Equal to this much of the school-year pace |
+|---|---|---|---|---|
+| School year | 2 | 8 | 20 | 2.5 months |
+| Summer, lighter | 4 | 16 | 40 | 5 months |
+| Summer, full | 5 | 20 | 50 | Just over 6 months |
+
+Our own calculation. The school-year pace is two live classes a week, eight a month, which is what the fee cards on this page price. A summer of ten weeks assumes a start in late December 2026; families who begin in mid-January simply have fewer weeks.
+
+**Can a route 2 course be finished in one summer? (durations from each course page; arithmetic ours)**
+
+| Course | Published length | Classes at two a week | At 4 to 5 classes a week over ten weeks |
+|---|---|---|---|
+| Vibe Coding for Teens | 3 months (12 weeks) | 24 | Completed in five or six weeks |
+| Scratch Coding for Kids | 3 to 4 months | 24 to 32 | Completed |
+| HTML and CSS for Beginners | 4 months (16 weeks) | 32 | Completed |
+| Problem Solving for Teens (DSA) | 10 to 12 months | 88 to 104 | About half; continues in March |
+| PCEP and PCAP Python certification | 5 months (20 weeks) | 40 | Completed at the full pace |
+| App Development for Teens | 10 to 12 months | 80 to 96 | About half; continues in March |
+| Full Stack Web Development for Teens | 12 to 14 months | 96 to 112 | Under half; continues in March |
+
+**Which route fits which age (our suggestion)**
+
+| Age | Route 1: Summer Python and AI | Route 2: popular choices | What one summer usually gives |
+|---|---|---|---|
+| 6 to 8 | Not yet: we start with blocks | Scratch, app making with blocks, Minecraft | A first game or animated story of their own |
+| 9 to 12 | Python and AI for Kids | Roblox, websites for kids, maths through coding | Half to three quarters of the Python and AI course |
+| 13 to 17 | Python for Teens, then data science or AI and ML | DSA, web, apps, Java, C++, vibe coding | About half of Python for Teens, or a short course such as vibe coding completed |
+| 18 and over | Python masterclass, then AI and ML | University DSA, full stack, Java | A strong start on a 9 to 14 month course |
+
+We will not tell you a ten-month course fits into ten weeks. What we do promise is honest pacing: the mentor shows you, before the first summer class, how far your child can expect to get, and in March the course simply continues at two classes a week if you want it to.
 
 ## When is the summer school holiday in Peru?
 
@@ -82,31 +131,31 @@ Where technology appears in the 2026 announcements, it is usually robotics or ge
 
 ### Both can fit in one summer
 
-Live online classes take about an hour twice a week, at any hour you choose. Many families combine them: swimming or football at the council in the morning, coding from home in the afternoon.
+Live online classes need no travel and run at any hour you choose, even at 4 to 5 a week. Many families combine them: swimming or football at the council in the morning, coding from home in the afternoon.
 
 We write district by district in Spanish as well; for Lima families who want the whole picture of English-taught coding in the capital, our page on [English-medium coding classes in Lima](/english-medium-coding-classes-lima) covers bilingual, Cambridge and IB pupils in detail.
 
 ## Is this a summer camp or regular classes?
 
-Regular classes, started in the summer. We do not run a fixed summer camp for Peru with its own dates. Your child joins the same live course any of our students would join, at the moment the school break begins, and that is a strength rather than a compromise.
+Real courses at a summer pace. There is no camp with its own dates: your child takes a full course from our catalogue, the same one any student would take, but at 4 to 5 classes a week while school is closed, and that is a strength rather than a compromise.
 
 ### Why not a short camp
 
-A two-week camp is long enough to make one game and too short to learn how to make the next one alone. Children forget a programming idea quickly if they meet it once; they keep it when they use it again a week later in a new project.
+A two-week camp is long enough to make one game and too short to learn how to make the next one alone. Children forget a programming idea quickly if they meet it once; they keep it when they use it again the next day in a new problem.
 
-A summer start avoids that problem. Your child has a calm stretch with no homework to build habits, and the course simply continues, at a lighter pace if you wish, when school returns in March.
+Near-daily classes give exactly that repetition, and because the work belongs to a real course, nothing is lost in March: the course continues at two classes a week if you wish.
 
 ### What stays the same all year
 
 The same mentor teaches your child from the first summer class, knows how they think, and sends you a short note on what was practised and what comes next.
 
-You choose a group of fifteen to twenty learners of a similar age or one-to-one classes, and you choose the hours. You can pause or stop at the end of any month.
+You choose a group of fifteen to twenty learners of a similar age or one-to-one classes, and you choose the hours. You agree the summer pace and its fee with the mentor first, and you can stop at the end of any month.
 
 Nothing here is connected with MINEDU, a UGEL, a council or any school. Our classes run alongside school and do not give Peruvian grades or credits. When a child finishes a course, we give our own certificate of completion.
 
 ## What could a summer of coding look like for my child?
 
-Here is the plan our mentors suggest for a first summer, in four stages. It is our own suggestion, not a fixed programme: a stage usually takes a couple of weeks at two classes a week, and the mentor stretches or shortens it to match your child.
+Here is how our mentors usually shape a first summer on route 1, in four stages. It is our own suggestion, not a fixed programme: at 4 to 5 classes a week a stage takes roughly two weeks, and the mentor stretches or shortens it to match your child.
 
 **Our suggested first-summer plan by age (ours; projects are examples)**
 
@@ -117,13 +166,13 @@ Here is the plan our mentors suggest for a first summer, in four stages. It is o
 | 3. Data | A catch game that gets faster | A drawing program with the turtle | Dates and files: the calendar lesson below |
 | 4. Show it | Present the game to the family | A Roblox obstacle course or small website | A web page or AI helper, explained line by line |
 
-This plan is ours, written by our mentors for this page. Every child is placed after the free first class, so a 10-year-old who already knows Scratch may start at stage 2.
+This plan is ours, written by our mentors for this page. Four stages of about two weeks fill eight weeks; a family that starts in late December has two more for a second project or the next module. Every child is placed after the free first class, so a 10-year-old who already knows Scratch may start at stage 2.
 
 1. **Book the free class before the break.** December is a good time: your child meets a mentor, solves a small puzzle and you agree a starting stage and an hour.
-2. **Fix two hours a week.** Two classes on fixed days give the summer a rhythm, even when the rest of the day is free. Pick hours that do not clash with the beach, council workshops or family trips.
-3. **Add short practice.** Twenty minutes between classes, on a project the child chose, does more than one long session on Sunday.
+2. **Agree the pace.** Four or five classes a week, agreed with the mentor together with the summer fee before the first summer class. Keeping the same hour each class day gives the summer a rhythm; pick one that does not clash with the beach, council workshops or family trips.
+3. **Add short practice.** With classes most days, ten to fifteen minutes on a free day is plenty, on a project the child chose.
 4. **Keep a project log.** A notebook with the date, what was built and one new English word. By March it becomes a record your child is proud of.
-5. **Decide in late February.** Continue into the school year at the same pace, slow down to one class a week, or pause. Any of the three is fine.
+5. **Decide in late February.** Continue into the school year at two classes a week, or pause. Either is fine.
 
 Families with a child at primaria will find more detail on the age question, and on why we start with Scratch, on our Spanish page [clases de programación para niños en inglés](/clases-de-programacion-para-ninos-en-ingles).
 
@@ -279,7 +328,7 @@ In the summer many families pick a morning hour, while the day is still cool and
 
 ## What happens when school starts again in March?
 
-You decide. Many families keep going at the same two classes a week; some slow to one; a few pause and return in the July break. The course and the mentor stay the same.
+You decide. Many families drop back to the school-year pace of two classes a week and carry on with the same course; a few pause and return in the July break. The course and the mentor stay the same.
 
 ### Continuing alongside school
 
@@ -321,21 +370,21 @@ When the answer looks wrong, ask first whether the data or the program is wrong.
 
 ## Nine more courses to start in the break
 
-All taught live in English by one mentor through the course, in a group or one to one.
+Any of these can be the route 2 choice, taught live in English by one mentor through the course, at 4 to 5 classes a week in the break and two a week afterwards.
 
 ### Games and building
 
 Ages 7 to 12
 
 - [Roblox game coding](/courses/roblox-game-coding-for-kids-lua-course): Obstacle courses, scores and shops in Roblox Studio with Luau, from 8.
-- [Minecraft coding](/courses/minecraft-coding-for-kids-course): Automating a world children already know, blocks first, then code.
+- [Coding for kids with blocks](/courses/kids-coding-blocks-masterclass): Ages 6 to 12: blocks, animations and small games, a gentle start before typed code.
 - [Websites for kids](/courses/kids-ai-web-development-course): HTML and CSS to publish a first site of their own.
 
 ### Teenagers
 
 Ages 13 to 17
 
-- [Python for teens](/courses/python-complete-masterclass-teens): From the first variable to files, classes and small apps.
+- [Problem solving and DSA for teens](/courses/problem-solving-dsa-masterclass-teens): Logic, data structures and algorithms over 10 to 12 months; a summer gives it a big head start.
 - [JavaScript for teens](/courses/javascript-course-for-teens-beginners-interactive-web): Interactive pages and browser games, built and tested.
 - [Game development for teens](/courses/complete-game-development-masterclass-for-teens): Unity and C# for a teenager who wants to ship a real game.
 
@@ -358,16 +407,16 @@ Any day, any time, flexible: choose a batch, or for a very personalised plan cho
 - **One mentor** The same person from the first summer class into the school year.
 - **Clear English** Short sentences, a shared screen and patience to say it again.
 - **Hands on the keyboard** Your child types and fixes the code; the mentor guides.
-- **A project per stage** Each stage ends with something to show at home.
+- **Summer pace** 4 to 5 classes a week, agreed with the mentor before the summer starts.
 - **Notes for parents** A short update on what was practised and what is next.
 - **Group or solo** Fifteen to twenty learners of a similar age, or one to one.
 
 ## Fees for summer classes in Peru
 
-Our monthly fees show here in US dollars and are charged to a card. Your bank converts each payment into soles at its own exchange rate, so the amount on your statement may differ slightly from one month to the next.
+The cards below show our standard monthly fee, which covers eight classes a month, in US dollars, charged to a card; your bank converts each payment at its own exchange rate. The summer pace of 4 to 5 classes a week has its own fee, which you agree with the mentor before the first summer class, so nothing is a surprise. The first class is free.
 
-- Free first class: Free. A free first class with a mentor. A starting stage agreed for the summer. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty learners of a similar age. The same mentor all summer. Two live classes a week. Monthly, stop at the end of any month.
+- Free first class: Free. A free first class with a mentor. A route and a summer pace suggested. No card needed.
+- Group batch: USD 100 a month. Fifteen to twenty learners of a similar age. Eight classes a month in the school year. 4 to 5 a week in the summer, fee agreed first. Monthly, stop at the end of any month.
 - One to one: USD 150 a month. Your child and a mentor alone. Projects chosen around your child. Days and hours you choose.
 
 ## Summer holiday coding classes for Peru: questions and answers
@@ -380,9 +429,17 @@ No. Every class is live, online and taught in English only. Our mentors in India
 
 For 2026, RM 501-2025-MINEDU set the last teaching day as 18 December 2026, and the 2026 year began with pupils on 16 March 2026. The 2027 calendar had not been published when we checked on 8 November 2026, so the exact March 2027 restart is not known yet.
 
-### Is this a summer camp with fixed dates?
+### How many classes a week are there in the summer?
 
-No. We do not run a separate summer camp for Peru. Your child starts our normal live course when the break begins, in a group or one to one, and can continue into the school year, slow down or stop at the end of any month.
+Four to five live classes a week during the break, against two a week in the school year. You agree the exact number with the mentor before starting, and your family chooses the days and the hour.
+
+### What can my child study this summer?
+
+Either our Summer Python and AI route, Python first and then age-appropriate AI projects, or any course in the catalogue: DSA, web development, app development, Java, C++, game development, Roblox, Scratch, vibe coding or maths.
+
+### Can a whole course be finished in one summer?
+
+Short ones, yes. Ten weeks at 4 to 5 classes is 40 to 50 classes by our count, enough for vibe coding, Scratch, HTML and CSS or PCEP and PCAP. A 10 to 14 month course, such as Python for Teens or DSA for teens, gets roughly half done and continues in March at two classes a week.
 
 ### What age can my child start?
 
@@ -398,19 +455,15 @@ No. Understanding simple instructions is enough to begin. The first two or three
 
 ### Can my child do a council summer workshop as well?
 
-Yes. A live class takes about an hour twice a week at the hour you choose, so it fits easily beside a morning sport or arts workshop. We are not connected with any district council.
-
-### Do you teach robotics?
-
-We teach coding, not hardware, and we never send a robot kit. Robots in school workshops are programmed with the same loops and conditions children learn with us, so the two fit together well.
+Yes. Our classes run at the hour you choose and need no travel, so even at 4 to 5 a week they fit beside a morning sport or arts workshop. We are not connected with any district council.
 
 ### Will the classes count for school?
 
 No. We are not connected with MINEDU, any UGEL or any school, and we do not give Peruvian grades. When a child finishes a course we give our own certificate of completion.
 
-### How do we pay?
+### How much does the summer pace cost, and how do we pay?
 
-By card, in US dollars, monthly. Your bank converts the payment into soles at its rate. The first class is free and needs no card.
+The fee cards show the standard monthly fee for eight classes, by card in US dollars, converted by your bank. The fee for 4 to 5 classes a week is agreed with the mentor before the first summer class. The first class is free and needs no card.
 
 ## More summer reading
 

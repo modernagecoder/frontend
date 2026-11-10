@@ -1,10 +1,10 @@
 ---
 title: "Vacaciones útiles virtuales en inglés: programación en vivo"
-description: "Vacaciones útiles virtuales en inglés para niños y adolescentes en Perú: programación en vivo, todo el tiempo en inglés, en grupo o individual y a la hora que elija."
+description: "Vacaciones útiles virtuales en inglés en Perú: Python e IA o el curso que elija, de 4 a 5 clases en vivo por semana, todo en inglés, en grupo o individual."
 canonical: https://learn.modernagecoders.com/vacaciones-utiles-virtuales-en-ingles
 source: src/pages/vacaciones-utiles-virtuales-en-ingles.html
 ---
-> Sí hay vacaciones útiles virtuales en inglés: Modern Age Coders enseña programación a escolares peruanos de 6 a 17 años en clases en vivo, en línea y en inglés. Virtual quiere decir una videollamada en tiempo real con un mentor desde la India, no un curso grabado, y en inglés quiere decir toda la hora, sin traducción. Su hijo programa y conversa a la vez, en grupo o en clases individuales, el día y la hora que usted escoja, desde cualquier semana del verano 2027.
+> Sí hay vacaciones útiles virtuales en inglés: Modern Age Coders enseña programación a escolares peruanos de 6 a 17 años en clases en vivo, en línea y en inglés; durante el verano 2027 el ritmo es de 4 a 5 clases a la semana. Virtual quiere decir una videollamada en tiempo real con un mentor desde la India, no un curso grabado; en inglés quiere decir toda la clase, sin traducción. Puede seguir la ruta Python e IA o el curso que prefiera, solo o en grupo, a la hora que usted escoja.
 
 [Inicio](/) / [Cursos](/courses) / [Perú](/coding-and-ai-classes-in-peru) / Vacaciones útiles virtuales en inglés
 
@@ -12,17 +12,53 @@ Perú · Verano 2027 · Virtual y todo en inglés
 
 # Vacaciones útiles virtuales en inglés, con programación en vivo
 
-Hay familias que quieren que el verano sirva para algo más que descansar, y que además no se pierda el inglés ganado durante el año. Para ellas, una clase de programación que se dicta íntegramente en inglés, en vivo desde casa, resuelve dos cosas a la vez. Aquí explicamos cómo funciona, para quién tiene sentido y qué se puede esperar de ocho semanas.
+Hay familias que quieren que el verano sirva para algo más que descansar, y que además no se pierda el inglés ganado durante el año. Para ellas proponemos un verano de programación dictado íntegramente en inglés, en vivo desde casa, a 4 o 5 clases por semana: casi una conversación diaria con el mismo mentor. Aquí explicamos cómo funciona, para quién tiene sentido y cuántas clases suma.
 
-En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Idioma de la clase: Inglés de principio a fin, sin pasar al castellano; Modalidad: Virtual y en vivo, nunca videos grabados; Edades: De 6 a 17 años, de primaria a 5° de secundaria; Temas: Scratch, Python, páginas web y Java; Formato: Clase grupal de quince a veinte, o individual; Primera clase: Gratis y sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
+En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Idioma de la clase: Inglés de principio a fin, sin pasar al castellano; Modalidad: Virtual y en vivo, nunca videos grabados; Rutas: Python e IA, o el curso que elija; Ritmo de verano: De 4 a 5 clases en vivo por semana; Formato: Clase grupal de quince a veinte, o individual; Primera clase: Gratis y sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
 
-## Tres cursos que funcionan muy bien en inglés durante el verano
+## Tres cursos que hacen hablar inglés a ritmo de verano
 
-Elegidos porque obligan a hablar: un juego que hay que explicar, una página web que hay que describir y un lenguaje profesional que se aprende con su vocabulario original.
+Uno de la ruta Python e IA y dos de la ruta a elección. Los elegimos porque obligan a conversar: un modelo que hay que defender, un juego que hay que explicar y un lenguaje profesional que se aprende con su vocabulario original.
 
-- [Videojuegos para niños](/courses/game-development-masterclass-for-kids): De 8 a 12 años. Scratch, Roblox y Minecraft en un mismo recorrido; en cada clase el niño cuenta en inglés qué hace su personaje y por qué.
-- [HTML y CSS: una web real](/courses/html-css-course-for-beginners-build-real-websites): Desde los 10 años. Una web propia en el verano, con textos escritos por su hijo en inglés: sobre su colegio, su deporte o su ciudad.
-- [Java para adolescentes](/courses/java-programming-masterclass-for-teens): Para secundaria. El lenguaje que piden muchas carreras de ingeniería, aprendido con su terminología en inglés desde la primera clase.
+- [Ruta 2: videojuegos para niños](/courses/game-development-masterclass-for-kids): De 8 a 12 años. Scratch, Roblox y Minecraft en un mismo recorrido; en cada clase el niño cuenta en inglés qué hace su personaje y por qué.
+- [Ruta 1: Python con proyectos de IA](/courses/python-ai-kids-masterclass): De 9 a 12 años. Cada programa que adivina o clasifica se equivoca alguna vez, y explicar por qué, en inglés, es la mitad de la clase. El verano cubre entre la mitad y tres cuartas partes del curso.
+- [Ruta 2: Java para adolescentes](/courses/java-programming-masterclass-for-teens): Para secundaria. El lenguaje que piden muchas carreras de ingeniería, aprendido con su terminología en inglés desde la primera clase.
+
+## ¿Qué incluyen nuestras vacaciones útiles virtuales en inglés?
+
+Un verano entero hablando inglés mientras se programa. Su hijo elige entre la ruta Python e inteligencia artificial o el curso que más le guste del catálogo, y en cualquiera de las dos tiene de 4 a 5 clases en vivo por semana con un mentor que solo le habla en inglés.
+
+### Ruta 1: Python e IA, en inglés
+
+Python primero y, sobre él, proyectos de inteligencia artificial adecuados a su edad: programas que adivinan, clasifican o aprenden de ejemplos. Es la ruta que más conversación genera, porque cada modelo se equivoca en algo y hay que explicar por qué, en inglés.
+
+Entre los 9 y los 12 años se trabaja con el curso de Python e IA para niños. Los adolescentes empiezan con Python desde cero y pasan a datos o a aprendizaje automático cuando el lenguaje ya les resulta cómodo.
+
+### Ruta 2: el curso que elija, también en inglés
+
+Videojuegos, una página web con HTML y CSS, apps, Java, C++, estructuras de datos y algoritmos, Roblox, Scratch, vibe coding o matemática: cualquiera se lleva a ritmo de verano.
+
+Para las familias de colegios bilingües, la ruta 2 también puede ser matemática IGCSE o IB en inglés. El idioma de la clase es el mismo en todos los cursos: inglés de principio a fin.
+
+**Clases en inglés que suma un verano según cuántas semanas use (cálculo nuestro)**
+
+| Semanas de verano que aproveche | A 4 clases por semana | A 5 clases por semana | Equivale a este tiempo de nuestro ritmo normal |
+|---|---|---|---|
+| 6 semanas, si empieza a mediados de enero de 2027 | 24 | 30 | De 3 a casi 4 meses |
+| 8 semanas, enero y febrero de 2027 | 32 | 40 | De 4 a 5 meses |
+| 10 semanas, si empieza a fines de diciembre de 2026 | 40 | 50 | De 5 a algo más de 6 meses |
+
+Cuentas hechas por Modern Age Coders. La última columna toma las clases de verano y las divide entre ocho, el número de clases mensuales que su hijo tendría con nuestro ritmo de marzo a diciembre (dos por semana). Cada una de esas clases es una conversación en vivo y en inglés con el mismo mentor.
+
+**Qué ruta conviene según la edad y qué inglés se practica más en cada una (propuesta nuestra)**
+
+| Edad | Ruta 1: Python e IA | Ruta 2: algunos cursos a elección | El inglés que más se ejercita |
+|---|---|---|---|
+| 6 a 8 años | Todavía con bloques: juegos y animaciones | Scratch, Minecraft, apps con bloques | Escuchar instrucciones y nombrar lo que se ve en pantalla |
+| 9 a 12 años | Python con proyectos de IA | Videojuegos, web para niños, C++ | Anunciar en voz alta qué hará el programa |
+| 13 a 17 años | Python completo, luego ciencia de datos o IA | Java, DSA, HTML y CSS, React, matemática IGCSE o IB | Justificar decisiones técnicas y presentar un proyecto |
+
+Sobre la duración, con números nuestros: HTML y CSS figura en su página con 4 meses, unas 32 clases a ritmo normal, así que cabe dentro de un verano intensivo. El de Python e IA para niños, en cambio, publica entre 8 y 10 meses; un verano intensivo recorre entre la mitad y tres cuartas partes, y la otra parte queda para el año escolar si la familia lo desea. Ningún curso largo se termina a la fuerza; lo que sí crece de forma visible en diez semanas es la soltura para hablar.
 
 ## ¿Qué significa que las vacaciones útiles sean virtuales y en inglés?
 
@@ -40,7 +76,7 @@ El mentor no cambia al castellano para explicar. Cuando algo no se entiende, lo 
 
 Nuestros mentores viven en la India y hablan con claridad, ajustando el ritmo y el acento a cada estudiante. Con los más pequeños usan frases cortas; con adolescentes, el vocabulario técnico completo.
 
-No es un taller de verano con fecha de inauguración ni un número fijo de semanas. Son nuestras clases de siempre, que su hijo puede comenzar cualquier semana entre diciembre de 2026 y marzo de 2027 y mantener durante el año escolar si le funcionan. La RM 501-2025-MINEDU sugiere que el último bloque lectivo de 2026 termine el 18 de diciembre de 2026, con margen para que cada DRE o UGEL lo ajuste; la fecha de regreso a clases de 2027 aún no se conocía en noviembre de 2026.
+No hay fecha de inauguración: su hijo empieza la semana que usted elija entre diciembre de 2026 y marzo de 2027, a 4 o 5 clases por semana, y si le funciona sigue durante el año escolar a dos por semana. La RM 501-2025-MINEDU sugiere que el último bloque lectivo de 2026 termine el 18 de diciembre de 2026, con margen para que cada DRE o UGEL lo ajuste; la fecha de regreso a clases de 2027 aún no se conocía en noviembre de 2026.
 
 Si busca algo distinto, por ejemplo un enfoque general de programación para primaria explicado paso a paso, la página [clases de programación para niños en inglés](/clases-de-programacion-para-ninos-en-ingles) lo detalla. Esta página se concentra en la otra mitad: el idioma.
 
@@ -83,7 +119,7 @@ En una clase de idiomas se habla para practicar. En una clase de programación e
 
 Además, el código ya está escrito en inglés. Palabras como print, while, return o true se vuelven familiares sin esfuerzo, y el niño las asocia con algo que hizo, no con una lista para memorizar.
 
-Una advertencia honesta: el EF EPI se calcula con adultos que rinden el examen de EF, no con escolares, así que no describe el inglés de su hijo. Lo usamos porque muestra un patrón del país: en el Perú la lectura en inglés va por delante de la escucha y del habla. Un verano de clases habladas va directo a esa brecha.
+Una advertencia honesta: el EF EPI se calcula con adultos que rinden el examen de EF, no con escolares, así que no describe el inglés de su hijo. Lo usamos porque muestra un patrón del país: en el Perú la lectura en inglés va por delante de la escucha y del habla. Un verano de clases habladas va directo a esa brecha. Y la escala cambia: frente a las 12 a 30 horas de inglés escolar que se pausan en enero y febrero, un verano con nosotros en esas mismas ocho semanas suma de 32 a 40 clases en vivo, todas en inglés (cálculo nuestro).
 
 ## ¿Funcionan las clases virtuales desde casa en Perú?
 
@@ -111,23 +147,23 @@ El INEI registra que el uso de internet fue menor entre los niños de 6 a 11 añ
 
 Para un niño pequeño, la clase virtual puede ser su primera experiencia seria frente a una computadora. Los mentores lo saben y dedican los primeros minutos a que se sienta cómodo: dónde está el micrófono, cómo se comparte la pantalla, cómo se levanta la mano.
 
-## ¿Cómo avanza el inglés en ocho semanas de clases virtuales?
+## ¿Cómo avanza el inglés en un verano de clases virtuales casi diarias?
 
-Le sugerimos un plan propio en el que el código y el inglés crecen juntos. No es un taller con fechas: su hijo empieza la semana que usted decida y, al terminar, sigue o se detiene.
+Le sugerimos un plan propio en el que el código y el inglés crecen juntos, pensado para 4 o 5 clases por semana. No tiene fechas: su hijo empieza la semana que usted decida y, en marzo, sigue o se detiene.
 
-**Ocho semanas en inglés: programación y habla en paralelo (plan nuestro, no oficial)**
+**Un verano en inglés: programación y habla en paralelo, por quincenas (plan nuestro, no oficial)**
 
-| Semanas | Lo que programa | Lo que practica en inglés |
+| Quincena | Lo que programa | Lo que practica en inglés |
 |---|---|---|
-| 1 y 2 | Primeros programas: mensajes, colores, movimientos | Escuchar y seguir instrucciones: "click", "drag", "run it again" |
-| 3 y 4 | Decisiones con if y else, como la lección de abajo | Decir qué hará el programa: "I think it will print..." |
-| 5 y 6 | Repeticiones y listas; corregir errores | Pedir ayuda y describir un problema: "It says error on line 4" |
-| 7 y 8 | Un proyecto propio: juego, web o programa útil | Explicar el proyecto completo en tres o cuatro frases |
+| 1.ª | Primeros programas: mensajes, colores, movimientos | Escuchar y seguir instrucciones: "click", "drag", "run it again" |
+| 2.ª | Decisiones con if y else, como la lección de abajo | Decir qué hará el programa: "I think it will print..." |
+| 3.ª | Repeticiones y listas; corregir errores | Pedir ayuda y describir un problema: "It says error on line 4" |
+| 4.ª | Un proyecto propio: juego, web o programa útil | Explicar el proyecto completo en tres o cuatro frases |
 | Cierre | Mostrar el proyecto a la familia | Presentarlo en inglés y responder una pregunta |
 
-Propuesta de Modern Age Coders para enero y febrero de 2027, con dos clases en vivo por semana. En clases individuales el mentor ajusta el ritmo; en grupo, cada niño presenta su propio avance. Los ejemplos de frases son nuestros.
+Propuesta de Modern Age Coders para enero y febrero de 2027, a 4 o 5 clases en vivo por semana. En clases individuales el mentor ajusta el ritmo; en grupo, cada niño presenta su propio avance. Los ejemplos de frases son nuestros, y en la ruta 2 el código cambia según el curso, pero las frases se practican igual.
 
-La meta no es hablar perfecto al final del verano. Es que su hijo pierda el miedo a hablar en inglés con alguien que no le entiende el castellano, y que lo haga sobre algo que le importa: su propio programa.
+Con clases casi diarias, el inglés no tiene tiempo de enfriarse entre una sesión y otra, y eso se nota hacia la segunda quincena. La meta no es hablar perfecto al final del verano. Es que su hijo pierda el miedo a hablar en inglés con alguien que no le entiende el castellano, y que lo haga sobre algo que le importa: su propio programa.
 
 ## ¿Qué aprende su hijo en una clase de programación que también enseña inglés?
 
@@ -211,15 +247,15 @@ Cinco escalones propios que observamos en clase, sin exámenes de idioma: solo l
 | Escalón | Cuándo suele llegar | Su hijo ya puede |
 |---|---|---|
 | 1. Seguir | Primeras clases | hacer lo que el mentor pide sin que nadie le traduzca |
-| 2. Nombrar | Semanas 2 y 3 | decir en inglés el nombre de lo que usa: loop, variable, sprite, error |
-| 3. Predecir | Semanas 3 y 4 | anunciar qué hará el programa con una frase completa |
-| 4. Preguntar | Semanas 5 y 6 | describir un error y pedir ayuda sin pasar al castellano |
-| 5. Presentar | Semana 8 | explicar su proyecto de principio a fin y responder una pregunta |
+| 2. Nombrar | Segunda semana | decir en inglés el nombre de lo que usa: loop, variable, sprite, error |
+| 3. Predecir | Semana 3 | anunciar qué hará el programa con una frase completa |
+| 4. Preguntar | Semanas 4 y 5 | describir un error y pedir ayuda sin pasar al castellano |
+| 5. Presentar | Cierre del verano | explicar su proyecto de principio a fin y responder una pregunta |
 
 ### Para madres y padres
 
 No le pida a su hijo que traduzca lo que aprendió. Pídale que se lo muestre y se lo explique en inglés, aunque usted no entienda todo. Lo que importa es que se anime.
-Si las primeras dos semanas su hijo habla poco, es normal. El oído se acostumbra primero; la voz llega después.
+Si la primera semana su hijo habla poco, es normal. El oído se acostumbra primero; la voz llega después.
 
 ### Para los estudiantes
 
@@ -228,7 +264,7 @@ Diga en voz alta lo que va a hacer antes de hacerlo: practica inglés y piensa c
 
 ## Nueve cursos más para un verano en inglés
 
-Todos con mentor en vivo y en inglés, en grupo o individual. Incluimos matemática en inglés para las familias de colegios bilingües.
+Todos se pueden elegir en la ruta 2 y llevar a 4 o 5 clases por semana, con mentor en vivo y en inglés, en grupo o individual. Incluimos matemática en inglés para las familias de colegios bilingües.
 
 ### Primaria
 
@@ -252,7 +288,7 @@ De 13 a 18 años
 
 - [React para adolescentes](/courses/react-for-teens-complete-masterclass): De JavaScript a aplicaciones web reales con React.
 - [Git y GitHub](/courses/git-github-version-control-course-for-teens): Control de versiones y colaboración, como en un equipo de software de verdad.
-- [Matemática de secundaria en inglés](/courses/comprehensive-middle-school-mathematics-mastery): Preálgebra y geometría para los primeros años de secundaria, en inglés.
+- [HTML y CSS: una web real](/courses/html-css-course-for-beginners-build-real-websites): Una web propia con textos escritos por su hijo en inglés; a ritmo de verano cabe entera.
 
 ## ¿Cómo se organiza una clase virtual en inglés?
 
@@ -266,15 +302,15 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 - **Cámara y pantalla** El mentor ve el código del niño en tiempo real y lo guía.
 - **El niño escribe** Cada línea la teclea su hijo; nadie programa por él.
 - **Mentor fijo** La misma voz y el mismo acento semana tras semana.
-- **Nota a la familia** Un resumen breve de lo trabajado, también en inglés sencillo.
+- **Casi a diario** De 4 a 5 sesiones por semana en verano, para que el oído no se enfríe.
 - **Grupo o uno a uno** Quince a veinte de edades cercanas, o solo su hijo.
 
 ## Precios para familias en Perú
 
-El precio mensual se muestra en dólares estadounidenses y se cobra con tarjeta. Su banco convierte el cargo a su moneda según el tipo de cambio de la fecha de pago. El verano no tiene matrícula ni tarifa especial.
+Lo que indican las tarjetas es el precio de un mes normal con nosotros, ocho clases, expresado en dólares estadounidenses y pagado con tarjeta; la conversión a su moneda la hace su banco el día del pago. Un verano de cuatro o cinco sesiones semanales tiene otro precio, que usted conversa y deja fijado con el mentor antes de empezar. La primera clase va por nuestra cuenta.
 
 - Primera clase gratis: Gratis. Primera clase sin costo, en inglés. Un vistazo al nivel de inglés y de programación. Sin tarjeta.
-- Clase grupal: USD 100 al mes. De quince a veinte estudiantes de edad cercana. Dos sesiones en vivo cada semana. Un mentor fijo durante el curso. Mes a mes, sin permanencia.
+- Clase grupal: USD 100 al mes. De quince a veinte estudiantes de edad cercana. Ocho clases al mes durante el año escolar. En verano, de 4 a 5 por semana, con precio fijado antes. Mes a mes, sin permanencia.
 - Clases individuales: USD 150 al mes. Solo su hijo con el mentor. Ritmo de inglés a su medida. Horario que usted decide.
 
 ## Vacaciones útiles virtuales en inglés: preguntas frecuentes
@@ -295,9 +331,13 @@ El que ya tiene. Es suficiente con que capte frases sencillas. El mentor adapta 
 
 No. Reformula con palabras más simples, muestra en pantalla o da un ejemplo, pero mantiene el inglés. Cuando su hijo contesta en castellano, el mentor toma lo que quiso decir y lo repite en inglés para que lo intente de nuevo.
 
-### ¿Cuándo pueden empezar y cuánto duran?
+### ¿Cuántas clases en inglés tendría mi hijo en el verano?
 
-Cualquier semana del verano, sin fecha común. Sugerimos un plan propio de ocho semanas, pero el pago es mensual y su hijo puede continuar durante el año escolar 2027 o detenerse cuando la familia lo decida.
+De 4 a 5 por semana, siempre en vivo. Según cuántas semanas aproveche, eso suma de 24 a 50 clases en inglés (cálculo nuestro: seis semanas a 4 por semana dan 24; diez semanas a 5 dan 50).
+
+### ¿Cuándo pueden empezar y cuánto dura el verano?
+
+Cualquier semana del verano, sin fecha común. Usted elige cuántas semanas usar; en marzo su hijo puede continuar durante el año escolar 2027 a dos clases por semana o detenerse. Los cursos cortos caben enteros en el verano; los largos avanzan la mitad o algo más.
 
 ### ¿En qué horario se dictan?
 
@@ -307,17 +347,13 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 
 No son clases de idioma ni preparan para un examen de inglés. Son clases de programación dictadas en inglés, que dan mucha práctica real de escuchar y hablar. Para la certificación, lo indicado es un curso de idioma.
 
-### ¿Qué equipo necesita en casa?
-
-Una computadora o laptop con cámara, micrófono y una conexión estable, y unos audífonos. Con el celular se puede seguir la conversación, pero no programar con comodidad.
-
 ### ¿Hay clases de matemática en inglés también?
 
 Sí. Para familias de colegios bilingües ofrecemos matemática de primaria y secundaria, IGCSE e IB, todas en vivo y en inglés, con la misma flexibilidad de horario.
 
-### ¿Cómo se paga?
+### ¿Cuánto cuesta y cómo se paga?
 
-Mes a mes, con tarjeta, en dólares estadounidenses; el banco hace la conversión. Para la clase inicial no cobramos ni pedimos tarjeta.
+Se paga por tarjeta, en dólares estadounidenses, y el banco convierte el cargo. Los precios que ve en esta página corresponden a un mes normal de ocho clases; el del verano, con cuatro o cinco clases semanales, lo deja fijado con el mentor antes de empezar. La clase inicial no se cobra.
 
 ### ¿Las clases tienen validez en el colegio?
 

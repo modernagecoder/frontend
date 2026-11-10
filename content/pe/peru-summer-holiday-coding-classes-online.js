@@ -1,12 +1,22 @@
-// SHIP: market | Peru's school summer break as a live coding start, built on RM 501-2025 | date arithmetic: fencepost days versus counted school weeks
+// SHIP: market | Peru's summer break at 4 to 5 classes a week: two routes, paced honestly | date arithmetic: fencepost days versus counted school weeks
 'use strict';
 // Summer holiday coding classes online for Peru (ag- English twin of the vacaciones útiles doors, row PE066, P2,
 // hubGroup exams). Spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md; brief
 // docs/superpowers/plans/2026-11-09-pe-writer-brief.md (rule "Vacaciones útiles pages").
 // Owner 2026-11-09: "make sure all our classes are live online in english"; 2026-11-08: timing flexible, any time.
-// What it sells: the normal live classes (group of fifteen to twenty, or one to one) started in the summer break, with a
-// suggested holiday plan that is ours and labelled ours. No camp length, start date or price is invented; fees render
-// from the template only.
+// Owner 2026-11-10 (brief, "Summer offer"): "summer page sells summer coding of python and ai or custom choose your courses
+// regular class weekly 4 to 5 classes to complete the courses DSA web dev app dev and many more make nice summer pages".
+// What it sells (revised 2026-11-10): route 1 Summer Python and AI, or route 2 any catalogue course, at 4 to 5 live classes
+// a week during the break (group of fifteen to twenty, or one to one), flexible hours; the summer pace and its fee are
+// agreed with the mentor before the first summer class; first class free. No summer price typed; fees render from the
+// template only (standard monthly fee for eight classes). The page's own angle: summer pace against school-year pace, and
+// which route 2 courses fit inside one summer. Course lengths quoted (duration field of each course page): Vibe Coding for
+// Teens "3 months (12 weeks)"; Scratch "3-4 months (12-16 weeks)"; HTML & CSS "4 months (16 weeks)"; Problem Solving for
+// Teens "10-12 months (44-52 weeks)"; Python for Teens "10-12 months (40-48 weeks)"; Python and AI for Kids "8-10 months
+// (32-40 weeks)"; college Python "9-11 months"; PCEP and PCAP "5 months (20 weeks)" (corrected 2026-11-10 against
+// content/courses/data/<file>.json); App Development for Teens "10-12 months (40-48 weeks)"; Full Stack
+// for Teens "12-14 months (48-56 weeks)". Our arithmetic (scratchpad summer_math.py, python3 -I): "10 weeks: 40 to 50
+// classes; months of regular pace (8/month): 5.0 to 6.25"; app-teens "80 to 96", fullstack-teens "96 to 112" at two a week.
 // Sources (raw copies in ~/Desktop/SkyCoders/keyword-research-2026-09/pe/src-pages/peru-summer-holiday-coding-classes-online/;
 // quotes grepped in the raw text):
 //  - RM 501-2025-MINEDU, Norma Técnica para el Año Escolar 2026 (facts-school FACTS 20 to 24; signed PDF page 7, image
@@ -128,51 +138,91 @@ module.exports = {
   parents: [{ slug: 'coding-and-ai-classes-in-peru', name: 'Peru' }],
   routeLabel: 'Summer holiday coding classes for Peru',
   title: 'Summer Holiday Coding Classes Online for Peru, Live in English',
-  description: 'Summer holiday coding classes for children and teens in Peru: live, online and in English, a start for the January to March break, in a group or one to one.',
-  ogDescription: 'Use Peru\'s summer school break to start coding: the 2026 MINEDU calendar, what Lima districts ran in summer 2026, a holiday plan of our own and a Python lesson that checks the school calendar.',
-  twitterDescription: 'Live coding classes in English for Peru\'s summer break, for ages 6 to 17, in a group or one to one, at any hour.',
+  description: 'Summer holiday coding classes for Peru: Python and AI or a course you choose, 4 to 5 live classes a week in English, in a group or one to one, any hour.',
+  ogDescription: 'Peru\'s summer school break at 4 to 5 live classes a week: two routes, which courses fit in one summer, the 2026 MINEDU calendar and a Python lesson that checks it.',
+  twitterDescription: 'Summer Python and AI, or any course you choose, at 4 to 5 live classes a week in English for Peru\'s summer break, in a group or one to one.',
   pageName: 'Summer Holiday Coding Classes Online for Peru',
-  webPageDescription: 'A guide for families in Peru who want to use the summer school break (vacaciones útiles) to start coding, built from RM 501-2025-MINEDU, INEI Censos Nacionales 2025 and INEI household technology data, Lima district council announcements, EF EPI 2025 and the tz database, with an original Python lesson that checks the 2026 school calendar.',
-  courseDescription: 'Live online coding classes taught in English for children and teenagers in Peru, started during the summer school break: Scratch, Python, Roblox, web and AI projects, in a group of fifteen to twenty or one to one, at any hour in Peru time, continuing into the school year if the family wishes.',
+  webPageDescription: 'A guide for families in Peru who want to use the summer school break (vacaciones útiles) for coding at 4 to 5 live classes a week, on a Summer Python and AI route or a course of their choice, with which courses fit in one summer, built from RM 501-2025-MINEDU, INEI Censos Nacionales 2025 and INEI household technology data, Lima district council announcements, EF EPI 2025 and the tz database, with an original Python lesson that checks the 2026 school calendar.',
+  courseDescription: 'Live online coding classes taught in English for children and teenagers in Peru at a summer pace of 4 to 5 classes a week: the Summer Python and AI route, or any course chosen from the catalogue (DSA, web, apps, Java, games and more), in a group of fifteen to twenty or one to one, at any hour in Peru time, continuing into the school year if the family wishes.',
   crumbs: [{ name: 'Courses', href: '/courses' }, { name: 'Peru', href: '/coding-and-ai-classes-in-peru' }],
   crumbLabel: 'Summer holiday coding',
   navLinks: [
     { href: '/coding-and-ai-classes-in-peru', label: 'Peru' },
+    { href: '#summer-2027', label: 'Two routes' },
     { href: '#break', label: 'The break' },
-    { href: '#districts', label: 'Summer 2026' },
-    { href: '#plan', label: 'Holiday plan' },
+    { href: '#plan', label: 'Week by week' },
     { href: '#lesson', label: 'Python lesson' },
     { href: '#clock', label: 'Peru time' }
   ],
   eyebrow: 'Peru &middot; Summer school break &middot; Ages 6 to 17',
   h1: 'Summer holiday coding classes online for Peru',
-  lede: 'Peruvian schools close in December and reopen in March, and every January parents across Lima and the regions start hunting for <em>vacaciones útiles</em>. This page is for families who want those weeks to count: what the official calendar says about the break, what Lima district councils offered in summer 2026, a holiday plan of our own for each age, and a real Python lesson your child could do in the first week.',
-  secondaryCta: { href: '#plan', label: 'See the holiday plan' },
-  wa: 'Hello Modern Age Coders, we are in Peru and would like our child to start coding classes in English during the summer holidays. Could we book a free first class?',
-  heroNote: 'Live classes since 2020 &middot; 10,000+ students worldwide &middot; one mentor all summer, always in English',
+  lede: 'Peruvian schools close in December and reopen in March, and every January parents across Lima and the regions start hunting for <em>vacaciones útiles</em>. This page is for families who want those weeks to count: our summer offer of 4 to 5 live classes a week on two routes, how far a summer at that pace really goes, what the official calendar says about the break, and a real Python lesson your child could do in the first week.',
+  secondaryCta: { href: '#summer-2027', label: 'See the two summer routes' },
+  wa: 'Hello Modern Age Coders, we are in Peru and would like our child to take summer coding classes in English, 4 to 5 a week. Could we book a free first class?',
+  heroNote: 'Live classes since 2020 &middot; 10,000+ students worldwide &middot; 4 to 5 live classes a week all summer',
   spec: [
     ['Who', 'Children of 6 to 12 and teenagers of 13 to 17'],
-    ['When', 'From the end of the school year in December'],
-    ['What', 'Scratch, Python, Roblox, web and AI projects'],
+    ['Routes', 'Summer Python and AI, or a course you choose'],
+    ['Summer pace', '4 to 5 live classes a week'],
     ['Format', 'A group of fifteen to twenty, or one to one'],
-    ['Hours', 'Any day, any hour in Peru time'],
     ['First class', 'Free, with no card']
   ],
   capsuleQ: 'The short answer',
-  capsule: 'Yes, your child can spend Peru\'s summer school break learning to code from home. Modern Age Coders teaches live online coding classes in English for children of 6 to 12 and teenagers of 13 to 17 anywhere in Peru, with mentors based in India who speak clearly and adapt to each learner. There is no fixed camp: your child starts our normal classes whenever the break begins, in a group of fifteen to twenty or one to one, at any hour that suits your family, and can carry on when school returns.',
+  capsule: 'Yes, your child can spend Peru\'s summer school break coding from home. Modern Age Coders teaches live online classes in English for children of 6 to 12 and teenagers of 13 to 17 anywhere in Peru, at a summer pace of 4 to 5 classes a week. Choose the Summer Python and AI route, or any course your child likes, such as DSA, web or app development. Classes run in a group of fifteen to twenty or one to one, at any hour that suits your family, and the first class is free.',
 
   picks: {
     eyebrow: 'Start here',
-    h2: 'Three courses families start in the summer',
-    lede: 'One for young children who have never coded, one for the age when typed code becomes possible, and one for teenagers who want to build with AI rather than just ask it questions.',
+    h2: 'Three courses that make the most of a 4 to 5 class week',
+    lede: 'Two from the Summer Python and AI route, for primary age and for teenagers, and one short route 2 course a teenager can finish with weeks to spare.',
     items: [
-      { course: 'kids-coding-blocks-masterclass', code: 'SHC / 01', title: 'Coding for kids: Scratch to games and apps', alt: 'Course thumbnail for Coding for Kids, Scratch to games, apps and AI', note: 'Ages 6 to 12, grouped by age. Blocks, animations and small games, so a summer produces something your child can show the family in February.' },
-      { course: 'python-ai-kids-masterclass', code: 'SHC / 02', title: 'Python and AI for kids', alt: 'Course thumbnail for Python and AI for Kids', note: 'Ages 9 to 12. The step from dragging blocks to typing real code, with turtle drawings, quizzes and small AI projects.' },
-      { course: 'vibe-coding-for-teens-python-web-ai-projects-course', code: 'SHC / 03', title: 'Vibe coding for teens', alt: 'Course thumbnail for Vibe Coding for Teens, Python, web development and AI', note: 'Ages 13 to 17. Python and web projects built with AI help, where the teenager reads, tests and explains every line before keeping it.' }
+      { course: 'python-ai-kids-masterclass', code: 'SHC / 01', title: 'Route 1: Python and AI for kids', alt: 'Course thumbnail for Python and AI for Kids', note: 'Ages 9 to 12. The step from dragging blocks to typing real code, with turtle drawings, quizzes and small AI projects. It runs 8 to 10 months at the normal pace, so a summer covers between half and three quarters.' },
+      { course: 'python-complete-masterclass-teens', code: 'SHC / 02', title: 'Route 1: Python for teens', alt: 'Course thumbnail for Python for Teens, complete course', note: 'Ages 13 to 18, from zero. Its published length is 10 to 12 months at two classes a week, so a summer at 4 to 5 a week gets roughly half done, and the rest continues in March.' },
+      { course: 'vibe-coding-for-teens-python-web-ai-projects-course', code: 'SHC / 03', title: 'Route 2: vibe coding for teens', alt: 'Course thumbnail for Vibe Coding for Teens, Python, web development and AI', note: 'Ages 13 to 17. Twenty-four classes of Python and web projects built with AI help, where the teenager reads, tests and explains every line before keeping it.' }
     ]
   },
 
   sections: [
+    {
+      id: 'summer-2027',
+      eyebrow: 'Summer 2027',
+      h2: 'What is in the 2027 summer coding offer for Peru?',
+      lede: 'Two routes and a faster pace. During the break your child has 4 to 5 live classes a week instead of the usual two, either on our Summer Python and AI route or on any course from the catalogue they choose, in a group or one to one, at hours your family picks.',
+      body: [
+        { kind: 'two',
+          leftH3: 'Route 1: Summer Python and AI',
+          left: [
+            'Python first, then AI projects that suit the learner\'s age. Children of 9 to 12 take Python and AI for Kids; teenagers take Python for Teens and move on to data science or AI and machine learning; university students and adults take the college Python masterclass and the AI and ML masterclass.',
+            'It is the route we suggest when a family is unsure, because whatever a child learns in Python carries straight into any course that follows, and every project ends with a program that guesses, sorts or draws from data the learner gathered.'
+          ],
+          rightH3: 'Route 2: choose your own course',
+          right: [
+            'Any course in the catalogue can run at summer pace: data structures and algorithms (DSA), web development, app development, Java, C++, game development, Roblox, Scratch, vibe coding or maths.',
+            'The mentor spreads that course\'s syllabus across the summer weeks. Short courses can be completed before school returns; long ones get a large head start and carry on in March at the normal pace.'
+          ] },
+        { kind: 'table', mt: true, numCols: [1, 2, 3], caption: 'Summer pace against the school-year pace (our arithmetic)', head: ['Pace', 'Classes a week', 'Classes in 4 weeks', 'Classes in a 10-week summer', 'Equal to this much of the school-year pace'], rows: [
+          ['School year', '2', '8', '20', '2.5 months'],
+          ['Summer, lighter', '4', '16', '40', '5 months'],
+          ['Summer, full', '5', '20', '50', 'Just over 6 months']
+        ] },
+        { kind: 'source', html: 'Our own calculation. The school-year pace is two live classes a week, eight a month, which is what the fee cards on this page price. A summer of ten weeks assumes a start in late December 2026; families who begin in mid-January simply have fewer weeks.' },
+        { kind: 'table', mt: true, numCols: [2], caption: 'Can a route 2 course be finished in one summer? (durations from each course page; arithmetic ours)', head: ['Course', 'Published length', 'Classes at two a week', 'At 4 to 5 classes a week over ten weeks'], rows: [
+          ['Vibe Coding for Teens', '3 months (12 weeks)', '24', 'Completed in five or six weeks'],
+          ['Scratch Coding for Kids', '3 to 4 months', '24 to 32', 'Completed'],
+          ['HTML and CSS for Beginners', '4 months (16 weeks)', '32', 'Completed'],
+          ['Problem Solving for Teens (DSA)', '10 to 12 months', '88 to 104', 'About half; continues in March'],
+          ['PCEP and PCAP Python certification', '5 months (20 weeks)', '40', 'Completed at the full pace'],
+          ['App Development for Teens', '10 to 12 months', '80 to 96', 'About half; continues in March'],
+          ['Full Stack Web Development for Teens', '12 to 14 months', '96 to 112', 'Under half; continues in March']
+        ] },
+        { kind: 'table', mt: true, numCols: [], caption: 'Which route fits which age (our suggestion)', head: ['Age', 'Route 1: Summer Python and AI', 'Route 2: popular choices', 'What one summer usually gives'], rows: [
+          ['6 to 8', 'Not yet: we start with blocks', 'Scratch, app making with blocks, Minecraft', 'A first game or animated story of their own'],
+          ['9 to 12', 'Python and AI for Kids', 'Roblox, websites for kids, maths through coding', 'Half to three quarters of the Python and AI course'],
+          ['13 to 17', 'Python for Teens, then data science or AI and ML', 'DSA, web, apps, Java, C++, vibe coding', 'About half of Python for Teens, or a short course such as vibe coding completed'],
+          ['18 and over', 'Python masterclass, then AI and ML', 'University DSA, full stack, Java', 'A strong start on a 9 to 14 month course']
+        ] },
+        { kind: 'p', mt: true, html: 'We will not tell you a ten-month course fits into ten weeks. What we do promise is honest pacing: the mentor shows you, before the first summer class, how far your child can expect to get, and in March the course simply continues at two classes a week if you want it to.' }
+      ]
+    },
     {
       id: 'break',
       eyebrow: 'The school calendar',
@@ -220,7 +270,7 @@ module.exports = {
         { kind: 'three', mt: true, cells: [
           { h3: 'They are local and in person', p: 'Council workshops happen in sports complexes, community centres and parks, which is part of their charm: children meet neighbours and get outdoors. They also mean a trip each time, at the hour the council chose.' },
           { h3: 'Robotics, not much code', p: 'Where technology appears in the 2026 announcements, it is usually robotics or general computing. That is a fine taste. A child who wants to write programs, and to understand what the robot is running, needs time with a language such as Scratch or Python.' },
-          { h3: 'Both can fit in one summer', p: 'Live online classes take about an hour twice a week, at any hour you choose. Many families combine them: swimming or football at the council in the morning, coding from home in the afternoon.' }
+          { h3: 'Both can fit in one summer', p: 'Live online classes need no travel and run at any hour you choose, even at 4 to 5 a week. Many families combine them: swimming or football at the council in the morning, coding from home in the afternoon.' }
         ] },
         { kind: 'p', mt: true, html: 'We write district by district in Spanish as well; for Lima families who want the whole picture of English-taught coding in the capital, our page on <a class="ag-inline-link" href="/english-medium-coding-classes-lima">English-medium coding classes in Lima</a> covers bilingual, Cambridge and IB pupils in detail.' }
       ]
@@ -229,27 +279,27 @@ module.exports = {
       id: 'different',
       eyebrow: 'How our summer works',
       h2: 'Is this a summer camp or regular classes?',
-      lede: 'Regular classes, started in the summer. We do not run a fixed summer camp for Peru with its own dates. Your child joins the same live course any of our students would join, at the moment the school break begins, and that is a strength rather than a compromise.',
+      lede: 'Real courses at a summer pace. There is no camp with its own dates: your child takes a full course from our catalogue, the same one any student would take, but at 4 to 5 classes a week while school is closed, and that is a strength rather than a compromise.',
       body: [
         { kind: 'two',
           leftH3: 'Why not a short camp',
           left: [
-            'A two-week camp is long enough to make one game and too short to learn how to make the next one alone. Children forget a programming idea quickly if they meet it once; they keep it when they use it again a week later in a new project.',
-            'A summer start avoids that problem. Your child has a calm stretch with no homework to build habits, and the course simply continues, at a lighter pace if you wish, when school returns in March.'
+            'A two-week camp is long enough to make one game and too short to learn how to make the next one alone. Children forget a programming idea quickly if they meet it once; they keep it when they use it again the next day in a new problem.',
+            'Near-daily classes give exactly that repetition, and because the work belongs to a real course, nothing is lost in March: the course continues at two classes a week if you wish.'
           ],
           rightH3: 'What stays the same all year',
           right: [
             'The same mentor teaches your child from the first summer class, knows how they think, and sends you a short note on what was practised and what comes next.',
-            'You choose a group of fifteen to twenty learners of a similar age or one-to-one classes, and you choose the hours. You can pause or stop at the end of any month.'
+            'You choose a group of fifteen to twenty learners of a similar age or one-to-one classes, and you choose the hours. You agree the summer pace and its fee with the mentor first, and you can stop at the end of any month.'
           ] },
         { kind: 'p', mt: true, html: 'Nothing here is connected with MINEDU, a UGEL, a council or any school. Our classes run alongside school and do not give Peruvian grades or credits. When a child finishes a course, we give our own certificate of completion.' }
       ]
     },
     {
       id: 'plan',
-      eyebrow: 'A holiday plan of our own',
+      eyebrow: 'Week by week',
       h2: 'What could a summer of coding look like for my child?',
-      lede: 'Here is the plan our mentors suggest for a first summer, in four stages. It is our own suggestion, not a fixed programme: a stage usually takes a couple of weeks at two classes a week, and the mentor stretches or shortens it to match your child.',
+      lede: 'Here is how our mentors usually shape a first summer on route 1, in four stages. It is our own suggestion, not a fixed programme: at 4 to 5 classes a week a stage takes roughly two weeks, and the mentor stretches or shortens it to match your child.',
       body: [
         { kind: 'table', numCols: [], caption: 'Our suggested first-summer plan by age (ours; projects are examples)', head: ['Stage', 'Ages 6 to 8', 'Ages 9 to 12', 'Ages 13 to 17'], rows: [
           ['1. First steps', 'Make a cat walk, jump and talk in Scratch', 'Scratch game with a score, then a first line of Python', 'Python basics: variables, input, if and else'],
@@ -257,13 +307,13 @@ module.exports = {
           ['3. Data', 'A catch game that gets faster', 'A drawing program with the turtle', 'Dates and files: the calendar lesson below'],
           ['4. Show it', 'Present the game to the family', 'A Roblox obstacle course or small website', 'A web page or AI helper, explained line by line']
         ] },
-        { kind: 'source', html: 'This plan is ours, written by our mentors for this page. Every child is placed after the free first class, so a 10-year-old who already knows Scratch may start at stage 2.' },
+        { kind: 'source', html: 'This plan is ours, written by our mentors for this page. Four stages of about two weeks fill eight weeks; a family that starts in late December has two more for a second project or the next module. Every child is placed after the free first class, so a 10-year-old who already knows Scratch may start at stage 2.' },
         { kind: 'ol', mt: true, items: [
           '<strong>Book the free class before the break.</strong> December is a good time: your child meets a mentor, solves a small puzzle and you agree a starting stage and an hour.',
-          '<strong>Fix two hours a week.</strong> Two classes on fixed days give the summer a rhythm, even when the rest of the day is free. Pick hours that do not clash with the beach, council workshops or family trips.',
-          '<strong>Add short practice.</strong> Twenty minutes between classes, on a project the child chose, does more than one long session on Sunday.',
+          '<strong>Agree the pace.</strong> Four or five classes a week, agreed with the mentor together with the summer fee before the first summer class. Keeping the same hour each class day gives the summer a rhythm; pick one that does not clash with the beach, council workshops or family trips.',
+          '<strong>Add short practice.</strong> With classes most days, ten to fifteen minutes on a free day is plenty, on a project the child chose.',
           '<strong>Keep a project log.</strong> A notebook with the date, what was built and one new English word. By March it becomes a record your child is proud of.',
-          '<strong>Decide in late February.</strong> Continue into the school year at the same pace, slow down to one class a week, or pause. Any of the three is fine.'
+          '<strong>Decide in late February.</strong> Continue into the school year at two classes a week, or pause. Either is fine.'
         ] },
         { kind: 'p', mt: true, html: 'Families with a child at primaria will find more detail on the age question, and on why we start with Scratch, on our Spanish page <a class="ag-inline-link" href="/clases-de-programacion-para-ninos-en-ingles">clases de programación para niños en inglés</a>.' }
       ]
@@ -351,7 +401,7 @@ module.exports = {
       id: 'march',
       eyebrow: 'After the break',
       h2: 'What happens when school starts again in March?',
-      lede: 'You decide. Many families keep going at the same two classes a week; some slow to one; a few pause and return in the July break. The course and the mentor stay the same.',
+      lede: 'You decide. Many families drop back to the school-year pace of two classes a week and carry on with the same course; a few pause and return in the July break. The course and the mentor stay the same.',
       body: [
         { kind: 'two',
           leftH3: 'Continuing alongside school',
@@ -393,15 +443,15 @@ module.exports = {
   catalogue: {
     eyebrow: 'More courses',
     h2: 'Nine more courses to start in the break',
-    lede: 'All taught live in English by one mentor through the course, in a group or one to one.',
+    lede: 'Any of these can be the route 2 choice, taught live in English by one mentor through the course, at 4 to 5 classes a week in the break and two a week afterwards.',
     bands: [
       { num: 'I', h3: 'Games and building', sub: 'Ages 7 to 12', courses: [
         { code: 'SHC / PLAY / 01', slug: 'roblox-game-coding-for-kids-lua-course', title: 'Roblox game coding', blurb: 'Obstacle courses, scores and shops in Roblox Studio with Luau, from 8.' },
-        { code: 'SHC / PLAY / 02', slug: 'minecraft-coding-for-kids-course', title: 'Minecraft coding', blurb: 'Automating a world children already know, blocks first, then code.' },
+        { code: 'SHC / PLAY / 02', slug: 'kids-coding-blocks-masterclass', title: 'Coding for kids with blocks', blurb: 'Ages 6 to 12: blocks, animations and small games, a gentle start before typed code.' },
         { code: 'SHC / PLAY / 03', slug: 'kids-ai-web-development-course', title: 'Websites for kids', blurb: 'HTML and CSS to publish a first site of their own.' }
       ] },
       { num: 'II', h3: 'Teenagers', sub: 'Ages 13 to 17', courses: [
-        { code: 'SHC / TEEN / 01', slug: 'python-complete-masterclass-teens', title: 'Python for teens', blurb: 'From the first variable to files, classes and small apps.' },
+        { code: 'SHC / TEEN / 01', slug: 'problem-solving-dsa-masterclass-teens', title: 'Problem solving and DSA for teens', blurb: 'Logic, data structures and algorithms over 10 to 12 months; a summer gives it a big head start.' },
         { code: 'SHC / TEEN / 02', slug: 'javascript-course-for-teens-beginners-interactive-web', title: 'JavaScript for teens', blurb: 'Interactive pages and browser games, built and tested.' },
         { code: 'SHC / TEEN / 03', slug: 'complete-game-development-masterclass-for-teens', title: 'Game development for teens', blurb: 'Unity and C# for a teenager who wants to ship a real game.' }
       ] },
@@ -426,7 +476,7 @@ module.exports = {
       { h3: 'One mentor', p: 'The same person from the first summer class into the school year.' },
       { h3: 'Clear English', p: 'Short sentences, a shared screen and patience to say it again.' },
       { h3: 'Hands on the keyboard', p: 'Your child types and fixes the code; the mentor guides.' },
-      { h3: 'A project per stage', p: 'Each stage ends with something to show at home.' },
+      { h3: 'Summer pace', p: '4 to 5 classes a week, agreed with the mentor before the summer starts.' },
       { h3: 'Notes for parents', p: 'A short update on what was practised and what is next.' },
       { h3: 'Group or solo', p: 'Fifteen to twenty learners of a similar age, or one to one.' }
     ]
@@ -438,9 +488,9 @@ module.exports = {
 
   fees: {
     h2: 'Fees for summer classes in Peru',
-    lede: 'Our monthly fees show here in US dollars and are charged to a card. Your bank converts each payment into soles at its own exchange rate, so the amount on your statement may differ slightly from one month to the next.',
-    free: ['A free first class with a mentor', 'A starting stage agreed for the summer', 'No card needed'],
-    group: ['Fifteen to twenty learners of a similar age', 'The same mentor all summer', 'Two live classes a week', 'Monthly, stop at the end of any month'],
+    lede: 'The cards below show our standard monthly fee, which covers eight classes a month, in US dollars, charged to a card; your bank converts each payment at its own exchange rate. The summer pace of 4 to 5 classes a week has its own fee, which you agree with the mentor before the first summer class, so nothing is a surprise. The first class is free.',
+    free: ['A free first class with a mentor', 'A route and a summer pace suggested', 'No card needed'],
+    group: ['Fifteen to twenty learners of a similar age', 'Eight classes a month in the school year', '4 to 5 a week in the summer, fee agreed first', 'Monthly, stop at the end of any month'],
     one: ['Your child and a mentor alone', 'Projects chosen around your child', 'Days and hours you choose']
   },
 
@@ -450,14 +500,15 @@ module.exports = {
     items: [
       { q: 'Are the classes in Spanish?', a: 'No. Every class is live, online and taught in English only. Our mentors in India speak clearly, repeat in simpler words and adapt their pace and accent to each child. Many families choose us for exactly that reason: a summer of coding is also a summer of spoken English practice.' },
       { q: 'When is the summer school holiday in Peru?', a: 'For 2026, RM 501-2025-MINEDU set the last teaching day as 18 December 2026, and the 2026 year began with pupils on 16 March 2026. The 2027 calendar had not been published when we checked on 8 November 2026, so the exact March 2027 restart is not known yet.' },
-      { q: 'Is this a summer camp with fixed dates?', a: 'No. We do not run a separate summer camp for Peru. Your child starts our normal live course when the break begins, in a group or one to one, and can continue into the school year, slow down or stop at the end of any month.' },
+      { q: 'How many classes a week are there in the summer?', a: 'Four to five live classes a week during the break, against two a week in the school year. You agree the exact number with the mentor before starting, and your family chooses the days and the hour.' },
+      { q: 'What can my child study this summer?', a: 'Either our Summer Python and AI route, Python first and then age-appropriate AI projects, or any course in the catalogue: DSA, web development, app development, Java, C++, game development, Roblox, Scratch, vibe coding or maths.' },
+      { q: 'Can a whole course be finished in one summer?', a: 'Short ones, yes. Ten weeks at 4 to 5 classes is 40 to 50 classes by our count, enough for vibe coding, Scratch, HTML and CSS or PCEP and PCAP. A 10 to 14 month course, such as Python for Teens or DSA for teens, gets roughly half done and continues in March at two classes a week.' },
       { q: 'What age can my child start?', a: 'From 6. Children of 6 to 8 start with Scratch blocks and stories; from about 9 they can begin typed Python; teenagers of 13 to 17 can start with Python, web or AI projects straight away. The free first class places each child.' },
       { q: 'What time are the classes?', a: 'Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. India is 10 hours 30 minutes ahead of Peru all year, so 11:00 a.m. in Peru is 9:30 p.m. in India.' },
       { q: 'Does my child need to speak English already?', a: 'No. Understanding simple instructions is enough to begin. The first two or three weeks are for getting used to the mentor\'s accent, and a summer start gives that time without school pressure.' },
-      { q: 'Can my child do a council summer workshop as well?', a: 'Yes. A live class takes about an hour twice a week at the hour you choose, so it fits easily beside a morning sport or arts workshop. We are not connected with any district council.' },
-      { q: 'Do you teach robotics?', a: 'We teach coding, not hardware, and we never send a robot kit. Robots in school workshops are programmed with the same loops and conditions children learn with us, so the two fit together well.' },
+      { q: 'Can my child do a council summer workshop as well?', a: 'Yes. Our classes run at the hour you choose and need no travel, so even at 4 to 5 a week they fit beside a morning sport or arts workshop. We are not connected with any district council.' },
       { q: 'Will the classes count for school?', a: 'No. We are not connected with MINEDU, any UGEL or any school, and we do not give Peruvian grades. When a child finishes a course we give our own certificate of completion.' },
-      { q: 'How do we pay?', a: 'By card, in US dollars, monthly. Your bank converts the payment into soles at its rate. The first class is free and needs no card.' }
+      { q: 'How much does the summer pace cost, and how do we pay?', a: 'The fee cards show the standard monthly fee for eight classes, by card in US dollars, converted by your bank. The fee for 4 to 5 classes a week is agreed with the mentor before the first summer class. The first class is free and needs no card.' }
     ]
   },
 
@@ -476,8 +527,8 @@ module.exports = {
   },
 
   start: {
-    h2: 'Book a free first class before the break',
-    lede: 'In the free class your child meets a mentor, tries a short puzzle and writes or builds something small. The mentor notices how they reason and how much spoken English they follow, then suggests where to start in our summer plan and an hour that fits your family.',
+    h2: 'Book a free first class and plan the summer',
+    lede: 'In the free class your child meets a mentor, tries a short puzzle and writes or builds something small. The mentor notices how they reason and how much spoken English they follow, suggests a route, and then agrees with you the summer pace of 4 or 5 classes a week, its fee and an hour that fits your family.',
     readFirst: 'Want to read first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> explains a live class, and the <a class="ag-inline-link" href="/courses">course list</a> holds every syllabus.',
     note: 'Classes are live and online with mentors in India, in English only. WhatsApp is the quickest way to reach us, and you may write in Spanish.',
     formNote: 'Free, with no card and no commitment.'
@@ -486,8 +537,8 @@ module.exports = {
   footer: {
     cols: [
       { h4: 'Summer courses', links: [
-        { href: '/courses/kids-coding-blocks-masterclass', label: 'Coding for kids' },
         { href: '/courses/python-ai-kids-masterclass', label: 'Python and AI for kids' },
+        { href: '/courses/python-complete-masterclass-teens', label: 'Python for teens' },
         { href: '/courses/vibe-coding-for-teens-python-web-ai-projects-course', label: 'Vibe coding for teens' },
         { href: '/courses', label: 'All courses' }
       ] },
@@ -498,7 +549,7 @@ module.exports = {
         { href: '/student-labs', label: 'Student projects' }
       ] }
     ],
-    bottomRight: 'Count the posts, not the gaps'
+    bottomRight: 'Count the posts, not the gaps; count the classes too'
   },
 
   personalityCss: `
@@ -510,9 +561,9 @@ module.exports = {
 `,
 
   dossier: {
-    curriculumAuthority: 'MINEDU: RM 501-2025-MINEDU (Norma Técnica para el Año Escolar 2026, Tabla 1, read by eye from the signed PDF), press note of 14 October 2026 on 2027 materials, CNEB (transversal digital competency); INEI Censos Nacionales 2025 (Lima Metropolitana, Cuadro N.° 3); INEI TIC en los Hogares II Trimestre 2026; Municipalidad de Santiago de Surco (6 January 2026), Municipalidad de La Molina (press note 380, 6 January 2026), Municipalidad de Miraflores (5 January 2026); EF EPI 2025 Peru page; tz database and INACAL. Read 8 and 9 November 2026. The holiday plan, levels and Python lesson are our own.',
+    curriculumAuthority: 'MINEDU: RM 501-2025-MINEDU (Norma Técnica para el Año Escolar 2026, Tabla 1, read by eye from the signed PDF), press note of 14 October 2026 on 2027 materials, CNEB (transversal digital competency); INEI Censos Nacionales 2025 (Lima Metropolitana, Cuadro N.° 3); INEI TIC en los Hogares II Trimestre 2026; Municipalidad de Santiago de Surco (6 January 2026), Municipalidad de La Molina (press note 380, 6 January 2026), Municipalidad de Miraflores (5 January 2026); EF EPI 2025 Peru page; tz database and INACAL. Read 8 and 9 November 2026. Course lengths from our own course pages. The two summer routes, the pace arithmetic, the four-stage plan, levels and Python lesson are our own.',
     localProject: 'Does the 2026 Peruvian school calendar really give nine weeks per block? An original Python lesson on the four teaching blocks of RM 501-2025-MINEDU: Version 1 subtracts dates and prints "Block 1 60 days = 8.6 weeks" (fencepost plus dividing calendar days by seven); Version 2 counts Mondays and prints "Block 1 Mon 16 Mar to Fri 15 May -> 9 weeks" and "Teaching weeks in 2026: 36"; Version 3 counts weekdays between blocks and prints 5, 10 and 5, matching the management weeks. Lesson family: date arithmetic, fencepost errors, counting the unit the source counts.',
-    requiredMentions: ['Block 1 60 days = 8.6 weeks', 'Teaching weeks in 2026: 36', 'Break after Block 2: 10 weekdays', '818,096 children of 6 to 11', 'DivertiSurco: Disfruta tu verano 2026', 'Molitalleres de Verano 2026', 'seven weeks in district parks from Tuesday 13 January 2026', 'Count the posts, not the gaps', '13.3 million units of school materials for the 2027 school year', '84.7% of households in Lima Metropolitana'],
+    requiredMentions: ['Block 1 60 days = 8.6 weeks', 'Teaching weeks in 2026: 36', 'Break after Block 2: 10 weekdays', '818,096 children of 6 to 11', 'DivertiSurco: Disfruta tu verano 2026', 'Molitalleres de Verano 2026', 'seven weeks in district parks from Tuesday 13 January 2026', 'Count the posts, not the gaps; count the classes too', 'Summer pace against the school-year pace', '13.3 million units of school materials for the 2027 school year', '84.7% of households in Lima Metropolitana'],
     sources: [
       { claim: '2026 school year blocks and dates (Tabla 1), 36 teaching and 8 management weeks, DRE/UGEL may redistribute.', url: 'https://cdn.www.gob.pe/uploads/document/file/8968298/7380466-rm-n-501-2025-minedu.pdf' },
       { claim: 'MINEDU began dispatching 13.3 million units of materials for the 2027 school year on 14 October 2026.', url: 'https://www.gob.pe/institucion/minedu/noticias/1456889-minedu-inicia-distribucion-de-materiales-educativos-para-el-ano-escolar-2027' },
@@ -522,10 +573,12 @@ module.exports = {
       { claim: 'ECO KIDS: free, ages 6 to 12, seven weeks from Tuesday 13 January 2026.', url: 'https://www.miraflores.gob.pe/miraflores-lanza-eco-kids-vacaciones-utiles-ambientales-para-ninas-y-ninos-del-distrito/' },
       { claim: 'Lima Metropolitana 84.7% of households with internet; 36.4% of households with a computer; internet use 68.2% at 6 to 11 and 92.5% at 12 to 18 (II Trimestre 2026).', url: 'https://www.inei.gob.pe/media/MenuRecursivo/boletines/boletin-tic-iit2026.pdf' },
       { claim: 'EF EPI 2025: Peru 519, 52 of 123, Lima 555 in the High band, speaking 480.', url: 'https://www.ef.com/wwen/epi/regions/latin-america/peru/' },
-      { claim: 'Peru UTC-5 with no DST since 1994; India UTC+5:30.', url: 'https://raw.githubusercontent.com/eggert/tz/main/southamerica' }
+      { claim: 'Peru UTC-5 with no DST since 1994; India UTC+5:30.', url: 'https://raw.githubusercontent.com/eggert/tz/main/southamerica' },
+      { claim: 'Course durations: Vibe Coding for Teens 3 months (12 weeks); Scratch 3-4 months; HTML and CSS 4 months; DSA for teens 10-12 months; Python for Teens 10-12 months; PCEP and PCAP 5 months; App Development for Teens 10-12 months; Full Stack for Teens 12-14 months.', url: 'https://learn.modernagecoders.com/courses/vibe-coding-for-teens-python-web-ai-projects-course' }
     ],
     rejectedClaims: [
-      'A summer camp length, start date or price for Peru: none defined by the owner; the page sells normal classes started in the break and labels the four-stage plan as ours.',
+      'A typed summer price or a camp start date: refused; the owner\'s offer (2026-11-10) is 4 to 5 classes a week with the summer fee agreed with the mentor, and the template shows only the standard eight-class monthly fee.',
+      'Finishing a 10 to 14 month course in one summer: refused; the tables say about half or under half, continuing in March.',
       'The 2027 school restart date: no 2027 norm found on gob.pe as of 8 November 2026; the page says so instead of guessing.',
       'Council 2027 summer programmes: not announced when checked; only 2026 programmes are described, each with its council source, and we say we are not connected.',
       'Council workshop prices: published by the councils but not repeated (no soles figures on our pages).',

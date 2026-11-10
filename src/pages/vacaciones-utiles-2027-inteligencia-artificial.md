@@ -1,10 +1,10 @@
 ---
 title: "Vacaciones útiles 2027 de inteligencia artificial, en inglés"
-description: "Vacaciones útiles 2027 de inteligencia artificial para niños y adolescentes en Perú: clases en vivo y en inglés, IA por edades y con herramientas permitidas."
+description: "Vacaciones útiles 2027 de IA en Perú: la ruta Python e IA a 4 o 5 clases por semana, en vivo y en inglés, con herramientas adecuadas a la edad de su hijo."
 canonical: https://learn.modernagecoders.com/vacaciones-utiles-2027-inteligencia-artificial
 source: src/pages/vacaciones-utiles-2027-inteligencia-artificial.html
 ---
-> Modern Age Coders enseña inteligencia artificial a escolares peruanos de 6 a 17 años con clases en vivo, en línea y en inglés, que pueden comenzar en las vacaciones útiles 2027. Su hijo aprende cómo aprende una máquina: datos, patrones, errores y modelos sencillos que programa él mismo, solo con herramientas que su edad permite. La primera clase se reserva para cualquier semana del verano, en grupo o de manera individual, el día y la hora que la familia prefiera, y en marzo el curso puede continuar.
+> En las vacaciones útiles 2027, Modern Age Coders ofrece una ruta de verano Python e IA para escolares peruanos de 6 a 17 años, con clases en vivo, en línea y en inglés, de 4 a 5 clases a la semana. Su hijo aprende Python y después cómo aprende una máquina: datos, patrones, errores y modelos sencillos que programa él mismo, solo con herramientas que su edad permite. Si prefiere otro curso, como DSA, web o apps, también va a ritmo de verano, en grupo o individual y a la hora que la familia elija. La primera clase es gratis.
 
 [Inicio](/) / [Cursos](/courses) / [Perú](/coding-and-ai-classes-in-peru) / Vacaciones útiles 2027: IA
 
@@ -12,17 +12,57 @@ Perú · Verano 2027 · Inteligencia artificial de 6 a 17 años
 
 # Vacaciones útiles 2027 de inteligencia artificial, en vivo y en inglés
 
-Muchos padres nos escriben con la misma duda: su hijo ya conversa con un chatbot, pero ¿entiende qué hay detrás? Un verano de inteligencia artificial bien planteado no enseña a pedirle cosas a una aplicación. Enseña cómo aprende una máquina, por qué se equivoca y qué herramientas son apropiadas para cada edad. Eso es lo que proponemos para enero y febrero de 2027.
+Muchos padres nos escriben con la misma duda: su hijo ya conversa con un chatbot, pero ¿entiende qué hay detrás? Nuestra ruta de verano Python e IA responde eso con un ritmo intensivo, de 4 a 5 clases en vivo por semana: primero Python, luego modelos que su hijo programa y pone a prueba, siempre con herramientas que su edad permite.
 
-En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Edades: De 6 a 17 años, con un plan distinto para cada tramo; Qué se aprende: Datos, patrones, modelos sencillos y Python; Herramientas: Solo las que permite la edad de su hijo; Formato: Clase grupal de quince a veinte, o individual; Idioma: Inglés, con un mentor en vivo desde la India; Primera clase: Gratis, sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
+En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Edades: De 6 a 17 años, con un plan distinto para cada tramo; Ruta de verano: Python primero, luego proyectos de IA; Ritmo: De 4 a 5 clases en vivo por semana; Herramientas: Solo las que permite la edad de su hijo; Formato: Clase grupal de quince a veinte, o individual; Primera clase: Gratis, sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
 
-## Tres cursos de inteligencia artificial según la edad
+## Tres cursos de la ruta de verano Python e IA, según la edad
 
-Para los menores, entender la IA sin abrir cuentas; para primaria alta, programarla en Python; para secundaria, construir modelos con datos reales.
+Para los menores, entender la IA sin abrir cuentas; para primaria alta, programarla en Python; para secundaria, construir modelos con datos reales. Los tres se llevan a 4 o 5 clases por semana durante el descanso.
 
-- [Entender la inteligencia artificial](/courses/ai-literacy-for-kids-course): De 8 a 14 años, sin saber programar. Cómo se entrena un modelo, por qué inventa respuestas y cómo comprobar lo que dice una IA antes de creerle.
-- [Python y proyectos de IA para primaria](/courses/python-ai-kids-masterclass): Para 9 a 12 años. Programas que clasifican, cuentan y adivinan, y modelos de imágenes entrenados en el navegador con Teachable Machine, sin crear cuentas.
-- [IA y aprendizaje automático para adolescentes](/courses/ai-ml-masterclass-teens): De 13 a 18 años, con la matemática del colegio basta. Python, datos y modelos reales, desde una regresión sencilla hasta una red neuronal pequeña.
+- [Entender la inteligencia artificial](/courses/ai-literacy-for-kids-course): De 8 a 14 años, sin saber programar. Dura 4 meses a ritmo normal, así que en verano se completa: cómo se entrena un modelo, por qué inventa respuestas y cómo comprobar lo que dice una IA.
+- [Python y proyectos de IA para primaria](/courses/python-ai-kids-masterclass): Para 9 a 12 años. Dura de 8 a 10 meses a ritmo normal: el verano cubre entre la mitad y tres cuartas partes, con programas que clasifican, cuentan y adivinan y modelos de imágenes entrenados en el navegador, sin crear cuentas.
+- [IA y aprendizaje automático para adolescentes](/courses/ai-ml-masterclass-teens): De 13 a 18 años, con la matemática del colegio basta. Python, datos y modelos reales, desde una regresión sencilla hasta una red neuronal pequeña; el verano adelanta más o menos la mitad.
+
+## ¿Cómo es la ruta de verano Python e IA para niños y adolescentes?
+
+Es nuestra propuesta principal para enero y febrero de 2027: Python primero y, sobre esa base, inteligencia artificial que su hijo construye con sus propias manos. Va a un ritmo de 4 a 5 clases en vivo por semana, en grupo o individual, y si su hijo prefiere otra materia puede llevar cualquier curso del catálogo al mismo ritmo.
+
+### Ruta 1: Python e IA, la que recomendamos aquí
+
+Para primaria alta, el curso Python con proyectos de IA: programas que adivinan, clasifican y aprenden de ejemplos, como el clasificador de frutas de esta página. Para secundaria, Python completo y después ciencia de datos, Orange o el curso de IA y aprendizaje automático.
+
+Cada tramo respeta la edad mínima que fijan las empresas de IA. Los niños programan sus propios modelos sin abrir cuentas; los adolescentes usan herramientas generativas solo cuando los términos lo permiten y la familia está de acuerdo.
+
+### Ruta 2: otro curso, al mismo ritmo
+
+Si a su hijo le atrae más construir que analizar datos, el verano puede dedicarse a cualquier otro curso: estructuras de datos y algoritmos (DSA), desarrollo web, apps para el celular, Java, C++, videojuegos, Roblox, Scratch, vibe coding o matemática.
+
+El mentor reparte ese temario en sesiones de verano. Lo que su hijo haya aprendido de Python e IA no se pierde: muchos estudiantes vuelven a la ruta 1 en el verano siguiente.
+
+**Cuánto de cada curso de IA cubre un verano de 40 a 50 clases (cuentas nuestras)**
+
+| Curso de la ruta Python e IA | Duración publicada del curso | Clases a nuestro ritmo normal | Con 4 o 5 clases por semana en verano |
+|---|---|---|---|
+| Entender la IA, de 8 a 14 años | 4 meses (16 semanas) | 32 | Se completa y queda margen para un proyecto |
+| Python con proyectos de IA, de 9 a 12 | De 8 a 10 meses | 64 a 80 | Entre la mitad y tres cuartas partes; sigue en marzo |
+| Python para adolescentes, de 13 a 18 | De 10 a 12 meses | 80 a 96 | Más o menos la mitad; sigue en marzo |
+| Machine learning visual con Orange | 24 clases (12 semanas) | 24 | Se completa en cinco o seis semanas |
+| Ciencia de datos, de 14 a 18 | 6 meses (24 semanas) | 48 | Se completa, o casi, a cinco por semana |
+| IA y aprendizaje automático, de 13 a 18 | De 10 a 12 meses | 80 a 96 | Más o menos la mitad |
+
+La segunda columna es la duración que publica la página de cada curso. Las otras dos son cálculo nuestro: nuestro ritmo normal es de dos clases por semana, y un verano de diez semanas a 4 o 5 clases suma de 40 a 50 clases. Un adolescente que empieza de cero suele dedicar el verano a Python para adolescentes; si prefiere cerrar un curso entero antes de marzo, Orange enseña aprendizaje automático sin escribir código y cabe completo.
+
+**Qué ruta y qué herramientas según la edad (propuesta nuestra, con las edades de cada empresa)**
+
+| Edad | Ruta 1: Python e IA | Herramientas de IA en clase | Si prefiere la ruta 2 |
+|---|---|---|---|
+| 6 a 8 años | Antes de Python: razonar, agrupar y clasificar jugando | Teachable Machine en el navegador, sin cuenta | Scratch o apps con bloques |
+| 9 a 12 años | Entender la IA y Python con proyectos de IA | Teachable Machine sin cuenta; ningún chatbot | Web para niños o Roblox |
+| 13 a 15 años | Python completo, luego Orange o IA y aprendizaje automático | ChatGPT o Perplexity solo con permiso previo de la familia | DSA, apps o desarrollo web |
+| 16 y 17 años | Python, ciencia de datos e IA y aprendizaje automático | Las mismas reglas; Claude queda fuera hasta los 18 | Java, C++ o desarrollo web completo |
+
+Lo que no prometemos: que un curso de diez o doce meses termine en febrero. Diez semanas a ritmo intensivo dan para completar los cursos cortos de la tabla y adelantar cerca de la mitad de los largos; el resto continúa desde marzo a dos clases por semana, con el mismo mentor, si su hijo quiere. Lo que sí prometemos es que cada modelo que construya lo entenderá, sabrá dónde falla y podrá explicarlo en inglés.
 
 ## ¿Qué debería aprender un niño en un curso de inteligencia artificial?
 
@@ -40,7 +80,7 @@ Un modelo se equivoca cuando sus datos son pocos o están sesgados. En clase lo 
 
 Para los adolescentes que ya usan herramientas generativas, la meta es revisar, comprobar y citar. Nunca copiar una respuesta sin entenderla, ni entregar como propio un trabajo hecho por una IA.
 
-Aclaramos algo antes de seguir: esto no es un taller con día de inauguración. Hablamos de nuestras clases de IA de todo el año, siempre en vivo e inglés, abiertas a quien quiera arrancar entre diciembre de 2026 y febrero de 2027 y quedarse después si le gusta. La mayoría de colegios termina sus clases antes de fin de año: en 2026 el último tramo lectivo sugerido por la RM 501-2025-MINEDU corre del 19 de octubre al 18 de diciembre, con margen para que cada región lo ajuste. Sobre 2027, en noviembre de 2026 el MINEDU aún no había dado a conocer su calendario.
+Un detalle práctico: la ruta no tiene día de inauguración. Su hijo arranca la semana que usted elija entre diciembre de 2026 y febrero de 2027, y en marzo puede quedarse a ritmo normal si le gusta. La mayoría de colegios termina sus clases antes de fin de año: en 2026 el último tramo lectivo sugerido por la RM 501-2025-MINEDU corre del 19 de octubre al 18 de diciembre, con margen para que cada región lo ajuste. Sobre 2027, en noviembre de 2026 el MINEDU aún no había dado a conocer su calendario.
 
 Si a su hijo le atraen más los juegos o las páginas web que la IA en sí, empiece por la guía de [clases de programación para niños en inglés](/clases-de-programacion-para-ninos-en-ingles), que explica cómo se vive una clase con un niño de primaria. Para ver todas las edades y cursos que ofrecemos en el país, la página principal es [coding and AI classes in Peru](/coding-and-ai-classes-in-peru).
 
@@ -92,21 +132,21 @@ La lectura para una familia es sencilla: los docentes se están preparando en IA
 
 Nuestras clases acompañan al colegio y no lo reemplazan. No otorgamos notas ni certificados del sistema educativo, y no tenemos relación con el MINEDU ni con sus programas. Al terminar un curso entregamos únicamente nuestro propio certificado de finalización.
 
-## ¿Cómo es un plan de verano de inteligencia artificial para niños y adolescentes?
+## ¿Qué hace un niño en cada etapa del verano de inteligencia artificial?
 
-Le proponemos ocho semanas, dos clases en vivo por semana, con un proyecto de IA al final. Es una propuesta nuestra, no un programa oficial ni un taller con fecha fija: el mentor la ajusta a su hijo en la clase gratis.
+A 4 o 5 clases por semana, la parte de IA de la ruta avanza en cinco etapas, cada una con su propio tipo de proyecto. Es una propuesta nuestra, no un programa oficial: el mentor la ajusta a su hijo en la clase gratis y la alarga o acorta según cuánto Python necesite antes.
 
-**Ocho semanas de inteligencia artificial por edades (plan propio de Modern Age Coders)**
+**Inteligencia artificial por etapas y por edades, a ritmo de verano (plan propio de Modern Age Coders)**
 
-| Semanas | Primaria baja (6 a 8) | Primaria alta (9 a 12) | Secundaria (13 a 17) |
+| Etapa | Primaria baja (6 a 8) | Primaria alta (9 a 12) | Secundaria (13 a 17) |
 |---|---|---|---|
-| 1 y 2 | Ordenar y agrupar: juegos de clasificar figuras y animales | Qué es un dato; tablas de ejemplos hechas por el niño | Python básico y listas de datos; qué es un modelo |
-| 3 y 4 | Enseñarle a la computadora: imágenes en Teachable Machine sin cuenta | Un clasificador escrito a mano en Python, como el de abajo | Distancias, vecinos más cercanos y medir aciertos |
-| 5 y 6 | Cuando la máquina se confunde: fotos parecidas, respuestas raras | Datos sesgados: qué pasa si faltan ejemplos de una clase | Una regresión sencilla con datos abiertos; error y ajuste |
-| 7 y 8 | Proyecto: un juego que reconoce gestos o dibujos | Proyecto: un modelo propio que clasifica algo de casa | Proyecto: un modelo con datos reales y un informe de sus límites |
+| 1 | Ordenar y agrupar: juegos de clasificar figuras y animales | Qué es un dato; tablas de ejemplos hechas por el niño | Python básico y listas de datos; qué es un modelo |
+| 2 | Enseñarle a la computadora: imágenes en Teachable Machine sin cuenta | Un clasificador escrito a mano en Python, como el de abajo | Distancias, vecinos más cercanos y medir aciertos |
+| 3 | Cuando la máquina se confunde: fotos parecidas, respuestas raras | Datos sesgados: qué pasa si faltan ejemplos de una clase | Una regresión sencilla con datos abiertos; error y ajuste |
+| 4 | Proyecto: un juego que reconoce gestos o dibujos | Proyecto: un modelo propio que clasifica algo de casa | Proyecto: un modelo con datos reales y un informe de sus límites |
 | Cierre | Mostrar el proyecto y decir en inglés qué aprendió la máquina | Explicar por qué el modelo falla en un caso | Presentar resultados, errores y siguientes pasos en inglés |
 
-Propuesta nuestra para enero y febrero de 2027, con herramientas que respetan las edades de la tabla anterior. No tiene fecha de inicio ni duración obligatoria: su hijo empieza cualquier semana, y después de la octava continúa o se detiene. El pago es mensual.
+Propuesta nuestra para enero y febrero de 2027, con herramientas que respetan las edades de la tabla de edades y herramientas. A ritmo de verano cada etapa suele ocupar entre una semana y media y dos semanas; para un adolescente que empieza de cero, las etapas de IA llegan después de las primeras semanas de Python. El pago es mensual.
 
 ### Los más pequeños, sin pantallas de chat
 
@@ -187,7 +227,7 @@ Las fechas de 2027 no estaban publicadas cuando escribimos. Si la próxima edici
 
 Un dato útil: el reglamento de la OPI 2025 dice que "queda prohibido el uso de IA generativa" para resolver los problemas. En esta olimpiada de programación gana quien razona, no quien copia, y es lo mismo que pedimos en clase.
 
-Nosotros no organizamos ni representamos a la OPEIA ni a la OPI, no tenemos relación con UTEC y no reproducimos sus problemas. Lo que sí hacemos es enseñar los fundamentos que una olimpiada de IA da por sabidos: Python, datos, modelos sencillos y la costumbre de medir cuánto acierta un modelo. Para un adolescente de secundaria que quiera intentarlo, ocho semanas de verano son un buen comienzo.
+Nosotros no organizamos ni representamos a la OPEIA ni a la OPI, no tenemos relación con UTEC y no reproducimos sus problemas. Lo que sí hacemos es enseñar los fundamentos que una olimpiada de IA da por sabidos: Python, datos, modelos sencillos y la costumbre de medir cuánto acierta un modelo. Para un adolescente de secundaria que quiera intentarlo, un verano a 4 o 5 clases por semana es un comienzo serio.
 
 ## ¿A qué hora se dictan las clases de IA desde la India?
 
@@ -261,15 +301,15 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 - **Herramientas por edad** Nunca pedimos a un menor aceptar términos que no le corresponden.
 - **IA programada, no solo usada** Su hijo escribe sus propios modelos sencillos en Python.
 - **Errores a propósito** Cada proyecto incluye buscar dónde falla el modelo.
-- **Avance por escrito** Una nota breve para la familia después de las clases.
+- **Ritmo de verano** De 4 a 5 sesiones por semana, acordadas con el mentor antes de empezar.
 - **En grupo o a solas** Grupos de quince a veinte de edades cercanas, o uno a uno.
 
 ## Cuánto cuesta un verano de IA en Perú
 
-La tarifa mensual aparece aquí en dólares estadounidenses y se paga con tarjeta. El banco que emite su tarjeta hace la conversión, por lo que el cargo final depende del tipo de cambio de ese día. No hay matrícula ni pago aparte por ser verano.
+Lo que ve en las tarjetas es la tarifa mensual estándar, pensada para ocho clases al mes, en dólares estadounidenses y con pago por tarjeta; el banco que la emite convierte el cargo al tipo de cambio de ese día. Como en verano la ruta va a 4 o 5 clases por semana, esa tarifa de verano se acuerda con el mentor antes de la primera sesión, sin sorpresas después. Probar la primera clase es gratis.
 
-- Primera clase gratis: Gratis. Primera clase sin costo. El mentor recomienda el tramo del plan. Sin datos de pago.
-- Clase grupal: USD 100 al mes. Quince a veinte estudiantes de edades cercanas. Dos sesiones en vivo cada semana. El mismo mentor de inicio a fin. Se paga mes a mes, sin permanencia.
+- Primera clase gratis: Gratis. Primera clase sin costo. El mentor recomienda en qué curso de la ruta empezar. Sin datos de pago.
+- Clase grupal: USD 100 al mes. Quince a veinte estudiantes de edades cercanas. Ocho clases al mes fuera del verano. De 4 a 5 por semana en verano, con tarifa acordada. Se paga mes a mes, sin permanencia.
 - Clases individuales: USD 150 al mes. Su hijo y el mentor, solos. Proyecto de IA elegido por su hijo. Horario que se adapta a viajes.
 
 ## Vacaciones útiles 2027 de inteligencia artificial: preguntas frecuentes
@@ -290,13 +330,17 @@ Solo si es adolescente y la familia lo autoriza. Los términos de OpenAI piden a
 
 Claude exige 18 años en sus términos, así que no lo usamos con ningún menor. Gemini pide 13 años o la edad del país y no funciona con cuentas supervisadas por Family Link; no se lo pedimos a menores en clase.
 
+### ¿Cuántas clases por semana tiene la ruta de verano Python e IA?
+
+De 4 a 5 clases en vivo por semana, el doble o más de las dos semanales del año escolar. El número exacto se elige con el mentor antes de empezar; los días y la hora los decide la familia.
+
 ### ¿Cuándo empieza el verano de IA?
 
 Cuando usted lo decida. No hay una fecha de inicio común ni un taller con cupos: después de la clase de prueba, las sesiones arrancan apenas usted confirme, sea a fines de 2026 o en pleno verano de 2027.
 
-### ¿Cuánto dura?
+### ¿Mi hijo termina un curso de IA en el verano?
 
-Lo que la familia quiera. Nuestra propuesta son ocho semanas que terminan en un proyecto de IA, pero se cobran mes a mes: al llegar marzo, su hijo puede quedarse con su mentor todo el año o despedirse.
+Los cortos, sí: Entender la IA, Orange y ciencia de datos caben en diez semanas a ritmo intensivo. Los largos, como Python para adolescentes o IA y aprendizaje automático, llegan más o menos a la mitad (Python con proyectos de IA, algo más), y la otra mitad puede completarse durante el año escolar.
 
 ### ¿En qué horario son las clases?
 
@@ -304,19 +348,15 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 
 ### ¿Necesita saber programar antes?
 
-No. Los más pequeños no escriben código, y el plan de 9 a 12 años empieza con lo básico de Python. Los adolescentes que nunca programaron arrancan por Python antes de los modelos.
+No. Los más pequeños no escriben código, y la ruta de 9 a 12 años empieza con lo básico de Python. Los adolescentes que nunca programaron arrancan por Python antes de los modelos.
 
 ### ¿Las clases preparan para la OPEIA?
 
 Enseñamos los fundamentos que una olimpiada de IA supone: Python, datos y modelos sencillos. No tenemos relación con UTEC, no reproducimos sus problemas y no prometemos resultados; las bases y fechas oficiales están en la página de la olimpiada.
 
-### ¿El curso tiene validez para el colegio?
+### ¿Cuánto cuesta el verano de IA y cómo se paga?
 
-No. No damos notas ni certificados del sistema educativo peruano y no estamos vinculados al MINEDU ni a ningún colegio. Al final del curso su hijo recibe nuestro certificado de finalización.
-
-### ¿Cómo se paga?
-
-Mensualmente, con tarjeta y en dólares estadounidenses; su banco se encarga de la conversión. La clase de prueba no tiene costo ni pide datos de pago.
+La página muestra la tarifa mensual estándar de ocho clases, en dólares estadounidenses y con tarjeta; su banco hace la conversión. La tarifa del ritmo de verano, de 4 a 5 clases por semana, se acuerda con el mentor antes de la primera clase de verano. La clase de prueba no tiene costo.
 
 ## Para seguir leyendo
 

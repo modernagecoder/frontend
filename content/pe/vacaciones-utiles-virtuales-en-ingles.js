@@ -1,10 +1,17 @@
-// SHIP: market | Vacaciones útiles virtuales en inglés: no perder el inglés en verano, programando | string indexing and an if/else rule (a or an), then a dictionary of exceptions
+// SHIP: market | Vacaciones útiles virtuales en inglés: 4 o 5 clases semanales de código en inglés | string indexing and an if/else rule (a or an), then a dictionary of exceptions
 'use strict';
 // Vacaciones útiles virtuales en inglés (ag- Spanish-language door, Peru cluster row PE109, P2 summer season, hubGroup exams).
 // Spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md; writer brief docs/superpowers/plans/2026-11-09-pe-writer-brief.md.
 // Owner 2026-11-09: "make sure all our classes are live online in english". Owner 2026-11-08: timing flexible, any time.
-// Formal "usted" throughout. Fees render in USD from the template only. No camp length, start date or camp price (spec section 8,
-// question 8): the page sells the normal live classes as a summer start, with a holiday plan that is ours and says so.
+// Owner 2026-11-10 (brief, "Summer offer"): "summer page sells summer coding of python and ai or custom choose your courses
+// regular class weekly 4 to 5 classes to complete the courses DSA web dev app dev and many more make nice summer pages".
+// Revised 2026-11-10: two routes (Summer Python and AI, or any catalogue course) at 4 to 5 live classes a week, group or
+// one to one, flexible hours, summer pace and fee agreed with the mentor before the first summer class, first class free.
+// The page's own angle on the offer: how many classes in English a summer adds up to, by the number of weeks used.
+// Formal "usted" throughout. Fees render in USD from the template only (standard eight-class monthly fee); no summer price.
+// Course lengths quoted (duration field of content/courses/data/<file>.json, corrected 2026-11-10): html-css-beginners.json
+// "4 months (16 weeks)"; python-ai-kids.json "8-10 months (32-40 weeks)" (64 to 80 classes at two a week). Our arithmetic (scratchpad summer_math.py): "6 weeks: 24 to 30 classes; months of regular
+// pace (8/month): 3.0 to 3.75"; "8 weeks: 32 to 40 ... 4.0 to 5.0"; "10 weeks: 40 to 50 ... 5.0 to 6.25".
 // Angle: the bilingual or English-curious Peruvian family that types "vacaciones útiles virtuales en inglés": they want the
 // summer to keep (or build) English, at home, live. Spine: what "virtual" and "in English" mean with us (live, never
 // recorded; English for the whole hour); which families it suits (bilingual, Cambridge and IB schools as context: COAR's
@@ -102,51 +109,82 @@ module.exports = {
   parents: [{ slug: 'coding-and-ai-classes-in-peru', name: 'Peru' }],
   routeLabel: 'Vacaciones útiles virtuales en inglés',
   title: 'Vacaciones útiles virtuales en inglés: programación en vivo',
-  description: 'Vacaciones útiles virtuales en inglés para niños y adolescentes en Perú: programación en vivo, todo el tiempo en inglés, en grupo o individual y a la hora que elija.',
-  ogDescription: 'Un verano virtual y en inglés para escolares en Perú: cuánto inglés escolar se pausa en enero y febrero, si las clases online funcionan en casa y una lección de Python sobre a y an.',
-  twitterDescription: 'Vacaciones útiles virtuales para niños y adolescentes en Perú, en vivo y todo en inglés: programación y práctica del idioma en la misma hora.',
+  description: 'Vacaciones útiles virtuales en inglés en Perú: Python e IA o el curso que elija, de 4 a 5 clases en vivo por semana, todo en inglés, en grupo o individual.',
+  ogDescription: 'Un verano virtual y en inglés para escolares en Perú: cuántas clases en inglés suma un verano a 4 o 5 por semana, cuánto inglés escolar se pausa y una lección de Python sobre a y an.',
+  twitterDescription: 'Vacaciones útiles virtuales en inglés para escolares en Perú: de 4 a 5 clases de programación por semana, en vivo y todo en inglés.',
   pageName: 'Vacaciones útiles virtuales en inglés',
-  webPageDescription: 'Guía para familias en Perú que buscan vacaciones útiles virtuales en inglés: qué significa una clase virtual y en inglés con nosotros, para qué familias tiene sentido, cuántas horas de inglés escolar se detienen en el verano según el CNEB, qué dicen el INEI y el EF EPI sobre internet e inglés en el Perú, un plan de verano propio y una lección de Python sobre los artículos a y an.',
-  courseDescription: 'Clases en vivo y en línea de programación para niños y adolescentes de 6 a 17 años en todo el Perú, dictadas de principio a fin en inglés, que pueden empezar en las vacaciones de verano 2027: Scratch, Python, web y Java, en grupo o en clases individuales, a cualquier hora.',
+  webPageDescription: 'Guía para familias en Perú que buscan vacaciones útiles virtuales en inglés: las dos rutas de verano a 4 o 5 clases por semana y cuántas clases en inglés suman, qué significa una clase virtual y en inglés con nosotros, para qué familias tiene sentido, cuántas horas de inglés escolar se detienen en el verano según el CNEB, qué dicen el INEI y el EF EPI sobre internet e inglés en el Perú, un plan de verano propio y una lección de Python sobre los artículos a y an.',
+  courseDescription: 'Clases en vivo y en línea de programación para niños y adolescentes de 6 a 17 años en todo el Perú, dictadas de principio a fin en inglés, a 4 o 5 clases por semana en las vacaciones de verano 2027: la ruta Python e IA o un curso a elección (web, videojuegos, Java, DSA y más), en grupo o en clases individuales, a cualquier hora.',
   crumbs: [{ name: 'Cursos', href: '/courses' }, { name: 'Perú', href: '/coding-and-ai-classes-in-peru' }],
   crumbLabel: 'Vacaciones útiles virtuales en inglés',
   navLinks: [
     { href: '/coding-and-ai-classes-in-peru', label: 'Perú' },
+    { href: '#verano-en-ingles', label: 'Las dos rutas' },
     { href: '#virtual', label: 'Virtual y en inglés' },
     { href: '#familias', label: 'Para quién' },
     { href: '#ingles-escolar', label: 'Inglés en verano' },
-    { href: '#en-casa', label: 'Internet en casa' },
     { href: '#ejemplo', label: 'Ejemplo' }
   ],
   eyebrow: 'Perú &middot; Verano 2027 &middot; Virtual y todo en inglés',
   h1: 'Vacaciones útiles virtuales en inglés, con programación en vivo',
-  lede: 'Hay familias que quieren que el verano sirva para algo más que descansar, y que además no se pierda el inglés ganado durante el año. Para ellas, una clase de programación que se dicta íntegramente en inglés, en vivo desde casa, resuelve dos cosas a la vez. Aquí explicamos cómo funciona, para quién tiene sentido y qué se puede esperar de ocho semanas.',
-  secondaryCta: { href: '#virtual', label: '¿Qué significa virtual y en inglés?' },
+  lede: 'Hay familias que quieren que el verano sirva para algo más que descansar, y que además no se pierda el inglés ganado durante el año. Para ellas proponemos un verano de programación dictado íntegramente en inglés, en vivo desde casa, a 4 o 5 clases por semana: casi una conversación diaria con el mismo mentor. Aquí explicamos cómo funciona, para quién tiene sentido y cuántas clases suma.',
+  secondaryCta: { href: '#verano-en-ingles', label: 'Ver las dos rutas de verano' },
   wa: 'Hola Modern Age Coders, buscamos vacaciones útiles virtuales en inglés para nuestro hijo o hija en Perú, con clases de programación en vivo. ¿Podemos reservar una clase gratis?',
-  heroNote: 'Clases en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; una hora entera en inglés, sin traducción',
+  heroNote: 'Clases en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; de 4 a 5 clases por semana, sin traducción',
   spec: [
     ['Idioma de la clase', 'Inglés de principio a fin, sin pasar al castellano'],
     ['Modalidad', 'Virtual y en vivo, nunca videos grabados'],
-    ['Edades', 'De 6 a 17 años, de primaria a 5° de secundaria'],
-    ['Temas', 'Scratch, Python, páginas web y Java'],
+    ['Rutas', 'Python e IA, o el curso que elija'],
+    ['Ritmo de verano', 'De 4 a 5 clases en vivo por semana'],
     ['Formato', 'Clase grupal de quince a veinte, o individual'],
     ['Primera clase', 'Gratis y sin tarjeta']
   ],
   capsuleQ: 'La respuesta corta',
-  capsule: 'Sí hay vacaciones útiles virtuales en inglés: Modern Age Coders enseña programación a escolares peruanos de 6 a 17 años en clases en vivo, en línea y en inglés. Virtual quiere decir una videollamada en tiempo real con un mentor desde la India, no un curso grabado, y en inglés quiere decir toda la hora, sin traducción. Su hijo programa y conversa a la vez, en grupo o en clases individuales, el día y la hora que usted escoja, desde cualquier semana del verano 2027.',
+  capsule: 'Sí hay vacaciones útiles virtuales en inglés: Modern Age Coders enseña programación a escolares peruanos de 6 a 17 años en clases en vivo, en línea y en inglés; durante el verano 2027 el ritmo es de 4 a 5 clases a la semana. Virtual quiere decir una videollamada en tiempo real con un mentor desde la India, no un curso grabado; en inglés quiere decir toda la clase, sin traducción. Puede seguir la ruta Python e IA o el curso que prefiera, solo o en grupo, a la hora que usted escoja.',
 
   picks: {
-    eyebrow: 'Cursos recomendados',
-    h2: 'Tres cursos que funcionan muy bien en inglés durante el verano',
-    lede: 'Elegidos porque obligan a hablar: un juego que hay que explicar, una página web que hay que describir y un lenguaje profesional que se aprende con su vocabulario original.',
+    eyebrow: 'Para el verano en inglés',
+    h2: 'Tres cursos que hacen hablar inglés a ritmo de verano',
+    lede: 'Uno de la ruta Python e IA y dos de la ruta a elección. Los elegimos porque obligan a conversar: un modelo que hay que defender, un juego que hay que explicar y un lenguaje profesional que se aprende con su vocabulario original.',
     items: [
-      { course: 'game-development-masterclass-for-kids', code: 'VUV / 01', title: 'Videojuegos para niños', alt: 'Imagen del curso de desarrollo de videojuegos para niños', note: 'De 8 a 12 años. Scratch, Roblox y Minecraft en un mismo recorrido; en cada clase el niño cuenta en inglés qué hace su personaje y por qué.' },
-      { course: 'html-css-course-for-beginners-build-real-websites', code: 'VUV / 02', title: 'HTML y CSS: una web real', alt: 'Imagen del curso de HTML y CSS para principiantes', note: 'Desde los 10 años. Una web propia en el verano, con textos escritos por su hijo en inglés: sobre su colegio, su deporte o su ciudad.' },
-      { course: 'java-programming-masterclass-for-teens', code: 'VUV / 03', title: 'Java para adolescentes', alt: 'Imagen del curso de Java para adolescentes', note: 'Para secundaria. El lenguaje que piden muchas carreras de ingeniería, aprendido con su terminología en inglés desde la primera clase.' }
+      { course: 'game-development-masterclass-for-kids', code: 'VUV / 01', title: 'Ruta 2: videojuegos para niños', alt: 'Imagen del curso de desarrollo de videojuegos para niños', note: 'De 8 a 12 años. Scratch, Roblox y Minecraft en un mismo recorrido; en cada clase el niño cuenta en inglés qué hace su personaje y por qué.' },
+      { course: 'python-ai-kids-masterclass', code: 'VUV / 02', title: 'Ruta 1: Python con proyectos de IA', alt: 'Imagen del curso de Python con proyectos de IA', note: 'De 9 a 12 años. Cada programa que adivina o clasifica se equivoca alguna vez, y explicar por qué, en inglés, es la mitad de la clase. El verano cubre entre la mitad y tres cuartas partes del curso.' },
+      { course: 'java-programming-masterclass-for-teens', code: 'VUV / 03', title: 'Ruta 2: Java para adolescentes', alt: 'Imagen del curso de Java para adolescentes', note: 'Para secundaria. El lenguaje que piden muchas carreras de ingeniería, aprendido con su terminología en inglés desde la primera clase.' }
     ]
   },
 
   sections: [
+    {
+      id: 'verano-en-ingles',
+      eyebrow: 'Verano 2027 en inglés',
+      h2: '¿Qué incluyen nuestras vacaciones útiles virtuales en inglés?',
+      lede: 'Un verano entero hablando inglés mientras se programa. Su hijo elige entre la ruta Python e inteligencia artificial o el curso que más le guste del catálogo, y en cualquiera de las dos tiene de 4 a 5 clases en vivo por semana con un mentor que solo le habla en inglés.',
+      body: [
+        { kind: 'two',
+          leftH3: 'Ruta 1: Python e IA, en inglés',
+          left: [
+            'Python primero y, sobre él, proyectos de inteligencia artificial adecuados a su edad: programas que adivinan, clasifican o aprenden de ejemplos. Es la ruta que más conversación genera, porque cada modelo se equivoca en algo y hay que explicar por qué, en inglés.',
+            'Entre los 9 y los 12 años se trabaja con el curso de Python e IA para niños. Los adolescentes empiezan con Python desde cero y pasan a datos o a aprendizaje automático cuando el lenguaje ya les resulta cómodo.'
+          ],
+          rightH3: 'Ruta 2: el curso que elija, también en inglés',
+          right: [
+            'Videojuegos, una página web con HTML y CSS, apps, Java, C++, estructuras de datos y algoritmos, Roblox, Scratch, vibe coding o matemática: cualquiera se lleva a ritmo de verano.',
+            'Para las familias de colegios bilingües, la ruta 2 también puede ser matemática IGCSE o IB en inglés. El idioma de la clase es el mismo en todos los cursos: inglés de principio a fin.'
+          ] },
+        { kind: 'table', mt: true, numCols: [1, 2], caption: 'Clases en inglés que suma un verano según cuántas semanas use (cálculo nuestro)', head: ['Semanas de verano que aproveche', 'A 4 clases por semana', 'A 5 clases por semana', 'Equivale a este tiempo de nuestro ritmo normal'], rows: [
+          ['6 semanas, si empieza a mediados de enero de 2027', '24', '30', 'De 3 a casi 4 meses'],
+          ['8 semanas, enero y febrero de 2027', '32', '40', 'De 4 a 5 meses'],
+          ['10 semanas, si empieza a fines de diciembre de 2026', '40', '50', 'De 5 a algo más de 6 meses']
+        ] },
+        { kind: 'source', html: 'Cuentas hechas por Modern Age Coders. La última columna toma las clases de verano y las divide entre ocho, el número de clases mensuales que su hijo tendría con nuestro ritmo de marzo a diciembre (dos por semana). Cada una de esas clases es una conversación en vivo y en inglés con el mismo mentor.' },
+        { kind: 'table', mt: true, numCols: [], caption: 'Qué ruta conviene según la edad y qué inglés se practica más en cada una (propuesta nuestra)', head: ['Edad', 'Ruta 1: Python e IA', 'Ruta 2: algunos cursos a elección', 'El inglés que más se ejercita'], rows: [
+          ['6 a 8 años', 'Todavía con bloques: juegos y animaciones', 'Scratch, Minecraft, apps con bloques', 'Escuchar instrucciones y nombrar lo que se ve en pantalla'],
+          ['9 a 12 años', 'Python con proyectos de IA', 'Videojuegos, web para niños, C++', 'Anunciar en voz alta qué hará el programa'],
+          ['13 a 17 años', 'Python completo, luego ciencia de datos o IA', 'Java, DSA, HTML y CSS, React, matemática IGCSE o IB', 'Justificar decisiones técnicas y presentar un proyecto']
+        ] },
+        { kind: 'p', mt: true, html: 'Sobre la duración, con números nuestros: HTML y CSS figura en su página con 4 meses, unas 32 clases a ritmo normal, así que cabe dentro de un verano intensivo. El de Python e IA para niños, en cambio, publica entre 8 y 10 meses; un verano intensivo recorre entre la mitad y tres cuartas partes, y la otra parte queda para el año escolar si la familia lo desea. Ningún curso largo se termina a la fuerza; lo que sí crece de forma visible en diez semanas es la soltura para hablar.' }
+      ]
+    },
     {
       id: 'virtual',
       eyebrow: 'Virtual y en inglés',
@@ -158,7 +196,7 @@ module.exports = {
           { h3: 'Inglés toda la hora', p: 'El mentor no cambia al castellano para explicar. Cuando algo no se entiende, lo dice de otra manera, más lento, o lo muestra en pantalla. Así el niño aprende a sostener una conversación sin traducir mentalmente.' },
           { h3: 'Un mentor que se adapta', p: 'Nuestros mentores viven en la India y hablan con claridad, ajustando el ritmo y el acento a cada estudiante. Con los más pequeños usan frases cortas; con adolescentes, el vocabulario técnico completo.' }
         ] },
-        { kind: 'p', mt: true, html: 'No es un taller de verano con fecha de inauguración ni un número fijo de semanas. Son nuestras clases de siempre, que su hijo puede comenzar cualquier semana entre diciembre de 2026 y marzo de 2027 y mantener durante el año escolar si le funcionan. La RM 501-2025-MINEDU sugiere que el último bloque lectivo de 2026 termine el 18 de diciembre de 2026, con margen para que cada DRE o UGEL lo ajuste; la fecha de regreso a clases de 2027 aún no se conocía en noviembre de 2026.' },
+        { kind: 'p', mt: true, html: 'No hay fecha de inauguración: su hijo empieza la semana que usted elija entre diciembre de 2026 y marzo de 2027, a 4 o 5 clases por semana, y si le funciona sigue durante el año escolar a dos por semana. La RM 501-2025-MINEDU sugiere que el último bloque lectivo de 2026 termine el 18 de diciembre de 2026, con margen para que cada DRE o UGEL lo ajuste; la fecha de regreso a clases de 2027 aún no se conocía en noviembre de 2026.' },
         { kind: 'p', html: 'Si busca algo distinto, por ejemplo un enfoque general de programación para primaria explicado paso a paso, la página <a class="ag-inline-link" href="/clases-de-programacion-para-ninos-en-ingles">clases de programación para niños en inglés</a> lo detalla. Esta página se concentra en la otra mitad: el idioma.' }
       ]
     },
@@ -201,7 +239,7 @@ module.exports = {
             'En una clase de idiomas se habla para practicar. En una clase de programación en inglés se habla porque hace falta: para pedir ayuda con un error, para explicar qué hace un bucle o para proponer una idea.',
             'Además, el código ya está escrito en inglés. Palabras como <code>print</code>, <code>while</code>, <code>return</code> o <code>true</code> se vuelven familiares sin esfuerzo, y el niño las asocia con algo que hizo, no con una lista para memorizar.'
           ] },
-        { kind: 'p', mt: true, html: 'Una advertencia honesta: el EF EPI se calcula con adultos que rinden el examen de EF, no con escolares, así que no describe el inglés de su hijo. Lo usamos porque muestra un patrón del país: en el Perú la lectura en inglés va por delante de la escucha y del habla. Un verano de clases habladas va directo a esa brecha.' }
+        { kind: 'p', mt: true, html: 'Una advertencia honesta: el EF EPI se calcula con adultos que rinden el examen de EF, no con escolares, así que no describe el inglés de su hijo. Lo usamos porque muestra un patrón del país: en el Perú la lectura en inglés va por delante de la escucha y del habla. Un verano de clases habladas va directo a esa brecha. Y la escala cambia: frente a las 12 a 30 horas de inglés escolar que se pausan en enero y febrero, un verano con nosotros en esas mismas ocho semanas suma de 32 a 40 clases en vivo, todas en inglés (cálculo nuestro).' }
       ]
     },
     {
@@ -231,19 +269,19 @@ module.exports = {
     },
     {
       id: 'plan',
-      eyebrow: 'Plan de verano',
-      h2: '¿Cómo avanza el inglés en ocho semanas de clases virtuales?',
-      lede: 'Le sugerimos un plan propio en el que el código y el inglés crecen juntos. No es un taller con fechas: su hijo empieza la semana que usted decida y, al terminar, sigue o se detiene.',
+      eyebrow: 'Inglés y código',
+      h2: '¿Cómo avanza el inglés en un verano de clases virtuales casi diarias?',
+      lede: 'Le sugerimos un plan propio en el que el código y el inglés crecen juntos, pensado para 4 o 5 clases por semana. No tiene fechas: su hijo empieza la semana que usted decida y, en marzo, sigue o se detiene.',
       body: [
-        { kind: 'table', numCols: [], caption: 'Ocho semanas en inglés: programación y habla en paralelo (plan nuestro, no oficial)', head: ['Semanas', 'Lo que programa', 'Lo que practica en inglés'], rows: [
-          ['1 y 2', 'Primeros programas: mensajes, colores, movimientos', 'Escuchar y seguir instrucciones: "click", "drag", "run it again"'],
-          ['3 y 4', 'Decisiones con if y else, como la lección de abajo', 'Decir qué hará el programa: "I think it will print..."'],
-          ['5 y 6', 'Repeticiones y listas; corregir errores', 'Pedir ayuda y describir un problema: "It says error on line 4"'],
-          ['7 y 8', 'Un proyecto propio: juego, web o programa útil', 'Explicar el proyecto completo en tres o cuatro frases'],
+        { kind: 'table', numCols: [], caption: 'Un verano en inglés: programación y habla en paralelo, por quincenas (plan nuestro, no oficial)', head: ['Quincena', 'Lo que programa', 'Lo que practica en inglés'], rows: [
+          ['1.ª', 'Primeros programas: mensajes, colores, movimientos', 'Escuchar y seguir instrucciones: "click", "drag", "run it again"'],
+          ['2.ª', 'Decisiones con if y else, como la lección de abajo', 'Decir qué hará el programa: "I think it will print..."'],
+          ['3.ª', 'Repeticiones y listas; corregir errores', 'Pedir ayuda y describir un problema: "It says error on line 4"'],
+          ['4.ª', 'Un proyecto propio: juego, web o programa útil', 'Explicar el proyecto completo en tres o cuatro frases'],
           ['Cierre', 'Mostrar el proyecto a la familia', 'Presentarlo en inglés y responder una pregunta']
         ] },
-        { kind: 'source', html: 'Propuesta de Modern Age Coders para enero y febrero de 2027, con dos clases en vivo por semana. En clases individuales el mentor ajusta el ritmo; en grupo, cada niño presenta su propio avance. Los ejemplos de frases son nuestros.' },
-        { kind: 'p', mt: true, html: 'La meta no es hablar perfecto al final del verano. Es que su hijo pierda el miedo a hablar en inglés con alguien que no le entiende el castellano, y que lo haga sobre algo que le importa: su propio programa.' }
+        { kind: 'source', html: 'Propuesta de Modern Age Coders para enero y febrero de 2027, a 4 o 5 clases en vivo por semana. En clases individuales el mentor ajusta el ritmo; en grupo, cada niño presenta su propio avance. Los ejemplos de frases son nuestros, y en la ruta 2 el código cambia según el curso, pero las frases se practican igual.' },
+        { kind: 'p', mt: true, html: 'Con clases casi diarias, el inglés no tiene tiempo de enfriarse entre una sesión y otra, y eso se nota hacia la segunda quincena. La meta no es hablar perfecto al final del verano. Es que su hijo pierda el miedo a hablar en inglés con alguien que no le entiende el castellano, y que lo haga sobre algo que le importa: su propio programa.' }
       ]
     },
     {
@@ -285,14 +323,14 @@ module.exports = {
     lede: 'Cinco escalones propios que observamos en clase, sin exámenes de idioma: solo lo que su hijo es capaz de hacer en inglés mientras programa.',
     table: { caption: 'Cinco escalones de inglés en una clase de programación (nuestros)', head: ['Escalón', 'Cuándo suele llegar', 'Su hijo ya puede'], rows: [
       ['1. Seguir', 'Primeras clases', 'hacer lo que el mentor pide sin que nadie le traduzca'],
-      ['2. Nombrar', 'Semanas 2 y 3', 'decir en inglés el nombre de lo que usa: loop, variable, sprite, error'],
-      ['3. Predecir', 'Semanas 3 y 4', 'anunciar qué hará el programa con una frase completa'],
-      ['4. Preguntar', 'Semanas 5 y 6', 'describir un error y pedir ayuda sin pasar al castellano'],
-      ['5. Presentar', 'Semana 8', 'explicar su proyecto de principio a fin y responder una pregunta']
+      ['2. Nombrar', 'Segunda semana', 'decir en inglés el nombre de lo que usa: loop, variable, sprite, error'],
+      ['3. Predecir', 'Semana 3', 'anunciar qué hará el programa con una frase completa'],
+      ['4. Preguntar', 'Semanas 4 y 5', 'describir un error y pedir ayuda sin pasar al castellano'],
+      ['5. Presentar', 'Cierre del verano', 'explicar su proyecto de principio a fin y responder una pregunta']
     ] },
     left: { h3: 'Para madres y padres', ps: [
       'No le pida a su hijo que traduzca lo que aprendió. Pídale que se lo muestre y se lo explique en inglés, aunque usted no entienda todo. Lo que importa es que se anime.',
-      'Si las primeras dos semanas su hijo habla poco, es normal. El oído se acostumbra primero; la voz llega después.'
+      'Si la primera semana su hijo habla poco, es normal. El oído se acostumbra primero; la voz llega después.'
     ] },
     right: { h3: 'Para los estudiantes', ps: [
       'Cuando no sepa una palabra en inglés, descríbala con otras. El mentor lo entenderá.',
@@ -303,7 +341,7 @@ module.exports = {
   catalogue: {
     eyebrow: 'Más cursos en inglés',
     h2: 'Nueve cursos más para un verano en inglés',
-    lede: 'Todos con mentor en vivo y en inglés, en grupo o individual. Incluimos matemática en inglés para las familias de colegios bilingües.',
+    lede: 'Todos se pueden elegir en la ruta 2 y llevar a 4 o 5 clases por semana, con mentor en vivo y en inglés, en grupo o individual. Incluimos matemática en inglés para las familias de colegios bilingües.',
     bands: [
       { num: 'I', h3: 'Primaria', sub: 'De 6 a 12 años', courses: [
         { code: 'VUV / PRIM / 01', slug: 'minecraft-coding-for-kids-course', title: 'Minecraft con código', blurb: 'De 7 a 12 años: comandos y bloques dentro de un mundo que su hijo ya conoce.' },
@@ -318,7 +356,7 @@ module.exports = {
       { num: 'III', h3: 'Desarrollo web y trabajo en equipo', sub: 'De 13 a 18 años', courses: [
         { code: 'VUV / WEB / 01', slug: 'react-for-teens-complete-masterclass', title: 'React para adolescentes', blurb: 'De JavaScript a aplicaciones web reales con React.' },
         { code: 'VUV / WEB / 02', slug: 'git-github-version-control-course-for-teens', title: 'Git y GitHub', blurb: 'Control de versiones y colaboración, como en un equipo de software de verdad.' },
-        { code: 'VUV / WEB / 03', slug: 'comprehensive-middle-school-mathematics-mastery', title: 'Matemática de secundaria en inglés', blurb: 'Preálgebra y geometría para los primeros años de secundaria, en inglés.' }
+        { code: 'VUV / WEB / 03', slug: 'html-css-course-for-beginners-build-real-websites', title: 'HTML y CSS: una web real', blurb: 'Una web propia con textos escritos por su hijo en inglés; a ritmo de verano cabe entera.' }
       ] }
     ]
   },
@@ -337,7 +375,7 @@ module.exports = {
       { h3: 'Cámara y pantalla', p: 'El mentor ve el código del niño en tiempo real y lo guía.' },
       { h3: 'El niño escribe', p: 'Cada línea la teclea su hijo; nadie programa por él.' },
       { h3: 'Mentor fijo', p: 'La misma voz y el mismo acento semana tras semana.' },
-      { h3: 'Nota a la familia', p: 'Un resumen breve de lo trabajado, también en inglés sencillo.' },
+      { h3: 'Casi a diario', p: 'De 4 a 5 sesiones por semana en verano, para que el oído no se enfríe.' },
       { h3: 'Grupo o uno a uno', p: 'Quince a veinte de edades cercanas, o solo su hijo.' }
     ]
   },
@@ -348,9 +386,9 @@ module.exports = {
 
   fees: {
     h2: 'Precios para familias en Perú',
-    lede: 'El precio mensual se muestra en dólares estadounidenses y se cobra con tarjeta. Su banco convierte el cargo a su moneda según el tipo de cambio de la fecha de pago. El verano no tiene matrícula ni tarifa especial.',
+    lede: 'Lo que indican las tarjetas es el precio de un mes normal con nosotros, ocho clases, expresado en dólares estadounidenses y pagado con tarjeta; la conversión a su moneda la hace su banco el día del pago. Un verano de cuatro o cinco sesiones semanales tiene otro precio, que usted conversa y deja fijado con el mentor antes de empezar. La primera clase va por nuestra cuenta.',
     free: ['Primera clase sin costo, en inglés', 'Un vistazo al nivel de inglés y de programación', 'Sin tarjeta'],
-    group: ['De quince a veinte estudiantes de edad cercana', 'Dos sesiones en vivo cada semana', 'Un mentor fijo durante el curso', 'Mes a mes, sin permanencia'],
+    group: ['De quince a veinte estudiantes de edad cercana', 'Ocho clases al mes durante el año escolar', 'En verano, de 4 a 5 por semana, con precio fijado antes', 'Mes a mes, sin permanencia'],
     one: ['Solo su hijo con el mentor', 'Ritmo de inglés a su medida', 'Horario que usted decide']
   },
 
@@ -362,12 +400,12 @@ module.exports = {
       { q: '¿Qué significa "virtual" en sus vacaciones útiles?', a: 'Una videollamada en tiempo real con un mentor, nunca un curso grabado. El mentor ve la pantalla de su hijo, le responde al momento y corrige con él lo que no funciona.' },
       { q: '¿Qué nivel de inglés necesita mi hijo?', a: 'El que ya tiene. Es suficiente con que capte frases sencillas. El mentor adapta el vocabulario a cada edad, y al comienzo el oído necesita unas semanas para hacerse al acento del mentor.' },
       { q: '¿El mentor traduce al castellano si mi hijo no entiende?', a: 'No. Reformula con palabras más simples, muestra en pantalla o da un ejemplo, pero mantiene el inglés. Cuando su hijo contesta en castellano, el mentor toma lo que quiso decir y lo repite en inglés para que lo intente de nuevo.' },
-      { q: '¿Cuándo pueden empezar y cuánto duran?', a: 'Cualquier semana del verano, sin fecha común. Sugerimos un plan propio de ocho semanas, pero el pago es mensual y su hijo puede continuar durante el año escolar 2027 o detenerse cuando la familia lo decida.' },
+      { q: '¿Cuántas clases en inglés tendría mi hijo en el verano?', a: 'De 4 a 5 por semana, siempre en vivo. Según cuántas semanas aproveche, eso suma de 24 a 50 clases en inglés (cálculo nuestro: seis semanas a 4 por semana dan 24; diez semanas a 5 dan 50).' },
+      { q: '¿Cuándo pueden empezar y cuánto dura el verano?', a: 'Cualquier semana del verano, sin fecha común. Usted elige cuántas semanas usar; en marzo su hijo puede continuar durante el año escolar 2027 a dos clases por semana o detenerse. Los cursos cortos caben enteros en el verano; los largos avanzan la mitad o algo más.' },
       { q: '¿En qué horario se dictan?', a: 'Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Entre Lima y la India hay diez horas y media de diferencia, fija en cualquier mes.' },
       { q: '¿Sirven para preparar un examen de inglés como Cambridge?', a: 'No son clases de idioma ni preparan para un examen de inglés. Son clases de programación dictadas en inglés, que dan mucha práctica real de escuchar y hablar. Para la certificación, lo indicado es un curso de idioma.' },
-      { q: '¿Qué equipo necesita en casa?', a: 'Una computadora o laptop con cámara, micrófono y una conexión estable, y unos audífonos. Con el celular se puede seguir la conversación, pero no programar con comodidad.' },
       { q: '¿Hay clases de matemática en inglés también?', a: 'Sí. Para familias de colegios bilingües ofrecemos matemática de primaria y secundaria, IGCSE e IB, todas en vivo y en inglés, con la misma flexibilidad de horario.' },
-      { q: '¿Cómo se paga?', a: 'Mes a mes, con tarjeta, en dólares estadounidenses; el banco hace la conversión. Para la clase inicial no cobramos ni pedimos tarjeta.' },
+      { q: '¿Cuánto cuesta y cómo se paga?', a: 'Se paga por tarjeta, en dólares estadounidenses, y el banco convierte el cargo. Los precios que ve en esta página corresponden a un mes normal de ocho clases; el del verano, con cuatro o cinco clases semanales, lo deja fijado con el mentor antes de empezar. La clase inicial no se cobra.' },
       { q: '¿Las clases tienen validez en el colegio?', a: 'Ninguna validez escolar: somos una academia independiente, sin vínculo con el MINEDU ni con colegios, y lo que su hijo recibe al completar un curso es una constancia emitida por Modern Age Coders, nada más.' }
     ]
   },
@@ -387,8 +425,8 @@ module.exports = {
   },
 
   start: {
-    h2: 'Pruebe una clase en inglés, gratis',
-    lede: 'La primera clase ya es en inglés, así su hijo y usted pueden ver cómo se siente. El mentor le habla con calma, le propone un pequeño reto de programación y, al final, le sugerimos por dónde empezar y en qué formato.',
+    h2: 'Pruebe una clase en inglés, gratis, y elija su ruta',
+    lede: 'La primera clase ya es en inglés, así su hijo y usted pueden ver cómo se siente. El mentor le habla con calma y le propone un pequeño reto de programación; al final le sugerimos una ruta, Python e IA o un curso a elección, y acordamos con usted el formato, las 4 o 5 clases semanales del verano y su precio.',
     readFirst: 'Para leer antes: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> describe nuestras clases y <a class="ag-inline-link" href="/courses">All courses</a> reúne el catálogo; ambas están escritas en inglés, una buena primera práctica de lectura.',
     note: 'Recuerde que enseñamos solo en inglés, siempre en vivo y por internet, desde la India. Para consultas rápidas use WhatsApp, donde le atendemos en castellano sin problema.',
     formNote: 'Gratis, sin tarjeta y sin compromiso.'
@@ -398,7 +436,7 @@ module.exports = {
     cols: [
       { h4: 'Cursos en inglés', links: [
         { href: '/courses/game-development-masterclass-for-kids', label: 'Videojuegos para niños' },
-        { href: '/courses/html-css-course-for-beginners-build-real-websites', label: 'HTML y CSS' },
+        { href: '/courses/python-ai-kids-masterclass', label: 'Python e IA para niños' },
         { href: '/courses/java-programming-masterclass-for-teens', label: 'Java para adolescentes' },
         { href: '/courses', label: 'Todos los cursos' }
       ] },
@@ -421,16 +459,17 @@ module.exports = {
 `,
 
   dossier: {
-    curriculumAuthority: 'MINEDU: CNEB primaria and secundaria (JER and JEC) weekly hours for Inglés and the 45-minute teaching hour; press note of 17 April 2026 on COAR (Cambridge English certificates and IB Diplomas, 2025); RM 501-2025-MINEDU Tabla 1. INEI Boletín TIC II trimestre 2026 (informe técnico N.° 03, setiembre 2026). EF EPI 2025 Peru page. tzdata for time. The summer-hours column, the eight-week plan, the English ladder and the Python lessons are our own.',
+    curriculumAuthority: 'MINEDU: CNEB primaria and secundaria (JER and JEC) weekly hours for Inglés and the 45-minute teaching hour; course durations from our course pages; press note of 17 April 2026 on COAR (Cambridge English certificates and IB Diplomas, 2025); RM 501-2025-MINEDU Tabla 1. INEI Boletín TIC II trimestre 2026 (informe técnico N.° 03, setiembre 2026). EF EPI 2025 Peru page. tzdata for time. The summer-hours column, the summer class counts, the two routes, the fortnight plan, the English ladder and the Python lessons are our own.',
     localProject: 'An English grammar rule as a Python lesson for children of 10 to 12: version 1 picks "a" or "an" from the first letter (animal[0] in \'aeiou\') and gets all eight Peruvian and other animals right (an alpaca, a condor, a vicuna); the same rule on hour, umbrella, university, honest, uniform and orange prints four mistakes (a hour, an university, a honest, an uniform); version 2 checks a dictionary of exceptions first and prints all six correctly. Lesson family: string indexing, in, if/else, then if/elif/else order with a dictionary of exceptions.',
-    requiredMentions: ['an alpaca', 'an university', 'a uniform', 'the exception must be checked first', '30 horas', 'Hogares con al menos una computadora', 'el 90,2 % de quienes usan internet se conectan por el celular', '515 estudiantes de quinto de secundaria', 'la expresión oral 480', 'An hour, a university: probar antes de confiar'],
+    requiredMentions: ['an alpaca', 'an university', 'a uniform', 'the exception must be checked first', '30 horas', 'Clases en inglés que suma un verano según cuántas semanas use', 'Hogares con al menos una computadora', 'el 90,2 % de quienes usan internet se conectan por el celular', '515 estudiantes de quinto de secundaria', 'la expresión oral 480', 'An hour, a university: probar antes de confiar'],
     sources: [
       { claim: 'Weekly Inglés hours: primaria 2/2/3/3/3/3; secundaria JER 3, JEC 5; teaching hour of 45 minutes.', url: 'https://www.minedu.gob.pe/curriculo/pdf/curriculo-nacional-de-la-educacion-basica.pdf' },
       { claim: 'Households with internet and with a computer, internet users by area, devices, daily use, children 6 to 11 (II trimestre 2026).', url: 'https://www.inei.gob.pe/media/MenuRecursivo/boletines/boletin-tic-iit2026.pdf' },
       { claim: 'EF EPI 2025: Peru 519, rank 52, listening 499, speaking 480, Lima 555; High band from 550.', url: 'https://www.ef.com/wwen/epi/regions/latin-america/peru/' },
       { claim: '515 COAR 5° secundaria students with Cambridge English certificates; 2,502 IB Diplomas in Peru in 2025, 47% COAR (note of 17 April 2026).', url: 'https://www.gob.pe/institucion/minedu/noticias/1380061-mas-de-1100-estudiantes-de-los-coar-obtienen-diploma-del-bachillerato-internacional-y-alcanzan-estandares-de-nivel-mundial' },
       { claim: 'Last 2026 teaching block ends 18 December 2026; DRE/UGEL may vary.', url: 'https://cdn.www.gob.pe/uploads/document/file/8968298/7380466-rm-n-501-2025-minedu.pdf' },
-      { claim: 'Peru UTC-5 with no DST; India UTC+5:30.', url: 'https://raw.githubusercontent.com/eggert/tz/main/southamerica' }
+      { claim: 'Peru UTC-5 with no DST; India UTC+5:30.', url: 'https://raw.githubusercontent.com/eggert/tz/main/southamerica' },
+      { claim: 'Course durations: HTML and CSS 4 months (16 weeks); Python and AI for Kids 8-10 months (32-40 weeks).', url: 'https://learn.modernagecoders.com/courses/html-css-course-for-beginners-build-real-websites' }
     ],
     rejectedClaims: [
       'Spanish-language teaching or translation in class: refused; the page says the whole hour is in English and the mentor never switches.',
@@ -438,7 +477,8 @@ module.exports = {
       'A "summer slide" percentage for English: refused; no Peruvian primary source; only the CNEB hours and our labelled calculation are used.',
       'EF EPI as a measure of children: refused; the page says the index is built from adult test takers.',
       'Any link to COAR, Cambridge or the IB: none; schools are context only, and the page says we are not connected.',
-      'A summer camp with dates, length or a one-payment price: refused; the plan is labelled ours and fees are monthly from the template.'
+      'A typed summer price or a camp with fixed dates: refused; the owner\'s offer (2026-11-10) is 4 to 5 classes a week with the price agreed with the mentor, and the template shows only the standard eight-class monthly fee.',
+      'Hours of English per summer: refused; class length is not a brand fact, so the page counts classes, not hours.'
     ]
   }
 };

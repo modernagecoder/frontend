@@ -1,10 +1,10 @@
 ---
 title: "Talleres de verano de programación para niños, online"
-description: "Talleres de verano 2027 de programación online para niños y adolescentes en Perú: cinco talleres por edad, en vivo y en inglés, grupales o individuales."
+description: "Talleres de verano 2027 de programación online en Perú: cinco talleres por grado, Python e IA o un curso a elección, de 4 a 5 clases por semana y en inglés."
 canonical: https://learn.modernagecoders.com/talleres-de-verano-programacion-ninos-online
 source: src/pages/talleres-de-verano-programacion-ninos-online.html
 ---
-> Los talleres de verano de programación de Modern Age Coders reúnen a escolares peruanos de 6 a 16 años en clases en vivo, en línea y en inglés, agrupadas en cinco talleres según el grado escolar: desde bloques en 1° de primaria hasta lógica y proyectos en Python en secundaria. Cada taller termina en un proyecto propio. No hay fecha de inicio común: su hijo empieza cuando usted decida, en grupo o en clases individuales, a cualquier hora.
+> Los talleres de verano 2027 de Modern Age Coders reúnen a escolares peruanos de 6 a 16 años en clases de programación en vivo, en línea y en inglés, agrupadas en cinco talleres según el grado y con un ritmo de 4 a 5 clases a la semana: desde bloques en 1° de primaria hasta algoritmos en secundaria. Cada taller termina en un proyecto y sigue una de dos rutas, Python e IA o el curso que su hijo elija. Se empieza cuando usted decida, en grupo o individual, a cualquier hora.
 
 [Inicio](/) / [Cursos](/courses) / [Perú](/coding-and-ai-classes-in-peru) / Talleres de verano de programación
 
@@ -12,17 +12,47 @@ Perú · Talleres de verano 2027 · De 6 a 16 años
 
 # Talleres de verano de programación online para niños y adolescentes
 
-Cuando se acerca enero, muchas madres y padres en Perú arman el verano de sus hijos con talleres: uno de natación, uno de arte, uno de algo nuevo. Si ese algo nuevo es programar, aquí encontrará cinco talleres en línea organizados por grado, qué construye su hijo en cada uno y cómo se conectan con lo que el colegio ya enseña y no enseña.
+Cuando se acerca enero, muchas madres y padres en Perú arman el verano de sus hijos con talleres: uno de natación, uno de arte, uno de algo nuevo. Si ese algo nuevo es programar, aquí encontrará cinco talleres en línea organizados por grado, a 4 o 5 clases por semana, qué construye su hijo en cada uno y cómo sigue después por la ruta Python e IA o por el curso que elija.
 
-En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Talleres: Cinco, de 1° de primaria a 5° de secundaria; Edades: De 6 a 16 años, según la edad normativa del grado; Producto: Un proyecto terminado al cierre de cada taller; Formato: Clase grupal de quince a veinte, o individual; Idioma: Inglés, en vivo, con mentores desde la India; Primera clase: Gratis y sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
+En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Talleres: Cinco, de 1° de primaria a 5° de secundaria; Rutas: Python e IA, o el curso que elija; Ritmo de verano: De 4 a 5 clases en vivo por semana; Formato: Clase grupal de quince a veinte, o individual; Primera clase: Gratis y sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
 
-## Tres cursos en los que se apoyan los talleres de verano
+## Tres cursos en los que se apoyan los talleres de verano 2027
 
-Los talleres no son cursos aparte: son la forma en que organizamos nuestros cursos regulares para el verano. Estos tres cubren el primer, el tercer y el último taller.
+Los talleres no son cursos aparte: son la forma en que organizamos nuestros cursos para el verano. Estos tres sostienen el primer taller, el tercero (ruta Python e IA) y el último por la ruta a elección.
 
-- [Bloques para empezar](/courses/kids-coding-blocks-masterclass): Base del taller de 1° y 2° de primaria. Arrastrar, encajar y probar: los niños de 6 y 7 años crean animaciones y juegos cortos sin escribir texto.
-- [Roblox Studio por dentro](/courses/roblox-game-coding-for-kids-lua-course): Una opción del taller de 3° a 6° de primaria. El mundo favorito de muchos niños peruanos, esta vez construido por ellos mismos en Roblox Studio.
-- [Programación competitiva](/courses/competitive-programming-for-teens-course): Para el taller de 3° a 5° de secundaria. Algoritmos como la búsqueda binaria de esta página, practicados con problemas originales y tiempo limitado.
+- [Bloques para empezar](/courses/kids-coding-blocks-masterclass): Base del taller de 1° y 2° de primaria. Arrastrar, encajar y probar: los niños de 6 y 7 años crean animaciones y juegos cortos sin escribir texto, a 4 o 5 sesiones por semana.
+- [Ruta 1: Python con proyectos de IA](/courses/python-ai-kids-masterclass): El curso del taller 3, para 5° y 6° de primaria. Del primer programa al juego de adivinanzas del reto de abajo, y luego programas que aprenden de ejemplos; el verano cubre entre la mitad y tres cuartas partes.
+- [Ruta 2: algoritmos y DSA en secundaria](/courses/problem-solving-dsa-masterclass-teens): Para el taller 5, de 3° a 5° de secundaria. Búsquedas, ordenamientos y eficiencia, como la búsqueda binaria de esta página. Es un curso de 10 a 12 meses: el verano adelanta más o menos la mitad.
+
+## ¿Cómo son los talleres de verano 2027 y qué rutas siguen?
+
+En el verano 2027 cada taller se dicta con cuatro o cinco sesiones semanales y se apoya en una de nuestras rutas de verano: la de Python con inteligencia artificial o la de libre elección. Un taller ocupa solo una parte del descanso, así que en un mismo verano entran un taller y el curso que lo prolonga.
+
+### Ruta 1: Python e IA
+
+Es el camino de los talleres 3, 4 y 5 para quien quiere aprender a escribir código de verdad. El taller 3 se apoya en el curso de Python con IA para primaria; los talleres 4 y 5, en el Python para adolescentes, al que siguen proyectos de datos e inteligencia artificial.
+
+El cierre de cada taller en esta ruta es un programa en Python que su hijo explica línea por línea: un juego de adivinanzas, una calculadora propia o un programa que aprende de ejemplos.
+
+### Ruta 2: el curso que su hijo elija
+
+Los talleres 1 y 2 van por aquí, con bloques, Scratch o Roblox Studio, porque a los 6, 7, 8 y 9 años se aprende con más facilidad arrastrando y probando. Desde el taller 3 la ruta 2 sigue abierta para quien prefiere otra cosa.
+
+Las opciones son amplias: desarrollo web, apps para el celular, estructuras de datos y algoritmos (DSA), Java, C++, videojuegos, vibe coding o matemática, siempre al ritmo de verano.
+
+**Cuántas clases ocupa cada taller a ritmo de verano (estimaciones y cálculo nuestros)**
+
+| Taller | Ruta | Sesiones hasta el proyecto de cierre | Semanas a 4 por semana | Semanas a 5 por semana | Clases que quedan en un verano de 40 a 50 |
+|---|---|---|---|---|---|
+| 1. Bloques y movimiento | Ruta 2, con bloques | 16 | 4 | 3 a 4 | 24 a 34, para un segundo taller |
+| 2. Juegos con reglas | Ruta 2, Scratch o Roblox | 20 | 5 | 4 | 20 a 30 |
+| 3. Primer código escrito | Ruta 1, Python con proyectos de IA | 20 | 5 | 4 | 20 a 30, para seguir con la parte de IA |
+| 4. Programas útiles y web | Ruta 1, o ruta 2 con HTML y CSS | 24 | 6 | 5 | 16 a 26 |
+| 5. Algoritmos y proyectos | Ruta 1, o ruta 2 con DSA | 32 | 8 | 6 a 7 | 8 a 18 |
+
+Las sesiones por taller son nuestra estimación de lo que toma llegar al proyecto de cierre con comprensión; las semanas y las clases restantes son cálculo nuestro con un verano de diez semanas a 4 o 5 clases. Fuera del verano damos dos clases por semana, ocho al mes. Cada niño avanza a su ritmo: hay quien necesita más sesiones y quien necesita menos.
+
+Un ejemplo con cuentas nuestras: un estudiante de 3° de secundaria que hace el taller 5 por la ruta 2 necesita unas 32 sesiones. El curso de DSA para adolescentes publica una duración de 10 a 12 meses, entre 88 y 104 clases a dos por semana, así que el taller y lo que queda del verano cubren más o menos la mitad del curso, y lo demás sigue desde marzo. El taller 3 se apoya en Python con IA para primaria, de 8 a 10 meses (64 a 80 clases): el verano abarca entre la mitad y tres cuartas partes. Distinto es el caso de Scratch, la herramienta del taller 2: su curso dura de 3 a 4 meses, de 24 a 32 clases, y se completa dentro del verano.
 
 ## ¿Qué es un taller de verano de programación online?
 
@@ -40,25 +70,25 @@ Usamos los grados del colegio peruano para ubicar a cada niño en uno de cinco t
 
 Cada taller termina con algo que se puede mostrar: un juego, una animación, una página web o un programa que resuelve un acertijo. Es la prueba de lo aprendido.
 
-Hay una diferencia importante con los talleres de verano de una municipalidad o de un colegio: los nuestros no tienen fecha de inauguración ni un número de sesiones cerrado. Son nuestras clases regulares, organizadas por talleres para quien empieza en el verano. Su hijo puede arrancar en diciembre de 2026, en enero de 2027 o en febrero de 2027, y seguir con el mismo mentor cuando vuelva el colegio, o terminar con su proyecto y despedirse. Se paga mes a mes.
+Hay una diferencia importante con los talleres de verano de una municipalidad o de un colegio: los nuestros no tienen fecha de inauguración. Su hijo puede arrancar en diciembre de 2026, en enero de 2027 o en febrero de 2027, a 4 o 5 sesiones por semana, y al terminar el taller pasar al siguiente, seguir el curso de su ruta con el mismo mentor cuando vuelva el colegio, o despedirse con su proyecto. Se paga mes a mes.
 
 Todos los talleres se dictan en vivo y en inglés. Los mentores enseñan desde la India, pronuncian con claridad y van a la velocidad de cada niño. No hace falta que su hijo domine el idioma; sí conviene saber que el mentor no cambiará al castellano. Para ver cómo se vive eso con un niño de primaria, la guía [clases de programación para niños en inglés](/clases-de-programacion-para-ninos-en-ingles) lo cuenta en detalle.
 
 ## ¿Qué taller de programación le corresponde a mi hijo según su edad?
 
-El que corresponde a su grado. Usamos la edad normativa del MINEDU, la que el Estado toma como referencia para matricular a un estudiante en cada grado, y le asignamos uno de nuestros cinco talleres.
+El que corresponde a su grado. Usamos la edad normativa del MINEDU, la que el Estado toma como referencia para matricular a un estudiante en cada grado, y le asignamos uno de nuestros cinco talleres y la ruta de verano que suele convenirle.
 
 **Grado escolar, edad normativa y taller de verano sugerido**
 
-| Grado en el colegio | Edad normativa al 31 de marzo | Taller sugerido (nuestro) | Proyecto de cierre (nuestro) |
-|---|---|---|---|
-| 1° y 2° de primaria | 6 y 7 años | Taller 1: Bloques y movimiento | Una animación con personajes que hablan |
-| 3° y 4° de primaria | 8 y 9 años | Taller 2: Juegos con reglas | Un juego con puntaje y tres niveles |
-| 5° y 6° de primaria | 10 y 11 años | Taller 3: Primer código escrito | Un juego de adivinanzas en Python |
-| 1° y 2° de secundaria | 12 y 13 años | Taller 4: Programas útiles y web | Una página web o una calculadora propia |
-| 3°, 4° y 5° de secundaria | 14, 15 y 16 años | Taller 5: Algoritmos y proyectos | Un programa que resuelve un problema real |
+| Grado en el colegio | Edad normativa al 31 de marzo | Taller sugerido (nuestro) | Ruta de verano (nuestra) | Proyecto de cierre (nuestro) |
+|---|---|---|---|---|
+| 1° y 2° de primaria | 6 y 7 años | Taller 1: Bloques y movimiento | Ruta 2: bloques | Una animación con personajes que hablan |
+| 3° y 4° de primaria | 8 y 9 años | Taller 2: Juegos con reglas | Ruta 2: Scratch o Roblox | Un juego con puntaje y tres niveles |
+| 5° y 6° de primaria | 10 y 11 años | Taller 3: Primer código escrito | Ruta 1: Python e IA | Un juego de adivinanzas en Python |
+| 1° y 2° de secundaria | 12 y 13 años | Taller 4: Programas útiles y web | Ruta 1, o web y apps en la ruta 2 | Una página web o una calculadora propia |
+| 3°, 4° y 5° de secundaria | 14, 15 y 16 años | Taller 5: Algoritmos y proyectos | Ruta 1, o DSA, Java o C++ en la ruta 2 | Un programa que resuelve un problema real |
 
-De dónde salen las dos primeras columnas: la tabla de edades normativas que publica el MINEDU en gob.pe, que fija la edad de cada grado al 31 de marzo; la Ley General de Educación (Ley 28044), que da seis grados a la primaria y cinco a la secundaria; y el reglamento de esa ley (D.S. 011-2012-ED), que abre la primaria a los 6 años. Taller y proyecto son propuestas nuestras.
+De dónde salen las dos primeras columnas: la tabla de edades normativas que publica el MINEDU en gob.pe, que fija la edad de cada grado al 31 de marzo; la Ley General de Educación (Ley 28044), que da seis grados a la primaria y cinco a la secundaria; y el reglamento de esa ley (D.S. 011-2012-ED), que abre la primaria a los 6 años. Taller, ruta y proyecto son propuestas nuestras.
 
 ### Si su hijo está entre dos talleres
 
@@ -97,7 +127,7 @@ En secundaria, Educación para el trabajo tiene una sola competencia: "Gestiona 
 
 ### Lo que suma un taller de verano
 
-Lo que el colegio no alcanza a dar en 90 minutos semanales compartidos, el verano lo permite con calma: dos sesiones por semana dedicadas solo a programar, con un mentor pendiente de un grupo de edades parecidas o de su hijo solo.
+Lo que el colegio no alcanza a dar en 90 minutos semanales compartidos, el verano lo permite con calma: de 4 a 5 sesiones por semana dedicadas solo a programar, con un mentor pendiente de un grupo de edades parecidas o de su hijo solo.
 
 Un taller nuestro suma al colegio, no compite con él: no pone notas, no entrega documentos con valor oficial y funciona por completo al margen del MINEDU y de los colegios.
 
@@ -111,7 +141,7 @@ Cada taller tiene su herramienta, su forma de pensar y su proyecto. Estos son lo
 4. **Taller 4, Programas útiles y web (12 y 13 años).** Programas que hacen algo práctico: una calculadora de notas, un conversor de unidades, una página web sobre un tema que le apasione, con HTML y CSS. Cierra publicando su proyecto.
 5. **Taller 5, Algoritmos y proyectos (14 a 16 años).** Cómo pensar un problema antes de programarlo: búsqueda, ordenamiento, eficiencia. Cierra con un proyecto que resuelve un problema real elegido por el estudiante, y con la explicación de por qué su solución funciona.
 
-Cada taller dura lo que su hijo necesite para terminar su proyecto con comprensión. Para la mayoría, unas ocho semanas de dos sesiones semanales bastan, y enero y febrero de 2027 suman justo algo más de ocho semanas. Pero esa cifra es una estimación nuestra, no un compromiso: hay niños que terminan antes y otros que prefieren seguir en marzo con el taller siguiente.
+Cada taller dura lo que su hijo necesite para terminar su proyecto con comprensión. A ritmo de verano, la mayoría llega al cierre en cuatro a ocho semanas según el taller, como muestra la tabla de sesiones de arriba, y enero y febrero de 2027 suman algo más de ocho. Esas cifras son estimaciones nuestras, no un compromiso: con lo que sobra del verano su hijo puede empezar el taller siguiente o avanzar en el curso de su ruta.
 
 ## ¿Cómo es una clase del taller de primer código escrito?
 
@@ -213,7 +243,7 @@ Cuando algo funcione, pruebe el caso más difícil. Si también funciona, recié
 
 ## Nueve cursos más que alimentan los cinco talleres
 
-Se dictan igual que los talleres, en vivo y en inglés, grupales o uno a uno. Con el mentor decide cuál suma más al taller de su hijo.
+Se dictan igual que los talleres, en vivo y en inglés, grupales o uno a uno, y cualquiera se puede elegir en la ruta 2 a 4 o 5 clases por semana. Con el mentor decide cuál suma más al taller de su hijo.
 
 ### Talleres 1 y 2
 
@@ -221,7 +251,7 @@ De 6 a 9 años
 
 - [Pequeños pensadores](/courses/reasoning-and-readiness-course-for-young-thinkers): Acertijos y patrones para 6 a 9 años, antes o junto con los bloques.
 - [Scratch completo](/courses/scratch-programming-complete-course): Animaciones y juegos con bloques, la herramienta principal del taller 2.
-- [Minecraft programado](/courses/minecraft-coding-for-kids-course): De 7 a 12 años: construir y automatizar con comandos y bloques.
+- [Roblox Studio por dentro](/courses/roblox-game-coding-for-kids-lua-course): Una opción del taller 2: el mundo favorito de muchos niños, construido por ellos mismos.
 
 ### Talleres 3 y 4
 
@@ -236,7 +266,7 @@ De 9 a 13 años
 De 13 a 17 años
 
 - [Python de principio a fin](/courses/python-complete-masterclass-teens): De 13 a 18 años: el lenguaje del taller 5, desde cero hasta proyectos.
-- [Videojuegos con Unity](/courses/complete-game-development-masterclass-for-teens): De 13 a 18 años: C# y juegos publicados, para quien prefiere crear jugando.
+- [Programación competitiva](/courses/competitive-programming-for-teens-course): Problemas originales con tiempo limitado, para quien terminó el taller 5 con ganas de más.
 - [Desarrollo web frontend](/courses/frontend-development-masterclass-for-teens): De 13 a 18 años: del CSS cuidado a interfaces con React.
 
 ## ¿Cómo se organizan los talleres en vivo?
@@ -251,15 +281,15 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 - **Manos en el teclado** Poca exposición y mucha práctica guiada en cada sesión.
 - **Un mentor por taller** La misma persona del inicio al proyecto final.
 - **Proyecto al cierre** Cada taller termina con algo que se puede mostrar.
-- **Reporte breve** La familia recibe una nota corta sobre lo trabajado.
+- **Ritmo intensivo** De 4 a 5 sesiones por semana, fijadas con el mentor antes de empezar.
 - **Mes a mes** Sin permanencia: se sigue al taller siguiente solo si su hijo quiere.
 
 ## Cuánto cuesta un taller de verano en Perú
 
-El taller se paga como cualquier mes de clases: la mensualidad figura aquí en dólares estadounidenses, se cobra con tarjeta y su banco la convierte con el tipo de cambio del día del cargo. No hay matrícula ni costo de materiales.
+En las tarjetas figura la mensualidad estándar, calculada para ocho clases por mes y expresada en dólares estadounidenses; el cobro va a su tarjeta y el banco aplica el tipo de cambio del día. Como un taller de verano suma cuatro o cinco sesiones semanales, su costo se pacta con el mentor antes de arrancar el taller. No hay matrícula ni materiales que comprar, y probar la primera clase no tiene costo.
 
-- Primera clase gratis: Gratis. Clase de prueba gratis. El mentor sugiere el taller adecuado. Sin tarjeta y sin compromiso.
-- Clase grupal: USD 100 al mes. Taller grupal de quince a veinte estudiantes. Dos sesiones en vivo por semana. El mismo mentor hasta el proyecto final. Pago mensual, se puede dejar cualquier mes.
+- Primera clase gratis: Gratis. Clase de prueba gratis. El mentor sugiere el taller y la ruta. Sin tarjeta y sin compromiso.
+- Clase grupal: USD 100 al mes. Taller grupal de quince a veinte estudiantes. Ocho clases al mes durante el año escolar. En verano, de 4 a 5 por semana, con costo acordado antes. Pago mensual, se puede dejar cualquier mes.
 - Clases individuales: USD 150 al mes. Taller individual con un mentor. Proyecto y ritmo según su hijo. Días y horas a su elección.
 
 ## Talleres de verano de programación online: preguntas frecuentes
@@ -272,17 +302,17 @@ No. Los cinco talleres se dictan en vivo, en línea y exclusivamente en inglés,
 
 El de su grado: taller 1 para 1° y 2° de primaria, taller 2 para 3° y 4°, taller 3 para 5° y 6°, taller 4 para 1° y 2° de secundaria y taller 5 para 3° a 5° de secundaria. En la clase gratis el mentor confirma o ajusta esa ubicación.
 
-### ¿Desde qué edad hay talleres de verano de programación?
-
-Desde los 6 años, que es la edad con la que el MINEDU ubica a un niño en 1° de primaria. Los niños de inicial, de 3 a 5 años, todavía no participan en nuestros talleres.
-
 ### ¿Cuándo empiezan los talleres de verano 2027?
 
 Cuando usted lo decida. No hay fecha de inauguración: después de la clase gratis, el taller arranca en los días siguientes, sea en diciembre de 2026 o durante enero y febrero de 2027.
 
+### ¿Cuántas clases por semana tienen los talleres de verano?
+
+Cuatro o cinco sesiones en vivo cada semana mientras dura el descanso; durante el año escolar el ritmo baja a dos. Cuántas exactamente, qué días y a qué hora lo decide la familia junto con el mentor.
+
 ### ¿Cuántas sesiones tiene cada taller?
 
-No hay un número cerrado. Estimamos unas ocho semanas de dos sesiones semanales para terminar el proyecto de un taller, pero se paga mes a mes y cada niño avanza a su ritmo.
+No hay un número cerrado. Estimamos de 16 sesiones en el taller 1 a unas 32 en el taller 5, es decir de cuatro a ocho semanas a ritmo de verano; con el resto del descanso su hijo puede seguir con el taller siguiente o con el curso de su ruta.
 
 ### ¿A qué hora son los talleres?
 
@@ -292,9 +322,9 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 
 No. Cada taller empieza desde lo básico de su nivel, y basta con que su hijo entienda instrucciones simples en inglés. El oído se acostumbra al acento del mentor en pocas semanas.
 
-### ¿Qué materiales hay que comprar?
+### ¿Qué rutas siguen los talleres?
 
-Ninguno. Hace falta una computadora o laptop con cámara, micrófono e internet, y unos audífonos. Las herramientas de los talleres son gratuitas y no usamos kits de robótica ni piezas físicas.
+Los talleres 1 y 2 van por la ruta a elección, con bloques, Scratch o Roblox. Desde el taller 3 su hijo puede seguir la ruta Python e IA o elegir otro curso: web, apps, DSA, Java, C++, videojuegos o matemática. No usamos kits de robótica ni piezas físicas.
 
 ### ¿Los talleres sirven para la ONEM o la OPI?
 
@@ -304,9 +334,9 @@ Enseñan a razonar y a programar, que es la base de cualquier olimpiada, pero no
 
 Nota escolar, no, porque somos independientes del MINEDU y de los colegios. Lo que sí damos, al completar un curso, es una constancia de finalización firmada por Modern Age Coders.
 
-### ¿Cómo se paga un taller?
+### ¿Cuánto cuesta un taller y cómo se paga?
 
-Como un mes de clases: en dólares estadounidenses, con tarjeta, y su banco hace la conversión. La clase de prueba no cuesta nada.
+En la página verá la mensualidad estándar, la de ocho clases, en dólares estadounidenses y con cargo a tarjeta; su banco convierte el monto. Un taller de verano lleva cuatro o cinco sesiones semanales, y ese costo se pacta con el mentor antes de comenzar. La clase de prueba es gratuita.
 
 ## Para seguir leyendo
 
