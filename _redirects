@@ -10564,4 +10564,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ib-maths-tutor-peru /src/pages/ib-maths-tutor-peru.html 200
 /ib-maths-tutor-peru.md /src/pages/ib-maths-tutor-peru.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ib-computer-science-tutor-peru /src/pages/ib-computer-science-tutor-peru.html 200
+/ib-computer-science-tutor-peru.md /src/pages/ib-computer-science-tutor-peru.md 200
 /* /src/pages/404.html 404
