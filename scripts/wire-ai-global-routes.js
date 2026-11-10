@@ -1058,6 +1058,7 @@ const SLUGS = [
   'cost-of-maths-tutoring-in-peru',
   'expat-kids-coding-classes-lima',
   'homeschool-coding-and-maths-peru',
+  'online-coding-and-ai-classes-ancash-region-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2195,6 +2196,7 @@ const LLMS_LABELS = {
   'cost-of-maths-tutoring-in-peru': 'Cost of maths tutoring in Peru',
   'expat-kids-coding-classes-lima': 'Coding classes for expat children in Lima',
   'homeschool-coding-and-maths-peru': 'Homeschool coding and maths in Peru',
+  'online-coding-and-ai-classes-ancash-region-peru': 'Online coding and AI classes, Áncash region, Peru',
 };
 
 function wireLlms(slugs) {
