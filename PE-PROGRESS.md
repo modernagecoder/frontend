@@ -168,7 +168,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE022 | ai-agents-course-peru (aag, #005356) | market | 4,626 | 1.2% vs ai-course-for-teens-peru | AI agents course in Peru: what agents are, where they break, how to build safe ones, in English | prompt injection in a tool's input: a fetched page that gives orders, and an agent that refuses | ebc10c25 |
 | PE023 | ai-agents-for-professionals-peru (aap, #105E62) | market | 4,380 | 1.4% vs ai-and-coding-for-professionals-peru | AI agents for professionals in Peru: reliable agents at work, what 2025 rules mean, in English | retries, timeouts and idempotency: an agent that bills a client twice, and the fix | dba9bcee |
 | PE024 | ai-for-teachers-peru (ate, #034A2E) | market | 4,571 | 2% vs ai-course-for-kids-peru | AI for teachers in Peru: understand AI, check it against your own marking, in English | an evaluation set: a marking helper checked against teacher marks, agreement vs kappa | 22c36fc7 |
-| PE025 | ai-course-for-business-peru (abu, #147175) | market | 4,362 | 1.6% vs remote-tech-job-skills-peru | AI course for business in Peru: owners and teams, what to use first, what rules say, in English | embeddings as cosine similarity: word overlap picks the wrong FAQ, a toy embedding the right one | (this commit) |
+| PE025 | ai-course-for-business-peru (abu, #147175) | market | 4,362 | 1.6% vs remote-tech-job-skills-peru | AI course for business in Peru: owners and teams, what to use first, what rules say, in English | embeddings as cosine similarity: word overlap picks the wrong FAQ, a toy embedding the right one | 2b96de8d |
+| PE026 | vibe-coding-classes-peru (vic, #005C40) | market | 4,289 | 2.1% vs ai-course-for-teens-peru | Vibe coding classes in Peru: building with AI by describing, then proving it works, in English | property testing: 1,000 random bills break an AI-style split that looked right | (this commit) |
 
 ## Notes
 
