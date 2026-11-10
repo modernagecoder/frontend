@@ -1,9 +1,13 @@
-// SHIP: district (vacaciones útiles) | Surquillo added robótica to its summer: the code that drives any robot, at home | while loops with two exit conditions: a virtual robot that runs out of battery
+// SHIP: district (vacaciones útiles) | Surquillo, robots on screen: Python e IA or C++, blocks, apps, 4-5 a week | while loops with two exit conditions: a virtual robot that runs out of battery
 'use strict';
 // Vacaciones útiles de programación en Surquillo (ag- Spanish district door, Peru cluster row PE221, P2, hubGroup lima).
 // Spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md; writer brief docs/superpowers/plans/2026-11-09-pe-writer-brief.md
-// (rule "Vacaciones útiles pages": ordinary live classes as a summer start, our own suggested plan, no invented camp
-// length, start date or price). Owner 2026-11-09: "make sure all our classes are live online in english"; 2026-11-08:
+// section "Summer offer (owner 2026-11-10)", reworked 10 November 2026: ruta principal = Summer Python and AI
+// (python-ai-kids-masterclass for 9 to 12; python-complete-masterclass-teens then ai-ml-masterclass-teens from 13);
+// ruta libre = any catalogue course (C++ for kids, blocks, block apps, web, Roblox, Minecraft, Scratch, games, DSA, vibe
+// coding, maths); both live, online and in English, 4 to 5 classes a week, group or one to one, flexible hours, robots on
+// screen only; fee for that pace agreed with the mentor, first class free, no summer price typed. All verified facts,
+// sources and the battery-robot lesson are kept. Owner 2026-11-09: "make sure all our classes are live online in english"; 2026-11-08:
 // timing flexible, any time. Formal "usted"; fees only through the template; no soles, no typed figure.
 // Angle: children of 8 to 14 in Surquillo whose parents type "vacaciones útiles Surquillo" and see robotics everywhere.
 // Spine: what the Municipalidad de Surquillo itself published about three summers (2024, 2025, 2026), including robotics
@@ -37,6 +41,10 @@
 //  EF EPI 2025: Lima 555, high. Time: America/Lima UTC-5 all year; India UTC+5:30 (10 h 30 min ahead).
 // Our own calculations (python3 -I): 6790 / 111082 = 6.1 % and 7333 / 111082 = 6.6 % of the censused population;
 //    1176422 / 119236 is not used (no cross-district ranking language beyond our sort).
+//    Summer (ours): per week 2 / 4 / 5; course sizes from our own course pages (content/courses/data "duration"), classes =
+//    weeks x 2: Scratch 12-16 weeks = 24-32 (24/5 = 4.8 to 32/4 = 8 weeks); vibe coding kids 12 weeks = 24 (5 to 6 weeks);
+//    C++ for kids 24 weeks = 48 (48/5 = 9.6, 48/4 = 12 weeks); Python e IA kids 32-40 weeks = 64-80 (40/80 = 50 %, 50/64 =
+//    78 %); blocks 40-48 weeks = 80-96 (about half). Ten summer weeks x 4 to 5 = 40 to 50 classes.
 // Our own example (robot.py and robot12.py in the src-pages folder), run with python3 -I, exact output:
 //    step 1 position 1 battery 8 / step 2 position 2 battery 6 / step 3 position 3 battery 4 / step 4 position 4 battery 2 /
 //    step 5 position 5 battery 0 / Stopped: battery empty at position 5; with battery = 12 the last lines are
@@ -86,51 +94,84 @@ module.exports = {
   parents: [{ slug: 'coding-and-ai-classes-in-peru', name: 'Peru' }],
   routeLabel: 'Vacaciones útiles de programación en Surquillo',
   title: 'Vacaciones útiles en Surquillo: robótica o programación',
-  description: 'Vacaciones útiles en Surquillo para niños de 8 a 14 años: la programación que mueve a cualquier robot, en clases en vivo, en línea y en inglés, desde casa.',
-  ogDescription: 'Surquillo sumó robótica a sus talleres de verano 2026. Aquí explicamos qué parte de un robot es programación, cómo aprenderla en casa y un reto de Python con un robot en pantalla.',
-  twitterDescription: 'Robótica o programación en las vacaciones útiles de Surquillo: clases en vivo y en inglés, desde casa, a cualquier hora.',
+  description: 'Vacaciones útiles en Surquillo para niños de 8 a 14: Python e IA o el curso que elijan, de 4 a 5 clases por semana, en vivo, en inglés y sin kits.',
+  ogDescription: 'Surquillo sumó robótica a sus talleres de verano 2026. Nuestra propuesta: el código que mueve a cualquier robot, en dos rutas y a cuatro o cinco clases por semana, con un robot en Python.',
+  twitterDescription: 'Surquillo: verano de Python e IA o C++, bloques y apps, de 4 a 5 clases por semana, en vivo, en inglés y sin kits.',
   pageName: 'Vacaciones útiles de programación en Surquillo',
-  webPageDescription: 'Guía para familias de Surquillo con niños de 8 a 14 años que dudan entre robótica y programación para el verano: lo que la Municipalidad de Surquillo publicó sobre sus talleres de 2024, 2025 y 2026, la población del distrito según los Censos Nacionales 2025 del INEI, lo que dice el MINEDU sobre robótica educativa, un plan propio en tres etapas y un ejercicio de Python con un robot virtual.',
-  courseDescription: 'Clases en vivo y en línea de programación para niños de 8 a 14 años en Surquillo, dictadas solo en inglés, que pueden empezar en vacaciones: lógica con bloques, Python y C++, con robots y personajes en pantalla, sin kits, en grupo o individuales y a cualquier hora.',
+  webPageDescription: 'Guía para familias de Surquillo con niños de 8 a 14 años que dudan entre robótica y programación para el verano: lo que la Municipalidad de Surquillo publicó sobre sus talleres de 2024, 2025 y 2026, la población del distrito según los Censos Nacionales 2025 del INEI, lo que dice el MINEDU sobre robótica educativa, las dos rutas de verano (Python e IA o un curso a elección) a cuatro o cinco clases por semana, cuánto avanza cada curso, un plan propio en tres etapas y un ejercicio de Python con un robot virtual.',
+  courseDescription: 'Verano de programación para niños de 8 a 14 años en Surquillo, en vivo, en línea y solo en inglés: Python e IA, o C++, bloques, apps y más, de 4 a 5 clases por semana, con robots en pantalla y sin kits, en grupo o individual y a cualquier hora.',
   crumbs: [{ name: 'Cursos', href: '/courses' }, { name: 'Perú', href: '/coding-and-ai-classes-in-peru' }],
   crumbLabel: 'Vacaciones útiles, Surquillo',
   navLinks: [
     { href: '/coding-and-ai-classes-in-peru', label: 'Perú' },
+    { href: '#verano-robot', label: 'Dos rutas' },
     { href: '#tres-veranos', label: 'Tres veranos' },
     { href: '#robotica', label: 'Robótica' },
     { href: '#etapas', label: 'Plan en tres etapas' },
-    { href: '#robot-virtual', label: 'Robot en Python' },
-    { href: '#vecinos', label: 'Desde casa' }
+    { href: '#robot-virtual', label: 'Robot en Python' }
   ],
   eyebrow: 'Lima &middot; Surquillo &middot; Robótica y programación en verano',
   h1: 'Vacaciones útiles en Surquillo: la programación detrás de la robótica',
-  lede: 'Cuando una familia de Surquillo busca vacaciones útiles, la palabra que más aparece es robótica, y el propio municipio la incluyó en sus talleres de verano 2026. Esta página explica qué parte de la robótica es en realidad programación, por qué conviene aprenderla primero y cómo hacerlo en casa, con un mentor y en inglés, durante enero, febrero y marzo.',
-  secondaryCta: { href: '#robot-virtual', label: 'Probar el robot en Python' },
+  lede: 'Cuando una familia de Surquillo busca vacaciones útiles, la palabra que más aparece es robótica, y el propio municipio la incluyó en sus talleres de verano 2026. Esta página explica qué parte de la robótica es en realidad programación y le propone un verano intensivo para aprenderla en casa: Python e IA o el curso que más le atraiga a su hijo, con cuatro o cinco clases por semana, un mentor y el inglés como idioma de trabajo.',
+  secondaryCta: { href: '#verano-robot', label: 'Ver las dos rutas de verano' },
   wa: 'Hola Modern Age Coders, vivimos en Surquillo y a nuestro hijo le interesa la robótica. ¿Podemos reservar una clase gratis de programación para el verano?',
   heroNote: 'Desde 2020 enseñando en vivo &middot; más de 10,000 alumnos en el mundo &middot; programación sin kits, con un mentor que habla en inglés',
   spec: [
     ['Edades', 'De 8 a 14 años, de 3° de primaria a 2° de secundaria'],
     ['Qué se programa', 'Robots y personajes en pantalla; no usamos ni vendemos kits'],
-    ['Herramientas', 'Bloques, Python y C++, según la edad'],
+    ['Rutas', 'Python e IA, o el curso que su hijo elija (C++, bloques, apps...)'],
     ['Modalidad', 'En grupo de quince a veinte o en clases individuales'],
-    ['Inicio', 'Cualquier semana de las vacaciones o del año escolar'],
+    ['Ritmo de verano', 'De 4 a 5 clases por semana, desde cualquier semana de vacaciones'],
     ['Prueba', 'La primera clase no se cobra ni pide tarjeta']
   ],
   capsuleQ: 'Respuesta breve',
-  capsule: 'Si a su hijo le atrae la robótica, lo que más le servirá este verano es aprender a programar, porque es la parte que decide qué hace cualquier robot. Modern Age Coders da clases en vivo, en línea y en inglés para niños de 8 a 14 años de Surquillo: lógica con bloques, Python y C++, con robots y personajes que se mueven en la pantalla, sin comprar ningún kit. Su hijo puede empezar cualquier semana de vacaciones, con otros chicos o a solas con su mentor, en el horario que más le acomode a la casa. La primera clase es gratis.',
+  capsule: 'Si a su hijo le atrae la robótica, este verano le conviene aprender a programar, porque es la parte que decide qué hace cualquier robot. Para niños de 8 a 14 años de Surquillo, Modern Age Coders propone dos rutas: Python e IA, la principal, o el curso que su hijo elija, como C++, bloques, apps o una web. Las clases son en vivo, en línea y en inglés; el ritmo, de 4 a 5 clases por semana, con robots en pantalla y sin kits, en grupo o a solas con el mentor. El precio de ese ritmo se habla con el mentor y la primera clase no se cobra.',
 
   picks: {
     eyebrow: 'Cursos para este verano',
     h2: '¿Con qué curso empieza un niño al que le gusta la robótica?',
-    lede: 'Tres caminos según la edad y la experiencia: bloques para empezar, lógica pura para pensar como un ingeniero y C++ para los que ya escriben código.',
+    lede: 'El de la ruta principal, Python e IA, y dos de la ruta libre que suelen pedir los chicos que miran robots: C++ para los que ya escriben código y bloques para los que todavía no.',
     items: [
-      { course: 'kids-coding-blocks-masterclass', code: 'VASU / 01', title: 'Bloques para dar órdenes', alt: 'Imagen del curso de programación con bloques para niños', note: 'Para los que nunca programaron. Secuencias, repeticiones y condiciones con bloques de colores: la misma lógica con que se programan los robots educativos.' },
-      { course: 'problem-solving-and-computational-thinking-for-kids', code: 'VASU / 02', title: 'Pensar paso a paso', alt: 'Imagen del curso de pensamiento computacional para niños', note: 'Dividir un problema grande en partes, encontrar patrones y escribir instrucciones sin ambigüedad. Es lo que necesita un robot y lo que necesita un buen estudiante.' },
-      { course: 'cpp-programming-for-kids-course', code: 'VASU / 03', title: 'C++ para chicos de 9 a 12', alt: 'Imagen del curso de C++ para niños', note: 'Código escrito de verdad con juegos y acertijos. C++ es un lenguaje muy usado en máquinas y en competencias de programación.' }
+      { course: 'python-ai-kids-masterclass', code: 'VASU / 01', title: 'Ruta principal: Python e IA', alt: 'Imagen del curso de Python e IA para niños', note: 'De 9 a 12 años. Órdenes en Python para robots y personajes en pantalla, como el de la batería, y después proyectos con un poco de inteligencia artificial. Un verano intensivo deja hecho más o menos la mitad, a veces bastante más.' },
+      { course: 'cpp-programming-for-kids-course', code: 'VASU / 02', title: 'Ruta libre: C++ para chicos de 9 a 12', alt: 'Imagen del curso de C++ para niños', note: 'Código escrito de verdad con juegos y acertijos. C++ es un lenguaje muy usado en máquinas y en competencias, y a cinco clases por semana el curso queda casi cerrado al final del verano.' },
+      { course: 'kids-coding-blocks-masterclass', code: 'VASU / 03', title: 'Ruta libre: bloques para dar órdenes', alt: 'Imagen del curso de programación con bloques para niños', note: 'Para los que nunca programaron. Secuencias, repeticiones y condiciones con bloques de colores: la misma lógica con que se programan los robots educativos.' }
     ]
   },
 
   sections: [
+    {
+      id: 'verano-robot',
+      eyebrow: 'Verano 2027: dos rutas',
+      h2: '¿Qué verano de programación ofrecemos a los niños de Surquillo?',
+      lede: 'Uno con más clases que el año escolar, cuatro o cinco por semana en vez de dos, y con dos rutas para escoger. En ambas, el robot vive en la pantalla y quien lo programa es su hijo.',
+      body: [
+        { kind: 'two',
+          leftH3: 'Ruta principal: Python e IA',
+          left: [
+            'Su hijo escribe en Python las órdenes que mueven un robot simulado, como el que se queda sin batería más abajo, y luego le da algo de inteligencia: que reconozca un patrón en sus lecturas o que escoja un camino a partir de datos.',
+            'Entre los 9 y los 12 años sigue <a class="ag-inline-link" href="/courses/python-ai-kids-masterclass">Python e IA para niños</a>; desde los 13, Python para adolescentes, con el paso siguiente en IA y aprendizaje automático. En clase solo entran herramientas de IA permitidas para la edad de cada niño.'
+          ],
+          rightH3: 'Ruta libre: el curso que él escoja',
+          right: [
+            'C++, el lenguaje de muchas máquinas y competencias; bloques para el que empieza; apps hechas con bloques; una página web; Roblox, Minecraft, Scratch o videojuegos; algoritmos para los mayores; vibe coding o matemáticas.',
+            'Ninguna de las dos rutas trae hardware. Enseñamos el código, y eso es justamente lo que su hijo podrá llevar al robot de cualquier taller.'
+          ] },
+        { kind: 'table', mt: true, numCols: [1, 2], caption: 'Cuánto rinde un verano de cuatro o cinco clases semanales en cursos para 8 a 14 años (cálculo nuestro)', head: ['Curso', 'Semanas en el año escolar', 'Clases, a 2 por semana', 'En el verano intensivo'], rows: [
+          ['Scratch completo', '12 a 16', '24 a 32', 'Se termina en 5 a 8 semanas'],
+          ['Vibe coding para niños', '12', '24', 'Se termina en 5 a 6 semanas'],
+          ['C++ para niños', '24', '48', 'Se termina en 10 a 12 semanas; en diez queda muy cerca'],
+          ['Python e IA para niños', '32 a 40', '64 a 80', 'La mitad o algo más; sigue en marzo'],
+          ['Programación con bloques', '40 a 48', '80 a 96', 'Más o menos la mitad; sigue en marzo']
+        ] },
+        { kind: 'source', html: 'Las semanas salen de nuestras propias páginas de curso; las clases son esas semanas por dos, y el avance compara ese total con lo que da el verano: diez semanas a cuatro o cinco clases, de 40 a 50 en total. Cálculo nuestro, sin fecha de inicio común; un curso largo no se termina en vacaciones y no lo prometemos.' },
+        { kind: 'table', mt: true, numCols: [], caption: 'Qué ruta encaja con cada edad (orientación nuestra)', head: ['Edad', 'Ruta principal', 'Ruta libre, por ejemplo'], rows: [
+          ['8 años', 'Un tramo de bloques antes de escribir Python', 'Scratch, bloques, vibe coding para niños'],
+          ['9 a 12 años', 'Python e IA para niños, con robots simulados', 'C++ para niños, Roblox, apps con bloques'],
+          ['13 y 14 años', 'Python para adolescentes y luego IA', 'Algoritmos, una web con HTML y CSS, Java']
+        ] },
+        { kind: 'p', mt: true, html: 'Ningún precio de verano aparece en esta página. El costo de cuatro o cinco sesiones semanales se lo explica el mentor antes de que su hijo empiece ese ritmo, y usted resuelve; lo publicado más abajo es la mensualidad de siempre, que cubre ocho clases. La primera clase es gratis en las dos rutas.' }
+      ]
+    },
     {
       id: 'tres-veranos',
       eyebrow: 'Lo que publica el municipio',
@@ -203,10 +244,10 @@ module.exports = {
           { h3: 'Etapa 2: repetir y decidir', p: 'El robot repite mientras tenga batería y decide qué hacer al llegar a la meta. Bucles y condiciones, como en el ejercicio de Python de esta página.' },
           { h3: 'Etapa 3: sensores simulados', p: 'El robot recibe lecturas inventadas de distancia o de luz guardadas en una lista y reacciona a cada una. Al final, su hijo diseña su propio recorrido y lo presenta en inglés.' }
         ] },
-        { kind: 'source', html: 'Plan nuestro. Para los más chicos las etapas 1 y 2 se hacen con bloques; a partir de 4° de primaria, más o menos, en Python o C++. Con dos clases por semana en grupo, muchas familias cubren las tres etapas en el verano, aunque nada obliga a hacerlo así; si son clases individuales, el niño marca la velocidad.' },
+        { kind: 'source', html: 'Plan nuestro. Para los más chicos las etapas 1 y 2 se hacen con bloques; a partir de 4° de primaria, más o menos, en Python o C++. A cuatro o cinco clases por semana, las tres etapas caben con holgura en la primera parte del verano y el tiempo restante se dedica al curso de la ruta elegida; en clases individuales, el niño marca la velocidad.' },
         { kind: 'ol', mt: true, items: [
           '<strong>Clase gratis.</strong> El mentor le pide a su hijo que guíe a un personaje hasta una meta dándole órdenes en voz alta. Así ve si conviene empezar con bloques o con código.',
-          '<strong>Formato y horario.</strong> Usted elige grupo o clases individuales y unas horas que dejen libre el taller del municipio.',
+          '<strong>Ruta, formato y ritmo.</strong> Usted elige la ruta, grupo o clases individuales, cuatro o cinco clases por semana y unas horas que dejen libre el taller del municipio.',
           '<strong>Una etapa a la vez.</strong> Cada etapa cierra con un robot que funciona y una explicación del niño de por qué funciona.',
           '<strong>Errores bienvenidos.</strong> Cuando el robot choca o se queda sin batería, el mentor no da la respuesta: pregunta qué condición falló.',
           '<strong>Seguir o pausar.</strong> En marzo, su hijo puede continuar con el colegio en marcha o detenerse. Se paga mes a mes.'
@@ -248,7 +289,7 @@ module.exports = {
           rightH3: 'El idioma de la clase',
           right: [
             'Las clases son en inglés. El mentor usa frases cortas, deja por escrito cada término nuevo y adapta su acento al del niño. En el índice EF EPI 2025, Lima obtiene 555 puntos, dentro de la franja alta.',
-            'Para un niño de Surquillo, eso significa practicar inglés hablado con un propósito concreto dos veces por semana, sin sumar una academia de idiomas al verano.'
+            'Para un niño de Surquillo, eso significa practicar inglés hablado con un propósito concreto cuatro o cinco veces por semana, sin sumar una academia de idiomas al verano.'
           ] },
         { kind: 'p', mt: true, html: 'Para quien lee con más comodidad en inglés, <a class="ag-inline-link" href="/english-medium-coding-classes-lima">English-medium coding classes in Lima</a> explica estas mismas clases para colegios bilingües, y <a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a> resume nuestra oferta para el Perú entero.' }
       ]
@@ -277,7 +318,7 @@ module.exports = {
   catalogue: {
     eyebrow: 'Otros cursos',
     h2: '¿Qué más puede aprender después del verano?',
-    lede: 'Nueve cursos en vivo y en inglés para seguir desde marzo, ordenados por edad.',
+    lede: 'Nueve cursos más para la ruta libre, en vivo y en inglés, ordenados por edad; todos admiten el ritmo de verano y siguen en marzo.',
     bands: [
       { num: 'I', h3: 'Para empezar', sub: 'De 6 a 9 años', courses: [
         { code: 'VASU / INICIO / 01', slug: 'reasoning-and-readiness-course-for-young-thinkers', title: 'Razonar antes de programar', blurb: 'Acertijos y patrones para los más chicos, antes del primer bloque.' },
@@ -285,7 +326,7 @@ module.exports = {
         { code: 'VASU / INICIO / 03', slug: 'minecraft-coding-for-kids-course', title: 'Programar en Minecraft', blurb: 'Automatizar construcciones dentro de un mundo conocido.' }
       ] },
       { num: 'II', h3: 'Código escrito', sub: 'De 9 a 12 años', courses: [
-        { code: 'VASU / CODIGO / 01', slug: 'python-ai-kids-masterclass', title: 'Python con proyectos de IA', blurb: 'Dibujos, juegos y programas que reconocen patrones.' },
+        { code: 'VASU / CODIGO / 01', slug: 'block-coding-app-development-masterclass', title: 'Apps con bloques', blurb: 'Pantallas, botones y datos guardados en una app que funciona en el celular.' },
         { code: 'VASU / CODIGO / 02', slug: 'roblox-game-coding-for-kids-lua-course', title: 'Roblox con Luau', blurb: 'Mecanismos, trampas y puntajes programados dentro de un juego.' },
         { code: 'VASU / CODIGO / 03', slug: 'game-development-masterclass-for-kids', title: 'Desarrollo de videojuegos', blurb: 'Tres plataformas que los niños ya conocen, usadas para crear y no solo para jugar.' }
       ] },
@@ -322,9 +363,9 @@ module.exports = {
 
   fees: {
     h2: '¿Cuánto cuestan las clases en vacaciones?',
-    lede: 'No hay precio de verano: es la misma mensualidad de todo el año, sin matrícula. Aparece en dólares estadounidenses y se cobra a su tarjeta; su banco la convierte a soles según el tipo de cambio que aplique ese día.',
+    lede: 'Aquí se muestra la mensualidad normal del año escolar, la de ocho clases al mes, sin matrícula. El ritmo de verano, cuatro o cinco clases por semana, lleva su propia tarifa: el mentor se la indica antes de empezar y usted decide. Los montos aparecen en dólares estadounidenses y se cobran a su tarjeta; su banco los convierte a soles con el tipo de cambio de ese día.',
     free: ['Clase completa con un mentor', 'Diagnóstico de por dónde empezar', 'No se pide tarjeta'],
-    group: ['Quince a veinte niños de edad cercana', 'Un mentor fijo todo el curso', 'Dos clases en vivo por semana', 'Mensualidad sin permanencia'],
+    group: ['Quince a veinte niños de edad cercana', 'Un mentor fijo todo el curso', 'Mensualidad mostrada: ocho clases', 'Verano: 4 o 5 clases por semana'],
     one: ['Clase solo para su hijo', 'Etapas y ritmo a su medida', 'Día y hora a elección de la familia']
   },
 
@@ -337,10 +378,11 @@ module.exports = {
       { q: '¿Robótica o programación: qué conviene más para un niño de 9 años?', a: 'Primero programación: sin un programa que lo dirija, ningún robot se mueve. A los 9 años un niño puede pasar de bloques a sus primeras líneas de código y entender bucles y condiciones, que son la base de toda la robótica.' },
       { q: '¿Están relacionados con los talleres de la Municipalidad de Surquillo?', a: 'No. Somos una academia independiente sin ningún vínculo con la municipalidad. Mencionamos sus talleres de 2024, 2025 y 2026 tal como ella los publicó en gob.pe, para que las familias puedan combinarlos con nuestras clases.' },
       { q: '¿Cuándo pueden empezar las clases de verano?', a: 'Cuando usted lo decida: cada niño empieza por su cuenta, sin fecha común. La RM 501-2025-MINEDU cierra el último bloque de clases de 2026 el viernes 18 de diciembre; desde ahí puede arrancar cualquier semana del verano de 2027.' },
-      { q: '¿Cuánto dura el verano de programación?', a: 'No hay una duración fija. Son nuestras clases mensuales normales; proponemos un plan propio en tres etapas y usted decide cuándo empieza, cuánto dura y si su hijo sigue en marzo con el colegio.' },
+      { q: '¿Cuántas clases por semana tiene el verano y cuánto dura?', a: 'De cuatro a cinco clases semanales, durante las semanas que usted elija. En diez semanas eso da de 40 a 50 clases, según nuestra cuenta: Scratch o vibe coding para niños se terminan, C++ para niños queda cerrado o muy cerca, y Python e IA para niños avanza la mitad o algo más antes de seguir en marzo.' },
+      { q: '¿Puede elegir un curso que no sea Python?', a: 'Sí, para eso está la ruta libre: cualquier curso del catálogo al ritmo intensivo, como C++, bloques, apps con bloques, una web, Roblox, Minecraft, Scratch o matemáticas. Python e IA es la ruta que recomendamos, no una obligación.' },
       { q: '¿A qué hora son las clases?', a: 'Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. La India lleva diez horas y media de ventaja todo el año: una clase a las 3:00 p. m. en Surquillo es a la 1:30 a. m. del día siguiente para el mentor.' },
       { q: '¿Qué necesita mi hijo en casa?', a: 'Laptop o PC con cámara y micrófono, audífonos para escuchar bien al mentor e internet estable. El software es gratuito y lo instalamos en la primera clase. No hace falta comprar ningún equipo.' },
-      { q: '¿Cómo se paga?', a: 'Con tarjeta, mes a mes, en dólares estadounidenses que su banco convierte. La clase de prueba es gratis.' },
+      { q: '¿Cuánto cuesta el ritmo de verano y cómo se paga?', a: 'La tarifa de cuatro o cinco clases semanales se acuerda con el mentor antes de que su hijo empiece ese ritmo; la página solo muestra la mensualidad normal de ocho clases. Se paga con tarjeta, en dólares estadounidenses que su banco convierte. La clase de prueba es gratis.' },
       { q: '¿Recibe un certificado?', a: 'Sí, una constancia de finalización de Modern Age Coders cuando completa el curso. No es oficial del MINEDU ni cuenta para las notas del colegio.' }
     ]
   },
@@ -361,7 +403,7 @@ module.exports = {
 
   start: {
     h2: 'Reserve una clase gratis para el verano',
-    lede: 'Marque la fecha y la hora en el reloj de Perú. En la clase, el mentor le propone a su hijo guiar un robot en pantalla hasta una meta y, según cómo lo resuelve, le recomienda a usted el curso y el formato para las vacaciones.',
+    lede: 'Marque la fecha y la hora en el reloj de Perú. En la clase, el mentor le propone a su hijo guiar un robot en pantalla hasta una meta y, según cómo lo resuelve, le recomienda a usted una ruta, un curso, el formato y cuántas clases por semana, con la tarifa de ese ritmo.',
     readFirst: 'Puede conocer antes nuestro método en <a class="ag-inline-link" href="/how-we-teach">How we teach</a> o ver la lista de <a class="ag-inline-link" href="/courses">All courses</a> (las dos en inglés).',
     note: 'Las clases se dictan en vivo y en inglés por mentores en la India. Nuestro WhatsApp, en cambio, le responde en castellano.',
     formNote: 'Gratis y sin tarjeta.'
@@ -370,9 +412,9 @@ module.exports = {
   footer: {
     cols: [
       { h4: 'Cursos recomendados', links: [
-        { href: '/courses/kids-coding-blocks-masterclass', label: 'Programación con bloques' },
-        { href: '/courses/problem-solving-and-computational-thinking-for-kids', label: 'Pensamiento computacional' },
+        { href: '/courses/python-ai-kids-masterclass', label: 'Python e IA para niños' },
         { href: '/courses/cpp-programming-for-kids-course', label: 'C++ para niños' },
+        { href: '/courses/kids-coding-blocks-masterclass', label: 'Programación con bloques' },
         { href: '/courses', label: 'Todos los cursos' }
       ] },
       { h4: 'Guías', links: [
@@ -394,7 +436,7 @@ module.exports = {
 `,
 
   dossier: {
-    curriculumAuthority: 'Municipalidad Distrital de Surquillo on gob.pe (notes of 8 January 2024, 13 December 2024 and 5 January 2026 on its summer workshops, including robotics in 2026); INEI Censos Nacionales 2025 (Lima Metropolitana workbook, Cuadros 1 and 3); MINEDU DITE robotics paper (Infoescuela, 1996); MINEDU note of 4 August 2025 (Hackathon 2025, AI and robotics); RM 501-2025-MINEDU Tabla 1; INEI TIC II trimestre 2026; EF EPI 2025; tzdata. The three-stage plan, the three levels and the robot exercise are ours.',
+    curriculumAuthority: 'Municipalidad Distrital de Surquillo on gob.pe (notes of 8 January 2024, 13 December 2024 and 5 January 2026 on its summer workshops, including robotics in 2026); INEI Censos Nacionales 2025 (Lima Metropolitana workbook, Cuadros 1 and 3); MINEDU DITE robotics paper (Infoescuela, 1996); MINEDU note of 4 August 2025 (Hackathon 2025, AI and robotics); RM 501-2025-MINEDU Tabla 1; INEI TIC II trimestre 2026; EF EPI 2025; tzdata. The two summer routes as presented, the course-progress table (weeks from our own course pages, arithmetic ours), the route-by-age table, the three-stage plan, the three levels and the robot exercise are ours.',
     localProject: 'A virtual robot for a child of 10 to 14 in Surquillo: a Python while loop with two exit conditions (battery > 0 and position < goal) moves the robot one square per step at two battery points a step; with battery 10 it stops at position 5 ("Stopped: battery empty at position 5"), with battery 12 it arrives with 0 left ("Arrived at the goal!"), and an if after the loop says which condition stopped it. Run with python3 -I. No hardware. Lesson family: while loops with two exit conditions.',
     requiredMentions: ['Stopped: battery empty at position 5', 'Arrived at the goal!', 'proyecto Infoescuela', 'fútbol flag, robótica y dibujo', 'Paul Harris-Morococha', '6,790 niños de 6 a 11 años', '119,236 habitantes', 'Tres veranos de talleres municipales en Surquillo', 'Primero el programa, después el robot', 'el puesto 26 entre los 43 distritos'],
     sources: [
@@ -410,7 +452,7 @@ module.exports = {
     rejectedClaims: [
       'Spanish-language teaching: refused; classes are live, online and in English only (capsule and FAQ).',
       'Robot kits or hardware: refused; the page says three times that we teach programming only, with robots simulated on screen.',
-      'A summer camp length, start date or price: refused; the three-stage plan is labelled ours; fees come from the template.',
+      'A typed summer price, a common start date or a long course finished in one summer: refused; the 4 to 5 classes a week fee is agreed with the mentor and the progress table is labelled ours.',
       'Municipal fees or a 2027 municipal calendar: none published; the page prints none and labels the December to January announcement pattern as our observation.',
       'Any link with the Municipalidad de Surquillo: refused; the page says we have none and leaves out the mayor\'s name and the quoted parents.',
       'Income or class statements about Surquillo (INEI strata flag it in the research): refused; only population and age counts are used.',

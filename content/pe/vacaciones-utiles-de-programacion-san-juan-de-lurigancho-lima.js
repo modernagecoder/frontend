@@ -1,9 +1,13 @@
-// SHIP: district (vacaciones útiles) | Peru's largest district: a summer of code at home, no trip across Lima | sets: duplicates vanish; intersection, difference and union of two lists
+// SHIP: district (vacaciones útiles) | Peru's largest district: Python e IA or any course, 4-5 a week, no trip | sets: duplicates vanish; intersection, difference and union of two lists
 'use strict';
 // Vacaciones útiles de programación en San Juan de Lurigancho (ag- Spanish district door, Peru cluster row PE197, P2,
 // hubGroup lima). Spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md; writer brief
-// docs/superpowers/plans/2026-11-09-pe-writer-brief.md (rule "Vacaciones útiles pages": sell the normal live classes as a
-// summer start with our own suggested plan; no invented camp length, start date or price).
+// docs/superpowers/plans/2026-11-09-pe-writer-brief.md, section "Summer offer (owner 2026-11-10)", reworked 10 November 2026:
+// option A = Summer Python and AI (python-ai-kids-masterclass; teens python-complete-masterclass-teens, ai-ml-masterclass-teens),
+// option B = any catalogue course (Scratch, web, apps, DSA, Java, JavaScript, Roblox, maths...), both live, online and in
+// English, 4 to 5 classes a week, group or one to one, flexible hours; the fee for that pace is agreed with the mentor before
+// starting; first class free; no summer price typed. The old six-week, two-a-week plan became a ten-week plan at 4 to 5 a
+// week. Every verified fact, source and the sets lesson are kept.
 // Owner 2026-11-09: "make sure all our classes are live online in english". Owner 2026-11-08: timing flexible, any time.
 // Formal "usted" throughout. Fees render in USD from the template only; no soles, no typed figure, no camp figure.
 // Angle: the parent in San Juan de Lurigancho (SJL) who types "vacaciones útiles San Juan de Lurigancho" in December. Spine:
@@ -41,7 +45,9 @@
 //  Time (timezone.tsv): America/Lima UTC-5 all year, no DST since 1994; Asia/Kolkata UTC+5:30; India 10 h 30 min ahead.
 // Our own calculations (python3 -I): 1176422 / 10141775 = 11.6 % of Lima Metropolitana; 107050 / 818096 = 13.1 % of Lima
 //    Metropolitana's censused children aged 6 to 11; 107050 / 1124772 = 9.5 % and 110134 / 1124772 = 9.8 % of SJL's
-//    censused population; 51650 / 1176422 = 4.4 % omitted; six-week plan x two classes a week = twelve classes (ours).
+//    censused population; 51650 / 1176422 = 4.4 % omitted. Summer plan (ours): two weeks x 4 to 5 = 8 to 10 classes per
+//    block; cumulative 8-10, 16-20, 24-30, 32-40, 40-50 over ten weeks; a 10 to 12 month course at 2 a week is about 80 to
+//    100 classes, so ten summer weeks cover about half.
 // Our own example (conjuntos.py in the src-pages folder), run with python3 -I, exact output:
 //    Lucia wrote 5 items but has 4 different ones / Both like: ['english', 'football'] / Only Lucia: ['chess', 'drawing'] /
 //    Together: 6 different activities. The activities echo the municipal 2023 list (ajedrez, fútbol, dibujo, inglés, teatro,
@@ -84,51 +90,101 @@ module.exports = {
   parents: [{ slug: 'coding-and-ai-classes-in-peru', name: 'Peru' }],
   routeLabel: 'Vacaciones útiles de programación en San Juan de Lurigancho',
   title: 'Vacaciones útiles de programación en San Juan de Lurigancho',
-  description: 'Vacaciones útiles de programación para niños y adolescentes de San Juan de Lurigancho: clases en vivo, en línea y en inglés, desde casa y a la hora que elija.',
-  ogDescription: 'Un verano de programación para San Juan de Lurigancho sin cruzar Lima: lo que dice el censo 2025 del distrito, cuándo termina el año escolar, un plan de seis semanas y un reto en Python.',
-  twitterDescription: 'Programación en vacaciones útiles para San Juan de Lurigancho: en vivo, en inglés y desde casa, a cualquier hora.',
+  description: 'Vacaciones útiles en San Juan de Lurigancho: Python e IA o el curso que elija, de 4 a 5 clases por semana, en vivo, en línea y en inglés, desde su casa.',
+  ogDescription: 'Un verano de programación para San Juan de Lurigancho sin cruzar Lima: Python e IA o el curso que elija, cuatro o cinco clases por semana, un plan de diez semanas y un reto en Python.',
+  twitterDescription: 'San Juan de Lurigancho: verano de Python e IA o del curso que elija, de 4 a 5 clases por semana, en vivo y en inglés.',
   pageName: 'Vacaciones útiles de programación en San Juan de Lurigancho',
-  webPageDescription: 'Guía para familias de San Juan de Lurigancho que buscan vacaciones útiles de programación: población del distrito por edades según los Censos Nacionales 2025 del INEI, lo que la municipalidad publicó sobre sus talleres de verano, el calendario escolar 2026 del MINEDU, el acceso a internet en Lima Metropolitana según el INEI, un plan de verano propio y un ejercicio de Python escrito por nosotros.',
-  courseDescription: 'Clases de programación en vivo y en línea para niños de 6 a 12 años y adolescentes de San Juan de Lurigancho, dictadas solo en inglés, que pueden empezar en las vacaciones de verano: Scratch, Python, juegos y proyectos de IA, en clase grupal o individual y a cualquier hora.',
+  webPageDescription: 'Guía para familias de San Juan de Lurigancho que buscan vacaciones útiles de programación: población del distrito por edades según los Censos Nacionales 2025 del INEI, lo que la municipalidad publicó sobre sus talleres de verano, el calendario escolar 2026 del MINEDU, el acceso a internet en Lima Metropolitana según el INEI, las dos opciones de verano (Python e IA o un curso a elección) a cuatro o cinco clases por semana, un plan de diez semanas propio y un ejercicio de Python escrito por nosotros.',
+  courseDescription: 'Verano de programación para niños de 6 a 12 años y adolescentes de San Juan de Lurigancho, en vivo, en línea y solo en inglés: Python e IA de verano o cualquier curso del catálogo, de 4 a 5 clases por semana, en clase grupal o individual y a cualquier hora.',
   crumbs: [{ name: 'Cursos', href: '/courses' }, { name: 'Perú', href: '/coding-and-ai-classes-in-peru' }],
   crumbLabel: 'Vacaciones útiles, San Juan de Lurigancho',
   navLinks: [
     { href: '/coding-and-ai-classes-in-peru', label: 'Perú' },
+    { href: '#rutas', label: 'Dos opciones' },
+    { href: '#plan', label: 'Plan de diez semanas' },
     { href: '#distrito', label: 'El distrito' },
-    { href: '#municipio', label: 'Talleres del municipio' },
     { href: '#calendario', label: 'Fechas' },
-    { href: '#plan', label: 'Plan de verano' },
     { href: '#reto', label: 'Reto en Python' }
   ],
   eyebrow: 'Lima &middot; San Juan de Lurigancho &middot; Verano 2027',
   h1: 'Vacaciones útiles de programación en San Juan de Lurigancho',
-  lede: 'San Juan de Lurigancho es el distrito con más habitantes del Perú y, por eso mismo, uno de los que más familias tienen buscando qué hacer con los meses sin colegio. Esta guía le cuenta cómo puede ser un verano de programación sin salir de casa: clases en vivo con un mentor, un plan semana a semana y un primer proyecto que su hijo pueda mostrar en marzo.',
-  secondaryCta: { href: '#plan', label: 'Ver el plan de seis semanas' },
+  lede: 'San Juan de Lurigancho es el distrito con más habitantes del Perú y, por eso mismo, uno de los que más familias tienen buscando qué hacer con los meses sin colegio. Esta guía le muestra un verano de programación sin salir de casa: Python e IA o el curso que su hijo escoja, de cuatro a cinco sesiones semanales guiadas por un mentor en vivo, y un proyecto terminado para enseñar en marzo.',
+  secondaryCta: { href: '#plan', label: 'Ver el plan de diez semanas' },
   wa: 'Hola Modern Age Coders, somos de San Juan de Lurigancho y buscamos clases de programación para las vacaciones. ¿Podemos reservar una clase gratis?',
   heroNote: 'Enseñamos en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; un solo mentor por curso, que le habla a su hijo en inglés',
   spec: [
     ['Para quién', 'Niños de 6 a 12 años y adolescentes de 1° a 5° de secundaria'],
     ['Dónde', 'En su casa, en San Juan de Lurigancho, por videollamada'],
-    ['Cuándo empezar', 'Cualquier semana del verano o del año escolar'],
+    ['Ritmo y comienzo', 'De 4 a 5 clases por semana, desde la semana del verano que usted elija'],
     ['Formato', 'Clase grupal de quince a veinte, o clases individuales'],
-    ['Qué se lleva', 'Un proyecto propio y nuestro certificado de finalización al cerrar el curso'],
+    ['Opciones', 'Python e IA de verano, o cualquier curso del catálogo'],
     ['Primera clase', 'Gratis, sin tarjeta y sin compromiso']
   ],
   capsuleQ: 'En pocas palabras',
-  capsule: 'Sí, su hijo puede pasar unas vacaciones útiles de programación sin salir de San Juan de Lurigancho. Modern Age Coders dicta clases en vivo, en línea y en inglés para niños de 6 a 12 años y adolescentes: Scratch, Python, juegos y proyectos de IA, guiadas por un mentor que enseña desde la India, pronuncia con claridad y se acomoda al paso de cada chico. Puede empezar cualquier semana de enero, febrero o marzo, en grupo o de forma individual, a la hora que usted elija, y la clase de prueba no cuesta nada.',
+  capsule: 'Sí: su hijo puede programar estas vacaciones sin salir de San Juan de Lurigancho, con dos opciones. La A es Python e IA de verano: Python desde cero y después proyectos de inteligencia artificial para su edad. La B es el curso que su hijo elija, desde Scratch hasta desarrollo web, apps o algoritmos. Modern Age Coders dicta las clases en vivo, en línea y en inglés, de 4 a 5 clases por semana, con un mentor en la India. En grupo o individual, a la hora que usted escoja; el precio de ese ritmo se acuerda con el mentor y la clase de prueba es gratis.',
 
   picks: {
     eyebrow: 'Para empezar este verano',
-    h2: '¿Con qué curso conviene arrancar en vacaciones?',
-    lede: 'Ordenados por edad: el primero para quien nunca programó, el segundo para quien ya escribe con soltura y el tercero para los adolescentes de secundaria.',
+    h2: '¿Con qué curso conviene arrancar unas vacaciones intensivas?',
+    lede: 'Dos cursos de la opción A, uno para primaria y otro para secundaria, y uno breve de la opción B que se puede terminar antes de que vuelva el colegio.',
     items: [
-      { course: 'scratch-programming-complete-course', code: 'VUPS / 01', title: 'Scratch desde cero', alt: 'Imagen del curso de Scratch para niños', note: 'Para niños que empiezan. Un personaje, un escenario y bloques que se encajan: en pocas clases su hijo tiene un juego que funciona y entiende por qué funciona.' },
-      { course: 'python-ai-kids-masterclass', code: 'VUPS / 02', title: 'Python con inteligencia artificial', alt: 'Imagen del curso de Python e IA para niños', note: 'Pensado para chicos que ya terminaron 3° o 4° de primaria. Primeras líneas de código escritas a mano, juegos de preguntas, dibujos y pequeños proyectos con inteligencia artificial, como el ejercicio de los dos hermanos de esta página.' },
-      { course: 'python-complete-masterclass-teens', code: 'VUPS / 03', title: 'Python para adolescentes', alt: 'Imagen del curso de Python para adolescentes', note: 'Para secundaria. Variables, funciones, archivos y proyectos de verdad, a un ritmo pensado para chicos y chicas de 13 a 18 años.' }
+      { course: 'python-ai-kids-masterclass', code: 'VUPS / 01', title: 'Opción A: Python e IA para niños', alt: 'Imagen del curso de Python e IA para niños', note: 'Para chicos que ya terminaron 3° o 4° de primaria. Primeras líneas de código escritas a mano, juegos de preguntas, dibujos y proyectos con inteligencia artificial, como el ejercicio de los dos hermanos de esta página. En un verano intensivo se avanza la mitad o algo más.' },
+      { course: 'ai-ml-masterclass-teens', code: 'VUPS / 02', title: 'Opción A: IA para adolescentes', alt: 'Imagen del curso de inteligencia artificial y aprendizaje automático para adolescentes', note: 'Para secundaria, después de las bases de Python. Datos reales, modelos que aprenden y la pregunta que importa: cómo saber si el modelo se equivoca.' },
+      { course: 'scratch-programming-complete-course', code: 'VUPS / 03', title: 'Opción B: Scratch completo', alt: 'Imagen del curso de Scratch para niños', note: 'Para niños que empiezan. Un personaje, un escenario y bloques que encajan; a cuatro o cinco clases por semana, es de los cursos que se pueden cerrar dentro de las vacaciones.' }
     ]
   },
 
   sections: [
+    {
+      id: 'rutas',
+      eyebrow: 'Verano 2027 en casa',
+      h2: '¿Qué opciones de verano hay para un chico de San Juan de Lurigancho?',
+      lede: 'Dos, y en las dos sube el ritmo: de las dos clases semanales del año escolar se pasa a cuatro o cinco, para que los meses sin colegio dejen algo terminado.',
+      body: [
+        { kind: 'two',
+          leftH3: 'Opción A: Python e IA de verano',
+          left: [
+            '<strong>Nuestra recomendación de partida.</strong> El chico escribe Python a mano desde la primera clase, sin atajos, y cuando ya domina variables, bucles y funciones lo usa en proyectos de inteligencia artificial que corresponden a su edad.',
+            'En primaria va con el curso de Python e IA para niños. En secundaria arranca con <a class="ag-inline-link" href="/courses/python-complete-masterclass-teens">Python para adolescentes</a> y continúa con IA y aprendizaje automático o, desde los 14 años, ciencia de datos. Ninguna herramienta de IA que la edad del chico no permita entra en clase.'
+          ],
+          rightH3: 'Opción B: un curso a su elección',
+          right: [
+            '<strong>Para el que ya tiene algo en mente.</strong> Cualquier curso del catálogo se puede llevar a ritmo de verano: Scratch, Minecraft con código, Roblox, una web propia, apps, JavaScript, Java, C++, algoritmos y estructuras de datos (DSA), vibe coding o matemáticas.',
+            'Si el curso elegido es breve, el verano puede cerrarlo; si es extenso, deja una buena parte avanzada. El mentor se lo dice con claridad en la clase gratis, antes de que usted decida.'
+          ] },
+        { kind: 'table', mt: true, numCols: [], caption: 'Qué opción va con cada etapa escolar (guía nuestra)', head: ['Etapa escolar', 'Con la opción A', 'Con la opción B, por ejemplo'], rows: [
+          ['Primaria, de 6 a 9 años', 'Antes de Python, un tramo de Scratch para aprender a dar órdenes', 'Scratch completo, bloques, Minecraft con código'],
+          ['Primaria alta, de 9 a 12 años', 'El curso infantil de Python con IA: juegos primero, modelos sencillos después', 'Roblox con Luau, una web propia, resolver problemas'],
+          ['Secundaria, de 12 a 17 años', 'Python para adolescentes, después IA o ciencia de datos', 'JavaScript, Java, algoritmos (DSA), apps con React Native']
+        ] },
+        { kind: 'source', html: 'Guía nuestra, armada con las edades de los cursos del catálogo; el mentor la ajusta tras la clase gratis.' },
+        { kind: 'p', mt: true, html: 'Ninguna de las dos opciones tiene un precio de verano publicado. Cuánto cuestan cuatro o cinco sesiones semanales se conversa con el mentor antes del arranque, y usted resuelve con ese dato; abajo solo aparece, como referencia, la cuota normal del año escolar. La clase de prueba no se cobra.' }
+      ]
+    },
+    {
+      id: 'plan',
+      eyebrow: 'Nuestro plan de verano',
+      h2: '¿Qué aprende un niño en diez semanas de vacaciones con cuatro o cinco clases por semana?',
+      lede: 'Lo suficiente para pasar de no saber qué es un bucle a terminar un proyecto propio y, en la opción A, a dar el primer paso en inteligencia artificial. El plan es una propuesta nuestra sin día de arranque común: la familia escoge la semana de inicio y, en marzo, si su hijo sigue al ritmo normal o hace una pausa.',
+      body: [
+        { kind: 'table', numCols: [1], caption: 'Plan de verano en bloques de dos semanas, a cuatro o cinco clases semanales (propuesta nuestra)', head: ['Semanas', 'Clases acumuladas', 'Niños de 6 a 9 años (Scratch)', 'De 9 a 12 y adolescentes (Python e IA)'], rows: [
+          ['1 y 2', '8 a 10', 'Mover un personaje con flechas, contar una historia corta, repetir con bucles', 'Imprimir mensajes, guardar datos en variables, pedir el nombre; bucles for'],
+          ['3 y 4', '16 a 20', 'Decidir con si y si no: un juego de atrapar', 'Condiciones if y else, cadenas letra por letra, primeras funciones'],
+          ['5 y 6', '24 a 30', 'Puntaje y tiempo: variables en un juego', 'Comparar listas con conjuntos: qué tienen en común dos hermanos'],
+          ['7 y 8', '32 a 40', 'Diseñar el juego propio en papel y empezarlo', 'Un primer proyecto de IA con datos propios: un programa que clasifica o que predice'],
+          ['9 y 10', '40 a 50', 'Terminar, probar con la familia y presentarlo en inglés', 'Proyecto final, caza de errores y presentación en inglés']
+        ] },
+        { kind: 'source', html: 'Plan y cuentas nuestros: cada bloque de dos semanas suma de 8 a 10 clases. Si su hijo tomó la opción B y el curso es de los cortos (Scratch, por ejemplo, o la web con HTML y CSS), estas diez semanas pueden cerrarlo. Si eligió uno extenso, de los que en el año escolar se reparten en 10 a 12 meses (unas 80 a 100 clases), el verano cubre más o menos la mitad y lo demás continúa en marzo. No hay fecha de inicio común.' },
+        { kind: 'ol', mt: true, items: [
+          '<strong>Una sesión de prueba sin costo.</strong> Con un par de preguntas y un ejercicio corto, el mentor ve si a su hijo le conviene arrancar con Scratch o directamente con Python.',
+          '<strong>Elegir opción, formato y ritmo.</strong> A o B; clase grupal con chicos de edad parecida o clases individuales; cuatro o cinco clases por semana, a las horas que le acomoden a la familia. Con el mentor se fija también el costo de esa frecuencia.',
+          '<strong>Diez semanas de trabajo.</strong> Sesiones cortas casi a diario, con un pequeño reto para practicar entre una y otra, que nunca se resuelve copiando una respuesta.',
+          '<strong>Un proyecto terminado.</strong> En el último bloque su hijo presenta lo que construyó y explica en inglés cómo funciona.',
+          '<strong>Decidir en marzo.</strong> Seguir con dos clases a la semana durante el colegio, pasar a una frecuencia más suave en clases individuales, o pausar.'
+        ] },
+        { kind: 'p', mt: true, html: 'Si busca algo para los más chicos, en nuestra guía de <a class="ag-inline-link" href="/clases-de-programacion-para-ninos-en-ingles">clases de programación para niños en inglés</a> encontrará qué conviene a cada edad de primaria, con otra clase de ejemplo. Y si su familia prefiere leer en inglés, la página <a class="ag-inline-link" href="/english-medium-coding-classes-lima">English-medium coding classes in Lima</a> explica las mismas clases para colegios bilingües.' }
+      ]
+    },
     {
       id: 'distrito',
       eyebrow: 'El distrito en cifras',
@@ -154,7 +210,7 @@ module.exports = {
           rightH3: 'Niños y adolescentes en edad escolar',
           right: [
             'Los 107,050 niños censados de 6 a 11 años son el 13,1 % de los niños de esa edad en toda Lima Metropolitana (cálculo nuestro). Dentro del distrito, representan el 9,5 % de la población censada, y los adolescentes de 12 a 17 años, el 9,8 %.',
-            'Son las edades de primaria y secundaria. Cuando el colegio cierra en diciembre, todos ellos quedan con el mismo tiempo libre al mismo tiempo, y eso es justamente lo que una clase en línea permite repartir: cada familia elige su propio día y su propia hora.'
+            'Son las edades de primaria y secundaria. Cuando el colegio cierra en diciembre, todos ellos quedan con tiempo libre en las mismas semanas, y eso es justamente lo que una clase en línea permite repartir: cada familia elige su propio día y su propia hora.'
           ] },
         { kind: 'p', mt: true, html: 'Estas cifras describen cuánta gente vive en el distrito y de qué edades; no dicen nada de cómo vive cada familia, y no las usamos para eso. Lo que sí nos dicen es práctico: con más de un millón de vecinos, la distancia entre la casa y el taller suele pesar tanto como el contenido del taller.' }
       ]
@@ -166,13 +222,13 @@ module.exports = {
       lede: 'En sus propias páginas de gob.pe, la Municipalidad Distrital de San Juan de Lurigancho informó que en el verano de 2023 cerca de 1,500 niños, niñas y jóvenes participaron en talleres en seis sedes del distrito, en 14 disciplinas.',
       body: [
         { kind: 'p', html: 'La nota del 4 de marzo de 2023, publicada por la municipalidad al cerrar esos talleres, enumera las disciplinas: fútbol, karate, ballet, ajedrez, inglés, coro, dibujo, teatro, canto, guitarra, caporales, marinera, vóley y básquet. Las seis sedes que nombra son el Complejo Monteverde, el Polideportivo San Carlos, el Complejo Totorita, el Polideportivo El Amauta, el Complejo La 49 de Caja de Agua y el Parque 6 de Campoy. Los talleres los organizó la Subgerencia de Educación, Cultura, Deportes y Juventudes.' },
-        { kind: 'p', html: 'Para 2024 la municipalidad mantiene en gob.pe una página de campaña titulada "¡Presentamos nuestros Talleres de Verano 2024!", sin el detalle de disciplinas en el texto. Para el verano de 2027 no encontramos en sus páginas, al 9 de noviembre de 2026, ninguna convocatoria publicada. Si le interesa un taller municipal, lo mejor es consultar directamente a la municipalidad cuando lo anuncie.' },
+        { kind: 'p', html: 'Para 2024 la municipalidad mantiene en gob.pe una página de campaña titulada "¡Presentamos nuestros Talleres de Verano 2024!", sin el detalle de disciplinas en el texto. Para el verano de 2027 no encontramos en sus páginas, al 9 de noviembre de 2026, ninguna convocatoria publicada. Si le interesa un taller municipal, conviene consultar directamente a la municipalidad cuando lo anuncie.' },
         { kind: 'three', mt: true, cells: [
           { h3: 'Deporte y arte en la sede', p: 'Los talleres municipales que describe la nota de 2023 son de movimiento, música, danza y expresión. Se viven en grupo y en persona, y eso tiene un valor que una pantalla no reemplaza.' },
           { h3: 'Programación desde la casa', p: 'Ninguna de las 14 disciplinas de esa lista es programación. Nuestras clases no compiten con el fútbol ni con la marinera: ocupan otra hora del día y se toman sin moverse de casa.' },
           { h3: 'Sin relación con el municipio', p: 'Modern Age Coders no tiene ningún vínculo con la Municipalidad de San Juan de Lurigancho. Citamos sus páginas solo para que usted vea qué ofrece el distrito y pueda combinarlo como prefiera.' }
         ] },
-        { kind: 'p', mt: true, html: 'Muchas familias arman así su verano: un taller presencial en la mañana, cerca de casa, y dos clases de programación a la semana en la tarde o en la noche. Como las nuestras son en línea y a la hora que usted escoja, no chocan con el horario de ningún taller.' }
+        { kind: 'p', mt: true, html: 'Muchas familias arman así su verano: un taller presencial en la mañana, cerca de casa, y cuatro o cinco clases de programación a la semana, en la tarde o en la noche. Como las nuestras son en línea y a la hora que usted escoja, no chocan con el horario de ningún taller.' }
       ]
     },
     {
@@ -197,7 +253,7 @@ module.exports = {
           rightH3: 'Cómo lo leemos nosotros',
           right: [
             'Si el calendario 2027 se parece al de 2026, que abrió las semanas de gestión el 2 de marzo y las clases el 16 de marzo, el verano escolar dura desde fines de diciembre hasta marzo. Es una lectura nuestra, no un dato oficial para 2027.',
-            'Con esa ventana, un plan de seis semanas cabe holgado entre enero y febrero, y todavía queda tiempo para descansar antes del colegio. Abajo le mostramos el que proponemos.'
+            'En esa ventana caben las diez semanas de nuestro plan, sobre todo si su hijo arranca en la primera quincena de enero. Quien empieza más tarde puede hacer menos semanas o seguir en marzo a dos clases por semana.'
           ] }
       ]
     },
@@ -205,9 +261,9 @@ module.exports = {
       id: 'en-casa',
       eyebrow: 'Sin salir del distrito',
       h2: '¿Por qué tomar clases de programación en línea desde San Juan de Lurigancho?',
-      lede: 'Porque el tiempo de verano se aprovecha mejor programando que viajando. Desde San Juan de Lurigancho, una academia presencial en otro distrito de Lima suele significar trasladarse con un niño de ida y de vuelta varias veces por semana; en línea, ese tiempo se queda en casa.',
+      lede: 'Porque el tiempo de verano rinde más programando que viajando. Desde San Juan de Lurigancho, una academia presencial en otro distrito de Lima suele significar trasladarse con un niño de ida y de vuelta varias veces por semana; en línea, ese tiempo se queda en casa.',
       body: [
-        { kind: 'p', html: 'San Juan de Lurigancho limita con Comas, Independencia, Rímac, El Agustino, Lurigancho y Carabayllo, y cualquier academia de los distritos del centro o del sur de Lima queda bastante más lejos. No le vamos a dar cifras de tráfico que no podemos comprobar; usted conoce mejor que nadie cuánto tarda en salir del distrito a la hora en que saldría su hijo. Lo que sí podemos decir es que una clase en línea empieza en el minuto exacto en que su hijo abre la computadora.' },
+        { kind: 'p', html: 'San Juan de Lurigancho limita con Comas, Independencia, Rímac, El Agustino, Lurigancho y Carabayllo, y cualquier academia de los distritos del centro o del sur de Lima queda bastante más lejos. No le vamos a dar cifras de tráfico que no podemos comprobar; usted sabe de sobra cuánto tarda en salir del distrito a la hora en que saldría su hijo. Lo que sí podemos decir es que una clase en línea empieza en el minuto exacto en que su hijo abre la computadora.' },
         { kind: 'table', mt: true, numCols: [1], caption: 'Internet y computadora en los hogares de Lima Metropolitana, II trimestre de 2026 (INEI)', head: ['Indicador', 'Porcentaje', 'Ámbito'], rows: [
           ['Hogares con servicio de internet', '84,7 %', 'Lima Metropolitana (incluye el Callao)'],
           ['Hogares con al menos una computadora', '53,3 %', 'Lima Metropolitana (incluye el Callao)'],
@@ -228,36 +284,11 @@ module.exports = {
       ]
     },
     {
-      id: 'plan',
-      eyebrow: 'Nuestro plan de verano',
-      h2: '¿Qué puede aprender un niño en seis semanas de vacaciones?',
-      lede: 'Lo suficiente para pasar de no saber qué es un bucle a terminar un proyecto propio. Este plan es una propuesta nuestra para el verano, y no trae un día de arranque obligatorio: la familia decide la semana de inicio y, al terminar, si su hijo sigue en el año escolar o hace una pausa.',
-      body: [
-        { kind: 'table', numCols: [0], caption: 'Plan de verano de seis semanas, dos clases por semana (propuesta nuestra)', head: ['Semana', 'Niños de 6 a 9 años (Scratch)', 'Niños de 9 a 12 y adolescentes (Python)'], rows: [
-          ['1', 'Mover un personaje con flechas y contar una historia corta', 'Imprimir mensajes, guardar datos en variables, pedir el nombre al usuario'],
-          ['2', 'Repetir con bucles, dibujar figuras', 'Bucles for, cadenas de texto letra por letra'],
-          ['3', 'Decidir con si y si no: un juego de atrapar', 'Condiciones if y else, primeras funciones'],
-          ['4', 'Puntaje y tiempo: variables en un juego', 'Comparar listas con conjuntos: qué tienen en común dos hermanos'],
-          ['5', 'Diseñar el juego propio en papel y empezarlo', 'Proyecto propio: un juego, un quiz o una herramienta'],
-          ['6', 'Terminar, probar con la familia y presentarlo en inglés', 'Terminar, buscar errores y presentarlo en inglés']
-        ] },
-        { kind: 'source', html: 'El plan es nuestro. Doce clases en vivo en seis semanas (dos por semana) es nuestro cálculo para una clase grupal; con clases individuales el ritmo se ajusta a su hijo. No es un programa con inicio común: cada familia empieza cuando quiere.' },
-        { kind: 'ol', mt: true, items: [
-          '<strong>Una sesión de prueba sin costo.</strong> Con un par de preguntas y un ejercicio corto, el mentor ve si a su hijo le conviene arrancar con Scratch o directamente con Python.',
-          '<strong>Elegir el formato.</strong> Clase grupal con chicos de edad parecida o clases individuales, y los días y horas que mejor le acomoden a la familia en verano.',
-          '<strong>Seis semanas de trabajo.</strong> Dos clases por semana, con un pequeño reto para practicar entre clase y clase, que nunca se resuelve copiando una respuesta.',
-          '<strong>Un proyecto terminado.</strong> En la última semana su hijo presenta lo que construyó y explica en inglés cómo funciona.',
-          '<strong>Decidir en marzo.</strong> Seguir con dos clases a la semana durante el colegio, pasar a una frecuencia más suave en clases individuales, o pausar. El pago es mensual.'
-        ] },
-        { kind: 'p', mt: true, html: 'Si busca algo para los más chicos, en nuestra guía de <a class="ag-inline-link" href="/clases-de-programacion-para-ninos-en-ingles">clases de programación para niños en inglés</a> encontrará qué conviene a cada edad de primaria, con otra clase de ejemplo. Y si su familia prefiere leer en inglés, la página <a class="ag-inline-link" href="/english-medium-coding-classes-lima">English-medium coding classes in Lima</a> explica las mismas clases para colegios bilingües.' }
-      ]
-    },
-    {
       id: 'reto',
       tint: 'tint',
       eyebrow: 'Un reto de verano',
       h2: '¿Cómo se ve una clase de Python en inglés a los 11 años?',
-      lede: 'Un ejemplo de la semana 4 del plan. Dos hermanos inventados por nosotros, Lucía y Mateo, anotan en inglés las actividades que quieren hacer este verano, que son casi las mismas que ofreció el municipio en 2023. Con conjuntos de Python, el programa descubre qué comparten, qué quiere solo uno y cuántas actividades distintas suman entre los dos.',
+      lede: 'Un ejemplo de las semanas 5 y 6 del plan. Dos hermanos inventados por nosotros, Lucía y Mateo, anotan en inglés las actividades que quieren hacer este verano, que son casi las mismas que ofreció el municipio en 2023. Con conjuntos de Python, el programa descubre qué comparten, qué quiere solo uno y cuántas actividades distintas suman entre los dos.',
       body: [
         { kind: 'code', label: 'Dos listas de verano en Python', lang: 'Python', code: PY, note: 'Antes de ejecutarlo, el mentor pregunta: "Lucia wrote football twice. How many different activities does she really have?" Su hijo responde primero y después comprueba.' },
         { kind: 'code', label: 'Lo que imprime el programa', lang: 'Salida', code: OUT, note: 'Esto es exactamente lo que devolvió Python 3 cuando corrimos el archivo en nuestra computadora. Usamos <code>sorted</code> para que las listas salgan siempre en orden alfabético.' },
@@ -277,7 +308,7 @@ module.exports = {
       h2: '¿Las vacaciones útiles en inglés sirven si mi hijo no habla inglés?',
       lede: 'Sí. El punto de partida no es el idioma sino las ganas de escuchar e intentarlo. El mentor usa frases cortas, vuelve a explicar de otra manera cuando hace falta y escribe en pantalla cada palabra clave.',
       body: [
-        { kind: 'p', html: 'El verano es un buen momento para esta mezcla, porque no hay tareas ni exámenes que le roben la cabeza. En seis semanas, un chico que nunca habló inglés en voz alta aprende a decir qué quiere que haga su programa, a preguntar por qué no funciona y a explicar lo que cambió. Es inglés usado para algo, no repetido de memoria.' },
+        { kind: 'p', html: 'El verano es un buen momento para esta mezcla, porque no hay tareas ni exámenes que le roben la cabeza. Con cuatro o cinco clases por semana, un chico que nunca habló inglés en voz alta aprende pronto a decir qué quiere que haga su programa, a preguntar por qué no funciona y a explicar lo que cambió. Es inglés usado para algo, no repetido de memoria.' },
         { kind: 'p', html: 'El índice EF EPI 2025 de EF Education First ubica a Lima en el nivel "alto" de dominio del inglés, con 555 puntos, el único nivel alto entre las ciudades peruanas medidas. Ese índice se basa en adultos que rinden la prueba de EF, no en niños, pero muestra que en Lima el inglés ya es parte de la vida de mucha gente. Para un niño de San Juan de Lurigancho, practicarlo cada semana con un mentor es una ventaja que se suma a la programación.' }
       ]
     }
@@ -306,7 +337,7 @@ module.exports = {
   catalogue: {
     eyebrow: 'Más opciones',
     h2: '¿Qué otros cursos se pueden tomar en verano?',
-    lede: 'Cada uno se dicta en vivo y en inglés por un mentor fijo; se arrancan en enero o febrero y pueden seguir cuando vuelva el colegio.',
+    lede: 'Nueve ideas más para la opción B. Todas se dictan en vivo y en inglés con un mentor fijo, aceptan el ritmo de verano y siguen cuando vuelve el colegio.',
     bands: [
       { num: 'I', h3: 'Los más pequeños', sub: 'De 6 a 9 años', courses: [
         { code: 'VUPS / CHICOS / 01', slug: 'kids-coding-blocks-masterclass', title: 'Programación con bloques', blurb: 'Juegos, historias y apps sencillas con bloques que se arrastran.' },
@@ -320,7 +351,7 @@ module.exports = {
       ] },
       { num: 'III', h3: 'Secundaria', sub: 'De 13 a 18 años', courses: [
         { code: 'VUPS / SEC / 01', slug: 'javascript-course-for-teens-beginners-interactive-web', title: 'JavaScript para adolescentes', blurb: 'Páginas interactivas y juegos en el navegador desde la primera clase.' },
-        { code: 'VUPS / SEC / 02', slug: 'ai-ml-masterclass-teens', title: 'IA y aprendizaje automático', blurb: 'De Python a modelos reales que aprenden con datos.' },
+        { code: 'VUPS / SEC / 02', slug: 'problem-solving-dsa-masterclass-teens', title: 'Algoritmos y estructuras de datos', blurb: 'Pilas, colas, búsquedas y la forma de elegir entre ellas.' },
         { code: 'VUPS / SEC / 03', slug: 'java-programming-masterclass-for-teens', title: 'Java en secundaria', blurb: 'Clases, objetos y proyectos grandes, el lenguaje de muchas universidades.' }
       ] }
     ]
@@ -346,14 +377,14 @@ module.exports = {
   },
 
   projectsH2: 'Proyectos de estudiantes que empezaron como su hijo',
-  projectsLede: 'Lo que arma un niño en seis semanas es el primer paso; abajo hay proyectos de estudiantes con más camino recorrido, y muchos más en <a class="ag-inline-link" href="/student-labs">Student labs</a> (en inglés).',
+  projectsLede: 'Lo que arma un niño en un verano es el primer paso; abajo hay proyectos de estudiantes con más camino recorrido, y muchos más en <a class="ag-inline-link" href="/student-labs">Student labs</a> (en inglés).',
   reviewsLede: 'Opiniones que familias y alumnos de varios países publicaron en Google; las dejamos en su idioma original, el inglés.',
 
   fees: {
     h2: '¿Cuánto cuestan las clases de verano?',
-    lede: 'Lo mismo que el resto del año: no hay tarifa especial de verano ni matrícula. Verá la mensualidad expresada en dólares de Estados Unidos; el cobro se hace a su tarjeta y es el banco emisor el que la pasa a soles al cambio vigente.',
+    lede: 'Las cifras de esta sección corresponden a la mensualidad estándar del año escolar, que incluye ocho clases. Para el verano, con cuatro o cinco clases cada semana, el mentor le comunica la tarifa antes de la primera clase y usted decide sin presión; no hay matrícula. Verá todo expresado en dólares de Estados Unidos; el cobro va a su tarjeta y el banco emisor lo pasa a soles al cambio vigente.',
     free: ['Una clase de prueba completa', 'El mentor recomienda por dónde empezar', 'Sin tarjeta ni compromiso'],
-    group: ['Quince a veinte chicos de edad parecida', 'Mismo mentor durante todo el curso', 'Dos clases en vivo a la semana', 'Se paga mes a mes y se puede dejar'],
+    group: ['Quince a veinte chicos de edad parecida', 'Mismo mentor durante todo el curso', 'Precio mostrado: ocho clases al mes', 'Verano: de 4 a 5 clases semanales'],
     one: ['Solo su hijo y el mentor', 'El plan de verano a su medida', 'Días y horas que usted elija']
   },
 
@@ -364,12 +395,13 @@ module.exports = {
       { q: '¿Las clases son en español?', a: 'No, se dictan únicamente en inglés, en vivo y por internet. Lejos de ser un obstáculo, para muchas familias es la razón de inscribirse: en una sola hora su hijo programa y además gana práctica oral con un idioma que en Lima ya pesa mucho (el índice EF EPI 2025 le da a la ciudad 555 puntos, nivel alto). El mentor ajusta su velocidad y su acento a cada chico.' },
       { q: '¿Hay que ir a alguna sede en San Juan de Lurigancho?', a: 'No hay sede a la que ir, ni en el distrito ni en otra parte del país. Su hijo se conecta desde la sala o el cuarto de su casa y el mentor lo recibe por videollamada desde la India, así que el traslado simplemente desaparece.' },
       { q: '¿En qué fecha arrancan estas vacaciones útiles?', a: 'En la que a usted le acomode, porque cada alumno inicia por separado: se puede arrancar ni bien acabe el colegio, que en 2026 tiene su última semana lectiva hasta el 18 de diciembre según la RM 501-2025-MINEDU, o en cualquier semana de enero, febrero o marzo de 2027.' },
-      { q: '¿Cuántas semanas tiene el verano de programación?', a: 'Las que su familia decida: lo que ofrecemos son clases mensuales, no un paquete cerrado. Sugerimos un plan propio de seis semanas con dos clases por semana, y usted decide si lo alarga, si lo acorta con clases individuales o si su hijo continúa durante el año escolar. El pago es mensual.' },
+      { q: '¿Cuántas semanas y cuántas clases tiene el verano de programación?', a: 'Proponemos diez semanas a cuatro o cinco clases cada una, que por cuenta nuestra son de 40 a 50 clases; si su hijo empieza tarde, serán menos. Los cursos cortos se completan en ese tiempo; los largos quedan a medio camino y se retoman con el colegio, al ritmo habitual.' },
+      { q: '¿Puede elegir un curso distinto de Python e IA?', a: 'Sí, esa es la opción B: cualquier curso del catálogo al ritmo de verano, por ejemplo Scratch, Roblox, una web propia, apps, JavaScript, Java o algoritmos. El mentor le confirma en la clase gratis si el curso encaja con el nivel de su hijo.' },
       { q: '¿A qué hora son las clases?', a: 'Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Como la diferencia con la India es fija (allá son diez horas y media más), una clase a las 9:00 a. m. de Lima cae a las 7:30 p. m. para el mentor.' },
       { q: '¿Mi hijo de 6 años ya puede apuntarse?', a: 'Sí: a esa edad trabaja con bloques de colores y personajes de Scratch, casi sin leer. Hacia 4° o 5° de primaria casi todos están listos para escribir Python, y los adolescentes de secundaria tienen cursos propios de Python, JavaScript, Java e inteligencia artificial.' },
       { q: '¿Están vinculados a la Municipalidad de San Juan de Lurigancho?', a: 'No. Somos una academia independiente, ajena a la municipalidad y a sus talleres de verano. En esta página citamos lo que la propia municipalidad publicó en gob.pe sobre sus talleres de 2023, solo como información para las familias.' },
       { q: '¿Qué necesita mi hijo en casa?', a: 'Un equipo con teclado, cámara y micrófono, unos audífonos y buena señal de internet; el celular se queda corto para escribir código. Si en casa hay una sola máquina, dos hermanos pueden turnarse con clases a horas diferentes.' },
-      { q: '¿Cómo se paga?', a: 'Mes a mes, con tarjeta, en dólares de Estados Unidos; el cambio a soles lo hace su banco. Para la clase de prueba no se le pide ningún dato de pago.' },
+      { q: '¿Cuánto cuesta el ritmo de verano y cómo se paga?', a: 'El costo de la frecuencia de verano lo pacta con el mentor al inicio; en la página solo figura la cuota normal, que cubre ocho clases al mes. Se paga con tarjeta en dólares de Estados Unidos y el cambio a soles lo hace su banco. Para la clase de prueba no se le pide ningún dato de pago.' },
       { q: '¿Recibe algún certificado?', a: 'Sí, uno nuestro: cuando completa un curso, Modern Age Coders le entrega una constancia de finalización propia. No es un documento del MINEDU ni tiene valor para las notas del colegio, porque no estamos vinculados a ningún colegio ni al sistema educativo peruano.' }
     ]
   },
@@ -390,7 +422,7 @@ module.exports = {
 
   start: {
     h2: 'Reserve la primera clase del verano',
-    lede: 'Marque el día y la hora según el reloj de Perú. En esa primera sesión el mentor saluda a su hijo con frases fáciles, le pone un desafío breve y después le sugiere a usted el curso y la modalidad para arrancar el verano.',
+    lede: 'Marque el día y la hora según el reloj de Perú. En esa primera sesión el mentor saluda a su hijo con frases fáciles, le pone un desafío breve y después le sugiere a usted la opción A o B, la modalidad y cuántas clases por semana, con la tarifa de ese ritmo.',
     readFirst: 'Si prefiere informarse primero, revise <a class="ag-inline-link" href="/how-we-teach">How we teach</a>, sobre cómo es una clase, o revisar <a class="ag-inline-link" href="/courses">All courses</a> (ambas en inglés).',
     note: 'Los mentores enseñan desde la India y cada sesión es en inglés. Si nos escribe por WhatsApp, puede hacerlo en castellano sin problema.',
     formNote: 'Gratis, sin tarjeta y sin compromiso.'
@@ -399,9 +431,9 @@ module.exports = {
   footer: {
     cols: [
       { h4: 'Cursos de verano', links: [
-        { href: '/courses/scratch-programming-complete-course', label: 'Scratch desde cero' },
         { href: '/courses/python-ai-kids-masterclass', label: 'Python e IA para niños' },
-        { href: '/courses/python-complete-masterclass-teens', label: 'Python para adolescentes' },
+        { href: '/courses/ai-ml-masterclass-teens', label: 'IA para adolescentes' },
+        { href: '/courses/scratch-programming-complete-course', label: 'Scratch completo' },
         { href: '/courses', label: 'Todos los cursos' }
       ] },
       { h4: 'Para familias', links: [
@@ -423,9 +455,9 @@ module.exports = {
 `,
 
   dossier: {
-    curriculumAuthority: 'INEI Censos Nacionales 2025 (Indicadores demográficos, Lima Metropolitana and national workbooks, Cuadros 1 and 3, updated 15 July 2026); Municipalidad Distrital de San Juan de Lurigancho on gob.pe (summer workshops note of 4 March 2023, 2024 campaign page); RM 501-2025-MINEDU Tabla 1 (checked by eye); gob.pe search of MINEDU norms on 9 November 2026 (no 2027 norm); INEI ENAHO TIC bulletin II trimestre 2026; EF EPI 2025; tzdata. The six-week plan, the four signals and the sets exercise are our own.',
+    curriculumAuthority: 'INEI Censos Nacionales 2025 (Indicadores demográficos, Lima Metropolitana and national workbooks, Cuadros 1 and 3, updated 15 July 2026); Municipalidad Distrital de San Juan de Lurigancho on gob.pe (summer workshops note of 4 March 2023, 2024 campaign page); RM 501-2025-MINEDU Tabla 1 (checked by eye); gob.pe search of MINEDU norms on 9 November 2026 (no 2027 norm); INEI ENAHO TIC bulletin II trimestre 2026; EF EPI 2025; tzdata. The two summer options as presented, the stage table, the ten-week plan at 4 to 5 classes a week with its cumulative counts, the four signals and the sets exercise are our own.',
     localProject: 'Two summer lists for a child of 11 in San Juan de Lurigancho: Lucía and Mateo (invented) write the activities they want, echoing the municipal 2023 list; set() removes Lucía\'s repeated football (5 items, 4 different), & gives [\'english\', \'football\'], - gives [\'chess\', \'drawing\'], and | gives 6 different activities, not 8. Run with python3 -I. Lesson family: sets; duplicates vanish, intersection, difference and union.',
-    requiredMentions: ['Lucia wrote 5 items but has 4 different ones', 'Together: 6 different activities', '1,176,422', '107,050 niños de 6 a 11 años', 'El más poblado de los 1,893 distritos', 'Complejo La 49 de Caja de Agua', 'cerca de 1,500 niños, niñas y jóvenes', 'Un verano de código, sin cruzar Lima', 'Plan de verano de seis semanas, dos clases por semana', '13,1 % de los niños de esa edad'],
+    requiredMentions: ['Lucia wrote 5 items but has 4 different ones', 'Together: 6 different activities', '1,176,422', '107,050 niños de 6 a 11 años', 'El más poblado de los 1,893 distritos', 'Complejo La 49 de Caja de Agua', 'cerca de 1,500 niños, niñas y jóvenes', 'Un verano de código, sin cruzar Lima', 'Plan de verano en bloques de dos semanas', '13,1 % de los niños de esa edad'],
     sources: [
       { claim: 'SJL population 1,176,422 (total), 1,124,772 censused, 51,650 omitted; age groups 6 to 11 and 12 to 17; Lima Metropolitana totals (Censos Nacionales 2025).', url: 'https://proyectos.inei.gob.pe/dir-segmentacion-ci/postcensal/prod/adjuntos/censos-2025/descarga_datos/tabulados/27/poblacion/Indicadores_demograficos.xlsx' },
       { claim: 'SJL is the largest of the 1,893 district rows in the national table (Censos Nacionales 2025).', url: 'https://proyectos.inei.gob.pe/dir-segmentacion-ci/postcensal/prod/adjuntos/censos-2025/descarga_datos/tabulados/00/poblacion/Indicadores_demograficos.xlsx' },
@@ -438,7 +470,7 @@ module.exports = {
     ],
     rejectedClaims: [
       'Spanish-language teaching: refused; every class is live, online and in English only, said in the capsule and in an FAQ.',
-      'A summer camp with a fixed length, start date or price: refused; the page sells ordinary monthly classes and labels the six-week plan as ours.',
+      'A typed summer price, a common start date or a long course finished in one summer: refused; the 4 to 5 classes a week fee is agreed with the mentor, the ten-week plan and its counts are labelled ours.',
       'A 2027 school start date: refused; no 2027 norm was found on gob.pe on 9 November 2026, so the page says the school will confirm it.',
       'Traffic or commute times across Lima: refused; no figure was verified, so the page names neighbouring districts only and leaves the commute to the family.',
       'Income, housing or social-class statements about San Juan de Lurigancho (INEI strata exist in the research): refused; the page uses only population and age counts.',

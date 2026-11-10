@@ -1,10 +1,10 @@
 ---
 title: "Vacaciones útiles de programación en Chorrillos para secundaria"
-description: "Programación en vacaciones útiles para adolescentes de Chorrillos, de 1° a 5° de secundaria: Python en vivo, en línea y en inglés, desde casa y a la hora que elijan."
+description: "Verano de programación para secundaria en Chorrillos: Python e IA, o algoritmos, web o apps, de 4 a 5 clases por semana, en vivo, en línea y en inglés."
 canonical: https://learn.modernagecoders.com/vacaciones-utiles-de-programacion-chorrillos-lima
 source: src/pages/vacaciones-utiles-de-programacion-chorrillos-lima.html
 ---
-> Sí. Un adolescente de Chorrillos puede dedicar sus vacaciones útiles a la programación sin moverse de casa: en Modern Age Coders las clases son en vivo, en línea y en inglés, con un mentor que enseña desde la India y que explica cada línea de código con calma. Para secundaria empezamos con Python y seguimos con juegos, datos o inteligencia artificial. Puede ser en grupo o uno a uno, cualquier día del verano y a la hora que el chico prefiera, y la primera clase no se paga.
+> Sí. Un adolescente de Chorrillos puede hacer de sus vacaciones un verano intensivo de programación desde casa, por uno de dos carriles. El principal es Python e IA: Python bien aprendido y después inteligencia artificial o ciencia de datos. El otro es el curso que el propio chico escoja, como algoritmos (DSA), desarrollo web full stack o apps. En Modern Age Coders las clases son en vivo, en línea y en inglés, de 4 a 5 clases por semana, solo o en grupo, a la hora que él prefiera. El precio de ese ritmo se pacta con el mentor; la primera clase no se paga.
 
 [Inicio](/) / [Cursos](/courses) / [Perú](/coding-and-ai-classes-in-peru) / Vacaciones útiles, Chorrillos
 
@@ -12,17 +12,56 @@ Lima · Chorrillos · Secundaria en verano
 
 # Vacaciones útiles de programación en Chorrillos, para chicos de secundaria
 
-Entre la playa, el deporte y las reuniones con amigos, a un adolescente de Chorrillos le sobran horas en enero y febrero. Si alguna de esas horas la quiere usar para aprender a programar de verdad, esta página le explica cómo hacerlo desde casa, en inglés y con un mentor, y qué puede tener listo antes de volver al colegio.
+Entre la playa, el deporte y las reuniones con amigos, a un adolescente de Chorrillos le sobran horas en enero y febrero. Si quiere invertir varias de ellas en aprender a programar en serio, aquí tiene un verano intensivo pensado para secundaria: Python e IA o el curso que él mismo escoja, cuatro o cinco clases por semana desde casa, en inglés y con un mentor.
 
-En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Edades: Adolescentes de 12 a 17 años, de 1° a 5° de secundaria; Lenguajes: Python primero; después JavaScript, Java o C# para juegos; Desde dónde: Su casa en Chorrillos, por videollamada; Modalidad: Grupo de quince a veinte adolescentes, o clases individuales; Inicio: La semana que el estudiante elija, en verano o durante el año; Clase de prueba: Sin costo y sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
+En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Edades: Adolescentes de 12 a 17 años, de 1° a 5° de secundaria; Lenguajes: Python primero; después JavaScript, Java o C# para juegos; Desde dónde: Su casa en Chorrillos, por videollamada; Modalidad: Grupo de quince a veinte adolescentes, o clases individuales; Ritmo de verano: De 4 a 5 clases por semana, desde la semana que el estudiante elija; Clase de prueba: Sin costo y sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
 
 ## ¿Qué curso de programación conviene a un chico de secundaria en verano?
 
-Casi siempre Python. Después, según lo que le guste: los videojuegos o los datos y la inteligencia artificial.
+Casi siempre Python, que es el carril 1. Para quien ya tiene una meta, dos cursos del carril 2 que piden muchos adolescentes: algoritmos y desarrollo web completo.
 
-- [Python, de cero a proyectos](/courses/python-complete-masterclass-teens): El punto de partida de casi todos. Variables, listas, funciones y archivos, con ejercicios como el revisor de paréntesis de esta página, para chicos de 13 a 18 años.
-- [Videojuegos con Unity y C#](/courses/complete-game-development-masterclass-for-teens): Para quien pasa el verano jugando y quiere saber cómo se hace un juego por dentro: escenas, física, puntajes y una versión publicable.
-- [Ciencia de datos con Python](/courses/data-science-course-for-teens-python-data): Desde los 14 años. Tablas, gráficos y un primer modelo que aprende de datos, con la estadística explicada paso a paso.
+- [Carril 1: Python, de cero a proyectos](/courses/python-complete-masterclass-teens): De 13 a 18 años. Variables, listas, funciones y archivos, con ejercicios como el revisor de paréntesis de esta página; después, la puerta a la IA. Un verano intensivo de diez semanas deja hecha cerca de la mitad.
+- [Carril 2: algoritmos y estructuras de datos](/courses/problem-solving-dsa-masterclass-teens): Para el que disfruta los acertijos y piensa en ingeniería u olimpiadas: pilas, colas, búsquedas y ordenamientos, siempre con la pregunta de cuánto tarda cada solución.
+- [Carril 2: web completa](/courses/full-stack-web-development-teens-masterclass): La parte que se ve y la que guarda los datos, con React y Node. Es el curso más largo de los tres: el verano deja hecho entre un tercio y la mitad.
+
+## ¿Qué puede estudiar un adolescente de Chorrillos estas vacaciones?
+
+Dos carriles, los dos en vivo y en inglés, y en ambos el ritmo sube a cuatro o cinco clases por semana: más del doble que durante el colegio. Esa frecuencia es lo que hace que un verano se note en marzo.
+
+### Carril 1: Python e IA
+
+Primero [Python para adolescentes](/courses/python-complete-masterclass-teens), completo y sin saltos: variables, listas, funciones, archivos y la pila del ejercicio de esta página. Con esa base, el estudiante sigue con IA y aprendizaje automático o, si ya cumplió 14, con ciencia de datos.
+
+Python es también el lenguaje que escogió el piloto del MINEDU que se describe más abajo; Modern Age Coders no participa en él. En clase solo usamos herramientas de IA permitidas para menores de 18 años.
+
+### Carril 2: el curso que él escoja
+
+Algoritmos y estructuras de datos (DSA) para quien piensa en olimpiadas o en ingeniería; desarrollo web full stack con React y Node; apps con React Native; Java, C++, videojuegos con Unity, vibe coding, preparación del PCEP o matemáticas.
+
+Aquí la decisión es del adolescente. Si el curso que quiere está por encima de su nivel, el mentor se lo dice en la clase de prueba y le propone el paso previo, sin rodeos.
+
+**Cuánto avanza cada curso en un verano de diez semanas a 4 o 5 clases semanales (cálculo nuestro)**
+
+| Curso de ejemplo | Duración en el año escolar, a 2 clases por semana | Clases aproximadas | En el verano intensivo |
+|---|---|---|---|
+| Vibe coding para adolescentes | 12 semanas | 24 | Se completa en unas 5 a 6 semanas |
+| Minería de datos con Orange | 12 semanas | 24 | Se completa en unas 5 a 6 semanas |
+| Tramo PCEP del curso PCEP y PCAP | 20 semanas | 40 | Se completa en 8 a 10 semanas |
+| Python para adolescentes | 40 a 48 semanas | 80 a 96 | Cerca de la mitad; sigue en marzo |
+| Algoritmos y estructuras de datos | 44 a 52 semanas | 88 a 104 | Cerca de la mitad; sigue en marzo |
+| Web full stack | 48 a 56 semanas | 96 a 112 | Entre un tercio y la mitad; sigue en marzo |
+
+Duraciones tomadas de nuestras propias páginas de curso; las clases son semanas por dos y el avance de verano compara esas cifras con 40 a 50 clases (diez semanas por cuatro o cinco). Cálculo nuestro, no un calendario: ningún curso largo se termina en un verano y no se lo prometemos a nadie. El examen PCEP lo organiza Python Institute, aparte, y no prometemos nota.
+
+**Qué carril va con cada grado de secundaria (orientación nuestra)**
+
+| Grado | Carril 1 | Carril 2, ideas |
+|---|---|---|
+| 1° y 2° de secundaria, 12 a 14 años | Python para adolescentes desde los 13; a los 12, el curso infantil de Python e IA | Vibe coding, JavaScript para la web, videojuegos |
+| 3° de secundaria, 14 a 15 años | Python y, con la base lista, ciencia de datos | Apps con React Native, Java, Unity |
+| 4° y 5° de secundaria, 15 a 17 años | Python a fondo y, después, el curso de IA y aprendizaje automático | DSA, web full stack, PCEP, C++ |
+
+El precio del ritmo de verano no figura en esta página. Antes de la primera clase intensiva, el mentor le dice a la familia cuánto cuestan cuatro o cinco sesiones semanales y la familia decide; como referencia, más abajo se ve la mensualidad normal, que corresponde a ocho clases. La clase de prueba es gratis en cualquiera de los dos carriles.
 
 ## ¿Qué talleres de verano ofrece la Municipalidad de Chorrillos?
 
@@ -113,10 +152,10 @@ Proponemos cuatro retos que se encadenan, cada uno con algo terminado al final. 
 | 3 | Funciones y archivos CSV | Un programa que guarda y vuelve a leer sus datos sin perderlos |
 | 4 | Diseño de un proyecto propio | Un juego, un quiz o una herramienta que resuelve algo de su vida diaria |
 
-Plan nuestro. Con dos clases en vivo por semana, cada reto suele tomar unas dos semanas (estimación nuestra, no una duración fija); en clases individuales el ritmo lo marca el estudiante. Al terminar el cuarto reto puede seguir durante el año escolar, bajar la frecuencia o parar: el pago es mes a mes.
+Plan nuestro para el arranque del carril 1. A cuatro o cinco clases por semana, cada reto suele tomar alrededor de una semana (estimación nuestra); en clases individuales el ritmo lo marca el estudiante. Terminados los cuatro, el resto del verano sigue el curso elegido, y en marzo se puede continuar a dos clases por semana o parar.
 
 1. **Una clase de prueba.** El mentor le pide al adolescente que lea un programa corto en voz alta y diga qué cree que hace. Con eso sabe por qué reto empezar.
-2. **Escoger el formato.** Grupo con chicos de su edad o clases uno a uno, y un horario de verano que no choque con la playa ni con los talleres del distrito.
+2. **Escoger carril, formato y ritmo.** Python e IA o un curso a elección; grupo con chicos de su edad o uno a uno; cuatro o cinco clases por semana en un horario que no choque con la playa ni con los talleres del distrito.
 3. **Un reto a la vez.** Cada reto tiene una meta clara y un pequeño ejercicio entre clases que se resuelve pensando, no copiando de internet.
 4. **Mostrar el resultado.** Al cerrar cada reto, el estudiante presenta en inglés lo que construyó y responde dos o tres preguntas del mentor.
 5. **Decidir en marzo.** Continuar con el colegio, apuntar a la certificación PCEP en un curso aparte o tomarse un descanso.
@@ -183,7 +222,7 @@ A esta edad el estudiante maneja su propia agenda. Le recomendamos que la famili
 
 Los padres reciben un resumen breve de cada etapa. No hace falta que ustedes sepan programar para seguir el avance.
 
-Sobre el idioma: las clases son en inglés porque el código está escrito en inglés y porque es la lengua de casi toda la documentación técnica. El índice EF EPI 2025 coloca a Lima en el nivel alto de dominio del inglés, con 555 puntos, entre adultos que rinden la prueba de EF. Para un adolescente de secundaria, hablar de su código en inglés dos veces por semana es práctica que el colegio, con tres horas de Inglés a la semana en jornada regular, difícilmente puede darle.
+Sobre el idioma: las clases son en inglés porque el código está escrito en inglés y porque es la lengua de casi toda la documentación técnica. El índice EF EPI 2025 coloca a Lima en el nivel alto de dominio del inglés, con 555 puntos, entre adultos que rinden la prueba de EF. Para un adolescente de secundaria, hablar de su código en inglés cuatro o cinco veces por semana es práctica que el colegio, con tres horas de Inglés a la semana en jornada regular, difícilmente puede darle.
 
 ## ¿A qué hora pueden ser las clases si mi hijo se acuesta tarde en vacaciones?
 
@@ -227,7 +266,7 @@ Si una herramienta de IA le da código, no lo pegue: léalo, cámbielo y pruebe 
 
 ## ¿Qué más puede estudiar un adolescente después del verano?
 
-Nueve opciones para secundaria, todas en vivo y en inglés, que continúan sin cortes al terminar las vacaciones.
+Nueve opciones más para el carril 2, todas en vivo y en inglés; admiten el ritmo intensivo de verano y continúan sin cortes en marzo.
 
 ### Lenguajes
 
@@ -251,7 +290,7 @@ De 14 a 18 años
 
 - [Certificación PCEP y PCAP](/courses/pcep-pcap-python-certification-course): Preparación para los exámenes de Python Institute, sin promesas de nota.
 - [Programación competitiva](/courses/competitive-programming-for-teens-course): Algoritmos y problemas con tiempo límite, como en una olimpiada.
-- [Algoritmos y estructuras](/courses/problem-solving-dsa-masterclass-teens): Lógica, estructuras de datos y resolución de problemas paso a paso.
+- [Ciencia de datos](/courses/data-science-course-for-teens-python-data): Desde los 14 años: tablas, gráficos y un primer modelo, con la estadística explicada.
 
 ## ¿Cómo son las clases para adolescentes?
 
@@ -259,7 +298,7 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 
 - **Media mañana** Después de dormir un poco más, antes de bajar a la playa.
 - **Tarde** Al volver del taller deportivo o del mar.
-- **Noche** Para el adolescente que rinde mejor cuando la casa está en calma.
+- **Noche** Para el adolescente que rinde más cuando la casa está en calma.
 
 - **Mentor fijo** Una misma persona acompaña al estudiante de la primera a la última clase.
 - **Código propio** El adolescente escribe cada línea; el mentor orienta, no dicta.
@@ -270,10 +309,10 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 
 ## ¿Cuánto cuesta un verano de programación?
 
-Lo mismo que cualquier mes del año: no cobramos matrícula ni una cuota especial por vacaciones. El precio figura en dólares de Estados Unidos, se carga a una tarjeta, y su banco lo pasa a soles con el cambio de ese día.
+Las tarjetas de esta sección muestran la cuota mensual de siempre, pensada para ocho clases. El verano intensivo, con cuatro o cinco sesiones por semana, se cotiza aparte: el mentor le da la cifra antes de la primera clase intensiva y usted acepta o no. No hay matrícula. El precio va en dólares de Estados Unidos, se carga a una tarjeta y su banco lo pasa a soles con el cambio de ese día.
 
-- Primera clase gratis: Gratis. Una sesión completa con un mentor. Recomendación de curso y de reto inicial. No se piden datos de pago.
-- Clase grupal: USD 100 al mes. Grupo de quince a veinte adolescentes. El mismo mentor hasta el final del curso. Dos sesiones en vivo cada semana. Pago mensual, sin permanencia.
+- Primera clase gratis: Gratis. Una sesión completa con un mentor. Recomendación de carril y de reto inicial. No se piden datos de pago.
+- Clase grupal: USD 100 al mes. Grupo de quince a veinte adolescentes. El mismo mentor hasta el final del curso. Cuota mostrada: ocho clases al mes. Verano: 4 o 5 sesiones por semana.
 - Clases individuales: USD 150 al mes. El estudiante y su mentor, solos. Ritmo y retos a la medida. Horario que la familia decide.
 
 ## Vacaciones útiles de programación en Chorrillos: preguntas frecuentes
@@ -294,9 +333,13 @@ Desde 1° de secundaria, alrededor de los 12 años. Los chicos de 4° y 5° pued
 
 No hay una fecha común. Cada estudiante empieza la semana que quiera; en 2026 el último tramo de clases del colegio termina el 18 de diciembre según la RM 501-2025-MINEDU, y se puede arrancar desde entonces o en cualquier semana de 2027.
 
-### ¿Es un taller de verano con duración fija?
+### ¿Cuántas clases por semana son en verano y cuánto se avanza?
 
-No. Son nuestras clases mensuales de siempre, que se pueden empezar en vacaciones. Sugerimos un plan propio de cuatro retos, pero el estudiante decide cuánto dura su verano de programación y si sigue durante el año escolar.
+De cuatro a cinco por semana. En diez semanas eso da de 40 a 50 clases, por cálculo nuestro: alcanza para completar un curso corto, como vibe coding o Orange, y para hacer cerca de la mitad de uno largo, como Python para adolescentes, que luego sigue con el colegio.
+
+### ¿Puede elegir algo distinto de Python?
+
+Sí. Python e IA es el carril que recomendamos, pero el adolescente puede tomar al ritmo de verano cualquier curso del catálogo: algoritmos (DSA), web full stack, apps con React Native, Java, C++, videojuegos con Unity, vibe coding o matemáticas.
 
 ### ¿A qué hora son las clases?
 
@@ -314,9 +357,9 @@ No preparan para un examen de admisión, que en el Perú se rinde en castellano 
 
 Una computadora o laptop con cámara y micrófono, audífonos y buena conexión. Los programas que usamos son gratuitos. El celular no alcanza para escribir código.
 
-### ¿Cómo se paga?
+### ¿Cuánto cuesta el verano y cómo se paga?
 
-Con tarjeta, cada mes, en dólares estadounidenses; el banco hace la conversión. Al terminar un curso el estudiante recibe nuestro certificado de finalización, que no es un documento oficial del sistema educativo peruano.
+El costo de cuatro o cinco clases semanales lo comunica el mentor antes de la primera clase intensiva; en la página solo aparece la cuota normal de ocho clases al mes. Se paga con tarjeta, en dólares estadounidenses, y el banco hace la conversión. Al terminar un curso el estudiante recibe nuestro certificado de finalización, que no es un documento oficial del sistema educativo peruano.
 
 ## Otras guías que pueden servirle
 

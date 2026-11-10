@@ -1,9 +1,12 @@
-// SHIP: district (vacaciones útiles) | teens of Chorrillos: a secundaria summer of Python beside the district's sport | a stack (append and pop) that checks whether brackets are balanced
+// SHIP: district (vacaciones útiles) | Chorrillos teens: Python e IA or DSA, web, apps, 4-5 classes a week | a stack (append and pop) that checks whether brackets are balanced
 'use strict';
 // Vacaciones útiles de programación en Chorrillos (ag- Spanish district door, Peru cluster row PE207, P2, hubGroup lima).
 // Spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md; writer brief docs/superpowers/plans/2026-11-09-pe-writer-brief.md
-// (rule "Vacaciones útiles pages": ordinary live classes sold as a summer start, our own suggested plan, no invented camp
-// length, start date or price). Owner 2026-11-09: "make sure all our classes are live online in english". Owner 2026-11-08:
+// section "Summer offer (owner 2026-11-10)", reworked 10 November 2026: carril 1 = Summer Python and AI for teens
+// (python-complete-masterclass-teens, then ai-ml-masterclass-teens or data-science from 14); carril 2 = any catalogue course
+// (DSA, full-stack web, React Native apps, Java, C++, Unity games, vibe coding, PCEP, Orange, maths); both live, online and
+// in English at 4 to 5 classes a week, group or one to one, flexible hours; the fee for that pace is agreed with the mentor,
+// first class free, no summer price typed. All verified facts, sources and the bracket lesson are kept. Owner 2026-11-09: "make sure all our classes are live online in english". Owner 2026-11-08:
 // timing flexible, any time. Formal "usted"; fees only through the template (USD anchors); no soles, no typed figure.
 // Angle: this page is written for the adolescents of Chorrillos (1° to 5° de secundaria) and their parents, not for small
 // children (the San Juan de Lurigancho page covers primaria). Spine: what the Municipalidad de Chorrillos itself published
@@ -41,7 +44,11 @@
 //  EF EPI 2025: Lima 555 (high band from 550). Time: America/Lima UTC-5 all year; India UTC+5:30 (10 h 30 min ahead).
 // Our own calculations (python3 -I): 32037 / 359715 = 8.9 % and 30077 / 359715 = 8.4 % of the censused population;
 //    35 hours x 45 minutes = 1,575 minutes (26 h 15 min) a week of secundaria with no computing area; 2 x 4 = 8 classes a
-//    month in a group (template), so four challenges at about two weeks each is our estimate, not a fixed course length.
+//    month in a group (template). Summer (ours): 4 to 5 a week, so each challenge (about 4 classes) takes about a week.
+//    Course sizes from our own course pages (content/courses/data, "duration"), classes = weeks x 2, summer = 10 weeks x 4
+//    to 5 = 40 to 50: vibe coding teens 12 weeks = 24 classes (24/5 = 4.8, 24/4 = 6 weeks); Orange 24 classes (same); PCEP
+//    half 20 weeks = 40 classes (8 to 10 weeks); Python teens 40-48 weeks = 80-96 (40/80 = 50 %, 50/96 = 52 %); DSA teens
+//    44-52 weeks = 88-104 (38 % to 57 %); full stack teens 48-56 weeks = 96-112 (36 % to 52 %).
 // Our own example (parentesis.py in the src-pages folder), run with python3 -I, exact output:
 //    True (2 + 3) * [4 - 1] / True {[()]} / False (] / False ((1 + 2) / True print(len([1, 2]))
 //    (Changed on 9 Nov 2026 from a ranking-with-ties lesson because the San Borja sibling uses that family.)
@@ -89,26 +96,26 @@ module.exports = {
   parents: [{ slug: 'coding-and-ai-classes-in-peru', name: 'Peru' }],
   routeLabel: 'Vacaciones útiles de programación en Chorrillos',
   title: 'Vacaciones útiles de programación en Chorrillos para secundaria',
-  description: 'Programación en vacaciones útiles para adolescentes de Chorrillos, de 1° a 5° de secundaria: Python en vivo, en línea y en inglés, desde casa y a la hora que elijan.',
-  ogDescription: 'Un verano de Python para chicos y chicas de secundaria en Chorrillos: los talleres que anunció el municipio, lo que el colegio no enseña, cuatro retos de verano y un revisor de paréntesis en Python.',
-  twitterDescription: 'Vacaciones útiles de programación para adolescentes de Chorrillos: Python en vivo y en inglés, sin salir de casa.',
+  description: 'Verano de programación para secundaria en Chorrillos: Python e IA, o algoritmos, web o apps, de 4 a 5 clases por semana, en vivo, en línea y en inglés.',
+  ogDescription: 'Verano intensivo para secundaria en Chorrillos: Python e IA o el curso que elijan, cuatro o cinco clases por semana, cuánto avanza cada curso y un revisor de paréntesis en Python.',
+  twitterDescription: 'Chorrillos, secundaria: Python e IA, DSA, web o apps en verano, de 4 a 5 clases por semana, en vivo y en inglés.',
   pageName: 'Vacaciones útiles de programación en Chorrillos',
-  webPageDescription: 'Guía para adolescentes de secundaria de Chorrillos y sus familias sobre unas vacaciones útiles de programación: los talleres de verano 2026 que anunció la Municipalidad de Chorrillos, la población adolescente del distrito según los Censos Nacionales 2025 del INEI, el plan de estudios de secundaria del CNEB, el piloto de Python del MINEDU, un plan de retos propio y un ejercicio de Python escrito por nosotros.',
-  courseDescription: 'Clases en vivo y en línea de Python, desarrollo de juegos, datos e inteligencia artificial para adolescentes de 1° a 5° de secundaria en Chorrillos, dictadas solo en inglés, que pueden empezar en el verano: en grupo o individuales, a cualquier hora.',
+  webPageDescription: 'Guía para adolescentes de secundaria de Chorrillos y sus familias sobre unas vacaciones útiles de programación: los talleres de verano 2026 que anunció la Municipalidad de Chorrillos, la población adolescente del distrito según los Censos Nacionales 2025 del INEI, el plan de estudios de secundaria del CNEB, el piloto de Python del MINEDU, los dos carriles de verano (Python e IA o un curso a elección) a cuatro o cinco clases por semana, cuánto avanza cada curso en diez semanas, un plan de retos propio y un ejercicio de Python escrito por nosotros.',
+  courseDescription: 'Verano intensivo de programación para adolescentes de 1° a 5° de secundaria en Chorrillos, en vivo, en línea y solo en inglés: Python e IA, o algoritmos, web full stack, apps, Java o C++, de 4 a 5 clases por semana, en grupo o individual y a cualquier hora.',
   crumbs: [{ name: 'Cursos', href: '/courses' }, { name: 'Perú', href: '/coding-and-ai-classes-in-peru' }],
   crumbLabel: 'Vacaciones útiles, Chorrillos',
   navLinks: [
     { href: '/coding-and-ai-classes-in-peru', label: 'Perú' },
+    { href: '#carriles', label: 'Dos carriles' },
     { href: '#verano-municipal', label: 'Verano en el distrito' },
     { href: '#secundaria', label: 'Lo que falta' },
     { href: '#retos', label: 'Cuatro retos' },
-    { href: '#pila', label: 'Ejercicio' },
-    { href: '#reloj', label: 'Horarios' }
+    { href: '#pila', label: 'Ejercicio' }
   ],
   eyebrow: 'Lima &middot; Chorrillos &middot; Secundaria en verano',
   h1: 'Vacaciones útiles de programación en Chorrillos, para chicos de secundaria',
-  lede: 'Entre la playa, el deporte y las reuniones con amigos, a un adolescente de Chorrillos le sobran horas en enero y febrero. Si alguna de esas horas la quiere usar para aprender a programar de verdad, esta página le explica cómo hacerlo desde casa, en inglés y con un mentor, y qué puede tener listo antes de volver al colegio.',
-  secondaryCta: { href: '#retos', label: 'Ver los cuatro retos de verano' },
+  lede: 'Entre la playa, el deporte y las reuniones con amigos, a un adolescente de Chorrillos le sobran horas en enero y febrero. Si quiere invertir varias de ellas en aprender a programar en serio, aquí tiene un verano intensivo pensado para secundaria: Python e IA o el curso que él mismo escoja, cuatro o cinco clases por semana desde casa, en inglés y con un mentor.',
+  secondaryCta: { href: '#carriles', label: 'Ver los dos carriles de verano' },
   wa: 'Hola Modern Age Coders, escribo desde Chorrillos. Mi hijo o hija está en secundaria y quiere aprender a programar estas vacaciones. ¿Podemos reservar una clase gratis?',
   heroNote: 'Clases en vivo desde 2020 &middot; más de 10,000 alumnos en todo el mundo &middot; código real, explicado en inglés, sin copiar respuestas',
   spec: [
@@ -116,24 +123,58 @@ module.exports = {
     ['Lenguajes', 'Python primero; después JavaScript, Java o C# para juegos'],
     ['Desde dónde', 'Su casa en Chorrillos, por videollamada'],
     ['Modalidad', 'Grupo de quince a veinte adolescentes, o clases individuales'],
-    ['Inicio', 'La semana que el estudiante elija, en verano o durante el año'],
+    ['Ritmo de verano', 'De 4 a 5 clases por semana, desde la semana que el estudiante elija'],
     ['Clase de prueba', 'Sin costo y sin tarjeta']
   ],
   capsuleQ: 'La respuesta corta',
-  capsule: 'Sí. Un adolescente de Chorrillos puede dedicar sus vacaciones útiles a la programación sin moverse de casa: en Modern Age Coders las clases son en vivo, en línea y en inglés, con un mentor que enseña desde la India y que explica cada línea de código con calma. Para secundaria empezamos con Python y seguimos con juegos, datos o inteligencia artificial. Puede ser en grupo o uno a uno, cualquier día del verano y a la hora que el chico prefiera, y la primera clase no se paga.',
+  capsule: 'Sí. Un adolescente de Chorrillos puede hacer de sus vacaciones un verano intensivo de programación desde casa, por uno de dos carriles. El principal es Python e IA: Python bien aprendido y después inteligencia artificial o ciencia de datos. El otro es el curso que el propio chico escoja, como algoritmos (DSA), desarrollo web full stack o apps. En Modern Age Coders las clases son en vivo, en línea y en inglés, de 4 a 5 clases por semana, solo o en grupo, a la hora que él prefiera. El precio de ese ritmo se pacta con el mentor; la primera clase no se paga.',
 
   picks: {
     eyebrow: 'Por dónde empezar',
     h2: '¿Qué curso de programación conviene a un chico de secundaria en verano?',
-    lede: 'Casi siempre Python. Después, según lo que le guste: los videojuegos o los datos y la inteligencia artificial.',
+    lede: 'Casi siempre Python, que es el carril 1. Para quien ya tiene una meta, dos cursos del carril 2 que piden muchos adolescentes: algoritmos y desarrollo web completo.',
     items: [
-      { course: 'python-complete-masterclass-teens', code: 'VUPC / 01', title: 'Python, de cero a proyectos', alt: 'Imagen del curso de Python para adolescentes', note: 'El punto de partida de casi todos. Variables, listas, funciones y archivos, con ejercicios como el revisor de paréntesis de esta página, para chicos de 13 a 18 años.' },
-      { course: 'complete-game-development-masterclass-for-teens', code: 'VUPC / 02', title: 'Videojuegos con Unity y C#', alt: 'Imagen del curso de desarrollo de videojuegos para adolescentes', note: 'Para quien pasa el verano jugando y quiere saber cómo se hace un juego por dentro: escenas, física, puntajes y una versión publicable.' },
-      { course: 'data-science-course-for-teens-python-data', code: 'VUPC / 03', title: 'Ciencia de datos con Python', alt: 'Imagen del curso de ciencia de datos para adolescentes', note: 'Desde los 14 años. Tablas, gráficos y un primer modelo que aprende de datos, con la estadística explicada paso a paso.' }
+      { course: 'python-complete-masterclass-teens', code: 'VUPC / 01', title: 'Carril 1: Python, de cero a proyectos', alt: 'Imagen del curso de Python para adolescentes', note: 'De 13 a 18 años. Variables, listas, funciones y archivos, con ejercicios como el revisor de paréntesis de esta página; después, la puerta a la IA. Un verano intensivo de diez semanas deja hecha cerca de la mitad.' },
+      { course: 'problem-solving-dsa-masterclass-teens', code: 'VUPC / 02', title: 'Carril 2: algoritmos y estructuras de datos', alt: 'Imagen del curso de resolución de problemas y estructuras de datos para adolescentes', note: 'Para el que disfruta los acertijos y piensa en ingeniería u olimpiadas: pilas, colas, búsquedas y ordenamientos, siempre con la pregunta de cuánto tarda cada solución.' },
+      { course: 'full-stack-web-development-teens-masterclass', code: 'VUPC / 03', title: 'Carril 2: web completa', alt: 'Imagen del curso de desarrollo web full stack para adolescentes', note: 'La parte que se ve y la que guarda los datos, con React y Node. Es el curso más largo de los tres: el verano deja hecho entre un tercio y la mitad.' }
     ]
   },
 
   sections: [
+    {
+      id: 'carriles',
+      eyebrow: 'Verano intensivo para secundaria',
+      h2: '¿Qué puede estudiar un adolescente de Chorrillos estas vacaciones?',
+      lede: 'Dos carriles, los dos en vivo y en inglés, y en ambos el ritmo sube a cuatro o cinco clases por semana: más del doble que durante el colegio. Esa frecuencia es lo que hace que un verano se note en marzo.',
+      body: [
+        { kind: 'two',
+          leftH3: 'Carril 1: Python e IA',
+          left: [
+            'Primero <a class="ag-inline-link" href="/courses/python-complete-masterclass-teens">Python para adolescentes</a>, completo y sin saltos: variables, listas, funciones, archivos y la pila del ejercicio de esta página. Con esa base, el estudiante sigue con IA y aprendizaje automático o, si ya cumplió 14, con ciencia de datos.',
+            'Python es también el lenguaje que escogió el piloto del MINEDU que se describe más abajo; Modern Age Coders no participa en él. En clase solo usamos herramientas de IA permitidas para menores de 18 años.'
+          ],
+          rightH3: 'Carril 2: el curso que él escoja',
+          right: [
+            'Algoritmos y estructuras de datos (DSA) para quien piensa en olimpiadas o en ingeniería; desarrollo web full stack con React y Node; apps con React Native; Java, C++, videojuegos con Unity, vibe coding, preparación del PCEP o matemáticas.',
+            'Aquí la decisión es del adolescente. Si el curso que quiere está por encima de su nivel, el mentor se lo dice en la clase de prueba y le propone el paso previo, sin rodeos.'
+          ] },
+        { kind: 'table', mt: true, numCols: [2], caption: 'Cuánto avanza cada curso en un verano de diez semanas a 4 o 5 clases semanales (cálculo nuestro)', head: ['Curso de ejemplo', 'Duración en el año escolar, a 2 clases por semana', 'Clases aproximadas', 'En el verano intensivo'], rows: [
+          ['Vibe coding para adolescentes', '12 semanas', '24', 'Se completa en unas 5 a 6 semanas'],
+          ['Minería de datos con Orange', '12 semanas', '24', 'Se completa en unas 5 a 6 semanas'],
+          ['Tramo PCEP del curso PCEP y PCAP', '20 semanas', '40', 'Se completa en 8 a 10 semanas'],
+          ['Python para adolescentes', '40 a 48 semanas', '80 a 96', 'Cerca de la mitad; sigue en marzo'],
+          ['Algoritmos y estructuras de datos', '44 a 52 semanas', '88 a 104', 'Cerca de la mitad; sigue en marzo'],
+          ['Web full stack', '48 a 56 semanas', '96 a 112', 'Entre un tercio y la mitad; sigue en marzo']
+        ] },
+        { kind: 'source', html: 'Duraciones tomadas de nuestras propias páginas de curso; las clases son semanas por dos y el avance de verano compara esas cifras con 40 a 50 clases (diez semanas por cuatro o cinco). Cálculo nuestro, no un calendario: ningún curso largo se termina en un verano y no se lo prometemos a nadie. El examen PCEP lo organiza Python Institute, aparte, y no prometemos nota.' },
+        { kind: 'table', mt: true, numCols: [], caption: 'Qué carril va con cada grado de secundaria (orientación nuestra)', head: ['Grado', 'Carril 1', 'Carril 2, ideas'], rows: [
+          ['1° y 2° de secundaria, 12 a 14 años', 'Python para adolescentes desde los 13; a los 12, el curso infantil de Python e IA', 'Vibe coding, JavaScript para la web, videojuegos'],
+          ['3° de secundaria, 14 a 15 años', 'Python y, con la base lista, ciencia de datos', 'Apps con React Native, Java, Unity'],
+          ['4° y 5° de secundaria, 15 a 17 años', 'Python a fondo y, después, el curso de IA y aprendizaje automático', 'DSA, web full stack, PCEP, C++']
+        ] },
+        { kind: 'p', mt: true, html: 'El precio del ritmo de verano no figura en esta página. Antes de la primera clase intensiva, el mentor le dice a la familia cuánto cuestan cuatro o cinco sesiones semanales y la familia decide; como referencia, más abajo se ve la mensualidad normal, que corresponde a ocho clases. La clase de prueba es gratis en cualquiera de los dos carriles.' }
+      ]
+    },
     {
       id: 'verano-municipal',
       eyebrow: 'Verano en el distrito',
@@ -219,10 +260,10 @@ module.exports = {
           ['3', 'Funciones y archivos CSV', 'Un programa que guarda y vuelve a leer sus datos sin perderlos'],
           ['4', 'Diseño de un proyecto propio', 'Un juego, un quiz o una herramienta que resuelve algo de su vida diaria']
         ] },
-        { kind: 'source', html: 'Plan nuestro. Con dos clases en vivo por semana, cada reto suele tomar unas dos semanas (estimación nuestra, no una duración fija); en clases individuales el ritmo lo marca el estudiante. Al terminar el cuarto reto puede seguir durante el año escolar, bajar la frecuencia o parar: el pago es mes a mes.' },
+        { kind: 'source', html: 'Plan nuestro para el arranque del carril 1. A cuatro o cinco clases por semana, cada reto suele tomar alrededor de una semana (estimación nuestra); en clases individuales el ritmo lo marca el estudiante. Terminados los cuatro, el resto del verano sigue el curso elegido, y en marzo se puede continuar a dos clases por semana o parar.' },
         { kind: 'ol', mt: true, items: [
           '<strong>Una clase de prueba.</strong> El mentor le pide al adolescente que lea un programa corto en voz alta y diga qué cree que hace. Con eso sabe por qué reto empezar.',
-          '<strong>Escoger el formato.</strong> Grupo con chicos de su edad o clases uno a uno, y un horario de verano que no choque con la playa ni con los talleres del distrito.',
+          '<strong>Escoger carril, formato y ritmo.</strong> Python e IA o un curso a elección; grupo con chicos de su edad o uno a uno; cuatro o cinco clases por semana en un horario que no choque con la playa ni con los talleres del distrito.',
           '<strong>Un reto a la vez.</strong> Cada reto tiene una meta clara y un pequeño ejercicio entre clases que se resuelve pensando, no copiando de internet.',
           '<strong>Mostrar el resultado.</strong> Al cerrar cada reto, el estudiante presenta en inglés lo que construyó y responde dos o tres preguntas del mentor.',
           '<strong>Decidir en marzo.</strong> Continuar con el colegio, apuntar a la certificación PCEP en un curso aparte o tomarse un descanso.'
@@ -267,7 +308,7 @@ module.exports = {
             'A esta edad el estudiante maneja su propia agenda. Le recomendamos que la familia acuerde con él la hora de clase y que esa hora se respete como si fuera un entrenamiento.',
             'Los padres reciben un resumen breve de cada etapa. No hace falta que ustedes sepan programar para seguir el avance.'
           ] },
-        { kind: 'p', mt: true, html: 'Sobre el idioma: las clases son en inglés porque el código está escrito en inglés y porque es la lengua de casi toda la documentación técnica. El índice EF EPI 2025 coloca a Lima en el nivel alto de dominio del inglés, con 555 puntos, entre adultos que rinden la prueba de EF. Para un adolescente de secundaria, hablar de su código en inglés dos veces por semana es práctica que el colegio, con tres horas de Inglés a la semana en jornada regular, difícilmente puede darle.' }
+        { kind: 'p', mt: true, html: 'Sobre el idioma: las clases son en inglés porque el código está escrito en inglés y porque es la lengua de casi toda la documentación técnica. El índice EF EPI 2025 coloca a Lima en el nivel alto de dominio del inglés, con 555 puntos, entre adultos que rinden la prueba de EF. Para un adolescente de secundaria, hablar de su código en inglés cuatro o cinco veces por semana es práctica que el colegio, con tres horas de Inglés a la semana en jornada regular, difícilmente puede darle.' }
       ]
     },
     {
@@ -311,7 +352,7 @@ module.exports = {
   catalogue: {
     eyebrow: 'Más cursos',
     h2: '¿Qué más puede estudiar un adolescente después del verano?',
-    lede: 'Nueve opciones para secundaria, todas en vivo y en inglés, que continúan sin cortes al terminar las vacaciones.',
+    lede: 'Nueve opciones más para el carril 2, todas en vivo y en inglés; admiten el ritmo intensivo de verano y continúan sin cortes en marzo.',
     bands: [
       { num: 'I', h3: 'Lenguajes', sub: 'De 13 a 18 años', courses: [
         { code: 'VUPC / LENG / 01', slug: 'javascript-course-for-teens-beginners-interactive-web', title: 'JavaScript y la web', blurb: 'Botones, animaciones y juegos que corren en cualquier navegador.' },
@@ -326,7 +367,7 @@ module.exports = {
       { num: 'III', h3: 'Metas más altas', sub: 'De 14 a 18 años', courses: [
         { code: 'VUPC / META / 01', slug: 'pcep-pcap-python-certification-course', title: 'Certificación PCEP y PCAP', blurb: 'Preparación para los exámenes de Python Institute, sin promesas de nota.' },
         { code: 'VUPC / META / 02', slug: 'competitive-programming-for-teens-course', title: 'Programación competitiva', blurb: 'Algoritmos y problemas con tiempo límite, como en una olimpiada.' },
-        { code: 'VUPC / META / 03', slug: 'problem-solving-dsa-masterclass-teens', title: 'Algoritmos y estructuras', blurb: 'Lógica, estructuras de datos y resolución de problemas paso a paso.' }
+        { code: 'VUPC / META / 03', slug: 'data-science-course-for-teens-python-data', title: 'Ciencia de datos', blurb: 'Desde los 14 años: tablas, gráficos y un primer modelo, con la estadística explicada.' }
       ] }
     ]
   },
@@ -338,7 +379,7 @@ module.exports = {
     slots: [
       { time: 'Media mañana', l: 'Después de dormir un poco más, antes de bajar a la playa.' },
       { time: 'Tarde', l: 'Al volver del taller deportivo o del mar.' },
-      { time: 'Noche', l: 'Para el adolescente que rinde mejor cuando la casa está en calma.' }
+      { time: 'Noche', l: 'Para el adolescente que rinde más cuando la casa está en calma.' }
     ],
     cells: [
       { h3: 'Mentor fijo', p: 'Una misma persona acompaña al estudiante de la primera a la última clase.' },
@@ -356,9 +397,9 @@ module.exports = {
 
   fees: {
     h2: '¿Cuánto cuesta un verano de programación?',
-    lede: 'Lo mismo que cualquier mes del año: no cobramos matrícula ni una cuota especial por vacaciones. El precio figura en dólares de Estados Unidos, se carga a una tarjeta, y su banco lo pasa a soles con el cambio de ese día.',
-    free: ['Una sesión completa con un mentor', 'Recomendación de curso y de reto inicial', 'No se piden datos de pago'],
-    group: ['Grupo de quince a veinte adolescentes', 'El mismo mentor hasta el final del curso', 'Dos sesiones en vivo cada semana', 'Pago mensual, sin permanencia'],
+    lede: 'Las tarjetas de esta sección muestran la cuota mensual de siempre, pensada para ocho clases. El verano intensivo, con cuatro o cinco sesiones por semana, se cotiza aparte: el mentor le da la cifra antes de la primera clase intensiva y usted acepta o no. No hay matrícula. El precio va en dólares de Estados Unidos, se carga a una tarjeta y su banco lo pasa a soles con el cambio de ese día.',
+    free: ['Una sesión completa con un mentor', 'Recomendación de carril y de reto inicial', 'No se piden datos de pago'],
+    group: ['Grupo de quince a veinte adolescentes', 'El mismo mentor hasta el final del curso', 'Cuota mostrada: ocho clases al mes', 'Verano: 4 o 5 sesiones por semana'],
     one: ['El estudiante y su mentor, solos', 'Ritmo y retos a la medida', 'Horario que la familia decide']
   },
 
@@ -370,12 +411,13 @@ module.exports = {
       { q: '¿Mi hijo necesita saber inglés para empezar?', a: 'Necesita entender frases sencillas, como las que ya ve en el colegio en las horas de Inglés. El resto se aprende en clase: el mentor escribe en pantalla las palabras clave y comprueba que el estudiante las entendió antes de avanzar.' },
       { q: '¿Desde qué grado de secundaria se puede empezar?', a: 'Desde 1° de secundaria, alrededor de los 12 años. Los chicos de 4° y 5° pueden ir más rápido y, si quieren una meta concreta, preparar después la certificación PCEP en un curso aparte.' },
       { q: '¿Cuándo empiezan las clases de verano?', a: 'No hay una fecha común. Cada estudiante empieza la semana que quiera; en 2026 el último tramo de clases del colegio termina el 18 de diciembre según la RM 501-2025-MINEDU, y se puede arrancar desde entonces o en cualquier semana de 2027.' },
-      { q: '¿Es un taller de verano con duración fija?', a: 'No. Son nuestras clases mensuales de siempre, que se pueden empezar en vacaciones. Sugerimos un plan propio de cuatro retos, pero el estudiante decide cuánto dura su verano de programación y si sigue durante el año escolar.' },
+      { q: '¿Cuántas clases por semana son en verano y cuánto se avanza?', a: 'De cuatro a cinco por semana. En diez semanas eso da de 40 a 50 clases, por cálculo nuestro: alcanza para completar un curso corto, como vibe coding o Orange, y para hacer cerca de la mitad de uno largo, como Python para adolescentes, que luego sigue con el colegio.' },
+      { q: '¿Puede elegir algo distinto de Python?', a: 'Sí. Python e IA es el carril que recomendamos, pero el adolescente puede tomar al ritmo de verano cualquier curso del catálogo: algoritmos (DSA), web full stack, apps con React Native, Java, C++, videojuegos con Unity, vibe coding o matemáticas.' },
       { q: '¿A qué hora son las clases?', a: 'Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por la diferencia fija de diez horas y media, las 8:00 p. m. en Chorrillos son las 6:30 a. m. del día siguiente en la India.' },
       { q: '¿Tienen relación con la Municipalidad de Chorrillos?', a: 'Ninguna. Somos una empresa independiente y no organizamos ni promocionamos los talleres municipales. Citamos lo que la municipalidad publicó en gob.pe en enero de 2026 para que las familias tengan la información completa.' },
       { q: '¿Las clases ayudan con el examen de admisión a la universidad?', a: 'No preparan para un examen de admisión, que en el Perú se rinde en castellano y lo decide cada universidad. Lo que sí desarrollan es razonamiento lógico y matemático, que sirve en cualquier carrera de ciencias o ingeniería. No prometemos ningún resultado de admisión.' },
       { q: '¿Qué necesita en casa?', a: 'Una computadora o laptop con cámara y micrófono, audífonos y buena conexión. Los programas que usamos son gratuitos. El celular no alcanza para escribir código.' },
-      { q: '¿Cómo se paga?', a: 'Con tarjeta, cada mes, en dólares estadounidenses; el banco hace la conversión. Al terminar un curso el estudiante recibe nuestro certificado de finalización, que no es un documento oficial del sistema educativo peruano.' }
+      { q: '¿Cuánto cuesta el verano y cómo se paga?', a: 'El costo de cuatro o cinco clases semanales lo comunica el mentor antes de la primera clase intensiva; en la página solo aparece la cuota normal de ocho clases al mes. Se paga con tarjeta, en dólares estadounidenses, y el banco hace la conversión. Al terminar un curso el estudiante recibe nuestro certificado de finalización, que no es un documento oficial del sistema educativo peruano.' }
     ]
   },
 
@@ -395,7 +437,7 @@ module.exports = {
 
   start: {
     h2: 'Reserve una clase de prueba para su hijo adolescente',
-    lede: 'Indique la hora en el reloj de Perú. En la sesión, el mentor le muestra un programa corto al estudiante, le pide que adivine qué hace y, según cómo razona, le propone el reto y el curso con que conviene empezar el verano.',
+    lede: 'Indique la hora en el reloj de Perú. En la sesión, el mentor le muestra un programa corto al estudiante y le pide que adivine qué hace; según cómo razona, le propone un carril, el curso de arranque y si conviene ir a cuatro o a cinco clases por semana, con la tarifa de ese ritmo.',
     readFirst: 'Para conocer el método antes, lea <a class="ag-inline-link" href="/how-we-teach">How we teach</a> o explore <a class="ag-inline-link" href="/courses">All courses</a>; ambas páginas están en inglés.',
     note: 'Enseñamos en línea, en vivo y en inglés, desde la India. Por WhatsApp, en cambio, puede escribirnos en castellano.',
     formNote: 'Sin costo, sin tarjeta, sin compromiso.'
@@ -405,8 +447,8 @@ module.exports = {
     cols: [
       { h4: 'Cursos para secundaria', links: [
         { href: '/courses/python-complete-masterclass-teens', label: 'Python para adolescentes' },
-        { href: '/courses/complete-game-development-masterclass-for-teens', label: 'Videojuegos con Unity' },
-        { href: '/courses/data-science-course-for-teens-python-data', label: 'Ciencia de datos' },
+        { href: '/courses/problem-solving-dsa-masterclass-teens', label: 'Algoritmos (DSA)' },
+        { href: '/courses/full-stack-web-development-teens-masterclass', label: 'Web full stack' },
         { href: '/courses', label: 'Todos los cursos' }
       ] },
       { h4: 'Más información', links: [
@@ -428,7 +470,7 @@ module.exports = {
 `,
 
   dossier: {
-    curriculumAuthority: 'Municipalidad Distrital de Chorrillos on gob.pe (three notes of 6 January 2026 on the summer 2026 sport, aquatic and cultural workshops); INEI Censos Nacionales 2025 (Lima Metropolitana demographic workbook, Cuadros 1 and 3); MINEDU CNEB Tabla N.° 8 (secundaria, Jornada Escolar Regular); MINEDU note of 24 July 2025 on Fábrica de Programadores; RM 501-2025-MINEDU Tabla 1; EF EPI 2025; tzdata. The four-challenge plan, the four closing tests and the bracket-checker exercise are ours.',
+    curriculumAuthority: 'Municipalidad Distrital de Chorrillos on gob.pe (three notes of 6 January 2026 on the summer 2026 sport, aquatic and cultural workshops); INEI Censos Nacionales 2025 (Lima Metropolitana demographic workbook, Cuadros 1 and 3); MINEDU CNEB Tabla N.° 8 (secundaria, Jornada Escolar Regular); MINEDU note of 24 July 2025 on Fábrica de Programadores; RM 501-2025-MINEDU Tabla 1; EF EPI 2025; tzdata. The two summer lanes as presented, the course-progress table (durations from our own course pages, arithmetic ours), the lane-by-grade table, the four-challenge plan, the four closing tests and the bracket-checker exercise are ours.',
     localProject: 'A bracket checker for a secundaria student in Chorrillos: a Python function pushes every opening bracket onto a list used as a stack and pops it on each closing one; it prints True for (2 + 3) * [4 - 1], {[()]} and a real line of Python, False for (] (wrong pair) and for ((1 + 2) (one left open, caught by len(stack) == 0). Run with python3 -I. Lesson family: a stack, push and pop.',
     requiredMentions: ['False ((1 + 2)', 'Talleres deportivos acuáticos verano 2026', 'Mega Plaza Express Cedros', '32,037 chicos y chicas de 12 a 17 años', '377,080 habitantes', 'el undécimo distrito más poblado de los 43', 'Horas semanales de secundaria con Jornada Escolar Regular, por grado', 'Cuatro retos de verano para secundaria', 'Mañana de mar, tarde de código', 'Both symbols are brackets. Why should this one fail?'],
     sources: [
@@ -443,7 +485,7 @@ module.exports = {
     ],
     rejectedClaims: [
       'Spanish-language teaching: refused; every class is live, online and in English only (capsule and FAQ).',
-      'A camp length, start date or price for summer: refused; the four-challenge plan is labelled ours and the fees come from the template.',
+      'A typed summer price, a common start date or a long course finished in one summer: refused; the 4 to 5 classes a week fee is agreed with the mentor, the progress table is labelled ours and says long courses continue in March.',
       'Municipal workshop fees: the gob.pe notes print none, and the page prints none.',
       'Any connection with the Municipalidad de Chorrillos or with MINEDU\'s Fábrica de Programadores: refused; the page says we are not linked to either.',
       'Admission-exam preparation or results: refused; the page says admission exams are in Spanish, decided by each university, and that we promise no result.',

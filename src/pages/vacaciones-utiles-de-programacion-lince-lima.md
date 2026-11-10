@@ -1,10 +1,10 @@
 ---
 title: "Vacaciones útiles de programación y matemáticas en Lince"
-description: "Vacaciones útiles en Lince para niños y adolescentes: programación y matemáticas en clases en vivo, en línea y en inglés, desde casa y en el horario que usted elija."
+description: "Vacaciones útiles en Lince: Python e IA o el curso que su hijo elija, de 4 a 5 clases en vivo por semana, en línea y en inglés, a la hora que usted fije."
 canonical: https://learn.modernagecoders.com/vacaciones-utiles-de-programacion-lince-lima
 source: src/pages/vacaciones-utiles-de-programacion-lince-lima.html
 ---
-> Sí: un niño o adolescente de Lince puede sumar programación y matemáticas a sus vacaciones útiles sin moverse de casa. Modern Age Coders enseña en vivo, en línea y en inglés, con un mentor desde la India que explica despacio y verifica que el estudiante entendió. Hay cursos de Python, lógica, matemáticas de primaria y secundaria, y matemáticas aprendidas programando. Se puede tomar en grupo o uno a uno, empezar cualquier semana del verano y elegir la hora que no choque con los talleres del distrito. La primera sesión es gratuita.
+> Sí: este verano un niño o adolescente de Lince puede seguir una de dos rutas sin moverse de casa. La principal es Python e IA: primero Python y luego proyectos de inteligencia artificial adecuados a su edad. La otra es escoger cualquier curso, como algoritmos (DSA), desarrollo web, apps o matemáticas. Modern Age Coders enseña en vivo, en línea y en inglés, de 4 a 5 clases por semana, en grupo o uno a uno, a la hora que no choque con los talleres del distrito. La tarifa de ese ritmo se acuerda con el mentor y la primera clase es gratis.
 
 [Inicio](/) / [Cursos](/courses) / [Perú](/coding-and-ai-classes-in-peru) / Vacaciones útiles, Lince
 
@@ -12,17 +12,60 @@ Lima · Lince · Programación y matemáticas en verano
 
 # Vacaciones útiles de programación y matemáticas en Lince
 
-Lince tiene una ventaja que pocos distritos ofrecen: talleres municipales de verano gratuitos para los niños que viven en él. Esta página le propone cómo completar ese verano con algo que los talleres no cubren, programación y matemáticas enseñadas en vivo y en inglés, sin salir de casa y en las horas que el taller deja libres.
+Lince tiene algo que pocos distritos ofrecen: talleres municipales de verano gratuitos para los niños que viven en él. Lo nuestro va en otro carril. Un verano intensivo de código desde casa, con dos rutas para escoger, Python e IA o el curso que su hijo quiera, y cuatro o cinco clases en vivo por semana, en inglés, en las horas que el taller deja libres.
 
-En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Edades: De 6 a 17 años, de 1° de primaria a 5° de secundaria; Materias: Programación, matemáticas y matemáticas a través del código; Lugar: Desde su casa en Lince, por videollamada; Agrupación: Grupo de quince a veinte, o clases uno a uno; Comienzo: Libre: la semana que la familia escoja; Sesión de prueba: Gratuita y sin datos de tarjeta. 4.9 de 5 en 547 reseñas de Google.
+En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Edades: De 6 a 17 años, de 1° de primaria a 5° de secundaria; Rutas de verano: Python e IA, o cualquier curso del catálogo, matemáticas incluidas; Lugar: Desde su casa en Lince, por videollamada; Agrupación: Grupo de quince a veinte, o clases uno a uno; Ritmo de verano: De 4 a 5 clases por semana, desde la semana que la familia escoja; Sesión de prueba: Gratuita y sin datos de tarjeta. 4.9 de 5 en 547 reseñas de Google.
 
-## ¿Qué curso combina mejor con un verano de talleres?
+## ¿Con qué curso arranca un verano intensivo en Lince?
 
-Uno que une matemática y código, uno de programación pura y uno de matemáticas para primaria, según lo que su hijo necesite más.
+El primero es la ruta de Python e IA para niños. Los otros dos son ejemplos de la ruta libre: uno para quien disfruta los números y otro para el adolescente que quiere resolver problemas con método.
 
-- [Matemáticas a través del código](/courses/maths-through-coding): De 10 a 15 años. Fracciones, coordenadas, patrones y probabilidad se aprenden escribiendo programas en Python que los ponen a prueba, como el reto del caballo de esta página.
-- [Primeros programas en Python](/courses/python-ai-kids-masterclass): Para chicos que leen y escriben con soltura. Juegos de turnos, preguntas y respuestas, dibujos y pequeños proyectos con inteligencia artificial.
-- [Matemática de primaria](/courses/elementary-mathematics-complete-masterclass): Del primer al quinto grado. Números, operaciones, medidas y problemas, con un diagnóstico inicial en lugar de ubicar al niño solo por su edad.
+- [Ruta 1: Python e IA para niños](/courses/python-ai-kids-masterclass): Para chicos que ya leen y escriben con soltura. Juegos por turnos, dibujos con código y, cuando Python ya se siente natural, pequeños proyectos de inteligencia artificial. A cuatro o cinco clases por semana, el verano cubre la mitad del curso o algo más.
+- [Ruta 2: matemáticas con código](/courses/maths-through-coding): De 10 a 15 años. Fracciones, coordenadas, patrones y probabilidad puestos a prueba con programas en Python, como el tablero del caballo que verá más abajo.
+- [Ruta 2: algoritmos para secundaria](/courses/problem-solving-dsa-masterclass-teens): Para adolescentes de 13 a 18 años. Listas, pilas, búsquedas y ordenamientos, cada uno con su porqué. Es un curso largo: el verano adelanta una buena parte y el resto sigue en marzo.
+
+## ¿Qué ofrece Modern Age Coders a los chicos de Lince este verano?
+
+Dos rutas, las dos en vivo, en línea y en inglés, con arranque libre en cualquier semana del verano de 2027. Lo que cambia frente al año escolar es el ritmo: en lugar de dos clases por semana, cuatro o cinco, para que el verano rinda de verdad.
+
+### Ruta 1: Python e IA de verano
+
+**La ruta que proponemos primero.** Su hijo aprende Python desde cero o desde donde se quedó, y cuando el lenguaje ya no le cuesta pasa a proyectos de inteligencia artificial pensados para su edad: un juego que reconoce patrones, un clasificador sencillo, un análisis de datos propios.
+
+Para niños, el curso es [Python e IA para niños](/courses/python-ai-kids-masterclass). Para adolescentes, Python completo y después IA y aprendizaje automático, o ciencia de datos desde los 14 años. Solo usamos herramientas de IA que la edad del estudiante permite.
+
+### Ruta 2: el curso que su hijo elija
+
+**Cualquier curso del catálogo, al ritmo de verano.** Algoritmos y estructuras de datos (DSA), desarrollo web con HTML y CSS o full stack, apps con bloques o con React Native, Java, C++, videojuegos, Roblox, Scratch, vibe coding y también matemáticas.
+
+En Lince, donde el ajedrez está entre los talleres municipales, muchas familias eligen matemáticas a través del código: el niño que ya calcula jugadas aprende a convertir ese cálculo en un programa.
+
+**Cuántas clases suma el verano según las semanas y el ritmo (cálculo nuestro)**
+
+| Semanas de clase | Con cuatro a la semana | Con cinco a la semana | Referencia: año escolar, dos a la semana |
+|---|---|---|---|
+| 4 semanas | 16 | 20 | 8 |
+| 6 semanas | 24 | 30 | 12 |
+| 8 semanas | 32 | 40 | 16 |
+| 10 semanas | 40 | 50 | 20 |
+
+Cálculo nuestro: semanas multiplicadas por clases por semana. No es un calendario de clases ni una fecha de inicio común. Diez semanas a ese ritmo dan de 40 a 50 clases. Ese volumen alcanza para cerrar los cursos breves del catálogo (Scratch, HTML y CSS, vibe coding de tres meses, preparación del PCEP, Orange). Los extensos, que durante el año escolar toman entre diez y doce meses con dos sesiones semanales, rondan las 80 a 100 clases: el verano cubre cerca de la mitad y el resto se retoma en marzo. Terminar uno de esos en vacaciones no se lo prometemos.
+
+La tarifa no se fija en esta página. El mentor y usted conversan antes de arrancar: si serán cuatro o cinco sesiones semanales y cuánto cuesta ese ritmo. Como referencia, más abajo figura la mensualidad estándar, que equivale a ocho clases al mes. La primera clase, en cualquiera de las dos rutas, es gratis.
+
+## ¿Qué ruta de verano conviene a cada edad?
+
+La edad orienta, pero no decide sola. El mentor lo confirma en la clase gratis, después de ver cómo razona su hijo frente a un problema pequeño.
+
+**Rutas de verano por edad y grado (tabla nuestra)**
+
+| Edad y grado | Ruta 1: Python e IA | Ruta 2: si prefiere elegir |
+|---|---|---|
+| 6 a 8 años, de 1° a 3° de primaria | Primero lógica y bloques; Python cuando lea con soltura | Scratch, bloques para programar, cálculo mental |
+| 9 a 12 años, de 4° de primaria a 1° de secundaria | Python e IA para niños: juegos, dibujos y proyectos de IA | Web para niños, apps con bloques, matemáticas a través del código |
+| 13 a 17 años, de 2° a 5° de secundaria | Python completo, luego IA y aprendizaje automático; datos desde los 14 | Algoritmos (DSA), web full stack, apps con React Native, Java o C++ |
+
+Tabla nuestra, hecha con las edades de los cursos de nuestro catálogo. Los grados son aproximados: en el Perú, la edad de corte y el mes de nacimiento cambian el grado de cada niño.
 
 ## ¿Qué talleres de verano gratuitos organiza la Municipalidad de Lince?
 
@@ -46,13 +89,13 @@ No es un programa pequeño. En la clausura del verano anterior del que la munici
 
 El límite de dos talleres por niño deja horas libres en la semana. Ahí encaja una clase en línea: no ocupa cupo, no necesita traslado y se programa alrededor del horario del parque.
 
-Muchas familias eligen un taller de movimiento, otro artístico y, en casa, dos clases semanales de programación o de matemáticas.
+Una combinación frecuente: un taller de movimiento, otro artístico y, en casa, cuatro o cinco clases de código por semana, cortas y a la misma hora.
 
 ### Somos otra cosa
 
-Modern Age Coders no tiene ninguna relación con la Municipalidad de Lince ni con sus talleres, y nuestras clases no son gratuitas: tienen una mensualidad, que se muestra más abajo.
+Modern Age Coders no tiene ninguna relación con la Municipalidad de Lince ni con sus talleres, y nuestras clases no son gratuitas: solo lo es la primera, y la tarifa del ritmo de verano se acuerda con el mentor.
 
-Mencionamos los talleres municipales porque son, con razón, lo primero que considera una familia de Lince, y porque el verano se arma mejor con toda la información.
+Mencionamos los talleres municipales porque son, con razón, lo primero que considera una familia de Lince, y porque un verano se planifica con más calma cuando se tiene toda la información.
 
 ## ¿Programar ayuda con las matemáticas del colegio?
 
@@ -135,7 +178,7 @@ Un niño que juega ajedrez ya sabe mover el caballo. Programarlo le exige algo m
 
 ## ¿Cómo organizar un verano de programación y matemáticas?
 
-Como una partida de ajedrez: apertura, medio juego y final. Es un plan nuestro, pensado para convivir con los talleres del distrito; no es un curso con fecha de inicio ni con duración cerrada.
+Como una partida de ajedrez: apertura, medio juego y final. Es un plan nuestro para la ruta de Python e IA, pensado para convivir con los talleres del distrito; cada familia lo empieza la semana que quiera.
 
 ### Apertura
 
@@ -149,13 +192,13 @@ El trabajo central: coordenadas, condiciones y funciones, aplicadas a problemas 
 
 Un proyecto propio que reúne todo: un juego de tablero, un generador de ejercicios de matemáticas o una pequeña herramienta. Su hijo lo presenta en inglés a la familia antes de que vuelva el colegio.
 
-Plan nuestro. En grupo, con dos clases por semana, muchas familias completan las tres fases entre enero y marzo; en clases individuales el ritmo se ajusta a su hijo. No es una duración fija: se paga por mes y se puede continuar durante el año escolar o pausar.
+Plan nuestro. A cuatro o cinco clases por semana, las tres fases ocupan un verano de unas diez semanas en la ruta de Python e IA. Si su hijo escoge un curso largo de la ruta 2, el final del verano es un proyecto intermedio y el curso sigue en marzo, de nuevo con dos clases por semana.
 
 1. **Reservar la sesión gratuita** en el horario de Perú que le acomode.
 2. **Conversar con el mentor**, que le hace a su hijo un par de preguntas de lógica y matemáticas en inglés sencillo para ubicar su nivel.
-3. **Elegir curso y formato**: programación, matemáticas o las dos unidas, en grupo o uno a uno.
-4. **Fijar dos horarios semanales** que no choquen con los dos talleres municipales que su hijo haya escogido.
-5. **Revisar en marzo** si continúa con el colegio en marcha, con menos clases o con una pausa.
+3. **Elegir ruta y formato**: Python e IA o un curso a elección, en grupo o uno a uno.
+4. **Acordar el ritmo y la tarifa** con el mentor, cuatro o cinco clases por semana, en horas que no choquen con los dos talleres municipales que su hijo haya escogido.
+5. **Revisar en marzo** si continúa con el colegio en marcha a dos clases por semana o si hace una pausa.
 
 Si su hijo es más pequeño y nunca programó, nuestra guía en castellano sobre [programación para niños de primaria en inglés](/clases-de-programacion-para-ninos-en-ingles) explica cómo se empieza a cada edad. Para ver todos nuestros cursos en el Perú, en inglés, está [Coding and AI classes in Peru](/coding-and-ai-classes-in-peru).
 
@@ -219,7 +262,7 @@ Cuando el resultado parezca correcto, pruebe la esquina. Siempre la esquina.
 
 ## ¿Qué otros cursos de matemáticas y programación hay?
 
-Nueve cursos más, en vivo y en inglés, que se pueden empezar en vacaciones y seguir durante el colegio.
+Nueve cursos más para la ruta libre, en vivo y en inglés; todos admiten el ritmo de verano y siguen durante el colegio.
 
 ### Matemática
 
@@ -242,7 +285,7 @@ De 6 a 12 años
 De 13 a 17 años
 
 - [Python completo](/courses/python-complete-masterclass-teens): De las bases a proyectos con archivos y datos.
-- [Algoritmos](/courses/problem-solving-dsa-masterclass-teens): Estructuras de datos y problemas resueltos con método.
+- [Apps para el celular](/courses/complete-app-development-masterclass-for-teens): Una app real con React Native, de la idea a la pantalla.
 - [Datos con Python](/courses/data-science-course-for-teens-python-data): Estadística aplicada y primeros modelos, desde los 14 años.
 
 ## ¿Cómo se organizan las clases en vacaciones?
@@ -262,11 +305,11 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 
 ## ¿Cuánto cuesta y cómo se paga?
 
-A diferencia de los talleres municipales, nuestras clases tienen una mensualidad, igual en verano que durante el año y sin cuota de inscripción. Se muestra en dólares de Estados Unidos y se paga con tarjeta; la conversión a soles la hace su banco.
+Los talleres del municipio son gratuitos; nuestras clases no. Lo que se ve aquí es la mensualidad estándar, pensada para ocho clases al mes del año escolar. El ritmo de verano, de cuatro a cinco clases por semana, tiene su propia tarifa, que el mentor le propone en la clase gratis y que usted acepta o no. Todo se cobra con tarjeta en dólares de Estados Unidos y su banco lo convierte a soles. La clase de prueba no se cobra.
 
 - Primera clase gratis: Gratis. Sesión de prueba con un mentor. Ubicación de nivel en lógica y matemática. Ningún dato de tarjeta.
-- Clase grupal: USD 100 al mes. Quince a veinte estudiantes de edades cercanas. Mentor fijo durante el curso. Dos clases en vivo a la semana. Mensualidad que se puede cancelar.
-- Clases individuales: USD 150 al mes. Atención solo para su hijo. Programación, matemática o ambas. Horario elegido por la familia.
+- Clase grupal: USD 100 al mes. Quince a veinte estudiantes de edades cercanas. Mentor fijo durante el curso. Tarifa mostrada: ocho clases al mes. En verano, de 4 a 5 clases por semana.
+- Clases individuales: USD 150 al mes. Atención solo para su hijo. Programación, matemática o ambas. Ritmo de verano y horario a su medida.
 
 ## Vacaciones útiles de programación en Lince: preguntas frecuentes
 
@@ -276,11 +319,15 @@ No, se imparten solo en inglés, siempre en vivo y en línea. Muchas familias de
 
 ### ¿Son gratuitas como los talleres de la municipalidad?
 
-No. Los Talleres de Verano de la Municipalidad de Lince son gratuitos para los niños del distrito; nuestras clases tienen una mensualidad. Lo único gratuito es la primera sesión de prueba. No tenemos ninguna relación con la municipalidad.
+No. Los Talleres de Verano de la Municipalidad de Lince son gratuitos para los niños del distrito; nuestras clases se pagan. Lo único gratuito es la primera clase. No tenemos ninguna relación con la municipalidad.
+
+### ¿Qué incluye el verano de Modern Age Coders?
+
+Dos rutas. La de Python e IA, que empieza por Python y sigue con proyectos de inteligencia artificial según la edad, y la ruta libre, en la que su hijo escoge cualquier curso: algoritmos, desarrollo web, apps, Java, C++, videojuegos, Roblox, Scratch, vibe coding o matemáticas.
 
 ### ¿Se pueden combinar con los dos talleres municipales?
 
-Sí. La municipalidad permite hasta dos talleres por niño, y nuestras clases son en línea a la hora que usted elija, así que se acomodan alrededor de ese horario sin traslados.
+Sí. La municipalidad permite hasta dos talleres por niño, y nuestras clases son en línea a la hora que usted elija. Incluso a cuatro o cinco clases por semana, caben alrededor del horario del parque sin traslados.
 
 ### ¿Enseñan matemáticas además de programación?
 
@@ -290,9 +337,13 @@ Sí. Hay cursos de matemática para primaria y para los primeros años de secund
 
 Desde la semana que usted elija. El último bloque lectivo de 2026 cierra el 18 de diciembre de 2026 según la RM 501-2025-MINEDU, y su hijo puede empezar desde esa fecha o cuando prefiera durante 2027, sin esperar a nadie.
 
-### ¿El plan de verano tiene una duración fija?
+### ¿Cuántas clases por semana son y cuánto dura el verano?
 
-No. Proponemos tres fases propias, apertura, medio juego y final, pero son nuestras clases mensuales de siempre: usted decide cuánto dura el verano de su hijo y si continúa en el año escolar.
+De cuatro a cinco clases por semana, durante las semanas que usted decida. Por cálculo nuestro, diez semanas suman de 40 a 50 clases: alcanza para terminar un curso corto, como Scratch o HTML y CSS, y para adelantar más o menos la mitad de uno largo, que sigue en marzo a dos clases por semana.
+
+### ¿Cuánto cuesta el ritmo de verano?
+
+La tarifa de cuatro o cinco clases por semana se conversa con el mentor antes de empezar; en esta página solo verá la mensualidad estándar de ocho clases al mes. Se paga con tarjeta, en dólares estadounidenses, y la primera clase es gratis.
 
 ### ¿A qué hora son las clases?
 
@@ -300,7 +351,7 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 
 ### ¿Sirve para mejorar las notas de matemática?
 
-Ayuda a entender mejor, pero no prometemos notas: el colegio es el que evalúa. Lo que sí trabajamos es el razonamiento detrás de cada procedimiento, que es lo que permite resolver un problema nuevo.
+Ayuda a comprender a fondo, pero no prometemos notas: el colegio es el que evalúa. Lo que sí trabajamos es el razonamiento detrás de cada procedimiento, que es lo que permite resolver un problema nuevo.
 
 ### ¿Qué equipo hace falta?
 
