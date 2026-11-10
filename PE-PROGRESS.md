@@ -155,7 +155,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE044 | coding-classes-in-lima-peru (coco, #7B2436) | market (city) | 5,578 | 1.2% vs online-coding-and-ai-classes-lambayeque-region-peru | Lima Metropolitana: every age and every course across 43 districts, no commute | coverage before comparison: rank stations only on hours all of them reported | 139dc1c5 |
 | PE046 | coding-classes-in-trujillo-peru (cotr, #8F3830) | market (city) | 4,743 | 1.1% vs coding-classes-in-arequipa-peru | Trujillo: a university city, kids to undergraduates, the districts around the centre | concentration: sort, top 1 per cent share of a total, then a like-for-like median | 0ead7c4e |
 | PE047 | coding-classes-in-cusco-peru (cocu, #753000) | market (city) | 4,500 | 1.4% vs coding-classes-in-trujillo-peru | Cusco city: primaria first, what grades 1 to 6 get at school, every age after | digit heaping: n % 10 with a Counter shows which numbers were estimated, not counted | 5aa2e39e |
-| PE048 | coding-classes-in-piura-peru (cpi, #750B00) | market (city) | 4,482 | 1.7% vs coding-classes-in-trujillo-peru | Piura city: learning to code in English while English is still growing | missing days: walk consecutive dates with timedelta; a gap is not a zero | (this commit) |
+| PE048 | coding-classes-in-piura-peru (cpi, #750B00) | market (city) | 4,482 | 1.7% vs coding-classes-in-trujillo-peru | Piura city: learning to code in English while English is still growing | missing days: walk consecutive dates with timedelta; a gap is not a zero | 2d9d9f11 |
+| PE049 | coding-classes-in-chiclayo-peru (coch, #784C34) | market (city) | 4,462 | 2% vs coding-classes-in-trujillo-peru | Chiclayo, a trading city: kids first, then teens and adults who will build and run businesses | ambiguous dates: an unpadded ddmmyyyy has two readings; list both, let a second column decide | (this commit) |
 
 ## Notes
 
