@@ -1119,6 +1119,7 @@ const SLUGS = [
   'online-coding-and-ai-classes-pasco-region-peru',
   'online-coding-and-ai-classes-madre-de-dios-region-peru',
   'roblox-coding-for-kids-peru',
+  'minecraft-coding-for-kids-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2317,6 +2318,7 @@ const LLMS_LABELS = {
   'online-coding-and-ai-classes-pasco-region-peru': 'Online coding and AI classes, Pasco region, Peru',
   'online-coding-and-ai-classes-madre-de-dios-region-peru': 'Online coding and AI classes, Madre de Dios region, Peru',
   'roblox-coding-for-kids-peru': 'Roblox coding for kids in Peru',
+  'minecraft-coding-for-kids-peru': 'Minecraft coding for kids in Peru',
 };
 
 function wireLlms(slugs) {
