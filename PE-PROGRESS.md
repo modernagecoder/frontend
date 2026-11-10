@@ -170,7 +170,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE024 | ai-for-teachers-peru (ate, #034A2E) | market | 4,571 | 2% vs ai-course-for-kids-peru | AI for teachers in Peru: understand AI, check it against your own marking, in English | an evaluation set: a marking helper checked against teacher marks, agreement vs kappa | 22c36fc7 |
 | PE025 | ai-course-for-business-peru (abu, #147175) | market | 4,362 | 1.6% vs remote-tech-job-skills-peru | AI course for business in Peru: owners and teams, what to use first, what rules say, in English | embeddings as cosine similarity: word overlap picks the wrong FAQ, a toy embedding the right one | 2b96de8d |
 | PE026 | vibe-coding-classes-peru (vic, #005C40) | market | 4,289 | 2.1% vs ai-course-for-teens-peru | Vibe coding classes in Peru: building with AI by describing, then proving it works, in English | property testing: 1,000 random bills break an AI-style split that looked right | 3ecf242d |
-| PE029 | maths-tutor-in-english-peru (maen, #007047) | market (en subject door) | 5,567 | 2.2% vs python-course-peru | a maths tutor who teaches in English: diagnose, explain, check | the add-the-tops-and-bottoms fraction error, found with Fraction and an estimate | (this commit) |
+| PE029 | maths-tutor-in-english-peru (maen, #007047) | market (en subject door) | 5,567 | 2.2% vs python-course-peru | a maths tutor who teaches in English: diagnose, explain, check | the add-the-tops-and-bottoms fraction error, found with Fraction and an estimate | 0b623cd9 |
+| PE030 | online-maths-classes-peru (mam, #105E62) | market (en subject door) | 4,893 | 1.9% vs maths-tutor-in-english-peru | online maths classes in Peru: connection, device, live format, school year | percentage points versus per cent, on INEI's household internet figures | (this commit) |
 
 ## Notes
 

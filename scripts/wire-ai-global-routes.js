@@ -1099,6 +1099,7 @@ const SLUGS = [
   'ai-for-teachers-peru',
   'ai-course-for-business-peru',
   'vibe-coding-classes-peru',
+  'online-maths-classes-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2277,6 +2278,7 @@ const LLMS_LABELS = {
   'ai-for-teachers-peru': 'AI for teachers in Peru',
   'ai-course-for-business-peru': 'AI course for business in Peru',
   'vibe-coding-classes-peru': 'Vibe coding classes in Peru',
+  'online-maths-classes-peru': 'Online maths classes in Peru',
 };
 
 function wireLlms(slugs) {
