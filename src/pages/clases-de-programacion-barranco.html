@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Clases de programación en Barranco, en vivo y en inglés</title>
+  <meta name="description" content="Clases de programación en Barranco para adultos de 30, 40 o 70 años y para sus hijos: en vivo, en línea y en inglés, todo el año, del paso de la ofimática al código.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/clases-de-programacion-barranco">
+  <link rel="alternate" type="text/markdown" href="/src/pages/clases-de-programacion-barranco.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#AD3A52">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/clases-de-programacion-barranco">
+  <meta property="og:title" content="Clases de programación en Barranco, en vivo y en inglés">
+  <meta property="og:description" content="En Barranco se gradúan en computación personas de 40 a 70 años. El paso siguiente es programar y usar la IA con criterio. Clases en vivo y en inglés para adultos y familias.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="es_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Clases de programación en Barranco, en vivo y en inglés">
+  <meta name="twitter:description" content="Programación e IA en vivo y en inglés para adultos y familias de Barranco, todo el año y desde casa.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-prb .ag-hero h1 { max-width: 24ch; letter-spacing: -0.006em; }
+.ag-root.ag-prb .ag-capsule { border-left-width: 6px; border-radius: 3px; }
+.ag-root.ag-prb .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-prb .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-prb .ag-steps li { line-height: 1.66; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/clases-de-programacion-barranco#page","url":"https://learn.modernagecoders.com/clases-de-programacion-barranco","name":"Clases de programación en Barranco","description":"Guía para vecinos de Barranco, sobre todo adultos que ya pasaron por un curso de computación u ofimática, y para sus hijos, que quieren aprender a programar durante el año con clases en vivo, en línea y en inglés: lo que la municipalidad publica sobre sus cursos de tecnología para adultos y su jornada de IA, la población del distrito según los Censos Nacionales 2025 del INEI, una ruta de la ofimática al código y una clase de ejemplo en Python, escrita por nosotros, que encuentra los días libres de madre e hija con un solo número por persona.","inLanguage":"es-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Cursos","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Perú","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Programación en Barranco","item":"https://learn.modernagecoders.com/clases-de-programacion-barranco"}]},{"@type":"Course","name":"Clases de programación en Barranco","description":"Clases en vivo y en línea de programación, desarrollo web e inteligencia artificial para vecinos de Barranco, adultos de cualquier edad, jóvenes y escolares, dictadas solo en inglés: HTML, CSS, JavaScript, Python, Godot e IA aplicada, en grupos de quince a veinte o en sesiones individuales, todo el año.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/clases-de-programacion-barranco"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/clases-de-programacion-barranco"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/clases-de-programacion-barranco"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Las clases son en español?","acceptedAnswer":{"@type":"Answer","text":"No. Adultos y menores reciben la clase en inglés, siempre en tiempo real y a través de internet. Muchos alumnos adultos lo ven como un regalo, porque practican hablar inglés con un fin concreto. El mentor habla con calma, repite y escribe en el chat. El EF EPI 2025 da a Lima un nivel alto de inglés, 555 puntos."}},{"@type":"Question","name":"¿Soy demasiado mayor para aprender a programar?","acceptedAnswer":{"@type":"Answer","text":"No. En Barranco, según la propia municipalidad, se graduaron en computación personas de 40 a 70 años. Nosotros enseñamos programación a adultos de todas las edades, a un ritmo tranquilo y explicando cada término."}},{"@type":"Question","name":"¿Necesito saber computación antes?","acceptedAnswer":{"@type":"Answer","text":"Ayuda manejar el teclado, las carpetas y el correo, que es lo que enseña un curso de ofimática. Si no, el mentor empieza por ahí en las primeras clases."}},{"@type":"Question","name":"¿Cuántas personas viven en Barranco?","acceptedAnswer":{"@type":"Answer","text":"Los Censos Nacionales 2025 del INEI registran 42,986 habitantes. De los 41,076 censados, 10,819 tienen entre 30 y 44 años, el tramo más numeroso."}},{"@type":"Question","name":"¿La Municipalidad de Barranco enseña programación?","acceptedAnswer":{"@type":"Answer","text":"Revisando lo que publica en gob.pe hallamos cursos de computación y ofimática para adultos, una feria tecnológica y una jornada sobre IA para el turismo, pero no un curso de programación. No tenemos ningún vínculo con la municipalidad."}},{"@type":"Question","name":"¿Puedo aprender inteligencia artificial sin programar?","acceptedAnswer":{"@type":"Answer","text":"Puede empezar, pero recomendamos aprender algo de Python en el camino: ayuda a entender qué hace la herramienta y a detectar cuándo se equivoca. Nuestros cursos de IA para adultos son para mayores de 18 años."}},{"@type":"Question","name":"¿A qué hora son las clases?","acceptedAnswer":{"@type":"Answer","text":"Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. En la India el reloj marca diez horas y media más que en Barranco, y esa distancia no varía."}},{"@type":"Question","name":"¿Cuál es la forma de pago?","acceptedAnswer":{"@type":"Answer","text":"Se cobra con tarjeta y en moneda estadounidense; la conversión corre por cuenta de su banco. Para la clase de prueba no hace falta ningún medio de pago."}},{"@type":"Question","name":"¿Dan algún certificado?","acceptedAnswer":{"@type":"Answer","text":"Cada curso completado se acredita con una constancia de finalización emitida por nosotros. Ojo: no equivale a un título técnico ni universitario."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/clases-de-programacion-barranco","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-prb">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Perú</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Perú</a></li>
+      <li><a href="#despues">Después de la ofimática</a></li>
+      <li><a href="#barranquinos">Censo 2025</a></li>
+      <li><a href="#ia">IA</a></li>
+      <li><a href="#dias">Ejemplo</a></li>
+      <li><a href="#relojes">Hora</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Clase gratis</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Inicio</a> / <a href="/courses">Cursos</a> / <a href="/coding-and-ai-classes-in-peru">Perú</a> / Programación en Barranco
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Barranco &middot; Programación para adultos y familias &middot; Todo el año</p>
+        <h1>Clases de programación en Barranco: el paso después de la ofimática</h1>
+        <p class="ag-lede">En Barranco hay vecinos de 40 a 70 años que se gradúan en computación y ofimática, y adultos mayores que reciben su diploma con toga y birrete. Es un distrito donde nadie se siente demasiado grande para aprender tecnología. Esta página es para ellos y para quien venga detrás: qué sigue después de dominar Word y Excel, cómo empezar a programar o a usar la inteligencia artificial con criterio, y cómo hacerlo en paralelo con una hija o un hijo, con clases en vivo y en inglés desde casa.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Reservar la primera clase gratis</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Reservar una demo prioritaria</a>
+          <a href="#despues" class="ag-btn ag-btn--ghost">Qué sigue después de la ofimática</a>
+          <a href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20vivo%20en%20Barranco%20y%20quisiera%20aprender%20programaci%C3%B3n%20en%20ingl%C3%A9s.%20%C2%BFPuedo%20probar%20una%20clase%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'prb'});">Consultar por WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Clases en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; enseñanza solo en inglés</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">En resumen</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 de 5 en 547 reseñas de Google
+        </p>
+        <dl>
+          <dt>Idioma de las clases</dt><dd>Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante</dd>
+          <dt>Distrito</dt><dd>Barranco, Lima Metropolitana</dd>
+          <dt>Para quién</dt><dd>Adultos de cualquier edad, jóvenes y escolares</dd>
+          <dt>Punto de partida</dt><dd>Desde cero, o después de un curso de ofimática</dd>
+          <dt>Modalidad</dt><dd>En vivo por internet, todo el año</dd>
+          <dt>Formato</dt><dd>Grupo de quince a veinte o sesión individual</dd>
+          <dt>Primera clase</dt><dd>Gratuita, sin tarjeta</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">La respuesta corta</p>
+      <p>Sí, en Barranco puede aprender a programar a cualquier edad con Modern Age Coders, en cualquier mes, con clases en vivo, en línea y en inglés. Quien ya maneja la computadora pasa a desarrollo web, Python o inteligencia artificial aplicada; los jóvenes y escolares tienen sus propios cursos, desde los 6 años. Un mentor que trabaja desde la India enseña por videollamada, con un inglés claro y paciente. Puede elegir grupo o clases individuales, a la hora que le quede cómoda.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Para empezar</p>
+      <h2>Tres cursos para dar el paso</h2>
+      <p class="ag-lede">Uno pensado para mujeres y chicas que empiezan desde cero, uno para quien quiere entender la inteligencia artificial por dentro y uno para el hijo o la hija que quiere crear videojuegos.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/princess-coders-complete-coding-masterclass">
+        <div class="ag-pick-shot"><img src="/images/princess-coders.webp" alt="Imagen del curso de programación para mujeres y chicas" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PRB / 01</p>
+          <h3>Programación para mujeres y chicas</h3>
+          <p>Para escolares, universitarias y mujeres que cambian de rumbo. HTML, CSS, JavaScript y React, desde cero y en un ambiente de apoyo.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/artificial-intelligence-complete-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/ai-college.webp" alt="Imagen del curso completo de inteligencia artificial" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PRB / 02</p>
+          <h3>Inteligencia artificial completa</h3>
+          <p>Para adultos. Búsqueda, lógica, aprendizaje automático y agentes: cómo funciona la IA que usa en el trabajo, y cuándo no confiar en ella.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/godot-game-development-course-for-kids-and-teens">
+        <div class="ag-pick-shot"><img src="/images/godot-game-dev.webp" alt="Imagen del curso de videojuegos con Godot" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PRB / 03</p>
+          <h3>Videojuegos con Godot</h3>
+          <p>Para niños y adolescentes. Juegos en 2D y 3D con GDScript, un motor libre y gratuito que se usa también fuera de las aulas.</p>
+          <span class="ag-pick-go">Ver el temario <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="despues">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Después de la ofimática</p><h2>¿Qué aprender después de un curso de computación y ofimática?</h2><p class="ag-lede">Programación, si quiere crear sus propias herramientas; o inteligencia artificial aplicada, si quiere entender las que ya usa. La ofimática enseña a usar programas; la programación enseña a hacerlos.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Lo que la Municipalidad de Barranco ha publicado sobre formación en tecnología para adultos (gob.pe)</caption><thead><tr><th scope="col">Fecha de la nota</th><th scope="col">Qué publicó</th><th scope="col">Quiénes participaron</th></tr></thead><tbody><tr><td>1 de agosto de 2023</td><td>Graduación de la primera promoción del programa "Desarrollando Habilidades Tecnológicas", con clases presenciales de cómputo, office y ofimática en la Casa de la Mujer</td><td>Adultos mayores: 13 damas y 2 caballeros</td></tr><tr><td>16 de octubre de 2023</td><td>Feria Tecnológica gratuita: mantenimiento de laptops y PC, instalación de antivirus y diagnóstico</td><td>Vecinos del distrito</td></tr><tr><td>6 de diciembre de 2024</td><td>Graduación de 43 alumnos del curso de computación y ofimática de la Casa de la Mujer; a muchos les ayudará a emprender un negocio</td><td>Barranquinos de 40 a 70 años</td></tr><tr><td>24 de setiembre de 2026</td><td>"Barranco Conecta": agenda digital e inteligencia artificial para el turismo, con herramientas digitales y análisis de datos</td><td>Especialistas y autoridades del sector</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Fuente: Municipalidad Distrital de Barranco, notas en gob.pe/institucion/munibarranco, leídas el 10 de noviembre de 2026. No repetimos nombres de autoridades. La búsqueda de "programacion" en la misma página devolvió un solo resultado, sin relación con cursos. No guardamos ninguna relación con la municipalidad.</p>
+    <p class="ag-mt-40">La tabla dice algo importante: en Barranco la edad no ha sido un freno para aprender tecnología. Personas de 40 a 70 años terminaron un curso de computación, y un grupo de adultos mayores recibió su diploma con toga y birrete. Quien ya pasó por eso domina el teclado, las carpetas, el correo, la hoja de cálculo. Esa es justamente la base que pedimos para empezar a programar.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Si quiere crear</h3><p>Desarrollo web con HTML, CSS y JavaScript: la página de su negocio, de su taller o de su colección, hecha por usted y publicada en internet.</p>
+<p>Python para automatizar: la lista de clientes, los pedidos de la semana, la contabilidad del emprendimiento que menciona la nota de 2024.</p></div><div><h3>Si quiere entender</h3><p>Inteligencia artificial por dentro: qué es un modelo, por qué a veces inventa, cómo se le dan instrucciones y cómo se revisa lo que devuelve.</p>
+<p>Análisis de datos: leer una tabla grande y sacar conclusiones honestas, que es lo que la jornada de 2026 propone para el turismo.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="barranquinos">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">El distrito</p><h2>¿Cuántas personas viven en Barranco y de qué edad son?</h2><p class="ag-lede">Barranco tiene 42,986 habitantes según los Censos Nacionales 2025 del INEI, algo menos de medio punto porcentual de Lima Metropolitana. Es pequeño, y su grupo más numeroso es el de 30 a 44 años.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Barranco: personas censadas por grupo de edad en 2025</caption><thead><tr><th scope="col">Grupo</th><th scope="col">Barranquinos censados</th><th scope="col">Peso en el distrito</th></tr></thead><tbody><tr><td>0 a 5 años</td><td class="ag-num">1,560</td><td class="ag-num">3.8 %</td></tr><tr><td>6 a 11 años</td><td class="ag-num">2,243</td><td class="ag-num">5.5 %</td></tr><tr><td>12 a 17 años</td><td class="ag-num">2,559</td><td class="ag-num">6.2 %</td></tr><tr><td>18 a 29 años</td><td class="ag-num">6,611</td><td class="ag-num">16.1 %</td></tr><tr><td>30 a 44 años</td><td class="ag-num">10,819</td><td class="ag-num">26.3 %</td></tr><tr><td>45 a 59 años</td><td class="ag-num">8,043</td><td class="ag-num">19.6 %</td></tr><tr><td>60 y más años</td><td class="ag-num">9,241</td><td class="ag-num">22.5 %</td></tr><tr><td>Censados en total</td><td class="ag-num">41,076</td><td class="ag-num">100 %</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">INEI, Censos Nacionales 2025, Lima Metropolitana: Cuadro N.° 3 (edades de la población censada) y Cuadro N.° 1 (42,986 habitantes, de los cuales 1,910 fueron omitidos y no tienen desagregación por edad). El peso de cada grupo es cálculo nuestro.</p>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Uno de cada cuatro, entre 30 y 44</h3><p>Con 10,819 personas, es el tramo que más pesa en Barranco y pesa más que en muchos distritos vecinos. Son adultos en plena vida laboral, muchos con emprendimientos propios.</p></div><div><h3>17,284 de 45 años a más</h3><p>Sumando los dos últimos grupos (cálculo nuestro), el 42.1 % de los censados. Es el público de los cursos de ofimática que la municipalidad gradúa.</p></div><div><h3>4,802 escolares</h3><p>Entre 6 y 17 años, sumando dos grupos. Pocos en número, pero suelen ser los primeros en preguntar en casa cómo se hace un videojuego.</p></div></div>
+    <p class="ag-mt-40">Barranco limita con Miraflores, Santiago de Surco y Chorrillos, y se asoma al mar. Su Biblioteca Municipal Manuel Beingolea cumplió 103 años en octubre de 2025, según la propia municipalidad: un distrito antiguo, con tradición de lectura y de arte, que también aprende cosas nuevas.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ia">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Inteligencia artificial</p><h2>¿Puedo aprender inteligencia artificial sin ser programador?</h2><p class="ag-lede">Puede empezar sin serlo, pero conviene aprender un poco de programación en el camino. Entender una línea de Python ayuda a entender qué hace una herramienta de IA y, sobre todo, cuándo se equivoca.</p></div>
+    <p>La municipalidad reunió en setiembre de 2026 a especialistas en la jornada "Barranco Conecta: Agenda Digital e Inteligencia Artificial para Rediseñar el Turismo", con metodologías de herramientas digitales y análisis de datos. Para un hostal, una galería o un restaurante del distrito, la IA ya está en la agenda. Nosotros no damos asesoría de turismo ni de negocios; enseñamos lo que hay debajo: datos, instrucciones y verificación.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Tres usos de la IA que piden los adultos, y lo que enseñamos para cada uno (propuesta nuestra)</caption><thead><tr><th scope="col">Uso</th><th scope="col">Lo que aprende</th><th scope="col">La regla de oro</th></tr></thead><tbody><tr><td>Redactar y resumir textos</td><td>Cómo se le dan instrucciones claras y cómo se revisa el resultado</td><td>Nada se publica sin leerlo entero</td></tr><tr><td>Analizar una tabla de datos</td><td>Python para cargar, limpiar y resumir datos</td><td>Toda cifra se comprueba contra su fuente</td></tr><tr><td>Automatizar tareas</td><td>Agentes sencillos con pasos controlados</td><td>Una persona aprueba cada acción importante</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Tabla elaborada por Modern Age Coders. Nuestros cursos de IA para adultos son para mayores de 18 años; para escolares usamos herramientas permitidas para su edad.</p>
+    <p class="ag-mt-40">Si prefiere leer en castellano cómo es nuestro programa de IA para adultos, la guía del <a class="ag-inline-link" href="/curso-de-inteligencia-artificial-en-ingles-peru">curso de inteligencia artificial en inglés</a> lo detalla paso a paso. Y si ya pasó los sesenta y busca un ritmo más tranquilo, la guía de <a class="ag-inline-link" href="/cursos-de-tecnologia-para-adultos-mayores-peru">cursos de tecnología para adultos mayores</a> responde las dudas más comunes.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="familias">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">En familia</p><h2>¿Pueden aprender a programar madre e hija, o padre e hijo, al mismo tiempo?</h2><p class="ag-lede">Sí, cada uno en su propio curso. No los ponemos en la misma clase, porque un adulto y una niña de 10 años necesitan ritmos y ejemplos distintos, pero aprender en paralelo funciona muy bien en casa.</p></div>
+    <ol class="ag-steps"><li><strong>Cada uno con su mentor y su nivel.</strong> La hija empieza con bloques o con Godot; la madre, con HTML o Python. Los conceptos son los mismos: secuencia, condición, repetición.</li><li><strong>Horarios que no se pisan.</strong> Si hay una sola computadora, se eligen franjas seguidas. El ejemplo de abajo muestra cómo encontrar los días libres de las dos con un programa.</li><li><strong>Una pregunta cruzada por semana.</strong> La madre le explica a la hija qué es una función; la hija le muestra a la madre cómo se mueve su personaje. Enseñarle algo a otro es una prueba muy fiel de que uno lo entendió.</li><li><strong>Un proyecto compartido al final.</strong> Por ejemplo, la página web del emprendimiento familiar, con un juego pequeño escondido que hizo la hija.</li></ol>
+    <p class="ag-mt-40">Para el verano hay otra guía, la de <a class="ag-inline-link" href="/vacaciones-utiles-de-programacion-barranco-lima">vacaciones útiles de programación en Barranco</a>, centrada en la programación creativa para niños. Esta página cubre el resto del año, cuando los adultos también quieren su espacio para aprender.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="dias">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Una lección de ejemplo</p><h2>¿Cómo encuentra un programa los días en que dos personas están libres?</h2><p class="ag-lede">Guardando cada semana como un solo número en binario. El ejercicio es nuestro y lo usamos con adultos y con adolescentes: una madre y una hija anotan sus días libres, y Python calcula en qué días coinciden. Programación, lógica y un poco de aritmética binaria.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Versión 1: los días de cada una en un número</b><span>Python</span></figcaption><pre>dias = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+
+hija = 0b0010101
+mama = 0b1000110
+
+ambos = hija &amp; mama
+print('Daughter:', format(hija, '07b'))
+print('Mum:     ', format(mama, '07b'))
+print('Both:    ', format(ambos, '07b'))
+for i, dia in enumerate(dias):
+    if ambos &amp; (1 &lt;&lt; i):
+        print('Free together:', dia)</pre><p class="ag-code-note">Cada dígito binario es un día. Un 1 significa libre. El operador <code>&amp;</code> deja en 1 solo los días que están en 1 en los dos números.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Lo que imprime la versión 1</b><span>Salida</span></figcaption><pre>Daughter: 0010101
+Mum:      1000110
+Both:     0000100
+Free together: Wed</pre><p class="ag-code-note">Salida exacta con python3. Coinciden un solo día: el miércoles.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Versión 2: quién está libre, y un día más</b><span>Python</span></figcaption><pre># dias, hija, mama and ambos as before
+for i, dia in enumerate(dias):
+    if ambos &amp; (1 &lt;&lt; i):
+        print('Free together:', dia)
+print('Either one:', format(hija | mama, '07b'))
+hija = hija | (1 &lt;&lt; 6)
+print('Daughter adds Sun:', format(hija, '07b'))
+for i, dia in enumerate(dias):
+    if hija &amp; mama &amp; (1 &lt;&lt; i):
+        print('Free together now:', dia)</pre><p class="ag-code-note"><code>|</code> une los días de las dos; <code>1 &lt;&lt; 6</code> es el número que solo tiene encendido el séptimo día, el domingo.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Lo que imprime la versión 2</b><span>Salida</span></figcaption><pre>Free together: Wed
+Either one: 1010111
+Daughter adds Sun: 1010101
+Free together now: Wed
+Free together now: Sun</pre><p class="ag-code-note">Salida exacta con python3. Cuando la hija libera el domingo, aparece un segundo día en común.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><strong>Leer el binario al revés.</strong> La trampa de la lección: <code>0010101</code> no significa "lunes no, martes no, miércoles sí". El dígito de la derecha es el lunes, porque <code>1 &lt;&lt; 0</code> es 1. Leído de derecha a izquierda: lunes, miércoles y viernes. Casi todos los alumnos lo leen al revés la primera vez.</li><li><strong>Comprobar a mano.</strong> La madre tiene <code>1000110</code>: martes, miércoles y domingo. La hija, lunes, miércoles y viernes. El único día en las dos listas es el miércoles, igual que dice el programa.</li><li><strong>Decirlo en inglés.</strong> "AND keeps the days that are free for both; OR keeps the days that are free for either." Dos frases que explican dos operadores.</li><li><strong>Agregar un día.</strong> <code>hija | (1 &lt;&lt; 6)</code> enciende el domingo sin tocar los demás días. El alumno explica por qué usar <code>+</code> en lugar de <code>|</code> podría fallar si el día ya estaba encendido.</li><li><strong>Usarlo de verdad.</strong> Tres personas, siete días, un solo <code>&amp;</code> más. Los permisos de un archivo y muchas configuraciones guardan opciones exactamente así.</li></ol>
+    <p class="ag-mt-40">Esta lección encanta a los adultos porque toca algo que usaban sin saberlo: el 0 y el 1 que hay detrás de todo. Y enseña la costumbre más útil al programar, la de comprobar a mano un caso pequeño antes de confiar en el resultado. Una herramienta de IA puede escribir el código; leer bien el binario sigue siendo trabajo de usted.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="por-internet">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Desde casa</p><h2>¿Funciona aprender a programar por internet si uno no es joven?</h2><p class="ag-lede">Funciona si la clase es en vivo y el mentor tiene paciencia. Con una grabación, el adulto se traba y abandona; con una persona que ve su pantalla, el error se resuelve en el momento.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Lo que muestran los datos</h3><p>El boletín de TIC del INEI para abril a junio de 2026 muestra que el 86,0 % de los peruanos de 41 a 59 años navegó por internet, igual que el 56,7 % de quienes pasan los 60. Entre los de 25 a 40, la cifra llega a 95,2 %.</p>
+<p>Es decir, la mayoría de adultos ya está en línea. Lo que falta no es la conexión, sino alguien que acompañe el paso de usar la tecnología a construirla.</p></div><div><h3>Sin moverse del distrito</h3><p>Barranco es pequeño, pero las academias de programación suelen quedar fuera de él. Ir y volver en hora punta, para una clase de una hora, desanima a cualquiera. No damos minutos porque dependen de cada ruta.</p>
+<p>En casa, en cambio, uno tiene su silla, su computadora y su café. La clase empieza cuando usted se conecta.</p></div></div>
+    <p class="ag-mt-40">Lo que pedimos a un adulto que empieza es poco: una computadora con teclado (no el celular), audífonos y la disposición de equivocarse en voz alta. El resto lo pone el mentor, que repite sin apuro y explica cada término la primera vez que aparece.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="relojes">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Horario</p><h2>¿A qué hora puedo programar con un mentor en la India?</h2><p class="ag-lede">A la que usted prefiera. Solo hay que saber que la India va diez horas y media adelante de Perú, y que esa diferencia no cambia en ninguna época del año.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cuatro horas de Barranco vistas desde la India (conversiones de muestra, no horarios fijos)</caption><thead><tr><th scope="col">Barranco</th><th scope="col">India</th><th scope="col">Nota</th></tr></thead><tbody><tr><td>7:00 a. m.</td><td>5:30 p. m., misma jornada</td><td>Para quien abre su negocio a media mañana</td></tr><tr><td>11:00 a. m.</td><td>9:30 p. m., misma jornada</td><td>Para jubilados y emprendedores</td></tr><tr><td>3:00 p. m.</td><td>1:30 a. m., jornada siguiente</td><td>Para escolares del turno mañana</td></tr><tr><td>8:30 p. m.</td><td>7:00 a. m., jornada siguiente</td><td>Para quien trabaja todo el día</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Cálculo hecho con las zonas America/Lima (cinco horas menos que UTC, todo el año) y Asia/Kolkata (cinco horas y media más que UTC) de la base tzdata; la hora oficial que custodia el INACAL coincide. Las notas de la tercera columna son nuestras.</p>
+    <p class="ag-mt-40">Las clases son siempre en inglés. En el EF EPI 2025, hablar es lo que peor puntúa en el país (480 puntos), aunque la capital alcanza 555 puntos en la medición global. Para muchos adultos, hablar inglés una o dos veces por semana sobre algo concreto, como un programa que no funciona, es la práctica que nunca tuvieron.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progreso</p>
+      <h2>¿Qué habré logrado después de unos meses?</h2>
+      <p class="ag-lede">Cinco escalones propios para adultos que empiezan, desde quien ya domina la ofimática hasta quien publica su primer proyecto.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cinco escalones para adultos que aprenden a programar (nuestros)</caption><thead><tr><th scope="col">Escalón</th><th scope="col">Cuándo suele llegar</th><th scope="col">Lo que ya hace</th></tr></thead><tbody><tr><td>1. Lee código</td><td class="ag-num">Primeras semanas</td><td class="ag-num">sigue un programa corto y dice qué va a mostrar</td></tr><tr><td>2. Escribe sus primeras reglas</td><td class="ag-num">Primer y segundo mes</td><td class="ag-num">usa condiciones y repeticiones con sus propios datos</td></tr><tr><td>3. Comprueba a mano</td><td class="ag-num">Tercer mes</td><td class="ag-num">verifica un caso pequeño antes de confiar, como en el ejemplo binario</td></tr><tr><td>4. Usa la IA con control</td><td class="ag-num">Cuarto a sexto mes</td><td class="ag-num">pide ayuda a una herramienta y revisa cada línea que devuelve</td></tr><tr><td>5. Publica</td><td class="ag-num">Desde el sexto mes</td><td class="ag-num">pone en línea una página o herramienta propia y la explica en inglés</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Si es usted quien aprende</h3><p>Guarde cada ejercicio terminado en una carpeta con fecha. En pocos meses tendrá un portafolio.</p>
+<p>No se compare con un adolescente; compárese con usted mismo hace un mes.</p></div><div><h3>Si aprende junto con su hijo o hija</h3><p>Pídale que le explique su escalón y explíquele el suyo.</p>
+<p>Celebren juntos el primer programa que funcione, aunque sea pequeño.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Catálogo</p>
+      <h2>Otros nueve cursos para Barranco</h2>
+      <p class="ag-lede">Mismo formato que el resto: tiempo real, inglés, un mentor que no cambia, y usted elige grupo o sesiones a solas.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Adultos</h3>
+        <span class="ag-band-sub">De 18 años en adelante</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PRB / ADULTOS / 01</p>
+          <h4>Páginas web desde cero</h4>
+          <p>HTML y CSS para publicar su propio sitio.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PRB / ADULTOS / 02</p>
+          <h4>Herramientas de IA</h4>
+          <p>Usar la IA en el trabajo, con revisión humana.</p>
+          <a class="ag-course-link" href="/courses/ai-tools-mastery-complete-college">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PRB / ADULTOS / 03</p>
+          <h4>Datos para no programadores</h4>
+          <p>Análisis y gráficos sin miedo a las tablas.</p>
+          <a class="ag-course-link" href="/courses/data-and-ai-analytics-for-non-programmers-course">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Jóvenes</h3>
+        <span class="ag-band-sub">De 13 a 18 años</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PRB / JOVENES / 01</p>
+          <h4>JavaScript interactivo</h4>
+          <p>Botones, juegos y formularios en el navegador.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PRB / JOVENES / 02</p>
+          <h4>IA para adolescentes</h4>
+          <p>Herramientas permitidas desde los 13, con criterio.</p>
+          <a class="ag-course-link" href="/courses/teens-ai-tools-mastery-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PRB / JOVENES / 03</p>
+          <h4>Diseño y medios</h4>
+          <p>Gráfica y video para proyectos propios.</p>
+          <a class="ag-course-link" href="/courses/creative-media-design-masterclass-teens">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Niños</h3>
+        <span class="ag-band-sub">De 6 a 12 años</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PRB / NIÑOS / 01</p>
+          <h4>Bloques para empezar</h4>
+          <p>La lógica de programar, sin teclear todavía.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PRB / NIÑOS / 02</p>
+          <h4>Minecraft con código</h4>
+          <p>Construir y automatizar dentro del juego.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Ver el temario</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PRB / NIÑOS / 03</p>
+          <h4>La IA explicada a niños</h4>
+          <p>Qué es y por qué a veces se equivoca.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Ver el temario</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Funcionamiento</p>
+      <h2>¿Cómo es una sesión para un adulto que empieza?</h2>
+      <p class="ag-lede">Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Primera hora</p><p class="ag-slot-l">Para quien quiere aprender antes de abrir su negocio.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Media mañana</p><p class="ag-slot-l">Para jubilados con la mañana libre.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Noche</p><p class="ag-slot-l">Para quien termina de trabajar tarde.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Un mentor paciente</h3><p>El mismo durante todo el curso, que no se salta pasos.</p></div>
+      <div><h3>Su pantalla compartida</h3><p>El mentor ve lo que usted ve y señala dónde mirar.</p></div>
+      <div><h3>Términos explicados</h3><p>Cada palabra técnica se aclara la primera vez.</p></div>
+      <div><h3>Proyectos suyos</h3><p>Los ejercicios salen de su vida o su negocio.</p></div>
+      <div><h3>Resumen tras la clase</h3><p>Una nota corta con lo hecho y lo que sigue.</p></div>
+      <div><h3>Grupo o a solas</h3><p>Quince a veinte adultos afines, o solo usted.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Proyectos de nuestros estudiantes</p>
+      <h2>Proyectos de nuestros alumnos</h2>
+      <p class="ag-lede">Algunos trabajos publicados por estudiantes; hay más en <a class="ag-inline-link" href="/student-labs">Student labs</a>, en inglés.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Captura del proyecto NutriLife, un coach de nutrición con IA" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>NutriLife</h4>
+          <p>Un coach de nutrición con IA que analiza las comidas y avanza paso a paso hacia una meta.</p>
+          <p class="ag-proj-meta">de Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Captura de Misti, un chatbot con IA para matemáticas y programación" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>Misti</h4>
+          <p>Un chatbot que responde preguntas de matemáticas y programación, creado y publicado por un estudiante.</p>
+          <p class="ag-proj-meta">de Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Captura de GuardianX, un asistente con IA para la seguridad en internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">IA y ML</p>
+          <h4>GuardianX</h4>
+          <p>Un asistente que ayuda a los jóvenes a reconocer situaciones de riesgo en internet.</p>
+          <p class="ag-proj-meta">de Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Abrir</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Captura de la aplicación del clima SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Aplicación web</p>
+          <h4>SkyCast</h4>
+          <p>Un sitio de pronóstico del clima con condiciones en vivo para cualquier lugar.</p>
+          <p class="ag-proj-meta">de Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Precios</p>
+      <h2>Precios para vecinos de Barranco</h2>
+      <p class="ag-lede">Mostramos el precio en dólares de Estados Unidos y lo cobramos con tarjeta. El cambio a su moneda lo hace su banco, así que la cifra de su estado de cuenta puede moverse un poco según el día.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Primera clase gratis</p>
+        <p class="ag-price-amt">Gratis</p>
+        <p class="ag-price-alt">sin tarjeta</p>
+        <ul><li>Una clase de prueba sin costo</li><li>Consejo sincero sobre por dónde empezar</li><li>Sin tarjeta ni compromiso</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Reservar</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Clase grupal</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>De quince a veinte alumnos de edad parecida</li><li>El mismo mentor durante el curso</li><li>Dos clases en vivo por semana</li><li>Pago mensual, sin permanencia</li></ul>
+        <a href="#start" class="ag-btn">Empezar aquí</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Clases individuales</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">al mes, ocho clases en vivo</p>
+        <ul><li>Usted y su mentor, nadie más</li><li>Ritmo y temas a su medida</li><li>El día y la hora que elija</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Consultar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lo que dicen las familias</p>
+      <h2>4.9 de 5 en 547 reseñas de Google</h2>
+      <p class="ag-lede">Reseñas de Google de alumnos y familias, copiadas tal cual, en inglés.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preguntas frecuentes</p>
+      <h2>Programación en Barranco: preguntas frecuentes</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>¿Las clases son en español?</h3>
+        <p>No. Adultos y menores reciben la clase en inglés, siempre en tiempo real y a través de internet. Muchos alumnos adultos lo ven como un regalo, porque practican hablar inglés con un fin concreto. El mentor habla con calma, repite y escribe en el chat. El EF EPI 2025 da a Lima un nivel alto de inglés, 555 puntos.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Soy demasiado mayor para aprender a programar?</h3>
+        <p>No. En Barranco, según la propia municipalidad, se graduaron en computación personas de 40 a 70 años. Nosotros enseñamos programación a adultos de todas las edades, a un ritmo tranquilo y explicando cada término.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Necesito saber computación antes?</h3>
+        <p>Ayuda manejar el teclado, las carpetas y el correo, que es lo que enseña un curso de ofimática. Si no, el mentor empieza por ahí en las primeras clases.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Cuántas personas viven en Barranco?</h3>
+        <p>Los Censos Nacionales 2025 del INEI registran 42,986 habitantes. De los 41,076 censados, 10,819 tienen entre 30 y 44 años, el tramo más numeroso.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿La Municipalidad de Barranco enseña programación?</h3>
+        <p>Revisando lo que publica en gob.pe hallamos cursos de computación y ofimática para adultos, una feria tecnológica y una jornada sobre IA para el turismo, pero no un curso de programación. No tenemos ningún vínculo con la municipalidad.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Puedo aprender inteligencia artificial sin programar?</h3>
+        <p>Puede empezar, pero recomendamos aprender algo de Python en el camino: ayuda a entender qué hace la herramienta y a detectar cuándo se equivoca. Nuestros cursos de IA para adultos son para mayores de 18 años.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿A qué hora son las clases?</h3>
+        <p>Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. En la India el reloj marca diez horas y media más que en Barranco, y esa distancia no varía.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Cuál es la forma de pago?</h3>
+        <p>Se cobra con tarjeta y en moneda estadounidense; la conversión corre por cuenta de su banco. Para la clase de prueba no hace falta ningún medio de pago.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>¿Dan algún certificado?</h3>
+        <p>Cada curso completado se acredita con una constancia de finalización emitida por nosotros. Ojo: no equivale a un título técnico ni universitario.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Más lecturas</p>
+      <h2>Para seguir leyendo</h2>
+      <p class="ag-lede">Guías relacionadas, en castellano y en inglés.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/vacaciones-utiles-de-programacion-barranco-lima">Vacaciones útiles en Barranco</a></h3><p>Programación creativa para niños en verano.</p></div>
+      <div><h3><a class="ag-inline-link" href="/cursos-de-tecnologia-para-adultos-mayores-peru">Tecnología para adultos mayores</a></h3><p>Aprender a cualquier edad, sin apuro.</p></div>
+      <div><h3><a class="ag-inline-link" href="/curso-de-inteligencia-artificial-en-ingles-peru">Curso de IA en inglés</a></h3><p>El temario de IA para adultos.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>Todas las guías del Perú.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Nuestro método, en inglés.</p></div>
+      <div><h3><a class="ag-inline-link" href="/courses">All courses</a></h3><p>El catálogo completo.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Empiece aquí</p>
+        <h2>Reserve su clase de prueba desde Barranco</h2>
+        <p class="ag-lede">En la clase de prueba, el mentor conversa con usted en un inglés sencillo, le propone un ejercicio corto y observa cómo lo aborda. Con eso le sugerimos un curso; usted decide sin presión.</p>
+        <p class="ag-mt-40">Dos páginas en inglés por si quiere adelantarse: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> y <a class="ag-inline-link" href="/courses">All courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hola%20Modern%20Age%20Coders%2C%20vivo%20en%20Barranco%20y%20quisiera%20aprender%20programaci%C3%B3n%20en%20ingl%C3%A9s.%20%C2%BFPuedo%20probar%20una%20clase%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'prb',pos:'end'});">Escríbanos por WhatsApp</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Un recordatorio: nuestros mentores viven en la India y enseñan solo en inglés, siempre en tiempo real. Si nos escribe por WhatsApp, puede hacerlo en castellano.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_prb(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Su nombre</label>
+            <input id="pe-name" type="text" name="name" placeholder="Nombre del padre, madre o estudiante" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Teléfono o WhatsApp, Perú +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Grupo de edad</label>
+            <select id="pe-age" name="age"><option value="6-12">Niño o niña, 6 a 12</option><option value="13-18">Adolescente, 13 a 18</option><option value="college">Universitario</option><option value="adult">Profesional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Solicitar la clase gratis</button>
+          <p class="ag-form-note">Sin costo ni tarjeta.</p>
+        </form>
+        <div class="ag-pd-card"><h3>¿Quiere una clase antes? Reserve una demo prioritaria</h3><p>Una demo prioritaria es una clase completa de unos 45 a 60 minutos. Después, el mentor envía por WhatsApp un informe escrito de habilidades y un plan de aprendizaje personal. Si se inscribe, el pago de la demo se descuenta de la primera mensualidad: envíenos por WhatsApp el número de pedido de la demo.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Reservar una demo prioritaria</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Clases en vivo y en línea de programación, IA y matemáticas para personas de 6 a 67 años, siempre en inglés. Enseñamos desde 2020, a más de
+          10,000 estudiantes en 25 países.
+        </p>
+      </div>
+      <div><h4>Para empezar</h4><ul><li><a href="/courses/princess-coders-complete-coding-masterclass">Programación para mujeres</a></li><li><a href="/courses/artificial-intelligence-complete-masterclass-college">Inteligencia artificial</a></li><li><a href="/courses/godot-game-development-course-for-kids-and-teens">Videojuegos con Godot</a></li><li><a href="/courses">Todos los cursos</a></li></ul></div>
+      <div><h4>Guías</h4><ul><li><a href="/cursos-de-tecnologia-para-adultos-mayores-peru">Adultos mayores</a></li><li><a href="/curso-de-inteligencia-artificial-en-ingles-peru">IA en inglés</a></li><li><a href="/how-we-teach">Cómo enseñamos</a></li><li><a href="/student-labs">Proyectos</a></li></ul></div>
+      <div>
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="/about">Quiénes somos</a></li>
+          <li><a href="/how-we-teach">Cómo enseñamos</a></li>
+          <li><a href="/love">Reseñas</a></li>
+          <li><a href="/contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Clases en vivo y en línea, en inglés, para todo el mundo.</span>
+      <span>El binario se lee de derecha a izquierda</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Clase gratis</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Demo prioritaria</a><a href="tel:+919123366161" aria-label="Llamar al +91 91233 66161">Llamar</a></div>
+
+<script>
+window.submitLead_prb = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Por favor, ingrese un número de teléfono válido de Perú.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Enviando...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'clases-de-programacion-barranco-inline', meta: { name: name, age: age, page: 'clases-de-programacion-barranco' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Muchas gracias' + (name ? ', ' + name.split(' ')[0] : '') + '. Un mentor le llamará en breve.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Algo salió mal. Por favor, inténtelo de nuevo.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Error de conexión. Por favor, inténtelo de nuevo.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

@@ -1133,6 +1133,7 @@ const SLUGS = [
   'clases-de-programacion-surco',
   'clases-de-programacion-la-molina',
   'clases-de-programacion-san-borja',
+  'clases-de-programacion-barranco',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2345,6 +2346,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-surco': 'Clases de programación en Surco',
   'clases-de-programacion-la-molina': 'Clases de programación en La Molina',
   'clases-de-programacion-san-borja': 'Clases de programación en San Borja',
+  'clases-de-programacion-barranco': 'Clases de programación en Barranco',
 };
 
 function wireLlms(slugs) {

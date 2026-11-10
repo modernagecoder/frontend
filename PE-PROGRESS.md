@@ -204,7 +204,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE137 | clases-de-programacion-san-isidro (pris, #7D2E3D) | market | 4,800 | 2.1% vs clases-de-programacion-miraflores | San Isidro: library, language and lab already there; code in English fills the gap, any age | zip() pairs silently to the shorter list; strict=True and a total check | b06e5561 |
 | PE138 | clases-de-programacion-surco (psu, #861501) | market | 4,466 | 2.4% vs clases-de-programacion-san-isidro | Surco reinforces maths, comunicación and English; code in English works on two at once, any age | bisect: an age to its group, inclusive edges, bisect_left vs bisect_right | a1cd75d8 |
 | PE139 | clases-de-programacion-la-molina (prmo, #784C34) | market | 4,410 | 2% vs clases-de-programacion-miraflores | La Molina learns from 14 to 60 in three shifts; programming for students, mid-career adults and retirees | short-circuit and/or: guard order, then the missing third case | c277675e |
-| PE140 | clases-de-programacion-san-borja (psb, #8B3E09) | market | 4,337 | 2.2% vs clases-de-programacion-miraflores | San Borja, a district of book fairs and parents' talks: reading, then writing code, for every age | generators run out: a second pass over a used generator prints nothing | (this commit) |
+| PE140 | clases-de-programacion-san-borja (psb, #8B3E09) | market | 4,337 | 2.2% vs clases-de-programacion-miraflores | San Borja, a district of book fairs and parents' talks: reading, then writing code, for every age | generators run out: a second pass over a used generator prints nothing | e479bb5d |
+| PE141 | clases-de-programacion-barranco (prb, #AD3A52) | market | 4,353 | 2.4% vs clases-de-programacion-san-isidro | Barranco learns tech at 40 to 70: from ofimática to code and AI, with daughters and sons too | bit masks: one number per week, & | (this commit) |
 
 ## Notes
 
