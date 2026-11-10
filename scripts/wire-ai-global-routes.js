@@ -1152,6 +1152,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-el-agustino-lima',
   'clases-de-programacion-para-ninos-independencia-lima',
   'clases-de-programacion-para-ninos-santa-anita-lima',
+  'clases-de-programacion-para-ninos-rimac-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2383,6 +2384,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-el-agustino-lima': 'Clases de programación para niños en El Agustino',
   'clases-de-programacion-para-ninos-independencia-lima': 'Clases de programación para niños en Independencia',
   'clases-de-programacion-para-ninos-santa-anita-lima': 'Clases de programación para niños en Santa Anita',
+  'clases-de-programacion-para-ninos-rimac-lima': 'Clases de programación para niños en el Rímac',
 };
 
 function wireLlms(slugs) {
