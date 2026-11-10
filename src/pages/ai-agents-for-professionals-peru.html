@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AI Agents for Professionals in Peru: Live Course in English</title>
+  <meta name="description" content="An AI agents course for working professionals in Peru: live online classes in English on building agents that call real business tools without double-billing anyone.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ai-agents-for-professionals-peru">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ai-agents-for-professionals-peru.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#105E62">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ai-agents-for-professionals-peru">
+  <meta property="og:title" content="AI Agents for Professionals in Peru: Live Course in English">
+  <meta property="og:description" content="What AI agents do inside a company, why the boring parts (timeouts, retries, duplicate actions) decide whether one can be trusted, what Peru's 2025 AI regulation sets for the private sector, and a lesson on an agent that bills a client twice.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Agents for Professionals in Peru: Live Course in English">
+  <meta name="twitter:description" content="Live AI agents classes in English for professionals in Peru: reliable tools, safe retries, human hand-offs.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-aap .ag-hero h1 { max-width: 19ch; letter-spacing: -0.01em; }
+.ag-root.ag-aap .ag-capsule { border-left-width: 4px; border-radius: 0; }
+.ag-root.ag-aap .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-aap .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-aap .ag-code-note code { font-weight: 600; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ai-agents-for-professionals-peru#page","url":"https://learn.modernagecoders.com/ai-agents-for-professionals-peru","name":"AI Agents for Professionals in Peru","description":"A guide for working professionals in Peru learning to build AI agents, drawn from the AWS Builders' Library on timeouts and retries, OpenAI and Microsoft agent guidance, the Stack Overflow Developer Survey 2025, DS 115-2025-PCM, EF EPI 2025 and INEI 2026, with an original lesson on retries and idempotency.","inLanguage":"en-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding and AI classes in Peru","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"AI agents for professionals","item":"https://learn.modernagecoders.com/ai-agents-for-professionals-peru"}]},{"@type":"Course","name":"AI Agents for Professionals in Peru","description":"Live online AI agents courses for working professionals in Peru, taught in English: low-code agents in Copilot Studio and Gemini Enterprise, coded agents in Python, and the reliability practices (timeouts, safe retries, idempotency, hand-offs to people) that make an agent fit for real business processes, one to one or in a group of fifteen to twenty, at hours that fit a working week.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ai-agents-for-professionals-peru"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ai-agents-for-professionals-peru"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ai-agents-for-professionals-peru"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in Spanish?","acceptedAnswer":{"@type":"Answer","text":"No. Every class is taught live online in English, and there is no Spanish-language version. Mentors keep a steady pace, check understanding often, adapt to your accent and write key terms in the chat, so professionals with working English follow comfortably."}},{"@type":"Question","name":"Do I need to know how to code?","acceptedAnswer":{"@type":"Answer","text":"No, for the Copilot Studio and Gemini Enterprise courses, which are low-code. If you want to build agents in Python, our Python Automation course or Python Masterclass gets you there. Either way, we teach the engineering judgement behind reliable agents."}},{"@type":"Question","name":"Which platform should I learn?","acceptedAnswer":{"@type":"Answer","text":"The one your company uses. Copilot Studio suits Microsoft 365 organisations, Gemini Enterprise suits Google Workspace and Google Cloud, and Python suits teams that want full control. The free first class helps you decide."}},{"@type":"Question","name":"What makes an agent reliable?","acceptedAnswer":{"@type":"Answer","text":"Timeouts on every tool call, safe retries with backoff and jitter, idempotency keys so a repeat does not repeat an action, a limit on attempts, and a clear hand-off to a person. The lesson on this page shows all of them."}},{"@type":"Question","name":"When are classes held?","acceptedAnswer":{"@type":"Answer","text":"Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. India is ahead of Peru by 10 hours 30 minutes on every day of the year, so 07:30 in Lima is 18:00 in India."}},{"@type":"Question","name":"Does Peru's AI regulation apply to my company?","acceptedAnswer":{"@type":"Answer","text":"DS 115-2025-PCM sets phased periods for private companies by sector and size, from one to four years after September 2025. Whether and how it applies to your company is a question for a lawyer; we quote it as context and give no legal advice."}},{"@type":"Question","name":"Can I bring my own work process?","acceptedAnswer":{"@type":"Answer","text":"Yes, and we recommend it. In one-to-one classes, projects use an anonymised version of a real process from your job. Please never share client personal data in class."}},{"@type":"Question","name":"Is this course for adults only?","acceptedAnswer":{"@type":"Answer","text":"Yes. The professionals' agents courses are for learners aged 18 and over, and Claude-based tools are used only with adults, as Anthropic's terms require. Teenagers have separate routes."}},{"@type":"Question","name":"Is there a certificate?","acceptedAnswer":{"@type":"Answer","text":"You receive our own certificate of completion. It is not a Microsoft or Google certification and not a Peruvian qualification; we are not connected with Microsoft, Google, AWS, OpenAI or any Peruvian authority."}},{"@type":"Question","name":"What do I need?","acceptedAnswer":{"@type":"Answer","text":"A laptop or desktop, a stable connection and a headset. For platform courses you need access to the platform, through your employer or a trial account; we help you set it up in the first class."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ai-agents-for-professionals-peru","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-aap">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Peru</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Peru</a></li>
+      <li><a href="#work">Agents at work</a></li>
+      <li><a href="#fail">When tools fail</a></li>
+      <li><a href="#project">Retry lesson</a></li>
+      <li><a href="#rules">Peru timetable</a></li>
+      <li><a href="#english">English at work</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a> / AI agents for professionals
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Peru &middot; AI agents at work &middot; Adults 18 and over</p>
+        <h1>AI agents for professionals in Peru</h1>
+        <p class="ag-lede">A demonstration agent works on the first try. A working agent has to survive Monday morning: a supplier's system that answers slowly, a payment service that times out, a request that may or may not have gone through. This page is for professionals in Peru who want to build or manage AI agents that hold up in real business processes. It covers what agents actually do in companies, the reliability habits engineers have learned the hard way, what Peru's 2025 AI regulation sets out for private companies, and one lesson in which an agent bills a client twice.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#project" class="ag-btn ag-btn--ghost">See the retry lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20work%20in%20Peru%20and%20would%20like%20to%20learn%20to%20build%20AI%20agents%20for%20my%20job.%20Could%20I%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'aap'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live classes since 2020 &middot; 10,000+ students worldwide &middot; live, online and taught in English</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>For</dt><dd>Working adults, 18 and over</dd>
+          <dt>Platforms</dt><dd>Copilot Studio, Gemini, Python</dd>
+          <dt>Focus</dt><dd>Reliable, supervised agents</dd>
+          <dt>Coding needed</dt><dd>None for low-code; Python helps</dd>
+          <dt>Format</dt><dd>One to one, or a group of fifteen to twenty</dd>
+          <dt>Begin with</dt><dd>A free class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In brief</p>
+      <p>Modern Age Coders teaches AI agents to working professionals in Peru: live online classes, taught in English, for adults who want to build agents that handle real business tasks. You learn low-code agents in Microsoft Copilot Studio or Google Gemini Enterprise, or coded agents in Python, and the practices that make them trustworthy: timeouts, safe retries, protection against duplicate actions, and handing a case to a person when the agent should stop. Mentors in India teach one to one or in a group of fifteen to twenty, at hours that fit your working week in Peru.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Pick your platform</p>
+      <h2>Three agents courses for professionals</h2>
+      <p class="ag-lede">Choose by the tools your company already uses. All three are for adults, and the first two are taught one to one.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals">
+        <div class="ag-pick-shot"><img src="/images/copilot-studio-professionals.webp" alt="Copilot Studio Agent Masterclass for Professionals course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AAP / 01</p>
+          <h3>Copilot Studio Agent Masterclass</h3>
+          <p>For teams on Microsoft 365. Microsoft describes Copilot Studio as a "graphical, low-code studio for building and managing AI-powered agents and workflows". One to one, built around your own processes.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/build-ai-agents-with-google-gemini-enterprise-course">
+        <div class="ag-pick-shot"><img src="/images/gemini-enterprise-agents.webp" alt="Build AI Agents with Google Gemini Enterprise course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AAP / 02</p>
+          <h3>Build AI Agents with Gemini Enterprise</h3>
+          <p>For companies on Google Workspace and Google Cloud. A one-to-one course on designing, connecting and supervising agents on Google's enterprise platform.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-automation-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Automation Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AAP / 03</p>
+          <h3>Python Automation and Applied AI</h3>
+          <p>For professionals who want to code their own agents and automations: Python scripts, APIs and AI tools, with the retry and timeout patterns from the lesson below built in.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="work">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Agents at work</p><h2>What can an AI agent do in a company?</h2><p class="ag-lede">Take a defined task from start to finish: read a request, look things up, act in another system and report back. OpenAI's guide puts it in one line: "Agents are systems that independently accomplish tasks on your behalf."</p></div>
+    <div class="ag-grid-3"><div><h3>Answer and act</h3><p>A customer asks about an order; the agent checks the order system, sees the delay, and drafts an update with the new date. A person approves anything that commits the company.</p></div><div><h3>Prepare and file</h3><p>An agent gathers a supplier's invoice, matches it with the purchase order and the delivery note, and files it, or flags the mismatch for someone in finance.</p></div><div><h3>Monitor and alert</h3><p>An agent watches a shared mailbox or a dashboard, sorts what arrives, and alerts the right team, leaving a clear record of what it saw and why it acted.</p></div></div>
+    <p class="ag-mt-40">In each case the agent calls other systems: an order database, an accounting platform, an email server. Every one of those calls can be slow or fail, and some of them change things in the world. The quality of an agent at work depends less on how clever its language model is than on how it behaves when a call goes wrong. That is the part most short courses skip, and the part our course teaches first.</p>
+    <p>Developers who already use agents report real but uneven benefits. In the Stack Overflow Developer Survey 2025, about 70% of agent users agreed agents had reduced the time spent on specific development tasks and 69% that they had increased productivity, but only 17% agreed agents had improved collaboration within their team. Individual speed is the easy win; fitting an agent into a team's processes is the harder work.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="fail">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">When tools fail</p><h2>What happens when an agent's tool times out?</h2><p class="ag-lede">The agent does not know whether the action happened. A timeout means no answer arrived, not that nothing was done. Engineers at Amazon have written about exactly this problem for years.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Four ideas from the AWS Builders' Library, and what they mean for an agent</caption><thead><tr><th scope="col">Idea</th><th scope="col">In AWS's words</th><th scope="col">For an agent at work</th></tr></thead><tbody><tr><td>Timeouts</td><td>"Timeouts keep systems from hanging unreasonably long"</td><td>Every tool call needs a limit, or the agent waits forever</td></tr><tr><td>Unknown outcome</td><td>"A timeout or failure doesn't necessarily mean that side effects haven't happened."</td><td>An invoice may exist even though the call "failed"</td></tr><tr><td>Idempotency</td><td>Designing APIs "to be idempotent, meaning they can be safely retried"</td><td>Send the same request key so a repeat does not repeat the action</td></tr><tr><td>Backoff and jitter</td><td>"Jitter adds some amount of randomness to the backoff to spread the retries around in time."</td><td>Wait longer each time, by a random amount, and stop after a few tries</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Amazon Web Services, Builders' Library, "Timeouts, retries, and backoff with jitter", published 5 December 2019, read on 9 November 2026. The right-hand column is our own reading for agents.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why retries need limits</h3><p>AWS describes the most common pattern as exponential backoff, where the wait grows after every attempt, usually with a ceiling: "This is called, predictably, capped exponential backoff." Its next step is to limit how many times a client retries at all.</p>
+<p>The article adds a line worth remembering: "retries are selfish". Each retry demands more work from a system that may already be struggling. An agent that retries instantly and endlessly can turn a small outage into a large one.</p></div><div><h3>Why the limit should end with a person</h3><p>OpenAI's agent guide lists "Exceeding failure thresholds: Set limits on agent retries or actions" among the moments when control should pass to a human. A well-designed agent stops, says clearly what it tried and what it does not know, and hands the case over.</p>
+<p>Peru's 2025 AI regulation also names human supervision as a principle (article 7 h of DS 115-2025-PCM). We mention it as context; the engineering reason alone is enough to build the hand-off.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real lesson</p><h2>How can an agent bill a client twice? A lesson on retries</h2><p class="ag-lede">This lesson comes from our professionals' course. An agent creates an invoice for a small bakery. The billing service does the work, but its reply is lost. What the agent does next decides whether the client gets one invoice or two.</p></div>
+    <ol class="ag-steps"><li><strong>The trap.</strong> An invented billing service processes the first request, creates invoice F-001, then fails to answer in time. To the agent, it looks exactly like a failure.</li><li><strong>The naive agent</strong> retries at once, with nothing to say "this is the same order". The service, seeing what looks like a new request, creates F-002. The bakery now has two invoices for one order.</li><li><strong>The careful agent</strong> sends an idempotency key, one fixed label per real-world order, with every attempt. The service recognises the key and returns F-001 instead of creating a second invoice. Between attempts the agent waits with capped exponential backoff and random jitter, and after four attempts it stops and hands the case to a person.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>An invoice, a lost reply, two agents</b><span>Python</span></figcaption><pre>import random
+
+class InvoiceServer:
+    """Invented billing service: the first call is processed but its reply is lost."""
+    def __init__(self):
+        self.invoices, self.seen_keys, self.calls = [], {}, 0
+    def create_invoice(self, client, amount, key=None):
+        self.calls += 1
+        if key in self.seen_keys:
+            return self.seen_keys[key]            # same key: same invoice, no new one
+        number = "F-%03d" % (len(self.invoices) + 1)
+        self.invoices.append((number, client, amount))
+        if key:
+            self.seen_keys[key] = number
+        if self.calls == 1:
+            raise TimeoutError("no reply within 2 s")   # done, but the agent never hears
+        return number
+
+def naive(server):
+    for attempt in range(1, 4):
+        try:
+            return server.create_invoice("Panaderia Sol", 120)
+        except TimeoutError:
+            pass                                   # retry at once, no key
+
+def careful(server, max_attempts=4, base=1.0, cap=8.0, rng=random.Random(7)):
+    key = "order-2026-118"                         # one key per real-world order
+    for attempt in range(1, max_attempts + 1):
+        try:
+            return server.create_invoice("Panaderia Sol", 120, key=key)
+        except TimeoutError:
+            if attempt == max_attempts:
+                break
+            wait = rng.uniform(0, min(cap, base * 2 ** attempt))   # capped backoff, full jitter
+            print("  attempt", attempt, "timed out; would wait", round(wait, 2), "s")  # printed, not slept
+    return "HANDED TO A PERSON"
+
+a = InvoiceServer(); print("naive  -&gt;", naive(a), "| invoices:", [i[0] for i in a.invoices])
+b = InvoiceServer(); print("careful-&gt;", careful(b), "| invoices:", [i[0] for i in b.invoices])
+
+class DownServer(InvoiceServer):
+    def create_invoice(self, client, amount, key=None):
+        raise TimeoutError("service down")
+
+print("down   -&gt;", careful(DownServer()))</pre><p class="ag-code-note">The service, client name, order and amount are invented by us. Waits are printed rather than slept so the lesson runs instantly; the random generator is seeded so the output is the same every time.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Output</b><span>Output</span></figcaption><pre>naive  -&gt; F-002 | invoices: ['F-001', 'F-002']
+  attempt 1 timed out; would wait 0.65 s
+careful-&gt; F-001 | invoices: ['F-001']
+  attempt 1 timed out; would wait 0.3 s
+  attempt 2 timed out; would wait 2.6 s
+  attempt 3 timed out; would wait 0.58 s
+down   -&gt; HANDED TO A PERSON</pre><p class="ag-code-note">Naive agent: two invoices. Careful agent: one invoice, after one wait. Against a service that is down, the careful agent tries four times, waits three times, and hands over.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What learners take from it</h3><p>The naive agent did not malfunction. It retried, which is usually sensible. The damage came from retrying an action with a side effect without any way for the other system to recognise a repeat. AWS states the rule plainly: APIs with side effects "aren't safe to retry unless they provide idempotency".</p>
+<p>In a real company the "invoice" might be a payment, a purchase order, a message to a customer or a change to stock levels. The pattern is the same, and so is the cost of getting it wrong.</p></div><div><h3>What changes on real platforms</h3><p>Many business APIs accept an idempotency key or a client reference for this reason; some do not, and then the agent must check whether the action happened before trying again. Low-code platforms such as Copilot Studio hide some of this, which makes it more important that the person designing the agent knows what to ask.</p>
+<p>The waits in the output (0.3, 2.6 and 0.58 seconds) look irregular on purpose. That is the jitter: if a hundred agents retry against the same struggling service, random waits stop them all arriving at the same instant.</p></div></div>
+    <ol class="ag-steps ag-mt-40"><li><strong>Find the side effects.</strong> List every tool an agent at your workplace would call. Mark which ones change something (create, send, pay, delete) and which only read.</li><li><strong>Remove the key.</strong> Run the careful agent without its idempotency key. How many invoices appear, and why does backoff alone not help?</li><li><strong>Tune the limit.</strong> Change <code>max_attempts</code> and <code>cap</code>. What is the longest the agent could wait before handing over, and is that acceptable for this task?</li><li><strong>Write the hand-off.</strong> Draft, in English, the message the agent should send to a person when it gives up: what it tried, what it knows, and what it does not know.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="rules">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Peru timetable</p><h2>What does Peru's AI regulation set out for private companies, and when?</h2><p class="ag-lede">A phased timetable by sector. DS 115-2025-PCM, which regulates Law 31814 and was published in El Peruano on Tuesday 9 September 2025, gives private developers and implementers between one and four years, by sector, to implement article 25 and chapter II of title VI.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Private-sector implementation periods, first final provision of DS 115-2025-PCM</caption><thead><tr><th scope="col">Uses of AI in</th><th scope="col">Period in the regulation</th><th scope="col">Which ends around (our arithmetic)</th></tr></thead><tbody><tr><td>Health, education, justice, security, economy and finance</td><td>One year</td><td>September 2026</td></tr><tr><td>Transport, commerce and labour</td><td>Two years</td><td>September 2027</td></tr><tr><td>Production, agriculture, energy and mining</td><td>Three years</td><td>September 2028</td></tr><tr><td>All other uses</td><td>Four years</td><td>September 2029</td></tr><tr><td>Small companies, annual sales above 150 and up to 1,700 UIT</td><td>Two years</td><td>September 2027</td></tr><tr><td>Micro companies, annual sales up to 150 UIT</td><td>Three years</td><td>September 2028</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: DS 115-2025-PCM, Reglamento de la Ley 31814, first complementary final provision, El Peruano, 9 September 2025; each period runs from the day after publication. The right-hand column is our own calendar arithmetic, not a legal interpretation. Read on 9 November 2026.</p>
+    <p class="ag-mt-40">This is published context, not legal advice: which period applies to a given company, and exactly what it must implement, is a question for its lawyers. What a course can do is make sure the people building and running agents understand the engineering behind the obligations the regulation keeps returning to, such as transparency about AI use and human supervision of decisions.</p>
+    <p>For the regulation's list of high-risk uses (hiring, credit scoring, access to health services and others) and an approval-gate lesson, read our Spanish page <a class="ag-inline-link" href="/curso-de-agentes-de-ia-para-profesionales">curso de agentes de IA para profesionales</a>. Companies thinking about AI beyond agents may also find <a class="ag-inline-link" href="/curso-de-ia-para-empresas-peru">curso de IA para empresas</a> useful; both describe the same live classes, taught in English.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">English at work</p><h2>Is English a barrier for a professional learning agents?</h2><p class="ag-lede">Less than many people expect. EF's English Proficiency Index 2025 scores Peruvians aged 26 to 30 at 559, in the "high" band; those aged 31 to 40 score 537 and those over 41 score 509, both "moderate".</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Why English matters for agents</h3><p>Agent platforms, their documentation and their error messages are in English first, and many agents are configured with written instructions. A professional who can write a clear English instruction, and read an English error, works faster with every tool.</p>
+<p>EF tests adults who choose to sit its online test, so its scores describe that group rather than every worker in Peru. Still, they suggest many professionals already have the English a live technical class needs.</p></div><div><h3>How the classes help</h3><p>Mentors speak at a steady pace, check understanding often and write key terms in the chat. Learners describe their own processes in English, which doubles as practice for international meetings.</p>
+<p>Connectivity is rarely the issue: INEI found that 95.2% of Peruvians aged 25 to 40 used the internet in the second quarter of 2026, and 86.0% of those aged 41 to 59. We do not teach in Spanish, but one-to-one classes let each learner set the pace.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="think">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Judgement first</p><h2>Do professionals need to code to build AI agents?</h2><p class="ag-lede">Not to start. Low-code platforms let you build a working agent without writing code. But you do need to think like an engineer about what happens when things go wrong, and that is what we teach.</p></div>
+    <div class="ag-grid-3"><div><h3>Map the process</h3><p>Before building, write the steps a person follows today, the systems they touch, and the decisions they make. Most failed agents automate a process nobody had written down.</p></div><div><h3>Mark the risks</h3><p>For every step, ask: does it change something? Can it be undone? Who notices if it goes wrong? Those answers decide where the agent must stop and ask.</p></div><div><h3>Test the bad days</h3><p>Slow systems, missing data, a request in an unexpected format. An agent that has only been tested on good days has not been tested.</p></div></div>
+    <p class="ag-mt-40">Adults who want to add coding to that judgement can take our Python routes, and our Spanish page on <a class="ag-inline-link" href="/cursos-de-programacion-para-adultos-peru">cursos de programación para adultos</a> describes how working adults in Peru fit coding into a week. Claude-based tools are used only with learners aged 18 and over, as Anthropic's terms require.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>From a demo agent to one your team can rely on</h2>
+      <p class="ag-lede">Our own milestones for professionals, used to set goals and report progress. Not a certification.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Milestones in the professionals' agents course (ours)</caption><thead><tr><th scope="col">Milestone</th><th scope="col">You can</th><th scope="col">Evidence</th></tr></thead><tbody><tr><td>1. Process map</td><td>Describe a work process step by step, with its systems</td><td>A one-page map</td></tr><tr><td>2. First agent</td><td>Build an agent that reads and answers</td><td>A working demo on your platform</td></tr><tr><td>3. Side effects</td><td>Separate read-only tools from tools that change things</td><td>A tool table with risks</td></tr><tr><td>4. Safe retries</td><td>Add timeouts, backoff and idempotency keys</td><td>The retry lesson, on your process</td></tr><tr><td>5. Hand-off</td><td>Stop and pass a case to a person with a clear note</td><td>Three tested failure cases</td></tr><tr><td>6. Present</td><td>Explain the agent's limits to a manager in English</td><td>A short recorded walkthrough</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For professionals</h3><p>A timeout is a question, not an answer. Find out what happened before you try again.</p>
+<p>Every agent needs a sentence that begins: "I stopped because".</p></div><div><h3>For managers</h3><p>Ask to see milestone 5 before any agent touches a client.</p>
+<p>Progress notes list processes mapped, agents built and failure cases tested.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for working adults</h2>
+      <p class="ag-lede">Each is live and in English, with a single mentor from start to finish.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Using AI well</h3>
+        <span class="ag-band-sub">No coding needed</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AAP / USE / 01</p>
+          <h4>AI Tools Mastery</h4>
+          <p>ChatGPT, Claude and automation, used with judgement.</p>
+          <a class="ag-course-link" href="/courses/ai-tools-mastery-complete-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AAP / USE / 02</p>
+          <h4>Data and AI analytics</h4>
+          <p>Excel, Sheets and Power BI with AI help.</p>
+          <a class="ag-course-link" href="/courses/data-and-ai-analytics-for-non-programmers-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AAP / USE / 03</p>
+          <h4>Canva and AI design</h4>
+          <p>Professional graphics with AI features.</p>
+          <a class="ag-course-link" href="/courses/canva-ai-design-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Building agents</h3>
+        <span class="ag-band-sub">Code and platforms</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AAP / BUILD / 01</p>
+          <h4>Generative AI: LLMs, RAG and Agents</h4>
+          <p>Coded agents with retrieval and evaluation.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AAP / BUILD / 02</p>
+          <h4>Codex and Claude Code</h4>
+          <p>AI coding agents for people who build software.</p>
+          <a class="ag-course-link" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AAP / BUILD / 03</p>
+          <h4>AI: Search, Logic and Agents</h4>
+          <p>The theory behind planning and agents.</p>
+          <a class="ag-course-link" href="/courses/artificial-intelligence-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Foundations</h3>
+        <span class="ag-band-sub">If you want to code</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AAP / BASE / 01</p>
+          <h4>Python Masterclass</h4>
+          <p>From zero to advanced, at an adult pace.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AAP / BASE / 02</p>
+          <h4>Data Analysis</h4>
+          <p>SQL, Python and BI for business data.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AAP / BASE / 03</p>
+          <h4>MySQL</h4>
+          <p>The databases agents read from and write to.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>How do the classes fit a working week in Peru?</h2>
+      <p class="ag-lede">Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Before work</p><p class="ag-slot-l">An early start in Lima is evening in India, an easy hour to teach.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">After work</p><p class="ag-slot-l">Evenings in Lima are early morning in India; we can arrange them.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">One to one</p><p class="ag-slot-l">Built around your role, your platform and your diary.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Your own processes</h3><p>Projects use processes from your work, anonymised.</p></div>
+      <div><h3>Failure cases first</h3><p>Each agent is tested on bad days, not just good ones.</p></div>
+      <div><h3>Platform of choice</h3><p>Copilot Studio, Gemini Enterprise or Python.</p></div>
+      <div><h3>Plain English</h3><p>Clear, steady speech; terms written in the chat.</p></div>
+      <div><h3>One mentor</h3><p>The same person from first map to final review.</p></div>
+      <div><h3>Adults only</h3><p>This course is for learners aged 18 and over.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students build</h2>
+      <p class="ag-lede">Projects from learners on our longer courses; see the <a class="ag-inline-link" href="/student-labs">student labs</a> page for more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for professionals</h2>
+      <p class="ag-lede">Payment is in US dollars by card, and a Peruvian card issuer converts each charge to soles at its own daily rate. The soles figure on your statement may therefore shift a little from month to month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Map one of your own processes</li><li>No card to book</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty working adults</li><li>One mentor throughout</li><li>Two live classes a week</li><li>Monthly, cancel when you like</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Private classes</li><li>Agents built on your platform and processes</li><li>Times set around your work</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews from our learners and families on Google, as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Professionals in Peru ask</p>
+      <h2>AI agents for professionals: questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in Spanish?</h3>
+        <p>No. Every class is taught live online in English, and there is no Spanish-language version. Mentors keep a steady pace, check understanding often, adapt to your accent and write key terms in the chat, so professionals with working English follow comfortably.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to know how to code?</h3>
+        <p>No, for the Copilot Studio and Gemini Enterprise courses, which are low-code. If you want to build agents in Python, our Python Automation course or Python Masterclass gets you there. Either way, we teach the engineering judgement behind reliable agents.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which platform should I learn?</h3>
+        <p>The one your company uses. Copilot Studio suits Microsoft 365 organisations, Gemini Enterprise suits Google Workspace and Google Cloud, and Python suits teams that want full control. The free first class helps you decide.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What makes an agent reliable?</h3>
+        <p>Timeouts on every tool call, safe retries with backoff and jitter, idempotency keys so a repeat does not repeat an action, a limit on attempts, and a clear hand-off to a person. The lesson on this page shows all of them.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes held?</h3>
+        <p>Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. India is ahead of Peru by 10 hours 30 minutes on every day of the year, so 07:30 in Lima is 18:00 in India.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does Peru's AI regulation apply to my company?</h3>
+        <p>DS 115-2025-PCM sets phased periods for private companies by sector and size, from one to four years after September 2025. Whether and how it applies to your company is a question for a lawyer; we quote it as context and give no legal advice.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I bring my own work process?</h3>
+        <p>Yes, and we recommend it. In one-to-one classes, projects use an anonymised version of a real process from your job. Please never share client personal data in class.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this course for adults only?</h3>
+        <p>Yes. The professionals' agents courses are for learners aged 18 and over, and Claude-based tools are used only with adults, as Anthropic's terms require. Teenagers have separate routes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is there a certificate?</h3>
+        <p>You receive our own certificate of completion. It is not a Microsoft or Google certification and not a Peruvian qualification; we are not connected with Microsoft, Google, AWS, OpenAI or any Peruvian authority.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do I need?</h3>
+        <p>A laptop or desktop, a stable connection and a headset. For platform courses you need access to the platform, through your employer or a trial account; we help you set it up in the first class.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related</p>
+      <h2>Further reading</h2>
+      <p class="ag-lede">More from our site.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>Everything we teach in Peru.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a></h3><p>Age rules for every AI tool.</p></div>
+      <div><h3><a class="ag-inline-link" href="/we-teach-you-how-to-think">We teach you how to think</a></h3><p>Judgement before tools.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Projects by our learners.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>The live class format.</p></div>
+      <div><h3><a class="ag-inline-link" href="/courses">All courses</a></h3><p>Every syllabus in one place.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free class for professionals</h2>
+        <p class="ag-lede">Bring one process from your work. In the trial, you and a mentor map it, mark the steps that change things, and sketch where an agent could help and where it must stop. You leave with a recommended platform and course.</p>
+        <p class="ag-mt-40">If you would like to read first, <a class="ag-inline-link" href="/how-we-teach">how we teach</a> explains the format and the <a class="ag-inline-link" href="/courses">course catalogue</a> lists every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20work%20in%20Peru%20and%20would%20like%20to%20learn%20to%20build%20AI%20agents%20for%20my%20job.%20Could%20I%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'aap',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are live video sessions in English with mentors based in India. Message us on WhatsApp in English for a fast reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_aap(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Your name</label>
+            <input id="pe-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Phone or WhatsApp, Peru +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Learner age group</label>
+            <select id="pe-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>AI at work</h4><ul><li><a href="/ai-tools-age-guide">AI tools and age</a></li><li><a href="/we-teach-you-how-to-think">Judgement first</a></li><li><a href="/student-labs">Learner projects</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Peru</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Classes in Peru</a></li><li><a href="/curso-de-agentes-de-ia-para-profesionales">Agentes para profesionales</a></li><li><a href="/curso-de-ia-para-empresas-peru">IA para empresas</a></li><li><a href="/cursos-de-programacion-para-adultos-peru">Programación para adultos</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>A timeout is a question, not an answer</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_aap = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'ai-agents-for-professionals-peru-inline', meta: { name: name, age: age, page: 'ai-agents-for-professionals-peru' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
