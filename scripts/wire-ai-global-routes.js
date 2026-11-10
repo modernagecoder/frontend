@@ -1166,6 +1166,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-ancon-lima',
   'clases-de-programacion-para-ninos-san-luis-lima',
   'clases-de-programacion-para-ninos-cieneguilla-lima',
+  'clases-de-programacion-para-ninos-ventanilla-callao',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2411,6 +2412,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-ancon-lima': 'Clases de programación para niños en Ancón',
   'clases-de-programacion-para-ninos-san-luis-lima': 'Clases de programación para niños en San Luis',
   'clases-de-programacion-para-ninos-cieneguilla-lima': 'Clases de programación para niños en Cieneguilla',
+  'clases-de-programacion-para-ninos-ventanilla-callao': 'Clases de programación para niños en Ventanilla',
 };
 
 function wireLlms(slugs) {
