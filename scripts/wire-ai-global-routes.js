@@ -1126,6 +1126,7 @@ const SLUGS = [
   'coding-classes-for-kids-in-huanuco-peru',
   'online-python-and-ai-classes-chimbote-peru',
   'coding-and-ai-for-teens-in-sullana-peru',
+  'coding-classes-for-kids-in-puno-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2331,6 +2332,7 @@ const LLMS_LABELS = {
   'coding-classes-for-kids-in-huanuco-peru': 'Coding classes for kids in Huánuco, Peru',
   'online-python-and-ai-classes-chimbote-peru': 'Online Python and AI classes in Chimbote, Peru',
   'coding-and-ai-for-teens-in-sullana-peru': 'Coding and AI for teens in Sullana, Peru',
+  'coding-classes-for-kids-in-puno-peru': 'Coding classes for kids in Puno, Peru',
 };
 
 function wireLlms(slugs) {
