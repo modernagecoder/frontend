@@ -1075,6 +1075,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-chiclayo',
   'clases-de-programacion-para-ninos-huancayo',
   'clases-de-programacion-para-ninos-iquitos',
+  'coding-classes-for-kids-in-pucallpa-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2229,6 +2230,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-chiclayo': 'Clases de programación para niños en Chiclayo',
   'clases-de-programacion-para-ninos-huancayo': 'Clases de programación para niños en Huancayo',
   'clases-de-programacion-para-ninos-iquitos': 'Clases de programación para niños en Iquitos',
+  'coding-classes-for-kids-in-pucallpa-peru': 'Coding classes for kids in Pucallpa, Peru',
 };
 
 function wireLlms(slugs) {
