@@ -1117,6 +1117,7 @@ const SLUGS = [
   'online-coding-and-ai-classes-huancavelica-region-peru',
   'online-coding-and-ai-classes-tumbes-region-peru',
   'online-coding-and-ai-classes-pasco-region-peru',
+  'online-coding-and-ai-classes-madre-de-dios-region-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2313,6 +2314,7 @@ const LLMS_LABELS = {
   'online-coding-and-ai-classes-huancavelica-region-peru': 'Online coding and AI classes, Huancavelica region, Peru',
   'online-coding-and-ai-classes-tumbes-region-peru': 'Online coding and AI classes, Tumbes region, Peru',
   'online-coding-and-ai-classes-pasco-region-peru': 'Online coding and AI classes, Pasco region, Peru',
+  'online-coding-and-ai-classes-madre-de-dios-region-peru': 'Online coding and AI classes, Madre de Dios region, Peru',
 };
 
 function wireLlms(slugs) {
