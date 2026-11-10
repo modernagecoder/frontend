@@ -1142,6 +1142,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-cusco',
   'clases-de-programacion-para-ninos-san-martin-de-porres-lima',
   'clases-de-programacion-para-ninos-ate-lima',
+  'clases-de-programacion-para-ninos-comas-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2363,6 +2364,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-cusco': 'Clases de programación para niños en Cusco',
   'clases-de-programacion-para-ninos-san-martin-de-porres-lima': 'Clases de programación para niños en San Martín de Porres',
   'clases-de-programacion-para-ninos-ate-lima': 'Clases de programación para niños en Ate',
+  'clases-de-programacion-para-ninos-comas-lima': 'Clases de programación para niños en Comas',
 };
 
 function wireLlms(slugs) {
