@@ -1059,6 +1059,7 @@ const SLUGS = [
   'expat-kids-coding-classes-lima',
   'homeschool-coding-and-maths-peru',
   'online-coding-and-ai-classes-ancash-region-peru',
+  'online-coding-and-ai-classes-callao-region-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2197,6 +2198,7 @@ const LLMS_LABELS = {
   'expat-kids-coding-classes-lima': 'Coding classes for expat children in Lima',
   'homeschool-coding-and-maths-peru': 'Homeschool coding and maths in Peru',
   'online-coding-and-ai-classes-ancash-region-peru': 'Online coding and AI classes, Áncash region, Peru',
+  'online-coding-and-ai-classes-callao-region-peru': 'Online coding and AI classes, Callao region, Peru',
 };
 
 function wireLlms(slugs) {
