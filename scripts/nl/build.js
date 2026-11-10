@@ -195,7 +195,7 @@ if (LEAD_ISO === 'PE') {
   if (es && !/en vivo/.test(cap)) fail('Spanish page capsule must say the classes are live ("en vivo")');
   if (!es && !/\bin English\b/.test(cap)) fail('Peru page capsule must say the classes are "in English"');
   if (!es && !/\blive\b/i.test(cap)) fail('Peru page capsule must say the classes are live');
-  if (es && /\b(tú|tienes|puedes|quieres|necesitas|sabes|estás|eres)\b/i.test(text)) fail('Spanish page uses "tú": address parents and learners formally (usted)');
+  if (es && /(?<!\p{L})(tú|tienes|puedes|quieres|necesitas|sabes|estás|eres)(?!\p{L})/iu.test(text)) fail('Spanish page uses "tú": address parents and learners formally (usted)');
 }
 if (DRY) {
   const vw = html.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<head[\s\S]*?<\/head>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;|&#\d+;/gi, ' ').replace(/\s+/g, ' ').trim().split(' ').filter(Boolean).length;
