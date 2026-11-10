@@ -1,4 +1,4 @@
-// SHIP: market (es district, vacaciones útiles) | creative coding for an arts district: patterns, animation, first web | modulo as a repeating index: one formula, many patterns
+// SHIP: market (es district, vacaciones útiles) | two summer workshops: Python and AI or a chosen course, 4 to 5 a week | modulo as a repeating index: one formula, many patterns
 'use strict';
 // Vacaciones útiles de programación en Barranco, Lima (ag- Spanish door, Peru cluster row PE231, P2, hubGroup lima).
 // Spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md; writer brief docs/superpowers/plans/2026-11-09-pe-writer-brief.md.
@@ -39,6 +39,16 @@
 //    v3 (col * row): #################### / #+-.#+-.#+-.#+-.#+-. / #-#-#-#-#-#-#-#-#-#- / #.-+#.-+#.-+#.-+#.-+ / ####################
 // Lesson family: the remainder (modulo) as a repeating index into a string of symbols; change one operator and predict the
 // new pattern before running it.
+// REVISED 2026-11-10 for the owner's summer offer (brief, last section): "Taller de Python e IA" (python-ai-kids-masterclass
+// 9 to 12; python-complete-masterclass-teens then ai-ml-masterclass-teens from 13) or "Taller libre" (any course: web,
+// apps, p5.js, DSA, Java, C++, Roblox, Scratch, vibe coding), 4 to 5 live classes a week, group or one to one, summer pace
+// and fee agreed with the mentor before the first summer class, first class free. Facts, sources and the lesson kept.
+// Course durations and ages read from content/courses/data/*.json on 2026-11-10: scratch 3-4 months (12-16 weeks), ages
+// 6 to 12; vibe coding kids 3 months (12 weeks), 8-12; html-css 4 months (16 weeks), 10 to adult; creative coding 5-6
+// months (20-24 weeks), 13+; python-ai-kids 8-10 months (32-40 weeks), 9 to 12; kids web 8-10 months (32-40 weeks), 9-12.
+// Our own arithmetic (2 classes a week in the regular year; summer 4 or 5): Scratch 24-32 classes = 6-8 weeks at 4, 5-7
+// at 5; vibe coding 24 = 6 at 4, about 5 at 5; HTML and CSS 32 = 8 at 4, 6-7 at 5; p5.js 40-48 = 10-12 at 4, 8-10 at 5;
+// Python e IA kids 64-80 = 16-20 at 4, 13-16 at 5 (a ten-week summer gives 40-50 classes: half to about three quarters).
 
 const { ES: PE_ES } = require('../../scripts/nl/lib/market-pe');
 
@@ -92,51 +102,86 @@ module.exports = {
   parents: [{ slug: 'coding-and-ai-classes-in-peru', name: 'Peru' }],
   routeLabel: 'Vacaciones útiles de programación en Barranco',
   title: 'Vacaciones útiles de programación creativa en Barranco',
-  description: 'Vacaciones útiles de programación creativa en Barranco: patrones, animación y webs, con clases en vivo y en inglés desde casa, para chicos y chicas de 8 a 14 años.',
-  ogDescription: 'Programación creativa para niños de Barranco en el verano: dibujar con código, animar y crear una web, en vivo y en inglés, con un ejemplo que teje patrones.',
-  twitterDescription: 'Un verano de programación creativa para Barranco: arte con código, en vivo y en inglés, desde casa y a cualquier hora.',
+  description: 'Vacaciones útiles en Barranco: Python e IA o un curso creativo a elección, de 4 a 5 clases por semana, en vivo y en inglés desde casa, para chicos de 8 a 14 años.',
+  ogDescription: 'Dos talleres de verano para Barranco: Python con IA, o el curso que su hijo escoja (web, apps, p5.js). En vivo y en inglés, 4 o 5 veces por semana.',
+  twitterDescription: 'Verano en Barranco: Python e IA o un taller a elección, cuatro o cinco clases semanales en vivo y en inglés, a la hora que usted escoja.',
   pageName: 'Vacaciones útiles de programación en Barranco',
-  webPageDescription: 'Guía para familias de Barranco, Lima, que buscan unas vacaciones útiles de programación creativa para hijos de 8 a 14 años: lo que la Municipalidad de Barranco publicó sobre sus vacaciones útiles de 2023, la población del distrito y sus vecinos según el INEI (Censos 2025), lo que el CNEB da a arte y a la creación digital, robótica o programación, y una clase de ejemplo en Python, escrita por nosotros, que dibuja patrones con el operador módulo.',
-  courseDescription: 'Clases en vivo de programación creativa para niños y adolescentes de 8 a 14 años en Barranco y todo Lima, dictadas solo en inglés: Scratch, patrones y animación con código, diseño de páginas web y primeros juegos, en grupo o individuales, desde el verano y a cualquier hora.',
+  webPageDescription: 'Guía para familias de Barranco, Lima, que buscan unas vacaciones útiles de programación creativa para hijos de 8 a 14 años: los dos talleres de verano (Python e IA, o un curso a elección) a 4 o 5 clases por semana, qué curso cabe entero en el verano, qué taller va con cada edad, lo que la Municipalidad de Barranco publicó sobre sus vacaciones útiles de 2023, la población del distrito y sus vecinos según el INEI (Censos 2025), lo que el CNEB da a arte y a la creación digital, robótica o programación, y una clase de ejemplo en Python, escrita por nosotros, que dibuja patrones con el operador módulo.',
+  courseDescription: 'Verano de programación para niños y adolescentes de 8 a 14 años en Barranco y todo Lima, en vivo y solo en inglés: un taller de Python e IA o un curso a elección (web, apps, Scratch, p5.js, DSA y más), de 4 a 5 clases por semana, en grupo o individual y a cualquier hora.',
   crumbs: [{ name: 'Cursos', href: '/courses' }, { name: 'Perú', href: '/coding-and-ai-classes-in-peru' }],
   crumbLabel: 'Vacaciones útiles en Barranco',
   navLinks: [
     { href: '/coding-and-ai-classes-in-peru', label: 'Perú' },
+    { href: '#talleres-verano', label: 'Verano' },
     { href: '#municipio', label: 'En el distrito' },
     { href: '#creativa', label: 'Creativa' },
     { href: '#patrones', label: 'Ejemplo' },
-    { href: '#proyectos', label: 'Proyectos' },
     { href: '#reloj', label: 'Hora' }
   ],
-  eyebrow: 'Barranco, Lima &middot; Vacaciones útiles &middot; Programación creativa',
+  eyebrow: 'Barranco, Lima &middot; Vacaciones útiles &middot; Python e IA o taller libre',
   h1: 'Vacaciones útiles de programación creativa en Barranco',
-  lede: 'Barranco tiene fama de distrito de pintores, músicos y fotógrafos, y muchos niños de aquí crecen dibujando. La programación también puede ser eso: patrones, colores, animaciones y páginas web hechas a mano, línea por línea. Esta página explica cómo convertir el verano en un taller de arte con código, en vivo y en inglés, sin salir de casa.',
-  secondaryCta: { href: '#patrones', label: 'Ver un patrón hecho con código' },
-  wa: 'Hola Modern Age Coders, somos de Barranco y nos interesa la programación creativa para nuestro hijo o hija este verano. ¿Podemos reservar una clase gratis?',
+  lede: 'Barranco tiene fama de distrito de pintores, músicos y fotógrafos, y muchos niños de aquí crecen dibujando. La programación también puede ser eso: patrones, colores, animaciones y webs hechas línea por línea. Este verano lo proponemos como un taller intenso, cuatro o cinco sesiones por semana en directo y en inglés, con dos mesas para elegir: Python con IA, o la disciplina que su hijo prefiera.',
+  secondaryCta: { href: '#talleres-verano', label: 'Ver los dos talleres de verano' },
+  wa: 'Hola Modern Age Coders, somos de Barranco y queremos el taller de verano para nuestro hijo o hija: Python e IA u otro curso, a 4 o 5 clases por semana. ¿Podemos reservar una clase gratis?',
   heroNote: 'Clases en vivo desde 2020 &middot; más de 10,000 alumnos en el mundo &middot; mentores que enseñan en un inglés claro',
   spec: [
     ['Edades', 'De 8 a 14 años'],
-    ['Qué crean', 'Patrones, animaciones, juegos y webs'],
-    ['Herramientas', 'Scratch, Python, HTML, CSS y p5.js'],
+    ['Talleres', 'Python e IA, o un curso a elección'],
+    ['Cadencia de verano', 'Cuatro o cinco clases por semana'],
     ['Formato', 'Grupo o clases individuales, en vivo'],
     ['Idioma', 'Siempre en inglés'],
     ['Primera clase', 'Gratis']
   ],
   capsuleQ: 'Para empezar',
-  capsule: 'Si busca vacaciones útiles en Barranco con algo distinto al deporte, la programación creativa encaja: su hijo dibuja patrones, anima personajes y diseña una página web escribiendo código. Modern Age Coders la enseña a niños y adolescentes de 8 a 14 años en clases en vivo por videollamada, dictadas en inglés por mentores que trabajan desde la India, pronuncian con cuidado y no apuran a nadie. Puede elegir grupo o clases individuales, el día y la hora que quiera, y la primera clase no tiene costo.',
+  capsule: 'Para el verano en Barranco, Modern Age Coders propone a chicos de 8 a 14 años dos talleres de código: Python e IA, el central, donde se dibuja con Python y se cierra con proyectos de inteligencia artificial, o un curso que el propio alumno escoja, de webs y apps a p5.js, DSA o Roblox. Todo va en vivo y en inglés, de 4 a 5 clases por semana, en grupo o individual, a la hora que usted decida. Cadencia y cuota de verano se pactan con el mentor al inicio; la clase de prueba no tiene costo.',
 
   picks: {
     eyebrow: 'Cursos para un verano creativo',
-    h2: 'Tres cursos para crear con código',
-    lede: 'Uno para los más pequeños, uno para quien quiere su propia página web y uno para adolescentes que ya piensan como diseñadores.',
+    h2: '¿Qué cursos abren el taller de verano en Barranco?',
+    lede: 'El primero es el corazón del taller de Python e IA; los otros dos son ejemplos del taller libre, uno para la web de un niño y otro para adolescentes que ya piensan como diseñadores.',
     items: [
-      { course: 'scratch-programming-complete-course', code: 'VUPB / 01', title: 'Scratch, de cero a juegos', alt: 'Imagen del curso de Scratch para niños', note: 'Se puede empezar con 6 años. Escenarios, personajes que se mueven, música y cuentos animados, armados con bloques que luego se convierten en código.' },
-      { course: 'kids-ai-web-development-course', code: 'VUPB / 02', title: 'Desarrollo web para niños', alt: 'Imagen del curso de desarrollo web para niños', note: 'De 9 a 12 años. HTML para la estructura, CSS para colores y tipografías, y una web propia publicada al final, con sus dibujos o fotos.' },
-      { course: 'creative-coding-animation-mastery', code: 'VUPB / 03', title: 'Programación creativa y animación', alt: 'Imagen del curso de programación creativa y animación', note: 'Desde los 13 años. Movimiento, video y arte generativo con p5.js: el código como pincel, para adolescentes con alma de artista.' }
+      { course: 'python-ai-kids-masterclass', code: 'VUPB / 01', title: 'Python e IA para niños', alt: 'Imagen del curso de Python e IA para niños', note: 'Taller de Python e IA, de 9 a 12 años. Dibujos con la tortuga, juegos y, al final, pequeños proyectos de IA pensados para su edad. Desde los 13 se sigue con Python para adolescentes.' },
+      { course: 'kids-ai-web-development-course', code: 'VUPB / 02', title: 'Desarrollo web para niños', alt: 'Imagen del curso de desarrollo web para niños', note: 'Taller libre, de 9 a 12 años. HTML para la estructura, CSS para colores y tipografías, y una web propia publicada al final, con sus dibujos o fotos.' },
+      { course: 'creative-coding-animation-mastery', code: 'VUPB / 03', title: 'Programación creativa y animación', alt: 'Imagen del curso de programación creativa y animación', note: 'Taller libre desde los 13. Movimiento, video y arte generativo con p5.js: el código como pincel. De cinco a seis meses al ritmo normal, cabe casi entero en un verano intenso.' }
     ]
   },
 
   sections: [
+    {
+      id: 'talleres-verano',
+      eyebrow: 'Dos mesas de trabajo',
+      h2: '¿Cómo es el verano de programación que proponemos para Barranco?',
+      lede: 'Como en un taller de arte, hay dos mesas. En una se aprende Python y se remata con inteligencia artificial; en la otra su hijo escoge la disciplina. Ambas van en directo y en inglés, con cuatro o cinco encuentros semanales mientras dura el verano, y se puede entrar cualquier semana de enero a marzo.',
+      body: [
+        { kind: 'two',
+          leftH3: 'Taller de Python e IA',
+          left: [
+            'La mesa central. Su hijo aprende Python dibujando: figuras con la tortuga, paletas de color, tramas como la del ejemplo de esta página. Con esa base dedica el último tramo a la IA, por ejemplo un programa que aprende a separar colores cálidos de fríos a partir de los números de cada tono.',
+            'De 9 a 12 años, en <a class="ag-inline-link" href="/courses/python-ai-kids-masterclass">Python e IA para niños</a>. A partir de los 13, en <a class="ag-inline-link" href="/courses/python-complete-masterclass-teens">Python para adolescentes</a>, con <a class="ag-inline-link" href="/courses/ai-ml-masterclass-teens">IA y machine learning para adolescentes</a> como continuación. No usamos herramientas de IA reservadas a mayores de edad.'
+          ],
+          rightH3: 'Taller libre: su hijo elige',
+          right: [
+            'Cualquier curso del catálogo, con la misma cadencia veraniega. A un chico de Barranco con alma de artista suelen tentarlo el <a class="ag-inline-link" href="/courses/kids-ai-web-development-course">desarrollo web para niños</a>, <a class="ag-inline-link" href="/courses/html-css-course-for-beginners-build-real-websites">HTML y CSS desde cero</a> (desde los 10), las apps con bloques o, a partir de los 13, la programación creativa con p5.js.',
+            'Si lo suyo es lo técnico, también están algoritmos y estructuras de datos (DSA), Java, C++, Roblox, Scratch y vibe coding. En la clase gratis el mentor confirma por dónde empezar.'
+          ] },
+        { kind: 'table', mt: true, numCols: [2, 3, 4], caption: 'Qué curso cabe entero en el verano y cuál no, a 4 o 5 clases por semana (estimación nuestra)', head: ['Curso', 'Duración publicada, a 2 clases por semana', 'Clases en total', 'Semanas a 4 por semana', 'Semanas a 5 por semana', '¿Se completa en verano?'], rows: [
+          ['Scratch, de cero a juegos', '3 a 4 meses', '24 a 32', '6 a 8', '5 a 7', 'Sí'],
+          ['Vibe coding para niños', '3 meses', '24', '6', 'unas 5', 'Sí'],
+          ['HTML y CSS desde cero', '4 meses', '32', '8', '6 a 7', 'Sí'],
+          ['Programación creativa con p5.js', '5 a 6 meses', '40 a 48', '10 a 12', '8 a 10', 'Casi, con un verano largo'],
+          ['Python e IA para niños', '8 a 10 meses', '64 a 80', '16 a 20', '13 a 16', 'No: avanza de la mitad a unas tres cuartas partes'],
+          ['Desarrollo web para niños', '8 a 10 meses', '64 a 80', '16 a 20', '13 a 16', 'No: el resto sigue en marzo']
+        ] },
+        { kind: 'source', html: 'Duraciones tal como figuran en la ficha de cada curso. Las clases y las semanas son cuenta nuestra: semanas de duración por dos clases, divididas entre 4 o 5. Damos por hecho un verano de unas diez semanas con clases, es decir, de 40 a 50 encuentros; el número real depende de la semana en que empiece su hijo.' },
+        { kind: 'p', mt: true, html: 'De la tabla sale una regla sencilla. Los cursos cortos se pueden cerrar antes de marzo, con la obra terminada. Los largos, de 10 a 12 meses al ritmo normal (unas 80 a 100 clases), reciben en el verano un empujón grande, cerca de la mitad, y se completan durante el año a dos clases por semana. Preferimos decírselo así a prometer lo que un verano no da.' },
+        { kind: 'table', mt: true, numCols: [], caption: 'Qué taller le va a cada edad (guía nuestra, con las edades de cada ficha)', head: ['Edad', 'Taller de Python e IA', 'Taller libre'], rows: [
+          ['8 años', 'Todavía no: Python e IA para niños empieza a los 9', 'Scratch completo o vibe coding para niños, que se cierran en verano'],
+          ['9 a 12 años', 'Python e IA para niños', 'Desarrollo web para niños, HTML y CSS desde los 10, apps con bloques'],
+          ['13 a 14 años', 'Python para adolescentes, luego IA y machine learning', 'Programación creativa con p5.js, JavaScript o DSA para adolescentes']
+        ] },
+        { kind: 'source', html: 'Propuesta nuestra. Ninguno de los dos talleres pide saber programar; el mentor la afina en la clase gratis.' }
+      ]
+    },
     {
       id: 'municipio',
       eyebrow: 'El verano en Barranco',
@@ -254,7 +299,7 @@ module.exports = {
           rightH3: 'Para cualquier edad',
           right: [
             'Un cierre del verano en el que el alumno presenta su obra al mentor y a su familia, en inglés, durante cinco minutos. Explicar lo que hizo cuenta tanto como haberlo hecho.',
-            'Los proyectos y las edades son propuesta nuestra. No hay fecha de cierre ni paquete de verano: son las clases normales, que pueden seguir después de marzo.'
+            'Los proyectos y las edades son propuesta nuestra. A cuatro o cinco clases por semana alcanza para terminar una obra de verdad; si el curso es de los largos, la obra sigue creciendo después de marzo, a dos clases semanales.'
           ] },
         { kind: 'p', mt: true, html: 'Para los más pequeños, nuestra guía sobre <a class="ag-inline-link" href="/clases-de-programacion-para-ninos-en-ingles">programación para niños en inglés</a> explica qué se aprende en primaria y a qué edad conviene cada herramienta. Si sus hijos estudian en un colegio bilingüe o internacional, la página en inglés sobre <a class="ag-inline-link" href="/english-medium-coding-classes-lima">clases para colegios bilingües de Lima</a> le será útil.' }
       ]
@@ -320,10 +365,10 @@ module.exports = {
   catalogue: {
     eyebrow: 'Más cursos',
     h2: 'Otros nueve cursos para crear',
-    lede: 'Cualquiera de ellos se toma en directo y en inglés, solo o con un grupo, y se puede comenzar en enero.',
+    lede: 'Cualquiera de ellos sirve para el taller libre: en directo y en inglés, solo o con un grupo, a la cadencia de verano.',
     bands: [
       { num: 'I', h3: 'Primeros pasos creativos', sub: 'De 6 a 12 años', courses: [
-        { code: 'VUPB / CREA / 01', slug: 'kids-coding-blocks-masterclass', title: 'Programación con bloques', blurb: 'Animaciones, juegos y apps sencillas con bloques.' },
+        { code: 'VUPB / CREA / 01', slug: 'scratch-programming-complete-course', title: 'Scratch, de cero a juegos', blurb: 'Desde los 6 años; de tres a cuatro meses, cabe en el verano.' },
         { code: 'VUPB / CREA / 02', slug: 'block-coding-app-development-masterclass', title: 'Apps con bloques', blurb: 'Una app para el celular, diseñada por el propio niño.' },
         { code: 'VUPB / CREA / 03', slug: 'vibe-coding-for-kids-beginners-ai-scratch-game-dev', title: 'Vibe coding para niños', blurb: 'Juegos con ayuda de IA, revisando y entendiendo cada paso.' }
       ] },
@@ -332,9 +377,9 @@ module.exports = {
         { code: 'VUPB / WEB / 02', slug: 'javascript-course-for-teens-beginners-interactive-web', title: 'JavaScript para adolescentes', blurb: 'Páginas interactivas y juegos de navegador, de 13 a 18 años.' },
         { code: 'VUPB / WEB / 03', slug: 'frontend-development-masterclass-for-teens', title: 'Diseño de interfaces', blurb: 'CSS cuidado hasta interfaces en React, de 13 a 18 años.' }
       ] },
-      { num: 'III', h3: 'Juegos e imagen', sub: 'Para quien quiere más', courses: [
+      { num: 'III', h3: 'Juegos e IA', sub: 'Para quien quiere más', courses: [
         { code: 'VUPB / IMG / 01', slug: 'godot-game-development-course-for-kids-and-teens', title: 'Juegos con Godot', blurb: 'Arte, escenas y código en 2D y 3D, de 10 a 17 años.' },
-        { code: 'VUPB / IMG / 02', slug: 'creative-media-design-masterclass-teens', title: 'Medios creativos para adolescentes', blurb: 'Foto, video y diseño, de 13 a 18 años.' },
+        { code: 'VUPB / IMG / 02', slug: 'ai-ml-masterclass-teens', title: 'IA y machine learning para adolescentes', blurb: 'La continuación del taller de Python e IA, de 13 a 18 años.' },
         { code: 'VUPB / IMG / 03', slug: 'complete-game-development-masterclass-for-teens', title: 'Videojuegos con Unity', blurb: 'C# y juegos publicados, para adolescentes.' }
       ] }
     ]
@@ -365,10 +410,10 @@ module.exports = {
 
   fees: {
     h2: 'Precios para familias de Barranco',
-    lede: 'Mostramos la cuota mensual en dólares estadounidenses y se paga con tarjeta. Su banco hace el cambio a su moneda; según la cotización del día, el monto cobrado puede variar algo.',
+    lede: 'Las tarjetas muestran la cuota de un mes normal, ocho clases, expresada en dólares estadounidenses. El verano va más rápido, cuatro o cinco clases por semana, y por eso esa cuota de verano la conversa con el mentor antes de la primera sesión veraniega. Se paga con tarjeta y su banco hace el cambio según la cotización del día.',
     free: ['Una clase de prueba gratuita', 'Un pequeño reto creativo para conocer a su hijo', 'Sin tarjeta, sin compromiso'],
-    group: ['Quince a veinte alumnos de edad parecida', 'El mismo mentor durante el curso', 'Clases en vivo cada semana', 'Pago mensual, se puede dejar cuando quiera'],
-    one: ['Solo su hijo y el mentor', 'Los proyectos que a él le inspiren', 'El horario que usted elija']
+    group: ['Quince a veinte alumnos de edad parecida', 'El mismo mentor durante el curso', 'En verano, cuatro o cinco sesiones semanales', 'Pago mensual, se puede dejar cuando quiera'],
+    one: ['Solo su hijo y el mentor', 'Python e IA o el taller libre que elija', 'Horario y cadencia de verano a su medida']
   },
 
   faq: {
@@ -382,8 +427,10 @@ module.exports = {
       { q: '¿Desde qué edad?', a: 'Esta página está pensada para 8 a 14 años. Scratch se puede empezar desde los 6, y el curso de p5.js es para 13 años en adelante.' },
       { q: '¿Usan robots o kits?', a: 'No. Enseñamos programación, no hardware, y no enviamos ningún kit. Lo que su hijo aprenda sobre bucles y variables le servirá también si luego hace robótica.' },
       { q: '¿A qué hora pueden ser las clases?', a: 'Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Las 10:45 a. m. en Barranco son las 9:15 p. m. en la India.' },
-      { q: '¿Hasta cuándo van las clases de verano?', a: 'Hasta cuando usted quiera; no hay semanas contadas. Son nuestras clases mensuales, que se empiezan en vacaciones y continúan si su hijo quiere seguir creando.' },
-      { q: '¿Cómo se paga?', a: 'Con tarjeta, mes a mes, en dólares estadounidenses; el banco convierte el monto. La clase de prueba es gratuita.' },
+      { q: '¿Qué talleres hay este verano?', a: 'Dos. El taller de Python e IA, que es el central, y el taller libre, en el que su hijo elige cualquier curso: web, apps, programación creativa, DSA, Java, C++, Roblox, Scratch o vibe coding. Los dos son en vivo y en inglés.' },
+      { q: '¿Cuántas veces por semana hay clase en verano?', a: 'Cuatro o cinco, en grupo o individuales. Según nuestra cuenta, diez semanas así dan entre 40 y 50 clases. Si su hijo sigue en marzo, vuelve a dos por semana.' },
+      { q: '¿Mi hijo termina el curso antes de marzo?', a: 'Depende del curso. Scratch, vibe coding para niños y HTML y CSS se pueden completar en el verano. Python e IA para niños o desarrollo web para niños son de 8 a 10 meses al ritmo normal: el verano los adelanta mucho, pero no los termina.' },
+      { q: '¿Cuánto cuesta el taller de verano?', a: 'En esta página ve la cuota de un mes normal de ocho clases, en dólares estadounidenses. Como en verano son cuatro o cinco clases por semana, la cuota de verano se acuerda con el mentor antes de empezar. Se paga con tarjeta y la clase de prueba es gratuita.' },
       { q: '¿Recibe algún certificado?', a: 'Sí: cuando completa un curso le damos un certificado de culminación firmado por nuestra academia. No es un documento oficial ni da notas escolares, y no estamos vinculados al MINEDU ni a ningún colegio.' }
     ]
   },
@@ -404,7 +451,7 @@ module.exports = {
 
   start: {
     h2: 'Reserve una clase creativa de prueba',
-    lede: 'Durante la prueba, el mentor conversa con su hijo con palabras simples en inglés, le pide que cambie un patrón o un personaje y observa su manera de resolverlo. Con eso le sugerimos un curso, un formato y un primer proyecto, sin ningún compromiso.',
+    lede: 'Durante la prueba, el mentor conversa con su hijo con palabras simples en inglés, le pide que cambie un patrón o un personaje y observa su manera de resolverlo. Después le sugerimos qué taller le conviene, un formato, la cadencia de cuatro o cinco sesiones y un primer proyecto; la cuota de verano se acuerda ahí mismo, sin compromiso.',
     readFirst: 'Antes de reservar puede leer <a class="ag-inline-link" href="/clases-de-programacion-para-ninos-en-ingles">programación para niños en inglés</a> o <a class="ag-inline-link" href="/student-labs">Student labs</a> (en inglés).',
     note: 'El inglés es el idioma de todas las clases, que son en directo y con mentores en la India; en WhatsApp le respondemos en castellano.',
     formNote: 'Sin costo, sin tarjeta, sin compromiso.'
@@ -413,7 +460,7 @@ module.exports = {
   footer: {
     cols: [
       { h4: 'Cursos creativos', links: [
-        { href: '/courses/scratch-programming-complete-course', label: 'Scratch de cero a juegos' },
+        { href: '/courses/python-ai-kids-masterclass', label: 'Python e IA para niños' },
         { href: '/courses/kids-ai-web-development-course', label: 'Desarrollo web para niños' },
         { href: '/courses/creative-coding-animation-mastery', label: 'Programación creativa' },
         { href: '/courses', label: 'Todos los cursos' }
@@ -434,10 +481,12 @@ module.exports = {
 .ag-root.ag-vupb .ag-code pre { letter-spacing: 0.12em; line-height: 1.4; }
 .ag-root.ag-vupb .ag-grid-3 h3 { font-style: italic; }
 .ag-root.ag-vupb .ag-table caption { text-align: left; }
+.ag-root.ag-vupb #talleres-verano .ag-grid-2 > div { border: 2px solid var(--ag-accent); border-radius: 0; padding: 20px 22px; background: var(--ag-paper-2); }
+.ag-root.ag-vupb #talleres-verano .ag-grid-2 h3 { color: var(--ag-accent); font-style: italic; margin-top: 0; }
 `,
 
   dossier: {
-    curriculumAuthority: 'Municipalidad Distrital de Barranco (gob.pe/munibarranco, the address its own site redirects to): notes of 13 January 2023 and 6 March 2023 on vacaciones útiles; INEI Censos Nacionales 2025 (district populations) and Boletín TIC II trimestre 2026; MINEDU CNEB (Arte y cultura hours, competency 28 capacity Crea objetos virtuales) and RM 501-2025-MINEDU Tabla 1; EF EPI 2025; tzdata and INACAL. Read 8 and 9 November 2026. The robotics comparison, projects by age, levels and the example are ours.',
+    curriculumAuthority: 'Summer offer per owner 2026-11-10 (two workshops, 4 to 5 classes a week; course durations from our own course pages; arithmetic ours). Municipalidad Distrital de Barranco (gob.pe/munibarranco, the address its own site redirects to): notes of 13 January 2023 and 6 March 2023 on vacaciones útiles; INEI Censos Nacionales 2025 (district populations) and Boletín TIC II trimestre 2026; MINEDU CNEB (Arte y cultura hours, competency 28 capacity Crea objetos virtuales) and RM 501-2025-MINEDU Tabla 1; EF EPI 2025; tzdata and INACAL. Read 8 and 9 November 2026. The robotics comparison, projects by age, levels and the example are ours.',
     localProject: 'Woven patterns in Python for a Barranco child of 10 to 13: two loops pick a symbol from #+-. with (col + row) % 4 and draw a diagonal that repeats every four rows; (col - row) turns it the other way; (col * row) leaves rows 0 and 4 full of # and row 2 alternating #-. Lesson family: the remainder as a repeating index into a string; change one operator and predict the new pattern before running it.',
     requiredMentions: ['#-#-#-#-#-#-#-#-#-#-', '#.-+#.-+#.-+#.-+#.-+', '(col + row) % len(symbols)', 'Barranco tiene 42,986 habitantes', 'Centro Cultural Malambo', 'robótica kids y junior', 'ocupa el puesto 37 entre los 43 distritos', 'la comprensión auditiva del país marca 499', 'Un resto, mil patrones'],
     sources: [
@@ -456,7 +505,7 @@ module.exports = {
       'Robot kits or hardware: none; the page says we teach programming only.',
       'Any affiliation with the Municipalidad de Barranco: refused.',
       'Traffic figures: refused; none sourced.',
-      'A camp length, start date or summer price: refused; the municipal "casi dos meses" is quoted as theirs, not ours.',
+      'A typed summer price, a fixed start date, or a promise that a long course ends in the summer: refused; the municipal "casi dos meses" is quoted as theirs, the class counts are labelled ours, and the summer pace and fee are agreed with the mentor.',
       'Spanish-language teaching, MINEDU or school endorsement, official certificate: refused.',
       'Soles prices or any typed fee: refused; fees render from the template in USD.'
     ]

@@ -1,28 +1,69 @@
 ---
 title: "Vacaciones útiles de programación creativa en Barranco"
-description: "Vacaciones útiles de programación creativa en Barranco: patrones, animación y webs, con clases en vivo y en inglés desde casa, para chicos y chicas de 8 a 14 años."
+description: "Vacaciones útiles en Barranco: Python e IA o un curso creativo a elección, de 4 a 5 clases por semana, en vivo y en inglés desde casa, para chicos de 8 a 14 años."
 canonical: https://learn.modernagecoders.com/vacaciones-utiles-de-programacion-barranco-lima
 source: src/pages/vacaciones-utiles-de-programacion-barranco-lima.html
 ---
-> Si busca vacaciones útiles en Barranco con algo distinto al deporte, la programación creativa encaja: su hijo dibuja patrones, anima personajes y diseña una página web escribiendo código. Modern Age Coders la enseña a niños y adolescentes de 8 a 14 años en clases en vivo por videollamada, dictadas en inglés por mentores que trabajan desde la India, pronuncian con cuidado y no apuran a nadie. Puede elegir grupo o clases individuales, el día y la hora que quiera, y la primera clase no tiene costo.
+> Para el verano en Barranco, Modern Age Coders propone a chicos de 8 a 14 años dos talleres de código: Python e IA, el central, donde se dibuja con Python y se cierra con proyectos de inteligencia artificial, o un curso que el propio alumno escoja, de webs y apps a p5.js, DSA o Roblox. Todo va en vivo y en inglés, de 4 a 5 clases por semana, en grupo o individual, a la hora que usted decida. Cadencia y cuota de verano se pactan con el mentor al inicio; la clase de prueba no tiene costo.
 
 [Inicio](/) / [Cursos](/courses) / [Perú](/coding-and-ai-classes-in-peru) / Vacaciones útiles en Barranco
 
-Barranco, Lima · Vacaciones útiles · Programación creativa
+Barranco, Lima · Vacaciones útiles · Python e IA o taller libre
 
 # Vacaciones útiles de programación creativa en Barranco
 
-Barranco tiene fama de distrito de pintores, músicos y fotógrafos, y muchos niños de aquí crecen dibujando. La programación también puede ser eso: patrones, colores, animaciones y páginas web hechas a mano, línea por línea. Esta página explica cómo convertir el verano en un taller de arte con código, en vivo y en inglés, sin salir de casa.
+Barranco tiene fama de distrito de pintores, músicos y fotógrafos, y muchos niños de aquí crecen dibujando. La programación también puede ser eso: patrones, colores, animaciones y webs hechas línea por línea. Este verano lo proponemos como un taller intenso, cuatro o cinco sesiones por semana en directo y en inglés, con dos mesas para elegir: Python con IA, o la disciplina que su hijo prefiera.
 
-En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Edades: De 8 a 14 años; Qué crean: Patrones, animaciones, juegos y webs; Herramientas: Scratch, Python, HTML, CSS y p5.js; Formato: Grupo o clases individuales, en vivo; Idioma: Siempre en inglés; Primera clase: Gratis. 4.9 de 5 en 547 reseñas de Google.
+En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Edades: De 8 a 14 años; Talleres: Python e IA, o un curso a elección; Cadencia de verano: Cuatro o cinco clases por semana; Formato: Grupo o clases individuales, en vivo; Idioma: Siempre en inglés; Primera clase: Gratis. 4.9 de 5 en 547 reseñas de Google.
 
-## Tres cursos para crear con código
+## ¿Qué cursos abren el taller de verano en Barranco?
 
-Uno para los más pequeños, uno para quien quiere su propia página web y uno para adolescentes que ya piensan como diseñadores.
+El primero es el corazón del taller de Python e IA; los otros dos son ejemplos del taller libre, uno para la web de un niño y otro para adolescentes que ya piensan como diseñadores.
 
-- [Scratch, de cero a juegos](/courses/scratch-programming-complete-course): Se puede empezar con 6 años. Escenarios, personajes que se mueven, música y cuentos animados, armados con bloques que luego se convierten en código.
-- [Desarrollo web para niños](/courses/kids-ai-web-development-course): De 9 a 12 años. HTML para la estructura, CSS para colores y tipografías, y una web propia publicada al final, con sus dibujos o fotos.
-- [Programación creativa y animación](/courses/creative-coding-animation-mastery): Desde los 13 años. Movimiento, video y arte generativo con p5.js: el código como pincel, para adolescentes con alma de artista.
+- [Python e IA para niños](/courses/python-ai-kids-masterclass): Taller de Python e IA, de 9 a 12 años. Dibujos con la tortuga, juegos y, al final, pequeños proyectos de IA pensados para su edad. Desde los 13 se sigue con Python para adolescentes.
+- [Desarrollo web para niños](/courses/kids-ai-web-development-course): Taller libre, de 9 a 12 años. HTML para la estructura, CSS para colores y tipografías, y una web propia publicada al final, con sus dibujos o fotos.
+- [Programación creativa y animación](/courses/creative-coding-animation-mastery): Taller libre desde los 13. Movimiento, video y arte generativo con p5.js: el código como pincel. De cinco a seis meses al ritmo normal, cabe casi entero en un verano intenso.
+
+## ¿Cómo es el verano de programación que proponemos para Barranco?
+
+Como en un taller de arte, hay dos mesas. En una se aprende Python y se remata con inteligencia artificial; en la otra su hijo escoge la disciplina. Ambas van en directo y en inglés, con cuatro o cinco encuentros semanales mientras dura el verano, y se puede entrar cualquier semana de enero a marzo.
+
+### Taller de Python e IA
+
+La mesa central. Su hijo aprende Python dibujando: figuras con la tortuga, paletas de color, tramas como la del ejemplo de esta página. Con esa base dedica el último tramo a la IA, por ejemplo un programa que aprende a separar colores cálidos de fríos a partir de los números de cada tono.
+
+De 9 a 12 años, en [Python e IA para niños](/courses/python-ai-kids-masterclass). A partir de los 13, en [Python para adolescentes](/courses/python-complete-masterclass-teens), con [IA y machine learning para adolescentes](/courses/ai-ml-masterclass-teens) como continuación. No usamos herramientas de IA reservadas a mayores de edad.
+
+### Taller libre: su hijo elige
+
+Cualquier curso del catálogo, con la misma cadencia veraniega. A un chico de Barranco con alma de artista suelen tentarlo el [desarrollo web para niños](/courses/kids-ai-web-development-course), [HTML y CSS desde cero](/courses/html-css-course-for-beginners-build-real-websites) (desde los 10), las apps con bloques o, a partir de los 13, la programación creativa con p5.js.
+
+Si lo suyo es lo técnico, también están algoritmos y estructuras de datos (DSA), Java, C++, Roblox, Scratch y vibe coding. En la clase gratis el mentor confirma por dónde empezar.
+
+**Qué curso cabe entero en el verano y cuál no, a 4 o 5 clases por semana (estimación nuestra)**
+
+| Curso | Duración publicada, a 2 clases por semana | Clases en total | Semanas a 4 por semana | Semanas a 5 por semana | ¿Se completa en verano? |
+|---|---|---|---|---|---|
+| Scratch, de cero a juegos | 3 a 4 meses | 24 a 32 | 6 a 8 | 5 a 7 | Sí |
+| Vibe coding para niños | 3 meses | 24 | 6 | unas 5 | Sí |
+| HTML y CSS desde cero | 4 meses | 32 | 8 | 6 a 7 | Sí |
+| Programación creativa con p5.js | 5 a 6 meses | 40 a 48 | 10 a 12 | 8 a 10 | Casi, con un verano largo |
+| Python e IA para niños | 8 a 10 meses | 64 a 80 | 16 a 20 | 13 a 16 | No: avanza de la mitad a unas tres cuartas partes |
+| Desarrollo web para niños | 8 a 10 meses | 64 a 80 | 16 a 20 | 13 a 16 | No: el resto sigue en marzo |
+
+Duraciones tal como figuran en la ficha de cada curso. Las clases y las semanas son cuenta nuestra: semanas de duración por dos clases, divididas entre 4 o 5. Damos por hecho un verano de unas diez semanas con clases, es decir, de 40 a 50 encuentros; el número real depende de la semana en que empiece su hijo.
+
+De la tabla sale una regla sencilla. Los cursos cortos se pueden cerrar antes de marzo, con la obra terminada. Los largos, de 10 a 12 meses al ritmo normal (unas 80 a 100 clases), reciben en el verano un empujón grande, cerca de la mitad, y se completan durante el año a dos clases por semana. Preferimos decírselo así a prometer lo que un verano no da.
+
+**Qué taller le va a cada edad (guía nuestra, con las edades de cada ficha)**
+
+| Edad | Taller de Python e IA | Taller libre |
+|---|---|---|
+| 8 años | Todavía no: Python e IA para niños empieza a los 9 | Scratch completo o vibe coding para niños, que se cierran en verano |
+| 9 a 12 años | Python e IA para niños | Desarrollo web para niños, HTML y CSS desde los 10, apps con bloques |
+| 13 a 14 años | Python para adolescentes, luego IA y machine learning | Programación creativa con p5.js, JavaScript o DSA para adolescentes |
+
+Propuesta nuestra. Ninguno de los dos talleres pide saber programar; el mentor la afina en la clase gratis.
 
 ## ¿Qué vacaciones útiles ha ofrecido la Municipalidad de Barranco?
 
@@ -186,7 +227,7 @@ Una obra terminada, que se pueda mostrar. Estas son nuestras propuestas por edad
 
 Un cierre del verano en el que el alumno presenta su obra al mentor y a su familia, en inglés, durante cinco minutos. Explicar lo que hizo cuenta tanto como haberlo hecho.
 
-Los proyectos y las edades son propuesta nuestra. No hay fecha de cierre ni paquete de verano: son las clases normales, que pueden seguir después de marzo.
+Los proyectos y las edades son propuesta nuestra. A cuatro o cinco clases por semana alcanza para terminar una obra de verdad; si el curso es de los largos, la obra sigue creciendo después de marzo, a dos clases semanales.
 
 Para los más pequeños, nuestra guía sobre [programación para niños en inglés](/clases-de-programacion-para-ninos-en-ingles) explica qué se aprende en primaria y a qué edad conviene cada herramienta. Si sus hijos estudian en un colegio bilingüe o internacional, la página en inglés sobre [clases para colegios bilingües de Lima](/english-medium-coding-classes-lima) le será útil.
 
@@ -250,13 +291,13 @@ Guarde cada versión: a veces el error más feo es el punto de partida de la obr
 
 ## Otros nueve cursos para crear
 
-Cualquiera de ellos se toma en directo y en inglés, solo o con un grupo, y se puede comenzar en enero.
+Cualquiera de ellos sirve para el taller libre: en directo y en inglés, solo o con un grupo, a la cadencia de verano.
 
 ### Primeros pasos creativos
 
 De 6 a 12 años
 
-- [Programación con bloques](/courses/kids-coding-blocks-masterclass): Animaciones, juegos y apps sencillas con bloques.
+- [Scratch, de cero a juegos](/courses/scratch-programming-complete-course): Desde los 6 años; de tres a cuatro meses, cabe en el verano.
 - [Apps con bloques](/courses/block-coding-app-development-masterclass): Una app para el celular, diseñada por el propio niño.
 - [Vibe coding para niños](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev): Juegos con ayuda de IA, revisando y entendiendo cada paso.
 
@@ -268,12 +309,12 @@ Desde los 10 años
 - [JavaScript para adolescentes](/courses/javascript-course-for-teens-beginners-interactive-web): Páginas interactivas y juegos de navegador, de 13 a 18 años.
 - [Diseño de interfaces](/courses/frontend-development-masterclass-for-teens): CSS cuidado hasta interfaces en React, de 13 a 18 años.
 
-### Juegos e imagen
+### Juegos e IA
 
 Para quien quiere más
 
 - [Juegos con Godot](/courses/godot-game-development-course-for-kids-and-teens): Arte, escenas y código en 2D y 3D, de 10 a 17 años.
-- [Medios creativos para adolescentes](/courses/creative-media-design-masterclass-teens): Foto, video y diseño, de 13 a 18 años.
+- [IA y machine learning para adolescentes](/courses/ai-ml-masterclass-teens): La continuación del taller de Python e IA, de 13 a 18 años.
 - [Videojuegos con Unity](/courses/complete-game-development-masterclass-for-teens): C# y juegos publicados, para adolescentes.
 
 ## ¿Cómo es una clase de programación creativa en vivo?
@@ -293,11 +334,11 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 
 ## Precios para familias de Barranco
 
-Mostramos la cuota mensual en dólares estadounidenses y se paga con tarjeta. Su banco hace el cambio a su moneda; según la cotización del día, el monto cobrado puede variar algo.
+Las tarjetas muestran la cuota de un mes normal, ocho clases, expresada en dólares estadounidenses. El verano va más rápido, cuatro o cinco clases por semana, y por eso esa cuota de verano la conversa con el mentor antes de la primera sesión veraniega. Se paga con tarjeta y su banco hace el cambio según la cotización del día.
 
 - Primera clase gratis: Gratis. Una clase de prueba gratuita. Un pequeño reto creativo para conocer a su hijo. Sin tarjeta, sin compromiso.
-- Clase grupal: USD 100 al mes. Quince a veinte alumnos de edad parecida. El mismo mentor durante el curso. Clases en vivo cada semana. Pago mensual, se puede dejar cuando quiera.
-- Clases individuales: USD 150 al mes. Solo su hijo y el mentor. Los proyectos que a él le inspiren. El horario que usted elija.
+- Clase grupal: USD 100 al mes. Quince a veinte alumnos de edad parecida. El mismo mentor durante el curso. En verano, cuatro o cinco sesiones semanales. Pago mensual, se puede dejar cuando quiera.
+- Clases individuales: USD 150 al mes. Solo su hijo y el mentor. Python e IA o el taller libre que elija. Horario y cadencia de verano a su medida.
 
 ## Vacaciones útiles de programación en Barranco: preguntas frecuentes
 
@@ -329,13 +370,21 @@ No. Enseñamos programación, no hardware, y no enviamos ningún kit. Lo que su 
 
 Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Las 10:45 a. m. en Barranco son las 9:15 p. m. en la India.
 
-### ¿Hasta cuándo van las clases de verano?
+### ¿Qué talleres hay este verano?
 
-Hasta cuando usted quiera; no hay semanas contadas. Son nuestras clases mensuales, que se empiezan en vacaciones y continúan si su hijo quiere seguir creando.
+Dos. El taller de Python e IA, que es el central, y el taller libre, en el que su hijo elige cualquier curso: web, apps, programación creativa, DSA, Java, C++, Roblox, Scratch o vibe coding. Los dos son en vivo y en inglés.
 
-### ¿Cómo se paga?
+### ¿Cuántas veces por semana hay clase en verano?
 
-Con tarjeta, mes a mes, en dólares estadounidenses; el banco convierte el monto. La clase de prueba es gratuita.
+Cuatro o cinco, en grupo o individuales. Según nuestra cuenta, diez semanas así dan entre 40 y 50 clases. Si su hijo sigue en marzo, vuelve a dos por semana.
+
+### ¿Mi hijo termina el curso antes de marzo?
+
+Depende del curso. Scratch, vibe coding para niños y HTML y CSS se pueden completar en el verano. Python e IA para niños o desarrollo web para niños son de 8 a 10 meses al ritmo normal: el verano los adelanta mucho, pero no los termina.
+
+### ¿Cuánto cuesta el taller de verano?
+
+En esta página ve la cuota de un mes normal de ocho clases, en dólares estadounidenses. Como en verano son cuatro o cinco clases por semana, la cuota de verano se acuerda con el mentor antes de empezar. Se paga con tarjeta y la clase de prueba es gratuita.
 
 ### ¿Recibe algún certificado?
 

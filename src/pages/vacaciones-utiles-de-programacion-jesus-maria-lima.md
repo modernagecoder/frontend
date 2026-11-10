@@ -1,10 +1,10 @@
 ---
 title: "Vacaciones útiles de programación en Jesús María, en vivo"
-description: "Vacaciones útiles de programación para chicos de Jesús María: clases en vivo y en inglés desde casa, compatibles con los talleres de verano del distrito."
+description: "Vacaciones útiles en Jesús María: Python e IA o el curso que su hijo prefiera, 4 a 5 clases por semana en vivo y en inglés, compatibles con un taller del distrito."
 canonical: https://learn.modernagecoders.com/vacaciones-utiles-de-programacion-jesus-maria-lima
 source: src/pages/vacaciones-utiles-de-programacion-jesus-maria-lima.html
 ---
-> Para el verano de Jesús María, Modern Age Coders propone algo que el distrito no tiene en sus talleres: programación para niños de primaria y adolescentes de secundaria, con clases en vivo, en línea y en inglés que su hijo sigue desde casa, en grupo o con un mentor solo para él, el día y a la hora que usted escoja. Encajan bien con un taller deportivo o artístico del distrito, porque no suman ningún traslado. Su hijo empieza en el verano con nuestras clases normales y decide en marzo si continúa. La primera clase es gratis.
+> Para el verano de Jesús María, Modern Age Coders suma lo que los talleres del distrito no traen: programación para primaria y secundaria, con dos opciones. La primera es Python e inteligencia artificial; la segunda, el curso que su hijo prefiera, como JavaScript, DSA, apps o Roblox. Se enseña en vivo y en inglés por videollamada, de 4 a 5 clases por semana, en grupo o con un mentor solo para él, el día y la hora que usted escoja, así que convive con un taller deportivo o artístico sin traslados. La tarifa de verano se acuerda con el mentor y la primera clase es gratis.
 
 [Inicio](/) / [Cursos](/courses) / [Perú](/coding-and-ai-classes-in-peru) / Vacaciones útiles en Jesús María
 
@@ -12,17 +12,56 @@ Lima centro · Jesús María · Verano 2027
 
 # Vacaciones útiles de programación en Jesús María
 
-Cada enero Jesús María se llena de talleres: vóley, karate, K-Pop, teatro, piscina. Ninguno de los que la municipalidad anunció en sus notas de verano era de programación. Esta página es para las familias que quieren sumar esa pieza al verano sin otro traslado: clases en vivo, en inglés, desde la mesa de su casa.
+Cada enero Jesús María se llena de talleres: vóley, karate, K-Pop, teatro, piscina. Ninguno de los que la municipalidad anunció en sus notas de verano era de programación. Esta página es para las familias que quieren sumar esa pieza sin otro traslado: Python e IA, o el curso que su hijo prefiera, cuatro o cinco veces por semana, en vivo y en inglés, desde la mesa de su casa.
 
-En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Edades: De 6 a 12 años y adolescentes de secundaria; Idea del verano: Un taller del distrito y una clase de código; Lugar: Su casa en Jesús María, por videollamada; Formato: Grupo de quince a veinte, o clases individuales; Contenido: Scratch, Python, web y proyectos de IA; Para probar: Una clase gratis, sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
+En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Edades: De 6 a 12 años y adolescentes de secundaria; Idea del verano: Un taller del distrito y una clase de código; Ritmo de verano: De 4 a 5 clases en vivo por semana; Formato: Grupo de quince a veinte, o clases individuales; Opciones: Python e IA, o el curso que prefiera; Para probar: Una clase gratis, sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
 
-## Para empezar el verano en Jesús María: tres cursos
+## ¿Qué tres cursos abren el verano en Jesús María?
 
-Elegimos uno para cada etapa del colegio: primaria baja, primaria alta y secundaria.
+Los dos primeros son la primera opción, Python e inteligencia artificial, para primaria alta y para secundaria; el tercero muestra la segunda opción, un curso que el chico escoge.
 
-- [Scratch, del personaje al juego](/courses/scratch-programming-complete-course): Para primaria. Su hijo arma historias y juegos completos con bloques, y aprende a planificar antes de construir: buena compañía para un taller de teatro o de dibujo.
-- [Python con juegos y mensajes](/courses/python-ai-kids-masterclass): Para chicos de 9 a 12. Juegos de texto, dibujos con código y mensajes cifrados como el del ejemplo de esta página, con un vistazo a cómo funciona la inteligencia artificial.
-- [JavaScript para adolescentes](/courses/javascript-course-for-teens-beginners-interactive-web): De 13 a 18 años. Páginas web que responden al usuario y juegos que corren en el navegador: un proyecto visible para enseñar al volver al colegio.
+- [Python con juegos, mensajes e IA](/courses/python-ai-kids-masterclass): Primera opción, de 9 a 12 años. Juegos de texto, dibujos con código y mensajes cifrados como el del ejemplo de esta página, y al final pequeños proyectos de inteligencia artificial.
+- [Python completo para adolescentes](/courses/python-complete-masterclass-teens): Primera opción en secundaria. De la primera línea a programas que leen datos; luego vienen IA y machine learning, o ciencia de datos desde los 14.
+- [JavaScript para adolescentes](/courses/javascript-course-for-teens-beginners-interactive-web): Segunda opción, de 13 a 18 años. Páginas web que responden al usuario y juegos de navegador; seis meses al ritmo normal, así que un verano largo a cinco clases semanales puede cerrarlo.
+
+## ¿Qué puede programar su hijo este verano desde Jesús María?
+
+Una de dos cosas, siempre en directo y en inglés: Python con inteligencia artificial, o el curso que él prefiera. En verano la clase se repite cuatro o cinco veces por semana, y hay espacio para el taller del distrito porque nadie tiene que salir de casa.
+
+### Primera opción: Python e inteligencia artificial
+
+La que sugerimos por defecto. Su hijo escribe Python desde el primer día, con juegos, dibujos y mensajes como el del cifrado de esta página, y cuando ya maneja funciones y listas da el salto a la IA: programas que aprenden de ejemplos que él mismo prepara.
+
+Entre 9 y 12 años, [Python e IA para niños](/courses/python-ai-kids-masterclass). En secundaria, [Python completo para adolescentes](/courses/python-complete-masterclass-teens), seguido de [IA y machine learning](/courses/ai-ml-masterclass-teens) o, desde los 14, [ciencia de datos con Python](/courses/data-science-course-for-teens-python-data). No pedimos cuentas en herramientas de IA reservadas a adultos.
+
+### Segunda opción: el curso que su hijo prefiera
+
+Todo el catálogo, con la misma frecuencia veraniega. Para un adolescente que viene de teatro o de K-Pop, [JavaScript](/courses/javascript-course-for-teens-beginners-interactive-web) o el [desarrollo web full stack](/courses/full-stack-web-development-teens-masterclass) dan algo que se puede mostrar; para quien disfruta los acertijos, [algoritmos y estructuras de datos (DSA)](/courses/problem-solving-dsa-masterclass-teens).
+
+También hay apps con React Native o con bloques, Roblox, C++, Scratch, ciberseguridad y matemática. El mentor ayuda a escoger en la clase gratis.
+
+**Cuántas clases suma cada ritmo (cálculo nuestro)**
+
+| Ritmo | Clases por semana | En 4 semanas | En 8 semanas | En 10 semanas |
+|---|---|---|---|---|
+| Verano, intensidad baja | 4 | 16 | 32 | 40 |
+| Verano, intensidad alta | 5 | 20 | 40 | 50 |
+| Año escolar, como referencia | 2 | 8 | 16 | 20 |
+
+Cuenta de Modern Age Coders: clases por semana multiplicadas por semanas. Las tarifas de esta página corresponden al ritmo del año escolar, unas ocho clases al mes; la frecuencia de verano y su precio se pactan con el mentor antes de la primera clase veraniega.
+
+Qué significa eso para cada curso, sin adornos: los cortos se terminan. Scratch completo, de tres a cuatro meses al ritmo normal, o HTML y CSS, de cuatro, caben en un verano. JavaScript para adolescentes, de seis meses, pide unas 48 clases y se cierra con un verano largo a cinco por semana. Los de diez a doce meses, como Python completo para adolescentes o DSA, suman de 80 a 100 clases: el verano hace más o menos la mitad y el resto sigue desde marzo, a dos por semana. No le diremos otra cosa.
+
+**Qué opción va con cada etapa escolar (guía nuestra)**
+
+| Etapa | Primera opción | Segunda opción, algunos ejemplos |
+|---|---|---|
+| Primaria, 1° a 3° (6 a 8 años) | Todavía no: empieza con Scratch y llega a Python a los 9 | Scratch completo, bloques, Minecraft |
+| Primaria, 4° a 6° (9 a 12 años) | Python e IA para niños | Páginas web para niños, Roblox, C++ para niños |
+| Secundaria, 1° a 3° (12 a 15 años) | Python completo para adolescentes | JavaScript, DSA, ciberseguridad |
+| Secundaria, 4° y 5° (15 a 17 años) | Python, luego IA y machine learning o ciencia de datos | Web full stack, apps con React Native, Java |
+
+Guía nuestra, con las edades que figuran en la ficha de cada curso. Ninguna opción pide experiencia previa.
 
 ## ¿Hay talleres municipales de verano en Jesús María, y de qué son?
 
@@ -60,16 +99,16 @@ Sí, y es la combinación que más recomendamos para un chico de Jesús María: 
 1. **Primero el taller.** Si su hijo ya tiene un taller municipal o del colegio, anote sus días y horas. Esa es la parte fija del verano.
 2. **Luego un hueco tranquilo.** Busque un momento en que la casa esté en calma y su hijo descansado: después del almuerzo, a media tarde o temprano en la noche.
 3. **Reserve la clase gratis en ese hueco.** El sistema le muestra los horarios en hora de Perú. Allí el mentor conoce a su hijo y le sugiere grupo o clases individuales.
-4. **Dos clases por semana.** En grupo es el ritmo habitual. Si su hijo va a clases individuales, usted puede pedir otro ritmo.
+4. **Cuatro o cinco clases por semana.** Es la frecuencia de verano, en grupo o individual. Con un taller municipal de dos o tres días, la semana da para las dos cosas sin apretar.
 5. **Revisión a mitad del verano.** Hacia febrero, pídale que le muestre su proyecto y le explique cómo funciona. Con eso decide si sigue en marzo.
 
 **Cómo puede verse una semana de verano con taller y programación (ejemplo nuestro, no un horario)**
 
 | Momento del día | Opción A: taller por la mañana | Opción B: taller por la tarde |
 |---|---|---|
-| Mañana | Taller deportivo o artístico en el distrito | Clase de programación en casa, dos días por semana |
+| Mañana | Taller deportivo o artístico en el distrito | Clase de programación en casa, cuatro o cinco días por semana |
 | Después del almuerzo | Descanso; lectura o juego libre | Descanso; repasar el proyecto de la semana |
-| Tarde | Clase de programación en casa, dos días por semana | Taller deportivo o artístico en el distrito |
+| Tarde | Clase de programación en casa, cuatro o cinco días por semana | Taller deportivo o artístico en el distrito |
 | Noche | Mostrar a la familia lo que programó | Mostrar a la familia lo que programó |
 
 Ejemplo propuesto por Modern Age Coders para ordenar el verano. No es el horario de ningún taller municipal, cuyos días y horas fija la municipalidad, ni una hora obligatoria para nuestras clases: la hora la pone usted.
@@ -197,7 +236,7 @@ Una clase a las 7:00 p. m. en Jesús María es a las 5:30 a. m. del día siguien
 
 Cálculo con la hora oficial de Perú, UTC-5 sin horario de verano (base tzdata, zona America/Lima; INACAL), y la de la India, UTC+5:30. Ejemplos de conversión, no horarios fijos de clase.
 
-Sobre la fecha de vuelta a clases: el último bloque lectivo del año escolar 2026 va del 19 de octubre al 18 de diciembre de 2026, según la Tabla 1 de la RM 501-2025-MINEDU. Al 9 de noviembre de 2026 no encontramos publicada la norma del año escolar 2027, así que no damos aquí una fecha de cierre del verano. Si su hijo sigue con nosotros en marzo, solo cambiamos la hora de clase para que no choque con el colegio.
+Sobre la fecha de vuelta a clases: el último bloque lectivo del año escolar 2026 va del 19 de octubre al 18 de diciembre de 2026, según la Tabla 1 de la RM 501-2025-MINEDU. Al 9 de noviembre de 2026 no encontramos publicada la norma del año escolar 2027, así que no damos aquí una fecha de cierre del verano. Si su hijo sigue con nosotros en marzo, movemos la hora para que no choque con el colegio y el ritmo baja a dos clases por semana.
 
 ## ¿Qué puede construir su hijo, según su etapa?
 
@@ -216,7 +255,7 @@ Una guía nuestra de proyectos posibles en un verano, de los 6 años a la secund
 ### Cómo acompañar desde casa
 
 Pregunte qué hizo, no cuánto tiempo estuvo. Un chico que le explica su proyecto en dos frases aprendió más que uno que pasó tres horas copiando.
-Si su hijo también va a un taller del distrito, no lo sobrecargue: dos clases de programación por semana bastan para avanzar en serio.
+Si su hijo también va a un taller del distrito, cuide el descanso: con cuatro clases semanales de programación ya avanza en serio, y la quinta solo si le sobra energía.
 
 ### Un consejo para su hijo
 
@@ -225,13 +264,13 @@ Pruebe su programa con el caso raro, como la letra z en el cifrado. Ahí aparece
 
 ## Otros nueve cursos para este verano
 
-Se dictan en inglés y en vivo; el formato, grupal o individual, lo elige usted.
+Cualquiera sirve como segunda opción: en inglés y en vivo, grupal o individual, a cuatro o cinco clases por semana.
 
 ### Primeros pasos
 
 De 6 a 9 años
 
-- [Bloques para empezar](/courses/kids-coding-blocks-masterclass): Primeras animaciones, juegos y apps arrastrando bloques, desde los 6 años.
+- [Scratch, del personaje al juego](/courses/scratch-programming-complete-course): Historias y juegos completos; de tres a cuatro meses, cabe en el verano.
 - [Cálculo mental para niños](/courses/mental-maths-mastery-kids): Sentido numérico con juegos, sin trucos de memoria, de 5 a 10 años.
 - [Programar en Minecraft](/courses/minecraft-coding-for-kids-course): Automatizar construcciones en un mundo que su hijo ya conoce.
 
@@ -247,7 +286,7 @@ De 8 a 12 años
 
 Desde los 13 años
 
-- [Python completo para adolescentes](/courses/python-complete-masterclass-teens): De la primera línea a programas que leen datos y resuelven problemas.
+- [IA y machine learning para adolescentes](/courses/ai-ml-masterclass-teens): La continuación natural de la primera opción, de 13 a 18 años.
 - [Ciberseguridad para adolescentes](/courses/cybersecurity-course-for-teens-ethical-defensive): Cómo se protege una cuenta y una red, desde el lado defensivo.
 - [Diseño web para adolescentes](/courses/frontend-development-masterclass-for-teens): De CSS bien hecho a interfaces con React, paso a paso.
 
@@ -268,11 +307,11 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 
 ## Lo que cuesta, para familias de Jesús María
 
-Nuestros precios aparecen en dólares estadounidenses y el pago es con tarjeta de crédito o débito. Su banco convierte el monto a soles en la fecha del cobro, por eso la cifra final de su estado de cuenta puede moverse un poco con el tipo de cambio.
+Las tarjetas indican la mensualidad de ocho clases, la del año escolar, en dólares estadounidenses. Como en verano son cuatro o cinco clases por semana, el precio de ese ritmo lo acuerda con el mentor antes de la primera clase de verano. El pago es con tarjeta de crédito o débito, y su banco convierte el monto en la fecha del cobro.
 
 - Primera clase gratis: Gratis. Una primera clase sin costo. El mentor ve por dónde conviene empezar. No se pide tarjeta.
-- Clase grupal: USD 100 al mes. Un grupo de quince a veinte de edades cercanas. El mismo mentor todo el curso. Dos clases en vivo por semana. Mes a mes, sin permanencia.
-- Clases individuales: USD 150 al mes. Clases solo para su hijo. Un temario al ritmo que necesita. Días y horas a su elección.
+- Clase grupal: USD 100 al mes. Un grupo de quince a veinte de edades cercanas. El mismo mentor todo el curso. Cuatro o cinco clases semanales en verano. Mes a mes, sin permanencia.
+- Clases individuales: USD 150 al mes. Clases solo para su hijo. Python e IA o el curso que prefiera. Días, horas y frecuencia a su elección.
 
 ## Vacaciones útiles de programación en Jesús María: preguntas frecuentes
 
@@ -296,9 +335,13 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 
 Desde los 6 años, con bloques, hasta el final de la secundaria, con Python, JavaScript o Java. También enseñamos a universitarios y adultos, pero esta página está pensada para el verano escolar.
 
-### ¿Cuántas semanas dura?
+### ¿Qué opciones de verano ofrecen?
 
-No hay una duración fija ni un campamento con fecha de cierre. Son clases mensuales: su hijo empieza cuando usted decida y sigue mientras le sirva. Muchas familias empiezan en enero y deciden en marzo.
+Dos. Python e inteligencia artificial, que sugerimos por defecto, o el curso que su hijo prefiera: JavaScript, DSA, desarrollo web, apps, Roblox, C++ y otros. En las dos, las clases son en vivo y en inglés.
+
+### ¿Cuántas semanas dura y cuántas clases tiene?
+
+No hay campamento con fecha de cierre: su hijo empieza la semana que usted decida, con 4 a 5 clases por semana, en grupo o individuales. Diez semanas así son de 40 a 50 clases, según nuestra cuenta. Un curso corto se termina; uno largo avanza cerca de la mitad y sigue en marzo.
 
 ### ¿Qué aprende un adolescente en un verano?
 
@@ -311,6 +354,10 @@ No. Son por videollamada, en vivo, y su hijo las toma en su casa. No tenemos loc
 ### ¿Qué equipo hace falta?
 
 Una computadora de escritorio o laptop con cámara, micrófono y teclado, unos audífonos y conexión estable. Con una tablet o un celular no se programa con comodidad.
+
+### ¿Cuánto cuesta el verano?
+
+La mensualidad del año escolar, de ocho clases, figura en esta página en dólares estadounidenses. La de verano, con cuatro o cinco clases semanales, se acuerda con el mentor antes de la primera clase de verano. Se paga con tarjeta, y la clase gratis no pide ninguna.
 
 ### ¿Dan certificado?
 

@@ -1,4 +1,4 @@
-// SHIP: vacaciones útiles district (ES) | Los Olivos, Lima Norte: robótica o programación, Fábrica de Programadores | a virtual robot on a grid: position, heading and a wall check
+// SHIP: vacaciones útiles district (ES) | Los Olivos: Verano Python e IA or a la carta, 4 to 5 a week, Lima Norte | a virtual robot on a grid: position, heading and a wall check
 'use strict';
 // Vacaciones útiles de programación en Los Olivos (ag- Spanish-language district door, Peru cluster row PE208, P2, hubGroup lima).
 // Spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md; writer brief docs/superpowers/plans/2026-11-09-pe-writer-brief.md.
@@ -48,6 +48,16 @@
 //    v2: ... F (3, 4) north / Wall! I stay at (3, 4) / End: (3, 4)
 // Lesson family: a robot's state (position and heading) updated by a string of commands, with a wall check that keeps it on
 //    the board; turning with % 4.
+// REVISED 2026-11-10 for the owner's summer offer (brief, last section): "Verano Python e IA" (python-ai-kids-masterclass
+// 9 to 12; python-complete-masterclass-teens, then ai-ml-masterclass-teens or data-science-course-for-teens-python-data
+// from 14) or "Verano a la carta" (any course: DSA, full stack web, React Native apps, Java, C++, PCEP, Scratch, Roblox,
+// vibe coding), 4 to 5 live classes a week, group or one to one, summer pace and fee agreed with the mentor before the first
+// summer class, first class free. All facts, sources and the robot lesson kept; the eight-week plan at two a week replaced
+// by a ten-week plan at four or five a week.
+// Course durations read from content/courses/data/*.json on 2026-11-10: python-ai-kids 8-10 months (32-40 weeks), ages 9
+// to 12; scratch 3-4 months; vibe coding kids 3 months; python teens and DSA teens 10-12 months; data science teens 6
+// months, 14 to 18. Our arithmetic: weeks 1-2 = 8 / 10 classes, 4 = 16 / 20, 6 = 24 / 30, 8 = 32 / 40, 10 = 40 / 50;
+// Python e IA kids at 2 a week = 64 to 80 classes, so a ten-week summer covers well over half but does not finish it.
 
 const { ES: PE_ES } = require('../../scripts/nl/lib/market-pe');
 
@@ -116,12 +126,12 @@ module.exports = {
   parents: [{ slug: 'coding-and-ai-classes-in-peru', name: 'Peru' }],
   routeLabel: 'Vacaciones útiles de programación en Los Olivos',
   title: 'Vacaciones útiles de programación en Los Olivos, en inglés',
-  description: 'Vacaciones útiles de programación para niños y adolescentes de Los Olivos, en vivo, en línea y en inglés: robótica o código, Python y un plan de verano propio.',
-  ogDescription: 'Un verano de programación desde casa para familias de Los Olivos: robótica o código, la Fábrica de Programadores de Lima Norte y un robot que se programa sin kit.',
-  twitterDescription: 'Vacaciones útiles de programación en Los Olivos: clases en vivo y en inglés desde casa, en grupo o individuales, a cualquier hora.',
+  description: 'Vacaciones útiles de programación en Los Olivos: Verano Python e IA o un curso a la carta, 4 a 5 clases por semana, en vivo y en inglés, para primaria y secundaria.',
+  ogDescription: 'Verano de programación en Los Olivos: Python con IA o el curso que su hijo elija, cuatro o cinco clases semanales en vivo y en inglés, y un robot que se programa sin kit.',
+  twitterDescription: 'Los Olivos, verano 2027: Python e IA o un curso a la carta, de 4 a 5 clases por semana en vivo y en inglés, en grupo o individuales.',
   pageName: 'Vacaciones útiles de programación en Los Olivos',
-  webPageDescription: 'Guía para familias de Los Olivos (Lima Norte) que buscan vacaciones útiles de programación o de robótica para sus hijos: la población de niños y adolescentes del distrito según los Censos Nacionales 2025 del INEI, lo que dice el MINEDU sobre robótica educativa, la Fábrica de Programadores de Lima Norte, un plan de verano sugerido por nosotros y un robot virtual programado en Python.',
-  courseDescription: 'Clases en vivo y en línea de programación para niños de 6 a 12 años y adolescentes de Los Olivos, dictadas solo en inglés: lógica, Scratch, Python y proyectos de IA, en clase grupal o individual, empezando en las vacaciones de verano y a cualquier hora.',
+  webPageDescription: 'Guía para familias de Los Olivos (Lima Norte) que buscan vacaciones útiles de programación o de robótica para sus hijos: la población de niños y adolescentes del distrito según los Censos Nacionales 2025 del INEI, lo que dice el MINEDU sobre robótica educativa, la Fábrica de Programadores de Lima Norte, las dos opciones de verano (Python e IA, o un curso a la carta) a 4 o 5 clases por semana, un plan de diez semanas sugerido por nosotros y un robot virtual programado en Python.',
+  courseDescription: 'Verano de programación en vivo para niños de 6 a 12 años y adolescentes de Los Olivos, dictado solo en inglés: Verano Python e IA o un curso a la carta (DSA, web, apps, Java, PCEP y más), de 4 a 5 clases por semana, en clase grupal o individual y a cualquier hora.',
   crumbs: [{ name: 'Cursos', href: '/courses' }, { name: 'Perú', href: '/coding-and-ai-classes-in-peru' }],
   crumbLabel: 'Vacaciones útiles en Los Olivos',
   navLinks: [
@@ -134,29 +144,29 @@ module.exports = {
   ],
   eyebrow: 'Lima Norte &middot; Los Olivos &middot; Verano de programación',
   h1: 'Vacaciones útiles de programación en Los Olivos, en inglés',
-  lede: 'Para las familias de Los Olivos que en el verano buscan algo más que pantallas: clases de programación en vivo, guiadas en inglés por un mentor, sin salir de casa. Aquí explicamos qué ofrecemos en enero, febrero y marzo, qué diferencia hay entre robótica y programación, qué hizo el MINEDU en Lima Norte con la Fábrica de Programadores y cómo se programa un robot que solo existe en la pantalla.',
-  secondaryCta: { href: '#robotica', label: '¿Robótica o programación?' },
-  wa: 'Hola Modern Age Coders, vivimos en Los Olivos y queremos que nuestro hijo o hija programe en estas vacaciones. ¿Podemos reservar una clase gratis?',
+  lede: 'Para las familias de Los Olivos que quieren un verano con propósito: programación en vivo, guiada en inglés por un mentor, cuatro o cinco veces por semana y sin salir de casa. Aquí explicamos las dos opciones de enero a marzo, cuántas clases suma el verano, qué diferencia hay entre robótica y programación, qué hizo el MINEDU en Lima Norte con la Fábrica de Programadores y cómo se programa un robot que solo existe en la pantalla.',
+  secondaryCta: { href: '#verano', label: 'Ver las dos opciones de verano' },
+  wa: 'Hola Modern Age Coders, vivimos en Los Olivos y nos interesa el Verano Python e IA (o un curso a la carta) para nuestro hijo o hija. ¿Podemos reservar una clase gratis?',
   heroNote: 'Enseñamos en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; un verano de código en Lima Norte sin cruzar la ciudad',
   spec: [
     ['Para quién', 'Niños de 6 a 12 años y adolescentes de secundaria'],
-    ['Cuándo', 'Desde las vacaciones de verano, y si quieren, todo el año'],
+    ['Opciones', 'Verano Python e IA, o un curso a la carta'],
     ['Dónde', 'En casa, en Los Olivos, por videollamada'],
     ['Formato', 'Grupo de quince a veinte, o clases individuales'],
-    ['Lenguajes', 'Bloques, Scratch, Python y proyectos de IA'],
+    ['Intensidad', 'De 4 a 5 clases en vivo por semana'],
     ['Primera clase', 'Gratis, sin tarjeta']
   ],
   capsuleQ: 'En pocas palabras',
-  capsule: 'Sí: Modern Age Coders ofrece vacaciones útiles de programación para niños de 6 a 12 años y adolescentes de Los Olivos, en vivo, en línea y en inglés. No es un taller presencial ni un curso de robótica con kit: su hijo programa en su propia computadora, en casa, con un mentor desde la India que habla claro y va a su ritmo. Empieza en enero, febrero o marzo con nuestras clases normales, en grupo o individuales, a la hora que usted elija, y puede seguir cuando vuelva el colegio. La primera clase es gratis.',
+  capsule: 'Sí: este verano Modern Age Coders ofrece a los chicos de Los Olivos, de 6 a 12 años y de secundaria, dos opciones: Verano Python e IA, la que proponemos primero, o Verano a la carta, con el curso que su hijo elija (DSA, web, apps, Java y más). Su hijo programa desde casa con un mentor en la India, en vivo y en inglés, de 4 a 5 clases por semana, en grupo o individual y a la hora que usted marque. No es un taller con kit de robótica. Intensidad y tarifa de verano se acuerdan con el mentor; la primera clase es gratis.',
 
   picks: {
     eyebrow: 'Para empezar este verano',
     h2: 'Tres cursos para un verano de código en Los Olivos',
-    lede: 'Uno para entrenar la lógica antes de escribir código, uno para el primer lenguaje de verdad y uno para adolescentes que quieren un examen internacional de Python como meta.',
+    lede: 'Los dos primeros son el Verano Python e IA, uno para primaria y otro para secundaria; el tercero es un ejemplo de Verano a la carta para adolescentes que miran el examen internacional de Python.',
     items: [
-      { course: 'problem-solving-and-computational-thinking-for-kids', code: 'VUPO / 01', title: 'Pensamiento computacional para niños', alt: 'Imagen del curso de resolución de problemas y pensamiento computacional para niños', note: 'Para niños de primaria. Secuencias, patrones y decisiones: la misma lógica que mueve a un robot, entrenada con retos en pantalla y sin piezas que comprar.' },
-      { course: 'python-ai-kids-masterclass', code: 'VUPO / 02', title: 'Python e IA para niños', alt: 'Imagen del curso de Python e IA para niños', note: 'Pensado para chicos de 9 a 12. Aquí se escribe código por primera vez: dibujos, juegos de preguntas y, como en el ejemplo de esta página, un robot que avanza por una cuadrícula.' },
-      { course: 'pcep-pcap-python-certification-course', code: 'VUPO / 03', title: 'Python con meta PCEP y PCAP', alt: 'Imagen del curso de certificación de Python PCEP y PCAP', note: 'Desde los 13 años. Python desde cero con la vista puesta en los exámenes PCEP y PCAP del Python Institute, que el alumno rinde por su cuenta si lo desea.' }
+      { course: 'python-ai-kids-masterclass', code: 'VUPO / 01', title: 'Python e IA para niños', alt: 'Imagen del curso de Python e IA para niños', note: 'Verano Python e IA, de 9 a 12 años. Aquí se escribe código por primera vez: dibujos, juegos de preguntas y, como en el ejemplo de esta página, un robot que avanza por una cuadrícula; al final, un proyecto de IA.' },
+      { course: 'python-complete-masterclass-teens', code: 'VUPO / 02', title: 'Python para adolescentes', alt: 'Imagen del curso de Python para adolescentes', note: 'Verano Python e IA en secundaria. El mismo lenguaje que eligió la Fábrica de Programadores, de cero a proyectos propios; después vienen IA y machine learning, o ciencia de datos desde los 14.' },
+      { course: 'pcep-pcap-python-certification-course', code: 'VUPO / 03', title: 'Python con meta PCEP y PCAP', alt: 'Imagen del curso de certificación de Python PCEP y PCAP', note: 'Verano a la carta, desde los 13. Python con la vista puesta en los exámenes PCEP y PCAP del Python Institute, que el alumno rinde por su cuenta si lo desea; la parte PCEP cabe en un verano intenso.' }
     ]
   },
 
@@ -165,14 +175,32 @@ module.exports = {
       id: 'verano',
       eyebrow: 'El verano',
       h2: '¿Qué les ofrecemos a los chicos de Los Olivos en enero, febrero y marzo?',
-      lede: 'Son nuestras clases normales de programación, en vivo y en inglés, que su hijo empieza durante las vacaciones escolares de verano en lugar de esperar a marzo. No vendemos un campamento con fecha fija: usted elige cuándo empieza, cuántas clases a la semana y si continúa después.',
+      lede: 'Dos opciones, en vivo y en inglés: Verano Python e IA, la que proponemos primero, o Verano a la carta, en la que su hijo elige el curso. En ambas se programa cuatro o cinco veces por semana, el doble o más que en el año escolar, y se arranca la semana que usted decida.',
       body: [
-        { kind: 'p', html: 'En el Perú las vacaciones útiles son los programas de verano que llenan los meses sin colegio. La Resolución Ministerial 501-2025-MINEDU fijó el año escolar 2026 en 36 semanas lectivas, con el primer bloque de clases desde el 16 de marzo y el último hasta el 18 de diciembre de 2026. Lo que queda entre esa fecha y el inicio del año siguiente es el verano que muchas familias de Los Olivos quieren aprovechar.' },
+        { kind: 'two',
+          leftH3: 'Verano Python e IA',
+          left: [
+            'Es la opción que más se parece a lo que pasa en Lima Norte, donde el MINEDU eligió Python para su Fábrica de Programadores. Su hijo entrena la lógica, escribe sus primeros programas en Python y cierra el verano con un proyecto de inteligencia artificial pensado para su edad.',
+            'De 9 a 12 años, con <a class="ag-inline-link" href="/courses/python-ai-kids-masterclass">Python e IA para niños</a>. En secundaria, con <a class="ag-inline-link" href="/courses/python-complete-masterclass-teens">Python para adolescentes</a> y luego <a class="ag-inline-link" href="/courses/ai-ml-masterclass-teens">IA y machine learning</a> o, desde los 14, <a class="ag-inline-link" href="/courses/data-science-course-for-teens-python-data">ciencia de datos</a>. Los de 6 a 8 empiezan con bloques y llegan a Python después.'
+          ],
+          rightH3: 'Verano a la carta',
+          right: [
+            'Su hijo escoge cualquier curso del catálogo y lo lleva con la misma intensidad. En secundaria: <a class="ag-inline-link" href="/courses/problem-solving-dsa-masterclass-teens">algoritmos y estructuras de datos (DSA)</a>, <a class="ag-inline-link" href="/courses/full-stack-web-development-teens-masterclass">desarrollo web full stack</a>, <a class="ag-inline-link" href="/courses/complete-app-development-masterclass-for-teens">apps con React Native</a>, Java o C++. En primaria: Scratch, Roblox, apps con bloques o vibe coding para niños.',
+            'Para el adolescente que mira el examen PCEP, como los chicos de la Fábrica, está el curso con meta PCEP y PCAP. En la clase gratis el mentor revisa con usted qué curso tiene sentido.'
+          ] },
+        { kind: 'table', mt: true, numCols: [], caption: 'Qué opción conviene según la edad y el grado (guía nuestra)', head: ['Edad y grado, aproximados', 'Verano Python e IA', 'Verano a la carta, algunas ideas'], rows: [
+          ['6 a 8 años, 1° a 3° de primaria', 'Aún con bloques; Python llega después', 'Scratch completo, programación con bloques, razonamiento para pequeños'],
+          ['9 a 12 años, 4° a 6° de primaria', 'Python e IA para niños', 'Vibe coding para niños, videojuegos para niños, apps con bloques'],
+          ['12 a 15 años, 1° a 3° de secundaria', 'Python para adolescentes', 'DSA para adolescentes, Java, apps con React Native'],
+          ['15 a 17 años, 4° y 5° de secundaria', 'Python para adolescentes, luego IA y machine learning o ciencia de datos', 'Python con meta PCEP, web full stack, C++']
+        ] },
+        { kind: 'source', html: 'Guía de Modern Age Coders, con las edades de la ficha de cada curso. Ninguna opción exige saber programar.' },
+        { kind: 'p', mt: true, html: 'En el Perú las vacaciones útiles son los programas de verano que llenan los meses sin colegio. La Resolución Ministerial 501-2025-MINEDU fijó el año escolar 2026 en 36 semanas lectivas, con el primer bloque de clases desde el 16 de marzo y el último hasta el 18 de diciembre de 2026. Lo que queda entre esa fecha y el inicio del año siguiente es el verano que muchas familias de Los Olivos quieren aprovechar.' },
         { kind: 'p', html: 'El calendario del año escolar 2027 todavía no está publicado. Al 9 de noviembre de 2026, una búsqueda en gob.pe por "año escolar 2027" solo devuelve la nota del MINEDU del 14 de octubre de 2026 sobre el despacho de 13.3 millones de unidades de materiales educativos para ese año. Por eso no le prometemos aquí una fecha de cierre del verano: cuando el MINEDU publique la norma, la fecha de vuelta al colegio será la que diga esa norma.' },
         { kind: 'three', mt: true, cells: [
-          { h3: 'Lo que sí es', p: 'Clases en vivo por videollamada, con un mentor que conoce a su hijo, dentro de un grupo de quince a veinte chicos de su misma etapa, o a solas con el mentor. Cada semana se programa algo nuevo y se termina con un pequeño proyecto.' },
+          { h3: 'Lo que sí es', p: 'Clases en vivo por videollamada, cuatro o cinco por semana, con un mentor que conoce a su hijo, dentro de un grupo de quince a veinte chicos de su misma etapa o a solas con él. Cada semana se programa algo nuevo y se termina con un pequeño proyecto.' },
           { h3: 'Lo que no es', p: 'No es un taller presencial en un local del distrito ni un curso con un robot físico. No mandamos piezas ni kits a casa. Tampoco es un curso grabado: si su hijo se traba, el mentor lo ve en la pantalla compartida en ese momento.' },
-          { h3: 'Lo que sigue en marzo', p: 'Cuando vuelva el colegio, su hijo puede pasar a menos clases por semana, cambiar de horario o terminar. Muchas familias usan el verano para probar, y deciden con lo que ven en enero y febrero.' }
+          { h3: 'Lo que sigue en marzo', p: 'Cuando vuelva el colegio, su hijo baja a dos clases por semana, cambia de horario o termina. Si el curso es largo, en marzo lo encuentra bien avanzado y lo completa a ese ritmo.' }
         ] },
         { kind: 'p', mt: true, html: 'Un dato práctico para decidir: todas las clases son en inglés. El mentor habla despacio y adapta su acento al del niño, y el EF EPI 2025 ubica a Lima en el nivel alto de inglés, con 555 puntos, frente a los 519 del país. Para un niño de Los Olivos eso significa practicar inglés hablado mientras programa, dos cosas en la misma hora de verano.' }
       ]
@@ -269,15 +297,17 @@ module.exports = {
       id: 'plan',
       eyebrow: 'Un verano con plan',
       h2: '¿Cómo podría ser un verano de programación? Nuestro plan sugerido',
-      lede: 'Este plan es nuestro, una sugerencia para un niño de 9 a 12 años que empieza en enero con dos clases por semana. No es la duración de un curso ni un campamento: si empiezan más tarde, se recorta; si les gusta, sigue en marzo.',
+      lede: 'Este plan es nuestro: un chico de 9 a 12 años que entra al Verano Python e IA en enero y programa cuatro o cinco veces por semana durante diez semanas. Si empieza más tarde, el plan se recorta; si en marzo quiere seguir, continúa a dos clases semanales.',
       body: [
-        { kind: 'table', numCols: [], caption: 'Un verano de programación en etapas (plan sugerido por nosotros, no un horario)', head: ['Etapa', 'Qué aprende', 'Qué se lleva a casa'], rows: [
-          ['Semanas 1 y 2', 'Secuencias y repeticiones con bloques; el tablero dibujado en papel', 'Un personaje que recorre un laberinto en Scratch'],
-          ['Semanas 3 y 4', 'Primeras líneas de Python: variables, <code>print</code>, cadenas de texto', 'Un programa que saluda y cuenta en inglés'],
-          ['Semanas 5 y 6', 'Bucles y condiciones: el robot de la cuadrícula, versiones 1 y 2', 'Un robot que no se sale del tablero'],
-          ['Semanas 7 y 8', 'Un proyecto propio con todo lo anterior', 'Un juego o simulación presentado en inglés a la familia']
+        { kind: 'table', numCols: [1], caption: 'Diez semanas de Verano Python e IA, a 4 o 5 clases por semana (plan sugerido por nosotros, no un horario)', head: ['Semanas', 'Clases acumuladas, a 4 / a 5 por semana', 'Qué aprende', 'Qué se lleva a casa'], rows: [
+          ['1 y 2', '8 / 10', 'Secuencias y repeticiones con bloques; el tablero dibujado en papel', 'Un personaje que recorre un laberinto en Scratch'],
+          ['3 y 4', '16 / 20', 'Primeras líneas de Python: variables, <code>print</code>, cadenas de texto', 'Un programa que saluda y cuenta en inglés'],
+          ['5 y 6', '24 / 30', 'Bucles, condiciones y listas: el robot de la cuadrícula, versiones 1 y 2', 'Un robot que no se sale del tablero'],
+          ['7 y 8', '32 / 40', 'Primeras ideas de IA: el programa compara muchos recorridos y aprende cuáles chocan', 'Un robot que elige entre varias rutas guardadas'],
+          ['9 y 10', '40 / 50', 'Un proyecto propio con todo lo anterior', 'Un juego o simulación presentado en inglés a la familia']
         ] },
-        { kind: 'source', html: 'Plan y proyectos propuestos por Modern Age Coders. Los más chicos, de 6 a 8 años, siguen un camino más corto, con bloques y sin Python; los adolescentes pueden empezar directamente en Python o en el curso con meta PCEP. El mentor ajusta todo después de la clase gratis.' },
+        { kind: 'source', html: 'Plan, proyectos y cuentas de Modern Age Coders: semanas por clases semanales. El curso Python e IA para niños está pensado para 8 a 10 meses a dos clases por semana, de 64 a 80 clases; las 40 a 50 del verano lo dejan bien encaminado, pero no terminado, y el resto sigue desde marzo. El mentor ajusta todo después de la clase gratis.' },
+        { kind: 'p', mt: true, html: 'Con un curso a la carta pasa lo mismo, según su tamaño. Uno corto, como Scratch completo (de tres a cuatro meses al ritmo normal) o vibe coding para niños (tres meses), se termina dentro del verano. Uno largo, de diez a doce meses, como Python para adolescentes o DSA para adolescentes, suma de 80 a 100 clases: llega a marzo con cerca de la mitad hecha. Ese es el cálculo honesto, y es nuestro.' },
         { kind: 'two', mt: true,
           leftH3: 'Si su hijo tiene de 6 a 8 años',
           left: [
@@ -334,7 +364,7 @@ module.exports = {
   catalogue: {
     eyebrow: 'Más opciones',
     h2: 'Nueve cursos más para el verano y para después',
-    lede: 'Cada uno se dicta en vivo y en inglés, en grupo o de forma individual, y su hijo conserva a su mentor de principio a fin.',
+    lede: 'Todos valen para el Verano a la carta: en vivo y en inglés, en grupo o de forma individual, con el mismo mentor de principio a fin.',
     bands: [
       { num: 'I', h3: 'Para los más pequeños', sub: 'De 6 a 9 años', courses: [
         { code: 'VUPO / INICIO / 01', slug: 'kids-coding-blocks-masterclass', title: 'Programación con bloques', blurb: 'Juegos, animaciones y primeras apps con bloques de colores, desde los 6 años.' },
@@ -347,7 +377,7 @@ module.exports = {
         { code: 'VUPO / CREA / 03', slug: 'maths-through-coding', title: 'Matemática con código', blurb: 'Matemática escolar explicada con programas en Python, de 10 a 15 años.' }
       ] },
       { num: 'III', h3: 'Para adolescentes', sub: 'Desde los 13 años', courses: [
-        { code: 'VUPO / SEC / 01', slug: 'python-complete-masterclass-teens', title: 'Python para adolescentes', blurb: 'De cero a proyectos propios, para chicos de 13 a 18 años.' },
+        { code: 'VUPO / SEC / 01', slug: 'ai-ml-masterclass-teens', title: 'IA y machine learning para adolescentes', blurb: 'El paso siguiente del Verano Python e IA, de 13 a 18 años.' },
         { code: 'VUPO / SEC / 02', slug: 'java-programming-masterclass-for-teens', title: 'Java para adolescentes', blurb: 'Programación orientada a objetos paso a paso, con proyectos.' },
         { code: 'VUPO / SEC / 03', slug: 'problem-solving-dsa-masterclass-teens', title: 'Lógica y algoritmos', blurb: 'Estructuras de datos y resolución de problemas para secundaria.' }
       ] }
@@ -379,10 +409,10 @@ module.exports = {
 
   fees: {
     h2: 'Cuánto cuesta un verano de programación',
-    lede: 'Mostramos la mensualidad en dólares estadounidenses y se cobra con tarjeta. La conversión a soles la hace su banco al momento del cargo, de modo que el importe de su estado de cuenta depende del tipo de cambio de ese día.',
+    lede: 'Abajo figura la mensualidad del año escolar, ocho clases al mes, en dólares estadounidenses. En verano su hijo programa cuatro o cinco veces por semana, así que esa intensidad y su tarifa se definen con el mentor antes de la primera clase veraniega. Se cobra con tarjeta, y la conversión la hace su banco al momento del cargo.',
     free: ['Una clase gratis en vivo', 'El mentor ubica el punto de partida de su hijo', 'Sin tarjeta ni compromiso'],
-    group: ['Quince a veinte chicos de edad parecida', 'Mismo mentor durante todo el curso', 'Dos clases en vivo a la semana', 'Se paga mes a mes y se deja cuando quiera'],
-    one: ['Solo su hijo y el mentor', 'Temas y ritmo a su medida', 'Día y hora que usted fije']
+    group: ['Quince a veinte chicos de edad parecida', 'Mismo mentor durante todo el curso', 'Dos clases semanales en el año; cuatro o cinco en verano', 'Se paga mes a mes y se deja cuando quiera'],
+    one: ['Solo su hijo y el mentor', 'Python e IA o el curso a la carta', 'Días, horas e intensidad que usted fije']
   },
 
   faq: {
@@ -391,14 +421,15 @@ module.exports = {
     items: [
       { q: '¿Las clases son en español?', a: 'No. El idioma de todas nuestras clases, que son en vivo y en línea, es el inglés, y para su hijo eso es una ganancia doble en el verano, porque programa y conversa en inglés a la vez. Si no entiende algo, el mentor lo dice de otra manera y lo muestra en la pantalla hasta que quede claro. Según el EF EPI 2025, Lima tiene un nivel alto de inglés (555 puntos), así que esa práctica cae en terreno fértil.' },
       { q: '¿Cuándo empiezan las vacaciones útiles de programación?', a: 'Cuando usted quiera. No hay una fecha de inicio común: reserva la clase gratis y su hijo empieza la semana que más le acomode, en enero, febrero o marzo. Las semanas lectivas del año escolar 2026 terminan el 18 de diciembre de 2026, según la RM 501-2025-MINEDU; el calendario 2027 aún no estaba publicado al 9 de noviembre de 2026.' },
-      { q: '¿Cuánto dura el programa de verano?', a: 'No vendemos un campamento con duración fija. Son nuestras clases mensuales normales, en grupo o individuales. En esta página proponemos un plan propio de ocho semanas como guía, pero usted decide cuándo empezar y si continuar después de marzo.' },
+      { q: '¿Qué opciones hay para el verano?', a: 'Dos: Verano Python e IA, que proponemos primero, y Verano a la carta, en la que su hijo elige cualquier curso, por ejemplo DSA, desarrollo web, apps, Java, C++ o el curso con meta PCEP. Las dos son en vivo y en inglés.' },
+      { q: '¿Cuántas clases por semana tiene el verano?', a: 'De 4 a 5 clases en vivo por semana, en grupo o individuales. En diez semanas eso da de 40 a 50 clases, según nuestra cuenta; durante el año escolar el ritmo es de dos por semana.' },
+      { q: '¿Cuánto dura el programa de verano?', a: 'Lo que dure su verano: no hay campamento con fecha fija. Proponemos un plan propio de diez semanas como guía. Los cursos cortos, como Scratch o vibe coding para niños, se terminan en ese tiempo; los largos avanzan cerca de la mitad y siguen en marzo.' },
       { q: '¿Es un curso de robótica?', a: 'No. Enseñamos programación, la parte que decide cómo se comporta un robot, y no usamos ni enviamos kits. Los robots de nuestras clases viven en la pantalla, como el de la cuadrícula de esta página. El propio MINEDU, en su documento sobre robótica educativa, presenta al robot como un medio para aprender y no como la meta.' },
-      { q: '¿Las clases son presenciales en Los Olivos?', a: 'No. Son en vivo por videollamada y su hijo las sigue desde casa, en Los Olivos o donde esté. No tenemos local en el distrito ni en Lima. Eso evita los traslados de todo el verano.' },
       { q: '¿En qué horario puede programar un chico de Los Olivos?', a: 'Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Como el reloj indio le lleva a Perú 10 horas y 30 minutos durante todo el año, una clase a las 9:00 a. m. en Los Olivos es a las 7:30 p. m. para el mentor.' },
       { q: '¿Mi hijo de primaria ya tiene edad para programar?', a: 'Sí. Desde los 6 años se programa arrastrando bloques de colores. Hacia los 9 o 10 casi todos están listos para escribir Python, y los adolescentes de secundaria pueden empezar directamente con Python, Java o el curso con meta PCEP.' },
       { q: '¿Están vinculados a la Fábrica de Programadores del MINEDU?', a: 'No. No tenemos relación con el MINEDU, con la Fábrica de Programadores ni con las universidades o empresas que participan, y no inscribimos a nadie en ese programa. Lo mencionamos porque nombra a colegios de Los Olivos y usa Python y el examen PCEP, igual que uno de nuestros cursos.' },
       { q: '¿Qué necesita mi hijo en casa?', a: 'Basta una laptop o una computadora de escritorio con cámara y micrófono, unos audífonos y un internet que no se corte a mitad de clase. Con un celular se puede mirar, pero no programar con comodidad.' },
-      { q: '¿Cómo se paga?', a: 'En dólares estadounidenses y con tarjeta, mes a mes. Su banco hace la conversión. La clase gratis no pide tarjeta.' },
+      { q: '¿Cuánto cuesta el verano?', a: 'En esta página verá la mensualidad del año escolar, de ocho clases, en dólares estadounidenses. La tarifa del verano, con cuatro o cinco clases por semana, se acuerda con el mentor antes de empezar. Se paga con tarjeta y la clase gratis no la pide.' },
       { q: '¿Recibe mi hijo un certificado?', a: 'Sí, al completar un curso le damos un certificado de finalización con el nombre de Modern Age Coders, que es quien lo firma. No es un certificado del MINEDU ni del sistema educativo peruano, y no otorga notas para el colegio.' }
     ]
   },
@@ -419,7 +450,7 @@ module.exports = {
 
   start: {
     h2: 'Reserve la primera clase del verano',
-    lede: 'En la clase gratis el mentor saluda a su hijo en un inglés sencillo, le propone mover un personaje o un robot en la pantalla y mira cómo razona. Con eso le sugerimos el curso, el formato y el ritmo para el verano, sin ningún compromiso.',
+    lede: 'En la clase gratis el mentor saluda a su hijo en un inglés sencillo, le propone mover un personaje o un robot en la pantalla y mira cómo razona. Con eso le sugerimos Verano Python e IA o un curso a la carta, el formato y cuántas clases por semana tomar, y se conversa la tarifa del verano, sin ningún compromiso.',
     readFirst: 'Si prefiere leer antes de reservar, tiene <a class="ag-inline-link" href="/how-we-teach">How we teach</a>, que cuenta cómo son nuestras clases en vivo, y <a class="ag-inline-link" href="/courses">All courses</a>, con el catálogo entero; ambas están escritas en inglés.',
     note: 'Enseñamos solo en inglés y siempre en vivo, con mentores que viven en la India. Por WhatsApp, en cambio, puede escribirnos en castellano.',
     formNote: 'Gratis, sin tarjeta y sin compromiso.'
@@ -428,8 +459,8 @@ module.exports = {
   footer: {
     cols: [
       { h4: 'Cursos de verano', links: [
-        { href: '/courses/problem-solving-and-computational-thinking-for-kids', label: 'Pensamiento computacional' },
         { href: '/courses/python-ai-kids-masterclass', label: 'Python e IA para niños' },
+        { href: '/courses/python-complete-masterclass-teens', label: 'Python para adolescentes' },
         { href: '/courses/pcep-pcap-python-certification-course', label: 'Python con meta PCEP' },
         { href: '/courses', label: 'Todos los cursos' }
       ] },
@@ -449,10 +480,12 @@ module.exports = {
 .ag-root.ag-vupo .ag-table td { font-variant-numeric: tabular-nums; }
 .ag-root.ag-vupo .ag-section-head h2 { max-width: 28ch; }
 .ag-root.ag-vupo .ag-steps li { line-height: 1.62; }
+.ag-root.ag-vupo #verano .ag-grid-2 > div { border-left: 6px solid var(--ag-accent); border-radius: 4px; padding: 20px 22px; background: var(--ag-accent-soft); }
+.ag-root.ag-vupo #verano .ag-grid-2 h3 { color: var(--ag-accent); margin-top: 0; letter-spacing: 0.01em; }
 `,
 
   dossier: {
-    curriculumAuthority: 'INEI Censos Nacionales 2025 (Lima Metropolitana tabulado, Cuadros N.° 1 and 3); MINEDU press note on Fábrica de Programadores (24 July 2025), DITE robotics paper, Hackathon 2025 note, RM 501-2025-MINEDU (Tabla 1, checked by eye), 14 October 2026 materials note; EF EPI 2025 Peru page; INEI Boletín TIC II trimestre 2026; tzdata and INACAL. No Municipalidad de Los Olivos summer source found on gob.pe on 9 November 2026, so the page says nothing about municipal programmes. The robot example, the summer plan and the progress signals are our own.',
+    curriculumAuthority: 'Summer offer per owner 2026-11-10 (two options, 4 to 5 classes a week; course durations from our own course pages; arithmetic ours). INEI Censos Nacionales 2025 (Lima Metropolitana tabulado, Cuadros N.° 1 and 3); MINEDU press note on Fábrica de Programadores (24 July 2025), DITE robotics paper, Hackathon 2025 note, RM 501-2025-MINEDU (Tabla 1, checked by eye), 14 October 2026 materials note; EF EPI 2025 Peru page; INEI Boletín TIC II trimestre 2026; tzdata and INACAL. No Municipalidad de Los Olivos summer source found on gob.pe on 9 November 2026, so the page says nothing about municipal programmes. The robot example, the summer plan and the progress signals are our own.',
     localProject: 'A virtual robot for a child of 10 to 12 in Los Olivos, where robotics is the summer word: a 5 by 5 board, a heading 0 to 3 turned with % 4 and a string of commands FFRFFFLFFF; Version 1 ends at End: (3, 5), off the board; Version 2 checks 0 <= ny <= 4 before moving, prints Wall! I stay at (3, 4) and ends at End: (3, 4). Run with python3 -I. Lesson family: state (position and heading) updated by commands, with a wall check.',
     requiredMentions: ['End: (3, 5)', 'Censados de 6 a 11 años', 'Wall! I stay at (3, 4)', 'Where is the board?', '27,111 niños de 6 a 11 años', 'pertenecen a colegios de Los Olivos, Rímac, San Martín de Porres, Comas, Carabayllo, Puente Piedra, Santa Rosa y Ancón', 'desde el año 1996 con el proyecto Infoescuela', 'el duodécimo distrito más poblado de los 43 de Lima Metropolitana', 'Mirar antes de avanzar', 'Nuestro plan sugerido'],
     sources: [
@@ -468,7 +501,7 @@ module.exports = {
     ],
     rejectedClaims: [
       'Any municipal summer programme in Los Olivos: no Municipalidad de Los Olivos note was found on gob.pe on 9 November 2026 and its own site timed out, so the page says nothing about it.',
-      'A camp length, start date or summer price: refused; the page sells the normal monthly classes and labels the eight-week plan as our own suggestion.',
+      'A typed summer price, a fixed camp start date, or a promise that a long course ends in the summer: refused; the summer pace and fee are agreed with the mentor, and the ten-week plan and class counts are labelled ours.',
       'Any link to the Fábrica de Programadores, MINEDU, UNI, UPN or Cisco: none; the page says we are not connected and enrol nobody.',
       'Robot kits or hardware: none; the robot is simulated in Python.',
       'A sum of the Lima Norte district populations: refused; each district is shown as INEI publishes it.',

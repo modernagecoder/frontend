@@ -1,4 +1,4 @@
-// SHIP: market (es district, vacaciones útiles) | summer reforzamiento: maths reasoning and Python together, 10 to 15 | conjecture, test, find the counterexample
+// SHIP: market (es district, vacaciones útiles) | summer offer: Python and AI or own course, 4 to 5 a week, maths angle | conjecture, test, find the counterexample
 'use strict';
 // Vacaciones útiles de programación en San Miguel, Lima (ag- Spanish door, Peru cluster row PE215, P2, hubGroup lima).
 // Spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md; writer brief docs/superpowers/plans/2026-11-09-pe-writer-brief.md.
@@ -41,6 +41,15 @@
 // Our own practice set (miguel_practica.py), answers checked with python3 -I: P1 100, P2 47, P3 61, P4 6, P5 30 30.
 // Lesson family: a pattern that holds for many cases is a conjecture, not a proof; use a loop to test it and to hunt for the
 // first counterexample.
+// REVISED 2026-11-10 for the owner's summer offer (brief, last section): two tracks (Summer Python and AI: kids
+// python-ai-kids-masterclass, teens python-complete-masterclass-teens then ai-ml-masterclass-teens; or choose any course:
+// maths-through-coding, problem-solving-dsa-masterclass-teens, html-css-course-for-beginners-build-real-websites,
+// complete-app-development-masterclass-for-teens and more), 4 to 5 live classes a week, group or one to one, pace and fee
+// agreed with the mentor before the first summer class, first class free. Every fact, source and the lesson above kept.
+// Our own summer arithmetic (python3 -I, weeks x classes; regular year = 2 a week, about 8 a month):
+//    4 weeks 16 / 20 classes = 2 to 2.5 months of the regular pace; 6 weeks 24 / 30 = 3 to 3.75; 8 weeks 32 / 40 = 4 to 5;
+//    10 weeks 40 / 50 = 5 to 6.25. A long course (10 to 12 months at 2 a week, roughly 80 to 100 classes) gets about half
+//    in a ten-week summer; short courses (Scratch, HTML and CSS, three-month vibe coding, PCEP prep) can be completed.
 
 const { ES: PE_ES } = require('../../scripts/nl/lib/market-pe');
 
@@ -99,51 +108,85 @@ module.exports = {
   parents: [{ slug: 'coding-and-ai-classes-in-peru', name: 'Peru' }],
   routeLabel: 'Vacaciones útiles de programación en San Miguel',
   title: 'Vacaciones útiles de programación en San Miguel, Lima',
-  description: 'Vacaciones útiles en San Miguel con programación y matemática juntas: clases en vivo y en inglés, de 10 a 15 años, en grupo o individuales y a cualquier hora.',
-  ogDescription: 'Reforzamiento de matemática con Python para escolares de San Miguel: clases en vivo y en inglés, un ejemplo que busca un contraejemplo y cinco problemas.',
-  twitterDescription: 'Un verano de matemática y programación para San Miguel, en vivo y en inglés, desde casa y a la hora que su familia elija.',
+  description: 'Vacaciones útiles en San Miguel: Python e IA o el curso que elija, de 4 a 5 clases por semana, en vivo y en inglés, para 10 a 15 años, en grupo o a solas.',
+  ogDescription: 'Un verano de Python e IA, o del curso que su hijo elija, para escolares de San Miguel: de 4 a 5 clases por semana, en vivo y en inglés, con la primera gratis.',
+  twitterDescription: 'Verano en San Miguel: Python e IA o el curso que elija, de 4 a 5 clases semanales en vivo y en inglés, a la hora que su familia escoja.',
   pageName: 'Vacaciones útiles de programación en San Miguel',
-  webPageDescription: 'Guía para familias de San Miguel, Lima, que quieren unas vacaciones útiles de matemática y programación para hijos de 10 a 15 años: población del distrito y sus vecinos según el INEI (Censos 2025), las cuatro competencias matemáticas del CNEB, lo que el MINEDU informó sobre la ENLA 2025, una clase de ejemplo en Python que prueba una conjetura hasta encontrar un contraejemplo y cinco problemas originales con respuesta.',
-  courseDescription: 'Clases en vivo de matemática y programación para escolares de 10 a 15 años en San Miguel y todo Lima, dictadas solo en inglés: razonamiento, álgebra, olimpiadas y Python aplicado a la matemática, en clase grupal o individual, desde el verano y a cualquier hora.',
+  webPageDescription: 'Guía para familias de San Miguel, Lima, que quieren unas vacaciones útiles de programación para hijos de 10 a 15 años: los dos caminos de verano (Python con IA, o un curso a elección) a 4 o 5 clases por semana, cuántas clases suma el verano, qué camino conviene por edad, la población del distrito y sus vecinos según el INEI (Censos 2025), las cuatro competencias matemáticas del CNEB, lo que el MINEDU informó sobre la ENLA 2025, una clase de ejemplo en Python que prueba una conjetura hasta encontrar un contraejemplo y cinco problemas originales con respuesta.',
+  courseDescription: 'Verano de programación para escolares de 10 a 15 años en San Miguel y todo Lima, dictado solo en inglés y en vivo: el camino de Python con IA o un curso a elección (matemática con código, algoritmos, web, apps y más), de 4 a 5 clases por semana, en clase grupal o individual y a cualquier hora.',
   crumbs: [{ name: 'Cursos', href: '/courses' }, { name: 'Perú', href: '/coding-and-ai-classes-in-peru' }],
   crumbLabel: 'Vacaciones útiles en San Miguel',
   navLinks: [
     { href: '/coding-and-ai-classes-in-peru', label: 'Perú' },
+    { href: '#verano', label: 'Plan de verano' },
     { href: '#distrito', label: 'San Miguel' },
-    { href: '#repaso', label: 'Repaso' },
     { href: '#conjetura', label: 'Ejemplo' },
     { href: '#problemas', label: 'Problemas' },
     { href: '#vocabulario', label: 'En inglés' }
   ],
-  eyebrow: 'San Miguel, Lima &middot; Vacaciones útiles &middot; Matemática y programación',
+  eyebrow: 'San Miguel, Lima &middot; Vacaciones útiles &middot; Python e IA o el curso que elija',
   h1: 'Vacaciones útiles de programación y matemática en San Miguel',
-  lede: 'Muchas familias de San Miguel buscan en el verano dos cosas a la vez: que su hijo no pierda lo que aprendió en matemática y que empiece algo nuevo. Programar con Python resuelve las dos, porque cada programa obliga a razonar con números. Aquí le contamos cómo lo hacemos, en vivo y en inglés, y le dejamos un ejemplo y cinco problemas para probar en casa.',
-  secondaryCta: { href: '#problemas', label: 'Ver los cinco problemas' },
-  wa: 'Hola Modern Age Coders, vivimos en San Miguel y buscamos vacaciones útiles de matemática y programación para nuestro hijo o hija. ¿Podemos reservar una clase gratis?',
+  lede: 'Muchas familias de San Miguel quieren dos cosas del verano: que la matemática del colegio no se oxide y que su hijo aprenda algo nuevo de verdad. Si el mentor lo ve cuatro o cinco veces cada semana, en directo, hay tiempo para ambas. Abajo están los dos caminos que proponemos, la cuenta de clases que da el verano, qué curso va con cada edad, y un ejemplo y cinco problemas para probar en casa.',
+  secondaryCta: { href: '#verano', label: 'Ver los dos caminos de verano' },
+  wa: 'Hola Modern Age Coders, vivimos en San Miguel y nos interesa el verano de Python e IA (o elegir otro curso) para nuestro hijo o hija, con 4 o 5 clases por semana. ¿Podemos reservar la clase gratis?',
   heroNote: 'Desde 2020 &middot; 4.9 sobre 5 en unas 547 reseñas de Google &middot; matemática y programación con un mismo mentor',
   spec: [
     ['Edades', 'De 10 a 15 años, de 5° de primaria a 3° de secundaria'],
-    ['Qué se trabaja', 'Razonamiento matemático y Python'],
-    ['Modalidad', 'En vivo por videollamada, desde casa'],
+    ['Caminos', 'Python con IA, o un curso a elección'],
+    ['Ritmo de verano', 'De 4 a 5 clases en vivo por semana'],
     ['Idioma', 'Inglés claro y pausado'],
     ['Grupo', 'De quince a veinte, o clases individuales'],
     ['Empezar', 'Con una clase de prueba sin costo']
   ],
   capsuleQ: 'Lo esencial',
-  capsule: 'Para escolares de 10 a 15 años de San Miguel, Modern Age Coders ofrece un verano que junta matemática y programación: clases en vivo, por videollamada y en inglés, en las que su hijo usa Python para comprobar patrones, resolver problemas y razonar con números. El mentor enseña desde la India, pronuncia con claridad y se ajusta al ritmo del alumno. Usted elige grupo o clases individuales, y el día y la hora que le convengan. La clase de prueba es gratis.',
+  capsule: 'Para escolares de 10 a 15 años de San Miguel, Modern Age Coders ofrece este verano dos caminos: Python con IA, el principal, o un curso que su hijo escoja del catálogo, desde matemática con código hasta algoritmos, desarrollo web o apps. Todo se enseña en vivo, por videollamada y en inglés: en verano, 4 a 5 clases por semana, con un grupo o a solas, a la hora que usted fije. El mentor trabaja desde la India, pronuncia con claridad y respeta los tiempos del alumno; con él se pactan la intensidad y la tarifa del verano antes de arrancar. La clase inicial no cuesta nada.',
 
   picks: {
     eyebrow: 'Cursos para el verano',
-    h2: 'Tres cursos que unen números y código',
-    lede: 'El primero junta las dos materias en una sola clase; el segundo refuerza la matemática del colegio; el tercero es para quien disfruta los problemas difíciles.',
+    h2: '¿Con qué curso puede arrancar su hijo este verano?',
+    lede: 'Arriba, el camino de Python con IA en sus dos versiones, según la edad; al final, un ejemplo de curso escogido por el alumno que va muy bien con la matemática del colegio.',
     items: [
-      { course: 'maths-through-coding', code: 'VAC / 01', title: 'Matemática a través de la programación', alt: 'Imagen del curso de matemática a través de la programación', note: 'De 10 a 15 años, sin experiencia previa en código. Cada tema de matemática se explora escribiendo un programa en Python, como el ejemplo de esta página.' },
-      { course: 'comprehensive-middle-school-mathematics-mastery', code: 'VAC / 02', title: 'Matemática de secundaria inicial', alt: 'Imagen del curso de matemática de secundaria inicial', note: 'Prealgebra y geometría con método: fracciones, proporciones, ecuaciones y figuras, para llegar al siguiente grado con la base firme.' },
-      { course: 'middle-school-math-competitions-course', code: 'VAC / 03', title: 'Competencias de matemática', alt: 'Imagen del curso de competencias de matemática', note: 'De 10 a 14 años aproximadamente. Problemas de olimpiada originales, en inglés, para quien quiere razonar más allá del ejercicio de clase.' }
+      { course: 'python-ai-kids-masterclass', code: 'VAC / 01', title: 'Python e IA para niños', alt: 'Imagen del curso de Python e IA para niños', note: 'Camino A para chicos de 10 a 12. Juegos y dibujos en Python al inicio; proyectos de IA a su medida al final, sin abrir cuentas en herramientas que piden mayoría de edad.' },
+      { course: 'python-complete-masterclass-teens', code: 'VAC / 02', title: 'Python para adolescentes', alt: 'Imagen del curso de Python para adolescentes', note: 'Camino A desde los 13. El lenguaje entero, con proyectos; cuando la base aguanta, se pasa al curso de IA y machine learning para adolescentes.' },
+      { course: 'maths-through-coding', code: 'VAC / 03', title: 'Matemática a través de la programación', alt: 'Imagen del curso de matemática a través de la programación', note: 'Camino B, de 10 a 15. Cada tema de matemática se explora escribiendo un programa, como el ejemplo de esta página: reforzamiento y código en la misma hora.' }
     ]
   },
 
   sections: [
+    {
+      id: 'verano',
+      eyebrow: 'El plan de verano',
+      h2: '¿Qué ofrece el verano de programación a un escolar de San Miguel?',
+      lede: 'Dos caminos, los dos con mentor en directo y en inglés. Su hijo se sube en la semana de enero, febrero o marzo que le acomode, y mientras dura el verano ve al mentor cuatro o cinco veces por semana, en vez de las dos del año escolar.',
+      body: [
+        { kind: 'two',
+          leftH3: 'Camino A: Python con inteligencia artificial',
+          left: [
+            'Es el camino que recomendamos primero. Su hijo escribe Python desde la primera clase y, cuando ya domina bucles, listas y funciones, lo usa en proyectos de inteligencia artificial a la medida de su edad: ordenar y clasificar datos que él mismo reunió, o enseñarle a un programa a reconocer un patrón numérico.',
+            'Entre los 10 y los 12 años va por <a class="ag-inline-link" href="/courses/python-ai-kids-masterclass">Python e IA para niños</a>. Desde los 13, por <a class="ag-inline-link" href="/courses/python-complete-masterclass-teens">Python para adolescentes</a> y luego <a class="ag-inline-link" href="/courses/ai-ml-masterclass-teens">IA y machine learning para adolescentes</a>. Respetamos las edades mínimas de cada herramienta de IA.'
+          ],
+          rightH3: 'Camino B: un curso a elección',
+          right: [
+            'Si a su hijo le atrae otra cosa, toma ese curso con la misma intensidad veraniega. Con el enfoque de esta página encajan tres: <a class="ag-inline-link" href="/courses/maths-through-coding">matemática a través de la programación</a>, <a class="ag-inline-link" href="/courses/problem-solving-dsa-masterclass-teens">algoritmos y estructuras de datos (DSA)</a> para quien disfruta los retos, y desarrollo web o de apps para quien quiere construir algo que se vea.',
+            'El catálogo sigue: C++, Java, Roblox, creación de juegos, Scratch, vibe coding, olimpiada matemática. En la clase gratis el mentor confirma desde dónde parte.'
+          ] },
+        { kind: 'table', mt: true, numCols: [1, 2], caption: 'Cuántas clases da el verano según las semanas que su hijo programe (cálculo nuestro)', head: ['Semanas con clases', 'Con 4 cada semana', 'Con 5 cada semana', 'Equivale, al ritmo del año escolar, a'], rows: [
+          ['4 semanas', '16', '20', 'Entre 2 y 2,5 meses'],
+          ['6 semanas', '24', '30', 'Entre 3 y casi 4 meses'],
+          ['8 semanas', '32', '40', 'Entre 4 y 5 meses'],
+          ['10 semanas', '40', '50', 'Entre 5 y algo más de 6 meses']
+        ] },
+        { kind: 'source', html: 'Multiplicación nuestra, semanas por sesiones. En el año escolar la cadencia es de dos por semana, unas ocho al mes, que es lo que cobran las tarifas de más abajo; la intensidad veraniega y su costo se pactan con el mentor antes de arrancar.' },
+        { kind: 'p', mt: true, html: 'Leída con franqueza, la tabla dice esto. Lo breve se completa antes de marzo: Scratch, HTML con CSS, cualquiera de los vibe coding trimestrales o el repaso para el PCEP. Lo extenso es otra historia: un programa de diez a doce meses a dos sesiones semanales reúne de 80 a 100 clases, así que diez semanas intensas dejan hecha cerca de la mitad, y el resto se completa durante el año escolar. Nadie le asegurará aquí que eso se acaba en vacaciones.' },
+        { kind: 'table', mt: true, numCols: [], caption: 'Qué camino suele encajar con cada edad en San Miguel (guía nuestra)', head: ['Edad y grado', 'Camino A', 'Camino B, algunas opciones'], rows: [
+          ['10 a 12 años, 5° y 6° de primaria', 'Python e IA para niños', 'Matemática con código, web para niños o apps con bloques'],
+          ['12 a 13 años, 1° de secundaria', 'Python e IA para niños o Python para adolescentes, según el nivel', 'Competencias de matemática o Scratch hasta juegos completos'],
+          ['13 a 14 años, 2° de secundaria', 'Python para adolescentes', 'Algoritmos y estructuras de datos, HTML y CSS, o Java'],
+          ['14 a 15 años, 3° de secundaria', 'Python para adolescentes y después IA y machine learning', 'Web full stack, apps con React Native o matemática de olimpiada']
+        ] },
+        { kind: 'source', html: 'Tabla nuestra. Ninguno de los dos caminos exige saber programar, y el mentor la corrige tras conocer a su hijo.' }
+      ]
+    },
     {
       id: 'distrito',
       eyebrow: 'San Miguel y sus vecinos',
@@ -185,7 +228,7 @@ module.exports = {
           rightH3: 'Por qué el verano pesa',
           right: [
             'Varias semanas sin practicar no borran lo aprendido, pero lo oxidan, sobre todo los procedimientos de varios pasos. Al volver, el primer bimestre se va en recuperarlos.',
-            'Una o dos clases a la semana bastan para mantener el hábito de razonar, y si se hacen programando, el alumno ni siquiera siente que está repasando.'
+            'Con 4 o 5 clases por semana el hábito de razonar no se corta, y además el curso avanza. Si el repaso llega programando, el alumno casi no lo siente como repaso.'
           ] }
       ]
     },
@@ -290,10 +333,10 @@ module.exports = {
           ],
           rightH3: 'Lo que eso significa para usted',
           right: [
-            'No hace falta esperar al calendario para empezar. Nuestras clases son mensuales: su hijo empieza en enero, o cuando usted decida, y continúa en marzo con el mismo mentor si le sirvió.',
-            'Al volver al colegio la clase pasa a otra hora del día. Lo único que cambia es eso.'
+            'No hace falta esperar al calendario. El plan de verano arranca la semana que usted elija, a 4 o 5 clases semanales, y en marzo baja a dos por semana con el mismo mentor si su hijo sigue.',
+            'Al volver al colegio cambian dos cosas: la hora de la clase y la cantidad por semana. El curso es el mismo.'
           ] },
-        { kind: 'p', mt: true, html: 'Tampoco hay que inscribirse en una fecha cerrada ni comprar un paquete de verano. No otorgamos notas ni certificados del sistema educativo peruano y no tenemos relación con el MINEDU ni con ningún colegio; al cerrar un curso, su hijo recibe solo un certificado de culminación emitido por Modern Age Coders.' }
+        { kind: 'p', mt: true, html: 'Tampoco hay una fecha cerrada de inscripción: el ritmo y la tarifa del verano se fijan con el mentor antes de empezar. No otorgamos notas ni certificados del sistema educativo peruano y no tenemos relación con el MINEDU ni con ningún colegio; al cerrar un curso, su hijo recibe solo un certificado de culminación emitido por Modern Age Coders.' }
       ]
     },
     {
@@ -349,10 +392,10 @@ module.exports = {
         { code: 'VAC / SEC / 02', slug: 'olympiad-competition-mathematics-mastery', title: 'Matemática de olimpiada', blurb: 'Teoría de números, combinatoria y geometría con problemas originales.' },
         { code: 'VAC / SEC / 03', slug: 'statistics-probability-maths-course', title: 'Estadística y probabilidad', blurb: 'De los datos a las conclusiones, con simulaciones.' }
       ] },
-      { num: 'III', h3: 'Programación', sub: 'Para escribir el código', courses: [
-        { code: 'VAC / PROG / 01', slug: 'python-ai-kids-masterclass', title: 'Python e IA para niños', blurb: 'Primeros programas escritos, desde los 9 años.' },
-        { code: 'VAC / PROG / 02', slug: 'python-complete-masterclass-teens', title: 'Python para adolescentes', blurb: 'De cero a proyectos propios, desde los 13.' },
-        { code: 'VAC / PROG / 03', slug: 'problem-solving-and-computational-thinking-for-kids', title: 'Pensamiento computacional', blurb: 'Descomponer problemas en pasos, de 7 a 12 años.' }
+      { num: 'III', h3: 'Programación a elección', sub: 'Para el camino B', courses: [
+        { code: 'VAC / PROG / 01', slug: 'problem-solving-dsa-masterclass-teens', title: 'Algoritmos y estructuras de datos', blurb: 'DSA para secundaria: buscar, ordenar y medir cuánto tarda.' },
+        { code: 'VAC / PROG / 02', slug: 'html-css-course-for-beginners-build-real-websites', title: 'HTML y CSS desde cero', blurb: 'Un curso corto que cabe entero en el verano.' },
+        { code: 'VAC / PROG / 03', slug: 'complete-app-development-masterclass-for-teens', title: 'Apps para adolescentes', blurb: 'Aplicaciones para el celular con React Native, desde los 13.' }
       ] }
     ]
   },
@@ -382,10 +425,10 @@ module.exports = {
 
   fees: {
     h2: 'Precios para familias de San Miguel',
-    lede: 'Aquí verá la mensualidad en dólares estadounidenses. El pago es con tarjeta y su banco convierte el importe, de modo que el monto final depende del tipo de cambio que aplique ese día.',
+    lede: 'Las tarjetas muestran la mensualidad del año escolar, ocho clases al mes, en dólares estadounidenses. En verano su hijo toma 4 o 5 clases por semana, así que ese ritmo y su monto se acuerdan con el mentor antes de la primera clase de verano. Se paga con tarjeta y el banco hace la conversión con el cambio del día.',
     free: ['Una clase de prueba sin costo', 'Dos o tres problemas para ubicar el nivel', 'Sin tarjeta y sin obligación'],
-    group: ['Quince a veinte alumnos de nivel parecido', 'Un mismo mentor durante el curso', 'Clases en vivo cada semana', 'Pago mensual, sin contrato'],
-    one: ['Su hijo y el mentor, nadie más', 'El temario del colegio o de olimpiada que necesite', 'El horario que usted elija']
+    group: ['Quince a veinte alumnos de nivel parecido', 'Un mismo mentor durante el curso', 'En verano, 4 o 5 clases semanales según lo acordado', 'Pago mensual, sin contrato'],
+    one: ['Su hijo y el mentor, nadie más', 'Python e IA o el curso que elija', 'El horario y el ritmo de verano que usted fije']
   },
 
   faq: {
@@ -397,10 +440,12 @@ module.exports = {
       { q: '¿Mi hijo necesita saber programar?', a: 'No. El curso de matemática a través de la programación empieza sin código. Primero se aprende lo justo de Python para comprobar un cálculo, y el resto llega con los problemas.' },
       { q: '¿Para qué edades es?', a: 'Para escolares de 10 a 15 años, de 5° de primaria a 3° de secundaria aproximadamente. Hay cursos para menores y para 4° y 5° de secundaria.' },
       { q: '¿Preparan para la ONEM?', a: 'Entrenamos razonamiento de olimpiada con problemas nuestros. La ONEM es del MINEDU, la inscripción se hace por el colegio y no reproducimos sus problemas ni prometemos resultados.' },
-      { q: '¿Cuánto dura el programa de vacaciones?', a: 'Lo que usted decida. No vendemos un paquete cerrado: son nuestras clases mensuales, que se empiezan en el verano y continúan si a su hijo le sirven.' },
+      { q: '¿Qué caminos hay para el verano?', a: 'Dos. Python con inteligencia artificial, el que recomendamos primero, o un curso que su hijo escoja del catálogo: matemática con código, algoritmos (DSA), web, apps, Java, C++, videojuegos y más. Las dos son en vivo y en inglés.' },
+      { q: '¿Cuántas clases por semana son en verano?', a: 'De 4 a 5 clases en vivo por semana, en grupo o individuales. Diez semanas a ese ritmo suman de 40 a 50 clases según nuestra cuenta. Desde marzo, si su hijo continúa, el ritmo vuelve a dos por semana.' },
+      { q: '¿Se termina un curso completo en el verano?', a: 'Uno corto, sí: Scratch, HTML y CSS, vibe coding o la preparación para el PCEP. Uno largo, de 10 a 12 meses al ritmo normal, avanza más o menos la mitad y sigue en marzo. No prometemos terminarlo antes.' },
       { q: '¿A qué hora serían las clases?', a: 'Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Por ejemplo, las 10:30 a. m. en San Miguel corresponden a las 9:00 p. m. en la India.' },
       { q: '¿La Municipalidad de San Miguel organiza estas clases?', a: 'No. No tenemos relación con la municipalidad ni con el MINEDU. Somos una academia en línea con mentores en la India.' },
-      { q: '¿En qué moneda se paga?', a: 'En dólares estadounidenses, con tarjeta, cada mes. El banco convierte el importe. La clase de prueba es gratis.' },
+      { q: '¿Cuánto cuesta el verano?', a: 'La tarifa del año escolar, ocho clases al mes, aparece en esta página en dólares estadounidenses. Como el verano lleva 4 o 5 clases semanales, la tarifa de verano se acuerda con el mentor antes de la primera clase de verano. Se paga con tarjeta, y la clase de prueba es gratis.' },
       { q: '¿Qué recibe mi hijo al terminar?', a: 'Un certificado de culminación emitido por Modern Age Coders, que no es un documento oficial del sistema educativo, y los programas y problemas que resolvió durante el curso.' }
     ]
   },
@@ -420,8 +465,8 @@ module.exports = {
   },
 
   start: {
-    h2: 'Reserve la clase de prueba de matemática y programación',
-    lede: 'En la clase de prueba el mentor plantea a su hijo un par de problemas propios, en un inglés sencillo, y le muestra cómo comprobar uno con Python. Con lo que observe le recomendamos el curso y el formato, sin ningún compromiso.',
+    h2: 'Reserve la clase gratis y elija su camino de verano',
+    lede: 'En la clase gratis el mentor le plantea a su hijo un par de problemas en inglés sencillo y le enseña a comprobar uno con Python. Con lo que vea, le propone el camino (Python con IA o un curso a elección), el formato y un ritmo de 4 o 5 clases semanales, y acuerdan juntos la tarifa del verano. Sin compromiso.',
     readFirst: 'Si quiere leer antes: <a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">la guía para Perú</a> y <a class="ag-inline-link" href="/course-atlas">Course atlas</a>, con todos los cursos (en inglés).',
     note: 'Clases solo en inglés, en tiempo real, con mentores que enseñan desde la India. Por WhatsApp puede escribir en castellano.',
     formNote: 'Gratis, sin datos de pago, sin compromiso.'
@@ -429,10 +474,10 @@ module.exports = {
 
   footer: {
     cols: [
-      { h4: 'Matemática y código', links: [
+      { h4: 'Rutas de verano', links: [
+        { href: '/courses/python-ai-kids-masterclass', label: 'Python e IA para niños' },
+        { href: '/courses/python-complete-masterclass-teens', label: 'Python para adolescentes' },
         { href: '/courses/maths-through-coding', label: 'Matemática con Python' },
-        { href: '/courses/comprehensive-middle-school-mathematics-mastery', label: 'Matemática de secundaria inicial' },
-        { href: '/courses/middle-school-math-competitions-course', label: 'Competencias de matemática' },
         { href: '/courses', label: 'Todos los cursos' }
       ] },
       { h4: 'Perú', links: [
@@ -451,10 +496,12 @@ module.exports = {
 .ag-root.ag-vac .ag-table td:first-child { white-space: nowrap; }
 .ag-root.ag-vac .ag-code pre { line-height: 1.55; }
 .ag-root.ag-vac .ag-grid-3 h3 { font-size: 1.05rem; }
+.ag-root.ag-vac #verano .ag-grid-2 > div { border: 1px solid var(--ag-accent); border-top-width: 6px; border-radius: 6px; padding: 22px 24px; background: var(--ag-paper); }
+.ag-root.ag-vac #verano .ag-grid-2 h3 { color: var(--ag-accent); margin-top: 0; }
 `,
 
   dossier: {
-    curriculumAuthority: 'INEI Censos Nacionales 2025 (district populations) and Boletín TIC II trimestre 2026; MINEDU CNEB (competencies 23 to 26, weekly maths hours), ENLA 2025 notes (announcement and 13 May 2026 results), RM 501-2025-MINEDU Tabla 1 (read by eye), materials note of 14 October 2026; El Peruano (ONEM 2026) and UGEL 06 oficio (ONEM levels); EF EPI 2025; tzdata and INACAL. Read 8 and 9 November 2026. The competency-to-code mapping, the practice set, the vocabulary list and the example are ours.',
+    curriculumAuthority: 'Summer offer per owner 2026-11-10 (two tracks, 4 to 5 classes a week; arithmetic ours). INEI Censos Nacionales 2025 (district populations) and Boletín TIC II trimestre 2026; MINEDU CNEB (competencies 23 to 26, weekly maths hours), ENLA 2025 notes (announcement and 13 May 2026 results), RM 501-2025-MINEDU Tabla 1 (read by eye), materials note of 14 October 2026; El Peruano (ONEM 2026) and UGEL 06 oficio (ONEM levels); EF EPI 2025; tzdata and INACAL. Read 8 and 9 November 2026. The competency-to-code mapping, the practice set, the vocabulary list and the example are ours.',
     localProject: 'Conjecture and counterexample in Python for a San Miguel student of 10 to 15: part 1 adds odd numbers and prints totals 1, 4, 9 up to n = 6 | add 11 | total 36 | n * n = 36; part 2 tests whether n * n + n + 41 is always prime and prints Prime for n = 0 to 39 and Breaks at n = 40 -> 1681 = 41 x 41. Plus five original problems (answers 100, 47, 61, 6, 30). Lesson family: a pattern that holds for many cases is a conjecture; test it and hunt for the first counterexample.',
     requiredMentions: ['1681 = 41 x 41', 'Prime for n = 0 to 39', 'n = 6 | add 11 | total 36 | n * n = 36', 'Con 189,301 habitantes, San Miguel', 'Cómo la trabajamos programando (nuestro)', 'resultados similares a los obtenidos en 2023 y 2024 en Lectura y Matemática', 'son 180 minutos semanales en la jornada regular y 270 en la completa', 'el 92,5 % de los adolescentes de 12 a 18 años usó internet', 'Cuarenta casos no son una demostración', 'counterexample'],
     sources: [
@@ -474,7 +521,7 @@ module.exports = {
       'Adding neighbouring district populations into a total: refused; each figure is printed as INEI publishes it.',
       'ENLA achievement-level percentages: not used; the MINEDU results pages were blocked, so only the gob.pe press-release wording is quoted.',
       'ONEM problems or solutions: not reproduced; the practice set is ours.',
-      'A camp length, start date or summer price: refused.',
+      'A typed summer price, a fixed camp start date, or a promise that a long course ends in the summer: refused; the summer pace and fee are agreed with the mentor, and the class counts are labelled ours.',
       'Spanish-language teaching, MINEDU or municipal endorsement, official certificate: refused.',
       'Soles prices or any typed fee: refused; fees render from the template in USD.'
     ]

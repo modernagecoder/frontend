@@ -1,10 +1,10 @@
 ---
 title: "Vacaciones útiles de programación en Pueblo Libre, online"
-description: "Vacaciones útiles de programación para chicos de Pueblo Libre: el calendario escolar del MINEDU, los talleres del distrito y clases en vivo y en inglés en casa."
+description: "Vacaciones útiles en Pueblo Libre: el calendario del MINEDU y un verano de Python e IA o del curso que elija, 4 a 5 clases por semana, en vivo y en inglés."
 canonical: https://learn.modernagecoders.com/vacaciones-utiles-de-programacion-pueblo-libre-lima
 source: src/pages/vacaciones-utiles-de-programacion-pueblo-libre-lima.html
 ---
-> En Pueblo Libre, las vacaciones útiles de programación de Modern Age Coders consisten en clases en vivo que su hijo toma en casa, por internet y en inglés, con un mentor en la India; sirven para niños de 6 a 12 años y para adolescentes. No hay campamento con fecha fija: usted elige cuándo empezar en el verano, si prefiere una clase grupal o clases individuales, y el día y la hora, que pueden ser cualquiera. Se combinan bien con un taller presencial del distrito y pueden seguir cuando vuelva el colegio. La primera clase es gratis.
+> En Pueblo Libre, el verano de programación de Modern Age Coders tiene dos jugadas: Python e IA, la que recomendamos abrir, o el curso que su hijo elija del catálogo, por ejemplo DSA, desarrollo web, apps o Java. Sirve a niños de seis a doce años y a adolescentes, que lo toman desde casa, en vivo y en inglés con un mentor en la India, a razón de 4 a 5 clases por semana, con grupo o a solas, a cualquier hora. Se combina con un taller presencial del distrito. Ritmo y tarifa del verano se conversan con el mentor; la primera clase no se cobra.
 
 [Inicio](/) / [Cursos](/courses) / [Perú](/coding-and-ai-classes-in-peru) / Vacaciones útiles en Pueblo Libre
 
@@ -12,17 +12,44 @@ Lima · Pueblo Libre · Vacaciones útiles
 
 # Vacaciones útiles de programación en Pueblo Libre
 
-Antes de inscribir a su hijo en nada, conviene tener el calendario a la vista: cuándo termina el colegio, cuándo vuelve y qué semanas quedan libres. Esta página parte de ahí, del calendario oficial del MINEDU, repasa lo que la municipalidad ofrece en verano y propone cómo encajar unas clases de programación en vivo y en inglés sin llenar cada hora del día.
+Antes de inscribir a su hijo en nada, conviene tener el calendario a la vista: cuándo termina el colegio, cuándo vuelve y qué semanas quedan libres. Esta página parte de ahí, del calendario oficial del MINEDU, repasa lo que la municipalidad ofrece en verano y propone dos jugadas de programación, Python e IA o el curso que su hijo elija, a cuatro o cinco clases en vivo por semana, sin llenar cada hora del día.
 
-En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Público: Niños de primaria y adolescentes de secundaria; Temporada: Verano, y si funciona, el resto del año; Modalidad: Videollamada en vivo, desde su casa; Grupos: De quince a veinte, o clase individual; Temas: Scratch, Python, lógica y algoritmos; Inicio: Con una clase de prueba gratuita. 4.9 de 5 en 547 reseñas de Google.
+En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Público: Niños de primaria y adolescentes de secundaria; Verano: Python e IA, o el curso que elija; Modalidad: Videollamada en vivo, desde su casa; Grupos: De quince a veinte, o clase individual; Frecuencia: De 4 a 5 clases en vivo por semana; Inicio: Con una clase de prueba gratuita. 4.9 de 5 en 547 reseñas de Google.
 
 ## Cursos con los que se puede empezar en Pueblo Libre
 
-Para el chico que disfruta de los acertijos, para el que quiere escribir código de verdad y para el adolescente que va un paso más allá.
+Los dos primeros son la jugada 1, Python e IA, en su versión de primaria y de secundaria; el tercero, una jugada 2 para el adolescente al que le gustan los retos.
 
-- [Razonamiento para pequeños](/courses/reasoning-and-readiness-course-for-young-thinkers): De 6 a 9 años. Patrones, orden y estrategia con retos en pantalla; el mismo tipo de pensamiento que pide un tablero de ajedrez.
-- [Python para chicos de primaria](/courses/python-ai-kids-masterclass): Para 9 a 12 años. Su hijo escribe sus propios juegos, como el de adivinar un número de esta página, y conoce lo básico de la inteligencia artificial.
-- [Lógica y algoritmos en secundaria](/courses/problem-solving-dsa-masterclass-teens): De 13 a 18 años. Búsqueda, ordenamiento y estructuras de datos, con problemas que exigen pensar antes de teclear.
+- [Python e IA para chicos de primaria](/courses/python-ai-kids-masterclass): Jugada 1, de 9 a 12 años. Su hijo escribe sus propios juegos, como el de adivinar un número de esta página, y termina con proyectos sencillos de inteligencia artificial.
+- [Python para adolescentes](/courses/python-complete-masterclass-teens): Jugada 1 en secundaria. El lenguaje completo con proyectos; con la base hecha se sigue con IA y machine learning para adolescentes.
+- [Lógica y algoritmos (DSA) en secundaria](/courses/problem-solving-dsa-masterclass-teens): Jugada 2, de 13 a 18 años. Búsqueda, ordenamiento y estructuras de datos, con problemas que exigen pensar antes de teclear, como en el ajedrez.
+
+## ¿Qué puede aprender un chico de Pueblo Libre con un verano de código?
+
+Como en el ajedrez, hay una apertura que recomendamos y otras que también funcionan. Las dos se juegan en directo y en inglés, con cuatro o cinco clases por semana desde la semana de enero, febrero o marzo que usted escoja.
+
+### Jugada 1: Python e IA
+
+La apertura que proponemos. Primero Python, con juegos de estrategia como el de adivinar números de esta página; luego, cuando su hijo ya domina bucles, listas y funciones, proyectos de inteligencia artificial a su escala, por ejemplo un programa que aprende qué jugadas ganan más seguido en un juego sencillo.
+
+Para primaria alta, de 9 a 12, el curso es [Python e IA para niños](/courses/python-ai-kids-masterclass); en secundaria se pasa por [Python para adolescentes](/courses/python-complete-masterclass-teens) antes de [IA y machine learning](/courses/ai-ml-masterclass-teens). Ninguna herramienta de IA se usa por debajo de la edad que fija su fabricante.
+
+### Jugada 2: el curso que su hijo elija
+
+Cualquier curso del catálogo, a la misma frecuencia veraniega. Al chico que disfruta del ajedrez suelen gustarle [algoritmos y estructuras de datos (DSA)](/courses/problem-solving-dsa-masterclass-teens) y la [programación competitiva](/courses/competitive-programming-for-teens-course); al que prefiere construir, el [desarrollo web con HTML y CSS](/courses/html-css-course-for-beginners-build-real-websites) o las [apps para adolescentes](/courses/complete-app-development-masterclass-for-teens).
+
+Además: Java, C++, videojuegos con Godot, apps con bloques, Scratch, vibe coding y matemática. En la clase gratis el mentor le ayuda a elegir.
+
+**Qué jugada conviene a cada edad (guía nuestra)**
+
+| Edad | Jugada 1: Python e IA | Jugada 2: algunas opciones |
+|---|---|---|
+| 6 a 8 años | Aún no: empieza con bloques y llega a Python hacia los 9 | Scratch, programación con bloques, resolver problemas paso a paso |
+| De 9 a 12 | El curso de Python e IA para niños | Matemática programando, videojuegos con Godot desde los 10, apps con bloques |
+| 13 a 15 años | Python para adolescentes desde cero | DSA, HTML y CSS, programación competitiva |
+| 15 a 17 años | Python para adolescentes y, al terminar la base, IA | Apps con React Native, Java, web full stack |
+
+Sugerencia nuestra; las edades salen de la ficha publicada de cada curso. Ninguna jugada exige saber programar, y el mentor la confirma tras la clase gratis.
 
 ## ¿Cuándo termina el colegio y cuándo vuelve, según el MINEDU?
 
@@ -80,11 +107,11 @@ Nos llama la atención el ajedrez en esa lista. Un chico que disfruta pensando d
 
 ## ¿Cómo repartir el verano entre talleres, descanso y programación?
 
-Con un plan sencillo que deje días libres. Lo que sigue es nuestra propuesta para una familia de Pueblo Libre que empieza en enero; no es la duración de un curso ni de un campamento, y se adapta si empiezan más tarde.
+Con un plan sencillo que deje ratos libres aun con cuatro o cinco clases por semana. Lo que sigue es nuestra propuesta para una familia de Pueblo Libre que empieza en enero; no es un campamento con fecha fija, y se recorta si empiezan más tarde.
 
 1. **Fin de diciembre: descanso de verdad.** Las semanas lectivas de 2026 terminan el 18 de diciembre y las fiestas llegan enseguida. No hace falta empezar nada antes de enero.
-2. **Primera semana de enero: elegir.** Revise con su hijo qué taller del distrito le atrae y reserve una clase gratis de programación para ver si le gusta. Con dos actividades basta.
-3. **Enero: el hábito.** Dos clases de programación por semana, a una hora que no choque con el taller. Su hijo termina cada semana con algo pequeño que funciona.
+2. **Primera semana de enero: elegir.** Revise con su hijo qué taller del distrito le atrae y reserve una clase gratis de programación para decidir la jugada, Python e IA o un curso a elección. Con dos actividades basta.
+3. **Enero: el hábito.** Entre cuatro y cinco sesiones de código cada semana, a horas que no choquen con el taller, que en Pueblo Libre suele ser de dos días. Su hijo termina cada semana con algo pequeño que funciona.
 4. **Febrero: el proyecto.** Con lo aprendido, su hijo elige un proyecto propio: un juego, un cuento animado o, si es mayor, un programa como el de adivinar números de esta página.
 5. **Antes de volver al colegio: mostrar y decidir.** Su hijo presenta su proyecto a la familia, en inglés si se anima. Con eso deciden juntos si sigue en marzo con menos clases por semana o si cierra aquí.
 
@@ -98,6 +125,19 @@ Con un plan sencillo que deje días libres. Lo que sigue es nuestra propuesta pa
 | 13 años o más | Python, JavaScript o Java | Una herramienta útil para su vida: un organizador de tareas o un pequeño sitio web |
 
 Plan y proyectos sugeridos por Modern Age Coders. El mentor los ajusta después de la clase gratis según lo que su hijo ya sabe y lo que le entusiasma.
+
+**Cuántas clases da cada mes del verano a 4 o 5 por semana (cálculo nuestro, suponiendo un verano 2027 parecido al de 2026)**
+
+| Tramo del verano | Semanas con clases, aprox. | A 4 por semana | A 5 por semana |
+|---|---|---|---|
+| Enero | 4 | 16 | 20 |
+| Febrero | 4 | 16 | 20 |
+| Marzo, hasta la vuelta al colegio | 2 | 8 | 10 |
+| Todo el verano | 10 | 40 | 50 |
+
+Cálculo nuestro. En 2026 las clases escolares volvieron el 16 de marzo; la fecha de 2027 la fijará la norma del MINEDU, todavía no publicada al 9 de noviembre de 2026. Las tarifas publicadas aquí son las del año escolar, ocho clases mensuales; cuánto se paga por el ritmo veraniego se conversa con el mentor antes de empezar.
+
+Lo que esas 40 a 50 clases alcanzan, dicho sin rodeos: un curso breve se termina. Scratch, de tres a cuatro meses a dos clases semanales, o HTML y CSS, de cuatro meses, caben enteros, igual que los vibe coding de tres meses o la preparación para el PCEP. Un curso extenso no: Python e IA para niños pide de 64 a 80 clases y DSA para adolescentes, de diez a doce meses, cerca de cien, así que el verano los deja a mitad de camino o algo más, y en marzo se sigue con dos clases por semana. Esa es la cuenta real.
 
 ## ¿Cómo enseña la programación a pensar con estrategia?
 
@@ -219,7 +259,7 @@ No por las horas de pantalla, sino por lo que su hijo puede hacer y explicar. Es
 ### Para la familia
 
 Haga la pregunta y espere. A veces la explicación tarda en salir, sobre todo si su hijo la piensa primero en inglés, como en clase.
-Si en marzo su hijo sigue, bastan una o dos clases por semana durante el año escolar para no perder lo ganado.
+Si en marzo su hijo sigue, se vuelve a dos clases semanales durante el año escolar, suficiente para no perder lo ganado en el verano.
 
 ### Para su hijo
 
@@ -228,13 +268,13 @@ Cuando el programa funcione, busque el caso que lo haga fallar. Así se aprende 
 
 ## Nueve cursos más, por edad
 
-Todos se dan en vivo, en inglés y por videollamada; usted decide si su hijo va en grupo o con clases individuales.
+Cualquiera vale como jugada 2: en vivo, en inglés y por videollamada, en grupo o con clases individuales.
 
 ### Primaria baja
 
 De 6 a 9 años
 
-- [Primeros programas con bloques](/courses/kids-coding-blocks-masterclass): Animaciones y juegos sencillos para quien aún no escribe con soltura.
+- [Razonamiento para pequeños](/courses/reasoning-and-readiness-course-for-young-thinkers): Patrones, orden y estrategia de 6 a 9 años, como frente a un tablero.
 - [Resolver problemas paso a paso](/courses/problem-solving-and-computational-thinking-for-kids): Descomponer un reto grande en pasos chicos, con juegos y acertijos en pantalla.
 - [Apps con bloques](/courses/block-coding-app-development-masterclass): Una primera aplicación para el celular, sin escribir código.
 
@@ -250,7 +290,7 @@ De 9 a 12 años
 
 De 13 a 18 años
 
-- [Python de principio a fin](/courses/python-complete-masterclass-teens): El lenguaje más usado para empezar, hasta proyectos propios.
+- [IA y machine learning](/courses/ai-ml-masterclass-teens): El paso siguiente de la jugada 1, de 13 a 18 años.
 - [Programación competitiva](/courses/competitive-programming-for-teens-course): Problemas con tiempo límite, para chicos que disfrutan de los retos.
 - [Apps para adolescentes](/courses/complete-app-development-masterclass-for-teens): Aplicaciones reales para celular con React Native.
 
@@ -271,11 +311,11 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 
 ## Precio de las clases para Pueblo Libre
 
-Cobramos una mensualidad expresada en dólares estadounidenses, pagada con tarjeta. Es su banco el que la pasa a soles cuando procesa el pago, con el tipo de cambio de ese día, así que el monto en su estado de cuenta puede variar ligeramente.
+Las cifras de abajo son la mensualidad del año escolar, ocho clases, expresada en dólares estadounidenses. En verano la frecuencia sube a cuatro o cinco clases por semana, y la tarifa de ese ritmo se acuerda con el mentor antes de la primera clase veraniega. Se paga con tarjeta, y su banco convierte el monto con el tipo de cambio del día.
 
 - Primera clase gratis: Gratis. Primera clase en vivo sin costo. Recomendación de curso y nivel. Sin datos de tarjeta.
-- Clase grupal: USD 100 al mes. De quince a veinte compañeros de edad cercana. Un solo mentor de principio a fin. Dos clases en vivo cada semana. Pago mensual, sin contrato.
-- Clases individuales: USD 150 al mes. Su hijo y el mentor, nadie más. Avance a su propio ritmo. El horario lo decide usted.
+- Clase grupal: USD 100 al mes. De quince a veinte compañeros de edad cercana. Un solo mentor de principio a fin. En verano, cuatro o cinco clases por semana. Pago mensual, sin contrato.
+- Clases individuales: USD 150 al mes. Su hijo y el mentor, nadie más. Python e IA o el curso que elija. Horario y frecuencia los decide usted.
 
 ## Vacaciones útiles de programación en Pueblo Libre: preguntas frecuentes
 
@@ -295,9 +335,13 @@ Al 9 de noviembre de 2026 el MINEDU no había publicado la norma del año escola
 
 En lo que publica en gob.pe, sus talleres de verano e invierno son de deporte y ajedrez, presenciales y dos veces por semana. No vimos talleres de programación. Nosotros no estamos vinculados con la municipalidad; nuestras clases son en línea y se pueden sumar a un taller del distrito.
 
-### ¿Cuánto dura el verano de programación?
+### ¿Qué ofrecen para el verano?
 
-No vendemos un programa de duración fija. Son clases mensuales que su hijo empieza cuando usted quiera. En esta página proponemos un plan propio de enero a marzo, solo como guía.
+Dos jugadas: Python e IA, la que recomendamos abrir, o el curso que su hijo elija, como DSA, programación competitiva, desarrollo web, apps, Java o videojuegos. Las dos son en vivo y en inglés.
+
+### ¿Cuánto dura el verano de programación y cuántas clases tiene?
+
+No hay campamento con fecha fija: su hijo empieza cuando usted quiera, con 4 a 5 clases por semana. De enero a la vuelta al colegio son unas diez semanas, de 40 a 50 clases según nuestra cuenta. Un curso corto se termina; uno largo llega a marzo a mitad de camino y sigue a dos clases por semana.
 
 ### ¿Qué horario tienen las clases?
 
@@ -314,6 +358,10 @@ Mucho. Programar pide prever y comprobar, como el ajedrez. En el ejemplo de esta
 ### ¿Qué necesito en casa?
 
 Una computadora o laptop con cámara y micrófono, audífonos y una conexión a internet estable. El celular no alcanza para programar cómodamente.
+
+### ¿Cuánto cuesta el verano?
+
+En esta página aparece la mensualidad del año escolar, de ocho clases, en dólares estadounidenses. La tarifa del verano, con cuatro o cinco clases semanales, se acuerda con el mentor antes de la primera clase de verano. Se paga con tarjeta; la clase de prueba es gratis.
 
 ### ¿Las clases dan nota escolar o algún certificado?
 

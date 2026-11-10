@@ -1,28 +1,68 @@
 ---
 title: "Vacaciones útiles de programación en San Miguel, Lima"
-description: "Vacaciones útiles en San Miguel con programación y matemática juntas: clases en vivo y en inglés, de 10 a 15 años, en grupo o individuales y a cualquier hora."
+description: "Vacaciones útiles en San Miguel: Python e IA o el curso que elija, de 4 a 5 clases por semana, en vivo y en inglés, para 10 a 15 años, en grupo o a solas."
 canonical: https://learn.modernagecoders.com/vacaciones-utiles-de-programacion-san-miguel-lima
 source: src/pages/vacaciones-utiles-de-programacion-san-miguel-lima.html
 ---
-> Para escolares de 10 a 15 años de San Miguel, Modern Age Coders ofrece un verano que junta matemática y programación: clases en vivo, por videollamada y en inglés, en las que su hijo usa Python para comprobar patrones, resolver problemas y razonar con números. El mentor enseña desde la India, pronuncia con claridad y se ajusta al ritmo del alumno. Usted elige grupo o clases individuales, y el día y la hora que le convengan. La clase de prueba es gratis.
+> Para escolares de 10 a 15 años de San Miguel, Modern Age Coders ofrece este verano dos caminos: Python con IA, el principal, o un curso que su hijo escoja del catálogo, desde matemática con código hasta algoritmos, desarrollo web o apps. Todo se enseña en vivo, por videollamada y en inglés: en verano, 4 a 5 clases por semana, con un grupo o a solas, a la hora que usted fije. El mentor trabaja desde la India, pronuncia con claridad y respeta los tiempos del alumno; con él se pactan la intensidad y la tarifa del verano antes de arrancar. La clase inicial no cuesta nada.
 
 [Inicio](/) / [Cursos](/courses) / [Perú](/coding-and-ai-classes-in-peru) / Vacaciones útiles en San Miguel
 
-San Miguel, Lima · Vacaciones útiles · Matemática y programación
+San Miguel, Lima · Vacaciones útiles · Python e IA o el curso que elija
 
 # Vacaciones útiles de programación y matemática en San Miguel
 
-Muchas familias de San Miguel buscan en el verano dos cosas a la vez: que su hijo no pierda lo que aprendió en matemática y que empiece algo nuevo. Programar con Python resuelve las dos, porque cada programa obliga a razonar con números. Aquí le contamos cómo lo hacemos, en vivo y en inglés, y le dejamos un ejemplo y cinco problemas para probar en casa.
+Muchas familias de San Miguel quieren dos cosas del verano: que la matemática del colegio no se oxide y que su hijo aprenda algo nuevo de verdad. Si el mentor lo ve cuatro o cinco veces cada semana, en directo, hay tiempo para ambas. Abajo están los dos caminos que proponemos, la cuenta de clases que da el verano, qué curso va con cada edad, y un ejemplo y cinco problemas para probar en casa.
 
-En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Edades: De 10 a 15 años, de 5° de primaria a 3° de secundaria; Qué se trabaja: Razonamiento matemático y Python; Modalidad: En vivo por videollamada, desde casa; Idioma: Inglés claro y pausado; Grupo: De quince a veinte, o clases individuales; Empezar: Con una clase de prueba sin costo. 4.9 de 5 en 547 reseñas de Google.
+En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Edades: De 10 a 15 años, de 5° de primaria a 3° de secundaria; Caminos: Python con IA, o un curso a elección; Ritmo de verano: De 4 a 5 clases en vivo por semana; Idioma: Inglés claro y pausado; Grupo: De quince a veinte, o clases individuales; Empezar: Con una clase de prueba sin costo. 4.9 de 5 en 547 reseñas de Google.
 
-## Tres cursos que unen números y código
+## ¿Con qué curso puede arrancar su hijo este verano?
 
-El primero junta las dos materias en una sola clase; el segundo refuerza la matemática del colegio; el tercero es para quien disfruta los problemas difíciles.
+Arriba, el camino de Python con IA en sus dos versiones, según la edad; al final, un ejemplo de curso escogido por el alumno que va muy bien con la matemática del colegio.
 
-- [Matemática a través de la programación](/courses/maths-through-coding): De 10 a 15 años, sin experiencia previa en código. Cada tema de matemática se explora escribiendo un programa en Python, como el ejemplo de esta página.
-- [Matemática de secundaria inicial](/courses/comprehensive-middle-school-mathematics-mastery): Prealgebra y geometría con método: fracciones, proporciones, ecuaciones y figuras, para llegar al siguiente grado con la base firme.
-- [Competencias de matemática](/courses/middle-school-math-competitions-course): De 10 a 14 años aproximadamente. Problemas de olimpiada originales, en inglés, para quien quiere razonar más allá del ejercicio de clase.
+- [Python e IA para niños](/courses/python-ai-kids-masterclass): Camino A para chicos de 10 a 12. Juegos y dibujos en Python al inicio; proyectos de IA a su medida al final, sin abrir cuentas en herramientas que piden mayoría de edad.
+- [Python para adolescentes](/courses/python-complete-masterclass-teens): Camino A desde los 13. El lenguaje entero, con proyectos; cuando la base aguanta, se pasa al curso de IA y machine learning para adolescentes.
+- [Matemática a través de la programación](/courses/maths-through-coding): Camino B, de 10 a 15. Cada tema de matemática se explora escribiendo un programa, como el ejemplo de esta página: reforzamiento y código en la misma hora.
+
+## ¿Qué ofrece el verano de programación a un escolar de San Miguel?
+
+Dos caminos, los dos con mentor en directo y en inglés. Su hijo se sube en la semana de enero, febrero o marzo que le acomode, y mientras dura el verano ve al mentor cuatro o cinco veces por semana, en vez de las dos del año escolar.
+
+### Camino A: Python con inteligencia artificial
+
+Es el camino que recomendamos primero. Su hijo escribe Python desde la primera clase y, cuando ya domina bucles, listas y funciones, lo usa en proyectos de inteligencia artificial a la medida de su edad: ordenar y clasificar datos que él mismo reunió, o enseñarle a un programa a reconocer un patrón numérico.
+
+Entre los 10 y los 12 años va por [Python e IA para niños](/courses/python-ai-kids-masterclass). Desde los 13, por [Python para adolescentes](/courses/python-complete-masterclass-teens) y luego [IA y machine learning para adolescentes](/courses/ai-ml-masterclass-teens). Respetamos las edades mínimas de cada herramienta de IA.
+
+### Camino B: un curso a elección
+
+Si a su hijo le atrae otra cosa, toma ese curso con la misma intensidad veraniega. Con el enfoque de esta página encajan tres: [matemática a través de la programación](/courses/maths-through-coding), [algoritmos y estructuras de datos (DSA)](/courses/problem-solving-dsa-masterclass-teens) para quien disfruta los retos, y desarrollo web o de apps para quien quiere construir algo que se vea.
+
+El catálogo sigue: C++, Java, Roblox, creación de juegos, Scratch, vibe coding, olimpiada matemática. En la clase gratis el mentor confirma desde dónde parte.
+
+**Cuántas clases da el verano según las semanas que su hijo programe (cálculo nuestro)**
+
+| Semanas con clases | Con 4 cada semana | Con 5 cada semana | Equivale, al ritmo del año escolar, a |
+|---|---|---|---|
+| 4 semanas | 16 | 20 | Entre 2 y 2,5 meses |
+| 6 semanas | 24 | 30 | Entre 3 y casi 4 meses |
+| 8 semanas | 32 | 40 | Entre 4 y 5 meses |
+| 10 semanas | 40 | 50 | Entre 5 y algo más de 6 meses |
+
+Multiplicación nuestra, semanas por sesiones. En el año escolar la cadencia es de dos por semana, unas ocho al mes, que es lo que cobran las tarifas de más abajo; la intensidad veraniega y su costo se pactan con el mentor antes de arrancar.
+
+Leída con franqueza, la tabla dice esto. Lo breve se completa antes de marzo: Scratch, HTML con CSS, cualquiera de los vibe coding trimestrales o el repaso para el PCEP. Lo extenso es otra historia: un programa de diez a doce meses a dos sesiones semanales reúne de 80 a 100 clases, así que diez semanas intensas dejan hecha cerca de la mitad, y el resto se completa durante el año escolar. Nadie le asegurará aquí que eso se acaba en vacaciones.
+
+**Qué camino suele encajar con cada edad en San Miguel (guía nuestra)**
+
+| Edad y grado | Camino A | Camino B, algunas opciones |
+|---|---|---|
+| 10 a 12 años, 5° y 6° de primaria | Python e IA para niños | Matemática con código, web para niños o apps con bloques |
+| 12 a 13 años, 1° de secundaria | Python e IA para niños o Python para adolescentes, según el nivel | Competencias de matemática o Scratch hasta juegos completos |
+| 13 a 14 años, 2° de secundaria | Python para adolescentes | Algoritmos y estructuras de datos, HTML y CSS, o Java |
+| 14 a 15 años, 3° de secundaria | Python para adolescentes y después IA y machine learning | Web full stack, apps con React Native o matemática de olimpiada |
+
+Tabla nuestra. Ninguno de los dos caminos exige saber programar, y el mentor la corrige tras conocer a su hijo.
 
 ## ¿Hay vacaciones útiles de matemática y programación en San Miguel?
 
@@ -70,7 +110,7 @@ Con horas de 45 minutos son 180 minutos semanales en la jornada regular y 270 en
 
 Varias semanas sin practicar no borran lo aprendido, pero lo oxidan, sobre todo los procedimientos de varios pasos. Al volver, el primer bimestre se va en recuperarlos.
 
-Una o dos clases a la semana bastan para mantener el hábito de razonar, y si se hacen programando, el alumno ni siquiera siente que está repasando.
+Con 4 o 5 clases por semana el hábito de razonar no se corta, y además el curso avanza. Si el repaso llega programando, el alumno casi no lo siente como repaso.
 
 ## ¿Cómo van los escolares peruanos en matemática según la ENLA?
 
@@ -221,11 +261,11 @@ Si 2027 se parece a 2026, el verano irá de fines de diciembre a mediados de mar
 
 ### Lo que eso significa para usted
 
-No hace falta esperar al calendario para empezar. Nuestras clases son mensuales: su hijo empieza en enero, o cuando usted decida, y continúa en marzo con el mismo mentor si le sirvió.
+No hace falta esperar al calendario. El plan de verano arranca la semana que usted elija, a 4 o 5 clases semanales, y en marzo baja a dos por semana con el mismo mentor si su hijo sigue.
 
-Al volver al colegio la clase pasa a otra hora del día. Lo único que cambia es eso.
+Al volver al colegio cambian dos cosas: la hora de la clase y la cantidad por semana. El curso es el mismo.
 
-Tampoco hay que inscribirse en una fecha cerrada ni comprar un paquete de verano. No otorgamos notas ni certificados del sistema educativo peruano y no tenemos relación con el MINEDU ni con ningún colegio; al cerrar un curso, su hijo recibe solo un certificado de culminación emitido por Modern Age Coders.
+Tampoco hay una fecha cerrada de inscripción: el ritmo y la tarifa del verano se fijan con el mentor antes de empezar. No otorgamos notas ni certificados del sistema educativo peruano y no tenemos relación con el MINEDU ni con ningún colegio; al cerrar un curso, su hijo recibe solo un certificado de culminación emitido por Modern Age Coders.
 
 ## ¿Qué hora es en la India cuando en San Miguel es de mañana?
 
@@ -287,13 +327,13 @@ Para ir más lejos
 - [Matemática de olimpiada](/courses/olympiad-competition-mathematics-mastery): Teoría de números, combinatoria y geometría con problemas originales.
 - [Estadística y probabilidad](/courses/statistics-probability-maths-course): De los datos a las conclusiones, con simulaciones.
 
-### Programación
+### Programación a elección
 
-Para escribir el código
+Para el camino B
 
-- [Python e IA para niños](/courses/python-ai-kids-masterclass): Primeros programas escritos, desde los 9 años.
-- [Python para adolescentes](/courses/python-complete-masterclass-teens): De cero a proyectos propios, desde los 13.
-- [Pensamiento computacional](/courses/problem-solving-and-computational-thinking-for-kids): Descomponer problemas en pasos, de 7 a 12 años.
+- [Algoritmos y estructuras de datos](/courses/problem-solving-dsa-masterclass-teens): DSA para secundaria: buscar, ordenar y medir cuánto tarda.
+- [HTML y CSS desde cero](/courses/html-css-course-for-beginners-build-real-websites): Un curso corto que cabe entero en el verano.
+- [Apps para adolescentes](/courses/complete-app-development-masterclass-for-teens): Aplicaciones para el celular con React Native, desde los 13.
 
 ## ¿Cómo se organiza una clase de matemática con programación?
 
@@ -312,11 +352,11 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 
 ## Precios para familias de San Miguel
 
-Aquí verá la mensualidad en dólares estadounidenses. El pago es con tarjeta y su banco convierte el importe, de modo que el monto final depende del tipo de cambio que aplique ese día.
+Las tarjetas muestran la mensualidad del año escolar, ocho clases al mes, en dólares estadounidenses. En verano su hijo toma 4 o 5 clases por semana, así que ese ritmo y su monto se acuerdan con el mentor antes de la primera clase de verano. Se paga con tarjeta y el banco hace la conversión con el cambio del día.
 
 - Primera clase gratis: Gratis. Una clase de prueba sin costo. Dos o tres problemas para ubicar el nivel. Sin tarjeta y sin obligación.
-- Clase grupal: USD 100 al mes. Quince a veinte alumnos de nivel parecido. Un mismo mentor durante el curso. Clases en vivo cada semana. Pago mensual, sin contrato.
-- Clases individuales: USD 150 al mes. Su hijo y el mentor, nadie más. El temario del colegio o de olimpiada que necesite. El horario que usted elija.
+- Clase grupal: USD 100 al mes. Quince a veinte alumnos de nivel parecido. Un mismo mentor durante el curso. En verano, 4 o 5 clases semanales según lo acordado. Pago mensual, sin contrato.
+- Clases individuales: USD 150 al mes. Su hijo y el mentor, nadie más. Python e IA o el curso que elija. El horario y el ritmo de verano que usted fije.
 
 ## Vacaciones útiles de programación en San Miguel: preguntas frecuentes
 
@@ -340,9 +380,17 @@ Para escolares de 10 a 15 años, de 5° de primaria a 3° de secundaria aproxima
 
 Entrenamos razonamiento de olimpiada con problemas nuestros. La ONEM es del MINEDU, la inscripción se hace por el colegio y no reproducimos sus problemas ni prometemos resultados.
 
-### ¿Cuánto dura el programa de vacaciones?
+### ¿Qué caminos hay para el verano?
 
-Lo que usted decida. No vendemos un paquete cerrado: son nuestras clases mensuales, que se empiezan en el verano y continúan si a su hijo le sirven.
+Dos. Python con inteligencia artificial, el que recomendamos primero, o un curso que su hijo escoja del catálogo: matemática con código, algoritmos (DSA), web, apps, Java, C++, videojuegos y más. Las dos son en vivo y en inglés.
+
+### ¿Cuántas clases por semana son en verano?
+
+De 4 a 5 clases en vivo por semana, en grupo o individuales. Diez semanas a ese ritmo suman de 40 a 50 clases según nuestra cuenta. Desde marzo, si su hijo continúa, el ritmo vuelve a dos por semana.
+
+### ¿Se termina un curso completo en el verano?
+
+Uno corto, sí: Scratch, HTML y CSS, vibe coding o la preparación para el PCEP. Uno largo, de 10 a 12 meses al ritmo normal, avanza más o menos la mitad y sigue en marzo. No prometemos terminarlo antes.
 
 ### ¿A qué hora serían las clases?
 
@@ -352,9 +400,9 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 
 No. No tenemos relación con la municipalidad ni con el MINEDU. Somos una academia en línea con mentores en la India.
 
-### ¿En qué moneda se paga?
+### ¿Cuánto cuesta el verano?
 
-En dólares estadounidenses, con tarjeta, cada mes. El banco convierte el importe. La clase de prueba es gratis.
+La tarifa del año escolar, ocho clases al mes, aparece en esta página en dólares estadounidenses. Como el verano lleva 4 o 5 clases semanales, la tarifa de verano se acuerda con el mentor antes de la primera clase de verano. Se paga con tarjeta, y la clase de prueba es gratis.
 
 ### ¿Qué recibe mi hijo al terminar?
 

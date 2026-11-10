@@ -1,4 +1,4 @@
-// SHIP: vacaciones útiles district (ES) | Jesús María: talleres municipales de verano más código en casa | a Caesar cipher: a function with parameters, return and % 26 wraparound
+// SHIP: vacaciones útiles district (ES) | Jesús María: taller del distrito plus Python e IA or own course, 4 to 5 a week | a Caesar cipher: a function with parameters, return and % 26 wraparound
 'use strict';
 // Vacaciones útiles de programación en Jesús María (ag- Spanish-language district door, Peru cluster row PE222, P2, hubGroup lima).
 // Spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md; writer brief docs/superpowers/plans/2026-11-09-pe-writer-brief.md.
@@ -40,6 +40,16 @@
 //    without % 26: IndexError: string index out of range
 // Lesson family: a function with two parameters and a return value; wraparound with % 26; decoding is encoding with the
 //    opposite key (an inverse test).
+// REVISED 2026-11-10 for the owner's summer offer (brief, last section): "Primera opción: Python e inteligencia artificial"
+// (python-ai-kids-masterclass 9 to 12; python-complete-masterclass-teens, then ai-ml-masterclass-teens or
+// data-science-course-for-teens-python-data from 14) or "Segunda opción" (any course: JavaScript, DSA, full stack web,
+// React Native apps, Roblox, C++, Scratch, cybersecurity, maths), 4 to 5 live classes a week alongside a district workshop,
+// group or one to one, summer pace and fee agreed with the mentor before the first summer class, first class free.
+// Course durations (content/courses/data/*.json, read 2026-11-10): scratch 3-4 months; javascript teens 6 months (24
+// weeks); python teens, DSA teens, ai-ml teens 10-12 months; python-ai-kids 8-10 months. Our arithmetic: 4 a week = 16 /
+// 32 / 40 classes in 4 / 8 / 10 weeks; 5 a week = 20 / 40 / 50; the regular 2 a week = 8 / 16 / 20. JavaScript teens at 2 a
+// week = 48 classes, so ten summer weeks at 5 (50) can complete it and at 4 (40) leave about a sixth; 10 to 12 month
+// courses (about 80 to 100 classes) get roughly half.
 
 const { ES: PE_ES } = require('../../scripts/nl/lib/market-pe');
 
@@ -88,51 +98,84 @@ module.exports = {
   parents: [{ slug: 'coding-and-ai-classes-in-peru', name: 'Peru' }],
   routeLabel: 'Vacaciones útiles de programación en Jesús María',
   title: 'Vacaciones útiles de programación en Jesús María, en vivo',
-  description: 'Vacaciones útiles de programación para chicos de Jesús María: clases en vivo y en inglés desde casa, compatibles con los talleres de verano del distrito.',
-  ogDescription: 'Talleres de verano en Jesús María y programación en casa: qué publica la municipalidad, cómo combinarlo con clases en vivo en inglés y un mensaje secreto en Python.',
-  twitterDescription: 'Un verano de código para chicos de Jesús María: clases en vivo y en inglés, en grupo o individuales, a la hora que elija su familia.',
+  description: 'Vacaciones útiles en Jesús María: Python e IA o el curso que su hijo prefiera, 4 a 5 clases por semana en vivo y en inglés, compatibles con un taller del distrito.',
+  ogDescription: 'El taller del distrito por un lado, el código en casa por otro: Python e IA o un curso a elección, cuatro o cinco clases semanales en vivo y en inglés.',
+  twitterDescription: 'Jesús María, verano 2027: Python e IA o el curso que prefiera, de 4 a 5 clases por semana en vivo y en inglés, a la hora que elija su familia.',
   pageName: 'Vacaciones útiles de programación en Jesús María',
-  webPageDescription: 'Guía para familias de Jesús María que planifican las vacaciones útiles: lo que la Municipalidad de Jesús María publicó sobre sus talleres de verano en 2022 y 2025, cómo sumar clases de programación en vivo y en inglés desde casa, la población del distrito según los Censos Nacionales 2025 del INEI, lo que la secundaria no incluye según el CNEB, los datos abiertos del distrito y un ejercicio de cifrado escrito por nosotros.',
-  courseDescription: 'Clases en vivo y en línea de programación para niños de 6 a 12 años y adolescentes de Jesús María, dictadas solo en inglés: Scratch, Python, web y proyectos de IA, en clase grupal o individual, desde las vacaciones de verano y a cualquier hora.',
+  webPageDescription: 'Guía para familias de Jesús María que planifican las vacaciones útiles: lo que la Municipalidad de Jesús María publicó sobre sus talleres de verano en 2022 y 2025, cómo sumar desde casa uno de nuestros dos caminos de verano (Python e IA, o el curso que su hijo prefiera) a 4 o 5 clases por semana, cuántas clases suma ese ritmo, la población del distrito según los Censos Nacionales 2025 del INEI, lo que la secundaria no incluye según el CNEB, los datos abiertos del distrito y un ejercicio de cifrado escrito por nosotros.',
+  courseDescription: 'Verano de programación en vivo para niños de 6 a 12 años y adolescentes de Jesús María, dictado solo en inglés: Python e inteligencia artificial o el curso que el alumno prefiera (JavaScript, DSA, web, apps, Roblox y más), de 4 a 5 clases por semana, en clase grupal o individual y a cualquier hora.',
   crumbs: [{ name: 'Cursos', href: '/courses' }, { name: 'Perú', href: '/coding-and-ai-classes-in-peru' }],
   crumbLabel: 'Vacaciones útiles en Jesús María',
   navLinks: [
     { href: '/coding-and-ai-classes-in-peru', label: 'Perú' },
+    { href: '#opciones', label: 'Opciones' },
     { href: '#municipio', label: 'Talleres' },
     { href: '#combinar', label: 'Combinar' },
-    { href: '#secundaria', label: 'Secundaria' },
     { href: '#mensajes', label: 'Ejemplo' },
     { href: '#reloj', label: 'Horas' }
   ],
   eyebrow: 'Lima centro &middot; Jesús María &middot; Verano 2027',
   h1: 'Vacaciones útiles de programación en Jesús María',
-  lede: 'Cada enero Jesús María se llena de talleres: vóley, karate, K-Pop, teatro, piscina. Ninguno de los que la municipalidad anunció en sus notas de verano era de programación. Esta página es para las familias que quieren sumar esa pieza al verano sin otro traslado: clases en vivo, en inglés, desde la mesa de su casa.',
+  lede: 'Cada enero Jesús María se llena de talleres: vóley, karate, K-Pop, teatro, piscina. Ninguno de los que la municipalidad anunció en sus notas de verano era de programación. Esta página es para las familias que quieren sumar esa pieza sin otro traslado: Python e IA, o el curso que su hijo prefiera, cuatro o cinco veces por semana, en vivo y en inglés, desde la mesa de su casa.',
   secondaryCta: { href: '#combinar', label: '¿Cómo se combina con un taller?' },
-  wa: 'Hola Modern Age Coders, somos de Jesús María y buscamos clases de programación para estas vacaciones. ¿Podemos reservar una clase gratis?',
+  wa: 'Hola Modern Age Coders, somos de Jesús María y queremos programación para estas vacaciones: Python e IA u otro curso, a 4 o 5 clases por semana. ¿Podemos reservar una clase gratis?',
   heroNote: 'Clases en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; el taller por la mañana y el código en casa',
   spec: [
     ['Edades', 'De 6 a 12 años y adolescentes de secundaria'],
     ['Idea del verano', 'Un taller del distrito y una clase de código'],
-    ['Lugar', 'Su casa en Jesús María, por videollamada'],
+    ['Ritmo de verano', 'De 4 a 5 clases en vivo por semana'],
     ['Formato', 'Grupo de quince a veinte, o clases individuales'],
-    ['Contenido', 'Scratch, Python, web y proyectos de IA'],
+    ['Opciones', 'Python e IA, o el curso que prefiera'],
     ['Para probar', 'Una clase gratis, sin tarjeta']
   ],
   capsuleQ: 'La respuesta corta',
-  capsule: 'Para el verano de Jesús María, Modern Age Coders propone algo que el distrito no tiene en sus talleres: programación para niños de primaria y adolescentes de secundaria, con clases en vivo, en línea y en inglés que su hijo sigue desde casa, en grupo o con un mentor solo para él, el día y a la hora que usted escoja. Encajan bien con un taller deportivo o artístico del distrito, porque no suman ningún traslado. Su hijo empieza en el verano con nuestras clases normales y decide en marzo si continúa. La primera clase es gratis.',
+  capsule: 'Para el verano de Jesús María, Modern Age Coders suma lo que los talleres del distrito no traen: programación para primaria y secundaria, con dos opciones. La primera es Python e inteligencia artificial; la segunda, el curso que su hijo prefiera, como JavaScript, DSA, apps o Roblox. Se enseña en vivo y en inglés por videollamada, de 4 a 5 clases por semana, en grupo o con un mentor solo para él, el día y la hora que usted escoja, así que convive con un taller deportivo o artístico sin traslados. La tarifa de verano se acuerda con el mentor y la primera clase es gratis.',
 
   picks: {
     eyebrow: 'Por dónde empezar',
-    h2: 'Para empezar el verano en Jesús María: tres cursos',
-    lede: 'Elegimos uno para cada etapa del colegio: primaria baja, primaria alta y secundaria.',
+    h2: '¿Qué tres cursos abren el verano en Jesús María?',
+    lede: 'Los dos primeros son la primera opción, Python e inteligencia artificial, para primaria alta y para secundaria; el tercero muestra la segunda opción, un curso que el chico escoge.',
     items: [
-      { course: 'scratch-programming-complete-course', code: 'VUPJ / 01', title: 'Scratch, del personaje al juego', alt: 'Imagen del curso completo de programación en Scratch', note: 'Para primaria. Su hijo arma historias y juegos completos con bloques, y aprende a planificar antes de construir: buena compañía para un taller de teatro o de dibujo.' },
-      { course: 'python-ai-kids-masterclass', code: 'VUPJ / 02', title: 'Python con juegos y mensajes', alt: 'Imagen del curso de Python e IA para niños', note: 'Para chicos de 9 a 12. Juegos de texto, dibujos con código y mensajes cifrados como el del ejemplo de esta página, con un vistazo a cómo funciona la inteligencia artificial.' },
-      { course: 'javascript-course-for-teens-beginners-interactive-web', code: 'VUPJ / 03', title: 'JavaScript para adolescentes', alt: 'Imagen del curso de JavaScript para adolescentes', note: 'De 13 a 18 años. Páginas web que responden al usuario y juegos que corren en el navegador: un proyecto visible para enseñar al volver al colegio.' }
+      { course: 'python-ai-kids-masterclass', code: 'VUPJ / 01', title: 'Python con juegos, mensajes e IA', alt: 'Imagen del curso de Python e IA para niños', note: 'Primera opción, de 9 a 12 años. Juegos de texto, dibujos con código y mensajes cifrados como el del ejemplo de esta página, y al final pequeños proyectos de inteligencia artificial.' },
+      { course: 'python-complete-masterclass-teens', code: 'VUPJ / 02', title: 'Python completo para adolescentes', alt: 'Imagen del curso de Python para adolescentes', note: 'Primera opción en secundaria. De la primera línea a programas que leen datos; luego vienen IA y machine learning, o ciencia de datos desde los 14.' },
+      { course: 'javascript-course-for-teens-beginners-interactive-web', code: 'VUPJ / 03', title: 'JavaScript para adolescentes', alt: 'Imagen del curso de JavaScript para adolescentes', note: 'Segunda opción, de 13 a 18 años. Páginas web que responden al usuario y juegos de navegador; seis meses al ritmo normal, así que un verano largo a cinco clases semanales puede cerrarlo.' }
     ]
   },
 
   sections: [
+    {
+      id: 'opciones',
+      eyebrow: 'Las dos opciones del verano',
+      h2: '¿Qué puede programar su hijo este verano desde Jesús María?',
+      lede: 'Una de dos cosas, siempre en directo y en inglés: Python con inteligencia artificial, o el curso que él prefiera. En verano la clase se repite cuatro o cinco veces por semana, y hay espacio para el taller del distrito porque nadie tiene que salir de casa.',
+      body: [
+        { kind: 'two',
+          leftH3: 'Primera opción: Python e inteligencia artificial',
+          left: [
+            'La que sugerimos por defecto. Su hijo escribe Python desde el primer día, con juegos, dibujos y mensajes como el del cifrado de esta página, y cuando ya maneja funciones y listas da el salto a la IA: programas que aprenden de ejemplos que él mismo prepara.',
+            'Entre 9 y 12 años, <a class="ag-inline-link" href="/courses/python-ai-kids-masterclass">Python e IA para niños</a>. En secundaria, <a class="ag-inline-link" href="/courses/python-complete-masterclass-teens">Python completo para adolescentes</a>, seguido de <a class="ag-inline-link" href="/courses/ai-ml-masterclass-teens">IA y machine learning</a> o, desde los 14, <a class="ag-inline-link" href="/courses/data-science-course-for-teens-python-data">ciencia de datos con Python</a>. No pedimos cuentas en herramientas de IA reservadas a adultos.'
+          ],
+          rightH3: 'Segunda opción: el curso que su hijo prefiera',
+          right: [
+            'Todo el catálogo, con la misma frecuencia veraniega. Para un adolescente que viene de teatro o de K-Pop, <a class="ag-inline-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">JavaScript</a> o el <a class="ag-inline-link" href="/courses/full-stack-web-development-teens-masterclass">desarrollo web full stack</a> dan algo que se puede mostrar; para quien disfruta los acertijos, <a class="ag-inline-link" href="/courses/problem-solving-dsa-masterclass-teens">algoritmos y estructuras de datos (DSA)</a>.',
+            'También hay apps con React Native o con bloques, Roblox, C++, Scratch, ciberseguridad y matemática. El mentor ayuda a escoger en la clase gratis.'
+          ] },
+        { kind: 'table', mt: true, numCols: [1, 2, 3, 4], caption: 'Cuántas clases suma cada ritmo (cálculo nuestro)', head: ['Ritmo', 'Clases por semana', 'En 4 semanas', 'En 8 semanas', 'En 10 semanas'], rows: [
+          ['Verano, intensidad baja', '4', '16', '32', '40'],
+          ['Verano, intensidad alta', '5', '20', '40', '50'],
+          ['Año escolar, como referencia', '2', '8', '16', '20']
+        ] },
+        { kind: 'source', html: 'Cuenta de Modern Age Coders: clases por semana multiplicadas por semanas. Las tarifas de esta página corresponden al ritmo del año escolar, unas ocho clases al mes; la frecuencia de verano y su precio se pactan con el mentor antes de la primera clase veraniega.' },
+        { kind: 'p', mt: true, html: 'Qué significa eso para cada curso, sin adornos: los cortos se terminan. Scratch completo, de tres a cuatro meses al ritmo normal, o HTML y CSS, de cuatro, caben en un verano. JavaScript para adolescentes, de seis meses, pide unas 48 clases y se cierra con un verano largo a cinco por semana. Los de diez a doce meses, como Python completo para adolescentes o DSA, suman de 80 a 100 clases: el verano hace más o menos la mitad y el resto sigue desde marzo, a dos por semana. No le diremos otra cosa.' },
+        { kind: 'table', mt: true, numCols: [], caption: 'Qué opción va con cada etapa escolar (guía nuestra)', head: ['Etapa', 'Primera opción', 'Segunda opción, algunos ejemplos'], rows: [
+          ['Primaria, 1° a 3° (6 a 8 años)', 'Todavía no: empieza con Scratch y llega a Python a los 9', 'Scratch completo, bloques, Minecraft'],
+          ['Primaria, 4° a 6° (9 a 12 años)', 'Python e IA para niños', 'Páginas web para niños, Roblox, C++ para niños'],
+          ['Secundaria, 1° a 3° (12 a 15 años)', 'Python completo para adolescentes', 'JavaScript, DSA, ciberseguridad'],
+          ['Secundaria, 4° y 5° (15 a 17 años)', 'Python, luego IA y machine learning o ciencia de datos', 'Web full stack, apps con React Native, Java']
+        ] },
+        { kind: 'source', html: 'Guía nuestra, con las edades que figuran en la ficha de cada curso. Ninguna opción pide experiencia previa.' }
+      ]
+    },
     {
       id: 'municipio',
       eyebrow: 'Lo que publica el distrito',
@@ -171,13 +214,13 @@ module.exports = {
           '<strong>Primero el taller.</strong> Si su hijo ya tiene un taller municipal o del colegio, anote sus días y horas. Esa es la parte fija del verano.',
           '<strong>Luego un hueco tranquilo.</strong> Busque un momento en que la casa esté en calma y su hijo descansado: después del almuerzo, a media tarde o temprano en la noche.',
           '<strong>Reserve la clase gratis en ese hueco.</strong> El sistema le muestra los horarios en hora de Perú. Allí el mentor conoce a su hijo y le sugiere grupo o clases individuales.',
-          '<strong>Dos clases por semana.</strong> En grupo es el ritmo habitual. Si su hijo va a clases individuales, usted puede pedir otro ritmo.',
+          '<strong>Cuatro o cinco clases por semana.</strong> Es la frecuencia de verano, en grupo o individual. Con un taller municipal de dos o tres días, la semana da para las dos cosas sin apretar.',
           '<strong>Revisión a mitad del verano.</strong> Hacia febrero, pídale que le muestre su proyecto y le explique cómo funciona. Con eso decide si sigue en marzo.'
         ] },
         { kind: 'table', mt: true, numCols: [], caption: 'Cómo puede verse una semana de verano con taller y programación (ejemplo nuestro, no un horario)', head: ['Momento del día', 'Opción A: taller por la mañana', 'Opción B: taller por la tarde'], rows: [
-          ['Mañana', 'Taller deportivo o artístico en el distrito', 'Clase de programación en casa, dos días por semana'],
+          ['Mañana', 'Taller deportivo o artístico en el distrito', 'Clase de programación en casa, cuatro o cinco días por semana'],
           ['Después del almuerzo', 'Descanso; lectura o juego libre', 'Descanso; repasar el proyecto de la semana'],
-          ['Tarde', 'Clase de programación en casa, dos días por semana', 'Taller deportivo o artístico en el distrito'],
+          ['Tarde', 'Clase de programación en casa, cuatro o cinco días por semana', 'Taller deportivo o artístico en el distrito'],
           ['Noche', 'Mostrar a la familia lo que programó', 'Mostrar a la familia lo que programó']
         ] },
         { kind: 'source', html: 'Ejemplo propuesto por Modern Age Coders para ordenar el verano. No es el horario de ningún taller municipal, cuyos días y horas fija la municipalidad, ni una hora obligatoria para nuestras clases: la hora la pone usted.' },
@@ -268,7 +311,7 @@ module.exports = {
           { h3: 'Ya de noche', p: 'Una clase a las 7:00 p. m. en Jesús María es a las 5:30 a. m. del día siguiente en la India. Sirve a familias que solo pueden acompañar después del trabajo.' }
         ] },
         { kind: 'source', html: 'Cálculo con la hora oficial de Perú, UTC-5 sin horario de verano (base tzdata, zona America/Lima; INACAL), y la de la India, UTC+5:30. Ejemplos de conversión, no horarios fijos de clase.' },
-        { kind: 'p', mt: true, html: 'Sobre la fecha de vuelta a clases: el último bloque lectivo del año escolar 2026 va del 19 de octubre al 18 de diciembre de 2026, según la Tabla 1 de la RM 501-2025-MINEDU. Al 9 de noviembre de 2026 no encontramos publicada la norma del año escolar 2027, así que no damos aquí una fecha de cierre del verano. Si su hijo sigue con nosotros en marzo, solo cambiamos la hora de clase para que no choque con el colegio.' }
+        { kind: 'p', mt: true, html: 'Sobre la fecha de vuelta a clases: el último bloque lectivo del año escolar 2026 va del 19 de octubre al 18 de diciembre de 2026, según la Tabla 1 de la RM 501-2025-MINEDU. Al 9 de noviembre de 2026 no encontramos publicada la norma del año escolar 2027, así que no damos aquí una fecha de cierre del verano. Si su hijo sigue con nosotros en marzo, movemos la hora para que no choque con el colegio y el ritmo baja a dos clases por semana.' }
       ]
     }
   ],
@@ -286,7 +329,7 @@ module.exports = {
     ] },
     left: { h3: 'Cómo acompañar desde casa', ps: [
       'Pregunte qué hizo, no cuánto tiempo estuvo. Un chico que le explica su proyecto en dos frases aprendió más que uno que pasó tres horas copiando.',
-      'Si su hijo también va a un taller del distrito, no lo sobrecargue: dos clases de programación por semana bastan para avanzar en serio.'
+      'Si su hijo también va a un taller del distrito, cuide el descanso: con cuatro clases semanales de programación ya avanza en serio, y la quinta solo si le sobra energía.'
     ] },
     right: { h3: 'Un consejo para su hijo', ps: [
       'Cuando el programa falle, no lo borre. Lea el mensaje de error: casi siempre dice en inglés qué pasó y en qué línea.',
@@ -297,10 +340,10 @@ module.exports = {
   catalogue: {
     eyebrow: 'Más cursos',
     h2: 'Otros nueve cursos para este verano',
-    lede: 'Se dictan en inglés y en vivo; el formato, grupal o individual, lo elige usted.',
+    lede: 'Cualquiera sirve como segunda opción: en inglés y en vivo, grupal o individual, a cuatro o cinco clases por semana.',
     bands: [
       { num: 'I', h3: 'Primeros pasos', sub: 'De 6 a 9 años', courses: [
-        { code: 'VUPJ / INICIO / 01', slug: 'kids-coding-blocks-masterclass', title: 'Bloques para empezar', blurb: 'Primeras animaciones, juegos y apps arrastrando bloques, desde los 6 años.' },
+        { code: 'VUPJ / INICIO / 01', slug: 'scratch-programming-complete-course', title: 'Scratch, del personaje al juego', blurb: 'Historias y juegos completos; de tres a cuatro meses, cabe en el verano.' },
         { code: 'VUPJ / INICIO / 02', slug: 'mental-maths-mastery-kids', title: 'Cálculo mental para niños', blurb: 'Sentido numérico con juegos, sin trucos de memoria, de 5 a 10 años.' },
         { code: 'VUPJ / INICIO / 03', slug: 'minecraft-coding-for-kids-course', title: 'Programar en Minecraft', blurb: 'Automatizar construcciones en un mundo que su hijo ya conoce.' }
       ] },
@@ -310,7 +353,7 @@ module.exports = {
         { code: 'VUPJ / CREA / 03', slug: 'cpp-programming-for-kids-course', title: 'C++ para niños', blurb: 'Un lenguaje exigente presentado con retos cortos y juegos, para 9 a 12.' }
       ] },
       { num: 'III', h3: 'Secundaria', sub: 'Desde los 13 años', courses: [
-        { code: 'VUPJ / SEC / 01', slug: 'python-complete-masterclass-teens', title: 'Python completo para adolescentes', blurb: 'De la primera línea a programas que leen datos y resuelven problemas.' },
+        { code: 'VUPJ / SEC / 01', slug: 'ai-ml-masterclass-teens', title: 'IA y machine learning para adolescentes', blurb: 'La continuación natural de la primera opción, de 13 a 18 años.' },
         { code: 'VUPJ / SEC / 02', slug: 'cybersecurity-course-for-teens-ethical-defensive', title: 'Ciberseguridad para adolescentes', blurb: 'Cómo se protege una cuenta y una red, desde el lado defensivo.' },
         { code: 'VUPJ / SEC / 03', slug: 'frontend-development-masterclass-for-teens', title: 'Diseño web para adolescentes', blurb: 'De CSS bien hecho a interfaces con React, paso a paso.' }
       ] }
@@ -342,10 +385,10 @@ module.exports = {
 
   fees: {
     h2: 'Lo que cuesta, para familias de Jesús María',
-    lede: 'Nuestros precios aparecen en dólares estadounidenses y el pago es con tarjeta de crédito o débito. Su banco convierte el monto a soles en la fecha del cobro, por eso la cifra final de su estado de cuenta puede moverse un poco con el tipo de cambio.',
+    lede: 'Las tarjetas indican la mensualidad de ocho clases, la del año escolar, en dólares estadounidenses. Como en verano son cuatro o cinco clases por semana, el precio de ese ritmo lo acuerda con el mentor antes de la primera clase de verano. El pago es con tarjeta de crédito o débito, y su banco convierte el monto en la fecha del cobro.',
     free: ['Una primera clase sin costo', 'El mentor ve por dónde conviene empezar', 'No se pide tarjeta'],
-    group: ['Un grupo de quince a veinte de edades cercanas', 'El mismo mentor todo el curso', 'Dos clases en vivo por semana', 'Mes a mes, sin permanencia'],
-    one: ['Clases solo para su hijo', 'Un temario al ritmo que necesita', 'Días y horas a su elección']
+    group: ['Un grupo de quince a veinte de edades cercanas', 'El mismo mentor todo el curso', 'Cuatro o cinco clases semanales en verano', 'Mes a mes, sin permanencia'],
+    one: ['Clases solo para su hijo', 'Python e IA o el curso que prefiera', 'Días, horas y frecuencia a su elección']
   },
 
   faq: {
@@ -357,10 +400,12 @@ module.exports = {
       { q: '¿Puede mi hijo ir a un taller del distrito y además programar?', a: 'Sí. Nuestra clase es en línea, así que basta con elegir una hora que no choque con el taller: si el taller es de mañana, la clase va por la tarde, y al revés.' },
       { q: '¿Cuándo pueden ser las clases si mi hijo ya tiene un taller?', a: 'Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Un ejemplo para calcular: si la clase es a las 10:00 a. m. en Jesús María, el mentor la empieza de noche, a las 8:30 p. m. de su reloj indio.' },
       { q: '¿Desde qué edad y hasta qué edad?', a: 'Desde los 6 años, con bloques, hasta el final de la secundaria, con Python, JavaScript o Java. También enseñamos a universitarios y adultos, pero esta página está pensada para el verano escolar.' },
-      { q: '¿Cuántas semanas dura?', a: 'No hay una duración fija ni un campamento con fecha de cierre. Son clases mensuales: su hijo empieza cuando usted decida y sigue mientras le sirva. Muchas familias empiezan en enero y deciden en marzo.' },
+      { q: '¿Qué opciones de verano ofrecen?', a: 'Dos. Python e inteligencia artificial, que sugerimos por defecto, o el curso que su hijo prefiera: JavaScript, DSA, desarrollo web, apps, Roblox, C++ y otros. En las dos, las clases son en vivo y en inglés.' },
+      { q: '¿Cuántas semanas dura y cuántas clases tiene?', a: 'No hay campamento con fecha de cierre: su hijo empieza la semana que usted decida, con 4 a 5 clases por semana, en grupo o individuales. Diez semanas así son de 40 a 50 clases, según nuestra cuenta. Un curso corto se termina; uno largo avanza cerca de la mitad y sigue en marzo.' },
       { q: '¿Qué aprende un adolescente en un verano?', a: 'Lo suficiente para escribir programas propios en un lenguaje real y terminar un proyecto, como el cifrador de mensajes de esta página o una web con JavaScript. Lo que más se nota al volver al colegio es la forma de abordar un problema por partes.' },
       { q: '¿Las clases son presenciales en Jesús María?', a: 'No. Son por videollamada, en vivo, y su hijo las toma en su casa. No tenemos local en Lima, de modo que no hay que trasladarse.' },
       { q: '¿Qué equipo hace falta?', a: 'Una computadora de escritorio o laptop con cámara, micrófono y teclado, unos audífonos y conexión estable. Con una tablet o un celular no se programa con comodidad.' },
+      { q: '¿Cuánto cuesta el verano?', a: 'La mensualidad del año escolar, de ocho clases, figura en esta página en dólares estadounidenses. La de verano, con cuatro o cinco clases semanales, se acuerda con el mentor antes de la primera clase de verano. Se paga con tarjeta, y la clase gratis no pide ninguna.' },
       { q: '¿Dan certificado?', a: 'Sí, uno propio: el certificado de finalización de Modern Age Coders al terminar cada curso. No es un documento del MINEDU, no vale como nota escolar y no estamos afiliados a ningún colegio ni a la municipalidad.' }
     ]
   },
@@ -381,7 +426,7 @@ module.exports = {
 
   start: {
     h2: 'Pida una clase gratis para este verano',
-    lede: 'La clase gratis sirve para conocerse: el mentor saluda a su hijo con frases simples en inglés, le plantea un pequeño reto, como cifrar su nombre o mover un personaje, y observa cómo piensa. Luego le recomendamos curso y formato, sin compromiso.',
+    lede: 'La clase gratis sirve para conocerse: el mentor saluda a su hijo con frases simples en inglés, le plantea un pequeño reto, como cifrar su nombre o mover un personaje, y observa cómo piensa. Luego le recomendamos una de las dos opciones, el formato y cuántas clases por semana encajan con su taller, y acuerdan el precio del verano, sin compromiso.',
     readFirst: 'Para leer antes: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> describe una clase en vivo por dentro y <a class="ag-inline-link" href="/courses">All courses</a> lista todos los cursos; las dos páginas están en inglés.',
     note: 'Cada clase es en vivo, por internet y en inglés, con mentores en la India. El WhatsApp, en cambio, lo atendemos también en castellano.',
     formNote: 'Sin costo, sin tarjeta, sin compromiso.'
@@ -390,8 +435,8 @@ module.exports = {
   footer: {
     cols: [
       { h4: 'Cursos para el verano', links: [
-        { href: '/courses/scratch-programming-complete-course', label: 'Scratch completo' },
         { href: '/courses/python-ai-kids-masterclass', label: 'Python e IA para niños' },
+        { href: '/courses/python-complete-masterclass-teens', label: 'Python para adolescentes' },
         { href: '/courses/javascript-course-for-teens-beginners-interactive-web', label: 'JavaScript para adolescentes' },
         { href: '/courses', label: 'Todos los cursos' }
       ] },
@@ -411,10 +456,12 @@ module.exports = {
 .ag-root.ag-vupj .ag-table caption { text-align: left; font-weight: 600; }
 .ag-root.ag-vupj .ag-section-head h2 { max-width: 30ch; }
 .ag-root.ag-vupj .ag-steps li { line-height: 1.58; }
+.ag-root.ag-vupj #opciones .ag-grid-2 > div { border: 1px solid var(--ag-rule); border-top: 5px solid var(--ag-accent); border-radius: 2px; padding: 20px 22px; background: var(--ag-paper); }
+.ag-root.ag-vupj #opciones .ag-grid-2 h3 { color: var(--ag-accent); margin-top: 0; }
 `,
 
   dossier: {
-    curriculumAuthority: 'Municipalidad Distrital de Jesús María notes on gob.pe (4 January 2022; 6, 8, 11, 14 and 16 January 2025; 30 September 2025); INEI Censos Nacionales 2025 (Lima Metropolitana tabulado, Cuadros N.° 1 and 3); CNEB secundaria tables and competencies; RM 501-2025-MINEDU Tabla 1 (checked by eye); gob.pe search for the 2027 norm on 9 November 2026; EF EPI 2025; tzdata and INACAL. The cipher lesson, the combined-week example and the project guide are our own.',
+    curriculumAuthority: 'Summer offer per owner 2026-11-10 (two options, 4 to 5 classes a week; course durations from our own course pages; arithmetic ours). Municipalidad Distrital de Jesús María notes on gob.pe (4 January 2022; 6, 8, 11, 14 and 16 January 2025; 30 September 2025); INEI Censos Nacionales 2025 (Lima Metropolitana tabulado, Cuadros N.° 1 and 3); CNEB secundaria tables and competencies; RM 501-2025-MINEDU Tabla 1 (checked by eye); gob.pe search for the 2027 norm on 9 November 2026; EF EPI 2025; tzdata and INACAL. The cipher lesson, the combined-week example and the project guide are our own.',
     localProject: 'A Caesar cipher in Python for a 12-year-old in Jesús María, with a test message about the Campo de Marte: cifrar(texto, clave) shifts letters with % 26; run with python3 -I it prints phhw ph dw fdpsr gh pduwh, then meet me at campo de marte with key -3, then abc for xyz; without % 26 it stops with IndexError: string index out of range. Lesson family: a function with parameters and return, wraparound with %, and decoding as the inverse test.',
     requiredMentions: ['phhw ph dw fdpsr gh pduwh', 'meet me at campo de marte', 'IndexError: string index out of range', 'Taller de K-Pop', 'Más de 13 disciplinas', 'invita a la ciudadanía, comunidad académica, sociedad civil y sector privado a hacer uso de sus datos abiertos', '5,115 niños de 6 a 11 años', 'Jesús María ocupa el puesto 27 entre los 43 distritos', 'Tres letras más adelante', 'Diseña y construye soluciones tecnológicas para resolver problemas'],
     sources: [
@@ -435,7 +482,7 @@ module.exports = {
       'Municipal workshop prices, schedules or 2026 to 2027 dates: none published in what we read; the page sends families to the municipality.',
       'Any link with the Municipalidad de Jesús María: none; the page says so twice.',
       'Reusing a municipal open dataset in the example: not done; the open-data note is cited only as an idea for later.',
-      'A camp length, start date or summer price: refused; normal monthly classes, our own weekly pattern labelled as an example.',
+      'A typed summer price, a fixed start date, or a promise that a long course ends in the summer: refused; the summer pace and fee are agreed with the mentor, the class counts and weekly pattern are labelled ours.',
       'Summing the 6 to 11 and 12 to 17 age groups: refused; each is printed as INEI publishes it.',
       'Spanish-language teaching: refused; English only, said in the capsule and in an FAQ.'
     ]

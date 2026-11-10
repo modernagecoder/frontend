@@ -1,4 +1,4 @@
-// SHIP: vacaciones útiles district (ES) | Pueblo Libre: el calendario escolar MINEDU y cómo repartir el verano | halving search: guess a number from 1 to 100 in at most 7 tries
+// SHIP: vacaciones útiles district (ES) | Pueblo Libre: calendar, then Python e IA or own course at 4 to 5 a week | halving search: guess a number from 1 to 100 in at most 7 tries
 'use strict';
 // Vacaciones útiles de programación en Pueblo Libre (ag- Spanish-language district door, Peru cluster row PE224, P2, hubGroup lima).
 // Spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md; writer brief docs/superpowers/plans/2026-11-09-pe-writer-brief.md.
@@ -38,6 +38,15 @@
 //    From 1 to 10 -> at most 4 tries / From 1 to 100 -> at most 7 tries / From 1 to 1000 -> at most 10 tries
 // Lesson family: halving search (binary search) with two bounds in a while loop, then the worst case counted over every
 //    possible secret.
+// REVISED 2026-11-10 for the owner's summer offer (brief, last section): "Jugada 1: Python e IA" (python-ai-kids-masterclass
+// 9 to 12; python-complete-masterclass-teens, then ai-ml-masterclass-teens) or "Jugada 2: el curso que su hijo elija" (any
+// course: DSA, competitive programming, web, apps, Java, C++, Godot, Scratch, vibe coding, maths), 4 to 5 live classes a
+// week, group or one to one, summer pace and fee agreed with the mentor before the first summer class, first class free.
+// Course durations (content/courses/data/*.json, read 2026-11-10): python-ai-kids 8-10 months; python teens and DSA teens
+// 10-12 months; scratch 3-4 months; html-css 4 months. Our month-by-month arithmetic, assuming (ours, not official) a 2027
+// summer shaped like 2026 (classes resumed 16 March 2026): January about 4 weeks = 16 / 20 classes at 4 / 5 a week;
+// February 4 weeks = 16 / 20; March before school about 2 weeks = 8 / 10; total about 10 weeks = 40 / 50. Python e IA kids
+// at 2 a week = 64 to 80 classes; DSA teens 88 to 104 (44-52 weeks); the summer covers about half of a long course.
 
 const { ES: PE_ES } = require('../../scripts/nl/lib/market-pe');
 
@@ -107,51 +116,77 @@ module.exports = {
   parents: [{ slug: 'coding-and-ai-classes-in-peru', name: 'Peru' }],
   routeLabel: 'Vacaciones útiles de programación en Pueblo Libre',
   title: 'Vacaciones útiles de programación en Pueblo Libre, online',
-  description: 'Vacaciones útiles de programación para chicos de Pueblo Libre: el calendario escolar del MINEDU, los talleres del distrito y clases en vivo y en inglés en casa.',
-  ogDescription: 'Planifique el verano en Pueblo Libre: cuándo vuelve el colegio según el MINEDU, qué talleres ofrece el distrito y cómo sumar programación en vivo y en inglés.',
-  twitterDescription: 'Un verano con código para chicos de Pueblo Libre: clases en vivo y en inglés, en grupo o individuales, sin salir de casa.',
+  description: 'Vacaciones útiles en Pueblo Libre: el calendario del MINEDU y un verano de Python e IA o del curso que elija, 4 a 5 clases por semana, en vivo y en inglés.',
+  ogDescription: 'Planifique el verano en Pueblo Libre: cuándo vuelve el colegio, qué talleres da el distrito y cómo sumar Python e IA u otro curso, cuatro o cinco veces por semana.',
+  twitterDescription: 'Pueblo Libre, verano 2027: Python e IA o el curso que su hijo elija, cuatro o cinco clases semanales en vivo y en inglés, sin salir de casa.',
   pageName: 'Vacaciones útiles de programación en Pueblo Libre',
-  webPageDescription: 'Guía para familias de Pueblo Libre que organizan las vacaciones útiles: el calendario del año escolar 2026 según la RM 501-2025-MINEDU, lo que la Municipalidad de Pueblo Libre publica sobre sus talleres de verano, cómo repartir los meses entre talleres, descanso y programación en vivo y en inglés, la población del distrito según el INEI y un juego de adivinar números escrito por nosotros en Python.',
-  courseDescription: 'Clases en vivo y en línea de programación para niños de 6 a 12 años y adolescentes de Pueblo Libre, dictadas solo en inglés: Scratch, Python, lógica y algoritmos, en clase grupal o individual, empezando en las vacaciones de verano y a cualquier hora.',
+  webPageDescription: 'Guía para familias de Pueblo Libre que organizan las vacaciones útiles: el calendario del año escolar 2026 según la RM 501-2025-MINEDU, lo que la Municipalidad de Pueblo Libre publica sobre sus talleres de verano, las dos jugadas de verano (Python e IA, o el curso que su hijo elija) a 4 o 5 clases por semana, cuántas clases da cada mes, cómo repartir los meses entre talleres, descanso y programación en vivo y en inglés, la población del distrito según el INEI y un juego de adivinar números escrito por nosotros en Python.',
+  courseDescription: 'Verano de programación en vivo para niños de 6 a 12 años y adolescentes de Pueblo Libre, dictado solo en inglés: Python e IA o el curso que el alumno elija (algoritmos, web, apps, Java, juegos y más), de 4 a 5 clases por semana, en clase grupal o individual y a cualquier hora.',
   crumbs: [{ name: 'Cursos', href: '/courses' }, { name: 'Perú', href: '/coding-and-ai-classes-in-peru' }],
   crumbLabel: 'Vacaciones útiles en Pueblo Libre',
   navLinks: [
     { href: '/coding-and-ai-classes-in-peru', label: 'Perú' },
+    { href: '#jugadas', label: 'Verano' },
     { href: '#calendario', label: 'Calendario' },
     { href: '#talleres', label: 'Talleres' },
     { href: '#repartir', label: 'Plan' },
-    { href: '#adivinar', label: 'Ejemplo' },
-    { href: '#desde-casa', label: 'Desde casa' }
+    { href: '#adivinar', label: 'Ejemplo' }
   ],
   eyebrow: 'Lima &middot; Pueblo Libre &middot; Vacaciones útiles',
   h1: 'Vacaciones útiles de programación en Pueblo Libre',
-  lede: 'Antes de inscribir a su hijo en nada, conviene tener el calendario a la vista: cuándo termina el colegio, cuándo vuelve y qué semanas quedan libres. Esta página parte de ahí, del calendario oficial del MINEDU, repasa lo que la municipalidad ofrece en verano y propone cómo encajar unas clases de programación en vivo y en inglés sin llenar cada hora del día.',
-  secondaryCta: { href: '#calendario', label: 'Ver el calendario escolar' },
-  wa: 'Hola Modern Age Coders, vivimos en Pueblo Libre y estamos armando el verano de nuestro hijo. ¿Podemos reservar una clase gratis de programación?',
+  lede: 'Antes de inscribir a su hijo en nada, conviene tener el calendario a la vista: cuándo termina el colegio, cuándo vuelve y qué semanas quedan libres. Esta página parte de ahí, del calendario oficial del MINEDU, repasa lo que la municipalidad ofrece en verano y propone dos jugadas de programación, Python e IA o el curso que su hijo elija, a cuatro o cinco clases en vivo por semana, sin llenar cada hora del día.',
+  secondaryCta: { href: '#jugadas', label: 'Ver las dos jugadas de verano' },
+  wa: 'Hola Modern Age Coders, vivimos en Pueblo Libre y estamos armando el verano de nuestro hijo: Python e IA u otro curso, a 4 o 5 clases por semana. ¿Podemos reservar una clase gratis?',
   heroNote: 'Clases en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; un verano con plan, sin salir del distrito',
   spec: [
     ['Público', 'Niños de primaria y adolescentes de secundaria'],
-    ['Temporada', 'Verano, y si funciona, el resto del año'],
+    ['Verano', 'Python e IA, o el curso que elija'],
     ['Modalidad', 'Videollamada en vivo, desde su casa'],
     ['Grupos', 'De quince a veinte, o clase individual'],
-    ['Temas', 'Scratch, Python, lógica y algoritmos'],
+    ['Frecuencia', 'De 4 a 5 clases en vivo por semana'],
     ['Inicio', 'Con una clase de prueba gratuita']
   ],
   capsuleQ: 'Lo esencial',
-  capsule: 'En Pueblo Libre, las vacaciones útiles de programación de Modern Age Coders consisten en clases en vivo que su hijo toma en casa, por internet y en inglés, con un mentor en la India; sirven para niños de 6 a 12 años y para adolescentes. No hay campamento con fecha fija: usted elige cuándo empezar en el verano, si prefiere una clase grupal o clases individuales, y el día y la hora, que pueden ser cualquiera. Se combinan bien con un taller presencial del distrito y pueden seguir cuando vuelva el colegio. La primera clase es gratis.',
+  capsule: 'En Pueblo Libre, el verano de programación de Modern Age Coders tiene dos jugadas: Python e IA, la que recomendamos abrir, o el curso que su hijo elija del catálogo, por ejemplo DSA, desarrollo web, apps o Java. Sirve a niños de seis a doce años y a adolescentes, que lo toman desde casa, en vivo y en inglés con un mentor en la India, a razón de 4 a 5 clases por semana, con grupo o a solas, a cualquier hora. Se combina con un taller presencial del distrito. Ritmo y tarifa del verano se conversan con el mentor; la primera clase no se cobra.',
 
   picks: {
     eyebrow: 'Recomendados para el verano',
     h2: 'Cursos con los que se puede empezar en Pueblo Libre',
-    lede: 'Para el chico que disfruta de los acertijos, para el que quiere escribir código de verdad y para el adolescente que va un paso más allá.',
+    lede: 'Los dos primeros son la jugada 1, Python e IA, en su versión de primaria y de secundaria; el tercero, una jugada 2 para el adolescente al que le gustan los retos.',
     items: [
-      { course: 'reasoning-and-readiness-course-for-young-thinkers', code: 'VUPP / 01', title: 'Razonamiento para pequeños', alt: 'Imagen del curso de razonamiento para niños pequeños', note: 'De 6 a 9 años. Patrones, orden y estrategia con retos en pantalla; el mismo tipo de pensamiento que pide un tablero de ajedrez.' },
-      { course: 'python-ai-kids-masterclass', code: 'VUPP / 02', title: 'Python para chicos de primaria', alt: 'Imagen del curso de Python e IA para niños', note: 'Para 9 a 12 años. Su hijo escribe sus propios juegos, como el de adivinar un número de esta página, y conoce lo básico de la inteligencia artificial.' },
-      { course: 'problem-solving-dsa-masterclass-teens', code: 'VUPP / 03', title: 'Lógica y algoritmos en secundaria', alt: 'Imagen del curso de resolución de problemas y algoritmos para adolescentes', note: 'De 13 a 18 años. Búsqueda, ordenamiento y estructuras de datos, con problemas que exigen pensar antes de teclear.' }
+      { course: 'python-ai-kids-masterclass', code: 'VUPP / 01', title: 'Python e IA para chicos de primaria', alt: 'Imagen del curso de Python e IA para niños', note: 'Jugada 1, de 9 a 12 años. Su hijo escribe sus propios juegos, como el de adivinar un número de esta página, y termina con proyectos sencillos de inteligencia artificial.' },
+      { course: 'python-complete-masterclass-teens', code: 'VUPP / 02', title: 'Python para adolescentes', alt: 'Imagen del curso de Python para adolescentes', note: 'Jugada 1 en secundaria. El lenguaje completo con proyectos; con la base hecha se sigue con IA y machine learning para adolescentes.' },
+      { course: 'problem-solving-dsa-masterclass-teens', code: 'VUPP / 03', title: 'Lógica y algoritmos (DSA) en secundaria', alt: 'Imagen del curso de resolución de problemas y algoritmos para adolescentes', note: 'Jugada 2, de 13 a 18 años. Búsqueda, ordenamiento y estructuras de datos, con problemas que exigen pensar antes de teclear, como en el ajedrez.' }
     ]
   },
 
   sections: [
+    {
+      id: 'jugadas',
+      eyebrow: 'Dos jugadas para el verano',
+      h2: '¿Qué puede aprender un chico de Pueblo Libre con un verano de código?',
+      lede: 'Como en el ajedrez, hay una apertura que recomendamos y otras que también funcionan. Las dos se juegan en directo y en inglés, con cuatro o cinco clases por semana desde la semana de enero, febrero o marzo que usted escoja.',
+      body: [
+        { kind: 'two',
+          leftH3: 'Jugada 1: Python e IA',
+          left: [
+            'La apertura que proponemos. Primero Python, con juegos de estrategia como el de adivinar números de esta página; luego, cuando su hijo ya domina bucles, listas y funciones, proyectos de inteligencia artificial a su escala, por ejemplo un programa que aprende qué jugadas ganan más seguido en un juego sencillo.',
+            'Para primaria alta, de 9 a 12, el curso es <a class="ag-inline-link" href="/courses/python-ai-kids-masterclass">Python e IA para niños</a>; en secundaria se pasa por <a class="ag-inline-link" href="/courses/python-complete-masterclass-teens">Python para adolescentes</a> antes de <a class="ag-inline-link" href="/courses/ai-ml-masterclass-teens">IA y machine learning</a>. Ninguna herramienta de IA se usa por debajo de la edad que fija su fabricante.'
+          ],
+          rightH3: 'Jugada 2: el curso que su hijo elija',
+          right: [
+            'Cualquier curso del catálogo, a la misma frecuencia veraniega. Al chico que disfruta del ajedrez suelen gustarle <a class="ag-inline-link" href="/courses/problem-solving-dsa-masterclass-teens">algoritmos y estructuras de datos (DSA)</a> y la <a class="ag-inline-link" href="/courses/competitive-programming-for-teens-course">programación competitiva</a>; al que prefiere construir, el <a class="ag-inline-link" href="/courses/html-css-course-for-beginners-build-real-websites">desarrollo web con HTML y CSS</a> o las <a class="ag-inline-link" href="/courses/complete-app-development-masterclass-for-teens">apps para adolescentes</a>.',
+            'Además: Java, C++, videojuegos con Godot, apps con bloques, Scratch, vibe coding y matemática. En la clase gratis el mentor le ayuda a elegir.'
+          ] },
+        { kind: 'table', mt: true, numCols: [], caption: 'Qué jugada conviene a cada edad (guía nuestra)', head: ['Edad', 'Jugada 1: Python e IA', 'Jugada 2: algunas opciones'], rows: [
+          ['6 a 8 años', 'Aún no: empieza con bloques y llega a Python hacia los 9', 'Scratch, programación con bloques, resolver problemas paso a paso'],
+          ['De 9 a 12', 'El curso de Python e IA para niños', 'Matemática programando, videojuegos con Godot desde los 10, apps con bloques'],
+          ['13 a 15 años', 'Python para adolescentes desde cero', 'DSA, HTML y CSS, programación competitiva'],
+          ['15 a 17 años', 'Python para adolescentes y, al terminar la base, IA', 'Apps con React Native, Java, web full stack']
+        ] },
+        { kind: 'source', html: 'Sugerencia nuestra; las edades salen de la ficha publicada de cada curso. Ninguna jugada exige saber programar, y el mentor la confirma tras la clase gratis.' }
+      ]
+    },
     {
       id: 'calendario',
       eyebrow: 'El calendario',
@@ -209,12 +244,12 @@ module.exports = {
       id: 'repartir',
       eyebrow: 'Un verano equilibrado',
       h2: '¿Cómo repartir el verano entre talleres, descanso y programación?',
-      lede: 'Con un plan sencillo que deje días libres. Lo que sigue es nuestra propuesta para una familia de Pueblo Libre que empieza en enero; no es la duración de un curso ni de un campamento, y se adapta si empiezan más tarde.',
+      lede: 'Con un plan sencillo que deje ratos libres aun con cuatro o cinco clases por semana. Lo que sigue es nuestra propuesta para una familia de Pueblo Libre que empieza en enero; no es un campamento con fecha fija, y se recorta si empiezan más tarde.',
       body: [
         { kind: 'ol', items: [
           '<strong>Fin de diciembre: descanso de verdad.</strong> Las semanas lectivas de 2026 terminan el 18 de diciembre y las fiestas llegan enseguida. No hace falta empezar nada antes de enero.',
-          '<strong>Primera semana de enero: elegir.</strong> Revise con su hijo qué taller del distrito le atrae y reserve una clase gratis de programación para ver si le gusta. Con dos actividades basta.',
-          '<strong>Enero: el hábito.</strong> Dos clases de programación por semana, a una hora que no choque con el taller. Su hijo termina cada semana con algo pequeño que funciona.',
+          '<strong>Primera semana de enero: elegir.</strong> Revise con su hijo qué taller del distrito le atrae y reserve una clase gratis de programación para decidir la jugada, Python e IA o un curso a elección. Con dos actividades basta.',
+          '<strong>Enero: el hábito.</strong> Entre cuatro y cinco sesiones de código cada semana, a horas que no choquen con el taller, que en Pueblo Libre suele ser de dos días. Su hijo termina cada semana con algo pequeño que funciona.',
           '<strong>Febrero: el proyecto.</strong> Con lo aprendido, su hijo elige un proyecto propio: un juego, un cuento animado o, si es mayor, un programa como el de adivinar números de esta página.',
           '<strong>Antes de volver al colegio: mostrar y decidir.</strong> Su hijo presenta su proyecto a la familia, en inglés si se anima. Con eso deciden juntos si sigue en marzo con menos clases por semana o si cierra aquí.'
         ] },
@@ -224,7 +259,15 @@ module.exports = {
           ['11 a 12 años', 'Python', 'El juego de adivinar números, con un jugador humano y otro que es la computadora'],
           ['13 años o más', 'Python, JavaScript o Java', 'Una herramienta útil para su vida: un organizador de tareas o un pequeño sitio web']
         ] },
-        { kind: 'source', html: 'Plan y proyectos sugeridos por Modern Age Coders. El mentor los ajusta después de la clase gratis según lo que su hijo ya sabe y lo que le entusiasma.' }
+        { kind: 'source', html: 'Plan y proyectos sugeridos por Modern Age Coders. El mentor los ajusta después de la clase gratis según lo que su hijo ya sabe y lo que le entusiasma.' },
+        { kind: 'table', mt: true, numCols: [2, 3], caption: 'Cuántas clases da cada mes del verano a 4 o 5 por semana (cálculo nuestro, suponiendo un verano 2027 parecido al de 2026)', head: ['Tramo del verano', 'Semanas con clases, aprox.', 'A 4 por semana', 'A 5 por semana'], rows: [
+          ['Enero', '4', '16', '20'],
+          ['Febrero', '4', '16', '20'],
+          ['Marzo, hasta la vuelta al colegio', '2', '8', '10'],
+          ['Todo el verano', '10', '40', '50']
+        ] },
+        { kind: 'source', html: 'Cálculo nuestro. En 2026 las clases escolares volvieron el 16 de marzo; la fecha de 2027 la fijará la norma del MINEDU, todavía no publicada al 9 de noviembre de 2026. Las tarifas publicadas aquí son las del año escolar, ocho clases mensuales; cuánto se paga por el ritmo veraniego se conversa con el mentor antes de empezar.' },
+        { kind: 'p', mt: true, html: 'Lo que esas 40 a 50 clases alcanzan, dicho sin rodeos: un curso breve se termina. Scratch, de tres a cuatro meses a dos clases semanales, o HTML y CSS, de cuatro meses, caben enteros, igual que los vibe coding de tres meses o la preparación para el PCEP. Un curso extenso no: Python e IA para niños pide de 64 a 80 clases y DSA para adolescentes, de diez a doce meses, cerca de cien, así que el verano los deja a mitad de camino o algo más, y en marzo se sigue con dos clases por semana. Esa es la cuenta real.' }
       ]
     },
     {
@@ -294,7 +337,7 @@ module.exports = {
     ] },
     left: { h3: 'Para la familia', ps: [
       'Haga la pregunta y espere. A veces la explicación tarda en salir, sobre todo si su hijo la piensa primero en inglés, como en clase.',
-      'Si en marzo su hijo sigue, bastan una o dos clases por semana durante el año escolar para no perder lo ganado.'
+      'Si en marzo su hijo sigue, se vuelve a dos clases semanales durante el año escolar, suficiente para no perder lo ganado en el verano.'
     ] },
     right: { h3: 'Para su hijo', ps: [
       'Antes de escribir código, juegue el problema a mano. Si sabe ganar el juego, sabrá programarlo.',
@@ -305,10 +348,10 @@ module.exports = {
   catalogue: {
     eyebrow: 'Catálogo',
     h2: 'Nueve cursos más, por edad',
-    lede: 'Todos se dan en vivo, en inglés y por videollamada; usted decide si su hijo va en grupo o con clases individuales.',
+    lede: 'Cualquiera vale como jugada 2: en vivo, en inglés y por videollamada, en grupo o con clases individuales.',
     bands: [
       { num: 'I', h3: 'Primaria baja', sub: 'De 6 a 9 años', courses: [
-        { code: 'VUPP / INICIO / 01', slug: 'kids-coding-blocks-masterclass', title: 'Primeros programas con bloques', blurb: 'Animaciones y juegos sencillos para quien aún no escribe con soltura.' },
+        { code: 'VUPP / INICIO / 01', slug: 'reasoning-and-readiness-course-for-young-thinkers', title: 'Razonamiento para pequeños', blurb: 'Patrones, orden y estrategia de 6 a 9 años, como frente a un tablero.' },
         { code: 'VUPP / INICIO / 02', slug: 'problem-solving-and-computational-thinking-for-kids', title: 'Resolver problemas paso a paso', blurb: 'Descomponer un reto grande en pasos chicos, con juegos y acertijos en pantalla.' },
         { code: 'VUPP / INICIO / 03', slug: 'block-coding-app-development-masterclass', title: 'Apps con bloques', blurb: 'Una primera aplicación para el celular, sin escribir código.' }
       ] },
@@ -318,7 +361,7 @@ module.exports = {
         { code: 'VUPP / ALTA / 03', slug: 'godot-game-development-course-for-kids-and-teens', title: 'Videojuegos con Godot', blurb: 'Juegos en 2D y 3D escribiendo GDScript, desde los 10 años.' }
       ] },
       { num: 'III', h3: 'Secundaria', sub: 'De 13 a 18 años', courses: [
-        { code: 'VUPP / SEC / 01', slug: 'python-complete-masterclass-teens', title: 'Python de principio a fin', blurb: 'El lenguaje más usado para empezar, hasta proyectos propios.' },
+        { code: 'VUPP / SEC / 01', slug: 'ai-ml-masterclass-teens', title: 'IA y machine learning', blurb: 'El paso siguiente de la jugada 1, de 13 a 18 años.' },
         { code: 'VUPP / SEC / 02', slug: 'competitive-programming-for-teens-course', title: 'Programación competitiva', blurb: 'Problemas con tiempo límite, para chicos que disfrutan de los retos.' },
         { code: 'VUPP / SEC / 03', slug: 'complete-app-development-masterclass-for-teens', title: 'Apps para adolescentes', blurb: 'Aplicaciones reales para celular con React Native.' }
       ] }
@@ -350,10 +393,10 @@ module.exports = {
 
   fees: {
     h2: 'Precio de las clases para Pueblo Libre',
-    lede: 'Cobramos una mensualidad expresada en dólares estadounidenses, pagada con tarjeta. Es su banco el que la pasa a soles cuando procesa el pago, con el tipo de cambio de ese día, así que el monto en su estado de cuenta puede variar ligeramente.',
+    lede: 'Las cifras de abajo son la mensualidad del año escolar, ocho clases, expresada en dólares estadounidenses. En verano la frecuencia sube a cuatro o cinco clases por semana, y la tarifa de ese ritmo se acuerda con el mentor antes de la primera clase veraniega. Se paga con tarjeta, y su banco convierte el monto con el tipo de cambio del día.',
     free: ['Primera clase en vivo sin costo', 'Recomendación de curso y nivel', 'Sin datos de tarjeta'],
-    group: ['De quince a veinte compañeros de edad cercana', 'Un solo mentor de principio a fin', 'Dos clases en vivo cada semana', 'Pago mensual, sin contrato'],
-    one: ['Su hijo y el mentor, nadie más', 'Avance a su propio ritmo', 'El horario lo decide usted']
+    group: ['De quince a veinte compañeros de edad cercana', 'Un solo mentor de principio a fin', 'En verano, cuatro o cinco clases por semana', 'Pago mensual, sin contrato'],
+    one: ['Su hijo y el mentor, nadie más', 'Python e IA o el curso que elija', 'Horario y frecuencia los decide usted']
   },
 
   faq: {
@@ -364,11 +407,13 @@ module.exports = {
       { q: '¿Cuándo termina el año escolar 2026?', a: 'La norma del MINEDU para 2026 (RM 501-2025-MINEDU) cierra las clases con alumnos el viernes 18 de diciembre de 2026; los últimos días del año quedan para trabajo de gestión de los colegios, sin alumnos. Su colegio puede tener su propia calendarización.' },
       { q: '¿Cuándo empiezan las clases escolares en 2027?', a: 'Al 9 de noviembre de 2026 el MINEDU no había publicado la norma del año escolar 2027 en gob.pe. Como referencia, en 2026 las semanas lectivas empezaron el 16 de marzo. La fecha que vale es la que comunique su colegio.' },
       { q: '¿La municipalidad de Pueblo Libre tiene talleres de programación?', a: 'En lo que publica en gob.pe, sus talleres de verano e invierno son de deporte y ajedrez, presenciales y dos veces por semana. No vimos talleres de programación. Nosotros no estamos vinculados con la municipalidad; nuestras clases son en línea y se pueden sumar a un taller del distrito.' },
-      { q: '¿Cuánto dura el verano de programación?', a: 'No vendemos un programa de duración fija. Son clases mensuales que su hijo empieza cuando usted quiera. En esta página proponemos un plan propio de enero a marzo, solo como guía.' },
+      { q: '¿Qué ofrecen para el verano?', a: 'Dos jugadas: Python e IA, la que recomendamos abrir, o el curso que su hijo elija, como DSA, programación competitiva, desarrollo web, apps, Java o videojuegos. Las dos son en vivo y en inglés.' },
+      { q: '¿Cuánto dura el verano de programación y cuántas clases tiene?', a: 'No hay campamento con fecha fija: su hijo empieza cuando usted quiera, con 4 a 5 clases por semana. De enero a la vuelta al colegio son unas diez semanas, de 40 a 50 clases según nuestra cuenta. Un curso corto se termina; uno largo llega a marzo a mitad de camino y sigue a dos clases por semana.' },
       { q: '¿Qué horario tienen las clases?', a: 'Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Los mentores están en la India, 10 horas y 30 minutos por delante de Perú, pero usted siempre reserva en hora de Perú.' },
       { q: '¿A partir de qué edad?', a: 'Desde los 6 años, con bloques y personajes. Hacia los 9 o 10 años la mayoría puede escribir Python, y los adolescentes pueden empezar por Python, JavaScript, Java o algoritmos.' },
       { q: '¿Le sirve a un chico que juega ajedrez?', a: 'Mucho. Programar pide prever y comprobar, como el ajedrez. En el ejemplo de esta página el chico descubre que partir el rango por la mitad encuentra cualquier número del 1 al 100 en 7 intentos como máximo.' },
       { q: '¿Qué necesito en casa?', a: 'Una computadora o laptop con cámara y micrófono, audífonos y una conexión a internet estable. El celular no alcanza para programar cómodamente.' },
+      { q: '¿Cuánto cuesta el verano?', a: 'En esta página aparece la mensualidad del año escolar, de ocho clases, en dólares estadounidenses. La tarifa del verano, con cuatro o cinco clases semanales, se acuerda con el mentor antes de la primera clase de verano. Se paga con tarjeta; la clase de prueba es gratis.' },
       { q: '¿Las clases dan nota escolar o algún certificado?', a: 'No dan nota escolar ni certificado del sistema educativo peruano, y no estamos afiliados al MINEDU ni a ningún colegio. Al terminar cada curso su hijo recibe el certificado de finalización propio de Modern Age Coders.' }
     ]
   },
@@ -389,7 +434,7 @@ module.exports = {
 
   start: {
     h2: 'Reserve una clase de prueba para el verano',
-    lede: 'En la clase gratis el mentor juega con su hijo a adivinar un número o a mover un personaje, siempre en inglés sencillo, y observa cómo razona. Después le proponemos curso, formato y ritmo para el verano, sin compromiso.',
+    lede: 'En la clase gratis el mentor juega con su hijo a adivinar un número o a mover un personaje, siempre en inglés sencillo, y observa cómo razona. Después le proponemos la jugada, Python e IA o un curso a elección, el formato y cuántas clases por semana, y acuerdan la tarifa del verano, sin compromiso.',
     readFirst: 'Dos lecturas previas, ambas en inglés: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> muestra una clase por dentro y <a class="ag-inline-link" href="/courses">All courses</a> reúne el catálogo.',
     note: 'Las clases se dictan en inglés, en vivo y en línea, con mentores desde la India. Por WhatsApp le respondemos también en castellano.',
     formNote: 'Gratis, sin tarjeta, sin compromiso.'
@@ -398,8 +443,8 @@ module.exports = {
   footer: {
     cols: [
       { h4: 'Para el verano', links: [
-        { href: '/courses/reasoning-and-readiness-course-for-young-thinkers', label: 'Razonamiento para pequeños' },
-        { href: '/courses/python-ai-kids-masterclass', label: 'Python para primaria' },
+        { href: '/courses/python-ai-kids-masterclass', label: 'Python e IA para primaria' },
+        { href: '/courses/python-complete-masterclass-teens', label: 'Python para adolescentes' },
         { href: '/courses/problem-solving-dsa-masterclass-teens', label: 'Algoritmos para adolescentes' },
         { href: '/courses', label: 'Todos los cursos' }
       ] },
@@ -419,10 +464,12 @@ module.exports = {
 .ag-root.ag-vupp .ag-table td:first-child { font-weight: 600; }
 .ag-root.ag-vupp .ag-section-head h2 { max-width: 29ch; }
 .ag-root.ag-vupp .ag-steps li { line-height: 1.64; }
+.ag-root.ag-vupp #jugadas .ag-grid-2 > div { border: 1px solid var(--ag-accent); border-radius: 10px; padding: 22px; background: var(--ag-paper-3); }
+.ag-root.ag-vupp #jugadas .ag-grid-2 h3 { color: var(--ag-accent); margin-top: 0; font-weight: 700; }
 `,
 
   dossier: {
-    curriculumAuthority: 'MINEDU RM 501-2025-MINEDU (Tabla 1 checked by eye against the signed PDF page; DRE/UGEL and calendarización clauses); gob.pe search for the 2027 norm on 9 November 2026; Municipalidad Distrital de Pueblo Libre (Lima) service page on its sports workshops (last changed 23 April 2024) and note of 13 January 2023; INEI Censos Nacionales 2025 (Lima Metropolitana tabulado, Cuadros N.° 1 and 3); EF EPI 2025; tzdata and INACAL. The summer plan, the project table, the review questions and the guessing-game lesson are our own.',
+    curriculumAuthority: 'Summer offer per owner 2026-11-10 (two options, 4 to 5 classes a week; course durations from our own course pages; arithmetic ours). MINEDU RM 501-2025-MINEDU (Tabla 1 checked by eye against the signed PDF page; DRE/UGEL and calendarización clauses); gob.pe search for the 2027 norm on 9 November 2026; Municipalidad Distrital de Pueblo Libre (Lima) service page on its sports workshops (last changed 23 April 2024) and note of 13 January 2023; INEI Censos Nacionales 2025 (Lima Metropolitana tabulado, Cuadros N.° 1 and 3); EF EPI 2025; tzdata and INACAL. The summer plan, the project table, the review questions and the guessing-game lesson are our own.',
     localProject: 'A halving-search lesson for a child of 11 to 13 in Pueblo Libre, linked to the chess workshops the municipality lists: the computer guesses 73 between 1 and 100 by always trying the midpoint (Try 1 -> 50 too low ... Try 6 -> 73 correct!), then a function counts the worst case over every secret: From 1 to 100 -> at most 7 tries, From 1 to 1000 -> at most 10 tries. Run with python3 -I. Lesson family: binary search with two bounds, then the worst case.',
     requiredMentions: ['73 correct!', 'at most 7 tries', 'at most 10 tries', 'Which guess removes the most numbers?', 'vie. 18 dic.', 'más de 500 pueblolibrences', 'los talleres se dictan dos veces por semana y el pago es mensual', 'distinta a la sugerida', 'Pueblo Libre es el distrito número 29 en población', 'Siempre por la mitad'],
     sources: [
@@ -439,7 +486,7 @@ module.exports = {
       'A 2027 calendar date: refused; the page says the norm was not published on 9 November 2026 and labels any expectation as ours.',
       'Any link with the Municipalidad de Pueblo Libre: none; the page says so.',
       'Confusing the Lima district with Pueblo Libre in Áncash: the gob.pe institution munipueblolibre (Áncash) was rejected; only munipueblolibre-lima is used.',
-      'A camp length, start date or summer price: refused; normal monthly classes, the January to March plan is labelled as ours.',
+      'A typed summer price, a fixed start date, or a promise that a long course ends in the summer: refused; the summer pace and fee are agreed with the mentor, the January to March plan and month-by-month counts are labelled ours.',
       'Traffic or commute figures: none used.',
       'Spanish-language teaching: refused; English only, in the capsule and an FAQ.'
     ]
