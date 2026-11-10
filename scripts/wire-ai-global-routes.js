@@ -1123,6 +1123,7 @@ const SLUGS = [
   'scratch-for-kids-peru',
   'robotics-vs-coding-for-kids-peru',
   'one-on-one-coding-tutor-peru',
+  'coding-classes-for-kids-in-huanuco-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2325,6 +2326,7 @@ const LLMS_LABELS = {
   'scratch-for-kids-peru': 'Scratch for kids in Peru',
   'robotics-vs-coding-for-kids-peru': 'Robotics vs coding for kids in Peru',
   'one-on-one-coding-tutor-peru': 'One-on-one coding tutor in Peru',
+  'coding-classes-for-kids-in-huanuco-peru': 'Coding classes for kids in Huánuco, Peru',
 };
 
 function wireLlms(slugs) {
