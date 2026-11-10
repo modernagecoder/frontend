@@ -1068,6 +1068,7 @@ const SLUGS = [
   'remote-tech-job-skills-peru',
   'coding-for-kids-age-6-peru',
   'coding-for-kids-age-8-peru',
+  'coding-for-kids-age-10-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2215,6 +2216,7 @@ const LLMS_LABELS = {
   'remote-tech-job-skills-peru': 'Remote tech job skills for people in Peru',
   'coding-for-kids-age-6-peru': 'Coding for kids age 6 in Peru',
   'coding-for-kids-age-8-peru': 'Coding for kids age 8 in Peru',
+  'coding-for-kids-age-10-peru': 'Coding for kids age 10 in Peru',
 };
 
 function wireLlms(slugs) {
