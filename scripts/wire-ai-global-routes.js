@@ -1064,6 +1064,7 @@ const SLUGS = [
   'crack-the-code-alternative-in-english',
   'kodland-vs-codingal-peru',
   'platzi-alternative-live-classes',
+  'coding-bootcamp-alternative-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2207,6 +2208,7 @@ const LLMS_LABELS = {
   'crack-the-code-alternative-in-english': 'An English-taught alternative to Crack The Code',
   'kodland-vs-codingal-peru': 'Kodland vs Codingal for families in Peru',
   'platzi-alternative-live-classes': 'A Platzi alternative with live classes',
+  'coding-bootcamp-alternative-peru': 'A coding bootcamp alternative for Peru',
 };
 
 function wireLlms(slugs) {

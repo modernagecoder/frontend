@@ -33903,6 +33903,18 @@
   to = "/src/pages/platzi-alternative-live-classes.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-bootcamp-alternative-peru"
+  to = "/src/pages/coding-bootcamp-alternative-peru.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-bootcamp-alternative-peru.md"
+  to = "/src/pages/coding-bootcamp-alternative-peru.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -10412,4 +10412,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /platzi-alternative-live-classes /src/pages/platzi-alternative-live-classes.html 200
 /platzi-alternative-live-classes.md /src/pages/platzi-alternative-live-classes.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/coding-bootcamp-alternative-peru /src/pages/coding-bootcamp-alternative-peru.html 200
+/coding-bootcamp-alternative-peru.md /src/pages/coding-bootcamp-alternative-peru.md 200
 /* /src/pages/404.html 404
