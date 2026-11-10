@@ -1092,6 +1092,7 @@ const SLUGS = [
   'online-coding-and-ai-classes-lima-provinces-peru',
   'online-coding-and-ai-classes-san-martin-region-peru',
   'online-coding-and-ai-classes-huanuco-region-peru',
+  'ai-course-for-teens-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2263,6 +2264,7 @@ const LLMS_LABELS = {
   'online-coding-and-ai-classes-lima-provinces-peru': 'Online coding and AI classes, Lima provinces (Región Lima), Peru',
   'online-coding-and-ai-classes-san-martin-region-peru': 'Online coding and AI classes, San Martín region, Peru',
   'online-coding-and-ai-classes-huanuco-region-peru': 'Online coding and AI classes, Huánuco region, Peru',
+  'ai-course-for-teens-peru': 'AI course for teens in Peru',
 };
 
 function wireLlms(slugs) {
