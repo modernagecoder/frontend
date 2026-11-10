@@ -235,7 +235,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE056 | coding-classes-in-san-borja-lima (cobo, #790002) | market (en district, Lima) | 4,778 | 1.9% vs coding-classes-in-san-isidro-lima | San Borja primaria, grade by grade: first coding in English from 6 to 11 | greedy word wrap: the uncounted space, and a word longer than the line | 8f22772c |
 | PE057 | coding-classes-in-barranco-lima (coba, #8D3D14) | market (en district, Lima) | 4,604 | 2.5% vs coding-classes-in-la-molina-lima | Barranco, a small district: a specialist class in English without a local crowd | flood fill: what counts as touching (4 or 8 neighbours) changes the count | 9980773e |
 | PE223 | clases-de-programacion-para-ninos-brena-lima (pnb, #4E582A) | district kids door (ES) | 5,265 | 2.4% vs clases-de-programacion-para-ninos-piura | Breña, Lima centro: niños por edad, computadora en casa, inglés | len() counts characters, split() counts words, and the double space | 4fe00a2d |
-| PE226 | clases-de-programacion-para-ninos-ancon-lima (pae, #04693D) | district kids door (ES) | 4,942 | 1.8% vs clases-de-programacion-para-ninos-comas-lima | Ancón, extremo norte de Lima: distancia, equipo en casa, inglés | range() with a negative step: a countdown, where it stops, and an empty range | (this commit) |
+| PE226 | clases-de-programacion-para-ninos-ancon-lima (pae, #04693D) | district kids door (ES) | 4,942 | 1.8% vs clases-de-programacion-para-ninos-comas-lima | Ancón, extremo norte de Lima: distancia, equipo en casa, inglés | range() with a negative step: a countdown, where it stops, and an empty range | b69a1b01 |
+| PE229 | clases-de-programacion-para-ninos-san-luis-lima (pnsl, #004E44) | district kids door (ES) | 4,671 | 2.4% vs clases-de-programacion-para-ninos-brena-lima | San Luis, Lima: lectura y código, niños por edad, sin trasladarse | print versus return: a helper that prints its answer hands back None | (this commit) |
 
 ## Notes
 

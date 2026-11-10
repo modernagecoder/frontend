@@ -1164,6 +1164,7 @@ const SLUGS = [
   'coding-classes-in-barranco-lima',
   'clases-de-programacion-para-ninos-brena-lima',
   'clases-de-programacion-para-ninos-ancon-lima',
+  'clases-de-programacion-para-ninos-san-luis-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2407,6 +2408,7 @@ const LLMS_LABELS = {
   'coding-classes-in-barranco-lima': 'Coding classes in Barranco, Lima',
   'clases-de-programacion-para-ninos-brena-lima': 'Clases de programación para niños en Breña',
   'clases-de-programacion-para-ninos-ancon-lima': 'Clases de programación para niños en Ancón',
+  'clases-de-programacion-para-ninos-san-luis-lima': 'Clases de programación para niños en San Luis',
 };
 
 function wireLlms(slugs) {
