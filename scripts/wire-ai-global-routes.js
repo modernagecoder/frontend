@@ -1163,6 +1163,7 @@ const SLUGS = [
   'coding-classes-in-san-borja-lima',
   'coding-classes-in-barranco-lima',
   'clases-de-programacion-para-ninos-brena-lima',
+  'clases-de-programacion-para-ninos-ancon-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2405,6 +2406,7 @@ const LLMS_LABELS = {
   'coding-classes-in-san-borja-lima': 'Coding classes in San Borja, Lima',
   'coding-classes-in-barranco-lima': 'Coding classes in Barranco, Lima',
   'clases-de-programacion-para-ninos-brena-lima': 'Clases de programación para niños en Breña',
+  'clases-de-programacion-para-ninos-ancon-lima': 'Clases de programación para niños en Ancón',
 };
 
 function wireLlms(slugs) {
