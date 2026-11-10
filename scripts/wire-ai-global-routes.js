@@ -1054,6 +1054,7 @@ const SLUGS = [
   'best-python-course-in-peru',
   'best-ai-course-in-peru',
   'best-online-maths-tutor-in-peru',
+  'cost-of-coding-classes-in-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2187,6 +2188,7 @@ const LLMS_LABELS = {
   'best-python-course-in-peru': 'Best Python course in Peru',
   'best-ai-course-in-peru': 'Best AI course in Peru',
   'best-online-maths-tutor-in-peru': 'Best online maths tutor in Peru',
+  'cost-of-coding-classes-in-peru': 'Cost of coding classes in Peru',
 };
 
 function wireLlms(slugs) {
