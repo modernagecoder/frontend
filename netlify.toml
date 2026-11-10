@@ -35079,6 +35079,18 @@
   to = "/src/pages/coding-classes-in-barranco-lima.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/clases-de-programacion-para-ninos-brena-lima"
+  to = "/src/pages/clases-de-programacion-para-ninos-brena-lima.html"
+  status = 200
+
+[[redirects]]
+  from = "/clases-de-programacion-para-ninos-brena-lima.md"
+  to = "/src/pages/clases-de-programacion-para-ninos-brena-lima.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
