@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AI Course for University Students in Peru, Live in English</title>
+  <meta name="description" content="An AI course for university students in Peru: live online classes in English covering Python, machine learning, generative AI and agents, beside any degree.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ai-course-for-university-students-peru">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ai-course-for-university-students-peru.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#1D6746">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ai-course-for-university-students-peru">
+  <meta property="og:title" content="AI Course for University Students in Peru, Live in English">
+  <meta property="og:description" content="What a Peruvian degree may not yet cover in AI, what the 2025 regulation asks universities to add, a k-means lesson on why the same data can give two answers, and English scores by age group.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Course for University Students in Peru, Live in English">
+  <meta name="twitter:description" content="Live AI and machine learning classes in English for university students in Peru, beside any degree.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-aus .ag-hero h1 { max-width: 20ch; letter-spacing: -0.01em; }
+.ag-root.ag-aus .ag-capsule { border-left-width: 3px; border-radius: 0; }
+.ag-root.ag-aus .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-aus .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-aus .ag-code-note code { font-weight: 600; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ai-course-for-university-students-peru#page","url":"https://learn.modernagecoders.com/ai-course-for-university-students-peru","name":"AI Course for University Students in Peru","description":"A guide for undergraduates in Peru choosing an AI course, built from SUNEDU and trade.gov enrolment figures, DS 115-2025-PCM, the scikit-learn user guide, EF EPI 2025 age-group scores and INEI household data for 2026, with an original k-means lesson on initialisation and local minima.","inLanguage":"en-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding and AI classes in Peru","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"AI for university students","item":"https://learn.modernagecoders.com/ai-course-for-university-students-peru"}]},{"@type":"Course","name":"AI Course for University Students in Peru","description":"Live online artificial intelligence courses for university students in Peru, taught in English: Python, the maths of machine learning, supervised and unsupervised models, generative AI and agents, with projects tested on unseen data, in a group of fifteen to twenty or one to one, at hours the student chooses.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ai-course-for-university-students-peru"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ai-course-for-university-students-peru"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ai-course-for-university-students-peru"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in Spanish?","acceptedAnswer":{"@type":"Answer","text":"No. All classes are live online sessions taught in English, with no Spanish-language option. Mentors explain at a measured pace, write key terms and formulas in the chat and adjust to your accent, so a student with intermediate English can follow and improve as the course goes on."}},{"@type":"Question","name":"Do I need to study computer science to take an AI course?","acceptedAnswer":{"@type":"Answer","text":"No. Students from economics, engineering, business, health, law and the sciences take our courses. If you have never coded, we start with Python; the maths needed for machine learning is taught as it comes up."}},{"@type":"Question","name":"How much maths do I need?","acceptedAnswer":{"@type":"Answer","text":"Secondary school algebra is enough to begin. Statistics, probability and linear algebra are introduced as each model needs them. Students who want more depth can take our Maths for Data Science course alongside."}},{"@type":"Question","name":"Does Peru require universities to teach AI?","acceptedAnswer":{"@type":"Answer","text":"DS 115-2025-PCM, published 9 September 2025, promotes the progressive addition of AI content to programmes such as systems engineering, software engineering, computer science and mathematics. It promotes rather than sets a fixed date for every programme; this is context, not legal advice."}},{"@type":"Question","name":"When are classes held?","acceptedAnswer":{"@type":"Answer","text":"Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. Peru stays on UTC minus 5 all year and India on UTC plus 5:30, so 09:00 in Lima is 19:30 in India."}},{"@type":"Question","name":"Can I use Claude or ChatGPT in the course?","acceptedAnswer":{"@type":"Answer","text":"If you are 18 or over, yes, within each vendor's terms, after you can solve the problem yourself. Students under 18 follow our teen rules: Claude is not used, because Anthropic's terms require users to be 18, and ChatGPT only with a parent's permission."}},{"@type":"Question","name":"Will this help me get a job?","acceptedAnswer":{"@type":"Answer","text":"We make no job or salary promises. What the course gives you is skill and evidence: projects you built, tested on unseen data and can explain in English. Those are what you show an employer or a graduate programme."}},{"@type":"Question","name":"Is there a certificate?","acceptedAnswer":{"@type":"Answer","text":"Yes, our own certificate of completion. It is not a university credit or an official Peruvian qualification, and we are not connected with SUNEDU or any university in Peru."}},{"@type":"Question","name":"What computer do I need?","acceptedAnswer":{"@type":"Answer","text":"Any ordinary laptop with a stable connection and a headset. The early units run plain Python; later units use free cloud notebooks where heavier computation is needed, so a gaming graphics card is never required."}},{"@type":"Question","name":"Can I pause during exams?","acceptedAnswer":{"@type":"Answer","text":"Yes. Tell your mentor your university calendar. One-to-one students can move classes around exams; group students can pause a month and rejoin a suitable group."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ai-course-for-university-students-peru","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-aus">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Peru</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Peru</a></li>
+      <li><a href="#degree">Beside your degree</a></li>
+      <li><a href="#rules">What 2025 changed</a></li>
+      <li><a href="#project">k-means lesson</a></li>
+      <li><a href="#english">English by age</a></li>
+      <li><a href="#choose">Which course</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a> / AI for university students
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Peru &middot; AI for undergraduates &middot; Any degree</p>
+        <h1>AI course for university students in Peru</h1>
+        <p class="ag-lede">Whatever you study, from systems engineering at a public university to economics, law or medicine at a private one, artificial intelligence is now part of your field, and your syllabus may not have caught up. This page is for university students in Peru who want a serious AI course alongside their degree: what to learn, what Peru's 2025 AI regulation asks universities to add, a lesson that shows why an algorithm can give two different answers on the same data, and how English fits in.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#project" class="ag-btn ag-btn--ghost">Work through the k-means lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20university%20student%20in%20Peru%20and%20would%20like%20to%20know%20more%20about%20your%20AI%20course.%20Can%20I%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'aus'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live since 2020 &middot; 10,000+ students worldwide &middot; all classes live and in English</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>For</dt><dd>Undergraduates, any degree</dd>
+          <dt>Starts at</dt><dd>Python from zero, or straight to ML</dd>
+          <dt>Covers</dt><dd>ML, generative AI, agents</dd>
+          <dt>Maths</dt><dd>Revised as it is needed</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Try first</dt><dd>One free class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">What this is</p>
+      <p>Modern Age Coders offers an AI course for university students in Peru: live online classes taught in English, beside any degree. Students learn Python, the maths behind machine learning, supervised and unsupervised models, generative AI and agents, and they test every project on data the model has not seen. Mentors based in India teach a group of fifteen to twenty students or one student alone, at times that fit lectures and exams in Peru. It suits engineering and computer science students who want depth and students of other subjects who want AI they can actually explain.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three AI courses for undergraduates</h2>
+      <p class="ag-lede">The first is the broad foundation; the second goes into classical AI theory; the third is for students who already code and want generative AI and agents.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-complete-college">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-college.webp" alt="AI and ML Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AUS / 01</p>
+          <h3>AI and ML Masterclass</h3>
+          <p>Python, statistics and linear algebra as they are needed, then supervised and unsupervised learning, neural networks and an introduction to generative AI. The usual starting point for students of any degree.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/artificial-intelligence-complete-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/ai-college.webp" alt="Artificial Intelligence Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AUS / 02</p>
+          <h3>Artificial Intelligence: Search, Logic and Agents</h3>
+          <p>The theory a computer science degree touches only briefly: search, logic, planning, probabilistic reasoning and agents. For students who want to understand AI rather than only use libraries.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-generative-ai-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/generative-ai-college.webp" alt="Generative AI Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AUS / 03</p>
+          <h3>Generative AI: LLMs, RAG and Agents</h3>
+          <p>For students who already write Python. How large language models are used in practice: retrieval, evaluation, tool use and agents, built and tested as real projects.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="degree">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Beside your degree</p><h2>Why take an AI course while studying at a Peruvian university?</h2><p class="ag-lede">Because AI now touches almost every degree, and most programmes are still adding it. A focused course fills the gap without changing what you study.</p></div>
+    <p>Peru has a large university population. SUNEDU, the national university regulator, reported on 15 September 2021 that the country had 94 licensed universities, 46 public and 48 private, with 1.1 million university students across 5,500 programmes. The United States government's trade guide to Peru gave a figure of 1.2 million university students in its 2022 edition. The two counts come from different sources and years, so we print each with its own date rather than combine them.</p>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Engineering and computer science</h3><p>You may already code. What a course adds is depth in the machine learning your syllabus covers lightly: unsupervised learning, evaluation, generative AI and agents, with time to build projects properly.</p></div><div><h3>Economics, business and science</h3><p>You work with data already. A course teaches you to fit, test and question models yourself, in Python, instead of reading results someone else produced.</p></div><div><h3>Law, health, education and the arts</h3><p>You will meet AI in your profession. Understanding how a model learns and fails lets you judge its output, which is a different skill from using a chatbot.</p></div></div>
+    <p class="ag-mt-40">Online access is rarely the problem. INEI's household survey for the second quarter of 2026 found that 98.0% of people in Peru with university education used the internet, and 97.3% of those aged 19 to 24. A laptop is the real requirement: only 36.4% of Peruvian households owned at least one computer in the same quarter, so many students rely on a university lab or a shared machine. Our classes work on any modest laptop; nothing in the first months needs a powerful graphics card.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="rules">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What 2025 changed</p><h2>What does Peru's AI regulation ask universities to teach?</h2><p class="ag-lede">It asks for AI content to be added progressively to related programmes. DS 115-2025-PCM, the regulation of Law 31814 published in El Peruano on 9 September 2025, names the disciplines.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Programmes named in article 13.3 of DS 115-2025-PCM</caption><thead><tr><th scope="col">Programme area (as named)</th><th scope="col">In English</th><th scope="col">Our nearest course (our choice)</th></tr></thead><tbody><tr><td>Ingeniería de sistemas</td><td>Systems engineering</td><td>AI and ML Masterclass; Search, Logic and Agents</td></tr><tr><td>Ciberseguridad</td><td>Cybersecurity</td><td>Generative AI: LLMs, RAG and Agents</td></tr><tr><td>Ingeniería electrónica</td><td>Electronic engineering</td><td>AI and ML Masterclass</td></tr><tr><td>Ingeniería de software</td><td>Software engineering</td><td>Data Structures and Algorithms; Codex and Claude Code</td></tr><tr><td>Ciencias de la computación</td><td>Computer science</td><td>Search, Logic and Agents; DSA</td></tr><tr><td>Tecnologías de la información</td><td>Information technology</td><td>Data Analysis</td></tr><tr><td>Matemáticas</td><td>Mathematics</td><td>Maths for data science; AI and ML Masterclass</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: DS 115-2025-PCM, Reglamento de la Ley 31814, article 13.3, El Peruano, 9 September 2025 (the list also adds "demás disciplinas afines", other related disciplines). The right-hand column is our own mapping to our courses; it is not part of the regulation. Read on 9 November 2026.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the text says</h3><p>Article 13.3 says the government's digital transformation office "fomenta la incorporación progresiva" of AI content in those programmes, to strengthen graduates' profiles and respond to digital transformation. "Progressive" is the important word: the change happens over years, programme by programme.</p>
+<p>Article 19 adds that the office may open public cloud computing resources for AI work to public bodies, researchers, teachers and undergraduate and postgraduate students. The same regulation gives public universities up to two years to implement several of its obligations.</p></div><div><h3>What it means for you</h3><p>If you are in one of those programmes now, AI content may arrive in your syllabus before you graduate, or after. A course alongside your degree means you do not have to wait for it.</p>
+<p>We quote the regulation as published context, not legal advice. It does not endorse any course, ours included, and we are not connected with any Peruvian university, SUNEDU or the government.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real lesson</p><h2>Why can the same algorithm give two answers? k-means by hand</h2><p class="ag-lede">This lesson comes early in our unsupervised learning unit. Students write k-means from scratch in plain Python, run it twice on the same twelve points, and get two different results, one of them twenty times worse.</p></div>
+    <p>The scikit-learn user guide describes k-means as an algorithm that groups data by "minimizing a criterion known as the inertia or within-cluster sum-of-squares": the total squared distance from each point to the centre of its group. It repeats two steps, assign each point to its nearest centre, then move each centre to the mean of its points, until nothing moves. Our version below does exactly that in about twenty lines, with no library.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>k-means from scratch, three starting positions</b><span>Python</span></figcaption><pre># Twelve invented points: three tight groups on a plane.
+points = [(1, 1), (1, 2), (2, 1), (2, 2),
+          (8, 1), (8, 2), (9, 1), (9, 2),
+          (5, 8), (5, 9), (6, 8), (6, 9)]
+
+def dist2(a, b):
+    return (a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2
+
+def kmeans(centroids, rounds=10):
+    for _ in range(rounds):
+        groups = [[] for _ in centroids]
+        for p in points:
+            nearest = min(range(len(centroids)), key=lambda i: dist2(p, centroids[i]))
+            groups[nearest].append(p)
+        new = []
+        for g, c in zip(groups, centroids):
+            if g:
+                new.append((sum(x for x, y in g) / len(g), sum(y for x, y in g) / len(g)))
+            else:
+                new.append(c)
+        if new == centroids:
+            break
+        centroids = new
+    inertia = sum(min(dist2(p, c) for c in centroids) for p in points)
+    return centroids, inertia
+
+for name, start in [("start A", [(1, 1), (8, 1), (5, 8)]),
+                    ("start B", [(1, 1), (2, 2), (7, 5)])]:
+    cents, inertia = kmeans(start)
+    print(name, "-&gt;", [(round(x, 2), round(y, 2)) for x, y in cents], "inertia", round(inertia, 2))
+
+def farthest_first(k):
+    chosen = [points[0]]
+    while len(chosen) &lt; k:
+        chosen.append(max(points, key=lambda p: min(dist2(p, c) for c in chosen)))
+    return chosen
+
+start_c = farthest_first(3)
+cents, inertia = kmeans(start_c)
+print("start C", start_c, "-&gt;", "inertia", round(inertia, 2))</pre><p class="ag-code-note">Run with Python 3, it prints three lines, shown below. The twelve points are invented by us: three tight groups of four.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Output</b><span>Output</span></figcaption><pre>start A -&gt; [(1.5, 1.5), (8.5, 1.5), (5.5, 8.5)] inertia 6.0
+inertia 121.33
+start C [(1, 1), (6, 9), (9, 1)] -&gt; inertia 6.0</pre><p class="ag-code-note">Starts A and C find the three obvious groups, with inertia 6.0. Start B stops at inertia 121.33.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What happened with start B</h3><p>Start B places two centres inside the same bottom-left group and one centre between the other two groups. The two close centres split the bottom-left group between them, and the third centre sits at (7, 5), the average of eight points that belong to two different groups.</p>
+<p>Nothing moves after that: every point is already nearest to its current centre, so the algorithm stops. It has converged, correctly by its own rules, to a poor answer. By our own division, its inertia is about twenty times that of the good solution.</p></div><div><h3>What the documentation says</h3><p>The scikit-learn guide is direct about it: "Given enough time, K-means will always converge, however this may be to a local minimum. This is highly dependent on the initialization of the centroids." Its remedies are to run the computation several times from different starts, and to use the k-means++ initialisation, which spreads the first centres apart.</p>
+<p>Start C uses a simpler cousin of that idea, which we call farthest-first: take the first point, then repeatedly add the point farthest from every centre chosen so far. It picks (1, 1), (6, 9) and (9, 1), one per group, and finds the good answer.</p></div></div>
+    <ol class="ag-steps ag-mt-40"><li><strong>Predict.</strong> Before running, sketch the points and the three starts on paper. Which start do you expect to fail, and where will its centres end up?</li><li><strong>Choose k.</strong> Run k-means with k from 1 to 5 using farthest-first starts and print the inertia each time. Why does inertia always fall as k grows, and why does that make it a poor way to choose k on its own?</li><li><strong>Break farthest-first.</strong> Add one point far away from everything, such as (20, 20). What does farthest-first choose now, and what does that tell you about outliers?</li><li><strong>Compare with the library.</strong> Run scikit-learn's <code>KMeans</code> on the same points with <code>n_init=1</code> and different random seeds, then with k-means++. Report how often each finds inertia 6.0.</li></ol>
+    <p class="ag-mt-40">The point is not k-means itself. It is the habit of distrusting a single run: of asking whether a result depends on a random start, a seed or an ordering, and checking. That habit applies to training a neural network, tuning a language model prompt or reading a published result, and it is the habit we most want university students to leave with.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">English by age</p><h2>How good is English among young adults in Peru?</h2><p class="ag-lede">It improves sharply through the early twenties. In EF's English Proficiency Index 2025, Peruvians aged 18 to 20 score in the "low" band, while those aged 26 to 30 reach "high".</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>EF EPI 2025, Peru, score by age group</caption><thead><tr><th scope="col">Age group</th><th scope="col">EF EPI 2025 score</th><th scope="col">EF band</th></tr></thead><tbody><tr><td>18 to 20</td><td class="ag-num">469</td><td>Low</td></tr><tr><td>21 to 25</td><td class="ag-num">540</td><td>Moderate</td></tr><tr><td>26 to 30</td><td class="ag-num">559</td><td>High</td></tr><tr><td>31 to 40</td><td class="ag-num">537</td><td>Moderate</td></tr><tr><td>41 and over</td><td class="ag-num">509</td><td>Moderate</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: EF Education First, EF English Proficiency Index 2025, Peru country page, age-group scores and bands as published; Peru overall scores 519, "Moderate". Read on 9 November 2026. EF tests adults who choose to take its online test, so these are not university statistics.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why it matters for AI</h3><p>Most AI research papers, library documentation, model cards and courses are written in English, and so are error messages. The gap between a score of 469 and one of 540 is roughly the gap between needing a translator for a paper and reading it directly.</p>
+<p>Taking an AI course in English while at university means the two skills grow together: the vocabulary of the subject (inertia, centroid, overfitting, embedding) becomes ordinary words, used in class every week.</p></div><div><h3>How our classes handle it</h3><p>Mentors speak clearly and at a steady pace, type key terms and formulas in the chat, and stop for questions. Students present their projects in short spoken summaries and written reports, both in English, with feedback on the explanation as well as the code.</p>
+<p>We do not teach in Spanish. If you would rather read about our AI courses in Spanish first, see the <a class="ag-inline-link" href="/curso-de-inteligencia-artificial-en-ingles-peru">curso de inteligencia artificial en inglés</a> page; the classes it describes are the same live, English-taught classes.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="choose">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Which course</p><h2>Which AI course should a university student choose?</h2><p class="ag-lede">Start from what you can already do, not from what sounds most advanced. A student who skips the foundations usually returns to them within a month.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Choosing a first AI course (our recommendations)</caption><thead><tr><th scope="col">If you</th><th scope="col">Start with</th><th scope="col">Then</th></tr></thead><tbody><tr><td>Have never coded</td><td>Python Masterclass, or the AI and ML Masterclass from its first unit</td><td>Data analysis, then generative AI</td></tr><tr><td>Code a little, any degree</td><td>AI and ML Masterclass</td><td>Generative AI, or Search, Logic and Agents</td></tr><tr><td>Study CS or systems engineering</td><td>Search, Logic and Agents, beside DSA</td><td>Generative AI and agents</td></tr><tr><td>Want maths depth</td><td>Maths for Data Science</td><td>AI and ML Masterclass</td></tr><tr><td>Want to build with AI coding agents</td><td>Codex and Claude Code for professionals (18+)</td><td>Generative AI</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Our own recommendations, adjusted for each student after the free first class.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Age and tools</h3><p>Most undergraduates are 18 or over, so adult tools are open to them under the vendors' terms; Anthropic's Claude, for example, requires users to be at least 18. Some students start university at 16 or 17. For them we follow our teen rules: no Claude, and ChatGPT only with a parent's permission, as OpenAI's terms require under 18.</p>
+<p>In every case, students first solve a problem without AI help, then use tools to check and extend their work, never to replace their understanding.</p></div><div><h3>What a course will not do</h3><p>It will not replace your degree, award Peruvian credits or guarantee a job. Students who finish a course receive our own certificate of completion. What employers and graduate programmes usually look at is the work: projects you can explain, tested properly, with code they can read.</p>
+<p>For a wider view of programming courses for students, our Spanish page <a class="ag-inline-link" href="/cursos-de-programacion-para-universitarios-peru">cursos de programación para universitarios</a> covers Java, Python and DSA as well as AI.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Milestones</p>
+      <h2>From first model to defensible project: milestones</h2>
+      <p class="ag-lede">Our milestones for university students. They are not academic credits, and they are not tied to any Peruvian university's syllabus.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>AI milestones for undergraduates (ours)</caption><thead><tr><th scope="col">Milestone</th><th scope="col">The student can</th><th scope="col">What they hand in</th></tr></thead><tbody><tr><td>1. Python fluency</td><td>Write and debug functions, classes and data handling</td><td>A small data tool with tests</td></tr><tr><td>2. Supervised models</td><td>Train, tune and compare regression and classification</td><td>A comparison on held-out data</td></tr><tr><td>3. Unsupervised models</td><td>Cluster and reduce dimensions; check stability across starts</td><td>The k-means lesson, extended</td></tr><tr><td>4. Neural networks</td><td>Train a small network and read its learning curves</td><td>A short report on what went wrong</td></tr><tr><td>5. Generative AI</td><td>Use a language model with retrieval and evaluation</td><td>A tested application with an evaluation set</td></tr><tr><td>6. Defend it</td><td>Explain a project's data, limits and risks aloud</td><td>A ten-minute talk in English</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For students</h3><p>A result you got once is an anecdote. Run it again from a different start.</p>
+<p>Write down what your model cannot do before someone else finds out.</p></div><div><h3>For parents</h3><p>Monthly notes describe projects completed and concepts mastered.</p>
+<p>Milestone 6 is where most students discover how much they actually know.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for university students</h2>
+      <p class="ag-lede">All taught live in English, each with a mentor who stays with you through the course.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Foundations</h3>
+        <span class="ag-band-sub">Any degree</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AUS / BASE / 01</p>
+          <h4>Python Masterclass</h4>
+          <p>From zero to advanced, the language every AI course assumes.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AUS / BASE / 02</p>
+          <h4>Maths for Data Science</h4>
+          <p>Statistics, linear algebra and the maths behind ML.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AUS / BASE / 03</p>
+          <h4>Data Analysis</h4>
+          <p>Excel, SQL, Python and BI on real datasets.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Computer science depth</h3>
+        <span class="ag-band-sub">CS and engineering</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AUS / CS / 01</p>
+          <h4>Data Structures and Algorithms</h4>
+          <p>The problem solving technical interviews test.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AUS / CS / 02</p>
+          <h4>Data Science Course</h4>
+          <p>Python, machine learning and deep learning end to end.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AUS / CS / 03</p>
+          <h4>Python Automation and Applied AI</h4>
+          <p>Scripts, scraping and practical AI tools.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Building with AI</h3>
+        <span class="ag-band-sub">18 and over</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AUS / BUILD / 01</p>
+          <h4>Codex and Claude Code</h4>
+          <p>AI coding agents, with every change reviewed by you.</p>
+          <a class="ag-course-link" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AUS / BUILD / 02</p>
+          <h4>Vibe Coding for College</h4>
+          <p>Full stack apps built with AI help and real DSA.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AUS / BUILD / 03</p>
+          <h4>AI Agents with Copilot Studio</h4>
+          <p>One to one: agents on Microsoft's low-code platform.</p>
+          <a class="ag-course-link" href="/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>How do live AI classes fit around lectures?</h2>
+      <p class="ag-lede">Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Morning in Peru</p><p class="ag-slot-l">Evening in India; a good slot before or between lectures.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evening in Peru</p><p class="ag-slot-l">Early morning in India; possible with the right mentor.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">One to one</p><p class="ag-slot-l">Moves around exams and lab weeks when you need it to.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Theory, then code</h3><p>Each idea is derived, then implemented from scratch.</p></div>
+      <div><h3>Unseen-data tests</h3><p>Every result is checked on held-out data.</p></div>
+      <div><h3>Exam-season pauses</h3><p>Tell us your calendar and we plan around it.</p></div>
+      <div><h3>Written reports</h3><p>Projects end with a short English write-up.</p></div>
+      <div><h3>Same mentor</h3><p>One person follows your work from start to finish.</p></div>
+      <div><h3>Modest hardware</h3><p>Any ordinary laptop is enough to begin.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Work by our older students</h2>
+      <p class="ag-lede">A sample of projects built by students in our longer courses; more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>What the AI courses cost</h2>
+      <p class="ag-lede">You pay in US dollars with a card. The conversion to soles happens at your bank, on the day of each payment and at the bank's rate, so a statement can differ slightly from the previous month's.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short ML task with a mentor</li><li>No card needed to book</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty students</li><li>One mentor for the whole course</li><li>Two live classes weekly</li><li>Billed monthly; leave whenever you want</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A mentor working only with you</li><li>Pace and projects shaped by your degree</li><li>Hours that fit your timetable</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from students and families, quoted exactly.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Students ask</p>
+      <h2>AI course for university students: questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in Spanish?</h3>
+        <p>No. All classes are live online sessions taught in English, with no Spanish-language option. Mentors explain at a measured pace, write key terms and formulas in the chat and adjust to your accent, so a student with intermediate English can follow and improve as the course goes on.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to study computer science to take an AI course?</h3>
+        <p>No. Students from economics, engineering, business, health, law and the sciences take our courses. If you have never coded, we start with Python; the maths needed for machine learning is taught as it comes up.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much maths do I need?</h3>
+        <p>Secondary school algebra is enough to begin. Statistics, probability and linear algebra are introduced as each model needs them. Students who want more depth can take our Maths for Data Science course alongside.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does Peru require universities to teach AI?</h3>
+        <p>DS 115-2025-PCM, published 9 September 2025, promotes the progressive addition of AI content to programmes such as systems engineering, software engineering, computer science and mathematics. It promotes rather than sets a fixed date for every programme; this is context, not legal advice.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes held?</h3>
+        <p>Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. Peru stays on UTC minus 5 all year and India on UTC plus 5:30, so 09:00 in Lima is 19:30 in India.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use Claude or ChatGPT in the course?</h3>
+        <p>If you are 18 or over, yes, within each vendor's terms, after you can solve the problem yourself. Students under 18 follow our teen rules: Claude is not used, because Anthropic's terms require users to be 18, and ChatGPT only with a parent's permission.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will this help me get a job?</h3>
+        <p>We make no job or salary promises. What the course gives you is skill and evidence: projects you built, tested on unseen data and can explain in English. Those are what you show an employer or a graduate programme.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is there a certificate?</h3>
+        <p>Yes, our own certificate of completion. It is not a university credit or an official Peruvian qualification, and we are not connected with SUNEDU or any university in Peru.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What computer do I need?</h3>
+        <p>Any ordinary laptop with a stable connection and a headset. The early units run plain Python; later units use free cloud notebooks where heavier computation is needed, so a gaming graphics card is never required.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I pause during exams?</h3>
+        <p>Yes. Tell your mentor your university calendar. One-to-one students can move classes around exams; group students can pause a month and rejoin a suitable group.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">See also</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for students in Peru.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>Every course we offer in Peru.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-para-estudiantes-de-ingenieria-peru">Python para estudiantes de ingeniería</a></h3><p>Python for engineering students, in Spanish.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a></h3><p>The age rules behind every AI tool we use.</p></div>
+      <div><h3><a class="ag-inline-link" href="/we-teach-you-how-to-think">We teach you how to think</a></h3><p>Understanding before tools.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Projects by our students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Inside a live class.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free AI class</h2>
+        <p class="ag-lede">The trial is a working session: you write a few lines of Python, fit a small model and test it, while the mentor gauges your coding, maths and English. You leave with a recommended course and a plan that fits your semester.</p>
+        <p class="ag-mt-40">Before booking, you can read <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or open any syllabus from the <a class="ag-inline-link" href="/courses">list of courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20university%20student%20in%20Peru%20and%20would%20like%20to%20know%20more%20about%20your%20AI%20course.%20Can%20I%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'aus',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Live video classes in English, taught by mentors in India. For a fast reply, write to us on WhatsApp in English.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_aus(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Your name</label>
+            <input id="pe-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Phone or WhatsApp, Peru +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Learner age group</label>
+            <select id="pe-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free to book, no card required.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>AI for students</h4><ul><li><a href="/ai-tools-age-guide">AI tools and age</a></li><li><a href="/student-labs">Student projects</a></li><li><a href="/we-teach-you-how-to-think">Thinking first</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Peru</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Classes in Peru</a></li><li><a href="/curso-de-inteligencia-artificial-en-ingles-peru">IA en inglés</a></li><li><a href="/cursos-de-programacion-para-universitarios-peru">Programación universitaria</a></li><li><a href="/python-para-estudiantes-de-ingenieria-peru">Python para ingeniería</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>One run is an anecdote</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_aus = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'ai-course-for-university-students-peru-inline', meta: { name: name, age: age, page: 'ai-course-for-university-students-peru' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
