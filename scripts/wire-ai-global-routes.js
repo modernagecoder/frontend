@@ -1074,6 +1074,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-piura',
   'clases-de-programacion-para-ninos-chiclayo',
   'clases-de-programacion-para-ninos-huancayo',
+  'clases-de-programacion-para-ninos-iquitos',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2227,6 +2228,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-piura': 'Clases de programación para niños en Piura',
   'clases-de-programacion-para-ninos-chiclayo': 'Clases de programación para niños en Chiclayo',
   'clases-de-programacion-para-ninos-huancayo': 'Clases de programación para niños en Huancayo',
+  'clases-de-programacion-para-ninos-iquitos': 'Clases de programación para niños en Iquitos',
 };
 
 function wireLlms(slugs) {
