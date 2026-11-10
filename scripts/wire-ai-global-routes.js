@@ -1158,6 +1158,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-lurin-lima',
   'coding-classes-in-miraflores-lima',
   'coding-classes-in-san-isidro-lima',
+  'coding-classes-in-surco-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2395,6 +2396,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-lurin-lima': 'Clases de programación para niños en Lurín',
   'coding-classes-in-miraflores-lima': 'Coding classes in Miraflores, Lima',
   'coding-classes-in-san-isidro-lima': 'Coding classes in San Isidro, Lima',
+  'coding-classes-in-surco-lima': 'Coding classes in Surco, Lima',
 };
 
 function wireLlms(slugs) {
