@@ -1146,6 +1146,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-villa-maria-del-triunfo-lima',
   'clases-de-programacion-para-ninos-villa-el-salvador-lima',
   'clases-de-programacion-para-ninos-carabayllo-lima',
+  'clases-de-programacion-para-ninos-san-juan-de-miraflores-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2371,6 +2372,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-villa-maria-del-triunfo-lima': 'Clases de programación para niños en Villa María del Triunfo',
   'clases-de-programacion-para-ninos-villa-el-salvador-lima': 'Clases de programación para niños en Villa El Salvador',
   'clases-de-programacion-para-ninos-carabayllo-lima': 'Clases de programación para niños en Carabayllo',
+  'clases-de-programacion-para-ninos-san-juan-de-miraflores-lima': 'Clases de programación para niños en San Juan de Miraflores',
 };
 
 function wireLlms(slugs) {
