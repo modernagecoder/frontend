@@ -120,7 +120,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE167 | online-coding-and-ai-classes-cusco-region-peru (cav, #43623C) | region | 4,976 | 2% vs online-coding-and-ai-classes-lambayeque-region-peru | Cusco: 13 provinces, a strong-maths region where connection is the hurdle | average of ratios vs ratio of totals (weighted yield), checking a derived column | d8d21336 |
 | PE060 | best-coding-classes-in-peru (beco, #952755) | market | 4,776 | 1.6% vs peru-summer-holiday-coding-classes-online | Best coding classes in Peru: what a family can check in one trial class | Pareto dominance: cross off offers beaten on every measure, keep a shortlist | 30259955 |
 | PE061 | best-python-course-in-peru (bep, #9A282B) | market | 4,030 | 1.6% vs math-olympiad-coaching-peru | Best Python course in Peru: judge a course by the tests its learners can pass | tests before trust: assert-based edge cases (duplicates, one item, empty) catch a function that looked right | 2c0f321f |
-| PE062 | best-ai-course-in-peru (bea, #784756) | market | 4,075 | 1.8% vs python-course-peru | Best AI course in Peru: judge it by how honestly it measures a model | accuracy paradox: an always-"fine" model scores 0.95 accuracy and 0.00 recall | (this commit) |
+| PE062 | best-ai-course-in-peru (bea, #784756) | market | 4,075 | 1.8% vs python-course-peru | Best AI course in Peru: judge it by how honestly it measures a model | accuracy paradox: an always-"fine" model scores 0.95 accuracy and 0.00 recall | 02192ad9 |
+| PE063 | best-online-maths-tutor-in-peru (bem, #8A3A47) | market | 3,985 | 1.6% vs coding-classes-in-english-for-peruvian-kids | Best online maths tutor in Peru: diagnose first, make the learner explain, prove | checking cases is not proof: n*n + n + 41 is prime for n = 0 to 39 and fails at 40 | (this commit) |
 
 ## Notes
 
