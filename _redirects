@@ -10440,4 +10440,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /live-coding-classes-peru-time /src/pages/live-coding-classes-peru-time.html 200
 /live-coding-classes-peru-time.md /src/pages/live-coding-classes-peru-time.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/clases-de-programacion-para-ninos-piura /src/pages/clases-de-programacion-para-ninos-piura.html 200
+/clases-de-programacion-para-ninos-piura.md /src/pages/clases-de-programacion-para-ninos-piura.md 200
 /* /src/pages/404.html 404
