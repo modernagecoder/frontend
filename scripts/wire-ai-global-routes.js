@@ -1115,6 +1115,7 @@ const SLUGS = [
   'online-coding-and-ai-classes-apurimac-region-peru',
   'online-coding-and-ai-classes-tacna-region-peru',
   'online-coding-and-ai-classes-huancavelica-region-peru',
+  'online-coding-and-ai-classes-tumbes-region-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2309,6 +2310,7 @@ const LLMS_LABELS = {
   'online-coding-and-ai-classes-apurimac-region-peru': 'Online coding and AI classes, Apurímac region, Peru',
   'online-coding-and-ai-classes-tacna-region-peru': 'Online coding and AI classes, Tacna region, Peru',
   'online-coding-and-ai-classes-huancavelica-region-peru': 'Online coding and AI classes, Huancavelica region, Peru',
+  'online-coding-and-ai-classes-tumbes-region-peru': 'Online coding and AI classes, Tumbes region, Peru',
 };
 
 function wireLlms(slugs) {
