@@ -34107,6 +34107,18 @@
   to = "/src/pages/coding-and-ai-for-teens-in-cajamarca-peru.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-ai-classes-moquegua-region-peru"
+  to = "/src/pages/online-coding-and-ai-classes-moquegua-region-peru.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-ai-classes-moquegua-region-peru.md"
+  to = "/src/pages/online-coding-and-ai-classes-moquegua-region-peru.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
