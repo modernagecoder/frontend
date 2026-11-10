@@ -207,7 +207,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE140 | clases-de-programacion-san-borja (psb, #8B3E09) | market | 4,337 | 2.2% vs clases-de-programacion-miraflores | San Borja, a district of book fairs and parents' talks: reading, then writing code, for every age | generators run out: a second pass over a used generator prints nothing | e479bb5d |
 | PE141 | clases-de-programacion-barranco (prb, #AD3A52) | market | 4,353 | 2.4% vs clases-de-programacion-san-isidro | Barranco learns tech at 40 to 70: from ofimática to code and AI, with daughters and sons too | bit masks: one number per week, & | dbd2869b |
 | PE142 | clases-de-programacion-los-olivos (prol, #6E1727) | market | 4,338 | 2.6% vs clases-de-programacion-san-isidro | Los Olivos, the youngest of these districts: secundaria to university and first jobs, in English | a queue: list.pop() serves the last in, deque.popleft() the first | 88a8f899 |
-| PE143 | clases-de-programacion-san-miguel (psm, #9A282B) | market | 4,205 | 2.6% vs clases-de-programacion-barranco | San Miguel, Peru's first innovation district (GIID): from an idea to working code, teens and adults | graph search: depth-first finds a route, breadth-first finds the shortest | (this commit) |
+| PE143 | clases-de-programacion-san-miguel (psm, #9A282B) | market | 4,205 | 2.6% vs clases-de-programacion-barranco | San Miguel, Peru's first innovation district (GIID): from an idea to working code, teens and adults | graph search: depth-first finds a route, breadth-first finds the shortest | 66fafa1f |
+| PE128 | clases-de-programacion-para-ninos-lima (pac, #6E172C) | market (es city door) | 5,605 | 2.6% vs clases-de-programacion-para-ninos-piura | Lima kids 6 to 12: census, home vs academy, Metro Línea 1 data | list positions: index() counts from 0, rides vs stations (fencepost), abs() | (this commit) |
 
 ## Notes
 

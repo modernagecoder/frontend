@@ -1136,6 +1136,7 @@ const SLUGS = [
   'clases-de-programacion-barranco',
   'clases-de-programacion-los-olivos',
   'clases-de-programacion-san-miguel',
+  'clases-de-programacion-para-ninos-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2351,6 +2352,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-barranco': 'Clases de programación en Barranco',
   'clases-de-programacion-los-olivos': 'Clases de programación en Los Olivos',
   'clases-de-programacion-san-miguel': 'Clases de programación en San Miguel',
+  'clases-de-programacion-para-ninos-lima': 'Clases de programación para niños en Lima',
 };
 
 function wireLlms(slugs) {
