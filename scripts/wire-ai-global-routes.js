@@ -1111,6 +1111,7 @@ const SLUGS = [
   'ai-for-professionals-lima',
   'online-coding-and-ai-classes-ayacucho-region-peru',
   'online-coding-and-ai-classes-ucayali-region-peru',
+  'online-coding-and-ai-classes-amazonas-region-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2301,6 +2302,7 @@ const LLMS_LABELS = {
   'ai-for-professionals-lima': 'AI for professionals in Lima',
   'online-coding-and-ai-classes-ayacucho-region-peru': 'Online coding and AI classes, Ayacucho region, Peru',
   'online-coding-and-ai-classes-ucayali-region-peru': 'Online coding and AI classes, Ucayali region, Peru',
+  'online-coding-and-ai-classes-amazonas-region-peru': 'Online coding and AI classes, Amazonas region, Peru',
 };
 
 function wireLlms(slugs) {
