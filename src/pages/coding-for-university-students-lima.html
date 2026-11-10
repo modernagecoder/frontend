@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding for University Students in Lima: Live, in English</title>
+  <meta name="description" content="Coding for Lima university students: Python, data structures, Git and data, live online in English around your timetable, with a statistics lesson on UNI open data.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-for-university-students-lima">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-for-university-students-lima.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#803103">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-for-university-students-lima">
+  <meta property="og:title" content="Coding for University Students in Lima: Live, in English">
+  <meta property="og:description" content="Live online programming for university students in Lima, taught in English at hours that fit lectures and commutes: a year-by-year plan beside the degree, and an original Python lesson on UNI's open admission file.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding for University Students in Lima: Live, in English">
+  <meta name="twitter:description" content="For Lima university students: Python, DSA, Git and data in English, live, around lectures, plus a lesson on UNI open data.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cou .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-cou .ag-capsule { border-left-width: 4px; border-radius: 6px; }
+.ag-root.ag-cou .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-cou .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-cou .ag-code-head b { letter-spacing: 0.01em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-for-university-students-lima#page","url":"https://learn.modernagecoders.com/coding-for-university-students-lima","name":"Coding for University Students in Lima","description":"A guide for university students in Lima to live online programming taught in English, built from university admission pages, SUNEDU, INEI and EF EPI 2025 figures, and an original paired-comparison lesson in Python on UNI's open admission dataset (ODC-By).","inLanguage":"en-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding and AI classes in Peru","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"University students, Lima","item":"https://learn.modernagecoders.com/coding-for-university-students-lima"}]},{"@type":"Course","name":"Coding for University Students in Lima","description":"Live online programming in English for university students in Lima: Python, data structures and algorithms, Git and GitHub, SQL, Java, web development and data science, in a group of fifteen to twenty or one to one, at hours that fit a university timetable.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-for-university-students-lima"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-university-students-lima"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-university-students-lima"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in Spanish?","acceptedAnswer":{"@type":"Answer","text":"No. All classes are live, online and taught only in English. Mentors keep a steady pace, adapt to your accent, and help you put into English what you already understand in Spanish."}},{"@type":"Question","name":"I study at a Lima university. Do your classes count towards my degree?","acceptedAnswer":{"@type":"Answer","text":"No. We give no credits or grades and we are not connected with UNI, UNMSM, PUCP, the Universidad de Lima or any other university. Our classes are practice beside your degree."}},{"@type":"Question","name":"I have never programmed. Where do I start?","acceptedAnswer":{"@type":"Answer","text":"With the Python masterclass and the Git course. Both start from zero. After about three months most students move on to data structures."}},{"@type":"Question","name":"Will this get me a job?","acceptedAnswer":{"@type":"Answer","text":"We make no job or salary promises. We teach skills that software teams use and help you build projects you can show and explain; how you use them is up to you."}},{"@type":"Question","name":"Can I use AI tools in class?","acceptedAnswer":{"@type":"Answer","text":"Sometimes, and openly. You attempt problems yourself first, then compare with an AI suggestion and explain any difference. The aim is that you understand every line you submit."}},{"@type":"Question","name":"What time are classes?","acceptedAnswer":{"@type":"Answer","text":"Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. For the mentor in India it is always 10 hours 30 minutes later: 09:30 in Lima is 20:00 there."}},{"@type":"Question","name":"Can I pause during exams?","acceptedAnswer":{"@type":"Answer","text":"Yes. Plans are monthly. Pause during finals and restart when the semester allows."}},{"@type":"Question","name":"How much does it cost?","acceptedAnswer":{"@type":"Answer","text":"You pay monthly by card in the US dollars shown here, and your bank handles the change into soles. Browsing from India shows rupees instead. Your first class is free of charge."}},{"@type":"Question","name":"Do I get a certificate?","acceptedAnswer":{"@type":"Answer","text":"Some courses close with a completion certificate from us. It records your work; it is not a university credit or degree, and neither SUNEDU nor any university has a part in it."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-for-university-students-lima","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-cou">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Peru</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Peru</a></li>
+      <li><a href="#plan">Year by year</a></li>
+      <li><a href="#english">Why English</a></li>
+      <li><a href="#lesson">UNI data lesson</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a> / University students, Lima
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Lima &middot; University students &middot; Live online, in English</p>
+        <h1>Coding for university students in Lima</h1>
+        <p class="ag-lede">You study in Spanish at a Lima university, between lectures, labs and a long ride across the city. The programming world you are heading into works in English: its documentation, its error messages, its code reviews. This page sets out what to learn beside your degree each year, why learning it in English pays off, how live classes fit a Lima timetable, and a statistics lesson on UNI's own open admission data that every computing student should meet once.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#lesson" class="ag-btn ag-btn--ghost">See the UNI data lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20university%20student%20in%20Lima%2C%20Peru%20and%20would%20like%20live%20coding%20classes%20in%20English.%20Could%20I%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cou'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live classes since 2020 &middot; more than 10,000 learners worldwide &middot; mentors who code with you, not at you</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>For</dt><dd>Undergraduates in Lima, any degree, 17 and over</dd>
+          <dt>Core</dt><dd>Python, data structures, Git, SQL</dd>
+          <dt>Also</dt><dd>Java, web, data science, AI</dd>
+          <dt>Format</dt><dd>Groups of fifteen to twenty, or one to one</dd>
+          <dt>Hours</dt><dd>Fitted around lectures, any day</dd>
+          <dt>First class</dt><dd>Free, no card</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Short answer</p>
+      <p>Modern Age Coders teaches university students in Lima to program, live online and in English: Python from zero, data structures and algorithms, Git and GitHub, SQL, and then Java, web development or data science. Lessons are taught live over video by a mentor, either one to one or with fifteen to twenty classmates, at hours that fit around lectures, labs and the commute. Students write and test their own code every session, so they learn to reason about a problem instead of pasting an answer, and they learn the English vocabulary of the field as they go.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three courses Lima university students start with</h2>
+      <p class="ag-lede">Python if you are new to code, data structures if you already program, and Git because every team expects it.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UNI-L / 01</p>
+          <h3>Python Masterclass</h3>
+          <p>From the first line to files, functions, classes and data. Right for first-year students in any faculty, and for engineers who met Python once and never felt sure of it.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-structures-algorithms-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/dsa-college.webp" alt="Data Structures &amp; Algorithms Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UNI-L / 02</p>
+          <h3>Data Structures and Algorithms</h3>
+          <p>Arrays, hash maps, trees, graphs and their costs, practised live. The core of a computing degree and of most technical interviews.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/git-github-version-control-course-for-college-students">
+        <div class="ag-pick-shot"><img src="/images/git-github-college.webp" alt="Git &amp; GitHub Course for College Students course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UNI-L / 03</p>
+          <h3>Git and GitHub</h3>
+          <p>Branches, pull requests and reviews, so group projects stop living in folders called final_v3. Short, practical, and useful from the first semester.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="context">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Lima universities</p><h2>Who is this for, and how does it sit beside a Lima degree?</h2><p class="ag-lede">Any undergraduate in Lima, whether in computing, engineering, economics or a field that has nothing to do with code yet. Universities set your degree; we teach programming beside it and are not connected with any university.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>A big student city</h3><p>SUNEDU reported in September 2021 that Peru had 94 licensed universities, 46 public and 48 private, with "1 millón 100 mil de estudiantes universitarios". It has published no newer national total that we found, so the figure keeps its year. A large share of those students live in Lima Metropolitana, a city of 10,141,775 people in the 2025 census.</p>
+<p>Lima's universities each run their own calendars. The Universidad de Lima, for example, starts its 2027-1 classes on Monday 29 March 2027, and UNMSM ran its 2026 admission in two stages, 2026-I and 2026-II.</p></div><div><h3>Where our classes fit</h3><p>Degrees in Peru are taught in Spanish, and they cover theory well. What students tell us they lack is volume of practice: writing hundreds of small programs, reading other people's code, and using the tools teams use.</p>
+<p>Our classes add that practice, at an hour you choose, without asking you to travel. They do not replace a course, earn credits, or count towards a grade; your university alone decides those.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Year by year</p><h2>What should a Lima university student learn beside the degree each year?</h2><p class="ag-lede">Our suggested plan. Adjust it to your degree; a computing student moves faster through the first rows, an economics student may stop after data.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A programming plan beside a five-year Lima degree (ours)</caption><thead><tr><th scope="col">Year</th><th scope="col">Focus</th><th scope="col">Course</th><th scope="col">You can show at the end</th></tr></thead><tbody><tr><td>First</td><td>Python and Git</td><td>Python masterclass, Git and GitHub</td><td>Small tools in a public repository</td></tr><tr><td>Second</td><td>Data structures and algorithms</td><td>DSA masterclass</td><td>Solutions you can explain and time</td></tr><tr><td>Third</td><td>Databases and the web</td><td>MySQL, full stack web development</td><td>A working web app with a database</td></tr><tr><td>Fourth</td><td>Data or a second language</td><td>Data science, or Java</td><td>An analysis on real open data, or a Java service</td></tr><tr><td>Final</td><td>Depth in one direction</td><td>AI and ML, generative AI, or interview practice</td><td>A finished project you can present in English</td></tr></tbody></table></div>
+    <ol class="ag-steps ag-mt-40"><li><strong>Start small and public.</strong> Push every exercise to GitHub from week one. A history of small commits is more convincing than one large upload.</li><li><strong>Write before you search.</strong> Attempt each problem for twenty minutes before reading any solution or asking an AI tool. Then compare.</li><li><strong>Learn to read errors in English.</strong> Copy the last line of every traceback into your notes with what it meant. In a month you will recognise most of them.</li><li><strong>Explain your code aloud.</strong> In class the mentor asks you to walk through your solution. That is the skill technical interviews test.</li><li><strong>Use real data once a semester.</strong> Peru's open-data portal has thousands of datasets. The lesson below is one example.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="language">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Python or Java</p><h2>Should a Lima university student learn Python or Java first?</h2><p class="ag-lede">Python first for almost everyone; Java first only if your degree already teaches it in the first year or you are sure you want backend or Android work.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The case for Python</h3><p>Python lets a first-year student write something useful in the first week: a script that renames files, a grade calculator, a chart from a CSV. The syntax gets out of the way, so attention goes to the logic.</p>
+<p>It is also the language of data work in economics, engineering, the sciences and AI, which makes it useful to students well outside computing.</p></div><div><h3>The case for Java</h3><p>Java makes you state types and structure classes from the start. Many computing degrees use it for object-oriented programming courses, and students who meet it early find those courses easier.</p>
+<p>If your curriculum switches to Java in the second year, learn Python now and take our Java course the semester before. The ideas carry over; only the syntax is new.</p></div></div>
+    <p class="ag-mt-40">Whichever you choose, the habits matter more than the language: small programs every week, tests before trust, and code you can explain line by line in English. Students already deep in a computing degree will find the specific path on <a class="ag-inline-link" href="/java-course-peru">our Java course page for Peru</a> and <a class="ag-inline-link" href="/python-course-peru">our Python course page for Peru</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Why English</p><h2>Why learn programming in English as a Lima student?</h2><p class="ag-lede">Because the field already works in English, and because your English is likely to grow fastest in exactly these years. We teach only in English, and always live.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>What the EF figures suggest</h3><p>EF's English Proficiency Index 2025 gives Peruvians aged 18 to 20 a score of 469, in its low band, and those aged 26 to 30 a score of 559, in its high band. The same edition scores Lima city 555 and people working in IT 522.</p>
+<p>These are different people, not the same people measured twice, so we read it cautiously: the years around university look like a time when English can grow fast. Practising it with code, where the vocabulary is narrow and repeated, is an efficient way to use that window.</p></div><div><h3>What it changes day to day</h3><p>Python's documentation, Stack Overflow answers, library READMEs and most video courses are in English. So are compiler errors, whatever the language of your operating system.</p>
+<p>Mentors are based in India and teach in clear, steady English. They expect questions, repeat when asked, and help you say "this function returns a list of tuples" as naturally as you say it in Spanish.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>English you will use in your first month (our list)</caption><thead><tr><th scope="col">English</th><th scope="col">In a sentence</th><th scope="col">Spanish</th></tr></thead><tbody><tr><td>to return</td><td>The function returns the average</td><td>devolver</td></tr><tr><td>an argument</td><td>Pass the file name as an argument</td><td>un argumento</td></tr><tr><td>to raise an exception</td><td>It raises a ValueError on empty input</td><td>lanzar una excepción</td></tr><tr><td>a pull request</td><td>Open a pull request for review</td><td>una solicitud de cambios</td></tr><tr><td>edge case</td><td>An empty list is an edge case</td><td>caso límite</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section" id="lesson">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A Lima data lesson</p><h2>Do applicants really score higher on every retake at UNI?</h2><p class="ag-lede">UNI publishes anonymised data on its admission applicants as open data. We use it, in our own lesson, to teach a mistake that appears in research, business dashboards and student projects alike: comparing averages of groups whose members keep changing.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The data</h3><p>The Universidad Nacional de Ingeniería shares "Postulantes a los procesos de admisión" through Peru's national open-data portal, licensed ODC-By (Open Data Commons Attribution). The file Admision_UNI_2018-2_al_2020-1.csv covers four admission cycles, 2018-2 to 2020-1, in 30,358 rows.</p>
+<p>Its data dictionary describes the id column as an anonymous identifier that "debería aparecer nuevamente con el mismo identificador" when a person applies more than once. That makes repeat applicants traceable without knowing who they are. We use only the ordinary exam route, rows with a score, and print only averages.</p></div><div><h3>The question</h3><p>For each applicant we sort their attempts in time, then ask: how does the average score change from first attempt to second, third and fourth?</p>
+<p>Version 1 does what most first analyses do. It puts every first attempt in one column, every second attempt in another, and compares the column averages.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: average score by attempt number</b><span>Python</span></figcaption><pre>import csv
+from collections import defaultdict
+from statistics import mean
+
+tries = defaultdict(list)
+with open("Admision_UNI_2018-2_al_2020-1.csv", encoding="utf-8") as data:
+    for row in csv.DictReader(data):
+        if row["modalidad"] == "ORDINARIO" and row["calificacion_final_postulante"]:
+            when = (int(row["año_postulacion"]), int(row["ciclo_postulacion"]))
+            tries[row["id"]].append((when, float(row["calificacion_final_postulante"])))
+
+by_attempt = defaultdict(list)
+for scores in tries.values():
+    for n, (when, score) in enumerate(sorted(scores), start=1):
+        by_attempt[n].append(score)
+
+print("Applicants:", len(tries))
+for n in sorted(by_attempt):
+    print("Attempt", n, "rows", len(by_attempt[n]), "mean", round(mean(by_attempt[n]), 3))</pre><p class="ag-code-note">It prints: <code>Applicants: 11054</code>, <code>Attempt 1 rows 11054 mean 7.45</code>, <code>Attempt 2 rows 3888 mean 9.301</code>, <code>Attempt 3 rows 1312 mean 10.124</code> and <code>Attempt 4 rows 305 mean 10.24</code>.</p></figure>
+    <p class="ag-mt-40">Read naively, retakes help a lot at first and then barely at all: from attempt 3 to attempt 4 the average rises by only 0.116 points. But the columns contain different people. Only 305 applicants reach a fourth attempt, and they are not a random fifth of the 1,312 who made a third. Version 2 compares each person with themselves.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: the same person, before and after</b><span>Python</span></figcaption><pre>import csv
+from collections import defaultdict
+from statistics import mean
+
+tries = defaultdict(list)
+with open("Admision_UNI_2018-2_al_2020-1.csv", encoding="utf-8") as data:
+    for row in csv.DictReader(data):
+        if row["modalidad"] == "ORDINARIO" and row["calificacion_final_postulante"]:
+            when = (int(row["año_postulacion"]), int(row["ciclo_postulacion"]))
+            tries[row["id"]].append((when, float(row["calificacion_final_postulante"])))
+
+for scores in tries.values():
+    scores.sort()
+
+for k in (1, 2, 3):
+    pairs = [(s[k - 1][1], s[k][1]) for s in tries.values() if len(s) &gt; k]
+    stayed = [s[k - 1][1] for s in tries.values() if len(s) == k]
+    gain = mean(b - a for a, b in pairs)
+    print(f"Attempt {k} to {k + 1}: {len(pairs)} people, same-person gain {gain:.3f}")
+    print(f"   at attempt {k}: returners {mean(a for a, b in pairs):.3f}, leavers {mean(stayed):.3f}")</pre><p class="ag-code-note">It prints: <code>Attempt 1 to 2: 3888 people, same-person gain 1.698</code>, <code>at attempt 1: returners 7.603, leavers 7.367</code>, <code>Attempt 2 to 3: 1312 people, same-person gain 1.043</code>, <code>at attempt 2: returners 9.081, leavers 9.413</code>, <code>Attempt 3 to 4: 305 people, same-person gain 0.856</code> and <code>at attempt 3: returners 9.385, leavers 10.348</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Two ways to measure the change between attempts (our calculation, ordinary route)</caption><thead><tr><th scope="col">Step</th><th scope="col">Change in column averages</th><th scope="col">Average change for the same people</th><th scope="col">People in the pair</th></tr></thead><tbody><tr><td>Attempt 1 to 2</td><td class="ag-num">1.851</td><td class="ag-num">1.698</td><td class="ag-num">3,888</td></tr><tr><td>Attempt 2 to 3</td><td class="ag-num">0.823</td><td class="ag-num">1.043</td><td class="ag-num">1,312</td></tr><tr><td>Attempt 3 to 4</td><td class="ag-num">0.116</td><td class="ag-num">0.856</td><td class="ag-num">305</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Data: Universidad Nacional de Ingeniería, Postulantes a los procesos de admisión, 2018-2 to 2020-1, from the national open-data portal under an ODC-By licence. Every figure is our own, in points on the file's own score scale. The file also contains addresses and school names, which we neither use nor print. A "first attempt" here is the first within these four cycles; some applicants may have applied before 2018-2.</p>
+    <p class="ag-mt-40">The last line explains everything. At attempt 3, the people who came back for a fourth try averaged 9.385; those who did not come back averaged 10.348. The column for attempt 4 is filled by weaker attempt-3 scorers, so its average looks flat even though those same people improved by 0.856 on average. Comparing crowds hid most of the change. This is the general rule: when membership changes between groups, compare matched pairs. It says nothing about whether anyone should retake an exam; that is a personal decision, and admission is decided by the university alone.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Check the pairing.</strong> Confirm no id appears twice in the same cycle in the ordinary route before trusting the sort.</li><li><strong>Add uncertainty.</strong> Compute a 95% interval for the 0.856 gain with 305 pairs. Is it clearly above zero?</li><li><strong>Find the selection.</strong> Group attempt-1 scores into bands and show, band by band, who returns.</li><li><strong>Write it in English.</strong> Summarise the finding in three sentences a non-programmer could follow, without claiming cause.</li><li><strong>Generalise.</strong> Name one dashboard at a company or university where the same trap could appear, and how you would pair the data.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="fit">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Around a Lima timetable</p><h2>How do live online classes fit a Lima student's week?</h2><p class="ag-lede">Better than a second commute. A class you join from your room, a campus library or a quiet corner at work costs only the hour itself.</p></div>
+    <div class="ag-grid-3"><div><h3>Fixed or moving</h3><p>Groups meet at a regular hour you choose when joining. One-to-one classes can move week by week around exams, lab reports and part-time work.</p></div><div><h3>Connection</h3><p>INEI found that 97.3% of people aged 19 to 24 in Peru were internet users in its survey for April to June 2026. A laptop and a stable connection are all you need.</p></div><div><h3>During exams</h3><p>Pause during finals and restart afterwards. Monthly plans have no long contract, so the plan can follow the semester.</p></div></div>
+    <p class="ag-mt-40">Students who want something narrower than this page can go straight to a subject: <a class="ag-inline-link" href="/java-for-computer-science-students-peru">Java for computer science students</a>, <a class="ag-inline-link" href="/python-for-engineering-students-peru">Python for engineering students</a>, the <a class="ag-inline-link" href="/c-plus-plus-course-peru">C++ course</a> or <a class="ag-inline-link" href="/sql-and-data-analysis-course-peru">SQL and data analysis</a>. The national overview for students is <a class="ag-inline-link" href="/coding-courses-for-university-students-peru">coding courses for university students in Peru</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>What time are the classes in Lima?</h2><p class="ag-lede">At hours you pick. Lima keeps the same clock all year, and so does India, so a slot never drifts.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Lima hours against the mentor's India time (illustrations, not a timetable)</caption><thead><tr><th scope="col">Lima</th><th scope="col">India</th><th scope="col">India date</th></tr></thead><tbody><tr><td>07:00</td><td>17:30</td><td>Same</td></tr><tr><td>09:30</td><td>20:00</td><td>Same</td></tr><tr><td>12:00</td><td>22:30</td><td>Same</td></tr><tr><td>17:00</td><td>03:30</td><td>Next</td></tr><tr><td>21:00</td><td>07:30</td><td>Next</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Lima runs five hours behind UTC and never changes its clocks (tz zone America/Lima); India runs five and a half hours ahead of UTC. The gap stays at 10 hours 30 minutes.</p>
+    <p class="ag-mt-40">Book in Lima time and the mentor sees the India time automatically. Many students choose early morning before lectures or a lunchtime hour on campus; late evening works too.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>How a university student progresses with us</h2>
+      <p class="ag-lede">Our milestones for students, whatever their degree. Each one is something you can demonstrate, not a number of hours.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Programming milestones for university students (ours)</caption><thead><tr><th scope="col">Milestone</th><th scope="col">Usually by</th><th scope="col">You can</th></tr></thead><tbody><tr><td>1. Fluent basics</td><td class="ag-num">Month 2</td><td class="ag-num">Write and debug small Python programs alone</td></tr><tr><td>2. Versioned</td><td class="ag-num">Month 3</td><td class="ag-num">Work through branches and pull requests</td></tr><tr><td>3. Efficient</td><td class="ag-num">Month 6</td><td class="ag-num">Choose a data structure and state its cost</td></tr><tr><td>4. Persistent</td><td class="ag-num">Month 8</td><td class="ag-num">Store and query data with SQL</td></tr><tr><td>5. Analytical</td><td class="ag-num">Month 10</td><td class="ag-num">Analyse a real file and avoid a misleading comparison</td></tr><tr><td>6. Communicative</td><td class="ag-num">Month 12</td><td class="ag-num">Present a project and its limits in English</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>In practice</h3><p>Milestone 5 is the UNI lesson: spotting that the attempt-4 column holds different people from the attempt-3 column.</p>
+<p>You get a short note after each block on what to strengthen.</p></div><div><h3>A rule to keep</h3><p>When the members of a group change, compare each member with themselves.</p>
+<p>A flat average can hide a real change.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for Lima university students</h2>
+      <p class="ag-lede">Three directions. Every course is live, in English, with a regular mentor, in a group or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Software</h3>
+        <span class="ag-band-sub">Build things</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UNI-L / S / 01</p>
+          <h4>Java for college</h4>
+          <p>Core Java to Spring Boot.</p>
+          <a class="ag-course-link" href="/courses/complete-java-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UNI-L / S / 02</p>
+          <h4>Full stack web</h4>
+          <p>React, Node.js and deployment basics.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UNI-L / S / 03</p>
+          <h4>MySQL</h4>
+          <p>SQL, schema design and administration.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Data and AI</h3>
+        <span class="ag-band-sub">Analyse and model</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UNI-L / D / 01</p>
+          <h4>Data science</h4>
+          <p>Python, machine learning and deep learning.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UNI-L / D / 02</p>
+          <h4>AI and ML</h4>
+          <p>From Python to deep learning and generative AI.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UNI-L / D / 03</p>
+          <h4>Generative AI</h4>
+          <p>LLMs, retrieval and AI agents.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Foundations</h3>
+        <span class="ag-band-sub">Maths and modern practice</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UNI-L / F / 01</p>
+          <h4>Statistics and probability</h4>
+          <p>The maths behind lessons like the one above.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UNI-L / F / 02</p>
+          <h4>University maths</h4>
+          <p>Proofs, calculus and matrices at degree level.</p>
+          <a class="ag-course-link" href="/courses/college-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UNI-L / F / 03</p>
+          <h4>Vibe coding for college</h4>
+          <p>Building with AI assistants while keeping your own judgement.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How it works</p>
+      <h2>How live classes work for Lima students</h2>
+      <p class="ag-lede">Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Before lectures</p><p class="ag-slot-l">Early Lima hours meet the Indian evening.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Between or after</p><p class="ag-slot-l">Midday and evening hours are possible; you choose.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">A personal hour that moves around your exams.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>One mentor</h3><p>Someone who knows your code and your goals.</p></div>
+      <div><h3>English that helps</h3><p>Clear, steady, technical English, with patience.</p></div>
+      <div><h3>You type</h3><p>Every solution is yours; the mentor reviews.</p></div>
+      <div><h3>Adults only</h3><p>University groups never mix with school students.</p></div>
+      <div><h3>Real tools</h3><p>Git, a terminal, an editor teams actually use.</p></div>
+      <div><h3>Group or solo</h3><p>A class of fifteen to twenty, or just you.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our older students have built</h2>
+      <p class="ag-lede">Students who keep going ship real tools. Some are below; the <a class="ag-inline-link" href="/student-labs">student labs</a> collect more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for university students in Lima</h2>
+      <p class="ag-lede">Plans are paid month by month. The price is set in US dollars and your card is billed in dollars; the soles amount on your statement depends on your bank's exchange rate that day.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short problem to gauge your level</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty students at a similar level</li><li>One mentor for the course</li><li>Two live classes a week</li><li>Month to month, stop any time</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>You and one mentor</li><li>Your own syllabus and projects</li><li>Hours set around your semester</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">From Google, in the words of students and parents.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lima students ask</p>
+      <h2>Coding for university students in Lima: questions and answers</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in Spanish?</h3>
+        <p>No. All classes are live, online and taught only in English. Mentors keep a steady pace, adapt to your accent, and help you put into English what you already understand in Spanish.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>I study at a Lima university. Do your classes count towards my degree?</h3>
+        <p>No. We give no credits or grades and we are not connected with UNI, UNMSM, PUCP, the Universidad de Lima or any other university. Our classes are practice beside your degree.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>I have never programmed. Where do I start?</h3>
+        <p>With the Python masterclass and the Git course. Both start from zero. After about three months most students move on to data structures.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will this get me a job?</h3>
+        <p>We make no job or salary promises. We teach skills that software teams use and help you build projects you can show and explain; how you use them is up to you.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use AI tools in class?</h3>
+        <p>Sometimes, and openly. You attempt problems yourself first, then compare with an AI suggestion and explain any difference. The aim is that you understand every line you submit.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time are classes?</h3>
+        <p>Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. For the mentor in India it is always 10 hours 30 minutes later: 09:30 in Lima is 20:00 there.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I pause during exams?</h3>
+        <p>Yes. Plans are monthly. Pause during finals and restart when the semester allows.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much does it cost?</h3>
+        <p>You pay monthly by card in the US dollars shown here, and your bank handles the change into soles. Browsing from India shows rupees instead. Your first class is free of charge.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I get a certificate?</h3>
+        <p>Some courses close with a completion certificate from us. It records your work; it is not a university credit or degree, and neither SUNEDU nor any university has a part in it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for university students in Peru.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-courses-for-university-students-peru">Coding courses for university students in Peru</a></h3><p>The national guide for students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-for-computer-science-students-peru">Java for computer science students</a></h3><p>Java alongside a computing degree.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-engineering-students-peru">Python for engineering students</a></h3><p>Numerical Python for engineers.</p></div>
+      <div><h3><a class="ag-inline-link" href="/sql-and-data-analysis-course-peru">SQL and data analysis in Peru</a></h3><p>Queries and analysis on Peruvian open data.</p></div>
+      <div><h3><a class="ag-inline-link" href="/english-medium-coding-classes-lima">English-medium coding classes in Lima</a></h3><p>The Lima page for children and teenagers at bilingual schools.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">All Peru pages</a></h3><p>Every course and city for Peru.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">The first class is a short problem at your level and a conversation about your degree and goals. The mentor then suggests a course and a format.</p>
+        <p class="ag-mt-40">To look around first, read <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or open the <a class="ag-inline-link" href="/courses">course list</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20university%20student%20in%20Lima%2C%20Peru%20and%20would%20like%20live%20coding%20classes%20in%20English.%20Could%20I%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cou',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Teaching is live, online and English-only, from mentors in India. Message us on WhatsApp, in English, for a fast reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cou(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Your name</label>
+            <input id="pe-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Phone or WhatsApp, Peru +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Learner age group</label>
+            <select id="pe-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>For students</h4><ul><li><a href="/coding-courses-for-university-students-peru">University students, Peru</a></li><li><a href="/java-for-computer-science-students-peru">Java for CS</a></li><li><a href="/python-for-engineering-students-peru">Python for engineers</a></li><li><a href="/c-plus-plus-course-peru">C++ course</a></li></ul></div>
+      <div><h4>Learn more</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Peru hub</a></li><li><a href="/student-labs">Student projects</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/courses">All courses</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Compare each person with themselves</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cou = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'coding-for-university-students-lima-inline', meta: { name: name, age: age, page: 'coding-for-university-students-lima' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
