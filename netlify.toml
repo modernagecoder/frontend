@@ -33927,6 +33927,18 @@
   to = "/src/pages/remote-tech-job-skills-peru.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-for-kids-age-6-peru"
+  to = "/src/pages/coding-for-kids-age-6-peru.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-for-kids-age-6-peru.md"
+  to = "/src/pages/coding-for-kids-age-6-peru.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
