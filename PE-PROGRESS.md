@@ -164,7 +164,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE175 | online-coding-and-ai-classes-huanuco-region-peru (cahr, #443F00) | market (region) | 4,853 | 2.4% vs online-coding-and-ai-classes-cajamarca-region-peru | Huánuco: few home computers, free public routes after secundaria, live classes in English as an extra | date heaping: one date holding a whole year's rows is a placeholder, a busy day has many documents | a102b3bb |
 | PE019 | ai-course-for-kids-peru (aki, #005C40) | market | 5,377 | 1.9% vs english-medium-coding-classes-lima | AI course for kids in Peru: what children 6 to 12 can learn, safely, in English | a decision tree built by hand: best question first, then an animal it never met | f7d28df5 |
 | PE020 | ai-course-for-teens-peru (ait, #007047) | market | 4,689 | 1.5% vs ai-course-for-kids-peru | AI course for teens in Peru: build, test and judge models, with age-legal tools, in English | train/test leakage: a memoriser that looks best only on a test set full of duplicates | 6f768725 |
-| PE021 | ai-course-for-university-students-peru (aus, #1D6746) | market | 4,268 | 1.9% vs ai-course-for-kids-peru | AI course for university students in Peru: what a degree leaves out, in English | k-means by hand: the same data, two starts, a local minimum 20 times worse | (this commit) |
+| PE021 | ai-course-for-university-students-peru (aus, #1D6746) | market | 4,268 | 1.9% vs ai-course-for-kids-peru | AI course for university students in Peru: what a degree leaves out, in English | k-means by hand: the same data, two starts, a local minimum 20 times worse | db45cb5b |
+| PE022 | ai-agents-course-peru (aag, #005356) | market | 4,626 | 1.2% vs ai-course-for-teens-peru | AI agents course in Peru: what agents are, where they break, how to build safe ones, in English | prompt injection in a tool's input: a fetched page that gives orders, and an agent that refuses | (this commit) |
 
 ## Notes
 

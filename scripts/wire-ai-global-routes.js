@@ -1094,6 +1094,7 @@ const SLUGS = [
   'online-coding-and-ai-classes-huanuco-region-peru',
   'ai-course-for-teens-peru',
   'ai-course-for-university-students-peru',
+  'ai-agents-course-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2267,6 +2268,7 @@ const LLMS_LABELS = {
   'online-coding-and-ai-classes-huanuco-region-peru': 'Online coding and AI classes, Huánuco region, Peru',
   'ai-course-for-teens-peru': 'AI course for teens in Peru',
   'ai-course-for-university-students-peru': 'AI course for university students in Peru',
+  'ai-agents-course-peru': 'AI agents course in Peru',
 };
 
 function wireLlms(slugs) {
