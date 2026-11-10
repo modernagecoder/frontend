@@ -1167,6 +1167,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-san-luis-lima',
   'clases-de-programacion-para-ninos-cieneguilla-lima',
   'clases-de-programacion-para-ninos-ventanilla-callao',
+  'clases-de-programacion-para-ninos-bellavista-callao',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2413,6 +2414,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-san-luis-lima': 'Clases de programación para niños en San Luis',
   'clases-de-programacion-para-ninos-cieneguilla-lima': 'Clases de programación para niños en Cieneguilla',
   'clases-de-programacion-para-ninos-ventanilla-callao': 'Clases de programación para niños en Ventanilla',
+  'clases-de-programacion-para-ninos-bellavista-callao': 'Clases de programación para niños en Bellavista',
 };
 
 function wireLlms(slugs) {
