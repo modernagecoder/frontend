@@ -1052,6 +1052,7 @@ const SLUGS = [
   'online-coding-and-ai-classes-puno-region-peru',
   'best-coding-classes-in-peru',
   'best-python-course-in-peru',
+  'best-ai-course-in-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2183,6 +2184,7 @@ const LLMS_LABELS = {
   'online-coding-and-ai-classes-puno-region-peru': 'Online coding and AI classes, Puno region, Peru',
   'best-coding-classes-in-peru': 'Best coding classes in Peru',
   'best-python-course-in-peru': 'Best Python course in Peru',
+  'best-ai-course-in-peru': 'Best AI course in Peru',
 };
 
 function wireLlms(slugs) {
