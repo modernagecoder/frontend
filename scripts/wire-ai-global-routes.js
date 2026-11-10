@@ -1087,6 +1087,7 @@ const SLUGS = [
   'coding-classes-in-cusco-peru',
   'coding-classes-in-piura-peru',
   'coding-classes-in-chiclayo-peru',
+  'online-coding-and-ai-classes-ica-region-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2253,6 +2254,7 @@ const LLMS_LABELS = {
   'coding-classes-in-cusco-peru': 'Coding classes in Cusco, Peru',
   'coding-classes-in-piura-peru': 'Coding classes in Piura, Peru',
   'coding-classes-in-chiclayo-peru': 'Coding classes in Chiclayo, Peru',
+  'online-coding-and-ai-classes-ica-region-peru': 'Online coding and AI classes, Ica region, Peru',
 };
 
 function wireLlms(slugs) {
