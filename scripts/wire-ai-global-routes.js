@@ -1124,6 +1124,7 @@ const SLUGS = [
   'robotics-vs-coding-for-kids-peru',
   'one-on-one-coding-tutor-peru',
   'coding-classes-for-kids-in-huanuco-peru',
+  'online-python-and-ai-classes-chimbote-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2327,6 +2328,7 @@ const LLMS_LABELS = {
   'robotics-vs-coding-for-kids-peru': 'Robotics vs coding for kids in Peru',
   'one-on-one-coding-tutor-peru': 'One-on-one coding tutor in Peru',
   'coding-classes-for-kids-in-huanuco-peru': 'Coding classes for kids in Huánuco, Peru',
+  'online-python-and-ai-classes-chimbote-peru': 'Online Python and AI classes in Chimbote, Peru',
 };
 
 function wireLlms(slugs) {
