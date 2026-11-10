@@ -1082,6 +1082,7 @@ const SLUGS = [
   'online-python-and-ai-classes-ayacucho-peru',
   'coding-and-ai-for-teens-in-cajamarca-peru',
   'online-coding-and-ai-classes-moquegua-region-peru',
+  'coding-classes-in-lima-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2243,6 +2244,7 @@ const LLMS_LABELS = {
   'online-python-and-ai-classes-ayacucho-peru': 'Online Python and AI classes in Ayacucho, Peru',
   'coding-and-ai-for-teens-in-cajamarca-peru': 'Coding and AI for teens in Cajamarca, Peru',
   'online-coding-and-ai-classes-moquegua-region-peru': 'Online coding and AI classes, Moquegua region, Peru',
+  'coding-classes-in-lima-peru': 'Coding classes in Lima, Peru',
 };
 
 function wireLlms(slugs) {
