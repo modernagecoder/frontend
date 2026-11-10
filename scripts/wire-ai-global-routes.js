@@ -1060,6 +1060,7 @@ const SLUGS = [
   'homeschool-coding-and-maths-peru',
   'online-coding-and-ai-classes-ancash-region-peru',
   'online-coding-and-ai-classes-callao-region-peru',
+  'online-coding-and-ai-classes-junin-region-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2199,6 +2200,7 @@ const LLMS_LABELS = {
   'homeschool-coding-and-maths-peru': 'Homeschool coding and maths in Peru',
   'online-coding-and-ai-classes-ancash-region-peru': 'Online coding and AI classes, Áncash region, Peru',
   'online-coding-and-ai-classes-callao-region-peru': 'Online coding and AI classes, Callao region, Peru',
+  'online-coding-and-ai-classes-junin-region-peru': 'Online coding and AI classes, Junín region, Peru',
 };
 
 function wireLlms(slugs) {
