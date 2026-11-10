@@ -1149,6 +1149,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-san-juan-de-miraflores-lima',
   'clases-de-programacion-para-ninos-puente-piedra-lima',
   'clases-de-programacion-para-ninos-lurigancho-lima',
+  'clases-de-programacion-para-ninos-el-agustino-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2377,6 +2378,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-san-juan-de-miraflores-lima': 'Clases de programación para niños en San Juan de Miraflores',
   'clases-de-programacion-para-ninos-puente-piedra-lima': 'Clases de programación para niños en Puente Piedra',
   'clases-de-programacion-para-ninos-lurigancho-lima': 'Clases de programación para niños en Lurigancho (Chosica)',
+  'clases-de-programacion-para-ninos-el-agustino-lima': 'Clases de programación para niños en El Agustino',
 };
 
 function wireLlms(slugs) {
