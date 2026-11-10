@@ -122,7 +122,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE061 | best-python-course-in-peru (bep, #9A282B) | market | 4,030 | 1.6% vs math-olympiad-coaching-peru | Best Python course in Peru: judge a course by the tests its learners can pass | tests before trust: assert-based edge cases (duplicates, one item, empty) catch a function that looked right | 2c0f321f |
 | PE062 | best-ai-course-in-peru (bea, #784756) | market | 4,075 | 1.8% vs python-course-peru | Best AI course in Peru: judge it by how honestly it measures a model | accuracy paradox: an always-"fine" model scores 0.95 accuracy and 0.00 recall | 02192ad9 |
 | PE063 | best-online-maths-tutor-in-peru (bem, #8A3A47) | market | 3,985 | 1.6% vs coding-classes-in-english-for-peruvian-kids | Best online maths tutor in Peru: diagnose first, make the learner explain, prove | checking cases is not proof: n*n + n + 41 is prime for n = 0 to 39 and fails at 40 | 274238f4 |
-| PE064 | cost-of-coding-classes-in-peru (caa, #721310) | market | 4,090 | 1.8% vs best-coding-classes-in-peru | Cost of coding classes in Peru: a year, not a month, set against the school calendar | running totals with itertools.accumulate and next() to find the first month over budget | (this commit) |
+| PE064 | cost-of-coding-classes-in-peru (caa, #721310) | market | 4,090 | 1.8% vs best-coding-classes-in-peru | Cost of coding classes in Peru: a year, not a month, set against the school calendar | running totals with itertools.accumulate and next() to find the first month over budget | dd237ba7 |
+| PE065 | cost-of-maths-tutoring-in-peru (cotu, #5A2C3C) | market | 4,036 | 2.4% vs cost-of-coding-classes-in-peru | Cost of maths tutoring in Peru: the deadline sets the months, the months set the cost | date arithmetic with datetime and timedelta: days and classes left before an exam, and a guard for dates already past | (this commit) |
 
 ## Notes
 
