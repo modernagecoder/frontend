@@ -134,7 +134,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE078 | crack-the-code-alternative-in-english (ccae, #863764) | market | 4,606 | 1.9% vs coding-classes-for-teens-peru | An English-taught option beside Peru's Spanish-language kids' coding academies | edit distance: misspelt keywords measured letter by letter; "fro" lands on from, not for | 7c94a032 |
 | PE079 | kodland-vs-codingal-peru (koc, #6F1821) | market | 4,305 | 2.2% vs crack-the-code-alternative-in-english | Kodland vs Codingal for a family in Peru, from their own pages, and a third format | merging dicts of facts: defaults | 000fee64 |
 | PE080 | platzi-alternative-live-classes (pal, #9A2733) | market | 4,185 | 2.1% vs coding-courses-for-university-students-peru | Platzi alternative for Peru: a course library at your own pace vs a live class in English | Leitner boxes: next-review days, a forgotten card drops to box 1, 12 reviews instead of 42 | 1aff05e4 |
-| PE081 | coding-bootcamp-alternative-peru (caq, #760C50) | market | 4,256 | 1.9% vs coding-courses-for-university-students-peru | Coding bootcamp or live classes in Peru: what each format is, INEI skills data, no job promises | reading a unified diff (difflib): a code review that removes a ZeroDivisionError | (this commit) |
+| PE081 | coding-bootcamp-alternative-peru (caq, #760C50) | market | 4,256 | 1.9% vs coding-courses-for-university-students-peru | Coding bootcamp or live classes in Peru: what each format is, INEI skills data, no job promises | reading a unified diff (difflib): a code review that removes a ZeroDivisionError | 2c5ed718 |
+| PE082 | remote-tech-job-skills-peru (rtj, #5E4205) | market (explainer) | 3,951 | 2.5% vs coding-bootcamp-alternative-peru | Remote tech job skills from Peru: what employer frameworks list, English by job, the clock | zoneinfo: shared office hours with New York, Los Angeles and Madrid shift with daylight saving | (this commit) |
 
 ## Notes
 

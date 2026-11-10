@@ -1065,6 +1065,7 @@ const SLUGS = [
   'kodland-vs-codingal-peru',
   'platzi-alternative-live-classes',
   'coding-bootcamp-alternative-peru',
+  'remote-tech-job-skills-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2209,6 +2210,7 @@ const LLMS_LABELS = {
   'kodland-vs-codingal-peru': 'Kodland vs Codingal for families in Peru',
   'platzi-alternative-live-classes': 'A Platzi alternative with live classes',
   'coding-bootcamp-alternative-peru': 'A coding bootcamp alternative for Peru',
+  'remote-tech-job-skills-peru': 'Remote tech job skills for people in Peru',
 };
 
 function wireLlms(slugs) {

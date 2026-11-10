@@ -1098,6 +1098,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Kodland vs Codingal for families in Peru: https://learn.modernagecoders.com/kodland-vs-codingal-peru
 - A Platzi alternative with live classes: https://learn.modernagecoders.com/platzi-alternative-live-classes
 - A coding bootcamp alternative for Peru: https://learn.modernagecoders.com/coding-bootcamp-alternative-peru
+- Remote tech job skills for people in Peru: https://learn.modernagecoders.com/remote-tech-job-skills-peru
 ## Germany (live online classes in English, mentors matched to the learner's pace and accent)
 
 Hub: https://learn.modernagecoders.com/coding-classes-in-germany. Every class is live and taught in English only; German-language pages explain the same English-taught classes. Fees show in euro on the page and checkout charges USD.
