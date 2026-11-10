@@ -1108,6 +1108,7 @@ const SLUGS = [
   'maths-tutor-lima-peru',
   'maths-tutor-arequipa-peru',
   'coding-for-university-students-lima',
+  'ai-for-professionals-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2295,6 +2296,7 @@ const LLMS_LABELS = {
   'maths-tutor-lima-peru': 'Maths tutor in Lima, Peru',
   'maths-tutor-arequipa-peru': 'Maths tutor in Arequipa, Peru',
   'coding-for-university-students-lima': 'Coding for university students in Lima',
+  'ai-for-professionals-lima': 'AI for professionals in Lima',
 };
 
 function wireLlms(slugs) {
