@@ -1076,6 +1076,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-huancayo',
   'clases-de-programacion-para-ninos-iquitos',
   'coding-classes-for-kids-in-pucallpa-peru',
+  'online-python-and-ai-classes-tacna-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2231,6 +2232,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-huancayo': 'Clases de programación para niños en Huancayo',
   'clases-de-programacion-para-ninos-iquitos': 'Clases de programación para niños en Iquitos',
   'coding-classes-for-kids-in-pucallpa-peru': 'Coding classes for kids in Pucallpa, Peru',
+  'online-python-and-ai-classes-tacna-peru': 'Online Python and AI classes in Tacna, Peru',
 };
 
 function wireLlms(slugs) {
