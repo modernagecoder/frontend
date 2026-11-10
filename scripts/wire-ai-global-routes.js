@@ -1129,6 +1129,7 @@ const SLUGS = [
   'coding-classes-for-kids-in-puno-peru',
   'online-python-and-ai-classes-huaraz-peru',
   'clases-de-programacion-miraflores',
+  'clases-de-programacion-san-isidro',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2337,6 +2338,7 @@ const LLMS_LABELS = {
   'coding-classes-for-kids-in-puno-peru': 'Coding classes for kids in Puno, Peru',
   'online-python-and-ai-classes-huaraz-peru': 'Online Python and AI classes in Huaraz, Peru',
   'clases-de-programacion-miraflores': 'Clases de programación en Miraflores',
+  'clases-de-programacion-san-isidro': 'Clases de programación en San Isidro',
 };
 
 function wireLlms(slugs) {

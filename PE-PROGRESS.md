@@ -200,7 +200,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE194 | coding-and-ai-for-teens-in-sullana-peru (cats, #721600) | market (city, teens 13 to 18) | 5,493 | 1.8% vs coding-and-ai-for-teens-in-ica-peru | Sullana teens: secundaria gaps, AI with age rules, contests, the UNP file | composite keys: a cut-off per (programme, admission route), and rows no column explains | 8f56748d |
 | PE195 | coding-classes-for-kids-in-puno-peru (cbk, #8B3E09) | market (city, kids 6 to 12) | 4,731 | 1.4% vs coding-classes-for-kids-in-juliaca-peru | Puno kids: strong primaria maths, thin home internet, English honestly | an unordered pair as a key: sorted() joins A to B with B to A | 3ce11b4c |
 | PE196 | online-python-and-ai-classes-huaraz-peru (pah, #732D39) | market (city, Python path, all ages) | 5,051 | 1.5% vs coding-classes-for-kids-in-puno-peru | Huaraz: Python from 9 to adult, a live class before, during and after, a glacier | the shortcut mean: (min + max) / 2 against the measured daily mean, counted day by day | 321cad9b |
-| PE136 | clases-de-programacion-miraflores (prm, #71330C) | market | 5,029 | 2.4% vs curso-de-python-en-ingles-peru | Miraflores all year, every age: more over-60s than under-18s, one plan per life stage | f-string format specs: width, alignment, thousands, percent | (this commit) |
+| PE136 | clases-de-programacion-miraflores (prm, #71330C) | market | 5,029 | 2.4% vs curso-de-python-en-ingles-peru | Miraflores all year, every age: more over-60s than under-18s, one plan per life stage | f-string format specs: width, alignment, thousands, percent | 4552ddf2 |
+| PE137 | clases-de-programacion-san-isidro (pris, #7D2E3D) | market | 4,800 | 2.1% vs clases-de-programacion-miraflores | San Isidro: library, language and lab already there; code in English fills the gap, any age | zip() pairs silently to the shorter list; strict=True and a total check | (this commit) |
 
 ## Notes
 

@@ -34683,6 +34683,18 @@
   to = "/src/pages/clases-de-programacion-miraflores.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/clases-de-programacion-san-isidro"
+  to = "/src/pages/clases-de-programacion-san-isidro.html"
+  status = 200
+
+[[redirects]]
+  from = "/clases-de-programacion-san-isidro.md"
+  to = "/src/pages/clases-de-programacion-san-isidro.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
