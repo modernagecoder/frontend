@@ -1083,6 +1083,7 @@ const SLUGS = [
   'coding-and-ai-for-teens-in-cajamarca-peru',
   'online-coding-and-ai-classes-moquegua-region-peru',
   'coding-classes-in-lima-peru',
+  'coding-classes-in-trujillo-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2245,6 +2246,7 @@ const LLMS_LABELS = {
   'coding-and-ai-for-teens-in-cajamarca-peru': 'Coding and AI for teens in Cajamarca, Peru',
   'online-coding-and-ai-classes-moquegua-region-peru': 'Online coding and AI classes, Moquegua region, Peru',
   'coding-classes-in-lima-peru': 'Coding classes in Lima, Peru',
+  'coding-classes-in-trujillo-peru': 'Coding classes in Trujillo, Peru',
 };
 
 function wireLlms(slugs) {
