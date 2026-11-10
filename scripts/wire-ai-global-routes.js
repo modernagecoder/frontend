@@ -1109,6 +1109,7 @@ const SLUGS = [
   'maths-tutor-arequipa-peru',
   'coding-for-university-students-lima',
   'ai-for-professionals-lima',
+  'online-coding-and-ai-classes-ayacucho-region-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2297,6 +2298,7 @@ const LLMS_LABELS = {
   'maths-tutor-arequipa-peru': 'Maths tutor in Arequipa, Peru',
   'coding-for-university-students-lima': 'Coding for university students in Lima',
   'ai-for-professionals-lima': 'AI for professionals in Lima',
+  'online-coding-and-ai-classes-ayacucho-region-peru': 'Online coding and AI classes, Ayacucho region, Peru',
 };
 
 function wireLlms(slugs) {
