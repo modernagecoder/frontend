@@ -363,6 +363,39 @@ No. We are an independent online school, our mentors work from India, and we hav
 - [How we teach](/how-we-teach): One live class, from hello to goodbye.
 - [Thinking before tools](/we-teach-you-how-to-think): Why we ask before we tell.
 
+## More pages for Peru
+
+Part of the guide: [Every Peru page](/coding-and-ai-classes-in-peru)
+
+### By age and stage
+
+- [AI and coding for professionals](/ai-and-coding-for-professionals-peru)
+- [Coding for adults over 50](/coding-for-adults-over-50-peru)
+- [Coding for kids aged 10](/coding-for-kids-age-10-peru)
+- [Coding for kids aged 12](/coding-for-kids-age-12-peru)
+- [Coding for kids aged 8](/coding-for-kids-age-8-peru)
+- [Coding for teens, 12 to 17](/coding-classes-for-teens-peru)
+- [Coding for university students](/coding-courses-for-university-students-peru)
+- [Coding in English for kids (6 to 12)](/coding-classes-in-english-for-peruvian-kids)
+- [Expat children in Lima](/expat-kids-coding-classes-lima)
+- [Homeschool coding and maths](/homeschool-coding-and-maths-peru)
+- [Online coding for kids, 6 to 12](/online-coding-classes-for-kids-peru)
+
+### By age and stage (in Spanish)
+
+- [Programación para adolescentes](/clases-de-programacion-para-adolescentes-peru)
+- [Programación para adultos](/cursos-de-programacion-para-adultos-peru)
+- [Programación para niños de 10 años](/programacion-para-ninos-de-10-anos)
+- [Programación para niños de 12 años](/programacion-para-ninos-de-12-anos)
+- [Programación para niños de 6 años](/programacion-para-ninos-de-6-anos)
+- [Programación para niños de 8 años](/programacion-para-ninos-de-8-anos)
+- [Programación para niños en inglés](/clases-de-programacion-para-ninos-en-ingles)
+- [Programación para niños online](/clases-de-programacion-para-ninos-online-peru)
+- [Programación para universitarios](/cursos-de-programacion-para-universitarios-peru)
+- [Tecnología para adultos mayores](/cursos-de-tecnologia-para-adultos-mayores-peru)
+
+More guides: [Coding and AI classes in Peru](/coding-and-ai-classes-in-peru), [En español: clases de programación en inglés](/clases-de-programacion-en-ingles-peru), [Start here: English-medium coding in Lima](/english-medium-coding-classes-lima), [Subjects and courses: AI agents course](/ai-agents-course-peru), [Exams, olympiads and school holidays: IB computer science tutor](/ib-computer-science-tutor-peru), [Guides to choosing: An English-taught option to Crack The Code](/crack-the-code-alternative-in-english), [Regions of Peru: Amazonas region](/online-coding-and-ai-classes-amazonas-region-peru), [Cities: Arequipa: coding for every age](/coding-classes-in-arequipa-peru), [Lima and Callao districts: Programación para niños en Ancón](/clases-de-programacion-para-ninos-ancon-lima)
+
 ## Contact
 
 Book the free first class at [https://learn.modernagecoders.com/coding-for-kids-age-6-peru](https://learn.modernagecoders.com/coding-for-kids-age-6-peru#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

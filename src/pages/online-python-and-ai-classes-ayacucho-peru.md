@@ -365,6 +365,62 @@ Where a course includes one, we issue a completion certificate in our own name. 
 - [Peru data science course](/data-science-course-peru): The natural next step after Python.
 - [How we teach](/how-we-teach): A live class from start to end.
 
+## More pages for Peru
+
+Part of the guide: [Every Peru page](/coding-and-ai-classes-in-peru)
+
+### Cities
+
+- [Arequipa: coding for every age](/coding-classes-in-arequipa-peru)
+- [Arequipa: maths tutor in English](/maths-tutor-arequipa-peru)
+- [Barranco, Lima: a small district, full classes](/coding-classes-in-barranco-lima)
+- [Cajamarca: coding and AI for teens](/coding-and-ai-for-teens-in-cajamarca-peru)
+- [Chiclayo: code for a trading city](/coding-classes-in-chiclayo-peru)
+- [Chimbote: Python and AI, all ages](/online-python-and-ai-classes-chimbote-peru)
+- [Cusco: primaria first](/coding-classes-in-cusco-peru)
+- [Huancayo: coding for every age](/coding-classes-in-huancayo-peru)
+- [Huánuco: coding for kids 6 to 12](/coding-classes-for-kids-in-huanuco-peru)
+- [Huaraz: Python and AI, all ages](/online-python-and-ai-classes-huaraz-peru)
+- [Ica: coding and AI for teens](/coding-and-ai-for-teens-in-ica-peru)
+- [Iquitos: coding for every age](/coding-classes-in-iquitos-peru)
+- [Juliaca: coding for kids](/coding-classes-for-kids-in-juliaca-peru)
+- [La Molina, Lima: code and spoken English](/coding-classes-in-la-molina-lima)
+- [Lima: AI for professionals](/ai-for-professionals-lima)
+- [Lima: coding for university students](/coding-for-university-students-lima)
+- [Lima: every age, every district](/coding-classes-in-lima-peru)
+- [Lima: maths tutor in English](/maths-tutor-lima-peru)
+- [Miraflores, Lima: classes in English](/coding-classes-in-miraflores-lima)
+- [Piura: coding while English grows](/coding-classes-in-piura-peru)
+- [Pucallpa: coding for kids](/coding-classes-for-kids-in-pucallpa-peru)
+- [Puno: coding for kids 6 to 12](/coding-classes-for-kids-in-puno-peru)
+- [San Borja, Lima: primaria in English](/coding-classes-in-san-borja-lima)
+- [San Isidro, Lima: adults and families](/coding-classes-in-san-isidro-lima)
+- [Sullana: coding and AI for teens](/coding-and-ai-for-teens-in-sullana-peru)
+- [Surco, Lima: teenagers and contests](/coding-classes-in-surco-lima)
+- [Tacna: Python and AI, all ages](/online-python-and-ai-classes-tacna-peru)
+- [Trujillo: school to university](/coding-classes-in-trujillo-peru)
+
+### Cities (in Spanish)
+
+- [Arequipa: programación para niños](/clases-de-programacion-para-ninos-arequipa)
+- [Chiclayo: programación para niños](/clases-de-programacion-para-ninos-chiclayo)
+- [Cusco: programación para niños](/clases-de-programacion-para-ninos-cusco)
+- [Huancayo: programación para niños](/clases-de-programacion-para-ninos-huancayo)
+- [Iquitos: programación para niños](/clases-de-programacion-para-ninos-iquitos)
+- [Lima: programación para niños](/clases-de-programacion-para-ninos-lima)
+- [Piura: programación para niños](/clases-de-programacion-para-ninos-piura)
+- [Programación en Barranco](/clases-de-programacion-barranco)
+- [Programación en La Molina](/clases-de-programacion-la-molina)
+- [Programación en Los Olivos](/clases-de-programacion-los-olivos)
+- [Programación en Miraflores](/clases-de-programacion-miraflores)
+- [Programación en San Borja](/clases-de-programacion-san-borja)
+- [Programación en San Isidro](/clases-de-programacion-san-isidro)
+- [Programación en San Miguel](/clases-de-programacion-san-miguel)
+- [Programación en Surco](/clases-de-programacion-surco)
+- [Trujillo: programación para niños](/clases-de-programacion-para-ninos-trujillo)
+
+More guides: [Coding and AI classes in Peru](/coding-and-ai-classes-in-peru), [En español: clases de programación en inglés](/clases-de-programacion-en-ingles-peru), [Start here: English-medium coding in Lima](/english-medium-coding-classes-lima), [By age and stage: AI and coding for professionals](/ai-and-coding-for-professionals-peru), [Subjects and courses: AI agents course](/ai-agents-course-peru), [Exams, olympiads and school holidays: IB computer science tutor](/ib-computer-science-tutor-peru), [Guides to choosing: An English-taught option to Crack The Code](/crack-the-code-alternative-in-english), [Regions of Peru: Amazonas region](/online-coding-and-ai-classes-amazonas-region-peru), [Lima and Callao districts: Programación para niños en Ancón](/clases-de-programacion-para-ninos-ancon-lima)
+
 ## Contact
 
 Book the free first class at [https://learn.modernagecoders.com/online-python-and-ai-classes-ayacucho-peru](https://learn.modernagecoders.com/online-python-and-ai-classes-ayacucho-peru#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

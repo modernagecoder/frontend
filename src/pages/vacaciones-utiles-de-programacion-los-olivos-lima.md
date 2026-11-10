@@ -366,6 +366,53 @@ Sí, al completar un curso le damos un certificado de finalización con el nombr
 - [AI tool age guide](/ai-tools-age-guide): Qué herramientas de inteligencia artificial permite cada edad.
 - [How we teach](/how-we-teach): Cómo es una clase en vivo con nosotros, paso a paso.
 
+## Más páginas para Perú
+
+Parte de la guía: [Todas las páginas de Perú](/coding-and-ai-classes-in-peru)
+
+### Distritos de Lima y Callao
+
+- [Programación para niños en Ancón](/clases-de-programacion-para-ninos-ancon-lima)
+- [Programación para niños en Ate](/clases-de-programacion-para-ninos-ate-lima)
+- [Programación para niños en Bellavista (Callao)](/clases-de-programacion-para-ninos-bellavista-callao)
+- [Programación para niños en Breña](/clases-de-programacion-para-ninos-brena-lima)
+- [Programación para niños en Carabayllo](/clases-de-programacion-para-ninos-carabayllo-lima)
+- [Programación para niños en Cieneguilla](/clases-de-programacion-para-ninos-cieneguilla-lima)
+- [Programación para niños en Comas](/clases-de-programacion-para-ninos-comas-lima)
+- [Programación para niños en El Agustino](/clases-de-programacion-para-ninos-el-agustino-lima)
+- [Programación para niños en el Rímac](/clases-de-programacion-para-ninos-rimac-lima)
+- [Programación para niños en Independencia](/clases-de-programacion-para-ninos-independencia-lima)
+- [Programación para niños en La Perla (Callao)](/clases-de-programacion-para-ninos-la-perla-callao)
+- [Programación para niños en La Victoria](/clases-de-programacion-para-ninos-la-victoria-lima)
+- [Programación para niños en Lurigancho (Chosica)](/clases-de-programacion-para-ninos-lurigancho-lima)
+- [Programación para niños en Lurín](/clases-de-programacion-para-ninos-lurin-lima)
+- [Programación para niños en Mi Perú (Callao)](/clases-de-programacion-para-ninos-mi-peru-callao)
+- [Programación para niños en Pachacámac](/clases-de-programacion-para-ninos-pachacamac-lima)
+- [Programación para niños en Puente Piedra](/clases-de-programacion-para-ninos-puente-piedra-lima)
+- [Programación para niños en San Juan de Miraflores](/clases-de-programacion-para-ninos-san-juan-de-miraflores-lima)
+- [Programación para niños en San Luis](/clases-de-programacion-para-ninos-san-luis-lima)
+- [Programación para niños en San Martín de Porres](/clases-de-programacion-para-ninos-san-martin-de-porres-lima)
+- [Programación para niños en Santa Anita](/clases-de-programacion-para-ninos-santa-anita-lima)
+- [Programación para niños en Ventanilla (Callao)](/clases-de-programacion-para-ninos-ventanilla-callao)
+- [Programación para niños en Villa El Salvador](/clases-de-programacion-para-ninos-villa-el-salvador-lima)
+- [Programación para niños en Villa María del Triunfo](/clases-de-programacion-para-ninos-villa-maria-del-triunfo-lima)
+- [Vacaciones útiles en Barranco](/vacaciones-utiles-de-programacion-barranco-lima)
+- [Vacaciones útiles en Chorrillos](/vacaciones-utiles-de-programacion-chorrillos-lima)
+- [Vacaciones útiles en Jesús María](/vacaciones-utiles-de-programacion-jesus-maria-lima)
+- [Vacaciones útiles en La Molina](/vacaciones-utiles-de-programacion-la-molina-lima)
+- [Vacaciones útiles en Lince](/vacaciones-utiles-de-programacion-lince-lima)
+- [Vacaciones útiles en Magdalena del Mar](/vacaciones-utiles-de-programacion-magdalena-del-mar-lima)
+- [Vacaciones útiles en Miraflores](/vacaciones-utiles-de-programacion-miraflores-lima)
+- [Vacaciones útiles en Pueblo Libre](/vacaciones-utiles-de-programacion-pueblo-libre-lima)
+- [Vacaciones útiles en San Borja](/vacaciones-utiles-de-programacion-san-borja-lima)
+- [Vacaciones útiles en San Isidro](/vacaciones-utiles-de-programacion-san-isidro-lima)
+- [Vacaciones útiles en San Juan de Lurigancho](/vacaciones-utiles-de-programacion-san-juan-de-lurigancho-lima)
+- [Vacaciones útiles en San Miguel](/vacaciones-utiles-de-programacion-san-miguel-lima)
+- [Vacaciones útiles en Surco](/vacaciones-utiles-de-programacion-surco-lima)
+- [Vacaciones útiles en Surquillo](/vacaciones-utiles-de-programacion-surquillo-lima)
+
+Más guías: [Clases de programación e IA en Perú (en inglés)](/coding-and-ai-classes-in-peru), [Clases de programación en inglés](/clases-de-programacion-en-ingles-peru), [Empiece aquí: English-medium coding in Lima](/english-medium-coding-classes-lima), [Por edad y etapa: Programación para adolescentes](/clases-de-programacion-para-adolescentes-peru), [Cursos y materias: Agentes de IA para profesionales](/curso-de-agentes-de-ia-para-profesionales), [Exámenes, olimpiadas y vacaciones: Canguro Matemático](/canguro-matematico-preparacion-peru), [Guías para elegir: ¿Robótica o programación para niños?](/robotica-o-programacion-para-ninos), [Regiones del Perú: Amazonas region](/online-coding-and-ai-classes-amazonas-region-peru), [Ciudades: Arequipa: programación para niños](/clases-de-programacion-para-ninos-arequipa)
+
 ## Contacto
 
 Reserve la primera clase gratis en [https://learn.modernagecoders.com/vacaciones-utiles-de-programacion-los-olivos-lima](https://learn.modernagecoders.com/vacaciones-utiles-de-programacion-los-olivos-lima#start), por WhatsApp o llamando al +91 91233 66161 (un número de la India, el contacto real de Modern Age Coders) o por correo a connect@modernagecoders.com.

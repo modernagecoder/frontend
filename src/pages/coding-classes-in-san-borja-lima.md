@@ -336,6 +336,7 @@ Part of the guide: [Every Peru page](/coding-and-ai-classes-in-peru)
 - [Arequipa: coding for every age](/coding-classes-in-arequipa-peru)
 - [Arequipa: maths tutor in English](/maths-tutor-arequipa-peru)
 - [Ayacucho: Python and AI, all ages](/online-python-and-ai-classes-ayacucho-peru)
+- [Barranco, Lima: a small district, full classes](/coding-classes-in-barranco-lima)
 - [Cajamarca: coding and AI for teens](/coding-and-ai-for-teens-in-cajamarca-peru)
 - [Chiclayo: code for a trading city](/coding-classes-in-chiclayo-peru)
 - [Chimbote: Python and AI, all ages](/online-python-and-ai-classes-chimbote-peru)
@@ -380,7 +381,7 @@ Part of the guide: [Every Peru page](/coding-and-ai-classes-in-peru)
 - [Programación en Surco](/clases-de-programacion-surco)
 - [Trujillo: programación para niños](/clases-de-programacion-para-ninos-trujillo)
 
-More guides: [Coding and AI classes in Peru](/coding-and-ai-classes-in-peru), [En español: clases de programación en inglés](/clases-de-programacion-en-ingles-peru), [Start here: English-medium coding in Lima](/english-medium-coding-classes-lima), [By age and stage: AI and coding for professionals](/ai-and-coding-for-professionals-peru), [Subjects and courses: AI agents course](/ai-agents-course-peru), [Exams, olympiads and school holidays: IB computer science tutor](/ib-computer-science-tutor-peru), [Guides to choosing: An English-taught option to Crack The Code](/crack-the-code-alternative-in-english), [Regions of Peru: Amazonas region](/online-coding-and-ai-classes-amazonas-region-peru), [Lima and Callao districts: Programación para niños en Ate](/clases-de-programacion-para-ninos-ate-lima)
+More guides: [Coding and AI classes in Peru](/coding-and-ai-classes-in-peru), [En español: clases de programación en inglés](/clases-de-programacion-en-ingles-peru), [Start here: English-medium coding in Lima](/english-medium-coding-classes-lima), [By age and stage: AI and coding for professionals](/ai-and-coding-for-professionals-peru), [Subjects and courses: AI agents course](/ai-agents-course-peru), [Exams, olympiads and school holidays: IB computer science tutor](/ib-computer-science-tutor-peru), [Guides to choosing: An English-taught option to Crack The Code](/crack-the-code-alternative-in-english), [Regions of Peru: Amazonas region](/online-coding-and-ai-classes-amazonas-region-peru), [Lima and Callao districts: Programación para niños en Ancón](/clases-de-programacion-para-ninos-ancon-lima)
 
 ## Contact
 

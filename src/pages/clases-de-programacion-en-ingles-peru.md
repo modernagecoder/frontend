@@ -358,6 +358,17 @@ Se lo dice al mentor, que lo repite más despacio, lo explica con otras palabras
 - [How we teach](/how-we-teach): Qué ocurre minuto a minuto en una sesión con mentor (en inglés).
 - [All courses](/courses): Todos los programas, ordenados por edad y tema (en inglés).
 
+## Más páginas para Perú
+
+Parte de la guía: [Todas las páginas de Perú](/coding-and-ai-classes-in-peru)
+
+### Empiece aquí (en inglés)
+
+- [Coding and AI classes in Peru](/coding-and-ai-classes-in-peru)
+- [English-medium coding in Lima](/english-medium-coding-classes-lima)
+
+Más guías: [Clases de programación e IA en Perú (en inglés)](/coding-and-ai-classes-in-peru), [Por edad y etapa: Programación para adolescentes](/clases-de-programacion-para-adolescentes-peru), [Cursos y materias: Agentes de IA para profesionales](/curso-de-agentes-de-ia-para-profesionales), [Exámenes, olimpiadas y vacaciones: Canguro Matemático](/canguro-matematico-preparacion-peru), [Guías para elegir: ¿Robótica o programación para niños?](/robotica-o-programacion-para-ninos), [Regiones del Perú: Amazonas region](/online-coding-and-ai-classes-amazonas-region-peru), [Ciudades: Arequipa: programación para niños](/clases-de-programacion-para-ninos-arequipa), [Distritos de Lima y Callao: Programación para niños en Ancón](/clases-de-programacion-para-ninos-ancon-lima)
+
 ## Contacto
 
 Reserve la primera clase gratis en [https://learn.modernagecoders.com/clases-de-programacion-en-ingles-peru](https://learn.modernagecoders.com/clases-de-programacion-en-ingles-peru#start), por WhatsApp o llamando al +91 91233 66161 (un número de la India, el contacto real de Modern Age Coders) o por correo a connect@modernagecoders.com.

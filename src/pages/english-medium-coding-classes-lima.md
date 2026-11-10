@@ -369,6 +369,20 @@ A laptop or desktop computer, a stable internet connection and ideally a headset
 - [AI tools age guide](/ai-tools-age-guide): The minimum age for each AI tool.
 - [How we teach](/how-we-teach): A full description of our live classes.
 
+## More pages for Peru
+
+Part of the guide: [Every Peru page](/coding-and-ai-classes-in-peru)
+
+### Start here
+
+- [Coding and AI classes in Peru](/coding-and-ai-classes-in-peru)
+
+### Start here (in Spanish)
+
+- [Programación en inglés](/clases-de-programacion-en-ingles-peru)
+
+More guides: [Coding and AI classes in Peru](/coding-and-ai-classes-in-peru), [En español: clases de programación en inglés](/clases-de-programacion-en-ingles-peru), [By age and stage: AI and coding for professionals](/ai-and-coding-for-professionals-peru), [Subjects and courses: AI agents course](/ai-agents-course-peru), [Exams, olympiads and school holidays: IB computer science tutor](/ib-computer-science-tutor-peru), [Guides to choosing: An English-taught option to Crack The Code](/crack-the-code-alternative-in-english), [Regions of Peru: Amazonas region](/online-coding-and-ai-classes-amazonas-region-peru), [Cities: Arequipa: coding for every age](/coding-classes-in-arequipa-peru), [Lima and Callao districts: Programación para niños en Ancón](/clases-de-programacion-para-ninos-ancon-lima)
+
 ## Contact
 
 Book the free first class at [https://learn.modernagecoders.com/english-medium-coding-classes-lima](https://learn.modernagecoders.com/english-medium-coding-classes-lima#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

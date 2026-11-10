@@ -294,6 +294,70 @@ No. No tenemos vínculo con el MINEDU, la SUNEDU, universidades ni institutos, y
 - [How we teach](/how-we-teach): Una sesión con mentor, contada por dentro.
 - [All courses](/courses): El catálogo entero.
 
+## Más páginas para Perú
+
+Parte de la guía: [Todas las páginas de Perú](/coding-and-ai-classes-in-peru)
+
+### Cursos y materias
+
+- [Agentes de IA para profesionales](/curso-de-agentes-de-ia-para-profesionales)
+- [Clases particulares de programación](/clases-particulares-de-programacion-online-peru)
+- [Crear apps: adolescentes](/crear-apps-curso-para-adolescentes-peru)
+- [Curso de agentes de IA](/curso-de-agentes-de-ia-peru)
+- [Curso de IA para adolescentes](/curso-de-ia-para-adolescentes-peru)
+- [Curso de IA para empresas](/curso-de-ia-para-empresas-peru)
+- [Curso de inteligencia artificial en inglés](/curso-de-inteligencia-artificial-en-ingles-peru)
+- [Curso de inteligencia artificial para niños](/curso-de-inteligencia-artificial-para-ninos-peru)
+- [Curso de Java en inglés](/curso-de-java-en-ingles-peru)
+- [Curso de Python en inglés](/curso-de-python-en-ingles-peru)
+- [Cursos de programación con certificado](/cursos-online-con-certificado-programacion-en-ingles)
+- [Data science y Python](/curso-de-data-science-en-ingles-peru)
+- [Desarrollo de aplicaciones](/curso-de-desarrollo-de-aplicaciones-en-ingles)
+- [Desarrollo de software](/curso-de-desarrollo-de-software-en-ingles-peru)
+- [IA para docentes](/ia-para-docentes-curso-en-ingles)
+- [Java para universitarios](/curso-de-java-para-universitarios-peru)
+- [Matemáticas en inglés para niños](/clases-de-matematicas-en-ingles-para-ninos)
+- [Profesor de matemáticas en inglés](/profesor-de-matematicas-en-ingles-peru)
+- [Profesor particular de matemáticas online](/profesor-particular-de-matematicas-online-peru)
+- [Programación en Minecraft para niños](/programacion-minecraft-para-ninos-peru)
+- [Programación en Roblox para niños](/programacion-roblox-para-ninos-en-ingles)
+- [Python para ingeniería](/python-para-estudiantes-de-ingenieria-peru)
+- [Python para niños](/curso-de-python-para-ninos-peru)
+- [Scratch para niños en inglés](/scratch-para-ninos-en-ingles)
+- [Vibe coding en inglés](/vibe-coding-curso-en-ingles)
+
+### Cursos y materias (en inglés)
+
+- [AI agents course](/ai-agents-course-peru)
+- [AI agents for professionals](/ai-agents-for-professionals-peru)
+- [AI course for business](/ai-course-for-business-peru)
+- [AI course for kids](/ai-course-for-kids-peru)
+- [AI course for teens](/ai-course-for-teens-peru)
+- [AI for teachers](/ai-for-teachers-peru)
+- [AI for university students](/ai-course-for-university-students-peru)
+- [App development course](/app-development-course-peru)
+- [App development for teens](/app-development-for-teens-peru)
+- [C++ course](/c-plus-plus-course-peru)
+- [Data science course](/data-science-course-peru)
+- [Java course](/java-course-peru)
+- [Java for CS students](/java-for-computer-science-students-peru)
+- [Maths for kids in English](/maths-for-kids-in-english-peru)
+- [Maths tutor in English](/maths-tutor-in-english-peru)
+- [Minecraft coding for kids](/minecraft-coding-for-kids-peru)
+- [One-on-one coding tutor](/one-on-one-coding-tutor-peru)
+- [Online maths classes](/online-maths-classes-peru)
+- [Python course](/python-course-peru)
+- [Python for engineering students](/python-for-engineering-students-peru)
+- [Python for kids](/python-for-kids-peru)
+- [Roblox coding for kids](/roblox-coding-for-kids-peru)
+- [Scratch for kids](/scratch-for-kids-peru)
+- [Software development course](/software-development-course-peru)
+- [SQL and data analysis](/sql-and-data-analysis-course-peru)
+- [Vibe coding classes](/vibe-coding-classes-peru)
+- [Web development course](/web-development-course-peru)
+
+Más guías: [Clases de programación e IA en Perú (en inglés)](/coding-and-ai-classes-in-peru), [Clases de programación en inglés](/clases-de-programacion-en-ingles-peru), [Empiece aquí: English-medium coding in Lima](/english-medium-coding-classes-lima), [Por edad y etapa: Programación para adolescentes](/clases-de-programacion-para-adolescentes-peru), [Exámenes, olimpiadas y vacaciones: Canguro Matemático](/canguro-matematico-preparacion-peru), [Guías para elegir: ¿Robótica o programación para niños?](/robotica-o-programacion-para-ninos), [Regiones del Perú: Amazonas region](/online-coding-and-ai-classes-amazonas-region-peru), [Ciudades: Arequipa: programación para niños](/clases-de-programacion-para-ninos-arequipa), [Distritos de Lima y Callao: Programación para niños en Ancón](/clases-de-programacion-para-ninos-ancon-lima)
+
 ## Contacto
 
 Reserve la primera clase gratis en [https://learn.modernagecoders.com/curso-de-desarrollo-web-en-ingles-peru](https://learn.modernagecoders.com/curso-de-desarrollo-web-en-ingles-peru#start), por WhatsApp o llamando al +91 91233 66161 (un número de la India, el contacto real de Modern Age Coders) o por correo a connect@modernagecoders.com.

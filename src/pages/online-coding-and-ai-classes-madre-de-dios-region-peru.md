@@ -399,6 +399,39 @@ Courses that include one finish with a completion certificate from us. It is not
 - [AI tools age guide](/ai-tools-age-guide): Age limits of common AI tools.
 - [How we teach](/how-we-teach): A live lesson from start to finish.
 
+## More pages for Peru
+
+Part of the guide: [Every Peru page](/coding-and-ai-classes-in-peru)
+
+### Regions of Peru
+
+- [Amazonas region](/online-coding-and-ai-classes-amazonas-region-peru)
+- [Áncash region](/online-coding-and-ai-classes-ancash-region-peru)
+- [Apurímac region](/online-coding-and-ai-classes-apurimac-region-peru)
+- [Arequipa region](/online-coding-and-ai-classes-arequipa-region-peru)
+- [Ayacucho region](/online-coding-and-ai-classes-ayacucho-region-peru)
+- [Cajamarca region](/online-coding-and-ai-classes-cajamarca-region-peru)
+- [Callao region](/online-coding-and-ai-classes-callao-region-peru)
+- [Cusco region](/online-coding-and-ai-classes-cusco-region-peru)
+- [Huancavelica region](/online-coding-and-ai-classes-huancavelica-region-peru)
+- [Huánuco region](/online-coding-and-ai-classes-huanuco-region-peru)
+- [Ica region](/online-coding-and-ai-classes-ica-region-peru)
+- [Junín region](/online-coding-and-ai-classes-junin-region-peru)
+- [La Libertad region](/online-coding-and-ai-classes-la-libertad-region-peru)
+- [Lambayeque region](/online-coding-and-ai-classes-lambayeque-region-peru)
+- [Lima provinces (Región Lima)](/online-coding-and-ai-classes-lima-provinces-peru)
+- [Loreto region](/online-coding-and-ai-classes-loreto-region-peru)
+- [Moquegua region](/online-coding-and-ai-classes-moquegua-region-peru)
+- [Pasco region](/online-coding-and-ai-classes-pasco-region-peru)
+- [Piura region](/online-coding-and-ai-classes-piura-region-peru)
+- [Puno region](/online-coding-and-ai-classes-puno-region-peru)
+- [San Martín region](/online-coding-and-ai-classes-san-martin-region-peru)
+- [Tacna region](/online-coding-and-ai-classes-tacna-region-peru)
+- [Tumbes region](/online-coding-and-ai-classes-tumbes-region-peru)
+- [Ucayali region](/online-coding-and-ai-classes-ucayali-region-peru)
+
+More guides: [Coding and AI classes in Peru](/coding-and-ai-classes-in-peru), [En español: clases de programación en inglés](/clases-de-programacion-en-ingles-peru), [Start here: English-medium coding in Lima](/english-medium-coding-classes-lima), [By age and stage: AI and coding for professionals](/ai-and-coding-for-professionals-peru), [Subjects and courses: AI agents course](/ai-agents-course-peru), [Exams, olympiads and school holidays: IB computer science tutor](/ib-computer-science-tutor-peru), [Guides to choosing: An English-taught option to Crack The Code](/crack-the-code-alternative-in-english), [Cities: Arequipa: coding for every age](/coding-classes-in-arequipa-peru), [Lima and Callao districts: Programación para niños en Ancón](/clases-de-programacion-para-ninos-ancon-lima)
+
 ## Contact
 
 Book the free first class at [https://learn.modernagecoders.com/online-coding-and-ai-classes-madre-de-dios-region-peru](https://learn.modernagecoders.com/online-coding-and-ai-classes-madre-de-dios-region-peru#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

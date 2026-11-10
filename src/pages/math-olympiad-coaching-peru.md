@@ -357,6 +357,34 @@ By card, in US dollars; your bank converts the charge into soles, so the figure 
 - [We teach you how to think](/we-teach-you-how-to-think): Why reasoning comes before tools.
 - [How we teach](/how-we-teach): A live class, step by step.
 
+## More pages for Peru
+
+Part of the guide: [Every Peru page](/coding-and-ai-classes-in-peru)
+
+### Exams, olympiads and school holidays
+
+- [IB computer science tutor](/ib-computer-science-tutor-peru)
+- [IB maths tutor](/ib-maths-tutor-peru)
+- [IGCSE maths tutor](/igcse-maths-tutor-peru)
+- [July holiday coding classes](/peru-july-holiday-coding-classes)
+- [ONEM preparation in English](/onem-preparation-in-english)
+- [Summer holiday coding (vacaciones útiles)](/peru-summer-holiday-coding-classes-online)
+
+### Exams, olympiads and school holidays (in Spanish)
+
+- [Canguro Matemático](/canguro-matematico-preparacion-peru)
+- [IB Ciencias de la Computación](/bachillerato-internacional-ciencias-de-la-computacion-tutor)
+- [Preparación para la ONEM](/olimpiada-de-matematica-onem-preparacion)
+- [Programación para 5to de secundaria](/programacion-para-5to-de-secundaria)
+- [Razonamiento matemático](/razonamiento-matematico-clases-online-peru)
+- [Talleres de verano de programación online](/talleres-de-verano-programacion-ninos-online)
+- [Tutor de IB Matemáticas en inglés](/tutor-ib-matematicas-en-ingles-peru)
+- [Vacaciones útiles 2027: inteligencia artificial](/vacaciones-utiles-2027-inteligencia-artificial)
+- [Vacaciones útiles 2027: programación online](/vacaciones-utiles-2027-programacion-online)
+- [Vacaciones útiles virtuales en inglés](/vacaciones-utiles-virtuales-en-ingles)
+
+More guides: [Coding and AI classes in Peru](/coding-and-ai-classes-in-peru), [En español: clases de programación en inglés](/clases-de-programacion-en-ingles-peru), [Start here: English-medium coding in Lima](/english-medium-coding-classes-lima), [By age and stage: AI and coding for professionals](/ai-and-coding-for-professionals-peru), [Subjects and courses: AI agents course](/ai-agents-course-peru), [Guides to choosing: An English-taught option to Crack The Code](/crack-the-code-alternative-in-english), [Regions of Peru: Amazonas region](/online-coding-and-ai-classes-amazonas-region-peru), [Cities: Arequipa: coding for every age](/coding-classes-in-arequipa-peru), [Lima and Callao districts: Programación para niños en Ancón](/clases-de-programacion-para-ninos-ancon-lima)
+
 ## Contact
 
 Book the free first class at [https://learn.modernagecoders.com/math-olympiad-coaching-peru](https://learn.modernagecoders.com/math-olympiad-coaching-peru#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

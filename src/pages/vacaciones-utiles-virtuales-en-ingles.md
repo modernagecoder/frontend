@@ -332,6 +332,34 @@ Ninguna validez escolar: somos una academia independiente, sin vínculo con el M
 - [Online coding summer camp](/online-coding-summer-camp): Cómo planteamos el verano en otros países donde enseñamos.
 - [How we teach](/how-we-teach): Cómo es una clase en vivo por dentro.
 
+## Más páginas para Perú
+
+Parte de la guía: [Todas las páginas de Perú](/coding-and-ai-classes-in-peru)
+
+### Exámenes, olimpiadas y vacaciones
+
+- [Canguro Matemático](/canguro-matematico-preparacion-peru)
+- [IB Ciencias de la Computación](/bachillerato-internacional-ciencias-de-la-computacion-tutor)
+- [Preparación para la ONEM](/olimpiada-de-matematica-onem-preparacion)
+- [Programación para 5to de secundaria](/programacion-para-5to-de-secundaria)
+- [Razonamiento matemático](/razonamiento-matematico-clases-online-peru)
+- [Talleres de verano de programación online](/talleres-de-verano-programacion-ninos-online)
+- [Tutor de IB Matemáticas en inglés](/tutor-ib-matematicas-en-ingles-peru)
+- [Vacaciones útiles 2027: inteligencia artificial](/vacaciones-utiles-2027-inteligencia-artificial)
+- [Vacaciones útiles 2027: programación online](/vacaciones-utiles-2027-programacion-online)
+
+### Exámenes, olimpiadas y vacaciones (en inglés)
+
+- [IB computer science tutor](/ib-computer-science-tutor-peru)
+- [IB maths tutor](/ib-maths-tutor-peru)
+- [IGCSE maths tutor](/igcse-maths-tutor-peru)
+- [July holiday coding classes](/peru-july-holiday-coding-classes)
+- [Maths olympiad coaching](/math-olympiad-coaching-peru)
+- [ONEM preparation in English](/onem-preparation-in-english)
+- [Summer holiday coding (vacaciones útiles)](/peru-summer-holiday-coding-classes-online)
+
+Más guías: [Clases de programación e IA en Perú (en inglés)](/coding-and-ai-classes-in-peru), [Clases de programación en inglés](/clases-de-programacion-en-ingles-peru), [Empiece aquí: English-medium coding in Lima](/english-medium-coding-classes-lima), [Por edad y etapa: Programación para adolescentes](/clases-de-programacion-para-adolescentes-peru), [Cursos y materias: Agentes de IA para profesionales](/curso-de-agentes-de-ia-para-profesionales), [Guías para elegir: ¿Robótica o programación para niños?](/robotica-o-programacion-para-ninos), [Regiones del Perú: Amazonas region](/online-coding-and-ai-classes-amazonas-region-peru), [Ciudades: Arequipa: programación para niños](/clases-de-programacion-para-ninos-arequipa), [Distritos de Lima y Callao: Programación para niños en Ancón](/clases-de-programacion-para-ninos-ancon-lima)
+
 ## Contacto
 
 Reserve la primera clase gratis en [https://learn.modernagecoders.com/vacaciones-utiles-virtuales-en-ingles](https://learn.modernagecoders.com/vacaciones-utiles-virtuales-en-ingles#start), por WhatsApp o llamando al +91 91233 66161 (un número de la India, el contacto real de Modern Age Coders) o por correo a connect@modernagecoders.com.

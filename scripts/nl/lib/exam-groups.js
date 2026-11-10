@@ -20,7 +20,7 @@ function live(slug) { return fs.existsSync(path.join(ROOT, 'src', 'pages', slug 
 
 function label(m) {
   if (typeof m !== 'string') return m.label;
-  for (const d of ['uk', 'us', 'de']) {
+  for (const d of ['uk', 'us', 'de', 'pe']) {
     const f = path.join(ROOT, 'content', d, m + '.js');
     if (fs.existsSync(f)) { const mod = require(f); return mod.routeLabel || String(mod.pageName).replace(/<[^>]+>/g, ''); }
   }
@@ -54,7 +54,56 @@ function words(page, hub) {
     : { all: 'Every page for this Land', rel: 'More pages for this Land', sec: s => s.name, lab: h => h.label };
 }
 
+// Peru cluster (spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md section 5): every Peru page links its
+// siblings in the same index group (content/pe module `hub.group`), in its own language first, then the same group
+// in the other language, plus the national hub and the two language entry pages. Built from the modules, so a page
+// that is not built yet is never linked and a new page joins every list on the next rebuild.
+const PE_GROUPS = {
+  start: ['Start here', 'Empiece aquí'], ages: ['By age and stage', 'Por edad y etapa'],
+  subjects: ['Subjects and courses', 'Cursos y materias'], exams: ['Exams, olympiads and school holidays', 'Exámenes, olimpiadas y vacaciones'],
+  guides: ['Guides to choosing', 'Guías para elegir'], regions: ['Regions of Peru', 'Regiones del Perú'],
+  cities: ['Cities', 'Ciudades'], lima: ['Lima and Callao districts', 'Distritos de Lima y Callao']
+};
+const PE_HUB = 'coding-and-ai-classes-in-peru';
+const PE_ES_ENTRY = 'clases-de-programacion-en-ingles-peru';
+let peCache = null;
+function pePages() {
+  if (peCache) return peCache;
+  const { builtPages } = require('./uk-index');
+  peCache = builtPages('pe').map(p => Object.assign({}, p, { es: /market: PE_ES\b/.test(fs.readFileSync(path.join(ROOT, 'content', 'pe', p.file), 'utf8')) }));
+  return peCache;
+}
+function peWithGroup(page) {
+  if (!page.market || page.market.iso !== 'PE' || page.slug === PE_HUB || !page.hub) return null;
+  const es = /^es/.test(page.market.lang || '');
+  const all = pePages().filter(p => p.slug !== page.slug && live(p.slug));
+  const g = page.hub.group;
+  const name = (grp, inEs) => (PE_GROUPS[grp] || [grp, grp])[es ? 1 : 0] + (inEs === es ? '' : (es ? ' (en inglés)' : ' (in Spanish)'));
+  const sort = arr => arr.sort((a, b) => a.label.localeCompare(b.label, es ? 'es' : 'en'));
+  const sections = [];
+  for (const sameLang of [true, false]) {
+    const ls = sort(all.filter(p => p.group === g && (p.es === es) === sameLang));
+    if (ls.length) sections.push({ name: name(g, sameLang ? es : !es), links: ls.map(p => ({ href: '/' + p.slug, label: p.label })) });
+  }
+  const others = [];
+  if (live(PE_HUB)) others.push({ href: '/' + PE_HUB, label: es ? 'Clases de programación e IA en Perú (en inglés)' : 'Coding and AI classes in Peru' });
+  if (live(PE_ES_ENTRY) && page.slug !== PE_ES_ENTRY) others.push({ href: '/' + PE_ES_ENTRY, label: es ? 'Clases de programación en inglés' : 'En español: clases de programación en inglés' });
+  const rest = all.filter(p => p.slug !== PE_HUB && p.slug !== PE_ES_ENTRY);
+  for (const grp of Object.keys(PE_GROUPS)) if (grp !== g) {
+    const first = sort(rest.filter(p => p.group === grp && p.es === es))[0] || sort(rest.filter(p => p.group === grp))[0];
+    if (first) others.push({ href: '/' + first.slug, label: (PE_GROUPS[grp])[es ? 1 : 0] + ': ' + first.label });
+  }
+  return Object.assign({}, page, { cluster_related: {
+    h2: es ? 'Más páginas para Perú' : 'More pages for Peru',
+    index: live(PE_HUB) ? { href: '/' + PE_HUB, label: es ? 'Todas las páginas de Perú' : 'Every Peru page' } : null,
+    sections,
+    others
+  } });
+}
+
 function withGroup(page) {
+  const pe = peWithGroup(page);
+  if (pe) return pe;
   const hubs = load();
   const own = hubs.find(h => h.index === page.slug);
   if (own) {

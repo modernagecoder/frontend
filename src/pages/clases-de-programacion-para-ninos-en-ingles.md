@@ -347,6 +347,39 @@ No. No estamos vinculados al MINEDU ni a ningún colegio, y nuestras clases no o
 - [Student labs](/student-labs): Proyectos publicados por nuestros estudiantes.
 - [All courses](/courses): El catálogo completo, de primaria a la universidad.
 
+## Más páginas para Perú
+
+Parte de la guía: [Todas las páginas de Perú](/coding-and-ai-classes-in-peru)
+
+### Por edad y etapa
+
+- [Programación para adolescentes](/clases-de-programacion-para-adolescentes-peru)
+- [Programación para adultos](/cursos-de-programacion-para-adultos-peru)
+- [Programación para niños de 10 años](/programacion-para-ninos-de-10-anos)
+- [Programación para niños de 12 años](/programacion-para-ninos-de-12-anos)
+- [Programación para niños de 6 años](/programacion-para-ninos-de-6-anos)
+- [Programación para niños de 8 años](/programacion-para-ninos-de-8-anos)
+- [Programación para niños online](/clases-de-programacion-para-ninos-online-peru)
+- [Programación para universitarios](/cursos-de-programacion-para-universitarios-peru)
+- [Tecnología para adultos mayores](/cursos-de-tecnologia-para-adultos-mayores-peru)
+
+### Por edad y etapa (en inglés)
+
+- [AI and coding for professionals](/ai-and-coding-for-professionals-peru)
+- [Coding for adults over 50](/coding-for-adults-over-50-peru)
+- [Coding for kids aged 10](/coding-for-kids-age-10-peru)
+- [Coding for kids aged 12](/coding-for-kids-age-12-peru)
+- [Coding for kids aged 6](/coding-for-kids-age-6-peru)
+- [Coding for kids aged 8](/coding-for-kids-age-8-peru)
+- [Coding for teens, 12 to 17](/coding-classes-for-teens-peru)
+- [Coding for university students](/coding-courses-for-university-students-peru)
+- [Coding in English for kids (6 to 12)](/coding-classes-in-english-for-peruvian-kids)
+- [Expat children in Lima](/expat-kids-coding-classes-lima)
+- [Homeschool coding and maths](/homeschool-coding-and-maths-peru)
+- [Online coding for kids, 6 to 12](/online-coding-classes-for-kids-peru)
+
+Más guías: [Clases de programación e IA en Perú (en inglés)](/coding-and-ai-classes-in-peru), [Clases de programación en inglés](/clases-de-programacion-en-ingles-peru), [Empiece aquí: English-medium coding in Lima](/english-medium-coding-classes-lima), [Cursos y materias: Agentes de IA para profesionales](/curso-de-agentes-de-ia-para-profesionales), [Exámenes, olimpiadas y vacaciones: Canguro Matemático](/canguro-matematico-preparacion-peru), [Guías para elegir: ¿Robótica o programación para niños?](/robotica-o-programacion-para-ninos), [Regiones del Perú: Amazonas region](/online-coding-and-ai-classes-amazonas-region-peru), [Ciudades: Arequipa: programación para niños](/clases-de-programacion-para-ninos-arequipa), [Distritos de Lima y Callao: Programación para niños en Ancón](/clases-de-programacion-para-ninos-ancon-lima)
+
 ## Contacto
 
 Reserve la primera clase gratis en [https://learn.modernagecoders.com/clases-de-programacion-para-ninos-en-ingles](https://learn.modernagecoders.com/clases-de-programacion-para-ninos-en-ingles#start), por WhatsApp o llamando al +91 91233 66161 (un número de la India, el contacto real de Modern Age Coders) o por correo a connect@modernagecoders.com.

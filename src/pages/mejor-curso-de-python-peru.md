@@ -298,6 +298,48 @@ Con tarjeta, mes a mes, en dólares estadounidenses; su banco hace la conversió
 - [AI tool age guide](/ai-tools-age-guide): Edad mínima de cada herramienta de IA, con la cita de la empresa.
 - [How we teach](/how-we-teach): Cómo se prepara y se dicta cada clase en vivo.
 
+## Más páginas para Perú
+
+Parte de la guía: [Todas las páginas de Perú](/coding-and-ai-classes-in-peru)
+
+### Guías para elegir
+
+- [¿Robótica o programación para niños?](/robotica-o-programacion-para-ninos)
+- [Alternativa en inglés a Crack The Code](/alternativa-a-crack-the-code-en-ingles)
+- [Aprender a pensar, no a copiar](/aprender-a-pensar-no-copiar-programacion)
+- [Colegio bilingüe: refuerzo de programación](/colegio-bilingue-refuerzo-programacion)
+- [Cómo elegir clases de programación para niños](/mejores-clases-de-programacion-para-ninos-peru)
+- [Cómo elegir un curso de inteligencia artificial](/mejor-curso-de-inteligencia-artificial-peru)
+- [Cuánto cuestan las clases de programación para niños](/cuanto-cuestan-clases-de-programacion-para-ninos-peru)
+- [IA para niños de primaria](/inteligencia-artificial-para-ninos-de-primaria)
+- [Inglés y programación para niños](/clases-de-ingles-y-programacion-ninos)
+- [Kodland: opiniones y alternativa](/kodland-opiniones-alternativa)
+- [Precio de un profesor particular de matemáticas](/precio-profesor-particular-matematicas-peru)
+- [Programar con IA sin copiar](/programar-con-ia-sin-copiar)
+
+### Guías para elegir (en inglés)
+
+- [An English-taught option to Crack The Code](/crack-the-code-alternative-in-english)
+- [Best AI course](/best-ai-course-in-peru)
+- [Best coding classes](/best-coding-classes-in-peru)
+- [Best online maths tutor](/best-online-maths-tutor-in-peru)
+- [Best Python course](/best-python-course-in-peru)
+- [Bootcamp or live classes](/coding-bootcamp-alternative-peru)
+- [Build with AI without copying](/build-with-ai-without-copying-peru)
+- [Class times in Peru time](/live-coding-classes-peru-time)
+- [Cost of coding classes](/cost-of-coding-classes-in-peru)
+- [Cost of maths tutoring](/cost-of-maths-tutoring-in-peru)
+- [International-school families in Lima](/international-school-families-lima-coding)
+- [Kodland vs Codingal, for Peru](/kodland-vs-codingal-peru)
+- [Learn coding and English together](/learn-coding-and-english-together-peru)
+- [Learn to think, not copy](/learn-to-think-not-copy-coding-peru)
+- [Platzi alternative with live classes](/platzi-alternative-live-classes)
+- [Remote tech job skills](/remote-tech-job-skills-peru)
+- [Robotics or coding for kids?](/robotics-vs-coding-for-kids-peru)
+- [University admission exams explained](/peru-university-admission-exams-explained)
+
+Más guías: [Clases de programación e IA en Perú (en inglés)](/coding-and-ai-classes-in-peru), [Clases de programación en inglés](/clases-de-programacion-en-ingles-peru), [Empiece aquí: English-medium coding in Lima](/english-medium-coding-classes-lima), [Por edad y etapa: Programación para adolescentes](/clases-de-programacion-para-adolescentes-peru), [Cursos y materias: Agentes de IA para profesionales](/curso-de-agentes-de-ia-para-profesionales), [Exámenes, olimpiadas y vacaciones: Canguro Matemático](/canguro-matematico-preparacion-peru), [Regiones del Perú: Amazonas region](/online-coding-and-ai-classes-amazonas-region-peru), [Ciudades: Arequipa: programación para niños](/clases-de-programacion-para-ninos-arequipa), [Distritos de Lima y Callao: Programación para niños en Ancón](/clases-de-programacion-para-ninos-ancon-lima)
+
 ## Contacto
 
 Reserve la primera clase gratis en [https://learn.modernagecoders.com/mejor-curso-de-python-peru](https://learn.modernagecoders.com/mejor-curso-de-python-peru#start), por WhatsApp o llamando al +91 91233 66161 (un número de la India, el contacto real de Modern Age Coders) o por correo a connect@modernagecoders.com.
