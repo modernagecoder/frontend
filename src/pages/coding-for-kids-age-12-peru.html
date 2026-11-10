@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding for Kids Age 12 in Peru: Live Classes in English</title>
+  <meta name="description" content="Coding for a twelve year old in Peru: live online classes in English for 1° de secundaria, Python projects, games and contest maths, group or one to one, any hour.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-for-kids-age-12-peru">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-for-kids-age-12-peru.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#31644A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-for-kids-age-12-peru">
+  <meta property="og:title" content="Coding for Kids Age 12 in Peru: Live Classes in English">
+  <meta property="og:description" content="Twelve is the start of secundaria in Peru. What changes at school, where ONEM, OPI and COAR fit (organisers' own pages), why no chatbot yet, and a Python sieve that finds the 25 primes below 100.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding for Kids Age 12 in Peru: Live Classes in English">
+  <meta name="twitter:description" content="Live coding classes in English for twelve year olds in Peru: real Python, games and contest maths, at an hour your family picks.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-caj .ag-hero h1 { max-width: 16ch; letter-spacing: -0.016em; }
+.ag-root.ag-caj .ag-capsule { border-left-width: 5px; }
+.ag-root.ag-caj .ag-table caption { text-align: left; }
+.ag-root.ag-caj .ag-steps li { line-height: 1.64; }
+.ag-root.ag-caj .ag-code pre { line-height: 1.48; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-for-kids-age-12-peru#page","url":"https://learn.modernagecoders.com/coding-for-kids-age-12-peru","name":"Coding for Kids Age 12 in Peru","description":"A guide for parents in Peru whose child is twelve and starting secundaria, built from Ley 28044, MINEDU normative ages, the CNEB plan of studies, the ONEM 2026 bases published through UGEL 06, El Peruano, MINEDU on COAR admission, UTEC on the OPI, vendor age terms and the tz database, with an original Python lesson on the sieve of Eratosthenes.","inLanguage":"en-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding and AI classes in Peru","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Coding at age 12","item":"https://learn.modernagecoders.com/coding-for-kids-age-12-peru"}]},{"@type":"Course","name":"Coding for Kids Age 12 in Peru","description":"Live online coding classes for twelve year olds in Peru, taught in English by mentors based in India: Python projects, game development, C++ for contests and maths through code, in a group of fifteen to twenty or one to one, at an hour the family chooses.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-for-kids-age-12-peru"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-kids-age-12-peru"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-kids-age-12-peru"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in Spanish?","acceptedAnswer":{"@type":"Answer","text":"No. Classes are live and online, and they are taught only in English. Mentors speak clearly, follow your child's speed and accent, and write the important words on the shared screen. At twelve, most students follow well, and those who find it hard at first usually settle within a few weeks."}},{"@type":"Question","name":"Is twelve a good age to start coding?","acceptedAnswer":{"@type":"Answer","text":"Yes. Twelve year olds learn typed code quickly because they read fast and can plan. A complete beginner of twelve often catches up with children who started much younger."}},{"@type":"Question","name":"Should my twelve year old learn Python or C++?","acceptedAnswer":{"@type":"Answer","text":"Python first for almost everyone: it lets them think about the problem instead of the punctuation. C++ makes sense later for contests such as the OPI, whose 2025 final allowed only C++."}},{"@type":"Question","name":"Does 1° de secundaria in Peru teach programming?","acceptedAnswer":{"@type":"Answer","text":"Not as its own area. The national plan gives secundaria Matemática, Comunicación, Inglés, Educación para el Trabajo and other areas, with digital skills as a shared competency. Some schools add computing in their own hours."}},{"@type":"Question","name":"Can my child enter the ONEM at twelve?","acceptedAnswer":{"@type":"Answer","text":"Yes, through the school. The ONEM 2026 bases place 1° and 2° de secundaria in Nivel 1. Schools run the first stage, so ask yours. We are not connected with the ONEM and we never use its problems; our practice problems are our own."}},{"@type":"Question","name":"When could classes be in Peru time?","acceptedAnswer":{"@type":"Answer","text":"Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. India stays ten hours thirty minutes ahead, so 16:30 for your child is 03:00 the next day for the mentor."}},{"@type":"Question","name":"Can a twelve year old use ChatGPT in your classes?","acceptedAnswer":{"@type":"Answer","text":"No. ChatGPT and Gemini set 13 as their minimum age and Claude sets 18. Twelve year olds learn to solve problems without them; students meet AI tools in our teen courses where the maker allows."}},{"@type":"Question","name":"What comes after twelve?","acceptedAnswer":{"@type":"Answer","text":"At thirteen, students can move into our teen courses: full Python, Java, web development, AI and contest programming. The mentor suggests the next step from what your child has built."}},{"@type":"Question","name":"Do you prepare students for COAR admission?","acceptedAnswer":{"@type":"Answer","text":"No. We mention COAR only because its admission is for public-school students who have finished 2° de secundaria, which is close to this age. Our classes are coding and maths, and we promise no admission or contest result."}},{"@type":"Question","name":"Is Modern Age Coders part of MINEDU or connected to schools in Peru?","acceptedAnswer":{"@type":"Answer","text":"No. Modern Age Coders runs independently, teaches from India, and has no tie with MINEDU, UTEC, a UGEL or any Peruvian school. Nothing we issue is a Peruvian grade; students who finish a course receive a completion certificate that we issue ourselves."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-for-kids-age-12-peru","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-caj">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Peru</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Peru</a></li>
+      <li><a href="#learn">At twelve</a></li>
+      <li><a href="#secundaria">Secundaria</a></li>
+      <li><a href="#contests">ONEM and OPI</a></li>
+      <li><a href="#lesson">Sieve lesson</a></li>
+      <li><a href="#clock">Peru time</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a> / Coding at age 12
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Peru &middot; Age 12 &middot; 1° de secundaria &middot; Live, in English</p>
+        <h1>Coding for kids age 12 in Peru</h1>
+        <p class="ag-lede">Twelve sits on a border. In Peru it usually means the first year of secundaria, a new timetable, new teachers and, for some, a first maths olympiad. In coding it means the end of children's tools and the start of real ones. Here we write for mothers and fathers hoping to see a twelve year old to cross that border with a teacher beside them, live and in English.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#lesson" class="ag-btn ag-btn--ghost">See the sieve lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20our%20child%20is%20twelve%20and%20has%20just%20started%20secundaria%20in%20Peru.%20Could%20we%20book%20a%20free%20coding%20class%20in%20English%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'caj'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live classes since 2020 &middot; 4.9 average from about 547 Google reviews &middot; twelve year olds build real projects and explain them in English</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Age</dt><dd>Twelve, usually 1° de secundaria</dd>
+          <dt>Languages</dt><dd>Python, with C++ or GDScript to follow</dd>
+          <dt>Focus</dt><dd>Projects, algorithms, contest maths</dd>
+          <dt>Format</dt><dd>Live online lessons, no recordings</dd>
+          <dt>Class size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>First class</dt><dd>Free</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>A twelve year old in Peru is ready for real programming, and Modern Age Coders teaches it live, online and in English. At twelve most of our students write Python projects with functions and lists, and some move on to game engines, C++ for contests or maths through code. Lessons are led from India by a mentor who shares the screen with your child, either in a class of fifteen to twenty young people born around the same year or one to one, and the hour is whatever your household in Peru prefers. There is no charge for the first lesson.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where twelve year olds start</p>
+      <h2>Good first courses at twelve</h2>
+      <p class="ag-lede">Twelve is the top of our kids' range and the edge of our teens' courses. These three are the usual first choices.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CAJ / 01</p>
+          <h3>Python and AI for Kids</h3>
+          <p>Ages 9 to 12. For a twelve year old new to typed code, the quickest route to real Python: functions, lists, games and projects that use AI safely, ready for our teen courses at thirteen.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/godot-game-development-course-for-kids-and-teens">
+        <div class="ag-pick-shot"><img src="/images/godot-game-dev.webp" alt="Godot Game Development for Kids and Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CAJ / 02</p>
+          <h3>Godot Game Development</h3>
+          <p>Ages 10 to 17. For the twelve year old who wants to make proper games. GDScript, scenes, physics and levels in a free, open-source engine used by professionals.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/middle-school-math-competitions-course">
+        <div class="ag-pick-shot"><img src="/images/middle-school-math-competitions.webp" alt="Middle School Math Competitions course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CAJ / 03</p>
+          <h3>Middle School Maths Competitions</h3>
+          <p>Ages about 10 to 14. Contest problem solving in English with original problems, for the twelve year old who enjoys hard puzzles and may be curious about olympiads.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="who">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Who this page is for</p><h2>Who are these coding classes for twelve year olds for?</h2><p class="ag-lede">Families in Peru whose child is twelve, usually in their first year of secundaria, and who can follow a class in English or want to grow into it.</p></div>
+    <div class="ag-grid-3"><div><h3>Young people who have outgrown blocks</h3><p>They built Scratch games at nine or ten and now find them too simple. They want to type, to build things that look like real software, and to understand how the apps on their phone work.</p></div><div><h3>Beginners starting late</h3><p>Twelve is not late. Beginners of this age learn Python faster than younger children, because they read quickly, follow longer explanations and can plan ahead.</p></div><div><h3>Puzzle solvers</h3><p>Some twelve year olds love the maths more than the screen. Code lets them test conjectures, count cases and see why an algorithm works, which is good training for contests.</p></div></div>
+    <p class="ag-mt-40">In Spanish, <a class="ag-inline-link" href="/programacion-para-ninos-de-12-anos">programación para niños de 12 años</a> compares Python, Roblox and Godot at this age. For the years after twelve, <a class="ag-inline-link" href="/coding-classes-for-teens-peru">coding classes for teens in Peru</a> covers building, competing and certification.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="learn">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What twelve year olds learn</p><h2>What programming can a twelve year old learn?</h2><p class="ag-lede">The real thing, at a gentler pace. A twelve year old can learn the same ideas an adult beginner learns, as long as each idea arrives with a project that makes it worth learning.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Ideas that click at twelve</h3><p><strong>Functions.</strong> Writing a piece of code once and calling it with different inputs. Twelve year olds like the feeling of building their own tools.</p>
+<p><strong>Lists.</strong> Keeping many values together and working through them with a loop: scores, names, the numbers in today's lesson.</p>
+<p><strong>Algorithms.</strong> A precise method that always works, such as a sieve for primes or a search through a sorted list. This is where coding and mathematics meet.</p></div><div><h3>Projects that hold attention</h3><p>A game with levels and a saved high score. A small website about a hobby. A program that answers a maths question nobody in the class could do by hand.</p>
+<p>Twelve year olds lose interest in exercises that lead nowhere. Every topic in our classes ends in something they can show a friend, and every project is explained aloud, in English, at the end.</p></div></div>
+    <p class="ag-mt-40">Twelve is also when many young coders choose a direction: making games, building for the web, or solving contest problems. They do not have to choose for ever. A term of each is a good way to find out, and the free class is a good way to start.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="secundaria">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Starting secundaria</p><h2>What changes when a child in Peru starts secundaria?</h2><p class="ag-lede">A five-year stretch begins, with a new weekly plan and, for those who want it, a new set of contests. The table lines up each grade with MINEDU's normative age and with the ONEM level it competes in.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Secundaria in Peru: grade, normative age on 31 March and ONEM 2026 level</caption><thead><tr><th scope="col">Grade</th><th scope="col">Normative age (MINEDU)</th><th scope="col">ONEM level (2026 bases)</th></tr></thead><tbody><tr><td>1° de secundaria</td><td>12</td><td>Nivel 1</td></tr><tr><td>2° de secundaria</td><td>13</td><td>Nivel 1</td></tr><tr><td>3° de secundaria</td><td>14</td><td>Nivel 2</td></tr><tr><td>4° de secundaria</td><td>15</td><td>Nivel 2</td></tr><tr><td>5° de secundaria</td><td>16</td><td>Nivel 3</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Ages from MINEDU, Edades normativas (normative age counted on 31 March each year). Levels from the bases of the XXII Olimpiada Nacional Escolar de Matemática 2026 as sent to schools by UGEL 06 in an oficio múltiple. Both read on 9 November 2026.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The secundaria plan</h3><p>Ley 28044 says secundaria "dura cinco años" and gives students "una formación científica, humanista y técnica". Under the regular school day the CNEB gives every grade 4 weekly periods of Matemática, 4 of Comunicación, 3 of Inglés and 2 of Educación para el Trabajo.</p>
+<p>With 45-minute periods, that is 180 minutes of mathematics and 135 of English a week, by our sum. There is still no computing area: digital skills remain a competency shared across subjects, so coding at school depends on the school.</p></div><div><h3>What that means for a twelve year old</h3><p>Secundaria is busier, and there are more teachers to adjust to. Coding classes that run at an hour the family chooses fit round that better than an after-school club fixed to one afternoon.</p>
+<p>English at school goes up to three periods a week. A twelve year old who also codes in English gets a lot of practice in precise, technical language, the kind that is hardest to pick up in a general class.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="contests">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Contests at twelve</p><h2>Which olympiads can a twelve year old in Peru take part in?</h2><p class="ag-lede">In maths, the ONEM from first grade of secundaria. In computing, the OPI is open to secondary students and gets harder later. We describe them from the organisers' own documents, and we are not connected with any of them.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>ONEM, the school maths olympiad</h3><p>The ONEM 2026 bases put 1° and 2° de secundaria in Nivel 1, with categories Alfa for public schools and Beta for private ones. The school stage ran nationwide on Wednesday 8 July 2026; its paper had ten closed constructed-response items and lasted two hours.</p>
+<p>According to El Peruano on 11 October 2026, the 2026 edition drew more than 1.7 million secondary students from its first stage. Entry is through your child's school, which runs the first round; the winners go on to the UGEL, regional and national stages.</p></div><div><h3>OPI, the computing olympiad</h3><p>The Olimpiadas Peruanas de Computación, organised by UTEC, are "abiertas gratuitamente a todos los estudiantes de secundaria del país". The OPI 2025 rules allowed only C++ in the final, in-person phase and banned generative AI for solving problems.</p>
+<p>A twelve year old is early for the OPI final, but not too early to prepare. Python teaches the thinking; C++ comes later for the contest itself. Our <a class="ag-inline-link" href="/olimpiada-de-matematica-onem-preparacion">page on ONEM preparation</a> explains, in Spanish, how we train with problems we write ourselves.</p></div></div>
+    <p class="ag-mt-40">One more door opens soon after twelve. MINEDU's COAR schools offered 2,650 places in their 2026 admission for public-school students who had finished 2° de secundaria. We mention it only so families know the timeline; we do not prepare for COAR admission and make no promise about any contest or admission result. We never reproduce an organiser's problems; every practice problem we use is our own.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="lesson">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">An original Python lesson</p><h2>How do we teach Python to a twelve year old? A sieve for primes</h2><p class="ag-lede">This is our lesson for twelve year olds who know loops and lists. It is more than two thousand years old, it fits in fifteen lines, and it shows a habit that contest coders need: count the work, not just the answer.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The idea, on paper first</h3><p>Write the numbers from 2 to 100. Circle 2, then cross out every multiple of 2 after it. Circle the next number not crossed out, 3, and cross out its multiples. Keep going. Whatever is circled at the end is prime. The method is called the sieve of Eratosthenes.</p>
+<p>The mentor asks one question before any code: when you reach 7, which is the first multiple you actually need to cross out? Most twelve year olds say 14. The answer is 49, because 14, 21, 28, 35 and 42 were already crossed out by 2, 3 or 5.</p></div><div><h3>In Python</h3><p>We keep a list of <code>True</code> and <code>False</code> values, one per number: <code>True</code> means "still might be prime". Crossing out means setting a value to <code>False</code>.</p>
+<p>Because of the question about 7, each prime starts crossing out at its own square, <code>p * p</code>, and the outer loop can stop once <code>p * p</code> is bigger than the limit. We also count how many numbers get crossed out, as a check.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: the sieve up to 100</b><span>Python</span></figcaption><pre>limit = 100
+is_prime = [True] * (limit + 1)
+is_prime[0] = False
+is_prime[1] = False
+
+crossings = 0
+for p in range(2, limit + 1):
+    if is_prime[p] and p * p &lt;= limit:
+        for multiple in range(p * p, limit + 1, p):
+            if is_prime[multiple]:
+                crossings = crossings + 1
+            is_prime[multiple] = False
+
+primes = [n for n in range(limit + 1) if is_prime[n]]
+print(primes)
+print("Primes up to", limit, ":", len(primes))
+print("Numbers crossed out:", crossings)</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>What Version 1 prints</b><span>Output</span></figcaption><pre>[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+Primes up to 100 : 25
+Numbers crossed out: 74</pre><p class="ag-code-note">Our run under Python 3 (python3 -I), unedited. 99 numbers from 2 to 100, minus 25 primes, leaves 74 crossed out, which matches the count.</p></figure>
+    <p class="ag-mt-40">Then the question that turns a twelve year old into a programmer who thinks about cost: <strong>how much work did starting at <code>p * p</code> save?</strong> We write a version that can start at either <code>2 * p</code> or <code>p * p</code> and counts every crossing-out step, even when a number is crossed out twice.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: the same answer, two amounts of work</b><span>Python</span></figcaption><pre>def count_primes(limit, start_at_square):
+    is_prime = [True] * (limit + 1)
+    is_prime[0] = is_prime[1] = False
+    work = 0
+    for p in range(2, limit + 1):
+        if not is_prime[p]:
+            continue
+        first = p * p if start_at_square else 2 * p
+        for multiple in range(first, limit + 1, p):
+            work = work + 1
+            is_prime[multiple] = False
+    return sum(is_prime), work
+
+for limit in [100, 1000, 10000]:
+    a = count_primes(limit, False)
+    b = count_primes(limit, True)
+    print(limit, "primes:", a[0], "| steps from 2p:", a[1], "| steps from p*p:", b[1])</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>What Version 2 prints</b><span>Output</span></figcaption><pre>100 primes: 25 | steps from 2p: 146 | steps from p*p: 104
+1000 primes: 168 | steps from 2p: 1958 | steps from p*p: 1411
+10000 primes: 1229 | steps from 2p: 23071 | steps from p*p: 16981</pre><p class="ag-code-note">Exact output of our run. Both versions find the same primes (25, 168 and 1229); starting at p times p saves between about a quarter and nearly 30% of the steps, by our division of the printed counts.</p></figure>
+    <p class="ag-mt-40">Two answers can be equally right and not equally good. The faster version was not found by typing; it came from the paper question about 7. That is the order we teach in: think, then code, then measure. It is also why AI tools that produce an answer instantly are no use to a twelve year old learning this: the answer was never the point.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Our practice, check by hand.</strong> Which numbers below 30 are crossed out more than once in Version 2 when you start at 2p? List them.</li><li><strong>Our practice, twins.</strong> Use the list of primes to print every pair that differs by 2, like 11 and 13. How many pairs are there below 100?</li><li><strong>Our practice, the stopping rule.</strong> Explain, in English, why the outer loop may stop once p times p passes the limit.</li><li><strong>Our practice, estimate.</strong> Without running anything, write down a guess for the number of primes below 100,000. Then run it and compare.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="ai">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">AI at twelve</p><h2>Can a twelve year old use ChatGPT or other AI for coding?</h2><p class="ag-lede">Not yet. Twelve is one birthday short of the age the main chatbot makers set, and for learning to code that year is a gift rather than a loss.</p></div>
+    <div class="ag-grid-3"><div><h3>The rules</h3><p>OpenAI asks ChatGPT users to be 13 or older, and Google sets 13 for Gemini on personal and school accounts. Anthropic sets 18 for Claude. None of them is for a twelve year old, so we do not use them in class.</p></div><div><h3>What happens at thirteen</h3><p>In our teen courses, students who have learnt to code first meet AI tools where the maker allows it, with a parent's permission where required, and use them to check and explain, never to replace thinking.</p></div><div><h3>Contest rules agree</h3><p>The OPI 2025 rules banned generative AI for solving problems. A young coder who can solve problems unaided is ready for that rule and for the real work behind it.</p></div></div>
+    <p class="ag-mt-40">Every major AI tool and the youngest age its maker allows is listed, with quotes from the makers' own terms, in our <a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="clock">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Peru time</p><h2>When would a twelve year old in Peru have class?</h2><p class="ag-lede">At an hour your family chooses, around the secundaria day. Peru uses UTC minus five all year and India uses UTC plus five and a half, which puts a mentor in India ten hours thirty minutes later than you, whatever the date. The rows below are conversions, not a schedule.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Peru hours a twelve year old might use, turned into India time (examples, not class slots)</caption><thead><tr><th scope="col">Time in Peru</th><th scope="col">Time in India</th><th scope="col">Fits around</th></tr></thead><tbody><tr><td>07:00</td><td>17:30</td><td>An early start in the summer holidays</td></tr><tr><td>10:30</td><td>21:00</td><td>A Saturday or Sunday morning</td></tr><tr><td>14:00</td><td>00:30, next day</td><td>An afternoon after a morning school shift</td></tr><tr><td>16:30</td><td>03:00, next day</td><td>The hour after a full school day</td></tr><tr><td>20:00</td><td>06:30, next day</td><td>Evening, once homework is done</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Worked out by us from the IANA tz database: America/Lima is UTC minus 5 and has not used summer time since 1994; Asia/Kolkata is UTC plus 5:30.</p>
+    <p class="ag-mt-40">Neither country moves its clocks, so the hour you pick holds from March to December and through the summer. Every Peru page, by age, subject and place, is on our <a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">coding and AI classes in Peru</a> page.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress at twelve</p>
+      <h2>How does a twelve year old progress in coding over a year?</h2>
+      <p class="ag-lede">These five stages are ours. They decide which group a twelve year old joins and when they are ready for our teen courses at thirteen.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Five stages for twelve year olds (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Typical timing</th><th scope="col">Can build</th><th scope="col">Can explain</th></tr></thead><tbody><tr><td>1. Fluent basics</td><td>Months 1 to 2</td><td>Programs with loops, decisions and input</td><td>What each line does</td></tr><tr><td>2. Own tools</td><td>Months 2 to 4</td><td>Functions reused across a project</td><td>Inputs, outputs and why</td></tr><tr><td>3. Data</td><td>Months 4 to 6</td><td>Programs that keep and search lists</td><td>How the program finds an item</td></tr><tr><td>4. Algorithms</td><td>Months 6 to 9</td><td>A sieve, a sort, a search, written from an idea</td><td>Why it is correct and how much work it does</td></tr><tr><td>5. Projects</td><td>Months 9 to 12</td><td>A planned project, finished and tested</td><td>What they would change next time</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 4 is where coding and school maths meet. A twelve year old who can explain why a method is correct is learning proof, not only programming.</p>
+<p>Ask to see the finished project at stage 5, and ask what your child would change. A thoughtful answer is the clearest sign of progress.</p></div><div><h3>For you, at twelve</h3><p>Count the work, not only the answer. Two programs can both be right; one can be far better.</p>
+<p>When you are stuck, write the idea in plain English first. The code is easier after that.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More options</p>
+      <h2>Nine more courses for twelve year olds</h2>
+      <p class="ag-lede">Taught live and in English, with a regular mentor, in a group of the same age or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Building</h3>
+        <span class="ag-band-sub">Ages 8 to 14</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CAJ / BUILD / 01</p>
+          <h4>C++ for kids</h4>
+          <p>A gentle first step into the language contests use.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAJ / BUILD / 02</p>
+          <h4>Roblox game coding</h4>
+          <p>Luau scripting for games others can play.</p>
+          <a class="ag-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAJ / BUILD / 03</p>
+          <h4>Web development for kids</h4>
+          <p>A real website, published by the young builder.</p>
+          <a class="ag-course-link" href="/courses/kids-ai-web-development-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Mathematics</h3>
+        <span class="ag-band-sub">Ages 10 to 15</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CAJ / MATH / 01</p>
+          <h4>Maths through coding</h4>
+          <p>Primes, patterns and proof explored in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAJ / MATH / 02</p>
+          <h4>AMC 8 preparation</h4>
+          <p>Contest maths for grade 8 and below.</p>
+          <a class="ag-course-link" href="/courses/amc-8-math-competition-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAJ / MATH / 03</p>
+          <h4>Middle school maths</h4>
+          <p>Pre-algebra and geometry with a firm base.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Ideas and teamwork</h3>
+        <span class="ag-band-sub">Ages 8 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CAJ / IDEA / 01</p>
+          <h4>AI literacy</h4>
+          <p>How AI learns and errs, without adult accounts.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAJ / IDEA / 02</p>
+          <h4>HTML and CSS</h4>
+          <p>Layouts that work on any screen.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAJ / IDEA / 03</p>
+          <h4>Hackathon for kids</h4>
+          <p>Twelve weeks of team building, then a live event.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How it works</p>
+      <h2>How live classes work for a twelve year old in Peru</h2>
+      <p class="ag-lede">Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Secundaria terms</p><p class="ag-slot-l">Afternoons or evenings in Peru, worked around the school shift.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Summer and mid-year</p><p class="ag-slot-l">Morning classes while school is out.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">A mentor for your child alone, at the hour you agree.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Projects, not drills</h3><p>Every topic ends in something that works.</p></div>
+      <div><h3>Think, code, measure</h3><p>The order behind every lesson.</p></div>
+      <div><h3>A regular mentor</h3><p>The same person, week after week.</p></div>
+      <div><h3>Twelve year olds together</h3><p>Groups by age and level.</p></div>
+      <div><h3>Notes for parents</h3><p>What was built, what was hard, what comes next.</p></div>
+      <div><h3>Group or one to one</h3><p>Fifteen to twenty, or just your child.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What older students have built</h2>
+      <p class="ag-lede">Students who start around twelve often build projects like these by fifteen or sixteen. The <a class="ag-inline-link" href="/student-labs">student labs</a> page has many more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for a twelve year old in Peru</h2>
+      <p class="ag-lede">You pay a monthly fee in US dollars by card. The card's bank changes it into soles at its own rate when the payment goes through, so what you see on the statement can vary slightly from month to month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Your child writes and explains a small program</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty twelve year olds</li><li>One mentor all the way</li><li>Two live classes a week</li><li>Monthly, cancel when you like</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Your child and a mentor alone</li><li>Projects matched to their interests</li><li>Your choice of hours</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from parents and students, quoted exactly.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Parents in Peru ask</p>
+      <h2>Coding at age 12: questions from families in Peru</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in Spanish?</h3>
+        <p>No. Classes are live and online, and they are taught only in English. Mentors speak clearly, follow your child's speed and accent, and write the important words on the shared screen. At twelve, most students follow well, and those who find it hard at first usually settle within a few weeks.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is twelve a good age to start coding?</h3>
+        <p>Yes. Twelve year olds learn typed code quickly because they read fast and can plan. A complete beginner of twelve often catches up with children who started much younger.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should my twelve year old learn Python or C++?</h3>
+        <p>Python first for almost everyone: it lets them think about the problem instead of the punctuation. C++ makes sense later for contests such as the OPI, whose 2025 final allowed only C++.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does 1° de secundaria in Peru teach programming?</h3>
+        <p>Not as its own area. The national plan gives secundaria Matemática, Comunicación, Inglés, Educación para el Trabajo and other areas, with digital skills as a shared competency. Some schools add computing in their own hours.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child enter the ONEM at twelve?</h3>
+        <p>Yes, through the school. The ONEM 2026 bases place 1° and 2° de secundaria in Nivel 1. Schools run the first stage, so ask yours. We are not connected with the ONEM and we never use its problems; our practice problems are our own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When could classes be in Peru time?</h3>
+        <p>Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. India stays ten hours thirty minutes ahead, so 16:30 for your child is 03:00 the next day for the mentor.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a twelve year old use ChatGPT in your classes?</h3>
+        <p>No. ChatGPT and Gemini set 13 as their minimum age and Claude sets 18. Twelve year olds learn to solve problems without them; students meet AI tools in our teen courses where the maker allows.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What comes after twelve?</h3>
+        <p>At thirteen, students can move into our teen courses: full Python, Java, web development, AI and contest programming. The mentor suggests the next step from what your child has built.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you prepare students for COAR admission?</h3>
+        <p>No. We mention COAR only because its admission is for public-school students who have finished 2° de secundaria, which is close to this age. Our classes are coding and maths, and we promise no admission or contest result.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Modern Age Coders part of MINEDU or connected to schools in Peru?</h3>
+        <p>No. Modern Age Coders runs independently, teaches from India, and has no tie with MINEDU, UTEC, a UGEL or any Peruvian school. Nothing we issue is a Peruvian grade; students who finish a course receive a completion certificate that we issue ourselves.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Read next</p>
+      <h2>More for twelve year olds and their parents</h2>
+      <p class="ag-lede">Useful next reads.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-for-12-year-olds">Coding for 12 year olds</a></h3><p>The same age seen without the Peru detail.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-12-year-olds">Python at twelve</a></h3><p>Python projects that suit this age.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-13-year-olds">Coding at thirteen</a></h3><p>What opens up a year from now.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tools by age</a></h3><p>The minimum age for each AI tool, in its maker's words.</p></div>
+      <div><h3><a class="ag-inline-link" href="/we-teach-you-how-to-think">Thinking before tools</a></h3><p>Why we ask before we tell.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Real projects from our students.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free coding class for your twelve year old</h2>
+        <p class="ag-lede">During the trial lesson your child solves a short puzzle, writes a small program and explains it, while the mentor listens for how they reason. Then you hear which course fits, whether a group or one-to-one lessons suit better, and which hours are open.</p>
+        <p class="ag-mt-40">Would you like to read more first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> describes a real class, and each syllabus is on the <a class="ag-inline-link" href="/courses">courses</a> page.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20our%20child%20is%20twelve%20and%20has%20just%20started%20secundaria%20in%20Peru.%20Could%20we%20book%20a%20free%20coding%20class%20in%20English%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'caj',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Live lessons from India, in English only. For a quick answer, WhatsApp us in English.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_caj(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Your name</label>
+            <input id="pe-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Phone or WhatsApp, Peru +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Learner age group</label>
+            <select id="pe-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Twelve year olds</h4><ul><li><a href="/coding-for-12-year-olds">Coding at twelve</a></li><li><a href="/python-for-12-year-olds">Python at twelve</a></li><li><a href="/ai-tools-age-guide">AI tools by age</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Peru</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Peru hub</a></li><li><a href="/programacion-para-ninos-de-12-anos">Leer en español</a></li><li><a href="/coding-classes-for-teens-peru">Teens in Peru</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Think, code, then measure</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_caj = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'coding-for-kids-age-12-peru-inline', meta: { name: name, age: age, page: 'coding-for-kids-age-12-peru' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
