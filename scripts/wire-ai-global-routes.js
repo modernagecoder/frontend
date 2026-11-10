@@ -1080,6 +1080,7 @@ const SLUGS = [
   'coding-and-ai-for-teens-in-ica-peru',
   'coding-classes-for-kids-in-juliaca-peru',
   'online-python-and-ai-classes-ayacucho-peru',
+  'coding-and-ai-for-teens-in-cajamarca-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2239,6 +2240,7 @@ const LLMS_LABELS = {
   'coding-and-ai-for-teens-in-ica-peru': 'Coding and AI for teens in Ica, Peru',
   'coding-classes-for-kids-in-juliaca-peru': 'Coding classes for kids in Juliaca, Peru',
   'online-python-and-ai-classes-ayacucho-peru': 'Online Python and AI classes in Ayacucho, Peru',
+  'coding-and-ai-for-teens-in-cajamarca-peru': 'Coding and AI for teens in Cajamarca, Peru',
 };
 
 function wireLlms(slugs) {
