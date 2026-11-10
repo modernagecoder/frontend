@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Live Coding Classes in Peru Time: How Flexible Hours Work</title>
+  <meta name="description" content="How live online coding classes in English fit Peru time: UTC-5 all year, India 10 hours 30 ahead, flexible hours booked on your own clock, with example conversions.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/live-coding-classes-peru-time">
+  <link rel="alternate" type="text/markdown" href="/src/pages/live-coding-classes-peru-time.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#934F00">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/live-coding-classes-peru-time">
+  <meta property="og:title" content="Live Coding Classes in Peru Time: How Flexible Hours Work">
+  <meta property="og:description" content="Peru keeps UTC-5 all year and India UTC+5:30, so the gap is always 10 hours 30 minutes. Who keeps Peru's official time, how booking on your own clock works, and a Python check with zoneinfo.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Live Coding Classes in Peru Time: How Flexible Hours Work">
+  <meta name="twitter:description" content="Live classes from India, at the hour you choose in Peru: the clock facts, the date line, and how flexible booking works.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-lct .ag-hero h1 { max-width: 15ch; letter-spacing: -0.01em; }
+.ag-root.ag-lct .ag-capsule { border-left-width: 5px; }
+.ag-root.ag-lct .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-lct .ag-steps li { line-height: 1.7; }
+.ag-root.ag-lct .ag-code pre { line-height: 1.5; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/live-coding-classes-peru-time#page","url":"https://learn.modernagecoders.com/live-coding-classes-peru-time","name":"Live Coding Classes in Peru Time","description":"A guide to how live online classes taught from India fit the clock in Peru, built from the IANA tz database, INACAL's official-time clock feed, INEI's Compendio Estadístico Perú 2026, RM 501-2025-MINEDU, the CNEB and INEI household technology data for 2026, with an original Python example using zoneinfo.","inLanguage":"en-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding and AI classes in Peru","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"Class times in Peru","item":"https://learn.modernagecoders.com/live-coding-classes-peru-time"}]},{"@type":"Course","name":"Live Coding Classes in Peru Time","description":"Live online coding, AI and maths classes for children, teenagers and adults in Peru, taught in English by mentors based in India, in a group of fifteen to twenty or one to one, at any hour the learner chooses in Peru time.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/live-coding-classes-peru-time"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/live-coding-classes-peru-time"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/live-coding-classes-peru-time"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in Spanish?","acceptedAnswer":{"@type":"Answer","text":"No. Every class is live, online and taught in English only, by mentors who speak clearly, follow the learner's pace and accent, and show each step on screen. This page talks about clocks, but the language of every class is English."}},{"@type":"Question","name":"What time zone is Peru in?","acceptedAnswer":{"@type":"Answer","text":"UTC minus 5, all year. In the tz database used by phones and computers the zone is America/Lima, and INACAL keeps Peru's official time. Peru has not used summer time since 1994."}},{"@type":"Question","name":"How many hours ahead of Peru is India?","acceptedAnswer":{"@type":"Answer","text":"Ten hours and thirty minutes, every day of the year. India uses UTC plus 5:30 and does not change its clocks either, so the gap never moves."}},{"@type":"Question","name":"When are the classes?","acceptedAnswer":{"@type":"Answer","text":"Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. You tell us your hours in Peru time and we match a group or set one-to-one lessons around them."}},{"@type":"Question","name":"Do I have to convert times myself?","acceptedAnswer":{"@type":"Answer","text":"No. Our booking page shows the time zone of your device, so in Peru you see Peru time. Every time we write to you is in Peru time too."}},{"@type":"Question","name":"Can my child have class in the afternoon if it is night in India?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our mentors who teach learners in the Americas choose to work those hours. A class at 16:00 in Peru is 02:30 the next day in India, and that is a normal teaching hour for them."}},{"@type":"Question","name":"Will my class hour change during the year?","acceptedAnswer":{"@type":"Answer","text":"Not because of clocks: neither Peru nor India changes time. It changes only if you ask, for example when a school shift or a job changes."}},{"@type":"Question","name":"What happens if we travel abroad?","acceptedAnswer":{"@type":"Answer","text":"The class stays at the same moment, so in another time zone it will show a different local hour. Tell your mentor before you travel and agree whether to keep it, move it or pause."}},{"@type":"Question","name":"Is there a fixed weekly timetable for Peru?","acceptedAnswer":{"@type":"Answer","text":"No. Groups run at hours agreed with the learners in them, and one-to-one lessons are set around you. We do not promise a particular weekend group in advance."}},{"@type":"Question","name":"Are you connected with INACAL, MINEDU or any Peruvian institution?","acceptedAnswer":{"@type":"Answer","text":"No. We cite INACAL, INEI and MINEDU as sources only. Modern Age Coders is a private online school with mentors in India and no link to any Peruvian institution or school."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/live-coding-classes-peru-time","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-lct">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Peru</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Peru</a></li>
+      <li><a href="#zone">Peru's clock</a></li>
+      <li><a href="#gap">The gap</a></li>
+      <li><a href="#booking">Booking</a></li>
+      <li><a href="#school">School hours</a></li>
+      <li><a href="#python">Python check</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a> / Class times in Peru
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Peru &middot; Time and scheduling &middot; Live, in English</p>
+        <h1>Live coding classes in Peru time</h1>
+        <p class="ag-lede">Our mentors teach from India and our students learn from Lima, Arequipa, Cusco, Piura and everywhere between. The clocks are ten and a half hours apart, and that sounds harder than it is. This page explains how the two clocks relate, who keeps Peru's official time, how you book a class in your own clock, and why an hour you choose in March is still the same hour in August.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#booking" class="ag-btn ag-btn--ghost">How booking works</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Peru%20and%20would%20like%20live%20classes%20in%20English.%20Which%20hours%20could%20work%20in%20Peru%20time%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'lct'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live since 2020 &middot; 4.9 from about 547 Google reviews &middot; every class booked in Peru time, at the hour you choose</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Peru time</dt><dd>UTC minus 5, all year</dd>
+          <dt>India time</dt><dd>UTC plus 5:30, all year</dd>
+          <dt>The gap</dt><dd>India 10 h 30 min ahead</dd>
+          <dt>Clock changes</dt><dd>None in either country</dd>
+          <dt>Booking</dt><dd>In your own Peru clock</dd>
+          <dt>Class hours</dt><dd>Any day, any time</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Modern Age Coders teaches live, online classes in English from India, and families in Peru book them at any hour that suits them. Peru keeps UTC minus 5 all year (IANA zone America/Lima, official time kept by INACAL) and India keeps UTC plus 5:30, so India is always 10 hours 30 minutes ahead. Neither country changes its clocks, so a class booked at 17:00 in Peru stays at 17:00 every month. You pick the hour in Peru time, in a group or one to one, and the mentor works to it.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Popular starting points</p>
+      <h2>Three courses families in Peru often book first</h2>
+      <p class="ag-lede">One for children, one for teenagers and one for adults. Each runs at the hours you choose in Peru time.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/kids-coding-blocks-masterclass">
+        <div class="ag-pick-shot"><img src="/images/kids-coding.webp" alt="Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">LCT / 01</p>
+          <h3>Coding for Kids</h3>
+          <p>Ages 6 to 12, grouped by age. Block coding from stories to games and small apps; most families pick late afternoon or summer mornings in Peru.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">LCT / 02</p>
+          <h3>Python for Teens</h3>
+          <p>Ages 13 to 18. From the first line of Python to real projects; teenagers often book after the school shift or at weekends.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">LCT / 03</p>
+          <h3>Python from Zero to Advanced</h3>
+          <p>For university students and working adults. Early-morning and evening Peru hours are both possible, around lectures or a job.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="who">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Who this page is for</p><h2>Who needs to know how Peru time and India time fit together?</h2><p class="ag-lede">Anyone in Peru thinking about live classes with mentors in India: parents booking for a child, teenagers organising their own week, and adults fitting lessons around work.</p></div>
+    <div class="ag-grid-3"><div><h3>Parents</h3><p>You want a class at an hour your child is fresh, not squeezed between school and dinner. You need to know that the hour will not drift and that nobody will ask you to convert anything.</p></div><div><h3>Teenagers</h3><p>Your timetable changes with every school year and every exam season. You want to know how easy it is to move a class and what happens around holidays.</p></div><div><h3>Adults</h3><p>You work Peru office hours, perhaps with colleagues in other countries. You want a class before work, after work or at lunch, and to know what that means for the teacher.</p></div></div>
+    <p class="ag-mt-40">If you read Spanish more easily, our page <a class="ag-inline-link" href="/clases-de-programacion-en-ingles-peru">clases de programación en inglés en Perú</a> explains the classes themselves in Spanish. All lessons, whatever page you read, are live and taught in English.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="zone">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Peru's clock</p><h2>What time zone is Peru in, and does it change in summer?</h2><p class="ag-lede">Peru uses UTC minus 5 all year and has not changed its clocks for summer since 1994. Three official records, each from a different keeper, say the same thing.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Three official records of the clock in Peru, and what each one shows</caption><thead><tr><th scope="col">Record</th><th scope="col">Kept by</th><th scope="col">What it shows</th></tr></thead><tbody><tr><td>tz database, zone America/Lima</td><td>IANA (the time zone database used by computers and phones)</td><td>Standard offset minus 5:00; the last summer-time rule for Peru ran from 1 January to 1 April 1994</td></tr><tr><td>Official-time clock feed</td><td>INACAL, Peru's national quality institute, which keeps official time</td><td>Read at 16:24:04 UTC on 8 November 2026, it gave 11:23:57, five hours behind UTC</td></tr><tr><td>Compendio Estadístico Perú 2026, cuadro 1.3</td><td>INEI, from Instituto Geofísico del Perú data</td><td>When it is 12:00 noon in Lima, it is 10:30 p.m. in Delhi, Mumbai (Bombay in the table) and Kolkata (Calcuta)</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: IANA tz database, file southamerica (Zone America/Lima, Rule Peru); INACAL, hourServer2.php clock feed on www.inacal.gob.pe; INEI, Compendio Estadístico Perú 2026, tomo 1, cuadro 1.3. All read on 8 and 9 November 2026.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the computer record matters</h3><p>Your phone, your laptop and our booking system all take their time rules from the same tz database. Its entry for Lima is short: a local mean time until 1908, then UTC minus 5, with occasional summer-time rules that stopped after 1994.</p>
+<p>That is why a booking made in Peru time never jumps by an hour in October or March the way bookings do in countries with daylight saving. There is simply no switch to make.</p></div><div><h3>Why the official record matters</h3><p>INACAL is the body that keeps official time in Peru, and its own clock feed matched UTC minus 5 when we read it. INEI's statistical compendium, using data from the Instituto Geofísico del Perú, prints the same gap to India: noon in Lima, 10:30 at night in Delhi.</p>
+<p>One small curiosity from that INEI table: Lima sits at longitude 77°02' west and Delhi at 77°15' east. The cities are almost mirror images either side of the Greenwich meridian, which is part of why their clocks sit so far apart.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="gap">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The gap</p><h2>How far ahead of Peru is India, and when does the date change?</h2><p class="ag-lede">India is 10 hours 30 minutes ahead of Peru on every day of the year. From 13:30 in Peru onwards, it is already the next calendar day in India.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Where the half hour comes from</h3><p>Most of the world's time zones are whole hours from UTC. India chose a single zone half-way between two, at UTC plus 5:30. Peru is a whole-hour zone at UTC minus 5. Add the two distances together and you get ten and a half hours.</p>
+<p>The half hour catches people out. Adding ten hours in your head is easy; remembering the extra thirty minutes is where mistakes happen, as the Python example further down shows.</p></div><div><h3>Where the date line falls</h3><p>At 13:30 in Peru it is exactly midnight in India. Any class you book after 13:30 Peru time happens on the next date for the mentor. That changes nothing for you: you see your own date and your own hour.</p>
+<p>It does explain why mentors can teach your afternoon and evening: for them it is night or early morning, and they choose to work those hours so that learners in the Americas get the times they want.</p></div></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Example Peru hours and the same moment in India (conversions only; not a timetable and not a list of fixed classes)</caption><thead><tr><th scope="col">Peru time</th><th scope="col">India time</th><th scope="col">Day in India</th></tr></thead><tbody><tr><td>06:00</td><td>16:30</td><td>Same day</td></tr><tr><td>09:00</td><td>19:30</td><td>Same day</td></tr><tr><td>13:30</td><td>00:00</td><td>Next day (exactly midnight)</td></tr><tr><td>18:00</td><td>04:30</td><td>Next day</td></tr><tr><td>21:00</td><td>07:30</td><td>Next day</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Conversions computed by us with Python's zoneinfo for 20 January 2027 and checked against 20 July 2027; both dates give the same result because neither zone changes.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="booking">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Flexible scheduling</p><h2>How does flexible scheduling work for a family in Peru?</h2><p class="ag-lede">Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. In practice it goes like this.</p></div>
+    <ol class="ag-steps"><li><strong>Tell us the hours that suit you, in Peru time.</strong> On the form or on WhatsApp, write them as you would for anyone in Peru: "weekdays after 16:00", "Saturday mornings", "before 08:00". You never need to convert.</li><li><strong>Book the free class on your own clock.</strong> Our booking page shows times in the time zone of the device you are using, so in Peru you see Peru hours. The mentor sees the same moment in India time.</li><li><strong>Choose a group or one to one.</strong> A group of fifteen to twenty learners of similar age and level runs at hours agreed for that group; one-to-one lessons are set entirely around you.</li><li><strong>Meet your mentor.</strong> The mentor who takes the free class, or one matched to the hours you gave, teaches the course. The same person teaches you week after week.</li><li><strong>Keep the hour all year.</strong> Because neither country changes its clocks, the hour you start with stays the same through the school year and the summer.</li><li><strong>Change it when life changes.</strong> A new school shift, an exam season or a new job: tell us, and we look for a new hour or a different group.</li></ol>
+    <p class="ag-mt-40">There is no published Peru class grid, and we never promise a particular weekend group in advance, because hours are set around the learners who join. The examples on this page are conversions, so you can see what an hour means on both sides.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Around the school day</p><h2>Which hours suit a school day in Peru?</h2><p class="ag-lede">It depends on the school shift and the time of year. Two MINEDU documents explain most of what families tell us.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The school year</h3><p>MINEDU's norm for 2026, RM 501-2025-MINEDU, set thirty-six teaching weeks: the first block ran from 16 March and the last ended on 18 December 2026, with management weeks from 2 to 13 March before pupils returned.</p>
+<p>So January and February sat outside the 2026 school calendar. Families often move classes to mornings in those months, then back to afternoons in March. With no clock change in Peru or India, only your own routine moves.</p></div><div><h3>The school day</h3><p>The CNEB counts school time in teaching periods of 45 minutes. Secundaria schools on the full school day, the Jornada Escolar Completa, have 45 periods a week, so their pupils are home later than those on the regular day.</p>
+<p>That is why families tell us their child's shift before we suggest an hour. Morning-shift pupils often take classes after lunch; full-day pupils prefer evenings or Saturday; younger children learn most before about 18:30.</p></div></div>
+    <p class="ag-mt-40">Getting online is rarely the problem in the cities. INEI found that 92.4% of people aged 6 and over in Lima Metropolitana used the internet in the second quarter of 2026, against 86.1% in the rest of urban Peru and 63.7% in rural areas. For the summer, our <a class="ag-inline-link" href="/peru-summer-holiday-coding-classes-online">summer holiday coding classes</a> page suggests what to do with the free months.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="adults">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">For adults</p><h2>Can adults in Peru take live classes before or after work?</h2><p class="ag-lede">Yes. Early mornings in Peru are evenings in India, and Peru evenings are early mornings in India, so both ends of a working day are open.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Before work</h3><p>A class from 06:00 to 08:00 in Lima is 16:30 to 18:30 in India: a comfortable working afternoon for a mentor. Professionals who like to learn before the day starts often take this slot one to one.</p>
+<p>Lunchtime works too. A class at 12:00 in Peru is 22:30 in India, which some of our mentors are happy to teach.</p></div><div><h3>After work</h3><p>Evenings in Peru from 19:00 to 22:00 are 05:30 to 08:30 the next morning in India. Mentors who teach the Americas plan their day around exactly these hours.</p>
+<p>Adults in Lima also tend to be comfortable in English: in the EF English Proficiency Index 2025, Lima scored 555, in EF's "high" band. For more on courses around a job, see <a class="ag-inline-link" href="/ai-and-coding-for-professionals-peru">AI and coding for professionals in Peru</a>.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="python">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">An original Python check</p><h2>How can you check a class time between Peru and India in Python?</h2><p class="ag-lede">With the zoneinfo module, which uses the same tz database as your phone. We use this small lesson with teenagers and adults: it is real code, and it shows why clock arithmetic belongs to the computer.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Aware times, not naive ones</h3><p>A Python <code>datetime</code> with no zone attached is "naive": it is a number on a clock face with no place. Attach <code>ZoneInfo("America/Lima")</code> and it becomes "aware": a real moment that can be shown in any other zone.</p>
+<p><code>astimezone()</code> then converts the moment to India time, including the date. We try three Lima times on 20 January and 20 July 2027, to test the claim that nothing changes between the seasons.</p></div><div><h3>What to look for</h3><p>The <code>%z</code> code prints each offset. If Peru used summer time, January and July would show different offsets. If the date line works, 16:45 in Lima should land on the next day in India.</p>
+<p>The run below shows both. Then a second script starts from the mentor's side, the way a teacher in India might offer a slot, and compares the right answer with a quick sum done by hand.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: three Lima times in January and July, converted to India time</b><span>Python</span></figcaption><pre>from datetime import datetime
+from zoneinfo import ZoneInfo
+
+lima = ZoneInfo("America/Lima")
+india = ZoneInfo("Asia/Kolkata")
+
+for day in [(2027, 1, 20), (2027, 7, 20)]:
+    for hour, minute in [(7, 30), (13, 0), (16, 45)]:
+        here = datetime(*day, hour, minute, tzinfo=lima)
+        there = here.astimezone(india)
+        print(here.strftime("%d %b %H:%M Lima"), "-&gt;", there.strftime("%d %b %H:%M India"),
+              "| offsets", here.strftime("%z"), there.strftime("%z"))</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>What Version 1 prints</b><span>Output</span></figcaption><pre>20 Jan 07:30 Lima -&gt; 20 Jan 18:00 India | offsets -0500 +0530
+20 Jan 13:00 Lima -&gt; 20 Jan 23:30 India | offsets -0500 +0530
+20 Jan 16:45 Lima -&gt; 21 Jan 03:15 India | offsets -0500 +0530
+20 Jul 07:30 Lima -&gt; 20 Jul 18:00 India | offsets -0500 +0530
+20 Jul 13:00 Lima -&gt; 20 Jul 23:30 India | offsets -0500 +0530
+20 Jul 16:45 Lima -&gt; 21 Jul 03:15 India | offsets -0500 +0530</pre><p class="ag-code-note">Exact output when we ran it with Python 3 (python3 -I). The offsets are -0500 and +0530 in both months, and 16:45 in Lima is 03:15 the next day in India.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: a slot offered in India time, and the same sum done carelessly</b><span>Python</span></figcaption><pre>from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
+
+lima = ZoneInfo("America/Lima")
+india = ZoneInfo("Asia/Kolkata")
+
+# A mentor offers 06:00 India time on Thursday 21 January 2027.
+slot = datetime(2027, 1, 21, 6, 0, tzinfo=india)
+print("Mentor's clock:", slot.strftime("%A %d %B, %H:%M"))
+print("Family's clock:", slot.astimezone(lima).strftime("%A %d %B, %H:%M"))
+
+# The same sum done by hand, with a naive time and no zone.
+naive = datetime(2027, 1, 21, 6, 0) - timedelta(hours=10)
+print("Hand sum, forgot the half hour:", naive.strftime("%A %d %B, %H:%M"))</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>What Version 2 prints</b><span>Output</span></figcaption><pre>Mentor's clock: Thursday 21 January, 06:00
+Family's clock: Wednesday 20 January, 19:30
+Hand sum, forgot the half hour: Wednesday 20 January, 20:00</pre><p class="ag-code-note">Exact output of our run. The correct conversion gives 19:30 on Wednesday in Peru; subtracting ten hours by hand and forgetting the half hour gives 20:00, thirty minutes late.</p></figure>
+    <p class="ag-mt-40"><strong>The hand sum was off by exactly the half hour that makes the Peru and India gap unusual.</strong> Nothing crashed and nothing looked wrong; the answer was simply thirty minutes late. That is the kind of error we train learners to expect from any confident shortcut, whether it is their own mental arithmetic or a line of code an AI tool suggests. Our booking system converts times this way, with zones attached, which is why you never have to.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Our practice, predict.</strong> Before running anything, work out the India time for 13:30 in Lima. Then check it in Python. What is special about the answer?</li><li><strong>Our practice, reverse.</strong> Change Version 2 so the mentor offers 21:00 India time on a Saturday. What day and hour is that in Peru?</li><li><strong>Our practice, a loop.</strong> Print every whole hour from 06:00 to 22:00 in Lima with its India time, and mark the rows where India is on the next day.</li><li><strong>Our practice, explain.</strong> In two English sentences, say why a naive datetime is risky for anything involving two countries.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="travel">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Travel and moves</p><h2>What if we travel or move within Peru?</h2><p class="ag-lede">Within Peru, nothing changes: the whole country is one time zone. Outside Peru, tell your mentor before you go.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Inside Peru</h3><p>Tumbes, Lima, Cusco, Iquitos and Puno all keep the same clock, so a family who moves from Trujillo to Arequipa keeps its class hour exactly. Only the internet connection needs checking.</p>
+<p>The same is true for holidays inside the country. A class at 17:00 is at 17:00 whether your child is at home in Lima or at their grandparents' house in Huancayo.</p></div><div><h3>Outside Peru</h3><p>If you travel to a country with a different clock, our booking page shows the class in the zone of your device, but the class itself does not move. Let your mentor know, and agree whether to keep the hour, move it or pause.</p>
+<p>Families in Lima from abroad, including many at international schools, will find more about classes for them on our <a class="ag-inline-link" href="/english-medium-coding-classes-lima">English-medium coding classes in Lima</a> page.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Planning a year</p>
+      <h2>How might a family in Peru plan class hours across a year?</h2>
+      <p class="ag-lede">One example, written by us for a child in a morning school shift. It shows how hours shift with the school calendar; it is not a timetable, and your own plan is set with you.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>An example year of class hours for a child in Peru (our illustration, not a schedule)</caption><thead><tr><th scope="col">Period</th><th scope="col">Example Peru hour</th><th scope="col">Same moment in India</th><th scope="col">Why it changes</th></tr></thead><tbody><tr><td>January and February</td><td>09:00</td><td>19:30</td><td>No school; mornings are fresh</td></tr><tr><td>March to mid-May</td><td>16:00</td><td>02:30, next day</td><td>School is back; after lunch and a rest</td></tr><tr><td>A one-week break</td><td>10:00</td><td>20:30</td><td>An extra morning class if wanted</td></tr><tr><td>Mid-year break</td><td>09:30</td><td>20:00</td><td>Two weeks free of school</td></tr><tr><td>August to December</td><td>16:00</td><td>02:30, next day</td><td>Back to the term-time hour</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Choose the term-time hour first, because it lasts longest. Holiday hours are a bonus, not a requirement.</p>
+<p>Tell us about exam weeks early. Moving a class for a week is easy when it is planned.</p></div><div><h3>For learners</h3><p>Pick the hour when your head is clearest, not the hour that is left over.</p>
+<p>If a class hour stops working, say so. Hours can change; a tired learner learns little.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses taught at Peru-friendly hours</h2>
+      <p class="ag-lede">Every course is live and in English, and every one can run at the hours you choose, in a group or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Children</h3>
+        <span class="ag-band-sub">Ages 6 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">LCT / KIDS / 01</p>
+          <h4>Scratch Coding for Kids</h4>
+          <p>Blocks to games in about three months.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LCT / KIDS / 02</p>
+          <h4>Python and AI for Kids</h4>
+          <p>Typed code for nine to twelve year olds.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LCT / KIDS / 03</p>
+          <h4>Elementary maths</h4>
+          <p>Grades 1 to 5, placed by level.</p>
+          <a class="ag-course-link" href="/courses/elementary-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teenagers</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">LCT / TEEN / 01</p>
+          <h4>AI and machine learning</h4>
+          <p>From Python to real models.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LCT / TEEN / 02</p>
+          <h4>Java for teens</h4>
+          <p>Object-oriented programming, step by step.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LCT / TEEN / 03</p>
+          <h4>IGCSE mathematics</h4>
+          <p>For Cambridge-curriculum students in Peru.</p>
+          <a class="ag-course-link" href="/courses/igcse-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Adults</h3>
+        <span class="ag-band-sub">University and work</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">LCT / ADULT / 01</p>
+          <h4>Generative AI</h4>
+          <p>How modern AI works, and how to use it well.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LCT / ADULT / 02</p>
+          <h4>AI coding agents</h4>
+          <p>Working with coding agents, for adults.</p>
+          <a class="ag-course-link" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">LCT / ADULT / 03</p>
+          <h4>Data science</h4>
+          <p>Python, statistics and real datasets.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How it works</p>
+      <h2>How hours are set for learners in Peru</h2>
+      <p class="ag-lede">Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Mornings</p><p class="ag-slot-l">Peru mornings are India evenings: easy for both sides.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Afternoons and evenings</p><p class="ag-slot-l">India is past midnight; our mentors teach these hours by choice.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Any hour you name, set around one learner.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Your clock only</h3><p>Every time we send you is in Peru time.</p></div>
+      <div><h3>No seasonal shift</h3><p>Neither country changes clocks, so hours hold all year.</p></div>
+      <div><h3>The same mentor</h3><p>One teacher, week after week.</p></div>
+      <div><h3>Groups by level</h3><p>Fifteen to twenty learners of a similar age and stage.</p></div>
+      <div><h3>Easy changes</h3><p>New shift or new job: tell us and we adjust.</p></div>
+      <div><h3>Two formats</h3><p>A group, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What learners build, whatever the hour</h2>
+      <p class="ag-lede">Classes at 07:00 or 19:00 produce the same work. A few projects by our students are below, and more are on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for learners in Peru</h2>
+      <p class="ag-lede">Fees are in US dollars, paid monthly by card. Your card issuer converts each payment to soles at its own rate on the day, so the amount on your statement may vary slightly from month to month. The hour you choose never changes the fee.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Booked at an hour you choose in Peru time</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty learners of similar level</li><li>One mentor throughout</li><li>Two live classes a week</li><li>Monthly, stop any time</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>One learner, one mentor</li><li>Any hour you name</li><li>Pace set around you</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What students and parents wrote on Google, word for word.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Peru</p>
+      <h2>Class times in Peru: questions we are asked</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in Spanish?</h3>
+        <p>No. Every class is live, online and taught in English only, by mentors who speak clearly, follow the learner's pace and accent, and show each step on screen. This page talks about clocks, but the language of every class is English.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time zone is Peru in?</h3>
+        <p>UTC minus 5, all year. In the tz database used by phones and computers the zone is America/Lima, and INACAL keeps Peru's official time. Peru has not used summer time since 1994.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many hours ahead of Peru is India?</h3>
+        <p>Ten hours and thirty minutes, every day of the year. India uses UTC plus 5:30 and does not change its clocks either, so the gap never moves.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the classes?</h3>
+        <p>Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. You tell us your hours in Peru time and we match a group or set one-to-one lessons around them.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I have to convert times myself?</h3>
+        <p>No. Our booking page shows the time zone of your device, so in Peru you see Peru time. Every time we write to you is in Peru time too.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child have class in the afternoon if it is night in India?</h3>
+        <p>Yes. Our mentors who teach learners in the Americas choose to work those hours. A class at 16:00 in Peru is 02:30 the next day in India, and that is a normal teaching hour for them.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will my class hour change during the year?</h3>
+        <p>Not because of clocks: neither Peru nor India changes time. It changes only if you ask, for example when a school shift or a job changes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens if we travel abroad?</h3>
+        <p>The class stays at the same moment, so in another time zone it will show a different local hour. Tell your mentor before you travel and agree whether to keep it, move it or pause.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is there a fixed weekly timetable for Peru?</h3>
+        <p>No. Groups run at hours agreed with the learners in them, and one-to-one lessons are set around you. We do not promise a particular weekend group in advance.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you connected with INACAL, MINEDU or any Peruvian institution?</h3>
+        <p>No. We cite INACAL, INEI and MINEDU as sources only. Modern Age Coders is a private online school with mentors in India and no link to any Peruvian institution or school.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Read next</p>
+      <h2>More about live classes</h2>
+      <p class="ag-lede">Pages that explain the rest of how classes work.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>One live lesson, start to finish.</p></div>
+      <div><h3><a class="ag-inline-link" href="/we-teach-you-how-to-think">Thinking first</a></h3><p>Why our mentors ask before they tell.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-roadmap">Coding roadmap</a></h3><p>What to learn, in what order, at any age.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tools by age</a></h3><p>The minimum age each AI maker sets.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Projects by our students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/courses">All courses</a></h3><p>Every syllabus in one place.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free class at an hour that suits you in Peru</h2>
+        <p class="ag-lede">Tell us the hours that work for you, in Peru time, and book a free first class. The mentor meets the learner, sets a short task, and suggests a course, a format and an hour that will hold for the months ahead.</p>
+        <p class="ag-mt-40">Want to see a class first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> walks through one, and the <a class="ag-inline-link" href="/courses">course list</a> has every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20we%20are%20in%20Peru%20and%20would%20like%20live%20classes%20in%20English.%20Which%20hours%20could%20work%20in%20Peru%20time%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'lct',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Live classes from India, taught in English. On WhatsApp, write your preferred hours in Peru time.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_lct(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Your name</label>
+            <input id="pe-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Phone or WhatsApp, Peru +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Learner age group</label>
+            <select id="pe-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no commitment.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Live classes</h4><ul><li><a href="/how-we-teach">How we teach</a></li><li><a href="/coding-roadmap">Coding roadmap</a></li><li><a href="/student-labs">Student projects</a></li><li><a href="/courses">All courses</a></li></ul></div>
+      <div><h4>Peru</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Peru hub</a></li><li><a href="/english-medium-coding-classes-lima">Coding in English, Lima</a></li><li><a href="/peru-summer-holiday-coding-classes-online">Summer classes</a></li><li><a href="/clases-de-programacion-en-ingles-peru">Leer en español</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Ten hours, and the half hour</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_lct = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'live-coding-classes-peru-time-inline', meta: { name: name, age: age, page: 'live-coding-classes-peru-time' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
