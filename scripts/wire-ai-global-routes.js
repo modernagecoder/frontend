@@ -1161,6 +1161,7 @@ const SLUGS = [
   'coding-classes-in-surco-lima',
   'coding-classes-in-la-molina-lima',
   'coding-classes-in-san-borja-lima',
+  'coding-classes-in-barranco-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2401,6 +2402,7 @@ const LLMS_LABELS = {
   'coding-classes-in-surco-lima': 'Coding classes in Surco, Lima',
   'coding-classes-in-la-molina-lima': 'Coding classes in La Molina, Lima',
   'coding-classes-in-san-borja-lima': 'Coding classes in San Borja, Lima',
+  'coding-classes-in-barranco-lima': 'Coding classes in Barranco, Lima',
 };
 
 function wireLlms(slugs) {
