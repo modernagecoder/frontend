@@ -1156,6 +1156,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-la-victoria-lima',
   'clases-de-programacion-para-ninos-pachacamac-lima',
   'clases-de-programacion-para-ninos-lurin-lima',
+  'coding-classes-in-miraflores-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2391,6 +2392,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-la-victoria-lima': 'Clases de programación para niños en La Victoria',
   'clases-de-programacion-para-ninos-pachacamac-lima': 'Clases de programación para niños en Pachacámac',
   'clases-de-programacion-para-ninos-lurin-lima': 'Clases de programación para niños en Lurín',
+  'coding-classes-in-miraflores-lima': 'Coding classes in Miraflores, Lima',
 };
 
 function wireLlms(slugs) {
