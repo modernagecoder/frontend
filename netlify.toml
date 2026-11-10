@@ -34227,6 +34227,18 @@
   to = "/src/pages/online-coding-and-ai-classes-san-martin-region-peru.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-ai-classes-huanuco-region-peru"
+  to = "/src/pages/online-coding-and-ai-classes-huanuco-region-peru.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-ai-classes-huanuco-region-peru.md"
+  to = "/src/pages/online-coding-and-ai-classes-huanuco-region-peru.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
