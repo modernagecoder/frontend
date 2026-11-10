@@ -1105,6 +1105,7 @@ const SLUGS = [
   'ib-computer-science-tutor-peru',
   'coding-classes-in-huancayo-peru',
   'coding-classes-in-iquitos-peru',
+  'maths-tutor-lima-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2289,6 +2290,7 @@ const LLMS_LABELS = {
   'ib-computer-science-tutor-peru': 'IB computer science tutor, Peru',
   'coding-classes-in-huancayo-peru': 'Coding classes in Huancayo, Peru',
   'coding-classes-in-iquitos-peru': 'Coding classes in Iquitos, Peru',
+  'maths-tutor-lima-peru': 'Maths tutor in Lima, Peru',
 };
 
 function wireLlms(slugs) {
