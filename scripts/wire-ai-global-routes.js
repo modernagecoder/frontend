@@ -1101,6 +1101,7 @@ const SLUGS = [
   'vibe-coding-classes-peru',
   'online-maths-classes-peru',
   'maths-for-kids-in-english-peru',
+  'ib-maths-tutor-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2281,6 +2282,7 @@ const LLMS_LABELS = {
   'vibe-coding-classes-peru': 'Vibe coding classes in Peru',
   'online-maths-classes-peru': 'Online maths classes in Peru',
   'maths-for-kids-in-english-peru': 'Maths for kids in English, Peru',
+  'ib-maths-tutor-peru': 'IB maths tutor, Peru',
 };
 
 function wireLlms(slugs) {
