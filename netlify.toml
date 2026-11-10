@@ -34059,6 +34059,18 @@
   to = "/src/pages/online-python-and-ai-classes-tacna-peru.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-and-ai-for-teens-in-ica-peru"
+  to = "/src/pages/coding-and-ai-for-teens-in-ica-peru.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-and-ai-for-teens-in-ica-peru.md"
+  to = "/src/pages/coding-and-ai-for-teens-in-ica-peru.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
