@@ -1,4 +1,4 @@
-// SHIP: market (es district, vacaciones útiles) | primaria summer: sport talleres in the morning, code at home | one bad lap: average against median
+// SHIP: market (es district, vacaciones útiles) | primaria: sport mornings, Python and AI or own course 4 to 5 a week | one bad lap: average against median
 'use strict';
 // Vacaciones útiles de programación en San Borja, Lima (ag- Spanish door, Peru cluster row PE219, P2, hubGroup lima).
 // Spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md; writer brief docs/superpowers/plans/2026-11-09-pe-writer-brief.md.
@@ -30,7 +30,15 @@
 //    los hogares disponía del servicio"; "el uso de Internet fue menor entre los niños de 6 a 11 años (68,2%)".
 //  EF EPI 2025 Peru page (ef_peru.txt): Lima 555, high band from 550; speaking 480.
 //  Time (timezone.tsv): America/Lima UTC-5 all year, no DST since 1994; Asia/Kolkata UTC+5:30; India 10 h 30 min ahead.
+// Summer offer (owner 2026-11-10, brief section "Summer offer"): Summer Python and AI (python-ai-kids-masterclass, ages 9 to
+//   12) or any catalogue course (Scratch, Roblox, game dev, web for kids, block apps, vibe coding, C++ for kids, maths and
+//   more) at 4 to 5 live classes a week, group or one to one, flexible hours; summer pace and fee agreed with the mentor
+//   first; first class free; no price typed. Lengths from content/courses/data/*.json meta.duration: Scratch 3-4 months
+//   (12-16 weeks), Roblox kids 6 months (24 weeks), Python and AI kids 8-10 months (32-40 weeks).
 // Our own calculations: 3 x 45 = 135 minutes of Educación física a week in primaria (CNEB, our arithmetic).
+//   Start-week table (ours, illustrative; assumes a mid-March return like 16 March 2026, the 2027 date is not published):
+//   10 weeks x 4 = 40, x 5 = 50; 8 x 4 = 32, x 5 = 40; 6 x 4 = 24, x 5 = 30; 3 x 4 = 12, x 5 = 15.
+//   Scratch 12-16 weeks x 2 = 24-32 classes; Roblox 24 x 2 = 48; Python and AI kids 32-40 x 2 = 64-80.
 // Our own example (borja_media.py, borja_media2.py in the src-pages folder), run with python3 -I, exact output:
 //    v1: Laps in order: [41.6, 41.8, 41.9, 42.1, 42.3, 43.0, 58.4] / Average: 44.4 / Median: 42.1
 //    v2 (slow lap removed, six laps): Laps in order: [41.6, 41.8, 41.9, 42.1, 42.3, 43.0] / Average: 42.1 / Median: 42.0
@@ -92,51 +100,84 @@ module.exports = {
   parents: [{ slug: 'coding-and-ai-classes-in-peru', name: 'Peru' }],
   routeLabel: 'Vacaciones útiles de programación en San Borja',
   title: 'Vacaciones útiles de programación en San Borja, Lima',
-  description: 'Vacaciones útiles de programación para niños de San Borja: clases en vivo y en inglés desde casa, compatibles con los talleres deportivos, a la hora que usted elija.',
-  ogDescription: 'Deporte por la mañana y programación desde casa: cómo armar unas vacaciones útiles en San Borja con clases en vivo y en inglés para niños de primaria.',
-  twitterDescription: 'Vacaciones útiles de programación para niños de San Borja, en vivo y en inglés, sin quitarle tiempo a la natación ni al fútbol.',
+  description: 'Vacaciones útiles de programación para niños de San Borja: Python e IA o el curso que elijan, de 4 a 5 clases en vivo por semana en inglés, junto al deporte.',
+  ogDescription: 'Deporte por la mañana y código por la tarde: Python e IA o un curso a elección, de 4 a 5 clases en vivo por semana, para niños de primaria de San Borja.',
+  twitterDescription: 'Un verano de Python e IA, o de Scratch y Roblox, con 4 a 5 clases en vivo por semana y en inglés, sin quitarle la piscina a nadie.',
   pageName: 'Vacaciones útiles de programación en San Borja',
-  webPageDescription: 'Guía para familias de San Borja, Lima, con hijos en primaria que quieren sumar programación a un verano de talleres deportivos y culturales: lo que la Municipalidad de San Borja publicó sobre sus talleres del verano 2025, la población del distrito según el INEI (Censos 2025), las horas de primaria del CNEB, las pausas del año escolar según la RM 501-2025-MINEDU y una clase de ejemplo en Python, escrita por nosotros, que resume tiempos de natación con promedio y mediana.',
-  courseDescription: 'Clases en vivo de programación para niños de 8 a 12 años en San Borja y todo Lima, dictadas solo en inglés y por videollamada: Scratch, Python, videojuegos y primeros proyectos con IA, en grupo o individuales, empezando en el verano y a cualquier hora.',
+  webPageDescription: 'Guía para familias de San Borja, Lima, con hijos en primaria que quieren sumar programación a un verano de talleres deportivos y culturales: nuestro verano de Python e IA o de un curso a elección con 4 a 5 clases por semana, lo que la Municipalidad de San Borja publicó sobre sus talleres del verano 2025, la población del distrito según el INEI (Censos 2025), las horas de primaria del CNEB, las pausas del año escolar según la RM 501-2025-MINEDU y una clase de ejemplo en Python, escrita por nosotros, que resume tiempos de natación con promedio y mediana.',
+  courseDescription: 'Clases en vivo de programación para niños de 8 a 12 años en San Borja y todo Lima, dictadas solo en inglés y por videollamada: Python e IA o un curso a elección como Scratch, Roblox o videojuegos, con 4 a 5 clases por semana en verano, en grupo o individuales y a cualquier hora.',
   crumbs: [{ name: 'Cursos', href: '/courses' }, { name: 'Perú', href: '/coding-and-ai-classes-in-peru' }],
   crumbLabel: 'Vacaciones útiles en San Borja',
   navLinks: [
     { href: '/coding-and-ai-classes-in-peru', label: 'Perú' },
+    { href: '#verano', label: 'Plan de verano' },
     { href: '#talleres', label: 'Talleres' },
     { href: '#combinar', label: 'Combinar' },
     { href: '#ejemplo', label: 'Ejemplo' },
-    { href: '#edades', label: 'Por edad' },
-    { href: '#marzo', label: 'Marzo' }
+    { href: '#edades', label: 'Por edad' }
   ],
   eyebrow: 'San Borja, Lima &middot; Vacaciones útiles &middot; De 8 a 12 años',
   h1: 'Vacaciones útiles de programación en San Borja',
-  lede: 'En San Borja el verano de los niños ya suele estar lleno de piscina, fútbol, baile y talleres. Esta página no le pide quitar nada de eso: le muestra cómo sumar una o dos horas de programación a la semana desde casa, en vivo y en inglés, sin un traslado más.',
-  secondaryCta: { href: '#combinar', label: 'Cómo combinarlo con el deporte' },
+  lede: 'En San Borja el verano de los niños ya suele estar lleno de piscina, fútbol, baile y talleres. Esta página no le pide quitar nada de eso: le muestra cómo sumar, en las tardes, de 4 a 5 clases de programación por semana desde casa, en vivo y en inglés, por el camino de Python e IA o por el curso que su hijo elija, sin un traslado más.',
+  secondaryCta: { href: '#verano', label: 'Los dos caminos del verano' },
   wa: 'Hola Modern Age Coders, somos de San Borja y queremos que nuestro hijo o hija programe este verano, además de sus talleres. ¿Podemos reservar una clase gratis?',
   heroNote: 'Enseñando en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; mentores que hablan inglés con calma',
   spec: [
     ['Edades', 'De 8 a 12 años, de 3° a 6° de primaria'],
-    ['Qué aprenden', 'Scratch, Python, juegos y algo de IA'],
-    ['Cuántas horas', 'Una o dos clases a la semana'],
+    ['Qué aprenden', 'Python e IA, o un curso que elijan'],
+    ['Ritmo de verano', 'De 4 a 5 clases en vivo por semana'],
     ['Dónde', 'En casa, por videollamada'],
     ['Idioma', 'Inglés, con un mentor paciente'],
     ['Para probar', 'Una clase gratis']
   ],
   capsuleQ: 'Respuesta rápida',
-  capsule: 'Sí se puede: unas vacaciones útiles de programación en San Borja caben al lado de los talleres deportivos, porque la clase es en vivo, por videollamada y desde casa. Modern Age Coders enseña a niños de 8 a 12 años Scratch, Python y videojuegos, siempre en inglés, con un mentor desde la India que habla con calma y le da al niño tiempo para contestar. Usted escoge si su hijo va en grupo o con clases individuales, y el día y la hora los pone usted. La primera clase es sin costo.',
+  capsule: 'Sí se puede: unas vacaciones útiles de programación en San Borja caben al lado de los talleres deportivos, porque la clase es en vivo, por videollamada y desde casa. Modern Age Coders ofrece a niños de 8 a 12 años dos caminos, siempre en inglés: Python e IA de verano, o el curso que el niño elija, como Scratch, Roblox, videojuegos o su primera web, con 4 a 5 clases a la semana de alrededor de una hora. El mentor habla con calma; usted escoge grupo o individual y el horario. La primera clase es sin costo.',
 
   picks: {
     eyebrow: 'Para este verano',
-    h2: 'Los tres cursos que más eligen las familias con niños de primaria',
-    lede: 'Uno para el niño que nunca programó, uno para el que vive pensando en videojuegos y uno para el que ya quiere escribir código de verdad.',
+    h2: 'Tres cursos para un verano de primaria en San Borja',
+    lede: 'El curso central del camino de Python e IA y dos del camino a elección: uno que se termina en vacaciones y otro para el niño que no suelta Roblox.',
     items: [
-      { course: 'scratch-programming-complete-course', code: 'VUT / 01', title: 'Scratch desde cero', alt: 'Imagen del curso de Scratch para niños', note: 'Para niños desde los 6 años. En pocas semanas su hijo arma animaciones y juegos completos con bloques de colores, y aprende qué son un bucle, un evento y una variable.' },
-      { course: 'game-development-masterclass-for-kids', code: 'VUT / 02', title: 'Videojuegos para niños', alt: 'Imagen del curso de desarrollo de videojuegos para niños', note: 'De 8 a 12 años. Scratch, Roblox y Minecraft en un mismo recorrido: puntajes, niveles, obstáculos y la lógica que hay detrás de cada uno.' },
-      { course: 'python-ai-kids-masterclass', code: 'VUT / 03', title: 'Python e IA para niños', alt: 'Imagen del curso de Python e IA para niños', note: 'Pensado para niños de 9 años en adelante. Su hijo deja los bloques y teclea sus propios programas: dibujos, adivinanzas y listas que se ordenan, como en el ejemplo de esta página.' }
+      { course: 'python-ai-kids-masterclass', code: 'VUT / 01', title: 'Python e IA para niños', alt: 'Imagen del curso de Python e IA para niños', note: 'De 9 a 12 años, el camino principal. Su hijo deja los bloques y teclea sus programas: dibujos, adivinanzas, listas como las del ejemplo de natación y, más adelante, IA a su medida. Con el ritmo de verano, enero y febrero bastan para pasar la mitad del curso.' },
+      { course: 'scratch-programming-complete-course', code: 'VUT / 02', title: 'Scratch desde cero', alt: 'Imagen del curso de Scratch para niños', note: 'Desde los 6 años. Al ritmo normal dura de tres a cuatro meses; con el ritmo de verano cabe entero en las vacaciones, con animaciones y juegos completos hechos con bloques.' },
+      { course: 'roblox-game-coding-for-kids-lua-course', code: 'VUT / 03', title: 'Juegos en Roblox con Luau', alt: 'Imagen del curso de programación de juegos en Roblox con Luau', note: 'De 8 a 14 años. Obstáculos, marcadores y tiendas que el niño programa él mismo. Es un curso de seis meses que un verano de cinco clases por semana deja terminado o casi.' }
     ]
   },
 
   sections: [
+    {
+      id: 'verano',
+      eyebrow: 'Nuestro verano',
+      h2: '¿Cómo es un verano de programación para niños de primaria en San Borja?',
+      lede: 'Una tarde de código casi cada día de semana: de 4 a 5 clases en vivo, de alrededor de una hora, dedicadas a Python con IA o a otro curso que el niño prefiera. Las mañanas siguen siendo del polideportivo.',
+      body: [
+        { kind: 'two',
+          leftH3: 'Python e IA, el camino del verano',
+          left: [
+            'Es lo que recomendamos primero a un niño de 9 a 12 años. Python le enseña a escribir instrucciones de verdad, letra por letra, y con eso llega después a proyectos de inteligencia artificial pensados para niños: un programa que adivina, uno que clasifica, uno que aprende de sus propios datos de natación.',
+            'Ninguna herramienta de IA con edad mínima superior a la de su hijo entra a la clase. El niño razona primero y la máquina, si aparece, solo comprueba.'
+          ],
+          rightH3: 'O el curso que su hijo elija',
+          right: [
+            'Si su hijo ya sabe lo que quiere, puede tomar cualquier curso de nuestro catálogo con las mismas 4 a 5 clases semanales: Scratch, Roblox, videojuegos con Godot o Minecraft, su primera web, apps con bloques, vibe coding para niños, C++ desde los 9, cálculo mental y muchos más.',
+            'Para los de 8 años, que todavía se manejan con más soltura en bloques, este suele ser el camino de entrada; al verano siguiente pueden pasar a Python.'
+          ] },
+        { kind: 'table', mt: true, numCols: [1, 2], caption: 'Clases de verano según la semana en que empieza su hijo (cálculo nuestro, ilustrativo)', head: ['Si empieza', 'A 4 clases por semana', 'A 5 clases por semana'], rows: [
+          ['La primera semana de enero (unas 10 semanas)', '40', '50'],
+          ['A mediados de enero (unas 8 semanas)', '32', '40'],
+          ['A comienzos de febrero (unas 6 semanas)', '24', '30'],
+          ['A fines de febrero (unas 3 semanas)', '12', '15']
+        ] },
+        { kind: 'source', html: 'Cuentas nuestras, suponiendo un regreso a clases a mediados de marzo como el del 16 de marzo de 2026; la fecha de 2027 aún no se publica. Durante el año escolar se toman dos clases por semana. Con 40 a 50 clases, Scratch (de tres a cuatro meses a ritmo normal, unas 24 a 32 clases) se completa; Roblox con Luau (seis meses, unas 48) queda terminado o casi; Python e IA para niños (de ocho a diez meses, unas 64 a 80) avanza más de la mitad y sigue en marzo. No prometemos cerrar un curso largo en vacaciones.' },
+        { kind: 'table', mt: true, numCols: [], caption: 'Qué camino suele encajar con cada edad de primaria (orientación nuestra)', head: ['Edad', 'Camino', 'Cursos de ejemplo', 'Cómo convive con el deporte'], rows: [
+          ['8 años', 'Curso a elección', 'Scratch, apps con bloques, Minecraft con código', 'Clase después del almuerzo, con un día libre si son cuatro'],
+          ['9 a 10 años', 'Python e IA, o curso a elección', 'Python e IA para niños, Roblox con Luau', 'Clase a media tarde, al volver de la piscina'],
+          ['11 a 12 años', 'Python e IA', 'Python e IA para niños, luego su primera web o C++', 'Cinco tardes si el niño quiere avanzar rápido']
+        ] },
+        { kind: 'source', html: 'Las edades vienen de cada curso; el resto es orientación de nuestros mentores, que la ajustan después de la clase gratis.' },
+        { kind: 'p', mt: true, html: 'Si serán cuatro tardes o cinco, en grupo o a solas, y cuánto se paga por ese mes de verano, lo define usted con el mentor antes de comenzar. La primera clase es gratis.' }
+      ]
+    },
     {
       id: 'talleres',
       eyebrow: 'El verano en San Borja',
@@ -172,7 +213,7 @@ module.exports = {
         { kind: 'ol', items: [
           '<strong>Primero lo que no se mueve.</strong> Anote las horas de los talleres municipales o del club, que son las que no se mueven. Lo que quede libre es el espacio para la clase en línea.',
           '<strong>Una pausa entre las dos cosas.</strong> Deje al menos una hora entre el regreso del taller y la clase. Agua, comida y ropa seca primero; la computadora después.',
-          '<strong>Dos clases, mismo día de la semana.</strong> A los niños de primaria les ayuda que la clase caiga siempre el mismo día y a la misma hora, como el entrenamiento.',
+          '<strong>Cuatro o cinco tardes, a la misma hora.</strong> A los niños de primaria les ayuda que la clase caiga siempre a la misma hora, como el entrenamiento; con cuatro clases, el día libre puede ser el de la competencia o el paseo.',
           '<strong>Un proyecto con tema deportivo.</strong> Si su hijo nada, que programe un marcador de tiempos; si juega fútbol, una tabla de posiciones. El interés que ya trae hace el resto.',
           '<strong>Una muestra al final del mes.</strong> Pida a su hijo que le enseñe lo que construyó y le explique cómo funciona. Es la forma más sencilla de saber si está aprendiendo.'
         ] },
@@ -246,7 +287,7 @@ module.exports = {
       id: 'marzo',
       eyebrow: 'Después del verano',
       h2: '¿Qué pasa con las clases cuando vuelve el colegio?',
-      lede: 'Siguen, si usted quiere. Lo único que cambia es la hora: la clase de verano por la mañana suele pasar a la tarde, con el mismo mentor y el mismo proyecto.',
+      lede: 'Siguen, si usted quiere, con dos cambios: el ritmo baja de 4 o 5 clases semanales a dos, y la hora suele moverse para no chocar con el colegio. El mentor y el proyecto son los mismos.',
       body: [
         { kind: 'p', html: 'El año escolar 2027 todavía no tenía calendario oficial cuando revisamos el portal del Estado, el 9 de noviembre de 2026. Para que se haga una idea de las pausas que trae un año escolar, esta es la distribución del año 2026 que fijó el MINEDU, con sus semanas sin clases a mitad de año.' },
         { kind: 'table', mt: true, numCols: [], caption: 'Bloques lectivos y semanas sin clases del año escolar 2026 (MINEDU)', head: ['Tramo', 'Fechas de 2026', 'Qué significa para la clase en línea'], rows: [
@@ -319,7 +360,7 @@ module.exports = {
   catalogue: {
     eyebrow: 'Más cursos',
     h2: 'Otros nueve cursos pensados para primaria',
-    lede: 'Se dictan en inglés y por videollamada, para un grupo o para un solo niño, y todos se pueden empezar en vacaciones.',
+    lede: 'Cualquiera vale para el camino a elección: en inglés y por videollamada, para un grupo o para un solo niño, a 4 o 5 clases por semana durante las vacaciones.',
     bands: [
       { num: 'I', h3: 'Para empezar', sub: 'Sin experiencia previa', courses: [
         { code: 'VUT / BASE / 01', slug: 'kids-coding-blocks-masterclass', title: 'Programación con bloques', blurb: 'De Scratch a juegos y apps sencillas, con grupos por edad.' },
@@ -327,7 +368,7 @@ module.exports = {
         { code: 'VUT / BASE / 03', slug: 'minecraft-coding-for-kids-course', title: 'Minecraft con código', blurb: 'Automatizar construcciones dentro de un mundo conocido.' }
       ] },
       { num: 'II', h3: 'Para el que ama los juegos', sub: 'De 8 a 12 años', courses: [
-        { code: 'VUT / JUEGO / 01', slug: 'roblox-game-coding-for-kids-lua-course', title: 'Roblox Studio y Luau', blurb: 'Obstáculos, puntajes y tiendas que su hijo programa él mismo.' },
+        { code: 'VUT / JUEGO / 01', slug: 'game-development-masterclass-for-kids', title: 'Videojuegos para niños', blurb: 'Scratch, Roblox y Minecraft en un solo recorrido, de 8 a 12 años.' },
         { code: 'VUT / JUEGO / 02', slug: 'godot-game-development-course-for-kids-and-teens', title: 'Juegos con Godot', blurb: 'Del bloque al código escrito, en 2D y 3D, desde los 10 años.' },
         { code: 'VUT / JUEGO / 03', slug: 'cpp-programming-for-kids-course', title: 'C++ desde los 9', blurb: 'Un lenguaje exigente, presentado con retos cortos y pequeños juegos.' }
       ] },
@@ -352,7 +393,7 @@ module.exports = {
       { h3: 'Siempre el mismo mentor', p: 'Su hijo no empieza de cero con alguien nuevo cada semana.' },
       { h3: 'Inglés sin prisa', p: 'Lo que el mentor explica también aparece escrito, y lo repite de otra forma si hace falta.' },
       { h3: 'Manos en el teclado', p: 'El niño programa; el mentor pregunta y guía.' },
-      { h3: 'Un proyecto por tramo', p: 'Algo terminado que se puede enseñar en casa.' },
+      { h3: 'Ritmo de verano', p: 'Cuatro o cinco tardes por semana, con algo terminado que enseñar.' },
       { h3: 'Noticias para la familia', p: 'Una nota breve tras las clases con lo hecho y lo que sigue.' },
       { h3: 'Grupo o solo', p: 'Grupos de quince a veinte, de edades parecidas, o clases individuales.' }
     ]
@@ -364,9 +405,9 @@ module.exports = {
 
   fees: {
     h2: 'Precios para familias de San Borja',
-    lede: 'El precio mensual figura en dólares de Estados Unidos y se paga con tarjeta. La conversión a su moneda la hace su banco, así que el cargo puede moverse un poco según el cambio del día.',
+    lede: 'Las cifras de estas tarjetas son las mensualidades del año escolar, de ocho clases, expresadas en dólares de Estados Unidos y pagadas con tarjeta; su banco las convierte a soles. El verano tiene otro ritmo, de 4 a 5 clases por semana, y su mensualidad se conversa con el mentor antes de empezar. La primera clase va por nuestra cuenta.',
     free: ['Una clase de prueba con un mentor', 'El mentor le dice por dónde empezar', 'No se pide tarjeta'],
-    group: ['De quince a veinte niños de edad cercana', 'Un mentor fijo durante el curso', 'Clases en vivo todas las semanas', 'Se paga mes por mes y se deja cuando quiera'],
+    group: ['De quince a veinte niños de edad cercana', 'Un mentor fijo durante el curso', 'Dos clases semanales en el año; 4 o 5 en el verano, a convenir', 'Se paga mes por mes y se deja cuando quiera'],
     one: ['Su hijo solo con el mentor', 'El ritmo y el tema que él necesita', 'El horario que usted fije']
   },
 
@@ -377,12 +418,12 @@ module.exports = {
       { q: '¿Las clases son en español?', a: 'No, todas se dictan en inglés, y para la mayoría de familias eso suma: su hijo programa y escucha y habla inglés durante una hora entera. El mentor va despacio y acepta que el niño responda a veces en castellano. Lima figura con 555 puntos, en el nivel alto, en el EF EPI 2025.' },
       { q: '¿La Municipalidad de San Borja dicta talleres de programación en el verano?', a: 'En su nota sobre el verano 2025, la municipalidad enumera talleres de deporte, arte y música, sin mencionar programación. No tenemos ninguna relación con la municipalidad; nuestras clases son en línea y aparte de su oferta.' },
       { q: '¿Se puede hacer programación y natación en el mismo verano?', a: 'Sí. La clase es en casa y a la hora que usted elija, así que se ubica en el espacio que dejan la piscina o el fútbol. Recomendamos al menos una hora de descanso entre el taller y la clase.' },
-      { q: '¿Cuánto dura el verano de programación?', a: 'Lo que su familia quiera. No es un campamento con fecha de cierre: son nuestras clases de siempre, que se empiezan en vacaciones y pueden seguir cuando vuelva el colegio.' },
+      { q: '¿Cuántas clases por semana tiene el verano?', a: 'Entre 4 y 5, en vivo, de una hora más o menos. En una semana de cuatro clases queda un día libre, útil para una competencia de natación o un paseo; en el año escolar se baja a dos por semana.' },
+      { q: '¿Cuánto dura el verano y alcanza para terminar un curso?', a: 'Dura desde la semana en que su hijo empiece, entre enero y marzo, hasta que vuelva el colegio. Por nuestra cuenta, diez semanas a 4 o 5 clases son de 40 a 50 clases: Scratch se termina, Roblox con Luau queda listo o casi, y Python e IA para niños pasa de la mitad y continúa en marzo. Un curso largo no se cierra en vacaciones.' },
       { q: '¿Qué edad debe tener mi hijo?', a: 'Esta página está pensada para niños de 8 a 12 años. Desde los 6 se puede empezar con bloques, y los mayores de 12 tienen cursos para adolescentes.' },
       { q: '¿Qué aprende mi hijo en la clase de ejemplo?', a: 'A resumir una lista de tiempos con Python y a elegir el número que la describe con honestidad. Con una vuelta mala, el promedio sube a 44.4 segundos y la mediana se queda en 42.1; sin ella, los dos casi coinciden.' },
       { q: '¿A qué hora puede ser la clase?', a: 'Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Como referencia, las 9:30 de la mañana en Lima equivalen a las 8:00 de la noche en la India.' },
-      { q: '¿Qué equipo necesita?', a: 'Computadora de escritorio o laptop, con cámara, micrófono y audífonos, y una conexión estable. Una tablet sirve al principio con bloques; un celular no alcanza.' },
-      { q: '¿Cómo se paga?', a: 'Mes a mes, con tarjeta y en dólares estadounidenses; el banco hace la conversión. La clase de prueba no cuesta nada.' },
+            { q: '¿Cuánto cuesta el verano?', a: 'La tarifa que se ve en la página es la del ritmo normal, ocho clases al mes. La del verano, con 4 o 5 clases semanales en grupo o individuales, se acuerda con el mentor antes de empezar. Se paga mes a mes con tarjeta, en dólares estadounidenses, y el banco hace la conversión; la clase de prueba no cuesta nada.' },
       { q: '¿Las clases cuentan para el colegio?', a: 'No. No damos notas ni reemplazamos cursos escolares, y no tenemos relación con el MINEDU ni con colegio alguno. Lo que sí entregamos, al cerrar cada curso, es un certificado de culminación de Modern Age Coders.' }
     ]
   },
@@ -403,7 +444,7 @@ module.exports = {
 
   start: {
     h2: 'Pruebe una clase antes de que empiece el verano',
-    lede: 'En la clase de prueba el mentor saluda a su hijo en un inglés muy simple, le pide mover un personaje o escribir una línea de Python, y observa cómo piensa. Al final le sugerimos curso, formato y un primer proyecto, sin compromiso.',
+    lede: 'En la clase de prueba el mentor saluda a su hijo en un inglés muy simple, le pide mover un personaje o escribir una línea de Python, y observa cómo piensa. Al final le sugerimos el camino (Python e IA o un curso a elección), cuatro o cinco tardes por semana, el formato y un primer proyecto; con eso se acuerda la mensualidad del verano, sin compromiso.',
     readFirst: 'Para leer antes: <a class="ag-inline-link" href="/clases-de-programacion-para-ninos-en-ingles">programación para niños en inglés</a> y <a class="ag-inline-link" href="/how-we-teach">How we teach</a> (en inglés).',
     note: 'Las clases son siempre en inglés, por videollamada y con mentores en la India. Si nos escribe por WhatsApp, puede hacerlo en castellano.',
     formNote: 'Sin costo, sin tarjeta, sin compromiso.'
@@ -413,7 +454,7 @@ module.exports = {
     cols: [
       { h4: 'Cursos para niños', links: [
         { href: '/courses/scratch-programming-complete-course', label: 'Scratch desde cero' },
-        { href: '/courses/game-development-masterclass-for-kids', label: 'Videojuegos para niños' },
+        { href: '/courses/roblox-game-coding-for-kids-lua-course', label: 'Roblox con Luau' },
         { href: '/courses/python-ai-kids-masterclass', label: 'Python e IA para niños' },
         { href: '/courses', label: 'Todos los cursos' }
       ] },
@@ -436,9 +477,9 @@ module.exports = {
 `,
 
   dossier: {
-    curriculumAuthority: 'Municipalidad Distrital de San Borja (gob.pe/munisanborja): notes of 6 March 2025 (summer 2025 workshops) and 24 February 2026 (EcoKids); INEI Censos Nacionales 2025 and Boletín TIC II trimestre 2026; MINEDU CNEB Tabla N.° 6 and RM 501-2025-MINEDU Tabla 1 (read by eye); EF EPI 2025; tzdata and INACAL. Read 8 and 9 November 2026. The sport-and-code routine, the projects by age, the progress marks and the example are ours.',
+    curriculumAuthority: 'Municipalidad Distrital de San Borja (gob.pe/munisanborja): notes of 6 March 2025 (summer 2025 workshops) and 24 February 2026 (EcoKids); INEI Censos Nacionales 2025 and Boletín TIC II trimestre 2026; MINEDU CNEB Tabla N.° 6 and RM 501-2025-MINEDU Tabla 1 (read by eye); EF EPI 2025; tzdata and INACAL. Read 8 and 9 November 2026. The two summer tracks, the start-week and track tables, the sport-and-code routine, the projects by age, the progress marks and the example are ours.',
     localProject: 'One slow lap in a made-up San Borja swimming practice, in Python: seven laps with a 58.4 s outlier print Average: 44.4 and Median: 42.1; removing it leaves six laps, the even-count median is the mean of the two middle values, and the program prints Average: 42.1 and Median: 42.0. Lesson family: the mean is pulled by one outlier, the median is not; the even-count median.',
-    requiredMentions: ['Average: 44.4', 'Median: 42.1', 'Median: 42.0', 'San Borja tiene 126,125 habitantes', 'Ceramikids', 'Monterrico Norte', 'son 135 minutos a la semana', 'Una vuelta mala no cuenta toda la historia', 'frente al 64,5 % del promedio nacional', 'Distrito Olímpico', 'Total que publica la municipalidad'],
+    requiredMentions: ['Average: 44.4', 'Median: 42.1', 'Median: 42.0', 'San Borja tiene 126,125 habitantes', 'Ceramikids', 'Monterrico Norte', 'son 135 minutos a la semana', 'Una vuelta mala no cuenta toda la historia', 'frente al 64,5 % del promedio nacional', 'Distrito Olímpico', 'Total que publica la municipalidad', 'Clases de verano según la semana en que empieza su hijo'],
     sources: [
       { claim: 'Summer 2025 workshops: 11,430 participants in January and February; 3,000 at the Centro Cultural; 8,430 at four polideportivos; workshops named; Distrito Olímpico 2022.', url: 'https://www.gob.pe/institucion/munisanborja/noticias/1125306-verano-deportivo-y-cultural-en-san-borja' },
       { claim: 'EcoKids closed 24 February 2026, recycling and waste workshops for children.', url: 'https://www.gob.pe/institucion/munisanborja/noticias/1358785-san-borja-clausura-con-exito-el-programa-ecokids' },
@@ -453,7 +494,7 @@ module.exports = {
       'Adding the Centro Cultural and polideportivo figures ourselves: refused; the page prints the municipality\'s own total of 11,430.',
       'OMAPED summer workshops (disability office): left out; identity-related programme, not needed.',
       'Any affiliation with the Municipalidad de San Borja: refused; the page says we have none.',
-      'A camp length, start date or summer price: refused; the normal monthly classes with our own project table.',
+      'A summer price, a fixed 2027 end date or a long course finished in the summer: refused; the 4 to 5 a week pace and its fee are agreed with the mentor, and the start-week table is labelled illustrative.',
       'Traffic figures: refused; none sourced.',
       'Spanish-language teaching, MINEDU or school endorsement, official certificate: refused.',
       'Soles prices or any typed fee: refused; fees render from the template in USD.'

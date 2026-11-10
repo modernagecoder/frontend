@@ -1,10 +1,10 @@
 ---
 title: "Vacaciones útiles de programación en San Borja, Lima"
-description: "Vacaciones útiles de programación para niños de San Borja: clases en vivo y en inglés desde casa, compatibles con los talleres deportivos, a la hora que usted elija."
+description: "Vacaciones útiles de programación para niños de San Borja: Python e IA o el curso que elijan, de 4 a 5 clases en vivo por semana en inglés, junto al deporte."
 canonical: https://learn.modernagecoders.com/vacaciones-utiles-de-programacion-san-borja-lima
 source: src/pages/vacaciones-utiles-de-programacion-san-borja-lima.html
 ---
-> Sí se puede: unas vacaciones útiles de programación en San Borja caben al lado de los talleres deportivos, porque la clase es en vivo, por videollamada y desde casa. Modern Age Coders enseña a niños de 8 a 12 años Scratch, Python y videojuegos, siempre en inglés, con un mentor desde la India que habla con calma y le da al niño tiempo para contestar. Usted escoge si su hijo va en grupo o con clases individuales, y el día y la hora los pone usted. La primera clase es sin costo.
+> Sí se puede: unas vacaciones útiles de programación en San Borja caben al lado de los talleres deportivos, porque la clase es en vivo, por videollamada y desde casa. Modern Age Coders ofrece a niños de 8 a 12 años dos caminos, siempre en inglés: Python e IA de verano, o el curso que el niño elija, como Scratch, Roblox, videojuegos o su primera web, con 4 a 5 clases a la semana de alrededor de una hora. El mentor habla con calma; usted escoge grupo o individual y el horario. La primera clase es sin costo.
 
 [Inicio](/) / [Cursos](/courses) / [Perú](/coding-and-ai-classes-in-peru) / Vacaciones útiles en San Borja
 
@@ -12,17 +12,56 @@ San Borja, Lima · Vacaciones útiles · De 8 a 12 años
 
 # Vacaciones útiles de programación en San Borja
 
-En San Borja el verano de los niños ya suele estar lleno de piscina, fútbol, baile y talleres. Esta página no le pide quitar nada de eso: le muestra cómo sumar una o dos horas de programación a la semana desde casa, en vivo y en inglés, sin un traslado más.
+En San Borja el verano de los niños ya suele estar lleno de piscina, fútbol, baile y talleres. Esta página no le pide quitar nada de eso: le muestra cómo sumar, en las tardes, de 4 a 5 clases de programación por semana desde casa, en vivo y en inglés, por el camino de Python e IA o por el curso que su hijo elija, sin un traslado más.
 
-En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Edades: De 8 a 12 años, de 3° a 6° de primaria; Qué aprenden: Scratch, Python, juegos y algo de IA; Cuántas horas: Una o dos clases a la semana; Dónde: En casa, por videollamada; Idioma: Inglés, con un mentor paciente; Para probar: Una clase gratis. 4.9 de 5 en 547 reseñas de Google.
+En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Edades: De 8 a 12 años, de 3° a 6° de primaria; Qué aprenden: Python e IA, o un curso que elijan; Ritmo de verano: De 4 a 5 clases en vivo por semana; Dónde: En casa, por videollamada; Idioma: Inglés, con un mentor paciente; Para probar: Una clase gratis. 4.9 de 5 en 547 reseñas de Google.
 
-## Los tres cursos que más eligen las familias con niños de primaria
+## Tres cursos para un verano de primaria en San Borja
 
-Uno para el niño que nunca programó, uno para el que vive pensando en videojuegos y uno para el que ya quiere escribir código de verdad.
+El curso central del camino de Python e IA y dos del camino a elección: uno que se termina en vacaciones y otro para el niño que no suelta Roblox.
 
-- [Scratch desde cero](/courses/scratch-programming-complete-course): Para niños desde los 6 años. En pocas semanas su hijo arma animaciones y juegos completos con bloques de colores, y aprende qué son un bucle, un evento y una variable.
-- [Videojuegos para niños](/courses/game-development-masterclass-for-kids): De 8 a 12 años. Scratch, Roblox y Minecraft en un mismo recorrido: puntajes, niveles, obstáculos y la lógica que hay detrás de cada uno.
-- [Python e IA para niños](/courses/python-ai-kids-masterclass): Pensado para niños de 9 años en adelante. Su hijo deja los bloques y teclea sus propios programas: dibujos, adivinanzas y listas que se ordenan, como en el ejemplo de esta página.
+- [Python e IA para niños](/courses/python-ai-kids-masterclass): De 9 a 12 años, el camino principal. Su hijo deja los bloques y teclea sus programas: dibujos, adivinanzas, listas como las del ejemplo de natación y, más adelante, IA a su medida. Con el ritmo de verano, enero y febrero bastan para pasar la mitad del curso.
+- [Scratch desde cero](/courses/scratch-programming-complete-course): Desde los 6 años. Al ritmo normal dura de tres a cuatro meses; con el ritmo de verano cabe entero en las vacaciones, con animaciones y juegos completos hechos con bloques.
+- [Juegos en Roblox con Luau](/courses/roblox-game-coding-for-kids-lua-course): De 8 a 14 años. Obstáculos, marcadores y tiendas que el niño programa él mismo. Es un curso de seis meses que un verano de cinco clases por semana deja terminado o casi.
+
+## ¿Cómo es un verano de programación para niños de primaria en San Borja?
+
+Una tarde de código casi cada día de semana: de 4 a 5 clases en vivo, de alrededor de una hora, dedicadas a Python con IA o a otro curso que el niño prefiera. Las mañanas siguen siendo del polideportivo.
+
+### Python e IA, el camino del verano
+
+Es lo que recomendamos primero a un niño de 9 a 12 años. Python le enseña a escribir instrucciones de verdad, letra por letra, y con eso llega después a proyectos de inteligencia artificial pensados para niños: un programa que adivina, uno que clasifica, uno que aprende de sus propios datos de natación.
+
+Ninguna herramienta de IA con edad mínima superior a la de su hijo entra a la clase. El niño razona primero y la máquina, si aparece, solo comprueba.
+
+### O el curso que su hijo elija
+
+Si su hijo ya sabe lo que quiere, puede tomar cualquier curso de nuestro catálogo con las mismas 4 a 5 clases semanales: Scratch, Roblox, videojuegos con Godot o Minecraft, su primera web, apps con bloques, vibe coding para niños, C++ desde los 9, cálculo mental y muchos más.
+
+Para los de 8 años, que todavía se manejan con más soltura en bloques, este suele ser el camino de entrada; al verano siguiente pueden pasar a Python.
+
+**Clases de verano según la semana en que empieza su hijo (cálculo nuestro, ilustrativo)**
+
+| Si empieza | A 4 clases por semana | A 5 clases por semana |
+|---|---|---|
+| La primera semana de enero (unas 10 semanas) | 40 | 50 |
+| A mediados de enero (unas 8 semanas) | 32 | 40 |
+| A comienzos de febrero (unas 6 semanas) | 24 | 30 |
+| A fines de febrero (unas 3 semanas) | 12 | 15 |
+
+Cuentas nuestras, suponiendo un regreso a clases a mediados de marzo como el del 16 de marzo de 2026; la fecha de 2027 aún no se publica. Durante el año escolar se toman dos clases por semana. Con 40 a 50 clases, Scratch (de tres a cuatro meses a ritmo normal, unas 24 a 32 clases) se completa; Roblox con Luau (seis meses, unas 48) queda terminado o casi; Python e IA para niños (de ocho a diez meses, unas 64 a 80) avanza más de la mitad y sigue en marzo. No prometemos cerrar un curso largo en vacaciones.
+
+**Qué camino suele encajar con cada edad de primaria (orientación nuestra)**
+
+| Edad | Camino | Cursos de ejemplo | Cómo convive con el deporte |
+|---|---|---|---|
+| 8 años | Curso a elección | Scratch, apps con bloques, Minecraft con código | Clase después del almuerzo, con un día libre si son cuatro |
+| 9 a 10 años | Python e IA, o curso a elección | Python e IA para niños, Roblox con Luau | Clase a media tarde, al volver de la piscina |
+| 11 a 12 años | Python e IA | Python e IA para niños, luego su primera web o C++ | Cinco tardes si el niño quiere avanzar rápido |
+
+Las edades vienen de cada curso; el resto es orientación de nuestros mentores, que la ajustan después de la clase gratis.
+
+Si serán cuatro tardes o cinco, en grupo o a solas, y cuánto se paga por ese mes de verano, lo define usted con el mentor antes de comenzar. La primera clase es gratis.
 
 ## ¿Hay vacaciones útiles de programación en San Borja?
 
@@ -58,7 +97,7 @@ Con la clase de programación en la parte del día que el deporte deja libre. Un
 
 1. **Primero lo que no se mueve.** Anote las horas de los talleres municipales o del club, que son las que no se mueven. Lo que quede libre es el espacio para la clase en línea.
 2. **Una pausa entre las dos cosas.** Deje al menos una hora entre el regreso del taller y la clase. Agua, comida y ropa seca primero; la computadora después.
-3. **Dos clases, mismo día de la semana.** A los niños de primaria les ayuda que la clase caiga siempre el mismo día y a la misma hora, como el entrenamiento.
+3. **Cuatro o cinco tardes, a la misma hora.** A los niños de primaria les ayuda que la clase caiga siempre a la misma hora, como el entrenamiento; con cuatro clases, el día libre puede ser el de la competencia o el paseo.
 4. **Un proyecto con tema deportivo.** Si su hijo nada, que programe un marcador de tiempos; si juega fútbol, una tabla de posiciones. El interés que ya trae hace el resto.
 5. **Una muestra al final del mes.** Pida a su hijo que le enseñe lo que construyó y le explique cómo funciona. Es la forma más sencilla de saber si está aprendiendo.
 
@@ -173,7 +212,7 @@ Notará que casi todos los proyectos tienen que ver con el deporte. No es casual
 
 ## ¿Qué pasa con las clases cuando vuelve el colegio?
 
-Siguen, si usted quiere. Lo único que cambia es la hora: la clase de verano por la mañana suele pasar a la tarde, con el mismo mentor y el mismo proyecto.
+Siguen, si usted quiere, con dos cambios: el ritmo baja de 4 o 5 clases semanales a dos, y la hora suele moverse para no chocar con el colegio. El mentor y el proyecto son los mismos.
 
 El año escolar 2027 todavía no tenía calendario oficial cuando revisamos el portal del Estado, el 9 de noviembre de 2026. Para que se haga una idea de las pausas que trae un año escolar, esta es la distribución del año 2026 que fijó el MINEDU, con sus semanas sin clases a mitad de año.
 
@@ -248,7 +287,7 @@ Si algo sale raro, mírelo como un juez: ¿es justo, es correcto, tiene sentido?
 
 ## Otros nueve cursos pensados para primaria
 
-Se dictan en inglés y por videollamada, para un grupo o para un solo niño, y todos se pueden empezar en vacaciones.
+Cualquiera vale para el camino a elección: en inglés y por videollamada, para un grupo o para un solo niño, a 4 o 5 clases por semana durante las vacaciones.
 
 ### Para empezar
 
@@ -262,7 +301,7 @@ Sin experiencia previa
 
 De 8 a 12 años
 
-- [Roblox Studio y Luau](/courses/roblox-game-coding-for-kids-lua-course): Obstáculos, puntajes y tiendas que su hijo programa él mismo.
+- [Videojuegos para niños](/courses/game-development-masterclass-for-kids): Scratch, Roblox y Minecraft en un solo recorrido, de 8 a 12 años.
 - [Juegos con Godot](/courses/godot-game-development-course-for-kids-and-teens): Del bloque al código escrito, en 2D y 3D, desde los 10 años.
 - [C++ desde los 9](/courses/cpp-programming-for-kids-course): Un lenguaje exigente, presentado con retos cortos y pequeños juegos.
 
@@ -285,16 +324,16 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 - **Siempre el mismo mentor** Su hijo no empieza de cero con alguien nuevo cada semana.
 - **Inglés sin prisa** Lo que el mentor explica también aparece escrito, y lo repite de otra forma si hace falta.
 - **Manos en el teclado** El niño programa; el mentor pregunta y guía.
-- **Un proyecto por tramo** Algo terminado que se puede enseñar en casa.
+- **Ritmo de verano** Cuatro o cinco tardes por semana, con algo terminado que enseñar.
 - **Noticias para la familia** Una nota breve tras las clases con lo hecho y lo que sigue.
 - **Grupo o solo** Grupos de quince a veinte, de edades parecidas, o clases individuales.
 
 ## Precios para familias de San Borja
 
-El precio mensual figura en dólares de Estados Unidos y se paga con tarjeta. La conversión a su moneda la hace su banco, así que el cargo puede moverse un poco según el cambio del día.
+Las cifras de estas tarjetas son las mensualidades del año escolar, de ocho clases, expresadas en dólares de Estados Unidos y pagadas con tarjeta; su banco las convierte a soles. El verano tiene otro ritmo, de 4 a 5 clases por semana, y su mensualidad se conversa con el mentor antes de empezar. La primera clase va por nuestra cuenta.
 
 - Primera clase gratis: Gratis. Una clase de prueba con un mentor. El mentor le dice por dónde empezar. No se pide tarjeta.
-- Clase grupal: USD 100 al mes. De quince a veinte niños de edad cercana. Un mentor fijo durante el curso. Clases en vivo todas las semanas. Se paga mes por mes y se deja cuando quiera.
+- Clase grupal: USD 100 al mes. De quince a veinte niños de edad cercana. Un mentor fijo durante el curso. Dos clases semanales en el año; 4 o 5 en el verano, a convenir. Se paga mes por mes y se deja cuando quiera.
 - Clases individuales: USD 150 al mes. Su hijo solo con el mentor. El ritmo y el tema que él necesita. El horario que usted fije.
 
 ## Vacaciones útiles de programación en San Borja: preguntas frecuentes
@@ -311,9 +350,13 @@ En su nota sobre el verano 2025, la municipalidad enumera talleres de deporte, a
 
 Sí. La clase es en casa y a la hora que usted elija, así que se ubica en el espacio que dejan la piscina o el fútbol. Recomendamos al menos una hora de descanso entre el taller y la clase.
 
-### ¿Cuánto dura el verano de programación?
+### ¿Cuántas clases por semana tiene el verano?
 
-Lo que su familia quiera. No es un campamento con fecha de cierre: son nuestras clases de siempre, que se empiezan en vacaciones y pueden seguir cuando vuelva el colegio.
+Entre 4 y 5, en vivo, de una hora más o menos. En una semana de cuatro clases queda un día libre, útil para una competencia de natación o un paseo; en el año escolar se baja a dos por semana.
+
+### ¿Cuánto dura el verano y alcanza para terminar un curso?
+
+Dura desde la semana en que su hijo empiece, entre enero y marzo, hasta que vuelva el colegio. Por nuestra cuenta, diez semanas a 4 o 5 clases son de 40 a 50 clases: Scratch se termina, Roblox con Luau queda listo o casi, y Python e IA para niños pasa de la mitad y continúa en marzo. Un curso largo no se cierra en vacaciones.
 
 ### ¿Qué edad debe tener mi hijo?
 
@@ -327,13 +370,9 @@ A resumir una lista de tiempos con Python y a elegir el número que la describe 
 
 Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Como referencia, las 9:30 de la mañana en Lima equivalen a las 8:00 de la noche en la India.
 
-### ¿Qué equipo necesita?
+### ¿Cuánto cuesta el verano?
 
-Computadora de escritorio o laptop, con cámara, micrófono y audífonos, y una conexión estable. Una tablet sirve al principio con bloques; un celular no alcanza.
-
-### ¿Cómo se paga?
-
-Mes a mes, con tarjeta y en dólares estadounidenses; el banco hace la conversión. La clase de prueba no cuesta nada.
+La tarifa que se ve en la página es la del ritmo normal, ocho clases al mes. La del verano, con 4 o 5 clases semanales en grupo o individuales, se acuerda con el mentor antes de empezar. Se paga mes a mes con tarjeta, en dólares estadounidenses, y el banco hace la conversión; la clase de prueba no cuesta nada.
 
 ### ¿Las clases cuentan para el colegio?
 

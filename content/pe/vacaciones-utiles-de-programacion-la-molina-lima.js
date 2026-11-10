@@ -1,4 +1,4 @@
-// SHIP: market | La Molina summer: computación (Word, Excel) or programación, a teen-heavy district | types: text that looks like a number sorts as text (str vs int)
+// SHIP: market | La Molina teens: beyond Excel, Python and AI or own course, 4 to 5 a week | types: text that looks like a number sorts as text (str vs int)
 'use strict';
 // Vacaciones útiles de programación en La Molina (ag- Spanish district door, Peru cluster row PE216, P2, hubGroup lima).
 // Spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md; brief docs/superpowers/plans/2026-11-09-pe-writer-brief.md
@@ -32,7 +32,15 @@
 //  - EF EPI 2025 (ef_peru.txt): Lima 555 (high from 550).
 //  - Time (timezone.tsv): Peru UTC-5, India UTC+5:30.
 //  - Neighbouring districts in plain text: Ate, Cieneguilla, Pachacámac, Villa María del Triunfo, Santiago de Surco.
+// Summer offer (owner 2026-11-10, brief section "Summer offer"): Summer Python and AI (python-complete-masterclass-teens, then
+//   data-science-course-for-teens-python-data or ai-ml-masterclass-teens; python-ai-kids-masterclass for 9 to 12) or any
+//   catalogue course (DSA, web, apps, SQL, Java, maths and more) at 4 to 5 live classes a week, group or one to one, flexible
+//   hours; summer pace and fee agreed with the mentor first; first class free; no price typed. Course lengths from
+//   content/courses/data/*.json meta.duration: HTML and CSS 4 months (16 weeks), data science teens 6 months (24 weeks),
+//   Python teens 10-12 months (40-48 weeks), full stack teens 12-14 months (48-56 weeks).
 // Our own calculations (python3 -I): 8435 / 143899 = 5.86% (6 to 11); 10681 / 143899 = 7.42% (12 to 17).
+//   Summer arithmetic (ours): 16 weeks x 2 = 32; 24 x 2 = 48; 40 x 2 = 80, 48 x 2 = 96; 48 x 2 = 96, 56 x 2 = 112;
+//   ten weeks x 4 = 40, x 5 = 50; 32 / 4 = 8 weeks, 32 / 5 = 6.4 weeks; 48 / 4 = 12 weeks, 48 / 5 = 9.6 weeks.
 // Our own example (vupm_v1.py, vupm_v2.py), exact output:
 //   v1: "Largest: 8435" / "Sorted: ['10681', '24793', '29245', '30484', '35219', '5042', '8435']"
 //   v2: "Largest: 35219 in the group 60 y mas" / "Sorted: [5042, 8435, 10681, 24793, 29245, 30484, 35219]" /
@@ -84,17 +92,17 @@ module.exports = {
   parents: [{ slug: 'coding-and-ai-classes-in-peru', name: 'Peru' }],
   routeLabel: 'Vacaciones útiles de programación en La Molina',
   title: 'Vacaciones útiles de programación en La Molina, en inglés',
-  description: 'Vacaciones útiles de programación en La Molina para escolares de 6 a 17 años: clases en vivo, en línea y en inglés, más allá de Word y Excel, a cualquier hora.',
-  ogDescription: 'Computación o programación: qué ofreció la Municipalidad de La Molina en el verano 2026, cuántos escolares tiene el distrito según el INEI y una clase que pasa de Excel a Python.',
-  twitterDescription: 'Programación en vivo y en inglés para el verano en La Molina: de la hoja de cálculo al código, desde casa.',
+  description: 'Verano de programación en La Molina, más allá de Word y Excel: Python e IA o el curso que elija, de 4 a 5 clases en vivo por semana, en inglés y desde casa.',
+  ogDescription: 'De la hoja de cálculo al código en un verano: Python e IA o un curso a elección, de 4 a 5 clases por semana, con los Molitalleres 2026 y el censo del INEI como contexto.',
+  twitterDescription: 'Un verano intensivo de programación en La Molina: 4 a 5 clases en vivo por semana, en inglés, de Excel a Python e IA.',
   pageName: 'Vacaciones útiles de programación en La Molina',
-  webPageDescription: 'Guía para familias de La Molina que buscan vacaciones útiles de programación con clases en vivo, en línea y en inglés: los Molitalleres y talleres de verano 2026 de la municipalidad, la diferencia entre computación y programación, los escolares del distrito según los Censos Nacionales 2025 del INEI y una clase de ejemplo en Python, escrita por nosotros, con datos del censo.',
-  courseDescription: 'Clases en vivo y en línea de programación y computación para escolares de La Molina, dictadas solo en inglés, para empezar en el verano: hojas de cálculo, Python, matemática con código y proyectos para secundaria, en una clase grupal de quince a veinte o en clases individuales, a cualquier hora.',
+  webPageDescription: 'Guía para familias de La Molina que buscan vacaciones útiles de programación con clases en vivo, en línea y en inglés: nuestro verano de Python e IA o de un curso a elección con 4 a 5 clases por semana, los Molitalleres y talleres de verano 2026 de la municipalidad, la diferencia entre computación y programación, los escolares del distrito según los Censos Nacionales 2025 del INEI y una clase de ejemplo en Python, escrita por nosotros, con datos del censo.',
+  courseDescription: 'Clases en vivo y en línea de programación y computación para escolares de La Molina, dictadas solo en inglés, con un ritmo de verano de 4 a 5 clases por semana: Python e IA, ciencia de datos, desarrollo web, DSA, matemática con código o computación, en una clase grupal de quince a veinte o en clases individuales, a cualquier hora.',
   crumbs: [{ name: 'Cursos', href: '/courses' }, { name: 'Perú', href: '/coding-and-ai-classes-in-peru' }],
   crumbLabel: 'Vacaciones útiles en La Molina',
   navLinks: [
     { href: '/coding-and-ai-classes-in-peru', label: 'Perú' },
-    { href: '#molitalleres', label: 'Verano 2026' },
+    { href: '#verano', label: 'Plan de verano' },
     { href: '#diferencia', label: 'Computación o programación' },
     { href: '#secundaria', label: 'Secundaria' },
     { href: '#de-excel-a-python', label: 'Ejemplo' },
@@ -102,33 +110,67 @@ module.exports = {
   ],
   eyebrow: 'La Molina &middot; Vacaciones útiles &middot; De 6 a 17 años',
   h1: 'Vacaciones útiles de programación en La Molina',
-  lede: 'En la lista de talleres de verano de La Molina suele aparecer la palabra <em>computación</em>, y muchas familias se preguntan si es lo mismo que aprender a programar. No lo es, aunque se complementan. Aquí encontrará qué ofreció la municipalidad en 2026, en qué se diferencian computación y programación, por qué este distrito tiene tantos adolescentes en edad de secundaria y cómo una clase pasa de una hoja de Excel a un programa en Python.',
-  secondaryCta: { href: '#diferencia', label: '¿Computación o programación?' },
+  lede: 'En la lista de talleres de verano de La Molina suele aparecer la palabra <em>computación</em>, y muchas familias se preguntan si es lo mismo que aprender a programar. No lo es, aunque se complementan. Nuestro verano va más allá del menú de Excel: un camino de Python e inteligencia artificial, o el curso que su hijo prefiera, con 4 a 5 clases en vivo por semana. Aquí encontrará esos dos caminos y cuántas clases suman, qué ofreció la municipalidad en 2026, por qué el distrito tiene tantos adolescentes y cómo una clase pasa de una hoja de cálculo a Python.',
+  secondaryCta: { href: '#verano', label: 'Los dos caminos del verano' },
   wa: 'Hola Modern Age Coders, somos una familia de La Molina y buscamos clases de programación en inglés para estas vacaciones. ¿Podemos reservar una clase gratis?',
   heroNote: 'Clases en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; mentores que enseñan siempre en inglés',
   spec: [
     ['Distrito', 'La Molina, Lima Metropolitana'],
     ['Para quién', 'Escolares de 6 a 17 años, de primaria y secundaria'],
-    ['Qué se aprende', 'Programación, y computación si hace falta'],
-    ['Modalidad', 'En vivo por videollamada, desde casa'],
+    ['Qué se aprende', 'Python e IA, o un curso a elección'],
+    ['Ritmo de verano', 'De 4 a 5 clases en vivo por semana'],
     ['Formato', 'Grupo de quince a veinte, o individual'],
     ['Clase de prueba', 'Gratis y sin tarjeta']
   ],
   capsuleQ: 'La respuesta corta',
-  capsule: 'Para las vacaciones útiles en La Molina, Modern Age Coders ofrece clases de programación en vivo, en línea y en inglés para escolares de 6 a 17 años, desde la casa de cada familia. No se trata solo de computación, es decir, de usar Word o Excel: los estudiantes escriben sus propios programas en Scratch, Python o JavaScript con un mentor desde la India que habla claro y se adapta a su ritmo. Usted elige clase grupal o individual y el horario, cualquier día, y su hijo puede continuar cuando vuelva el colegio.',
+  capsule: 'Para las vacaciones útiles en La Molina, Modern Age Coders ofrece un verano de programación en vivo, en línea y en inglés para escolares de 6 a 17 años, desde casa. No es un taller de computación con Word o Excel: su hijo escribe programas propios, sea en el camino de Python e IA o en el curso que elija (DSA, desarrollo web, apps y más), con 4 a 5 clases a la semana y un mentor desde la India que habla claro. Grupo o individual, con el horario que usted ponga; la primera clase es gratis.',
 
   picks: {
     eyebrow: 'Por dónde empezar',
-    h2: 'Tres cursos para un verano en La Molina',
-    lede: 'Uno para quien todavía necesita manejar bien la computadora, uno para unir la matemática del colegio con el código y uno para el adolescente que quiere programar en serio.',
+    h2: 'Tres cursos para pasar de la hoja de cálculo al código este verano',
+    lede: 'Los dos primeros forman el camino de Python e IA para secundaria; el tercero es un curso corto del segundo camino que un escolar puede cerrar entero antes de marzo.',
     items: [
-      { course: 'microsoft-office-kids-mastery', code: 'VUPM / 01', title: 'Computación para niños: Word, PowerPoint y Excel', alt: 'Imagen del curso de Microsoft Office para niños', note: 'De 7 a 12 años. Si su hijo aún no se mueve con soltura en la computadora, este es el paso previo: documentos, presentaciones y primeras hojas de cálculo.' },
-      { course: 'maths-through-coding', code: 'VUPM / 02', title: 'Matemática con código', alt: 'Imagen del curso de matemática a través de la programación en Python', note: 'De 10 a 15 años. Fracciones, porcentajes, gráficos y patrones explorados con Python, para que la matemática del colegio se vea de otra manera.' },
-      { course: 'python-complete-masterclass-teens', code: 'VUPM / 03', title: 'Python completo para adolescentes', alt: 'Imagen del curso completo de Python para adolescentes', note: 'Para secundaria, de los 13 a los 17. El salto natural después de Excel: datos, funciones, archivos y programas que resuelven problemas que el adolescente elige.' }
+      { course: 'python-complete-masterclass-teens', code: 'VUPM / 01', title: 'Python completo para adolescentes', alt: 'Imagen del curso completo de Python para adolescentes', note: 'De 13 a 17 años. La base del camino de Python e IA: datos, funciones, archivos y programas propios. En un verano intensivo se recorre cerca de la mitad y el resto sigue en marzo.' },
+      { course: 'data-science-course-for-teens-python-data', code: 'VUPM / 02', title: 'Ciencia de datos para adolescentes', alt: 'Imagen del curso de ciencia de datos con Python para adolescentes', note: 'De 14 a 18 años, con algo de Python. El paso natural para quien ya domina Excel: tablas, gráficos y primeros modelos de machine learning con datos reales.' },
+      { course: 'html-css-course-for-beginners-build-real-websites', code: 'VUPM / 03', title: 'HTML y CSS: webs reales', alt: 'Imagen del curso de HTML y CSS para principiantes', note: 'Desde los 10 años. Un curso de cuatro meses al ritmo normal que, con 4 o 5 clases semanales, puede quedar completo en las vacaciones, con una web publicada al final.' }
     ]
   },
 
   sections: [
+    {
+      id: 'verano',
+      eyebrow: 'Nuestro verano',
+      h2: '¿Qué incluye un verano de programación en La Molina, más allá de Word y Excel?',
+      lede: 'Un camino guiado o uno a la carta, ambos con 4 a 5 clases en vivo por semana. Su hijo puede empezar cualquier semana del descanso, de enero a marzo, y cada clase dura alrededor de una hora.',
+      body: [
+        { kind: 'two',
+          leftH3: 'Python e IA de verano',
+          left: [
+            'El camino que más recomendamos para un escolar molinense que ya sabe usar Excel. Empieza con Python, que convierte las fórmulas que él ya conoce en instrucciones que escribe por su cuenta, y sigue con inteligencia artificial cuando las bases están firmes.',
+            'De 9 a 12 años se hace con nuestro curso de Python e IA para niños. En secundaria, primero Python completo y después ciencia de datos o IA y machine learning. Respetamos las edades mínimas de cada herramienta de IA: lo que no corresponde a un menor no se usa en clase.'
+          ],
+          rightH3: 'Un curso a elección',
+          right: [
+            'Si su hijo ya tiene un interés claro, puede tomar cualquier curso del catálogo al mismo ritmo de verano. Algunas opciones que nos piden en vacaciones: DSA (estructuras de datos y algoritmos), páginas web con HTML y CSS, desarrollo full stack, apps para el celular, bases de datos con SQL, Java, C++, Godot o Roblox, vibe coding y matemática con código.',
+            'Para el niño de 7 a 12 años que todavía no se mueve con soltura en la computadora, también existe un curso de Word, PowerPoint y Excel. Es computación, no programación, y lo decimos así de claro.'
+          ] },
+        { kind: 'table', mt: true, numCols: [1], caption: 'Cuánto se avanza en un verano según la duración del curso (cuentas nuestras)', head: ['Curso', 'Clases a ritmo normal (2 por semana)', 'Con 4 a 5 clases por semana en verano'], rows: [
+          ['HTML y CSS (4 meses)', 'unas 32', 'se completa en unas 7 a 8 semanas'],
+          ['Ciencia de datos para adolescentes (6 meses)', 'unas 48', 'se completa en unas 10 a 12 semanas'],
+          ['Python completo para adolescentes (10 a 12 meses)', 'unas 80 a 96', 'cerca de la mitad en diez semanas; sigue en marzo'],
+          ['Desarrollo web full stack (12 a 14 meses)', 'unas 96 a 112', 'un buen tramo inicial; sigue en marzo']
+        ] },
+        { kind: 'source', html: 'Cálculo nuestro con la duración que publica cada curso en su propia página: semanas por dos clases para el ritmo normal, y diez semanas de verano a 4 o 5 clases, es decir, de 40 a 50 clases. Un curso largo no se termina en las vacaciones y no lo prometemos; lo que sí se gana es una ventaja grande para el resto del año.' },
+        { kind: 'table', mt: true, numCols: [], caption: 'Qué camino conviene según la edad y lo que ya sabe hacer (orientación nuestra)', head: ['Edad y punto de partida', 'Python e IA', 'Curso a elección'], rows: [
+          ['7 a 9 años, aún inseguro con el mouse y el teclado', 'Todavía no', 'Computación con Word y Excel, o Scratch'],
+          ['9 a 12 años, ya usa la computadora', 'Python e IA para niños', 'Webs para niños, Minecraft o Roblox con código'],
+          ['13 a 15 años, maneja Excel', 'Python completo para adolescentes', 'HTML y CSS, matemática con código, SQL'],
+          ['15 a 17 años, ya programó algo', 'Ciencia de datos o IA y machine learning', 'DSA, full stack, apps para adolescentes']
+        ] },
+        { kind: 'source', html: 'Orientación de nuestros mentores según las edades de cada curso; la decisión final sale de la clase gratis.' },
+        { kind: 'p', mt: true, html: 'En el verano no se cobra la mensualidad habitual de ocho clases sin más: el ritmo de 4 o 5 clases semanales, y el monto que corresponde, se acuerdan con el mentor antes de comenzar. La clase de prueba sigue siendo gratis, sin tarjeta.' }
+      ]
+    },
     {
       id: 'molitalleres',
       eyebrow: 'El verano municipal',
@@ -225,7 +267,7 @@ module.exports = {
       id: 'secundaria',
       eyebrow: 'Adolescentes',
       h2: '¿Qué puede aprender un adolescente de secundaria en unas vacaciones?',
-      lede: 'Lo suficiente para saber si la programación es lo suyo, y bastante más si sigue en marzo. Este es el recorrido que proponemos para un primer verano en secundaria; es un plan nuestro, no un programa cerrado.',
+      lede: 'Con 4 a 5 clases por semana, bastante: lo suficiente para saber si la programación es lo suyo y para llegar a marzo con medio curso hecho. Este es el recorrido que proponemos para un primer verano en secundaria; es un plan nuestro, no un programa cerrado.',
       body: [
         { kind: 'ol', items: [
           '<strong>Primer tramo: pensar como la computadora.</strong> Variables, entradas y decisiones con <code>if</code>. El adolescente escribe un programa que le pregunta su nota y le dice cuánto le falta para el promedio que quiere.',
@@ -293,7 +335,7 @@ module.exports = {
       h2: '¿Desde cuándo pueden empezar las vacaciones útiles?',
       lede: 'Desde que termina el colegio. En 2026, el último bloque de clases fijado por el MINEDU en la RM 501-2025 fue del 19 de octubre al 18 de diciembre de 2026, de modo que desde la semana de Navidad su hijo tiene tiempo libre.',
       body: [
-        { kind: 'p', html: 'La fecha de regreso en marzo de 2027 todavía no se conoce, porque el MINEDU aún no había publicado en gob.pe la norma del año escolar 2027 cuando la buscamos, el 8 de noviembre de 2026. Por eso no le ofrecemos un taller con fecha de cierre. Su hijo toma la clase gratis en diciembre, empieza el curso cuando quiera y, al volver el colegio, decide con usted si mantiene el ritmo, si lo reduce o si se toma un descanso.' },
+        { kind: 'p', html: 'La fecha de regreso en marzo de 2027 todavía no se conoce, porque el MINEDU aún no había publicado en gob.pe la norma del año escolar 2027 cuando la buscamos, el 8 de noviembre de 2026. Por eso nuestro verano no tiene fecha de cierre impuesta. Su hijo toma la clase gratis en diciembre, arranca con el ritmo intensivo la semana que prefiera y, al volver el colegio, decide con usted si pasa a las dos clases semanales de siempre o se toma un descanso.' },
         { kind: 'source', html: 'La fecha sale de la Tabla 1 de la RM 501-2025-MINEDU, que comprobamos mirando la página escaneada del documento firmado el 9 de noviembre de 2026. Cada colegio privado ajusta su propio calendario dentro de ese marco.' },
         { kind: 'table', mt: true, numCols: [], caption: 'Hora de La Molina y hora de la India (conversiones de ejemplo, no un horario)', head: ['Hora de Perú', 'Hora de la India', 'Día en la India'], rows: [
           ['7:00 a. m.', '5:30 p. m.', 'El mismo día'],
@@ -330,17 +372,17 @@ module.exports = {
   catalogue: {
     eyebrow: 'Más cursos',
     h2: 'Nueve cursos más para escolares de La Molina',
-    lede: 'Cada uno se dicta en tiempo real y en inglés, con un mentor fijo, en un grupo o de manera individual.',
+    lede: 'Todos valen para el camino a elección: en tiempo real y en inglés, con un mentor fijo, de 4 a 5 clases por semana en vacaciones, en grupo o de manera individual.',
     bands: [
       { num: 'I', h3: 'Primaria', sub: 'De 6 a 10 años', courses: [
         { code: 'VUPM / PRI / 01', slug: 'reasoning-and-readiness-course-for-young-thinkers', title: 'Razonamiento para los más chicos', blurb: 'Secuencias, patrones y lógica antes del primer bloque de código.' },
         { code: 'VUPM / PRI / 02', slug: 'scratch-programming-complete-course', title: 'Scratch desde cero', blurb: 'Animaciones y juegos con bloques que encajan como piezas.' },
-        { code: 'VUPM / PRI / 03', slug: 'minecraft-coding-for-kids-course', title: 'Minecraft con código', blurb: 'Automatizar construcciones dentro de un mundo conocido.' }
+        { code: 'VUPM / PRI / 03', slug: 'microsoft-office-kids-mastery', title: 'Computación: Word, PowerPoint y Excel', blurb: 'El paso previo para quien aún duda frente al teclado.' }
       ] },
       { num: 'II', h3: 'Transición', sub: 'De 10 a 13 años', courses: [
         { code: 'VUPM / TRA / 01', slug: 'python-ai-kids-masterclass', title: 'Python e IA para niños', blurb: 'Primer lenguaje escrito, con dibujos, juegos y algo de IA.' },
         { code: 'VUPM / TRA / 02', slug: 'godot-game-development-course-for-kids-and-teens', title: 'Videojuegos con Godot', blurb: 'Juegos en 2D y 3D con GDScript, desde los 10 años.' },
-        { code: 'VUPM / TRA / 03', slug: 'ai-literacy-for-kids-course', title: 'Cómo funciona la IA', blurb: 'Qué hay detrás de una respuesta automática y cuándo falla.' }
+        { code: 'VUPM / TRA / 03', slug: 'maths-through-coding', title: 'Matemática con código', blurb: 'Fracciones, porcentajes y gráficos explorados con Python.' }
       ] },
       { num: 'III', h3: 'Secundaria', sub: 'De 13 a 17 años', courses: [
         { code: 'VUPM / SEC / 01', slug: 'mysql-mastery-for-teens', title: 'Bases de datos con SQL', blurb: 'El paso siguiente a Excel: consultar datos con un lenguaje.' },
@@ -363,7 +405,7 @@ module.exports = {
       { h3: 'Mentor estable', p: 'La misma persona acompaña a su hijo de inicio a fin.' },
       { h3: 'Explicación visible', p: 'Todo lo que dice el mentor aparece también en pantalla.' },
       { h3: 'Código propio', p: 'El estudiante teclea, prueba y depura su programa.' },
-      { h3: 'Datos reales', p: 'Ejercicios con cifras publicadas, no inventadas.' },
+      { h3: 'Cuatro o cinco por semana', p: 'El ritmo de verano, con ejercicios sobre cifras publicadas.' },
       { h3: 'Informe breve', p: 'Usted recibe lo trabajado y el siguiente objetivo.' },
       { h3: 'Grupo o individual', p: 'De quince a veinte de edad similar, o a solas con su mentor.' }
     ]
@@ -375,9 +417,9 @@ module.exports = {
 
   fees: {
     h2: 'Precios para familias de La Molina',
-    lede: 'El precio mensual se muestra en dólares de Estados Unidos y se cobra con tarjeta. La conversión a soles la hace su banco al tipo de cambio que aplique ese día, así que el monto final puede moverse un poco entre un mes y otro.',
+    lede: 'Lo que ve abajo es la mensualidad estándar de ocho clases, expresada en dólares de Estados Unidos y cargada a una tarjeta; su banco la pasa a soles al tipo de cambio de ese día. Para el verano intensivo, el número de clases semanales (4 o 5) y su costo se conversan con el mentor antes de empezar, y la primera clase no se paga.',
     free: ['Una clase de prueba gratis', 'Una recomendación de curso y de nivel', 'Sin pedir tarjeta'],
-    group: ['Entre quince y veinte escolares de edad similar', 'Un mismo mentor durante el curso', 'Dos sesiones en vivo por semana', 'Mensual, sin permanencia mínima'],
+    group: ['Entre quince y veinte escolares de edad similar', 'Un mismo mentor durante el curso', 'Dos sesiones por semana en el año; 4 o 5 en verano, a conversar', 'Mensual, sin permanencia mínima'],
     one: ['Su hijo y su mentor, a solas', 'Contenidos al ritmo del estudiante', 'Horario fijado por la familia']
   },
 
@@ -389,12 +431,13 @@ module.exports = {
       { q: '¿Es lo mismo que el taller de computación de la municipalidad?', a: 'No. Un taller de computación enseña a usar Word o Excel; nosotros enseñamos sobre todo a programar, es decir, a escribir programas propios. Si su hijo de 7 a 12 años aún necesita soltura con la computadora, también tenemos un curso de Word, PowerPoint y Excel.' },
       { q: '¿Las clases son presenciales en La Molina?', a: 'No. Son clases en vivo por videollamada con mentores en la India; su hijo se conecta desde casa y no tiene que ir a ningún local.' },
       { q: '¿Desde qué edad se puede empezar?', a: 'Desde los 6 años con bloques y razonamiento. Entre los 9 y los 10 años la mayoría puede escribir Python, y un adolescente de secundaria puede empezar directamente con Python, JavaScript o SQL.' },
-      { q: '¿Hasta qué fecha va el taller de verano?', a: 'No tiene fecha de cierre, porque no es un taller aparte. Al acabar el año escolar su hijo entra a un curso regular, el mismo que se dicta todo el año, y lo mantiene mientras a la familia le sirva; llegado marzo, ustedes deciden si sigue igual, si reduce el ritmo o si se detiene.' },
+      { q: '¿Cuántas clases a la semana tiene el verano?', a: 'Entre 4 y 5 en vivo, de alrededor de una hora cada una. En el año escolar el ritmo es de dos por semana; en vacaciones se duplica o algo más, para que un curso corto se cierre y uno largo avance a buen paso.' },
+      { q: '¿Hasta qué fecha va el verano y se termina el curso?', a: 'Se empieza cualquier semana entre enero y marzo y dura lo que dure el descanso. Por nuestra cuenta, diez semanas a 4 o 5 clases son de 40 a 50 clases: HTML y CSS cabe completo, pero Python completo para adolescentes llega más o menos a la mitad y sigue en marzo con dos clases por semana. No prometemos cerrar un curso largo en el verano.' },
       { q: '¿En qué horario serían las clases?', a: 'Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. La India está 10 horas y 30 minutos por delante de Perú: las 10:30 a. m. en La Molina son las 9:00 p. m. allá.' },
       { q: '¿Preparan para el examen de admisión a la universidad?', a: 'No. Los exámenes de admisión en el Perú se rinden en castellano y no prometemos ingresos. Enseñamos programación y razonamiento matemático en inglés, que ayudan en cualquier carrera, pero la preparación preuniversitaria es otra cosa.' },
       { q: '¿Usarán inteligencia artificial en clase?', a: 'Solo herramientas permitidas para la edad del estudiante y después de que resolvió el problema por su cuenta. La IA sirve para revisar un razonamiento, no para hacerlo por él.' },
       { q: '¿Tienen alguna relación con la municipalidad o con el colegio?', a: 'Ninguna. No estamos vinculados con la Municipalidad de La Molina, el MINEDU, las UGEL ni ningún colegio, y no damos notas escolares. Al completar un curso, el estudiante recibe un certificado de finalización de Modern Age Coders.' },
-      { q: '¿Cómo se pagan las clases?', a: 'Con tarjeta, mensualmente y en dólares estadounidenses. Su banco convierte el cargo a soles. La clase de prueba es gratis y no pide datos de pago.' }
+      { q: '¿Cuánto cuesta el verano y cómo se paga?', a: 'La tarifa publicada es la del ritmo normal de ocho clases al mes. La del verano intensivo, con 4 o 5 clases semanales, se acuerda con el mentor antes de comenzar, según el formato que elija. Se paga con tarjeta en dólares estadounidenses y su banco lo convierte a soles; la clase de prueba es gratis.' }
     ]
   },
 
@@ -414,7 +457,7 @@ module.exports = {
 
   start: {
     h2: 'Reserve la clase de prueba gratis',
-    lede: 'Durante esa primera hora gratuita, el mentor le habla a su hijo en un inglés sencillo, le pide resolver un problema corto y escucha cómo lo piensa. Después le decimos si conviene empezar por computación o directamente por programación, y en qué curso y formato.',
+    lede: 'Durante esa primera hora gratuita, el mentor le habla a su hijo en un inglés sencillo, le pide resolver un problema corto y escucha cómo lo piensa. Después le decimos si le conviene el camino de Python e IA o un curso a elección, o primero computación, y si le acomoda más el grupo o la clase individual; con eso se acuerdan las 4 o 5 clases semanales y su costo.',
     readFirst: 'Antes de reservar puede leer <a class="ag-inline-link" href="/how-we-teach">How we teach</a>, que describe una clase, o revisar los temarios en <a class="ag-inline-link" href="/courses">All courses</a> (ambas páginas en inglés).',
     note: 'Nuestros mentores enseñan desde la India, en directo y en inglés. Por WhatsApp contestamos antes, y puede escribirnos en castellano sin problema.',
     formNote: 'Gratis, sin tarjeta y sin compromiso.'
@@ -423,8 +466,8 @@ module.exports = {
   footer: {
     cols: [
       { h4: 'Cursos para el verano', links: [
-        { href: '/courses/microsoft-office-kids-mastery', label: 'Computación para niños' },
-        { href: '/courses/maths-through-coding', label: 'Matemática con código' },
+        { href: '/courses/data-science-course-for-teens-python-data', label: 'Ciencia de datos' },
+        { href: '/courses/html-css-course-for-beginners-build-real-websites', label: 'HTML y CSS' },
         { href: '/courses/python-complete-masterclass-teens', label: 'Python para adolescentes' },
         { href: '/courses', label: 'Todos los cursos' }
       ] },
@@ -447,9 +490,9 @@ module.exports = {
 `,
 
   dossier: {
-    curriculumAuthority: 'Municipalidad Distrital de La Molina press notes N.° 365 (10 December 2025), N.° 380 (6 January 2026) and N.° 419 (15 April 2026) on gob.pe/institucion/munilamolina; INEI Censos Nacionales 2025 (Lima Metropolitana, Cuadros N.° 1 and 3); MINEDU CNEB (competency 28) and RM 501-2025 Tabla 1; INEI TIC en los Hogares II Trimestre 2026; EF EPI 2025; tzdata and INACAL. Read 8 and 9 November 2026. The comparison table, the five steps, the teen plan and the Python lesson are our own.',
+    curriculumAuthority: 'Municipalidad Distrital de La Molina press notes N.° 365 (10 December 2025), N.° 380 (6 January 2026) and N.° 419 (15 April 2026) on gob.pe/institucion/munilamolina; INEI Censos Nacionales 2025 (Lima Metropolitana, Cuadros N.° 1 and 3); MINEDU CNEB (competency 28) and RM 501-2025 Tabla 1; INEI TIC en los Hogares II Trimestre 2026; EF EPI 2025; tzdata and INACAL. Read 8 and 9 November 2026. The two summer tracks, the progress table, the comparison table, the five steps, the teen plan and the Python lesson are our own.',
     localProject: 'From Excel to Python with La Molina\'s own census: an original lesson for 12 to 15 year olds on the INEI 2025 age groups of the district, stored as text the way a spreadsheet column formatted as text exports them. Version 1 prints "Largest: 8435" and sorts \'10681\' first; Version 2 converts with int() and prints "Largest: 35219 in the group 60 y mas", the sorted numbers and "Smallest: 5042 in the group 0 a 5", then checks against the published table and refuses to add the groups into a home-made total. Lesson family: str versus int, comparing and sorting text that looks like numbers.',
-    requiredMentions: ['Largest: 8435', 'Largest: 35219 in the group 60 y mas', 'Smallest: 5042 in the group 0 a 5', 'Molitalleres de Verano 2026', 'Molitalleres gratuitos de Computación', '8 435 niños de 6 a 11 años y 10 681 adolescentes de 12 a 17', 'Detecta que "8435" no es un número', 'Primero convertir, después comparar', '¿Computación y programación son lo mismo?'],
+    requiredMentions: ['Largest: 8435', 'Largest: 35219 in the group 60 y mas', 'Smallest: 5042 in the group 0 a 5', 'Molitalleres de Verano 2026', 'Molitalleres gratuitos de Computación', 'Cuánto se avanza en un verano según la duración del curso', '8 435 niños de 6 a 11 años y 10 681 adolescentes de 12 a 17', 'Detecta que "8435" no es un número', 'Primero convertir, después comparar', '¿Computación y programación son lo mismo?'],
     sources: [
       { claim: 'Molitalleres de Verano 2026: start Monday 12 January; robotics for children and teens; computing, pre-university prep and maths reinforcement for teens and adults.', url: 'https://www.gob.pe/institucion/munilamolina/noticias/1328590-este-viernes-cierran-las-inscripciones-para-los-molitalleres-de-verano-2026' },
       { claim: 'Talleres Deportivos de Verano 2026: more than 30 specialities in 10 venues, ages 6 to 17 (10 December 2025).', url: 'https://www.gob.pe/institucion/munilamolina/noticias/1308761-empezaron-las-inscripciones-para-talleres-deportivos-de-verano-2026' },
@@ -462,6 +505,7 @@ module.exports = {
       { claim: 'Peru UTC-5 all year; India UTC+5:30.', url: 'https://raw.githubusercontent.com/eggert/tz/main/southamerica' }
     ],
     rejectedClaims: [
+      'A summer price, or a long course finished in the summer: refused; the 4 to 5 a week pace and its fee are agreed with the mentor, and the progress table is our arithmetic.',
       'Anything from www.munimolina.gob.pe: the site did not answer (code 000) on 9 November 2026; only the council\'s gob.pe institutional notes are used.',
       'Council workshop prices, addresses and phone numbers: in the notes, not repeated.',
       'Traffic or commute figures for La Molina: none; the page says only that classes at home need no travel.',

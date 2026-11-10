@@ -1,10 +1,10 @@
 ---
 title: "Vacaciones útiles de programación en Surco, en vivo en inglés"
-description: "Vacaciones útiles de programación para niños y adolescentes de Santiago de Surco: clases en vivo, en línea y en inglés, desde casa, en grupo o individuales."
+description: "Vacaciones útiles de programación en Surco: Python e IA o el curso que cada hijo elija, de 4 a 5 clases en vivo por semana, en inglés, en grupo o individual."
 canonical: https://learn.modernagecoders.com/vacaciones-utiles-de-programacion-surco-lima
 source: src/pages/vacaciones-utiles-de-programacion-surco-lima.html
 ---
-> Sí: sus hijos pueden pasar las vacaciones útiles en Surco aprendiendo programación sin salir de casa. Modern Age Coders enseña a niños de 6 a 12 años y a adolescentes de 13 a 17 con clases en vivo, en línea y en inglés, con mentores desde la India que hablan claro y se adaptan al ritmo de cada uno. No es un campamento con fecha fija: cada hijo empieza nuestro curso normal cuando acaba el colegio, en una clase grupal o individual, en los días y horas que su familia prefiera, y puede seguir en marzo.
+> Sí: en Surco, cada uno de sus hijos puede dedicar el verano a programar sin salir de casa. Modern Age Coders ofrece dos caminos, ambos con clases en vivo, en línea y en inglés: Python e IA de verano, o el curso que cada hijo elija (DSA, desarrollo web, apps, Roblox, Scratch y muchos más), con 4 a 5 clases a la semana. Enseñamos a niños de 6 a 12 años y adolescentes de 13 a 17, con mentores desde la India que hablan claro. Grupo o individual, en el horario que su familia fije, y la primera clase es gratis.
 
 [Inicio](/) / [Cursos](/courses) / [Perú](/coding-and-ai-classes-in-peru) / Vacaciones útiles en Surco
 
@@ -12,17 +12,58 @@ Santiago de Surco · Vacaciones útiles · De 6 a 17 años
 
 # Vacaciones útiles de programación en Surco, desde casa
 
-Cuando termina el colegio, muchas familias surcanas organizan el verano de dos o tres hijos a la vez: uno quiere fútbol, otra quiere dibujar, y alguno pregunta si puede aprender a hacer videojuegos. Esta página es para usted si busca que la programación sea parte de ese verano sin sumar más trayectos por Lima: qué ofreció la municipalidad en 2026, cuántos niños y adolescentes viven en el distrito, cómo armar un plan distinto para cada hijo y cómo es una clase real.
+Cuando termina el colegio, muchas familias surcanas organizan el verano de dos o tres hijos a la vez: uno quiere fútbol, otra quiere dibujar, y alguno pregunta si puede aprender a hacer videojuegos. Nuestro verano le da a cada hijo su propio camino: el recorrido de Python con inteligencia artificial, o bien un curso escogido por él mismo, a un ritmo intenso de 4 a 5 clases en vivo por semana y sin sumar un solo trayecto por Lima. Abajo están los dos caminos, las cuentas de clases, los datos del distrito y una clase real.
 
-En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Distrito: Santiago de Surco, Lima Metropolitana; Edades: Niños de 6 a 12 y adolescentes de 13 a 17; Cuándo: Desde que termina el año escolar en diciembre; Dónde: En casa, por videollamada, sin traslados; Formato: Grupo de quince a veinte, o individual; Primera clase: Gratis, sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
+En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Distrito: Santiago de Surco, Lima Metropolitana; Edades: Niños de 6 a 12 y adolescentes de 13 a 17; Caminos: Python e IA, o el curso que cada hijo elija; Ritmo de verano: De 4 a 5 clases en vivo por semana; Formato: Grupo de quince a veinte, o individual; Primera clase: Gratis, sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
 
-## Tres cursos para hermanos de distintas edades
+## Tres puntos de partida para hermanos de distintas edades
 
-Si en casa hay un niño pequeño, uno de primaria alta y un adolescente, cada uno tiene aquí su punto de partida.
+Dos cursos del camino de Python e IA, el de quinto y sexto de primaria y el de secundaria, más un curso corto para el hermano menor que todavía programa con bloques.
 
-- [Scratch para niños](/courses/scratch-programming-complete-course): Para los menores, desde los 6 años. Historias, animaciones y juegos con bloques, sin necesidad de escribir con rapidez en el teclado.
-- [Programar juegos en Roblox](/courses/roblox-game-coding-for-kids-lua-course): Desde los 8 años. Para el hijo que ya juega Roblox y quiere saber cómo se construye por dentro un obby, un marcador o una tienda.
-- [Python para adolescentes](/courses/python-complete-masterclass-teens): De 13 a 17 años. De la primera variable a archivos, funciones y pequeñas aplicaciones, con proyectos que el adolescente elige.
+- [Python e IA para niños](/courses/python-ai-kids-masterclass): De 9 a 12 años. El corazón del camino de verano para primaria: dibujos con la tortuga, juegos y pequeños proyectos de IA seguros para su edad. Con 4 a 5 clases por semana avanza más de la mitad en vacaciones.
+- [Scratch para el hermano menor](/courses/scratch-programming-complete-course): Desde los 6 años. Un curso que sí cabe entero en un verano al ritmo intensivo: historias, animaciones y juegos con bloques, sin teclear rápido.
+- [IA y machine learning para adolescentes](/courses/ai-ml-masterclass-teens): De 13 a 17 años. Para el hermano mayor que ya escribe algo de Python: de los datos a modelos que aprenden, con la matemática del colegio como única base.
+
+## ¿Qué ofrecen las vacaciones útiles de programación para hermanos en Surco?
+
+Dos caminos y un ritmo de verano. Cada hijo escoge entre el recorrido de Python e IA o un curso del catálogo, y lo avanza con 4 a 5 clases en vivo por semana desde que suena el último timbre de diciembre hasta que vuelve el colegio en marzo.
+
+### Camino 1: Python e IA de verano
+
+Es la propuesta estrella de este verano. Arranca con Python, porque con él se arma la mayoría de proyectos de IA actuales, y termina en proyectos de IA medidos para la edad de cada hijo.
+
+Entre los 9 y los 12 años, su hijo sigue nuestro curso de Python e IA para niños: dibujos con la tortuga, juegos y programas que aprenden a reconocer patrones simples. Un adolescente hace Python completo y luego elige entre IA y machine learning o ciencia de datos. Ninguna herramienta de IA entra en clase si no corresponde a la edad del estudiante.
+
+### Camino 2: el curso que cada hijo elija
+
+El hijo que ya sabe lo que quiere toma cualquier curso de nuestro catálogo con el mismo ritmo intensivo: Roblox, Scratch, Java, C++, una web propia, apps para el celular, DSA (estructuras de datos y algoritmos), vibe coding, videojuegos o matemáticas, entre muchos otros.
+
+En una casa con varios hijos esto ordena mucho las cosas. La mayor puede construir su primera web mientras el menor arma juegos en Scratch, cada uno con su mentor, sin que ninguno tenga que aguantar el tema del otro.
+
+**Clases acumuladas según las semanas de verano y el ritmo escogido (cálculo nuestro)**
+
+| Semanas de verano | A 4 clases por semana | A 5 clases por semana |
+|---|---|---|
+| 2 semanas | 8 | 10 |
+| 4 semanas | 16 | 20 |
+| 6 semanas | 24 | 30 |
+| 8 semanas | 32 | 40 |
+| 10 semanas | 40 | 50 |
+
+Cuentas nuestras: semanas por clases semanales, nada más. Durante el año escolar el ritmo normal es de 2 clases por semana, unas ocho al mes. Con 40 a 50 clases en diez semanas, un curso corto como Scratch, HTML y CSS, vibe coding para niños (de tres meses) o la preparación para el PCEP se puede completar en vacaciones. Un curso largo, de los que a dos clases semanales ocupan entre 10 y 12 meses (unas 80 a 100 clases), queda hecho más o menos hasta la mitad y sigue en marzo al ritmo normal: no prometemos terminarlo en el verano.
+
+**Qué camino suele encajar con cada hermano (orientación nuestra)**
+
+| Edad del hijo | Camino 1: Python e IA | Camino 2: ejemplos para elegir |
+|---|---|---|
+| 6 a 8 años | Aún no: primero bloques y lógica | Scratch, apps con bloques, pensamiento computacional |
+| 9 a 12 años | Python e IA para niños | Webs para niños, Roblox con Luau, C++ para niños, vibe coding para niños |
+| 13 a 15 años | Python completo para adolescentes, luego IA y machine learning | Resolución de problemas y DSA, apps para adolescentes, Java |
+| 16 a 17 años | Python, luego ciencia de datos o IA y machine learning | Desarrollo web full stack, DSA, Git y GitHub |
+
+Orientación de nuestros mentores, con las edades que figuran en cada curso. La clase gratis de cada hijo confirma el camino; si un hermano de 8 años ya lee y teclea con soltura, puede adelantarse.
+
+El ritmo de verano y su mensualidad quedan pactados con el mentor antes de arrancar, hijo por hijo, porque no es lo mismo cuatro clases que cinco ni grupo que individual. Lo único que no se negocia es que la primera clase sea gratis para cada uno.
 
 ## ¿Cuántos escolares tiene Santiago de Surco según el censo de 2025?
 
@@ -71,7 +112,7 @@ En la nota de 2026, la tecnología aparece como robótica y ciencia. Es un buen 
 
 ### Cómo se combinan
 
-Nuestra clase dura alrededor de una hora, dos veces por semana, a la hora que usted escoja. Así, la natación o el vóley pueden ir por la mañana y la programación por la tarde, sin chocar.
+Cada una de nuestras clases dura cerca de una hora y en verano se toman de 4 a 5 por semana, en el horario que usted fije. La natación o el vóley pueden quedarse en la mañana y la programación pasar a la tarde, sin choques.
 
 ## ¿Cómo organizar las vacaciones útiles de dos o más hijos a la vez?
 
@@ -92,7 +133,7 @@ Plan escrito por nuestros mentores para esta página; los nombres son inventados
 2. **Horas que no se crucen.** Si en casa hay una sola computadora, ponga las clases en horas distintas: por ejemplo, la menor a media mañana y el mayor después del almuerzo. Como usted elige la hora, eso se arregla al reservar.
 3. **Grupo o individual según la edad.** Los más pequeños suelen avanzar con más soltura en clases individuales al principio; un adolescente con algo de experiencia aprovecha mucho un grupo de su edad.
 4. **Proyectos que no compiten.** Que cada hijo tenga su propio proyecto evita comparaciones. Al final del verano, cada uno presenta el suyo a la familia.
-5. **Una revisión a fines de febrero.** Con lo que vio en las notas del mentor, decida para cada hijo si sigue en marzo, baja a una clase por semana o hace una pausa.
+5. **Una revisión a fines de febrero.** Con lo que vio en las notas del mentor, decida para cada hijo si en marzo vuelve al ritmo normal de dos clases por semana, sigue un poco más intenso o hace una pausa.
 
 A cada hijo lo acompaña un mismo mentor de principio a fin, que aprende cómo piensa y le escribe a usted, después de las clases, qué trabajaron y qué sigue. Si dos hermanos de edad parecida quieren estar juntos, pueden compartir clase grupal; lo decidimos con usted después de las clases gratis.
 
@@ -122,7 +163,7 @@ El año escolar 2026 había empezado con los estudiantes el 16 de marzo de 2026,
 
 Fuente: Resolución Ministerial N.° 501-2025-MINEDU, "Norma Técnica para el Año Escolar 2026", Tabla 1, página 7 del PDF firmado, revisada a simple vista el 9 de noviembre de 2026.
 
-Por eso no le vendemos un programa de verano con fecha de inicio y de fin. Cada hijo puede tomar su sesión gratuita en diciembre, empezar el curso apenas termine el colegio y seguir el tiempo que la familia decida; si el colegio vuelve en marzo, la clase cambia de hora y continúa.
+Por eso el verano no tiene una fecha de arranque común para todos: cualquier semana de enero a marzo sirve para empezar. Cada hijo puede tomar su sesión gratuita en diciembre, arrancar con 4 o 5 clases semanales apenas termine el colegio y, cuando vuelvan las clases en marzo, pasar a dos por semana en otro horario sin perder lo avanzado.
 
 ## ¿Qué aprende un niño de 11 años en una clase de verano?
 
@@ -211,7 +252,7 @@ En verano, muchas familias con varios hijos reparten así el día: el menor a me
 
 ## ¿Cómo saber si cada hijo aprovechó el verano?
 
-Usamos cinco niveles propios. Lo normal es que en un primer verano un niño suba uno o dos.
+Usamos cinco niveles propios. Con el ritmo de verano, lo habitual es que un niño suba uno o dos en su primer verano.
 
 **Cinco niveles de programación que usamos con las familias (nuestros)**
 
@@ -235,7 +276,7 @@ Si algo cambia donde no debía, pregúntese si dos nombres apuntan a lo mismo.
 
 ## Nueve cursos más para el verano en Surco
 
-Otras opciones para el verano, con clases en tiempo real en inglés y un mentor estable, grupales o individuales.
+Cualquiera de estos sirve para el camino 2 del verano: clases en tiempo real en inglés, un mentor estable y de 4 a 5 sesiones semanales, en grupo o a solas.
 
 ### Para los más pequeños
 
@@ -258,7 +299,7 @@ De 9 a 12 años
 De 13 a 17 años
 
 - [Java para adolescentes](/courses/java-programming-masterclass-for-teens): Programación orientada a objetos desde cero, con proyectos.
-- [IA y machine learning](/courses/ai-ml-masterclass-teens): De Python a modelos que aprenden de datos reales.
+- [DSA para adolescentes](/courses/problem-solving-dsa-masterclass-teens): Lógica, estructuras de datos y algoritmos, problema a problema.
 - [Git y GitHub](/courses/git-github-version-control-course-for-teens): Guardar versiones del código y trabajar en equipo.
 
 ## ¿Cómo son las clases en vivo durante el verano?
@@ -272,16 +313,16 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 - **Mentor por hijo** Cada hijo trabaja con su propio mentor todo el curso.
 - **Inglés pausado** El mentor dice poco a la vez y lo muestra todo en pantalla.
 - **Teclado propio** Cada hijo teclea su programa y busca sus errores, con guía.
-- **Proyecto por etapa** Cada tramo del verano termina en algo que se puede mostrar.
+- **Ritmo de verano** De 4 a 5 clases por semana, con un proyecto al cierre de cada tramo.
 - **Nota a la familia** Un resumen corto de lo practicado y del paso siguiente.
 - **Grupo o solo** De quince a veinte de edad parecida, o uno con su mentor.
 
 ## Precios para familias de Surco
 
-La mensualidad se muestra en dólares estadounidenses y se cobra a una tarjeta. Es su banco el que la convierte a soles con su propio tipo de cambio, y por eso el cargo final cambia ligeramente según el mes.
+Las tarjetas de abajo muestran la mensualidad normal del año escolar, de ocho clases al mes, en dólares estadounidenses; el cobro va a una tarjeta y su banco hace la conversión a soles con su propio tipo de cambio. El ritmo de verano, de 4 a 5 clases por semana, y lo que cuesta para cada hijo se dejan cerrados con el mentor antes de que empiecen esas clases intensivas. La primera clase de cada hijo es gratuita.
 
 - Primera clase gratis: Gratis. Una clase gratis por cada hijo. Un punto de partida para el verano. Sin tarjeta.
-- Clase grupal: USD 100 al mes. De quince a veinte estudiantes de edad parecida. El mismo mentor todo el verano. Dos clases en vivo por semana. Pago mensual; puede dejarlo al terminar cualquier mes.
+- Clase grupal: USD 100 al mes. De quince a veinte estudiantes de edad parecida. El mismo mentor todo el verano. Dos clases semanales en el año escolar; de 4 a 5 en verano, acordadas con el mentor. Pago mensual; puede dejarlo al terminar cualquier mes.
 - Clases individuales: USD 150 al mes. Su hijo o hija y un mentor, nadie más. Proyectos elegidos a su medida. Los días y horas que usted decida.
 
 ## Vacaciones útiles de programación en Surco: preguntas frecuentes
@@ -298,9 +339,13 @@ No. Son clases en línea, en vivo por videollamada, con mentores desde la India.
 
 Sí. Cada hijo tiene su propia clase gratis, su propio mentor y su propio plan. Si comparten computadora, basta con elegir horas distintas al reservar; si tienen edad parecida, pueden ir a la misma clase grupal.
 
-### ¿Cuánto dura el programa de verano?
+### ¿Cuántas clases por semana tiene el verano y cuánto avanza cada hijo?
 
-No tiene una duración fija. Sus hijos empiezan nuestro curso normal cuando termina el colegio y siguen el tiempo que la familia decida; pueden continuar en marzo, bajar el ritmo o detenerse al terminar cualquier mes.
+De 4 a 5 clases en vivo por semana. Según nuestra cuenta, diez semanas a ese ritmo son de 40 a 50 clases: alcanza para terminar un curso corto como Scratch o HTML y CSS, y para hacer más o menos la mitad de uno largo, que luego sigue en marzo a dos clases por semana.
+
+### ¿Cuánto dura el verano y cuándo se puede empezar?
+
+Dura lo que dure el descanso escolar de cada hijo. Se puede empezar cualquier semana entre enero y marzo, y al volver el colegio cada uno decide si continúa con el ritmo normal, más suave, o si se detiene al cerrar el mes.
 
 ### ¿En qué horario pueden conectarse mis hijos?
 
@@ -312,7 +357,7 @@ Desde los 6 años. A esa edad se trabaja con bloques de colores; hacia los 9 o 1
 
 ### ¿Se puede combinar con DivertiSurco u otro taller municipal?
 
-Sí. Nuestra clase dura alrededor de una hora, dos veces por semana, a la hora que usted elija, así que encaja junto a un taller deportivo o artístico. No estamos vinculados con la Municipalidad de Surco.
+Sí. Cada clase dura cerca de una hora y usted pone el horario de las 4 o 5 semanales, así que el taller deportivo o artístico puede ir en la mañana y el código en la tarde. No estamos vinculados con la Municipalidad de Surco.
 
 ### ¿Enseñan robótica?
 
@@ -322,13 +367,9 @@ Lo nuestro es el código, no las piezas: no trabajamos con hardware ni mandamos 
 
 Un equipo con teclado, sea laptop o de escritorio, que tenga cámara y micrófono, más una buena conexión; unos auriculares ayudan a oír con claridad al mentor. Si varios hijos comparten ese equipo, se reparten las horas de clase.
 
-### ¿Este curso le sirve como nota en el colegio?
+### ¿Cuánto cuesta el verano de programación?
 
-No. Somos una escuela en línea independiente, sin relación con el MINEDU, las UGEL ni los colegios de Surco, y no ponemos calificaciones escolares. Quien completa un curso obtiene un certificado de finalización emitido por Modern Age Coders, y nada más.
-
-### ¿Cómo se paga?
-
-Mes a mes, con tarjeta y en dólares estadounidenses; el cambio a soles lo aplica su banco. Para la clase de prueba no pedimos ningún dato de pago.
+La mensualidad publicada corresponde al ritmo normal de ocho clases al mes. Como en verano cada hijo toma de 4 a 5 clases por semana, ese ritmo y su precio se fijan con el mentor cuando ya hizo su clase gratis y antes de seguir. Se paga con tarjeta en dólares estadounidenses, su banco lo pasa a soles y la clase de prueba no pide datos de pago. No damos notas escolares: al completar un curso, el estudiante recibe un certificado de finalización de Modern Age Coders.
 
 ## Lecturas para planear el verano
 

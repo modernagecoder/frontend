@@ -1,4 +1,4 @@
-// SHIP: market | Miraflores summer by age: council workshops stop at 12, a gap for teens | logic: a range check needs and, not or (chained comparison)
+// SHIP: market | Miraflores by age: Python and AI or own course, 4 to 5 a week, teens too | logic: a range check needs and, not or (chained comparison)
 'use strict';
 // Vacaciones útiles de programación en Miraflores (ag- Spanish district door, Peru cluster row PE220, P2, hubGroup lima).
 // Spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md; brief docs/superpowers/plans/2026-11-09-pe-writer-brief.md
@@ -30,8 +30,14 @@
 //  - EF EPI 2025 (ef_peru.txt): Lima 555, high from 550; Peru speaking 480.
 //  - Time (timezone.tsv): Peru UTC-5, India UTC+5:30.
 //  - Neighbouring districts in plain text: San Isidro, Surquillo, Santiago de Surco, Barranco; the Pacific coast.
+// Summer offer (owner 2026-11-10, brief section "Summer offer"): Summer Python and AI (python-ai-kids-masterclass 9 to 12;
+//   python-complete-masterclass-teens then ai-ml-masterclass-teens 13 to 17) or any catalogue course (games, Roblox, Scratch,
+//   web, apps, DSA, Java, vibe coding, maths and more) at 4 to 5 live classes a week, group or one to one, flexible hours;
+//   summer pace and fee agreed with the mentor first; first class free; no price typed. Lengths from
+//   content/courses/data/*.json meta.duration (vibe coding kids 3 months, Scratch 3-4 months, game dev kids 6-8 months).
 // Our own calculations (python3 -I): 29900 / 121203 = 24.67% (60 and over); 6204 / 121203 = 5.12% (6 to 11);
-//   6575 / 121203 = 5.42% (12 to 17).
+//   6575 / 121203 = 5.42% (12 to 17). Summer tally (ours, an illustration, 2027 return date unknown): January 4 weeks
+//   (16 at 4 a week, 20 at 5), February 4 weeks (16, 20), early March about 2 weeks (8, 10); 10 weeks = 40 to 50 classes.
 // Our own example (vami_v1.py, vami_v2.py), exact output:
 //   v1 (or): all five lines "... fits age 10", including "Nido Municipal 2025 fits age 10" and
 //   "Programa Jovenes 2025 fits age 10"; v2 (minimo <= edad <= maximo): "Age 10" / "Juguemos 2025" / "Pequenos Lideres
@@ -102,51 +108,84 @@ module.exports = {
   parents: [{ slug: 'coding-and-ai-classes-in-peru', name: 'Peru' }],
   routeLabel: 'Vacaciones útiles de programación en Miraflores',
   title: 'Vacaciones útiles de programación en Miraflores, en vivo',
-  description: 'Vacaciones útiles de programación en Miraflores para niños de 6 a 12 y adolescentes de 13 a 17: clases en vivo, en línea y en inglés, a la hora que usted elija.',
-  ogDescription: 'Qué talleres de verano anunció la Municipalidad de Miraflores para cada edad, el hueco de los 13 a 17 años, una semana que combina parque y código, y una clase de Python sobre rangos de edad.',
-  twitterDescription: 'Programación en vivo y en inglés para el verano en Miraflores, de 6 a 17 años, desde casa y a cualquier hora.',
+  description: 'Verano de programación en Miraflores de 6 a 17 años: Python e IA o el curso que su hijo elija, con 4 a 5 clases en vivo por semana, en inglés y desde casa.',
+  ogDescription: 'Python e IA o un curso a elección, de 4 a 5 clases por semana: qué camino toca a cada edad, el hueco municipal de los 13 a 17 años y una semana de verano con parque y código.',
+  twitterDescription: 'Un verano de código en Miraflores, de 6 a 17 años: 4 a 5 clases en vivo por semana, en inglés y a la hora que usted elija.',
   pageName: 'Vacaciones útiles de programación en Miraflores',
-  webPageDescription: 'Guía para familias de Miraflores que buscan vacaciones útiles de programación, con clases en vivo, en línea y en inglés: los programas de verano que anunció la municipalidad y sus edades, los datos del distrito en los Censos Nacionales 2025 del INEI, una semana de verano equilibrada y una clase de ejemplo en Python, escrita por nosotros, que decide qué taller corresponde a cada edad.',
-  courseDescription: 'Clases en vivo y en línea de programación para niños de 6 a 12 años y adolescentes de 13 a 17 de Miraflores, dictadas solo en inglés, para empezar en las vacaciones: Scratch, Python, Roblox, JavaScript, apps y juegos, en una clase grupal de quince a veinte o en clases individuales, a cualquier hora.',
+  webPageDescription: 'Guía para familias de Miraflores que buscan vacaciones útiles de programación, con clases en vivo, en línea y en inglés: nuestro verano de Python e IA o de un curso a elección, con 4 a 5 clases por semana y un camino para cada edad, los programas de verano que anunció la municipalidad y sus edades, los datos del distrito en los Censos Nacionales 2025 del INEI, una semana de verano equilibrada y una clase de ejemplo en Python, escrita por nosotros, que decide qué taller corresponde a cada edad.',
+  courseDescription: 'Clases en vivo y en línea de programación para niños de 6 a 12 años y adolescentes de 13 a 17 de Miraflores, dictadas solo en inglés, con 4 a 5 clases por semana en vacaciones: Python e IA, o un curso a elección como videojuegos, Roblox, JavaScript, apps o DSA, en una clase grupal de quince a veinte o en clases individuales, a cualquier hora.',
   crumbs: [{ name: 'Cursos', href: '/courses' }, { name: 'Perú', href: '/coding-and-ai-classes-in-peru' }],
   crumbLabel: 'Vacaciones útiles en Miraflores',
   navLinks: [
     { href: '/coding-and-ai-classes-in-peru', label: 'Perú' },
+    { href: '#verano', label: 'Plan de verano' },
     { href: '#por-edad', label: 'Por edad' },
     { href: '#adolescentes', label: 'De 13 a 17' },
-    { href: '#semana', label: 'Una semana' },
     { href: '#rango', label: 'Ejemplo' },
     { href: '#en-ingles', label: 'En inglés' }
   ],
   eyebrow: 'Miraflores &middot; Vacaciones útiles &middot; De 6 a 17 años',
   h1: 'Vacaciones útiles de programación en Miraflores',
-  lede: 'Cada enero, la Municipalidad de Miraflores anuncia talleres de verano con una edad indicada: tantos años como mínimo, tantos como máximo. Si su hijo está dentro del rango, perfecto; si tiene 14 años, quizá no encuentre nada pensado para él. Esta página ordena la oferta por edades, muestra dónde encaja una clase de programación en vivo y en inglés, propone una semana de verano que combina parque y computadora, y enseña a escribir en Python el mismo filtro por edad.',
-  secondaryCta: { href: '#por-edad', label: 'Ver la oferta por edad' },
+  lede: 'Cada enero, la Municipalidad de Miraflores anuncia talleres de verano con una edad indicada: tantos años como mínimo, tantos como máximo. Si su hijo está dentro del rango, perfecto; si tiene 14 años, quizá no encuentre nada pensado para él. Nuestro verano no tiene ese corte: de los 6 a los 17 años, su hijo sigue el camino de Python e IA o el curso que él escoja, con 4 a 5 clases en vivo por semana. Aquí verá qué camino toca a cada edad, la oferta municipal ordenada por años, una semana que combina parque y computadora, y el mismo filtro por edad escrito en Python.',
+  secondaryCta: { href: '#verano', label: 'El camino para cada edad' },
   wa: 'Hola Modern Age Coders, vivimos en Miraflores y queremos que nuestro hijo aprenda programación en inglés en estas vacaciones. ¿Podemos reservar una clase gratis?',
   heroNote: 'En vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; las clases se dictan siempre en inglés',
   spec: [
     ['Distrito', 'Miraflores, Lima Metropolitana'],
     ['Edades', 'De 6 a 12 años y de 13 a 17 años'],
-    ['Modalidad', 'Videollamada en vivo, desde su casa'],
-    ['Combina con', 'Talleres en parques o deportes por la mañana'],
+    ['Dos caminos', 'Python e IA, o el curso que su hijo escoja'],
+    ['Ritmo de verano', 'De 4 a 5 clases en vivo por semana'],
     ['Formato', 'Grupo de quince a veinte, o individual'],
     ['Para empezar', 'Una clase gratis, sin tarjeta']
   ],
   capsuleQ: 'La respuesta corta',
-  capsule: 'En las vacaciones de Miraflores, su hijo puede aprender a programar con Modern Age Coders: clases en vivo, en línea y en inglés para niños de 6 a 12 años y, algo menos común en la oferta del distrito, para adolescentes de 13 a 17. Su hijo aprende Scratch, Python, Roblox o JavaScript desde casa, guiado por un mentor que enseña desde la India, pronuncia con claridad y respeta su ritmo, en clase grupal o individual y a la hora que usted escoja. Se combina bien con un taller al aire libre por la mañana, y puede seguir cuando vuelva el colegio.',
+  capsule: 'En las vacaciones de Miraflores, Modern Age Coders ofrece un verano de programación con clases en vivo, en línea y en inglés para niños de 6 a 12 años y, algo poco común en el distrito, para adolescentes de 13 a 17. Su hijo toma 4 a 5 clases a la semana desde casa y escoge entre dos caminos: Python con IA, o un curso a su gusto, sea de videojuegos, Roblox, desarrollo web, apps o DSA, entre otros. El mentor enseña desde la India y pronuncia con claridad; usted decide entre grupo o individual y la hora, y no paga la clase de prueba.',
 
   picks: {
     eyebrow: 'Primeros cursos',
-    h2: 'Tres cursos según la edad de su hijo',
-    lede: 'Un curso para quien todavía está en los primeros grados, otro para quien llega por los videojuegos y otro para el adolescente que quiere crear páginas y juegos de verdad.',
+    h2: 'Tres cursos para tres edades del verano miraflorino',
+    lede: 'Python e IA para primaria alta, Python para el adolescente que la oferta del distrito deja fuera, y un curso de videojuegos para quien prefiere el segundo camino.',
     items: [
-      { course: 'reasoning-and-readiness-course-for-young-thinkers', code: 'VAMI / 01', title: 'Razonamiento para pequeños pensadores', alt: 'Imagen del curso de razonamiento para niños de 6 a 9 años', note: 'De 6 a 9 años. Patrones, orden y acertijos lógicos que preparan para programar, con muy poco texto y mucha conversación.' },
-      { course: 'game-development-masterclass-for-kids', code: 'VAMI / 02', title: 'Creación de videojuegos para niños', alt: 'Imagen del curso de desarrollo de videojuegos para niños con Scratch, Roblox y Minecraft', note: 'De 8 a 12 años. Scratch, Roblox y Minecraft en un recorrido: del juego que consumen al juego que diseñan.' },
-      { course: 'javascript-course-for-teens-beginners-interactive-web', code: 'VAMI / 03', title: 'JavaScript para adolescentes', alt: 'Imagen del curso de JavaScript para adolescentes', note: 'De 13 a 17 años. Páginas interactivas y juegos que corren en el navegador, construidos y probados línea por línea.' }
+      { course: 'python-ai-kids-masterclass', code: 'VAMI / 01', title: 'Python e IA para niños', alt: 'Imagen del curso de Python e inteligencia artificial para niños', note: 'De 9 a 12 años. El camino de Python e IA en su versión infantil: tortuga, juegos con Pygame y proyectos de IA pensados para niños. A 4 o 5 clases por semana, el verano cubre más de la mitad del curso.' },
+      { course: 'python-complete-masterclass-teens', code: 'VAMI / 02', title: 'Python para adolescentes de 13 a 17', alt: 'Imagen del curso completo de Python para adolescentes', note: 'Para la edad que no aparece en los anuncios municipales. Primer tramo del camino de Python e IA; después llega IA y machine learning. Es un curso largo: en vacaciones se hace cerca de la mitad.' },
+      { course: 'game-development-masterclass-for-kids', code: 'VAMI / 03', title: 'Creación de videojuegos para niños', alt: 'Imagen del curso de desarrollo de videojuegos para niños con Scratch, Roblox y Minecraft', note: 'De 8 a 12 años, por el camino a elección. Scratch, Roblox y Minecraft en un solo recorrido, del juego que se consume al juego que se diseña.' }
     ]
   },
 
   sections: [
+    {
+      id: 'verano',
+      eyebrow: 'Nuestro verano',
+      h2: '¿Qué verano de programación ofrecen para cada edad en Miraflores?',
+      lede: 'El mismo esquema de los 6 a los 17 años, sin cortes por edad: dos caminos, 4 a 5 clases en vivo por semana y un inicio en la semana de enero, febrero o marzo que usted escoja.',
+      body: [
+        { kind: 'two',
+          leftH3: 'Python e IA de verano',
+          left: [
+            'Nuestra apuesta principal para estas vacaciones. Su hijo aprende Python con un mentor y, con esa base, pasa a proyectos de inteligencia artificial que corresponden a sus años: un niño de 10 entrena un clasificador sencillo; uno de 16 trabaja con datos y modelos de machine learning.',
+            'Entre los 9 y los 12 años va con el curso infantil de Python e IA; entre los 13 y los 17, con Python completo seguido de IA y machine learning. Las herramientas de IA que entran a clase respetan la edad mínima que fija cada empresa.'
+          ],
+          rightH3: 'El curso que su hijo prefiera',
+          right: [
+            'También puede elegir cualquier curso del catálogo y avanzarlo al ritmo de verano: videojuegos con Scratch o Roblox, Unity, JavaScript, desarrollo web, apps para el celular, DSA, Java, C++, vibe coding, matemáticas, entre otros.',
+            'Es el camino para el niño que llega con una idea fija (quiero hacer mi juego) o para el adolescente que ya sabe qué carrera le llama. El mentor arma el avance alrededor de ese interés.'
+          ] },
+        { kind: 'table', mt: true, numCols: [], caption: 'Qué camino corresponde a cada edad (orientación nuestra)', head: ['Edad', 'Python e IA de verano', 'Curso a elección, por ejemplo'], rows: [
+          ['6 a 8 años', 'Antes, razonamiento y bloques', 'Programación con bloques, Minecraft programado, Scratch'],
+          ['9 a 12 años', 'Python e IA para niños', 'Videojuegos para niños, Roblox con Luau, vibe coding para niños'],
+          ['13 a 17 años', 'Python para adolescentes, luego IA y machine learning', 'JavaScript, apps con React Native, Unity, DSA']
+        ] },
+        { kind: 'source', html: 'Las bandas siguen las edades que figuran en cada curso; en la clase gratis el mentor confirma si su hijo encaja o si conviene adelantarlo.' },
+        { kind: 'table', mt: true, numCols: [1, 2], caption: 'Cuántas clases suma un verano mes a mes (ejemplo nuestro)', head: ['Tramo del verano', 'Con 4 clases semanales', 'Con 5 clases semanales'], rows: [
+          ['Enero, 4 semanas', '16', '20'],
+          ['Febrero, 4 semanas', '16', '20'],
+          ['Inicio de marzo, unas 2 semanas', '8', '10'],
+          ['Diez semanas en total', '40', '50']
+        ] },
+        { kind: 'source', html: 'Cuenta nuestra y solo ilustrativa: la fecha de regreso a clases de 2027 aún no se conoce, así que el tramo de marzo puede ser más corto o más largo. En el año escolar el ritmo es de dos clases por semana. Con 40 a 50 clases, un curso de tres o cuatro meses, como Scratch o vibe coding para niños, se termina en el verano; uno de 10 a 12 meses, que a ritmo normal son unas 80 a 100 clases, queda a la mitad más o menos y sigue en marzo. No prometemos acabar un curso largo en vacaciones.' },
+        { kind: 'p', mt: true, html: 'Cuatro o cinco clases, grupo o individual, y lo que eso cuesta al mes, se hablan con el mentor antes del arranque del verano. La primera clase, la de prueba, no se cobra.' }
+      ]
+    },
     {
       id: 'por-edad',
       eyebrow: 'La oferta municipal',
@@ -178,7 +217,7 @@ module.exports = {
       id: 'adolescentes',
       eyebrow: 'De 13 a 17 años',
       h2: '¿Qué puede hacer un adolescente de Miraflores en vacaciones?',
-      lede: 'Aprender a programar es una de las mejores respuestas, precisamente porque a esa edad ya puede crear algo propio y útil. En nuestras clases, un adolescente de 13 a 17 años empieza con Python o JavaScript y termina el verano con un proyecto que puede mostrar.',
+      lede: 'Aprender a programar encaja muy bien, precisamente porque a esa edad ya puede crear algo propio y útil. Con 4 a 5 clases por semana, un adolescente de 13 a 17 años arranca con Python o JavaScript y cierra el verano con un proyecto que puede mostrar.',
       body: [
         { kind: 'three', cells: [
           { h3: 'Una web o un juego propio', p: 'Con JavaScript, el adolescente construye páginas que reaccionan a lo que hace el usuario y pequeños juegos que corren en el navegador. Ve el resultado de inmediato y lo comparte con sus amigos.' },
@@ -223,20 +262,20 @@ module.exports = {
       id: 'semana',
       eyebrow: 'Una semana de verano',
       h2: '¿Cómo combinar parque y programación en una misma semana?',
-      lede: 'Con la mañana al aire libre y la tarde en casa. Esta es una semana de ejemplo para un niño de 9 años, pensada por nosotros; los talleres municipales que menciona dependen de lo que la municipalidad anuncie para 2027.',
+      lede: 'Con la mañana al aire libre y la tarde en casa, aun con el ritmo de verano de 4 a 5 clases. Esta es una semana de ejemplo para un niño de 9 años, pensada por nosotros; los talleres municipales que menciona dependen de lo que la municipalidad anuncie para 2027.',
       body: [
         { kind: 'table', numCols: [], caption: 'Una semana de verano de ejemplo para un niño de 9 años (plan nuestro)', head: ['Día', 'Mañana', 'Tarde'], rows: [
           ['Lunes', 'Playa o parque con la familia', 'Clase de programación en vivo, una hora'],
-          ['Martes', 'Taller municipal al aire libre, si hay uno para su edad', 'Libre'],
-          ['Miércoles', 'Deporte', 'Veinte minutos de práctica en su proyecto'],
+          ['Martes', 'Taller municipal al aire libre, si hay uno para su edad', 'Clase de programación en vivo, una hora'],
+          ['Miércoles', 'Deporte', 'Libre, o una quinta clase si eligieron ese ritmo'],
           ['Jueves', 'Lectura y juegos de mesa', 'Clase de programación en vivo, una hora'],
-          ['Viernes', 'Salida familiar', 'Le muestra a alguien de la casa lo que construyó'],
+          ['Viernes', 'Salida familiar', 'Clase en vivo y, al final, le muestra a alguien de casa lo que construyó'],
           ['Fin de semana', 'Descanso', 'Descanso']
         ] },
         { kind: 'source', html: 'Plan elaborado por nuestros mentores como ejemplo. Los días y horas de las clases los elige la familia; nada queda establecido de antemano.' },
         { kind: 'ol', mt: true, items: [
-          '<strong>Dos clases, no cinco.</strong> Con dos sesiones en vivo por semana el niño avanza sin cansarse de la pantalla, y le queda tiempo para el verano de siempre.',
-          '<strong>Una práctica corta entre clases.</strong> Veinte minutos a mitad de semana, en un proyecto que él eligió, fijan lo aprendido más que una sesión larga el domingo.',
+          '<strong>Una hora por tarde, no más.</strong> Con cuatro o cinco sesiones de una hora el niño avanza rápido sin pasarse el día frente a la pantalla, y las mañanas siguen siendo del verano de siempre.',
+          '<strong>Un día libre a mitad de semana.</strong> Si eligen cuatro clases, el miércoles sin clase sirve para jugar con lo que construyó; repasar por gusto fija más que una sesión larga el domingo.',
           '<strong>Pantalla después de moverse.</strong> Una mañana de parque o de playa hace que la tarde frente a la computadora se aproveche más.',
           '<strong>Mostrar el viernes.</strong> Explicar su juego a un adulto obliga al niño a ordenar lo que entendió, y a la familia le permite ver el avance.'
         ] }
@@ -311,8 +350,8 @@ module.exports = {
         { kind: 'ol', items: [
           '<strong>En diciembre, la clase gratis.</strong> Reserve una sesión de prueba antes de las fiestas. El mentor conoce a su hijo, le plantea un reto pequeño y propone por dónde empezar.',
           '<strong>Elija las horas mirando su reloj.</strong> Con Perú fijo en UTC-5 y la India fija en UTC+5:30, el reloj indio va siempre 10 horas y 30 minutos por delante. Por ejemplo, las 10:00 a. m. en Miraflores son las 8:30 p. m. en la India, y las 4:00 p. m. en Miraflores son las 2:30 a. m. del día siguiente allá.',
-          '<strong>Empiece cuando quiera.</strong> No hay fecha de inicio común ni fecha de cierre: su hijo entra a un curso regular, no a uno armado solo para enero.',
-          '<strong>Decida en marzo.</strong> Todavía no sabemos qué día vuelven los colegios en 2027: cuando revisamos gob.pe, el 8 de noviembre de 2026, la norma de ese año escolar no estaba publicada. Cuando se conozca, usted elige si su hijo sigue, reduce el ritmo o hace una pausa.'
+          '<strong>Empiece la semana que quiera.</strong> No hay fecha de inicio común: su hijo puede entrar en enero, en febrero o en marzo y arrancar el camino de Python e IA o el curso elegido, con 4 a 5 clases por semana.',
+          '<strong>Decida en marzo.</strong> Todavía no sabemos qué día vuelven los colegios en 2027: cuando revisamos gob.pe, el 8 de noviembre de 2026, la norma de ese año escolar no estaba publicada. Cuando se conozca, usted elige si su hijo baja a dos clases por semana para seguir, o hace una pausa.'
         ] },
         { kind: 'source', html: 'Las fechas escolares provienen de la Tabla 1 de la RM 501-2025-MINEDU, leída directamente en la página escaneada el 9 de noviembre de 2026. La diferencia horaria proviene de tzdata, que registra America/Lima en UTC-5 sin cambios estacionales desde 1994 y Asia/Kolkata en UTC+5:30, y del reloj del INACAL.' }
       ]
@@ -343,22 +382,22 @@ module.exports = {
   catalogue: {
     eyebrow: 'Más cursos',
     h2: 'Otros nueve cursos, ordenados por edad',
-    lede: 'Se dictan en vivo y en inglés con un mentor que no cambia, en un grupo de edad parecida o a solas.',
+    lede: 'Opciones para el camino a elección, en vivo y en inglés con un mentor que no cambia, a 4 o 5 clases semanales en verano, en un grupo de edad parecida o a solas.',
     bands: [
       { num: 'I', h3: 'Primeros grados', sub: 'De 6 a 9 años', courses: [
         { code: 'VAMI / INI / 01', slug: 'kids-coding-blocks-masterclass', title: 'Programación con bloques', blurb: 'Bloques que se leen como frases, para los que recién empiezan.' },
         { code: 'VAMI / INI / 02', slug: 'minecraft-coding-for-kids-course', title: 'Minecraft programado', blurb: 'Construir y automatizar en un mundo que ya les encanta.' },
-        { code: 'VAMI / INI / 03', slug: 'problem-solving-and-computational-thinking-for-kids', title: 'Pensar como programador', blurb: 'Descomponer problemas grandes en pasos pequeños.' }
+        { code: 'VAMI / INI / 03', slug: 'reasoning-and-readiness-course-for-young-thinkers', title: 'Razonamiento para pequeños', blurb: 'Patrones, orden y acertijos antes del primer bloque.' }
       ] },
       { num: 'II', h3: 'Primaria alta', sub: 'De 9 a 12 años', courses: [
-        { code: 'VAMI / PRI / 01', slug: 'python-ai-kids-masterclass', title: 'Python con IA', blurb: 'El primer lenguaje escrito, con tortuga, juegos y algo de IA.' },
+        { code: 'VAMI / PRI / 01', slug: 'vibe-coding-for-kids-beginners-ai-scratch-game-dev', title: 'Vibe coding para niños', blurb: 'Tres meses de curso que caben enteros en un verano intensivo.' },
         { code: 'VAMI / PRI / 02', slug: 'roblox-game-coding-for-kids-lua-course', title: 'Roblox con Luau', blurb: 'Obbys, marcadores y tiendas que funcionan de verdad.' },
         { code: 'VAMI / PRI / 03', slug: 'hackathon-prep-for-kids-coding-innovation-ai-projects-course', title: 'Rumbo a un hackatón', blurb: 'Idear, construir y presentar un proyecto en equipo.' }
       ] },
       { num: 'III', h3: 'Adolescentes', sub: 'De 13 a 17 años', courses: [
         { code: 'VAMI / ADO / 01', slug: 'complete-app-development-masterclass-for-teens', title: 'Apps para adolescentes', blurb: 'Aplicaciones para el celular con React Native.' },
         { code: 'VAMI / ADO / 02', slug: 'complete-game-development-masterclass-for-teens', title: 'Videojuegos con Unity', blurb: 'C# y Unity para publicar un juego terminado.' },
-        { code: 'VAMI / ADO / 03', slug: 'cybersecurity-course-for-teens-ethical-defensive', title: 'Ciberseguridad para adolescentes', blurb: 'Seguridad en internet y defensa ética de sistemas.' }
+        { code: 'VAMI / ADO / 03', slug: 'javascript-course-for-teens-beginners-interactive-web', title: 'JavaScript para adolescentes', blurb: 'Páginas interactivas y juegos que corren en el navegador.' }
       ] }
     ]
   },
@@ -376,7 +415,7 @@ module.exports = {
       { h3: 'Un mentor fijo', p: 'Conoce a su hijo y sigue su progreso clase a clase.' },
       { h3: 'Inglés con calma', p: 'Explicaciones cortas, siempre acompañadas en pantalla.' },
       { h3: 'Manos en el código', p: 'Su hijo escribe y prueba; el mentor pregunta y orienta.' },
-      { h3: 'Bordes probados', p: 'Cada programa se prueba con casos límite, no solo fáciles.' },
+      { h3: 'Ritmo intensivo', p: 'En verano, de 4 a 5 clases; programas probados con casos límite.' },
       { h3: 'Aviso a la familia', p: 'Después de las clases, una nota con lo hecho y lo que sigue.' },
       { h3: 'Grupo o individual', p: 'De quince a veinte chicos de edad parecida, o solo con su mentor.' }
     ]
@@ -388,9 +427,9 @@ module.exports = {
 
   fees: {
     h2: 'Precios para familias de Miraflores',
-    lede: 'La tarifa mensual aparece en dólares estadounidenses y se carga a su tarjeta. El banco emisor hace la conversión a soles según su cotización del día, de ahí que el cobro varíe un poco de mes a mes.',
+    lede: 'Las tarifas de estas tarjetas son las del año escolar, con ocho clases al mes, y aparecen en dólares estadounidenses; se cargan a su tarjeta y el banco emisor las pasa a soles con su cotización. El verano va más rápido, con 4 a 5 clases por semana, así que ese ritmo y su mensualidad se definen con el mentor antes de comenzar. La sesión de prueba es gratis.',
     free: ['Una sesión de prueba sin costo', 'Una propuesta de curso según la edad', 'No se pide tarjeta'],
-    group: ['Grupo de quince a veinte chicos de edad similar', 'El mismo mentor de principio a fin', 'Dos clases en vivo cada semana', 'Pago mes a mes, sin permanencia'],
+    group: ['Grupo de quince a veinte chicos de edad similar', 'El mismo mentor de principio a fin', 'Dos clases semanales en el año; en verano, 4 o 5 a definir', 'Pago mes a mes, sin permanencia'],
     one: ['Solo su hijo y su mentor', 'Ritmo y proyectos a su medida', 'Días y horas que decide la familia']
   },
 
@@ -399,15 +438,15 @@ module.exports = {
     h2: 'Vacaciones útiles de programación en Miraflores: preguntas frecuentes',
     items: [
       { q: '¿Las clases son en español?', a: 'No. El idioma de todas nuestras clases es el inglés, sin excepción, y muchas familias de Miraflores nos eligen por eso: su hijo programa y, a la vez, practica el inglés hablado. El mentor ajusta la velocidad al niño. Según el EF EPI 2025, Lima está en el nivel alto de inglés, y una clase así ayuda sobre todo a soltarse al hablar.' },
-      { q: '¿Tienen clases para adolescentes de 13 a 17 años?', a: 'Sí. En los anuncios municipales que revisamos casi no hay opciones para esa edad. Los adolescentes empiezan con Python o JavaScript y pueden pasar a apps, videojuegos o ciberseguridad.' },
+      { q: '¿Tienen clases para adolescentes de 13 a 17 años?', a: 'Sí. En los anuncios municipales que revisamos casi no hay opciones para esa edad. Los adolescentes pueden seguir el camino de Python e IA o elegir un curso como JavaScript, apps, videojuegos con Unity o DSA, siempre con 4 a 5 clases semanales en verano.' },
       { q: '¿Las clases son en algún local de Miraflores?', a: 'No tenemos locales. Todo ocurre por videollamada, en directo, y el mentor está en la India; su hijo participa desde su propia casa.' },
-      { q: '¿Se puede combinar con ECO KIDS u otro taller municipal?', a: 'Sí, si la municipalidad vuelve a ofrecer un programa así en 2027. Con dos sesiones semanales de una hora en el horario que usted prefiera, queda espacio de sobra para un taller en el parque. La municipalidad y nosotros no tenemos ninguna relación.' },
+      { q: '¿Se puede combinar con ECO KIDS u otro taller municipal?', a: 'Sí, si la municipalidad vuelve a ofrecer un programa así en 2027. Cada sesión dura alrededor de una hora y usted decide cuándo van las 4 o 5 de la semana, así que la mañana queda libre para un taller en el parque. La municipalidad y nosotros no tenemos ninguna relación.' },
       { q: '¿A partir de qué edad?', a: 'Desde los 6 años, con razonamiento y bloques. Desde los 9 la mayoría puede escribir Python; a partir de los 13 se puede empezar directo con JavaScript o Python.' },
       { q: '¿Cuál es el horario?', a: 'Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. La India lleva 10 horas y 30 minutos de adelanto: las 10:00 a. m. en Miraflores son las 8:30 p. m. allá.' },
-      { q: '¿Cuánto dura el verano de programación?', a: 'Lo que la familia decida. Apenas termina el año escolar, su hijo se suma a uno de nuestros cursos regulares; en marzo ustedes eligen entre continuar, ir más despacio o parar.' },
+      { q: '¿Cuántas clases hay por semana en el verano?', a: 'De 4 a 5, en vivo, de una hora más o menos cada una. Es el doble o algo más que el ritmo del año escolar, que es de dos por semana.' },
+      { q: '¿Cuánto dura el verano y qué se alcanza a terminar?', a: 'Va desde la semana en que su hijo empiece, entre enero y marzo, hasta que vuelva el colegio. Según nuestra cuenta, diez semanas a 4 o 5 clases dan 40 a 50 clases: alcanzan para cerrar un curso corto, como vibe coding para niños, y para hacer más o menos la mitad de uno largo, que continúa en marzo.' },
       { q: '¿Necesita mi hijo saber inglés?', a: 'No hace falta que lo hable con fluidez. Con entender saludos e instrucciones simples puede empezar; el resto lo va ganando en las clases, y en pocas semanas la pronunciación del mentor le resulta familiar.' },
-      { q: '¿Las clases cuentan para el colegio?', a: 'No. Somos independientes del MINEDU, de las UGEL y de los colegios, y no damos notas escolares. Al terminar un curso entregamos un certificado de finalización propio de Modern Age Coders.' },
-      { q: '¿Cómo se paga?', a: 'Se cobra cada mes a una tarjeta, en dólares de Estados Unidos, y el banco hace el cambio a soles. Para la sesión de prueba no se necesita ningún medio de pago.' }
+            { q: '¿Cuánto cuesta el verano?', a: 'La tarifa publicada es la mensual de ocho clases. La del verano, con 4 o 5 clases por semana, la define el mentor con usted antes de arrancar, según el formato. Se cobra a una tarjeta en dólares de Estados Unidos y el banco la pasa a soles; la sesión de prueba no pide medio de pago. Somos independientes del MINEDU y de los colegios: no damos notas, solo un certificado de finalización propio.' }
     ]
   },
 
@@ -427,7 +466,7 @@ module.exports = {
 
   start: {
     h2: 'Reserve una clase gratis antes de las vacaciones',
-    lede: 'En la clase de prueba, el mentor conoce a su hijo hablando despacio en inglés, le propone un pequeño reto acorde a su edad y ve cómo razona. Luego le sugerimos un curso, el formato más adecuado y un horario que no choque con el resto del verano.',
+    lede: 'En la clase de prueba, el mentor conoce a su hijo hablando despacio en inglés, le propone un pequeño reto acorde a su edad y ve cómo razona. Luego le sugerimos el camino que encaja con su edad (Python e IA o un curso a elección), si van cuatro o cinco clases por semana, el formato y unas horas que no choquen con el parque; con eso queda acordada la mensualidad del verano.',
     readFirst: 'Si quiere informarse antes: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> cuenta cómo es una clase y <a class="ag-inline-link" href="/courses">All courses</a> muestra todos los temarios (las dos páginas están en inglés).',
     note: 'Enseñamos en directo por videollamada, en inglés y desde la India. WhatsApp es la forma más rápida de hablar con nosotros, y puede escribirnos en castellano.',
     formNote: 'Gratis, sin tarjeta y sin compromiso.'
@@ -436,9 +475,9 @@ module.exports = {
   footer: {
     cols: [
       { h4: 'Cursos por edad', links: [
-        { href: '/courses/reasoning-and-readiness-course-for-young-thinkers', label: 'De 6 a 9: razonamiento' },
+        { href: '/courses/python-ai-kids-masterclass', label: 'De 9 a 12: Python e IA' },
         { href: '/courses/game-development-masterclass-for-kids', label: 'De 8 a 12: videojuegos' },
-        { href: '/courses/javascript-course-for-teens-beginners-interactive-web', label: 'De 13 a 17: JavaScript' },
+        { href: '/courses/python-complete-masterclass-teens', label: 'De 13 a 17: Python' },
         { href: '/courses', label: 'Todos los cursos' }
       ] },
       { h4: 'Para la familia', links: [
@@ -460,9 +499,9 @@ module.exports = {
 `,
 
   dossier: {
-    curriculumAuthority: 'Municipalidad de Miraflores notes of 5 January 2026 (ECO KIDS) and 8 January 2025 (talleres de verano 2025), miraflores.gob.pe; INEI Censos Nacionales 2025 (Lima Metropolitana, Cuadros N.° 1 and 3); MINEDU RM 501-2025 Tabla 1 and CNEB; INEI TIC en los Hogares II Trimestre 2026; EF EPI 2025; tzdata and INACAL. Read 8 and 9 November 2026. The weekly plan, levels and Python lesson are our own.',
+    curriculumAuthority: 'Municipalidad de Miraflores notes of 5 January 2026 (ECO KIDS) and 8 January 2025 (talleres de verano 2025), miraflores.gob.pe; INEI Censos Nacionales 2025 (Lima Metropolitana, Cuadros N.° 1 and 3); MINEDU RM 501-2025 Tabla 1 and CNEB; INEI TIC en los Hogares II Trimestre 2026; EF EPI 2025; tzdata and INACAL. Read 8 and 9 November 2026. The two summer tracks, the age table, the monthly class tally, the weekly plan, levels and Python lesson are our own.',
     localProject: 'Which summer programme fits a 10-year-old? An original Python lesson on the five Miraflores council programmes and their published age bands: Version 1 uses or and prints all five, including "Programa Jovenes 2025 fits age 10"; Version 2 uses the chained comparison minimo <= edad <= maximo and prints three for age 10 and, testing the edge, the Nido for age 6; the closing challenge adds a 13 to 17 coding class and shows the teen gap. Lesson family: boolean logic in a two-sided range check, with inclusive edges.',
-    requiredMentions: ['Programa Jovenes 2025 fits age 10', 'Nido Municipal 2025 fits age 10', 'minimo &lt;= edad &lt;= maximo', 'Ninguno de los cinco se anuncia para adolescentes de 13 a 17 años', '6 575 adolescentes de 12 a 17 años', 'Un rango tiene dos lados', 'Una semana de verano de ejemplo para un niño de 9 años', '7 semanas desde el martes 13 de enero', 'suele sobrar un or'],
+    requiredMentions: ['Programa Jovenes 2025 fits age 10', 'Nido Municipal 2025 fits age 10', 'minimo &lt;= edad &lt;= maximo', 'Ninguno de los cinco se anuncia para adolescentes de 13 a 17 años', '6 575 adolescentes de 12 a 17 años', 'Un rango tiene dos lados', 'Una semana de verano de ejemplo para un niño de 9 años', '7 semanas desde el martes 13 de enero', 'suele sobrar un or', 'Cuántas clases suma un verano mes a mes'],
     sources: [
       { claim: 'ECO KIDS 2026: free, ages 6 to 12, district parks, seven weeks from Tuesday 13 January, weekly two-hour sessions, EDUCCA.', url: 'https://www.miraflores.gob.pe/miraflores-lanza-eco-kids-vacaciones-utiles-ambientales-para-ninas-y-ninos-del-distrito/' },
       { claim: 'Talleres de verano 2025: Nido 3 to 6 (13 January to 21 February), Juguemos 8 to 12, Pequeños Líderes 6 to 12, Programa Jóvenes 18 to 29.', url: 'https://www.miraflores.gob.pe/las-mejores-opciones-para-talleres-de-verano-2025-estan-en-miraflores/' },
@@ -473,6 +512,7 @@ module.exports = {
       { claim: 'Peru UTC-5 all year; India UTC+5:30.', url: 'https://raw.githubusercontent.com/eggert/tz/main/southamerica' }
     ],
     rejectedClaims: [
+      'A summer price, a fixed 2027 end date or a long course finished in the summer: refused; the 4 to 5 a week pace and its fee are agreed with the mentor, and the monthly tally is labelled illustrative.',
       'That Miraflores offers nothing at all for teenagers: not said; the page says only that none of the five programmes with a stated age band in these two notes is announced for 13 to 17.',
       'Council workshop prices, addresses, schedules and phone numbers: in the notes, not repeated.',
       'A 2027 ECO KIDS or other 2027 council programme: not announced when checked; the page makes combining conditional on the council repeating it.',

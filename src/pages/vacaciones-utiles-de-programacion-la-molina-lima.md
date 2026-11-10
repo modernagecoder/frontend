@@ -1,10 +1,10 @@
 ---
 title: "Vacaciones útiles de programación en La Molina, en inglés"
-description: "Vacaciones útiles de programación en La Molina para escolares de 6 a 17 años: clases en vivo, en línea y en inglés, más allá de Word y Excel, a cualquier hora."
+description: "Verano de programación en La Molina, más allá de Word y Excel: Python e IA o el curso que elija, de 4 a 5 clases en vivo por semana, en inglés y desde casa."
 canonical: https://learn.modernagecoders.com/vacaciones-utiles-de-programacion-la-molina-lima
 source: src/pages/vacaciones-utiles-de-programacion-la-molina-lima.html
 ---
-> Para las vacaciones útiles en La Molina, Modern Age Coders ofrece clases de programación en vivo, en línea y en inglés para escolares de 6 a 17 años, desde la casa de cada familia. No se trata solo de computación, es decir, de usar Word o Excel: los estudiantes escriben sus propios programas en Scratch, Python o JavaScript con un mentor desde la India que habla claro y se adapta a su ritmo. Usted elige clase grupal o individual y el horario, cualquier día, y su hijo puede continuar cuando vuelva el colegio.
+> Para las vacaciones útiles en La Molina, Modern Age Coders ofrece un verano de programación en vivo, en línea y en inglés para escolares de 6 a 17 años, desde casa. No es un taller de computación con Word o Excel: su hijo escribe programas propios, sea en el camino de Python e IA o en el curso que elija (DSA, desarrollo web, apps y más), con 4 a 5 clases a la semana y un mentor desde la India que habla claro. Grupo o individual, con el horario que usted ponga; la primera clase es gratis.
 
 [Inicio](/) / [Cursos](/courses) / [Perú](/coding-and-ai-classes-in-peru) / Vacaciones útiles en La Molina
 
@@ -12,17 +12,57 @@ La Molina · Vacaciones útiles · De 6 a 17 años
 
 # Vacaciones útiles de programación en La Molina
 
-En la lista de talleres de verano de La Molina suele aparecer la palabra computación, y muchas familias se preguntan si es lo mismo que aprender a programar. No lo es, aunque se complementan. Aquí encontrará qué ofreció la municipalidad en 2026, en qué se diferencian computación y programación, por qué este distrito tiene tantos adolescentes en edad de secundaria y cómo una clase pasa de una hoja de Excel a un programa en Python.
+En la lista de talleres de verano de La Molina suele aparecer la palabra computación, y muchas familias se preguntan si es lo mismo que aprender a programar. No lo es, aunque se complementan. Nuestro verano va más allá del menú de Excel: un camino de Python e inteligencia artificial, o el curso que su hijo prefiera, con 4 a 5 clases en vivo por semana. Aquí encontrará esos dos caminos y cuántas clases suman, qué ofreció la municipalidad en 2026, por qué el distrito tiene tantos adolescentes y cómo una clase pasa de una hoja de cálculo a Python.
 
-En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Distrito: La Molina, Lima Metropolitana; Para quién: Escolares de 6 a 17 años, de primaria y secundaria; Qué se aprende: Programación, y computación si hace falta; Modalidad: En vivo por videollamada, desde casa; Formato: Grupo de quince a veinte, o individual; Clase de prueba: Gratis y sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
+En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Distrito: La Molina, Lima Metropolitana; Para quién: Escolares de 6 a 17 años, de primaria y secundaria; Qué se aprende: Python e IA, o un curso a elección; Ritmo de verano: De 4 a 5 clases en vivo por semana; Formato: Grupo de quince a veinte, o individual; Clase de prueba: Gratis y sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
 
-## Tres cursos para un verano en La Molina
+## Tres cursos para pasar de la hoja de cálculo al código este verano
 
-Uno para quien todavía necesita manejar bien la computadora, uno para unir la matemática del colegio con el código y uno para el adolescente que quiere programar en serio.
+Los dos primeros forman el camino de Python e IA para secundaria; el tercero es un curso corto del segundo camino que un escolar puede cerrar entero antes de marzo.
 
-- [Computación para niños: Word, PowerPoint y Excel](/courses/microsoft-office-kids-mastery): De 7 a 12 años. Si su hijo aún no se mueve con soltura en la computadora, este es el paso previo: documentos, presentaciones y primeras hojas de cálculo.
-- [Matemática con código](/courses/maths-through-coding): De 10 a 15 años. Fracciones, porcentajes, gráficos y patrones explorados con Python, para que la matemática del colegio se vea de otra manera.
-- [Python completo para adolescentes](/courses/python-complete-masterclass-teens): Para secundaria, de los 13 a los 17. El salto natural después de Excel: datos, funciones, archivos y programas que resuelven problemas que el adolescente elige.
+- [Python completo para adolescentes](/courses/python-complete-masterclass-teens): De 13 a 17 años. La base del camino de Python e IA: datos, funciones, archivos y programas propios. En un verano intensivo se recorre cerca de la mitad y el resto sigue en marzo.
+- [Ciencia de datos para adolescentes](/courses/data-science-course-for-teens-python-data): De 14 a 18 años, con algo de Python. El paso natural para quien ya domina Excel: tablas, gráficos y primeros modelos de machine learning con datos reales.
+- [HTML y CSS: webs reales](/courses/html-css-course-for-beginners-build-real-websites): Desde los 10 años. Un curso de cuatro meses al ritmo normal que, con 4 o 5 clases semanales, puede quedar completo en las vacaciones, con una web publicada al final.
+
+## ¿Qué incluye un verano de programación en La Molina, más allá de Word y Excel?
+
+Un camino guiado o uno a la carta, ambos con 4 a 5 clases en vivo por semana. Su hijo puede empezar cualquier semana del descanso, de enero a marzo, y cada clase dura alrededor de una hora.
+
+### Python e IA de verano
+
+El camino que más recomendamos para un escolar molinense que ya sabe usar Excel. Empieza con Python, que convierte las fórmulas que él ya conoce en instrucciones que escribe por su cuenta, y sigue con inteligencia artificial cuando las bases están firmes.
+
+De 9 a 12 años se hace con nuestro curso de Python e IA para niños. En secundaria, primero Python completo y después ciencia de datos o IA y machine learning. Respetamos las edades mínimas de cada herramienta de IA: lo que no corresponde a un menor no se usa en clase.
+
+### Un curso a elección
+
+Si su hijo ya tiene un interés claro, puede tomar cualquier curso del catálogo al mismo ritmo de verano. Algunas opciones que nos piden en vacaciones: DSA (estructuras de datos y algoritmos), páginas web con HTML y CSS, desarrollo full stack, apps para el celular, bases de datos con SQL, Java, C++, Godot o Roblox, vibe coding y matemática con código.
+
+Para el niño de 7 a 12 años que todavía no se mueve con soltura en la computadora, también existe un curso de Word, PowerPoint y Excel. Es computación, no programación, y lo decimos así de claro.
+
+**Cuánto se avanza en un verano según la duración del curso (cuentas nuestras)**
+
+| Curso | Clases a ritmo normal (2 por semana) | Con 4 a 5 clases por semana en verano |
+|---|---|---|
+| HTML y CSS (4 meses) | unas 32 | se completa en unas 7 a 8 semanas |
+| Ciencia de datos para adolescentes (6 meses) | unas 48 | se completa en unas 10 a 12 semanas |
+| Python completo para adolescentes (10 a 12 meses) | unas 80 a 96 | cerca de la mitad en diez semanas; sigue en marzo |
+| Desarrollo web full stack (12 a 14 meses) | unas 96 a 112 | un buen tramo inicial; sigue en marzo |
+
+Cálculo nuestro con la duración que publica cada curso en su propia página: semanas por dos clases para el ritmo normal, y diez semanas de verano a 4 o 5 clases, es decir, de 40 a 50 clases. Un curso largo no se termina en las vacaciones y no lo prometemos; lo que sí se gana es una ventaja grande para el resto del año.
+
+**Qué camino conviene según la edad y lo que ya sabe hacer (orientación nuestra)**
+
+| Edad y punto de partida | Python e IA | Curso a elección |
+|---|---|---|
+| 7 a 9 años, aún inseguro con el mouse y el teclado | Todavía no | Computación con Word y Excel, o Scratch |
+| 9 a 12 años, ya usa la computadora | Python e IA para niños | Webs para niños, Minecraft o Roblox con código |
+| 13 a 15 años, maneja Excel | Python completo para adolescentes | HTML y CSS, matemática con código, SQL |
+| 15 a 17 años, ya programó algo | Ciencia de datos o IA y machine learning | DSA, full stack, apps para adolescentes |
+
+Orientación de nuestros mentores según las edades de cada curso; la decisión final sale de la clase gratis.
+
+En el verano no se cobra la mensualidad habitual de ocho clases sin más: el ritmo de 4 o 5 clases semanales, y el monto que corresponde, se acuerdan con el mentor antes de comenzar. La clase de prueba sigue siendo gratis, sin tarjeta.
 
 ## ¿Qué talleres de verano ofreció la Municipalidad de La Molina en 2026?
 
@@ -119,7 +159,7 @@ La clase en línea, además, no le quita al adolescente el verano de afuera. Pue
 
 ## ¿Qué puede aprender un adolescente de secundaria en unas vacaciones?
 
-Lo suficiente para saber si la programación es lo suyo, y bastante más si sigue en marzo. Este es el recorrido que proponemos para un primer verano en secundaria; es un plan nuestro, no un programa cerrado.
+Con 4 a 5 clases por semana, bastante: lo suficiente para saber si la programación es lo suyo y para llegar a marzo con medio curso hecho. Este es el recorrido que proponemos para un primer verano en secundaria; es un plan nuestro, no un programa cerrado.
 
 1. **Primer tramo: pensar como la computadora.** Variables, entradas y decisiones con if. El adolescente escribe un programa que le pregunta su nota y le dice cuánto le falta para el promedio que quiere.
 2. **Segundo tramo: listas y repeticiones.** Lo que en Excel es una columna, en Python es una lista. Recorrerla con un bucle, sumar, buscar el mayor y el menor.
@@ -211,7 +251,7 @@ Si su familia busca en concreto programación en inglés en Lima, nuestra págin
 
 Desde que termina el colegio. En 2026, el último bloque de clases fijado por el MINEDU en la RM 501-2025 fue del 19 de octubre al 18 de diciembre de 2026, de modo que desde la semana de Navidad su hijo tiene tiempo libre.
 
-La fecha de regreso en marzo de 2027 todavía no se conoce, porque el MINEDU aún no había publicado en gob.pe la norma del año escolar 2027 cuando la buscamos, el 8 de noviembre de 2026. Por eso no le ofrecemos un taller con fecha de cierre. Su hijo toma la clase gratis en diciembre, empieza el curso cuando quiera y, al volver el colegio, decide con usted si mantiene el ritmo, si lo reduce o si se toma un descanso.
+La fecha de regreso en marzo de 2027 todavía no se conoce, porque el MINEDU aún no había publicado en gob.pe la norma del año escolar 2027 cuando la buscamos, el 8 de noviembre de 2026. Por eso nuestro verano no tiene fecha de cierre impuesta. Su hijo toma la clase gratis en diciembre, arranca con el ritmo intensivo la semana que prefiera y, al volver el colegio, decide con usted si pasa a las dos clases semanales de siempre o se toma un descanso.
 
 La fecha sale de la Tabla 1 de la RM 501-2025-MINEDU, que comprobamos mirando la página escaneada del documento firmado el 9 de noviembre de 2026. Cada colegio privado ajusta su propio calendario dentro de ese marco.
 
@@ -252,7 +292,7 @@ Compare siempre con la fuente. Si el programa y la tabla no coinciden, alguien s
 
 ## Nueve cursos más para escolares de La Molina
 
-Cada uno se dicta en tiempo real y en inglés, con un mentor fijo, en un grupo o de manera individual.
+Todos valen para el camino a elección: en tiempo real y en inglés, con un mentor fijo, de 4 a 5 clases por semana en vacaciones, en grupo o de manera individual.
 
 ### Primaria
 
@@ -260,7 +300,7 @@ De 6 a 10 años
 
 - [Razonamiento para los más chicos](/courses/reasoning-and-readiness-course-for-young-thinkers): Secuencias, patrones y lógica antes del primer bloque de código.
 - [Scratch desde cero](/courses/scratch-programming-complete-course): Animaciones y juegos con bloques que encajan como piezas.
-- [Minecraft con código](/courses/minecraft-coding-for-kids-course): Automatizar construcciones dentro de un mundo conocido.
+- [Computación: Word, PowerPoint y Excel](/courses/microsoft-office-kids-mastery): El paso previo para quien aún duda frente al teclado.
 
 ### Transición
 
@@ -268,7 +308,7 @@ De 10 a 13 años
 
 - [Python e IA para niños](/courses/python-ai-kids-masterclass): Primer lenguaje escrito, con dibujos, juegos y algo de IA.
 - [Videojuegos con Godot](/courses/godot-game-development-course-for-kids-and-teens): Juegos en 2D y 3D con GDScript, desde los 10 años.
-- [Cómo funciona la IA](/courses/ai-literacy-for-kids-course): Qué hay detrás de una respuesta automática y cuándo falla.
+- [Matemática con código](/courses/maths-through-coding): Fracciones, porcentajes y gráficos explorados con Python.
 
 ### Secundaria
 
@@ -289,16 +329,16 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 - **Mentor estable** La misma persona acompaña a su hijo de inicio a fin.
 - **Explicación visible** Todo lo que dice el mentor aparece también en pantalla.
 - **Código propio** El estudiante teclea, prueba y depura su programa.
-- **Datos reales** Ejercicios con cifras publicadas, no inventadas.
+- **Cuatro o cinco por semana** El ritmo de verano, con ejercicios sobre cifras publicadas.
 - **Informe breve** Usted recibe lo trabajado y el siguiente objetivo.
 - **Grupo o individual** De quince a veinte de edad similar, o a solas con su mentor.
 
 ## Precios para familias de La Molina
 
-El precio mensual se muestra en dólares de Estados Unidos y se cobra con tarjeta. La conversión a soles la hace su banco al tipo de cambio que aplique ese día, así que el monto final puede moverse un poco entre un mes y otro.
+Lo que ve abajo es la mensualidad estándar de ocho clases, expresada en dólares de Estados Unidos y cargada a una tarjeta; su banco la pasa a soles al tipo de cambio de ese día. Para el verano intensivo, el número de clases semanales (4 o 5) y su costo se conversan con el mentor antes de empezar, y la primera clase no se paga.
 
 - Primera clase gratis: Gratis. Una clase de prueba gratis. Una recomendación de curso y de nivel. Sin pedir tarjeta.
-- Clase grupal: USD 100 al mes. Entre quince y veinte escolares de edad similar. Un mismo mentor durante el curso. Dos sesiones en vivo por semana. Mensual, sin permanencia mínima.
+- Clase grupal: USD 100 al mes. Entre quince y veinte escolares de edad similar. Un mismo mentor durante el curso. Dos sesiones por semana en el año; 4 o 5 en verano, a conversar. Mensual, sin permanencia mínima.
 - Clases individuales: USD 150 al mes. Su hijo y su mentor, a solas. Contenidos al ritmo del estudiante. Horario fijado por la familia.
 
 ## Vacaciones útiles de programación en La Molina: preguntas frecuentes
@@ -319,9 +359,13 @@ No. Son clases en vivo por videollamada con mentores en la India; su hijo se con
 
 Desde los 6 años con bloques y razonamiento. Entre los 9 y los 10 años la mayoría puede escribir Python, y un adolescente de secundaria puede empezar directamente con Python, JavaScript o SQL.
 
-### ¿Hasta qué fecha va el taller de verano?
+### ¿Cuántas clases a la semana tiene el verano?
 
-No tiene fecha de cierre, porque no es un taller aparte. Al acabar el año escolar su hijo entra a un curso regular, el mismo que se dicta todo el año, y lo mantiene mientras a la familia le sirva; llegado marzo, ustedes deciden si sigue igual, si reduce el ritmo o si se detiene.
+Entre 4 y 5 en vivo, de alrededor de una hora cada una. En el año escolar el ritmo es de dos por semana; en vacaciones se duplica o algo más, para que un curso corto se cierre y uno largo avance a buen paso.
+
+### ¿Hasta qué fecha va el verano y se termina el curso?
+
+Se empieza cualquier semana entre enero y marzo y dura lo que dure el descanso. Por nuestra cuenta, diez semanas a 4 o 5 clases son de 40 a 50 clases: HTML y CSS cabe completo, pero Python completo para adolescentes llega más o menos a la mitad y sigue en marzo con dos clases por semana. No prometemos cerrar un curso largo en el verano.
 
 ### ¿En qué horario serían las clases?
 
@@ -339,9 +383,9 @@ Solo herramientas permitidas para la edad del estudiante y después de que resol
 
 Ninguna. No estamos vinculados con la Municipalidad de La Molina, el MINEDU, las UGEL ni ningún colegio, y no damos notas escolares. Al completar un curso, el estudiante recibe un certificado de finalización de Modern Age Coders.
 
-### ¿Cómo se pagan las clases?
+### ¿Cuánto cuesta el verano y cómo se paga?
 
-Con tarjeta, mensualmente y en dólares estadounidenses. Su banco convierte el cargo a soles. La clase de prueba es gratis y no pide datos de pago.
+La tarifa publicada es la del ritmo normal de ocho clases al mes. La del verano intensivo, con 4 o 5 clases semanales, se acuerda con el mentor antes de comenzar, según el formato que elija. Se paga con tarjeta en dólares estadounidenses y su banco lo convierte a soles; la clase de prueba es gratis.
 
 ## Otras lecturas útiles
 

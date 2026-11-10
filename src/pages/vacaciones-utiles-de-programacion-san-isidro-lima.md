@@ -1,10 +1,10 @@
 ---
 title: "Vacaciones útiles de programación en San Isidro, Lima"
-description: "Vacaciones útiles de programación para escolares de San Isidro: clases en vivo, en línea y en inglés, Python, C++ e IA, en grupo o individuales, a cualquier hora."
+description: "Verano de programación para secundaria en San Isidro: Python e IA, o C++, DSA u otro curso, de 4 a 5 clases en vivo por semana, en inglés, en grupo o individual."
 canonical: https://learn.modernagecoders.com/vacaciones-utiles-de-programacion-san-isidro-lima
 source: src/pages/vacaciones-utiles-de-programacion-san-isidro-lima.html
 ---
-> Para un adolescente de San Isidro, unas vacaciones útiles de programación pueden hacerse desde casa: Modern Age Coders las dicta por videollamada, en vivo y en inglés, con un mentor que trabaja desde la India, explica sin apuro y ajusta su ritmo y su acento a cada estudiante. En el verano se empieza con Python o C++, estructuras de datos y proyectos de IA, y las clases siguen después, cuando vuelve el colegio. Usted decide si va en grupo o solo con el mentor, y fija el día y la hora; la clase de prueba no cuesta nada.
+> Para un adolescente de San Isidro, unas vacaciones útiles de programación se hacen desde casa: Modern Age Coders las dicta por videollamada, en vivo y en inglés, con un mentor desde la India que explica sin apuro. El verano va a 4 a 5 clases por semana, por uno de dos caminos: Python e IA, o el curso que su hijo elija, por ejemplo C++ para la olimpiada, DSA, desarrollo web o apps. Usted decide si va en grupo o solo con el mentor, y fija el día y la hora; la clase de prueba no cuesta nada.
 
 [Inicio](/) / [Cursos](/courses) / [Perú](/coding-and-ai-classes-in-peru) / Vacaciones útiles en San Isidro
 
@@ -12,21 +12,60 @@ San Isidro, Lima · Vacaciones útiles · Secundaria
 
 # Vacaciones útiles de programación en San Isidro
 
-El verano es el único tramo largo del año en que un escolar de secundaria puede aprender algo exigente sin la presión de los exámenes bimestrales. Esta página explica cómo aprovecharlo para programar en serio, desde casa en San Isidro, con un mentor en vivo que enseña en inglés y con fechas reales de olimpiadas y universidades a la vista.
+El verano es el único tramo largo del año en que un escolar de secundaria puede aprender algo exigente sin la presión de los exámenes bimestrales. Nuestro verano lo aprovecha con intensidad: de 4 a 5 clases en vivo por semana, en inglés y desde casa en San Isidro, por el camino de Python e IA o por el curso que su hijo escoja, como C++ para la olimpiada o DSA. Abajo están los dos caminos, cuánto rinde ese ritmo y las fechas reales de olimpiadas y universidades.
 
-En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Para quién: Adolescentes de 1° a 5° de secundaria; Lenguajes: Python, C++ y proyectos con IA; Formato: Grupo de quince a veinte, o uno a uno; Cuándo: Cualquier día, a cualquier hora; Idioma: Siempre en inglés, en vivo; Primera clase: Gratis, sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
+En resumen: Idioma de las clases: Clases en vivo y en línea, solo en inglés, al ritmo del estudiante; los mentores hablan claro y adaptan su velocidad y su acento a cada estudiante; Para quién: Adolescentes de 1° a 5° de secundaria; Caminos: Python e IA, o C++, DSA y otros a elección; Ritmo de verano: De 4 a 5 clases en vivo por semana; Formato: Grupo de quince a veinte, o uno a uno; Idioma: Siempre en inglés, en vivo; Primera clase: Gratis, sin tarjeta. 4.9 de 5 en 547 reseñas de Google.
 
 ## Por dónde arranca en enero un escolar de secundaria
 
-Uno para quien nunca ha programado, uno para quien ya escribe código y quiere competir, y uno para quien apunta a la fase presencial de la olimpiada de informática.
+Los dos primeros son el camino de Python e IA, en orden; el tercero es la opción a elección que más nos piden quienes miran la olimpiada de informática.
 
-- [Python para adolescentes](/courses/python-complete-masterclass-teens): Desde cero. Variables, bucles, funciones y listas en las primeras semanas del verano, y después archivos, clases y un proyecto propio que su hijo puede mostrar.
-- [Programación competitiva para adolescentes](/courses/competitive-programming-for-teens-course): De 13 a 18 años, para quien ya escribe programas básicos. Problemas con límite de tiempo, análisis de cuántas operaciones hace un algoritmo y práctica con jueces en línea.
-- [C++ para adolescentes](/courses/cpp-programming-masterclass-for-teens): El lenguaje que exige la fase final de la Olimpiada Peruana de Informática. Fundamentos, la biblioteca estándar (STL) y estructuras de datos, con juegos de por medio.
+- [Python para adolescentes](/courses/python-complete-masterclass-teens): Desde cero, de 13 a 18 años. Variables, bucles, funciones y listas en las primeras semanas, luego archivos y un proyecto propio. Con 4 o 5 clases semanales, el verano cubre más o menos la mitad del curso.
+- [IA y machine learning para adolescentes](/courses/ai-ml-masterclass-teens): La segunda parte del camino de Python e IA: datos, modelos que aprenden y cómo evaluarlos. Útil también para quien mira la olimpiada de IA de la UTEC, sin promesa de resultados.
+- [C++ para adolescentes](/courses/cpp-programming-masterclass-for-teens): El lenguaje que exigía la fase final de la Olimpiada Peruana de Informática en 2025. Fundamentos, la biblioteca estándar (STL) y estructuras de datos; un curso largo que el verano deja bien encaminado.
+
+## ¿Qué incluye el verano de programación para secundaria en San Isidro?
+
+Cuatro o cinco clases en vivo por semana, de alrededor de una hora, por uno de dos caminos. Su hijo puede arrancar cualquier semana entre enero y marzo; cuanto antes empiece, más clases suma antes de que vuelva el colegio.
+
+### Camino A: Python e IA de verano
+
+El camino que proponemos por defecto a un adolescente. Las primeras semanas son de Python puro: leer un problema, escribir funciones, trabajar con listas y archivos. Cuando eso está firme, el estudiante entra en la inteligencia artificial con nuestro curso de IA y machine learning para adolescentes, o en ciencia de datos si le atraen más las tablas y los gráficos.
+
+No usamos en clase herramientas de IA que la empresa que las publica reserva a mayores de edad. La IA llega después del razonamiento propio, no en su lugar.
+
+### Camino B: el curso que su hijo elija
+
+Para el adolescente con una meta concreta: C++ y programación competitiva si mira la OPI, DSA (estructuras de datos y algoritmos) si quiere método, la certificación PCEP de Python, Java, desarrollo web full stack, apps para el celular, matemática de olimpiada o cualquier otro curso del catálogo.
+
+El ritmo es el mismo, 4 a 5 clases semanales, y el mentor ordena las semanas alrededor del objetivo que su hijo fijó en la clase gratis.
+
+**Ritmo normal frente a ritmo de verano en diez semanas (cuentas nuestras)**
+
+| Ritmo | Clases en diez semanas | Parte de un curso largo (unas 80 a 96 clases) |
+|---|---|---|
+| Año escolar: 2 por semana | 20 | Cerca de una cuarta parte |
+| Verano: 4 por semana | 40 | Algo menos de la mitad |
+| Verano: 5 por semana | 50 | Más o menos la mitad, o algo más |
+
+Cálculo nuestro con la duración que publica cada curso: Python, IA y machine learning y C++ para adolescentes duran de 10 a 12 meses al ritmo normal, unas 80 a 96 clases. Un curso más corto, como la preparación para el PCEP o un curso de tres meses, puede cerrarse en el verano; programación competitiva, de seis meses (unas 48 clases), queda terminada o muy cerca a 5 por semana. Un curso largo no termina en vacaciones: sigue en marzo a dos clases por semana, con el mismo mentor.
+
+**Qué camino encaja según el grado y la meta (orientación nuestra)**
+
+| Grado y meta | Camino A: Python e IA | Camino B: a elección |
+|---|---|---|
+| 1° o 2° de secundaria, nunca programó | Python para adolescentes desde cero | Desarrollo web o apps, si prefiere ver resultados en pantalla |
+| 3° o 4°, ya hizo algo de código | Python y luego IA y machine learning | C++ y programación competitiva, de cara a la OPI |
+| 4° o 5°, piensa en la universidad | Ciencia de datos o IA y machine learning | DSA, certificación PCEP, Java |
+| Cualquier grado, le gustan los números | Python con datos | Matemática de olimpiada, con problemas nuestros |
+
+Sugerencias de nuestros mentores. El grado no decide solo: en la clase gratis el mentor mira cómo razona su hijo y ajusta la recomendación.
+
+Las tarjetas de precios de más abajo corresponden al ritmo del año escolar. El ritmo de verano, cuatro o cinco clases semanales, y su mensualidad se fijan con el mentor antes de empezar; la clase de prueba es gratuita.
 
 ## ¿En qué consisten unas vacaciones útiles de programación para secundaria?
 
-Son unas semanas de verano en las que su hijo aprende a programar con un objetivo concreto, en lugar de llenar las tardes con actividades sueltas. En nuestro caso no es un campamento con fecha de cierre: son las mismas clases en vivo del resto del año, empezadas en enero, cuando hay tiempo y cabeza para ellas.
+Son unas semanas de verano en las que su hijo aprende a programar con un objetivo concreto, en lugar de llenar las tardes con actividades sueltas. En nuestro caso son nuestros cursos de siempre, con el mismo mentor, pero a un ritmo más alto mientras no hay colegio: de 4 a 5 clases semanales en lugar de dos.
 
 San Isidro tiene 73,402 habitantes (INEI, Censos Nacionales 2025), dentro de una Lima Metropolitana que suma 10,141,775 personas en 43 distritos. Limita con Jesús María, Lince, La Victoria, San Borja, Surquillo, Miraflores y Magdalena del Mar. Es un distrito pequeño en población y muy céntrico, y aun así muchas familias que viven aquí tienen a sus hijos en colegios de otros distritos y conocen bien lo que cuesta sumar otro traslado a la semana.
 
@@ -73,7 +112,7 @@ Si ese patrón se repite en 2027, cosa que solo la UTEC puede confirmar, quien q
 
 El 14 de octubre de 2026 el MINEDU informó que había empezado a despachar 13.3 millones de unidades de materiales educativos para el año escolar 2027. La norma con las fechas de 2027 no estaba en gob.pe cuando la buscamos.
 
-Por eso no anunciamos una fecha de inicio ni una duración de verano: su hijo empieza cuando usted quiera, y las clases continúan al ritmo del colegio cuando el MINEDU publique el calendario. Cada colegio, además, puede organizar su año en bimestres, trimestres u otra forma.
+Por eso no anunciamos una fecha de cierre del verano: su hijo empieza la semana que usted quiera, con 4 a 5 clases semanales, y pasa a dos por semana cuando el MINEDU publique el calendario y vuelva el colegio. Cada colegio, además, puede organizar su año en bimestres, trimestres u otra forma.
 
 ## ¿Se enseña programación en secundaria en el Perú?
 
@@ -171,7 +210,7 @@ La lección no es memorizar un truco. Es contar las operaciones antes de confiar
 
 ## ¿Cómo puede ser un verano de programación con nosotros?
 
-Le proponemos una ruta por proyectos, no por fechas. La duración la decide usted: si su hijo empieza en enero, el recorrido llega hasta el final; si empieza más tarde, avanza lo que alcance y continúa en abril con el mismo mentor.
+Le proponemos una ruta por proyectos, no por fechas. Con 4 a 5 clases por semana, si su hijo empieza en enero el recorrido suele llegar hasta el final; si empieza más tarde, avanza lo que alcance y continúa en abril con el mismo mentor.
 
 **Ruta sugerida para un verano de programación en secundaria (nuestra propuesta, no un campamento)**
 
@@ -182,7 +221,7 @@ Le proponemos una ruta por proyectos, no por fechas. La duración la decide uste
 | 3. Algoritmos | Diez problemas cortos resueltos y explicados en inglés, con el número de operaciones de cada solución | Quien piensa en la OPI o en programación competitiva |
 | 4. Proyecto propio | Una app, una web o un modelo de IA sencillo, presentado al final en cinco minutos | Quien quiere algo para mostrar en su colegio o en una postulación |
 
-Ruta y proyectos: nuestros. No vendemos un paquete de verano cerrado; son las clases normales, en grupo o individuales, con pago mensual.
+Ruta y proyectos: nuestros. Encaja en cualquiera de los dos caminos del verano, en grupo o individual, y no es un paquete cerrado: se paga por mes, con el ritmo acordado con el mentor.
 
 ### En clase grupal
 
@@ -260,7 +299,7 @@ Si una IA le da la respuesta, no aprendió a encontrarla. En la olimpiada de la 
 
 ## Nueve cursos más para escolares de secundaria
 
-Cada uno se dicta en vivo, en inglés, para un grupo o para un solo estudiante; cualquiera puede arrancar en enero y continuar con el colegio.
+Cualquiera sirve como camino B: en vivo, en inglés, en grupo o a solas, con 4 a 5 clases por semana en el verano y dos cuando vuelve el colegio.
 
 ### Algoritmos y certificación
 
@@ -274,7 +313,7 @@ Para quien quiere método
 
 Para quien quiere construir
 
-- [IA y aprendizaje automático](/courses/ai-ml-masterclass-teens): De Python a modelos reales, entendiendo qué aprende cada uno.
+- [Programación competitiva](/courses/competitive-programming-for-teens-course): Seis meses de problemas con límite de tiempo, para quien ya programa.
 - [Ciencia de datos](/courses/data-science-course-for-teens-python-data): Tablas, gráficos y un primer modelo con datos públicos.
 - [Preparación para hackatones](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course): Doce semanas para idear, construir y presentar en equipo, de 13 a 17 años.
 
@@ -297,16 +336,16 @@ Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupa
 - **Mentor estable** La misma persona durante el curso, que conoce los errores típicos de su hijo.
 - **Inglés con paciencia** Frases claras, código en pantalla y tiempo para responder.
 - **Código propio** El estudiante escribe cada línea; el mentor pregunta antes de corregir.
-- **Entregables** Cada etapa termina en un proyecto que se puede mostrar.
+- **Cuatro o cinco por semana** Ritmo de verano, con un entregable al cerrar cada etapa.
 - **Nota a la familia** Qué se practicó y cuál es el siguiente paso, por escrito.
 - **Dos formatos** Grupo de quince a veinte adolescentes, o clases individuales.
 
 ## Precios para familias de San Isidro
 
-Las mensualidades se muestran en dólares estadounidenses y se cobran con tarjeta; el banco emisor convierte el monto a su moneda con el tipo de cambio de ese día, por lo que el cargo final puede variar ligeramente.
+Estas mensualidades son las del año escolar, con ocho clases al mes, y figuran en dólares estadounidenses; se cobran con tarjeta y el banco emisor hace el cambio a soles. En el verano su hijo toma de 4 a 5 clases por semana, así que el número exacto y la mensualidad que le corresponde se cierran con el mentor antes de arrancar. La clase de prueba no se paga.
 
 - Primera clase gratis: Gratis. Una clase gratis con un mentor. Un reto corto para ver por dónde empezar. Sin tarjeta ni compromiso.
-- Clase grupal: USD 100 al mes. De quince a veinte adolescentes de nivel parecido. El mismo mentor en todo el curso. Clases en vivo cada semana. Pago mes a mes, sin permanencia.
+- Clase grupal: USD 100 al mes. De quince a veinte adolescentes de nivel parecido. El mismo mentor en todo el curso. Dos clases por semana en el año, 4 o 5 en verano según lo acordado. Pago mes a mes, sin permanencia.
 - Clases individuales: USD 150 al mes. Solo su hijo y el mentor. El temario que él necesita, incluida la olimpiada. El día y la hora que usted decida.
 
 ## Vacaciones útiles de programación en San Isidro: preguntas frecuentes
@@ -315,9 +354,13 @@ Las mensualidades se muestran en dólares estadounidenses y se cobran con tarjet
 
 No. Se dictan solamente en inglés, en vivo por videollamada, y eso juega a favor de su hijo: programa y, de paso, se acostumbra al inglés técnico que usan los programadores. El mentor va despacio y repite cuando hace falta. Lima aparece con 555 puntos, en la banda alta, en el EF EPI 2025.
 
-### ¿Cuánto dura el programa de verano?
+### ¿Cuántas clases por semana tiene el verano?
 
-No hay un número de semanas fijado de antemano. Su hijo entra a nuestras clases regulares en el verano y, si le gustan, las mantiene durante el año escolar. Le proponemos una ruta de cuatro etapas por proyectos; cuántas complete depende de cuándo empiece.
+Entre 4 y 5 en vivo, cada una de alrededor de una hora. Es más del doble del ritmo del año escolar, que es de dos semanales, y por eso el verano rinde tanto.
+
+### ¿Cuánto dura el programa de verano y se termina el curso?
+
+Lo que dure el descanso desde la semana en que empiece. Según nuestra cuenta, diez semanas a 4 o 5 clases suman de 40 a 50 clases: un curso corto como la preparación para el PCEP se puede cerrar, pero uno de 10 a 12 meses, como Python o C++ para adolescentes, llega más o menos a la mitad y continúa en marzo. No prometemos terminar un curso largo en vacaciones.
 
 ### ¿Cuándo terminan las clases del colegio y cuándo empieza el año 2027?
 
@@ -339,13 +382,9 @@ No. El curso de Python para adolescentes empieza de cero. Quien ya programó en 
 
 Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Con una diferencia fija de 10 horas y 30 minutos, a las 8:30 a. m. de Lima les corresponden las 7:00 p. m. en la India.
 
-### ¿Qué pasa si viajamos en febrero?
+### ¿Cuánto cuesta el verano y cómo se paga?
 
-En clases individuales se reprograma con el mentor y su hijo puede conectarse desde donde esté con una laptop y buena conexión. En clase grupal recibe el material de la sesión para ponerse al día.
-
-### ¿Cómo se paga?
-
-Con tarjeta y en dólares estadounidenses, una vez al mes; la conversión la aplica el banco que emitió la tarjeta. Para la clase de prueba no hace falta ningún dato de pago.
+La mensualidad publicada es la del ritmo normal de ocho clases. La de verano depende de si su hijo toma 4 o 5 clases por semana y de si va en grupo o solo, y se acuerda con el mentor antes de empezar. Se paga con tarjeta en dólares estadounidenses y el banco hace la conversión; la clase de prueba no pide datos de pago.
 
 ### ¿Están vinculados a la municipalidad de San Isidro o a algún colegio?
 

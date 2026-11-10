@@ -1,4 +1,4 @@
-// SHIP: market | Surco summer for families with two or more children: one plan per child | lists: alias versus copy (two names, one list)
+// SHIP: market | Surco siblings summer: Python and AI or own course, 4 to 5 a week | lists: alias versus copy (two names, one list)
 'use strict';
 // Vacaciones útiles de programación en Santiago de Surco (ag- Spanish district door, Peru cluster row PE205, P2,
 // hubGroup lima). Spec docs/superpowers/specs/2026-11-08-pe-cluster-design.md; brief
@@ -26,8 +26,16 @@
 //  - EF EPI 2025 Peru page (ef_peru.txt): Lima 555, high band from 550; Peru speaking 480.
 //  - Time (timezone.tsv): America/Lima UTC-5 all year; India UTC+5:30; 10 h 30 min.
 //  - Neighbouring districts named in plain text (general geography of Lima), no figures attached.
+// Summer offer (owner 2026-11-10, brief section "Summer offer"): two tracks, Summer Python and AI (python-ai-kids-masterclass
+//   9 to 12; python-complete-masterclass-teens then ai-ml-masterclass-teens or data-science-course-for-teens-python-data 13+)
+//   or any catalogue course (DSA, web, apps, Java, C++, games, Roblox, Scratch, vibe coding, maths), at 4 to 5 live classes a
+//   week, group or one to one, flexible hours; summer pace and its fee agreed with the mentor before the first summer class;
+//   first class free. No price typed. Course lengths from content/courses/data/*.json meta.duration (Scratch 3-4 months,
+//   HTML and CSS 4 months, vibe coding kids 3 months, Python and AI for kids 8-10 months, Python teens 10-12 months).
 // Our own calculations (python3 -I): 24155 / 386432 = 6.25% (6 to 11), 28204 / 386432 = 7.30% (12 to 17);
-//   printed on the page rounded, labelled ours.
+//   printed on the page rounded, labelled ours. Summer arithmetic (ours): weeks x classes = 2x4 8, 2x5 10, 4x4 16, 4x5 20,
+//   6x4 24, 6x5 30, 8x4 32, 8x5 40, 10x4 40, 10x5 50; regular pace 2 a week, so 10 to 12 months is about 80 to 100 classes
+//   and a 40 to 50 class summer covers about half of a long course.
 // Our own example (vau_v1.py, vau_v2.py in the src-pages folder), exact output:
 //   v1: "Valeria: ['Scratch: maze', 'Python: turtle', 'Roblox: obby']" / "Mateo:   ['Scratch: maze', 'Python: turtle',
 //   'Roblox: obby']" / "Same list? True"; v2 with .copy(): "Valeria: ['Scratch: maze', 'Python: turtle']" / "Mateo:
@@ -87,51 +95,86 @@ module.exports = {
   parents: [{ slug: 'coding-and-ai-classes-in-peru', name: 'Peru' }],
   routeLabel: 'Vacaciones útiles de programación en Surco',
   title: 'Vacaciones útiles de programación en Surco, en vivo en inglés',
-  description: 'Vacaciones útiles de programación para niños y adolescentes de Santiago de Surco: clases en vivo, en línea y en inglés, desde casa, en grupo o individuales.',
-  ogDescription: 'Un verano de programación para sus hijos en Surco sin salir de casa: qué ofreció la municipalidad en 2026, cuántos niños tiene el distrito según el INEI y un plan propio para cada hermano.',
-  twitterDescription: 'Programación en vivo y en inglés para las vacaciones útiles en Surco, desde casa y a cualquier hora.',
+  description: 'Vacaciones útiles de programación en Surco: Python e IA o el curso que cada hijo elija, de 4 a 5 clases en vivo por semana, en inglés, en grupo o individual.',
+  ogDescription: 'Un verano de programación para hermanos en Surco: Python e IA o un curso a elección, de 4 a 5 clases por semana desde casa, con datos del INEI y del programa municipal 2026.',
+  twitterDescription: 'Verano de Python e IA, o del curso que su hijo escoja, con 4 a 5 clases en vivo por semana y en inglés, desde Surco.',
   pageName: 'Vacaciones útiles de programación en Surco',
-  webPageDescription: 'Guía para familias de Santiago de Surco que quieren dedicar las vacaciones escolares a la programación, con clases en vivo, en línea y en inglés: datos del distrito según los Censos Nacionales 2025 del INEI, el programa municipal DivertiSurco 2026, el calendario escolar 2026 del MINEDU, cómo organizar el verano de dos o más hijos y una clase de ejemplo en Python escrita por nosotros.',
-  courseDescription: 'Clases en vivo y en línea de programación para niños y adolescentes de Santiago de Surco, dictadas solo en inglés, para empezar en las vacaciones de verano: Scratch, Python, Roblox, web e IA, en una clase grupal de quince a veinte o en clases individuales, a cualquier hora.',
+  webPageDescription: 'Guía para familias de Santiago de Surco que quieren dedicar las vacaciones escolares a la programación, con clases en vivo, en línea y en inglés: datos del distrito según los Censos Nacionales 2025 del INEI, el programa municipal DivertiSurco 2026, el calendario escolar 2026 del MINEDU, los dos caminos de nuestro verano (Python e IA, o un curso a elección, con 4 a 5 clases por semana), cómo organizar el verano de dos o más hijos y una clase de ejemplo en Python escrita por nosotros.',
+  courseDescription: 'Clases en vivo y en línea de programación para niños y adolescentes de Santiago de Surco, dictadas solo en inglés, con un ritmo de verano de 4 a 5 clases por semana: el recorrido de Python e IA o cualquier curso del catálogo (Scratch, Roblox, web, apps, DSA y más), en una clase grupal de quince a veinte o en clases individuales, a cualquier hora.',
   crumbs: [{ name: 'Cursos', href: '/courses' }, { name: 'Perú', href: '/coding-and-ai-classes-in-peru' }],
   crumbLabel: 'Vacaciones útiles en Surco',
   navLinks: [
     { href: '/coding-and-ai-classes-in-peru', label: 'Perú' },
+    { href: '#verano', label: 'Plan de verano' },
     { href: '#distrito', label: 'Surco' },
     { href: '#hermanos', label: 'Hermanos' },
-    { href: '#desde-casa', label: 'Desde casa' },
     { href: '#ejemplo', label: 'Ejemplo' },
     { href: '#ingles', label: 'En inglés' }
   ],
   eyebrow: 'Santiago de Surco &middot; Vacaciones útiles &middot; De 6 a 17 años',
   h1: 'Vacaciones útiles de programación en Surco, desde casa',
-  lede: 'Cuando termina el colegio, muchas familias surcanas organizan el verano de dos o tres hijos a la vez: uno quiere fútbol, otra quiere dibujar, y alguno pregunta si puede aprender a hacer videojuegos. Esta página es para usted si busca que la programación sea parte de ese verano sin sumar más trayectos por Lima: qué ofreció la municipalidad en 2026, cuántos niños y adolescentes viven en el distrito, cómo armar un plan distinto para cada hijo y cómo es una clase real.',
-  secondaryCta: { href: '#hermanos', label: 'Un plan para cada hijo' },
+  lede: 'Cuando termina el colegio, muchas familias surcanas organizan el verano de dos o tres hijos a la vez: uno quiere fútbol, otra quiere dibujar, y alguno pregunta si puede aprender a hacer videojuegos. Nuestro verano le da a cada hijo su propio camino: el recorrido de Python con inteligencia artificial, o bien un curso escogido por él mismo, a un ritmo intenso de 4 a 5 clases en vivo por semana y sin sumar un solo trayecto por Lima. Abajo están los dos caminos, las cuentas de clases, los datos del distrito y una clase real.',
+  secondaryCta: { href: '#verano', label: 'Ver los dos caminos del verano' },
   wa: 'Hola Modern Age Coders, vivimos en Santiago de Surco y queremos clases de programación en inglés para nuestros hijos en las vacaciones. ¿Podemos reservar una clase gratis?',
   heroNote: 'Enseñamos en vivo desde 2020 &middot; más de 10,000 estudiantes en el mundo &middot; un mentor propio para cada hijo, siempre en inglés',
   spec: [
     ['Distrito', 'Santiago de Surco, Lima Metropolitana'],
     ['Edades', 'Niños de 6 a 12 y adolescentes de 13 a 17'],
-    ['Cuándo', 'Desde que termina el año escolar en diciembre'],
-    ['Dónde', 'En casa, por videollamada, sin traslados'],
+    ['Caminos', 'Python e IA, o el curso que cada hijo elija'],
+    ['Ritmo de verano', 'De 4 a 5 clases en vivo por semana'],
     ['Formato', 'Grupo de quince a veinte, o individual'],
     ['Primera clase', 'Gratis, sin tarjeta']
   ],
   capsuleQ: 'La respuesta corta',
-  capsule: 'Sí: sus hijos pueden pasar las vacaciones útiles en Surco aprendiendo programación sin salir de casa. Modern Age Coders enseña a niños de 6 a 12 años y a adolescentes de 13 a 17 con clases en vivo, en línea y en inglés, con mentores desde la India que hablan claro y se adaptan al ritmo de cada uno. No es un campamento con fecha fija: cada hijo empieza nuestro curso normal cuando acaba el colegio, en una clase grupal o individual, en los días y horas que su familia prefiera, y puede seguir en marzo.',
+  capsule: 'Sí: en Surco, cada uno de sus hijos puede dedicar el verano a programar sin salir de casa. Modern Age Coders ofrece dos caminos, ambos con clases en vivo, en línea y en inglés: Python e IA de verano, o el curso que cada hijo elija (DSA, desarrollo web, apps, Roblox, Scratch y muchos más), con 4 a 5 clases a la semana. Enseñamos a niños de 6 a 12 años y adolescentes de 13 a 17, con mentores desde la India que hablan claro. Grupo o individual, en el horario que su familia fije, y la primera clase es gratis.',
 
   picks: {
     eyebrow: 'Cursos para empezar',
-    h2: 'Tres cursos para hermanos de distintas edades',
-    lede: 'Si en casa hay un niño pequeño, uno de primaria alta y un adolescente, cada uno tiene aquí su punto de partida.',
+    h2: 'Tres puntos de partida para hermanos de distintas edades',
+    lede: 'Dos cursos del camino de Python e IA, el de quinto y sexto de primaria y el de secundaria, más un curso corto para el hermano menor que todavía programa con bloques.',
     items: [
-      { course: 'scratch-programming-complete-course', code: 'VAU / 01', title: 'Scratch para niños', alt: 'Imagen del curso de Scratch para niños', note: 'Para los menores, desde los 6 años. Historias, animaciones y juegos con bloques, sin necesidad de escribir con rapidez en el teclado.' },
-      { course: 'roblox-game-coding-for-kids-lua-course', code: 'VAU / 02', title: 'Programar juegos en Roblox', alt: 'Imagen del curso de programación de juegos en Roblox con Luau', note: 'Desde los 8 años. Para el hijo que ya juega Roblox y quiere saber cómo se construye por dentro un obby, un marcador o una tienda.' },
-      { course: 'python-complete-masterclass-teens', code: 'VAU / 03', title: 'Python para adolescentes', alt: 'Imagen del curso de Python para adolescentes', note: 'De 13 a 17 años. De la primera variable a archivos, funciones y pequeñas aplicaciones, con proyectos que el adolescente elige.' }
+      { course: 'python-ai-kids-masterclass', code: 'VAU / 01', title: 'Python e IA para niños', alt: 'Imagen del curso de Python e inteligencia artificial para niños', note: 'De 9 a 12 años. El corazón del camino de verano para primaria: dibujos con la tortuga, juegos y pequeños proyectos de IA seguros para su edad. Con 4 a 5 clases por semana avanza más de la mitad en vacaciones.' },
+      { course: 'scratch-programming-complete-course', code: 'VAU / 02', title: 'Scratch para el hermano menor', alt: 'Imagen del curso de Scratch para niños', note: 'Desde los 6 años. Un curso que sí cabe entero en un verano al ritmo intensivo: historias, animaciones y juegos con bloques, sin teclear rápido.' },
+      { course: 'ai-ml-masterclass-teens', code: 'VAU / 03', title: 'IA y machine learning para adolescentes', alt: 'Imagen del curso de inteligencia artificial y machine learning para adolescentes', note: 'De 13 a 17 años. Para el hermano mayor que ya escribe algo de Python: de los datos a modelos que aprenden, con la matemática del colegio como única base.' }
     ]
   },
 
   sections: [
+    {
+      id: 'verano',
+      eyebrow: 'El plan de verano',
+      h2: '¿Qué ofrecen las vacaciones útiles de programación para hermanos en Surco?',
+      lede: 'Dos caminos y un ritmo de verano. Cada hijo escoge entre el recorrido de Python e IA o un curso del catálogo, y lo avanza con 4 a 5 clases en vivo por semana desde que suena el último timbre de diciembre hasta que vuelve el colegio en marzo.',
+      body: [
+        { kind: 'two',
+          leftH3: 'Camino 1: Python e IA de verano',
+          left: [
+            'Es la propuesta estrella de este verano. Arranca con Python, porque con él se arma la mayoría de proyectos de IA actuales, y termina en proyectos de IA medidos para la edad de cada hijo.',
+            'Entre los 9 y los 12 años, su hijo sigue nuestro curso de Python e IA para niños: dibujos con la tortuga, juegos y programas que aprenden a reconocer patrones simples. Un adolescente hace Python completo y luego elige entre IA y machine learning o ciencia de datos. Ninguna herramienta de IA entra en clase si no corresponde a la edad del estudiante.'
+          ],
+          rightH3: 'Camino 2: el curso que cada hijo elija',
+          right: [
+            'El hijo que ya sabe lo que quiere toma cualquier curso de nuestro catálogo con el mismo ritmo intensivo: Roblox, Scratch, Java, C++, una web propia, apps para el celular, DSA (estructuras de datos y algoritmos), vibe coding, videojuegos o matemáticas, entre muchos otros.',
+            'En una casa con varios hijos esto ordena mucho las cosas. La mayor puede construir su primera web mientras el menor arma juegos en Scratch, cada uno con su mentor, sin que ninguno tenga que aguantar el tema del otro.'
+          ] },
+        { kind: 'table', mt: true, numCols: [1, 2], caption: 'Clases acumuladas según las semanas de verano y el ritmo escogido (cálculo nuestro)', head: ['Semanas de verano', 'A 4 clases por semana', 'A 5 clases por semana'], rows: [
+          ['2 semanas', '8', '10'],
+          ['4 semanas', '16', '20'],
+          ['6 semanas', '24', '30'],
+          ['8 semanas', '32', '40'],
+          ['10 semanas', '40', '50']
+        ] },
+        { kind: 'source', html: 'Cuentas nuestras: semanas por clases semanales, nada más. Durante el año escolar el ritmo normal es de 2 clases por semana, unas ocho al mes. Con 40 a 50 clases en diez semanas, un curso corto como Scratch, HTML y CSS, vibe coding para niños (de tres meses) o la preparación para el PCEP se puede completar en vacaciones. Un curso largo, de los que a dos clases semanales ocupan entre 10 y 12 meses (unas 80 a 100 clases), queda hecho más o menos hasta la mitad y sigue en marzo al ritmo normal: no prometemos terminarlo en el verano.' },
+        { kind: 'table', mt: true, numCols: [], caption: 'Qué camino suele encajar con cada hermano (orientación nuestra)', head: ['Edad del hijo', 'Camino 1: Python e IA', 'Camino 2: ejemplos para elegir'], rows: [
+          ['6 a 8 años', 'Aún no: primero bloques y lógica', 'Scratch, apps con bloques, pensamiento computacional'],
+          ['9 a 12 años', 'Python e IA para niños', 'Webs para niños, Roblox con Luau, C++ para niños, vibe coding para niños'],
+          ['13 a 15 años', 'Python completo para adolescentes, luego IA y machine learning', 'Resolución de problemas y DSA, apps para adolescentes, Java'],
+          ['16 a 17 años', 'Python, luego ciencia de datos o IA y machine learning', 'Desarrollo web full stack, DSA, Git y GitHub']
+        ] },
+        { kind: 'source', html: 'Orientación de nuestros mentores, con las edades que figuran en cada curso. La clase gratis de cada hijo confirma el camino; si un hermano de 8 años ya lee y teclea con soltura, puede adelantarse.' },
+        { kind: 'p', mt: true, html: 'El ritmo de verano y su mensualidad quedan pactados con el mentor antes de arrancar, hijo por hijo, porque no es lo mismo cuatro clases que cinco ni grupo que individual. Lo único que no se negocia es que la primera clase sea gratis para cada uno.' }
+      ]
+    },
     {
       id: 'distrito',
       eyebrow: 'El distrito',
@@ -171,7 +214,7 @@ module.exports = {
         { kind: 'three', mt: true, cells: [
           { h3: 'Lo bueno del taller municipal', p: 'Los niños salen de casa, conocen a otros vecinos y hacen deporte o arte con un profesor presencial. Para muchas familias es la base del verano, y nosotros no buscamos reemplazarlo.' },
           { h3: 'Dónde aparece la tecnología', p: 'En la nota de 2026, la tecnología aparece como robótica y ciencia. Es un buen primer contacto. Lo que un taller corto no suele dar es tiempo para escribir programas propios y entender la lógica detrás del robot.' },
-          { h3: 'Cómo se combinan', p: 'Nuestra clase dura alrededor de una hora, dos veces por semana, a la hora que usted escoja. Así, la natación o el vóley pueden ir por la mañana y la programación por la tarde, sin chocar.' }
+          { h3: 'Cómo se combinan', p: 'Cada una de nuestras clases dura cerca de una hora y en verano se toman de 4 a 5 por semana, en el horario que usted fije. La natación o el vóley pueden quedarse en la mañana y la programación pasar a la tarde, sin choques.' }
         ] }
       ]
     },
@@ -193,7 +236,7 @@ module.exports = {
           '<strong>Horas que no se crucen.</strong> Si en casa hay una sola computadora, ponga las clases en horas distintas: por ejemplo, la menor a media mañana y el mayor después del almuerzo. Como usted elige la hora, eso se arregla al reservar.',
           '<strong>Grupo o individual según la edad.</strong> Los más pequeños suelen avanzar con más soltura en clases individuales al principio; un adolescente con algo de experiencia aprovecha mucho un grupo de su edad.',
           '<strong>Proyectos que no compiten.</strong> Que cada hijo tenga su propio proyecto evita comparaciones. Al final del verano, cada uno presenta el suyo a la familia.',
-          '<strong>Una revisión a fines de febrero.</strong> Con lo que vio en las notas del mentor, decida para cada hijo si sigue en marzo, baja a una clase por semana o hace una pausa.'
+          '<strong>Una revisión a fines de febrero.</strong> Con lo que vio en las notas del mentor, decida para cada hijo si en marzo vuelve al ritmo normal de dos clases por semana, sigue un poco más intenso o hace una pausa.'
         ] },
         { kind: 'p', mt: true, html: 'A cada hijo lo acompaña un mismo mentor de principio a fin, que aprende cómo piensa y le escribe a usted, después de las clases, qué trabajaron y qué sigue. Si dos hermanos de edad parecida quieren estar juntos, pueden compartir clase grupal; lo decidimos con usted después de las clases gratis.' }
       ]
@@ -226,7 +269,7 @@ module.exports = {
       body: [
         { kind: 'p', html: 'El año escolar 2026 había empezado con los estudiantes el 16 de marzo de 2026, después de dos semanas de gestión del 2 al 13 de marzo, de modo que el verano escolar de los niños va, aproximadamente, desde fines de diciembre hasta la segunda mitad de marzo. Para 2027 todavía no hay fecha: al 8 de noviembre de 2026 no encontramos en gob.pe la norma del MINEDU para el año escolar 2027. Los colegios privados, además, organizan su propia calendarización dentro de la norma, así que conviene revisar la que mande el colegio de sus hijos.' },
         { kind: 'source', html: 'Fuente: Resolución Ministerial N.° 501-2025-MINEDU, "Norma Técnica para el Año Escolar 2026", Tabla 1, página 7 del PDF firmado, revisada a simple vista el 9 de noviembre de 2026.' },
-        { kind: 'p', mt: true, html: 'Por eso no le vendemos un programa de verano con fecha de inicio y de fin. Cada hijo puede tomar su sesión gratuita en diciembre, empezar el curso apenas termine el colegio y seguir el tiempo que la familia decida; si el colegio vuelve en marzo, la clase cambia de hora y continúa.' }
+        { kind: 'p', mt: true, html: 'Por eso el verano no tiene una fecha de arranque común para todos: cualquier semana de enero a marzo sirve para empezar. Cada hijo puede tomar su sesión gratuita en diciembre, arrancar con 4 o 5 clases semanales apenas termine el colegio y, cuando vuelvan las clases en marzo, pasar a dos por semana en otro horario sin perder lo avanzado.' }
       ]
     },
     {
@@ -285,7 +328,7 @@ module.exports = {
   ladder: {
     eyebrow: 'Avance',
     h2: '¿Cómo saber si cada hijo aprovechó el verano?',
-    lede: 'Usamos cinco niveles propios. Lo normal es que en un primer verano un niño suba uno o dos.',
+    lede: 'Usamos cinco niveles propios. Con el ritmo de verano, lo habitual es que un niño suba uno o dos en su primer verano.',
     table: { caption: 'Cinco niveles de programación que usamos con las familias (nuestros)', head: ['Nivel', 'Edad habitual', 'Su hijo o hija puede'], rows: [
       ['1. Ordenar', '6 a 8 años', 'poner pasos en orden para que un personaje cumpla una tarea'],
       ['2. Repetir', '7 a 10 años', 'combinar repeticiones y condiciones y contar en voz alta para qué sirven'],
@@ -306,7 +349,7 @@ module.exports = {
   catalogue: {
     eyebrow: 'Más cursos',
     h2: 'Nueve cursos más para el verano en Surco',
-    lede: 'Otras opciones para el verano, con clases en tiempo real en inglés y un mentor estable, grupales o individuales.',
+    lede: 'Cualquiera de estos sirve para el camino 2 del verano: clases en tiempo real en inglés, un mentor estable y de 4 a 5 sesiones semanales, en grupo o a solas.',
     bands: [
       { num: 'I', h3: 'Para los más pequeños', sub: 'De 6 a 9 años', courses: [
         { code: 'VAU / PEQ / 01', slug: 'problem-solving-and-computational-thinking-for-kids', title: 'Pensamiento computacional', blurb: 'Acertijos y patrones que preparan la cabeza para programar.' },
@@ -320,7 +363,7 @@ module.exports = {
       ] },
       { num: 'III', h3: 'Secundaria', sub: 'De 13 a 17 años', courses: [
         { code: 'VAU / SEC / 01', slug: 'java-programming-masterclass-for-teens', title: 'Java para adolescentes', blurb: 'Programación orientada a objetos desde cero, con proyectos.' },
-        { code: 'VAU / SEC / 02', slug: 'ai-ml-masterclass-teens', title: 'IA y machine learning', blurb: 'De Python a modelos que aprenden de datos reales.' },
+        { code: 'VAU / SEC / 02', slug: 'problem-solving-dsa-masterclass-teens', title: 'DSA para adolescentes', blurb: 'Lógica, estructuras de datos y algoritmos, problema a problema.' },
         { code: 'VAU / SEC / 03', slug: 'git-github-version-control-course-for-teens', title: 'Git y GitHub', blurb: 'Guardar versiones del código y trabajar en equipo.' }
       ] }
     ]
@@ -339,7 +382,7 @@ module.exports = {
       { h3: 'Mentor por hijo', p: 'Cada hijo trabaja con su propio mentor todo el curso.' },
       { h3: 'Inglés pausado', p: 'El mentor dice poco a la vez y lo muestra todo en pantalla.' },
       { h3: 'Teclado propio', p: 'Cada hijo teclea su programa y busca sus errores, con guía.' },
-      { h3: 'Proyecto por etapa', p: 'Cada tramo del verano termina en algo que se puede mostrar.' },
+      { h3: 'Ritmo de verano', p: 'De 4 a 5 clases por semana, con un proyecto al cierre de cada tramo.' },
       { h3: 'Nota a la familia', p: 'Un resumen corto de lo practicado y del paso siguiente.' },
       { h3: 'Grupo o solo', p: 'De quince a veinte de edad parecida, o uno con su mentor.' }
     ]
@@ -351,9 +394,9 @@ module.exports = {
 
   fees: {
     h2: 'Precios para familias de Surco',
-    lede: 'La mensualidad se muestra en dólares estadounidenses y se cobra a una tarjeta. Es su banco el que la convierte a soles con su propio tipo de cambio, y por eso el cargo final cambia ligeramente según el mes.',
+    lede: 'Las tarjetas de abajo muestran la mensualidad normal del año escolar, de ocho clases al mes, en dólares estadounidenses; el cobro va a una tarjeta y su banco hace la conversión a soles con su propio tipo de cambio. El ritmo de verano, de 4 a 5 clases por semana, y lo que cuesta para cada hijo se dejan cerrados con el mentor antes de que empiecen esas clases intensivas. La primera clase de cada hijo es gratuita.',
     free: ['Una clase gratis por cada hijo', 'Un punto de partida para el verano', 'Sin tarjeta'],
-    group: ['De quince a veinte estudiantes de edad parecida', 'El mismo mentor todo el verano', 'Dos clases en vivo por semana', 'Pago mensual; puede dejarlo al terminar cualquier mes'],
+    group: ['De quince a veinte estudiantes de edad parecida', 'El mismo mentor todo el verano', 'Dos clases semanales en el año escolar; de 4 a 5 en verano, acordadas con el mentor', 'Pago mensual; puede dejarlo al terminar cualquier mes'],
     one: ['Su hijo o hija y un mentor, nadie más', 'Proyectos elegidos a su medida', 'Los días y horas que usted decida']
   },
 
@@ -364,14 +407,14 @@ module.exports = {
       { q: '¿Las clases son en español?', a: 'No, se dictan únicamente en inglés, siempre en vivo y en línea. Lejos de ser un obstáculo, muchas familias surcanas lo buscan: una sola hora sirve para programar y para soltar el inglés oral. El mentor ajusta su velocidad a cada niño. Lima obtuvo 555 puntos en el EF EPI 2025, nivel alto, así que en muchas casas el idioma ya está presente; lo que más se gana en clase es hablarlo.' },
       { q: '¿Las clases son presenciales en Surco?', a: 'No. Son clases en línea, en vivo por videollamada, con mentores desde la India. Sus hijos se conectan desde casa en Surco, sin trasladarse a ningún local.' },
       { q: '¿Pueden dos hermanos tomar clases a la vez?', a: 'Sí. Cada hijo tiene su propia clase gratis, su propio mentor y su propio plan. Si comparten computadora, basta con elegir horas distintas al reservar; si tienen edad parecida, pueden ir a la misma clase grupal.' },
-      { q: '¿Cuánto dura el programa de verano?', a: 'No tiene una duración fija. Sus hijos empiezan nuestro curso normal cuando termina el colegio y siguen el tiempo que la familia decida; pueden continuar en marzo, bajar el ritmo o detenerse al terminar cualquier mes.' },
+      { q: '¿Cuántas clases por semana tiene el verano y cuánto avanza cada hijo?', a: 'De 4 a 5 clases en vivo por semana. Según nuestra cuenta, diez semanas a ese ritmo son de 40 a 50 clases: alcanza para terminar un curso corto como Scratch o HTML y CSS, y para hacer más o menos la mitad de uno largo, que luego sigue en marzo a dos clases por semana.' },
+      { q: '¿Cuánto dura el verano y cuándo se puede empezar?', a: 'Dura lo que dure el descanso escolar de cada hijo. Se puede empezar cualquier semana entre enero y marzo, y al volver el colegio cada uno decide si continúa con el ritmo normal, más suave, o si se detiene al cerrar el mes.' },
       { q: '¿En qué horario pueden conectarse mis hijos?', a: 'Cualquier día y a cualquier hora, con total flexibilidad: elija una clase grupal o, para un plan muy personalizado, clases individuales a la hora que mejor le convenga a su familia. Como referencia, cuando en Surco son las 9:00 a. m., en la India ya son las 7:30 p. m.' },
       { q: '¿Desde qué edad pueden empezar?', a: 'Desde los 6 años. A esa edad se trabaja con bloques de colores; hacia los 9 o 10 años casi todos están listos para teclear Python, y un adolescente de secundaria puede arrancar directamente con Python, Java o un proyecto de IA.' },
-      { q: '¿Se puede combinar con DivertiSurco u otro taller municipal?', a: 'Sí. Nuestra clase dura alrededor de una hora, dos veces por semana, a la hora que usted elija, así que encaja junto a un taller deportivo o artístico. No estamos vinculados con la Municipalidad de Surco.' },
+      { q: '¿Se puede combinar con DivertiSurco u otro taller municipal?', a: 'Sí. Cada clase dura cerca de una hora y usted pone el horario de las 4 o 5 semanales, así que el taller deportivo o artístico puede ir en la mañana y el código en la tarde. No estamos vinculados con la Municipalidad de Surco.' },
       { q: '¿Enseñan robótica?', a: 'Lo nuestro es el código, no las piezas: no trabajamos con hardware ni mandamos kits a casa. Aun así, quien aprende bucles y condiciones con nosotros entiende con mucha más facilidad al robot del taller, porque ese robot obedece justamente esas instrucciones.' },
       { q: '¿Qué necesitan mis hijos en casa?', a: 'Un equipo con teclado, sea laptop o de escritorio, que tenga cámara y micrófono, más una buena conexión; unos auriculares ayudan a oír con claridad al mentor. Si varios hijos comparten ese equipo, se reparten las horas de clase.' },
-      { q: '¿Este curso le sirve como nota en el colegio?', a: 'No. Somos una escuela en línea independiente, sin relación con el MINEDU, las UGEL ni los colegios de Surco, y no ponemos calificaciones escolares. Quien completa un curso obtiene un certificado de finalización emitido por Modern Age Coders, y nada más.' },
-      { q: '¿Cómo se paga?', a: 'Mes a mes, con tarjeta y en dólares estadounidenses; el cambio a soles lo aplica su banco. Para la clase de prueba no pedimos ningún dato de pago.' }
+            { q: '¿Cuánto cuesta el verano de programación?', a: 'La mensualidad publicada corresponde al ritmo normal de ocho clases al mes. Como en verano cada hijo toma de 4 a 5 clases por semana, ese ritmo y su precio se fijan con el mentor cuando ya hizo su clase gratis y antes de seguir. Se paga con tarjeta en dólares estadounidenses, su banco lo pasa a soles y la clase de prueba no pide datos de pago. No damos notas escolares: al completar un curso, el estudiante recibe un certificado de finalización de Modern Age Coders.' }
     ]
   },
 
@@ -391,7 +434,7 @@ module.exports = {
 
   start: {
     h2: 'Reserve una clase gratis para cada hijo',
-    lede: 'Durante la sesión de prueba, el mentor saluda a cada niño con frases simples, le plantea un desafío corto y mira cómo razona. A partir de eso le recomendamos, hijo por hijo, la etapa del verano por la que conviene empezar, el formato y una hora que no choque con la de sus hermanos.',
+    lede: 'En la sesión gratis, el mentor saluda a cada niño con frases simples, le plantea un desafío corto y mira cómo razona. Con eso le proponemos, hijo por hijo, uno de los dos caminos del verano (Python e IA o un curso a elección), si conviene 4 o 5 clases por semana, grupo o individual, y unas horas que no choquen con las de sus hermanos. Recién entonces se acuerda el ritmo y la mensualidad de verano.',
     readFirst: 'Si prefiere leer antes: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> muestra cómo es una clase y <a class="ag-inline-link" href="/courses">All courses</a> reúne cada programa (ambas páginas en inglés).',
     note: 'Recuerde: cada sesión ocurre en tiempo real por videollamada y se dicta en inglés, desde la India. Si prefiere escribirnos, WhatsApp es la vía más rápida y acepta mensajes en castellano.',
     formNote: 'Gratis, sin tarjeta y sin compromiso.'
@@ -401,8 +444,8 @@ module.exports = {
     cols: [
       { h4: 'Cursos de verano', links: [
         { href: '/courses/scratch-programming-complete-course', label: 'Scratch para niños' },
-        { href: '/courses/roblox-game-coding-for-kids-lua-course', label: 'Juegos en Roblox' },
-        { href: '/courses/python-complete-masterclass-teens', label: 'Python para adolescentes' },
+        { href: '/courses/python-ai-kids-masterclass', label: 'Python e IA para niños' },
+        { href: '/courses/ai-ml-masterclass-teens', label: 'IA para adolescentes' },
         { href: '/courses', label: 'Todos los cursos' }
       ] },
       { h4: 'Para familias', links: [
@@ -424,9 +467,9 @@ module.exports = {
 `,
 
   dossier: {
-    curriculumAuthority: 'INEI Censos Nacionales 2025 (Lima Metropolitana, Cuadros N.° 1 and 3); Municipalidad de Santiago de Surco, DivertiSurco 2026 note (6 January 2026); MINEDU RM 501-2025 Tabla 1; INEI TIC en los Hogares II Trimestre 2026; EF EPI 2025 Peru page; tzdata and INACAL. Read 8 and 9 November 2026. The siblings plan, levels and Python lesson are our own.',
+    curriculumAuthority: 'INEI Censos Nacionales 2025 (Lima Metropolitana, Cuadros N.° 1 and 3); Municipalidad de Santiago de Surco, DivertiSurco 2026 note (6 January 2026); MINEDU RM 501-2025 Tabla 1; INEI TIC en los Hogares II Trimestre 2026; EF EPI 2025 Peru page; tzdata and INACAL. Read 8 and 9 November 2026. The two summer tracks, the class-count arithmetic, the siblings plan, levels and Python lesson are our own.',
     localProject: 'Two siblings, one list: an original Python lesson for 10 to 12 year olds in a Surco family summer. Version 1 sets plan_valeria = plan_base and plan_mateo = plan_base, appends Roblox to Mateo and prints the same three projects for both, with "Same list? True"; Version 2 uses .copy() and prints Valeria with two projects and "Same list? False". Lesson family: alias versus copy, the identity of a list.',
-    requiredMentions: ['Same list? True', 'Same list? False', 'tres etiquetas pegadas en una sola caja', 'DivertiSurco: Disfruta tu verano 2026', '24 155 niños de 6 a 11 años', '28 204 adolescentes de 12 a 17', 'Un nombre no es una copia', 'el 84,7 % de los hogares de Lima Metropolitana tenía internet', 'Ejemplo de verano para tres hermanos'],
+    requiredMentions: ['Same list? True', 'Same list? False', 'tres etiquetas pegadas en una sola caja', 'DivertiSurco: Disfruta tu verano 2026', '24 155 niños de 6 a 11 años', '28 204 adolescentes de 12 a 17', 'Un nombre no es una copia', 'el 84,7 % de los hogares de Lima Metropolitana tenía internet', 'Ejemplo de verano para tres hermanos', 'Qué camino suele encajar con cada hermano'],
     sources: [
       { claim: 'Santiago de Surco population 402,074 (total), 386,432 censada, 213,416 women and 188,658 men; Lima Metropolitana 10,141,775 (Cuadro N.° 1).', url: 'https://proyectos.inei.gob.pe/dir-segmentacion-ci/postcensal/prod/adjuntos/censos-2025/descarga_datos/tabulados/27/poblacion/Indicadores_demograficos.xlsx' },
       { claim: 'Surco censada by age group: 0 to 5 15,690; 6 to 11 24,155; 12 to 17 28,204; 60+ 86,108 (Cuadro N.° 3).', url: 'https://proyectos.inei.gob.pe/dir-segmentacion-ci/postcensal/prod/adjuntos/censos-2025/descarga_datos/tabulados/27/poblacion/Indicadores_demograficos.xlsx' },
@@ -437,7 +480,7 @@ module.exports = {
       { claim: 'Peru UTC-5 all year; India UTC+5:30.', url: 'https://raw.githubusercontent.com/eggert/tz/main/southamerica' }
     ],
     rejectedClaims: [
-      'A summer programme length, start date or price: none defined; the page sells normal classes started in the break.',
+      'A summer price or a promise that a long course ends in the summer: refused; the summer pace (4 to 5 a week) and its fee are agreed with the mentor, long courses get about half done (our arithmetic, labelled).',
       'Traffic or commute times in Lima: no figures; the page says only that classes at home need no travel.',
       'DivertiSurco workshop prices and the council phone numbers: published in the note but not repeated.',
       'INEI planos estratificados income strata for Surco: available in research, not used (no income profiling of families).',
