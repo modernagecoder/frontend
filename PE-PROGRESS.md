@@ -118,7 +118,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE018 | sql-and-data-analysis-course-peru (sda, #0C665A) | market (en subject door) | 4,266 | 1.5% vs software-development-course-peru | SQL and data analysis for Peru, on Chiclayo's waste-collection open data (ODC-By) | GROUP BY with HAVING finds a key that should be unique; cross-check two columns that must agree | a170059d |
 | PE166 | online-coding-and-ai-classes-lambayeque-region-peru (cau, #464D02) | region | 5,818 | 1.2% vs online-coding-and-ai-classes-piura-region-peru | Lambayeque: Chiclayo, three provinces, coast to Incahuasi, GRE maths drive | rounded shares that add to 101; largest-remainder rounding | 6176239c |
 | PE167 | online-coding-and-ai-classes-cusco-region-peru (cav, #43623C) | region | 4,976 | 2% vs online-coding-and-ai-classes-lambayeque-region-peru | Cusco: 13 provinces, a strong-maths region where connection is the hurdle | average of ratios vs ratio of totals (weighted yield), checking a derived column | d8d21336 |
-| PE060 | best-coding-classes-in-peru (beco, #952755) | market | 4,776 | 1.6% vs peru-summer-holiday-coding-classes-online | Best coding classes in Peru: what a family can check in one trial class | Pareto dominance: cross off offers beaten on every measure, keep a shortlist | (this commit) |
+| PE060 | best-coding-classes-in-peru (beco, #952755) | market | 4,776 | 1.6% vs peru-summer-holiday-coding-classes-online | Best coding classes in Peru: what a family can check in one trial class | Pareto dominance: cross off offers beaten on every measure, keep a shortlist | 30259955 |
+| PE061 | best-python-course-in-peru (bep, #9A282B) | market | 4,030 | 1.6% vs math-olympiad-coaching-peru | Best Python course in Peru: judge a course by the tests its learners can pass | tests before trust: assert-based edge cases (duplicates, one item, empty) catch a function that looked right | (this commit) |
 
 ## Notes
 
