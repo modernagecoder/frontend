@@ -1049,6 +1049,8 @@ const SLUGS = [
   'sql-and-data-analysis-course-peru',
   'online-coding-and-ai-classes-lambayeque-region-peru',
   'online-coding-and-ai-classes-cusco-region-peru',
+  'online-coding-and-ai-classes-puno-region-peru',
+  'best-coding-classes-in-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2177,6 +2179,8 @@ const LLMS_LABELS = {
   'sql-and-data-analysis-course-peru': 'SQL and data analysis course, Peru',
   'online-coding-and-ai-classes-lambayeque-region-peru': 'Online coding and AI classes, Lambayeque region, Peru',
   'online-coding-and-ai-classes-cusco-region-peru': 'Online coding and AI classes, Cusco region, Peru',
+  'online-coding-and-ai-classes-puno-region-peru': 'Online coding and AI classes, Puno region, Peru',
+  'best-coding-classes-in-peru': 'Best coding classes in Peru',
 };
 
 function wireLlms(slugs) {
