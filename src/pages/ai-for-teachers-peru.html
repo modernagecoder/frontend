@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AI for Teachers in Peru: Live Online Course in English</title>
+  <meta name="description" content="AI for teachers in Peru: a live online course in English on how AI works, how to test an AI marking tool against your own marks, and using it safely with pupils.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ai-for-teachers-peru">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ai-for-teachers-peru.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#034A2E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ai-for-teachers-peru">
+  <meta property="og:title" content="AI for Teachers in Peru: Live Online Course in English">
+  <meta property="og:description" content="What MINEDU already offers teachers on AI, what a deeper course adds, what Peru's 2025 regulation says about AI that evaluates pupils, when a teacher can study in the 2026 calendar, and a lesson on checking an AI marker against your own marks.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_PE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI for Teachers in Peru: Live Online Course in English">
+  <meta name="twitter:description" content="Live AI classes in English for teachers in Peru: understand it, test it, then decide how to use it.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="PE">
+  <meta name="geo.placename" content="Peru">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ate .ag-hero h1 { max-width: 15ch; letter-spacing: -0.015em; }
+.ag-root.ag-ate .ag-capsule { border-left-width: 5px; border-radius: 0; }
+.ag-root.ag-ate .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-ate .ag-table td:last-child { white-space: nowrap; }
+.ag-root.ag-ate .ag-code-note code { font-weight: 600; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Peru"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ai-for-teachers-peru#page","url":"https://learn.modernagecoders.com/ai-for-teachers-peru","name":"AI for Teachers in Peru","description":"A guide for teachers in Peru who want to understand and evaluate AI, built from MINEDU press notes (9 May 2025 and 4 December 2025), RM 501-2025-MINEDU, DS 115-2025-PCM, EF EPI 2025 and vendor age terms, with an original lesson on evaluating an automatic marker with an evaluation set and Cohen's kappa.","inLanguage":"en-PE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding and AI classes in Peru","item":"https://learn.modernagecoders.com/coding-and-ai-classes-in-peru"},{"@type":"ListItem","position":4,"name":"AI for teachers","item":"https://learn.modernagecoders.com/ai-for-teachers-peru"}]},{"@type":"Course","name":"AI for Teachers in Peru","description":"Live online AI courses for teachers in Peru, taught in English: how language models and classifiers work, how to test an AI tool against your own professional judgement, which tools pupils may use at which age, and enough Python to build and check small tools yourself, one to one or in a group of fifteen to twenty adults, at hours that fit the school calendar.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ai-for-teachers-peru"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ai-for-teachers-peru"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ai-for-teachers-peru"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in Spanish?","acceptedAnswer":{"@type":"Answer","text":"No. Our teachers' course is taught live online in English, and only in English. Mentors speak steadily, adjust to your accent and pace, and write key terms in the chat, so a teacher with intermediate English can follow and improve along the way."}},{"@type":"Question","name":"Do I need to know how to code?","acceptedAnswer":{"@type":"Answer","text":"No. The core of the teachers' route, including the marking check, can be done without writing code. Teachers who want to build their own tools can add Python at any point, from zero."}},{"@type":"Question","name":"Is this the same as MINEDU's AI course?","acceptedAnswer":{"@type":"Answer","text":"No. MINEDU's free course \"Inteligencia artificial (IA) en la práctica docente\" focuses on practice and counts towards the teaching career scale. Ours is independent, goes deeper into how AI works and how to test it, and does not count towards that scale."}},{"@type":"Question","name":"Can I use AI to mark my pupils' work?","acceptedAnswer":{"@type":"Answer","text":"As a helper, carefully. Test any tool on answers you have already marked, as in the lesson on this page, and keep the final mark yours. Peru's DS 115-2025-PCM treats AI that replaces human evaluation of pupils' learning as high risk; that is context, not legal advice."}},{"@type":"Question","name":"Which AI tools can my pupils use?","acceptedAnswer":{"@type":"Answer","text":"It depends on age and on each vendor's terms. ChatGPT requires users to be at least 13, with a parent's permission under 18; Claude requires 18. For primary pupils we recommend AI lessons that need no account at all."}},{"@type":"Question","name":"When can I take classes?","acceptedAnswer":{"@type":"Answer","text":"Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. Many teachers start in the January to February break and use the 2026 management weeks to catch up."}},{"@type":"Question","name":"What is Cohen's kappa, briefly?","acceptedAnswer":{"@type":"Answer","text":"A measure of how much two markers agree beyond what chance alone would produce. Agreement of 79% with chance agreement of 36% gives a kappa of 0.67 in our lesson: useful, but well short of a teacher marking alone."}},{"@type":"Question","name":"Is there a certificate?","acceptedAnswer":{"@type":"Answer","text":"Our own certificate of completion. It is not a MINEDU certificate, does not count for the Carrera Pública Magisterial scale, and we are not connected with MINEDU, any UGEL or any school."}},{"@type":"Question","name":"Can a group of teachers from one school join together?","acceptedAnswer":{"@type":"Answer","text":"Yes. Teachers from the same school can form a group, and the examples can be built around your shared subjects and calendar. Contact us to arrange it."}},{"@type":"Question","name":"What do I need?","acceptedAnswer":{"@type":"Answer","text":"A laptop or desktop computer, a stable connection and a headset. Accounts for AI tools are optional and set up only with tools your school permits."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Peru"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ai-for-teachers-peru","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="PE">
+</head>
+
+<body class="ag-root ag-ate">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Peru</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-and-ai-classes-in-peru">Peru</a></li>
+      <li><a href="#state">What MINEDU offers</a></li>
+      <li><a href="#marking">AI and marking</a></li>
+      <li><a href="#project">Evaluation lesson</a></li>
+      <li><a href="#pupils">Pupils and tools</a></li>
+      <li><a href="#calendar">When to study</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a> / AI for teachers
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Peru &middot; AI for educators &middot; Primary, secondary and beyond</p>
+        <h1>AI for teachers in Peru</h1>
+        <p class="ag-lede">Teachers in Peru are being asked to use artificial intelligence before most have had the chance to look inside it. This page is for teachers who want more than a list of apps: how AI tools reach their answers, how to check one against your own professional judgement before you trust it with pupils' work, which tools pupils may legally use, and when in the 2026 school calendar a course actually fits. The lesson at the centre is one any teacher can run with a set of exercise books: test the machine against your own marks.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#project" class="ag-btn ag-btn--ghost">See the marking lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20teacher%20in%20Peru%20and%20would%20like%20to%20learn%20more%20about%20AI.%20Could%20I%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ate'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online classes since 2020 &middot; 10,000+ learners worldwide &middot; taught live and in English</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>For</dt><dd>Teachers in any subject</dd>
+          <dt>Coding needed</dt><dd>None to start</dd>
+          <dt>Core skill</dt><dd>Testing AI against your own judgement</dd>
+          <dt>Also covers</dt><dd>Pupils' tool ages, Python basics</dd>
+          <dt>Format</dt><dd>One to one, or a group of fifteen to twenty</dd>
+          <dt>Try it</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In a nutshell</p>
+      <p>Modern Age Coders offers AI for teachers in Peru: live online classes taught in English for teachers of any subject. Teachers learn how AI tools produce their answers, how to check an AI tool against their own marking with a small evaluation set before using it, which tools pupils may use at which age, and, if they wish, enough Python to build and test simple classroom tools. Mentors in India teach one to one or in groups of fifteen to twenty adults, at hours that fit the school calendar and the working day in Peru.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where teachers start</p>
+      <h2>Three courses teachers choose</h2>
+      <p class="ag-lede">No coding is needed for the first two. The third suits teachers of maths, science or computing who want to build their own small tools.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-tools-mastery-complete-college">
+        <div class="ag-pick-shot"><img src="/images/ai-tools-college.webp" alt="AI Tools Mastery Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ATE / 01</p>
+          <h3>AI Tools Mastery</h3>
+          <p>Practical use of ChatGPT, Claude and automation tools for adults, taught with the habit of checking every output. Teachers apply it to planning, materials and feedback, never to pupils' personal data.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-and-ai-analytics-for-non-programmers-course">
+        <div class="ag-pick-shot"><img src="/images/data-ai-analytics-non-programmers.webp" alt="Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ATE / 02</p>
+          <h3>Data and AI Analytics for Non-Programmers</h3>
+          <p>Spreadsheets, charts and AI help for people who do not code. Useful for teachers who track marks, attendance and progress and want to read their own data clearly.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-complete-college">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-college.webp" alt="AI and ML Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ATE / 03</p>
+          <h3>AI and ML Masterclass</h3>
+          <p>Python and machine learning from the start, at an adult pace. For teachers who want to understand models properly and build small tools, such as the marking check below.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="state">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What MINEDU offers</p><h2>What AI training does MINEDU already offer teachers in Peru?</h2><p class="ag-lede">A free online course, workshops and pilots. MINEDU reported on 9 May 2025 that more than 87,000 teachers had enrolled in its course "Inteligencia artificial (IA) en la práctica docente", delivered through its virtual platform.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>MINEDU's announced AI initiatives for teachers and schools</caption><thead><tr><th scope="col">Initiative</th><th scope="col">What MINEDU said</th><th scope="col">Date of the press note</th></tr></thead><tbody><tr><td>Online course "IA en la práctica docente"</td><td>More than 87,000 teachers enrolled; free; a pass gives a certificate that counts towards the Carrera Pública Magisterial scale; two units, the second "Enseñar y aprender con IA"</td><td>9 May 2025</td></tr><tr><td>Workshops on responsible AI integration</td><td>Run since 2024 in the 26 regions; target of 3,550 teachers of pedagogical innovation</td><td>9 May 2025</td></tr><tr><td>In-person workshops</td><td>Lima Metropolitana, Callao and Ica, with a target of 1,600 teachers</td><td>9 May 2025</td></tr><tr><td>AI for planning in rural secondary</td><td>205 rural schools in alternation, residential and tutorial models, serving about 27,000 pupils</td><td>4 December 2025</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: MINEDU press notes of 9 May 2025 and 4 December 2025, gob.pe; read on 9 November 2026. MINEDU also reports 627,508 secondary pupils enrolled in rural schools. We are not connected with MINEDU, its platform or these programmes.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the state course is for</h3><p>MINEDU's course is free, counts for the teaching career scale and reaches teachers in every region. If you have not taken it, it is a sensible first step, and nothing on this page competes with it.</p>
+<p>Its focus, as MINEDU describes it, is practice: using AI in teaching and learning. That is what most teachers need first.</p></div><div><h3>What a deeper course adds</h3><p>What a short practice course rarely has time for is the inside view: how a classifier or a language model reaches an answer, why it fails in predictable ways, and how to measure whether a tool is good enough for a job before you rely on it.</p>
+<p>That is our focus. A teacher who has tested an AI marker against their own marks, as in the lesson below, makes better decisions about every AI tool that arrives in the school afterwards.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="marking">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">AI and marking</p><h2>Can a teacher in Peru let AI mark pupils' work?</h2><p class="ag-lede">As a helper, with care; not as a replacement. Peru's 2025 AI regulation treats AI that evaluates the learning results of children and adolescents as high risk, unless it plays a complementary role and does not replace the teacher's judgement.</p></div>
+    <p>DS 115-2025-PCM, the regulation of Law 31814, appeared in El Peruano on 9 September 2025. Its article 24.1 b lists among high-risk uses the evaluation of children and adolescents in education, including "evaluación de resultados de aprendizaje", with an exception: "salvo que el sistema integre una función complementaria y no reemplace la evaluación pedagógica humana". In plain words, a system that helps a teacher assess is treated differently from one that replaces the teacher's assessment.</p>
+    <p>The same regulation, in article 13.2, promotes "la formación del personal docente en IA y tecnologías digitales" for pedagogical use in public and private schools. We quote both articles as published context about where Peru is heading. This is not legal advice, and how a particular school applies the regulation is for that school and its advisers to decide.</p>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Use it to sort, not to judge</h3><p>An AI helper can group similar answers so you mark them together, or flag answers it finds unusual. The mark and the comment stay yours.</p></div><div><h3>Test before you trust</h3><p>Before using any marking tool with a class, run it on answers you have already marked and measure how often it agrees with you. The lesson below shows how.</p></div><div><h3>Keep pupils' data out</h3><p>Never paste names, photos or personal details into a public AI service. Anonymise first, and check whether your school allows the tool at all.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real lesson</p><h2>How can a teacher check an AI marking tool? An evaluation set</h2><p class="ag-lede">This is the lesson teachers in our course remember. You take answers you have already marked, let the tool mark them too, and compare. The comparison has a name, an evaluation set, and one number that matters more than the obvious one.</p></div>
+    <ol class="ag-steps"><li><strong>Collect.</strong> Fourteen pupil answers to one question, "Which is larger, 0.5 or 0.25? Explain.", each marked by the teacher: 2 for a full answer, 1 for a correct choice with weak or wrong reasoning, 0 for a wrong choice. The answers and marks in our code are invented, but they are typical of real ones.</li><li><strong>Mark again, by machine.</strong> A simple rule stands in for an AI helper: an answer starting with 0.5 gets 2 if it contains "because", "since" or "&gt;", otherwise 1; anything else gets 0. Real AI tools are more sophisticated, but the method of checking them is exactly the same.</li><li><strong>Compare.</strong> Count how often teacher and helper agree, how often they would agree by pure chance, and the difference between the two, a statistic called Cohen's kappa. Then read every disagreement.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>An evaluation set for a marking helper</b><span>Python</span></figcaption><pre># Question: "Which is larger, 0.5 or 0.25? Explain." Fourteen answers and the
+# teacher's marks (2 full, 1 partial, 0 none) are invented by us.
+answers = [
+    ("0.5, because 0.5 is 50 hundredths and 0.25 is 25", 2),
+    ("0.5 is larger since half is more than a quarter", 2),
+    ("0.25 is larger because 25 is bigger than 5", 0),
+    ("0.5", 1),
+    ("0.5 is larger, 0.50 &gt; 0.25", 2),
+    ("0.25 is larger, it has more digits", 0),
+    ("0.5 is larger because a half beats a quarter", 2),
+    ("they are equal", 0),
+    ("0.5 is larger because 5 &gt; 2", 1),
+    ("0.5 is larger because 0.5 = 0.50 and 50 &gt; 25", 2),
+    ("0.5 larger", 1),
+    ("0.25 is larger because it is longer", 0),
+    ("0.5 is larger because it is shorter", 1),
+    ("Half is more than a quarter, so 0.5 wins", 2),
+]
+
+def helper(text):                     # a simple marking rule standing in for an AI helper
+    if not text.startswith("0.5"):
+        return 0
+    return 2 if "because" in text or "since" in text or "&gt;" in text else 1
+
+teacher = [m for _, m in answers]
+machine = [helper(t) for t, _ in answers]
+
+agree = sum(t == m for t, m in zip(teacher, machine)) / len(answers)
+labels = [0, 1, 2]
+p_chance = sum((teacher.count(k) / len(answers)) * (machine.count(k) / len(answers)) for k in labels)
+kappa = (agree - p_chance) / (1 - p_chance)
+print("agreement", round(agree, 2), "| chance", round(p_chance, 2), "| kappa", round(kappa, 2))
+
+for t in labels:
+    print("teacher gave", t, "-&gt; helper gave 0/1/2:", [sum(1 for a, b in zip(teacher, machine) if a == t and b == m) for m in labels])
+for (text, t), m in zip(answers, machine):
+    if t != m:
+        print("disagree:", repr(text), "teacher", t, "helper", m)</pre><p class="ag-code-note">Run with Python 3, it prints the seven lines below. The question, answers and marks are ours, written for the lesson.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Output</b><span>Output</span></figcaption><pre>agreement 0.79 | chance 0.36 | kappa 0.67
+teacher gave 0 -&gt; helper gave 0/1/2: [4, 0, 0]
+teacher gave 1 -&gt; helper gave 0/1/2: [0, 2, 2]
+teacher gave 2 -&gt; helper gave 0/1/2: [1, 0, 5]
+disagree: '0.5 is larger because 5 &gt; 2' teacher 1 helper 2
+disagree: '0.5 is larger because it is shorter' teacher 1 helper 2
+disagree: 'Half is more than a quarter, so 0.5 wins' teacher 2 helper 0</pre><p class="ag-code-note">Agreement 0.79 sounds good. Kappa 0.67 is the more honest number, and the three disagreements tell you what the tool cannot do.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why agreement is not enough</h3><p>The helper agrees with the teacher on 11 of 14 answers, 79%. But if both simply handed out marks in the proportions they each use, they would agree about 36% of the time by chance alone. Kappa measures how much better than chance the helper does: here 0.67, which is useful but well short of the teacher.</p>
+<p>In a class where almost every answer is correct, a tool that gives everyone full marks could reach high agreement and a kappa near zero. Always ask for both numbers, from any vendor, about any marking tool.</p></div><div><h3>What the disagreements show</h3><p>Two answers got full marks from the helper for reasoning a teacher would never accept: "because 5 &gt; 2" and "because it is shorter". The helper rewards the word "because", not the thinking after it. That is a pattern-matching failure, and real AI markers have subtler versions of it.</p>
+<p>The third answer is correct and well reasoned, "Half is more than a quarter, so 0.5 wins", but it does not start with "0.5", so the helper gives 0. A pupil who writes differently is punished. Only reading the disagreements reveals that; no single score does.</p></div></div>
+    <ol class="ag-steps ag-mt-40"><li><strong>With your own class.</strong> Choose one question you mark often. Take twenty answers you have already marked, anonymise them and run them through any AI tool your school allows. Count agreement and list every disagreement.</li><li><strong>Find the bias.</strong> Look at whom the tool marks down. Pupils who write briefly? Pupils who explain in a different order? Those are the pupils a tool would quietly disadvantage.</li><li><strong>Decide the role.</strong> In two sentences, decide what this tool may do in your classroom (sort, flag, suggest) and what it may not (decide a mark), and why.</li><li><strong>Optional, in Python.</strong> Change the helper rule to fix one disagreement. Does agreement rise, and does a new disagreement appear?</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="pupils">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Pupils and tools</p><h2>Which AI tools may pupils use, and at what age?</h2><p class="ag-lede">Fewer than many teachers assume. Each company sets a minimum age in its own terms, and the strictest apply to the tools teachers hear about most.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Age terms set by the vendors, as we read them</caption><thead><tr><th scope="col">Tool</th><th scope="col">What the vendor's terms say</th><th scope="col">In practice for a school</th></tr></thead><tbody><tr><td>ChatGPT (OpenAI)</td><td>At least 13; under 18 needs a parent or guardian's permission</td><td>Not for primary; secondary only with parents' permission</td></tr><tr><td>Claude (Anthropic)</td><td>At least 18</td><td>Teachers only; never pupils</td></tr><tr><td>Khanmigo (Khan Academy)</td><td>Use by under-18s must be supervised by an authorised adult and linked to a parent or teacher account</td><td>Possible with supervision and linked accounts</td></tr><tr><td>Gemini (Google)</td><td>13 or the applicable age in the country; not with a Family Link account</td><td>Secondary only, with care</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: OpenAI terms of use, Anthropic consumer terms, Khan Academy terms of service and Google Gemini help, as recorded in our <a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a>; read on 9 November 2026. Terms change; check the vendor's page and your school's own policy.</p>
+    <p class="ag-mt-40">For younger pupils, the most useful AI lessons need no AI account at all: sorting games, simple rules like the marking helper above, and discussions about why a machine got something wrong. If you teach children and want examples, our <a class="ag-inline-link" href="/clases-de-programacion-para-ninos-en-ingles">clases de programación para niños en inglés</a> page describes how we teach coding and AI ideas to children aged 6 to 12.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="calendar">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">When to study</p><h2>When can a teacher in Peru fit in an AI course?</h2><p class="ag-lede">Around the school calendar. RM 501-2025-MINEDU sets the 2026 school year at 36 teaching weeks and 8 management weeks, in alternating blocks, with at least 160 teaching days and 30 management days.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The 2026 school calendar for Educación Básica (RM 501-2025-MINEDU, table 1)</caption><thead><tr><th scope="col">Block</th><th scope="col">Length</th><th scope="col">Dates in 2026</th></tr></thead><tbody><tr><td>First management block</td><td>2 weeks</td><td>2 to 13 March</td></tr><tr><td>First teaching block</td><td>9 weeks</td><td>16 March to 15 May</td></tr><tr><td>Second management block</td><td>1 week</td><td>18 to 22 May</td></tr><tr><td>Second teaching block</td><td>9 weeks</td><td>25 May to 24 July</td></tr><tr><td>Third management block</td><td>2 weeks</td><td>27 July to 7 August</td></tr><tr><td>Third teaching block</td><td>9 weeks</td><td>10 August to 9 October</td></tr><tr><td>Fourth management block</td><td>1 week</td><td>12 to 16 October</td></tr><tr><td>Fourth teaching block</td><td>9 weeks</td><td>19 October to 18 December</td></tr><tr><td>Fifth management block</td><td>2 weeks</td><td>21 to 31 December</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: MINEDU, RM 501-2025-MINEDU, Norma Técnica para el Año Escolar 2026, section 5.2.1, table 1, checked against the scanned page; read on 9 November 2026. Schools may adapt to local context; Educación Básica Alternativa follows its own two periods.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>A plan that works for many teachers (ours)</h3><p>Start in the January to February break, when there are no classes to prepare, and set a steady pace of two short classes a week. Use the management weeks in May, July and October to catch up or finish a project.</p>
+<p>In the busiest teaching weeks, especially around reports, one-to-one classes can pause or move; tell your mentor your school's dates at the start.</p></div><div><h3>The clock</h3><p>Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family.</p>
+<p>Peru does not change its clocks, and neither does India, so the gap stays at ten and a half hours all year. A 06:30 class in Lima, before school, is 17:00 in India; an 18:00 class after school is 04:30 the next morning in India, which some mentors can do.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">In English</p><h2>Is my English good enough for a course in English?</h2><p class="ag-lede">Most likely, if you can follow a slow talk in English. EF's English Proficiency Index 2025 gives Peruvian adults working as teachers a score of 532, in the "moderate" band, close to the national 519.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>A double benefit</h3><p>For English teachers and teachers at bilingual, Cambridge or IB schools, the course is professional English practice as well as AI. For others, it is a chance to use English with a purpose, in a subject where the original sources are in English anyway.</p>
+<p>EF tests adults who choose to take its online test, so its scores describe that group, not every teacher in Peru.</p></div><div><h3>How we make it work</h3><p>Mentors speak steadily, check understanding often and put key terms in the chat. You can ask a mentor to repeat or rephrase at any time. We do not teach in Spanish, but one-to-one classes let you set the pace.</p>
+<p>If you prefer to read about this course in Spanish first, our <a class="ag-inline-link" href="/ia-para-docentes-curso-en-ingles">IA para docentes</a> page describes it for teachers in Spanish, with a different lesson; the live classes are the same.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>What a teacher can do at each stage</h2>
+      <p class="ag-lede">Our own stages for the teachers' route. They are not a MINEDU certificate and do not count towards the Carrera Pública Magisterial scale.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>AI for teachers: stages (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">The teacher can</th><th scope="col">Shown by</th></tr></thead><tbody><tr><td>1. Explain</td><td>Describe how a classifier and a language model reach an answer</td><td>A five-minute explanation to colleagues</td></tr><tr><td>2. Check ages</td><td>Say which tools pupils of each age may use</td><td>A one-page guide for your school</td></tr><tr><td>3. Prompt with care</td><td>Get useful planning help without sharing pupils' data</td><td>Three lesson plans, checked and corrected</td></tr><tr><td>4. Evaluate</td><td>Build an evaluation set and read kappa and disagreements</td><td>The marking lesson, on your own subject</td></tr><tr><td>5. Build</td><td>Write a small classroom tool in Python, optional</td><td>A working quiz or checker</td></tr><tr><td>6. Decide</td><td>Set the role of an AI tool in your classroom</td><td>A written policy for one tool</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For teachers</h3><p>Agreement alone flatters a tool. Ask for kappa, then read every disagreement.</p>
+<p>A tool that rewards the word "because" is not reading the reasoning.</p></div><div><h3>For school leaders</h3><p>Stage 4 is the one to ask for before any AI marking tool is adopted.</p>
+<p>Teachers receive notes on what they built and tested, not just hours attended.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses teachers take</h2>
+      <p class="ag-lede">All live and in English. Several are courses teachers later recommend to their own pupils.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>For the teacher</h3>
+        <span class="ag-band-sub">Adult courses</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ATE / SELF / 01</p>
+          <h4>Python Masterclass</h4>
+          <p>Programming from zero, at an adult pace.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ATE / SELF / 02</p>
+          <h4>Generative AI</h4>
+          <p>How language models are used and evaluated.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ATE / SELF / 03</p>
+          <h4>Canva and AI design</h4>
+          <p>Clear classroom materials with AI features.</p>
+          <a class="ag-course-link" href="/courses/canva-ai-design-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Maths and data</h3>
+        <span class="ag-band-sub">For maths and science teachers</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ATE / MATH / 01</p>
+          <h4>Maths for Data Science</h4>
+          <p>Statistics and linear algebra behind AI.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ATE / MATH / 02</p>
+          <h4>Maths through coding</h4>
+          <p>School maths explored in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ATE / MATH / 03</p>
+          <h4>Data Analysis</h4>
+          <p>Excel, SQL and Python for real datasets.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>For your pupils</h3>
+        <span class="ag-band-sub">Courses to recommend</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ATE / PUPIL / 01</p>
+          <h4>AI Literacy for Kids</h4>
+          <p>Ages 8 to 14: understanding AI, not just using it.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ATE / PUPIL / 02</p>
+          <h4>AI and ML for teens</h4>
+          <p>Python to real models for 13 to 18 year olds.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ATE / PUPIL / 03</p>
+          <h4>Scratch coding</h4>
+          <p>First games and stories for young children.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>What does a live class for teachers look like?</h2>
+      <p class="ag-lede">Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Before school</p><p class="ag-slot-l">Early mornings in Peru meet the Indian evening.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Evenings in Peru, early morning in India, by arrangement.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">One to one</p><p class="ag-slot-l">Your pace, paused for report weeks and exams.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Your subject</h3><p>Examples drawn from what you actually teach.</p></div>
+      <div><h3>Your marks</h3><p>Evaluation sets built on your own marked work.</p></div>
+      <div><h3>No pupil data</h3><p>Everything anonymised before it reaches a tool.</p></div>
+      <div><h3>Clear English</h3><p>Steady pace; key terms written down.</p></div>
+      <div><h3>Adults only</h3><p>Teacher groups never mix with pupils.</p></div>
+      <div><h3>One mentor</h3><p>The same person through the whole course.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students build</h2>
+      <p class="ag-lede">Examples of work by students in our longer courses, the kind of projects teachers later set their own classes. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for teachers</h2>
+      <p class="ag-lede">The course is priced in US dollars and paid by card. Your bank converts each monthly payment into soles at the rate it uses that day, so the figure in soles may vary slightly between months.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Try the marking check on a few answers</li><li>No card to book</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty adult learners</li><li>One mentor from start to finish</li><li>Two live classes a week</li><li>Monthly; pause in busy school weeks</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A mentor for you alone</li><li>Built around your subject and school</li><li>Times fitted around your teaching</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from learners and families, word for word.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Teachers in Peru ask</p>
+      <h2>AI for teachers: questions and answers</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in Spanish?</h3>
+        <p>No. Our teachers' course is taught live online in English, and only in English. Mentors speak steadily, adjust to your accent and pace, and write key terms in the chat, so a teacher with intermediate English can follow and improve along the way.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to know how to code?</h3>
+        <p>No. The core of the teachers' route, including the marking check, can be done without writing code. Teachers who want to build their own tools can add Python at any point, from zero.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is this the same as MINEDU's AI course?</h3>
+        <p>No. MINEDU's free course "Inteligencia artificial (IA) en la práctica docente" focuses on practice and counts towards the teaching career scale. Ours is independent, goes deeper into how AI works and how to test it, and does not count towards that scale.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use AI to mark my pupils' work?</h3>
+        <p>As a helper, carefully. Test any tool on answers you have already marked, as in the lesson on this page, and keep the final mark yours. Peru's DS 115-2025-PCM treats AI that replaces human evaluation of pupils' learning as high risk; that is context, not legal advice.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which AI tools can my pupils use?</h3>
+        <p>It depends on age and on each vendor's terms. ChatGPT requires users to be at least 13, with a parent's permission under 18; Claude requires 18. For primary pupils we recommend AI lessons that need no account at all.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When can I take classes?</h3>
+        <p>Any day, any time, flexible: choose a batch, or for a very personalised plan choose 1-on-1 at the hour that suits your family. Many teachers start in the January to February break and use the 2026 management weeks to catch up.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is Cohen's kappa, briefly?</h3>
+        <p>A measure of how much two markers agree beyond what chance alone would produce. Agreement of 79% with chance agreement of 36% gives a kappa of 0.67 in our lesson: useful, but well short of a teacher marking alone.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is there a certificate?</h3>
+        <p>Our own certificate of completion. It is not a MINEDU certificate, does not count for the Carrera Pública Magisterial scale, and we are not connected with MINEDU, any UGEL or any school.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a group of teachers from one school join together?</h3>
+        <p>Yes. Teachers from the same school can form a group, and the examples can be built around your shared subjects and calendar. Contact us to arrange it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do I need?</h3>
+        <p>A laptop or desktop computer, a stable connection and a headset. Accounts for AI tools are optional and set up only with tools your school permits.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">See also</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Other pages teachers find useful.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-peru">Coding and AI classes in Peru</a></h3><p>Everything we teach in Peru, by age.</p></div>
+      <div><h3><a class="ag-inline-link" href="/profesor-de-matematicas-en-ingles-peru">Profesor de matemáticas en inglés</a></h3><p>Maths taught in English, explained in Spanish.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a></h3><p>Minimum ages for over a hundred AI tools.</p></div>
+      <div><h3><a class="ag-inline-link" href="/we-teach-you-how-to-think">We teach you how to think</a></h3><p>Our approach: reasoning before tools.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>How a live class runs.</p></div>
+      <div><h3><a class="ag-inline-link" href="/courses">All courses</a></h3><p>Every syllabus.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free class for teachers</h2>
+        <p class="ag-lede">Bring five answers you have already marked, anonymised. In the trial, you and a mentor run a simple marking check on them and talk through the disagreements. You leave knowing how the course works and which route suits you.</p>
+        <p class="ag-mt-40">Prefer to read first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> describes our classes, and each course in the <a class="ag-inline-link" href="/courses">course list</a> has its full syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20teacher%20in%20Peru%20and%20would%20like%20to%20learn%20more%20about%20AI.%20Could%20I%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ate',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">All classes are live online, in English, with mentors based in India. WhatsApp us in English for a quick answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ate(event)" novalidate>
+          <div class="ag-field">
+            <label for="pe-name">Your name</label>
+            <input id="pe-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-phone">Phone or WhatsApp, Peru +51</label>
+            <input id="pe-phone" type="tel" name="phone" placeholder="987 654 321" required>
+          </div>
+          <div class="ag-field">
+            <label for="pe-age">Learner age group</label>
+            <select id="pe-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, with no card and no obligation.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>For educators</h4><ul><li><a href="/ai-tools-age-guide">AI tools and age</a></li><li><a href="/we-teach-you-how-to-think">Thinking first</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Peru</h4><ul><li><a href="/coding-and-ai-classes-in-peru">Classes in Peru</a></li><li><a href="/ia-para-docentes-curso-en-ingles">IA para docentes</a></li><li><a href="/clases-de-programacion-para-ninos-en-ingles">Programación para niños</a></li><li><a href="/profesor-de-matematicas-en-ingles-peru">Matemáticas en inglés</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Mark it yourself first</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ate = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0051') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('51') === 0 && phoneDigits.length > 8) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 8) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'PE';
+  if (!foreignLead && (phoneDigits.length > 9 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Peru phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+51', countryIso: 'PE', countryName: 'Peru',
+      source: 'ai-for-teachers-peru-inline', meta: { name: name, age: age, page: 'ai-for-teachers-peru' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

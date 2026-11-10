@@ -10540,4 +10540,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-agents-for-professionals-peru /src/pages/ai-agents-for-professionals-peru.html 200
 /ai-agents-for-professionals-peru.md /src/pages/ai-agents-for-professionals-peru.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ai-for-teachers-peru /src/pages/ai-for-teachers-peru.html 200
+/ai-for-teachers-peru.md /src/pages/ai-for-teachers-peru.md 200
 /* /src/pages/404.html 404

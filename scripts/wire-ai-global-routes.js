@@ -1096,6 +1096,7 @@ const SLUGS = [
   'ai-course-for-university-students-peru',
   'ai-agents-course-peru',
   'ai-agents-for-professionals-peru',
+  'ai-for-teachers-peru',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2271,6 +2272,7 @@ const LLMS_LABELS = {
   'ai-course-for-university-students-peru': 'AI course for university students in Peru',
   'ai-agents-course-peru': 'AI agents course in Peru',
   'ai-agents-for-professionals-peru': 'AI agents for professionals in Peru',
+  'ai-for-teachers-peru': 'AI for teachers in Peru',
 };
 
 function wireLlms(slugs) {
