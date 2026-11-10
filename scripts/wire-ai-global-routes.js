@@ -1144,6 +1144,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-ate-lima',
   'clases-de-programacion-para-ninos-comas-lima',
   'clases-de-programacion-para-ninos-villa-maria-del-triunfo-lima',
+  'clases-de-programacion-para-ninos-villa-el-salvador-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2367,6 +2368,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-ate-lima': 'Clases de programación para niños en Ate',
   'clases-de-programacion-para-ninos-comas-lima': 'Clases de programación para niños en Comas',
   'clases-de-programacion-para-ninos-villa-maria-del-triunfo-lima': 'Clases de programación para niños en Villa María del Triunfo',
+  'clases-de-programacion-para-ninos-villa-el-salvador-lima': 'Clases de programación para niños en Villa El Salvador',
 };
 
 function wireLlms(slugs) {
