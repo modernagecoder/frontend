@@ -51,3 +51,17 @@ Owner's words for this cluster (2026-11-09): **"make sure all our classes are li
 - Your rows come as `row|slug|lang|hubGroup|code|accent`. Write them in the order given. After each, run its dry run, fix until it passes, then start the next. Never leave a half-written module: if you must stop, delete it and report it unfinished.
 - Siblings are being written at the same time; a module in `content/pe/` without `src/pages/<slug>.html` is not live, so do not link it, and do not copy its sentences either.
 - Final report per row: slug, visible words, dry-run result, main sources, lesson family, SKIP reasons.
+
+## Summer offer (owner 2026-11-10, replaces the earlier "vacaciones útiles" rule)
+
+Owner's words: "summer page sells summer coding of python and ai or custom choose your courses regular class weekly 4 to 5 classes to complete the courses DSA web dev app dev and many more make nice summer pages".
+
+Every summer page (the 20 vacaciones útiles / summer holiday rows) sells two tracks, both live, online and in English, starting any week of the January to March break:
+1. **Summer Python and AI**: the headline track. Python first, then AI projects at the learner's age (kids: python-ai-kids-masterclass; teens: python-complete-masterclass-teens, ai-ml-masterclass-teens, data-science-course-for-teens-python-data; adults: python-programming-masterclass-zero-to-advanced-college, ai-ml-masterclass-complete-college). Respect tool age rules.
+2. **Choose your own course**: any course in the catalogue, e.g. DSA (problem-solving-dsa-masterclass-teens, data-structures-algorithms-masterclass-college), web development (html-css-course-for-beginners-build-real-websites, full-stack-web-development-teens-masterclass, kids-ai-web-development-course), app development (block-coding-app-development-masterclass, complete-app-development-masterclass-for-teens), Java, C++, game development, Roblox, Scratch, vibe coding, maths. Check every slug with the catalogue helper.
+
+**Summer pace: 4 to 5 live classes a week** (the regular year is 2 a week, eight a month). State the honest arithmetic, labelled ours: a ten-week summer at 4 to 5 classes a week is 40 to 50 classes; short courses (Scratch, HTML and CSS, the three-month vibe coding courses, PCEP prep, Orange) can be completed over the summer; long courses (10 to 12 months at 2 a week, so roughly 80 to 100 classes) get a large head start, about half, and continue at the normal pace in March. Never promise a long course is finished in the summer. Group or one to one; flexible hours (timing line unchanged).
+
+**Fees:** the template's fee cards show the standard monthly fee for eight classes. Never type a summer price. Say in fresh words that the summer pace (4 to 5 classes a week) and its fee are agreed with the mentor before the first summer class, and the first class is free.
+
+**Make it look like a summer page:** a summer plan section near the top (after the capsule) with the two tracks as cards (`kind: 'cards'` or the page's grid block), a week-by-week or class-count table for the chosen pace (ours), and a "which track fits" table by age. Keep every verified fact, source and the page's own lesson already on the page; rewrite only what the offer changes (capsule, lede, picks, offer sections, fees.lede, FAQs about format/length/price, start section). Capsule must still contain the language words, and now also "4 to 5 classes a week". Keep "best" at most 1 (code identifiers count).
