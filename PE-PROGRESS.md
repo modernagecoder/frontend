@@ -167,7 +167,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE021 | ai-course-for-university-students-peru (aus, #1D6746) | market | 4,268 | 1.9% vs ai-course-for-kids-peru | AI course for university students in Peru: what a degree leaves out, in English | k-means by hand: the same data, two starts, a local minimum 20 times worse | db45cb5b |
 | PE022 | ai-agents-course-peru (aag, #005356) | market | 4,626 | 1.2% vs ai-course-for-teens-peru | AI agents course in Peru: what agents are, where they break, how to build safe ones, in English | prompt injection in a tool's input: a fetched page that gives orders, and an agent that refuses | ebc10c25 |
 | PE023 | ai-agents-for-professionals-peru (aap, #105E62) | market | 4,380 | 1.4% vs ai-and-coding-for-professionals-peru | AI agents for professionals in Peru: reliable agents at work, what 2025 rules mean, in English | retries, timeouts and idempotency: an agent that bills a client twice, and the fix | dba9bcee |
-| PE024 | ai-for-teachers-peru (ate, #034A2E) | market | 4,571 | 2% vs ai-course-for-kids-peru | AI for teachers in Peru: understand AI, check it against your own marking, in English | an evaluation set: a marking helper checked against teacher marks, agreement vs kappa | (this commit) |
+| PE024 | ai-for-teachers-peru (ate, #034A2E) | market | 4,571 | 2% vs ai-course-for-kids-peru | AI for teachers in Peru: understand AI, check it against your own marking, in English | an evaluation set: a marking helper checked against teacher marks, agreement vs kappa | 22c36fc7 |
+| PE025 | ai-course-for-business-peru (abu, #147175) | market | 4,362 | 1.6% vs remote-tech-job-skills-peru | AI course for business in Peru: owners and teams, what to use first, what rules say, in English | embeddings as cosine similarity: word overlap picks the wrong FAQ, a toy embedding the right one | (this commit) |
 
 ## Notes
 
