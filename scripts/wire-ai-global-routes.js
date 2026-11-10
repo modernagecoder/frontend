@@ -1138,6 +1138,7 @@ const SLUGS = [
   'clases-de-programacion-san-miguel',
   'clases-de-programacion-para-ninos-lima',
   'clases-de-programacion-para-ninos-arequipa',
+  'clases-de-programacion-para-ninos-trujillo',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2355,6 +2356,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-san-miguel': 'Clases de programación en San Miguel',
   'clases-de-programacion-para-ninos-lima': 'Clases de programación para niños en Lima',
   'clases-de-programacion-para-ninos-arequipa': 'Clases de programación para niños en Arequipa',
+  'clases-de-programacion-para-ninos-trujillo': 'Clases de programación para niños en Trujillo',
 };
 
 function wireLlms(slugs) {

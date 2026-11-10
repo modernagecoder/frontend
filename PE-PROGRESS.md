@@ -209,7 +209,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE142 | clases-de-programacion-los-olivos (prol, #6E1727) | market | 4,338 | 2.6% vs clases-de-programacion-san-isidro | Los Olivos, the youngest of these districts: secundaria to university and first jobs, in English | a queue: list.pop() serves the last in, deque.popleft() the first | 88a8f899 |
 | PE143 | clases-de-programacion-san-miguel (psm, #9A282B) | market | 4,205 | 2.6% vs clases-de-programacion-barranco | San Miguel, Peru's first innovation district (GIID): from an idea to working code, teens and adults | graph search: depth-first finds a route, breadth-first finds the shortest | 66fafa1f |
 | PE128 | clases-de-programacion-para-ninos-lima (pac, #6E172C) | market (es city door) | 5,605 | 2.6% vs clases-de-programacion-para-ninos-piura | Lima kids 6 to 12: census, home vs academy, Metro Línea 1 data | list positions: index() counts from 0, rides vs stations (fencepost), abs() | 96f645aa |
-| PE129 | clases-de-programacion-para-ninos-arequipa (prar, #6B2E04) | market (es city door) | 5,101 | 1.8% vs clases-de-programacion-para-ninos-chiclayo | Arequipa kids 6 to 12: robótica question, census, a SENAMHI sensor log | running minimum: start from the first reading, never from 0; skip blanks | (this commit) |
+| PE129 | clases-de-programacion-para-ninos-arequipa (prar, #6B2E04) | market (es city door) | 5,101 | 1.8% vs clases-de-programacion-para-ninos-chiclayo | Arequipa kids 6 to 12: robótica question, census, a SENAMHI sensor log | running minimum: start from the first reading, never from 0; skip blanks | f6ef291d |
+| PE130 | clases-de-programacion-para-ninos-trujillo (pnt, #812A3B) | market (es city door) | 4,910 | 2% vs clases-de-programacion-para-ninos-lima | Trujillo kids 6 to 12: census, the 2026 school calendar, Chan Chan museum visits | compare like with like: zip() pairs months and stops at the shorter list | (this commit) |
 
 ## Notes
 
