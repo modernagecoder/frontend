@@ -1131,6 +1131,7 @@ const SLUGS = [
   'clases-de-programacion-miraflores',
   'clases-de-programacion-san-isidro',
   'clases-de-programacion-surco',
+  'clases-de-programacion-la-molina',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2341,6 +2342,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-miraflores': 'Clases de programación en Miraflores',
   'clases-de-programacion-san-isidro': 'Clases de programación en San Isidro',
   'clases-de-programacion-surco': 'Clases de programación en Surco',
+  'clases-de-programacion-la-molina': 'Clases de programación en La Molina',
 };
 
 function wireLlms(slugs) {

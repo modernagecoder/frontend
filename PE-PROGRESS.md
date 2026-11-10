@@ -202,7 +202,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE196 | online-python-and-ai-classes-huaraz-peru (pah, #732D39) | market (city, Python path, all ages) | 5,051 | 1.5% vs coding-classes-for-kids-in-puno-peru | Huaraz: Python from 9 to adult, a live class before, during and after, a glacier | the shortcut mean: (min + max) / 2 against the measured daily mean, counted day by day | 321cad9b |
 | PE136 | clases-de-programacion-miraflores (prm, #71330C) | market | 5,029 | 2.4% vs curso-de-python-en-ingles-peru | Miraflores all year, every age: more over-60s than under-18s, one plan per life stage | f-string format specs: width, alignment, thousands, percent | 4552ddf2 |
 | PE137 | clases-de-programacion-san-isidro (pris, #7D2E3D) | market | 4,800 | 2.1% vs clases-de-programacion-miraflores | San Isidro: library, language and lab already there; code in English fills the gap, any age | zip() pairs silently to the shorter list; strict=True and a total check | b06e5561 |
-| PE138 | clases-de-programacion-surco (psu, #861501) | market | 4,466 | 2.4% vs clases-de-programacion-san-isidro | Surco reinforces maths, comunicación and English; code in English works on two at once, any age | bisect: an age to its group, inclusive edges, bisect_left vs bisect_right | (this commit) |
+| PE138 | clases-de-programacion-surco (psu, #861501) | market | 4,466 | 2.4% vs clases-de-programacion-san-isidro | Surco reinforces maths, comunicación and English; code in English works on two at once, any age | bisect: an age to its group, inclusive edges, bisect_left vs bisect_right | a1cd75d8 |
+| PE139 | clases-de-programacion-la-molina (prmo, #784C34) | market | 4,410 | 2% vs clases-de-programacion-miraflores | La Molina learns from 14 to 60 in three shifts; programming for students, mid-career adults and retirees | short-circuit and/or: guard order, then the missing third case | (this commit) |
 
 ## Notes
 
