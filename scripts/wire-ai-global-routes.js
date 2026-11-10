@@ -1130,6 +1130,7 @@ const SLUGS = [
   'online-python-and-ai-classes-huaraz-peru',
   'clases-de-programacion-miraflores',
   'clases-de-programacion-san-isidro',
+  'clases-de-programacion-surco',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2339,6 +2340,7 @@ const LLMS_LABELS = {
   'online-python-and-ai-classes-huaraz-peru': 'Online Python and AI classes in Huaraz, Peru',
   'clases-de-programacion-miraflores': 'Clases de programación en Miraflores',
   'clases-de-programacion-san-isidro': 'Clases de programación en San Isidro',
+  'clases-de-programacion-surco': 'Clases de programación en Surco',
 };
 
 function wireLlms(slugs) {
