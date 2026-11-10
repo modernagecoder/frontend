@@ -132,7 +132,8 @@ Owner rules for this cluster (2026-11-08/09): English pages plus Spanish-languag
 | PE164 | online-coding-and-ai-classes-cajamarca-region-peru (cacr, #3E7232) | market (region) | 4,470 | 1.6% vs online-coding-and-ai-classes-callao-region-peru | Cajamarca: a rural region of small schools, honest about English and devices | which share? counting rows against summing a column (schools versus pupils) | 7d679bfe |
 | PE165 | online-coding-and-ai-classes-junin-region-peru (cajr, #385F04) | market (region) | 4,925 | 1.9% vs online-coding-and-ai-classes-la-libertad-region-peru | Junín: Mantaro valley to selva central, school science, sunlight data from Huayao | a sliding window with a running sum that skips windows with a gap, not whole days | 4435220a |
 | PE078 | crack-the-code-alternative-in-english (ccae, #863764) | market | 4,606 | 1.9% vs coding-classes-for-teens-peru | An English-taught option beside Peru's Spanish-language kids' coding academies | edit distance: misspelt keywords measured letter by letter; "fro" lands on from, not for | 7c94a032 |
-| PE079 | kodland-vs-codingal-peru (koc, #6F1821) | market | 4,305 | 2.2% vs crack-the-code-alternative-in-english | Kodland vs Codingal for a family in Peru, from their own pages, and a third format | merging dicts of facts: defaults | (this commit) |
+| PE079 | kodland-vs-codingal-peru (koc, #6F1821) | market | 4,305 | 2.2% vs crack-the-code-alternative-in-english | Kodland vs Codingal for a family in Peru, from their own pages, and a third format | merging dicts of facts: defaults | 000fee64 |
+| PE080 | platzi-alternative-live-classes (pal, #9A2733) | market | 4,185 | 2.1% vs coding-courses-for-university-students-peru | Platzi alternative for Peru: a course library at your own pace vs a live class in English | Leitner boxes: next-review days, a forgotten card drops to box 1, 12 reviews instead of 42 | (this commit) |
 
 ## Notes
 

@@ -1063,6 +1063,7 @@ const SLUGS = [
   'online-coding-and-ai-classes-junin-region-peru',
   'crack-the-code-alternative-in-english',
   'kodland-vs-codingal-peru',
+  'platzi-alternative-live-classes',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2205,6 +2206,7 @@ const LLMS_LABELS = {
   'online-coding-and-ai-classes-junin-region-peru': 'Online coding and AI classes, Junín region, Peru',
   'crack-the-code-alternative-in-english': 'An English-taught alternative to Crack The Code',
   'kodland-vs-codingal-peru': 'Kodland vs Codingal for families in Peru',
+  'platzi-alternative-live-classes': 'A Platzi alternative with live classes',
 };
 
 function wireLlms(slugs) {
