@@ -1147,6 +1147,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-villa-el-salvador-lima',
   'clases-de-programacion-para-ninos-carabayllo-lima',
   'clases-de-programacion-para-ninos-san-juan-de-miraflores-lima',
+  'clases-de-programacion-para-ninos-puente-piedra-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2373,6 +2374,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-villa-el-salvador-lima': 'Clases de programación para niños en Villa El Salvador',
   'clases-de-programacion-para-ninos-carabayllo-lima': 'Clases de programación para niños en Carabayllo',
   'clases-de-programacion-para-ninos-san-juan-de-miraflores-lima': 'Clases de programación para niños en San Juan de Miraflores',
+  'clases-de-programacion-para-ninos-puente-piedra-lima': 'Clases de programación para niños en Puente Piedra',
 };
 
 function wireLlms(slugs) {
