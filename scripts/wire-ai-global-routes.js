@@ -1154,6 +1154,7 @@ const SLUGS = [
   'clases-de-programacion-para-ninos-santa-anita-lima',
   'clases-de-programacion-para-ninos-rimac-lima',
   'clases-de-programacion-para-ninos-la-victoria-lima',
+  'clases-de-programacion-para-ninos-pachacamac-lima',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -2387,6 +2388,7 @@ const LLMS_LABELS = {
   'clases-de-programacion-para-ninos-santa-anita-lima': 'Clases de programación para niños en Santa Anita',
   'clases-de-programacion-para-ninos-rimac-lima': 'Clases de programación para niños en el Rímac',
   'clases-de-programacion-para-ninos-la-victoria-lima': 'Clases de programación para niños en La Victoria',
+  'clases-de-programacion-para-ninos-pachacamac-lima': 'Clases de programación para niños en Pachacámac',
 };
 
 function wireLlms(slugs) {
